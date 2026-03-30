@@ -1,6 +1,7 @@
 "use client";
 
 import { use, useState } from "react";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -81,7 +82,33 @@ export default function LessonPage({
     (completedStepCount / lesson.step_by_step_guide.length) * 100
   );
 
+  // Per-track thumbnail images
+  const trackImageMap: Record<string, string> = {
+    "ai-engineer": "/track-ai-engineer.png",
+    "mlops-engineer": "/track-mlops.png",
+    "data-engineer": "/track-data-engineer.png",
+    "edge-ai": "/track-edge-ai.png",
+  };
+  const trackImg = trackImageMap[trackId];
+
   return (
+    <div className="relative">
+      {/* Subtle track image strip */}
+      {trackImg && (
+        <div className="relative h-16 overflow-hidden border-b border-border/30">
+          <Image
+            src={trackImg}
+            alt=""
+            fill
+            className="object-cover object-center"
+            aria-hidden="true"
+            quality={60}
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/40 to-background" />
+          <div className={`absolute inset-0 bg-gradient-to-r ${track.gradient} opacity-10`} />
+        </div>
+      )}
+
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
       {/* Back nav */}
       <Link href={`/tracks/${trackId}`}>
@@ -273,6 +300,7 @@ export default function LessonPage({
           </Link>
         )}
       </div>
+    </div>
     </div>
   );
 }

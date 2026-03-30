@@ -35,7 +35,7 @@ const authNavItems = [
   { href: "/tracks/ai-engineer", label: "AI Engineer", icon: Brain },
   { href: "/tracks/mlops-engineer", label: "MLOps", icon: Factory },
   { href: "/tracks/data-engineer", label: "Data Engineer", icon: Database },
-  { href: "/tracks/edge-ai-engineer", label: "Edge AI", icon: Cpu },
+  { href: "/tracks/edge-ai", label: "Edge AI", icon: Cpu },
   { href: "/grand-project", label: "Grand Project", icon: Flame },
   { href: "/glossary", label: "Glossary", icon: BookText },
   { href: "/hardware", label: "Hardware", icon: Wrench },

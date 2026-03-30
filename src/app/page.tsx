@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -44,6 +45,14 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Cpu,
 };
 
+// Per-track thumbnail images
+const trackImageMap: Record<string, string> = {
+  "ai-engineer": "/track-ai-engineer.png",
+  "mlops-engineer": "/track-mlops.png",
+  "data-engineer": "/track-data-engineer.png",
+  "edge-ai": "/track-edge-ai.png",
+};
+
 const features = [
   {
     icon: Target,
@@ -80,25 +89,40 @@ export default function HomePage() {
 
   return (
     <div className="relative">
-      {/* Hero */}
-      <section className="relative overflow-hidden border-b border-border/40">
-        <div className="absolute inset-0 bg-gradient-to-br from-violet-950/20 via-background to-cyan-950/20" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-600/10 via-transparent to-transparent" />
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:py-40">
+      {/* ─── Hero with cinematic drone image ─── */}
+      <section className="relative overflow-hidden border-b border-border/40 min-h-[600px] flex items-center">
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/hero-drone.png"
+            alt="Autonomous drone flying over smart city at dusk"
+            fill
+            className="object-cover object-center"
+            priority
+            quality={85}
+          />
+          {/* Dark overlay gradient for readability */}
+          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/50 via-transparent to-background/50" />
+          {/* Accent glow */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-600/15 via-transparent to-transparent" />
+        </div>
+
+        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:py-44 w-full">
           <div className="text-center">
             <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm">
               <Flame className="mr-2 h-3.5 w-3.5 text-orange-500" />
               2026 Curriculum
             </Badge>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl drop-shadow-lg">
               Master{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-cyan-500 to-emerald-500">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-cyan-400 to-emerald-400">
                 Drone AI
               </span>
               <br />
               Engineering
             </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl">
+            <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl drop-shadow-sm">
               Go beyond knowing the tools to{" "}
               <span className="text-foreground font-medium">
                 engineering the systems
@@ -119,7 +143,7 @@ export default function HomePage() {
                     <Button
                       variant="outline"
                       size="lg"
-                      className="gap-2 text-base px-8"
+                      className="gap-2 text-base px-8 backdrop-blur-sm"
                     >
                       <Flame className="h-4 w-4 text-orange-500" />
                       View Grand Project
@@ -138,7 +162,7 @@ export default function HomePage() {
                     <Button
                       variant="outline"
                       size="lg"
-                      className="gap-2 text-base px-8"
+                      className="gap-2 text-base px-8 backdrop-blur-sm"
                     >
                       <LogIn className="h-4 w-4" />
                       Sign In
@@ -147,20 +171,21 @@ export default function HomePage() {
                 </>
               )}
             </div>
+            {/* Stats strip */}
             <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
                 <BookOpen className="h-4 w-4" />
                 <span>{totalLessons} Lessons</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
                 <Code className="h-4 w-4" />
                 <span>{totalSteps} Coding Steps</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
                 <HelpCircle className="h-4 w-4" />
                 <span>{totalQuiz} Quiz Questions</span>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
                 <Target className="h-4 w-4" />
                 <span>4 Career Tracks</span>
               </div>
@@ -169,7 +194,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats bar */}
+      {/* Stats bar for logged-in users */}
       {user && totalCompleted > 0 && (
         <section className="border-b border-border/40 bg-muted/30">
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6">
@@ -187,7 +212,7 @@ export default function HomePage() {
         </section>
       )}
 
-      {/* Features */}
+      {/* ─── Features ─── */}
       <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight">
@@ -202,9 +227,9 @@ export default function HomePage() {
           {features.map((f) => {
             const Icon = f.icon;
             return (
-              <Card key={f.title} className="border-border/50 bg-card/50">
+              <Card key={f.title} className="border-border/50 bg-card/50 group hover:border-border/80 transition-all hover:shadow-md">
                 <CardHeader className="pb-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 mb-2">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 mb-2 group-hover:bg-primary/20 transition-colors">
                     <Icon className="h-5 w-5 text-primary" />
                   </div>
                   <CardTitle className="text-base">{f.title}</CardTitle>
@@ -220,7 +245,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Tracks */}
+      {/* ─── Tracks with visual thumbnails ─── */}
       <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tight">
@@ -248,25 +273,44 @@ export default function HomePage() {
                 ),
               0
             );
+            const trackImg = trackImageMap[track.id];
 
             return (
               <Link key={track.id} href={`/tracks/${track.id}`}>
-                <Card className="group relative overflow-hidden border-border/50 bg-card/50 transition-all hover:border-border hover:shadow-lg hover:shadow-primary/5 h-full">
-                  <div
-                    className={`absolute inset-0 bg-gradient-to-br ${track.gradient} opacity-0 group-hover:opacity-5 transition-opacity`}
-                  />
-                  <CardHeader>
-                    <div className="flex items-start justify-between">
-                      <div
-                        className={`flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${track.gradient}`}
-                      >
-                        {Icon && <Icon className="h-6 w-6 text-white" />}
+                <Card className="group relative overflow-hidden border-border/50 bg-card/50 transition-all hover:border-border hover:shadow-xl hover:shadow-primary/5 h-full">
+                  {/* Track thumbnail image */}
+                  {trackImg && (
+                    <div className="relative h-44 overflow-hidden">
+                      <Image
+                        src={trackImg}
+                        alt={`${track.title} track visual`}
+                        fill
+                        className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, 50vw"
+                      />
+                      {/* Gradient overlay blending into card */}
+                      <div className={`absolute inset-0 bg-gradient-to-t from-card via-card/30 to-transparent`} />
+                      {/* Subtle color accent overlay */}
+                      <div className={`absolute inset-0 bg-gradient-to-br ${track.gradient} opacity-20 mix-blend-screen`} />
+                      {/* Badge on image */}
+                      <div className="absolute top-3 right-3">
+                        <Badge variant="secondary" className="text-xs bg-background/80 backdrop-blur-sm">
+                          {track.modules.length} Lessons
+                        </Badge>
                       </div>
-                      <Badge variant="outline" className="text-xs">
-                        {track.modules.length} Lessons
-                      </Badge>
+                      {/* Track icon overlaid on image bottom-left */}
+                      <div className="absolute bottom-3 left-3">
+                        <div
+                          className={`flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br ${track.gradient} shadow-lg`}
+                        >
+                          {Icon && <Icon className="h-5 w-5 text-white" />}
+                        </div>
+                      </div>
                     </div>
-                    <CardTitle className="mt-4 text-xl">
+                  )}
+
+                  <CardHeader className="pt-4">
+                    <CardTitle className="text-xl">
                       {track.title}
                     </CardTitle>
                   </CardHeader>
@@ -308,6 +352,10 @@ export default function HomePage() {
                         Login to access
                       </Badge>
                     )}
+                    {/* CTA arrow */}
+                    <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                      Explore track <ArrowRight className="h-3.5 w-3.5" />
+                    </div>
                   </CardContent>
                 </Card>
               </Link>
@@ -315,24 +363,40 @@ export default function HomePage() {
           })}
         </div>
 
-        {/* Grand Project CTA */}
+        {/* ─── Grand Project CTA with background image ─── */}
         <div className="mt-12">
           <Link href={user ? "/grand-project" : "/login"}>
-            <Card className="group relative overflow-hidden border-orange-500/20 bg-gradient-to-br from-orange-950/20 to-red-950/20 transition-all hover:border-orange-500/40 hover:shadow-lg hover:shadow-orange-500/5">
-              <CardContent className="flex flex-col items-center py-10 text-center">
-                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-600 to-red-600 mb-4">
+            <Card className="group relative overflow-hidden border-orange-500/20 transition-all hover:border-orange-500/50 hover:shadow-2xl hover:shadow-orange-500/10">
+              {/* Background image */}
+              <div className="absolute inset-0">
+                <Image
+                  src="/grand-project-fire.png"
+                  alt="Autonomous Forest Fire Detection drone in action"
+                  fill
+                  className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                  sizes="100vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/75 to-background/40" />
+              </div>
+
+              <CardContent className="relative flex flex-col items-start py-12 px-8 sm:py-16 sm:px-10">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-600 to-red-600 mb-4 shadow-lg shadow-orange-600/30">
                   <Flame className="h-7 w-7 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2">
+                <Badge variant="secondary" className="mb-3 bg-orange-500/20 text-orange-300 border-orange-500/30">
+                  Capstone Project
+                </Badge>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-3 max-w-md">
                   The 2026 Grand Project
                 </h3>
-                <p className="text-muted-foreground max-w-lg mb-6">
+                <p className="text-muted-foreground max-w-md mb-6">
                   Autonomous Forest Fire Detection System — tie all four tracks
-                  together in one massive capstone project.
+                  together in one massive capstone project using real AI, MLOps,
+                  Data pipelines and Edge inference.
                 </p>
                 <Button
                   variant="outline"
-                  className="gap-2 border-orange-500/30 hover:bg-orange-500/10"
+                  className="gap-2 border-orange-500/40 hover:bg-orange-500/10 hover:border-orange-500/60"
                 >
                   {user ? "Explore the Grand Project" : "Login to Access"}
                   <ArrowRight className="h-4 w-4" />
@@ -345,9 +409,9 @@ export default function HomePage() {
         {/* Quick links to extra sections */}
         <div className="mt-8 grid gap-4 sm:grid-cols-3">
           <Link href="/glossary">
-            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full">
+            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full group">
               <CardContent className="py-6 flex items-center gap-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-500/10 shrink-0">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-500/10 shrink-0 group-hover:bg-violet-500/20 transition-colors">
                   <BookText className="h-5 w-5 text-violet-500" />
                 </div>
                 <div>
@@ -360,9 +424,9 @@ export default function HomePage() {
             </Card>
           </Link>
           <Link href="/hardware">
-            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full">
+            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full group">
               <CardContent className="py-6 flex items-center gap-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-500/10 shrink-0">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-500/10 shrink-0 group-hover:bg-orange-500/20 transition-colors">
                   <Wrench className="h-5 w-5 text-orange-500" />
                 </div>
                 <div>
@@ -375,9 +439,9 @@ export default function HomePage() {
             </Card>
           </Link>
           <Link href="/resources">
-            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full">
+            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full group">
               <CardContent className="py-6 flex items-center gap-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/10 shrink-0">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/10 shrink-0 group-hover:bg-emerald-500/20 transition-colors">
                   <Library className="h-5 w-5 text-emerald-500" />
                 </div>
                 <div>
