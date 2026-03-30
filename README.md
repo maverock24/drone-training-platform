@@ -1,37 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Drone Training Platform — Learning Material
 
-## Getting Started
+A comprehensive curriculum for mastering AI-powered drone systems in 2026. This platform teaches five specialized roles through hands-on courses, culminating in a capstone project: an Autonomous Forest Fire Detection System.
 
-First, run the development server:
+## Learning Tracks
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| Track | Role | Courses | Focus |
+|-------|------|---------|-------|
+| 1 | AI Engineer (Generalist) | 6 | Architecting & optimizing AI models that see, reason, and adapt |
+| 2 | ML Platform Engineer (MLOps) | 6 | Building the automated factory where models are born & maintained |
+| 3 | Data Engineer (Geospatial & Sensor Fusion) | 6 | The supply chain for multi-modal drone intelligence |
+| 4 | Edge AI Engineer | 6 | Physical integration of AI into the drone's nervous system |
+| 5 | Capstone: Forest Fire Detection | 5 | End-to-end autonomous system tying all roles together |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Python 3.10+ proficiency
+- Basic understanding of machine learning concepts
+- Familiarity with Linux command line
+- Access to a GPU (local or cloud) for hands-on exercises
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How to Use
 
-## Learn More
+Each track contains numbered courses that should be completed in order. Each course contains lessons with:
+- **Learning Objectives** — what you'll be able to do after completing the lesson
+- **Core Content** — detailed explanations with diagrams and references
+- **Code Examples** — runnable code you can adapt for your own projects
+- **Hands-On Lab** — practical exercises to solidify learning
+- **Assessment** — quiz or mini-project to verify understanding
 
-To learn more about Next.js, take a look at the following resources:
+## Suggested Learning Paths
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Full-Stack Drone AI (16 weeks):** All tracks in order, then Capstone
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Fast-Track AI Developer (8 weeks):** Track 1, then Track 4, then Capstone
 
-## Deploy on Vercel
+**Data & Infrastructure (8 weeks):** Track 3, then Track 2, then Capstone
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Edge Specialist (6 weeks):** Track 4, then Capstone
 
