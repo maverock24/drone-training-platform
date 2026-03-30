@@ -5,15 +5,16 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { GraduationCap, UserPlus, Loader2 } from "lucide-react";
+import { GraduationCap, UserPlus, Loader2, CheckCircle2 } from "lucide-react";
 
 export default function RegisterPage() {
   const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const router = useRouter();
+  const [success, setSuccess] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -30,7 +31,7 @@ export default function RegisterPage() {
       const res = await fetch("/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password }),
+        body: JSON.stringify({ username, email, password }),
       });
 
       const data = await res.json();
@@ -40,19 +41,9 @@ export default function RegisterPage() {
         return;
       }
 
-      // Auto-login after registration
-      const loginRes = await fetch("/api/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password }),
-      });
-
-      if (loginRes.ok) {
-        router.push("/");
-        router.refresh();
-      } else {
-        router.push("/login");
-      }
+      // Registration successful, show success screen
+      setSuccess(true);
+      
     } catch {
       setError("Network error. Please try again.");
     } finally {
@@ -60,15 +51,46 @@ export default function RegisterPage() {
     }
   };
 
+  if (success) {
+    return (
+      <div className="flex min-h-[calc(100vh-10rem)] items-center justify-center px-4">
+        <Card className="w-full max-w-md border-border/50 text-center">
+          <CardHeader className="space-y-4">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500/10 mb-2">
+              <CheckCircle2 className="h-8 w-8 text-emerald-500" />
+            </div>
+            <CardTitle className="text-2xl font-bold">Check your inbox</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <p className="text-muted-foreground">
+              We&apos;ve sent a verification link to <span className="font-semibold text-foreground">{email}</span>. 
+              Please click the link to activate your account.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              If you don&apos;t see the email, check your spam or junk folder.
+            </p>
+            <div className="pt-4">
+              <Link href="/login">
+                <Button variant="outline" className="w-full">
+                  Go to Login
+                </Button>
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
+
   return (
-    <div className="flex min-h-[calc(100vh-10rem)] items-center justify-center px-4">
-      <Card className="w-full max-w-md border-border/50">
-        <CardHeader className="text-center space-y-4">
-          <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-600 to-cyan-600">
-            <GraduationCap className="h-7 w-7 text-white" />
+    <div className="flex min-h-[calc(100vh-10rem)] items-center justify-center px-4 py-10">
+      <Card className="w-full max-w-md border-border/60 shadow-xl shadow-black/20">
+        <CardHeader className="text-center space-y-4 pb-6">
+          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-600 to-cyan-600 shadow-lg shadow-violet-900/40">
+            <GraduationCap className="h-8 w-8 text-white" />
           </div>
-          <CardTitle className="text-2xl font-bold">Create Account</CardTitle>
-          <p className="text-sm text-muted-foreground">
+          <CardTitle className="text-2xl">Create Account</CardTitle>
+          <p className="text-sm text-muted-foreground leading-relaxed">
             Start your journey in drone AI engineering
           </p>
         </CardHeader>
@@ -90,8 +112,26 @@ export default function RegisterPage() {
                 minLength={3}
                 maxLength={30}
                 autoComplete="username"
-                className="flex h-10 w-full rounded-md border border-border/50 bg-muted/30 px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                className="flex h-11 w-full rounded-lg border border-border/60 bg-muted/20 px-3 py-2 text-sm transition-colors placeholder:text-muted-foreground/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:border-ring"
                 placeholder="Choose a username"
+              />
+            </div>
+            <div className="space-y-2">
+              <label
+                htmlFor="email"
+                className="text-sm font-medium leading-none"
+              >
+                Email
+              </label>
+              <input
+                id="email"
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                autoComplete="email"
+                className="flex h-11 w-full rounded-lg border border-border/60 bg-muted/20 px-3 py-2 text-sm transition-colors placeholder:text-muted-foreground/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:border-ring"
+                placeholder="you@example.com"
               />
             </div>
             <div className="space-y-2">
@@ -109,7 +149,7 @@ export default function RegisterPage() {
                 required
                 minLength={6}
                 autoComplete="new-password"
-                className="flex h-10 w-full rounded-md border border-border/50 bg-muted/30 px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                className="flex h-11 w-full rounded-lg border border-border/60 bg-muted/20 px-3 py-2 text-sm transition-colors placeholder:text-muted-foreground/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:border-ring"
                 placeholder="At least 6 characters"
               />
             </div>
@@ -127,7 +167,7 @@ export default function RegisterPage() {
                 onChange={(e) => setConfirm(e.target.value)}
                 required
                 autoComplete="new-password"
-                className="flex h-10 w-full rounded-md border border-border/50 bg-muted/30 px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                className="flex h-11 w-full rounded-lg border border-border/60 bg-muted/20 px-3 py-2 text-sm transition-colors placeholder:text-muted-foreground/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:border-ring"
                 placeholder="Repeat your password"
               />
             </div>
@@ -140,7 +180,7 @@ export default function RegisterPage() {
 
             <Button
               type="submit"
-              className="w-full gap-2"
+              className="w-full gap-2 h-11 text-sm font-semibold"
               disabled={loading}
             >
               {loading ? (

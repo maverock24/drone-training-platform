@@ -32,6 +32,14 @@ export async function POST(req: Request) {
       );
     }
 
+    // Check if the email is verified
+    if (!user.email_verified || user.email_verified === 0) {
+      return NextResponse.json(
+        { error: "Please verify your email before logging in." },
+        { status: 403 }
+      );
+    }
+
     const secret = new TextEncoder().encode(process.env.JWT_SECRET);
     const token = await new SignJWT({
       userId: user.id as string,
