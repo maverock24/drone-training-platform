@@ -23,6 +23,7 @@ import {
   Wrench,
   BookText,
   Library,
+  Lock,
 } from "lucide-react";
 import {
   tracks,
@@ -33,6 +34,8 @@ import {
   glossary,
 } from "@/lib/course-data";
 import { useProgress } from "@/lib/progress-context";
+import { useAuth } from "@/lib/auth-context";
+import { LogIn, UserPlus } from "lucide-react";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -70,6 +73,7 @@ const features = [
 
 export default function HomePage() {
   const { getTrackProgress, totalCompleted } = useProgress();
+  const { user, loading: authLoading } = useAuth();
   const totalLessons = getTotalLessons();
   const totalSteps = getTotalSteps();
   const totalQuiz = getTotalQuizQuestions();
@@ -103,22 +107,45 @@ export default function HomePage() {
               and Edge AI for autonomous drones.
             </p>
             <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-              <Link href="/tracks/ai-engineer">
-                <Button size="lg" className="gap-2 text-base px-8">
-                  Start Learning
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-              <Link href="/grand-project">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="gap-2 text-base px-8"
-                >
-                  <Flame className="h-4 w-4 text-orange-500" />
-                  View Grand Project
-                </Button>
-              </Link>
+              {user ? (
+                <>
+                  <Link href="/tracks/ai-engineer">
+                    <Button size="lg" className="gap-2 text-base px-8">
+                      Start Learning
+                      <ArrowRight className="h-4 w-4" />
+                    </Button>
+                  </Link>
+                  <Link href="/grand-project">
+                    <Button
+                      variant="outline"
+                      size="lg"
+                      className="gap-2 text-base px-8"
+                    >
+                      <Flame className="h-4 w-4 text-orange-500" />
+                      View Grand Project
+                    </Button>
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <Link href="/register">
+                    <Button size="lg" className="gap-2 text-base px-8">
+                      <UserPlus className="h-4 w-4" />
+                      Create Free Account
+                    </Button>
+                  </Link>
+                  <Link href="/login">
+                    <Button
+                      variant="outline"
+                      size="lg"
+                      className="gap-2 text-base px-8"
+                    >
+                      <LogIn className="h-4 w-4" />
+                      Sign In
+                    </Button>
+                  </Link>
+                </>
+              )}
             </div>
             <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
@@ -143,7 +170,7 @@ export default function HomePage() {
       </section>
 
       {/* Stats bar */}
-      {totalCompleted > 0 && (
+      {user && totalCompleted > 0 && (
         <section className="border-b border-border/40 bg-muted/30">
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6">
             <div className="flex items-center justify-between gap-4">
@@ -266,7 +293,7 @@ export default function HomePage() {
                         quiz questions
                       </span>
                     </div>
-                    {progress > 0 && (
+                    {user && progress > 0 && (
                       <div className="space-y-1">
                         <div className="flex justify-between text-xs">
                           <span>Progress</span>
@@ -274,6 +301,12 @@ export default function HomePage() {
                         </div>
                         <Progress value={progress} className="h-1.5" />
                       </div>
+                    )}
+                    {!user && !authLoading && (
+                      <Badge variant="secondary" className="text-xs gap-1">
+                        <Lock className="h-3 w-3" />
+                        Login to access
+                      </Badge>
                     )}
                   </CardContent>
                 </Card>
@@ -284,7 +317,7 @@ export default function HomePage() {
 
         {/* Grand Project CTA */}
         <div className="mt-12">
-          <Link href="/grand-project">
+          <Link href={user ? "/grand-project" : "/login"}>
             <Card className="group relative overflow-hidden border-orange-500/20 bg-gradient-to-br from-orange-950/20 to-red-950/20 transition-all hover:border-orange-500/40 hover:shadow-lg hover:shadow-orange-500/5">
               <CardContent className="flex flex-col items-center py-10 text-center">
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-600 to-red-600 mb-4">
@@ -301,7 +334,7 @@ export default function HomePage() {
                   variant="outline"
                   className="gap-2 border-orange-500/30 hover:bg-orange-500/10"
                 >
-                  Explore the Grand Project
+                  {user ? "Explore the Grand Project" : "Login to Access"}
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </CardContent>

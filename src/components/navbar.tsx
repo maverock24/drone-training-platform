@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
@@ -16,10 +16,21 @@ import {
   BookText,
   Wrench,
   Library,
+  LogIn,
+  LogOut,
+  User,
 } from "lucide-react";
 import { useState } from "react";
+import { useAuth } from "@/lib/auth-context";
 
-const navItems = [
+const publicNavItems = [
+  { href: "/", label: "Home", icon: GraduationCap },
+  { href: "/glossary", label: "Glossary", icon: BookText },
+  { href: "/hardware", label: "Hardware", icon: Wrench },
+  { href: "/resources", label: "Resources", icon: Library },
+];
+
+const authNavItems = [
   { href: "/", label: "Home", icon: GraduationCap },
   { href: "/tracks/ai-engineer", label: "AI Engineer", icon: Brain },
   { href: "/tracks/mlops-engineer", label: "MLOps", icon: Factory },
@@ -33,7 +44,16 @@ const navItems = [
 
 export function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
   const [open, setOpen] = useState(false);
+  const { user, loading, logout } = useAuth();
+  const navItems = user ? authNavItems : publicNavItems;
+
+  const handleLogout = async () => {
+    await logout();
+    router.push("/");
+    router.refresh();
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
@@ -70,6 +90,27 @@ export function Navbar() {
               </Link>
             );
           })}
+          <div className="ml-2 border-l border-border/40 pl-2">
+            {loading ? null : user ? (
+              <div className="flex items-center gap-2">
+                <span className="text-xs text-muted-foreground flex items-center gap-1">
+                  <User className="h-3.5 w-3.5" />
+                  {user.username}
+                </span>
+                <Button variant="ghost" size="sm" className="gap-1.5 text-sm" onClick={handleLogout}>
+                  <LogOut className="h-4 w-4" />
+                  Logout
+                </Button>
+              </div>
+            ) : (
+              <Link href="/login">
+                <Button variant="default" size="sm" className="gap-1.5 text-sm">
+                  <LogIn className="h-4 w-4" />
+                  Login
+                </Button>
+              </Link>
+            )}
+          </div>
         </nav>
 
         {/* Mobile nav */}
@@ -100,6 +141,31 @@ export function Navbar() {
                   </Link>
                 );
               })}
+              <div className="mt-4 border-t border-border/40 pt-4">
+                {loading ? null : user ? (
+                  <>
+                    <p className="text-xs text-muted-foreground flex items-center gap-1.5 px-4 mb-2">
+                      <User className="h-3.5 w-3.5" />
+                      {user.username}
+                    </p>
+                    <Button
+                      variant="ghost"
+                      className="w-full justify-start gap-3"
+                      onClick={() => { handleLogout(); setOpen(false); }}
+                    >
+                      <LogOut className="h-5 w-5" />
+                      Logout
+                    </Button>
+                  </>
+                ) : (
+                  <Link href="/login" onClick={() => setOpen(false)}>
+                    <Button variant="default" className="w-full justify-start gap-3">
+                      <LogIn className="h-5 w-5" />
+                      Login
+                    </Button>
+                  </Link>
+                )}
+              </div>
             </nav>
           </SheetContent>
         </Sheet>

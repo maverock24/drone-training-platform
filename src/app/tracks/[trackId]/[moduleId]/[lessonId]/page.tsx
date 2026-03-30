@@ -61,6 +61,8 @@ export default function LessonPage({
 
   const lessonKey = `${trackId}-${lessonId}`;
   const completed = isCompleted(lessonKey);
+  const quizScore = getQuizScore(lessonKey);
+  const quizPassed = quizScore !== undefined && quizScore >= 70;
   const Icon = iconMap[track.icon];
 
   // Find previous/next module for navigation
@@ -110,24 +112,27 @@ export default function LessonPage({
             <Badge variant="secondary" className="text-xs">
               {lesson.quiz.length} Quiz Questions
             </Badge>
-            <Button
-              size="sm"
-              variant={completed ? "outline" : "default"}
-              className="ml-auto gap-1.5 text-xs h-7"
-              onClick={() => toggleLesson(lessonKey)}
-            >
-              {completed ? (
-                <>
-                  <CheckCircle2 className="h-3.5 w-3.5 text-emerald-500" />
-                  Completed
-                </>
-              ) : (
-                <>
-                  Mark Complete
-                  <CheckCircle2 className="h-3.5 w-3.5" />
-                </>
-              )}
-            </Button>
+            {completed ? (
+              <Badge variant="outline" className="ml-auto gap-1.5 text-xs h-7 border-emerald-500/50 text-emerald-500">
+                <CheckCircle2 className="h-3.5 w-3.5" />
+                Completed
+              </Badge>
+            ) : quizPassed ? (
+              <Button
+                size="sm"
+                variant="default"
+                className="ml-auto gap-1.5 text-xs h-7"
+                onClick={() => toggleLesson(lessonKey)}
+              >
+                Mark Complete
+                <CheckCircle2 className="h-3.5 w-3.5" />
+              </Button>
+            ) : (
+              <Badge variant="outline" className="ml-auto gap-1.5 text-xs h-7 text-muted-foreground">
+                <HelpCircle className="h-3.5 w-3.5" />
+                Pass the quiz to complete
+              </Badge>
+            )}
           </div>
         </div>
       </div>
@@ -225,7 +230,12 @@ export default function LessonPage({
             questions={lesson.quiz}
             lessonKey={lessonKey}
             savedScore={getQuizScore(lessonKey)}
-            onComplete={(score) => setQuizScore(lessonKey, score)}
+            onComplete={(score, passed) => {
+              setQuizScore(lessonKey, score);
+              if (passed && !completed) {
+                toggleLesson(lessonKey);
+              }
+            }}
           />
         </TabsContent>
       </Tabs>
@@ -308,7 +318,7 @@ function QuizSection({
   questions: { question: string; options: string[]; answer: string }[];
   lessonKey: string;
   savedScore: number | undefined;
-  onComplete: (score: number) => void;
+  onComplete: (score: number, passed: boolean) => void;
 }) {
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(savedScore !== undefined);
@@ -327,7 +337,7 @@ function QuizSection({
     const finalScore = Math.round((correct / questions.length) * 100);
     setScore(finalScore);
     setSubmitted(true);
-    onComplete(finalScore);
+    onComplete(finalScore, finalScore >= 70);
   };
 
   const handleRetry = () => {
