@@ -9,12 +9,20 @@ interface ProgressContextType {
   isCompleted: (lessonId: string) => boolean;
   getTrackProgress: (trackId: string) => number;
   totalCompleted: number;
+  completedSteps: Set<string>;
+  toggleStep: (stepId: string) => void;
+  isStepCompleted: (stepId: string) => boolean;
+  quizScores: Record<string, number>;
+  setQuizScore: (lessonKey: string, score: number) => void;
+  getQuizScore: (lessonKey: string) => number | undefined;
 }
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
 export function ProgressProvider({ children }: { children: ReactNode }) {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set());
+  const [completedSteps, setCompletedSteps] = useState<Set<string>>(new Set());
+  const [quizScores, setQuizScores] = useState<Record<string, number>>({});
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -24,6 +32,22 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         setCompletedLessons(new Set(JSON.parse(stored)));
       } catch {
         // ignore invalid stored data
+      }
+    }
+    const storedSteps = localStorage.getItem("drone-training-steps");
+    if (storedSteps) {
+      try {
+        setCompletedSteps(new Set(JSON.parse(storedSteps)));
+      } catch {
+        // ignore
+      }
+    }
+    const storedQuiz = localStorage.getItem("drone-training-quiz");
+    if (storedQuiz) {
+      try {
+        setQuizScores(JSON.parse(storedQuiz));
+      } catch {
+        // ignore
       }
     }
     setLoaded(true);
@@ -38,6 +62,21 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     }
   }, [completedLessons, loaded]);
 
+  useEffect(() => {
+    if (loaded) {
+      localStorage.setItem(
+        "drone-training-steps",
+        JSON.stringify(Array.from(completedSteps))
+      );
+    }
+  }, [completedSteps, loaded]);
+
+  useEffect(() => {
+    if (loaded) {
+      localStorage.setItem("drone-training-quiz", JSON.stringify(quizScores));
+    }
+  }, [quizScores, loaded]);
+
   const toggleLesson = (lessonId: string) => {
     setCompletedLessons((prev) => {
       const next = new Set(prev);
@@ -50,7 +89,26 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     });
   };
 
+  const toggleStep = (stepId: string) => {
+    setCompletedSteps((prev) => {
+      const next = new Set(prev);
+      if (next.has(stepId)) {
+        next.delete(stepId);
+      } else {
+        next.add(stepId);
+      }
+      return next;
+    });
+  };
+
   const isCompleted = (lessonId: string) => completedLessons.has(lessonId);
+  const isStepCompleted = (stepId: string) => completedSteps.has(stepId);
+
+  const setQuizScore = (lessonKey: string, score: number) => {
+    setQuizScores((prev) => ({ ...prev, [lessonKey]: score }));
+  };
+
+  const getQuizScore = (lessonKey: string) => quizScores[lessonKey];
 
   const getTrackProgress = (trackId: string) => {
     const track = tracks.find((t) => t.id === trackId);
@@ -76,6 +134,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         isCompleted,
         getTrackProgress,
         totalCompleted: completedLessons.size,
+        completedSteps,
+        toggleStep,
+        isStepCompleted,
+        quizScores,
+        setQuizScore,
+        getQuizScore,
       }}
     >
       {children}

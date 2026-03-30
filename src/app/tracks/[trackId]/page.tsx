@@ -9,12 +9,6 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-import {
   Brain,
   Factory,
   Database,
@@ -25,6 +19,10 @@ import {
   CheckCircle2,
   Circle,
   ChevronRight,
+  Code,
+  HelpCircle,
+  Info,
+  ScrollText,
 } from "lucide-react";
 import { tracks } from "@/lib/course-data";
 import { useProgress } from "@/lib/progress-context";
@@ -34,12 +32,6 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Factory,
   Database,
   Cpu,
-};
-
-const difficultyColors = {
-  beginner: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20",
-  intermediate: "bg-amber-500/10 text-amber-500 border-amber-500/20",
-  advanced: "bg-red-500/10 text-red-500 border-red-500/20",
 };
 
 export default function TrackPage({
@@ -61,9 +53,16 @@ export default function TrackPage({
     (acc, m) => acc + m.lessons.length,
     0
   );
-  const totalDuration = track.modules.reduce(
+  const totalSteps = track.modules.reduce(
     (acc, m) =>
-      acc + m.lessons.reduce((a, l) => a + parseInt(l.duration), 0),
+      acc +
+      m.lessons.reduce((a, l) => a + l.step_by_step_guide.length, 0),
+    0
+  );
+  const totalQuiz = track.modules.reduce(
+    (acc, m) =>
+      acc +
+      m.lessons.reduce((a, l) => a + l.quiz.length, 0),
     0
   );
   const completedCount = track.modules.reduce(
@@ -105,8 +104,12 @@ export default function TrackPage({
               {totalLessons} lessons
             </span>
             <span className="flex items-center gap-1.5">
-              <Clock className="h-4 w-4" />
-              {totalDuration}h total
+              <Code className="h-4 w-4" />
+              {totalSteps} hands-on steps
+            </span>
+            <span className="flex items-center gap-1.5">
+              <HelpCircle className="h-4 w-4" />
+              {totalQuiz} quiz questions
             </span>
             <span className="flex items-center gap-1.5">
               <CheckCircle2 className="h-4 w-4 text-emerald-500" />
@@ -115,6 +118,41 @@ export default function TrackPage({
           </div>
         </div>
       </div>
+
+      {/* Prerequisites */}
+      {track.prerequisites && (
+        <Card className="mb-6 border-border/50 bg-muted/20">
+          <CardContent className="py-3 flex items-start gap-3">
+            <Info className="h-4 w-4 text-muted-foreground mt-0.5 shrink-0" />
+            <div>
+              <span className="text-sm font-medium">Prerequisites: </span>
+              <span className="text-sm text-muted-foreground">{track.prerequisites}</span>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {/* Lecture link */}
+      {track.lecture && (
+        <Link href={`/tracks/${trackId}/lecture`}>
+          <Card className="mb-6 border-border/50 bg-gradient-to-r from-muted/40 to-muted/20 hover:border-border hover:shadow-md transition-all cursor-pointer">
+            <CardContent className="py-4 flex items-center gap-4">
+              <div
+                className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br ${track.gradient}`}
+              >
+                <ScrollText className="h-5 w-5 text-white" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-semibold">Read the Lecture</p>
+                <p className="text-xs text-muted-foreground">
+                  In-depth reading material covering all topics in this track
+                </p>
+              </div>
+              <ChevronRight className="h-5 w-5 text-muted-foreground shrink-0" />
+            </CardContent>
+          </Card>
+        </Link>
+      )}
 
       {/* Progress bar */}
       <Card className="mb-8 border-border/50">
@@ -127,114 +165,60 @@ export default function TrackPage({
         </CardContent>
       </Card>
 
-      {/* Modules */}
-      <div className="space-y-6">
+      {/* Modules with lessons */}
+      <div className="space-y-4">
         {track.modules.map((module, moduleIdx) => {
-          const moduleCompleted = module.lessons.filter((l) =>
-            isCompleted(`${track.id}-${l.id}`)
-          ).length;
+          const lesson = module.lessons[0];
+          const lessonKey = `${track.id}-${lesson.id}`;
+          const completed = isCompleted(lessonKey);
 
           return (
-            <Card key={module.id} className="border-border/50 overflow-hidden">
-              <CardHeader className="pb-2">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-muted text-sm font-bold">
-                      {moduleIdx + 1}
-                    </div>
-                    <div>
-                      <CardTitle className="text-lg">{module.title}</CardTitle>
-                      <p className="text-sm text-muted-foreground mt-0.5">
-                        {module.description}
-                      </p>
+            <Card
+              key={module.id}
+              className="border-border/50 overflow-hidden transition-all hover:border-border hover:shadow-md"
+            >
+              <div className={`h-1 bg-gradient-to-r ${track.gradient} ${completed ? "opacity-100" : "opacity-30"}`} />
+              <CardHeader className="pb-3">
+                <div className="flex items-start gap-4">
+                  <button
+                    onClick={() => toggleLesson(lessonKey)}
+                    className="mt-1 shrink-0"
+                  >
+                    {completed ? (
+                      <CheckCircle2 className="h-6 w-6 text-emerald-500" />
+                    ) : (
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-muted-foreground/30 text-xs font-bold text-muted-foreground">
+                        {moduleIdx + 1}
+                      </div>
+                    )}
+                  </button>
+                  <div className="flex-1 min-w-0">
+                    <CardTitle className="text-lg">{module.title}</CardTitle>
+                    <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
+                      {module.description}
+                    </p>
+                    <div className="mt-3 flex flex-wrap items-center gap-3">
+                      <Badge variant="secondary" className="text-xs gap-1">
+                        <Code className="h-3 w-3" />
+                        {lesson.step_by_step_guide.length} steps
+                      </Badge>
+                      <Badge variant="secondary" className="text-xs gap-1">
+                        <HelpCircle className="h-3 w-3" />
+                        {lesson.quiz.length} quiz questions
+                      </Badge>
                     </div>
                   </div>
-                  <Badge variant="outline" className="text-xs shrink-0">
-                    {moduleCompleted}/{module.lessons.length}
-                  </Badge>
+                  <Link
+                    href={`/tracks/${track.id}/${module.id}/${lesson.id}`}
+                    className="shrink-0"
+                  >
+                    <Button size="sm" variant="outline" className="gap-1.5">
+                      {completed ? "Review" : "Start"}
+                      <ChevronRight className="h-4 w-4" />
+                    </Button>
+                  </Link>
                 </div>
               </CardHeader>
-              <CardContent className="pt-2">
-                <Accordion multiple className="w-full">
-                  {module.lessons.map((lesson, lessonIdx) => {
-                    const lessonKey = `${track.id}-${lesson.id}`;
-                    const completed = isCompleted(lessonKey);
-
-                    return (
-                      <AccordionItem
-                        key={lesson.id}
-                        value={lesson.id}
-                        className="border-border/30"
-                      >
-                        <AccordionTrigger className="hover:no-underline py-3">
-                          <div className="flex items-center gap-3 text-left">
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                toggleLesson(lessonKey);
-                              }}
-                              className="shrink-0"
-                            >
-                              {completed ? (
-                                <CheckCircle2 className="h-5 w-5 text-emerald-500" />
-                              ) : (
-                                <Circle className="h-5 w-5 text-muted-foreground/40" />
-                              )}
-                            </button>
-                            <div className="min-w-0">
-                              <span
-                                className={`text-sm font-medium ${
-                                  completed
-                                    ? "line-through text-muted-foreground"
-                                    : ""
-                                }`}
-                              >
-                                {lesson.title}
-                              </span>
-                            </div>
-                          </div>
-                        </AccordionTrigger>
-                        <AccordionContent>
-                          <div className="pl-8 pb-2">
-                            <p className="text-sm text-muted-foreground mb-3">
-                              {lesson.description}
-                            </p>
-                            <div className="flex items-center gap-3">
-                              <Badge
-                                variant="outline"
-                                className={`text-xs ${
-                                  difficultyColors[lesson.difficulty]
-                                }`}
-                              >
-                                {lesson.difficulty}
-                              </Badge>
-                              <span className="flex items-center gap-1 text-xs text-muted-foreground">
-                                <Clock className="h-3 w-3" />
-                                {lesson.duration}
-                              </span>
-                              <Button
-                                size="sm"
-                                variant={completed ? "outline" : "default"}
-                                className="ml-auto gap-1.5 text-xs h-7"
-                                onClick={() => toggleLesson(lessonKey)}
-                              >
-                                {completed ? (
-                                  "Mark Incomplete"
-                                ) : (
-                                  <>
-                                    Mark Complete
-                                    <CheckCircle2 className="h-3.5 w-3.5" />
-                                  </>
-                                )}
-                              </Button>
-                            </div>
-                          </div>
-                        </AccordionContent>
-                      </AccordionItem>
-                    );
-                  })}
-                </Accordion>
-              </CardContent>
             </Card>
           );
         })}

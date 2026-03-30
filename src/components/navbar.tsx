@@ -13,6 +13,9 @@ import {
   Flame,
   Menu,
   GraduationCap,
+  BookText,
+  Wrench,
+  Library,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -23,6 +26,9 @@ const navItems = [
   { href: "/tracks/data-engineer", label: "Data Engineer", icon: Database },
   { href: "/tracks/edge-ai-engineer", label: "Edge AI", icon: Cpu },
   { href: "/grand-project", label: "Grand Project", icon: Flame },
+  { href: "/glossary", label: "Glossary", icon: BookText },
+  { href: "/hardware", label: "Hardware", icon: Wrench },
+  { href: "/resources", label: "Resources", icon: Library },
 ];
 
 export function Navbar() {

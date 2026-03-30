@@ -1,0 +1,949 @@
+{
+  "overview": "A comprehensive, beginner-friendly training program for building AI-powered drones, covering four specialized tracks: AI Engineer (Generalist), ML Platform Engineer (MLOps), Data Engineer (Geospatial & Sensor Fusion), and Edge AI Engineer. The curriculum includes deep theoretical knowledge, hands-on implementation, and culminates in a Grand Project: an Autonomous Forest Fire Detection System. A custom hardware setup (based on DJI O4 Air Unit, Pixhawk flight controller, and NVIDIA Jetson Orin Nano) is used to apply all concepts in a real-world drone environment.",
+  "glossary": [
+    {"term": "ViT", "definition": "Vision Transformer – a neural network architecture that applies the Transformer (originally for NLP) to image classification by treating image patches as tokens."},
+    {"term": "CNN", "definition": "Convolutional Neural Network – a class of deep neural networks commonly applied to analyzing visual imagery."},
+    {"term": "CLIP", "definition": "Contrastive Language–Image Pre-training – a model that learns visual concepts from natural language descriptions, enabling zero-shot classification and image-text retrieval."},
+    {"term": "LoRA", "definition": "Low-Rank Adaptation – a technique for fine-tuning large language models by adding trainable low-rank matrices to attention layers, significantly reducing memory usage."},
+    {"term": "QLoRA", "definition": "Quantized Low-Rank Adaptation – combines quantization (4-bit) with LoRA to further reduce memory footprint during fine-tuning."},
+    {"term": "PEFT", "definition": "Parameter-Efficient Fine-Tuning – a set of techniques (like LoRA) that adapt large pretrained models with a small number of trainable parameters."},
+    {"term": "Quantization", "definition": "The process of reducing the precision of model weights (e.g., from 32-bit to 8-bit or 4-bit) to reduce memory and accelerate inference."},
+    {"term": "Knowledge Distillation", "definition": "A technique where a small 'student' model is trained to mimic a larger 'teacher' model, compressing knowledge while retaining performance."},
+    {"term": "KL Divergence", "definition": "Kullback-Leibler divergence – a measure of how one probability distribution diverges from a second, used as a loss function in knowledge distillation."},
+    {"term": "Pruning", "definition": "Removing neural network weights that are deemed unimportant (e.g., near-zero) to reduce model size and inference time."},
+    {"term": "MLOps", "definition": "Machine Learning Operations – practices for deploying, managing, and monitoring ML models in production."},
+    {"term": "Kubernetes", "definition": "An open-source container orchestration platform for automating deployment, scaling, and management of containerized applications."},
+    {"term": "Terraform", "definition": "Infrastructure as Code tool that allows you to define and provision cloud infrastructure using a declarative configuration language."},
+    {"term": "Kubeflow", "definition": "A machine learning toolkit for Kubernetes that enables building and deploying scalable ML pipelines."},
+    {"term": "DVC", "definition": "Data Version Control – a tool for versioning large datasets, models, and experiments, similar to Git but for data."},
+    {"term": "Triton", "definition": "NVIDIA Triton Inference Server – a platform for serving AI models from multiple frameworks with high performance."},
+    {"term": "Model Drift", "definition": "The degradation of model performance over time due to changes in the input data distribution (data drift) or relationships between features and target (concept drift)."},
+    {"term": "PostGIS", "definition": "A spatial database extender for PostgreSQL, adding support for geographic objects and spatial queries."},
+    {"term": "STAC", "definition": "SpatioTemporal Asset Catalog – a specification for describing geospatial assets (like satellite or drone imagery) to make them searchable by time and location."},
+    {"term": "COG", "definition": "Cloud Optimized GeoTIFF – a GeoTIFF file structure that enables efficient streaming of portions of the image from cloud storage."},
+    {"term": "LiDAR", "definition": "Light Detection and Ranging – a remote sensing method that uses laser light to measure distances and create 3D point clouds."},
+    {"term": "MAVLink", "definition": "Micro Air Vehicle Link – a lightweight communication protocol for drones and ground stations, used for telemetry and control."},
+    {"term": "ROS 2", "definition": "Robot Operating System 2 – a middleware for building robot applications, providing services like hardware abstraction, low-level device control, and message passing."},
+    {"term": "MAVROS", "definition": "MAVLink to ROS/ROS2 bridge – a ROS package that allows communication between ROS nodes and autopilots (like Pixhawk) via MAVLink."},
+    {"term": "CUDA", "definition": "NVIDIA's parallel computing platform and programming model for GPUs, enabling general-purpose computing on graphics processing units."},
+    {"term": "HIL", "definition": "Hardware-in-the-Loop – a testing technique where real hardware (e.g., flight controller) is connected to a simulator that mimics the environment, allowing safe testing."}
+  ],
+  "tracks": [
+    {
+      "name": "AI Engineer (Generalist)",
+      "focus": "Architecting and optimizing 'Brains' that can see, reason, and adapt.",
+      "prerequisites": "Basic Python, familiarity with PyTorch or TensorFlow, understanding of neural networks.",
+      "lessons": [
+        {
+          "title": "Architectural Mastery: Vision Transformers & Multi-Modal Models",
+          "detailed_explanation": "Vision Transformers (ViT) have revolutionized computer vision by applying the Transformer architecture originally designed for natural language processing. Instead of using convolutional layers, ViT divides an image into fixed-size patches, linearly embeds them, adds positional information, and then processes them with a standard Transformer encoder. This approach allows the model to capture global relationships across the entire image, often outperforming CNNs on large datasets.\n\nMulti-modal models like CLIP (Contrastive Language-Image Pre-training) go a step further by jointly training an image encoder and a text encoder so that images and their textual descriptions are mapped to a shared embedding space. This enables powerful applications such as zero-shot classification (classifying images without seeing examples of that class) and natural language image retrieval (e.g., 'show me drone images containing power lines').\n\nFor drone applications, using ViT and CLIP can help the AI understand complex scenes from aerial perspectives and respond to natural language queries.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Set up your Python environment",
+              "description": "Create a virtual environment and install necessary libraries.",
+              "code": "python -m venv vit-env\nsource vit-env/bin/activate  # On Windows: vit-env\\Scripts\\activate\npip install torch torchvision transformers datasets matplotlib"
+            },
+            {
+              "step": 2,
+              "title": "Implement a Vision Transformer from scratch",
+              "description": "Write the core components: patch embedding, multi-head self-attention, and the Transformer encoder.",
+              "code": "import torch\nimport torch.nn as nn\nimport torch.nn.functional as F\n\nclass PatchEmbedding(nn.Module):\n    def __init__(self, img_size=224, patch_size=16, in_channels=3, embed_dim=768):\n        super().__init__()\n        self.img_size = img_size\n        self.patch_size = patch_size\n        self.num_patches = (img_size // patch_size) ** 2\n        self.proj = nn.Conv2d(in_channels, embed_dim, kernel_size=patch_size, stride=patch_size)\n\n    def forward(self, x):\n        x = self.proj(x)  # (batch, embed_dim, num_patches_h, num_patches_w)\n        x = x.flatten(2).transpose(1, 2)  # (batch, num_patches, embed_dim)\n        return x\n\nclass MultiHeadSelfAttention(nn.Module):\n    def __init__(self, embed_dim, num_heads):\n        super().__init__()\n        self.num_heads = num_heads\n        self.head_dim = embed_dim // num_heads\n        self.scale = self.head_dim ** -0.5\n        self.qkv = nn.Linear(embed_dim, embed_dim * 3)\n        self.proj = nn.Linear(embed_dim, embed_dim)\n\n    def forward(self, x):\n        B, N, C = x.shape\n        qkv = self.qkv(x).reshape(B, N, 3, self.num_heads, self.head_dim).permute(2, 0, 3, 1, 4)\n        q, k, v = qkv[0], qkv[1], qkv[2]\n        attn = (q @ k.transpose(-2, -1)) * self.scale\n        attn = attn.softmax(dim=-1)\n        x = (attn @ v).transpose(1, 2).reshape(B, N, C)\n        x = self.proj(x)\n        return x\n\nclass TransformerBlock(nn.Module):\n    def __init__(self, embed_dim, num_heads, mlp_ratio=4.0):\n        super().__init__()\n        self.norm1 = nn.LayerNorm(embed_dim)\n        self.attn = MultiHeadSelfAttention(embed_dim, num_heads)\n        self.norm2 = nn.LayerNorm(embed_dim)\n        mlp_hidden = int(embed_dim * mlp_ratio)\n        self.mlp = nn.Sequential(\n            nn.Linear(embed_dim, mlp_hidden),\n            nn.GELU(),\n            nn.Linear(mlp_hidden, embed_dim)\n        )\n\n    def forward(self, x):\n        x = x + self.attn(self.norm1(x))\n        x = x + self.mlp(self.norm2(x))\n        return x\n\nclass VisionTransformer(nn.Module):\n    def __init__(self, img_size=224, patch_size=16, in_channels=3, num_classes=1000,\n                 embed_dim=768, depth=12, num_heads=12):\n        super().__init__()\n        self.patch_embed = PatchEmbedding(img_size, patch_size, in_channels, embed_dim)\n        self.cls_token = nn.Parameter(torch.zeros(1, 1, embed_dim))\n        self.pos_embed = nn.Parameter(torch.zeros(1, 1 + self.patch_embed.num_patches, embed_dim))\n        self.pos_drop = nn.Dropout(0.1)\n        self.blocks = nn.ModuleList([\n            TransformerBlock(embed_dim, num_heads) for _ in range(depth)\n        ])\n        self.norm = nn.LayerNorm(embed_dim)\n        self.head = nn.Linear(embed_dim, num_classes)\n\n    def forward(self, x):\n        B = x.shape[0]\n        x = self.patch_embed(x)\n        cls_tokens = self.cls_token.expand(B, -1, -1)\n        x = torch.cat((cls_tokens, x), dim=1)\n        x = x + self.pos_embed\n        x = self.pos_drop(x)\n        for blk in self.blocks:\n            x = blk(x)\n        x = self.norm(x)\n        cls_out = x[:, 0]\n        x = self.head(cls_out)\n        return x\n\n# Example usage\nmodel = VisionTransformer(img_size=224, patch_size=16, num_classes=10)\nx = torch.randn(1, 3, 224, 224)\nout = model(x)\nprint(out.shape)  # Should be [1, 10]"
+            },
+            {
+              "step": 3,
+              "title": "Load a pretrained CLIP model",
+              "description": "Use Hugging Face transformers to load CLIP and test image-text similarity.",
+              "code": "from transformers import CLIPProcessor, CLIPModel\nimport torch\nfrom PIL import Image\nimport requests\n\n# Load model and processor\nmodel = CLIPModel.from_pretrained(\"openai/clip-vit-base-patch32\")\nprocessor = CLIPProcessor.from_pretrained(\"openai/clip-vit-base-patch32\")\n\n# Example: a drone image and text queries\nurl = \"https://example.com/drone_image.jpg\"  # Replace with actual image URL\nimage = Image.open(requests.get(url, stream=True).raw)\n\ntexts = [\"a photo of a forest\", \"a photo of a power line\", \"a photo of a building\"]\ninputs = processor(text=texts, images=image, return_tensors=\"pt\", padding=True)\n\nwith torch.no_grad():\n    outputs = model(**inputs)\n    logits_per_image = outputs.logits_per_image  # image-text similarity\n    probs = logits_per_image.softmax(dim=1)\n\nprint(\"Similarity probabilities:\", probs)"
+            },
+            {
+              "step": 4,
+              "title": "Train a small CLIP-style model on drone images",
+              "description": "Collect a dataset of drone images with captions, then train a simple contrastive model. (For beginners, fine-tuning existing CLIP is recommended.)",
+              "code": "# Placeholder: See Hugging Face CLIP fine-tuning guide.\n# Steps:\n# 1. Load pretrained CLIP model.\n# 2. Prepare dataset of (image, text) pairs from drone flights.\n# 3. Use contrastive loss.\n# 4. Train with a small learning rate.\n# Full example: https://huggingface.co/docs/transformers/training"
+            }
+          ],
+          "quiz": [
+            {"question": "What is the primary advantage of Vision Transformers (ViT) over CNNs?", "options": ["ViT uses less memory", "ViT can capture global relationships across the entire image", "ViT is easier to train on small datasets", "ViT requires no positional information"], "answer": "ViT can capture global relationships across the entire image"},
+            {"question": "In a ViT, what is the purpose of patch embedding?", "options": ["To reduce image resolution", "To convert image patches into token embeddings", "To add positional information", "To classify the image"], "answer": "To convert image patches into token embeddings"},
+            {"question": "What does CLIP stand for?", "options": ["Contrastive Language-Image Pre-training", "Convolutional Language Image Processing", "Cross-Language Image Parsing", "Classification of Language and Image Pairs"], "answer": "Contrastive Language-Image Pre-training"},
+            {"question": "How does CLIP enable zero-shot classification?", "options": ["By training on a large dataset with class labels", "By comparing image embeddings with text embeddings of class names", "By using a separate classifier for each class", "By generating new classes from text"], "answer": "By comparing image embeddings with text embeddings of class names"},
+            {"question": "What is the shape of the output of the patch embedding layer in the provided ViT implementation?", "options": ["(batch, channels, height, width)", "(batch, num_patches, embed_dim)", "(batch, embed_dim, num_patches)", "(batch, num_patches, num_patches)"], "answer": "(batch, num_patches, embed_dim)"},
+            {"question": "What is the role of the [CLS] token in ViT?", "options": ["It is used to compute the final classification output", "It is added to each patch for positional encoding", "It helps with data augmentation", "It replaces the need for a classification head"], "answer": "It is used to compute the final classification output"},
+            {"question": "Which loss function is typically used to align image and text embeddings in CLIP?", "options": ["Cross-entropy loss", "Contrastive loss (InfoNCE)", "Mean squared error", "KL divergence"], "answer": "Contrastive loss (InfoNCE)"},
+            {"question": "What is the advantage of multi-modal fusion in drone applications?", "options": ["It allows the drone to understand natural language commands", "It reduces the number of sensors needed", "It increases flight time", "It eliminates the need for GPS"], "answer": "It allows the drone to understand natural language commands"},
+            {"question": "What does the 'num_heads' parameter control in the MultiHeadSelfAttention module?", "options": ["The number of attention heads to split the embedding dimension into", "The number of layers in the Transformer", "The number of patches", "The number of classes"], "answer": "The number of attention heads to split the embedding dimension into"},
+            {"question": "What is the purpose of positional encoding in ViT?", "options": ["To provide information about the spatial location of patches", "To normalize the input", "To increase model capacity", "To add noise for regularization"], "answer": "To provide information about the spatial location of patches"},
+            {"question": "Which of the following is a key difference between ViT and standard CNNs?", "options": ["ViT uses convolutional layers for feature extraction", "ViT processes patches as sequences using attention", "ViT cannot handle variable-sized inputs", "ViT requires more training data but less compute"], "answer": "ViT processes patches as sequences using attention"},
+            {"question": "What is the typical batch size requirement for training CLIP from scratch?", "options": ["Small (8-16)", "Medium (64-128)", "Large (32,768 or more)", "Any size works equally well"], "answer": "Large (32,768 or more)"},
+            {"question": "In the provided ViT implementation, what does the 'mlp_ratio' parameter control?", "options": ["The ratio of hidden size in MLP to embedding dimension", "The learning rate schedule", "The number of transformer blocks", "The patch size"], "answer": "The ratio of hidden size in MLP to embedding dimension"},
+            {"question": "What does the CLIPProcessor do in Hugging Face's implementation?", "options": ["It trains the model", "It preprocesses images and text into the format expected by the model", "It evaluates the model's performance", "It generates new text from images"], "answer": "It preprocesses images and text into the format expected by the model"},
+            {"question": "What is a common application of CLIP in drone systems?", "options": ["Natural language query for image retrieval", "Real-time flight control", "Battery optimization", "GPS signal enhancement"], "answer": "Natural language query for image retrieval"},
+            {"question": "What is the output of the VisionTransformer forward method in the code?", "options": ["Class logits for each patch", "Class logits for the entire image (from the [CLS] token)", "Feature maps of the last layer", "Attention weights"], "answer": "Class logits for the entire image (from the [CLS] token)"},
+            {"question": "Which activation function is used in the MLP of the TransformerBlock?", "options": ["ReLU", "Sigmoid", "GELU", "Tanh"], "answer": "GELU"},
+            {"question": "What does the 'embed_dim' parameter represent in the VisionTransformer class?", "options": ["The size of each patch in pixels", "The dimensionality of token embeddings", "The number of attention heads", "The number of classes"], "answer": "The dimensionality of token embeddings"},
+            {"question": "How does multi-modal fusion improve drone safety?", "options": ["By allowing the drone to understand spoken commands from the pilot", "By enabling the drone to interpret both visual and textual instructions for navigation", "By reducing the need for obstacle avoidance sensors", "By automatically generating flight paths from satellite images"], "answer": "By enabling the drone to interpret both visual and textual instructions for navigation"},
+            {"question": "What is the purpose of the norm layers (LayerNorm) in the TransformerBlock?", "options": ["To normalize the input to each sub-layer, improving training stability", "To reduce the number of parameters", "To add dropout", "To convert embeddings to probabilities"], "answer": "To normalize the input to each sub-layer, improving training stability"}
+          ]
+        },
+        {
+          "title": "Parameter-Efficient Fine-Tuning (PEFT)",
+          "detailed_explanation": "Parameter-Efficient Fine-Tuning (PEFT) methods allow us to adapt large pre-trained models (like Llama 4 or Mistral) to specific tasks without fine-tuning all parameters. This is crucial when working with consumer GPUs that have limited memory. The most popular technique is LoRA (Low-Rank Adaptation). LoRA freezes the pre-trained model weights and injects trainable rank decomposition matrices into the layers of the Transformer architecture. This drastically reduces the number of trainable parameters (sometimes by >99%) while achieving comparable performance to full fine-tuning. QLoRA (Quantized LoRA) goes further by quantizing the base model to 4-bit, enabling fine-tuning of even larger models on a single GPU.\n\nFor drone applications, PEFT allows you to adapt a large vision-language model to understand specific drone-related commands (like 'hover near the power line' or 'avoid trees') without needing massive compute resources.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Install required libraries",
+              "description": "Install Hugging Face transformers, peft, bitsandbytes (for QLoRA), and datasets.",
+              "code": "pip install transformers peft bitsandbytes datasets accelerate"
+            },
+            {
+              "step": 2,
+              "title": "Load a pre-trained model (e.g., Mistral) with 4-bit quantization (QLoRA)",
+              "description": "Use bitsandbytes to load the model in 4-bit.",
+              "code": "from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig\nimport torch\n\nmodel_name = \"mistralai/Mistral-7B-v0.1\"\n\nbnb_config = BitsAndBytesConfig(\n    load_in_4bit=True,\n    bnb_4bit_quant_type=\"nf4\",\n    bnb_4bit_compute_dtype=torch.float16,\n)\n\nmodel = AutoModelForCausalLM.from_pretrained(\n    model_name,\n    quantization_config=bnb_config,\n    device_map=\"auto\",\n    trust_remote_code=True\n)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\ntokenizer.pad_token = tokenizer.eos_token"
+            },
+            {
+              "step": 3,
+              "title": "Apply LoRA adapters",
+              "description": "Use PEFT to add LoRA layers to the model.",
+              "code": "from peft import LoraConfig, get_peft_model\n\nlora_config = LoraConfig(\n    r=8,                     # rank\n    lora_alpha=32,           # scaling factor\n    target_modules=[\"q_proj\", \"v_proj\"],  # which modules to apply LoRA to\n    lora_dropout=0.05,\n    bias=\"none\",\n    task_type=\"CAUSAL_LM\"\n)\n\nmodel = get_peft_model(model, lora_config)\nmodel.print_trainable_parameters()  # Should show very few trainable parameters"
+            },
+            {
+              "step": 4,
+              "title": "Prepare a dataset for fine-tuning (e.g., drone instruction dataset)",
+              "description": "Create a dataset of prompts and responses relevant to drone commands.",
+              "code": "from datasets import Dataset\n\ndrone_data = [\n    {\"instruction\": \"Fly to the power line\", \"output\": \"Navigating to nearest power line detected in visual feed.\"},\n    {\"instruction\": \"Avoid the tree\", \"output\": \"Detecting tree ahead, adjusting path to avoid.\"},\n    {\"instruction\": \"Hover at 10 meters\", \"output\": \"Ascending to 10 meters and maintaining hover.\"}\n]\ndataset = Dataset.from_list(drone_data)\n\ndef format_instruction(example):\n    return {\"text\": f\"Instruction: {example['instruction']}\\nResponse: {example['output']}\"}\n\ndataset = dataset.map(format_instruction)"
+            },
+            {
+              "step": 5,
+              "title": "Set up training arguments and fine-tune",
+              "description": "Use the Trainer API to fine-tune the LoRA adapters.",
+              "code": "from transformers import TrainingArguments, Trainer\n\ntraining_args = TrainingArguments(\n    output_dir=\"./drone-lora\",\n    per_device_train_batch_size=4,\n    gradient_accumulation_steps=4,\n    num_train_epochs=3,\n    logging_steps=10,\n    save_strategy=\"epoch\",\n    learning_rate=2e-4,\n    fp16=True,\n    optim=\"paged_adamw_8bit\",\n)\n\ntrainer = Trainer(\n    model=model,\n    args=training_args,\n    train_dataset=dataset,\n    tokenizer=tokenizer,\n    data_collator=lambda data: tokenizer([d[\"text\"] for d in data], truncation=True, padding=True, return_tensors=\"pt\"),\n)\n\ntrainer.train()"
+            },
+            {
+              "step": 6,
+              "title": "Save and test the fine-tuned model",
+              "description": "Save the LoRA adapters and use the model for inference.",
+              "code": "# Save the adapter weights\nmodel.save_pretrained(\"./drone-lora-adapter\")\ntokenizer.save_pretrained(\"./drone-lora-adapter\")\n\n# Load the base model again and apply the adapter for inference\nfrom peft import PeftModel\nbase_model = AutoModelForCausalLM.from_pretrained(model_name, device_map=\"auto\")\nmodel = PeftModel.from_pretrained(base_model, \"./drone-lora-adapter\")\n\n# Test\nprompt = \"Instruction: Avoid the tree\\nResponse:\"\ninputs = tokenizer(prompt, return_tensors=\"pt\").to(\"cuda\")\noutputs = model.generate(**inputs, max_new_tokens=50)\nprint(tokenizer.decode(outputs[0], skip_special_tokens=True))"
+            }
+          ],
+          "quiz": [
+            {"question": "What is the main advantage of using PEFT methods like LoRA?", "options": ["It increases model accuracy significantly", "It reduces the number of trainable parameters, enabling fine-tuning on consumer GPUs", "It simplifies the model architecture", "It eliminates the need for a loss function"], "answer": "It reduces the number of trainable parameters, enabling fine-tuning on consumer GPUs"},
+            {"question": "In LoRA, what do the 'r' and 'alpha' hyperparameters control?", "options": ["The rank of the low-rank matrices and the scaling factor", "The number of layers and heads", "The learning rate and batch size", "The quantization bits and type"], "answer": "The rank of the low-rank matrices and the scaling factor"},
+            {"question": "What is the role of quantization in QLoRA?", "options": ["It compresses the base model to 4-bit, reducing memory usage", "It adds noise to the gradients", "It increases the model's precision", "It removes attention layers"], "answer": "It compresses the base model to 4-bit, reducing memory usage"},
+            {"question": "Which of the following is a common target module for LoRA in Transformer models?", "options": ["The embedding layer", "The attention query and value projections (q_proj, v_proj)", "The final classification head", "The positional encoding"], "answer": "The attention query and value projections (q_proj, v_proj)"},
+            {"question": "What does the `get_peft_model` function do?", "options": ["It freezes the base model and wraps it with LoRA layers", "It quantizes the model to 4-bit", "It trains the model from scratch", "It evaluates the model on a dataset"], "answer": "It freezes the base model and wraps it with LoRA layers"},
+            {"question": "Why is QLoRA particularly useful for drone AI development?", "options": ["It allows fine-tuning of large vision-language models on the Jetson Orin Nano", "It increases the drone's flight time", "It improves GPS accuracy", "It eliminates the need for a camera"], "answer": "It allows fine-tuning of large vision-language models on the Jetson Orin Nano"},
+            {"question": "What is the typical memory reduction when using 4-bit quantization compared to 32-bit?", "options": ["4x reduction", "8x reduction", "16x reduction", "No reduction"], "answer": "8x reduction"},
+            {"question": "In the code, what does `model.print_trainable_parameters()` output?", "options": ["The total number of parameters in the model", "The number of trainable parameters versus total parameters", "The memory usage of the model", "The accuracy of the model"], "answer": "The number of trainable parameters versus total parameters"},
+            {"question": "Which library is used for 4-bit quantization in the example?", "options": ["transformers", "bitsandbytes", "peft", "accelerate"], "answer": "bitsandbytes"},
+            {"question": "What is the purpose of the `lora_dropout` parameter?", "options": ["It adds dropout to the LoRA layers to prevent overfitting", "It drops out entire LoRA layers during training", "It reduces the rank of the matrices", "It increases the learning rate"], "answer": "It adds dropout to the LoRA layers to prevent overfitting"},
+            {"question": "What does `target_modules` in LoRAConfig specify?", "options": ["Which layers of the base model to apply LoRA to", "Which datasets to train on", "Which devices to use", "Which loss functions to apply"], "answer": "Which layers of the base model to apply LoRA to"},
+            {"question": "How many trainable parameters does a typical LoRA fine-tuning have compared to full fine-tuning?", "options": ["About 0.1% to 1%", "About 50%", "About 90%", "About the same"], "answer": "About 0.1% to 1%"},
+            {"question": "What does the `gradient_accumulation_steps` argument do?", "options": ["It accumulates gradients over multiple steps to simulate larger batch sizes", "It increases the learning rate", "It reduces memory by clearing gradients", "It changes the optimizer"], "answer": "It accumulates gradients over multiple steps to simulate larger batch sizes"},
+            {"question": "In the example, what is the purpose of `data_collator`?", "options": ["To format the dataset into batches and tokenize", "To apply data augmentation", "To split data into train/val", "To shuffle the data"], "answer": "To format the dataset into batches and tokenize"},
+            {"question": "What is the advantage of using LoRA over full fine-tuning for a drone command model?", "options": ["It reduces the risk of catastrophic forgetting", "It allows faster inference", "It enables real-time adaptation", "All of the above"], "answer": "All of the above"},
+            {"question": "Which file contains the trained LoRA adapter weights after saving?", "options": ["adapter_model.bin", "pytorch_model.bin", "config.json", "lora_weights.pt"], "answer": "adapter_model.bin"},
+            {"question": "What does `device_map=\"auto\"` do when loading a model?", "options": ["It automatically distributes layers across available GPUs and CPU", "It sets the device to GPU 0 only", "It uses the CPU only", "It requires manual device assignment"], "answer": "It automatically distributes layers across available GPUs and CPU"},
+            {"question": "What is the role of the `bnb_4bit_quant_type` in BitsAndBytesConfig?", "options": ["It specifies the quantization algorithm (e.g., nf4, fp4)", "It sets the bit precision for activations", "It defines the number of bits for the model", "It enables double quantization"], "answer": "It specifies the quantization algorithm (e.g., nf4, fp4)"},
+            {"question": "Which of the following best describes 'parameter-efficient' fine-tuning?", "options": ["Only a small subset of parameters are updated during training", "All parameters are updated but with a small learning rate", "The model architecture is modified to have fewer parameters", "The dataset is reduced to fewer examples"], "answer": "Only a small subset of parameters are updated during training"},
+            {"question": "What is the typical output of a causal language model fine-tuned with LoRA?", "options": ["A probability distribution over the next token", "A single class label", "A bounding box", "A segmentation mask"], "answer": "A probability distribution over the next token"}
+          ]
+        },
+        {
+          "title": "Production Optimization Stack: Quantization & Distillation",
+          "detailed_explanation": "Once a model is trained, deploying it to edge devices like the Jetson Orin Nano requires optimization for size and speed. Two key techniques are quantization and knowledge distillation. Quantization reduces the precision of model weights (e.g., from 32-bit floating point to 8-bit or 4-bit integer), which cuts memory usage and speeds up inference. NVIDIA's Model Optimizer (part of TensorRT) automates this with minimal accuracy loss. Knowledge distillation involves training a smaller 'student' model to mimic a larger 'teacher' model. The student learns to match the teacher's soft outputs (using KL divergence loss), resulting in a compact model that retains much of the teacher's performance. For drones, distillation can produce a lightweight model suitable for real-time obstacle detection.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Install NVIDIA TensorRT and Model Optimizer",
+              "description": "On your Jetson or development machine, install TensorRT and the necessary Python bindings.",
+              "code": "# On Jetson: JetPack includes TensorRT. \n# On PC: Follow NVIDIA's installation guide: https://developer.nvidia.com/tensorrt\npip install tensorrt torch2trt"
+            },
+            {
+              "step": 2,
+              "title": "Quantize a PyTorch model using NVIDIA Model Optimizer",
+              "description": "Take a pretrained model and apply INT8 quantization.",
+              "code": "import torch\nimport torchvision.models as models\nfrom torch2trt import torch2trt\n\n# Load a pretrained model (e.g., ResNet)\nmodel = models.resnet18(pretrained=True).cuda().eval()\n\n# Create dummy input\nx = torch.randn(1, 3, 224, 224).cuda()\n\n# Convert to TensorRT with INT8 precision (requires calibration data)\nmodel_trt = torch2trt(model, [x], fp16_mode=False, int8_mode=True, int8_calib_dataset=calib_data)\n\n# Save the optimized model\ntorch.save(model_trt.state_dict(), 'model_trt_int8.pth')"
+            },
+            {
+              "step": 3,
+              "title": "Implement Knowledge Distillation",
+              "description": "Train a small student model (e.g., MobileNetV4) to mimic a larger teacher (e.g., ViT).",
+              "code": "import torch.nn as nn\nimport torch.nn.functional as F\n\n# Assume teacher_model and student_model are defined and loaded\n# Teacher is large, student is small\n\nclass DistillationLoss(nn.Module):\n    def __init__(self, temperature=4.0, alpha=0.7):\n        super().__init__()\n        self.temperature = temperature\n        self.alpha = alpha\n        self.ce_loss = nn.CrossEntropyLoss()\n\n    def forward(self, student_logits, teacher_logits, labels):\n        # Soft loss: KL divergence between softened outputs\n        soft_loss = F.kl_div(\n            F.log_softmax(student_logits / self.temperature, dim=1),\n            F.softmax(teacher_logits / self.temperature, dim=1),\n            reduction='batchmean'\n        ) * (self.temperature ** 2)\n        # Hard loss: standard cross-entropy with true labels\n        hard_loss = self.ce_loss(student_logits, labels)\n        # Combined loss\n        return self.alpha * soft_loss + (1 - self.alpha) * hard_loss\n\n# Training loop example\noptimizer = torch.optim.Adam(student_model.parameters(), lr=1e-4)\nfor images, labels in dataloader:\n    images, labels = images.cuda(), labels.cuda()\n    with torch.no_grad():\n        teacher_logits = teacher_model(images)\n    student_logits = student_model(images)\n    loss = distillation_loss(student_logits, teacher_logits, labels)\n    optimizer.zero_grad()\n    loss.backward()\n    optimizer.step()"
+            },
+            {
+              "step": 4,
+              "title": "Evaluate model size and accuracy",
+              "description": "Compare the student model's size and accuracy against the teacher.",
+              "code": "def count_parameters(model):\n    return sum(p.numel() for p in model.parameters() if p.requires_grad)\n\nprint(f\"Teacher parameters: {count_parameters(teacher_model)}\")\nprint(f\"Student parameters: {count_parameters(student_model)}\")\n\n# Evaluate accuracy on validation set"
+            }
+          ],
+          "quiz": [
+            {"question": "What is quantization in the context of deep learning?", "options": ["Reducing the number of layers in a model", "Reducing the precision of weights and activations", "Increasing the size of the model", "Adding noise to the training data"], "answer": "Reducing the precision of weights and activations"},
+            {"question": "What is the main benefit of using INT8 quantization over FP32?", "options": ["Higher accuracy", "Faster inference and lower memory usage", "Easier to train", "Better for natural language tasks"], "answer": "Faster inference and lower memory usage"},
+            {"question": "Which NVIDIA tool is commonly used for quantization and optimization?", "options": ["CUDA", "TensorRT", "cuDNN", "Nsight"], "answer": "TensorRT"},
+            {"question": "What is knowledge distillation?", "options": ["Training a small model to mimic a larger model", "Removing unnecessary weights from a model", "Combining multiple models into one", "Compressing an image dataset"], "answer": "Training a small model to mimic a larger model"},
+            {"question": "In knowledge distillation, what is the 'teacher' model?", "options": ["The small, efficient model", "The large, accurate model that guides training", "The model that evaluates performance", "The model that generates training data"], "answer": "The large, accurate model that guides training"},
+            {"question": "What loss function is typically used to match student and teacher outputs in distillation?", "options": ["Mean squared error", "Cross-entropy loss", "KL divergence", "Hinge loss"], "answer": "KL divergence"},
+            {"question": "What does the 'temperature' parameter control in distillation?", "options": ["The learning rate", "The softness of the probability distributions", "The batch size", "The number of epochs"], "answer": "The softness of the probability distributions"},
+            {"question": "What is the typical compression ratio achieved by distillation?", "options": ["2x-10x", "50x-100x", "No compression", "Only 10% reduction"], "answer": "2x-10x"},
+            {"question": "Which of the following is a suitable student model for a drone vision task?", "options": ["ResNet-152", "MobileNetV4", "GPT-3", "ViT-Large"], "answer": "MobileNetV4"},
+            {"question": "What is the purpose of calibration data in INT8 quantization?", "options": ["To fine-tune the model after quantization", "To determine the dynamic range of activations", "To train the teacher model", "To augment the dataset"], "answer": "To determine the dynamic range of activations"},
+            {"question": "What does the term 'hard loss' refer to in distillation?", "options": ["Loss computed from true labels", "Loss computed from teacher outputs", "Loss that is hard to optimize", "Loss with high variance"], "answer": "Loss computed from true labels"},
+            {"question": "Why is distillation beneficial for edge deployment?", "options": ["It reduces model size while retaining accuracy", "It eliminates the need for GPUs", "It makes the model interpretable", "It allows the model to run on CPUs only"], "answer": "It reduces model size while retaining accuracy"},
+            {"question": "Which precision level is most commonly used for production models on edge devices?", "options": ["FP64", "FP32", "INT8 or INT4", "BF16"], "answer": "INT8 or INT4"},
+            {"question": "What is the role of the 'alpha' hyperparameter in distillation?", "options": ["It balances the soft and hard losses", "It controls the temperature", "It sets the learning rate", "It determines the number of teacher layers"], "answer": "It balances the soft and hard losses"},
+            {"question": "In the provided distillation code, what does `F.kl_div` compute?", "options": ["Kullback-Leibler divergence", "Cross-entropy", "Mean squared error", "Hinge loss"], "answer": "Kullback-Leibler divergence"},
+            {"question": "What is the typical accuracy retention of a distilled student model?", "options": ["<50%", "80-95% of teacher accuracy", "Exactly 100%", "Only 10%"], "answer": "80-95% of teacher accuracy"},
+            {"question": "Which of the following is NOT a benefit of model quantization?", "options": ["Reduced memory footprint", "Lower power consumption", "Increased model accuracy", "Faster inference"], "answer": "Increased model accuracy"},
+            {"question": "What format does NVIDIA TensorRT use for optimized models?", "options": ["ONNX", "TensorRT engine (plan file)", "PyTorch .pt", "TensorFlow SavedModel"], "answer": "TensorRT engine (plan file)"},
+            {"question": "Why might you choose to use both quantization and distillation?", "options": ["They are mutually exclusive", "To achieve maximum compression and speed with minimal accuracy loss", "Quantization alone is always enough", "Distillation alone is always enough"], "answer": "To achieve maximum compression and speed with minimal accuracy loss"},
+            {"question": "What does the `int8_calib_dataset` argument in the code represent?", "options": ["A dataset used for calibration to determine quantization ranges", "The training dataset for fine-tuning", "The test dataset for evaluation", "A dataset of teacher outputs"], "answer": "A dataset used for calibration to determine quantization ranges"}
+          ]
+        },
+        {
+          "title": "Sparsity & Pruning",
+          "detailed_explanation": "Pruning removes weights from a neural network that have near-zero importance, reducing model size and inference time. Unstructured pruning zeros out individual weights, leading to sparse weight matrices. This can achieve up to 40% size reduction with less than 1% accuracy loss when combined with fine-tuning. After pruning, the model can be stored in sparse format and accelerated using specialized libraries (e.g., cuSPARSE). For drone AI, pruning can make the model fit within tight memory constraints without sacrificing performance.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Train a baseline model",
+              "description": "Start with a pretrained model or train one on your dataset.",
+              "code": "# Assume we have a trained model in PyTorch\nmodel = torch.load('baseline_model.pth')\nmodel.eval()"
+            },
+            {
+              "step": 2,
+              "title": "Apply unstructured pruning",
+              "description": "Use PyTorch's pruning utilities to zero out weights with low magnitude.",
+              "code": "import torch.nn.utils.prune as prune\n\n# Prune 30% of the weights in each convolutional layer\nfor name, module in model.named_modules():\n    if isinstance(module, torch.nn.Conv2d) or isinstance(module, torch.nn.Linear):\n        prune.l1_unstructured(module, name='weight', amount=0.3)\n\n# Remove pruning reparameterization to actually reduce memory\nfor name, module in model.named_modules():\n    if isinstance(module, torch.nn.Conv2d) or isinstance(module, torch.nn.Linear):\n        prune.remove(module, 'weight')"
+            },
+            {
+              "step": 3,
+              "title": "Fine-tune the pruned model",
+              "description": "Re-train the model briefly to recover accuracy.",
+              "code": "optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)\nfor epoch in range(5):  # Few epochs of fine-tuning\n    for images, labels in train_loader:\n        images, labels = images.cuda(), labels.cuda()\n        outputs = model(images)\n        loss = nn.CrossEntropyLoss()(outputs, labels)\n        optimizer.zero_grad()\n        loss.backward()\n        optimizer.step()"
+            },
+            {
+              "step": 4,
+              "title": "Save the sparse model",
+              "description": "Save the model with sparsity.",
+              "code": "torch.save(model.state_dict(), 'pruned_model.pth')"
+            },
+            {
+              "step": 5,
+              "title": "Measure size reduction and accuracy",
+              "description": "Compute the sparsity level and check accuracy.",
+              "code": "def compute_sparsity(model):\n    total_zeros = 0\n    total_params = 0\n    for param in model.parameters():\n        total_zeros += (param == 0).sum().item()\n        total_params += param.numel()\n    return 100.0 * total_zeros / total_params\n\nprint(f\"Sparsity: {compute_sparsity(model):.2f}%\")\n\n# Evaluate accuracy\ncorrect = 0\ntotal = 0\nwith torch.no_grad():\n    for images, labels in test_loader:\n        images, labels = images.cuda(), labels.cuda()\n        outputs = model(images)\n        _, predicted = torch.max(outputs, 1)\n        total += labels.size(0)\n        correct += (predicted == labels).sum().item()\nprint(f\"Accuracy: {100 * correct / total:.2f}%\")"
+            }
+          ],
+          "quiz": [
+            {"question": "What is the goal of pruning in neural networks?", "options": ["To increase model complexity", "To reduce model size and inference time", "To add more layers", "To improve training speed"], "answer": "To reduce model size and inference time"},
+            {"question": "What is unstructured pruning?", "options": ["Removing entire neurons or filters", "Zeroing out individual weights regardless of structure", "Pruning only the first layer", "Using a different optimizer"], "answer": "Zeroing out individual weights regardless of structure"},
+            {"question": "What is a typical sparsity level achieved with minimal accuracy loss?", "options": ["5-10%", "30-40%", "80-90%", "99%"], "answer": "30-40%"},
+            {"question": "Which PyTorch module provides pruning utilities?", "options": ["torch.nn.utils.prune", "torch.optim.prune", "torch.nn.prune", "torch.sparse"], "answer": "torch.nn.utils.prune"},
+            {"question": "Why is fine-tuning necessary after pruning?", "options": ["To recover lost accuracy", "To re-initialize weights", "To increase the pruning ratio", "To convert to a different framework"], "answer": "To recover lost accuracy"},
+            {"question": "What does `prune.l1_unstructured` do?", "options": ["Prunes weights based on L1 norm magnitude", "Prunes weights based on L2 norm", "Prunes entire channels", "Randomly prunes weights"], "answer": "Prunes weights based on L1 norm magnitude"},
+            {"question": "What is the effect of `prune.remove` after pruning?", "options": ["It permanently removes the pruning mask, making sparsity permanent", "It restores pruned weights", "It applies the pruning mask to gradients", "It saves the model"], "answer": "It permanently removes the pruning mask, making sparsity permanent"},
+            {"question": "How can pruned models be accelerated?", "options": ["Using sparse matrix libraries like cuSPARSE", "They run slower by default", "Only CPU inference is possible", "No acceleration is possible"], "answer": "Using sparse matrix libraries like cuSPARSE"},
+            {"question": "What is the difference between pruning and quantization?", "options": ["Pruning removes weights; quantization reduces precision", "Pruning reduces precision; quantization removes weights", "They are the same thing", "Pruning is done after quantization"], "answer": "Pruning removes weights; quantization reduces precision"},
+            {"question": "Which function in the code computes sparsity?", "options": ["compute_sparsity", "count_zeros", "get_sparsity", "prune.measure"], "answer": "compute_sparsity"},
+            {"question": "What is the typical impact of pruning on inference latency?", "options": ["Latency decreases due to fewer operations", "Latency increases due to sparse format overhead", "No change", "Latency depends on the hardware"], "answer": "Latency decreases due to fewer operations"},
+            {"question": "What does the 'amount' parameter in pruning specify?", "options": ["The fraction of weights to prune", "The learning rate", "The number of pruning iterations", "The target model size"], "answer": "The fraction of weights to prune"},
+            {"question": "What is a potential drawback of unstructured pruning?", "options": ["Sparse matrices may not be efficiently accelerated on all hardware", "It always causes accuracy drop >10%", "It increases model size", "It cannot be combined with quantization"], "answer": "Sparse matrices may not be efficiently accelerated on all hardware"},
+            {"question": "Which of the following is a pruning method that removes entire filters?", "options": ["Unstructured pruning", "Structured pruning", "L1 pruning", "Random pruning"], "answer": "Structured pruning"},
+            {"question": "What is the goal of fine-tuning after pruning?", "options": ["To adjust the remaining weights to compensate for removed ones", "To increase sparsity further", "To change the model architecture", "To convert to half precision"], "answer": "To adjust the remaining weights to compensate for removed ones"},
+            {"question": "In the provided code, what kind of layers are pruned?", "options": ["Only convolutional layers", "Both convolutional and linear layers", "Only linear layers", "All layers including batch norm"], "answer": "Both convolutional and linear layers"},
+            {"question": "What is the typical accuracy loss after pruning 30% of weights and fine-tuning?", "options": ["<1%", "5-10%", "20-30%", ">50%"], "answer": "<1%"},
+            {"question": "How can you save a sparse model efficiently?", "options": ["Using sparse tensor formats like CSR or COO", "Saving as dense tensor", "Using pickle", "Saving only non-zero indices"], "answer": "Using sparse tensor formats like CSR or COO"},
+            {"question": "What library can accelerate sparse matrix operations on NVIDIA GPUs?", "options": ["cuSPARSE", "cuBLAS", "cuDNN", "TensorRT"], "answer": "cuSPARSE"},
+            {"question": "What is the primary trade-off with pruning?", "options": ["Accuracy vs. model size", "Speed vs. power consumption", "Training time vs. inference time", "Model size vs. quantization"], "answer": "Accuracy vs. model size"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ML Platform Engineer (MLOps)",
+      "focus": "Building the automated 'Factory' where models are born and maintained.",
+      "prerequisites": "Basic Linux, Docker, cloud basics (AWS).",
+      "lessons": [
+        {
+          "title": "Infrastructure as Code (IaC) for AI",
+          "detailed_explanation": "Infrastructure as Code (IaC) allows you to define and manage your cloud infrastructure using code instead of manual processes. For AI workloads, this means you can script the creation of GPU-enabled Kubernetes clusters, storage buckets, and networking. Terraform (or Pulumi) is used to declare the desired state of infrastructure. The NVIDIA GPU Operator simplifies managing GPUs on Kubernetes, automatically installing drivers and exposing GPU resources to pods. Karpenter dynamically scales your cluster based on pending workloads, ensuring you only pay for what you use. This is essential for cost-efficient training and serving at scale.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Install Terraform and configure AWS credentials",
+              "description": "Download Terraform and set up AWS access keys.",
+              "code": "wget https://releases.hashicorp.com/terraform/1.5.0/terraform_1.5.0_linux_amd64.zip\nunzip terraform_1.5.0_linux_amd64.zip\nsudo mv terraform /usr/local/bin/\n\n# Configure AWS credentials (or set environment variables)\naws configure"
+            },
+            {
+              "step": 2,
+              "title": "Write Terraform configuration for EKS cluster with GPU nodes",
+              "description": "Define VPC, EKS cluster, and a node group with GPU instances.",
+              "code": "# main.tf\nprovider \"aws\" {\n  region = \"us-west-2\"\n}\n\nmodule \"vpc\" {\n  source = \"terraform-aws-modules/vpc/aws\"\n  name = \"gpu-vpc\"\n  cidr = \"10.0.0.0/16\"\n  azs  = [\"us-west-2a\", \"us-west-2b\"]\n  private_subnets = [\"10.0.1.0/24\", \"10.0.2.0/24\"]\n  public_subnets  = [\"10.0.101.0/24\", \"10.0.102.0/24\"]\n  enable_nat_gateway = true\n}\n\nmodule \"eks\" {\n  source  = \"terraform-aws-modules/eks/aws\"\n  version = \"~> 19.0\"\n  cluster_name    = \"gpu-cluster\"\n  cluster_version = \"1.28\"\n  vpc_id          = module.vpc.vpc_id\n  subnet_ids      = module.vpc.private_subnets\n  \n  eks_managed_node_groups = {\n    gpu_nodes = {\n      desired_size = 1\n      max_size     = 4\n      min_size     = 0\n      \n      instance_types = [\"g4dn.xlarge\"]  # NVIDIA T4 GPU\n      capacity_type  = \"SPOT\"\n      \n      tags = {\n        \"k8s.io/cluster-autoscaler/enabled\" = \"true\"\n      }\n    }\n  }\n}\n\noutput \"cluster_endpoint\" {\n  value = module.eks.cluster_endpoint\n}\noutput \"cluster_name\" {\n  value = module.eks.cluster_name\n}"
+            },
+            {
+              "step": 3,
+              "title": "Apply the Terraform configuration",
+              "description": "Run terraform init and apply to create the infrastructure.",
+              "code": "terraform init\nterraform plan\nterraform apply"
+            },
+            {
+              "step": 4,
+              "title": "Install NVIDIA GPU Operator on the cluster",
+              "description": "Use Helm to install the GPU Operator.",
+              "code": "helm repo add nvidia https://helm.ngc.nvidia.com/nvidia\nhelm repo update\nhelm install gpu-operator nvidia/gpu-operator \\\n    --namespace gpu-operator --create-namespace"
+            },
+            {
+              "step": 5,
+              "title": "Install Karpenter for dynamic scaling",
+              "description": "Deploy Karpenter to automatically add nodes based on pending pods.",
+              "code": "helm repo add karpenter https://charts.karpenter.sh\nhelm repo update\nhelm install karpenter karpenter/karpenter \\\n    --namespace karpenter --create-namespace \\\n    --set serviceAccount.annotations.eks\\.amazonaws\\.com/role-arn=arn:aws:iam::${ACCOUNT_ID}:role/KarpenterControllerRole \\\n    --set settings.clusterName=gpu-cluster \\\n    --set settings.interruptionQueue=${QUEUE_NAME}"
+            },
+            {
+              "step": 6,
+              "title": "Verify GPU availability",
+              "description": "Run a test pod to ensure GPUs are exposed.",
+              "code": "kubectl run gpu-test --rm -it --restart=Never --image=nvidia/cuda:11.0-base --limits=nvidia.com/gpu=1 -- nvidia-smi"
+            }
+          ],
+          "quiz": [
+            {"question": "What is Infrastructure as Code (IaC)?", "options": ["Writing code to define and manage infrastructure", "Using a GUI to configure servers", "Manual server configuration", "Running scripts on virtual machines"], "answer": "Writing code to define and manage infrastructure"},
+            {"question": "Which tool is commonly used for IaC with AWS?", "options": ["Ansible", "Terraform", "Chef", "Puppet"], "answer": "Terraform"},
+            {"question": "What does the NVIDIA GPU Operator do on Kubernetes?", "options": ["Manages GPU drivers and exposes GPU resources to pods", "Provides a GUI for GPU monitoring", "Optimizes training jobs", "Load balances GPU traffic"], "answer": "Manages GPU drivers and exposes GPU resources to pods"},
+            {"question": "What is the purpose of Karpenter?", "options": ["To dynamically scale Kubernetes nodes based on workload", "To manage pod networking", "To store container images", "To monitor cluster logs"], "answer": "To dynamically scale Kubernetes nodes based on workload"},
+            {"question": "Which instance type is commonly used for GPU workloads on AWS?", "options": ["t2.micro", "g4dn.xlarge", "m5.large", "c5.9xlarge"], "answer": "g4dn.xlarge"},
+            {"question": "What does the `capacity_type = \"SPOT\"` setting do?", "options": ["Uses spot instances which are cheaper but can be interrupted", "Uses on-demand instances", "Uses reserved instances", "Uses dedicated hosts"], "answer": "Uses spot instances which are cheaper but can be interrupted"},
+            {"question": "Which command applies the Terraform configuration?", "options": ["terraform run", "terraform apply", "terraform deploy", "terraform up"], "answer": "terraform apply"},
+            {"question": "What does `terraform plan` do?", "options": ["Shows the changes that will be applied", "Applies the changes", "Destroys the infrastructure", "Initializes providers"], "answer": "Shows the changes that will be applied"},
+            {"question": "What is the role of the VPC module in the Terraform script?", "options": ["Creates a virtual private cloud for networking", "Sets up GPU drivers", "Creates an EKS cluster", "Configures IAM roles"], "answer": "Creates a virtual private cloud for networking"},
+            {"question": "Which Kubernetes resource is used to limit GPU usage in a pod?", "options": ["resources.limits.nvidia.com/gpu", "gpu-request", "gpu-limit", "nvidia-gpu"], "answer": "resources.limits.nvidia.com/gpu"},
+            {"question": "What does `helm install` do?", "options": ["Installs a Helm chart to the Kubernetes cluster", "Installs Helm itself", "Upgrades an existing release", "Lists releases"], "answer": "Installs a Helm chart to the Kubernetes cluster"},
+            {"question": "Why use Karpenter instead of the Cluster Autoscaler?", "options": ["Karpenter provides faster and more flexible scaling", "Cluster Autoscaler cannot handle GPUs", "Karpenter is cheaper", "Cluster Autoscaler is deprecated"], "answer": "Karpenter provides faster and more flexible scaling"},
+            {"question": "What does `output` in Terraform do?", "options": ["Exports values for use after apply", "Defines variables", "Creates resources", "Destroys resources"], "answer": "Exports values for use after apply"},
+            {"question": "Which of the following is a benefit of IaC?", "options": ["Reproducibility", "Version control", "Automation", "All of the above"], "answer": "All of the above"},
+            {"question": "What is the purpose of the `eks_managed_node_groups` block?", "options": ["Defines the worker nodes for the EKS cluster", "Defines the control plane", "Sets up load balancers", "Configures IAM roles"], "answer": "Defines the worker nodes for the EKS cluster"},
+            {"question": "What does `kubectl run gpu-test ...` do?", "options": ["Creates a pod that runs nvidia-smi to test GPU access", "Installs the GPU Operator", "Scales the cluster", "Deletes all GPU pods"], "answer": "Creates a pod that runs nvidia-smi to test GPU access"},
+            {"question": "Which command initializes a Terraform working directory?", "options": ["terraform init", "terraform start", "terraform setup", "terraform prepare"], "answer": "terraform init"},
+            {"question": "What is the purpose of the NVIDIA GPU Operator's device plugin?", "options": ["To advertise GPU resources to the Kubernetes scheduler", "To monitor GPU health", "To scale GPU nodes", "To install CUDA libraries"], "answer": "To advertise GPU resources to the Kubernetes scheduler"},
+            {"question": "What is the advantage of using spot instances for training?", "options": ["Cost savings", "Better performance", "Guaranteed availability", "Faster provisioning"], "answer": "Cost savings"},
+            {"question": "What does `cluster_version = \"1.28\"` specify?", "options": ["The Kubernetes version of the EKS cluster", "The version of Terraform", "The version of the AWS provider", "The version of the VPC module"], "answer": "The Kubernetes version of the EKS cluster"}
+          ]
+        },
+        {
+          "title": "Workflow Orchestration & Data Versioning",
+          "detailed_explanation": "ML pipelines require repeatable and modular workflows. Kubeflow Pipelines allows you to define each step (data preparation, training, evaluation) as a containerized component. You can then run these pipelines on Kubernetes, track artifacts, and reuse components across projects. Data Version Control (DVC) complements this by versioning large datasets (500GB+) in a Git-like manner. It stores data in cloud storage and keeps pointers in Git, ensuring that every model artifact is linked to the exact data version used. This is crucial for reproducibility and debugging.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Install Kubeflow Pipelines on your cluster",
+              "description": "Deploy Kubeflow Pipelines using Kustomize.",
+              "code": "kubectl create namespace kubeflow\nkubectl apply -k \"github.com/kubeflow/pipelines/manifests/kustomize/cluster-scoped-resources?ref=2.0.0\"\nkubectl wait --for condition=established --timeout=60s crd/applications.app.k8s.io\nkubectl apply -k \"github.com/kubeflow/pipelines/manifests/kustomize/env/platform-agnostic?ref=2.0.0\""
+            },
+            {
+              "step": 2,
+              "title": "Define a Kubeflow pipeline component",
+              "description": "Write a Python function that defines a component.",
+              "code": "import kfp\nfrom kfp import dsl\n\ndef preprocess_op(data_path: str) -> dsl.ContainerOp:\n    return dsl.ContainerOp(\n        name='Preprocess Data',\n        image='python:3.9',\n        command=['python', '-c'],\n        arguments=[\n            'import pandas as pd; df = pd.read_csv(\"' + data_path + '\"); df = df.dropna(); df.to_csv(\"/output/preprocessed.csv\", index=False)'\n        ],\n        file_outputs={'output': '/output/preprocessed.csv'}\n    )\n\ndef train_op(data_path: str) -> dsl.ContainerOp:\n    return dsl.ContainerOp(\n        name='Train Model',\n        image='python:3.9',\n        command=['python', '-c'],\n        arguments=[\n            'import pandas as pd; import joblib; from sklearn.ensemble import RandomForestClassifier; df = pd.read_csv(\"' + data_path + '\"); X = df.iloc[:,:-1]; y = df.iloc[:,-1]; model = RandomForestClassifier(); model.fit(X, y); joblib.dump(model, \"/output/model.joblib\")'\n        ],\n        file_outputs={'model': '/output/model.joblib'}\n    )\n\n@dsl.pipeline(\n    name='Simple Training Pipeline',\n    description='A pipeline that preprocesses data and trains a model'\n)\ndef pipeline(data_path: str = '/data/dataset.csv'):\n    preprocess_task = preprocess_op(data_path)\n    train_task = train_op(preprocess_task.outputs['output'])\n\n# Compile the pipeline\nkfp.compiler.Compiler().compile(pipeline, 'pipeline.yaml')"
+            },
+            {
+              "step": 3,
+              "title": "Upload and run the pipeline",
+              "description": "Use the Kubeflow Pipelines UI or Python client to upload and execute.",
+              "code": "import kfp\nclient = kfp.Client()\nrun = client.create_run_from_pipeline_func(pipeline, arguments={'data_path': 's3://my-bucket/data.csv'})\nprint(f\"Run ID: {run.run_id}\")"
+            },
+            {
+              "step": 4,
+              "title": "Install and initialize DVC",
+              "description": "Set up DVC for data versioning.",
+              "code": "pip install dvc\n# In your Git repository\ngit init\ndvc init\ndvc remote add -d myremote s3://my-bucket/dvc-store\n# Add dataset\ndvc add data/drone_images\ngit add data/drone_images.dvc .gitignore\ngit commit -m \"Add dataset\"\n# Push data to remote\ndvc push"
+            },
+            {
+              "step": 5,
+              "title": "Link model artifacts to data version",
+              "description": "Use DVC to track model artifacts and ensure lineage.",
+              "code": "# After training, add model artifact\ndvc add models/model.pth\ngit add models/model.pth.dvc\ngit commit -m \"Add trained model\"\n# Tag the data version\ngit tag -a v1.0 -m \"Dataset version 1\"\n# Push data and model\ndvc push"
+            }
+          ],
+          "quiz": [
+            {"question": "What is Kubeflow Pipelines used for?", "options": ["Orchestrating ML workflows on Kubernetes", "Versioning datasets", "Serving models", "Monitoring model drift"], "answer": "Orchestrating ML workflows on Kubernetes"},
+            {"question": "What does DVC stand for?", "options": ["Data Version Control", "Deep Version Control", "Distributed Version Control", "Docker Version Control"], "answer": "Data Version Control"},
+            {"question": "How does DVC handle large datasets?", "options": ["Stores data in cloud storage and keeps pointers in Git", "Stores data directly in Git", "Compresses data into Git LFS", "Uses a separate database"], "answer": "Stores data in cloud storage and keeps pointers in Git"},
+            {"question": "What is a Kubeflow pipeline component?", "options": ["A containerized step in a pipeline", "A Kubernetes pod", "A dataset", "A model serving endpoint"], "answer": "A containerized step in a pipeline"},
+            {"question": "Which command compiles a Kubeflow pipeline to YAML?", "options": ["kfp compiler", "kfp compile", "kfp.compiler.Compiler().compile()", "kfp pipeline compile"], "answer": "kfp.compiler.Compiler().compile()"},
+            {"question": "What is the purpose of `dvc init`?", "options": ["Initializes DVC in the current directory", "Creates a new Git repository", "Pushes data to remote", "Pulls data from remote"], "answer": "Initializes DVC in the current directory"},
+            {"question": "Where does DVC store large files by default?", "options": ["In a remote storage like S3, GCS, or local", "In Git", "In a SQL database", "In the user's home directory"], "answer": "In a remote storage like S3, GCS, or local"},
+            {"question": "What is the benefit of linking model artifacts to data version?", "options": ["Ensures reproducibility by knowing exactly which data trained a model", "Increases model accuracy", "Reduces storage space", "Speeds up training"], "answer": "Ensures reproducibility by knowing exactly which data trained a model"},
+            {"question": "Which command runs a Kubeflow pipeline using the Python client?", "options": ["client.create_run_from_pipeline_func()", "client.start_pipeline()", "client.run_pipeline()", "client.submit()"], "answer": "client.create_run_from_pipeline_func()"},
+            {"question": "What does `dvc push` do?", "options": ["Uploads data to remote storage", "Downloads data from remote", "Commits changes to Git", "Deletes local data"], "answer": "Uploads data to remote storage"},
+            {"question": "What is a pipeline's `ContainerOp` in Kubeflow?", "options": ["A representation of a containerized step", "A Kubernetes operator", "A Python class for containers", "A Docker image"], "answer": "A representation of a containerized step"},
+            {"question": "Why is DVC important for MLOps?", "options": ["It enables versioning of large datasets and models", "It replaces Git", "It serves models", "It monitors training"], "answer": "It enables versioning of large datasets and models"},
+            {"question": "What does `dvc add` do?", "options": ["Adds a file to DVC tracking", "Adds a file to Git", "Downloads a file from remote", "Removes a file from DVC"], "answer": "Adds a file to DVC tracking"},
+            {"question": "What is the role of the `dsl.ContainerOp` in the example?", "options": ["Defines a pipeline step that runs a container", "Creates a Kubernetes deployment", "Defines a data processing function", "Manages DVC operations"], "answer": "Defines a pipeline step that runs a container"},
+            {"question": "What does `dvc remote add` configure?", "options": ["A remote storage location for DVC files", "A Git remote", "A Kubernetes cluster", "A model registry"], "answer": "A remote storage location for DVC files"},
+            {"question": "What is the file extension for a DVC-tracked file pointer?", "options": [".dvc", ".dv", ".dvcache", ".dvcdata"], "answer": ".dvc"},
+            {"question": "What does `client.create_run_from_pipeline_func()` require?", "options": ["A pipeline function and arguments", "A YAML file", "A Docker image", "A Kubernetes namespace"], "answer": "A pipeline function and arguments"},
+            {"question": "What is the benefit of modular pipeline components?", "options": ["Reusability across projects", "Faster training", "Better accuracy", "Automatic hyperparameter tuning"], "answer": "Reusability across projects"},
+            {"question": "What does `git tag` do in the DVC workflow?", "options": ["Marks a specific commit (and data version) as a release", "Adds a DVC tag", "Pushes to remote", "Creates a new branch"], "answer": "Marks a specific commit (and data version) as a release"},
+            {"question": "Which of the following is NOT a feature of DVC?", "options": ["Versioning of models", "Experiment tracking", "Real-time inference", "Pipeline reproducibility"], "answer": "Real-time inference"}
+          ]
+        },
+        {
+          "title": "Model Serving & Observability",
+          "detailed_explanation": "NVIDIA Triton Inference Server is a high-performance serving engine that supports multiple frameworks (PyTorch, ONNX, TensorRT, etc.) and features like dynamic batching and concurrency. It can be deployed on Kubernetes for scalability. Observability is crucial to ensure that deployed models remain reliable. Prometheus collects metrics (e.g., inference latency, GPU utilization) and Grafana visualizes them. Evidently AI monitors data and model drift by comparing incoming data distributions against reference data. This allows you to detect when real-world data diverges from training data and take corrective actions like retraining.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Create a model repository for Triton",
+              "description": "Organize your model files according to Triton's expected structure.",
+              "code": "mkdir -p model_repository/resnet/1\n# Copy model file (e.g., model.pt) and create a config.pbtxt\n# Example config.pbtxt:\n# name: \"resnet\"\n# platform: \"pytorch_libtorch\"\n# max_batch_size: 8\n# input [\n#   { name: \"input\" data_type: TYPE_FP32 dims: [3, 224, 224] }\n# ]\n# output [\n#   { name: \"output\" data_type: TYPE_FP32 dims: [1000] }\n# ]"
+            },
+            {
+              "step": 2,
+              "title": "Deploy Triton on Kubernetes",
+              "description": "Use a Helm chart to deploy Triton.",
+              "code": "helm repo add triton https://helm.ngc.nvidia.com/triton\nhelm install triton triton/triton \\\n    --set modelRepositoryPath=s3://my-bucket/model_repository \\\n    --set service.type=LoadBalancer"
+            },
+            {
+              "step": 3,
+              "title": "Set up Prometheus for Triton metrics",
+              "description": "Triton exports metrics at port 8002; configure Prometheus to scrape them.",
+              "code": "# In prometheus.yml\nscrape_configs:\n  - job_name: 'triton'\n    static_configs:\n      - targets: ['triton-service:8002']"
+            },
+            {
+              "step": 4,
+              "title": "Install and configure Evidently AI for drift monitoring",
+              "description": "Run a Python service to analyze incoming data vs reference.",
+              "code": "import evidently\nfrom evidently.report import Report\nfrom evidently.metric_preset import DataDriftPreset\n\n# Load reference data (training data) and current data (production data)\nreference_data = pd.read_csv('training_data.csv')\ncurrent_data = pd.read_csv('today_inference_inputs.csv')\n\ndata_drift_report = Report(metrics=[DataDriftPreset()])\ndata_drift_report.run(reference_data=reference_data, current_data=current_data)\ndata_drift_report.save_html('drift_report.html')"
+            },
+            {
+              "step": 5,
+              "title": "Set up alerts for drift",
+              "description": "Use Prometheus AlertManager or Evidently's built-in alerting.",
+              "code": "# Example: Alert if drift score > threshold\nif drift_score > 0.2:\n    send_alert('Model drift detected!')"
+            }
+          ],
+          "quiz": [
+            {"question": "What is NVIDIA Triton Inference Server used for?", "options": ["Serving AI models at scale", "Training models", "Versioning datasets", "Monitoring drift"], "answer": "Serving AI models at scale"},
+            {"question": "Which feature of Triton allows batching multiple inference requests together?", "options": ["Dynamic batching", "Concurrency", "Model versioning", "Ensemble models"], "answer": "Dynamic batching"},
+            {"question": "What is the purpose of a model repository in Triton?", "options": ["A directory structure containing model files and configuration", "A Docker registry", "A Git repository for models", "A database of models"], "answer": "A directory structure containing model files and configuration"},
+            {"question": "Which port does Triton expose for Prometheus metrics?", "options": ["8000", "8001", "8002", "8003"], "answer": "8002"},
+            {"question": "What is model drift?", "options": ["Change in input data distribution over time", "Decrease in model accuracy", "Model overfitting", "Hardware degradation"], "answer": "Change in input data distribution over time"},
+            {"question": "Which tool is used for visualizing metrics in the observability stack?", "options": ["Grafana", "Prometheus", "Evidently AI", "Triton"], "answer": "Grafana"},
+            {"question": "What does Evidently AI monitor?", "options": ["Data drift and model performance", "GPU utilization", "Kubernetes health", "Network latency"], "answer": "Data drift and model performance"},
+            {"question": "What is the benefit of dynamic batching?", "options": ["Improves throughput by grouping requests", "Reduces model size", "Increases accuracy", "Simplifies deployment"], "answer": "Improves throughput by grouping requests"},
+            {"question": "How can you detect data drift?", "options": ["Comparing distributions of incoming data with training data", "Monitoring model accuracy", "Checking GPU memory usage", "Observing inference latency"], "answer": "Comparing distributions of incoming data with training data"},
+            {"question": "Which metric is commonly used to measure drift?", "options": ["PSI (Population Stability Index)", "RMSE", "F1 score", "AUC"], "answer": "PSI (Population Stability Index)"},
+            {"question": "What does Prometheus do?", "options": ["Collects and stores time-series metrics", "Visualizes metrics", "Sends alerts", "Serves models"], "answer": "Collects and stores time-series metrics"},
+            {"question": "What is a common action when drift is detected?", "options": ["Retrain the model with new data", "Restart the inference server", "Increase batch size", "Switch to a different model"], "answer": "Retrain the model with new data"},
+            {"question": "Which file in the model repository defines the input/output shapes?", "options": ["config.pbtxt", "model.pth", "model.yaml", "triton.conf"], "answer": "config.pbtxt"},
+            {"question": "What is the purpose of AlertManager in Prometheus?", "options": ["Manages alerts and sends notifications", "Collects metrics", "Visualizes data", "Scrapes targets"], "answer": "Manages alerts and sends notifications"},
+            {"question": "Which of the following can cause concept drift?", "options": ["Change in relationship between features and target", "Change in camera sensor", "Increased model latency", "Reduced GPU memory"], "answer": "Change in relationship between features and target"},
+            {"question": "What does the `DataDriftPreset` in Evidently measure?", "options": ["Statistical differences between reference and current data", "Model accuracy", "Inference latency", "Resource utilization"], "answer": "Statistical differences between reference and current data"},
+            {"question": "What is the role of the Triton service type LoadBalancer?", "options": ["Exposes the service to external traffic", "Provides internal load balancing", "Enables DNS", "Secures the endpoint"], "answer": "Exposes the service to external traffic"},
+            {"question": "Which framework is NOT supported by Triton?", "options": ["PyTorch", "TensorFlow", "ONNX", "Scikit-learn"], "answer": "Scikit-learn"},
+            {"question": "What is the purpose of the `max_batch_size` in config.pbtxt?", "options": ["Limits the maximum batch size for dynamic batching", "Sets the number of model instances", "Defines the size of input tensors", "Configures GPU memory"], "answer": "Limits the maximum batch size for dynamic batching"},
+            {"question": "What does a drift report help you decide?", "options": ["Whether to retrain the model", "Whether to scale the infrastructure", "Whether to change the model architecture", "Whether to update the firmware"], "answer": "Whether to retrain the model"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Engineer (Geospatial & Sensor Fusion)",
+      "focus": "The 'Supply Chain' for multi-modal drone intelligence.",
+      "prerequisites": "Basic SQL, Python, familiarity with GIS concepts.",
+      "lessons": [
+        {
+          "title": "Geospatial Intelligence (GeoAI)",
+          "detailed_explanation": "Geospatial intelligence involves managing and querying spatial data. PostGIS is a spatial database extension for PostgreSQL that adds support for geographic objects and spatial queries. For example, you can write SQL to find all images taken within a certain distance of a point or polygon. STAC (SpatioTemporal Asset Catalog) is a specification for making geospatial assets searchable by time and location. A STAC API allows you to catalog drone images and retrieve them based on coordinates and time ranges. Cloud Optimized GeoTIFFs (COGs) are a special file format that enables efficient streaming of large geospatial images from cloud storage; you can load only the pixels you need without downloading the whole file.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Install PostGIS and create a spatial database",
+              "description": "Set up PostgreSQL with PostGIS extension.",
+              "code": "# On Ubuntu\nsudo apt install postgresql postgis\nsudo -u postgres psql -c \"CREATE DATABASE drone_geo;\"\nsudo -u postgres psql -d drone_geo -c \"CREATE EXTENSION postgis;\""
+            },
+            {
+              "step": 2,
+              "title": "Load geospatial data (e.g., drone images with coordinates)",
+              "description": "Create a table with geometry column and insert data.",
+              "code": "CREATE TABLE images (\n    id SERIAL PRIMARY KEY,\n    filename TEXT,\n    capture_time TIMESTAMP,\n    geom GEOMETRY(Point, 4326)  -- WGS84 coordinates\n);\n\nINSERT INTO images (filename, capture_time, geom)\nVALUES ('img001.jpg', '2025-03-30 12:00:00', ST_SetSRID(ST_MakePoint(-122.4194, 37.7749), 4326));"
+            },
+            {
+              "step": 3,
+              "title": "Perform spatial queries",
+              "description": "Find images within 50 meters of a power line (represented as a line).",
+              "code": "SELECT filename FROM images\nWHERE ST_DWithin(\n    geom,\n    ST_SetSRID(ST_MakeLine(ST_MakePoint(-122.4195, 37.7750), ST_MakePoint(-122.4190, 37.7745)), 4326),\n    50  -- meters (assuming geometry is in meters, but if using degrees, need to cast)\n);"
+            },
+            {
+              "step": 4,
+              "title": "Deploy a STAC API",
+              "description": "Use stac-fastapi to serve catalog.",
+              "code": "git clone https://github.com/stac-utils/stac-fastapi.git\ncd stac-fastapi\ndocker-compose up -d\n# STAC API will be available at http://localhost:8080"
+            },
+            {
+              "step": 5,
+              "title": "Create a Cloud Optimized GeoTIFF",
+              "description": "Convert a regular GeoTIFF to COG using rio cogeo.",
+              "code": "pip install rio-cogeo\nrio cogeo create input.tif output_cog.tif --overview-level 4"
+            },
+            {
+              "step": 6,
+              "title": "Stream partial data from COG using Python",
+              "description": "Use rasterio to read only a specific window.",
+              "code": "import rasterio\nwith rasterio.open('output_cog.tif') as src:\n    # Read a 1000x1000 pixel window at location (x=0, y=0)\n    window = rasterio.windows.Window(0, 0, 1000, 1000)\n    data = src.read(1, window=window)"
+            }
+          ],
+          "quiz": [
+            {"question": "What is PostGIS?", "options": ["A spatial database extension for PostgreSQL", "A GIS desktop application", "A cloud storage service", "A mapping library"], "answer": "A spatial database extension for PostgreSQL"},
+            {"question": "What does ST_DWithin do in PostGIS?", "options": ["Finds geometries within a given distance", "Creates a buffer", "Measures area", "Computes intersection"], "answer": "Finds geometries within a given distance"},
+            {"question": "What is the STAC specification used for?", "options": ["Making geospatial assets searchable by time and location", "Storing point clouds", "Encoding GPS coordinates", "Streaming video"], "answer": "Making geospatial assets searchable by time and location"},
+            {"question": "What is a Cloud Optimized GeoTIFF (COG)?", "options": ["A GeoTIFF optimized for cloud storage with internal overviews and tiling", "A compressed image format", "A raster format with metadata", "A vector format"], "answer": "A GeoTIFF optimized for cloud storage with internal overviews and tiling"},
+            {"question": "Which Python library is used to read COGs?", "options": ["rasterio", "gdal", "shapely", "fiona"], "answer": "rasterio"},
+            {"question": "What does the geometry column type GEOMETRY(Point, 4326) represent?", "options": ["A point geometry with SRID 4326 (WGS84)", "A line geometry", "A polygon", "A 3D point"], "answer": "A point geometry with SRID 4326 (WGS84)"},
+            {"question": "What is the benefit of using STAC API?", "options": ["Standardized search across geospatial catalogs", "Faster image processing", "Lower storage costs", "Real-time streaming"], "answer": "Standardized search across geospatial catalogs"},
+            {"question": "How does a COG enable partial reading?", "options": ["By storing data in tiles and having overviews", "By compressing the file", "By using JPEG encoding", "By storing metadata externally"], "answer": "By storing data in tiles and having overviews"},
+            {"question": "Which command creates a COG from a GeoTIFF?", "options": ["rio cogeo create", "gdal_translate", "cogify", "raster2cog"], "answer": "rio cogeo create"},
+            {"question": "What is the purpose of spatial indexing in PostGIS?", "options": ["Speeds up spatial queries", "Reduces storage", "Validates geometries", "Converts coordinates"], "answer": "Speeds up spatial queries"},
+            {"question": "What does ST_SetSRID do?", "options": ["Assigns a spatial reference identifier to a geometry", "Sets the geometry type", "Projects the geometry", "Creates a buffer"], "answer": "Assigns a spatial reference identifier to a geometry"},
+            {"question": "What is the typical SRID for GPS coordinates?", "options": ["4326", "3857", "32610", "0"], "answer": "4326"},
+            {"question": "What does the `window` parameter in rasterio allow you to do?", "options": ["Read a subset of the image", "Apply a filter", "Change the coordinate system", "Write to a new file"], "answer": "Read a subset of the image"},
+            {"question": "What is the purpose of overviews in a COG?", "options": ["Provide lower-resolution versions for faster zooming", "Store metadata", "Encrypt the file", "Compress the image"], "answer": "Provide lower-resolution versions for faster zooming"},
+            {"question": "Which of the following is a valid STAC API endpoint?", "options": ["/search", "/catalog", "/items", "All of the above"], "answer": "All of the above"},
+            {"question": "What does the `ST_MakePoint` function do?", "options": ["Creates a point geometry from coordinates", "Creates a line from points", "Creates a polygon", "Converts text to geometry"], "answer": "Creates a point geometry from coordinates"},
+            {"question": "Why is it important to tag drone images with GPS coordinates?", "options": ["For geospatial analysis and mapping", "For faster image upload", "For camera calibration", "For image compression"], "answer": "For geospatial analysis and mapping"},
+            {"question": "What is the difference between a COG and a regular GeoTIFF?", "options": ["COG is optimized for cloud-based workflows with tiling and overviews", "COG is compressed, regular is not", "COG supports only 8-bit", "COG cannot be read by GDAL"], "answer": "COG is optimized for cloud-based workflows with tiling and overviews"},
+            {"question": "What does the `dims` parameter in the STAC item represent?", "options": ["Dimensions of the asset in pixels", "Number of bands", "Spatial extent", "File size"], "answer": "Dimensions of the asset in pixels"},
+            {"question": "What is the main advantage of using PostGIS over plain PostgreSQL for geospatial data?", "options": ["Geospatial functions and indexing", "Better performance for text search", "Easier replication", "Lower cost"], "answer": "Geospatial functions and indexing"}
+          ]
+        },
+        {
+          "title": "Sensor Fusion Pipelines",
+          "detailed_explanation": "Sensor fusion combines data from multiple sensors (e.g., camera, LiDAR, GPS, IMU) to create a more complete understanding of the environment. LiDAR processing involves cleaning point clouds (removing noise) and registering them to create 3D maps. Telemetry from the flight controller (MAVLink messages) arrives at high frequency (100Hz) while camera triggers are slower (2Hz). To tag each image with accurate position, you interpolate between telemetry points. This ensures that every image has a precise geolocation, enabling accurate mapping and analysis.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Process LiDAR point cloud with Open3D",
+              "description": "Load a point cloud, apply statistical outlier removal, and visualize.",
+              "code": "import open3d as o3d\n\n# Load point cloud\npcd = o3d.io.read_point_cloud(\"lidar_scan.pcd\")\n\n# Remove statistical outliers\ncl, ind = pcd.remove_statistical_outlier(nb_neighbors=20, std_ratio=2.0)\nfiltered_pcd = pcd.select_by_index(ind)\n\n# Visualize\no3d.visualization.draw_geometries([filtered_pcd])\n\n# Save filtered\no3d.io.write_point_cloud(\"filtered_scan.pcd\", filtered_pcd)"
+            },
+            {
+              "step": 2,
+              "title": "Perform point-to-plane registration (ICP)",
+              "description": "Align two point clouds using ICP with point-to-plane metric.",
+              "code": "# Assume source and target point clouds\nsource = o3d.io.read_point_cloud(\"scan1.pcd\")\ntarget = o3d.io.read_point_cloud(\"scan2.pcd\")\n\n# Downsample for speed\nsource_down = source.voxel_down_sample(0.05)\ntarget_down = target.voxel_down_sample(0.05)\n\n# Compute normals for target\nsource_down.estimate_normals(o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=30))\ntarget_down.estimate_normals(o3d.geometry.KDTreeSearchParamHybrid(radius=0.1, max_nn=30))\n\n# ICP with point-to-plane\nreg_p2p = o3d.pipelines.registration.registration_icp(\n    source_down, target_down, max_correspondence_distance=0.2,\n    estimation_method=o3d.pipelines.registration.TransformationEstimationPointToPlane()\n)\nprint(reg_p2p.transformation)\n\n# Apply transformation to full source\nsource.transform(reg_p2p.transformation)\no3d.io.write_point_cloud(\"aligned_scan.pcd\", source)"
+            },
+            {
+              "step": 3,
+              "title": "Sync MAVLink telemetry with camera triggers",
+              "description": "Subscribe to MAVLink messages and interpolate to assign coordinates to each image.",
+              "code": "from pymavlink import mavutil\nimport pandas as pd\nimport numpy as np\n\n# Connect to telemetry (serial or UDP)\nmaster = mavutil.mavlink_connection('/dev/ttyACM0', baud=57600)\n\n# Collect telemetry and camera timestamps\ntelemetry_data = []  # list of (timestamp, lat, lon, alt)\ncamera_timestamps = []  # list of timestamps when images were taken\n\n# In a loop\nwhile True:\n    msg = master.recv_match()\n    if msg is not None:\n        if msg.get_type() == 'GPS_RAW_INT':\n            t = time.time()\n            lat = msg.lat / 1e7\n            lon = msg.lon / 1e7\n            alt = msg.alt / 1e3\n            telemetry_data.append((t, lat, lon, alt))\n        elif msg.get_type() == 'CAMERA_TRIGGER':\n            camera_timestamps.append(time.time())\n\n# After flight, create DataFrames and interpolate\ntelemetry_df = pd.DataFrame(telemetry_data, columns=['timestamp', 'lat', 'lon', 'alt'])\ncamera_timestamps = np.array(camera_timestamps)\n\n# Interpolate for each camera timestamp\ninterpolated = []\nfor cam_ts in camera_timestamps:\n    idx = np.searchsorted(telemetry_df['timestamp'].values, cam_ts)\n    if idx == 0 or idx == len(telemetry_df):\n        continue\n    t1, lat1, lon1, alt1 = telemetry_df.iloc[idx-1]\n    t2, lat2, lon2, alt2 = telemetry_df.iloc[idx]\n    frac = (cam_ts - t1) / (t2 - t1)\n    lat = lat1 + frac * (lat2 - lat1)\n    lon = lon1 + frac * (lon2 - lon1)\n    alt = alt1 + frac * (alt2 - alt1)\n    interpolated.append((cam_ts, lat, lon, alt))\n\n# Save geotagged images\nfor i, (ts, lat, lon, alt) in enumerate(interpolated):\n    print(f\"Image {i}: lat={lat}, lon={lon}, alt={alt}\")\n    # Write to EXIF or CSV"
+            }
+          ],
+          "quiz": [
+            {"question": "What is the purpose of sensor fusion in drones?", "options": ["Combine data from multiple sensors for better understanding", "Reduce the number of sensors", "Increase flight time", "Simplify hardware"], "answer": "Combine data from multiple sensors for better understanding"},
+            {"question": "Which library is commonly used for LiDAR processing in Python?", "options": ["Open3D", "rasterio", "shapely", "GDAL"], "answer": "Open3D"},
+            {"question": "What does ICP (Iterative Closest Point) do?", "options": ["Aligns two point clouds by minimizing distance", "Filters noise from point clouds", "Segments objects", "Creates 3D meshes"], "answer": "Aligns two point clouds by minimizing distance"},
+            {"question": "Why is statistical outlier removal used on LiDAR data?", "options": ["To remove noisy points that are far from neighbors", "To downsample the cloud", "To colorize points", "To add GPS coordinates"], "answer": "To remove noisy points that are far from neighbors"},
+            {"question": "What is MAVLink?", "options": ["A communication protocol for drones", "A flight controller", "A GPS module", "A camera interface"], "answer": "A communication protocol for drones"},
+            {"question": "Why do we need to interpolate telemetry for camera triggers?", "options": ["Because camera triggers are less frequent than telemetry", "Because telemetry is less accurate", "To reduce data size", "To add timestamps"], "answer": "Because camera triggers are less frequent than telemetry"},
+            {"question": "What does point-to-plane ICP use to align surfaces?", "options": ["Distance to plane instead of point-to-point distance", "Color information", "GPS coordinates", "Time stamps"], "answer": "Distance to plane instead of point-to-point distance"},
+            {"question": "Which function in Open3D is used for statistical outlier removal?", "options": ["remove_statistical_outlier", "remove_noise", "filter_outliers", "clean_cloud"], "answer": "remove_statistical_outlier"},
+            {"question": "What is the role of `estimate_normals` in ICP?", "options": ["Needed for point-to-plane ICP to compute plane orientations", "To colorize points", "To downsample", "To compute distances"], "answer": "Needed for point-to-plane ICP to compute plane orientations"},
+            {"question": "What does the `voxel_down_sample` function do?", "options": ["Downsamples point cloud by averaging points in voxels", "Removes outliers", "Computes normals", "Aligns clouds"], "answer": "Downsamples point cloud by averaging points in voxels"},
+            {"question": "What data does MAVLink's GPS_RAW_INT message provide?", "options": ["Latitude, longitude, altitude", "Battery voltage", "Motor RPM", "Camera status"], "answer": "Latitude, longitude, altitude"},
+            {"question": "What is the purpose of interpolation in the telemetry script?", "options": ["To estimate position at exact camera trigger times", "To smooth the flight path", "To remove duplicates", "To reduce data points"], "answer": "To estimate position at exact camera trigger times"},
+            {"question": "Which Python library is used to interface with MAVLink?", "options": ["pymavlink", "mavsdk", "dronekit", "MAVProxy"], "answer": "pymavlink"},
+            {"question": "What does the `max_correspondence_distance` in ICP control?", "options": ["Maximum distance for considering point pairs", "Maximum iterations", "Maximum rotation angle", "Maximum translation"], "answer": "Maximum distance for considering point pairs"},
+            {"question": "What format does Open3D support for point clouds?", "options": ["PCD, PLY, XYZ", "JPEG, PNG", "TIFF, GeoTIFF", "STL, OBJ"], "answer": "PCD, PLY, XYZ"},
+            {"question": "What is the benefit of point-to-plane ICP over point-to-point?", "options": ["Better convergence for planar surfaces", "Faster computation", "Less memory usage", "No need for normals"], "answer": "Better convergence for planar surfaces"},
+            {"question": "How can you visualize a point cloud with Open3D?", "options": ["o3d.visualization.draw_geometries()", "plt.imshow()", "cv2.imshow()", "matplotlib.plot()"], "answer": "o3d.visualization.draw_geometries()"},
+            {"question": "What does `recv_match` in pymavlink do?", "options": ["Receives the next matching message", "Sends a command", "Lists all messages", "Connects to the drone"], "answer": "Receives the next matching message"},
+            {"question": "What is the typical frequency of MAVLink telemetry?", "options": ["50-100 Hz", "1-2 Hz", "10 Hz", "0.5 Hz"], "answer": "50-100 Hz"},
+            {"question": "What is the purpose of the camera trigger message?", "options": ["Indicates when an image was taken", "Triggers the camera to take a picture", "Sets camera parameters", "Transmits the image"], "answer": "Indicates when an image was taken"}
+          ]
+        },
+        {
+          "title": "Labeling & QA with Active Learning",
+          "detailed_explanation": "Active learning is a strategy to improve model efficiency by selecting the most informative data points for human labeling. Instead of labeling random data, you use your model to predict on unlabeled data and select samples where the model is least confident. These 'hard examples' are then sent to human annotators (using tools like CVAT or Labelbox). After labeling, you retrain the model, and the cycle repeats. This reduces labeling costs and focuses effort on data that will most improve the model.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Run inference on unlabeled data and compute confidence",
+              "description": "Use your model to predict on a set of unlabeled images and record the confidence scores.",
+              "code": "import torch\nfrom torchvision import transforms\nfrom PIL import Image\n\nmodel.eval()\nunlabeled_images = [...]  # list of image paths\nconfidences = []\n\nfor img_path in unlabeled_images:\n    img = Image.open(img_path).convert('RGB')\n    img_tensor = transform(img).unsqueeze(0).cuda()\n    with torch.no_grad():\n        outputs = model(img_tensor)\n        probs = torch.softmax(outputs, dim=1)\n        confidence, pred = torch.max(probs, dim=1)\n        confidences.append((img_path, confidence.item(), pred.item()))\n\n# Sort by confidence (lowest first)\nconfidences.sort(key=lambda x: x[1])"
+            },
+            {
+              "step": 2,
+              "title": "Select low-confidence samples for labeling",
+              "description": "Take the top N samples with lowest confidence.",
+              "code": "low_confidence_samples = confidences[:100]  # top 100 lowest confidence"
+            },
+            {
+              "step": 3,
+              "title": "Export to CVAT or Labelbox for annotation",
+              "description": "Create a task in CVAT with those images.",
+              "code": "# Using CVAT CLI\ncvat-cli --auth user:pass task create --name \"ActiveLearningBatch\" --labels label1 label2 --bug-tracker ''\ncvat-cli --auth user:pass task add-images <task_id> path/to/images/*\n# Alternatively, use Labelbox API"
+            },
+            {
+              "step": 4,
+              "title": "After labeling, incorporate new data into training",
+              "description": "Download labeled data and retrain the model.",
+              "code": "# Download annotations from CVAT (e.g., COCO format)\n# Then add to training dataset and retrain\nmodel.train()\nfor epoch in range(5):\n    for images, labels in new_annotations_loader:\n        optimizer.zero_grad()\n        outputs = model(images)\n        loss = loss_fn(outputs, labels)\n        loss.backward()\n        optimizer.step()"
+            },
+            {
+              "step": 5,
+              "title": "Repeat the active learning loop",
+              "description": "Continue to improve model by selecting new low-confidence samples each cycle.",
+              "code": "while not convergence:\n    # 1. Predict on unlabeled pool\n    # 2. Select low-confidence samples\n    # 3. Send to labeling\n    # 4. Retrain model\n    # 5. Evaluate"
+            }
+          ],
+          "quiz": [
+            {"question": "What is active learning?", "options": ["A strategy to select the most informative data for labeling", "A type of model training", "A data augmentation technique", "A model compression method"], "answer": "A strategy to select the most informative data for labeling"},
+            {"question": "Why is active learning beneficial for drone datasets?", "options": ["Reduces labeling cost by focusing on hard examples", "Increases dataset size", "Automatically labels data", "Improves GPS accuracy"], "answer": "Reduces labeling cost by focusing on hard examples"},
+            {"question": "What metric is commonly used to select samples for active learning?", "options": ["Low confidence (least confident)", "High confidence", "Random selection", "Largest image size"], "answer": "Low confidence (least confident)"},
+            {"question": "Which annotation tool is mentioned for labeling?", "options": ["CVAT", "Labelbox", "Both", "None"], "answer": "Both"},
+            {"question": "What does `torch.softmax` compute?", "options": ["Probability distribution over classes", "Logits", "Loss", "Gradients"], "answer": "Probability distribution over classes"},
+            {"question": "What is the purpose of sorting confidences in ascending order?", "options": ["To get samples where model is least confident first", "To get most confident samples", "To sort by image name", "To randomize"], "answer": "To get samples where model is least confident first"},
+            {"question": "What does CVAT stand for?", "options": ["Computer Vision Annotation Tool", "Cloud Video Analytics Tool", "Collaborative Visual Annotation Tool", "Centralized Visual Asset Tracker"], "answer": "Computer Vision Annotation Tool"},
+            {"question": "What is the typical output of a classification model's softmax?", "options": ["A vector of probabilities summing to 1", "A single class label", "Bounding boxes", "Segmentation masks"], "answer": "A vector of probabilities summing to 1"},
+            {"question": "What does the active learning loop aim to achieve?", "options": ["Minimize labeling effort while maximizing model improvement", "Maximize dataset size", "Achieve 100% accuracy", "Reduce training time"], "answer": "Minimize labeling effort while maximizing model improvement"},
+            {"question": "Which of the following is a confidence-based selection strategy?", "options": ["Least confidence", "Margin sampling", "Entropy", "All of the above"], "answer": "All of the above"},
+            {"question": "What is the role of human annotators in active learning?", "options": ["Label the selected samples", "Train the model", "Select the samples", "Deploy the model"], "answer": "Label the selected samples"},
+            {"question": "How can you integrate active learning into a production pipeline?", "options": ["By automating sample selection and labeling requests", "By running the model on all data", "By ignoring low confidence", "By always using random sampling"], "answer": "By automating sample selection and labeling requests"},
+            {"question": "What does the `confidence` value represent?", "options": ["The probability of the predicted class", "The accuracy of the model", "The loss value", "The gradient norm"], "answer": "The probability of the predicted class"},
+            {"question": "What is the benefit of using active learning over random sampling for labeling?", "options": ["Higher model improvement per labeled sample", "Lower cost per label", "Faster labeling", "All of the above"], "answer": "Higher model improvement per labeled sample"},
+            {"question": "Which library can be used to interact with CVAT programmatically?", "options": ["cvat-cli", "labelbox", "opencv", "pandas"], "answer": "cvat-cli"},
+            {"question": "What does `torch.max` return when applied to softmax outputs?", "options": ["The maximum probability and its index", "The maximum value only", "The index only", "The sorted probabilities"], "answer": "The maximum probability and its index"},
+            {"question": "What is the typical stopping criterion for active learning?", "options": ["Model performance plateaus or budget limit", "After one iteration", "After 1000 labels", "When confidence is high"], "answer": "Model performance plateaus or budget limit"},
+            {"question": "What is the advantage of using Labelbox over CVAT?", "options": ["Labelbox offers more advanced collaboration and automation features", "CVAT is open source, Labelbox is SaaS", "Both have their strengths", "All of the above"], "answer": "All of the above"},
+            {"question": "What is the role of the `new_annotations_loader` in the code?", "options": ["A DataLoader for newly labeled data", "A loader for the test set", "A loader for unlabeled data", "A loader for pre-trained model"], "answer": "A DataLoader for newly labeled data"},
+            {"question": "How does active learning help with domain adaptation?", "options": ["By selecting samples from new domain where model is uncertain", "By discarding old data", "By increasing model size", "By reducing learning rate"], "answer": "By selecting samples from new domain where model is uncertain"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edge AI Engineer",
+      "focus": "The 'Physical Integration' of AI into the drone’s nervous system.",
+      "prerequisites": "Basic C++/Python, understanding of embedded systems, ROS 2 basics.",
+      "lessons": [
+        {
+          "title": "On-Device Hardware Acceleration",
+          "detailed_explanation": "The NVIDIA Jetson Orin Nano provides GPU acceleration via CUDA. For real-time processing, you can write custom CUDA kernels for tasks like image undistortion, which offloads the CPU. JetPack SDK includes DeepStream, a framework for building video analytics pipelines that can handle multiple camera streams entirely on the GPU. This is essential for processing high-resolution video in real-time on the drone.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Set up NVIDIA JetPack on Jetson Orin Nano",
+              "description": "Flash the SD card with JetPack and install required packages.",
+              "code": "# Download JetPack SDK from NVIDIA Developer site\n# Flash using SDK Manager or via command line\nsudo ./flash.sh jetson-orin-nano-devkit mmcblk0p1"
+            },
+            {
+              "step": 2,
+              "title": "Write a simple CUDA kernel for image undistortion",
+              "description": "Implement a kernel that corrects lens distortion.",
+              "code": "#include <cuda_runtime.h>\n\n__global__ void undistortKernel(unsigned char* input, unsigned char* output, int width, int height, float* map_x, float* map_y) {\n    int x = blockIdx.x * blockDim.x + threadIdx.x;\n    int y = blockIdx.y * blockDim.y + threadIdx.y;\n    if (x < width && y < height) {\n        float src_x = map_x[y * width + x];\n        float src_y = map_y[y * width + x];\n        // Bilinear interpolation\n        int x0 = (int)src_x;\n        int y0 = (int)src_y;\n        int x1 = x0 + 1;\n        int y1 = y0 + 1;\n        float dx = src_x - x0;\n        float dy = src_y - y0;\n        \n        unsigned char val = (1-dx)*(1-dy)*input[y0*width + x0] +\n                            dx*(1-dy)*input[y0*width + x1] +\n                            (1-dx)*dy*input[y1*width + x0] +\n                            dx*dy*input[y1*width + x1];\n        output[y*width + x] = val;\n    }\n}"
+            },
+            {
+              "step": 3,
+              "title": "Build a DeepStream pipeline for multi-camera processing",
+              "description": "Create a configuration file for DeepStream to run inference on video streams.",
+              "code": "# deepstream_app_config.txt\n[application]\nenable-perf-measurement=1\nperf-measurement-interval-sec=1\n\n[source0]\nenable=1\ntype=3\nuri=file:///opt/nvidia/deepstream/deepstream/samples/streams/sample_720p.h264\nnum-sources=1\n\n[sink0]\nenable=1\ntype=2\nsync=0\n\n[primary-gie]\nenable=1\ngie-config-file=config_infer_primary.txt\nbatch-size=1\n\n[tracker]\nenable=1\ntracker-width=640\ntracker-height=384\n\n# Run deepstream-app\ndeepstream-app -c deepstream_app_config.txt"
+            }
+          ],
+          "quiz": [
+            {"question": "What is the purpose of writing custom CUDA kernels?", "options": ["To offload specific processing to GPU for acceleration", "To simplify code", "To run on CPU", "To use OpenCV"], "answer": "To offload specific processing to GPU for acceleration"},
+            {"question": "What does the NVIDIA JetPack SDK include?", "options": ["CUDA, cuDNN, TensorRT, DeepStream", "Only CUDA", "ROS 2", "OpenCV"], "answer": "CUDA, cuDNN, TensorRT, DeepStream"},
+            {"question": "What is DeepStream used for?", "options": ["Building video analytics pipelines on Jetson", "Training models", "Data labeling", "Flight control"], "answer": "Building video analytics pipelines on Jetson"},
+            {"question": "In the CUDA kernel, what does `threadIdx.x` represent?", "options": ["The x-coordinate of the thread within a block", "The global x-index", "The block index", "The warp index"], "answer": "The x-coordinate of the thread within a block"},
+            {"question": "What is the typical use case for image undistortion on a drone?", "options": ["Correcting lens distortion for accurate measurements", "Improving image colors", "Reducing file size", "Adding watermarks"], "answer": "Correcting lens distortion for accurate measurements"},
+            {"question": "Which function in the CUDA kernel performs bilinear interpolation?", "options": ["The weighted sum based on dx, dy", "Linear interpolation", "Nearest neighbor", "Cubic interpolation"], "answer": "The weighted sum based on dx, dy"},
+            {"question": "What does the `num-sources` parameter in DeepStream config set?", "options": ["Number of input streams", "Number of output sinks", "Number of GPUs", "Number of inference engines"], "answer": "Number of input streams"},
+            {"question": "How does CUDA accelerate image processing?", "options": ["By parallelizing pixel operations across many threads", "By using faster memory", "By reducing CPU usage", "All of the above"], "answer": "All of the above"},
+            {"question": "What is the purpose of the `primary-gie` section in DeepStream config?", "options": ["Primary inference engine", "Primary GPU", "Primary source", "Primary sink"], "answer": "Primary inference engine"},
+            {"question": "What does `cuda_runtime.h` provide?", "options": ["CUDA runtime API", "C++ standard library", "OpenGL bindings", "ROS headers"], "answer": "CUDA runtime API"},
+            {"question": "Why is it beneficial to run image undistortion on GPU?", "options": ["It can process many pixels simultaneously", "It reduces power consumption", "It simplifies code", "It is required for real-time"], "answer": "It can process many pixels simultaneously"},
+            {"question": "What does the `blockIdx` and `threadIdx` combination determine?", "options": ["The global index of a thread", "The local memory address", "The warp size", "The block size"], "answer": "The global index of a thread"},
+            {"question": "What format does DeepStream accept for configuration?", "options": ["Text files with key-value pairs", "JSON", "YAML", "XML"], "answer": "Text files with key-value pairs"},
+            {"question": "What is the role of the `tracker` in DeepStream?", "options": ["Tracks objects across frames", "Tracks camera movement", "Tracks performance metrics", "Tracks disk usage"], "answer": "Tracks objects across frames"},
+            {"question": "What is the advantage of using DeepStream over custom CUDA kernels?", "options": ["Provides a higher-level pipeline for video analytics", "Easier to integrate with inference models", "Includes built-in tracking and visualization", "All of the above"], "answer": "All of the above"},
+            {"question": "What does the `enable-perf-measurement` flag do?", "options": ["Turns on performance logging", "Enables debugging", "Enables profiling", "Enables GPU monitoring"], "answer": "Turns on performance logging"},
+            {"question": "What is the typical output of a DeepStream pipeline?", "options": ["Video with overlays", "JSON metadata", "Encoded stream", "All of the above"], "answer": "All of the above"},
+            {"question": "What does the `type=3` for source indicate?", "options": ["Video file source", "Camera source", "RTSP source", "Test source"], "answer": "Video file source"},
+            {"question": "Which command runs a DeepStream application?", "options": ["deepstream-app", "gst-launch", "nvstream", "jetson-video"], "answer": "deepstream-app"},
+            {"question": "What is the benefit of using CUDA for real-time drone vision?", "options": ["Reduces latency", "Increases power consumption", "Decreases accuracy", "Increases model size"], "answer": "Reduces latency"}
+          ]
+        },
+        {
+          "title": "Robotics Middleware: ROS 2 & MAVROS",
+          "detailed_explanation": "ROS 2 (Robot Operating System) provides a flexible framework for building robot software with nodes that communicate via topics, services, and actions. For drones, MAVROS is a ROS 2 package that bridges MAVLink messages to ROS 2 topics. This allows you to control the drone (e.g., send velocity commands) and receive telemetry from the Pixhawk flight controller. Micro-ROS enables running ROS 2 on microcontrollers (like STM32) for low-level control. This stack forms the backbone of autonomous drone software.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Install ROS 2 Humble on Jetson",
+              "description": "Follow the official ROS 2 installation guide.",
+              "code": "sudo apt update\nsudo apt install ros-humble-desktop\necho \"source /opt/ros/humble/setup.bash\" >> ~/.bashrc\nsource ~/.bashrc"
+            },
+            {
+              "step": 2,
+              "title": "Install MAVROS for ROS 2",
+              "description": "Install the MAVROS package.",
+              "code": "sudo apt install ros-humble-mavros ros-humble-mavros-extras\n# Install GeographicLib datasets\nsudo /opt/ros/humble/lib/mavros/install_geographiclib_datasets.sh"
+            },
+            {
+              "step": 3,
+              "title": "Connect Pixhawk to Jetson via UART or USB",
+              "description": "Ensure the Pixhawk is connected and identify the serial port (e.g., /dev/ttyACM0).",
+              "code": "ls /dev/tty*  # Find the port\n# Set permissions\nsudo chmod 666 /dev/ttyACM0"
+            },
+            {
+              "step": 4,
+              "title": "Launch MAVROS and test telemetry",
+              "description": "Run the MAVROS node and check topics.",
+              "code": "ros2 launch mavros apm.launch.py fcu_url:=/dev/ttyACM0:57600\n# In another terminal\nros2 topic echo /mavros/state"
+            },
+            {
+              "step": 5,
+              "title": "Create a ROS 2 node for obstacle avoidance",
+              "description": "Write a node that subscribes to camera topics and publishes velocity commands.",
+              "code": "# obstacle_avoidance_node.py\nimport rclpy\nfrom rclpy.node import Node\nfrom sensor_msgs.msg import Image\nfrom geometry_msgs.msg import Twist\n\nclass ObstacleAvoidanceNode(Node):\n    def __init__(self):\n        super().__init__('obstacle_avoidance')\n        self.subscription = self.create_subscription(Image, '/camera/image', self.image_callback, 10)\n        self.publisher = self.create_publisher(Twist, '/mavros/setpoint_velocity/cmd_vel_unstamped', 10)\n        self.get_logger().info('Node started')\n\n    def image_callback(self, msg):\n        # Process image, detect obstacles\n        # If obstacle, publish stop command\n        twist = Twist()\n        twist.linear.x = 0.0\n        twist.linear.y = 0.0\n        twist.linear.z = 0.0\n        self.publisher.publish(twist)\n\ndef main(args=None):\n    rclpy.init(args=args)\n    node = ObstacleAvoidanceNode()\n    rclpy.spin(node)\n    node.destroy_node()\n    rclpy.shutdown()\n\nif __name__ == '__main__':\n    main()"
+            }
+          ],
+          "quiz": [
+            {"question": "What is ROS 2?", "options": ["A middleware for robot software", "An operating system", "A flight controller firmware", "A simulation tool"], "answer": "A middleware for robot software"},
+            {"question": "What does MAVROS do?", "options": ["Bridges MAVLink to ROS topics", "Controls the camera", "Manages power", "Handles GPS"], "answer": "Bridges MAVLink to ROS topics"},
+            {"question": "What is the purpose of `ros2 launch`?", "options": ["Starts a ROS 2 node or launch file", "Builds a ROS 2 package", "Installs dependencies", "Runs a test"], "answer": "Starts a ROS 2 node or launch file"},
+            {"question": "Which ROS 2 topic publishes the drone's state (armed/disarmed, mode)?", "options": ["/mavros/state", "/mavros/local_position/pose", "/mavros/imu/data", "/mavros/battery"], "answer": "/mavros/state"},
+            {"question": "What does the Twist message contain?", "options": ["Linear and angular velocities", "Position", "Orientation", "Acceleration"], "answer": "Linear and angular velocities"},
+            {"question": "What is the typical connection between Pixhawk and Jetson?", "options": ["UART or USB", "I2C", "SPI", "Ethernet"], "answer": "UART or USB"},
+            {"question": "What does `fcu_url` in MAVROS launch specify?", "options": ["The connection string to the flight controller", "The URL of the ground station", "The camera feed URL", "The simulation host"], "answer": "The connection string to the flight controller"},
+            {"question": "Which command lists active ROS 2 topics?", "options": ["ros2 topic list", "rostopic list", "ros2 list topics", "topic list"], "answer": "ros2 topic list"},
+            {"question": "What is the purpose of `rclpy.spin(node)`?", "options": ["Keeps the node alive and processes callbacks", "Initializes the node", "Shuts down the node", "Publishes messages"], "answer": "Keeps the node alive and processes callbacks"},
+            {"question": "What does the `geometry_msgs/msg/Twist` message represent?", "options": ["Velocity commands", "Pose estimate", "GPS coordinates", "Image data"], "answer": "Velocity commands"},
+            {"question": "What is Micro-ROS used for?", "options": ["Running ROS 2 on microcontrollers", "Simulating robots", "Visualizing data", "Logging"], "answer": "Running ROS 2 on microcontrollers"},
+            {"question": "What does `ros2 node list` do?", "options": ["Lists all active nodes", "Lists all packages", "Lists all topics", "Lists all services"], "answer": "Lists all active nodes"},
+            {"question": "Which command launches the MAVROS node for ArduPilot?", "options": ["ros2 launch mavros apm.launch.py", "ros2 run mavros mavros_node", "ros2 launch mavros px4.launch.py", "ros2 run mavros ardupilot"], "answer": "ros2 launch mavros apm.launch.py"},
+            {"question": "What is the role of the `image_callback` in the obstacle avoidance node?", "options": ["Processes each image frame to detect obstacles", "Publishes velocity commands", "Initializes the node", "Subscribes to telemetry"], "answer": "Processes each image frame to detect obstacles"},
+            {"question": "What is the typical frequency of MAVROS telemetry?", "options": ["50-100 Hz", "1 Hz", "10 Hz", "0.5 Hz"], "answer": "50-100 Hz"},
+            {"question": "What does `cmd_vel_unstamped` represent?", "options": ["Velocity command without timestamp", "Stamped velocity", "Position command", "Acceleration command"], "answer": "Velocity command without timestamp"},
+            {"question": "Why is MAVROS important for drone autonomy?", "options": ["It provides an interface between the AI software and the flight controller", "It runs the flight controller", "It simulates the drone", "It processes images"], "answer": "It provides an interface between the AI software and the flight controller"},
+            {"question": "What is the purpose of `install_geographiclib_datasets.sh`?", "options": ["Installs geographic datasets for geoid models", "Installs ROS packages", "Installs CUDA", "Installs OpenCV"], "answer": "Installs geographic datasets for geoid models"},
+            {"question": "What does `ros2 topic echo /mavros/state` display?", "options": ["The current state of the drone (connected, armed, etc.)", "The camera image", "The velocity commands", "The battery level"], "answer": "The current state of the drone (connected, armed, etc.)"},
+            {"question": "What is the advantage of using ROS 2 over a custom communication system?", "options": ["Reusability, modularity, and a rich ecosystem", "Lower latency", "Simpler code", "No dependencies"], "answer": "Reusability, modularity, and a rich ecosystem"}
+          ]
+        },
+        {
+          "title": "Optimization for Survival: HIL & Latency Profiling",
+          "detailed_explanation": "Hardware-in-the-Loop (HIL) testing allows you to simulate the drone's flight while using the actual flight controller and AI computer. NVIDIA Isaac Sim provides a photorealistic simulation environment with ROS 2 integration. You can feed simulated camera data to the real Jetson and test the AI software safely. Latency profiling with Nsight Systems helps you identify bottlenecks: is it the image capture, model inference, or command transmission? By measuring each stage, you can optimize the critical path.",
+          "step_by_step_guide": [
+            {
+              "step": 1,
+              "title": "Set up NVIDIA Isaac Sim",
+              "description": "Install Isaac Sim on a powerful PC (or cloud).",
+              "code": "# Download and install via Omniverse Launcher\n# Launch Isaac Sim from the launcher"
+            },
+            {
+              "step": 2,
+              "title": "Create a drone model and environment in Isaac Sim",
+              "description": "Use the built-in drone assets or import a custom model.",
+              "code": "# In Isaac Sim, use the 'Create' menu to add a quadcopter\n# Configure sensors: camera, IMU, GPS"
+            },
+            {
+              "step": 3,
+              "title": "Connect Isaac Sim to the real Jetson via ROS 2",
+              "description": "Publish simulated camera images to a ROS topic that the Jetson subscribes to.",
+              "code": "# In Isaac Sim, use the ROS 2 bridge to publish camera images to /camera/image_raw\n# On Jetson, run your obstacle avoidance node subscribed to that topic"
+            },
+            {
+              "step": 4,
+              "title": "Run HIL test with flight controller",
+              "description": "Connect the Pixhawk to the simulation via MAVLink and simulate flight.",
+              "code": "# On the simulation PC, run a MAVLink forwarder to send telemetry from Isaac Sim to the real Pixhawk\n# Or use a virtual serial port\n# The Pixhawk will receive simulated sensor data and output actuator commands"
+            },
+            {
+              "step": 5,
+              "title": "Profile latency using Nsight Systems",
+              "description": "Run your application with Nsight Systems to collect timeline data.",
+              "code": "nsys profile -o my_profile python obstacle_avoidance_node.py\n# Then view with nsys-ui my_profile.qdstrm"
+            },
+            {
+              "step": 6,
+              "title": "Identify bottlenecks",
+              "description": "Analyze the timeline to see where time is spent.",
+              "code": "# Look for large gaps between events\n# Typical bottlenecks: image resize (CPU), model inference (GPU), or MAVROS publish (network)"
+            }
+          ],
+          "quiz": [
+            {"question": "What is Hardware-in-the-Loop (HIL) testing?", "options": ["Testing with real hardware connected to a simulator", "Testing only in simulation", "Testing on the actual drone", "Testing with no hardware"], "answer": "Testing with real hardware connected to a simulator"},
+            {"question": "What is NVIDIA Isaac Sim used for?", "options": ["Simulating robots with realistic physics and sensors", "Training AI models", "Labeling data", "Versioning models"], "answer": "Simulating robots with realistic physics and sensors"},
+            {"question": "Why is HIL important for drone development?", "options": ["Allows safe testing of AI and control software before flight", "Reduces development cost", "Speeds up compilation", "Increases battery life"], "answer": "Allows safe testing of AI and control software before flight"},
+            {"question": "What tool does NVIDIA provide for latency profiling?", "options": ["Nsight Systems", "TensorRT", "DeepStream", "CUDA"], "answer": "Nsight Systems"},
+            {"question": "What is a typical bottleneck in an AI drone pipeline?", "options": ["Model inference", "Image capture", "Command transmission", "All of the above"], "answer": "All of the above"},
+            {"question": "How can you connect Isaac Sim to ROS 2?", "options": ["Using the ROS 2 bridge extension", "Via a custom Python script", "Through a UDP socket", "All of the above"], "answer": "Using the ROS 2 bridge extension"},
+            {"question": "What does the `nsys profile` command do?", "options": ["Profiles an application and generates a timeline", "Compiles a program", "Runs a simulation", "Starts a debugger"], "answer": "Profiles an application and generates a timeline"},
+            {"question": "What is the benefit of using simulated camera data for testing?", "options": ["Controlled conditions, repeatability, and no risk of crash", "Higher resolution", "Lower latency", "Faster processing"], "answer": "Controlled conditions, repeatability, and no risk of crash"},
+            {"question": "What does the timeline in Nsight Systems show?", "options": ["CPU and GPU activity over time", "Memory usage", "Disk I/O", "Network traffic"], "answer": "CPU and GPU activity over time"},
+            {"question": "What is the purpose of the ROS 2 bridge in Isaac Sim?", "options": ["To exchange messages between simulation and ROS 2 nodes", "To control the simulation", "To record simulation data", "To render graphics"], "answer": "To exchange messages between simulation and ROS 2 nodes"},
+            {"question": "Which of the following can be a bottleneck in the AI pipeline?", "options": ["Image resizing on CPU", "Inference on GPU", "Serialization of messages", "All of the above"], "answer": "All of the above"},
+            {"question": "How can you reduce latency in the pipeline?", "options": ["Use GPU-accelerated preprocessing", "Optimize model with TensorRT", "Reduce message size", "All of the above"], "answer": "All of the above"},
+            {"question": "What does HIL simulate?", "options": ["The environment and sensors, while using real flight controller", "Only the environment", "Only the flight controller", "None"], "answer": "The environment and sensors, while using real flight controller"},
+            {"question": "What is the typical output of a latency profiling session?", "options": ["A timeline graph showing events", "A memory dump", "A log file", "A core dump"], "answer": "A timeline graph showing events"},
+            {"question": "What is the advantage of using a real Jetson in HIL?", "options": ["Tests actual AI software on target hardware", "Faster simulation", "No need for simulation", "Reduces cost"], "answer": "Tests actual AI software on target hardware"},
+            {"question": "What is the role of MAVLink in HIL?", "options": ["Transmits simulated sensor data from the simulator to the flight controller", "Controls the camera", "Processes images", "Manages power"], "answer": "Transmits simulated sensor data from the simulator to the flight controller"},
+            {"question": "What does the 'gap' in the Nsight timeline indicate?", "options": ["Idle time or waiting for data", "High CPU usage", "Memory allocation", "Disk I/O"], "answer": "Idle time or waiting for data"},
+            {"question": "Why is it important to profile the entire system end-to-end?", "options": ["To find the slowest component and optimize it", "To measure model accuracy", "To check for memory leaks", "To verify flight times"], "answer": "To find the slowest component and optimize it"},
+            {"question": "What is a common optimization for image preprocessing on Jetson?", "options": ["Use CUDA or DeepStream for GPU acceleration", "Use Python loops", "Use OpenCV CPU", "Use TensorFlow Lite"], "answer": "Use CUDA or DeepStream for GPU acceleration"},
+            {"question": "What is the primary benefit of HIL over pure simulation?", "options": ["Tests real hardware and software integration", "Faster", "Cheaper", "More accurate physics"], "answer": "Tests real hardware and software integration"}
+          ]
+        }
+      ]
+    }
+  ],
+  "grand_project": {
+    "name": "Autonomous Forest Fire Detection System",
+    "description": "A fully integrated system combining all four tracks: the drone autonomously patrols a forest area, uses thermal and vision AI to detect smoke, avoids obstacles, and reports fire locations. The system includes a cloud back-end for data logging, model retraining, and fleet management.",
+    "components": [
+      {
+        "track": "Data Engineer",
+        "contribution": "Processes thermal and LiDAR data to create a 3D map of the forest. Uses PostGIS to store geotagged images and STAC API to catalog them. Implements COGs for efficient streaming of aerial maps."
+      },
+      {
+        "track": "AI Engineer",
+        "contribution": "Trains a Vision Transformer (ViT) optimized for small smoke plume detection using knowledge distillation to produce a lightweight student model. Quantizes the model to INT8 for deployment on Jetson."
+      },
+      {
+        "track": "Edge AI Engineer",
+        "contribution": "Deploys the quantized model on Jetson Orin Nano with DeepStream pipeline. Integrates with ROS 2 and MAVROS for real-time obstacle avoidance and flight control. Uses CUDA for image preprocessing."
+      },
+      {
+        "track": "ML Platform Engineer",
+        "contribution": "Implements an OTA update pipeline using Kubernetes and Kubeflow. Automatically uploads 'near miss' obstacles to the cloud, triggers active learning, and retrains the model. Manages model versions with DVC and serves new models via Triton."
+      }
+    ],
+    "learning_materials": [
+      {
+        "title": "NVIDIA JetBot Forest Fire Detection Project",
+        "url": "https://github.com/NVIDIA-AI-IOT/jetbot"
+      },
+      {
+        "title": "OpenCV AI Drone (OAK-D) Fire Detection",
+        "url": "https://docs.luxonis.com/projects/examples/en/latest/object_detection/"
+      }
+    ]
+  },
+  "hardware_setup": {
+    "description": "A custom-built 7-inch long-range drone with a high-performance AI computer, designed to carry the Jetson Orin Nano and support all training tracks.",
+    "components": [
+      {
+        "name": "DJI O4 Air Unit Pro",
+        "role": "Provides HD video feed to the pilot (via Goggles N3) and control signals to the flight controller. Also offers telemetry data (GPS, altitude) that can be used for geotagging.",
+        "buy_link": "https://www.dji.com/o4-air-unit",
+        "documentation": "https://www.dji.com/o4-air-unit/downloads"
+      },
+      {
+        "name": "Pixhawk 6C / Matek H743-WLN Flight Controller",
+        "role": "Runs ArduPilot or PX4 firmware; handles flight stabilization and communicates with the AI computer via MAVLink.",
+        "buy_link": "https://holybro.com/collections/autopilot/products/pixhawk-6c",
+        "documentation": "https://docs.px4.io/main/en/flight_controller/pixhawk6c.html"
+      },
+      {
+        "name": "NVIDIA Jetson Orin Nano (8GB)",
+        "role": "The AI brain. Runs deep learning models, processes camera feeds, and sends commands to the flight controller. Also hosts the MLOps stack for over-the-air updates.",
+        "buy_link": "https://developer.nvidia.com/embedded/jetson-orin-nano-developer-kit",
+        "documentation": "https://docs.nvidia.com/jetson/orin/nano/index.html"
+      },
+      {
+        "name": "Luxonis OAK-D Lite Camera",
+        "role": "Provides a stereo vision feed for the AI (since the DJI O4 feed is proprietary and cannot be directly accessed by the Jetson). Used for obstacle detection and scene understanding.",
+        "buy_link": "https://shop.luxonis.com/products/oak-d-lite",
+        "documentation": "https://docs.luxonis.com/projects/api/en/latest/"
+      },
+      {
+        "name": "7-inch Long Range Frame (e.g., iFlight Chimera7)",
+        "role": "Carbon fiber frame large enough to hold the Jetson, flight controller, and a 6S 5000mAh battery.",
+        "buy_link": "https://www.iflight.com/chimera7-pro-v2",
+        "note": "Check compatibility with Jetson mounting"
+      },
+      {
+        "name": "DJI Remote 3 & Goggles N3",
+        "role": "Pilot control and video display. Provides a safety override: in case of AI failure, the pilot can flick a switch to regain manual control.",
+        "buy_link": "https://www.dji.com/remote-3",
+        "documentation": "https://www.dji.com/goggles-n3"
+      }
+    ],
+    "utilization_by_track": {
+      "AI Engineer": "Uses the OAK-D camera to capture training data; tests models in real flights.",
+      "ML Platform Engineer": "Deploys Docker containers to the Jetson; performs OTA updates.",
+      "Data Engineer": "Tags every image from the OAK-D with GPS/telemetry from the O4 Air Unit to build geospatial datasets.",
+      "Edge AI Engineer": "Implements real-time obstacle avoidance by sending commands from the Jetson to the Pixhawk."
+    },
+    "safety_note": "Before any real flight, practice in a simulator (Liftoff or DJI Virtual Flight) using the Remote 3 to master manual mode. Always keep the pilot in control with a safety switch that overrides AI commands.",
+    "week1_setup_guide": {
+      "title": "Week 1: Purchase & Initial Setup",
+      "steps": [
+        "Order all hardware components listed above. Ensure you have a soldering iron, LiPo battery charger, and basic drone assembly tools.",
+        "Assemble the drone frame, mount the Pixhawk and DJI O4 Air Unit. Follow a standard 7-inch build tutorial (e.g., Joshua Bardwell on YouTube).",
+        "Install ArduPilot or PX4 on the Pixhawk and configure it with Mission Planner or QGroundControl.",
+        "Set up the NVIDIA Jetson Orin Nano with JetPack SDK (flash SD card, install CUDA, DeepStream).",
+        "Connect the OAK-D camera to the Jetson and run the depthai demo to verify functionality.",
+        "Install ROS 2 Humble on the Jetson and establish MAVROS connection to the Pixhawk via UART or USB.",
+        "Test basic telemetry by running `ros2 topic echo /mavros/state`."
+      ]
+    }
+  },
+  "resources": {
+    "simulators": [
+      {
+        "name": "Liftoff",
+        "url": "https://www.liftoff-game.com/",
+        "note": "Great for learning manual FPV flying with the DJI Remote 3."
+      },
+      {
+        "name": "DJI Virtual Flight",
+        "url": "https://www.dji.com/simulator",
+        "note": "Official simulator for DJI drones."
+      },
+      {
+        "name": "Gazebo with PX4",
+        "url": "https://docs.px4.io/main/en/simulation/gazebo.html",
+        "note": "Open-source simulation for ROS 2 and PX4."
+      }
+    ],
+    "communities": [
+      {
+        "name": "ArduPilot Discourse",
+        "url": "https://discuss.ardupilot.org/"
+      },
+      {
+        "name": "PX4 Discussion",
+        "url": "https://discuss.px4.io/"
+      },
+      {
+        "name": "NVIDIA Jetson Developer Forum",
+        "url": "https://forums.developer.nvidia.com/c/accelerated-computing/intelligent-edge-systems/jetson-embedded-systems/"
+      },
+      {
+        "name": "ROS Discourse",
+        "url": "https://discourse.ros.org/"
+      }
+    ],
+    "books": [
+      {
+        "title": "Programming Computer Vision with Python",
+        "author": "Jan Erik Solem",
+        "note": "Foundational, but good for image processing basics."
+      },
+      {
+        "title": "Deep Learning with PyTorch",
+        "author": "Eli Stevens et al.",
+        "note": "Covers PyTorch fundamentals and advanced topics."
+      },
+      {
+        "title": "Aerial Robotics",
+        "author": "Vijay Kumar et al. (Coursera)",
+        "note": "Great theoretical background on drone control."
+      }
+    ]
+  }
+}
