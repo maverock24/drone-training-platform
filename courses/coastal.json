@@ -1,0 +1,173 @@
+{
+  "domain": "Coastal & Marine Conservation",
+  "description": "A comprehensive training program for building autonomous drone systems that monitor coastlines, track marine wildlife, assess coral reef health, detect illegal fishing, and support marine conservation efforts. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to marine and coastal environments, enabling automated wildlife counting, habitat assessment, erosion monitoring, and anti‑poaching surveillance.",
+  "learning_objectives": [
+    "Understand marine and coastal ecosystems: coral reefs, seagrass beds, mangroves, beaches, and marine protected areas (MPAs)",
+    "Build and train AI models for marine wildlife detection (turtles, dolphins, whales, sharks), species classification, and counting",
+    "Create geospatial and time‑series data pipelines for tracking habitat change, erosion, and illegal fishing activities",
+    "Deploy optimized models on edge hardware for real‑time wildlife detection and vessel monitoring during over‑water flights",
+    "Implement autonomous flight patterns for coastal surveys, transect lines, and reef mapping",
+    "Design fail‑safe mechanisms for over‑water operations (auto‑return, flotation, corrosion resistance)",
+    "Comply with marine protection regulations, aviation restrictions, and wildlife interaction guidelines"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Coastal and Marine Conservation Fundamentals",
+      "lessons": [
+        {
+          "title": "Marine Ecosystems and Conservation Challenges",
+          "content": "Study key marine habitats: coral reefs (shallow tropical), seagrass meadows, mangrove forests, kelp forests, sandy beaches, and rocky shores. Understand their ecological importance: nursery grounds, carbon sequestration, coastal protection, and biodiversity hotspots. Learn about threats: climate change (coral bleaching, sea‑level rise), overfishing, illegal fishing, pollution (plastics, oil), coastal development, and invasive species. Understand conservation strategies: marine protected areas (MPAs), sustainable fishing, restoration projects, and wildlife protection laws (e.g., Marine Mammal Protection Act, Endangered Species Act)."
+        },
+        {
+          "title": "Operational Scenarios and Requirements",
+          "content": "Analyze scenarios: marine wildlife population surveys (turtles nesting, dolphin pods, whale migrations), coral reef health monitoring (bleaching assessment, algae overgrowth), illegal fishing surveillance (detecting vessels in MPAs), coastal erosion mapping, marine debris detection, and beach monitoring for nesting birds. Define requirements: long‑endurance flights (45+ min), water‑resistant or amphibious drones, high‑zoom RGB for wildlife identification, multispectral for water quality and coral health, thermal for night surveillance, RTK GPS for precise shoreline mapping, and integration with marine park databases."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Marine Wildlife and Habitat Monitoring",
+      "lessons": [
+        {
+          "title": "Marine Wildlife Detection and Classification",
+          "content": "Train object detection models to identify marine animals from aerial imagery: sea turtles (surfacing, nesting), dolphins, whales (breaching, tail flukes), sharks, rays, and seabirds. Use datasets like WAID (Wildlife Aerial Image Dataset) and custom drone imagery. Address challenges: animals partially submerged, small size, motion blur, and low contrast with water. For sea turtle nesting, also detect tracks on beaches. Output species classification, count, and geolocation.",
+          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')\nmodel.train(data='marine_wildlife.yaml', epochs=100)"
+        },
+        {
+          "title": "Coral Reef Health Assessment",
+          "content": "Use multispectral imagery (e.g., RedEdge, or Sentinel‑2 satellite) to compute coral health indices (e.g., depth‑invariant indices, algal cover). Train a semantic segmentation model to classify reef zones: live coral, bleached coral, algae, sand. For shallow water, use aerial photogrammetry to create 3D models of reef structure. Detect changes over time (e.g., bleaching events).",
+          "code_example": "from sklearn.ensemble import RandomForestClassifier\n# Use spectral bands (red, green, blue, red‑edge, NIR) to classify coral health"
+        },
+        {
+          "title": "Illegal Fishing Vessel Detection",
+          "content": "Train an object detection model to identify fishing vessels (by shape, gear) in marine protected areas. Combine with AIS (Automatic Identification System) data to flag vessels not transmitting AIS (potential illegal fishing). Also detect fishing gear (nets, buoys) and floating debris. Alert park rangers in real time.",
+          "code_example": "import torch\n# YOLO detection + AIS correlation\nif vessel_detected and not vessel_in_ais:\n    send_alert()"
+        },
+        {
+          "title": "Coastal Erosion and Habitat Change Detection",
+          "content": "Use change detection on time‑series aerial imagery and LiDAR to monitor coastline retreat, dune migration, and mangrove loss. Train a segmentation model to classify shoreline, vegetation, and infrastructure. Quantify erosion rates and prioritize restoration efforts.",
+          "code_example": "import cv2\n# Image registration and difference computation\nim1 = cv2.imread('coast_2024.tif')\nim2 = cv2.imread('coast_2025.tif')\ndiff = cv2.absdiff(im1, im2)"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Marine Conservation Data Platform",
+      "lessons": [
+        {
+          "title": "PostGIS for Marine Protected Areas and Wildlife Sightings",
+          "content": "Store MPA boundaries, wildlife sightings, vessel tracks, and survey transects in PostGIS. Use spatial queries to retrieve sightings by species, date, or location, and to check if vessels are inside MPAs. Build a database for long‑term population trends.",
+          "code_example": "CREATE TABLE wildlife_sightings (\n  id SERIAL PRIMARY KEY,\n  species TEXT,\n  count INT,\n  geom GEOMETRY(Point, 4326),\n  sighting_time TIMESTAMP\n);\nCREATE INDEX idx_wildlife_geom ON wildlife_sightings USING GIST (geom);"
+        },
+        {
+          "title": "STAC for Marine Monitoring Flights",
+          "content": "Catalog all conservation flights using STAC. Each item includes bounding box, datetime, sensor type, detected species, and environmental data (water temperature, turbidity). Provide a STAC API for researchers and park managers to query historical data.",
+          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"turtle_survey_2025_11_15\",\n  \"properties\": {\n    \"datetime\": \"2025-11-15T08:00:00Z\",\n    \"turtle_count\": 12,\n    \"turtle_species\": [\"green\", \"loggerhead\"]\n  },\n  \"assets\": {\n    \"orthophoto\": {\"href\": \"s3://.../turtle_ortho.tif\"}\n  }\n}"
+        },
+        {
+          "title": "Integration with Marine Conservation Databases",
+          "content": "Push data to global databases like OBIS (Ocean Biogeographic Information System), Sea Turtle Conservancy, or local MPA management platforms. Use APIs to share data with researchers and policymakers.",
+          "code_example": "import requests\nrequests.post('https://obis.org/api/occurrence', json=occurrence_data)"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Real‑Time Marine Monitoring",
+      "lessons": [
+        {
+          "title": "Hardware Configuration for Coastal Drones",
+          "content": "Select sensors: high‑zoom RGB (for wildlife), multispectral (for coral), thermal (for night surveillance). Use a drone with corrosion‑resistant coating, waterproofing (IP54 or higher), and flotation device. Use RTK GPS for precise shoreline mapping. Consider long‑range communication (4G/5G or high‑gain radio). Connect to Jetson Orin Nano for on‑board processing."
+        },
+        {
+          "title": "DeepStream Pipeline for Real‑Time Wildlife Detection",
+          "content": "Build a DeepStream pipeline that runs wildlife detection on live video, overlays species and count, and transmits alerts (e.g., 'Sea turtle detected, avoid area') to the pilot or ground station. For illegal fishing, overlay vessel tracks and AIS status. Use hardware acceleration for low latency.",
+          "code_example": "deepstream-app -c marine_conservation_config.txt"
+        },
+        {
+          "title": "ROS 2 Integration for Automated Survey Flights",
+          "content": "Create a ROS 2 node that plans transect lines over a reef or coastline, executes the flight using MAVROS, and logs wildlife sightings. For nesting beach surveys, fly at low altitude (50–100 m) along the shoreline. Use computer vision to keep the coastline centered in frame. Optionally, integrate with an onboard AI to adapt flight path to follow detected animals.",
+          "code_example": "class MarineSurveyor(Node):\n    def __init__(self):\n        super().__init__('marine_surveyor')\n        self.waypoint_pub = self.create_publisher(Pose, '/waypoint', 10)\n\n    def plan_transect(self, start, end, spacing):\n        # generate lawnmower pattern over area"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Continuous Improvement for Conservation Models",
+      "lessons": [
+        {
+          "title": "Active Learning for Rare Species",
+          "content": "Collect images where wildlife detection confidence is low or where marine biologists report missed sightings. Send to experts for labeling. Retrain models to improve detection of rare or endangered species (e.g., specific turtle species, dugongs).",
+          "code_example": "uncertain = [img for img in survey_data if model_confidence < 0.5]\ncvat.create_task('marine_active_learning', uncertain)"
+        },
+        {
+          "title": "Kubeflow Pipelines for Seasonal Retraining",
+          "content": "Set up a Kubeflow pipeline that retrains wildlife and habitat models after each field season, incorporating new labeled data. Deploy improved models to drone fleet for the next season. Version models by species and habitat type.",
+          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef marine_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
+        },
+        {
+          "title": "Monitoring Model Drift with Environmental Changes",
+          "content": "Use Evidently AI to compare image distributions across seasons, water conditions (clear vs. turbid), and locations. Drift due to coral bleaching or seasonal algae blooms may require retraining with updated imagery.",
+          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=pre_bleaching, current_data=post_bleaching)"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Simulation and Testing",
+      "lessons": [
+        {
+          "title": "Hardware‑in‑the‑Loop (HIL) with Marine Environment",
+          "content": "Use NVIDIA Isaac Sim or Unreal Engine with water physics, dynamic wildlife models (animated turtles, dolphins), and moving vessels. Connect real Pixhawk and Jetson. Test survey transects, wildlife detection, and illegal fishing alerts. Validate safety behaviors over water (auto‑return on low battery, water landing simulation).",
+          "code_example": "Isaac Sim with ROS2 bridge; drone flies coastal transect; Jetson detects simulated wildlife; alerts sent to ground station."
+        },
+        {
+          "title": "Latency Profiling for Real‑Time Alerting",
+          "content": "Profile detection‑to‑alert latency using Nsight Systems. For illegal fishing alerts, latency should be < 1 second. Optimize models (e.g., YOLOv8‑tiny) and use hardware‑accelerated pipelines.",
+          "code_example": "nsys profile -o marine_profile python marine_surveyor.py"
+        }
+      ]
+    },
+    {
+      "title": "Module 7: Safety, Regulatory, and Ethical Considerations",
+      "lessons": [
+        {
+          "title": "Wildlife Interaction Guidelines",
+          "content": "Follow marine wildlife approach distances (e.g., 100 m for whales, 50 m for dolphins, 20 m for turtles). Avoid flying directly over animals to reduce stress. Use silent propellers. If animals change behavior (e.g., diving), retreat immediately. Ensure flights are approved by relevant conservation authorities."
+        },
+        {
+          "title": "Aviation and Marine Regulations",
+          "content": "Comply with FAA or local aviation rules for coastal flights. Over water, maintain VLOS or obtain BVLOS waivers. Respect no‑fly zones over marine protected areas (unless authorized). Coordinate with park rangers and maritime authorities."
+        },
+        {
+          "title": "Data Stewardship and Privacy",
+          "content": "Share data with conservation organizations while respecting data sensitivity (e.g., location of endangered species nests). Use open data formats and attribute sources. Ensure that drone operations do not disturb local communities or tourism."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Autonomous Marine Wildlife and Coastal Health Drone",
+    "description": "Build and test a drone system that autonomously surveys a designated coastal segment (simulated in HIL) to count sea turtles (or another marine species) and assess shoreline condition (erosion, debris). The system must fly a predetermined transect, detect and classify at least two species (simulated), compute counts with >85% accuracy, and identify areas of erosion or debris accumulation. Generate a report with geotagged detections and maps. Mission duration < 20 minutes for a 2 km coastline.",
+    "deliverables": [
+      "Trained wildlife detection and habitat classification models (quantized, <150 MB)",
+      "ROS 2 nodes for survey planning, detection, and logging",
+      "PostGIS database for sightings and shoreline data",
+      "Kubeflow pipeline for retraining",
+      "HIL simulation report with detection accuracy and mission completion time",
+      "Safety plan including wildlife approach distances and over‑water procedures"
+    ]
+  },
+  "resources": [
+    {
+      "name": "WAID – Wildlife Aerial Image Dataset",
+      "url": "https://www.kaggle.com/datasets/sinhalok/wildlife-aerial-images",
+      "description": "Aerial wildlife images for training"
+    },
+    {
+      "name": "NOAA Coral Reef Conservation Program",
+      "url": "https://coralreef.noaa.gov/",
+      "description": "Guidelines and datasets for coral monitoring"
+    },
+    {
+      "name": "Marine Mammal Protection Act (MMPA)",
+      "url": "https://www.fisheries.noaa.gov/national/marine-mammal-protection/marine-mammal-protection-act",
+      "description": "Legal framework for marine wildlife protection"
+    }
+  ]
+}

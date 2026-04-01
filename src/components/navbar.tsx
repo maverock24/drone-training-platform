@@ -19,12 +19,14 @@ import {
   LogIn,
   LogOut,
   User,
+  Sparkles,
 } from "lucide-react";
 import { useState } from "react";
 import { useAuth } from "@/lib/auth-context";
 
 const publicNavItems = [
   { href: "/", label: "Home", icon: GraduationCap },
+  { href: "/domains", label: "Domains", icon: Sparkles },
   { href: "/glossary", label: "Glossary", icon: BookText },
   { href: "/hardware", label: "Hardware", icon: Wrench },
   { href: "/resources", label: "Resources", icon: Library },
@@ -37,6 +39,7 @@ const authNavItems = [
   { href: "/tracks/data-engineer", label: "Data Engineer", icon: Database },
   { href: "/tracks/edge-ai", label: "Edge AI", icon: Cpu },
   { href: "/grand-project", label: "Grand Project", icon: Flame },
+  { href: "/domains", label: "Domains", icon: Sparkles },
   { href: "/glossary", label: "Glossary", icon: BookText },
   { href: "/hardware", label: "Hardware", icon: Wrench },
   { href: "/resources", label: "Resources", icon: Library },

@@ -1,0 +1,174 @@
+{
+  "domain": "Mining & Quarry Operations",
+  "description": "A comprehensive training program for building autonomous drone systems that map stockpiles, monitor blast areas, inspect haul roads, and enhance safety in mining and quarry operations. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to extractive industries, enabling automated volume calculations, hazard detection, slope stability monitoring, and integration with mine planning software.",
+  "learning_objectives": [
+    "Understand mining and quarry operations: open‑pit mines, underground mines, stockpiles, blast zones, haul roads, and processing facilities",
+    "Build and train AI models for stockpile volume estimation, blast fragmentation analysis, slope stability monitoring, and hazard detection (loose rocks, equipment, personnel)",
+    "Create geospatial and time‑series data pipelines for tracking material movement, pit progression, and environmental compliance",
+    "Deploy optimized models on edge hardware for real‑time hazard detection and operational insights",
+    "Implement autonomous flight patterns for stockpile scanning, pit mapping, and haul road monitoring",
+    "Design fail‑safe mechanisms for operation in dusty, GPS‑denied, and high‑risk environments",
+    "Comply with mine safety regulations (MSHA, ISO 17757) and integrate with mine management systems"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Mining and Quarry Operations Fundamentals",
+      "lessons": [
+        {
+          "title": "Mining Environments and Operational Workflows",
+          "content": "Study types of mining: open‑pit (surface) mines (copper, iron, gold, coal), quarry (aggregates, limestone), and underground mines. Understand key operational elements: benches, ramps, blast holes, stockpiles, crushers, conveyor belts, haul trucks, and processing plants. Learn about material flow: extraction → blasting → loading → hauling → crushing → stockpiling → processing. Identify safety hazards: falling rocks, unstable slopes, equipment collisions, dust, and restricted visibility. Understand regulatory bodies: MSHA (US), ISO 17757 for autonomous mining systems."
+        },
+        {
+          "title": "Operational Scenarios and Requirements",
+          "content": "Analyze scenarios: stockpile volume measurement (weekly or daily for inventory reconciliation), blast fragmentation analysis (optimizing explosives), haul road condition monitoring (detecting ruts, dust), slope stability monitoring (early warning of failure), equipment tracking (trucks, excavators), and personnel safety (detecting people in hazardous zones). Define requirements: high‑accuracy georeferencing (RTK GPS or total station), LiDAR for 3D mapping, high‑resolution RGB for fragmentation analysis, thermal for equipment health, long‑endurance drones (30+ min), and dust‑resistant airframes. Integration with mine planning software (e.g., MineSight, Surpac) and fleet management systems."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Material Analysis and Hazard Detection",
+      "lessons": [
+        {
+          "title": "Stockpile Volume Estimation",
+          "content": "Build a pipeline to create 3D models of stockpiles using photogrammetry or LiDAR. Use structure‑from‑motion (SFM) on overlapping RGB images to generate point clouds, or directly use LiDAR point clouds. Then compute volume using triangulated irregular network (TIN) or voxel methods relative to a baseline surface. Train a segmentation model to separate stockpile from ground if needed. Output volume in cubic meters and weight (using density factors). Compare against previous measurements to track consumption or production.",
+          "code_example": "import open3d as o3d\npcd = o3d.io.read_point_cloud('stockpile.ply')\n# Compute convex hull or create mesh\nmesh, densities = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(pcd)\nvolume = mesh.get_volume()"
+        },
+        {
+          "title": "Blast Fragmentation Analysis",
+          "content": "Train a segmentation model to identify individual rock fragments in post‑blast imagery. Use high‑resolution images of the muck pile. Compute fragment size distribution (F80, P80) to evaluate blast efficiency. Use image processing (watershed segmentation) or deep learning (Mask R‑CNN) to segment rocks. Output histograms and recommend adjustments to blast design.",
+          "code_example": "from skimage import segmentation\n# Use watershed on edge image to separate touching rocks"
+        },
+        {
+          "title": "Slope Stability and Hazard Detection",
+          "content": "Train a detection model to identify signs of slope instability: tension cracks, bulging, rockfalls, or loose blocks. Use high‑resolution imagery and LiDAR to detect subtle changes over time (differential scans). Use change detection algorithms (e.g., C2C – Cloud‑to‑Cloud) to measure displacements. Train a classifier to distinguish between stable and potentially unstable areas. Output risk heatmaps and alert if displacement exceeds thresholds.",
+          "code_example": "import numpy as np\n# Compute distance between two point clouds (baseline and current)\ndistances = pcd1.compute_point_cloud_distance(pcd2)\nunstable_areas = distances > 0.5  # 50 cm displacement"
+        },
+        {
+          "title": "Haul Road Condition and Equipment Detection",
+          "content": "Train models to detect haul road defects (ruts, potholes, excessive dust) and to identify and track heavy equipment (trucks, excavators, dozers). Use object detection (YOLO) for equipment. For road condition, use semantic segmentation to classify road surface quality. Combine with vehicle GPS data to prioritize maintenance.",
+          "code_example": "model = YOLO('yolov8n.pt')\nmodel.train(data='mining_equipment.yaml', epochs=50)"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Mine Geospatial Data Management",
+      "lessons": [
+        {
+          "title": "PostGIS for Mine Planning and Inventory",
+          "content": "Store mine boundaries, bench geometries, blast zones, stockpile locations, and equipment positions in PostGIS. Use spatial queries to retrieve stockpiles by area, or to find areas that have been recently blasted. Track material movement over time.",
+          "code_example": "CREATE TABLE stockpiles (\n  id SERIAL PRIMARY KEY,\n  name TEXT,\n  geom GEOMETRY(Polygon, 32610),  -- UTM projection\n  volume_m3 FLOAT,\n  material_type TEXT,\n  surveyed_date TIMESTAMP\n);\nCREATE INDEX idx_stockpiles_geom ON stockpiles USING GIST (geom);"
+        },
+        {
+          "title": "STAC for Mine Data Archiving",
+          "content": "Catalog all mine survey flights using STAC. Each item includes bounding box, datetime, sensor type (LiDAR, RGB, thermal), computed volumes, and fragmentation data. Enable search over historical data for trend analysis and regulatory reporting.",
+          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"stockpile_survey_2025_10_15\",\n  \"properties\": {\n    \"datetime\": \"2025-10-15T14:00:00Z\",\n    \"stockpile_id\": \"north_ore\",\n    \"volume_m3\": 12500.5\n  },\n  \"assets\": {\n    \"point_cloud\": {\"href\": \"s3://.../stockpile.laz\"}\n  }\n}"
+        },
+        {
+          "title": "Integration with Mine Planning Software",
+          "content": "Build APIs to push volume reports, fragmentation data, and hazard alerts to mine planning systems (e.g., Surpac, Vulcan, MineSight). Automatically update digital mine models with new survey data. Provide dashboards for geologists and engineers.",
+          "code_example": "import requests\npayload = {'stockpile_id': 'north_ore', 'volume': 12500, 'survey_date': '2025-10-15'}\nrequests.post('https://mine-planning-api/stockpiles', json=payload)"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Real‑Time Mine Monitoring",
+      "lessons": [
+        {
+          "title": "Hardware Configuration for Mining Drones",
+          "content": "Select sensors: LiDAR (e.g., Riegl, Velodyne) for volume and slope mapping, high‑resolution RGB camera (20+ MP) for fragmentation, optionally thermal for equipment health. Use a drone with RTK GPS for accuracy, dust‑resistant airframe, and high wind tolerance. For underground mines, use collision‑tolerant drones with cage and lighting, and rely on visual‑inertial odometry (VIO) for navigation. Connect to Jetson Orin Nano for on‑board processing of fragmentation and hazard detection."
+        },
+        {
+          "title": "DeepStream Pipeline for Real‑Time Hazard Detection",
+          "content": "Build a DeepStream pipeline that processes live video for equipment detection, personnel detection, and road condition. Overlay alerts (e.g., 'Person in exclusion zone') on the video feed. Stream to a control room for safety monitoring. For fragmentation, run periodic analysis on captured images and transmit results.",
+          "code_example": "deepstream-app -c mining_safety_config.txt"
+        },
+        {
+          "title": "ROS 2 Integration for Autonomous Mine Surveying",
+          "content": "Create a ROS 2 node that plans survey flights: stockpile passes, bench sweeps, or haul road patrols. Use MAVROS to execute waypoints. While flying, collect LiDAR and imagery, and optionally run on‑board volume estimation (e.g., using voxel counting) to give immediate feedback. For underground, use SLAM (e.g., LIO‑SAM) for localization.",
+          "code_example": "class MineSurveyor(Node):\n    def __init__(self):\n        super().__init__('mine_surveyor')\n        self.waypoint_pub = self.create_publisher(Pose, '/waypoint', 10)\n\n    def plan_stockpile_survey(self, stockpile_center):\n        # Generate concentric circular or grid waypoints around stockpile"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Continuous Improvement for Mining Models",
+      "lessons": [
+        {
+          "title": "Active Learning for Fragmentation and Hazard Models",
+          "content": "Collect images where blast fragmentation analysis is uncertain or where safety violations were missed. Send to mine engineers for labeling. Use active learning to retrain models, especially for different rock types, lighting conditions, and equipment types.",
+          "code_example": "uncertain = model.get_uncertain_fragmentation(batch)\nlabelbox.create_project('mining_active_learning', uncertain)"
+        },
+        {
+          "title": "Kubeflow Pipelines for Daily/Monthly Retraining",
+          "content": "Set up a Kubeflow pipeline that retrains volume estimation models, fragmentation models, and hazard detection models as new survey data accumulates. Automate deployment of improved models to the drone fleet via OTA.",
+          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef mining_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
+        },
+        {
+          "title": "Monitoring Model Drift Across Mine Sites",
+          "content": "Use Evidently AI to compare input data distributions across different pits or mine sites. Changes in rock type, lighting, or dust levels can cause drift. Trigger retraining with site‑specific data when drift is detected.",
+          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=site_a_data, current_data=site_b_data)"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Simulation and Testing",
+      "lessons": [
+        {
+          "title": "Hardware‑in‑the‑Loop (HIL) with Mine Environment",
+          "content": "Use NVIDIA Isaac Sim or a mining‑specific simulator (e.g., AnyLogic, SimMine) to create realistic pit, stockpile, and haul road scenes. Simulate mining equipment, dust, and lighting changes. Connect real Pixhawk and Jetson. Test survey flights, hazard detection, and volume calculations. Validate safety behaviors in dynamic environments.",
+          "code_example": "Isaac Sim with ROS2 bridge; drone flies stockpile grid; Jetson runs volume estimation; compare to ground truth."
+        },
+        {
+          "title": "Latency Profiling for Safety Alerts",
+          "content": "Profile the detection‑to‑alert latency for personnel detection. Use Nsight Systems. For safety, latency should be < 200 ms. Optimize by using lightweight models (e.g., YOLOv8‑tiny) and GPU‑accelerated pipelines.",
+          "code_example": "nsys profile -o mining_profile python safety_monitor.py"
+        }
+      ]
+    },
+    {
+      "title": "Module 7: Safety, Regulatory, and Environmental Compliance",
+      "lessons": [
+        {
+          "title": "Mine Safety Regulations",
+          "content": "Study MSHA (US) and equivalent regulations. Understand requirements for operating drones near personnel, over blasting areas, and during active mining. Ensure that autonomous flights do not interfere with mining operations. Implement geofencing and collision avoidance with moving equipment. Follow lockout/tagout procedures for maintenance."
+        },
+        {
+          "title": "Environmental Compliance",
+          "content": "Monitor dust emissions, water runoff, and vegetation clearing using drone‑collected data. Generate reports for environmental permits. Use multispectral data to assess reclamation progress."
+        },
+        {
+          "title": "Data Security and Integrity",
+          "content": "Mine data is commercially sensitive. Encrypt data in transit and at rest. Implement access controls. Use blockchain or tamper‑proof logs for volume reports if required for financial reconciliation."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Autonomous Stockpile Measurement and Safety Monitoring Drone",
+    "description": "Build and test a drone system that autonomously surveys a stockpile (simulated) to compute volume and also monitors a designated safety zone for unauthorized personnel or equipment. The system must perform a grid flight, capture LiDAR or photogrammetric data, compute volume with <2% error, and simultaneously detect any humans or vehicles entering the safety zone, triggering an alert. Achieve full mission in under 15 minutes and generate a report with volume and any safety events.",
+    "deliverables": [
+      "Trained stockpile segmentation and volume estimation pipeline",
+      "Trained personnel and equipment detection model (quantized, <100 MB)",
+      "ROS 2 nodes for survey planning, data collection, and safety monitoring",
+      "PostGIS database for survey history",
+      "Kubeflow pipeline for retraining",
+      "HIL simulation report with volume accuracy and safety detection rates",
+      "Safety and regulatory compliance plan"
+    ]
+  },
+  "resources": [
+    {
+      "name": "MSHA Drone Safety Guidelines",
+      "url": "https://www.msha.gov/safety-and-health/safety-and-health-materials/technical-reports/drones",
+      "description": "Mine safety guidelines for drone use"
+    },
+    {
+      "name": "Open Source Stockpile Volume Estimation",
+      "url": "https://github.com/opendronemap/odm",
+      "description": "OpenDroneMap for photogrammetry"
+    },
+    {
+      "name": "ISO 17757 – Mining Drone Standards",
+      "url": "https://www.iso.org/standard/73286.html",
+      "description": "International standard for autonomous mining systems"
+    }
+  ]
+}

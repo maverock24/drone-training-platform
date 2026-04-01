@@ -1,0 +1,176 @@
+{
+  "domain": "Emergency Response & Search and Rescue",
+  "description": "A comprehensive training program for building autonomous drone systems that assist in emergency response, search and rescue operations, disaster assessment, and delivery of critical supplies. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to life‑saving missions, enabling rapid victim detection, situational awareness, and coordinated response in challenging environments.",
+  "learning_objectives": [
+    "Understand the operational context of search and rescue (SAR) missions: types of incidents (missing persons, natural disasters, floods, avalanches), victim profiles, and time‑criticality",
+    "Build and train AI models for victim detection (thermal, visual, audio) in varied terrains and weather conditions",
+    "Create geospatial data pipelines for real‑time mapping of disaster zones and sharing with incident command",
+    "Deploy optimized models on edge hardware for real‑time detection and autonomous navigation in degraded environments (GPS‑denied, smoke, fog)",
+    "Implement autonomous search patterns (grid, spiral, contour) and victim localization with precision",
+    "Design delivery mechanisms for emergency supplies (flotation devices, medical kits, communication devices)",
+    "Comply with emergency response protocols, airspace coordination, and privacy regulations"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Emergency Response and Search and Rescue Fundamentals",
+      "lessons": [
+        {
+          "title": "Types of SAR Missions and Operational Constraints",
+          "content": "Study different SAR scenarios: wilderness (lost hikers, hunters), urban (collapsed buildings, missing children), maritime (overboard persons, capsized vessels), avalanche, flood, and post‑disaster (earthquake, hurricane). Understand the golden hours concept: survival probability drops sharply after the first 24 hours. Learn about victim behavior: they may be mobile, hidden under debris, or in hypothermic states. Identify environmental challenges: dense forest, darkness, fog, smoke, rain, snow, high winds. Understand the importance of rapid aerial reconnaissance, thermal imaging, and communication relay."
+        },
+        {
+          "title": "Operational Scenarios and Requirements",
+          "content": "Analyze real‑world scenarios: missing person in forest (thermal search at night), flood rescue (delivering flotation devices to stranded people), earthquake building collapse (detecting signs of life under rubble), avalanche (transceiver detection, probing), maritime search (drifting person, life raft). Define requirements: long endurance (45+ minutes), robust communication (redundant links), ruggedized airframe, thermal and high‑zoom RGB cameras, payload for dropping supplies, ability to operate in inclement weather, integration with existing SAR command systems (e.g., ICS – Incident Command System)."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Victim Detection and Localization",
+      "lessons": [
+        {
+          "title": "Thermal‑Based Human Detection",
+          "content": "Train an object detection model (e.g., YOLOv8, Faster R‑CNN) on thermal imagery to detect human heat signatures. Use datasets like FLIR ADAS, SCUT FIR, and custom SAR thermal data. Address challenges: animals, vehicle engines, and other heat sources causing false positives; partially occluded victims; victims in hypothermia where heat signature is faint. Use data augmentation (simulating low contrast, noise) to improve robustness. Output bounding boxes with confidence scores and estimate victim pose (standing, lying) to help rescue planning.",
+          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')\n# Train on thermal dataset with 1 class 'human'"
+        },
+        {
+          "title": "Visual Detection in Challenging Environments",
+          "content": "Train a detection model on RGB imagery from drones in forest, snow, rubble, and water environments. Use datasets like VisDrone, DroneDeploy, and custom collections. Address occlusion by foliage, low contrast with background, and variable lighting. Use attention mechanisms to focus on subtle cues (color of clothing, movement). For maritime, train on small floating objects (life jackets, boats) using specialized datasets. Combine visual and thermal detection with fusion strategies to improve recall.",
+          "code_example": "import torch\nclass MultiModalDetector(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.rgb_backbone = torchvision.models.resnet50(pretrained=True)\n        self.thermal_backbone = torchvision.models.resnet50(pretrained=True)\n        self.fusion = nn.Conv2d(2048, 1024, 1)\n        self.detection_head = ..."
+        },
+        {
+          "title": "Audio Detection for Victim Calls",
+          "content": "Use microphone arrays on drones to detect human sounds: shouting, whistling, tapping. Train a sound event detection model (e.g., YAMNet, CNN on spectrograms) to classify human distress sounds. Use beamforming to localize the sound source. Combine with visual detection to confirm victim presence. This is particularly useful in dense forest or rubble where visual/thermal may be obstructed.",
+          "code_example": "import tensorflow_hub as hub\nmodel = hub.load('https://tfhub.dev/google/yamnet/1')\n# Process audio stream, detect 'human voice' class"
+        },
+        {
+          "title": "Victim Localization and Geo‑tagging",
+          "content": "Once a victim is detected, compute its precise geolocation by fusing drone GPS, IMU, and camera orientation (gimbal angles). Use ray casting to project pixel coordinates to ground coordinates, taking into account terrain elevation (using DEM). Output a geo‑tagged point with confidence and image timestamp. This information is transmitted to ground teams for immediate dispatch."
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Real‑Time Situational Awareness",
+      "lessons": [
+        {
+          "title": "Real‑Time Data Streaming with MQTT and WebSockets",
+          "content": "Implement a streaming pipeline where victim detections, drone telemetry, and video feeds are sent to a command center in real time. Use lightweight protocols like MQTT for metadata (detections, telemetry) and WebRTC for video. Ensure low latency (< 1 second) for time‑critical decisions. Store all data in a time‑series database (TimescaleDB) for post‑mission analysis and evidence.",
+          "code_example": "import paho.mqtt.client as mqtt\nclient.publish('sar/detections', json.dumps({'lat': lat, 'lon': lon, 'confidence': 0.95}))"
+        },
+        {
+          "title": "Geospatial Mapping and Incident Command Integration",
+          "content": "Build a web‑based Common Operating Picture (COP) that displays drone positions, flight paths, and victim detections on a map. Use leaflet or Cesium for 3D terrain. Integrate with incident command systems (e.g., ICS forms). Provide tools for ground teams to mark searched areas, assign tasks, and communicate. Store all search areas in PostGIS to avoid re‑searching covered grids.",
+          "code_example": "CREATE TABLE search_grid (\n  id SERIAL PRIMARY KEY,\n  geom GEOMETRY(Polygon, 4326),\n  status TEXT, -- 'pending', 'in_progress', 'searched'\n  last_searched TIMESTAMP\n);"
+        },
+        {
+          "title": "STAC for Disaster Data Archiving",
+          "content": "Catalog all SAR flights using STAC. Each item includes bounding box, datetime, sensor type, number of detections, and weather conditions. This archive can be used for post‑mission debriefing, training, and legal documentation. Provide a STAC API for rapid retrieval during future incidents in the same area.",
+          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"sar_mission_2025_08_15\",\n  \"properties\": {\n    \"datetime\": \"2025-08-15T14:00:00Z\",\n    \"detections\": 2,\n    \"mission_type\": \"wilderness\"\n  },\n  \"links\": [...]\n}"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Autonomous Search and Delivery",
+      "lessons": [
+        {
+          "title": "Hardware Configuration for SAR Drones",
+          "content": "Select sensors: high‑resolution thermal camera (e.g., FLIR Duo Pro R, DJI Zenmuse XT2), zoom RGB (30x optical), optionally LiDAR for terrain mapping in forest. Use a drone with long flight time (≥45 min), IP‑rated for weather resistance, and equipped with RTK GPS for precise navigation. For maritime, add flotation device and waterproofing. For delivery, include a release mechanism (servo‑actuated) for dropping supplies. Connect to Jetson Orin Nano for on‑board AI processing."
+        },
+        {
+          "title": "DeepStream Pipeline for Real‑Time Victim Detection",
+          "content": "Build a DeepStream pipeline that ingests both RGB and thermal streams, performs human detection on both, fuses the results (e.g., use detection from either sensor), and overlays victim markers on the video sent to the ground station. The pipeline also records geotagged snapshots for each detection. Run at 30 fps with latency under 200 ms.",
+          "code_example": "deepstream-app -c sar_detection_config.txt"
+        },
+        {
+          "title": "ROS 2 Integration for Autonomous Search Patterns",
+          "content": "Create a ROS 2 node that generates search patterns (lawnmower grid, expanding spiral, contour following) based on mission parameters (area, terrain type, wind). Use MAVROS to command the drone to waypoints. While flying, run victim detection; when a detection is confirmed, automatically switch to loiter mode and stream coordinates to ground. Allow ground operator to override and send the drone for delivery or closer inspection.",
+          "code_example": "class SARPlanner(Node):\n    def __init__(self):\n        super().__init__('sar_planner')\n        self.pattern_generator = GridSearch(altitude=50, spacing=30)\n        self.waypoint_pub = self.create_publisher(Pose, '/waypoint', 10)\n\n    def start_mission(self, area):\n        waypoints = self.pattern_generator.generate(area)\n        for wp in waypoints:\n            self.waypoint_pub.publish(wp)"
+        },
+        {
+          "title": "Payload Delivery System",
+          "content": "Implement a ROS 2 node that controls a release mechanism. When a victim is localized and the drone is overhead, the node can release a life ring, medical kit, or radio. Use a safety interlock: only release when within a safe distance (e.g., 5 m) and when commanded by a human operator (automatic drop only in extreme emergencies). Log drop coordinates and time for documentation."
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Continuous Improvement from SAR Missions",
+      "lessons": [
+        {
+          "title": "Active Learning for Rare Victim Scenarios",
+          "content": "After each SAR mission, collect images where the model made false positives or false negatives. Send these to SAR experts for labeling, along with images of confirmed victims. Use this data to retrain detection models, improving performance on challenging scenarios (e.g., victims under camouflage, in hypothermia). Maintain a dataset that grows with each mission.",
+          "code_example": "misclassified = [img for img in mission_data if model_confidence != ground_truth]\ncvat.create_task('sar_active_learning', misclassified)"
+        },
+        {
+          "title": "Kubeflow Pipelines for Post‑Mission Model Retraining",
+          "content": "Set up a Kubeflow pipeline that runs after each SAR mission (or periodically) to incorporate new labeled data, retrain victim detection models, and evaluate against a benchmark test set. If performance improves, deploy the updated model to the drone fleet via OTA updates. Version models to track which model performed well in which conditions.",
+          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef sar_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
+        },
+        {
+          "title": "Monitoring Model Performance in the Field",
+          "content": "Use Evidently AI to monitor detection confidence distributions across missions. A drop in average confidence may indicate environmental changes (e.g., new terrain, different camera settings) and should trigger retraining. Also monitor false positive rates; if they increase, investigate sensor or model degradation.",
+          "code_example": "report = Report(metrics=[ModelDriftPreset()])\nreport.run(reference_data=baseline_mission, current_data=recent_mission_data)"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Simulation and Testing",
+      "lessons": [
+        {
+          "title": "Hardware‑in‑the‑Loop (HIL) with SAR Scenarios",
+          "content": "Use NVIDIA Isaac Sim or Unreal Engine with AirSim to create realistic SAR environments: dense forest, urban rubble, snow, ocean. Populate with simulated victims (animated humans) at random locations. Connect real Pixhawk and Jetson to the simulator. Test autonomous search patterns, victim detection, and delivery. Measure detection rate, false positives, mission completion time. Run Monte Carlo simulations to validate performance.",
+          "code_example": "Isaac Sim with ROS2 bridge; drone flies pattern; Jetson detects simulated victims; telemetry sent to ground station."
+        },
+        {
+          "title": "Latency Profiling for Time‑Critical Detection",
+          "content": "Use Nsight Systems to profile the end‑to‑end latency: camera capture → GPU preprocessing → inference → detection publishing → ground station display. For SAR, latency should be < 500 ms to allow timely victim extraction. Optimize by using TensorRT, reducing model complexity, and using hardware‑accelerated video encoding.",
+          "code_example": "nsys profile -o sar_profile python sar_node.py"
+        }
+      ]
+    },
+    {
+      "title": "Module 7: Safety, Legal, and Ethical Considerations",
+      "lessons": [
+        {
+          "title": "Airspace Coordination and Emergency Exceptions",
+          "content": "In many countries, emergency services can operate drones with special permissions (e.g., FAA COA for public safety). Understand the process for obtaining such permissions. Coordinate with other aircraft (helicopters, manned SAR) to avoid conflicts. Use ADS‑B receivers to detect and avoid manned aircraft. Implement geofencing around sensitive areas (airports, hospitals)."
+        },
+        {
+          "title": "Privacy and Dignity of Victims",
+          "content": "Respect the privacy of victims and bystanders. Limit data retention to mission‑critical information. Anonymize faces in images shared publicly. Obtain consent where possible. Ensure that drone operations do not interfere with medical or rescue personnel on the ground."
+        },
+        {
+          "title": "Reliability and Redundancy",
+          "content": "SAR drones must be highly reliable. Use redundant systems: dual GPS, multiple communication links (cellular, radio), parachute recovery. Implement robust fail‑safes: auto‑return to home on low battery, lost link, or GPS loss. Test extensively in HIL before live missions. Maintain strict maintenance schedules."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Autonomous Wilderness Search and Rescue Drone",
+    "description": "Build and test a drone system that autonomously searches a simulated forest area (in HIL or a controlled outdoor field) for a lost person. The system must execute a grid search pattern, detect a human figure (thermal or visual) with >90% precision, geolocate the victim, and transmit coordinates to a ground station. Optionally, deliver a small supply package (e.g., water bottle) to the victim. Achieve mission completion time under 30 minutes for a 1 km² area.",
+    "deliverables": [
+      "Trained human detection model (thermal + visual fusion, quantized, <100 MB)",
+      "ROS 2 nodes for search planning, victim detection, and delivery",
+      "PostGIS database for search coverage logging",
+      "Kubeflow pipeline for retraining",
+      "HIL simulation report showing detection rates and mission times",
+      "Safety plan and airspace coordination document"
+    ]
+  },
+  "resources": [
+    {
+      "name": "FLIR Thermal Dataset for Search and Rescue",
+      "url": "https://www.flir.com/oem/adas/thermal-dataset/",
+      "description": "Thermal imagery for human detection training"
+    },
+    {
+      "name": "FAA Public Safety Drone Operations",
+      "url": "https://www.faa.gov/uas/public_safety/",
+      "description": "Guidelines for emergency drone use"
+    },
+    {
+      "name": "International Search and Rescue Incident Database",
+      "url": "https://www.isfsar.org/",
+      "description": "SAR case studies and best practices"
+    }
+  ]
+}

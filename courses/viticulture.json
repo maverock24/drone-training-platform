@@ -1,0 +1,126 @@
+{
+  "domain": "Viticulture & High‑Value Crop Farming",
+  "description": "A comprehensive training program for building autonomous drone systems optimized for vineyards, orchards, and other high‑value specialty crops (olives, lavender, hops, saffron). The program covers all four engineering tracks applied to precision viticulture, including fine‑grained object detection for berry/bunch counting, spectral canopy analysis, targeted treatment dispensing, and autonomous navigation within structured row‑crop environments.",
+  "learning_objectives": [
+    "Understand viticulture and specialty crop growth cycles, canopy management practices, and quality‑determining factors",
+    "Build AI models for grape bunch counting, berry disease detection, vine stress assessment, and yield forecasting",
+    "Create geospatial data pipelines for per‑vine historical data management and agronomic reporting",
+    "Deploy real‑time spectral analysis and detection models on drones navigating dense vineyard rows",
+    "Implement targeted micro‑dosing dispensing for minimal chemical use in high‑value crops",
+    "Integrate with wine/crop management software and precision agriculture platforms",
+    "Comply with EU/US pesticide application regulations and organic certification requirements"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Viticulture Fundamentals and Drone Requirements",
+      "lessons": [
+        {
+          "title": "Grapevine Growth Stages and Quality Indicators",
+          "content": "Study the annual grapevine cycle: dormancy, bud break, flowering, fruit set, véraison (color change), and harvest. Learn quality indicators: Berry size, sugar content (Brix), pH, and color intensity. Understand common diseases: powdery mildew (Erysiphe necator), downy mildew (Plasmopara viticola), Botrytis bunch rot, Pierce's disease, and grapevine leafroll virus. Learn nutrition deficiency symptoms (iron chlorosis, magnesium deficiency) visible in canopy spectral response. Study how grape variety, clone, rootstock, and terroir affect observable canopy characteristics."
+        },
+        {
+          "title": "Precision Viticulture Architecture",
+          "content": "Define a precision viticulture workflow: (1) pre‑season baseline flight (canopy structure, soil map), (2) weekly monitoring flights (NDVI, disease scouting), (3) targeted treatment flights (spraying only affected zones), (4) pre‑harvest yield estimation, (5) post‑harvest assessment. Define sensor requirements: RGB (20+ MP for berry counting), multispectral (RedEdge for NDVI/NDRE), thermal (irrigation stress), LiDAR (canopy volume for spray calibration). Understand vineyard navigation constraints: GPS accuracy in HDR terrain (valleys), row spacing (1.5–3 m), canopy height variability (0.8–2 m)."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Berry Counting, Disease, and Yield",
+      "lessons": [
+        {
+          "title": "Grape Bunch and Berry Detection",
+          "content": "Train YOLOv8 on close‑range (1–2 m altitude) vineyard imagery to detect grape bunches and individual berries. Use semi‑synthetic augmentation: photorealistic rendering of grapes in different lighting, occlusion, and maturity stages. For bunch counting in dense canopies, use density estimation (CSRNet adapted for bunches) alongside object detection. Validate count accuracy against manual counts in reference rows; target <5% MAPE for yield estimation.",
+          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8m.pt')\nmodel.train(\n    data='grape_bunch.yaml',\n    epochs=200,\n    imgsz=1280,  # high resolution for small berry detection\n    augment=True\n)\n# Post-process: bunch count per vine segment"
+        },
+        {
+          "title": "Disease Detection: Mildew and Botrytis",
+          "content": "Train a disease detection model (EfficientDet or YOLOv8) on close‑range images of diseased leaves and clusters. Classes: healthy, powdery mildew, downy mildew, botrytis, leafroll virus symptoms. Handle class imbalance with weighted loss (disease samples are rare in early stages). Augment with synthetic disease patterns (GANs or texture overlays). Output disease severity map per vine row, triggering targeted spray missions.",
+          "code_example": "import torch\nfrom torchvision.models.detection import fasterrcnn_resnet50_fpn\nmodel = fasterrcnn_resnet50_fpn(num_classes=6)  # 5 disease classes + background\n# Fine-tune on vineyard disease dataset\n# Evaluate with mAP@IoU0.5"
+        },
+        {
+          "title": "Yield Forecasting and Quality Prediction",
+          "content": "Build a yield forecasting model integrating: NDVI time series (canopy vigor), bunch counts from detection model, historical yield records, weather data (GDD, rainfall during flowering). Use a gradient boosting regressor (XGBoost) or LSTM for time‑series yield prediction. For quality (Brix at harvest), use NDRE and thermal data at véraison as predictors. Validate against historical harvest data from the winery management system.",
+          "code_example": "import xgboost as xgb\nimport pandas as pd\nfeatures = pd.DataFrame({\n    'ndvi_week8': ndvi_series,\n    'bunch_count_m2': bunch_counts,\n    'gdd_to_date': growing_degree_days,\n    'flowering_rain_mm': rain_at_flowering\n})\nmodel = xgb.XGBRegressor(n_estimators=300, max_depth=6)\nmodel.fit(features, yield_kg_per_vine)"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Per‑Vine Data Management",
+      "lessons": [
+        {
+          "title": "Vine‑Level Spatial Database",
+          "content": "Create a PostGIS database where each vine is a point feature with attributes: variety, clone, planting year, GPS coordinates, soil type zone, and irrigation group. Link all flight observations to individual vine IDs using spatial join (nearest vine to observed point). This enables per‑vine historical analysis: 'which vines consistently show early stress?' and 'how does productivity vary by rootstock?'.",
+          "code_example": "CREATE TABLE vines (\n  id SERIAL PRIMARY KEY,\n  block_name TEXT,\n  row_num INT,\n  vine_num INT,\n  geom GEOMETRY(Point, 4326),\n  variety TEXT,\n  planting_year INT\n);\n-- Link observations to nearest vine\nUPDATE vine_observations o SET vine_id = (\n  SELECT v.id FROM vines v\n  ORDER BY v.geom <-> o.geom LIMIT 1\n);"
+        },
+        {
+          "title": "Seasonal Analytics and Agronomic Reports",
+          "content": "Use TimescaleDB to store weekly per‑vine NDVI, bunch counts, disease alerts, and spraying events. Build automated agronomic reports: season‑over‑season yield trend per block, disease incidence maps, spray efficacy assessment (NDVI before vs. after treatment). Export reports to wine management platforms (e.g., VineView, AgriWebb) via REST API in GeoJSON or CSV format.",
+          "code_example": "SELECT v.block_name,\n  AVG(o.ndvi) AS mean_ndvi,\n  SUM(o.bunch_count) AS total_bunches,\n  COUNT(d.disease_alert) AS disease_events\nFROM vines v\nJOIN vine_observations o ON o.vine_id = v.id\nLEFT JOIN disease_alerts d ON d.vine_id = v.id\nWHERE o.time BETWEEN '2025-04-01' AND '2025-10-31'\nGROUP BY v.block_name;"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Precision Dispensing in Vineyard Rows",
+      "lessons": [
+        {
+          "title": "Autonomous Row Navigation",
+          "content": "Implement visual row navigation for GPS‑challenged vineyard environments. Use a row‑following algorithm: detect vine row lines using Hough transform on downward‑facing camera, control lateral position to maintain 1 m distance from grapevine canopy edge. For turns at row ends, use a GPS waypoint with ultrasonic validation. Integrate with MAVROS for setpoint velocity control in GUIDED mode.",
+          "code_example": "import cv2\nimport numpy as np\n# Detect row edges from downward camera\nedges = cv2.Canny(gray, 50, 150)\nlines = cv2.HoughLinesP(edges, 1, np.pi/180, 80)\n# Compute lateral offset from center line\n# Publish correction to /mavros/setpoint_velocity/cmd_vel"
+        },
+        {
+          "title": "Micro‑Dosing Spray Control",
+          "content": "Build a ROS 2 spray node: subscribe to disease detection topics. When flying over a vine with detected disease, command the spray nozzle to open for a calculated duration based on canopy volume (from LiDAR) and target dose rate (ml/m² leaf area). Log every spray event: vine ID, product, dose, timestamp. This reduces chemical use by 60–80% vs. blanket spraying and is required for organic certification compliance.",
+          "code_example": "class SprayController(Node):\n    def __init__(self):\n        super().__init__('spray_controller')\n        self.disease_sub = self.create_subscription(Float32, '/disease_severity', self.cb, 10)\n        self.spray_pub = self.create_publisher(Bool, '/spray_valve', 10)\n\n    def cb(self, msg):\n        if msg.data > 0.3:  # disease threshold\n            dose_ml = canopy_volume * TARGET_DOSE_ML_PER_M3\n            self.spray_pub.publish(Bool(data=True))\n            self.get_clock().sleep_for(Duration(nanoseconds=int(dose_ml/flow_rate*1e9)))\n            self.spray_pub.publish(Bool(data=False))"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Seasonal Model Lifecycle",
+      "lessons": [
+        {
+          "title": "Phenology‑Aware Model Versioning",
+          "content": "Disease and berry detection models vary in accuracy across growth stages. Implement stage‑specific model versions: pre‑flowering model (focus on leaf diseases), fruit set model (bunch detection), véraison model (berry quality assessment), harvest model (bunch size and color). Use MLflow to manage stage‑model mapping and deploy the correct version based on current day‑of‑season (derived from GDD accumulation).",
+          "code_example": "import mlflow\ncurrent_stage = get_phenological_stage(gdd_accumulated)\nmodel_uri = mlflow.pyfunc.load_model(f'models:/vineyard_detector_{current_stage}/Production')\npredictions = model_uri.predict(frame_batch)"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Regulatory Compliance for Specialty Crops",
+      "lessons": [
+        {
+          "title": "Pesticide Application Regulations",
+          "content": "Study EU Regulation 1107/2009 and US FIFRA for pesticide application requirements: applicator licensing, buffer zones near water bodies, re‑entry intervals, and weather restrictions (wind, temperature). For wine grapes, understand appellation regulations (AOC, DOC, AVA) that restrict certain inputs. For organic certification (EU Organic, USDA NOP), document all inputs with lot numbers, application records, and traceability. Drone‑applied treatments require specific applicator approval in most jurisdictions."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Precision Viticulture Drone System",
+    "description": "Deploy a drone system across a 10‑hectare vineyard. Complete a seasonal workflow: baseline NDVI mapping, weekly disease scouting with automated alerts, grape bunch counting for yield forecasting, and targeted micro‑dosing spray mission on detected disease zones. Achieve bunch count accuracy <5% MAPE, disease detection sensitivity >85%, and reduce spray volume by >50% vs. full‑coverage application.",
+    "deliverables": [
+      "Grape bunch/berry YOLOv8 detection model",
+      "Multispectral disease detection model (5 classes)",
+      "Yield forecasting model (XGBoost, <10% MAPE)",
+      "Vine‑level PostGIS database with seasonal observations",
+      "Autonomous row‑following navigation node (ROS 2)",
+      "Micro‑dosing spray controller with application log"
+    ]
+  },
+  "resources": [
+    {
+      "name": "IVAS (International Viticulture and Enology Society)",
+      "url": "https://www.ives-openscience.wine/",
+      "description": "Open‑access research on viticulture science"
+    },
+    {
+      "name": "WineGIS Europe Project",
+      "url": "https://www.winegiseurope.eu/",
+      "description": "EU project on precision viticulture with remote sensing"
+    },
+    {
+      "name": "OpenDataSoft Agriculture Datasets",
+      "url": "https://data.opendatasoft.com/explore/?q=vineyard",
+      "description": "Open datasets for vineyard analysis"
+    }
+  ]
+}

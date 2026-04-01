@@ -1,0 +1,173 @@
+{
+  "domain": "Glacier & Polar Research",
+  "description": "A comprehensive training program for building autonomous drone systems that map glaciers, monitor ice dynamics, measure snow cover, and support polar research in extreme environments. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to cryospheric science, enabling ice volume change measurement, glacier velocity tracking, crevasse mapping, and autonomous operation in GPS‑denied, low‑temperature, and high‑wind conditions.",
+  "learning_objectives": [
+    "Understand cryospheric processes: glacier mass balance, ice sheet dynamics, sea ice extent, permafrost, and snow hydrology",
+    "Build and train AI models for feature detection (crevasses, melt ponds, ice cliffs), snow/ice classification, and change detection",
+    "Create geospatial and time‑series data pipelines for tracking ice velocity, surface elevation changes, and ablation zones",
+    "Deploy optimized models on edge hardware for real‑time navigation in low‑contrast, GPS‑denied environments (visual‑inertial odometry)",
+    "Implement autonomous survey patterns (transects, grids, repeat passes) over ice, with cold‑weather hardware adaptations",
+    "Design fail‑safe mechanisms for extreme polar conditions: battery thermal management, redundancy, recovery from whiteout",
+    "Comply with polar aviation regulations, environmental protection protocols (Antarctic Treaty), and scientific data standards"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Glacier and Polar Research Fundamentals",
+      "lessons": [
+        {
+          "title": "Cryosphere and Climate Change",
+          "content": "Study key cryospheric components: glaciers (valley, tidewater, outlet), ice sheets (Greenland, Antarctica), ice shelves, sea ice, and permafrost. Understand mass balance (accumulation vs. ablation), ice flow dynamics, calving, and meltwater runoff. Learn about climate change indicators: glacier retreat, ice shelf disintegration, accelerating ice loss, and sea‑level rise. Recognize the importance of long‑term monitoring for global climate models, water resources, and sea‑level projections. Understand research methods: ground surveys, satellite remote sensing, aerial photogrammetry, and drone‑based high‑resolution mapping."
+        },
+        {
+          "title": "Operational Scenarios and Requirements",
+          "content": "Analyze scenarios: glacier surface elevation surveys (repeat flights to measure thinning), ice velocity mapping (feature tracking), crevasse detection for safe travel, supraglacial lake monitoring, snow depth measurement, sea ice thickness estimation, and polar wildlife surveys (seals, penguins). Define requirements: cold‑rated batteries and electronics (operating down to -20°C or -30°C), GPS‑denied navigation (polar regions have poor satellite coverage), high wind tolerance, high‑resolution RGB and multispectral sensors, LiDAR for elevation, inertial navigation with visual odometry, and long‑endurance flights (30–60 min). Coordinate with polar logistics operators (e.g., NSF, British Antarctic Survey) and follow Antarctic Treaty environmental protocols."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Ice Feature Detection and Change Analysis",
+      "lessons": [
+        {
+          "title": "Crevasses and Surface Feature Detection",
+          "content": "Train a segmentation model to detect crevasses (open and snow‑bridged) from high‑resolution RGB or panchromatic imagery. Crevasses appear as linear shadows or texture discontinuities. Use datasets from glacier surveys. For safety, produce hazard maps for field teams. Also detect melt ponds, supraglacial streams, and ice cliffs. Output binary masks and risk levels.",
+          "code_example": "from segmentation_models_pytorch import Unet\nmodel = Unet(encoder_name='resnet34', classes=2)  # crevasse / not"
+        },
+        {
+          "title": "Glacier Surface Velocity from Feature Tracking",
+          "content": "Use optical flow or feature matching between repeat images to compute ice displacement. Train a model to identify stable features (rocks, crevasses) and track them across time. Output velocity vectors and create velocity maps. Integrate with GPS data to correct for drone motion. Use this to calculate strain rates and ice discharge.",
+          "code_example": "import cv2\n# Use SIFT or deep feature matching\nflow = cv2.calcOpticalFlowFarneback(prev, next, None, 0.5, 3, 15, 3, 5, 1.2, 0)"
+        },
+        {
+          "title": "Snow and Ice Classification",
+          "content": "Train a model to classify surface types: fresh snow, firn, bare ice, meltwater, moraine, rock outcrop. Use multispectral imagery (visible, NIR, SWIR) to leverage spectral differences. Compute albedo maps. For sea ice, classify first‑year vs. multi‑year ice, and detect leads (open water).",
+          "code_example": "from sklearn.ensemble import RandomForestClassifier\n# Input: multispectral bands, output: surface class"
+        },
+        {
+          "title": "Change Detection for Mass Balance",
+          "content": "Use repeat LiDAR or stereo‑derived DEMs (digital elevation models) to compute elevation change over time. Train a model to identify areas of ablation (thinning) and accumulation (thickening). Use differencing and clustering to highlight significant changes. Report volume change for glacier mass balance calculations.",
+          "code_example": "import numpy as np\ndem_diff = dem_2025 - dem_2024\nthinning = dem_diff < -2.0  # 2 m thinning"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Cryospheric Geospatial Database",
+      "lessons": [
+        {
+          "title": "PostGIS for Glacier Monitoring",
+          "content": "Store glacier outlines (from GLIMS, RGI), survey flight paths, ice velocity vectors, and DEMs in PostGIS. Use spatial queries to retrieve data by glacier name, region, or time range. Build a time‑series database for tracking change.",
+          "code_example": "CREATE TABLE glacier_surveys (\n  id SERIAL PRIMARY KEY,\n  glacier_name TEXT,\n  survey_date DATE,\n  geom GEOMETRY(Polygon, 3413),  -- polar stereographic\n  mean_elevation_change FLOAT\n);\nCREATE INDEX idx_surveys_geom ON glacier_surveys USING GIST (geom);"
+        },
+        {
+          "title": "STAC for Polar Data Archiving",
+          "content": "Catalog all polar flights using STAC. Each item includes bounding box, datetime, sensor type, and derived products (velocity map, DEM, crevasse mask). Ensure metadata complies with polar data standards (e.g., NSIDC). Share via public catalogs for scientific community.",
+          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"glacier_x_velocity_2025_09_01\",\n  \"properties\": {\n    \"datetime\": \"2025-09-01T12:00:00Z\",\n    \"glacier\": \"Jakobshavn\",\n    \"mean_velocity_m_per_day\": 35.2\n  },\n  \"assets\": {\n    \"velocity_map\": {\"href\": \"s3://.../velocity.tif\"}\n  }\n}"
+        },
+        {
+          "title": "Integration with Cryospheric Data Centers",
+          "content": "Push data to repositories like NSIDC (National Snow and Ice Data Center) or GLIMS (Global Land Ice Measurements from Space). Use APIs to upload derived products, ensuring FAIR (Findable, Accessible, Interoperable, Reusable) principles.",
+          "code_example": "import requests\nrequests.post('https://nsidc.org/api/datasets', json=metadata)"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Polar‑Capable Drone Autonomy",
+      "lessons": [
+        {
+          "title": "Hardware Configuration for Polar Operations",
+          "content": "Select sensors: high‑resolution RGB (for crevasses), LiDAR (for DEM), optional thermal (for melt detection), and multispectral (for snow properties). Use a drone with insulated battery compartments, heated enclosures for electronics, and wind‑resistant airframe. Use RTK GPS (where satellite coverage allows) or visual‑inertial odometry (VIO) for GPS‑denied navigation. Use carbon fiber propellers for ice resistance. Connect to Jetson Orin Nano with cold‑rated power supply."
+        },
+        {
+          "title": "DeepStream Pipeline for Real‑Time Hazard Detection",
+          "content": "Build a DeepStream pipeline that runs crevasse detection on the live video feed, overlaying hazard zones on the operator’s screen. For autonomous flights, use the detections to trigger avoidance maneuvers or altitude adjustments. Also detect changes in surface texture to identify soft snow or melt ponds.",
+          "code_example": "deepstream-app -c polar_inspection_config.txt"
+        },
+        {
+          "title": "ROS 2 Integration for GPS‑Denied Navigation",
+          "content": "Create a ROS 2 node that uses visual‑inertial odometry (e.g., VINS‑Fusion, ORB‑SLAM3) to estimate position when GPS is unavailable. Fuse with barometer and magnetometer. Use MAVROS to send velocity commands. Implement waypoint navigation using a local coordinate frame aligned with glacier surface. For repeat surveys, use georeferenced images and tie points to align flights.",
+          "code_example": "class PolarNavigator(Node):\n    def __init__(self):\n        super().__init__('polar_navigator')\n        self.vio = VINSFusion()\n        self.vel_pub = self.create_publisher(Twist, '/mavros/setpoint_velocity/cmd_vel_unstamped', 10)\n\n    def navigate_to(self, target_local):\n        # Use VIO to compute current position, publish velocity commands"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Continuous Improvement for Polar Models",
+      "lessons": [
+        {
+          "title": "Active Learning for Rare Features",
+          "content": "Collect imagery where crevasse detection is uncertain or where field teams report new features. Send to glaciologists for labeling. Retrain models to improve detection of snow‑bridged crevasses and other subtle features.",
+          "code_example": "uncertain = [img for img in flight_data if model_uncertainty(img) > 0.4]\ncvat.create_task('polar_active_learning', uncertain)"
+        },
+        {
+          "title": "Kubeflow Pipelines for Seasonal Retraining",
+          "content": "Set up a Kubeflow pipeline that retrains models after each field season, incorporating new labeled data. Deploy updated models to polar research stations via satellite link or before expeditions.",
+          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef polar_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
+        },
+        {
+          "title": "Monitoring Model Drift with Illumination and Surface Changes",
+          "content": "Use Evidently AI to compare image statistics across different lighting conditions (polar day vs. twilight), snow cover, and seasons. Drift may require retraining with representative data.",
+          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=summer_imagery, current_data=winter_imagery)"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Simulation and Testing",
+      "lessons": [
+        {
+          "title": "Hardware‑in‑the‑Loop (HIL) with Polar Environment",
+          "content": "Use NVIDIA Isaac Sim or Unreal Engine with icy terrain, crevasses, and variable lighting (midnight sun, whiteout). Simulate GPS dropout and high winds. Connect real Pixhawk and Jetson. Test autonomous transects, crevasse avoidance, and VIO‑based navigation. Validate cold‑start battery performance in simulated extreme cold.",
+          "code_example": "Isaac Sim with ROS2 bridge; drone flies over simulated glacier; Jetson runs crevasse detection and VIO."
+        },
+        {
+          "title": "Latency Profiling for Real‑Time Avoidance",
+          "content": "Profile detection‑to‑avoidance latency using Nsight Systems. For crevasse hazard, latency should be < 200 ms. Optimize by using lightweight models and GPU acceleration.",
+          "code_example": "nsys profile -o polar_profile python polar_navigator.py"
+        }
+      ]
+    },
+    {
+      "title": "Module 7: Safety, Regulatory, and Environmental Compliance",
+      "lessons": [
+        {
+          "title": "Polar Aviation and Environmental Regulations",
+          "content": "Adhere to Antarctic Treaty environmental protocols: no disturbance to wildlife, no contamination, strict waste management. For Arctic operations, follow local regulations. Obtain permits from national polar programs (USAP, BAS, etc.). Coordinate with station logistics to avoid conflicts with manned aircraft."
+        },
+        {
+          "title": "Cold‑Weather Safety",
+          "content": "Protect batteries: pre‑heat before flight, use insulated covers, monitor cell temperatures. Implement automatic return when battery temperature drops below safe threshold. Use redundant systems for critical components. Carry emergency recovery equipment (e.g., thermal blanket, satellite phone)."
+        },
+        {
+          "title": "Data Sharing and Open Science",
+          "content": "Polar research relies on open data. Ensure that collected data are archived in public repositories with metadata following community standards (e.g., CF conventions). Publish derived products (velocity maps, DEMs) in accessible formats."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Autonomous Glacier Monitoring Drone",
+    "description": "Build and test a drone system that autonomously surveys a simulated glacier (in HIL) to measure surface elevation change and detect crevasses. The system must execute a repeat transect using VIO (GPS‑denied), generate a DEM from stereo imagery, compute elevation difference from a baseline, and output a hazard map of crevasses. Achieve elevation accuracy < 0.5 m and crevasse detection recall > 85%.",
+    "deliverables": [
+      "Trained crevasse segmentation model (quantized, <100 MB)",
+      "ROS 2 nodes for VIO navigation, survey planning, and hazard mapping",
+      "PostGIS database for glacier data",
+      "Kubeflow pipeline for retraining",
+      "HIL simulation report with elevation accuracy and detection rates",
+      "Cold‑weather safety and environmental compliance plan"
+    ]
+  },
+  "resources": [
+    {
+      "name": "National Snow and Ice Data Center (NSIDC)",
+      "url": "https://nsidc.org/",
+      "description": "Polar data archives and guidelines"
+    },
+    {
+      "name": "GLIMS Glacier Database",
+      "url": "https://www.glims.org/",
+      "description": "Global glacier outlines and metadata"
+    },
+    {
+      "name": "Antarctic Treaty Environmental Protocol",
+      "url": "https://www.ats.aq/e/protocol.html",
+      "description": "Legal framework for polar operations"
+    }
+  ]
+}

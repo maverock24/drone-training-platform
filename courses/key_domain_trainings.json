@@ -1,0 +1,344 @@
+{
+  "specialized_domain_training": [
+    {
+      "domain": "Wildfire Suppression & Prescribed Burn Management",
+      "description": "Drones equipped with thermal cameras and fire-retardant payloads to detect, monitor, and actively fight wildfires. They can also be used for controlled burns by precisely dropping ignition spheres along planned lines.",
+      "use_cases": [
+        "Early smoke detection using AI on thermal/visual feeds",
+        "Real-time fire perimeter mapping and spread prediction",
+        "Coordinated swarms for precision fire retardant drops",
+        "Post‑fire assessment and hot‑spot monitoring"
+      ],
+      "key_ai_challenges": [
+        "Low‑latency smoke plume segmentation in challenging lighting",
+        "Multi‑agent coordination for swarm deployment",
+        "Fusing weather data (wind, humidity) with visual information to predict fire behavior",
+        "Hardware‑in‑the‑loop testing with simulated fire dynamics"
+      ],
+      "training_focus": "Extend the AI Engineer track with specialized models for fire/smoke detection; extend Edge AI with payload release control; extend Data Engineer with real‑time geospatial data fusion from multiple drones."
+    },
+    {
+      "domain": "Urban Bird Management (Nest Removal & Population Control)",
+      "description": "Drones used to deter or remove nuisance birds (e.g., seagulls, pigeons) from urban areas, airports, or agricultural sites. This includes nest removal, egg oiling, or non‑lethal harassment using sound or visual cues.",
+      "use_cases": [
+        "Autonomous nest detection in hard‑to‑reach areas (bridges, rooftops)",
+        "Precision placement of gel or spikes to deter nesting",
+        "Non‑lethal harassment using programmed flight patterns",
+        "Egg oiling or nest removal using robotic arms"
+      ],
+      "key_ai_challenges": [
+        "Robust detection of bird nests in cluttered urban environments",
+        "Interaction with sensitive structures (minimal disturbance)",
+        "Compliance with wildlife regulations (requires remote pilot monitoring)",
+        "Safety around people and property"
+      ],
+      "training_focus": "Add modules on object detection for small/occluded targets, reinforcement learning for gentle interaction, and compliance frameworks for wildlife management."
+    },
+    {
+      "domain": "Smart City Infrastructure Inspection",
+      "description": "Drones automate the inspection of bridges, roads, streetlights, traffic signals, and public buildings. They can detect cracks, corrosion, graffiti, or malfunctioning lights, and schedule maintenance.",
+      "use_cases": [
+        "Bridge deck crack detection with high‑resolution imaging",
+        "Streetlight pole inspection for corrosion or leaning",
+        "Traffic sign visibility assessment",
+        "Construction site progress monitoring with 3D reconstruction"
+      ],
+      "key_ai_challenges": [
+        "High‑accuracy defect segmentation on varied materials",
+        "3D reconstruction from oblique aerial images",
+        "Change detection over time (e.g., crack growth)",
+        "Integration with municipal GIS and asset management systems"
+      ],
+      "training_focus": "Strengthen geospatial data engineering (PostGIS, STAC), 3D computer vision (structure‑from‑motion, NeRFs), and integration with city databases."
+    },
+    {
+      "domain": "Facility Management & Industrial Inspection",
+      "description": "Drones inspect large facilities: solar farms, wind turbines, oil refineries, and warehouses. They detect anomalies like hot spots, leaks, or structural damage, often in hazardous environments.",
+      "use_cases": [
+        "Solar panel thermal inspection to identify failing cells",
+        "Wind turbine blade inspection for cracks or erosion",
+        "Gas leak detection with optical gas imaging cameras",
+        "Warehouse inventory counting using indoor autonomous drones"
+      ],
+      "key_ai_challenges": [
+        "Fusion of thermal and visual data for defect classification",
+        "Precision navigation in GPS‑denied environments (indoor, under turbines)",
+        "Automated anomaly reporting with confidence scoring",
+        "Edge AI for real‑time alerts on the drone"
+      ],
+      "training_focus": "Add sensor fusion for thermal/visual, indoor navigation (SLAM), and predictive maintenance analytics."
+    },
+    {
+      "domain": "Precision Agriculture & Environmental Monitoring",
+      "description": "Drones monitor crop health, soil moisture, pest infestations, and irrigation efficiency. They can also track wildlife, monitor deforestation, or assess coastal erosion.",
+      "use_cases": [
+        "Multispectral analysis for crop stress detection",
+        "Automated pesticide spraying with targeted coverage",
+        "Wildlife counting and anti‑poaching patrols",
+        "Forest carbon stock estimation using LiDAR"
+      ],
+      "key_ai_challenges": [
+        "Multispectral image processing and vegetation index computation",
+        "Long‑duration flights over large areas (battery/range optimization)",
+        "Integration with farm management software",
+        "Species classification in challenging lighting/occlusion"
+      ],
+      "training_focus": "Emphasize multispectral/hyperspectral data engineering, flight path optimization, and integration with agricultural IoT."
+    },
+    {
+      "domain": "Emergency Response & Search and Rescue",
+      "description": "Drones assist in locating missing persons, delivering emergency supplies, or establishing communication relays in disaster zones. They must operate in adverse weather and low‑visibility conditions.",
+      "use_cases": [
+        "Thermal search for lost hikers",
+        "Delivery of flotation devices or medical supplies",
+        "Real‑time mapping of flood zones",
+        "Communication relay for first responders"
+      ],
+      "key_ai_challenges": [
+        "Robust person detection in varied terrains and weather",
+        "Autonomous payload drop with high precision",
+        "Coordination with ground teams and other drones",
+        "Fault‑tolerant flight in degraded GPS conditions"
+      ],
+      "training_focus": "Add modules on robust detection under occlusion, autonomous delivery mechanisms, and swarm coordination for search grids."
+    },
+    {
+      "domain": "Maritime & Port Operations",
+      "description": "Drones inspect ships, piers, and port infrastructure. They can monitor vessel emissions, detect oil spills, and assist in docking operations.",
+      "use_cases": [
+        "Hull inspection for biofouling or damage",
+        "Oil spill detection and monitoring",
+        "Container inventory management",
+        "Anti‑piracy surveillance"
+      ],
+      "key_ai_challenges": [
+        "Water surface and wave interference on sensors",
+        "Corrosion detection on metal structures",
+        "Over‑water flight safety (auto‑return on low battery)",
+        "Integration with AIS (ship identification) data"
+      ],
+      "training_focus": "Include water‑adapted computer vision, corrosion detection models, and integration with maritime data sources."
+    },
+    {
+      "domain": "Power Line & Utility Inspection",
+      "description": "Drones inspect transmission lines, insulators, and substations. They can detect damaged conductors, vegetation encroachment, and thermal anomalies.",
+      "use_cases": [
+        "Corona discharge detection using ultraviolet cameras",
+        "Vegetation clearance monitoring",
+        "Insulator contamination or cracks",
+        "Substation equipment thermal monitoring"
+      ],
+      "key_ai_challenges": [
+        "High‑precision navigation near electromagnetic interference",
+        "Specialized camera fusion (UV, thermal, visual)",
+        "Automated defect classification with minimal false positives",
+        "Regulatory compliance for flight near critical infrastructure"
+      ],
+      "training_focus": "Add UV/thermal fusion, electromagnetic shielding techniques, and regulatory compliance modules."
+    },
+    {
+      "domain": "Mining & Quarry Operations",
+      "description": "Drones map stockpiles, monitor blast areas, and inspect haul roads. They enhance safety by removing personnel from hazardous zones.",
+      "use_cases": [
+        "Stockpile volume calculation for inventory",
+        "Blast fragmentation analysis",
+        "Slope stability monitoring with LiDAR",
+        "Haul road dust and erosion detection"
+      ],
+      "key_ai_challenges": [
+        "Accurate 3D reconstruction in dusty environments",
+        "Integration with mine planning software",
+        "Real‑time hazard detection (loose rocks, equipment)",
+        "Autonomous flight in GPS‑denied pits"
+      ],
+      "training_focus": "Focus on 3D reconstruction, SLAM in challenging environments, and integration with enterprise asset management."
+    },
+    {
+      "domain": "Package Delivery & Logistics",
+      "description": "Drones deliver packages in urban or remote areas. They require precise landing, obstacle avoidance, and coordination with ground stations.",
+      "use_cases": [
+        "Last‑mile delivery of medical supplies",
+        "Automated package drop with parcel detection",
+        "Fleet management for multiple deliveries",
+        "Warehouse‑to‑warehouse transport"
+      ],
+      "key_ai_challenges": [
+        "Vision‑based precision landing on moving or unprepared surfaces",
+        "Path planning in dynamic environments (traffic, people)",
+        "Battery management and charging station integration",
+        "Regulatory compliance with beyond‑visual‑line‑of‑sight (BVLOS) operations"
+      ],
+      "training_focus": "Add reinforcement learning for path planning, computer vision for landing, and logistics optimization algorithms."
+    },
+    {
+      "domain": "Coastal & Marine Conservation",
+      "description": "Drones monitor coastlines for erosion, track marine wildlife, detect illegal fishing, and assess coral reef health. They can cover vast areas efficiently.",
+      "use_cases": [
+        "Sea turtle nesting site monitoring",
+        "Coral bleaching assessment using multispectral imaging",
+        "Shark surveillance for beach safety",
+        "Illegal fishing vessel detection"
+      ],
+      "key_ai_challenges": [
+        "Marine animal detection from aerial views (often small and partially submerged)",
+        "Water column correction for underwater visibility",
+        "Long‑range flights over open water",
+        "Real‑time alerting for poaching"
+      ],
+      "training_focus": "Add marine‑specific computer vision, water‑penetrating image processing, and integration with marine park databases."
+    },
+    {
+      "domain": "Glacier & Polar Research",
+      "description": "Drones map glacier dynamics, measure ice thickness, and monitor polar ecosystems. They operate in extreme cold, with limited GPS availability near poles.",
+      "use_cases": [
+        "Ice sheet volume change measurement",
+        "Glacier surface velocity tracking",
+        "Polar bear population monitoring",
+        "Crevasse mapping for safe travel routes"
+      ],
+      "key_ai_challenges": [
+        "Cold‑weather hardware reliability",
+        "GPS‑denied navigation (polar regions)",
+        "Low‑contrast feature extraction (ice/snow)",
+        "Autonomous recharging in remote bases"
+      ],
+      "training_focus": "Specialize in visual‑inertial odometry, thermal imaging in snow, and extreme environment hardening."
+    },
+    {
+      "domain": "Archaeology & Cultural Heritage Preservation",
+      "description": "Drones create detailed 3D models of archaeological sites, detect buried structures using multispectral imaging, and monitor heritage sites for damage.",
+      "use_cases": [
+        "High‑resolution photogrammetry of ruins",
+        "LiDAR to penetrate vegetation and reveal hidden structures",
+        "Thermal imaging to detect subsurface features",
+        "Change detection for site conservation"
+      ],
+      "key_ai_challenges": [
+        "Vegetation removal from 3D models (virtual deforestation)",
+        "Mosaicking of thousands of images for site reconstruction",
+        "Precision flight at low altitudes over fragile terrain",
+        "Integration with cultural heritage databases"
+      ],
+      "training_focus": "Emphasize photogrammetry, LiDAR processing, and historical data archiving (STAC)."
+    },
+    {
+      "domain": "Film & Aerial Cinematography",
+      "description": "Drones capture cinematic shots for movies, commercials, and live events. They require precise camera control, subject tracking, and dynamic flight paths.",
+      "use_cases": [
+        "Autonomous subject tracking (actors, vehicles)",
+        "Pre‑programmed complex camera moves",
+        "Live broadcast with real‑time video stitching",
+        "Virtual reality 360° aerial capture"
+      ],
+      "key_ai_challenges": [
+        "Real‑time person/object tracking with smooth camera control",
+        "Obstacle avoidance while maintaining cinematic framing",
+        "Collaborative multi‑drone shots",
+        "Low‑latency video transmission for live events"
+      ],
+      "training_focus": "Add computer vision for tracking, control algorithms for smooth motion, and video pipeline optimization (DeepStream)."
+    },
+    {
+      "domain": "Security & Anti‑Drone Countermeasures",
+      "description": "Drones are used to detect, track, and neutralize unauthorized drones near sensitive areas (airports, prisons, government buildings).",
+      "use_cases": [
+        "Intruder drone detection using radar and RF sensors",
+        "Autonomous pursuit and non‑lethal capture (nets)",
+        "Jamming or spoofing rogue drone signals",
+        "Perimeter surveillance with swarm coordination"
+      ],
+      "key_ai_challenges": [
+        "Fast and reliable drone detection in cluttered skies",
+        "Classification of friendly vs. hostile drones",
+        "Safe intercept path planning",
+        "Compliance with radio frequency regulations"
+      ],
+      "training_focus": "Include radar/RF sensor fusion, pursuit‑evasion algorithms, and regulatory compliance modules."
+    },
+    {
+      "domain": "Public Safety & Crowd Monitoring",
+      "description": "Drones monitor large public gatherings (concerts, protests, sporting events) to detect crowd density, potential disturbances, and emergency situations.",
+      "use_cases": [
+        "Crowd density estimation and anomaly detection",
+        "Loudspeaker or lighting deployment from above",
+        "Real‑time object detection for suspicious behavior",
+        "Emergency exit monitoring and guidance"
+      ],
+      "key_ai_challenges": [
+        "Privacy preservation (anonymization)",
+        "High‑altitude small object detection",
+        "Real‑time analytics on limited compute",
+        "Integration with command and control centers"
+      ],
+      "training_focus": "Add crowd analysis models, privacy‑preserving techniques, and real‑time data streaming to ground stations."
+    },
+    {
+      "domain": "Forestry & Silviculture",
+      "description": "Drones support sustainable forest management: timber inventory, pest outbreak detection, and reforestation efforts.",
+      "use_cases": [
+        "Tree species identification and timber volume estimation",
+        "Bark beetle infestation detection using near‑infrared",
+        "Automated seed pod dropping for reforestation",
+        "Canopy height and biomass measurement with LiDAR"
+      ],
+      "key_ai_challenges": [
+        "Species classification from aerial imagery",
+        "Precise geolocation for individual tree tracking",
+        "Automated seed dispersal with target landing",
+        "Integration with forest management GIS"
+      ],
+      "training_focus": "Strengthen tree‑level computer vision, LiDAR analysis, and environmental data fusion."
+    },
+    {
+      "domain": "Viticulture & High‑Value Crop Farming",
+      "description": "Drones manage vineyards and orchards with high precision: disease detection, yield estimation, and targeted spraying.",
+      "use_cases": [
+        "Grape bunch counting for yield prediction",
+        "Powdery mildew detection using hyperspectral imaging",
+        "Precision spraying to minimize chemical use",
+        "Micro‑climate mapping with onboard sensors"
+      ],
+      "key_ai_challenges": [
+        "Small object detection (individual fruits, leaves)",
+        "Multispectral to actionable insight conversion",
+        "Low‑altitude navigation among trellises",
+        "Integration with farm management platforms"
+      ],
+      "training_focus": "Add fine‑grained object detection, spectral analysis, and autonomous navigation in structured environments."
+    },
+    {
+      "domain": "Construction & Civil Engineering",
+      "description": "Drones monitor construction progress, verify as‑built vs. design, and ensure safety compliance on large sites.",
+      "use_cases": [
+        "Daily site progress mapping and 3D modeling",
+        "Structural element alignment verification",
+        "Safety compliance (hard hat detection)",
+        "Material stockpile measurement"
+      ],
+      "key_ai_challenges": [
+        "Integration with BIM (Building Information Modeling) systems",
+        "Precision alignment of drone models with CAD",
+        "Real‑time hazard detection for worker safety",
+        "Automated deviation reporting"
+      ],
+      "training_focus": "Include BIM integration, photogrammetry for construction, and safety AI modules."
+    },
+    {
+      "domain": "Oil & Gas Pipeline Monitoring",
+      "description": "Drones inspect long‑distance pipelines for leaks, encroachment, and corrosion. They often fly BVLOS (beyond visual line of sight) in remote areas.",
+      "use_cases": [
+        "Methane leak detection using laser spectroscopy",
+        "Right‑of‑way vegetation management",
+        "Corrosion under insulation (CUI) detection",
+        "Third‑party encroachment (unauthorized digging)"
+      ],
+      "key_ai_challenges": [
+        "Fusing spectroscopic, thermal, and visual data",
+        "Long‑endurance flight with automatic battery swapping",
+        "BVLOS operations with regulatory compliance",
+        "Real‑time alerting to control centers"
+      ],
+      "training_focus": "Add specialized sensor fusion, BVLOS operations planning, and industrial communication protocols."
+    }
+  ]
+}

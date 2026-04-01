@@ -1,0 +1,167 @@
+{
+  "domain": "Urban Bird Management (Nest Removal & Population Control)",
+  "description": "A comprehensive training program for building autonomous drone systems that detect, deter, and manage nuisance bird populations in urban environments, airports, and agricultural areas. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to bird management scenarios, including nest removal, egg oiling, and non‑lethal harassment.",
+  "learning_objectives": [
+    "Understand the ecological and regulatory context of bird management",
+    "Build and train AI models for bird and nest detection in cluttered urban environments",
+    "Create geospatial data pipelines for tracking bird colonies and nesting sites over time",
+    "Deploy optimized models on edge hardware for real‑time bird detection and harassment",
+    "Implement safe, non‑lethal interaction mechanisms (sound, visual, physical)",
+    "Design and simulate drone behaviors for nest removal and population control",
+    "Comply with wildlife protection laws and public safety regulations"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Urban Bird Management Fundamentals",
+      "lessons": [
+        {
+          "title": "Understanding Nuisance Bird Behavior and Impact",
+          "content": "Learn about common urban pest species: gulls, pigeons, starlings, crows. Study their nesting habits, breeding cycles, and typical roosting sites (rooftops, bridges, ledges). Understand the problems they cause: property damage, health hazards (disease, droppings), aircraft safety risks (bird strikes), and agricultural losses. Explore non‑lethal control methods: habitat modification, deterrents (spikes, gels, wires), visual/auditory scaring, nest removal, egg oiling (to prevent hatching), and trapping. Understand why drones can be effective: reach inaccessible areas, repeatable patterns, reduced human risk."
+        },
+        {
+          "title": "Operational Scenarios and Requirements",
+          "content": "Analyze real‑world scenarios: airport wildlife management (runway clearance, nesting prevention), city building maintenance (removing nests from ledges), agricultural protection (orchards, vineyards), and coastal tourism areas (seagull deterrence). Define key requirements: quiet operation to avoid noise complaints, precise maneuvering near structures, low‑altitude flight (< 50 ft), fail‑safe autonomy to avoid collisions, payload capacity for deterrents (sound emitters, gel dispensers, robotic arms). Understand legal constraints: protected species laws (e.g., Migratory Bird Treaty Act in US), permits for nest removal, and ethical considerations."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Bird and Nest Detection",
+      "lessons": [
+        {
+          "title": "Bird Detection in Cluttered Environments",
+          "content": "Design a lightweight object detection model (e.g., YOLOv8, EfficientDet) to detect birds in aerial imagery. Train on datasets like CUB‑200‑2011, BIRDS, and custom drone‑captured footage. Address challenges: small birds at altitude, occlusion by foliage, varied lighting, and motion blur. Use data augmentation: random scaling, rotation, and motion blur. Evaluate with mAP (mean average precision) and consider class‑specific performance for target species. Fine‑tune with transfer learning to reduce training time.",
+          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')  # or 'yolov8n-seg.pt' for segmentation\nmodel.train(data='bird_dataset.yaml', epochs=100, imgsz=640, batch=16)"
+        },
+        {
+          "title": "Nest Detection and Counting",
+          "content": "Train a segmentation model to detect and delineate nests on structures (bridges, rooftops, poles). Use a mask R‑CNN or YOLOv8‑seg. Annotate nests in high‑resolution images, labeling different types (active, abandoned, material). For nest counting, use counting‑by‑detection methods (count instances) or regression‑based counting for large colonies. Implement temporal tracking to monitor nest activity over time (e.g., weekly flights).",
+          "code_example": "import torch\ntorch.hub.load('facebookresearch/maskrcnn-benchmark', 'maskrcnn_resnet50_fpn', pretrained=True)\n# Fine‑tune on custom nest dataset"
+        },
+        {
+          "title": "Behavior Analysis for Harassment Timing",
+          "content": "Use action recognition models to classify bird behaviors: roosting, feeding, nesting. Train a 3D CNN or Video Swin Transformer on short video clips from the drone. Detect the best times for harassment (e.g., before dawn when birds are still roosting, or after feeding to drive them away). Use this to trigger deterrents only when effective, minimizing unnecessary disturbance.",
+          "code_example": "from transformers import VideoMAEFeatureExtractor, VideoMAEForVideoClassification\nmodel = VideoMAEForVideoClassification.from_pretrained('MCG-NJU/videomae-base-finetuned-kinetics')\n# Adapt to bird behavior classes"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Geospatial Nest Registry",
+      "lessons": [
+        {
+          "title": "Building a Nest Registry with PostGIS",
+          "content": "Create a PostGIS database to catalog all known nest sites. Fields: nest_id, location (geometry Point or Polygon), species, status (active, removed, abandoned), last_inspection_date, image_paths. Use ST_DWithin and ST_Intersects for queries like 'find all active nests within 100 m of a building scheduled for maintenance'. Store time‑series data for each nest to track changes.",
+          "code_example": "CREATE TABLE nests (\n  id SERIAL PRIMARY KEY,\n  geom GEOMETRY(Point, 4326),\n  species TEXT,\n  status TEXT,\n  last_inspection TIMESTAMP,\n  photo_urls TEXT[]\n);\nCREATE INDEX idx_nests_geom ON nests USING GIST (geom);"
+        },
+        {
+          "title": "STAC for Urban Wildlife Data",
+          "content": "Catalog drone flights and nest detections using STAC. Each flight item includes bounding box, time, and properties like 'birds_detected', 'nests_count'. Integrate with municipal GIS systems to share data with building managers, airports, and wildlife agencies. Use STAC API to provide searchable access for other teams.",
+          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"nest_survey_2025_03_15\",\n  \"properties\": {\n    \"datetime\": \"2025-03-15T09:00:00Z\",\n    \"nests_detected\": 12,\n    \"species\": \"seagull\"\n  },\n  \"geometry\": {...}\n}"
+        },
+        {
+          "title": "Time‑Series Analytics for Population Trends",
+          "content": "Use time‑series databases like TimescaleDB (PostgreSQL extension) to store historical nest and bird counts. Run analytics to detect seasonal trends, population growth, or effectiveness of management actions. Build dashboards for city planners to visualize changes over time."
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Real‑Time Deterrence and Nest Removal",
+      "lessons": [
+        {
+          "title": "Hardware Configuration for Urban Bird Management",
+          "content": "Select sensors: high‑zoom RGB camera for detailed inspection, optionally thermal for nighttime roost detection. Choose deterrent payloads: directional speakers (emitting predator calls or distress signals), laser emitters (green laser for birds), gel or spike dispensers, or robotic arms for nest removal. Mount on a drone with good hovering stability and obstacle avoidance sensors (e.g., stereoscopic cameras, LiDAR). Connect to Jetson Orin Nano for on‑board AI processing."
+        },
+        {
+          "title": "DeepStream Pipeline for Real‑Time Bird Detection",
+          "content": "Build a DeepStream pipeline that runs bird detection on the video stream, draws bounding boxes, and sends alerts to the ground station. Use hardware‑accelerated decoding and inference to achieve 30+ fps. Integrate the model (e.g., YOLOv8) via TensorRT for low latency. The pipeline can also run nest detection on demand or at lower frame rate.",
+          "code_example": "deepstream-app -c bird_deterrent_config.txt"
+        },
+        {
+          "title": "ROS 2 Integration for Harassment Actions",
+          "content": "Create a ROS 2 node that subscribes to bird detection topics. When birds are detected within a defined zone, trigger the appropriate deterrent: play sound via speaker (via GPIO or serial), activate laser pattern, or initiate approach for nest removal. For nest removal, implement a precision‑landing or hovering routine with a manipulator arm. Use MAVROS to command the drone to specific waypoints (nest coordinates). Ensure that all actions are logged and have abort mechanisms.",
+          "code_example": "class BirdDeterrentNode(Node):\n    def __init__(self):\n        super().__init__('bird_deterrent')\n        self.sub = self.create_subscription(DetectionArray, '/bird_detections', self.cb, 10)\n        self.sound_pub = self.create_publisher(String, '/deterrent/sound', 10)\n\n    def cb(self, msg):\n        for det in msg.detections:\n            if det.confidence > 0.8 and det.distance < 20:\n                self.sound_pub.publish(String(data='predator_call.wav'))"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Continuous Improvement of Bird Models",
+      "lessons": [
+        {
+          "title": "Active Learning for Rare Nest Types",
+          "content": "After each flight, run the nest detection model on new images and select those with low confidence or where the model is uncertain. Send to human annotators (using CVAT or Labelbox) to label nests, species, and status. Use this to retrain models periodically, improving detection of uncommon species or nests in complex backgrounds.",
+          "code_example": "from sklearn.ensemble import RandomForestClassifier\n# Use uncertainty sampling: select images where model entropy > threshold"
+        },
+        {
+          "title": "Kubeflow Pipelines for Weekly Model Retraining",
+          "content": "Set up a Kubeflow pipeline that runs weekly: pull new labeled data, augment, train bird/nest detection models, evaluate on a hold‑out set, and if performance improves, update the model in the model registry. Automate deployment to the drone fleet using over‑the‑air updates (OTA).",
+          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef bird_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
+        },
+        {
+          "title": "Monitoring Model Drift in Urban Environments",
+          "content": "Use Evidently AI to compare distributions of input images (e.g., color histograms, edge statistics) against training data. Urban environments change with seasons, construction, and lighting. If drift is detected, trigger a retraining pipeline. Also monitor model confidence on known bird species to catch concept drift.",
+          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=train_data, current_data=recent_inference_data)\nif report['data_drift'] > threshold: trigger_retraining()"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Simulation and Testing",
+      "lessons": [
+        {
+          "title": "Hardware‑in‑the‑Loop (HIL) with Bird Models",
+          "content": "Use NVIDIA Isaac Sim to create urban scenes with simulated birds (using simple animation or AI‑driven agents). Place nests on building ledges. Connect the real Pixhawk and Jetson to the simulator via MAVLink and ROS 2. Test harassment actions (sound, laser) and nest removal maneuvers in simulation, verifying that the AI correctly identifies targets and that the drone responds safely. Simulate wind and obstacles to ensure robustness.",
+          "code_example": "Isaac Sim spawns birds at waypoints; drone camera feeds to Jetson; Jetson controls simulated drone"
+        },
+        {
+          "title": "Latency Profiling for Safe Maneuvering",
+          "content": "Profile the detection‑to‑action latency. Use Nsight Systems to measure time from camera frame to deterrent trigger. For nest removal, latency must be low to maintain stability. Optimize by using TensorRT‑accelerated models, reducing image resolution where possible, and using hardware‑accelerated video encoding.",
+          "code_example": "nsys profile -o bird_deterrent_profile python bird_deterrent_node.py"
+        }
+      ]
+    },
+    {
+      "title": "Module 7: Ethics, Regulations, and Public Acceptance",
+      "lessons": [
+        {
+          "title": "Wildlife Protection Laws",
+          "content": "Study the Migratory Bird Treaty Act (US), Wildlife and Countryside Act (UK), and similar regulations. Understand what actions are permitted: nest removal often requires permits and may be allowed only during certain seasons (e.g., outside breeding season). Egg oiling must be done by trained personnel. Non‑lethal harassment is generally acceptable but may be regulated. Emphasize the importance of consulting with local wildlife authorities before operations."
+        },
+        {
+          "title": "Public Safety and Privacy",
+          "content": "Drones operating near buildings must respect privacy. Avoid hovering near windows or recording private spaces. Use low‑noise propellers to minimize disturbance. Implement geofencing to stay within permitted zones. Communicate with property owners and local communities about the purpose and schedule of operations."
+        },
+        {
+          "title": "Ethical Considerations in Urban Wildlife Management",
+          "content": "Discuss the balance between nuisance control and animal welfare. Emphasize that the goal is not eradication but sustainable coexistence. Drones should be used as part of integrated pest management, combining physical barriers, habitat modification, and public education. Monitor long‑term effects on bird populations and adjust strategies accordingly."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Autonomous Urban Bird Management Drone",
+    "description": "Build and test a drone system that can autonomously survey a designated area (e.g., a city park, a building complex), detect nests and birds, and apply non‑lethal deterrents (sound, laser) to discourage nesting. The system must generate a nest registry map, log all actions, and avoid disturbing protected species. Evaluate effectiveness through before‑after bird counts.",
+    "deliverables": [
+      "Trained bird and nest detection models (quantized, <100 MB)",
+      "ROS 2 nodes for detection, deterrent control, and logging",
+      "PostGIS database with nest registry and flight logs",
+      "Kubeflow pipeline for retraining",
+      "HIL simulation report with metrics (detection rate, false positives)",
+      "Ethical impact assessment and regulatory compliance plan"
+    ]
+  },
+  "resources": [
+    {
+      "name": "BIRDS Dataset for Bird Detection",
+      "url": "https://www.kaggle.com/datasets/ajshah4/birds",
+      "description": "Bird images for training"
+    },
+    {
+      "name": "Migratory Bird Treaty Act (USFWS)",
+      "url": "https://www.fws.gov/law/migratory-bird-treaty-act-1918",
+      "description": "Legal framework for bird management"
+    },
+    {
+      "name": "International Bird Strike Committee Guidelines",
+      "url": "https://www.int-birdstrike.org/",
+      "description": "Best practices for bird management at airports"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "domain": "Wildfire Suppression & Prescribed Burn Management",
+  "description": "A comprehensive training program for building autonomous drone systems that detect, monitor, and help suppress wildfires, as well as execute prescribed burns. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to fire management scenarios.",
+  "learning_objectives": [
+    "Understand the operational requirements and safety constraints of wildfire drones",
+    "Build and train AI models for smoke plume detection, fire perimeter mapping, and spread prediction",
+    "Create geospatial data pipelines that fuse thermal, visual, and weather data",
+    "Deploy optimized models on edge hardware (Jetson Orin Nano) for real‑time fire monitoring",
+    "Implement MLOps pipelines for continuous model improvement using post‑fire data",
+    "Design and simulate fire‑fighting swarm coordination",
+    "Comply with aviation and firefighting regulations"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Wildfire Domain Fundamentals",
+      "lessons": [
+        {
+          "title": "Understanding Wildfire Behavior",
+          "content": "Learn about fire triangle (fuel, oxygen, heat), fire spread factors (wind, slope, fuel moisture), and fire intensity classes. Understand how drones can aid in different stages: prevention (prescribed burns), detection (early smoke), monitoring (fire perimeter), suppression (retardant drops), and post‑fire assessment. Study the role of thermal cameras (3‑5 µm for flame, 8‑12 µm for hot spots) and multispectral sensors (short‑wave infrared for active fire)."
+        },
+        {
+          "title": "Operational Scenarios and Requirements",
+          "content": "Analyze real‑world scenarios: initial attack (fast response to new fires), extended attack (large fires, multiple drones), prescribed burn execution (controlled ignition). Define key requirements: flight endurance (≥30 min), payload capacity for retardant (up to 2 kg), communication range (BVLOS with relay), and regulatory approval (COAs, waivers). Understand the importance of real‑time data sharing with incident command posts."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Fire Detection and Mapping",
+      "lessons": [
+        {
+          "title": "Smoke Plume Detection with Vision Transformers",
+          "content": "Design a lightweight Vision Transformer (ViT) tailored for smoke detection. Use a patch size of 16×16 on 640×480 input. Pre‑train on public fire datasets (e.g., FLAME, Corsican Fire Database) and fine‑tune on your own aerial imagery. Address challenges: smoke blending with clouds, varied altitudes, and daytime lighting. Implement multi‑head attention to capture both fine smoke texture and large‑scale plume shapes.",
+          "code_example": "from transformers import ViTForImageClassification, ViTFeatureExtractor\nmodel = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224', num_labels=2)\nfeature_extractor = ViTFeatureExtractor.from_pretrained('google/vit-base-patch16-224')\n# Train with contrastive loss to better separate smoke/non‑smoke"
+        },
+        {
+          "title": "Fire Perimeter Mapping Using Semantic Segmentation",
+          "content": "Train a U‑Net or DeepLabV3+ on thermal imagery to segment active fire front. Use a dataset of annotated thermal frames. Incorporate temporal context by using LSTM layers or 3D convolutions to track fire movement across frames. Output fire perimeter as a polygon in real time. Evaluate with IoU (Intersection over Union) and boundary F‑score.",
+          "code_example": "model = DeepLabV3Plus(backbone='resnet50', num_classes=2)\noptimizer = torch.optim.Adam(model.parameters(), lr=1e-4)\n# Use dice loss to handle class imbalance"
+        },
+        {
+          "title": "Fire Spread Prediction with Spatiotemporal Models",
+          "content": "Combine satellite weather data (wind, humidity, temperature) with drone‑observed fire perimeters to forecast spread. Use a physics‑informed neural network (PINN) or a graph neural network (GNN) on the fire perimeter mesh. Predict fire location in 10, 30, 60 minutes. Output heatmaps of fire probability. Validate against historical fire data.",
+          "code_example": "import torch_geometric\n# Build graph from perimeter points, predict spread vector per point"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Geospatial Fire Data Pipeline",
+      "lessons": [
+        {
+          "title": "Geotagging and Storage with PostGIS",
+          "content": "Collect telemetry from the flight controller (MAVLink) and interpolate to assign precise coordinates to every thermal and visual frame. Store images in a PostGIS database with columns: image_id, timestamp, geom (Point), altitude, heading, sensor_type. Create spatial indexes for fast queries like 'find all images within 500 m of current fire perimeter'. Use ST_Within, ST_DWithin for spatiotemporal queries.",
+          "code_example": "CREATE TABLE fire_images (\n  id SERIAL PRIMARY KEY,\n  timestamp TIMESTAMP,\n  geom GEOMETRY(Point, 4326),\n  altitude FLOAT,\n  image_path TEXT,\n  has_smoke BOOLEAN\n);\nCREATE INDEX idx_fire_images_geom ON fire_images USING GIST (geom);"
+        },
+        {
+          "title": "STAC Catalog for Fire Data",
+          "description": "Implement a STAC API to catalog all fire‑related data (RGB, thermal, LiDAR, weather). Each item includes time, bounding box, and properties like 'fire_confidence', 'burn_severity'. Use stac‑fastapi to serve the catalog. Enable search for 'all imagery over fire zone X in last 6 hours' for quick access by AI models and incident command.",
+          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"thermal_fire_2025_08_15_1423\",\n  \"properties\": {\n    \"datetime\": \"2025-08-15T14:23:10Z\",\n    \"fire_confidence\": 0.92,\n    \"platform\": \"drone\"\n  },\n  \"geometry\": {...}\n}"
+        },
+        {
+          "title": "Cloud Optimized GeoTIFFs (COGs) for Large Fire Scenes",
+          "content": "Convert high‑resolution orthomosaics of fire scenes to COGs to enable efficient streaming. Use `rio cogeo` to create overviews and tiles. This allows ground control to zoom into hot spots without downloading entire maps. Integrate with mapping clients like QGIS or custom web viewers.",
+          "code_example": "rio cogeo create fire_mosaic.tif fire_mosaic_cog.tif --overview-level 4 --co compress=DEFLATE"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Real‑Time Fire Detection on Drone",
+      "lessons": [
+        {
+          "title": "Hardware Configuration for Fire Missions",
+          "content": "Select sensors: RGB camera (e.g., Sony IMX477), thermal camera (FLIR Boson or Radiometric), optionally a LiDAR for terrain mapping. Mount on a drone with heavy‑lift capacity (e.g., 7‑inch frame, 6S battery). Connect to Jetson Orin Nano via CSI‑2 or USB. Configure Pixhawk flight controller with ArduPilot, set up MAVLink telemetry feed to Jetson."
+        },
+        {
+          "title": "DeepStream Pipeline for Thermal and RGB Fusion",
+          "content": "Build a DeepStream pipeline that ingests both RGB and thermal streams. Use GStreamer elements for hardware‑accelerated decoding. Implement a custom inference plugin that runs the smoke detection model on fused frames (e.g., concatenate channels). Display overlays on the video sent to the ground station, highlighting fire boundaries and smoke plumes. Achieve 30 fps at 640×480.",
+          "code_example": "deepstream-app -c fire_detection_config.txt"
+        },
+        {
+          "title": "ROS 2 Integration for Fire Suppression Commands",
+          "content": "Create a ROS 2 node that subscribes to fire detection topics. When fire is detected, compute the target location and altitude, then publish a `geometry_msgs/msg/Point` to `/fire_target`. Another node monitors drone position and commands the flight controller (via MAVROS) to circle the fire, maintain safe distance, or trigger retardant drop. Implement safety overrides: if GPS lost or wind exceeds limits, abort and return to home.",
+          "code_example": "class FireSuppressionNode(Node):\n    def __init__(self):\n        super().__init__('fire_suppression')\n        self.target_sub = self.create_subscription(Point, '/fire_target', self.target_cb, 10)\n        self.vel_pub = self.create_publisher(Twist, '/mavros/setpoint_velocity/cmd_vel_unstamped', 10)\n\n    def target_cb(self, msg):\n        # Compute loiter waypoint relative to drone\n        # Publish velocity commands to orbit"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Continuous Model Improvement",
+      "lessons": [
+        {
+          "title": "Automated Data Labeling with Active Learning",
+          "content": "After each flight, run the smoke detection model on unlabeled imagery and select frames with low confidence (e.g., confidence between 0.3 and 0.7). Push these to a labeling tool (CVAT) for human annotators to label smoke/no‑smoke. Collect new labeled data to retrain the model. This active learning loop ensures the model improves with every fire season.",
+          "code_example": "low_conf = [img for img in images if 0.3 < confidence[img] < 0.7]\ncvat_client.create_task('active_learning_batch', low_conf)"
+        },
+        {
+          "title": "Kubeflow Pipelines for Fire Model Retraining",
+          "content": "Set up a Kubeflow pipeline that triggers daily: pull new labeled data from S3, preprocess, fine‑tune the ViT model (using LoRA to save GPU cost), evaluate on a validation set, and if accuracy improves, push the new model to a model registry (e.g., MLflow). Automate deployment to the drone fleet via over‑the‑air updates.",
+          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef fire_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
+        },
+        {
+          "title": "Monitoring Drift in Fire Data",
+          "content": "Use Evidently AI to compare distributions of incoming imagery (e.g., color histograms, thermal intensity) against training data. If drift is detected (e.g., due to new vegetation type or different camera), trigger a retraining pipeline. Also monitor model confidence distribution; a shift toward lower confidence may indicate concept drift.",
+          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=train_data, current_data=production_data)\nif report['data_drift'] > threshold: trigger_retraining()"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Simulation and Testing",
+      "lessons": [
+        {
+          "title": "Hardware‑in‑the‑Loop (HIL) with Fire Dynamics",
+          "content": "Use NVIDIA Isaac Sim to create a realistic forest environment with dynamic fire propagation. Simulate wind, smoke, and fire growth. Connect the real Pixhawk and Jetson to the simulator via MAVLink and ROS 2. Test AI models in hundreds of fire scenarios, measuring detection latency, false positives, and mission success rate. Tune parameters safely before live flights.",
+          "code_example": "Isaac Sim ROS2 bridge -> /fire_perimeter, /smoke_detection topics"
+        },
+        {
+          "title": "Latency Profiling with Nsight Systems",
+          "content": "Profile the entire pipeline: image capture → GPU preprocessing → inference → command generation → MAVROS transmission. Use Nsight Systems to identify bottlenecks. Optimize by moving preprocessing to GPU, using TensorRT for inference, and reducing serialization overhead. Target end‑to‑end latency below 100 ms for responsive fire suppression.",
+          "code_example": "nsys profile -o fire_prof python fire_node.py"
+        }
+      ]
+    },
+    {
+      "title": "Module 7: Safety and Regulatory Compliance",
+      "lessons": [
+        {
+          "title": "Operational Safety Procedures",
+          "content": "Define safety protocols: maintain visual line of sight (VLOS) unless BVLOS waiver granted, avoid flying over people, keep safe distance from fire (≥500 m for initial reconnaissance, closer only with water‑resistant equipment), monitor battery state and return‑to‑home logic. Implement multiple independent safety overrides: pilot remote control, onboard failsafe (if GPS lost or communication lost), and geofencing."
+        },
+        {
+          "title": "Regulatory Considerations",
+          "content": "Understand FAA Part 107 (US) or equivalent in other countries. For firefighting, special waivers may be required for night operations, BVLOS, and operating near emergency personnel. Work with local fire departments to obtain permission. Document all flights and AI decisions for post‑mission analysis and liability."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Autonomous Fire Scout Drone",
+    "description": "Build and test a drone system that can autonomously patrol a designated area, detect smoke, map the fire perimeter, and loiter while transmitting live data to a ground station. The system must handle simulated wind and fire growth in HIL, and achieve a detection accuracy >90% with <5% false positives.",
+    "deliverables": [
+      "Trained smoke detection model (quantized, <100 MB)",
+      "ROS 2 nodes for perception and control",
+      "PostGIS database with geotagged test flights",
+      "Kubeflow pipeline for retraining",
+      "HIL simulation report showing performance metrics",
+      "Flight readiness checklist and safety plan"
+    ]
+  },
+  "resources": [
+    {
+      "name": "FLAME Fire Dataset",
+      "url": "https://www.kaggle.com/datasets/abdelrahman16/flame-dataset",
+      "description": "Aerial fire images for training"
+    },
+    {
+      "name": "NVIDIA Isaac Sim Fire Extension",
+      "url": "https://docs.omniverse.nvidia.com/isaacsim/latest/features/isaac_sim_fire.html",
+      "description": "Fire simulation plugin"
+    },
+    {
+      "name": "USFS Drone Fire Operations Guide",
+      "url": "https://www.fs.usda.gov/sites/default/files/2022-03/Unmanned-Aircraft-Systems-Operations-Guide.pdf",
+      "description": "Official guidelines for drone use in wildfire management"
+    }
+  ]
+}

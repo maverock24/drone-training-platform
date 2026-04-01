@@ -2,16 +2,19 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { jwtVerify } from "jose";
 
-export async function middleware(req: NextRequest) {
+export async function proxy(req: NextRequest) {
   const token = req.cookies.get("session")?.value;
   const path = req.nextUrl.pathname;
 
   // Track overview pages (/tracks/[trackId]) are public teasers
   // Only deeper paths (lessons, lectures) and grand-project are protected
+  // Domain detail pages (/domains/[domainId]) are protected
   const isTrackOverview = /^\/tracks\/[^/]+\/?$/.test(path);
+  const isDomainDetail = /^\/domains\/[^/]+\/?$/.test(path);
   const isProtected =
     (path.startsWith("/tracks") && !isTrackOverview) ||
-    path.startsWith("/grand-project");
+    path.startsWith("/grand-project") ||
+    isDomainDetail;
 
   if (!token && isProtected) {
     return NextResponse.redirect(new URL("/login", req.url));
@@ -35,5 +38,5 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/tracks/:path*", "/grand-project/:path*"],
+  matcher: ["/tracks/:path*", "/grand-project/:path*", "/domains/:path*"],
 };

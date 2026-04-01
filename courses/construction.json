@@ -1,0 +1,125 @@
+{
+  "domain": "Construction & Civil Engineering",
+  "description": "A comprehensive training program for building autonomous drone systems that support construction site management, progress monitoring, safety compliance, and structural inspection. The program covers all four engineering tracks applied to civil engineering workflows, including BIM integration, photogrammetry‑based 3D reconstruction, volumetric measurements, safety AI, and automated reporting for project managers and structural engineers.",
+  "learning_objectives": [
+    "Understand construction project lifecycle, BIM workflows, and civil engineering inspection requirements",
+    "Build AI models for construction progress comparison vs. BIM, safety PPE detection, defect identification, and volumetric analysis",
+    "Create geospatial and 3D data pipelines for photogrammetry, point cloud processing, and BIM integration",
+    "Deploy real‑time safety monitoring and inspection analytics on drone edge hardware",
+    "Implement automated progress reporting linked to project schedules and BIM models",
+    "Comply with site safety regulations (OSHA, EU OHS Directive) and construction airspace restrictions",
+    "Continuously update models as construction progresses through distinct phases"
+  ],
+  "modules": [
+    {
+      "title": "Module 1: Construction and Civil Engineering Fundamentals",
+      "lessons": [
+        {
+          "title": "Construction Project Lifecycle and BIM",
+          "content": "Study construction phases: site preparation, foundations, structural framing, mechanical/electrical/plumbing (MEP), exterior envelope, interior fit‑out, and handover. Learn Building Information Modeling (BIM): IFC format, LOD (Level of Development) 100–500, and BIM coordination workflows. Understand how drones can contribute at each phase: earthwork volume tracking, structural plumb/level verification, concrete pour progress, facade inspection, and as‑built documentation. Explore BIM platforms: Autodesk Revit, BIM 360, Trimble Connect. Study photogrammetry outputs: orthomosaics, DSMs, and 3D meshes as inputs to as‑built BIM update workflows."
+        },
+        {
+          "title": "Drone Sensors for Construction",
+          "content": "Survey sensor configurations: RGB (photogrammetry, progress surveys), thermal (insulation gaps, moisture ingress, MEP leak detection), LiDAR (volumetric measurement, as‑built dimensional verification), and acoustic (concrete delamination detection). Understand flight planning requirements: high‑overlap photogrammetry for 3D reconstruction (80/80 overlap), oblique captures for building facades, and confined‑space indoor operations with propeller guards. Study safety requirements for flying over active construction sites: NOTAMs, site safety officer coordination, and exclusion zones near cranes."
+        }
+      ]
+    },
+    {
+      "title": "Module 2: AI Engineer – Progress Monitoring and Safety",
+      "lessons": [
+        {
+          "title": "BIM vs. Reality Comparison with Semantic Segmentation",
+          "content": "Train a semantic segmentation model (DeepLabV3+, Mask2Former) on drone imagery to classify: concrete, steel, formwork, scaffolding, excavation, and ground. Project the BIM model geometry onto drone imagery using camera pose from SfM. Compute deviation maps: where does reality diverge from the BIM plan? Highlight areas ahead of or behind schedule. Output a progress heat‑map for each construction zone.",
+          "code_example": "from mmseg.apis import init_segmentor, inference_segmentor\nmodel = init_segmentor('construction_seg_config.py', 'seg_checkpoint.pth')\nresult = inference_segmentor(model, drone_image)\n# Map predicted classes to BIM elements\n# Compute IoU between predicted and projected BIM footprint"
+        },
+        {
+          "title": "PPE and Safety Compliance Detection",
+          "content": "Train a YOLO model to detect personal protective equipment: hard hat, safety vest, gloves, and safety boots — and detect violations (worker without hard hat, person in restricted zone). Use a dataset of construction site imagery (CH‑PPE, NegEx datasets). Handle occlusion and small objects at typical drone altitude (30–50 m AGL). Generate automated safety violation reports with GPS location and timestamp for site safety officers.",
+          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8m.pt')\nmodel.train(data='ppe_detection.yaml', epochs=150, imgsz=1280)\n# Classes: hard_hat, safety_vest, no_hard_hat, no_vest, person\n# Output: violation bounding boxes + GPS coordinates"
+        },
+        {
+          "title": "Concrete Crack and Defect Detection",
+          "content": "Train a defect detection model for structural inspection: concrete cracks (hairline, structural, spalling), rebar exposure, honeycombing, and construction joints. Use high‑resolution close‑range imagery (5–10 m altitude for structural surfaces). Apply a two‑stage pipeline: first a region proposal network identifies wall/column segments, then a crack segmentation model (U‑Net) finds cracks within those regions. Measure crack width using photogrammetric scale.",
+          "code_example": "# Stage 1: segment structural surfaces\nsurfaces = surface_detector(frame)\n# Stage 2: detect cracks within each surface\nfor surface_crop in crop_surfaces(frame, surfaces):\n    crack_mask = unet_crack_segmentor(surface_crop)\n    if crack_mask.sum() > CRACK_AREA_THRESHOLD:\n        log_defect(location=gps_from_pixel(surface_crop), severity=classify_crack(crack_mask))"
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Data Engineer – Photogrammetry and BIM Integration",
+      "lessons": [
+        {
+          "title": "Automated Photogrammetry Pipeline",
+          "content": "Build an automated SfM (Structure from Motion) pipeline: ingest drone RGB images with geotags → feature detection (SIFT, SuperPoint) → feature matching → bundle adjustment → dense reconstruction → orthomosaic and DSM generation. Use OpenDroneMap (ODM) or COLMAP for open‑source processing. Trigger automatically when new imagery is uploaded to object storage. Store outputs as Cloud Optimized GeoTIFFs (COGs) for efficient streaming.",
+          "code_example": "# Run OpenDroneMap via Docker\nimport subprocess\nsubprocess.run([\n    'docker', 'run', '--rm',\n    '-v', f'{image_dir}:/datasets/project',\n    'opendronemap/odm',\n    '--project-path', '/datasets',\n    '--orthophoto-resolution', '2',\n    '--dsm', '--dtm'\n])"
+        },
+        {
+          "title": "Volumetric Earthwork Calculations",
+          "content": "Compare DSMs from before and after excavation or fill operations to compute cut/fill volumes. Use the prismatoid method: V = Σ (dA × dZ) over the grid. Store baseline and current DSMs in PostGIS as raster tables. Expose a REST endpoint: 'calculate_volume(polygon, baseline_date, current_date)' for quantity surveyors. Target <2% volumetric error vs. surveyor measurements.",
+          "code_example": "import rasterio\nimport numpy as np\nwith rasterio.open('dsm_current.tif') as curr, rasterio.open('dsm_baseline.tif') as base:\n    delta_z = curr.read(1) - base.read(1)\n    cell_area = curr.res[0] * curr.res[1]  # m2 per pixel\n    cut_volume = np.sum(np.where(delta_z < 0, abs(delta_z) * cell_area, 0))\n    fill_volume = np.sum(np.where(delta_z > 0, delta_z * cell_area, 0))"
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Edge AI Engineer – Site Surveillance",
+      "lessons": [
+        {
+          "title": "Hardware for Construction Site Drones",
+          "content": "Select a robust drone for dusty, dynamic environments: DJI M300 RTK or Skydio X10 with IP43+ rating. Mount: 4K RGB (progress surveys), thermal (MEP inspection), and optional close‑range structural inspection gimbal. Use indoor‑capable configurations with propeller guards for confined spaces (stairwells, underground structures). Connect to Jetson Orin NX for real‑time PPE detection and zone‑breach alerts."
+        },
+        {
+          "title": "Autonomous Site Inspection Route Execution",
+          "content": "Build a ROS 2 mission node that executes pre‑planned inspection routes from a BIM‑derived waypoint list. For each structural element (column, wall, slab), fly to the inspection waypoint, capture a burst of images, and trigger defect detection inference. If a defect is detected, hover and capture high‑resolution images before continuing. Log the inspection dossier: element ID (from BIM), images, and defect findings.",
+          "code_example": "class InspectionMission(Node):\n    def __init__(self, waypoints):\n        super().__init__('inspection_mission')\n        self.waypoints = waypoints\n        self.wp_idx = 0\n    \n    def execute(self):\n        for wp in self.waypoints:\n            goto_waypoint(wp)  # via MAVROS\n            images = capture_burst(n=5)\n            defects = defect_detector(images)\n            if defects:\n                hover_and_capture_hires(wp)\n            log_inspection(wp.element_id, images, defects)"
+        }
+      ]
+    },
+    {
+      "title": "Module 5: ML Platform Engineer – Project‑Scale Pipelines",
+      "lessons": [
+        {
+          "title": "Weekly Progress Report Automation",
+          "content": "Build a Kubeflow pipeline that triggers every Monday: pull new drone imagery from object storage → run photogrammetry → generate orthomosaic and DSM → run semantic segmentation for progress mapping → compare with BIM schedule → generate HTML progress report with visualizations → email to project manager and upload to BIM 360. This eliminates manual drone survey processing (typically 1–2 days/week for a large project).",
+          "code_example": "from kfp import dsl\n@dsl.pipeline(name='weekly_progress')\ndef progress_pipeline():\n    photogrammetry = dsl.ContainerOp(name='odm', image='opendronemap/odm')\n    segmentation = dsl.ContainerOp(name='seg', image='construction-seg').after(photogrammetry)\n    bim_compare = dsl.ContainerOp(name='bim', image='bim-comparator').after(segmentation)\n    report = dsl.ContainerOp(name='report', image='report-gen').after(bim_compare)"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Safety, Regulatory, and BIM Compliance",
+      "lessons": [
+        {
+          "title": "Construction Site Airspace and Safety Regulations",
+          "content": "Understand airspace requirements near construction sites: crane height notifications, proximity to airports (controlled airspace), and temporary structures creating GPS interference. Study OSHA 1910.119 (process safety) and EU Directive 92/57/EEC (construction site safety) as frameworks. Coordinate with site safety officer for flight window planning, exclusion zone marking, and emergency stop procedures. Maintain a drone operations log for insurance and liability records."
+        }
+      ]
+    }
+  ],
+  "capstone_project": {
+    "name": "Construction Progress Intelligence System",
+    "description": "Monitor a multi‑story building construction project over a simulated 8‑week period using weekly drone surveys. Automatically generate 3D models via SfM, compare progress against BIM, detect PPE violations in real time, and compute earthwork volumes for quantity surveying. Deliver an automated weekly progress report with heat‑map overlays showing ahead/behind schedule zones.",
+    "deliverables": [
+      "Automated SfM pipeline (OpenDroneMap) with COG outputs",
+      "Semantic segmentation model for construction element classification",
+      "PPE violation detection model (YOLO, >90% recall)",
+      "Volumetric earthwork calculation module",
+      "BIM vs. reality comparison pipeline",
+      "Automated weekly progress report generator"
+    ]
+  },
+  "resources": [
+    {
+      "name": "OpenDroneMap",
+      "url": "https://www.opendronemap.org/",
+      "description": "Open‑source photogrammetry for orthomosaics and 3D models"
+    },
+    {
+      "name": "buildingSMART IFC Standard",
+      "url": "https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/",
+      "description": "Open BIM data format standard"
+    },
+    {
+      "name": "CH‑PPE Dataset",
+      "url": "https://github.com/ZijianWangRoger/CH-PPE",
+      "description": "Construction worker PPE detection benchmark dataset"
+    }
+  ]
+}
