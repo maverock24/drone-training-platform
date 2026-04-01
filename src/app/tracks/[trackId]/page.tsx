@@ -15,6 +15,7 @@ import {
   Database,
   Cpu,
   ArrowLeft,
+  ArrowRight,
   BookOpen,
   Clock,
   CheckCircle2,
@@ -27,6 +28,8 @@ import {
   Lock,
   LogIn,
   UserPlus,
+  Flame,
+  Zap,
 } from "lucide-react";
 import { tracks } from "@/lib/course-data";
 import { useProgress } from "@/lib/progress-context";
@@ -93,6 +96,11 @@ export default function TrackPage({
     currentIdx < tracks.length - 1 ? tracks[currentIdx + 1] : null;
 
   const trackImg = trackImageMap[trackId];
+
+  // Index of first uncompleted module (for "Start here" marker)
+  const firstUncompletedIdx = track.modules.findIndex(
+    (m) => !isCompleted(`${track.id}-${m.lessons[0].id}`)
+  );
 
   return (
     <div className="relative">
@@ -229,9 +237,40 @@ export default function TrackPage({
             <CardContent className="py-4">
               <div className="flex items-center justify-between text-sm mb-2">
                 <span className="font-medium">Track Progress</span>
-                <span className="text-muted-foreground">{progress}%</span>
+                <span className="text-muted-foreground">{progress}% &mdash; {completedCount} / {totalLessons} lessons</span>
               </div>
               <Progress value={progress} className="h-2" />
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Track completion banner */}
+        {user && progress === 100 && (
+          <Card className="mb-8 border-emerald-500/40 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10">
+            <CardContent className="py-6 flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+              <div className="text-4xl shrink-0">🏆</div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg">Track Complete!</h3>
+                <p className="text-sm text-muted-foreground mt-1">
+                  You've mastered all {totalLessons} lessons in {track.shortTitle}. Ready for the next challenge?
+                </p>
+              </div>
+              <div className="flex gap-2 shrink-0">
+                {nextTrack && (
+                  <Link href={`/tracks/${nextTrack.id}`}>
+                    <Button size="sm" className="gap-2">
+                      Next Track
+                      <ArrowLeft className="h-3.5 w-3.5 rotate-180" />
+                    </Button>
+                  </Link>
+                )}
+                <Link href="/grand-project">
+                  <Button size="sm" variant="outline" className="gap-2 border-orange-500/30">
+                    Grand Project
+                    <Flame className="h-3.5 w-3.5 text-orange-500" />
+                  </Button>
+                </Link>
+              </div>
             </CardContent>
           </Card>
         )}
@@ -243,12 +282,15 @@ export default function TrackPage({
             const lessonKey = `${track.id}-${lesson.id}`;
             const completed = isCompleted(lessonKey);
             const quizScore = getQuizScore(lessonKey);
+            const isStartHere = user && moduleIdx === firstUncompletedIdx;
             const quizPassed = quizScore !== undefined && quizScore >= 70;
 
             return (
               <Card
                 key={module.id}
-                className="border-border/50 overflow-hidden transition-all hover:border-border hover:shadow-md"
+                className={`border-border/50 overflow-hidden transition-all hover:border-border hover:shadow-md ${
+                  isStartHere ? "ring-1 ring-primary/40" : ""
+                }`}
               >
                 <div className={`h-1 bg-gradient-to-r ${track.gradient} ${user && completed ? "opacity-100" : "opacity-30"}`} />
                 <CardHeader className="pb-3">
@@ -267,7 +309,15 @@ export default function TrackPage({
                       )}
                     </div>
                     <div className="flex-1 min-w-0">
-                      <CardTitle className="text-lg">{module.title}</CardTitle>
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <CardTitle className="text-lg">{module.title}</CardTitle>
+                        {isStartHere && !completed && (
+                          <Badge className="text-xs gap-1 bg-primary/20 text-primary border border-primary/30 font-semibold">
+                            <Zap className="h-3 w-3" />
+                            Start here
+                          </Badge>
+                        )}
+                      </div>
                       <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
                         {module.description}
                       </p>

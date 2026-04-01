@@ -281,6 +281,60 @@ export default function LessonPage({
         </TabsContent>
       </Tabs>
 
+      {/* ─── Next-up card (shown when lesson is completed) ─── */}
+      {completed && nextModule && (
+        <div className="mt-8">
+          <Card className="border-emerald-500/30 bg-gradient-to-r from-emerald-500/5 to-emerald-500/10">
+            <CardContent className="py-5 flex items-center justify-between gap-4">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15">
+                  <CheckCircle2 className="h-5 w-5 text-emerald-500" />
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs text-muted-foreground">Lesson complete! Up next</p>
+                  <p className="text-sm font-semibold truncate">{nextModule.title}</p>
+                </div>
+              </div>
+              <Link
+                href={`/tracks/${trackId}/${nextModule.id}/${nextModule.lessons[0].id}`}
+                className="shrink-0"
+              >
+                <Button size="sm" className="gap-2 bg-emerald-600 hover:bg-emerald-700">
+                  Next Lesson
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      {/* Track complete card */}
+      {completed && !nextModule && (
+        <div className="mt-8">
+          <Card className="border-violet-500/30 bg-gradient-to-r from-violet-500/5 to-cyan-500/5">
+            <CardContent className="py-6 text-center">
+              <div className="text-3xl mb-2">🎉</div>
+              <h3 className="font-bold text-lg mb-1">Track Complete!</h3>
+              <p className="text-sm text-muted-foreground mb-4">
+                You've finished every lesson in <span className="text-foreground font-medium">{track.shortTitle}</span>.
+              </p>
+              <div className="flex gap-3 justify-center">
+                <Link href={`/tracks/${trackId}`}>
+                  <Button variant="outline" size="sm">View Track</Button>
+                </Link>
+                <Link href="/grand-project">
+                  <Button size="sm" className="gap-2 border-0 bg-gradient-to-r from-violet-600 to-cyan-600">
+                    Grand Project
+                    <ArrowRight className="h-4 w-4" />
+                  </Button>
+                </Link>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
       {/* Navigation */}
       <Separator className="my-10" />
       <div className="flex items-center justify-between">
@@ -389,6 +443,9 @@ function QuizSection({
   };
 
   const answeredCount = Object.keys(answers).length;
+  const correctCount = submitted
+    ? questions.filter((q, idx) => answers[idx] === q.answer).length
+    : 0;
 
   return (
     <div>
@@ -396,15 +453,20 @@ function QuizSection({
         <Card className="mb-6 border-border/50">
           <CardContent className="py-6 text-center">
             <div
-              className={`text-4xl font-bold mb-2 ${
+              className={`text-4xl font-bold mb-1 ${
                 score >= 70 ? "text-emerald-500" : "text-amber-500"
               }`}
             >
               {score}%
             </div>
+            <p className="text-sm text-muted-foreground mb-1">
+              {correctCount} / {questions.length} correct
+            </p>
             <p className="text-sm text-muted-foreground mb-4">
               {score >= 70
                 ? "Great job! You passed this quiz."
+                : score >= 40
+                ? "Almost there — review the lesson and try again."
                 : "Keep studying and try again!"}
             </p>
             <Button variant="outline" size="sm" onClick={handleRetry}>
