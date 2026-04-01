@@ -3,6 +3,15 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import { tracks } from "@/lib/course-data";
 
+export interface LastVisited {
+  trackId: string;
+  moduleId: string;
+  lessonId: string;
+  trackTitle: string;
+  lessonTitle: string;
+  timestamp: number;
+}
+
 interface ProgressContextType {
   completedLessons: Set<string>;
   toggleLesson: (lessonId: string) => void;
@@ -15,6 +24,8 @@ interface ProgressContextType {
   quizScores: Record<string, number>;
   setQuizScore: (lessonKey: string, score: number) => void;
   getQuizScore: (lessonKey: string) => number | undefined;
+  lastVisited: LastVisited | null;
+  setLastVisited: (v: LastVisited) => void;
 }
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
@@ -23,6 +34,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set());
   const [completedSteps, setCompletedSteps] = useState<Set<string>>(new Set());
   const [quizScores, setQuizScores] = useState<Record<string, number>>({});
+  const [lastVisited, setLastVisitedState] = useState<LastVisited | null>(null);
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -46,6 +58,14 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     if (storedQuiz) {
       try {
         setQuizScores(JSON.parse(storedQuiz));
+      } catch {
+        // ignore
+      }
+    }
+    const storedLastVisited = localStorage.getItem("drone-training-last-visited");
+    if (storedLastVisited) {
+      try {
+        setLastVisitedState(JSON.parse(storedLastVisited));
       } catch {
         // ignore
       }
@@ -110,6 +130,11 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
 
   const getQuizScore = (lessonKey: string) => quizScores[lessonKey];
 
+  const setLastVisited = (v: LastVisited) => {
+    setLastVisitedState(v);
+    localStorage.setItem("drone-training-last-visited", JSON.stringify(v));
+  };
+
   const getTrackProgress = (trackId: string) => {
     const track = tracks.find((t) => t.id === trackId);
     if (!track) return 0;
@@ -140,6 +165,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         quizScores,
         setQuizScore,
         getQuizScore,
+        lastVisited,
+        setLastVisited,
       }}
     >
       {children}

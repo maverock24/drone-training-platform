@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useState } from "react";
+import { use, useState, useEffect } from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -49,6 +49,7 @@ export default function LessonPage({
     toggleStep,
     getQuizScore,
     setQuizScore,
+    setLastVisited,
   } = useProgress();
 
   const track = tracks.find((t) => t.id === trackId);
@@ -59,6 +60,19 @@ export default function LessonPage({
 
   const lesson = mod.lessons.find((l) => l.id === lessonId);
   if (!lesson) notFound();
+
+  // Record last-visited lesson
+  useEffect(() => {
+    setLastVisited({
+      trackId,
+      moduleId,
+      lessonId,
+      trackTitle: track.shortTitle,
+      lessonTitle: lesson.title,
+      timestamp: Date.now(),
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [trackId, moduleId, lessonId]);
 
   const lessonKey = `${trackId}-${lessonId}`;
   const completed = isCompleted(lessonKey);

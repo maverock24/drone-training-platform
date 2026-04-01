@@ -83,7 +83,7 @@ const features = [
 ];
 
 export default function HomePage() {
-  const { getTrackProgress, totalCompleted } = useProgress();
+  const { getTrackProgress, totalCompleted, lastVisited } = useProgress();
   const { user, loading: authLoading } = useAuth();
   const totalLessons = getTotalLessons();
   const totalSteps = getTotalSteps();
@@ -213,6 +213,33 @@ export default function HomePage() {
                 value={(totalCompleted / totalLessons) * 100}
                 className="max-w-xs"
               />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ─── Continue Learning banner ─── */}
+      {user && lastVisited && (
+        <section className="border-b border-border/40 bg-primary/5">
+          <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/15">
+                  <ArrowRight className="h-4 w-4 text-primary" />
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs text-muted-foreground">Continue where you left off</p>
+                  <p className="text-sm font-semibold truncate">
+                    {lastVisited.trackTitle} — {lastVisited.lessonTitle}
+                  </p>
+                </div>
+              </div>
+              <Link href={`/tracks/${lastVisited.trackId}/${lastVisited.moduleId}/${lastVisited.lessonId}`} className="shrink-0">
+                <Button size="sm" className="gap-2">
+                  Resume
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Button>
+              </Link>
             </div>
           </div>
         </section>

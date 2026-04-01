@@ -21,6 +21,7 @@ import {
   ArrowRight,
   Sparkles,
   LogOut,
+  PlayCircle,
   Trophy,
 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
@@ -54,6 +55,7 @@ export default function ProfilePage() {
     totalCompleted,
     completedSteps,
     quizScores,
+    lastVisited,
   } = useProgress();
   const router = useRouter();
 
@@ -111,6 +113,33 @@ export default function ProfilePage() {
           Log out
         </Button>
       </div>
+
+      {/* Continue Learning */}
+      {lastVisited && (
+        <Card className="border-primary/30 bg-primary/5 mb-6">
+          <CardContent className="py-4">
+            <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/15">
+                  <PlayCircle className="h-5 w-5 text-primary" />
+                </div>
+                <div className="min-w-0">
+                  <p className="text-xs text-muted-foreground">Last studied</p>
+                  <p className="text-sm font-semibold truncate">
+                    {lastVisited.trackTitle} — {lastVisited.lessonTitle}
+                  </p>
+                </div>
+              </div>
+              <Link href={`/tracks/${lastVisited.trackId}/${lastVisited.moduleId}/${lastVisited.lessonId}`} className="shrink-0">
+                <Button size="sm" className="gap-2">
+                  Resume
+                  <ArrowRight className="h-3.5 w-3.5" />
+                </Button>
+              </Link>
+            </div>
+          </CardContent>
+        </Card>
+      )}
 
       {/* Overall Stats */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 mb-8">
