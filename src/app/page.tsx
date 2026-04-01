@@ -25,6 +25,7 @@ import {
   BookText,
   Library,
   Lock,
+  Sparkles,
 } from "lucide-react";
 import {
   tracks,
@@ -34,6 +35,7 @@ import {
   getTotalDuration,
   glossary,
 } from "@/lib/course-data";
+import { domainTrainings } from "@/lib/domain-data";
 import { useProgress } from "@/lib/progress-context";
 import { useAuth } from "@/lib/auth-context";
 import { LogIn, UserPlus } from "lucide-react";
@@ -188,6 +190,10 @@ export default function HomePage() {
               <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
                 <Target className="h-4 w-4" />
                 <span>4 Career Tracks</span>
+              </div>
+              <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
+                <Sparkles className="h-4 w-4" />
+                <span>{domainTrainings.length} Specialized Domains</span>
               </div>
             </div>
           </div>
@@ -363,6 +369,55 @@ export default function HomePage() {
           })}
         </div>
 
+        {/* ─── Specialized Domain Training Preview ─── */}
+        <div className="mt-16">
+          <div className="flex items-center justify-between mb-6">
+            <div>
+              <h2 className="text-2xl font-bold tracking-tight">Specialized Domain Training</h2>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Apply your skills to {domainTrainings.length} real‑world industry verticals.
+              </p>
+            </div>
+            <Link href="/domains">
+              <Button variant="outline" size="sm" className="gap-2 shrink-0">
+                View All {domainTrainings.length}
+                <ArrowRight className="h-3.5 w-3.5" />
+              </Button>
+            </Link>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {domainTrainings.slice(0, 6).map((domain) => (
+              <Link
+                key={domain.slug}
+                href={user ? `/domains/${domain.slug}` : "/domains"}
+              >
+                <Card className="group border-border/50 h-full transition-all hover:border-border hover:shadow-md">
+                  <CardContent className="py-4 px-4">
+                    <div className="flex items-start gap-3">
+                      <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                        <Sparkles className="h-4 w-4 text-primary" />
+                      </div>
+                      <div className="min-w-0">
+                        <h3 className="font-semibold text-sm leading-tight line-clamp-1">{domain.domain}</h3>
+                        <p className="text-xs text-muted-foreground mt-1 line-clamp-2">{domain.description.slice(0, 100)}…</p>
+                        <p className="text-xs text-muted-foreground/70 mt-1.5">
+                          {domain.modules.length} modules · {domain.modules.reduce((a, m) => a + m.lessons.length, 0)} lessons
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+          {!user && (
+            <p className="mt-4 text-center text-xs text-muted-foreground">
+              <Link href="/login" className="underline underline-offset-2 hover:text-foreground">Sign in</Link> or{" "}
+              <Link href="/register" className="underline underline-offset-2 hover:text-foreground">create an account</Link> to access full training material for all {domainTrainings.length} domains.
+            </p>
+          )}
+        </div>
+
         {/* ─── Grand Project CTA with background image ─── */}
         <div className="mt-12">
           <Link href={user ? "/grand-project" : "/login"}>
@@ -407,7 +462,22 @@ export default function HomePage() {
         </div>
 
         {/* Quick links to extra sections */}
-        <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <Link href="/domains">
+            <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full group">
+              <CardContent className="py-6 flex items-center gap-4">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-500/10 shrink-0 group-hover:bg-violet-500/20 transition-colors">
+                  <Sparkles className="h-5 w-5 text-violet-500" />
+                </div>
+                <div>
+                  <h3 className="font-semibold text-sm">Domains</h3>
+                  <p className="text-xs text-muted-foreground">
+                    {domainTrainings.length} industry verticals
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
           <Link href="/glossary">
             <Card className="border-border/50 transition-all hover:border-border hover:shadow-md h-full group">
               <CardContent className="py-6 flex items-center gap-4">
