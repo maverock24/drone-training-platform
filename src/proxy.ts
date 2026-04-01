@@ -3,6 +3,11 @@ import type { NextRequest } from "next/server";
 import { jwtVerify } from "jose";
 
 export async function proxy(req: NextRequest) {
+  // In local development, bypass auth checks entirely
+  if (process.env.NODE_ENV === "development") {
+    return NextResponse.next();
+  }
+
   const token = req.cookies.get("session")?.value;
   const path = req.nextUrl.pathname;
 

@@ -3,6 +3,13 @@ import { NextResponse } from "next/server";
 import { jwtVerify } from "jose";
 
 export async function GET() {
+  // In local development, auto-authenticate as a test user
+  if (process.env.NODE_ENV === "development") {
+    return NextResponse.json({
+      user: { userId: "dev-user", username: "testuser" },
+    });
+  }
+
   try {
     const token = (await cookies()).get("session")?.value;
 
