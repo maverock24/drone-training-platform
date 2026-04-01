@@ -96,10 +96,12 @@ export function Navbar() {
           <div className="ml-2 border-l border-border/40 pl-2">
             {loading ? null : user ? (
               <div className="flex items-center gap-2">
-                <span className="text-xs text-muted-foreground flex items-center gap-1">
-                  <User className="h-3.5 w-3.5" />
-                  {user.username}
-                </span>
+                <Link href="/profile">
+                  <Button variant="ghost" size="sm" className="gap-1.5 text-sm text-muted-foreground hover:text-foreground">
+                    <User className="h-3.5 w-3.5" />
+                    {user.username}
+                  </Button>
+                </Link>
                 <Button variant="ghost" size="sm" className="gap-1.5 text-sm" onClick={handleLogout}>
                   <LogOut className="h-4 w-4" />
                   Logout
@@ -147,10 +149,12 @@ export function Navbar() {
               <div className="mt-4 border-t border-border/40 pt-4">
                 {loading ? null : user ? (
                   <>
-                    <p className="text-xs text-muted-foreground flex items-center gap-1.5 px-4 mb-2">
-                      <User className="h-3.5 w-3.5" />
-                      {user.username}
-                    </p>
+                    <Link href="/profile" onClick={() => setOpen(false)}>
+                      <Button variant="ghost" className="w-full justify-start gap-3 text-muted-foreground">
+                        <User className="h-5 w-5" />
+                        {user.username}
+                      </Button>
+                    </Link>
                     <Button
                       variant="ghost"
                       className="w-full justify-start gap-3"

@@ -14,6 +14,7 @@ export async function proxy(req: NextRequest) {
   const isProtected =
     (path.startsWith("/tracks") && !isTrackOverview) ||
     path.startsWith("/grand-project") ||
+    path === "/profile" ||
     isDomainDetail;
 
   if (!token && isProtected) {
@@ -38,5 +39,5 @@ export async function proxy(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/tracks/:path*", "/grand-project/:path*", "/domains/:path*"],
+  matcher: ["/tracks/:path*", "/grand-project/:path*", "/domains/:path*", "/profile"],
 };
