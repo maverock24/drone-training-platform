@@ -1,6 +1,6 @@
 {
   "domain": "Power Line & Utility Inspection",
-  "description": "A comprehensive training program for building autonomous drone systems that inspect electrical transmission lines, towers, insulators, and substations. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to utility inspection, enabling automated detection of corrosion, damaged conductors, vegetation encroachment, insulator contamination, and thermal anomalies, with integration into utility asset management systems.",
+  "description": "Mission-critical high-voltage infrastructure inspection using BVLOS (Beyond Visual Line of Sight) drones equipped with Corona/UV cameras, LiDAR, and real-time deep learning anomaly classification.",
   "learning_objectives": [
     "Understand the anatomy of electrical power infrastructure: transmission towers, conductors, insulators, substations, and right‑of‑way corridors",
     "Build and train AI models for detecting common defects: broken conductors, damaged insulators, corrosion, vegetation encroachment, and thermal hotspots",
@@ -12,132 +12,51 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Power Line and Utility Inspection Fundamentals",
-      "lessons": [
-        {
-          "title": "Electrical Infrastructure Overview",
-          "content": "Study the components of overhead transmission and distribution systems: towers/poles (lattice, tubular, wood), conductors (ACSR, aluminum, copper), insulators (glass, ceramic, polymer), hardware (clamps, dampers, spacers), shield wires, and substations. Understand typical defects: corrosion (galvanized steel, aluminum), conductor strands broken or frayed, insulator damage (cracks, flashover marks), missing hardware, vegetation encroachment (trees within right‑of‑way), and thermal anomalies (hot spots indicating loose connections or failing equipment). Learn about inspection standards: NERC (North American Electric Reliability Corporation), IEEE, and local utility guidelines."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze scenarios: transmission line patrol (routine inspections over long distances), post‑storm damage assessment, vegetation management (identifying encroaching trees), substation inspection (thermal imaging of equipment), and new construction verification. Define requirements: long‑endurance drones (≥45 minutes) or BVLOS operations, high‑zoom RGB camera (30x optical) for detailed inspection from safe distance, thermal camera (for hot spot detection), LiDAR for vegetation clearance measurement, RTK GPS for precise geolocation, and robust communication (cellular or long‑range radio) for remote areas. Safety distances: maintain minimum separation from energized lines (typically 10–30 m depending on voltage)."
-        }
+      "id": "bvlos-transmission-lines",
+      "title": "BVLOS Transmission Line Tracking",
+      "description": "Develop closed-loop vision control systems for autonomous tracking of high-voltage transmission lines over hundreds of kilometers.",
+      "topics": [
+        "Catenary curve fitting & wire tracking algorithms",
+        "Magnetic interference mitigation & sensor voting",
+        "BVLOS communication links (LTE/5G bonding, SATCOM backup)",
+        "Dynamic path planning around transmission towers",
+        "Failsafe Return-to-Home architectures in GNSS-denied areas"
       ]
     },
     {
-      "title": "Module 2: AI Engineer – Defect Detection on Power Infrastructure",
-      "lessons": [
-        {
-          "title": "Insulator and Hardware Defect Detection",
-          "content": "Train an object detection model (e.g., YOLOv8) to identify insulators and then classify their condition (clean, contaminated, cracked, broken). Use datasets of utility inspection imagery. For contamination, use color and texture analysis; for cracks, use edge detection and segmentation. Output bounding boxes with defect type and confidence. For hardware, detect missing or loose components (clamps, bolts).",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')\nmodel.train(data='insulator_defects.yaml', epochs=100)"
-        },
-        {
-          "title": "Conductor and Corrosion Detection",
-          "content": "Train a semantic segmentation model (e.g., U‑Net) to identify conductor strands and detect broken strands or corrosion. Use high‑resolution imagery from zoom cameras. For corrosion, train a classifier on patches to distinguish healthy vs. corroded metal. Also detect conductor sags or aeolian vibration damage. Output geotagged defect locations.",
-          "code_example": "from segmentation_models_pytorch import Unet\nmodel = Unet(encoder_name='resnet50', classes=3)  # conductor, defect, background"
-        },
-        {
-          "title": "Thermal Anomaly Detection for Substations and Connections",
-          "content": "Use thermal camera imagery to detect overheating components: transformers, circuit breakers, bushings, and conductor connections. Train a model to identify hot spots (regions with temperature significantly above ambient or above similar components). Use absolute temperature thresholds (e.g., >100°C) or relative comparisons. Output heatmaps and alert severity levels.",
-          "code_example": "import cv2\n# Simple thresholding based on temperature map\nthermal_image = cv2.imread('thermal.tiff')\nhot_mask = thermal_image > 100  # assuming 16‑bit temperature values"
-        },
-        {
-          "title": "Vegetation Encroachment Detection",
-          "content": "Use LiDAR data or stereo imagery to measure distances from conductors to surrounding vegetation. Train a model to segment trees and calculate clearance. Alert if clearance falls below regulatory thresholds (e.g., 3 m for transmission lines). Use change detection to monitor growth over time. Combine with GIS right‑of‑way boundaries.",
-          "code_example": "import laspy\n# Read LiDAR point cloud, classify ground and vegetation, compute distance to conductor model"
-        }
+      "id": "corona-uv-inspection",
+      "title": "Multi-Spectral Corona & Thermal Analysis",
+      "description": "Detect subtle corona discharges and thermal hotspots indicating imminent insulator failure.",
+      "topics": [
+        "UV/Corona Discharge quantification",
+        "Radiometric thermal profiling of transformers",
+        "Spatio-temporal alignment of UV, IR, and RGB streams",
+        "Edge-based anomaly triggering & thresholding",
+        "Predictive maintenance modeling using time-series AI"
       ]
     },
     {
-      "title": "Module 3: Data Engineer – Utility Asset Geospatial Management",
-      "lessons": [
-        {
-          "title": "PostGIS for Transmission Line Inventory",
-          "content": "Create a PostGIS database storing towers, line segments, conductors, insulators, and right‑of‑way boundaries. Each asset has unique ID, geometry, type, installation date, last inspection, and condition score. Use spatial queries to plan inspection routes (e.g., all towers with last inspection > 2 years).",
-          "code_example": "CREATE TABLE towers (\n  id SERIAL PRIMARY KEY,\n  tower_number TEXT,\n  geom GEOMETRY(Point, 4326),\n  voltage INT,\n  material TEXT,\n  last_inspection DATE\n);\nCREATE INDEX idx_towers_geom ON towers USING GIST (geom);"
-        },
-        {
-          "title": "STAC for Utility Inspection Data",
-          "content": "Catalog all inspection flights using STAC. Each item includes bounding box of the line segment, datetime, sensor type, number of defects detected, and links to orthomosaics, thermal mosaics, and defect reports. Provide a STAC API for integration with utility GIS and asset management systems (e.g., Esri ArcGIS, SAP).",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"line_123_inspection_2025_10_01\",\n  \"properties\": {\n    \"datetime\": \"2025-10-01T09:00:00Z\",\n    \"defect_count\": 3,\n    \"line_id\": \"123\"\n  },\n  \"assets\": {\n    \"thermal_mosaic\": {\"href\": \"s3://.../line_123_thermal.tif\"}\n  }\n}"
-        },
-        {
-          "title": "Integration with Utility Work Management Systems",
-          "content": "Build APIs to push inspection results (defects, location, severity) to utility work management platforms (e.g., IBM Maximo, GE Smallworld). Automatically generate work orders for critical defects (e.g., broken insulator, hot spot). Provide a dashboard for inspectors to review detections and prioritize field repairs.",
-          "code_example": "import requests\nwork_order = {\n    'asset_id': 'TOWER-456',\n    'defect': 'cracked insulator',\n    'priority': 'high',\n    'location': {'lat': 35.123, 'lon': -80.456}\n}\nrequests.post('https://utility-cmms-api/workorders', json=work_order)"
-        }
+      "id": "wind-turbine-blade-analysis",
+      "title": "Automated Wind Turbine Blade Scanning",
+      "description": "Execute precision spiral trajectories around operating or parked wind turbines to capture millimeter-accurate blade surface models.",
+      "topics": [
+        "Relative 3D positioning using RTK & Onboard LiDAR",
+        "Automated flight path generation for complex aerodynamic surfaces",
+        "Defect segmentation (Lightning strikes, Delamination, Leading edge erosion)",
+        "Instance Segmentation (Mask R-CNN) for crack sizing",
+        "Digital Twin integration of blade health"
       ]
     },
     {
-      "title": "Module 4: Edge AI Engineer – Real‑Time Utility Inspection",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Power Line Inspection",
-          "content": "Select sensors: high‑zoom RGB camera (e.g., Sony QX1 with 30x zoom), thermal camera (e.g., FLIR Vue Pro R), optionally LiDAR for vegetation measurement. Use a drone with RTK GPS and magnetic shielding to avoid interference from power lines. Use a hexacopter for redundancy. Connect to Jetson Orin Nano for on‑board processing. For long‑distance BVLOS, consider using a tethered drone or cellular backhaul."
-        },
-        {
-          "title": "DeepStream Pipeline for Real‑Time Defect Detection",
-          "content": "Build a DeepStream pipeline that ingests RGB and thermal streams, runs insulator/conductor defect detection, and overlays alerts on the video feed. For thermal, apply pseudo‑color to highlight hot spots. Stream results to ground station with low latency (< 1 second). Record flagged defects with geotags for post‑processing.",
-          "code_example": "deepstream-app -c powerline_inspection_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Autonomous Line Following",
-          "content": "Create a ROS 2 node that uses computer vision to detect and follow power lines. Use a combination of line detection algorithms (Hough transform, deep learning) to maintain the drone’s position relative to the conductor path. Use MAVROS to command the drone along the line while maintaining a safe distance. For towers, implement a pause‑and‑inspect behavior: stop at each tower, rotate camera to inspect insulators, then proceed.",
-          "code_example": "class LineFollower(Node):\n    def __init__(self):\n        super().__init__('line_follower')\n        self.image_sub = self.create_subscription(Image, '/camera', self.cb, 10)\n        self.vel_pub = self.create_publisher(Twist, '/mavros/setpoint_velocity/cmd_vel_unstamped', 10)\n\n    def cb(self, msg):\n        # detect line in image, compute offset, publish velocity command"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement for Utility Models",
-      "lessons": [
-        {
-          "title": "Active Learning for Rare Defects",
-          "content": "After each inspection, collect images where the model had low confidence or where field crews reported missed defects. Send these to utility engineers for labeling. Use active learning to retrain models, improving detection of rare defects (e.g., bird‑related damage, specific corrosion patterns).",
-          "code_example": "uncertain = [img for img in flight_data if model_uncertainty(img) > 0.4]\ncvat.create_task('powerline_active_learning', uncertain)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Periodic Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains defect detection models quarterly or after major storm events. Incorporate new labeled data, evaluate against a benchmark dataset, and deploy to drone fleet via OTA updates. Version models with metadata on voltage class and environment (coastal, rural, urban).",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef powerline_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift Across Regions and Seasons",
-          "content": "Use Evidently AI to compare distributions of image features (lighting, background, defect types) across different transmission corridors and seasons. Drift may occur due to new vegetation, different camera settings, or aging infrastructure. Trigger retraining when drift exceeds threshold.",
-          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=coastal_region, current_data=mountain_region)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Power Line Environment",
-          "content": "Use NVIDIA Isaac Sim or a specialized simulation environment (e.g., Unity with power line assets) to create realistic transmission corridors with towers, conductors, and vegetation. Simulate defects (broken insulator, conductor strands). Connect real Pixhawk and Jetson. Test autonomous line following, defect detection, and safety behaviors (avoidance of simulated obstacles).",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies along line; Jetson runs detection; real Pixhawk controls virtual drone."
-        },
-        {
-          "title": "Latency Profiling for Safe Proximity Operations",
-          "content": "Profile the latency from image capture to defect detection and command generation. Use Nsight Systems. For operations near energized lines, low latency is critical for safe obstacle avoidance. Ensure detection and reaction time < 200 ms. Optimize by using TensorRT and reducing image resolution for fast inference.",
-          "code_example": "nsys profile -o powerline_profile python line_follower.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety, Regulatory, and Compliance",
-      "lessons": [
-        {
-          "title": "Utility Safety Standards",
-          "content": "Understand safe approach distances (MAD – Minimum Approach Distance) based on line voltage (e.g., 10 ft for 69 kV, 20 ft for 230 kV). Always maintain clearance. Use pre‑programmed geofences and altitude limits. Implement emergency procedures: if GPS lost or communication lost, auto‑climb to safe altitude and return home. Train pilots on utility‑specific protocols."
-        },
-        {
-          "title": "Regulatory Compliance and Coordination",
-          "content": "Coordinate with utility operations control centers before flights. Obtain FAA waivers for BVLOS if needed. In many jurisdictions, drone inspection of power lines is permitted with proper training and safety protocols. Follow NERC CIP (Critical Infrastructure Protection) guidelines for data security."
-        },
-        {
-          "title": "Electromagnetic Interference (EMI) Mitigation",
-          "content": "Power lines generate strong electromagnetic fields that can interfere with compass and GPS. Use shielded components, mount antennas away from motors, and rely on RTK GPS with ground base stations for stable navigation. Test for EMI susceptibility before live flights."
-        }
+      "id": "vegetation-encroachment",
+      "title": "LiDAR Vegetation Encroachment Monitoring",
+      "description": "Leverage massive aerial LiDAR point clouds to measure exact distances between power lines and surrounding vegetation.",
+      "topics": [
+        "Point cloud classification (Ground, Wire, Vegetation)",
+        "Clearance distance calculation & risk categorization",
+        "Automated vegetation management scheduling (Optimization algorithms)",
+        "Processing billion-point datasets with PDAL/LAStools",
+        "Batch job orchestration via Kubernetes"
       ]
     }
   ],
@@ -168,6 +87,28 @@
       "name": "EPRI Drone Inspection Guidelines",
       "url": "https://www.epri.com/research/products/000000003002018185",
       "description": "Electric Power Research Institute best practices"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "BVLOS",
+      "definition": "Beyond Visual Line Of Sight. Drone operations where the pilot cannot physically see the aircraft."
+    },
+    {
+      "term": "Corona Discharge",
+      "definition": "An electrical discharge brought on by the ionization of a fluid such as air surrounding a conductor that is electrically charged."
+    },
+    {
+      "term": "Catenary",
+      "definition": "The curve that an idealized hanging chain or cable assumes under its own weight when supported only at its ends."
+    },
+    {
+      "term": "PDAL",
+      "definition": "Point Data Abstraction Library. A C++/Python open source library and applications for translating and processing point cloud data."
+    },
+    {
+      "term": "Mask R-CNN",
+      "definition": "A deep neural network aimed at solving instance segmentation problems in machine learning or computer vision."
     }
   ]
 }

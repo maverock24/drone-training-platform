@@ -21,6 +21,8 @@ import {
   User,
   Sparkles,
 } from "lucide-react";
+import { useProgress } from "@/lib/progress-context";
+import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { useAuth } from "@/lib/auth-context";
 
@@ -50,6 +52,7 @@ export function Navbar() {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const { user, loading, logout } = useAuth();
+  const { getFlightHours, getGlobalRank } = useProgress();
   const navItems = user ? authNavItems : publicNavItems;
 
   const handleLogout = async () => {
@@ -102,6 +105,9 @@ export function Navbar() {
                     {user.username}
                   </Button>
                 </Link>
+                <Badge variant="secondary" className="font-mono bg-cyan-950/30 text-cyan-400 border-cyan-800 pointer-events-none">
+                  {getFlightHours().toFixed(1)} Hrs • {getGlobalRank().split(' ')[0]}
+                </Badge>
                 <Button variant="ghost" size="sm" className="gap-1.5 text-sm" onClick={handleLogout}>
                   <LogOut className="h-4 w-4" />
                   Logout

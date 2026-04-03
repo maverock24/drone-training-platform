@@ -1,6 +1,6 @@
 {
   "domain": "Facility Management & Industrial Inspection",
-  "description": "A comprehensive training program for building autonomous drone systems that inspect and monitor large industrial facilities: solar farms, wind turbines, oil refineries, chemical plants, power plants, and warehouses. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to facility management and industrial inspection, enabling automated anomaly detection, predictive maintenance, and integration with enterprise asset management systems.",
+  "description": "Intelligent autonomous facility inspections. Utilize Digital Twins, continuous LiDAR anomaly detection, and predictive maintenance via Edge AI on confined multi-rotor platforms.",
   "learning_objectives": [
     "Understand the types of industrial facilities and their critical inspection needs",
     "Build and train AI models for detecting anomalies: thermal hotspots, corrosion, leaks, structural defects, and equipment malfunctions",
@@ -12,132 +12,27 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Facility Management and Industrial Inspection Fundamentals",
-      "lessons": [
-        {
-          "title": "Types of Facilities and Inspection Needs",
-          "content": "Study key industrial assets: solar farms (PV panels, inverters), wind turbines (blades, nacelles, towers), oil refineries (pipes, tanks, flare stacks), chemical plants (pressure vessels, piping, storage), power plants (cooling towers, turbines, transmission lines), warehouses (roofs, HVAC, structural integrity). Understand common defects: thermal anomalies (hot spots indicating electrical faults or insulation failure), corrosion, leaks (gas, liquid), structural cracks, missing components, vegetation encroachment, and equipment degradation. Learn inspection frequencies: continuous monitoring for critical assets, periodic (monthly, quarterly) for others, and post‑incident inspections."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze real‑world scenarios: solar farm thermal inspection (identifying faulty cells), wind turbine blade inspection (cracks, erosion, lightning damage), refinery flare stack monitoring, chemical plant pipe leak detection (using optical gas imaging), warehouse roof inspection (ponding water, membrane tears). Define key requirements: specialized sensors (thermal, optical gas imaging, high‑zoom RGB), flight autonomy in GPS‑denied or confined spaces, compliance with hazardous area classifications (ATEX, Class I Div 1), real‑time anomaly alerting to maintenance teams, and integration with CMMS (e.g., IBM Maximo, SAP)."
-        }
+      "id": "confined-space-inspection",
+      "title": "Confined Space Flight Autonomy",
+      "description": "Navigate complex, dark, and highly reflective indoor environments using advanced sensor fusion.",
+      "topics": [
+        "Collision tolerance and cage design aerodynamics",
+        "Multi-directional 3D LiDAR SLAM (Omnidirectional Odometry)",
+        "Radar-based distance sensors over ultrasonic",
+        "Edge lighting enhancement via Low-Light Image Enhancement Generative Networks",
+        "Haptic feedback teleoperation for inspection"
       ]
     },
     {
-      "title": "Module 2: AI Engineer – Anomaly Detection and Predictive Maintenance",
-      "lessons": [
-        {
-          "title": "Thermal Anomaly Detection on Solar Panels and Electrical Equipment",
-          "content": "Train a model to detect thermal anomalies in solar panels (hot cells, string failures) and electrical substations (overheating connections). Use a dataset of thermal images with labeled anomalies. Consider using a combination of object detection (to locate individual panels) and classification (normal vs. hot). For solar panels, compute temperature deviation relative to neighboring panels. For electrical equipment, use absolute temperature thresholds and rate of change. Output a heatmap of anomalies with severity.",
-          "code_example": "import torch\nfrom ultralytics import YOLO\n# Detect panel locations first\npanel_detector = YOLO('solar_panel_detector.pt')\n# Then for each panel, extract thermal values and classify anomaly"
-        },
-        {
-          "title": "Wind Turbine Blade Defect Detection",
-          "content": "Train a segmentation or detection model to identify cracks, erosion, lightning strikes, and ice accretion on wind turbine blades. Use high‑resolution RGB and optionally thermal imagery. Because blades are large and often viewed at oblique angles, use a model that can handle wide‑aspect‑ratio objects. Implement a blade tracking module to follow the blade in video and stitch multiple views for complete coverage.",
-          "code_example": "model = torch.hub.load('facebookresearch/detectron2', 'mask_rcnn_R_50_FPN_3x', pretrained=True)\n# Fine‑tune on wind turbine blade defect dataset"
-        },
-        {
-          "title": "Gas Leak Detection with Optical Gas Imaging (OGI)",
-          "content": "Train a model to detect gas leaks (e.g., methane, hydrocarbons) from OGI camera footage (e.g., FLIR GF series). Use video sequences where leaks appear as plumes. Use a 3D CNN or a frame‑differencing approach to detect movement in specific spectral bands. Output bounding boxes or segmentation of the leak plume and estimate relative size. Integrate with gas concentration sensors if available.",
-          "code_example": "from torch import nn\nclass GasLeakDetector(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.conv3d = nn.Conv3d(1, 64, kernel_size=(3,3,3))  # spatiotemporal"
-        },
-        {
-          "title": "Predictive Maintenance Models",
-          "content": "Use time‑series data from multiple inspections to predict remaining useful life (RUL) of components. Build a regression model (e.g., LSTM, Transformer) that takes defect progression over time and outputs a probability of failure within the next X months. This enables condition‑based maintenance scheduling.",
-          "code_example": "class RULPredictor(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.lstm = nn.LSTM(input_size=features, hidden_size=128, num_layers=2)\n        self.fc = nn.Linear(128, 1)  # output remaining days"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Asset Health Database",
-      "lessons": [
-        {
-          "title": "Asset Hierarchy and Time‑Series Data with TimescaleDB",
-          "content": "Create a database to store asset information (hierarchical: site → system → component → defect instance). Use PostgreSQL with TimescaleDB extension for efficient time‑series storage of inspection results. Each inspection record includes asset ID, timestamp, anomaly type, severity, image references, and recommended action.",
-          "code_example": "CREATE TABLE inspections (\n  time TIMESTAMPTZ,\n  asset_id TEXT,\n  anomaly_type TEXT,\n  severity INT,\n  image_path TEXT,\n  recommendation TEXT\n);\nSELECT create_hypertable('inspections', 'time');"
-        },
-        {
-          "title": "Integration with CMMS (Computerized Maintenance Management Systems)",
-          "content": "Build APIs to push inspection results to enterprise systems like IBM Maximo, SAP, or open‑source alternatives. Define a standard data model for work orders: asset, defect description, priority, suggested action. Automate work order creation when critical anomalies are detected (e.g., high‑severity hot spot).",
-          "code_example": "import requests\nwork_order = {\n    'asset_id': 'PV-1234',\n    'description': 'Hot cell detected, temp 85°C, panel row 3 col 5',\n    'priority': 'high',\n    'action': 'inspect and replace'\n}\nrequests.post('https://cmms-api/workorders', json=work_order)"
-        },
-        {
-          "title": "3D Digital Twins for Facilities",
-          "content": "Use photogrammetry and LiDAR to create 3D digital twins of facilities. Store these as textured meshes or point clouds. Map inspection results onto the digital twin, allowing engineers to visualize defects in context. Update the digital twin after significant changes. Use open standards like 3D Tiles or GLTF for web delivery.",
-          "code_example": "OpenDroneMap for orthophoto; CloudCompare for point cloud processing"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Real‑Time Anomaly Detection on Drone",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Industrial Inspection",
-          "content": "Select sensors based on facility type: high‑resolution RGB (20+ MP), thermal camera (e.g., FLIR Duo Pro R), optionally optical gas imaging camera (e.g., FLIR GF77), LiDAR for 3D mapping. Use a drone with RTK GPS and obstacle avoidance sensors (stereo cameras, LiDAR). For confined spaces, consider a collision‑tolerant drone (e.g., with cage). Connect to Jetson Orin Nano for on‑board AI processing. For hazardous areas, ensure equipment is rated for explosive atmospheres (ATEX certification)."
-        },
-        {
-          "title": "DeepStream Pipeline for Multi‑Sensor Fusion",
-          "content": "Build a DeepStream pipeline that ingests both RGB and thermal streams, performs object detection (e.g., solar panels, wind turbine blades), and runs anomaly classification on each detected component. Fuse the results: RGB for structural defects, thermal for temperature anomalies. Output an annotated video with overlays and transmit metadata (anomalies with coordinates) to ground station.",
-          "code_example": "deepstream-app -c industrial_inspection_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Autonomous Inspection and Reporting",
-          "content": "Create a ROS 2 node that navigates the facility based on pre‑planned waypoints or uses visual SLAM for GPS‑denied environments (e.g., inside a warehouse or under solar panels). While flying, run anomaly detection and publish alerts to `/anomalies`. Another node logs these anomalies to a database. At the end of flight, generate a summary report with images and recommendations.",
-          "code_example": "class IndustrialInspector(Node):\n    def __init__(self):\n        super().__init__('industrial_inspector')\n        self.anomaly_pub = self.create_publisher(AnomalyMsg, '/anomalies', 10)\n\n    def image_callback(self, msg):\n        detections = self.model.predict(msg)\n        for det in detections:\n            self.anomaly_pub.publish(det)"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement and Fleet Management",
-      "lessons": [
-        {
-          "title": "Active Learning for Rare Anomalies",
-          "content": "Industrial facilities may have rare but critical anomalies (e.g., gas leaks, turbine blade cracks). Use active learning to prioritize images where the model is uncertain or where maintenance teams have confirmed false negatives. Feed these back to retrain the model, improving recall for critical defects.",
-          "code_example": "uncertainty_scores = model.predict_uncertainty(batch)\nuncertain_samples = [sample for sample, score in zip(batch, uncertainty_scores) if score > threshold]"
-        },
-        {
-          "title": "Kubeflow Pipelines for Model Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains anomaly detection models weekly or after each new batch of labeled data. Include steps: data validation, augmentation, training, evaluation, model registry (MLflow), and deployment to drone fleet via OTA. Version both models and datasets.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef industrial_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Fleet‑Wide Monitoring and Drift Detection",
-          "content": "Monitor model performance across a fleet of drones inspecting multiple facilities. Use Evidently AI to compare data distributions (e.g., thermal histogram) across facilities and time. If drift is detected (new camera model, seasonal temperature changes), trigger retraining with facility‑specific data.",
-          "code_example": "report = Report(metrics=[DataDriftPreset(), ModelDriftPreset()])\nreport.run(reference_data=baseline_facility, current_data=current_facility_data)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Industrial Environment",
-          "content": "Use NVIDIA Isaac Sim or a specialized industrial simulator (e.g., Unity with industrial assets) to create realistic facilities: solar farms, wind turbines, refinery structures. Simulate defects (hot spots, cracks, gas plumes). Connect the real Pixhawk and Jetson. Test autonomous inspection flights, anomaly detection, and reporting. Validate safety procedures in hazardous scenarios.",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies predefined grid; Jetson runs models on simulated camera feeds"
-        },
-        {
-          "title": "Latency Profiling for Real‑Time Alerts",
-          "content": "Profile the detection‑to‑alert latency using Nsight Systems. For critical anomalies (e.g., gas leak, overheating), latency should be < 1 second to enable immediate pilot intervention. Optimize by using TensorRT, reducing model complexity, and parallelizing inference streams.",
-          "code_example": "nsys profile -o industrial_inspection_profile python inspection_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety, Compliance, and Ethics",
-      "lessons": [
-        {
-          "title": "Industrial Safety Regulations",
-          "content": "Study OSHA (US) and equivalent standards for drone operations in industrial environments: confined space entry, working at heights, hazardous atmospheres. For facilities with explosive environments, drones must be ATEX‑certified. Develop safety protocols: keep safe distance from high‑voltage equipment, avoid interfering with operations, use two‑person crew (pilot and observer)."
-        },
-        {
-          "title": "Data Privacy and Security",
-          "content": "Industrial inspection data may contain proprietary layouts or trade secrets. Encrypt data in transit and at rest. Limit access to authorized personnel. Use secure communication (e.g., encrypted Wi‑Fi or cellular). Implement audit trails for all flights and data access."
-        },
-        {
-          "title": "Environmental and Ethical Considerations",
-          "content": "Consider the environmental impact of frequent drone flights (noise, emissions). Optimize flight plans to minimize unnecessary flights. Ensure that inspections do not disrupt facility operations (e.g., schedule during maintenance windows). For oil and gas, prioritize leak detection to prevent environmental harm."
-        }
+      "id": "pipeline-tank-ultrasound",
+      "title": "Ultrasonic & NDT Sensor Integration",
+      "description": "Integrate drones with Non-Destructive Testing (NDT) payloads to measure wall thickness and structural integrity in industrial tanks.",
+      "topics": [
+        "Contact-based NDT flight dynamics (Push-and-Hold algorithms)",
+        "Ultrasonic Thickness Measurement (UTM) signal processing",
+        "Visual-Tethered navigation inside metallic spheres",
+        "Corrosion segmentation and grading via Deep Learning",
+        "Real-time defect mapping onto CAD models"
       ]
     }
   ],
@@ -168,6 +63,20 @@
       "name": "OSHA Safety Standards for Drone Operations",
       "url": "https://www.osha.gov/",
       "description": "Regulatory guidelines"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "NDT",
+      "definition": "Non-Destructive Testing. Analysis techniques used to evaluate properties of a material, component, or system without causing damage."
+    },
+    {
+      "term": "SLAM",
+      "definition": "Simultaneous Localization and Mapping."
+    },
+    {
+      "term": "Omnidirectional Odometry",
+      "definition": "An odometry technique estimating motion in a full 360-degree field of view to prevent blind spots in confined spaces."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "domain": "Smart City Infrastructure Inspection",
-  "description": "A comprehensive training program for building autonomous drone systems that inspect and monitor urban infrastructure: bridges, roads, streetlights, traffic signals, public buildings, and construction sites. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to smart city infrastructure management, enabling automated defect detection, change monitoring, and integration with municipal asset management systems.",
+  "description": "Urban Air Mobility (UAM) and Smart City integration. Overcome GPS multi-pathing, dense RF interference, and regulatory compliance through Edge computing and computer vision in complex urban canyons.",
   "learning_objectives": [
     "Understand the types of urban infrastructure requiring inspection and their failure modes",
     "Build and train AI models for defect detection (cracks, corrosion, spalling, graffiti, vegetation encroachment)",
@@ -12,132 +12,39 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Smart City Infrastructure Fundamentals",
-      "lessons": [
-        {
-          "title": "Types of Infrastructure and Inspection Needs",
-          "content": "Study key urban assets: bridges (deck, girders, bearings, expansion joints), roads (pavement cracks, potholes, lane markings), streetlights (poles, luminaires, wiring), traffic signals (signal heads, poles, controller boxes), public buildings (facades, roofs, windows), water towers, and monuments. Understand common defects: cracks (hairline to structural), corrosion, spalling (concrete chipping), graffiti, missing elements, vegetation overgrowth, and discoloration. Learn inspection frequencies (annual, bi‑annual, after events) and safety requirements."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze real‑world scenarios: bridge condition assessment (using high‑resolution imaging), road network monitoring (large‑scale area coverage), streetlight pole inspection (vertical structures, many units), construction progress monitoring (repeat flights for as‑built vs. design). Define key requirements: high‑resolution sensors (20+ MP, possibly thermal), precise navigation with RTK GPS, collision avoidance near structures, BVLOS waivers for large networks, and automated data processing pipelines. Integration with city’s GIS and asset management (e.g., Cityworks, ArcGIS)."
-        }
+      "id": "urban-canyon-navigation",
+      "title": "Urban Canyon VIO & Navigation",
+      "description": "Navigate accurately when GPS/GNSS signals bounce off skyscrapers leading to multi-pathing errors.",
+      "topics": [
+        "Visual-Inertial Odometry (VIO) using event cameras",
+        "GNSS multi-path mitigation algorithms",
+        "LTE/5G positioning using Cell Tower Triangulation",
+        "SLAM (Simultaneous Localization and Mapping) in dynamic environments",
+        "Optical flow processing on Edge TPUs"
       ]
     },
     {
-      "title": "Module 2: AI Engineer – Defect Detection and Classification",
-      "lessons": [
-        {
-          "title": "Crack and Surface Defect Segmentation",
-          "content": "Train a semantic segmentation model (e.g., U‑Net, DeepLabV3+) to identify cracks, spalls, and other surface defects on bridges, roads, and buildings. Use datasets like Crack500, Bridge Crack Dataset, and custom aerial imagery. Address challenges: varying lighting, shadows, and surface textures. Post‑process segmentation masks to compute defect dimensions (width, length) and classify severity (hairline, moderate, severe).",
-          "code_example": "from segmentation_models_pytorch import Unet\nmodel = Unet(encoder_name='resnet50', encoder_weights='imagenet', classes=4)  # crack, spall, healthy, background\n# Train with focal loss to handle class imbalance"
-        },
-        {
-          "title": "Corrosion and Material Deterioration Detection",
-          "content": "Train a classification or detection model to identify corrosion on metal structures (bridge girders, railings, streetlight poles). Use visual and optionally thermal imagery (corrosion often heats differently). Combine RGB and thermal with early fusion (concatenated inputs) or late fusion. Output bounding boxes or segmentation masks with corrosion type (surface rust, pitting, severe).",
-          "code_example": "import torch\n# Multi‑input model using two branches\nclass CorrosionNet(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.rgb_branch = torchvision.models.resnet18(pretrained=True)\n        self.thermal_branch = torchvision.models.resnet18(pretrained=True)\n        self.fc = nn.Linear(1000*2, num_classes)"
-        },
-        {
-          "title": "Vegetation Encroachment Detection",
-          "content": "Train a semantic segmentation model to detect vegetation (trees, bushes, grass) that may encroach on infrastructure (power lines, road signs, building facades). Use multispectral data (NDVI) if available. Measure distances to critical infrastructure to trigger alerts when vegetation is too close (e.g., within 2 m of power lines).",
-          "code_example": "model = DeepLabV3Plus(backbone='resnet50', num_classes=2)  # vegetation / not"
-        },
-        {
-          "title": "Change Detection Over Time",
-          "content": "Build a Siamese network or use a transformer‑based model to compare images of the same asset taken at different times. Detect changes: new cracks, graffiti, missing components. Use registration (align images) before change detection. Output heatmaps of changed regions. This can be run on the cloud after flights to identify critical changes.",
-          "code_example": "class ChangeDetector(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.encoder = torchvision.models.resnet34(pretrained=True)\n        self.decoder = nn.Sequential(...)  # produce change mask"
-        }
+      "id": "traffic-crowd-analytics",
+      "title": "Traffic & Crowd Flow Analytics",
+      "description": "Process vast amounts of urban data on the edge to protect privacy while streaming derived analytics to city dashboards.",
+      "topics": [
+        "Edge-based pose estimation for pedestrian flow",
+        "Vehicle tracking & trajectory forecasting with LSTMs",
+        "MAC Address / WiFi Sniffing spatial density mapping",
+        "Deploying privacy-preserving anonymization layers",
+        "Streaming telemetry to city-scale Apache Kafka brokers"
       ]
     },
     {
-      "title": "Module 3: Data Engineer – Geospatial Asset Management",
-      "lessons": [
-        {
-          "title": "Asset Inventory with PostGIS",
-          "content": "Create a PostGIS database to store all city assets (bridges, streetlights, signs, etc.). Each asset has a unique ID, geometry (Point or Polygon), type, installation date, last inspection date, and condition score. Use spatial queries to plan inspection routes: find all assets in a given district, or all bridges with last inspection > 2 years ago.",
-          "code_example": "CREATE TABLE assets (\n  id SERIAL PRIMARY KEY,\n  asset_type TEXT,\n  geom GEOMETRY(Point, 4326),\n  install_date DATE,\n  last_inspection DATE,\n  condition_score INT\n);\nCREATE INDEX idx_assets_geom ON assets USING GIST (geom);"
-        },
-        {
-          "title": "STAC for Inspection Data",
-          "content": "Catalog every inspection flight using STAC. Each flight item includes bounding box, datetime, sensor type, and number of detected defects. Link to the original images and processed results. Provide a STAC API for city engineers to query by location, time, or defect type.",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"bridge_101_inspection_2025_04_01\",\n  \"properties\": {\n    \"datetime\": \"2025-04-01T10:00:00Z\",\n    \"defects_detected\": 12,\n    \"critical_defects\": 2\n  },\n  \"links\": [...]\n}"
-        },
-        {
-          "title": "Orthomosaics and 3D Reconstruction",
-          "content": "Use structure‑from‑motion (SFM) to create orthomosaics and 3D models of structures. Store these as COGs (orthomosaics) or textured 3D models (e.g., GLTF). Enable city engineers to virtually inspect the asset in 3D, zooming into defect locations. Use tools like Pix4D, Agisoft Metashape, or OpenDroneMap.",
-          "code_example": "odm --project-path /data/ orthophoto --orthophoto-resolution 5"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Real‑Time Inspection on Drone",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Urban Inspection",
-          "content": "Select sensors: high‑resolution RGB camera (e.g., 20 MP with mechanical shutter), optionally thermal camera for electrical components, LiDAR for 3D mapping of complex structures. Use a drone with RTK GPS for precise positioning (necessary for repeat flights and accurate defect geolocation). Connect to Jetson Orin Nano for on‑board AI processing to detect critical defects in real time (e.g., major cracks) for immediate alerting."
-        },
-        {
-          "title": "DeepStream Pipeline for Real‑Time Defect Detection",
-          "content": "Build a DeepStream pipeline that runs defect segmentation on the live video stream. Use hardware‑accelerated decoding and inference (TensorRT) to achieve 30+ fps. Display overlays highlighting defects (color‑coded by severity) on the video sent to the ground station. Also record the raw video for later detailed analysis.",
-          "code_example": "deepstream-app -c infrastructure_inspection_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Autonomous Inspection Flights",
-          "content": "Create a ROS 2 node that plans inspection waypoints based on asset database (PostGIS). Use MAVROS to command the drone to fly a predefined grid or follow a structure (e.g., bridge girder). While flying, run defect detection and log each defect with precise coordinates. Publish defect locations to a topic, which is recorded and later uploaded to the asset management system.",
-          "code_example": "class InspectionPlanner(Node):\n    def __init__(self):\n        super().__init__('inspection_planner')\n        self.asset_db = connect_postgis()\n        self.waypoint_pub = self.create_publisher(Pose, '/waypoint', 10)\n\n    def plan_inspection(self, asset_id):\n        # Retrieve asset geometry and compute waypoints\n        # Publish waypoints sequentially"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Model Improvement",
-      "lessons": [
-        {
-          "title": "Active Learning for Rare Defects",
-          "content": "After each inspection, collect images where the model detected low‑confidence defects or where the output was ambiguous. Send these to human inspectors for validation and labeling (e.g., CVAT). Use this new data to retrain defect detection models, improving performance on rare defect types (e.g., specific corrosion patterns).",
-          "code_example": "low_conf = [img for img in inspection_data if model_uncertainty(img) > 0.5]\ncvat.create_task('active_learning_batch', low_conf)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Periodic Retraining",
-          "content": "Set up a Kubeflow pipeline that runs monthly: collect newly labeled defect data, augment, retrain segmentation/detection models, evaluate against a validation set, and if performance improves, deploy the new model to the drone fleet via OTA updates. Version models in MLflow.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef infrastructure_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift with Changing Environments",
-          "content": "Use Evidently AI to monitor distributions of image features (color, texture) across inspection flights. Changes due to seasonal lighting, new camera, or different sensor can cause drift. Detect and trigger retraining if significant drift occurs. Also monitor defect detection rates; a sudden drop might indicate concept drift.",
-          "code_example": "report = Report(metrics=[DataDriftPreset(), ModelDriftPreset()])\nreport.run(reference_data=training_data, current_data=recent_inference_data)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Urban Environment",
-          "content": "Use NVIDIA Isaac Sim or Unreal Engine with AirSim to create a realistic urban environment with bridges, roads, and buildings. Simulate defects on assets. Connect the real Pixhawk and Jetson to the simulator via MAVLink and ROS 2. Test inspection flights: waypoint following, obstacle avoidance, defect detection. Measure accuracy and latency.",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies over bridge; Jetson runs defect detection on simulated images"
-        },
-        {
-          "title": "Latency Profiling for Real‑Time Alerting",
-          "content": "Profile the end‑to‑end latency: image capture → transmission to Jetson → inference → alert to ground station. Use Nsight Systems. Ensure that critical defect alerts reach the operator within 1 second for immediate action. Optimize by using hardware acceleration, reducing model size, and efficient network protocols.",
-          "code_example": "nsys profile -o infrastructure_profile python inspection_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety and Regulatory Compliance",
-      "lessons": [
-        {
-          "title": "Urban Aviation Regulations",
-          "content": "Study Part 107 (US) or equivalent regulations for urban flight: restrictions on flight over people, distance from buildings, VLOS requirements. For BVLOS inspections, apply for waivers. Use geofencing to avoid restricted airspace. Implement fail‑safe procedures: auto‑return to home on low battery or lost communication."
-        },
-        {
-          "title": "Public Safety and Privacy",
-          "content": "Avoid flying over crowds. Use propeller guards for added safety. For inspections near windows or private property, ensure privacy by masking faces in captured images if required by law. Communicate with local residents about the purpose and schedule of flights."
-        },
-        {
-          "title": "Data Security and Integrity",
-          "content": "Ensure that inspection data (images, defect reports) is stored securely and tamper‑proof. Use encrypted communication between drone and ground station. Maintain audit logs of flights and model predictions for liability and quality assurance."
-        }
+      "id": "uam-utm-integration",
+      "title": "UTM & Airspace Deconfliction",
+      "description": "Integrate with Unmanned Traffic Management (UTM) networks to safely coordinate with other delivery and inspection drones.",
+      "topics": [
+        "Remote ID broadcasting architectures (Bluetooth/WiFi)",
+        "UTM API integration (e.g., Altitude Angel, AirMap)",
+        "Autonomous conflict detection and resolution (CD&R)",
+        "Dynamic Geofencing & No-Fly Zone caching",
+        "Adhering to FAA/EASA regulatory data transmission protocols"
       ]
     }
   ],
@@ -168,6 +75,24 @@
       "name": "FAA Part 107 Waivers",
       "url": "https://www.faa.gov/uas/commercial_operators/part_107_waivers",
       "description": "Guidance on urban flight permissions"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "VIO",
+      "definition": "Visual-Inertial Odometry. The process of estimating the state (pose and velocity) of an agent by fusing camera and IMU measurements."
+    },
+    {
+      "term": "UTM",
+      "definition": "Unmanned Traffic Management. A system to manage drone traffic in lower airspace."
+    },
+    {
+      "term": "Multi-pathing",
+      "definition": "The propagation phenomenon that results in radio signals reaching the receiving antenna by two or more paths. Causes GPS errors in cities."
+    },
+    {
+      "term": "SLAM",
+      "definition": "Simultaneous Localization and Mapping. The Computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it."
     }
   ]
 }

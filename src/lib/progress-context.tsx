@@ -17,6 +17,8 @@ interface ProgressContextType {
   toggleLesson: (lessonId: string) => void;
   isCompleted: (lessonId: string) => boolean;
   getTrackProgress: (trackId: string) => number;
+  getFlightHours: () => number;
+  getGlobalRank: () => string;
   totalCompleted: number;
   completedSteps: Set<string>;
   toggleStep: (stepId: string) => void;
@@ -135,6 +137,20 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     localStorage.setItem("drone-training-last-visited", JSON.stringify(v));
   };
 
+  const getFlightHours = () => {
+    // 1 completed lesson = 2.5 flight hours. 1 step = 0.2 hours.
+    return (completedLessons.size * 2.5) + (completedSteps.size * 0.2);
+  };
+
+  const getGlobalRank = () => {
+    const hours = getFlightHours();
+    if (hours < 10) return "Ground School Cadet";
+    if (hours < 50) return "Level 1 Operator";
+    if (hours < 150) return "Senior Mission Commander";
+    if (hours < 300) return "Edge AI Flight Master";
+    return "Chief Systems Architect";
+  };
+
   const getTrackProgress = (trackId: string) => {
     const track = tracks.find((t) => t.id === trackId);
     if (!track) return 0;
@@ -158,6 +174,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         toggleLesson,
         isCompleted,
         getTrackProgress,
+        getFlightHours,
+        getGlobalRank,
         totalCompleted: completedLessons.size,
         completedSteps,
         toggleStep,

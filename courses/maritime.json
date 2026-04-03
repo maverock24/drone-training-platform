@@ -1,6 +1,6 @@
 {
   "domain": "Maritime & Port Operations",
-  "description": "A comprehensive training program for building autonomous drone systems that inspect ships, port infrastructure, monitor maritime traffic, detect oil spills, and assist in port security. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to maritime environments, enabling automated hull inspection, spill detection, vessel tracking, and compliance monitoring.",
+  "description": "Advanced BVLOS maritime surveillance and vessel inspection. Overcome extreme environmental factors while deploying AI for search-and-rescue, vessel tracking, and hull maintenance.",
   "learning_objectives": [
     "Understand maritime operations: vessel types, port infrastructure, shipping lanes, environmental regulations",
     "Build and train AI models for hull defect detection (biofouling, corrosion, cracks), oil spill detection, vessel identification, and maritime object detection",
@@ -12,132 +12,27 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Maritime and Port Operations Fundamentals",
-      "lessons": [
-        {
-          "title": "Maritime Environment and Infrastructure",
-          "content": "Study key maritime assets: commercial vessels (container ships, tankers, bulk carriers), passenger ships (ferries, cruise ships), port structures (piers, docks, container cranes, breakwaters), navigational aids (buoys, lighthouses). Understand operational challenges: saltwater corrosion, wave motion, variable lighting (glare), reflections, confined spaces between vessels and quays. Learn about environmental concerns: oil spills, ballast water discharge, marine debris. Understand regulatory bodies: IMO (International Maritime Organization), national port authorities, environmental agencies."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze scenarios: hull inspection for biofouling and corrosion (in water or dry dock), port security monitoring (vessel identification, perimeter surveillance), oil spill detection and tracking, cargo inspection (container damage), navigational aid inspection (buoy condition), and vessel traffic monitoring in busy ports. Define requirements: sensors (high‑zoom RGB, thermal, multispectral for oil, LiDAR for structure mapping), drone with high wind resistance and water‑resistant or amphibious design, long‑range communication (maritime LTE, radio), precise positioning with RTK GPS, and integration with AIS receivers for vessel tracking."
-        }
+      "id": "vessel-hull-inspection",
+      "title": "Autonomous Vessel Hull Inspection",
+      "description": "Perform synchronized multi-agent inspections of massive ships using crawling robots and aerial platforms.",
+      "topics": [
+        "Magnetic crawler control systems",
+        "Rust and paint degradation YOLO models",
+        "Draft mark reading using Optical Character Recognition (OCR)",
+        "Synchronized swarm inspection of hulls",
+        "Offshore deployment physics and rolling deck landing"
       ]
     },
     {
-      "title": "Module 2: AI Engineer – Maritime Object Detection and Anomaly Detection",
-      "lessons": [
-        {
-          "title": "Hull Defect Detection: Biofouling, Corrosion, Cracks",
-          "content": "Train a semantic segmentation or object detection model to identify biofouling (barnacles, algae), corrosion, paint blistering, and cracks on ship hulls. Use a dataset of hull images from dry dock surveys and underwater ROV footage. For above‑water hull inspection (when vessel is at berth), use high‑zoom RGB. For underwater, use sonar or optical if water clarity permits. Output defect masks with area estimates and severity classification. Integrate with maintenance planning systems.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n-seg.pt')\nmodel.train(data='hull_defects.yaml', epochs=100)"
-        },
-        {
-          "title": "Oil Spill Detection and Monitoring",
-          "content": "Train a model to detect oil slicks on water surfaces using multispectral (e.g., Sentinel‑2, or drone‑mounted multispectral) or thermal imagery (oil retains heat differently). Use segmentation to outline the spill extent. For thermal, use image thresholding combined with AI. Track spill movement over time using successive flights to estimate drift direction and speed. Output spill area, location, and estimated volume.",
-          "code_example": "import torch\nclass OilSpillSegmenter(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.encoder = torchvision.models.resnet34(pretrained=True)\n        self.decoder = ... # upsampling layers\n        # output binary mask: oil/not"
-        },
-        {
-          "title": "Vessel Identification and Classification",
-          "content": "Use object detection to locate vessels in aerial imagery. Classify by type: cargo, tanker, passenger, fishing, pleasure craft. For identification, use optical character recognition (OCR) on hull numbers or IMO numbers. Integrate with AIS (Automatic Identification System) data to match detected vessel with its identity (name, MMSI, destination). Output vessel track and alert if a vessel is not transmitting AIS (potential security threat).",
-          "code_example": "import easyocr\nreader = easyocr.Reader(['en'])\n# Extract text from hull to get IMO number"
-        },
-        {
-          "title": "Port Infrastructure Condition Monitoring",
-          "content": "Train a model to detect cracks, spalling, and corrosion on quay walls, piers, and cranes. Use similar defect detection techniques as in infrastructure inspection. Also detect obstacles or debris in navigation channels. Output geotagged defect reports for port engineers.",
-          "code_example": "model = torch.hub.load('facebookresearch/detectron2', 'mask_rcnn_R_50_FPN_3x', pretrained=True)\n# Fine‑tune on concrete/steel defect dataset"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Maritime Geospatial and AIS Integration",
-      "lessons": [
-        {
-          "title": "PostGIS for Maritime Assets and AIS Data",
-          "content": "Store port infrastructure, navigational channels, buoys, and vessel tracks in PostGIS. Integrate AIS data (streaming from receivers) to create a real‑time vessel database. Use spatial queries to find vessels within a port area, or vessels that have been stationary for too long (potential suspicious activity). Store all inspection flights and defect locations as spatial layers.",
-          "code_example": "CREATE TABLE ais_vessels (\n  mmsi TEXT PRIMARY KEY,\n  name TEXT,\n  vessel_type TEXT,\n  last_position GEOMETRY(Point, 4326),\n  last_timestamp TIMESTAMP,\n  speed FLOAT,\n  course FLOAT\n);\nCREATE INDEX idx_ais_geom ON ais_vessels USING GIST (last_position);"
-        },
-        {
-          "title": "STAC for Maritime Environmental Data",
-          "content": "Catalog oil spill detections, hull inspection flights, and environmental monitoring missions using STAC. Each item includes bounding box, datetime, sensor type, and detected anomaly (oil spill, defect). Provide a STAC API for port authorities and environmental agencies to query historical data and plan inspections.",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"oil_spill_2025_09_10\",\n  \"properties\": {\n    \"datetime\": \"2025-09-10T13:00:00Z\",\n    \"spill_area\": 1250.5,\n    \"spill_type\": \"crude\"\n  },\n  \"assets\": {\n    \"orthomosaic\": {\"href\": \"s3://.../oil_spill.tif\", \"type\": \"image/tiff\"}\n  }\n}"
-        },
-        {
-          "title": "Time‑Series Analysis for Hull Performance",
-          "content": "Track hull condition over time using repeated inspections. Store defect area and location for each vessel. Analyze trends: growth of biofouling over months, corrosion progression. Use TimescaleDB to store time‑series of defect metrics. Generate reports for ship operators to optimize cleaning schedules, reducing fuel consumption and environmental impact.",
-          "code_example": "CREATE TABLE hull_defects (\n  time TIMESTAMPTZ,\n  vessel_id TEXT,\n  defect_type TEXT,\n  area_m2 FLOAT,\n  geom GEOMETRY(Point, 4326)\n);\nSELECT create_hypertable('hull_defects', 'time');"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Real‑Time Maritime Inspection",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Maritime Drones",
-          "content": "Select sensors: high‑zoom RGB (30x optical) for hull inspection, thermal camera for night surveillance, optional multispectral for oil detection. Use a drone with high wind resistance (e.g., DJI Matrice 300 or custom heavy‑lift). Consider amphibious drones (e.g., SwellPro) for water landing and takeoff. Use RTK GPS for precise positioning near structures. Connect to Jetson Orin Nano for on‑board AI. Use high‑gain antennas for long‑range communication (up to 10 km)."
-        },
-        {
-          "title": "DeepStream Pipeline for Real‑Time Object Detection Over Water",
-          "content": "Build a DeepStream pipeline that ingests RGB and thermal streams, runs vessel detection, hull defect detection, and oil spill segmentation in real time. Overlay results on the video feed to ground station. For oil spill, apply false‑color mapping to make slicks visible. Use hardware‑accelerated encoding for low‑latency streaming.",
-          "code_example": "deepstream-app -c maritime_inspection_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Autonomous Vessel Inspection",
-          "content": "Create a ROS 2 node that plans inspection paths along a vessel's hull or around a port perimeter. Use MAVROS to control the drone. For hull inspection, fly a vertical “sweep” at a fixed distance from the hull, using lidar or vision for distance keeping. While flying, run defect detection and publish results to a log. For security, integrate with AIS data to automatically focus on vessels that are not transmitting.",
-          "code_example": "class MaritimeInspector(Node):\n    def __init__(self):\n        super().__init__('maritime_inspector')\n        self.ais_sub = self.create_subscription(AISMsg, '/ais_data', self.ais_cb, 10)\n        self.waypoint_pub = self.create_publisher(Pose, '/waypoint', 10)\n\n    def plan_inspection(self, vessel_position, vessel_length):\n        # generate waypoints along vessel length at fixed distance"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement and Fleet Management",
-      "lessons": [
-        {
-          "title": "Active Learning for Rare Maritime Defects",
-          "content": "Collect images where hull defect or oil spill detection confidence is low, or where port engineers validate false positives. Send these for labeling. Use active learning to retrain models, especially for rare defect types (e.g., specific corrosion patterns). Maintain a dataset that reflects the diversity of vessels and water conditions.",
-          "code_example": "uncertain_samples = model.select_uncertain(flight_images, threshold=0.4)\nlabelbox.create_project('maritime_active_learning', uncertain_samples)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Periodic Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains defect detection and oil spill models monthly or after significant new data collection. Evaluate against benchmark datasets and deploy to fleet via OTA. Version models with metadata on vessel types and water conditions they were trained on.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef maritime_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift Across Seasons and Locations",
-          "content": "Use Evidently AI to compare distributions of image features (water color, lighting, vessel types) across different ports and seasons. Detect drift that may affect model performance and trigger retraining with location‑specific data.",
-          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=port_a_data, current_data=port_b_data)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Maritime Environment",
-          "content": "Use NVIDIA Isaac Sim or Unreal Engine with realistic water physics, vessel models, and port infrastructure. Simulate oil spills, hull defects, and vessel movements. Connect real Pixhawk and Jetson. Test autonomous inspection patterns, defect detection, and AIS integration. Validate safety in high‑wind and wave conditions.",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies hull inspection pattern; Jetson runs defect detection on simulated imagery."
-        },
-        {
-          "title": "Latency Profiling for Over‑Water Operations",
-          "content": "Profile the latency from image capture to detection output and transmission to ground. Use Nsight Systems. For collision avoidance near structures, latency must be very low (< 100 ms). Optimize by using TensorRT and minimizing preprocessing overhead.",
-          "code_example": "nsys profile -o maritime_profile python inspection_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety, Regulatory, and Environmental Compliance",
-      "lessons": [
-        {
-          "title": "Maritime Aviation and Port Authority Regulations",
-          "content": "Study local regulations for drone operations in ports: often require port authority approval, no‑fly zones near cranes, restricted altitudes. In many countries, operations over water are permitted but must maintain VLOS or have BVLOS waivers. Coordinate with vessel traffic control. Use geofencing to avoid restricted areas."
-        },
-        {
-          "title": "Safety Over Water",
-          "content": "Implement auto‑return on low battery with a safety margin (e.g., return with 30% battery remaining). For long‑range over water, consider using a floating drone or attach a flotation device. Use redundant GPS and communication links. Test water‑landing capability if applicable."
-        },
-        {
-          "title": "Environmental Protection",
-          "content": "Ensure that drone operations do not disturb marine wildlife (whales, dolphins, nesting seabirds). Follow guidelines for wildlife protection. When detecting oil spills, immediately notify port authorities and environmental agencies for containment. Use only biodegradable lubricants on drone components."
-        }
+      "id": "ais-rf-data-fusion",
+      "title": "AIS & RF Signal Intelligence",
+      "description": "Combine Automatic Identification System (AIS) transponder data with RF triangulation to locate non-compliant vessels.",
+      "topics": [
+        "SDR (Software Defined Radio) payloads on drones",
+        "Direction Finding (DF) beamforming algorithms",
+        "Dark vessel tracking via SAR and AIS mismatching",
+        "Deploying deep learning for marine pattern-of-life analysis",
+        "Data synchronization via low-bandwidth Iridium links"
       ]
     }
   ],
@@ -168,6 +63,16 @@
       "name": "IMO Guidelines on Drone Use in Ports",
       "url": "https://www.imo.org/en/OurWork/Safety/Pages/Unmanned-Aircraft-Systems.aspx",
       "description": "International guidance for maritime drone operations"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "AIS",
+      "definition": "Automatic Identification System. An automated tracking system that displays other vessels in the vicinity."
+    },
+    {
+      "term": "SDR",
+      "definition": "Software Defined Radio. Radio communication systems where components typically implemented in hardware are implemented by means of software."
     }
   ]
 }

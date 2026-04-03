@@ -1,6 +1,6 @@
 {
   "domain": "Security & Anti‑Drone Countermeasures",
-  "description": "A comprehensive training program for building autonomous drone systems designed to detect, track, classify, and neutralize unauthorized drones in protected airspace. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to counter‑UAS (C‑UAS) operations, including radar/RF sensor fusion, pursuit‑evasion algorithms, and regulatory compliance.",
+  "description": "High-end perimeter defense and persistent aerial overwatch. Integrate tethered drone systems, thermal anomaly detection, and unified target tracking across VMS platforms.",
   "learning_objectives": [
     "Understand the threat landscape: rogue drone categories, payload risks, and airspace vulnerabilities",
     "Build AI models for drone detection, classification, and intent inference using multi‑sensor fusion",
@@ -12,103 +12,27 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Counter‑UAS Domain Fundamentals",
-      "lessons": [
-        {
-          "title": "Threat Landscape and Drone Categories",
-          "content": "Classify rogue drones by size (nano, micro, small, large), payload risk (surveillance, EMP, explosive), and operator intent (accidental incursion, deliberate attack, smuggling). Study historical incidents at airports, stadiums, and government facilities. Understand attacker TTPs (tactics, techniques, procedures): low‑altitude nap‑of‑earth flight, GPS spoofing, RF silence modes. Define protected airspace categories: geofenced zones, temporary flight restrictions (TFRs), and critical infrastructure corridors."
-        },
-        {
-          "title": "Sensor Modalities for Detection",
-          "content": "Survey C‑UAS sensor types: radar (primary radar, secondary radar, Doppler), RF/spectrum analyzers (passive 2.4/5.8 GHz, DJI OcuSync, Wi‑Fi), acoustic arrays, electro‑optical (EO) cameras, infrared (IR) cameras, and LiDAR. Understand detection range, false‑positive rates, and weather sensitivity of each. Study multi‑sensor fusion strategies to improve detection probability while reducing false alarms. Explore commercially available integrated C‑UAS systems (DroneShield, Dedrone, Fortem SkyDome) as references."
-        }
+      "id": "tethered-overwatch",
+      "title": "Persistent Tethered Overwatch Operations",
+      "description": "Deploy micro-tether systems providing unjammable, continuous power and high-bandwidth fiber optic data streams.",
+      "topics": [
+        "Tether tension control and winching algorithms",
+        "High-voltage micro-fiber power transmission theory",
+        "Gimbal stabilization for high-zoom lenses at high altitudes",
+        "Integration with VMS (Video Management Systems) via ONVIF/RTSP",
+        "Fail-over mechanisms and emergency auto-land"
       ]
     },
     {
-      "title": "Module 2: AI Engineer – Detection, Classification, and Tracking",
-      "lessons": [
-        {
-          "title": "Radar‑Based Drone Detection with Micro‑Doppler Signatures",
-          "content": "Use micro‑Doppler radar signatures to distinguish drones from birds and clutter. Extract time‑frequency spectrograms from radar I/Q data. Train a CNN classifier on spectrogram images to classify: quadcopter, fixed‑wing, helicopter, bird, or background. Evaluate with ROC curves; target >95% TPR at <1% FPR. Handle variable drone orientations and speeds.",
-          "code_example": "import numpy as np\nfrom scipy.signal import spectrogram\n# I/Q data from radar\nf, t, Sxx = spectrogram(iq_data, fs=1e6, window='hann', nperseg=256)\n# Normalize and feed to CNN classifier\nimg = np.log10(Sxx + 1e-10)\npred = cnn_model.predict(img[np.newaxis, :, :, np.newaxis])"
-        },
-        {
-          "title": "RF Fingerprinting for Drone Identification",
-          "content": "Capture RF emissions from drone control links (2.4 GHz, 5.8 GHz, 900 MHz). Use an SDR (Software Defined Radio, e.g., HackRF One) to record raw IQ samples. Extract features: burst timing, modulation scheme, frequency hopping pattern. Train a classifier to identify drone make/model (DJI Phantom, Autel, FPV racing drone). Use siamese networks for few‑shot identification of new drone types.",
-          "code_example": "from gnuradio import gr, blocks, analog\n# Capture IQ samples at target frequency\n# Extract burst-level features\nimport torch\nfrom siamese_net import DroneRFNet\nmodel = DroneRFNet()\nembedding = model(iq_tensor)  # compare to known fingerprints"
-        },
-        {
-          "title": "Visual Tracking with Re‑Identification",
-          "content": "Build a UAV tracking pipeline: detect drones with a fine‑tuned YOLO model on high‑altitude EO video. Use ByteTrack or BotSort for multi‑object tracking across frames. Implement Re‑ID to maintain identity when a drone leaves and re‑enters the camera frame. Fuse with radar azimuth/elevation to produce 3D tracks. Predict future positions using a Kalman filter for intercept planning.",
-          "code_example": "from ultralytics import YOLO\nfrom bytetrack import BYTETracker\nmodel = YOLO('drone_detector_yolov8n.pt')\ntracker = BYTETracker(track_thresh=0.5, match_thresh=0.8)\nresults = model(frame)\ntracks = tracker.update(results.boxes.data, frame.shape)"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Multi‑Sensor C‑UAS Data Pipeline",
-      "lessons": [
-        {
-          "title": "Geospatial Track Storage with PostGIS",
-          "content": "Store real‑time drone tracks as PostGIS geometry objects. Each track record includes: timestamp, sensor source, geom (Point 3D with altitude), velocity vector, classification label, and confidence score. Use ST_MakeLine to reconstruct flight paths. Enable sub‑second inserts using prepared statements and connection pooling. Query: 'all tracks within 500 m of runway threshold in last 60 seconds'.",
-          "code_example": "CREATE TABLE drone_tracks (\n  id BIGSERIAL PRIMARY KEY,\n  timestamp TIMESTAMPTZ,\n  sensor_id INT,\n  geom GEOMETRY(PointZ, 4326),\n  velocity_ms FLOAT,\n  heading_deg FLOAT,\n  class TEXT,\n  confidence FLOAT\n);\nCREATE INDEX idx_tracks_time ON drone_tracks (timestamp DESC);\nCREATE INDEX idx_tracks_geom ON drone_tracks USING GIST (geom);"
-        },
-        {
-          "title": "Real‑Time Sensor Fusion with Apache Kafka",
-          "content": "Stream radar, RF, EO, and acoustic detections into separate Kafka topics. Use a Flink consumer to join streams within a 500 ms sliding window, matching detections by spatial proximity. Output fused tracks to a unified 'verified_tracks' topic. This architecture decouples sensor systems and allows horizontal scaling as sensor count grows.",
-          "code_example": "from confluent_kafka import Consumer\nconsumer = Consumer({'bootstrap.servers': 'kafka:9092', 'group.id': 'cuas-fusion'})\nconsumer.subscribe(['radar-detections', 'rf-detections', 'eo-tracks'])\nwhile True:\n    msg = consumer.poll(timeout=0.1)\n    if msg: fuse_track(msg)"
-        },
-        {
-          "title": "Incident Reporting and Evidence Storage (STAC)",
-          "content": "When a rogue drone incident is confirmed, auto‑generate an incident record: video clip from EO camera, radar spectrograms, RF captures, and track GeoJSON. Package as a STAC item with properties: incident_id, threat_level, drone_class, first_detection, resolution (scared off, jammed, captured). Store in object storage for legal evidence and model improvement.",
-          "code_example": "incident_item = {\n  'type': 'Feature',\n  'id': f'incident_{incident_id}',\n  'properties': {\n    'datetime': first_seen.isoformat(),\n    'threat_level': 'HIGH',\n    'drone_class': 'DJI_Phantom4',\n    'resolution': 'RF_jammed'\n  },\n  'assets': {\n    'video': {'href': f's3://cuas-evidence/{incident_id}/clip.mp4'},\n    'track_geojson': {'href': f's3://cuas-evidence/{incident_id}/track.geojson'}\n  }\n}"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Low‑Latency Detection on Interceptor Drone",
-      "lessons": [
-        {
-          "title": "Hardware for Interceptor Drone",
-          "content": "Configure an interceptor drone: high‑speed frame (7‑inch, 6S LiPo for 120+ kph), forward‑facing EO+IR camera, onboard Jetson Orin NX for inference, and directional RF jammer (where legally permitted). Connect to Pixhawk flight controller via MAVLink. Use a companion computer link (USB serial or Ethernet) for high‑bandwidth sensor data. Key requirement: total detection‑to‑intercept latency < 2 seconds."
-        },
-        {
-          "title": "TensorRT‑Optimized Drone Detector",
-          "content": "Export the YOLO drone detector to TensorRT FP16. Achieve 60+ fps at 640×640 on Jetson Orin NX. Profile with Nsight Systems to identify bottlenecks. Implement a frame‑skipping strategy: run full detection every other frame, use optical flow to update bounding boxes on skipped frames, maintaining perceived 60 fps with 30 fps inference cost.",
-          "code_example": "# Export to TensorRT\nfrom ultralytics import YOLO\nmodel = YOLO('drone_detector.pt')\nmodel.export(format='engine', device=0, half=True, imgsz=640)\n# Runtime\nimport tensorrt as trt\n# Load engine and run inference at 60+ fps"
-        },
-        {
-          "title": "Pursuit‑Evasion Navigation with ROS 2",
-          "content": "Implement a pursuit node: subscribe to '/target_track' (3D position + velocity). Compute intercept point using predictive guidance (proportional navigation law). Publish velocity setpoints to MAVROS. Add safety constraints: maximum intercept speed (80% of top speed), minimum altitude (30 m AGL), geo‑fence exit triggers return‑to‑home. Simulate in AirSim before hardware testing.",
-          "code_example": "class PursuitNode(Node):\n    def __init__(self):\n        super().__init__('pursuit')\n        self.track_sub = self.create_subscription(PoseStamped, '/target_track', self.cb, 10)\n        self.vel_pub = self.create_publisher(TwistStamped, '/mavros/setpoint_velocity/cmd_vel', 10)\n\n    def cb(self, msg):\n        # Proportional navigation\n        los = compute_los(self_pos, msg.pose.position)\n        cmd = proportional_nav(los, self_vel, target_vel, N=3)\n        self.vel_pub.publish(cmd)"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Adversarial Adaptation",
-      "lessons": [
-        {
-          "title": "Active Learning on Novel Drone Types",
-          "content": "When a new drone model appears in the field, it may evade existing classifiers. Set up a pipeline: detections with low confidence or misclassifications are flagged. RF captures and video clips are sent to operators for labeling. New samples are added to training data; the model is retrained nightly using LoRA fine‑tuning on the base classifier. The cycle ensures adaptation within 24‑48 hours of encountering a new drone.",
-          "code_example": "uncertain = [d for d in detections if d['confidence'] < 0.6]\nlabelbox_client.create_task('novel_drone_review', uncertain)\n# After labeling, trigger retraining pipeline"
-        },
-        {
-          "title": "A/B Testing Countermeasure Strategies",
-          "content": "Use MLflow to track effectiveness of countermeasures: RF jamming success rate, visual deterrence (directed lights/sound) success rate, and interceptor capture rate. Run A/B tests across different protected zones to determine which countermeasure is most effective for each threat class. Feed results back to the decision model that selects countermeasures.",
-          "code_example": "import mlflow\nwith mlflow.start_run(run_name='countermeasure_ab_test'):\n    mlflow.log_param('strategy_a', 'rf_jamming')\n    mlflow.log_param('strategy_b', 'visual_deterrence')\n    mlflow.log_metric('success_rate_a', 0.87)\n    mlflow.log_metric('success_rate_b', 0.61)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Safety, Legal, and Regulatory Compliance",
-      "lessons": [
-        {
-          "title": "Legal Framework for C‑UAS Operations",
-          "content": "Understand legal constraints: in most jurisdictions, kinetic countermeasures (nets, bullets) require military/law enforcement authority. RF jamming is classified as interference with communications (FCC Part 97 in US; Article 326 in Germany) and requires specific authorization. Passive detection and visual deterrence are generally lawful. Study FAA reauthorization acts (2018, 2024) enabling C‑UAS at airports, stadiums, and federal buildings. EASA U‑space and UK CAA frameworks for Europe and UK."
-        },
-        {
-          "title": "Operational Protocols and Escalation Procedures",
-          "content": "Define a tiered response protocol: Level 1 (detect, alert operator), Level 2 (attempt contact/RF deterrence), Level 3 (deploy interceptor), Level 4 (kinetic — law enforcement only). Log every action with timestamp, operator ID, and outcome for regulatory reporting. Conduct monthly tabletop exercises simulating rogue drone incursions to test response times and decision accuracy."
-        }
+      "id": "thermal-intrusion",
+      "title": "Multi-Spectral Intrusion Detection",
+      "description": "Utilize edge computing to run state-of-the-art thermal target detection and cross-sensor tracking.",
+      "topics": [
+        "Long-Wave Infrared (LWIR) vs Mid-Wave Infrared (MWIR) sensors",
+        "Radiometric vs Non-radiometric thermal analysis",
+        "Multi-camera object tracking using SORT/DeepSORT",
+        "PTZ (Pan-Tilt-Zoom) auto-tracking physics",
+        "Low-false-positive alarming logic"
       ]
     }
   ],
@@ -139,6 +63,16 @@
       "name": "AUVSI C‑UAS White Paper",
       "url": "https://www.auvsi.org/counter-uas",
       "description": "Industry guidance on counter‑UAS technology and standards"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ONVIF",
+      "definition": "An open industry forum that provides and promotes standardized interfaces for effective interoperability of IP-based physical security products."
+    },
+    {
+      "term": "LWIR",
+      "definition": "Long-Wave Infrared. Typically refers to the 8 to 14 micrometer spectrum, optimal for detecting body heat temperatures."
     }
   ]
 }
