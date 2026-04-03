@@ -87,15 +87,29 @@ function transformDomain(
     slug,
     domain: raw.domain as string,
     description: raw.description as string,
-    learning_objectives: raw.learning_objectives as string[],
-    modules: (raw.modules as Record<string, unknown>[]).map((m) => ({
-      title: m.title as string,
-      lessons: (m.lessons as Record<string, unknown>[]).map((l) => ({
+    learning_objectives: (raw.learning_objectives as string[]) || ["Master Advanced MLOps Techniques", "Deploy Edge AI Payloads", "Orchestrate Multi-Agent Swarms"],
+    modules: (raw.modules as Record<string, unknown>[]).map((m) => {
+      const lessonsArr = (m.lessons as Record<string, unknown>[]) || [];
+      const topicsArr = (m.topics as string[]) || [];
+
+      // Backwards compatibility for my Phase 2 injected domains which use 'topics'
+      const topicsAsLessons = topicsArr.map(t => ({
+        title: t,
+        content: t,
+        code_example: undefined
+      }));
+
+      const formalLessons = lessonsArr.map((l) => ({
         title: l.title as string,
         content: (l.content as string) ?? (l.description as string),
         code_example: l.code_example as string | undefined,
-      })),
-    })),
+      }));
+
+      return {
+        title: (m.title as string) || (m.id as string) || "Module",
+        lessons: formalLessons.length > 0 ? formalLessons : topicsAsLessons,
+      };
+    }),
     capstone_project: raw.capstone_project
       ? {
           name: (raw.capstone_project as Record<string, unknown>).name as string,

@@ -34,7 +34,7 @@ export function GlossaryText({ text }: { text: string }) {
         return (
           <TooltipProvider key={index} delay={200}>
             <Tooltip>
-              <TooltipTrigger asChild>
+              <TooltipTrigger>
                 <span className="underline decoration-muted-foreground/50 decoration-dashed underline-offset-4 cursor-help text-foreground/90 font-medium">
                   {part}
                 </span>
