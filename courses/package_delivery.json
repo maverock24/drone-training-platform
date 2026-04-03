@@ -1,6 +1,6 @@
 {
   "domain": "Package Delivery & Logistics",
-  "description": "A comprehensive training program for building autonomous drone systems for last‑mile delivery, warehouse logistics, and supply chain operations. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to package delivery, enabling autonomous navigation, precision landing, obstacle avoidance, fleet management, and integration with logistics platforms.",
+  "description": "Last-mile autonomous logistics logistics architectures. Address UTM API integration, dynamic micro-weather routing, precision winch deployment, and edge-based acoustic signature reduction.",
   "learning_objectives": [
     "Understand the logistics ecosystem: last‑mile delivery, warehouse operations, fleet management, customer interactions",
     "Build and train AI models for package detection, recipient identification, landing zone assessment, and dynamic obstacle avoidance",
@@ -12,132 +12,15 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Package Delivery and Logistics Fundamentals",
-      "lessons": [
-        {
-          "title": "The Last‑Mile Delivery Ecosystem",
-          "content": "Study the logistics chain: warehouse → sorting → dispatch → transit → last‑mile → customer handoff. Understand challenges of last‑mile: urban congestion, customer availability, safe drop‑off locations, theft, and time windows. Explore drone delivery use cases: medical supplies (blood, vaccines), e‑commerce, food delivery, and urgent documents. Learn about regulatory frameworks: FAA Part 107 (VLOS), Part 135 (cargo), BVLOS waivers, and operational limitations (daylight, weather, population density)."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze scenarios: suburban residential delivery (backyard drop), urban apartment delivery (rooftop or balcony), rural delivery (farm or remote location), medical delivery (hospital helipad), warehouse inventory transport, and return logistics (pickup). Define requirements: payload capacity (2–5 kg), range (5–20 km), precision landing (sub‑meter), obstacle detection (trees, wires, people), weather resilience (wind, rain), noise constraints (quiet propellers), and integration with customer apps (ETA, delivery confirmation)."
-        }
-      ]
-    },
-    {
-      "title": "Module 2: AI Engineer – Delivery‑Specific Perception and Decision",
-      "lessons": [
-        {
-          "title": "Landing Zone Detection and Assessment",
-          "content": "Train a semantic segmentation model to identify safe landing zones from aerial imagery. Classes: clear area, obstacles (trees, vehicles, people), designated landing pad (e.g., with marker). Use datasets of urban and suburban scenes. Add a classifier to assess suitability based on slope, surface type, and clearance. Output confidence score and recommended landing location.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n-seg.pt')\nmodel.train(data='landing_zones.yaml', epochs=100)"
-        },
-        {
-          "title": "Package and Recipient Verification",
-          "content": "Use object detection to identify the package (e.g., by label, QR code) and optionally the recipient (face or gesture recognition). Train models for barcode/QR reading and for verifying that the package is correctly placed at the delivery point. For recipient interaction, use facial recognition or pose detection to confirm handover. Ensure privacy: blur faces unless customer consent is given.",
-          "code_example": "import cv2\nimport pyzbar\n# Decode QR code from image\ndetected = pyzbar.decode(image)"
-        },
-        {
-          "title": "Dynamic Obstacle Avoidance in Cluttered Environments",
-          "content": "Train a model to detect and track moving obstacles: pedestrians, vehicles, pets. Use object detection (YOLOv8) on live video. Implement collision avoidance using a reactive planner (e.g., velocity obstacles) that adjusts path in real time. For low‑altitude flight, also detect power lines, tree branches, and parked cars.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')\n# Real‑time detection + avoidance logic"
-        },
-        {
-          "title": "Route Optimization with Dynamic Re‑planning",
-          "content": "Use reinforcement learning or graph search (A*) with real‑time updates to reroute around temporary obstacles (road closures, weather). Integrate with maps (OpenStreetMap, Google Maps) and live traffic/weather data. Predict arrival time and adjust flight speed to meet delivery windows.",
-          "code_example": "import networkx as nx\n# Build graph of waypoints; use A* with real‑time edge weight updates"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Logistics Data Pipeline",
-      "lessons": [
-        {
-          "title": "Real‑Time Fleet Tracking with PostGIS",
-          "content": "Store drone positions, status, battery, payload, and mission details in PostGIS. Use spatial queries to find nearest available drone for a new delivery, or to monitor flight paths for airspace compliance. Implement a streaming database (e.g., TimescaleDB) for high‑frequency telemetry.",
-          "code_example": "CREATE TABLE fleet (\n  drone_id TEXT PRIMARY KEY,\n  current_location GEOMETRY(Point, 4326),\n  battery_pct INT,\n  status TEXT,\n  last_update TIMESTAMP\n);\nCREATE INDEX idx_fleet_geom ON fleet USING GIST (current_location);"
-        },
-        {
-          "title": "STAC for Delivery Missions",
-          "content": "Catalog each delivery mission using STAC. Include route geometry, takeoff/landing times, package ID, and outcome (success, aborted). Enable post‑analysis to optimize routes, identify frequent failure points, and improve customer experience.",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"delivery_2025_11_01_001\",\n  \"properties\": {\n    \"datetime\": \"2025-11-01T12:00:00Z\",\n    \"package_id\": \"PKG123\",\n    \"status\": \"delivered\",\n    \"distance_km\": 3.2\n  },\n  \"geometry\": {\"type\": \"LineString\", \"coordinates\": [...]}\n}"
-        },
-        {
-          "title": "Integration with Logistics Platforms",
-          "content": "Build APIs to receive delivery requests from e‑commerce platforms, dispatch drones, and report delivery status. Use webhooks to update customers (SMS, push notifications). Log all events for auditing and billing.",
-          "code_example": "import requests\nrequests.post('https://customer-api/delivery_complete', json={'delivery_id': '123', 'status': 'success'})"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Autonomous Delivery Drone",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Delivery Drones",
-          "content": "Select sensors: high‑resolution RGB camera for landing zone detection, downward‑facing camera for package verification, LiDAR or stereo for obstacle avoidance, GPS/RTK for navigation. Use a hexacopter or octocopter for redundancy. Payload release mechanism (servo‑actuated) with safety lock. Connect to Jetson Orin Nano for on‑board AI. Use cellular modem for real‑time communication with dispatch."
-        },
-        {
-          "title": "DeepStream Pipeline for Obstacle Avoidance and Landing",
-          "content": "Build a DeepStream pipeline that runs multiple models in parallel: obstacle detection (360°), landing zone segmentation, and package verification. Output avoidance commands to flight controller and landing decisions. Use hardware acceleration for low latency (< 100 ms).",
-          "code_example": "deepstream-app -c delivery_drone_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Autonomous Delivery Missions",
-          "content": "Create a ROS 2 node that receives mission plans (waypoints, delivery location) from the cloud, executes the flight with real‑time replanning, handles landing zone assessment, triggers package release, and returns to base. Use MAVROS for low‑level control. Implement safety behaviors: abort and return on low battery, lost link, or persistent obstacle.",
-          "code_example": "class DeliveryNode(Node):\n    def __init__(self):\n        super().__init__('delivery_node')\n        self.mission_sub = self.create_subscription(MissionMsg, '/mission', self.mission_cb, 10)\n        self.vel_pub = self.create_publisher(Twist, '/mavros/setpoint_velocity/cmd_vel_unstamped', 10)\n\n    def mission_cb(self, msg):\n        waypoints = msg.waypoints\n        for wp in waypoints:\n            self.fly_to(wp)\n        self.assess_landing_zone()\n        self.land_and_release()\n        self.return_home()"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement of Delivery Models",
-      "lessons": [
-        {
-          "title": "Active Learning for Landing Zone Variants",
-          "content": "Collect images where landing zone detection was uncertain or where pilots had to override. Send to annotators to label safe/unsafe zones. Retrain model to handle new environments (e.g., sloped driveways, obstacles).",
-          "code_example": "uncertain = [img for img in mission_data if landing_confidence < 0.6]\ncvat.create_task('landing_zone_active_learning', uncertain)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Model Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains delivery models weekly with new labeled data from completed missions. Evaluate against test set (diverse environments). Deploy improved models OTA to drone fleet.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef delivery_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift Across Seasons and Locations",
-          "content": "Use Evidently AI to compare landing zone image distributions across different neighborhoods and seasons. Drift (e.g., autumn leaves obscuring markers) may require retraining with seasonal data.",
-          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=summer_data, current_data=autumn_data)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Urban Delivery Scenarios",
-          "content": "Use NVIDIA Isaac Sim or Unreal Engine with AirSim to simulate suburban/urban environments. Include dynamic obstacles (people, cars) and variable landing zones (backyards, porches). Connect real Pixhawk and Jetson. Test missions end‑to‑end, measuring success rate, landing accuracy, and obstacle avoidance. Run Monte Carlo simulations to validate reliability.",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies simulated delivery; Jetson runs perception and control."
-        },
-        {
-          "title": "Latency Profiling for Safety‑Critical Decisions",
-          "content": "Profile the latency from obstacle detection to avoidance command using Nsight Systems. Ensure < 100 ms for reliable collision avoidance. Optimize by using lightweight models and CUDA acceleration.",
-          "code_example": "nsys profile -o delivery_profile python delivery_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety, Regulatory, and Ethical Considerations",
-      "lessons": [
-        {
-          "title": "Aviation Regulations for Delivery Drones",
-          "content": "Study FAA Part 107 (VLOS) and Part 135 (cargo) in US, EASA regulations in Europe. Understand requirements for BVLOS operations (detect and avoid, command and control, emergency procedures). Obtain necessary waivers or certifications. Implement geofencing around airports, stadiums, and other restricted areas."
-        },
-        {
-          "title": "Noise and Community Acceptance",
-          "content": "Delivery drones can cause noise complaints. Use quiet propellers, optimize flight paths to minimize overflight of homes, and schedule deliveries during daytime hours. Engage with communities to explain benefits and safety measures."
-        },
-        {
-          "title": "Privacy and Security",
-          "content": "Avoid recording identifiable faces unless necessary for handoff. Encrypt all data transmissions. Use tamper‑proof packages and secure release mechanisms to prevent theft. Implement remote ID for accountability."
-        }
+      "id": "last-mile-logistics",
+      "title": "Last-Mile Automated Routing",
+      "description": "Orchestrate large-scale urban delivery networks optimizing for battery, wind resistance, and airspace deconfliction.",
+      "topics": [
+        "UTM API telemetry scheduling and negotiation",
+        "Deep Q-Learning for wind-optimal path planning",
+        "Winch-based tether delivery mechanisms (Cable drop dynamics)",
+        "Precision RTK-GNSS drop zone tracking",
+        "Computer Vision for recipient identification & drop verification"
       ]
     }
   ],
@@ -168,6 +51,16 @@
       "name": "OpenStreetMap Route Planning",
       "url": "https://www.openstreetmap.org/",
       "description": "Map data for routing and geofencing"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "UTM",
+      "definition": "Unmanned Traffic Management."
+    },
+    {
+      "term": "Deep Q-Learning",
+      "definition": "A subset of reinforcement learning."
     }
   ]
 }

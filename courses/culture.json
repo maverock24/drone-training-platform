@@ -1,6 +1,6 @@
 {
   "domain": "Archaeology & Cultural Heritage Preservation",
-  "description": "A comprehensive training program for building autonomous drone systems that document, map, and preserve archaeological sites and cultural heritage assets. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to heritage science, enabling high‑resolution 3D reconstruction, subsurface feature detection, change monitoring, and integration with digital heritage databases.",
+  "description": "Cultural heritage preservation and archaeological mapping. Build millimeter-accurate 3D reconstructions of ancient structures using highly precise photogrammetry and non-invasive scanning.",
   "learning_objectives": [
     "Understand archaeological and heritage preservation contexts: site types, excavation methods, conservation ethics, and legal frameworks (UNESCO World Heritage, national heritage laws)",
     "Build and train AI models for feature detection (structures, artifacts, crop marks), site classification, and damage assessment",
@@ -12,132 +12,15 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Archaeology and Cultural Heritage Fundamentals",
-      "lessons": [
-        {
-          "title": "Heritage Sites and Conservation Needs",
-          "content": "Study types of heritage assets: archaeological sites (prehistoric, classical, industrial), standing monuments (temples, castles, rock‑cut architecture), cultural landscapes, and underwater heritage. Understand threats: looting, urban development, climate change (erosion, flooding), vegetation overgrowth, and tourism impact. Learn about documentation standards: photogrammetry, laser scanning, stratigraphic recording, and digital archiving. Explore international frameworks: UNESCO World Heritage Convention, ICOMOS charters, national heritage acts. Understand the role of non‑invasive survey (aerial, geophysical) in site management."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze scenarios: site mapping for excavation planning (pre‑excavation topographical survey), monument condition monitoring (detecting cracks, vegetation), looting detection (comparing imagery over time), large‑area reconnaissance for undiscovered sites (crop mark detection), and digital reconstruction for virtual museums. Define requirements: high‑resolution RGB (20+ MP) for detailed texture, multispectral for crop marks and subsurface features, LiDAR for vegetation penetration, RTK GPS for sub‑centimeter geolocation, and quiet flight to avoid disturbance in sensitive areas. Integration with GIS and heritage databases (e.g., Arches, Open Context)."
-        }
-      ]
-    },
-    {
-      "title": "Module 2: AI Engineer – Heritage Feature Detection and Reconstruction",
-      "lessons": [
-        {
-          "title": "Structure Detection from Aerial Imagery",
-          "content": "Train object detection models to identify archaeological structures: walls, building foundations, burial mounds, terraces, and field systems. Use datasets of known archaeological sites and synthetic data. For subtle features (crop marks, soil marks), use multispectral indices (NDVI) combined with deep learning. Output bounding boxes or segmentation masks with confidence, aiding archaeologists in rapid site assessment.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')\nmodel.train(data='archaeology_features.yaml', epochs=150)"
-        },
-        {
-          "title": "Artifact Detection and Classification",
-          "content": "Train a fine‑grained classification model to identify artifacts from aerial or surface imagery (e.g., pottery, lithics, metal objects). Use high‑resolution orthophotos or images taken from low altitude. For surface scatters, use object detection to locate individual artifacts and estimate density. Output artifact type, count, and location for collection planning.",
-          "code_example": "import torch\nfrom torchvision.models import resnet50\nmodel = resnet50(pretrained=True)\nmodel.fc = nn.Linear(2048, num_artifact_classes)"
-        },
-        {
-          "title": "Subsurface Feature Prediction from Multispectral Data",
-          "content": "Use multispectral imagery (visible, near‑infrared, thermal) to detect subsurface features (buried walls, ditches, graves). Train a segmentation model that inputs multiple spectral bands and outputs probability maps of buried structures. Use known geophysical survey data (ground‑penetrating radar, magnetometry) as ground truth. Combine with NDVI and thermal inertia indices to improve accuracy.",
-          "code_example": "from segmentation_models_pytorch import Unet\nmodel = Unet(encoder_name='resnet34', in_channels=6, classes=2)  # 6 spectral bands"
-        },
-        {
-          "title": "Damage and Change Detection",
-          "content": "Build a change detection model to monitor site condition over time. Use registered orthophotos from different years and train a Siamese network to highlight areas of change: new looting pits, vegetation growth, structural collapse. Classify changes by type (natural erosion, anthropogenic damage). Alert heritage authorities to threats.",
-          "code_example": "class ChangeDetector(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.encoder = torchvision.models.resnet34(pretrained=True)\n        self.decoder = ... # produce change mask"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Heritage Geospatial Database",
-      "lessons": [
-        {
-          "title": "PostGIS for Archaeological Site Management",
-          "content": "Store site boundaries, feature locations, survey flights, and condition assessments in PostGIS. Use spatial queries to retrieve sites by period, type, or risk level. Link to external heritage databases using persistent identifiers. Implement versioning to track changes over time.",
-          "code_example": "CREATE TABLE heritage_sites (\n  id SERIAL PRIMARY KEY,\n  name TEXT,\n  period TEXT,\n  geom GEOMETRY(Polygon, 4326),\n  condition TEXT,\n  last_survey DATE\n);\nCREATE INDEX idx_heritage_geom ON heritage_sites USING GIST (geom);"
-        },
-        {
-          "title": "STAC for Heritage Flight Data",
-          "content": "Catalog all heritage survey flights using STAC. Each item includes bounding box, datetime, sensor type, and derived products (orthophoto, DEM, feature detections). Provide a STAC API for archaeologists and heritage managers to discover and access data. Ensure metadata follows heritage documentation standards (e.g., CIDOC CRM).",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"site_xyz_photogrammetry_2025_10_01\",\n  \"properties\": {\n    \"datetime\": \"2025-10-01T10:00:00Z\",\n    \"site\": \"Maya Ruins\",\n    \"features_detected\": 15\n  },\n  \"assets\": {\n    \"orthophoto\": {\"href\": \"s3://.../ortho.tif\"},\n    \"3d_model\": {\"href\": \"s3://.../model.obj\"}\n  }\n}"
-        },
-        {
-          "title": "Integration with Digital Heritage Platforms",
-          "content": "Push data to heritage platforms like Arches (open‑source heritage management), Open Context, or national monument databases. Use APIs to synchronize site records, attach 3D models, and update condition assessments. Enable public access where permitted.",
-          "code_example": "import requests\nrequests.post('https://arches-project.org/api/resources', json=resource_data)"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Autonomous Heritage Survey",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Heritage Drones",
-          "content": "Select sensors: high‑resolution RGB (full‑frame or medium format) for photogrammetry, multispectral for subsurface detection, optional LiDAR for vegetation penetration. Use a drone with RTK GPS for accurate georeferencing, quiet propellers to respect site tranquility, and obstacle avoidance for low‑level flights near structures. Connect to Jetson Orin Nano for on‑board processing of real‑time feature detection during survey."
-        },
-        {
-          "title": "DeepStream Pipeline for Real‑Time Feature Highlighting",
-          "content": "Build a DeepStream pipeline that runs structure detection on the live video feed, overlaying potential archaeological features (walls, mounds) on the operator’s screen. This allows pilots to adjust flight paths to capture more detail on promising areas. Use hardware acceleration for low latency.",
-          "code_example": "deepstream-app -c heritage_survey_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Automated Survey Patterns",
-          "content": "Create a ROS 2 node that plans photogrammetric survey grids (lawnmower, double‑grid) over specified site boundaries. Use MAVROS to execute flights with precise overlap (80% forward, 60% lateral). For complex monuments, implement orbital flights around structures. Upon landing, trigger on‑board reconstruction of a quick‑look 3D model for immediate field assessment.",
-          "code_example": "class HeritageSurveyor(Node):\n    def __init__(self):\n        super().__init__('heritage_surveyor')\n        self.waypoint_pub = self.create_publisher(Pose, '/waypoint', 10)\n\n    def plan_grid(self, bounds, altitude, overlap):\n        # generate waypoints for lawnmower pattern"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement for Heritage Models",
-      "lessons": [
-        {
-          "title": "Active Learning for Rare Feature Types",
-          "content": "Collect imagery where structure detection is uncertain or where archaeologists identify new feature types. Send to experts for labeling (e.g., specific architectural styles, burial types). Use active learning to retrain models, improving detection of region‑specific features.",
-          "code_example": "uncertain = [img for img in survey_data if model_uncertainty(img) > 0.4]\ncvat.create_task('archaeology_active_learning', uncertain)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Periodic Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains detection and classification models after each survey season, incorporating new labeled data. Evaluate against a test set of known sites. Deploy improved models to field drones via OTA updates.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef heritage_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift with Site‑Specific Conditions",
-          "content": "Use Evidently AI to compare image distributions across different site types (e.g., jungle vs. desert), lighting, and sensor changes. Drift may require retraining with site‑specific data to maintain accuracy.",
-          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=desert_site, current_data=jungle_site)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Heritage Scenarios",
-          "content": "Use NVIDIA Isaac Sim or Unreal Engine with realistic heritage sites (e.g., ancient city, temple complex). Simulate vegetation, lighting changes, and hidden structures. Connect real Pixhawk and Jetson. Test survey patterns, feature detection, and real‑time reconstruction. Validate change detection by simulating looting pits or vegetation growth.",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies over simulated site; Jetson runs structure detection; ground station displays identified features."
-        },
-        {
-          "title": "Latency Profiling for Real‑Time Guidance",
-          "content": "Profile the latency from image capture to feature overlay on the operator’s screen. Use Nsight Systems to ensure responsive feedback (< 200 ms) for real‑time survey guidance. Optimize by using lightweight models and efficient pipelines.",
-          "code_example": "nsys profile -o heritage_profile python survey_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Ethics, Legal, and Conservation Considerations",
-      "lessons": [
-        {
-          "title": "Heritage Laws and Permissions",
-          "content": "Understand that archaeological sites are protected by national and international laws. Obtain necessary permits before flying. Respect restricted areas (e.g., UNESCO buffer zones). Collaborate with heritage authorities and indigenous communities. Ensure that drone operations do not disturb sensitive structures or ongoing excavations."
-        },
-        {
-          "title": "Ethical Data Sharing and Publication",
-          "content": "Balance open science with the need to protect site locations from looting. Publish only appropriate data (e.g., aggregated, or with sensitive coordinates obscured). Use controlled access for sensitive sites. Follow FAIR principles while respecting cultural sensitivities."
-        },
-        {
-          "title": "Conservation Ethics",
-          "content": "Avoid any physical contact with structures. Use non‑invasive survey methods. When flying near fragile monuments, maintain safe distance and avoid downwash that could dislodge loose materials. Report any observed damage to authorities. Contribute to preservation by providing accurate baseline documentation."
-        }
+      "id": "heritage-photogrammetry",
+      "title": "Sub-millimeter Photogrammetry",
+      "description": "Capture and process thousands of high-resolution images to generate photorealistic 3D models of historical artifacts.",
+      "topics": [
+        "Structure from Motion (SfM) pipelines",
+        "Multi-View Stereo (MVS) point cloud densification",
+        "Non-invasive Ground Penetrating Radar (GPR) integration",
+        "Automated semantic segmentation of material decay",
+        "Integrating Unreal Engine 5 for virtual reality archiving"
       ]
     }
   ],
@@ -168,6 +51,12 @@
       "name": "Open Context Archaeological Data",
       "url": "https://opencontext.org/",
       "description": "Data publishing platform"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "SfM",
+      "definition": "Structure from Motion. A photogrammetric range imaging technique for estimating 3D structures from 2D image sequences."
     }
   ]
 }

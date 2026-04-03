@@ -1,6 +1,6 @@
 {
   "domain": "Film & Aerial Cinematography",
-  "description": "A comprehensive training program for building autonomous drone systems that capture cinematic aerial footage for movies, commercials, live events, and virtual production. The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to creative cinematography, enabling autonomous camera movement, subject tracking, complex shot programming, and real‑time visual effects integration.",
+  "description": "Cinematic multi-drone choreography. Master automated gimbal tracking, dynamic spline trajectories, and integrating ArduPilot parameters with professional film camera rigs (RED/ARRI).",
   "learning_objectives": [
     "Understand cinematic techniques: composition, camera movement, lighting, and storytelling through aerial perspectives",
     "Build and train AI models for subject tracking (actors, vehicles), scene understanding, and aesthetic shot evaluation",
@@ -12,132 +12,15 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Aerial Cinematography Fundamentals",
-      "lessons": [
-        {
-          "title": "Cinematic Language and Drone Aesthetics",
-          "content": "Study core cinematography principles: framing (rule of thirds, leading lines), camera movement (dolly, crane, tracking, whip pan), focal length and depth of field, lighting (golden hour, dramatic shadows), and pacing. Understand how drones enable unique shots: overhead establishing shots, low‑altitude tracking, reveal shots (ascending from behind obstacles), orbit shots, and hyperlapses. Analyze iconic drone shots from films and commercials. Learn about storytelling through aerial perspective: establishing scale, revealing geography, creating emotional impact."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze scenarios: feature film sequences (chase scenes, sweeping landscapes), television commercials (product reveals), live sports (tracking athletes), music videos (dynamic choreography), virtual production (LED wall integration), and real‑time broadcast (concerts, award shows). Define requirements: high‑end cameras (RED Komodo, Sony Venice, or DJI Inspire with Zenmuse X9), high‑frame‑rate capture, low‑latency video transmission (for director’s monitor), precise flight control (RTK GPS, vision positioning), quiet operation for on‑set sound recording, dual‑operator setup (pilot + camera operator), and redundancy for reliability."
-        }
-      ]
-    },
-    {
-      "title": "Module 2: AI Engineer – Cinematic Vision and Tracking",
-      "lessons": [
-        {
-          "title": "Subject Detection and Tracking",
-          "content": "Train an object detection and tracking model (e.g., YOLO + DeepSORT) to follow actors, vehicles, or objects in real time. Use datasets of people in motion, vehicles, and sports scenarios. Implement visual servoing: the drone maintains a specified relative position (e.g., 10 m behind, 5 m above) while tracking the subject. Output is a target position for the flight controller. For multiple subjects, allow operator selection.",
-          "code_example": "from ultralytics import YOLO\nfrom deep_sort_realtime.deepsort_tracker import DeepSort\nyolo = YOLO('yolov8n.pt')\ntracker = DeepSort()\n# per frame: detect, track, compute relative drone target"
-        },
-        {
-          "title": "Scene Understanding for Cinematic Framing",
-          "content": "Train a model to analyze the scene and suggest optimal framing: detect key elements (subject, horizon, leading lines), evaluate current composition against aesthetic rules (e.g., rule of thirds, headroom), and output adjustments to camera gimbal and drone position. This enables semi‑autonomous “cinematic assistant” features. Use a dataset of professionally framed shots labeled with composition scores.",
-          "code_example": "class CompositionEvaluator(nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.encoder = torchvision.models.resnet50(pretrained=True)\n        self.fc = nn.Linear(2048, 5)  # scores for composition rules"
-        },
-        {
-          "title": "Obstacle Avoidance for Dynamic Sets",
-          "content": "Train a model to detect and avoid obstacles (cranes, lighting rigs, other drones, crew) while maintaining smooth cinematic motion. Use 360° cameras or LiDAR. Implement predictive avoidance: anticipate the subject’s path and pre‑plan clear trajectories. Ensure avoidance does not result in jerky movements—smooth re‑planning is essential.",
-          "code_example": "import numpy as np\n# Use potential fields or model predictive control for smooth avoidance"
-        },
-        {
-          "title": "Visual Effects (VFX) Metadata Generation",
-          "content": "Generate metadata for post‑production: camera position, orientation, lens parameters, lighting conditions, and tracked markers for CGI integration. Train models to detect and log tracking markers (fiducials) placed on set. Output a sidecar file (e.g., Alembic, FBX) that can be imported into VFX software (Unreal Engine, Maya).",
-          "code_example": "import json\nmetadata = {\n    'frame': frame_num,\n    'camera_position': [x, y, z],\n    'camera_rotation': [roll, pitch, yaw],\n    'focal_length': 24,\n    'tracking_markers': marker_positions\n}"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Shot Management and Post‑Production Pipeline",
-      "lessons": [
-        {
-          "title": "Shot Logging with PostGIS",
-          "content": "Store metadata for each shot: take number, location (geometry), start/end time, camera settings, subject, director’s notes, and VFX data. Use spatial queries to retrieve shots by scene, location, or subject. Integrate with production scheduling software (e.g., Movie Magic).",
-          "code_example": "CREATE TABLE shots (\n  id SERIAL PRIMARY KEY,\n  scene TEXT,\n  take INT,\n  geom GEOMETRY(Point, 4326),\n  start_time TIMESTAMP,\n  camera_settings JSONB,\n  director_notes TEXT\n);\nCREATE INDEX idx_shots_geom ON shots USING GIST (geom);"
-        },
-        {
-          "title": "STAC for Cinematic Footage Archives",
-          "content": "Catalog all drone footage using STAC. Each item includes bounding box, datetime, camera model, frame rate, resolution, and creative tags (e.g., “sunset”, “tracking shot”). Enable fast retrieval for editors and VFX teams.",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"car_chase_take3_2025_11_20\",\n  \"properties\": {\n    \"datetime\": \"2025-11-20T15:00:00Z\",\n    \"subject\": \"car\",\n    \"shot_type\": \"tracking\",\n    \"resolution\": \"6K\"\n  },\n  \"assets\": {\n    \"video\": {\"href\": \"s3://.../car_chase.mov\"},\n    \"metadata\": {\"href\": \"s3://.../metadata.json\"}\n  }\n}"
-        },
-        {
-          "title": "Integration with Editorial and VFX Workflows",
-          "content": "Build APIs to push shot metadata and camera tracking data to post‑production tools (Avid, DaVinci Resolve, Unreal Engine). Automate creation of edit lists, camera solves, and lighting references. Use industry‑standard formats (ALE, CDL, FBX).",
-          "code_example": "import unreal\n# Use Unreal Engine Python API to import camera track"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Autonomous Cinematography Drone",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Cinematic Drones",
-          "content": "Select sensors: professional cinema camera (gimbal‑stabilized, interchangeable lenses), high‑resolution video transmitter (e.g., DJI Transmission), dual‑operator setup (pilot and camera operator), RTK GPS for precise positioning, obstacle sensors (stereo cameras, time‑of‑flight). Use a drone with low noise (quiet propellers, aerodynamic design) to avoid interfering with audio capture. Connect to Jetson Orin Nano for AI‑assisted tracking and composition."
-        },
-        {
-          "title": "DeepStream Pipeline for Real‑Time Tracking Overlay",
-          "content": "Build a DeepStream pipeline that runs subject detection and tracking on the camera feed, overlaying a tracking box and predicted trajectory on the operator’s monitor. Also display composition guides (e.g., rule‑of‑thirds grid, horizon level). Use hardware acceleration for low latency (< 50 ms).",
-          "code_example": "deepstream-app -c cinematography_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Autonomous Camera Moves",
-          "content": "Create a ROS 2 node that executes pre‑programmed shot sequences (e.g., “dolly in from 50 m to 10 m while orbiting 45°”). Use MAVROS to command position and velocity. For subject tracking, compute relative target pose and publish velocity commands to both drone and gimbal. Implement smooth motion profiles (acceleration‑limited) to avoid jerky shots.",
-          "code_example": "class CinematographyNode(Node):\n    def __init__(self):\n        super().__init__('cinematography_node')\n        self.vel_pub = self.create_publisher(Twist, '/mavros/setpoint_velocity/cmd_vel_unstamped', 10)\n        self.gimbal_pub = self.create_publisher(Float64MultiArray, '/gimbal/cmd', 10)\n\n    def track_subject(self, subject_pos):\n        # compute desired offset, generate smooth velocity commands"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement for Cinematic AI",
-      "lessons": [
-        {
-          "title": "Active Learning for Uncommon Subjects",
-          "content": "Collect tracking data where the model struggled (e.g., fast‑moving vehicles, partially occluded actors). Send clips to editors for annotation (bounding boxes). Retrain tracking models to improve performance on the specific subjects and environments used on set.",
-          "code_example": "uncertain = [frame for frame in shot if track_confidence < 0.6]\ncvat.create_task('cinematography_active_learning', uncertain)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Model Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains tracking and composition models after each production, incorporating new footage and annotations. Deploy improved models to drones before the next shoot. Version models by lens, environment, or subject type.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef cinema_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift with Lighting and Set Changes",
-          "content": "Use Evidently AI to compare tracking confidence and composition scores across different lighting conditions (day exterior, night, interior) and set designs. Drift may trigger retraining with representative footage.",
-          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=day_exterior, current_data=night_scene)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Virtual Production",
-          "content": "Use NVIDIA Isaac Sim or Unreal Engine with high‑fidelity environments, animated characters, and moving vehicles. Simulate complex shots (e.g., car chase through city). Connect real Pixhawk and Jetson. Test tracking accuracy, smoothness of motion, and obstacle avoidance. Evaluate the final rendered footage for cinematic quality.",
-          "code_example": "Isaac Sim with ROS2 bridge; drone flies pre‑programmed path; Jetson runs tracking; virtual camera records output for review."
-        },
-        {
-          "title": "Latency Profiling for Real‑Time Monitoring",
-          "content": "Profile end‑to‑end latency from camera capture to monitor display using Nsight Systems. For live director’s monitor, latency should be < 100 ms. Optimize by using hardware‑accelerated encoding and low‑latency transmission protocols.",
-          "code_example": "nsys profile -o cinema_profile python cinematography_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety, Regulation, and Industry Standards",
-      "lessons": [
-        {
-          "title": "On‑Set Safety Protocols",
-          "content": "Follow motion picture industry safety guidelines: maintain safe distances from actors and crew, use propeller guards, conduct pre‑flight briefings, designate safety observers. Implement emergency stop mechanisms. Coordinate with stunt coordinators for action scenes. Ensure drones are insured and pilots certified (FAA Part 107)."
-        },
-        {
-          "title": "Regulatory Considerations",
-          "content": "Operate under Part 107 (US) or equivalent. For flights over people (common on sets), obtain waivers or use drones with low‑risk classification. Follow local noise ordinances and filming permits. Use geofencing to avoid restricted airspace near airports or stadiums."
-        },
-        {
-          "title": "Data Security and IP Protection",
-          "content": "Protect unreleased footage and metadata. Use encrypted storage, access controls, and secure transfer protocols. Implement non‑disclosure agreements with all crew. Ensure that AI models do not leak proprietary creative data."
-        }
+      "id": "cinematic-autonomy",
+      "title": "Cinematic Gimbal Targeting",
+      "description": "Automate smooth multi-camera tracking curves anticipating dynamic subject movements.",
+      "topics": [
+        "Bézier curve & B-spline trajectory optimization",
+        "Target framing and predictive Subject Tracking (DeepSORT)",
+        "Integrating MAVLink with Heavy-Lift gimbals (MoVI/Ronin)",
+        "Automated focus pulling via active LiDAR tracking",
+        "Real-time video proxy streaming for Director's Monitors"
       ]
     }
   ],
@@ -168,6 +51,12 @@
       "name": "Unreal Engine Virtual Production",
       "url": "https://www.unrealengine.com/en-US/virtual-production",
       "description": "Integration of drone footage with VFX"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Spline",
+      "definition": "A mathematical curve defined by control points, heavily used in computer graphics and path planning."
     }
   ]
 }

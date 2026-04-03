@@ -1,6 +1,6 @@
 {
   "domain": "Public Safety & Crowd Monitoring",
-  "description": "A comprehensive training program for building autonomous drone systems that support law enforcement, event management, and emergency services through real‑time crowd analysis, anomaly detection, and person‑of‑interest tracking — all while respecting privacy regulations. The program covers all four engineering tracks applied to public safety scenarios, integrating privacy‑preserving AI, real‑time data streaming, and compliance with surveillance laws.",
+  "description": "Law enforcement overwatch, active shooter tracking, and situational awareness. Deploy secure Edge AI models over encrypted mesh networks directly to incident commanders' Tactical Operation Centers.",
   "learning_objectives": [
     "Understand public safety operational requirements: crowd dynamics, event types, and incident categories",
     "Build privacy‑preserving AI models for crowd counting, density estimation, and anomaly detection",
@@ -12,88 +12,15 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Public Safety and Crowd Monitoring Fundamentals",
-      "lessons": [
-        {
-          "title": "Crowd Dynamics and Safety Scenarios",
-          "content": "Study crowd density thresholds: green (<1 person/m²), yellow (1–2 persons/m²), red (2–4 persons/m²), critical (>4 persons/m²). Learn about crowd behavior models: social force model, cellular automata, and fluid dynamics analogies. Identify safety scenarios: crowd crush prevention, perimeter breach detection, vehicle‑as‑weapon incursion, lost persons, and VIP escort. Understand the different roles: policing, ambulance routing, fire access corridor maintenance, and event operations coordination."
-        },
-        {
-          "title": "Privacy Regulations and Ethical Frameworks",
-          "content": "Study GDPR Article 9 (biometric data), CCPA, and local regulations governing aerial surveillance. Understand data minimization: capture only what is necessary, retain only as long as required. Implement privacy‑by‑design: anonymization (face blurring, silhouette rendering), purpose limitation, and audit logs. Study case law on drone surveillance (US v. Causby, EU proportionality principle). Define an ethical review process for new monitoring tasks."
-        }
-      ]
-    },
-    {
-      "title": "Module 2: AI Engineer – Crowd Analysis and Anomaly Detection",
-      "lessons": [
-        {
-          "title": "Crowd Density Estimation",
-          "content": "Train a density estimation model (e.g., CSRNet, BayesCrowd) on aerial images from public safety datasets (UCSD Pedestrian, ShanghaiTech). Predict per‑pixel density maps; integrate to get crowd counts. Handle heavy occlusion, varying height, and wide‑angle distortion. Output density heatmaps to ground operators in real time. Calibrate counts with ground truth sensors (e.g., turnstiles) for accuracy validation.",
-          "code_example": "import torch\nfrom csrnet import CSRNet\nmodel = CSRNet().cuda()\nmodel.load_state_dict(torch.load('csrnet_crowd.pth'))\ndensity_map = model(frame_tensor)  # [1, 1, H, W]\ncrowd_count = density_map.sum().item()"
-        },
-        {
-          "title": "Anomaly Detection in Crowd Behavior",
-          "content": "Train an anomaly detection model using optical flow features: compute dense optical flow (Farneback or RAFT), extract motion magnitude and direction distributions. Use an autoencoder trained on normal crowd flow; high reconstruction error signals anomalies (crowd surge, stampede initiation, fighting). Complement with pose estimation (MediaPipe) to detect fallen persons or aggressive gestures.",
-          "code_example": "import cv2\nprev_gray = cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY)\ncurr_gray = cv2.cvtColor(curr_frame, cv2.COLOR_BGR2GRAY)\nflow = cv2.calcOpticalFlowFarneback(prev_gray, curr_gray, None, 0.5, 3, 15, 3, 5, 1.2, 0)\nrecon_error = autoencoder(flow_tensor)\nif recon_error > ANOMALY_THRESHOLD: alert('crowd_anomaly')"
-        },
-        {
-          "title": "Privacy‑Preserving Person Tracking",
-          "content": "Track individuals for safety purposes while protecting privacy: apply real‑time face blurring using a fast face detector (RetinaFace, BlazeFace) before streaming video to ground stations. Maintain tracking using body silhouette and gait features instead of biometrics. For person‑of‑interest scenarios (authorized law enforcement), implement an encrypted channel for unblurred video with strict access logging.",
-          "code_example": "from retinaface import RetinaFace\nfaces = RetinaFace.detect_faces(frame)\nfor face_id, data in faces.items():\n    bbox = data['facial_area']  # x1, y1, x2, y2\n    frame[bbox[1]:bbox[3], bbox[0]:bbox[2]] = cv2.GaussianBlur(\n        frame[bbox[1]:bbox[3], bbox[0]:bbox[2]], (99, 99), 30\n    )"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Real‑Time Safety Data Streaming",
-      "lessons": [
-        {
-          "title": "Low‑Latency Video Streaming to Command Center",
-          "content": "Set up RTSP or WebRTC streaming from the drone (with face blurring applied on‑device) to a ground station command center. Use a CDN or edge server to reduce latency to <500 ms. Annotate the video stream with crowd density overlays, anomaly bounding boxes, and density heatmap layers. Log all stream sessions with operator IDs and timestamps for audit compliance.",
-          "code_example": "# GStreamer RTSP server pipeline\ngst-launch-1.0 v4l2src ! \\\n  videoconvert ! x264enc tune=zerolatency bitrate=2000 ! \\\n  rtph264pay ! udpsink host=GROUND_STATION port=5000"
-        },
-        {
-          "title": "Incident Data Storage and Audit Trails",
-          "content": "Store safety incidents in PostgreSQL: incident type, location (PostGIS Point), timestamp, operator who confirmed, brief description, and linked video clip ID. Maintain immutable audit logs: every database write is append‑only with a cryptographic hash chain for tamper evidence. Provide a reporting API for law enforcement and event organizers that enforces data‑minimization (returns statistics, not raw footage).",
-          "code_example": "CREATE TABLE safety_incidents (\n  id BIGSERIAL PRIMARY KEY,\n  incident_type TEXT NOT NULL,\n  geom GEOMETRY(Point, 4326),\n  detected_at TIMESTAMPTZ DEFAULT NOW(),\n  confirmed_by TEXT,\n  video_clip_id TEXT\n);\nCREATE INDEX idx_incidents_geom ON safety_incidents USING GIST (geom);"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – On‑Device Analytics",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Urban Operations",
-          "content": "Select a quiet, compact drone: DJI M30 or Autel EVO II Pro for regulatory compliance in urban areas. Mount a wide‑angle EO camera (minimum 4K) and an IR camera for night operations. Use Jetson Orin Nano for on‑board processing with a custom privacy filter (face blurring) before any video leaves the device. Ensure encrypted radio link (MAVLink v2 signing) for command integrity."
-        },
-        {
-          "title": "DeepStream Pipeline for Privacy‑First Analytics",
-          "content": "Build a DeepStream pipeline that runs face detection and blurring as the first stage (privacy filter), then feeds blurred video to crowd density and anomaly models. All models run on GPU; output is annotated video + JSON metadata (density per zone, anomaly flags). The raw unblurred buffer is discarded immediately after the privacy filter stage — it never touches disk or network.",
-          "code_example": "# DeepStream config: privacy-first pipeline\n# Primary inference: face detection (output: face bboxes)\n# Preprocessing: blur faces in NvBufSurface before secondary inference\n# Secondary inference: crowd density (CSRNet TensorRT)\n# Output: blurred annotated stream + JSON metrics"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Improvement",
-      "lessons": [
-        {
-          "title": "Post‑Event Model Improvement with Privacy Safeguards",
-          "content": "After each deployment, review incidents where the model missed anomalies or generated false alarms. Collect aggregated statistics (not raw video) for model evaluation. For retraining, use only anonymized (face‑blurred) video clips approved by a data protection officer. Track model versions in MLflow; run challenger vs. champion evaluation on a held‑out privacy‑safe validation set before deployment.",
-          "code_example": "import mlflow\nmlflow.set_experiment('crowd_anomaly_detection')\nwith mlflow.start_run():\n    mlflow.log_param('privacy_filter', 'retinaface_v2')\n    mlflow.log_metric('false_alarm_rate', 0.03)\n    mlflow.log_metric('missed_anomaly_rate', 0.07)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Legal Compliance and Operational Protocols",
-      "lessons": [
-        {
-          "title": "Deployment Authorization and Data Governance",
-          "content": "Obtain necessary authorizations: airspace approval (NOTAM), event organizer consent, and (for law enforcement use) judicial authorization for biometric tracking. Implement a data governance policy: retention period (48 hours for routine footage, 90 days for confirmed incidents), access control (role‑based), and breach notification procedures. Conduct Data Protection Impact Assessments (DPIA) before each new deployment context."
-        },
-        {
-          "title": "Operator Training and Accountability",
-          "content": "Train operators specifically for public safety drone operations: UAS remote pilot certificate, crowd safety protocols, crisis communication, and decision escalation trees. All operator actions (stream access, clip download, alert acknowledgment) are logged with timestamps. Conduct post‑event debriefs comparing drone analytics with ground truth incident reports to measure system effectiveness and identify gaps."
-        }
+      "id": "tactical-overwatch",
+      "title": "Tactical Edge Analysis",
+      "description": "Process high-resolution feeds directly on the drone to broadcast lightweight situational updates (like weapon detection) to ground units.",
+      "topics": [
+        "Real-time object detection (Weapon, Vehicle License Plates) using Edge TPUs",
+        "Zero-latency WebRTC streams via mesh radios",
+        "Tactical payload delivery physics",
+        "Swarm containment and dynamic perimeter tracking",
+        "Adherence to secure chain-of-custody for evidentiary data"
       ]
     }
   ],
@@ -124,6 +51,12 @@
       "name": "CISA Drone Use in Public Safety",
       "url": "https://www.cisa.gov/uas-public-safety",
       "description": "US guidance on drone deployment for public safety operations"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "WebRTC",
+      "definition": "Web Real-Time Communication. An open project providing real-time communication to browsers and devices."
     }
   ]
 }

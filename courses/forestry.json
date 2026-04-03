@@ -1,6 +1,6 @@
 {
   "domain": "Forestry & Silviculture",
-  "description": "A comprehensive training program for building autonomous drone systems that support forest management, timber inventory, reforestation monitoring, invasive species detection, and carbon stock estimation. The program covers all four engineering tracks applied to silviculture, enabling tree‑level computer vision, LiDAR‑based canopy analysis, and environmental data fusion for sustainable forest management.",
+  "description": "Precision forestry management and canopy analysis. Leverage high-penetration LiDAR and multispectral sensing for biomass estimation and disease tracking.",
   "learning_objectives": [
     "Understand forest ecosystems, growth cycles, and silviculture practices (thinning, selective harvest, reforestation)",
     "Build AI models for individual tree detection, species classification, health assessment, and timber volume estimation",
@@ -12,84 +12,15 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Forestry and Silviculture Fundamentals",
-      "lessons": [
-        {
-          "title": "Forest Ecology and Management Practices",
-          "content": "Study forest stand structure: canopy, sub‑canopy, shrub, and herb layers. Learn tree growth metrics: DBH (diameter at breast height), crown diameter, tree height, basal area per hectare, and volume. Understand silviculture cycles: site preparation, planting, thinning (commercial and pre‑commercial), selective harvest, and clear‑cut. Learn forest health indicators: crown dieback, discoloration, bark beetle galleries, fungal fruiting bodies. Study carbon accounting: forest carbon sequestration rates, carbon credits (voluntary vs. compliance markets)."
-        },
-        {
-          "title": "Drone Sensors for Forest Inventory",
-          "content": "Survey sensors: RGB for canopy structure and health visuals, multispectral (RedEdge, Altum) for chlorophyll content and stress, thermal for bark beetle activity (temperature anomalies), LiDAR (Velodyne VLP‑16, RIEGL miniVUX) for 3D canopy point clouds and DTM/DSM generation. Understand flight planning for forests: high‑overlap photogrammetry (80/80), LiDAR point density requirements (>50 points/m²), and legal requirements for BVLOS in remote forested areas."
-        }
-      ]
-    },
-    {
-      "title": "Module 2: AI Engineer – Tree Detection, Classification, and Health",
-      "lessons": [
-        {
-          "title": "Individual Tree Crown Detection and Delineation",
-          "content": "Use instance segmentation (Mask R‑CNN, YOLOv8‑seg) to delineate individual tree crowns in high‑resolution RGB/multispectral orthomosaics. Alternatively, use local maxima detection on a Canopy Height Model (CHM derived from LiDAR). Evaluate with crown delineation accuracy metrics: intersection‑over‑union per crown, commission/omission errors. Handle dense closed‑canopy forests where crowns overlap significantly.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n-seg.pt')\nresults = model.train(data='tree_crown_seg.yaml', epochs=100, imgsz=1024)\n# Post-process: extract crown polygons from masks\nfor result in results:\n    masks = result.masks.xy  # list of polygon arrays per crown"
-        },
-        {
-          "title": "Tree Species Classification",
-          "content": "Train a species classifier on cropped crown images using multispectral bands (R, G, B, NIR, RE). Species differ in spectral response, crown shape, and texture. Use a CNN backbone (ResNet‑50) with multispectral input. Build a dataset from forest inventory plots where species are known. For rare species, use few‑shot learning (ProtoNet). Output a species probability distribution per crown polygon.",
-          "code_example": "import torch\nfrom torchvision.models import resnet50\n# Adapt first conv layer for 5-channel multispectral input\nmodel = resnet50()\nmodel.conv1 = torch.nn.Conv2d(5, 64, kernel_size=7, stride=2, padding=3, bias=False)\nmodel.fc = torch.nn.Linear(2048, NUM_SPECIES)\n# Train with cross-entropy loss on labeled crown patches"
-        },
-        {
-          "title": "Forest Health and Pest Detection",
-          "content": "Detect bark beetle infestations using drone multispectral imagery: infested trees show reduced NIR reflectance and increased red reflectance (early stage) or complete gray crown (late stage). Train a pixel‑level segmentation model on multispectral images with field‑verified infestation labels. For windthrow and storm damage, detect downed trees using shadow patterns and surface roughness from DSM differencing.",
-          "code_example": "import numpy as np\ndef compute_health_index(nir, red, green):\n    ndvi = (nir - red) / (nir + red + 1e-6)\n    # Low NDVI in green-season = possible infestation\n    return ndvi\n\n# Classify pixel health using trained segmentation model\nheath_map = seg_model(multispectral_stack)"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Forest Inventory Data Management",
-      "lessons": [
-        {
-          "title": "LiDAR Point Cloud Processing and Storage",
-          "content": "Process raw LiDAR point clouds: ground filtering (Cloth Simulation Filter), normalization (height above ground), DTM/DSM/CHM generation. Store processed point clouds in LAS/LAZ format in object storage. Catalog with STAC: each item includes acquisition date, point density, coverage polygon, and derived products (DTM, CHM). Use PDAL pipelines for automated processing triggered by new data arrival.",
-          "code_example": "import pdal\npipeline_json = {\n  'pipeline': [\n    'raw_forest.las',\n    {'type': 'filters.csf', 'resolution': 1.0},  # ground filter\n    {'type': 'filters.hag_nn'},  # height above ground\n    {'type': 'writers.las', 'filename': 'normalized.las'}\n  ]\n}\npipeline = pdal.Pipeline(json.dumps(pipeline_json))\npipeline.execute()"
-        },
-        {
-          "title": "Multi‑Temporal Change Detection for Forest Monitoring",
-          "content": "Compute canopy height model differences between flight epochs (e.g., annually) to detect growth, harvest events, and storm damage. Store temporal time series in TimescaleDB: per‑stand metrics (mean CHM, basal area, species composition) over time. Trigger alerts when change exceeds thresholds (e.g., >5% crown loss in 30 days → possible pest outbreak). Link to field inspection scheduling.",
-          "code_example": "-- TimescaleDB for forest stand time series\nCREATE TABLE stand_metrics (\n  time TIMESTAMPTZ,\n  stand_id INT,\n  mean_height_m FLOAT,\n  basal_area_m2_ha FLOAT,\n  crown_cover_pct FLOAT,\n  health_score FLOAT\n);\nSELECT create_hypertable('stand_metrics', 'time');"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – Field Deployment",
-      "lessons": [
-        {
-          "title": "Hardware for Remote Forest Operations",
-          "content": "Select a long‑endurance drone: fixed‑wing VTOL (e.g., WingtraOne, senseFly eBee X) for large forest coverage, or multirotor (DJI M300 RTK) for precision work under canopy. Mount: LiDAR (RIEGL miniVUX‑1), multispectral (MicaSense Altum‑PT), RGB (Sony RX1R II). Use Jetson Orin NX for on‑board processing. For BVLOS operations in remote forests, integrate Iridium satellite link for backup telemetry."
-        },
-        {
-          "title": "Real‑Time Tree Detection in Flight",
-          "content": "Run a lightweight tree crown detector (YOLOv8n‑seg, TensorRT FP16) on live RGB feed during flight. Used for: counting trees in regeneration areas, detecting large downed trees for obstacle avoidance, real‑time density estimation for thinning prescription. Stream count and detection overlays to a tablet running QGroundControl with custom plugins for forestry operators.",
-          "code_example": "# TensorRT tree crown detector\nfrom ultralytics import YOLO\nmodel = YOLO('tree_crown_yolov8n.pt')\nmodel.export(format='engine', half=True, imgsz=640)\n# Runtime: 30+ fps on Jetson Orin NX"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Carbon and Inventory Pipelines",
-      "lessons": [
-        {
-          "title": "Automated Carbon Stock Estimation Pipeline",
-          "content": "Build a Kubeflow pipeline: (1) ingest LiDAR + multispectral data, (2) run PDAL ground filtering and CHM generation, (3) delineate tree crowns with segmentation model, (4) classify species, (5) estimate individual tree volume using allometric equations (volume = f(height, crown_diameter, species)), (6) aggregate to stand‑level carbon stock (tons CO₂/ha). Output a report for carbon credit verification auditors.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline(name='carbon_estimation')\ndef carbon_pipeline():\n    lidar_proc = dsl.ContainerOp(name='lidar', image='pdal-processor')\n    crown_seg = dsl.ContainerOp(name='crowns', image='yolo-seg').after(lidar_proc)\n    species_cls = dsl.ContainerOp(name='species', image='resnet-classifier').after(crown_seg)\n    carbon = dsl.ContainerOp(name='carbon', image='allometric-estimator').after(species_cls)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Regulatory Compliance and Certification",
-      "lessons": [
-        {
-          "title": "FSC and PEFC Certification Requirements",
-          "content": "Understand FSC (Forest Stewardship Council) and PEFC (Programme for the Endorsement of Forest Certification) requirements for forest inventory accuracy, sustainability metrics, and chain of custody. Learn how drone‑derived inventory data can be used as supplementary evidence in certification audits. Document data collection methodology, sensor calibration records, and accuracy assessments to support certification claims."
-        }
+      "id": "canopy-lidar-analysis",
+      "title": "Below-Canopy LiDAR Mapping",
+      "description": "Extract terrain and trunk data beneath dense forest canopies using multiple-return LiDAR systems.",
+      "topics": [
+        "Full-waveform vs discrete-return LiDAR processing",
+        "Individual Tree Crown (ITC) delineation algorithms",
+        "Carbon biomass estimation models",
+        "Hyperspectral indices for early disease detection",
+        "Autonomous swarm deployment for massive hectare coverage"
       ]
     }
   ],
@@ -120,6 +51,12 @@
       "name": "ForestSAT International Conference",
       "url": "https://forestsat.com/",
       "description": "Research on remote sensing applications in forest management"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ITC Delineation",
+      "definition": "Algorithmic segmentation of individual tree crowns from point cloud or high-res optical data."
     }
   ]
 }

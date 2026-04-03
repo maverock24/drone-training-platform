@@ -1,6 +1,6 @@
 {
   "domain": "Oil & Gas Pipeline Monitoring",
-  "description": "A comprehensive training program for building autonomous drone systems that inspect oil and gas infrastructure: pipelines, compressor stations, tank farms, and offshore platforms. The program covers all four engineering tracks applied to energy infrastructure inspection, including specialized sensor fusion for leak detection, BVLOS operations planning, industrial communication protocols, and real‑time anomaly reporting for pipeline integrity management.",
+  "description": "Hazardous environment inspections in offshore rigs and refineries. Implement intrinsically safe drone operations, Optical Gas Imaging (OGI), and automated flare stack analysis.",
   "learning_objectives": [
     "Understand oil and gas pipeline infrastructure, failure modes, and integrity management frameworks (PHMSA, API 1160)",
     "Build AI models for corrosion detection, leak detection (OGI/thermal), third‑party encroachment, and cathodic protection anomalies",
@@ -12,89 +12,15 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Oil & Gas Infrastructure Fundamentals",
-      "lessons": [
-        {
-          "title": "Pipeline Systems and Integrity Management",
-          "content": "Study pipeline infrastructure categories: gathering lines (wellsite to processing), transmission lines (high‑pressure, long‑distance), and distribution lines (low‑pressure urban). Learn failure modes: external corrosion, internal corrosion, SCC (stress corrosion cracking), mechanical damage (excavation hits), geohazards (landslides, subsidence), and weld defects. Understand pipeline integrity management programs (PIMP): baseline assessment, anomaly identification, risk assessment, and repair prioritization. Study API 1160 (Managing System Integrity for Hazardous Liquid Pipelines), PHMSA CFR 49 Part 195, and EU Directive 2012/18/EU (Seveso III)."
-        },
-        {
-          "title": "BVLOS Operations Planning for Linear Assets",
-          "content": "Pipeline corridors extend over hundreds of kilometers — requiring BVLOS authorization. Study FAA BVLOS waiver criteria (remote ID, detect‑and‑avoid, low population density). Plan corridor inspections: flight altitude (30–60 m AGL for visual inspection, 100+ m for thermal), ground speed (15–20 m/s for HD video), and battery/fuel relay stations. For long corridors, plan relay infrastructure: launch/recover pads every 50–80 km, satellite (Iridium) + cellular hybrid downlink. Understand NOTAMs, temporary flight restrictions near compressor stations, and military airspace avoidance."
-        }
-      ]
-    },
-    {
-      "title": "Module 2: AI Engineer – Leak Detection and Anomaly Identification",
-      "lessons": [
-        {
-          "title": "Optical Gas Imaging (OGI) with AI",
-          "content": "Use cooled MWIR cameras (e.g., FLIR GF320, Telops FIRST) sensitive to hydrocarbon absorption bands (3.2–3.4 µm for methane, 8–12 µm for VOCs). Train a spatiotemporal model to detect gas plumes: use 3D CNN or optical flow on MWIR video sequences. Plumes appear as dark swirling patterns against background. Handle false positives: heat shimmer, vehicle exhaust, shadows. Output: plume bounding box, estimated leak rate from plume geometry and wind data.",
-          "code_example": "import torch\n# 3D CNN for spatiotemporal gas plume detection\nclass PlumeDetector3D(torch.nn.Module):\n    def __init__(self):\n        super().__init__()\n        self.backbone = resnet3d_18()\n        self.head = torch.nn.Linear(512, 2)  # leaking / not leaking\n    \n    def forward(self, video_clip):  # [B, C, T, H, W]\n        return self.head(self.backbone(video_clip))"
-        },
-        {
-          "title": "External Corrosion and Coating Defect Detection",
-          "content": "Detect corrosion, coating holidays, and mechanical damage on above‑ground pipeline sections using high‑resolution RGB and thermal cameras. Train a semantic segmentation model (DeepLabV3+) on pipeline images with labeled classes: bare metal (corrosion), cracked coating, wrap tape, normal coating, and discoloration. Integrate DCVG (Direct Current Voltage Gradient) survey data — where available — to correlate with visual findings. Output a corrosion severity map along the pipeline route.",
-          "code_example": "from mmseg.apis import init_segmentor, inference_segmentor\nmodel = init_segmentor('pipeline_seg.py', 'pipeline_checkpoint.pth')\nfor frame, gps in zip(video_frames, gps_track):\n    result = inference_segmentor(model, frame)\n    corrosion_area = (result == CORROSION_CLASS).sum()\n    if corrosion_area > ALERT_THRESHOLD:\n        log_anomaly(gps, severity=classify_corrosion(corrosion_area))"
-        },
-        {
-          "title": "Third‑Party Encroachment Detection",
-          "content": "Detect unauthorized excavation, construction, or vehicles operating within the pipeline right‑of‑way (ROW). Train a YOLO model to detect: excavators, dump trucks, ground disturbance, temporary structures, and crops planted over the ROW (root damage risk). Use change detection on weekly orthomosaics: new features within the ROW polygon flagged for review. Alert pipeline operations in near‑real‑time for active excavations.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('encroachment_detector.pt')\nresults = model(frame)\nfor box, cls in zip(results.boxes.xyxy, results.boxes.cls):\n    if cls in [EXCAVATOR, DUMP_TRUCK, GROUND_DISTURBANCE]:\n        if within_row_polygon(gps_from_pixel(box), row_polygon):\n            alert_scada('third_party_encroachment', location)"
-        }
-      ]
-    },
-    {
-      "title": "Module 3: Data Engineer – Linear Asset Data Management",
-      "lessons": [
-        {
-          "title": "Pipeline GIS Database with PostGIS",
-          "content": "Model the pipeline network in PostGIS: pipeline segments as LineString geometries with attributes (material, diameter, operating pressure, installation year, coating type). ROW polygons as polygon features. Inspection history linked to segment IDs. Use ST_ClosestPoint and ST_LineLocatePoint to georeference anomalies to their exact position along the pipeline (km post). This enables queries like 'all anomalies within 5 km of compressor station X'.",
-          "code_example": "CREATE TABLE pipeline_segments (\n  id SERIAL PRIMARY KEY,\n  geom GEOMETRY(LineString, 4326),\n  material TEXT,\n  diameter_mm INT,\n  max_operating_pressure_bar FLOAT,\n  installation_year INT,\n  coating_type TEXT\n);\nCREATE TABLE anomalies (\n  id SERIAL PRIMARY KEY,\n  segment_id INT REFERENCES pipeline_segments(id),\n  km_post FLOAT,  -- position along pipeline\n  geom GEOMETRY(Point, 4326),\n  anomaly_type TEXT,\n  severity TEXT,\n  detected_at TIMESTAMPTZ\n);"
-        },
-        {
-          "title": "SCADA Integration via OPC UA and MQTT",
-          "content": "Integrate drone anomaly detections with pipeline SCADA systems using OPC UA (industrial standard for real‑time data exchange). Publish detected anomalies as OPC UA nodes: segment ID, km post, anomaly type, severity, and timestamp. For real‑time alerts (active gas leak), publish to an MQTT broker — the SCADA system subscribes and can trigger emergency shutdown procedures. Implement authentication (X.509 certificates for OPC UA, TLS + mutual auth for MQTT).",
-          "code_example": "from opcua import Client\nclient = Client('opc.tcp://scada.pipeline.corp:4840')\nclient.connect()\n# Get anomaly node and write detection\nnode = client.get_node('ns=2;i=1001')  # PipelineAnomalyAlert\nnode.set_value(json.dumps({\n    'segment_id': seg_id,\n    'km_post': km_post,\n    'type': 'OGI_GAS_LEAK',\n    'severity': 'HIGH'\n}))"
-        }
-      ]
-    },
-    {
-      "title": "Module 4: Edge AI Engineer – BVLOS Infrastructure",
-      "lessons": [
-        {
-          "title": "Drone Hardware for Pipeline Corridors",
-          "content": "Select a long‑range drone: fixed‑wing VTOL (WingtraOne GEN II, Quantum Systems Trinity F90+) for efficiency, or heavy multirotor (DJI M350 RTK) for payload flexibility. Mount: OGI camera (FLIR GF320 or Workswell WIRIS Gas Pro), thermal (FLIR Vue Pro), RGB (Sony RX1R II). Use Jetson Orin NX for on‑board inference. Dual communication: LTE primary + Iridium satellite backup for BVLOS beyond radio line‑of‑sight. Integrate ADS‑B receiver for manned aircraft detect‑and‑avoid."
-        },
-        {
-          "title": "Real‑Time Leak Detection Pipeline",
-          "content": "Build a DeepStream pipeline: ingest OGI video (MWIR) + RGB simultaneously. Stage 1: background subtraction on MWIR to isolate warm/cool anomalies. Stage 2: run plume detection model at 15 fps. Stage 3: if plume detected, trigger high‑confidence secondary model on 5‑frame clip. If confirmed, publish to MQTT broker immediately. All inference runs on GPU; target <100 ms latency from detection to SCADA alert.",
-          "code_example": "# GStreamer pipeline: OGI + RGB dual stream\n# Primary: background subtraction (CUDA)\n# Secondary: plume CNN (TensorRT FP16)\n# Output: MQTT publish on detection\ndeepstream-app -c pipeline_monitoring_config.txt"
-        },
-        {
-          "title": "BVLOS Flight Management and Detect‑and‑Avoid",
-          "content": "Implement a BVLOS safety stack: (1) ADS‑B receiver → parse MAVLINK traffic messages → compute separation distance from manned aircraft → alert pilot if <300 m. (2) Ground‑based radar or acoustic sensor at relay stations for cooperative awareness. (3) Onboard stereo vision (ZED 2) for non‑cooperative obstacle detection at low altitude. Implement automatic lane deviation when a conflict is detected, then resume corridor track after clearance.",
-          "code_example": "# MAVROS ADS-B listener\nfrom mavros_msgs.msg import ADSB\ndef adsb_cb(msg):\n    dist = haversine(drone_pos, (msg.lat, msg.lon))\n    if dist < SEPARATION_THRESHOLD:\n        self.get_logger().warn(f'Traffic: {msg.callsign} at {dist:.0f}m')\n        execute_avoidance_maneuver(msg)"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Inspection Data Lifecycle",
-      "lessons": [
-        {
-          "title": "Anomaly Trending and Risk Ranking",
-          "content": "Build a risk‑ranking model: for each pipeline segment, score risk as function of anomaly history (corrosion growth rate from repeat inspections), consequence of failure (proximity to population, water bodies), and operating pressure. Use a survival analysis model (Cox PH) or random forest for failure probability estimation. Output a prioritized repair list for the integrity management team, integrated with their CMMS (Computerized Maintenance Management System).",
-          "code_example": "from lifelines import CoxPHFitter\nimport pandas as pd\ncox = CoxPHFitter()\ncox.fit(segment_data, duration_col='years_since_install', event_col='failure_occurred')\ncox.predict_survival_function(new_segments)  # P(no failure) over next 5 years"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Regulatory and Safety Compliance",
-      "lessons": [
-        {
-          "title": "PHMSA Integrity Management and Aviation Compliance",
-          "content": "Understand PHMSA CFR 49 Part 195 requirements for hazardous liquid pipeline integrity management: baseline assessment intervals (every 5 years for HCAs), anomaly response timeframes (emergency repair within 24 hours for immediate hazards), and data integration requirements. Study BVLOS waiver application process (FAA BEYOND program, SORA methodology in Europe). Coordinate with NRC (National Response Center) notification requirements for confirmed leaks. Maintain a complete inspection record: flight logs, sensor data archives, anomaly findings, and repair confirmations."
-        }
+      "id": "optical-gas-imaging",
+      "title": "Optical Gas Imaging (OGI)",
+      "description": "Detect and quantify invisible methane and VOC leaks using specialized Mid-Wave Infrared (MWIR) cameras.",
+      "topics": [
+        "Spectroscopic analysis of hydrocarbon signatures",
+        "Automated leak quantification algorithms",
+        "Intrinsically safe (ATEX) flight operations",
+        "Confined space navigation within pressure vessels",
+        "Deploying physics-informed neural networks for plume dispersion"
       ]
     }
   ],
@@ -126,6 +52,16 @@
       "name": "API 1160 Pipeline Integrity Management",
       "url": "https://www.api.org/products-and-services/standards/important-standards-milestones/api-1160",
       "description": "Industry standard for managing system integrity of hazardous liquid pipelines"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "OGI",
+      "definition": "Optical Gas Imaging. Thermal imaging technology to visualize and detect gas leaks."
+    },
+    {
+      "term": "ATEX",
+      "definition": "Equipment certified as safe to use in explosive atmospheres."
     }
   ]
 }
