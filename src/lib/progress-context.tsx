@@ -16,6 +16,13 @@ interface ProgressContextType {
   completedLessons: Set<string>;
   toggleLesson: (lessonId: string) => void;
   isCompleted: (lessonId: string) => boolean;
+  isTrackUnlocked: (trackId: string) => boolean;
+  isModuleUnlocked: (trackId: string, moduleId: string) => boolean;
+  saveExecutionProof: (lessonId: string, proof: string) => void;
+  getExecutionProof: (lessonId: string) => string;
+  hasExecutionProof: (lessonId: string) => boolean;
+  saveLessonNotes: (lessonId: string, notes: string) => void;
+  getLessonNotes: (lessonId: string) => string;
   getTrackProgress: (trackId: string) => number;
   getFlightHours: () => number;
   getGlobalRank: () => string;
@@ -36,6 +43,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set());
   const [completedSteps, setCompletedSteps] = useState<Set<string>>(new Set());
   const [quizScores, setQuizScores] = useState<Record<string, number>>({});
+  const [executionProofs, setExecutionProofs] = useState<Record<string, string>>({});
+  const [lessonNotes, setLessonNotes] = useState<Record<string, string>>({});
   const [lastVisited, setLastVisitedState] = useState<LastVisited | null>(null);
   const [loaded, setLoaded] = useState(false);
 
@@ -60,6 +69,22 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     if (storedQuiz) {
       try {
         setQuizScores(JSON.parse(storedQuiz));
+      } catch {
+        // ignore
+      }
+    }
+    const storedProofs = localStorage.getItem("drone-training-proof");
+    if (storedProofs) {
+      try {
+        setExecutionProofs(JSON.parse(storedProofs));
+      } catch {
+        // ignore
+      }
+    }
+    const storedNotes = localStorage.getItem("drone-training-notes");
+    if (storedNotes) {
+      try {
+        setLessonNotes(JSON.parse(storedNotes));
       } catch {
         // ignore
       }
@@ -99,6 +124,18 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     }
   }, [quizScores, loaded]);
 
+  useEffect(() => {
+    if (loaded) {
+      localStorage.setItem("drone-training-proof", JSON.stringify(executionProofs));
+    }
+  }, [executionProofs, loaded]);
+
+  useEffect(() => {
+    if (loaded) {
+      localStorage.setItem("drone-training-notes", JSON.stringify(lessonNotes));
+    }
+  }, [lessonNotes, loaded]);
+
   const toggleLesson = (lessonId: string) => {
     setCompletedLessons((prev) => {
       const next = new Set(prev);
@@ -126,11 +163,59 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const isCompleted = (lessonId: string) => completedLessons.has(lessonId);
   const isStepCompleted = (stepId: string) => completedSteps.has(stepId);
 
+  const isTrackUnlocked = (trackId: string) => {
+    const trackIndex = tracks.findIndex((track) => track.id === trackId);
+
+    if (trackIndex <= 0) {
+      return true;
+    }
+
+    const previousTrack = tracks[trackIndex - 1];
+    return previousTrack.modules.every((module) =>
+      completedLessons.has(`${previousTrack.id}-${module.lessons[0].id}`)
+    );
+  };
+
+  const isModuleUnlocked = (trackId: string, moduleId: string) => {
+    const track = tracks.find((entry) => entry.id === trackId);
+    if (!track || !isTrackUnlocked(trackId)) {
+      return false;
+    }
+
+    const moduleIndex = track.modules.findIndex((module) => module.id === moduleId);
+    if (moduleIndex <= 0) {
+      return true;
+    }
+
+    const previousModule = track.modules[moduleIndex - 1];
+    return completedLessons.has(`${trackId}-${previousModule.lessons[0].id}`);
+  };
+
   const setQuizScore = (lessonKey: string, score: number) => {
     setQuizScores((prev) => ({ ...prev, [lessonKey]: score }));
   };
 
   const getQuizScore = (lessonKey: string) => quizScores[lessonKey];
+
+  const saveExecutionProof = (lessonId: string, proof: string) => {
+    setExecutionProofs((prev) => ({
+      ...prev,
+      [lessonId]: proof.trim(),
+    }));
+  };
+
+  const getExecutionProof = (lessonId: string) => executionProofs[lessonId] ?? "";
+
+  const hasExecutionProof = (lessonId: string) => getExecutionProof(lessonId).length >= 20;
+
+  const saveLessonNotes = (lessonId: string, notes: string) => {
+    setLessonNotes((prev) => ({
+      ...prev,
+      [lessonId]: notes,
+    }));
+  };
+
+  const getLessonNotes = (lessonId: string) => lessonNotes[lessonId] ?? "";
 
   const setLastVisited = (v: LastVisited) => {
     setLastVisitedState(v);
@@ -173,6 +258,13 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         completedLessons,
         toggleLesson,
         isCompleted,
+        isTrackUnlocked,
+        isModuleUnlocked,
+        saveExecutionProof,
+        getExecutionProof,
+        hasExecutionProof,
+        saveLessonNotes,
+        getLessonNotes,
         getTrackProgress,
         getFlightHours,
         getGlobalRank,

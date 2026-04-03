@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import {
   Brain,
@@ -14,8 +15,11 @@ import {
   ArrowLeft,
   BookOpen,
   ScrollText,
+  HelpCircle,
+  Lock,
 } from "lucide-react";
 import { tracks } from "@/lib/course-data";
+import { useProgress } from "@/lib/progress-context";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -31,12 +35,40 @@ export default function LecturePage({
 }) {
   const { trackId } = use(params);
   const track = tracks.find((t) => t.id === trackId);
+  const { isTrackUnlocked } = useProgress();
 
   if (!track || !track.lecture) {
     notFound();
   }
 
   const Icon = iconMap[track.icon];
+  const trackIndex = tracks.findIndex((entry) => entry.id === trackId);
+  const previousTrack = trackIndex > 0 ? tracks[trackIndex - 1] : null;
+  const trackUnlocked = isTrackUnlocked(track.id);
+  const beginnerGuide = track.modules.map((module) => {
+    const lesson = module.lessons[0];
+    const practiceSteps = lesson.step_by_step_guide
+      .slice(0, 3)
+      .map((step) => step.title);
+
+    return {
+      id: module.id,
+      title: module.title,
+      description: module.description,
+      practiceSteps,
+    };
+  });
+  const quizQuestions = track.modules.flatMap((module) =>
+    module.lessons.flatMap((lesson) =>
+      lesson.quiz.map((question, index) => ({
+        id: `${module.id}-${lesson.id}-${index + 1}`,
+        moduleTitle: module.title,
+        lessonTitle: lesson.title,
+        question: question.question,
+        options: question.options,
+      }))
+    )
+  );
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
@@ -73,10 +105,121 @@ export default function LecturePage({
 
       <Separator className="mb-8" />
 
+      {!trackUnlocked && previousTrack ? (
+        <Card className="border-amber-500/30 bg-gradient-to-r from-amber-500/10 to-background">
+          <CardContent className="py-8 flex flex-col items-center gap-4 text-center">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10">
+              <Lock className="h-7 w-7 text-amber-500" />
+            </div>
+            <div>
+              <h2 className="text-lg font-bold">Lecture Locked</h2>
+              <p className="mt-1 text-sm text-muted-foreground max-w-md">
+                Finish {previousTrack.title} before opening this lecture.
+              </p>
+            </div>
+            <Link href={`/tracks/${previousTrack.id}`}>
+              <Button className="gap-2">
+                Continue Previous Track
+                <BookOpen className="h-4 w-4" />
+              </Button>
+            </Link>
+          </CardContent>
+        </Card>
+      ) : (
+        <>
+
+      <Card className="mb-8 border-border/50 bg-gradient-to-br from-muted/40 to-background">
+        <CardHeader>
+          <CardTitle className="text-lg">Beginner Study Guide</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4 text-sm text-muted-foreground">
+          <p className="leading-relaxed">
+            This lecture keeps the exact technical terms used in the curriculum, but it is organized so a beginner can follow the big picture first. Read the roadmap below, then go through the lecture, and finally use the quiz questions at the end as your self-check.
+          </p>
+          <p className="leading-relaxed">
+            Focus on three things while reading: what each term means, why it matters for drones, and what practical step helps you use that idea in real work.
+          </p>
+        </CardContent>
+      </Card>
+
+      <div className="space-y-4 mb-8">
+        {beginnerGuide.map((module, index) => (
+          <Card key={module.id} className="border-border/50">
+            <CardHeader className="pb-3">
+              <CardTitle className="text-base">
+                {index + 1}. {module.title}
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-3">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                {module.description}
+              </p>
+              {module.practiceSteps.length > 0 && (
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-wide text-foreground/80 mb-2">
+                    Practice path
+                  </p>
+                  <ul className="ml-4 list-disc space-y-2 text-sm text-muted-foreground">
+                    {module.practiceSteps.map((stepTitle) => (
+                      <li key={stepTitle}>{stepTitle}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+
       {/* Rendered markdown content */}
+      <div className="mb-3 flex items-center gap-2">
+        <ScrollText className="h-4 w-4 text-muted-foreground" />
+        <p className="text-sm font-medium">Lecture Notes</p>
+      </div>
       <article className="prose prose-invert prose-sm max-w-none">
         <MarkdownContent content={track.lecture} />
       </article>
+
+      <Separator className="my-8" />
+
+      <Card className="border-border/50">
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2 text-lg">
+            <HelpCircle className="h-5 w-5" />
+            Quiz Questions for This Lecture
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-6">
+          <p className="text-sm leading-relaxed text-muted-foreground">
+            Use these questions after reading to check whether the main ideas are clear. The questions below are gathered from every lesson in this track.
+          </p>
+          {quizQuestions.map((item, index) => (
+            <div key={item.id} className="rounded-lg border border-border/50 bg-muted/20 p-4">
+              <div className="mb-2 flex flex-wrap items-center gap-2">
+                <Badge variant="outline" className="text-xs">
+                  Question {index + 1}
+                </Badge>
+                <Badge variant="secondary" className="text-xs">
+                  {item.moduleTitle}
+                </Badge>
+              </div>
+              <p className="text-sm font-medium leading-relaxed text-foreground">
+                {item.question}
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                Source lesson: {item.lessonTitle}
+              </p>
+              <ul className="mt-3 ml-4 list-disc space-y-2 text-sm text-muted-foreground">
+                {item.options.map((option) => (
+                  <li key={option}>{option}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </CardContent>
+      </Card>
+        </>
+      )}
 
       {/* Bottom nav */}
       <Separator className="my-10" />

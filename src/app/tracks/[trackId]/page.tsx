@@ -58,7 +58,14 @@ export default function TrackPage({
 }) {
   const { trackId } = use(params);
   const track = tracks.find((t) => t.id === trackId);
-  const { isCompleted, toggleLesson, getTrackProgress, getQuizScore } = useProgress();
+  const {
+    isCompleted,
+    getTrackProgress,
+    getQuizScore,
+    isTrackUnlocked,
+    isModuleUnlocked,
+    hasExecutionProof,
+  } = useProgress();
   const { user, loading: authLoading } = useAuth();
 
   if (!track) {
@@ -95,6 +102,7 @@ export default function TrackPage({
   const prevTrack = currentIdx > 0 ? tracks[currentIdx - 1] : null;
   const nextTrack =
     currentIdx < tracks.length - 1 ? tracks[currentIdx + 1] : null;
+  const trackUnlocked = isTrackUnlocked(track.id);
 
   const trackImg = trackImageMap[trackId];
 
@@ -211,7 +219,7 @@ export default function TrackPage({
         )}
 
         {/* Lecture link */}
-        {user && track.lecture && (
+        {user && trackUnlocked && track.lecture && (
           <Link href={`/tracks/${trackId}/lecture`}>
             <Card className="mb-6 border-border/50 bg-gradient-to-r from-muted/40 to-muted/20 hover:border-border hover:shadow-md transition-all cursor-pointer">
               <CardContent className="py-4 flex items-center gap-4">
@@ -233,7 +241,7 @@ export default function TrackPage({
         )}
 
         {/* Progress bar */}
-        {user && (
+        {user && trackUnlocked && (
           <Card className="mb-8 border-border/50">
             <CardContent className="py-4">
               <div className="flex items-center justify-between text-sm mb-2">
@@ -246,7 +254,7 @@ export default function TrackPage({
         )}
 
         {/* Track completion banner */}
-        {user && progress === 100 && (
+        {user && trackUnlocked && progress === 100 && (
           <Card className="mb-8 border-emerald-500/40 bg-gradient-to-r from-emerald-500/10 to-cyan-500/10">
             <CardContent className="py-6 flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
               <div className="text-4xl shrink-0">🏆</div>
@@ -276,6 +284,28 @@ export default function TrackPage({
           </Card>
         )}
 
+        {user && !trackUnlocked && prevTrack && (
+          <Card className="mb-8 border-amber-500/30 bg-gradient-to-r from-amber-500/10 to-background">
+            <CardContent className="py-8 flex flex-col items-center text-center gap-4">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10">
+                <Lock className="h-7 w-7 text-amber-500" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold">Track Locked</h3>
+                <p className="text-sm text-muted-foreground mt-1 max-w-md">
+                  Complete all lessons in {prevTrack.title} before moving into {track.title}.
+                </p>
+              </div>
+              <Link href={`/tracks/${prevTrack.id}`}>
+                <Button className="gap-2">
+                  Continue Previous Track
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
+        )}
+
         {/* Modules with lessons */}
         <div className="space-y-4">
           {track.modules.map((module, moduleIdx) => {
@@ -285,12 +315,15 @@ export default function TrackPage({
             const quizScore = getQuizScore(lessonKey);
             const isStartHere = user && moduleIdx === firstUncompletedIdx;
             const quizPassed = quizScore !== undefined && quizScore >= 70;
+            const moduleUnlocked = isModuleUnlocked(track.id, module.id);
+            const previousModule = moduleIdx > 0 ? track.modules[moduleIdx - 1] : null;
+            const proofSubmitted = hasExecutionProof(lessonKey);
 
             return (
               <Card
                 key={module.id}
                 className={`border-border/50 overflow-hidden transition-all hover:border-border hover:shadow-md ${
-                  isStartHere ? "ring-1 ring-primary/40" : ""
+                  isStartHere && moduleUnlocked ? "ring-1 ring-primary/40" : ""
                 }`}
               >
                 <div className={`h-1 bg-gradient-to-r ${track.gradient} ${user && completed ? "opacity-100" : "opacity-30"}`} />
@@ -299,10 +332,6 @@ export default function TrackPage({
                     <div className="mt-1 shrink-0">
                       {user && completed ? (
                         <CheckCircle2 className="h-6 w-6 text-emerald-500" />
-                      ) : user && quizPassed ? (
-                        <button onClick={() => toggleLesson(lessonKey)}>
-                          <Circle className="h-6 w-6 text-muted-foreground/40 hover:text-primary transition-colors" />
-                        </button>
                       ) : (
                         <div className="flex h-6 w-6 items-center justify-center rounded-full border-2 border-muted-foreground/30 text-xs font-bold text-muted-foreground">
                           {moduleIdx + 1}
@@ -339,15 +368,39 @@ export default function TrackPage({
                             Quiz: {quizScore}%
                           </Badge>
                         )}
+                        {user && proofSubmitted && (
+                          <Badge variant="outline" className="text-xs gap-1 border-sky-500/50 text-sky-500">
+                            <CheckCircle2 className="h-3 w-3" />
+                            Proof submitted
+                          </Badge>
+                        )}
+                        {user && !trackUnlocked && (
+                          <Badge variant="outline" className="text-xs gap-1 text-amber-500 border-amber-500/40">
+                            <Lock className="h-3 w-3" />
+                            Finish previous track first
+                          </Badge>
+                        )}
+                        {user && trackUnlocked && !moduleUnlocked && previousModule && (
+                          <Badge variant="outline" className="text-xs gap-1 text-amber-500 border-amber-500/40">
+                            <Lock className="h-3 w-3" />
+                            Complete {previousModule.title} to unlock
+                          </Badge>
+                        )}
                         {user && !quizPassed && !completed && (
                           <Badge variant="outline" className="text-xs gap-1 text-muted-foreground">
                             <Lock className="h-3 w-3" />
-                            Pass quiz to unlock
+                            Pass quiz and submit proof
+                          </Badge>
+                        )}
+                        {user && quizPassed && !proofSubmitted && !completed && (
+                          <Badge variant="outline" className="text-xs gap-1 text-muted-foreground">
+                            <Lock className="h-3 w-3" />
+                            Submit proof to unlock
                           </Badge>
                         )}
                       </div>
                     </div>
-                    {user ? (
+                    {user && trackUnlocked && moduleUnlocked ? (
                       <Link
                         href={`/tracks/${track.id}/${module.id}/${lesson.id}`}
                         className="shrink-0"

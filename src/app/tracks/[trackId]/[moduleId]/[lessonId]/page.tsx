@@ -25,8 +25,12 @@ import {
   XCircle,
   Copy,
   Check,
+  ShieldCheck,
+  Clock,
+  NotebookPen,
+  Sparkles,
 } from "lucide-react";
-import { tracks } from "@/lib/course-data";
+import { glossary, tracks } from "@/lib/course-data";
 import { useProgress } from "@/lib/progress-context";
 import { GlossaryText } from "@/components/glossary-text";
 import { TerminalSimulator } from "@/components/terminal-simulator";
@@ -38,6 +42,12 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Database,
   Cpu,
 };
+
+function findLessonGlossaryTerms(text: string) {
+  return glossary.filter((entry) =>
+    text.toLowerCase().includes(entry.term.toLowerCase())
+  );
+}
 
 export default function LessonPage({
   params,
@@ -53,6 +63,13 @@ export default function LessonPage({
     getQuizScore,
     setQuizScore,
     setLastVisited,
+    isTrackUnlocked,
+    isModuleUnlocked,
+    saveExecutionProof,
+    getExecutionProof,
+    hasExecutionProof,
+    saveLessonNotes,
+    getLessonNotes,
   } = useProgress();
 
   const track = tracks.find((t) => t.id === trackId);
@@ -81,7 +98,12 @@ export default function LessonPage({
   const completed = isCompleted(lessonKey);
   const quizScore = getQuizScore(lessonKey);
   const quizPassed = quizScore !== undefined && quizScore >= 70;
+  const proofSubmitted = hasExecutionProof(lessonKey);
   const Icon = iconMap[track.icon];
+  const trackIndex = tracks.findIndex((entry) => entry.id === trackId);
+  const previousTrack = trackIndex > 0 ? tracks[trackIndex - 1] : null;
+  const trackUnlocked = isTrackUnlocked(trackId);
+  const moduleUnlocked = isModuleUnlocked(trackId, moduleId);
 
   // Find previous/next module for navigation
   const moduleIdx = track.modules.findIndex((m) => m.id === moduleId);
@@ -98,6 +120,19 @@ export default function LessonPage({
   const stepProgress = Math.round(
     (completedStepCount / lesson.step_by_step_guide.length) * 100
   );
+  const explanationParagraphs = lesson.detailed_explanation
+    .split("\n\n")
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+  const studyPath = lesson.step_by_step_guide.slice(0, 4);
+  const lessonTerms = findLessonGlossaryTerms(
+    [
+      lesson.title,
+      lesson.detailed_explanation,
+      ...lesson.step_by_step_guide.map((step) => `${step.title} ${step.description}`),
+      ...lesson.quiz.flatMap((question) => [question.question, ...question.options]),
+    ].join(" ")
+  ).slice(0, 8);
 
   // Per-track thumbnail images
   const trackImageMap: Record<string, string> = {
@@ -107,6 +142,117 @@ export default function LessonPage({
     "edge-ai": "/track-edge-ai.png",
   };
   const trackImg = trackImageMap[trackId];
+  const [proofDraft, setProofDraft] = useState("");
+  const [proofStatus, setProofStatus] = useState("");
+  const [notesDraft, setNotesDraft] = useState("");
+  const [notesStatus, setNotesStatus] = useState("");
+  const [activeTab, setActiveTab] = useState("learn");
+  const estimatedMinutes = Math.max(
+    12,
+    lesson.step_by_step_guide.length * 6 + lesson.quiz.length * 2 + explanationParagraphs.length * 2
+  );
+  const allStepsCompleted = lesson.step_by_step_guide.length > 0 && completedStepCount === lesson.step_by_step_guide.length;
+  const readinessItems = [
+    {
+      label: "Read the lesson briefing",
+      done: true,
+      helper: "Use the simplified overview and key terms first.",
+    },
+    {
+      label: "Complete the hands-on steps",
+      done: allStepsCompleted,
+      helper: `${completedStepCount} of ${lesson.step_by_step_guide.length} steps checked off`,
+    },
+    {
+      label: "Pass the lesson quiz",
+      done: quizPassed,
+      helper: quizPassed ? `Current score: ${quizScore}%` : `Need at least 70%${quizScore !== undefined ? `, current ${quizScore}%` : ""}`,
+    },
+    {
+      label: "Submit proof of execution",
+      done: proofSubmitted,
+      helper: proofSubmitted ? "Proof saved for this lesson" : "Add a run summary, output, or artifact link",
+    },
+  ];
+  const readinessPercent = Math.round(
+    (readinessItems.filter((item) => item.done).length / readinessItems.length) * 100
+  );
+  const nextAction = !allStepsCompleted
+    ? {
+        label: "Continue hands-on practice",
+        helper: "Finish the remaining checklist steps before moving to the quiz.",
+        tab: "practice",
+      }
+    : !quizPassed
+      ? {
+          label: "Take the quiz",
+          helper: "You have completed the practice work. Now verify understanding.",
+          tab: "quiz",
+        }
+      : !proofSubmitted
+        ? {
+            label: "Submit execution proof",
+            helper: "Save the evidence that shows you ran the exercise successfully.",
+            tab: "practice",
+          }
+        : !completed
+          ? {
+              label: "Mark this lesson complete",
+              helper: "All requirements are satisfied. You can unlock the next lesson now.",
+              tab: "practice",
+            }
+          : {
+              label: nextModule ? "Move to the next lesson" : "Review track progress",
+              helper: nextModule ? `Up next: ${nextModule.title}` : "You have completed this lesson.",
+              tab: "learn",
+            };
+
+  useEffect(() => {
+    setProofDraft(getExecutionProof(lessonKey));
+    setProofStatus("");
+  }, [lessonKey, getExecutionProof]);
+
+  useEffect(() => {
+    setNotesDraft(getLessonNotes(lessonKey));
+    setNotesStatus("");
+  }, [lessonKey, getLessonNotes]);
+
+  if (!trackUnlocked || !moduleUnlocked) {
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
+        <Link href={`/tracks/${trackId}`}>
+          <Button variant="ghost" size="sm" className="gap-2 mb-6 -ml-2">
+            <ArrowLeft className="h-4 w-4" />
+            Back to {track.shortTitle}
+          </Button>
+        </Link>
+
+        <Card className="border-amber-500/30 bg-gradient-to-r from-amber-500/10 to-background">
+          <CardContent className="py-8 flex flex-col items-center gap-4 text-center">
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber-500/10">
+              <HelpCircle className="h-7 w-7 text-amber-500" />
+            </div>
+            <div>
+              <h2 className="text-lg font-bold">Lesson Locked</h2>
+              <p className="mt-1 text-sm text-muted-foreground max-w-md">
+                {!trackUnlocked && previousTrack
+                  ? `Finish ${previousTrack.title} before entering this track.`
+                  : prevModule
+                    ? `Complete ${prevModule.title} before opening ${lesson.title}.`
+                    : "Complete the required earlier content before continuing."}
+              </p>
+            </div>
+            <Link href={!trackUnlocked && previousTrack ? `/tracks/${previousTrack.id}` : `/tracks/${trackId}`}>
+              <Button className="gap-2">
+                {!trackUnlocked && previousTrack ? "Continue Previous Track" : "Back to Track"}
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
 
   return (
     <div className="relative">
@@ -156,12 +302,16 @@ export default function LessonPage({
             <Badge variant="secondary" className="text-xs">
               {lesson.quiz.length} Quiz Questions
             </Badge>
+            <Badge variant="secondary" className="text-xs gap-1">
+              <Clock className="h-3 w-3" />
+              ~{estimatedMinutes} min
+            </Badge>
             {completed ? (
               <Badge variant="outline" className="ml-auto gap-1.5 text-xs h-7 border-emerald-500/50 text-emerald-500">
                 <CheckCircle2 className="h-3.5 w-3.5" />
                 Completed
               </Badge>
-            ) : quizPassed ? (
+            ) : quizPassed && proofSubmitted ? (
               <Button
                 size="sm"
                 variant="default"
@@ -171,19 +321,83 @@ export default function LessonPage({
                 Mark Complete
                 <CheckCircle2 className="h-3.5 w-3.5" />
               </Button>
+            ) : quizPassed ? (
+              <Badge variant="outline" className="ml-auto gap-1.5 text-xs h-7 text-muted-foreground">
+                <ShieldCheck className="h-3.5 w-3.5" />
+                Submit proof to complete
+              </Badge>
             ) : (
               <Badge variant="outline" className="ml-auto gap-1.5 text-xs h-7 text-muted-foreground">
                 <HelpCircle className="h-3.5 w-3.5" />
-                Pass the quiz to complete
+                Pass the quiz and submit proof
               </Badge>
             )}
           </div>
         </div>
       </div>
 
+      <Card className="mb-6 border-border/50 bg-gradient-to-br from-background to-muted/30">
+        <CardHeader className="pb-4">
+          <div className="flex flex-wrap items-start justify-between gap-4">
+            <div>
+              <CardTitle className="flex items-center gap-2 text-lg">
+                <Sparkles className="h-5 w-5 text-primary" />
+                Lesson Readiness Board
+              </CardTitle>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Keep moving in order: practice, quiz, proof, then completion.
+              </p>
+            </div>
+            <div className="min-w-40">
+              <div className="mb-2 flex items-center justify-between text-xs text-muted-foreground">
+                <span>Readiness</span>
+                <span>{readinessPercent}%</span>
+              </div>
+              <Progress value={readinessPercent} className="h-2" />
+            </div>
+          </div>
+        </CardHeader>
+        <CardContent className="space-y-5">
+          <div className="grid gap-3 md:grid-cols-2">
+            {readinessItems.map((item) => (
+              <div key={item.label} className="rounded-lg border border-border/40 bg-muted/20 p-4">
+                <div className="flex items-start gap-3">
+                  {item.done ? (
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                  ) : (
+                    <Circle className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground/40" />
+                  )}
+                  <div>
+                    <p className="text-sm font-medium text-foreground">{item.label}</p>
+                    <p className="mt-1 text-sm text-muted-foreground">{item.helper}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex flex-wrap items-center justify-between gap-4 rounded-lg border border-border/40 bg-muted/20 p-4">
+            <div>
+              <p className="text-sm font-medium text-foreground">Next best action</p>
+              <p className="mt-1 text-sm text-muted-foreground">{nextAction.helper}</p>
+            </div>
+            <div className="flex gap-2">
+              <Button type="button" variant="outline" onClick={() => setActiveTab(nextAction.tab)}>
+                {nextAction.label}
+              </Button>
+              {!completed && quizPassed && proofSubmitted && (
+                <Button type="button" onClick={() => toggleLesson(lessonKey)}>
+                  Complete Lesson
+                </Button>
+              )}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
       {/* Content tabs */}
-      <Tabs defaultValue="learn" className="mt-6">
-        <TabsList className="grid w-full grid-cols-3">
+      <Tabs value={activeTab} onValueChange={setActiveTab} className="mt-6">
+        <TabsList className="grid w-full grid-cols-4">
           <TabsTrigger value="learn" className="gap-2">
             <BookOpen className="h-4 w-4" />
             Learn
@@ -196,23 +410,109 @@ export default function LessonPage({
             <HelpCircle className="h-4 w-4" />
             Quiz
           </TabsTrigger>
+          <TabsTrigger value="notes" className="gap-2">
+            <NotebookPen className="h-4 w-4" />
+            Notes
+          </TabsTrigger>
         </TabsList>
 
         {/* Learn tab */}
         <TabsContent value="learn" className="mt-6">
+          <Card className="mb-6 border-border/50 bg-gradient-to-br from-muted/40 to-background">
+            <CardHeader>
+              <CardTitle className="text-lg">Beginner Briefing</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4 text-sm text-muted-foreground">
+              <p className="leading-relaxed">
+                This lesson keeps the exact engineering terms, but the goal is simple: understand what the system does, why it matters for drones, and what actions you should practice next.
+              </p>
+              <p className="leading-relaxed">
+                Start with the study path below, then read the explanation in small sections, and finish by reviewing the quiz questions before opening the quiz tab.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="mb-6 border-border/50">
+            <CardHeader>
+              <CardTitle className="text-lg">Study Path</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                {studyPath.map((step) => (
+                  <div key={step.step} className="rounded-lg border border-border/40 bg-muted/20 p-4">
+                    <p className="text-sm font-medium text-foreground">
+                      Step {step.step}: {step.title}
+                    </p>
+                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                      <GlossaryText text={step.description} />
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </CardContent>
+          </Card>
+
+          {lessonTerms.length > 0 && (
+            <Card className="mb-6 border-border/50">
+              <CardHeader>
+                <CardTitle className="text-lg">Key Terms Used in This Lesson</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  {lessonTerms.map((term) => (
+                    <div key={term.term} className="rounded-lg border border-border/40 bg-muted/20 p-4">
+                      <p className="text-sm font-semibold text-foreground">{term.term}</p>
+                      <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                        {term.definition}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+
           <Card className="border-border/50">
             <CardHeader>
               <CardTitle className="text-lg">Detailed Explanation</CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="space-y-4">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Read this section one paragraph at a time. When you see a technical term, connect it back to the key-term definitions above and ask how it affects perception, decision-making, or deployment on a real drone system.
+              </p>
               <div className="prose prose-invert prose-sm max-w-none">
-                {lesson.detailed_explanation.split("\n\n").map((para, i) => (
+                {explanationParagraphs.map((para, i) => (
                   <p key={i} className="text-sm text-muted-foreground leading-relaxed mb-4">
                     <GlossaryText text={para} />
                   </p>
                 ))}
               </div>
-                        </CardContent>
+            </CardContent>
+          </Card>
+
+          <Card className="mt-6 border-border/50">
+            <CardHeader>
+              <CardTitle className="text-lg">Quiz Preview</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Review these questions before you take the quiz. If you can explain why each answer choice is correct or incorrect, you are ready for the assessment.
+              </p>
+              {lesson.quiz.map((question, index) => (
+                <div key={question.question} className="rounded-lg border border-border/40 bg-muted/20 p-4">
+                  <p className="text-sm font-medium leading-relaxed text-foreground">
+                    {index + 1}. <GlossaryText text={question.question} />
+                  </p>
+                  <ul className="mt-3 ml-4 list-disc space-y-2 text-sm text-muted-foreground">
+                    {question.options.map((option) => (
+                      <li key={option}>
+                        <GlossaryText text={option} />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </CardContent>
           </Card>
 
           {/* Intelligent Architecture Injection based on lesson ID */}
@@ -271,6 +571,51 @@ export default function LessonPage({
               );
             })}
           </div>
+
+          <Card className="mt-6 border-border/50">
+            <CardHeader>
+              <CardTitle className="text-lg">Execution Proof</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Paste evidence that you completed the practical work for this lesson. Include command output, a short run summary, observed results, or a link to your artifact. This proof is required before the lesson can unlock the next area.
+              </p>
+              <textarea
+                value={proofDraft}
+                onChange={(event) => setProofDraft(event.target.value)}
+                className="min-h-36 w-full rounded-lg border border-border/60 bg-muted/20 px-3 py-3 text-sm transition-colors placeholder:text-muted-foreground/60 focus-visible:border-ring focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                placeholder="Example: Ran the ViT example with python vit_demo.py, confirmed output tensor shape [1,10], and compared CLIP image-text similarity scores for forest vs power line scenes."
+              />
+              <div className="flex flex-wrap items-center gap-3">
+                <Button
+                  type="button"
+                  className="gap-2"
+                  onClick={() => {
+                    const trimmedProof = proofDraft.trim();
+                    if (trimmedProof.length < 20) {
+                      setProofStatus("Please provide at least a short execution summary or output snippet before saving proof.");
+                      return;
+                    }
+
+                    saveExecutionProof(lessonKey, trimmedProof);
+                    setProofStatus("Proof saved. Once your quiz is passed, you can mark this lesson complete.");
+                  }}
+                >
+                  <ShieldCheck className="h-4 w-4" />
+                  Save proof
+                </Button>
+                {proofSubmitted && (
+                  <Badge variant="outline" className="gap-1 border-sky-500/50 text-sky-500">
+                    <CheckCircle2 className="h-3.5 w-3.5" />
+                    Proof submitted
+                  </Badge>
+                )}
+              </div>
+              {proofStatus && (
+                <p className="text-sm text-muted-foreground">{proofStatus}</p>
+              )}
+            </CardContent>
+          </Card>
         </TabsContent>
 
         {/* Quiz tab */}
@@ -281,11 +626,50 @@ export default function LessonPage({
             savedScore={getQuizScore(lessonKey)}
             onComplete={(score, passed) => {
               setQuizScore(lessonKey, score);
-              if (passed && !completed) {
-                toggleLesson(lessonKey);
-              }
             }}
           />
+        </TabsContent>
+
+        <TabsContent value="notes" className="mt-6">
+          <Card className="border-border/50">
+            <CardHeader>
+              <CardTitle className="text-lg">Personal Lesson Notes</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="text-sm leading-relaxed text-muted-foreground">
+                Keep short notes in your own words: what the concept means, what confused you, and what result proved the exercise worked. These notes are saved locally for this lesson.
+              </p>
+              <textarea
+                value={notesDraft}
+                onChange={(event) => setNotesDraft(event.target.value)}
+                className="min-h-48 w-full rounded-lg border border-border/60 bg-muted/20 px-3 py-3 text-sm transition-colors placeholder:text-muted-foreground/60 focus-visible:border-ring focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                placeholder="Example: Self-attention lets the model compare image patches with each other. In this lab the proof was the output shape and the similarity ranking from CLIP. I still need to review why positional embeddings are necessary."
+              />
+              <div className="flex flex-wrap items-center gap-3">
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="gap-2"
+                  onClick={() => {
+                    saveLessonNotes(lessonKey, notesDraft);
+                    setNotesStatus(notesDraft.trim() ? "Notes saved for this lesson." : "Notes cleared for this lesson.");
+                  }}
+                >
+                  <NotebookPen className="h-4 w-4" />
+                  Save notes
+                </Button>
+                {notesDraft.trim() && (
+                  <Badge variant="outline" className="gap-1 border-primary/40 text-primary">
+                    <NotebookPen className="h-3.5 w-3.5" />
+                    {notesDraft.trim().split(/\s+/).length} words
+                  </Badge>
+                )}
+              </div>
+              {notesStatus && (
+                <p className="text-sm text-muted-foreground">{notesStatus}</p>
+              )}
+            </CardContent>
+          </Card>
         </TabsContent>
       </Tabs>
 

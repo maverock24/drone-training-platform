@@ -84,7 +84,7 @@ const features = [
 ];
 
 export default function HomePage() {
-  const { getTrackProgress, totalCompleted, lastVisited } = useProgress();
+  const { getTrackProgress, totalCompleted, lastVisited, isTrackUnlocked } = useProgress();
   const { user, loading: authLoading } = useAuth();
   const totalLessons = getTotalLessons();
   const totalSteps = getTotalSteps();
@@ -294,6 +294,7 @@ export default function HomePage() {
           {tracks.map((track) => {
             const Icon = iconMap[track.icon];
             const progress = getTrackProgress(track.id);
+            const trackUnlocked = isTrackUnlocked(track.id);
             const lessonCount = track.modules.reduce(
               (acc, m) => acc + m.lessons.length,
               0
@@ -309,9 +310,8 @@ export default function HomePage() {
             );
             const trackImg = trackImageMap[track.id];
 
-            return (
-              <Link key={track.id} href={`/tracks/${track.id}`}>
-                <Card className="group relative overflow-hidden border-border/50 bg-card/50 transition-all hover:border-border hover:shadow-xl hover:shadow-primary/5 h-full">
+            const card = (
+              <Card className={`group relative overflow-hidden border-border/50 bg-card/50 transition-all h-full ${user && trackUnlocked ? "hover:border-border hover:shadow-xl hover:shadow-primary/5" : ""}`}>
                   {/* Track thumbnail image */}
                   {trackImg && (
                     <div className="relative h-44 overflow-hidden">
@@ -319,7 +319,7 @@ export default function HomePage() {
                         src={trackImg}
                         alt={`${track.title} track visual`}
                         fill
-                        className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                        className={`object-cover object-center transition-transform duration-500 ${user && trackUnlocked ? "group-hover:scale-105" : ""}`}
                         sizes="(max-width: 640px) 100vw, 50vw"
                       />
                       {/* Gradient overlay blending into card */}
@@ -327,10 +327,16 @@ export default function HomePage() {
                       {/* Subtle color accent overlay */}
                       <div className={`absolute inset-0 bg-gradient-to-br ${track.gradient} opacity-20 mix-blend-screen`} />
                       {/* Badge on image */}
-                      <div className="absolute top-3 right-3">
+                      <div className="absolute top-3 right-3 flex gap-2">
                         <Badge variant="secondary" className="text-xs bg-background/80 backdrop-blur-sm">
                           {track.modules.length} Lessons
                         </Badge>
+                        {user && !trackUnlocked && (
+                          <Badge variant="outline" className="text-xs gap-1 border-amber-500/40 bg-background/80 text-amber-500 backdrop-blur-sm">
+                            <Lock className="h-3 w-3" />
+                            Locked
+                          </Badge>
+                        )}
                       </div>
                       {/* Track icon overlaid on image bottom-left */}
                       <div className="absolute bottom-3 left-3">
@@ -386,12 +392,26 @@ export default function HomePage() {
                         Login to access
                       </Badge>
                     )}
-                    {/* CTA arrow */}
-                    <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                      Explore track <ArrowRight className="h-3.5 w-3.5" />
-                    </div>
+                    {user && !trackUnlocked && (
+                      <Badge variant="outline" className="text-xs gap-1 text-amber-500 border-amber-500/40">
+                        <Lock className="h-3 w-3" />
+                        Complete the previous track to unlock
+                      </Badge>
+                    )}
+                    {user && trackUnlocked && (
+                      <div className="mt-4 flex items-center gap-1 text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
+                        Explore track <ArrowRight className="h-3.5 w-3.5" />
+                      </div>
+                    )}
                   </CardContent>
-                </Card>
+              </Card>
+            );
+
+            return user && !trackUnlocked ? (
+              <div key={track.id}>{card}</div>
+            ) : (
+              <Link key={track.id} href={`/tracks/${track.id}`}>
+                {card}
               </Link>
             );
           })}

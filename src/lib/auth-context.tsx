@@ -31,7 +31,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refresh = useCallback(async () => {
     try {
-      const res = await fetch("/api/me");
+      const res = await fetch("/api/me", {
+        cache: "no-store",
+        credentials: "include",
+      });
       const data = await res.json();
       setUser(data.user ?? null);
     } catch {
@@ -52,6 +55,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const res = await fetch("/api/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
+      credentials: "include",
       body: JSON.stringify({ username, password }),
     });
     const data = await res.json();
