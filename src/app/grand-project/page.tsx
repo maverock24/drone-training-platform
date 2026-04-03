@@ -17,6 +17,9 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { grandProject } from "@/lib/course-data";
+import { GlossaryText } from "@/components/glossary-text";
+import { InteractiveArchitecture } from "@/components/interactive-architecture";
+import { TerminalSimulator } from "@/components/terminal-simulator";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -134,7 +137,7 @@ export default function GrandProjectPage() {
                           {comp.track}
                         </Badge>
                       </div>
-                      <CardTitle className="text-base mb-1"><GlossaryText text=<GlossaryText text={comp.contribution} /> /></CardTitle>
+                      <CardTitle className="text-base mb-1"><GlossaryText text={comp.contribution} /></CardTitle>
                       {desc && (
                         <p className="text-sm text-muted-foreground">{desc}</p>
                       )}
