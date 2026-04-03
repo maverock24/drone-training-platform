@@ -9,6 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
+import { GlossaryText } from "@/components/glossary-text";
 import {
   Brain,
   Factory,
@@ -319,7 +320,7 @@ export default function TrackPage({
                         )}
                       </div>
                       <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
-                        {module.description}
+                        <GlossaryText text={module.description} />
                       </p>
                       <div className="mt-3 flex flex-wrap items-center gap-3">
                         <Badge variant="secondary" className="text-xs gap-1">

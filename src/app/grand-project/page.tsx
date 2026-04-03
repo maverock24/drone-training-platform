@@ -134,7 +134,7 @@ export default function GrandProjectPage() {
                           {comp.track}
                         </Badge>
                       </div>
-                      <CardTitle className="text-base mb-1">{comp.contribution}</CardTitle>
+                      <CardTitle className="text-base mb-1"><GlossaryText text=<GlossaryText text={comp.contribution} /> /></CardTitle>
                       {desc && (
                         <p className="text-sm text-muted-foreground">{desc}</p>
                       )}

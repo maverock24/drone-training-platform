@@ -45,6 +45,7 @@ import {
 } from "lucide-react";
 import { getDomainBySlug } from "@/lib/domain-data";
 import { useAuth } from "@/lib/auth-context";
+import { GlossaryText } from "@/components/glossary-text";
 
 const slugMeta: Record<
   string,
@@ -369,7 +370,7 @@ export default function DomainDetailPage({
 
                           {lesson.content && (
                             <p className="text-sm text-muted-foreground leading-relaxed ml-10">
-                              {lesson.content}
+                              <GlossaryText text={lesson.content} />
                             </p>
                           )}
 

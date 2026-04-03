@@ -130,6 +130,31 @@
           "content": "Understand FAA Part 107 (US) or equivalent in other countries. For firefighting, special waivers may be required for night operations, BVLOS, and operating near emergency personnel. Work with local fire departments to obtain permission. Document all flights and AI decisions for post‑mission analysis and liability."
         }
       ]
+    },
+    {
+      "title": "Module 5: Thermal-Optical Sensor Fusion (Advanced Exercise)",
+      "lessons": [
+        {
+          "title": "Theory: Sub-Canopy Micro-Fire Detection",
+          "content": "When a wildfire starts, it often smolders beneath the dense forest canopy before crowning. Electro-Optical (EO) cameras only see green trees, while Long-Wave Infrared (LWIR) thermal cameras detect the heat signature. However, thermal cameras lack the spatial resolution to tell us EXACTLY where the fire is relative to a landmark (like a road or building). Sensor fusion mathematically aligns these two disparate feeds.\n\nBy generating a Homography Matrix using known calibration points, we can warp the high-resolution EO image to match the thermal perspective. The AI then evaluates a combined 4-channel tensor (R, G, B, Thermal), allowing it to say: 'There is a 400-degree anomaly under that specific pine tree.'",
+          "code_example": "import cv2\nimport numpy as np\n\n# 1. Load optical and thermal frames\nimg_eo = cv2.imread('optical_feed.jpg')\nimg_ir = cv2.imread('thermal_feed.jpg', cv2.IMREAD_GRAYSCALE)\n\n# 2. Define corresponding points (corners of a calibration board)\npts_eo = np.array([[150, 100], [450, 110], [460, 420], [140, 400]], dtype='float32')\npts_ir = np.array([[120, 80], [380, 90], [390, 350], [110, 330]], dtype='float32')\n\n# 3. Calculate Homography Matrix\nH, status = cv2.findHomography(pts_eo, pts_ir)\nprint('Homography Matrix:', H)\n\n# 4. Warp the optical image to align with thermal\nheight, width = img_ir.shape\nimg_eo_aligned = cv2.warpPerspective(img_eo, H, (width, height))\n\n# 5. Stack into a 4-Channel Tensor for the AI\nfusion_tensor = np.dstack((img_eo_aligned, img_ir))\nprint('Fused Tensor Shape:', fusion_tensor.shape) # e.g. (480, 640, 4)"
+        },
+        {
+          "title": "Simulated Swarm Orchestration Exercise",
+          "content": "A single drone cannot patrol a 10,000-acre national park efficiently. Modern suppression requires Swarm Intelligence. If Drone Alpha detects a thermal anomaly, it broadcasts the GPS coordinates via MAVLink. Drone Beta, carrying a high-zoom EO payload, automatically breaks its patrol pattern to intercept the coordinates and confirm the plume without human intervention.\n\nThis exercise involves writing a Python MAVLink publisher that fakes a 'Fire Detected' event, and a listener script representing a secondary drone that triggers a 'RTL (Return To Target)' command.",
+          "code_example": "from pymavlink import mavutil\nimport time\n\n# 1. Connect to the local MAVLink router (Swarm Network)\nmaster = mavutil.mavlink_connection('udp:127.0.0.1:14550')\nmaster.wait_heartbeat()\n\n# 2. Drone Alpha: Broadcast custom FIRE_DETECTED message (Simulated via NAMED_VALUE_FLOAT)\nprint('Drone Alpha: Thermal anomaly detected. Broadcasting coordinates...')\nmaster.mav.named_value_float_send(\n    time.ticks_msec(),\n    b'FIRE_LAT', 34.0522\n)\nmaster.mav.named_value_float_send(\n    time.ticks_msec(),\n    b'FIRE_LON', -118.2437\n)\n\n# 3. Drone Beta: Listen for fire broadcasts\nwhile True:\n    msg = master.recv_match(type='NAMED_VALUE_FLOAT', blocking=True)\n    if msg.name == 'FIRE_LAT':\n        target_lat = msg.value\n        print(f'Drone Beta: Intercepted fire at LAT {target_lat}. Redirecting swarm!')\n        break"
+        }
+      ]
+    },
+    {
+      "title": "Module 6: Tactical Flight Deployment (Live Drill)",
+      "lessons": [
+        {
+          "title": "Establishing the Loitering Geofence",
+          "content": "Once a fire is confirmed, the drone must not fly directly over the thermal column—the intense updraft and particulate matter will choke the rotors or melt the chassis. Edge Engineers must compute an offset Loiter Pattern using the DroneKit library.\n\nBy taking the target latitude and longitude and applying the Haversine formula, we calculate a safe 500-meter radius cylinder. The drone will autonomously orbit this perimeter, maintaining its camera gimbal permanently locked onto the center of the fire to provide uninterrupted situational awareness to the ground command post.",
+          "code_example": "from dronekit import connect, LocationGlobalRelative, VehicleMode\nimport math\n\n# Connect to the vehicle\nvehicle = connect('udp:127.0.0.1:14550', wait_ready=True)\n\ndef get_location_metres(original_location, dNorth, dEast):\n    earth_radius = 6378137.0 # Radius of \\\"spherical\\\" earth\n    dLat = dNorth/earth_radius\n    dLon = dEast/(earth_radius*math.cos(math.pi*original_location.lat/180))\n    newlat = original_location.lat + (dLat * 180/math.pi)\n    newlon = original_location.lon + (dLon * 180/math.pi)\n    return LocationGlobalRelative(newlat, newlon, original_location.alt)\n\n# Fire coordinates\nfire_location = LocationGlobalRelative(34.05, -118.24, 100)\n\n# Calculate a safe viewing point 500m South\nsafe_standoff = get_location_metres(fire_location, -500, 0)\n\nprint('Commanding drone to safe standoff coordinates.')\nvehicle.simple_goto(safe_standoff)\n\n# Send MAVLink command to lock camera gimbal onto the fire\nmsg = vehicle.message_factory.command_long_encode(\n    0, 0,    # target system, target component\n    mavutil.mavlink.MAV_CMD_DO_SET_ROI, # command\n    0,       # confirmation\n    0, 0, 0, 0, # params 1-4\n    fire_location.lat,\n    fire_location.lon,\n    fire_location.alt\n)\nvehicle.send_mavlink(msg)\nprint('Camera locked. Initiating patrol orbit.')"
+        }
+      ]
     }
   ],
   "capstone_project": {

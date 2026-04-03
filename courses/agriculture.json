@@ -1,6 +1,6 @@
 {
   "domain": "Precision Agriculture & Environmental Monitoring",
-  "description": "A comprehensive training program for building autonomous drone systems that monitor crop health, soil conditions, pest infestations, irrigation efficiency, and environmental parameters (wildlife, deforestation, coastal erosion). The program covers all four engineering tracks—AI, MLOps, Data Engineering, and Edge AI—applied specifically to agriculture and environmental stewardship, enabling precision farming, yield prediction, and ecological monitoring.",
+  "description": "Advanced precision agriculture pipelines combining Edge AI, multispectral imaging, and autonomous flight swarms. Build end-to-end data systems that process raw sensor feeds into actionable agronomic insights in real-time.",
   "learning_objectives": [
     "Understand agricultural and environmental monitoring requirements (crop types, phenology, pest cycles, regulatory reporting)",
     "Build and train AI models for plant health assessment (NDVI, disease detection, pest identification), yield estimation, and wildlife counting",
@@ -12,132 +12,51 @@
   ],
   "modules": [
     {
-      "title": "Module 1: Precision Agriculture and Environmental Monitoring Fundamentals",
-      "lessons": [
-        {
-          "title": "Crop Science and Environmental Indicators",
-          "content": "Study key crops (corn, soy, wheat, rice, vineyards, orchards) and their growth stages (planting, emergence, flowering, grain fill, maturity). Learn about stress factors: water deficit, nutrient deficiency (N, P, K), disease (fungal, bacterial), pest damage (insects, rodents). Understand vegetation indices: NDVI (Normalized Difference Vegetation Index), NDRE (Red Edge), PRI (Photochemical Reflectance Index). For environmental monitoring: deforestation tracking, wildlife population counts, coastal erosion measurement, water quality assessment (turbidity, algae blooms)."
-        },
-        {
-          "title": "Operational Scenarios and Requirements",
-          "content": "Analyze scenarios: crop scouting (weekly flights to detect early stress), variable rate application (spraying only affected zones), yield prediction (before harvest), wildlife census (counting migratory birds or elephants), deforestation patrol (detecting illegal logging), coastal erosion mapping (repeat flights over shorelines). Define requirements: multispectral sensors (RedEdge, Altum), long flight endurance (30+ min), RTK GPS for precise geolocation, cloud‑based analytics, integration with farm machinery (tractors, sprayers), and regulatory compliance for pesticide application."
-        }
+      "id": " multispectral-processing ",
+      "title": "Multispectral & Hyperspectral Processing Pipeline",
+      "description": "Develop low-latency pipelines for radiometric calibration, band alignment, and vegetative index calculation on Edge TPUs and Jetson devices.",
+      "topics": [
+        "Radiometric Calibration & Reflectance Conversion",
+        "Multispectral Image Registration & Band Alignment (SIFT/SURF)",
+        "CUDA-accelerated NDVI/NDRE calculation",
+        "Thermal-Optical Sensor Fusion",
+        "Handling Multi-Camera Array Synchronization"
       ]
     },
     {
-      "title": "Module 2: AI Engineer – Plant Health, Pest Detection, and Wildlife Monitoring",
-      "lessons": [
-        {
-          "title": "Vegetation Index Calculation and Health Mapping",
-          "content": "Implement algorithms to compute NDVI, NDRE, and other indices from multispectral images. Use these indices to create health maps where high values indicate healthy vegetation, low values indicate stress. Train a classification model (e.g., Random Forest, small CNN) to categorize zones: healthy, moderate stress, severe stress. Output prescription maps for variable rate application.",
-          "code_example": "import numpy as np\ndef compute_ndvi(nir_band, red_band):\n    return (nir_band - red_band) / (nir_band + red_band + 1e-6)\n\n# Use a simple U‑Net to segment fields and assign health scores"
-        },
-        {
-          "title": "Disease and Pest Detection",
-          "content": "Train a detection model (e.g., YOLOv8, Faster R‑CNN) to identify disease lesions (rust, blight) and pest insects (aphids, beetles) from high‑resolution RGB or multispectral imagery. For diseases, use spectral signatures (e.g., specific reflectance bands). For insects, use object detection on images taken at low altitude. Build a dataset of labeled images from agricultural extension services.",
-          "code_example": "from ultralytics import YOLO\nmodel = YOLO('yolov8n.pt')\nmodel.train(data='pest_disease_dataset.yaml', epochs=100)"
-        },
-        {
-          "title": "Yield Estimation and Fruit Counting",
-          "content": "Use object counting models to estimate yield: detect and count fruits (apples, grapes, oranges) or corn ears. Train a detection model on high‑resolution imagery; for dense clusters, use density estimation (e.g., CSRNet). Calibrate counts with ground truth to predict total yield per hectare. For grains, use regression models on canopy cover and height (from LiDAR or stereo).",
-          "code_example": "import torch\nfrom csrnet import CSRNet\nmodel = CSRNet()\n# Train on images with density maps"
-        },
-        {
-          "title": "Wildlife Counting and Species Classification",
-          "content": "Build a model to detect and count animals from aerial imagery (elephants, birds, marine life). Use object detection (YOLO) for larger animals, or segmentation for groups. For species classification, use a classifier on cropped detections. Handle challenges: animals partially occluded by vegetation, varying scales, and low contrast with background. Integrate with conservation databases.",
-          "code_example": "model = torch.hub.load('ultralytics/yolov5', 'custom', path='wildlife_model.pt')"
-        }
+      "id": "autonomous-crop-scouting",
+      "title": "Autonomous Swarm Crop Scouting",
+      "description": "Deploy distributed ROS 2 architectures to control drone swarms over massive agricultural networks.",
+      "topics": [
+        "Coverage Path Planning (Boustrophedon paths)",
+        "Distributed ROS 2 DDS & Multi-Agent Communication",
+        "Terrain Following using LiDAR/Radar Altimeters",
+        "Dynamic Re-routing for Battery Management",
+        "Edge-to-Cloud telemetry synchronization"
       ]
     },
     {
-      "title": "Module 3: Data Engineer – Field‑Scale Data Management",
-      "lessons": [
-        {
-          "title": "Geospatial Field Boundaries with PostGIS",
-          "content": "Store field boundaries and crop information in PostGIS. Each field has geometry, crop type, planting date, expected harvest date, and owner. Use spatial queries to retrieve fields by location, crop, or inspection date. Store all flight data with reference to field boundaries.",
-          "code_example": "CREATE TABLE fields (\n  id SERIAL PRIMARY KEY,\n  name TEXT,\n  geom GEOMETRY(Polygon, 4326),\n  crop_type TEXT,\n  planted_date DATE,\n  owner TEXT\n);\nCREATE INDEX idx_fields_geom ON fields USING GIST (geom);"
-        },
-        {
-          "title": "STAC for Multispectral Data",
-          "content": "Catalog every flight using STAC. Each item includes the flight’s bounding box, datetime, sensor (e.g., RedEdge), and computed NDVI map. Provide a STAC API for farmers, agronomists, and researchers to search by field, date, or vegetation index range.",
-          "code_example": "{\n  \"type\": \"Feature\",\n  \"stac_version\": \"1.0.0\",\n  \"id\": \"field_42_ndvi_2025_07_15\",\n  \"properties\": {\n    \"datetime\": \"2025-07-15T10:00:00Z\",\n    \"ndvi_mean\": 0.68,\n    \"crop\": \"corn\"\n  },\n  \"assets\": {\n    \"ndvi\": {\"href\": \"s3://.../ndvi.tif\", \"type\": \"image/tiff\"}\n  }\n}"
-        },
-        {
-          "title": "Time‑Series Analysis for Crop Health Trends",
-          "content": "Use TimescaleDB to store time‑series of NDVI, pest counts, etc., per field. Run analytics to detect trends (e.g., deteriorating health), compare with weather data, and predict optimal harvest windows. Build dashboards for farmers to visualize field health over the season.",
-          "code_example": "CREATE TABLE field_health (\n  time TIMESTAMPTZ,\n  field_id INT,\n  ndvi_mean FLOAT,\n  pest_count INT\n);\nSELECT create_hypertable('field_health', 'time');"
-        }
+      "id": "ai-disease-detection",
+      "title": "Edge AI Plant Disease & Weed Detection",
+      "description": "Train and deploy quantized Object Detection models capable of identifying tiny anomalies at high flight speeds.",
+      "topics": [
+        "Dataset Generation with synthetic environments (Isaac Sim)",
+        "YOLOv8 & RT-DETR model fine-tuning for agriculture",
+        "TensorRT optimization & FP16/INT8 quantization",
+        "DeepSORT for precise weed counting & localization",
+        "Real-time targeted spraying actuator integration (ROS Action Servers)"
       ]
     },
     {
-      "title": "Module 4: Edge AI Engineer – Real‑Time Field Scouting",
-      "lessons": [
-        {
-          "title": "Hardware Configuration for Agricultural Drones",
-          "content": "Select sensors: multispectral (e.g., MicaSense RedEdge, DJI P4 Multispectral), high‑resolution RGB (e.g., 20 MP), optionally thermal for irrigation stress detection. Use a drone with RTK GPS for accurate georeferencing. Connect to Jetson Orin Nano for on‑board computation of vegetation indices and real‑time anomaly detection. For spraying, use a drone with a tank and flow control."
-        },
-        {
-          "title": "DeepStream Pipeline for On‑the‑Fly NDVI",
-          "content": "Build a DeepStream pipeline that ingests multispectral streams (e.g., five bands), computes NDVI or NDRE in real time using CUDA, and overlays a false‑color map on the video feed to the ground station. This allows the pilot to see stress areas instantly and adjust the flight plan.",
-          "code_example": "deepstream-app -c ag_inspection_config.txt"
-        },
-        {
-          "title": "ROS 2 Integration for Precision Spraying",
-          "content": "Create a ROS 2 node that subscribes to NDVI maps and pest detections. When the drone is over a stressed zone, it commands the sprayer to activate, adjusting flow rate based on severity. Use MAVROS for waypoint following and payload control. Log all spraying actions for regulatory compliance.",
-          "code_example": "class PrecisionSprayer(Node):\n    def __init__(self):\n        super().__init__('precision_sprayer')\n        self.ndvi_sub = self.create_subscription(Image, '/ndvi_map', self.cb, 10)\n        self.spray_pub = self.create_publisher(Float32, '/spray_rate', 10)\n\n    def cb(self, msg):\n        ndvi = decode_image(msg)\n        if ndvi[center] < 0.3:\n            self.spray_pub.publish(Float32(data=1.0))  # full rate"
-        }
-      ]
-    },
-    {
-      "title": "Module 5: ML Platform Engineer – Continuous Model Improvement",
-      "lessons": [
-        {
-          "title": "Active Learning for Rare Pests and Diseases",
-          "content": "After each flight, collect images where pest/disease detection confidence is low or where the farmer reports a missed infestation. Send these to agronomists for labeling. Use active learning to retrain models periodically, improving detection of new or emerging threats.",
-          "code_example": "uncertain = model.get_uncertain_samples(flight_images, threshold=0.5)\nlabelbox.create_project('pest_active_learning', uncertain)"
-        },
-        {
-          "title": "Kubeflow Pipelines for Seasonal Retraining",
-          "content": "Set up a Kubeflow pipeline that retrains models after each growing season, incorporating all new labeled data. Also retrain when new varieties or crops are introduced. Deploy updated models to the drone fleet before the next season.",
-          "code_example": "from kfp import dsl\n@dsl.pipeline\ndef ag_model_retraining():\n    data_prep = dsl.ContainerOp(...)\n    train = dsl.ContainerOp(...).after(data_prep)\n    evaluate = dsl.ContainerOp(...).after(train)\n    deploy = dsl.ContainerOp(...).after(evaluate)"
-        },
-        {
-          "title": "Monitoring Model Drift with Environmental Changes",
-          "content": "Use Evidently AI to compare NDVI distributions and pest detection rates across years. Changes in climate, new crop varieties, or sensor upgrades can cause drift. Detect and trigger retraining to keep models accurate.",
-          "code_example": "report = Report(metrics=[DataDriftPreset()])\nreport.run(reference_data=last_year_data, current_data=this_year_data)"
-        }
-      ]
-    },
-    {
-      "title": "Module 6: Simulation and Testing",
-      "lessons": [
-        {
-          "title": "Hardware‑in‑the‑Loop (HIL) with Agricultural Scenes",
-          "content": "Use NVIDIA Isaac Sim or Gazebo with realistic crop fields. Simulate plant growth, pest outbreaks, and disease spread. Connect real Pixhawk and Jetson. Test spraying missions, variable rate application, and wildlife counting. Validate that AI correctly identifies stressed zones and adjusts spray rates.",
-          "code_example": "Isaac Sim spawns crop rows; drone flies grid; Jetson runs NDVI computation and commands sprayer."
-        },
-        {
-          "title": "Latency Profiling for Variable Rate Application",
-          "content": "Profile the latency from NDVI computation to sprayer command. Use Nsight Systems to ensure the loop time is short enough for smooth application (e.g., < 200 ms). Optimize by using GPU‑accelerated indices and reducing image resolution where acceptable.",
-          "code_example": "nsys profile -o ag_profile python spray_node.py"
-        }
-      ]
-    },
-    {
-      "title": "Module 7: Safety, Regulatory, and Ethical Considerations",
-      "lessons": [
-        {
-          "title": "Agricultural Aviation Regulations",
-          "content": "Study regulations for aerial application of pesticides (e.g., FAA Part 137 in US). Understand drift avoidance, buffer zones near water bodies, and record‑keeping requirements. Ensure that autonomous spray systems have manual override and geofencing to prevent off‑target application."
-        },
-        {
-          "title": "Environmental Stewardship",
-          "content": "Avoid spraying during windy conditions. Use spot spraying to minimize chemical use. For environmental monitoring, respect wildlife and sensitive habitats (e.g., do not disturb nesting birds). Share data with conservation agencies to support sustainable practices."
-        },
-        {
-          "title": "Data Ownership and Privacy",
-          "content": "Farmers own their field data. Implement clear data usage policies. Encrypt data in transit and storage. Provide options for farmers to control who can access their information."
-        }
+      "id": "agronomic-data-lake",
+      "title": "Agronomic Data Lake & Spatial Analytics",
+      "description": "Design a scalable backend infrastructure handling terabytes of geospatial imagery and telemetry data.",
+      "topics": [
+        "PostGIS for spatial querying and intersection",
+        "Cloud Optimized GeoTIFFs (COG) & STAC APIs",
+        "Automated Orthomosaic Generation (OpenDroneMap Integration)",
+        "Time-Series Crop Yield Prediction (LSTM/Transformers)",
+        "Data pipeline orchestration with Apache Airflow"
       ]
     }
   ],
@@ -168,6 +87,28 @@
       "name": "FAA Part 137 – Agricultural Aircraft Operations",
       "url": "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/1031964",
       "description": "Regulatory framework for aerial application"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Radiometric Calibration",
+      "definition": "The process of converting raw digital pixel numbers into physical units like reflectance, accounting for ambient light sensors."
+    },
+    {
+      "term": "NVDI",
+      "definition": "Normalized Difference Vegetation Index. A mathematical formula derived from Near-Infrared and Red light bands used to quantify vegetation greenness."
+    },
+    {
+      "term": "Cloud Optimized GeoTIFF",
+      "definition": "A regular GeoTIFF file, hosted on a HTTP file server, with an internal organization that enables efficient network streaming and partial reading."
+    },
+    {
+      "term": "Boustrophedon",
+      "definition": "A continuous back-and-forth path planning pattern commonly used for complete area coverage in farming and surveying."
+    },
+    {
+      "term": "STAC",
+      "definition": "SpatioTemporal Asset Catalog. A standard API specification that provides a common language to describe geospatial information for indexing."
     }
   ]
 }

@@ -28,6 +28,9 @@ import {
 } from "lucide-react";
 import { tracks } from "@/lib/course-data";
 import { useProgress } from "@/lib/progress-context";
+import { GlossaryText } from "@/components/glossary-text";
+import { TerminalSimulator } from "@/components/terminal-simulator";
+import { InteractiveArchitecture } from "@/components/interactive-architecture";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -205,12 +208,17 @@ export default function LessonPage({
               <div className="prose prose-invert prose-sm max-w-none">
                 {lesson.detailed_explanation.split("\n\n").map((para, i) => (
                   <p key={i} className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    {para}
+                    <GlossaryText text={para} />
                   </p>
                 ))}
               </div>
-            </CardContent>
+                        </CardContent>
           </Card>
+
+          {/* Intelligent Architecture Injection based on lesson ID */}
+          {(lesson.id.includes('architecture') || lesson.id.includes('hardware')) && (
+             <InteractiveArchitecture />
+          )}
         </TabsContent>
 
         {/* Practice tab */}
@@ -249,7 +257,7 @@ export default function LessonPage({
                           Step {step.step}: {step.title}
                         </CardTitle>
                         <p className="text-sm text-muted-foreground mt-1">
-                          {step.description}
+                          <GlossaryText text={step.description} />
                         </p>
                       </div>
                     </div>
