@@ -27,6 +27,7 @@ import {
   Lock,
   Sparkles,
 } from "lucide-react";
+import { GridPattern } from "@/components/ui/grid-pattern";
 import {
   tracks,
   getTotalLessons,
