@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+  postgis:
+    image: postgis/postgis:14-3.3
+    environment:
+      POSTGRES_PASSWORD: password
