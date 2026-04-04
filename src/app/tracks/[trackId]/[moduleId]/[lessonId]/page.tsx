@@ -23,8 +23,6 @@ import {
   CheckCircle2,
   Circle,
   XCircle,
-  Copy,
-  Check,
   ShieldCheck,
   Clock,
   NotebookPen,
@@ -36,6 +34,7 @@ import { GlossaryText } from "@/components/glossary-text";
 import { TerminalSimulator } from "@/components/terminal-simulator";
 import { InteractiveArchitecture } from "@/components/interactive-architecture";
 import { LessonVisualizer } from "@/components/lesson-visualizer";
+import { SyntaxCodeBlock } from "@/components/syntax-highlight";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -483,12 +482,48 @@ export default function LessonPage({
               <p className="text-sm leading-relaxed text-muted-foreground">
                 Read this section one paragraph at a time. When you see a technical term, connect it back to the key-term definitions above and ask how it affects perception, decision-making, or deployment on a real drone system.
               </p>
-              <div className="prose prose-invert prose-sm max-w-none">
-                {explanationParagraphs.map((para, i) => (
-                  <p key={i} className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    <GlossaryText text={para} />
-                  </p>
-                ))}
+              <div className="space-y-3">
+                {explanationParagraphs.map((para, i) => {
+                  // Render ### headings
+                  if (para.startsWith("###")) {
+                    return (
+                      <h3 key={i} className="text-sm font-bold text-foreground mt-6 mb-2 flex items-center gap-2">
+                        <span className="inline-block h-4 w-1 rounded-full bg-primary" />
+                        {para.replace(/^#+\s*/, "")}
+                      </h3>
+                    );
+                  }
+                  // Render bullet lists
+                  if (para.includes("\n- ") || para.startsWith("- ") || para.includes("\n**")) {
+                    const lines = para.split("\n");
+                    return (
+                      <ul key={i} className="space-y-1.5 ml-2">
+                        {lines.map((line, li) => {
+                          if (line.startsWith("- ") || line.startsWith("**")) {
+                            return (
+                              <li key={li} className="flex items-start gap-2 text-sm text-muted-foreground">
+                                <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-primary/60 flex-shrink-0" />
+                                <GlossaryText text={line.replace(/^-\s*/, "").replace(/\*\*(.*?)\*\*/g, "$1")} />
+                              </li>
+                            );
+                          }
+                          return line.trim() ? (
+                            <li key={li} className="text-sm text-muted-foreground leading-relaxed">
+                              <GlossaryText text={line.replace(/\*\*(.*?)\*\*/g, "$1")} />
+                            </li>
+                          ) : null;
+                        })}
+                      </ul>
+                    );
+                  }
+                  // Default paragraph
+                  const cleanPara = para.replace(/\*\*(.*?)\*\*/g, "$1");
+                  return (
+                    <p key={i} className="text-sm text-muted-foreground leading-relaxed">
+                      <GlossaryText text={cleanPara} />
+                    </p>
+                  );
+                })}
               </div>
             </CardContent>
           </Card>
@@ -567,7 +602,7 @@ export default function LessonPage({
                   </CardHeader>
                   {step.code && (
                     <CardContent className="pt-0">
-                      <CodeBlock code={step.code} />
+                      <SyntaxCodeBlock code={step.code} />
                     </CardContent>
                   )}
                 </Card>
@@ -768,35 +803,7 @@ export default function LessonPage({
   );
 }
 
-// --- Code Block with copy button ---
-
-function CodeBlock({ code }: { code: string }) {
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(code);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  return (
-    <div className="relative group">
-      <button
-        onClick={handleCopy}
-        className="absolute top-3 right-3 p-1.5 rounded-md bg-muted/80 opacity-0 group-hover:opacity-100 transition-opacity"
-      >
-        {copied ? (
-          <Check className="h-4 w-4 text-emerald-500" />
-        ) : (
-          <Copy className="h-4 w-4 text-muted-foreground" />
-        )}
-      </button>
-      <pre className="overflow-x-auto rounded-lg bg-muted/50 border border-border/30 p-4 text-xs leading-relaxed">
-        <code>{code}</code>
-      </pre>
-    </div>
-  );
-}
+// CodeBlock replaced by SyntaxCodeBlock from @/components/syntax-highlight
 
 // --- Quiz Section ---
 
