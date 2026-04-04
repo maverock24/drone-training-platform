@@ -10,7 +10,7 @@
 
 - [x] TASK-2.1: Generate 10-page learning script for AI Engineer Lesson 1 — "Architectural Mastery: Vision Transformers & Multi-Modal Models" (20 quiz Qs). Add to `drone_training.json` tracks[0].lessons[0].learning_script.
 - [x] TASK-2.2: Generate 10-page learning script for AI Engineer Lesson 2 — "Parameter-Efficient Fine-Tuning (PEFT)" (20 quiz Qs). Add to tracks[0].lessons[1].learning_script.
-- [ ] TASK-2.3: Generate 10-page learning script for AI Engineer Lesson 3 — "Production Optimization Stack: Quantization & Distillation" (20 quiz Qs). Add to tracks[0].lessons[2].learning_script.
+- [x] TASK-2.3: Generate 10-page learning script for AI Engineer Lesson 3 — "Production Optimization Stack: Quantization & Distillation" (20 quiz Qs). Add to tracks[0].lessons[2].learning_script.
 - [ ] TASK-2.4: Generate 10-page learning script for AI Engineer Lesson 4 — "Sparsity & Pruning" (20 quiz Qs). Add to tracks[0].lessons[3].learning_script.
 - [ ] TASK-2.5: Generate 10-page learning script for AI Engineer Lesson 5 — "Adversarial Robustness: Hardening the Drone's Perception" (1 quiz Q). Add to tracks[0].lessons[4].learning_script.
 - [ ] TASK-2.6: Generate 10-page learning script for AI Engineer Lesson 6 — "Few-Shot Object Detection with Prototypical Networks" (1 quiz Q). Add to tracks[0].lessons[5].learning_script.
