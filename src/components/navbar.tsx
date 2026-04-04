@@ -20,6 +20,7 @@ import {
   LogOut,
   User,
   Sparkles,
+  NotebookPen,
 } from "lucide-react";
 import { useProgress } from "@/lib/progress-context";
 import { Badge } from "@/components/ui/badge";
@@ -36,6 +37,7 @@ const publicNavItems = [
 
 const authNavItems = [
   { href: "/", label: "Home", icon: GraduationCap },
+  { href: "/diary", label: "Diary", icon: NotebookPen },
   { href: "/tracks/ai-engineer", label: "AI Engineer", icon: Brain },
   { href: "/tracks/mlops-engineer", label: "MLOps", icon: Factory },
   { href: "/tracks/data-engineer", label: "Data Engineer", icon: Database },
@@ -99,6 +101,12 @@ export function Navbar() {
           <div className="ml-2 border-l border-border/40 pl-2">
             {loading ? null : user ? (
               <div className="flex items-center gap-2">
+                <Link href="/diary">
+                  <Button variant="ghost" size="sm" className="gap-1.5 text-sm text-muted-foreground hover:text-foreground">
+                    <NotebookPen className="h-3.5 w-3.5" />
+                    Diary
+                  </Button>
+                </Link>
                 <Link href="/profile">
                   <Button variant="ghost" size="sm" className="gap-1.5 text-sm text-muted-foreground hover:text-foreground">
                     <User className="h-3.5 w-3.5" />
@@ -155,6 +163,12 @@ export function Navbar() {
               <div className="mt-4 border-t border-border/40 pt-4">
                 {loading ? null : user ? (
                   <>
+                    <Link href="/diary" onClick={() => setOpen(false)}>
+                      <Button variant="ghost" className="w-full justify-start gap-3">
+                        <NotebookPen className="h-5 w-5" />
+                        Learning Diary
+                      </Button>
+                    </Link>
                     <Link href="/profile" onClick={() => setOpen(false)}>
                       <Button variant="ghost" className="w-full justify-start gap-3 text-muted-foreground">
                         <User className="h-5 w-5" />

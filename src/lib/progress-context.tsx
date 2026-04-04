@@ -12,6 +12,17 @@ export interface LastVisited {
   timestamp: number;
 }
 
+export interface ActivityLogEntry {
+  lessonKey: string;
+  trackId: string;
+  trackTitle: string;
+  lessonTitle: string;
+  timestamp: number;
+  quizScore?: number;
+  hasNotes: boolean;
+  hasProof: boolean;
+}
+
 interface ProgressContextType {
   completedLessons: Set<string>;
   toggleLesson: (lessonId: string) => void;
@@ -35,6 +46,11 @@ interface ProgressContextType {
   getQuizScore: (lessonKey: string) => number | undefined;
   lastVisited: LastVisited | null;
   setLastVisited: (v: LastVisited) => void;
+  completionTimestamps: Record<string, number>;
+  getStudyStreak: () => number;
+  getLessonsThisWeek: () => number;
+  getDailyActivity: (days: number) => { date: string; label: string; count: number }[];
+  getActivityLog: () => ActivityLogEntry[];
 }
 
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
@@ -46,6 +62,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [executionProofs, setExecutionProofs] = useState<Record<string, string>>({});
   const [lessonNotes, setLessonNotes] = useState<Record<string, string>>({});
   const [lastVisited, setLastVisitedState] = useState<LastVisited | null>(null);
+  const [completionTimestamps, setCompletionTimestamps] = useState<Record<string, number>>({});
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -97,6 +114,14 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         // ignore
       }
     }
+    const storedTimestamps = localStorage.getItem("drone-training-timestamps");
+    if (storedTimestamps) {
+      try {
+        setCompletionTimestamps(JSON.parse(storedTimestamps));
+      } catch {
+        // ignore
+      }
+    }
     setLoaded(true);
   }, []);
 
@@ -108,6 +133,12 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       );
     }
   }, [completedLessons, loaded]);
+
+  useEffect(() => {
+    if (loaded) {
+      localStorage.setItem("drone-training-timestamps", JSON.stringify(completionTimestamps));
+    }
+  }, [completionTimestamps, loaded]);
 
   useEffect(() => {
     if (loaded) {
@@ -137,6 +168,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   }, [lessonNotes, loaded]);
 
   const toggleLesson = (lessonId: string) => {
+    const wasCompleted = completedLessons.has(lessonId);
     setCompletedLessons((prev) => {
       const next = new Set(prev);
       if (next.has(lessonId)) {
@@ -146,6 +178,10 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       }
       return next;
     });
+    // Record first-completion timestamp (never overwrite)
+    if (!wasCompleted) {
+      setCompletionTimestamps((prev) => prev[lessonId] ? prev : { ...prev, [lessonId]: Date.now() });
+    }
   };
 
   const toggleStep = (stepId: string) => {
@@ -252,6 +288,64 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     return Math.round((completed / totalLessons) * 100);
   };
 
+  const getStudyStreak = (): number => {
+    const timestamps = Object.values(completionTimestamps);
+    if (timestamps.length === 0) return 0;
+    const toDay = (ts: number) => new Date(ts).toISOString().split("T")[0];
+    const days = new Set(timestamps.map(toDay));
+    const today = toDay(Date.now());
+    const yesterday = toDay(Date.now() - 86400000);
+    if (!days.has(today) && !days.has(yesterday)) return 0;
+    let streak = 0;
+    let cursor = days.has(today) ? Date.now() : Date.now() - 86400000;
+    while (days.has(toDay(cursor))) {
+      streak++;
+      cursor -= 86400000;
+    }
+    return streak;
+  };
+
+  const getLessonsThisWeek = (): number => {
+    const cutoff = Date.now() - 7 * 86400000;
+    return Object.values(completionTimestamps).filter((ts) => ts >= cutoff).length;
+  };
+
+  const getDailyActivity = (days: number): { date: string; label: string; count: number }[] => {
+    const result: { date: string; label: string; count: number }[] = [];
+    for (let i = days - 1; i >= 0; i--) {
+      const d = new Date(Date.now() - i * 86400000);
+      const dateStr = d.toISOString().split("T")[0];
+      const label = d.toLocaleDateString("en-US", { weekday: "short" });
+      const count = Object.values(completionTimestamps).filter(
+        (ts) => new Date(ts).toISOString().split("T")[0] === dateStr
+      ).length;
+      result.push({ date: dateStr, label, count });
+    }
+    return result;
+  };
+
+  const getActivityLog = (): ActivityLogEntry[] => {
+    return Object.entries(completionTimestamps)
+      .map(([lessonKey, timestamp]) => {
+        const dashIdx = lessonKey.indexOf("-");
+        const trackId = lessonKey.substring(0, dashIdx);
+        const lessonId = lessonKey.substring(dashIdx + 1);
+        const track = tracks.find((t) => t.id === trackId);
+        const lesson = track?.modules.flatMap((m) => m.lessons).find((l) => l.id === lessonId);
+        return {
+          lessonKey,
+          trackId,
+          trackTitle: track?.shortTitle ?? trackId,
+          lessonTitle: lesson?.title ?? lessonId,
+          timestamp,
+          quizScore: quizScores[lessonKey],
+          hasNotes: !!(lessonNotes[lessonKey]?.trim()),
+          hasProof: hasExecutionProof(lessonKey),
+        };
+      })
+      .sort((a, b) => b.timestamp - a.timestamp);
+  };
+
   return (
     <ProgressContext.Provider
       value={{
@@ -277,6 +371,11 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         getQuizScore,
         lastVisited,
         setLastVisited,
+        completionTimestamps,
+        getStudyStreak,
+        getLessonsThisWeek,
+        getDailyActivity,
+        getActivityLog,
       }}
     >
       {children}

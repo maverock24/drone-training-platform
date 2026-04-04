@@ -31,7 +31,7 @@ function LoginForm() {
         return;
       }
 
-      router.push("/");
+      router.push("/diary");
       router.refresh();
     } catch {
       setError("Network error. Please try again.");
