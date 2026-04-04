@@ -27,6 +27,7 @@ import {
   Clock,
   NotebookPen,
   Sparkles,
+  FileText,
 } from "lucide-react";
 import { glossary, tracks } from "@/lib/course-data";
 import { useProgress } from "@/lib/progress-context";
@@ -35,6 +36,7 @@ import { TerminalSimulator } from "@/components/terminal-simulator";
 import { InteractiveArchitecture } from "@/components/interactive-architecture";
 import { LessonVisualizer } from "@/components/lesson-visualizer";
 import { SyntaxCodeBlock } from "@/components/syntax-highlight";
+import { LearningScriptViewer } from "@/components/learning-script-viewer";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -397,10 +399,14 @@ export default function LessonPage({
 
       {/* Content tabs */}
       <Tabs value={activeTab} onValueChange={setActiveTab} className="mt-6">
-        <TabsList className="grid w-full grid-cols-4">
+        <TabsList className="grid w-full grid-cols-5">
           <TabsTrigger value="learn" className="gap-1.5">
             <BookOpen className="h-4 w-4 shrink-0" />
             <span className="hidden xs:inline sm:inline">Learn</span>
+          </TabsTrigger>
+          <TabsTrigger value="script" className="gap-1.5">
+            <FileText className="h-4 w-4 shrink-0" />
+            <span className="hidden xs:inline sm:inline">Script</span>
           </TabsTrigger>
           <TabsTrigger value="practice" className="gap-1.5">
             <Code className="h-4 w-4 shrink-0" />
@@ -557,6 +563,14 @@ export default function LessonPage({
           {(lesson.id.includes('architecture') || lesson.id.includes('hardware')) && (
              <InteractiveArchitecture />
           )}
+        </TabsContent>
+
+        {/* Script tab */}
+        <TabsContent value="script" className="mt-6">
+          <LearningScriptViewer
+            pages={lesson.learning_script || []}
+            lessonKey={lessonKey}
+          />
         </TabsContent>
 
         {/* Practice tab */}
