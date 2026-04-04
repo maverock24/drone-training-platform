@@ -3,7 +3,7 @@
 ## Phase 1: Foundation — Schema & Component Scaffolding
 
 - [x] TASK-1.1: Add `LearningScriptPage` interface and update `Lesson` type in `src/lib/course-data.ts` to include the optional `learning_script` field.
-- [ ] TASK-1.2: Create the `src/components/learning-script-viewer.tsx` component with page navigation, content rendering, key takeaways card, and empty-state placeholder.
+- [x] TASK-1.2: Create the `src/components/learning-script-viewer.tsx` component with page navigation, content rendering, key takeaways card, and empty-state placeholder.
 - [ ] TASK-1.3: Integrate the Script tab into `src/app/tracks/[trackId]/[moduleId]/[lessonId]/page.tsx` — add 5th tab, update grid to 5 columns, wire up `LearningScriptViewer`.
 
 ## Phase 2: Content Generation — AI Engineer Track (8 Lessons)
