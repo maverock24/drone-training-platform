@@ -147,4 +147,38 @@
   code, pre, kbd {
     font-family: var(--font-mono);
   }
+
+  /* ── Mobile / Touch optimizations ── */
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Minimum tap target size for interactive elements */
+  button, a, [role="button"], input[type="checkbox"], input[type="radio"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Make icon-only small buttons still meet min tap size */
+  button.h-9, button.h-8, button.h-7 {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Prevent callout & selection highlight on nav/card taps */
+  nav, .no-callout {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Better form inputs on iOS (prevents zoom on focus) */
+  input, textarea, select {
+    font-size: 16px;
+  }
+
+  /* Ensure code blocks never break the page width */
+  pre {
+    max-width: 100%;
+  }
 }

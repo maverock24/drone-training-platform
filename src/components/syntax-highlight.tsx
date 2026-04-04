@@ -105,7 +105,7 @@ export function SyntaxCodeBlock({ code, language = "python" }: { code: string; l
   const langColor = langColors[detectedLang] || "text-muted-foreground";
 
   return (
-    <div className="group relative rounded-xl overflow-hidden border border-border/40 bg-zinc-950 shadow-xl my-4">
+    <div className="group relative rounded-xl overflow-hidden border border-border/40 bg-zinc-950 shadow-xl my-4 max-w-full">
       {/* Header bar */}
       <div className="flex items-center justify-between px-4 py-2.5 bg-zinc-900 border-b border-border/30">
         <div className="flex items-center gap-3">
@@ -138,7 +138,7 @@ export function SyntaxCodeBlock({ code, language = "python" }: { code: string; l
       </div>
 
       {/* Code area with line numbers */}
-      <div className="flex overflow-x-auto">
+      <div className="flex overflow-x-auto scrollbar-thin scrollbar-track-zinc-900 scrollbar-thumb-zinc-700">
         {/* Line numbers */}
         <div className="select-none flex-shrink-0 px-4 py-4 text-right text-xs font-mono leading-relaxed text-muted-foreground/30 bg-zinc-950 border-r border-border/20 min-w-[3rem]">
           {lines.map((_, i) => (

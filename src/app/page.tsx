@@ -111,13 +111,13 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-violet-600/15 via-transparent to-transparent" />
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:py-44 w-full">
+        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-28 lg:py-44 w-full">
           <div className="text-center">
             <Badge variant="secondary" className="mb-6 px-4 py-1.5 text-sm">
               <Flame className="mr-2 h-3.5 w-3.5 text-orange-500" />
               2026 Curriculum
             </Badge>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl drop-shadow-lg">
+            <h1 className="text-3xl font-bold tracking-tight sm:text-5xl lg:text-7xl drop-shadow-lg">
               Master{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-cyan-400 to-emerald-400">
                 Drone AI
@@ -175,7 +175,7 @@ export default function HomePage() {
               )}
             </div>
             {/* Stats strip */}
-            <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground">
+            <div className="mt-10 flex flex-wrap items-center justify-center gap-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-2 bg-background/40 backdrop-blur-sm rounded-full px-4 py-1.5 border border-border/30">
                 <BookOpen className="h-4 w-4" />
                 <span>{totalLessons} Lessons</span>
@@ -247,9 +247,9 @@ export default function HomePage() {
       )}
 
       {/* ─── Features ─── */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tight">
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:py-20 sm:px-6">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
             Why This Platform?
           </h2>
           <p className="mt-3 text-muted-foreground">
@@ -280,9 +280,9 @@ export default function HomePage() {
       </section>
 
       {/* ─── Tracks with visual thumbnails ─── */}
-      <section className="mx-auto max-w-7xl px-4 pb-20 sm:px-6">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tight">
+      <section className="mx-auto max-w-7xl px-4 pb-12 sm:pb-20 sm:px-6">
+        <div className="text-center mb-10">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
             Learning Tracks
           </h2>
           <p className="mt-3 text-muted-foreground">

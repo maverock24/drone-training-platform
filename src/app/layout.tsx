@@ -30,6 +30,11 @@ export const metadata: Metadata = {
   title: "DroneAI Academy — Drone Training Platform 2026",
   description:
     "Master AI Engineering, MLOps, Data Engineering & Edge AI for autonomous drone systems. The complete 2026 training curriculum.",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+  },
 };
 
 export default function RootLayout({
@@ -42,7 +47,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable} ${geistMono.variable} dark h-full`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col overflow-x-hidden">
         <AuthProvider>
           <ProgressProvider>
             <TooltipProvider>

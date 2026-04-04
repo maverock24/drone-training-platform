@@ -292,10 +292,10 @@ export default function LessonPage({
           <Badge variant="outline" className="text-xs mb-2">
             Module {moduleIdx + 1}
           </Badge>
-          <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          <h1 className="text-xl font-bold tracking-tight sm:text-2xl md:text-3xl leading-snug">
             {lesson.title}
           </h1>
-          <div className="mt-3 flex flex-wrap items-center gap-3">
+          <div className="mt-3 flex flex-wrap items-center gap-2">
             <Badge variant="secondary" className="text-xs">
               {lesson.step_by_step_guide.length} Steps
             </Badge>
@@ -338,7 +338,7 @@ export default function LessonPage({
 
       <Card className="mb-6 border-border/50 bg-gradient-to-br from-background to-muted/30">
         <CardHeader className="pb-4">
-          <div className="flex flex-wrap items-start justify-between gap-4">
+          <div className="flex flex-col gap-4">
             <div>
               <CardTitle className="flex items-center gap-2 text-lg">
                 <Sparkles className="h-5 w-5 text-primary" />
@@ -348,7 +348,7 @@ export default function LessonPage({
                 Keep moving in order: practice, quiz, proof, then completion.
               </p>
             </div>
-            <div className="min-w-40">
+            <div>
               <div className="mb-2 flex items-center justify-between text-xs text-muted-foreground">
                 <span>Readiness</span>
                 <span>{readinessPercent}%</span>
@@ -376,17 +376,17 @@ export default function LessonPage({
             ))}
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-4 rounded-lg border border-border/40 bg-muted/20 p-4">
+          <div className="flex flex-col gap-4 rounded-lg border border-border/40 bg-muted/20 p-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-sm font-medium text-foreground">Next best action</p>
               <p className="mt-1 text-sm text-muted-foreground">{nextAction.helper}</p>
             </div>
-            <div className="flex gap-2">
-              <Button type="button" variant="outline" onClick={() => setActiveTab(nextAction.tab)}>
+            <div className="flex gap-2 flex-wrap">
+              <Button type="button" variant="outline" size="sm" className="flex-1 sm:flex-none" onClick={() => setActiveTab(nextAction.tab)}>
                 {nextAction.label}
               </Button>
               {!completed && quizPassed && proofSubmitted && (
-                <Button type="button" onClick={() => toggleLesson(lessonKey)}>
+                <Button type="button" size="sm" className="flex-1 sm:flex-none" onClick={() => toggleLesson(lessonKey)}>
                   Complete Lesson
                 </Button>
               )}
@@ -398,21 +398,21 @@ export default function LessonPage({
       {/* Content tabs */}
       <Tabs value={activeTab} onValueChange={setActiveTab} className="mt-6">
         <TabsList className="grid w-full grid-cols-4">
-          <TabsTrigger value="learn" className="gap-2">
-            <BookOpen className="h-4 w-4" />
-            Learn
+          <TabsTrigger value="learn" className="gap-1.5">
+            <BookOpen className="h-4 w-4 shrink-0" />
+            <span className="hidden xs:inline sm:inline">Learn</span>
           </TabsTrigger>
-          <TabsTrigger value="practice" className="gap-2">
-            <Code className="h-4 w-4" />
-            Practice
+          <TabsTrigger value="practice" className="gap-1.5">
+            <Code className="h-4 w-4 shrink-0" />
+            <span className="hidden xs:inline sm:inline">Practice</span>
           </TabsTrigger>
-          <TabsTrigger value="quiz" className="gap-2">
-            <HelpCircle className="h-4 w-4" />
-            Quiz
+          <TabsTrigger value="quiz" className="gap-1.5">
+            <HelpCircle className="h-4 w-4 shrink-0" />
+            <span className="hidden xs:inline sm:inline">Quiz</span>
           </TabsTrigger>
-          <TabsTrigger value="notes" className="gap-2">
-            <NotebookPen className="h-4 w-4" />
-            Notes
+          <TabsTrigger value="notes" className="gap-1.5">
+            <NotebookPen className="h-4 w-4 shrink-0" />
+            <span className="hidden xs:inline sm:inline">Notes</span>
           </TabsTrigger>
         </TabsList>
 
@@ -582,7 +582,7 @@ export default function LessonPage({
                     <div className="flex items-start gap-3">
                       <button
                         onClick={() => toggleStep(stepKey)}
-                        className="mt-0.5 shrink-0"
+                        className="mt-0.5 shrink-0 p-1 -m-1 rounded-md touch-manipulation"
                       >
                         {stepDone ? (
                           <CheckCircle2 className="h-5 w-5 text-emerald-500" />
@@ -913,7 +913,7 @@ function QuizSection({
                         key={option}
                         onClick={() => handleSelect(idx, option)}
                         disabled={submitted}
-                        className={`w-full text-left rounded-lg border p-3 text-sm transition-colors ${borderClass}`}
+                        className={`w-full text-left rounded-lg border p-3 text-sm transition-colors min-h-[48px] ${borderClass}`}
                       >
                         <div className="flex items-center gap-2">
                           {submitted && isAnswer && (
