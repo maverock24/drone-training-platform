@@ -399,25 +399,23 @@ export default function TrackPage({
                           </Badge>
                         )}
                       </div>
-                    </div>
-                    {user && trackUnlocked && moduleUnlocked ? (
-                      <Link
-                        href={`/tracks/${track.id}/${module.id}/${lesson.id}`}
-                        className="shrink-0"
-                      >
-                        <Button size="sm" variant="outline" className="gap-1.5">
-                          {completed ? "Review" : "Start"}
-                          <ChevronRight className="h-4 w-4" />
-                        </Button>
-                      </Link>
-                    ) : (
-                      <div className="shrink-0">
-                        <Badge variant="outline" className="text-xs gap-1 text-muted-foreground">
-                          <Lock className="h-3 w-3" />
-                          Locked
-                        </Badge>
+                      {/* CTA button — below badges, full-width on mobile */}
+                      <div className="mt-4">
+                        {user && trackUnlocked && moduleUnlocked ? (
+                          <Link href={`/tracks/${track.id}/${module.id}/${lesson.id}`}>
+                            <Button size="sm" variant={completed ? "outline" : "default"} className="gap-1.5 w-full sm:w-auto">
+                              {completed ? "Review" : "Start Module"}
+                              <ChevronRight className="h-4 w-4" />
+                            </Button>
+                          </Link>
+                        ) : (
+                          <Badge variant="outline" className="text-xs gap-1 text-muted-foreground">
+                            <Lock className="h-3 w-3" />
+                            Locked
+                          </Badge>
+                        )}
                       </div>
-                    )}
+                    </div>
                   </div>
                 </CardHeader>
               </Card>
