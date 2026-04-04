@@ -35,6 +35,7 @@ import { useProgress } from "@/lib/progress-context";
 import { GlossaryText } from "@/components/glossary-text";
 import { TerminalSimulator } from "@/components/terminal-simulator";
 import { InteractiveArchitecture } from "@/components/interactive-architecture";
+import { LessonVisualizer } from "@/components/lesson-visualizer";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Brain,
@@ -418,6 +419,8 @@ export default function LessonPage({
 
         {/* Learn tab */}
         <TabsContent value="learn" className="mt-6">
+          <LessonVisualizer lesson={lesson} />
+          
           <Card className="mb-6 border-border/50 bg-gradient-to-br from-muted/40 to-background">
             <CardHeader>
               <CardTitle className="text-lg">Beginner Briefing</CardTitle>
