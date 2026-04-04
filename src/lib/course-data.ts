@@ -19,12 +19,20 @@ export interface Step {
   code?: string;
 }
 
+export interface LearningScriptPage {
+  page: number;
+  title: string;
+  content: string;
+  key_takeaways: string[];
+}
+
 export interface Lesson {
   id: string;
   title: string;
   detailed_explanation: string;
   step_by_step_guide: Step[];
   quiz: QuizQuestion[];
+  learning_script?: LearningScriptPage[];
 }
 
 export interface Module {
@@ -179,6 +187,7 @@ function transformTrack(raw: (typeof trainingData.tracks)[number]): Track {
         detailed_explanation: lesson.detailed_explanation,
         step_by_step_guide: lesson.step_by_step_guide,
         quiz: lesson.quiz,
+        ...("learning_script" in lesson && { learning_script: (lesson as Record<string, unknown>).learning_script as LearningScriptPage[] }),
       },
     ],
   }));
