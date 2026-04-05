@@ -32,7 +32,7 @@
 - [x] TASK-4.2: Generate 10-page learning script for Data Engineer Lesson 2 — "Sensor Fusion Pipelines" (20 quiz Qs). Add to tracks[2].lessons[1].learning_script.
 - [x] TASK-4.3: Generate 10-page learning script for Data Engineer Lesson 3 — "Labeling & QA with Active Learning" (20 quiz Qs). Add to tracks[2].lessons[2].learning_script.
 - [x] TASK-4.4: Generate 10-page learning script for Data Engineer Lesson 4 — "Spatiotemporal Object Tracking with DeepSORT" (1 quiz Q). Add to tracks[2].lessons[3].learning_script.
-- [ ] TASK-4.5: Generate 10-page learning script for Data Engineer Lesson 5 — duplicate of Lesson 4. Generate fresh variant for tracks[2].lessons[4].learning_script.
+- [x] TASK-4.5: Generate 10-page learning script for Data Engineer Lesson 5 — duplicate of Lesson 4. Generate fresh variant for tracks[2].lessons[4].learning_script.
 
 ## Phase 5: Content Generation — Edge AI Engineer Track (6 Lessons)
 
