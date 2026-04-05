@@ -45,9 +45,9 @@
 
 ## Phase 6: Validation & Build Verification
 
-- [ ] TASK-6.1: Run `npx tsc --noEmit` — fix any TypeScript errors related to the new `learning_script` field or component.
-- [ ] TASK-6.2: Run `npm run lint` — fix all linting errors.
-- [ ] TASK-6.3: Run `npm run build` — ensure production build succeeds with the significantly larger JSON payload.
+- [x] TASK-6.1: Run `npx tsc --noEmit` — fix any TypeScript errors related to the new `learning_script` field or component.
+- [x] TASK-6.2: Run `npm run lint` — fix all linting errors.
+- [x] TASK-6.3: Run `npm run build` — ensure production build succeeds with the significantly larger JSON payload.
 
 ## Phase 7: Autonomous Quality Assurance — Playwright E2E
 
