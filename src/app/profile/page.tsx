@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
@@ -12,7 +12,7 @@ import {
   User, Brain, Factory, Database, Cpu,
   BookOpen, Code, HelpCircle, CheckCircle2,
   ArrowRight, Sparkles, LogOut, PlayCircle, Trophy,
-  Flame, Target, Zap, Star, Medal,
+  Flame, Target, Zap, Star, Medal, Pencil, Save,
 } from "lucide-react";
 import { useAuth } from "@/lib/auth-context";
 import { useProgress } from "@/lib/progress-context";
@@ -69,6 +69,43 @@ export default function ProfilePage() {
   const overallProgress = totalLessons > 0 ? Math.round((totalCompleted / totalLessons) * 100) : 0;
   const achievements = getAchievements(totalCompleted, completedStepsCount, completedQuizzes, avgQuizScore, overallProgress);
 
+  const [editing, setEditing] = useState(false);
+  const [fullName, setFullName] = useState("");
+  const [avatarUrl, setAvatarUrl] = useState("");
+  const [locale, setLocale] = useState("en");
+  const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    if (!user) return;
+    fetch("/api/profile", { credentials: "include" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.profile) {
+          setFullName(data.profile.fullName || "");
+          setAvatarUrl(data.profile.avatarUrl || "");
+          setLocale(data.profile.locale || "en");
+        }
+      })
+      .catch(() => {});
+  }, [user]);
+
+  const handleSaveProfile = async () => {
+    setSaving(true);
+    try {
+      await fetch("/api/profile", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify({ full_name: fullName, avatar_url: avatarUrl, locale }),
+      });
+      setEditing(false);
+    } catch {
+      // silently fail
+    } finally {
+      setSaving(false);
+    }
+  };
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
 
@@ -96,6 +133,78 @@ export default function ProfilePage() {
           <span className="hidden sm:inline">Log out</span>
         </Button>
       </div>
+
+      {/* Profile Edit */}
+      <Card className="border-border/50 mb-6">
+        <CardHeader className="pb-3 flex flex-row items-center justify-between">
+          <CardTitle className="text-base">Profile Settings</CardTitle>
+          {!editing ? (
+            <Button variant="ghost" size="sm" className="gap-2" onClick={() => setEditing(true)}>
+              <Pencil className="h-3.5 w-3.5" /> Edit
+            </Button>
+          ) : (
+            <Button variant="default" size="sm" className="gap-2" onClick={handleSaveProfile} disabled={saving}>
+              <Save className="h-3.5 w-3.5" /> {saving ? "Saving..." : "Save"}
+            </Button>
+          )}
+        </CardHeader>
+        <CardContent>
+          {editing ? (
+            <div className="space-y-4">
+              <div>
+                <label className="text-xs font-medium text-muted-foreground mb-1 block">Full Name</label>
+                <input
+                  type="text"
+                  value={fullName}
+                  onChange={(e) => setFullName(e.target.value)}
+                  className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
+                  placeholder="Your full name"
+                />
+              </div>
+              <div>
+                <label className="text-xs font-medium text-muted-foreground mb-1 block">Avatar URL</label>
+                <input
+                  type="url"
+                  value={avatarUrl}
+                  onChange={(e) => setAvatarUrl(e.target.value)}
+                  className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
+                  placeholder="https://example.com/avatar.png"
+                />
+              </div>
+              <div>
+                <label className="text-xs font-medium text-muted-foreground mb-1 block">Language</label>
+                <select
+                  value={locale}
+                  onChange={(e) => setLocale(e.target.value)}
+                  className="w-full rounded-md border border-border bg-background px-3 py-2 text-sm"
+                >
+                  <option value="en">English</option>
+                  <option value="de">Deutsch</option>
+                  <option value="fr">Français</option>
+                  <option value="es">Español</option>
+                  <option value="it">Italiano</option>
+                  <option value="nl">Nederlands</option>
+                </select>
+              </div>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+              <div>
+                <p className="text-xs text-muted-foreground">Full Name</p>
+                <p className="font-medium">{fullName || "Not set"}</p>
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">Avatar</p>
+                <p className="font-medium truncate">{avatarUrl || "Not set"}</p>
+              </div>
+              <div>
+                <p className="text-xs text-muted-foreground">Language</p>
+                <p className="font-medium">{locale.toUpperCase()}</p>
+              </div>
+            </div>
+          )}
+        </CardContent>
+      </Card>
 
       {/* Resume Learning */}
       {lastVisited && (
