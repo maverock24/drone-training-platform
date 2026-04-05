@@ -6,7 +6,7 @@ export async function GET() {
   // In local development, auto-authenticate as a test user
   if (process.env.NODE_ENV === "development") {
     return NextResponse.json({
-      user: { userId: "dev-user", username: "testuser" },
+      user: { userId: "dev-user", username: "testuser", role: "student" },
     });
   }
 
@@ -24,6 +24,7 @@ export async function GET() {
       user: {
         userId: payload.userId,
         username: payload.username,
+        role: payload.role || "student",
       },
     });
   } catch {
