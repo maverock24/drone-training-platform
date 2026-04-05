@@ -12,6 +12,7 @@ import {
 interface User {
   userId: string;
   username: string;
+  role: string;
 }
 
 interface AuthContextType {
