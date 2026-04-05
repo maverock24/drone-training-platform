@@ -1,0 +1,232 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Diary" [ref=e218] [cursor=pointer]:
+          - /url: /diary
+          - button "Diary" [ref=e219]:
+            - img
+            - text: Diary
+        - link "AI Engineer" [ref=e220] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e221]:
+            - img
+            - text: AI Engineer
+        - link "MLOps" [ref=e222] [cursor=pointer]:
+          - /url: /tracks/mlops-engineer
+          - button "MLOps" [ref=e223]:
+            - img
+            - text: MLOps
+        - link "Data Engineer" [ref=e224] [cursor=pointer]:
+          - /url: /tracks/data-engineer
+          - button "Data Engineer" [ref=e225]:
+            - img
+            - text: Data Engineer
+        - link "Edge AI" [ref=e226] [cursor=pointer]:
+          - /url: /tracks/edge-ai
+          - button "Edge AI" [ref=e227]:
+            - img
+            - text: Edge AI
+        - link "Grand Project" [ref=e228] [cursor=pointer]:
+          - /url: /grand-project
+          - button "Grand Project" [ref=e229]:
+            - img
+            - text: Grand Project
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+        - generic [ref=e231]:
+          - link "Diary" [ref=e232] [cursor=pointer]:
+            - /url: /diary
+            - button "Diary" [ref=e233]:
+              - img
+              - text: Diary
+          - link "testuser" [ref=e234] [cursor=pointer]:
+            - /url: /profile
+            - button "testuser" [ref=e235]:
+              - img
+              - text: testuser
+          - generic: 0.0 Hrs • Ground
+          - button "Logout" [ref=e236]:
+            - img
+            - text: Logout
+  - main [ref=e19]:
+    - generic [ref=e285]:
+      - img [ref=e287]
+      - generic [ref=e290]:
+        - link "AI Engineer" [ref=e291] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e292]:
+            - img
+            - text: AI Engineer
+        - generic [ref=e293]:
+          - img [ref=e295]
+          - generic [ref=e303]:
+            - generic [ref=e304]: Module 1
+            - 'heading "Architectural Mastery: Vision Transformers & Multi-Modal Models" [level=1] [ref=e305]'
+            - generic [ref=e306]:
+              - generic [ref=e307]: 4 Steps
+              - generic [ref=e308]: 20 Quiz Questions
+              - generic [ref=e309]:
+                - img
+                - text: ~74 min
+              - generic [ref=e310]:
+                - img
+                - text: Pass the quiz and submit proof
+        - generic [ref=e311]:
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - img [ref=e316]
+                - text: Lesson Readiness Board
+              - paragraph [ref=e319]: "Keep moving in order: practice, quiz, proof, then completion."
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: Readiness
+                - generic [ref=e323]: 25%
+              - progressbar [ref=e324]: x
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: Read the lesson briefing
+                  - paragraph [ref=e336]: Use the simplified overview and key terms first.
+              - generic [ref=e338]:
+                - img [ref=e339]
+                - generic [ref=e341]:
+                  - paragraph [ref=e342]: Complete the hands-on steps
+                  - paragraph [ref=e343]: 0 of 4 steps checked off
+              - generic [ref=e345]:
+                - img [ref=e346]
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: Pass the lesson quiz
+                  - paragraph [ref=e350]: Need at least 70%
+              - generic [ref=e352]:
+                - img [ref=e353]
+                - generic [ref=e355]:
+                  - paragraph [ref=e356]: Submit proof of execution
+                  - paragraph [ref=e357]: Add a run summary, output, or artifact link
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - paragraph [ref=e360]: Next best action
+                - paragraph [ref=e361]: Finish the remaining checklist steps before moving to the quiz.
+              - button "Continue hands-on practice" [ref=e363]
+        - generic [ref=e364]:
+          - tablist [ref=e365]:
+            - tab "Learn" [ref=e366]:
+              - img
+              - generic [ref=e367]: Learn
+            - tab "Script" [selected] [ref=e368]:
+              - img
+              - generic [ref=e369]: Script
+            - tab "Practice" [ref=e370]:
+              - img
+              - generic [ref=e371]: Practice
+            - tab "Quiz" [ref=e372]:
+              - img
+              - generic [ref=e373]: Quiz
+            - tab "Notes" [ref=e374]:
+              - img
+              - generic [ref=e375]: Notes
+          - tabpanel "Script" [ref=e750]:
+            - generic [ref=e852]:
+              - generic [ref=e853]:
+                - button "Previous page" [disabled]:
+                  - img
+                  - text: Previous
+                - generic [ref=e854]:
+                  - button "Go to page 1" [ref=e855]
+                  - button "Go to page 2" [ref=e856]
+                  - button "Go to page 3" [ref=e857]
+                  - button "Go to page 4" [ref=e858]
+                  - button "Go to page 5" [ref=e859]
+                  - button "Go to page 6" [ref=e860]
+                  - button "Go to page 7" [ref=e861]
+                  - button "Go to page 8" [ref=e862]
+                  - button "Go to page 9" [ref=e863]
+                  - button "Go to page 10" [ref=e864]
+                - button "Next page" [ref=e865]:
+                  - text: Next
+                  - img
+              - generic [ref=e866]:
+                - generic [ref=e868]:
+                  - generic [ref=e869]: Page 1 of 10
+                  - generic [ref=e870]: "Introduction: Why Vision Transformers Matter for Drone Engineering"
+                - generic [ref=e871]:
+                  - paragraph [ref=e872]: The field of aerial perception has undergone a fundamental transformation with the advent of Vision Transformers. To understand why this matters for drone engineering, we must first appreciate the unique challenges that autonomous aerial platforms face when interpreting visual data.
+                  - paragraph [ref=e873]: "When a drone flies at altitudes of 100 to 400 feet, the visual scene below presents a fundamentally different challenge than what ground-level cameras encounter. Objects of interest, such as a missing hiker in a forest, a hairline crack on a wind turbine blade, or a thermal anomaly on a rooftop, often occupy only a tiny fraction of the total image frame. Traditional image processing pipelines built around Convolutional Neural Networks rely on hierarchical local feature extraction. They analyze small neighborhoods of pixels, gradually building up to larger receptive fields through successive layers of convolutions and pooling. While this works well for many tasks, it introduces a critical weakness for drone applications: by the time the network has built up enough context to see the big picture, the fine-grained detail of those small, critical objects may have been lost through repeated downsampling operations."
+                  - paragraph [ref=e874]: Vision Transformers address this limitation through a radically different approach. Instead of processing pixels through local convolution windows, a Vision Transformer divides the entire image into a grid of fixed-size patches, treats each patch as a token (analogous to a word in natural language processing), and processes the entire set of tokens simultaneously through a self-attention mechanism. This means that from the very first layer of the network, every patch can directly attend to every other patch in the image. A small cluster of pixels representing a person in distress can immediately be correlated with the surrounding terrain, the lighting conditions across the entire frame, and contextual cues like vehicles or structures that might be hundreds of pixels away.
+                  - paragraph [ref=e875]: For drone engineers, this architectural property translates directly into operational advantages. Search and rescue missions benefit from models that can reason about the relationship between a small heat signature and the broader landscape. Infrastructure inspection pipelines gain the ability to correlate local surface defects with global structural context. Agricultural monitoring systems can simultaneously assess individual plant health indicators alongside field-wide patterns.
+                  - paragraph [ref=e876]:
+                    - text: Beyond single-modality vision, the emergence of multi-modal architectures like
+                    - button "CLIP" [ref=e877]
+                    - text: has opened entirely new operational paradigms. These models learn to align visual representations with natural language descriptions in a shared embedding space. This means a drone operator can issue commands in plain English, such as locate areas with standing water near the eastern boundary, and the system can match the live camera feed against this semantic query without ever having been explicitly trained on a standing water detector. The elimination of task-specific retraining dramatically reduces the time from mission requirement to deployment.
+                  - paragraph [ref=e878]:
+                    - text: This lesson will take you through the foundational architecture of Vision Transformers, explain how multi-modal models like
+                    - button "CLIP" [ref=e879]
+                    - text: bridge the gap between vision and language, and connect these concepts to the practical realities of deploying such models on edge hardware aboard autonomous drones. Each concept builds on the previous one, culminating in a complete understanding of why these architectures represent the current state of the art for aerial perception systems.
+              - generic [ref=e880]:
+                - generic [ref=e882]:
+                  - img [ref=e883]
+                  - text: Key Takeaways
+                - list [ref=e886]:
+                  - listitem [ref=e887]: Vision Transformers process entire images as sets of patches with global self-attention, solving the locality limitation of CNNs for aerial imagery
+                  - listitem [ref=e889]: Multi-modal models like CLIP enable zero-shot capabilities where drones respond to natural language commands without task-specific retraining
+                  - listitem [ref=e891]: Drone-specific challenges such as small object detection at altitude and wide field-of-view analysis directly benefit from transformer architectures
+              - generic [ref=e893]:
+                - button "Previous page" [disabled]:
+                  - img
+                  - text: Previous
+                - generic [ref=e894]: Page 1 of 10
+                - button "Next page" [ref=e895]:
+                  - text: Next
+                  - img
+        - separator [ref=e746]
+        - link "Next Lesson" [ref=e748] [cursor=pointer]:
+          - /url: /tracks/ai-engineer/parameter-efficient-fine-tuning-peft/lesson-2
+          - button "Next Lesson" [ref=e749]:
+            - text: Next Lesson
+            - img
+  - contentinfo [ref=e198]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - generic [ref=e206]: DroneAI Academy
+      - paragraph [ref=e207]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e208]: © 2026 DroneAI Academy
+  - generic [ref=e213] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e214]:
+      - img [ref=e215]
+    - generic [ref=e274]:
+      - button "Open issues overlay" [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: "5"
+          - generic [ref=e278]: "6"
+        - generic [ref=e279]:
+          - text: Issue
+          - generic [ref=e280]: s
+      - button "Collapse issues badge" [ref=e281]:
+        - img [ref=e282]
+  - alert [ref=e284]

@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Diary" [ref=e218] [cursor=pointer]:
+          - /url: /diary
+          - button "Diary" [ref=e219]:
+            - img
+            - text: Diary
+        - link "AI Engineer" [ref=e220] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e221]:
+            - img
+            - text: AI Engineer
+        - link "MLOps" [ref=e222] [cursor=pointer]:
+          - /url: /tracks/mlops-engineer
+          - button "MLOps" [ref=e223]:
+            - img
+            - text: MLOps
+        - link "Data Engineer" [ref=e224] [cursor=pointer]:
+          - /url: /tracks/data-engineer
+          - button "Data Engineer" [ref=e225]:
+            - img
+            - text: Data Engineer
+        - link "Edge AI" [ref=e226] [cursor=pointer]:
+          - /url: /tracks/edge-ai
+          - button "Edge AI" [ref=e227]:
+            - img
+            - text: Edge AI
+        - link "Grand Project" [ref=e228] [cursor=pointer]:
+          - /url: /grand-project
+          - button "Grand Project" [ref=e229]:
+            - img
+            - text: Grand Project
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+        - generic [ref=e231]:
+          - link "Diary" [ref=e232] [cursor=pointer]:
+            - /url: /diary
+            - button "Diary" [ref=e233]:
+              - img
+              - text: Diary
+          - link "testuser" [ref=e234] [cursor=pointer]:
+            - /url: /profile
+            - button "testuser" [ref=e235]:
+              - img
+              - text: testuser
+          - generic: 0.0 Hrs • Ground
+          - button "Logout" [ref=e236]:
+            - img
+            - text: Logout
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - img "AI Engineer (Generalist) visual" [ref=e23]
+        - generic [ref=e27]:
+          - link "All Tracks" [ref=e28] [cursor=pointer]:
+            - /url: /
+            - button "All Tracks" [ref=e29]:
+              - img
+              - text: All Tracks
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - generic [ref=e40]:
+              - heading "AI Engineer (Generalist)" [level=1] [ref=e41]
+              - paragraph [ref=e42]: Architecting state-of-the-art 'Brains' for autonomous systems utilizing perception, spatial reasoning, and dynamic adaptability at the edge.
+              - generic [ref=e43]:
+                - generic [ref=e44]:
+                  - img [ref=e45]
+                  - text: 8 lessons
+                - generic [ref=e47]:
+                  - img [ref=e48]
+                  - text: 27 hands-on steps
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - text: 84 quiz questions
+                - generic [ref=e55]:
+                  - img [ref=e56]
+                  - text: 0 completed
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - img [ref=e62]
+          - generic [ref=e64]: "Prerequisites: Basic Python, familiarity with PyTorch or TensorFlow, understanding of neural networks."
+        - link "Read the Lecture In-depth reading material covering all topics in this track" [ref=e237] [cursor=pointer]:
+          - /url: /tracks/ai-engineer/lecture
+          - generic [ref=e239]:
+            - img [ref=e241]
+            - generic [ref=e244]:
+              - paragraph [ref=e245]: Read the Lecture
+              - paragraph [ref=e246]: In-depth reading material covering all topics in this track
+            - img [ref=e247]
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - generic [ref=e252]: Track Progress
+            - generic [ref=e253]: 0% — 0 / 8 lessons
+          - progressbar [ref=e254]: x
+        - generic [ref=e65]:
+          - generic [ref=e69]:
+            - generic [ref=e71]: "1"
+            - generic [ref=e72]:
+              - generic [ref=e73]:
+                - generic [ref=e74]: "Architectural Mastery: Vision Transformers & Multi-Modal Models"
+                - generic [ref=e256]:
+                  - img
+                  - text: Start here
+              - paragraph [ref=e75]:
+                - text: Vision Transformers (
+                - button "ViT" [ref=e76]
+                - text: ) and Multi-Modal Architectures are the bedrock of modern aerial perception. Unlike traditional Convolutional Neural Networks (CNNs) that rely on localized inductive biases, Vi…
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - img
+                  - text: 4 steps
+                - generic [ref=e79]:
+                  - img
+                  - text: 20 quiz questions
+                - generic [ref=e257]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - link "Start Module" [ref=e258] [cursor=pointer]:
+                - /url: /tracks/ai-engineer/architectural-mastery-vision-transformers-multi-mo/lesson-1
+                - button "Start Module" [ref=e259]:
+                  - text: Start Module
+                  - img
+          - generic [ref=e85]:
+            - generic [ref=e87]: "2"
+            - generic [ref=e88]:
+              - generic [ref=e90]: Parameter-Efficient Fine-Tuning (PEFT)
+              - paragraph [ref=e91]:
+                - text: State-of-the-art foundation models require hundreds of gigabytes of VRAM to train, making edge deployment and custom fine-tuning cost-prohibitive. Parameter-Efficient Fine-Tuning (
+                - button "PEFT" [ref=e92]
+                - text: ) resolves this …
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - img
+                  - text: 6 steps
+                - generic [ref=e95]:
+                  - img
+                  - text: 20 quiz questions
+                - generic [ref=e260]:
+                  - img
+                  - text: "Complete Architectural Mastery: Vision Transformers & Multi-Modal Models to unlock"
+                - generic [ref=e261]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e97]:
+                - img
+                - text: Locked
+          - generic [ref=e101]:
+            - generic [ref=e103]: "3"
+            - generic [ref=e104]:
+              - generic [ref=e106]: "Production Optimization Stack: Quantization & Distillation"
+              - paragraph [ref=e107]:
+                - text: Deploying
+                - button "AI" [ref=e108]
+                - text: on drone-mounted Systems on Chip (SoCs) like the NVIDIA Jetson series demands severe
+                - button "latency" [ref=e109]
+                - text: "and memory constraints. Production Optimization pivots around two essential mechanisms: Quanti…"
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - img
+                  - text: 4 steps
+                - generic [ref=e112]:
+                  - img
+                  - text: 20 quiz questions
+                - generic [ref=e262]:
+                  - img
+                  - text: Complete Parameter-Efficient Fine-Tuning (PEFT) to unlock
+                - generic [ref=e263]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e114]:
+                - img
+                - text: Locked
+          - generic [ref=e118]:
+            - generic [ref=e120]: "4"
+            - generic [ref=e121]:
+              - generic [ref=e123]: Sparsity & Pruning
+              - paragraph [ref=e124]:
+                - button "Pruning" [ref=e125]
+                - text: and sparsity represent a complementary approach to
+                - button "quantization" [ref=e126]
+                - text: for reducing model size and
+                - button "inference" [ref=e127]
+                - text: cost. Unlike
+                - button "quantization" [ref=e128]
+                - text: — which reduces the numerical precision of every weight — prunin…
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - img
+                  - text: 5 steps
+                - generic [ref=e131]:
+                  - img
+                  - text: 20 quiz questions
+                - generic [ref=e264]:
+                  - img
+                  - text: "Complete Production Optimization Stack: Quantization & Distillation to unlock"
+                - generic [ref=e265]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e133]:
+                - img
+                - text: Locked
+          - generic [ref=e137]:
+            - generic [ref=e139]: "5"
+            - generic [ref=e140]:
+              - generic [ref=e142]: "Adversarial Robustness: Hardening the Drone's Perception"
+              - paragraph [ref=e143]: In real-world tactical environments, computer vision systems face adversarial conditions—from intentional optical camouflage to natural perturbations like heavy fog, sensor glare, and motion blur. Har…
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - img
+                  - text: 2 steps
+                - generic [ref=e146]:
+                  - img
+                  - text: 1 quiz questions
+                - generic [ref=e266]:
+                  - img
+                  - text: Complete Sparsity & Pruning to unlock
+                - generic [ref=e267]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e148]:
+                - img
+                - text: Locked
+          - generic [ref=e152]:
+            - generic [ref=e154]: "6"
+            - generic [ref=e155]:
+              - generic [ref=e157]: Few-Shot Object Detection with Prototypical Networks
+              - paragraph [ref=e158]: A drone operator cannot always provide thousands of labeled images for a novel target (e.g., a newly deployed vehicle type or an unusual hazard structure). Few-shot learning bridges this gap, enabling…
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - img
+                  - text: 2 steps
+                - generic [ref=e161]:
+                  - img
+                  - text: 1 quiz questions
+                - generic [ref=e268]:
+                  - img
+                  - text: "Complete Adversarial Robustness: Hardening the Drone's Perception to unlock"
+                - generic [ref=e269]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e163]:
+                - img
+                - text: Locked
+          - generic [ref=e167]:
+            - generic [ref=e169]: "7"
+            - generic [ref=e170]:
+              - generic [ref=e172]: "Adversarial Robustness: Hardening the Drone's Perception"
+              - paragraph [ref=e173]: In real-world tactical environments, computer vision systems face adversarial conditions—from intentional optical camouflage to natural perturbations like heavy fog, sensor glare, and motion blur. Har…
+              - generic [ref=e174]:
+                - generic [ref=e175]:
+                  - img
+                  - text: 2 steps
+                - generic [ref=e176]:
+                  - img
+                  - text: 1 quiz questions
+                - generic [ref=e270]:
+                  - img
+                  - text: Complete Few-Shot Object Detection with Prototypical Networks to unlock
+                - generic [ref=e271]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e178]:
+                - img
+                - text: Locked
+          - generic [ref=e182]:
+            - generic [ref=e184]: "8"
+            - generic [ref=e185]:
+              - generic [ref=e187]: Few-Shot Object Detection with Prototypical Networks
+              - paragraph [ref=e188]: A drone operator cannot always provide thousands of labeled images for a novel target (e.g., a newly deployed vehicle type or an unusual hazard structure). Few-shot learning bridges this gap, enabling…
+              - generic [ref=e189]:
+                - generic [ref=e190]:
+                  - img
+                  - text: 2 steps
+                - generic [ref=e191]:
+                  - img
+                  - text: 1 quiz questions
+                - generic [ref=e272]:
+                  - img
+                  - text: "Complete Adversarial Robustness: Hardening the Drone's Perception to unlock"
+                - generic [ref=e273]:
+                  - img
+                  - text: Pass quiz and submit proof
+              - generic [ref=e193]:
+                - img
+                - text: Locked
+        - separator [ref=e194]
+        - link "MLOps Engineer" [ref=e196] [cursor=pointer]:
+          - /url: /tracks/mlops-engineer
+          - button "MLOps Engineer" [ref=e197]:
+            - text: MLOps Engineer
+            - img
+  - contentinfo [ref=e198]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - generic [ref=e206]: DroneAI Academy
+      - paragraph [ref=e207]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e208]: © 2026 DroneAI Academy
+  - generic [ref=e213] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e214]:
+      - img [ref=e215]
+    - generic [ref=e274]:
+      - button "Open issues overlay" [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: "5"
+          - generic [ref=e278]: "6"
+        - generic [ref=e279]:
+          - text: Issue
+          - generic [ref=e280]: s
+      - button "Collapse issues badge" [ref=e281]:
+        - img [ref=e282]
+  - alert [ref=e284]

@@ -1,0 +1,541 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Diary" [ref=e218] [cursor=pointer]:
+          - /url: /diary
+          - button "Diary" [ref=e219]:
+            - img
+            - text: Diary
+        - link "AI Engineer" [ref=e220] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e221]:
+            - img
+            - text: AI Engineer
+        - link "MLOps" [ref=e222] [cursor=pointer]:
+          - /url: /tracks/mlops-engineer
+          - button "MLOps" [ref=e223]:
+            - img
+            - text: MLOps
+        - link "Data Engineer" [ref=e224] [cursor=pointer]:
+          - /url: /tracks/data-engineer
+          - button "Data Engineer" [ref=e225]:
+            - img
+            - text: Data Engineer
+        - link "Edge AI" [ref=e226] [cursor=pointer]:
+          - /url: /tracks/edge-ai
+          - button "Edge AI" [ref=e227]:
+            - img
+            - text: Edge AI
+        - link "Grand Project" [ref=e228] [cursor=pointer]:
+          - /url: /grand-project
+          - button "Grand Project" [ref=e229]:
+            - img
+            - text: Grand Project
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+        - generic [ref=e231]:
+          - link "Diary" [ref=e232] [cursor=pointer]:
+            - /url: /diary
+            - button "Diary" [ref=e233]:
+              - img
+              - text: Diary
+          - link "testuser" [ref=e234] [cursor=pointer]:
+            - /url: /profile
+            - button "testuser" [ref=e235]:
+              - img
+              - text: testuser
+          - generic: 0.0 Hrs • Ground
+          - button "Logout" [ref=e236]:
+            - img
+            - text: Logout
+  - main [ref=e19]:
+    - generic [ref=e285]:
+      - img [ref=e287]
+      - generic [ref=e290]:
+        - link "AI Engineer" [ref=e291] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e292]:
+            - img
+            - text: AI Engineer
+        - generic [ref=e293]:
+          - img [ref=e295]
+          - generic [ref=e303]:
+            - generic [ref=e304]: Module 1
+            - 'heading "Architectural Mastery: Vision Transformers & Multi-Modal Models" [level=1] [ref=e305]'
+            - generic [ref=e306]:
+              - generic [ref=e307]: 4 Steps
+              - generic [ref=e308]: 20 Quiz Questions
+              - generic [ref=e309]:
+                - img
+                - text: ~74 min
+              - generic [ref=e310]:
+                - img
+                - text: Pass the quiz and submit proof
+        - generic [ref=e311]:
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - img [ref=e316]
+                - text: Lesson Readiness Board
+              - paragraph [ref=e319]: "Keep moving in order: practice, quiz, proof, then completion."
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: Readiness
+                - generic [ref=e323]: 25%
+              - progressbar [ref=e324]: x
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: Read the lesson briefing
+                  - paragraph [ref=e336]: Use the simplified overview and key terms first.
+              - generic [ref=e338]:
+                - img [ref=e339]
+                - generic [ref=e341]:
+                  - paragraph [ref=e342]: Complete the hands-on steps
+                  - paragraph [ref=e343]: 0 of 4 steps checked off
+              - generic [ref=e345]:
+                - img [ref=e346]
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: Pass the lesson quiz
+                  - paragraph [ref=e350]: Need at least 70%
+              - generic [ref=e352]:
+                - img [ref=e353]
+                - generic [ref=e355]:
+                  - paragraph [ref=e356]: Submit proof of execution
+                  - paragraph [ref=e357]: Add a run summary, output, or artifact link
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - paragraph [ref=e360]: Next best action
+                - paragraph [ref=e361]: Finish the remaining checklist steps before moving to the quiz.
+              - button "Continue hands-on practice" [ref=e363]
+        - generic [ref=e364]:
+          - tablist [ref=e365]:
+            - tab "Learn" [selected] [ref=e366]:
+              - img
+              - generic [ref=e367]: Learn
+            - tab "Script" [ref=e368]:
+              - img
+              - generic [ref=e369]: Script
+            - tab "Practice" [ref=e370]:
+              - img
+              - generic [ref=e371]: Practice
+            - tab "Quiz" [ref=e372]:
+              - img
+              - generic [ref=e373]: Quiz
+            - tab "Notes" [ref=e374]:
+              - img
+              - generic [ref=e375]: Notes
+          - tabpanel "Learn" [ref=e376]:
+            - generic [ref=e377]:
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - generic [ref=e381]:
+                    - img [ref=e383]
+                    - text: Execution Pipeline
+                  - paragraph [ref=e395]: 4steps · Click each node to expand details
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Understand
+                  - generic [ref=e399]: Implement
+                  - generic [ref=e401]: Verify
+              - generic [ref=e404]:
+                - generic [ref=e405]:
+                  - button [ref=e407]:
+                    - img [ref=e408]
+                  - generic [ref=e412]:
+                    - button "Step 1 Set up your Python environment and Edge AI Toolkit" [ref=e413]:
+                      - generic [ref=e414]:
+                        - generic [ref=e415]:
+                          - generic [ref=e416]: Step 1
+                          - generic [ref=e417]: Set up your Python environment and Edge AI Toolkit
+                        - img [ref=e419]
+                    - generic [ref=e422]:
+                      - paragraph [ref=e423]: "Create an isolated virtual environment and install all necessary deep learning and edge deployment libraries. It is crucial to have the memory and math profiling tools (`torch.profiler`) ready from day one. **Code implementation details:** We use strict versioning to prevent upstream API breaks from disrupting the flight software. Make sure you load your CUDA modules correctly so the GPU can parse these instructions off the CPU main thread."
+                      - generic [ref=e424]:
+                        - paragraph [ref=e425]: ▸ Code snippet (see Practice tab for full version)
+                        - generic [ref=e426]: "python -m venv vit-env source vit-env/bin/activate # On Windows: vit-env\\Scripts\\activate # Install core AI and vision libraries with strict versions for stability pip install torch==2.3.0 torchvisi…"
+                - generic [ref=e427]:
+                  - button [ref=e429]:
+                    - img [ref=e430]
+                  - button "Step 2 Implement a Vision Transformer (ViT) from scratch" [ref=e444]:
+                    - generic [ref=e445]:
+                      - generic [ref=e446]:
+                        - generic [ref=e447]: Step 2
+                        - generic [ref=e448]: Implement a Vision Transformer (ViT) from scratch
+                      - img [ref=e450]
+                - generic [ref=e452]:
+                  - button [ref=e454]:
+                    - img [ref=e455]
+                  - button "Step 3 Load a pretrained CLIP model for zero-shot detection" [ref=e469]:
+                    - generic [ref=e470]:
+                      - generic [ref=e471]:
+                        - generic [ref=e472]: Step 3
+                        - generic [ref=e473]: Load a pretrained CLIP model for zero-shot detection
+                      - img [ref=e475]
+                - generic [ref=e477]:
+                  - button [ref=e479]:
+                    - img [ref=e480]
+                  - button "Step 4 Train a Custom Contrastive Model on Drone Telemetry" [ref=e485]:
+                    - generic [ref=e486]:
+                      - generic [ref=e487]:
+                        - generic [ref=e488]: Step 4
+                        - generic [ref=e489]: Train a Custom Contrastive Model on Drone Telemetry
+                      - img [ref=e491]
+            - generic [ref=e493]:
+              - generic [ref=e495]: Beginner Briefing
+              - generic [ref=e496]:
+                - paragraph [ref=e497]: "This lesson keeps the exact engineering terms, but the goal is simple: understand what the system does, why it matters for drones, and what actions you should practice next."
+                - paragraph [ref=e498]: Start with the study path below, then read the explanation in small sections, and finish by reviewing the quiz questions before opening the quiz tab.
+            - generic [ref=e499]:
+              - generic [ref=e501]: Study Path
+              - generic [ref=e503]:
+                - generic [ref=e504]:
+                  - paragraph [ref=e505]: "Step 1: Set up your Python environment and Edge AI Toolkit"
+                  - paragraph [ref=e506]:
+                    - text: Create an isolated virtual environment and install all necessary
+                    - button "deep learning" [ref=e507]
+                    - text: "and edge deployment libraries. It is crucial to have the memory and math profiling tools (`torch.profiler`) ready from day one. **Code implementation details:** We use strict versioning to prevent upstream"
+                    - button "API" [ref=e508]
+                    - text: breaks from disrupting the flight software. Make sure you load your
+                    - button "CUDA" [ref=e509]
+                    - text: modules correctly so the
+                    - button "GPU" [ref=e510]
+                    - text: can parse these instructions off the
+                    - button "CPU" [ref=e511]
+                    - text: main thread.
+                - generic [ref=e512]:
+                  - paragraph [ref=e513]: "Step 2: Implement a Vision Transformer (ViT) from scratch"
+                  - paragraph [ref=e514]: "Write the core components: patch embedding, multi-head self-attention, and the Transformer encoder. We must carefully handle the reshaping of image arrays into 1D sequence tokens, mimicking the NLP approach. **Code implementation details:** Pay attention to `PatchEmbedding`. By utilizing `nn.Conv2d` with a kernel and stride equal to the patch size, we efficiently chunk the image and apply linear projection simultaneously. This saves immense computational overhead compared to manual unrolling."
+                - generic [ref=e515]:
+                  - paragraph [ref=e516]: "Step 3: Load a pretrained CLIP model for zero-shot detection"
+                  - paragraph [ref=e517]:
+                    - text: Use Hugging Face transformers to load OpenAI's
+                    - button "CLIP" [ref=e518]
+                    - text: .
+                    - button "CLIP" [ref=e519]
+                    - text: "bridges the gap between vision and language by mapping images and text into the exact same vector space. **Code implementation details:** We use `torch.no_grad()` to freeze the computational graph. In an Edge"
+                    - button "AI" [ref=e520]
+                    - text: "embedded pipeline, leaving gradients enabled will exhaust memory instantaneously. Furthermore, observe how we interpret the raw model `logits_per_image` through a softmax activation to derive human-readable confidence scores."
+                - generic [ref=e521]:
+                  - paragraph [ref=e522]: "Step 4: Train a Custom Contrastive Model on Drone Telemetry"
+                  - paragraph [ref=e523]: Construct an end-to-end InfoNCE contrastive loss pipeline using custom drone imagery and metadata (altitude, pitch, yaw) enriched text descriptions. This allows us to fine-tune open-source multi-modal models directly on proprietary datasets. **Code implementation details:** The formulation calculates dot-products as similarity metrics and drives pairs residing on the diagonal matrix to 1.0 while suppressing off-diagonal alignments to 0.0. Temperature scaling is tightly wrapped in the logic to soften harsh vector extremes.
+            - generic [ref=e524]:
+              - generic [ref=e526]: Key Terms Used in This Lesson
+              - generic [ref=e528]:
+                - generic [ref=e529]:
+                  - paragraph [ref=e530]: Neural Network
+                  - paragraph [ref=e531]: A series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates.
+                - generic [ref=e532]:
+                  - paragraph [ref=e533]: Deep Learning
+                  - paragraph [ref=e534]: A type of machine learning based on artificial neural networks in which multiple layers of processing are used to extract progressively higher level features from data.
+                - generic [ref=e535]:
+                  - paragraph [ref=e536]: KL Divergence
+                  - paragraph [ref=e537]: Kullback-Leibler divergence – a measure of how one probability distribution diverges from a second, used as a loss function in knowledge distillation.
+                - generic [ref=e538]:
+                  - paragraph [ref=e539]: Inference
+                  - paragraph [ref=e540]: The process of using a trained machine learning model to make predictions or decisions based on new, unseen data.
+                - generic [ref=e541]:
+                  - paragraph [ref=e542]: Telemetry
+                  - paragraph [ref=e543]: The highly automated communications process by which measurements are made and other data collected at complex or remote points and transmitted to receiving equipment for monitoring.
+                - generic [ref=e544]:
+                  - paragraph [ref=e545]: Training
+                  - paragraph [ref=e546]: The process of teaching a machine learning model by feeding it data and allowing it to adjust its internal parameters to minimize errors.
+                - generic [ref=e547]:
+                  - paragraph [ref=e548]: Dataset
+                  - paragraph [ref=e549]: A large collection of data organized for the purpose of training or testing a machine learning model.
+                - generic [ref=e550]:
+                  - paragraph [ref=e551]: Latency
+                  - paragraph [ref=e552]: The delay before a transfer of data begins following an instruction for its transfer. In drones, low latency is critical for real-time decision making.
+            - generic [ref=e553]:
+              - generic [ref=e555]: Detailed Explanation
+              - generic [ref=e556]:
+                - paragraph [ref=e557]: Read this section one paragraph at a time. When you see a technical term, connect it back to the key-term definitions above and ask how it affects perception, decision-making, or deployment on a real drone system.
+                - generic [ref=e558]:
+                  - paragraph [ref=e559]:
+                    - text: Vision Transformers (
+                    - button "ViT" [ref=e560]
+                    - text: ) and Multi-Modal Architectures are the bedrock of modern aerial perception. Unlike traditional Convolutional Neural Networks (CNNs) that rely on localized inductive biases, ViTs treat visual inputs as sequences of flattened 2D patches. These patches are linearly embedded and augmented with positional encodings before processing via stacked Transformer Encoders. This mechanism enables self-attention, allowing the model to capture dense, global contextual relationships out-of-the-box—critical for tasks like analyzing expansive topographic structures from drone-captured aerial imagery.
+                  - paragraph [ref=e561]:
+                    - text: Why Transformers for Drones? When flying at 400 feet, objects of interest (e.g., a lost hiker or a structural crack in a wind turbine) can occupy a very small portion of the image. Standard
+                    - button "CNN" [ref=e562]
+                    - text: max-pooling layers often lose this high-frequency, low-resolution data. Vision Transformers use multi-head self-attention to globally correlate information across the entire frame immediately at layer 1. This means the model can cross-reference the texture of a small cluster of pixels with the broader context of the forest canopy, dramatically reducing false positives.
+                  - paragraph [ref=e563]:
+                    - text: Multi-Modal Frameworks (
+                    - button "CLIP" [ref=e564]
+                    - text: "& ALIGN) Beyond localized perception, multi-modal frameworks like"
+                    - button "CLIP" [ref=e565]
+                    - text: (Contrastive Language-Image Pre-
+                    - button "training" [ref=e566]
+                    - text: ) project text and images into a shared dense vector space. This learned latent representation allows drones to perform zero-shot inferences and semantic scene retrievals based purely on unconstrained natural language queries. For instance, an operator can command a drone to "locate thermal anomalies in the eastern sector" or "find downed power lines", and the multi-modal brain can dynamically match the live visual feed against the semantic query, bypassing the need for explicit class-based retraining. This drastically reduces the time-to-production for bespoke operational payloads.
+                  - paragraph [ref=e567]:
+                    - text: Deployment Architecture Deploying these large models on constrained edge hardware like the Jetson Orin requires architectural sympathy. You will need to export the PyTorch
+                    - button "ViT" [ref=e568]
+                    - text: into an ONNX graph, then compile it down to a TensorRT engine. This strips away Python overhead and fuses kernel operations, minimizing
+                    - button "latency" [ref=e569]
+                    - text: and maximizing throughput.
+                  - 'heading "💻 Developer Guidance: Writing Production AI Code As you progress through the coding steps below, keep these principles in mind: - **Tensor Shapes & Types:** Always assert tensor dimensions (`assert x.shape == (B, C, H, W)`). Edge compilers are unforgiving with dynamic shapes. - **Hardware Agnosticism:** Keep model initialization separate from host-to-device transfers. Use `.to(device)` robustly. - **Memory Footprint:** Delete intermediary tensors and call `torch.cuda.empty_cache()` where appropriate during inference streams." [level=3] [ref=e570]': "💻 Developer Guidance: Writing Production AI Code As you progress through the coding steps below, keep these principles in mind: - **Tensor Shapes & Types:** Always assert tensor dimensions (`assert x.shape == (B, C, H, W)`). Edge compilers are unforgiving with dynamic shapes. - **Hardware Agnosticism:** Keep model initialization separate from host-to-device transfers. Use `.to(device)` robustly. - **Memory Footprint:** Delete intermediary tensors and call `torch.cuda.empty_cache()` where appropriate during inference streams."
+            - generic [ref=e572]:
+              - generic [ref=e574]: Quiz Preview
+              - generic [ref=e575]:
+                - paragraph [ref=e576]: Review these questions before you take the quiz. If you can explain why each answer choice is correct or incorrect, you are ready for the assessment.
+                - generic [ref=e577]:
+                  - paragraph [ref=e578]:
+                    - text: 1. What is the primary advantage of Vision Transformers (
+                    - button "ViT" [ref=e579]
+                    - text: ) over CNNs?
+                  - list [ref=e580]:
+                    - listitem [ref=e581]:
+                      - button "ViT" [ref=e582]
+                      - text: uses less memory
+                    - listitem [ref=e583]:
+                      - button "ViT" [ref=e584]
+                      - text: can capture global relationships across the entire image
+                    - listitem [ref=e585]:
+                      - button "ViT" [ref=e586]
+                      - text: is easier to train on small datasets
+                    - listitem [ref=e587]:
+                      - button "ViT" [ref=e588]
+                      - text: requires no positional information
+                - generic [ref=e589]:
+                  - paragraph [ref=e590]:
+                    - text: 2. In a
+                    - button "ViT" [ref=e591]
+                    - text: ", what is the purpose of patch embedding?"
+                  - list [ref=e592]:
+                    - listitem [ref=e593]: To reduce image resolution
+                    - listitem [ref=e594]: To convert image patches into token embeddings
+                    - listitem [ref=e595]: To add positional information
+                    - listitem [ref=e596]: To classify the image
+                - generic [ref=e597]:
+                  - paragraph [ref=e598]:
+                    - text: 3. What does
+                    - button "CLIP" [ref=e599]
+                    - text: stand for?
+                  - list [ref=e600]:
+                    - listitem [ref=e601]:
+                      - text: Contrastive Language-Image Pre-
+                      - button "training" [ref=e602]
+                    - listitem [ref=e603]: Convolutional Language Image Processing
+                    - listitem [ref=e604]: Cross-Language Image Parsing
+                    - listitem [ref=e605]: Classification of Language and Image Pairs
+                - generic [ref=e606]:
+                  - paragraph [ref=e607]:
+                    - text: 4. How does
+                    - button "CLIP" [ref=e608]
+                    - text: enable zero-shot classification?
+                  - list [ref=e609]:
+                    - listitem [ref=e610]:
+                      - text: By
+                      - button "training" [ref=e611]
+                      - text: on a large
+                      - button "dataset" [ref=e612]
+                      - text: with class labels
+                    - listitem [ref=e613]: By comparing image embeddings with text embeddings of class names
+                    - listitem [ref=e614]: By using a separate classifier for each class
+                    - listitem [ref=e615]: By generating new classes from text
+                - generic [ref=e616]:
+                  - paragraph [ref=e617]:
+                    - text: 5. What is the shape of the output of the patch embedding layer in the provided
+                    - button "ViT" [ref=e618]
+                    - text: implementation?
+                  - list [ref=e619]:
+                    - listitem [ref=e620]: (batch, channels, height, width)
+                    - listitem [ref=e621]: (batch, num_patches, embed_dim)
+                    - listitem [ref=e622]: (batch, embed_dim, num_patches)
+                    - listitem [ref=e623]: (batch, num_patches, num_patches)
+                - generic [ref=e624]:
+                  - paragraph [ref=e625]:
+                    - text: 6. What is the role of the [CLS] token in
+                    - button "ViT" [ref=e626]
+                    - text: "?"
+                  - list [ref=e627]:
+                    - listitem [ref=e628]: It is used to compute the final classification output
+                    - listitem [ref=e629]: It is added to each patch for positional encoding
+                    - listitem [ref=e630]: It helps with data augmentation
+                    - listitem [ref=e631]: It replaces the need for a classification head
+                - generic [ref=e632]:
+                  - paragraph [ref=e633]:
+                    - text: 7. Which loss function is typically used to align image and text embeddings in
+                    - button "CLIP" [ref=e634]
+                    - text: "?"
+                  - list [ref=e635]:
+                    - listitem [ref=e636]: Cross-entropy loss
+                    - listitem [ref=e637]: Contrastive loss (InfoNCE)
+                    - listitem [ref=e638]: Mean squared error
+                    - listitem [ref=e639]:
+                      - button "KL divergence" [ref=e640]
+                - generic [ref=e641]:
+                  - paragraph [ref=e642]: 8. What is the advantage of multi-modal fusion in drone applications?
+                  - list [ref=e643]:
+                    - listitem [ref=e644]: It allows the drone to understand natural language commands
+                    - listitem [ref=e645]: It reduces the number of sensors needed
+                    - listitem [ref=e646]: It increases flight time
+                    - listitem [ref=e647]:
+                      - text: It eliminates the need for
+                      - button "GPS" [ref=e648]
+                - generic [ref=e649]:
+                  - paragraph [ref=e650]: 9. What does the 'num_heads' parameter control in the MultiHeadSelfAttention module?
+                  - list [ref=e651]:
+                    - listitem [ref=e652]: The number of attention heads to split the embedding dimension into
+                    - listitem [ref=e653]: The number of layers in the Transformer
+                    - listitem [ref=e654]: The number of patches
+                    - listitem [ref=e655]: The number of classes
+                - generic [ref=e656]:
+                  - paragraph [ref=e657]:
+                    - text: 10. What is the purpose of positional encoding in
+                    - button "ViT" [ref=e658]
+                    - text: "?"
+                  - list [ref=e659]:
+                    - listitem [ref=e660]: To provide information about the spatial location of patches
+                    - listitem [ref=e661]: To normalize the input
+                    - listitem [ref=e662]: To increase model capacity
+                    - listitem [ref=e663]: To add noise for regularization
+                - generic [ref=e664]:
+                  - paragraph [ref=e665]:
+                    - text: 11. Which of the following is a key difference between
+                    - button "ViT" [ref=e666]
+                    - text: and standard CNNs?
+                  - list [ref=e667]:
+                    - listitem [ref=e668]:
+                      - button "ViT" [ref=e669]
+                      - text: uses convolutional layers for feature extraction
+                    - listitem [ref=e670]:
+                      - button "ViT" [ref=e671]
+                      - text: processes patches as sequences using attention
+                    - listitem [ref=e672]:
+                      - button "ViT" [ref=e673]
+                      - text: cannot handle variable-sized inputs
+                    - listitem [ref=e674]:
+                      - button "ViT" [ref=e675]
+                      - text: requires more
+                      - button "training" [ref=e676]
+                      - text: data but less compute
+                - generic [ref=e677]:
+                  - paragraph [ref=e678]:
+                    - text: 12. What is the typical batch size requirement for
+                    - button "training" [ref=e679]
+                    - button "CLIP" [ref=e680]
+                    - text: from scratch?
+                  - list [ref=e681]:
+                    - listitem [ref=e682]: Small (8-16)
+                    - listitem [ref=e683]: Medium (64-128)
+                    - listitem [ref=e684]: Large (32,768 or more)
+                    - listitem [ref=e685]: Any size works equally well
+                - generic [ref=e686]:
+                  - paragraph [ref=e687]:
+                    - text: 13. In the provided
+                    - button "ViT" [ref=e688]
+                    - text: implementation, what does the 'mlp_ratio' parameter control?
+                  - list [ref=e689]:
+                    - listitem [ref=e690]: The ratio of hidden size in MLP to embedding dimension
+                    - listitem [ref=e691]: The learning rate schedule
+                    - listitem [ref=e692]: The number of transformer blocks
+                    - listitem [ref=e693]: The patch size
+                - generic [ref=e694]:
+                  - paragraph [ref=e695]: 14. What does the CLIPProcessor do in Hugging Face's implementation?
+                  - list [ref=e696]:
+                    - listitem [ref=e697]: It trains the model
+                    - listitem [ref=e698]: It preprocesses images and text into the format expected by the model
+                    - listitem [ref=e699]: It evaluates the model's performance
+                    - listitem [ref=e700]: It generates new text from images
+                - generic [ref=e701]:
+                  - paragraph [ref=e702]:
+                    - text: 15. What is a common application of
+                    - button "CLIP" [ref=e703]
+                    - text: in drone systems?
+                  - list [ref=e704]:
+                    - listitem [ref=e705]: Natural language query for image retrieval
+                    - listitem [ref=e706]: Real-time flight control
+                    - listitem [ref=e707]: Battery optimization
+                    - listitem [ref=e708]:
+                      - button "GPS" [ref=e709]
+                      - text: signal enhancement
+                - generic [ref=e710]:
+                  - paragraph [ref=e711]: 16. What is the output of the VisionTransformer forward method in the code?
+                  - list [ref=e712]:
+                    - listitem [ref=e713]: Class logits for each patch
+                    - listitem [ref=e714]: Class logits for the entire image (from the [CLS] token)
+                    - listitem [ref=e715]: Feature maps of the last layer
+                    - listitem [ref=e716]: Attention weights
+                - generic [ref=e717]:
+                  - paragraph [ref=e718]: 17. Which activation function is used in the MLP of the TransformerBlock?
+                  - list [ref=e719]:
+                    - listitem [ref=e720]: ReLU
+                    - listitem [ref=e721]: Sigmoid
+                    - listitem [ref=e722]: GELU
+                    - listitem [ref=e723]: Tanh
+                - generic [ref=e724]:
+                  - paragraph [ref=e725]: 18. What does the 'embed_dim' parameter represent in the VisionTransformer class?
+                  - list [ref=e726]:
+                    - listitem [ref=e727]: The size of each patch in pixels
+                    - listitem [ref=e728]: The dimensionality of token embeddings
+                    - listitem [ref=e729]: The number of attention heads
+                    - listitem [ref=e730]: The number of classes
+                - generic [ref=e731]:
+                  - paragraph [ref=e732]: 19. How does multi-modal fusion improve drone safety?
+                  - list [ref=e733]:
+                    - listitem [ref=e734]: By allowing the drone to understand spoken commands from the pilot
+                    - listitem [ref=e735]: By enabling the drone to interpret both visual and textual instructions for navigation
+                    - listitem [ref=e736]: By reducing the need for obstacle avoidance sensors
+                    - listitem [ref=e737]: By automatically generating flight paths from satellite images
+                - generic [ref=e738]:
+                  - paragraph [ref=e739]: 20. What is the purpose of the norm layers (LayerNorm) in the TransformerBlock?
+                  - list [ref=e740]:
+                    - listitem [ref=e741]:
+                      - text: To normalize the input to each sub-layer, improving
+                      - button "training" [ref=e742]
+                      - text: stability
+                    - listitem [ref=e743]: To reduce the number of parameters
+                    - listitem [ref=e744]: To add dropout
+                    - listitem [ref=e745]: To convert embeddings to probabilities
+        - separator [ref=e746]
+        - link "Next Lesson" [ref=e748] [cursor=pointer]:
+          - /url: /tracks/ai-engineer/parameter-efficient-fine-tuning-peft/lesson-2
+          - button "Next Lesson" [ref=e749]:
+            - text: Next Lesson
+            - img
+  - contentinfo [ref=e198]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - generic [ref=e206]: DroneAI Academy
+      - paragraph [ref=e207]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e208]: © 2026 DroneAI Academy
+  - generic [ref=e213] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e214]:
+      - img [ref=e215]
+    - generic [ref=e274]:
+      - button "Open issues overlay" [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: "5"
+          - generic [ref=e278]: "6"
+        - generic [ref=e279]:
+          - text: Issue
+          - generic [ref=e280]: s
+      - button "Collapse issues badge" [ref=e281]:
+        - img [ref=e282]
+  - alert [ref=e284]

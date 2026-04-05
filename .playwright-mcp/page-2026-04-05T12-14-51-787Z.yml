@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - img "ML Platform Engineer (MLOps) visual" [ref=e23]
+        - generic [ref=e27]:
+          - link "All Tracks" [ref=e28] [cursor=pointer]:
+            - /url: /
+            - button "All Tracks" [ref=e29]:
+              - img
+              - text: All Tracks
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - generic [ref=e34]:
+              - heading "ML Platform Engineer (MLOps)" [level=1] [ref=e35]
+              - paragraph [ref=e36]: Architecting resilient, automated 'Factories' for edge-AI lifecycle management, encompassing GPU container orchestration, immutable data lineage, and continuous over-the-air (OTA) model delivery.
+              - generic [ref=e37]:
+                - generic [ref=e38]:
+                  - img [ref=e39]
+                  - text: 6 lessons
+                - generic [ref=e41]:
+                  - img [ref=e42]
+                  - text: 23 hands-on steps
+                - generic [ref=e45]:
+                  - img [ref=e46]
+                  - text: 82 quiz questions
+                - generic [ref=e49]:
+                  - img [ref=e50]
+                  - text: 0 completed
+      - generic [ref=e53]:
+        - generic [ref=e55]:
+          - img [ref=e56]
+          - generic [ref=e58]: "Prerequisites: Basic Linux, Docker, cloud basics (AWS)."
+        - generic [ref=e59]:
+          - generic [ref=e63]:
+            - generic [ref=e65]: "1"
+            - generic [ref=e66]:
+              - generic [ref=e68]: Infrastructure as Code (IaC) for AI
+              - paragraph [ref=e69]:
+                - text: Modern
+                - button "AI" [ref=e70]
+                - text: infrastructure transcends manual provisioning; it requires Infrastructure as Code (IaC) to ensure reproducible, scalable, and auditable environments. For drone fleets, this implies declarati…
+              - generic [ref=e71]:
+                - generic [ref=e72]:
+                  - img
+                  - text: 6 steps
+                - generic [ref=e73]:
+                  - img
+                  - text: 20 quiz questions
+              - generic [ref=e75]:
+                - img
+                - text: Locked
+          - generic [ref=e79]:
+            - generic [ref=e81]: "2"
+            - generic [ref=e82]:
+              - generic [ref=e84]: Workflow Orchestration & Data Versioning
+              - paragraph [ref=e85]:
+                - text: ML pipelines must be modular, reproducible, and auditable.
+                - button "Kubeflow" [ref=e86]
+                - text: Pipelines (KFP) v2 lets you define each stage — data ingestion, preprocessing,
+                - button "training" [ref=e87]
+                - text: ", evaluation, push-to-registry — as an indepe…"
+              - generic [ref=e88]:
+                - generic [ref=e89]:
+                  - img
+                  - text: 5 steps
+                - generic [ref=e90]:
+                  - img
+                  - text: 20 quiz questions
+              - generic [ref=e92]:
+                - img
+                - text: Locked
+          - generic [ref=e96]:
+            - generic [ref=e98]: "3"
+            - generic [ref=e99]:
+              - generic [ref=e101]: Model Serving & Observability
+              - paragraph [ref=e102]:
+                - text: NVIDIA
+                - button "Triton" [ref=e103]
+                - button "Inference" [ref=e104]
+                - text: Server transforms a trained model file into a production-grade HTTP/gRPC
+                - button "inference" [ref=e105]
+                - text: endpoint that scales horizontally on
+                - button "Kubernetes" [ref=e106]
+                - text: .
+                - button "Triton" [ref=e107]
+                - text: natively supports PyTorch TorchScript…
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - img
+                  - text: 5 steps
+                - generic [ref=e110]:
+                  - img
+                  - text: 20 quiz questions
+              - generic [ref=e112]:
+                - img
+                - text: Locked
+          - generic [ref=e116]:
+            - generic [ref=e118]: "4"
+            - generic [ref=e119]:
+              - generic [ref=e121]: CI/CD for Machine Learning Models
+              - paragraph [ref=e122]:
+                - text: Traditional software CI/CD guarantees code integrity; ML CI/CD must guarantee data, model, and hardware integrity simultaneously. Continous Integration for models (CT - Continuous
+                - button "Training" [ref=e123]
+                - text: ) involves a…
+              - generic [ref=e124]:
+                - generic [ref=e125]:
+                  - img
+                  - text: 5 steps
+                - generic [ref=e126]:
+                  - img
+                  - text: 20 quiz questions
+              - generic [ref=e128]:
+                - img
+                - text: Locked
+          - generic [ref=e132]:
+            - generic [ref=e134]: "5"
+            - generic [ref=e135]:
+              - generic [ref=e137]: "Chaos Engineering: Injecting Failure into GPU Workloads"
+              - paragraph [ref=e138]:
+                - text: An ML platform's resilience is only validated when it breaks. Chaos Engineering involves deliberately injecting faults—such as severing network partitions to
+                - button "training" [ref=e139]
+                - text: nodes, inducing artificially high…
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - img
+                  - text: 1 steps
+                - generic [ref=e142]:
+                  - img
+                  - text: 1 quiz questions
+              - generic [ref=e144]:
+                - img
+                - text: Locked
+          - generic [ref=e148]:
+            - generic [ref=e150]: "6"
+            - generic [ref=e151]:
+              - generic [ref=e153]: "Chaos Engineering: Injecting Failure into GPU Workloads"
+              - paragraph [ref=e154]:
+                - text: An ML platform's resilience is only validated when it breaks. Chaos Engineering involves deliberately injecting faults—such as severing network partitions to
+                - button "training" [ref=e155]
+                - text: nodes, inducing artificially high…
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - img
+                  - text: 1 steps
+                - generic [ref=e158]:
+                  - img
+                  - text: 1 quiz questions
+              - generic [ref=e160]:
+                - img
+                - text: Locked
+        - separator [ref=e161]
+        - generic [ref=e162]:
+          - link "AI Engineer" [ref=e163] [cursor=pointer]:
+            - /url: /tracks/ai-engineer
+            - button "AI Engineer" [ref=e164]:
+              - img
+              - text: AI Engineer
+          - link "Data Engineer" [ref=e165] [cursor=pointer]:
+            - /url: /tracks/data-engineer
+            - button "Data Engineer" [ref=e166]:
+              - text: Data Engineer
+              - img
+  - contentinfo [ref=e167]:
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - img [ref=e172]
+        - generic [ref=e175]: DroneAI Academy
+      - paragraph [ref=e176]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e177]: © 2026 DroneAI Academy
+  - button "Open Next.js Dev Tools" [ref=e183] [cursor=pointer]:
+    - img [ref=e184]

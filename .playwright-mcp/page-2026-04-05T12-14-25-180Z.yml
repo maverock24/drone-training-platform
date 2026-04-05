@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Diary" [ref=e218] [cursor=pointer]:
+          - /url: /diary
+          - button "Diary" [ref=e219]:
+            - img
+            - text: Diary
+        - link "AI Engineer" [ref=e220] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e221]:
+            - img
+            - text: AI Engineer
+        - link "MLOps" [ref=e222] [cursor=pointer]:
+          - /url: /tracks/mlops-engineer
+          - button "MLOps" [ref=e223]:
+            - img
+            - text: MLOps
+        - link "Data Engineer" [ref=e224] [cursor=pointer]:
+          - /url: /tracks/data-engineer
+          - button "Data Engineer" [ref=e225]:
+            - img
+            - text: Data Engineer
+        - link "Edge AI" [ref=e226] [cursor=pointer]:
+          - /url: /tracks/edge-ai
+          - button "Edge AI" [ref=e227]:
+            - img
+            - text: Edge AI
+        - link "Grand Project" [ref=e228] [cursor=pointer]:
+          - /url: /grand-project
+          - button "Grand Project" [ref=e229]:
+            - img
+            - text: Grand Project
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+        - generic [ref=e231]:
+          - link "Diary" [ref=e232] [cursor=pointer]:
+            - /url: /diary
+            - button "Diary" [ref=e233]:
+              - img
+              - text: Diary
+          - link "testuser" [ref=e234] [cursor=pointer]:
+            - /url: /profile
+            - button "testuser" [ref=e235]:
+              - img
+              - text: testuser
+          - generic: 0.0 Hrs • Ground
+          - button "Logout" [ref=e236]:
+            - img
+            - text: Logout
+  - main [ref=e19]:
+    - generic [ref=e285]:
+      - img [ref=e287]
+      - generic [ref=e290]:
+        - link "AI Engineer" [ref=e291] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e292]:
+            - img
+            - text: AI Engineer
+        - generic [ref=e293]:
+          - img [ref=e295]
+          - generic [ref=e303]:
+            - generic [ref=e304]: Module 1
+            - 'heading "Architectural Mastery: Vision Transformers & Multi-Modal Models" [level=1] [ref=e305]'
+            - generic [ref=e306]:
+              - generic [ref=e307]: 4 Steps
+              - generic [ref=e308]: 20 Quiz Questions
+              - generic [ref=e309]:
+                - img
+                - text: ~74 min
+              - generic [ref=e310]:
+                - img
+                - text: Pass the quiz and submit proof
+        - generic [ref=e311]:
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - img [ref=e316]
+                - text: Lesson Readiness Board
+              - paragraph [ref=e319]: "Keep moving in order: practice, quiz, proof, then completion."
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: Readiness
+                - generic [ref=e323]: 25%
+              - progressbar [ref=e324]: x
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: Read the lesson briefing
+                  - paragraph [ref=e336]: Use the simplified overview and key terms first.
+              - generic [ref=e338]:
+                - img [ref=e339]
+                - generic [ref=e341]:
+                  - paragraph [ref=e342]: Complete the hands-on steps
+                  - paragraph [ref=e343]: 0 of 4 steps checked off
+              - generic [ref=e345]:
+                - img [ref=e346]
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: Pass the lesson quiz
+                  - paragraph [ref=e350]: Need at least 70%
+              - generic [ref=e352]:
+                - img [ref=e353]
+                - generic [ref=e355]:
+                  - paragraph [ref=e356]: Submit proof of execution
+                  - paragraph [ref=e357]: Add a run summary, output, or artifact link
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - paragraph [ref=e360]: Next best action
+                - paragraph [ref=e361]: Finish the remaining checklist steps before moving to the quiz.
+              - button "Continue hands-on practice" [ref=e363]
+        - generic [ref=e364]:
+          - tablist [ref=e365]:
+            - tab "Learn" [ref=e366]:
+              - img
+              - generic [ref=e367]: Learn
+            - tab "Script" [selected] [ref=e368]:
+              - img
+              - generic [ref=e369]: Script
+            - tab "Practice" [ref=e370]:
+              - img
+              - generic [ref=e371]: Practice
+            - tab "Quiz" [ref=e372]:
+              - img
+              - generic [ref=e373]: Quiz
+            - tab "Notes" [ref=e374]:
+              - img
+              - generic [ref=e375]: Notes
+          - tabpanel "Script" [ref=e750]:
+            - generic [ref=e896]:
+              - generic [ref=e897]:
+                - button "Previous page" [ref=e898]:
+                  - img
+                  - text: Previous
+                - generic [ref=e899]:
+                  - button "Go to page 1" [ref=e900]
+                  - button "Go to page 2" [ref=e901]
+                  - button "Go to page 3" [ref=e902]
+                  - button "Go to page 4" [ref=e903]
+                  - button "Go to page 5" [ref=e904]
+                  - button "Go to page 6" [ref=e905]
+                  - button "Go to page 7" [ref=e906]
+                  - button "Go to page 8" [ref=e907]
+                  - button "Go to page 9" [ref=e908]
+                  - button "Go to page 10" [ref=e909]
+                - button "Next page" [disabled]:
+                  - text: Next
+                  - img
+              - generic [ref=e910]:
+                - generic [ref=e912]:
+                  - generic [ref=e913]: Page 10 of 10
+                  - generic [ref=e914]: Summary and Self-Assessment
+                - generic [ref=e915]:
+                  - paragraph [ref=e916]: This lesson has taken you through the complete landscape of Vision Transformers and multi-modal architectures as they apply to autonomous drone systems. Let us consolidate the key knowledge areas and chart the path forward.
+                  - paragraph [ref=e917]: "We began by establishing why traditional CNNs fall short for aerial perception. The fundamental limitation is their reliance on local receptive fields that must be progressively stacked to achieve global context. Vision Transformers solve this by treating images as sequences of patches and applying self-attention, which gives every patch immediate access to information from every other patch in the image. This architectural property is not merely academic; it directly translates to better performance on the kinds of tasks drones encounter: detecting small objects against large backgrounds, correlating distant visual features, and reasoning about spatial relationships across wide fields of view."
+                  - paragraph [ref=e918]:
+                    - text: The patch embedding mechanism is the bridge between image data and the sequence processing paradigm. By using a convolutional projection with stride equal to the patch size, the
+                    - button "ViT" [ref=e919]
+                    - text: efficiently transforms the two-dimensional image into a one-dimensional sequence of tokens. Positional encodings restore the spatial information that is lost in this flattening process, and the learnable CLS token provides an aggregation point for whole-image classification decisions.
+                  - paragraph [ref=e920]: The transformer encoder stack, with its alternating multi-head self-attention and feed-forward layers, wrapped in residual connections and layer normalization, forms the processing core. Key parameters like embed_dim, num_heads, mlp_ratio, and network depth determine the capacity and computational cost of the model, and selecting the right configuration depends on matching the model to the available edge hardware.
+                  - paragraph [ref=e921]:
+                    - text: Multi-modal architectures like
+                    - button "CLIP" [ref=e922]
+                    - text: extend these capabilities by learning to align visual and textual representations in a shared embedding space through contrastive learning. The InfoNCE loss function, temperature scaling, and large batch
+                    - button "training" [ref=e923]
+                    - text: "are the technical ingredients that make this alignment possible. The practical result is zero-shot capability: the ability to repurpose a single model for new detection tasks by simply changing the text prompt, eliminating the traditional cycle of data collection, annotation, and retraining for every new operational requirement."
+                  - paragraph [ref=e924]: On the deployment side, the pipeline from PyTorch through ONNX to TensorRT is the standard path for getting these models to run efficiently on edge devices. Memory management, fixed tensor shapes, gradient context management, and precision calibration are the practical skills that determine whether a model that works in the lab will actually function in flight.
+                  - paragraph [ref=e925]: The common pitfalls discussed, from missing positional encodings to preprocessing normalization mismatches, represent real debugging hours saved. Technical mastery of these architectures is not just about understanding the theory but about knowing where things break and how to fix them.
+                  - heading "Self-Assessment Checkpoint" [level=3] [ref=e926]: Self-Assessment Checkpoint
+                  - paragraph [ref=e928]: "Before moving to the next lesson, you should be able to confidently answer these questions:"
+                  - paragraph [ref=e929]:
+                    - text: Can you explain, without looking at notes, why a
+                    - button "ViT" [ref=e930]
+                    - text: can correlate information between distant image regions more effectively than a
+                    - button "CNN" [ref=e931]
+                    - text: of similar depth?
+                  - paragraph [ref=e932]:
+                    - text: If someone handed you a new drone camera with an unusual resolution, could you calculate the number of patches, verify the embedding dimensions, and trace the data flow through a
+                    - button "ViT" [ref=e933]
+                    - text: to confirm compatibility?
+                  - paragraph [ref=e934]:
+                    - text: Could you set up a
+                    - button "CLIP" [ref=e935]
+                    - text: model for a new detection task using only text prompts, validate the similarity scores, and explain to a non-technical stakeholder how the zero-shot capability works?
+                  - paragraph [ref=e936]:
+                    - text: Do you understand why the batch size matters so much for contrastive
+                    - button "training" [ref=e937]
+                    - text: ", and could you describe strategies for compensating when your"
+                    - button "dataset" [ref=e938]
+                    - text: is too small for the ideal batch size?
+                  - paragraph [ref=e939]: Could you identify, from a stack trace or unexpected model output, whether the issue is a missing positional encoding, incorrect preprocessing normalization, or a tensor shape mismatch?
+                  - heading "Connection to the Track" [level=3] [ref=e940]: Connection to the Track
+                  - paragraph [ref=e942]:
+                    - text: This lesson forms the architectural foundation for the entire
+                    - button "AI" [ref=e943]
+                    - text: Engineer track. The Vision Transformer concepts you have learned here will resurface in Parameter-Efficient Fine-Tuning, where you will learn to adapt these models without retraining all parameters. The deployment pipeline connects directly to the Production Optimization Stack lesson on
+                    - button "quantization" [ref=e944]
+                    - text: and distillation. The multi-modal concepts extend into adversarial robustness, where you will learn to defend these models against attacks that exploit the very attention mechanisms we have studied. Every subsequent lesson builds on the understanding established here.
+              - generic [ref=e945]:
+                - generic [ref=e947]:
+                  - img [ref=e948]
+                  - text: Key Takeaways
+                - list [ref=e951]:
+                  - listitem [ref=e952]: Vision Transformers and CLIP form the architectural foundation for modern drone perception, enabling both powerful single-modality analysis and flexible multi-modal operations
+                  - listitem [ref=e954]: The deployment pipeline from PyTorch through ONNX to TensorRT is essential knowledge that connects theoretical understanding to real-world edge hardware constraints
+                  - listitem [ref=e956]: "This lesson connects directly to subsequent topics: PEFT builds on the ViT architecture, quantization optimizes the deployment pipeline, and adversarial robustness hardens the attention mechanisms"
+              - generic [ref=e958]:
+                - button "Previous page" [ref=e959]:
+                  - img
+                  - text: Previous
+                - generic [ref=e960]: Page 10 of 10
+                - button "Next page" [disabled]:
+                  - text: Next
+                  - img
+        - separator [ref=e746]
+        - link "Next Lesson" [ref=e748] [cursor=pointer]:
+          - /url: /tracks/ai-engineer/parameter-efficient-fine-tuning-peft/lesson-2
+          - button "Next Lesson" [ref=e749]:
+            - text: Next Lesson
+            - img
+  - contentinfo [ref=e198]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - generic [ref=e206]: DroneAI Academy
+      - paragraph [ref=e207]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e208]: © 2026 DroneAI Academy
+  - generic [ref=e213] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e214]:
+      - img [ref=e215]
+    - generic [ref=e274]:
+      - button "Open issues overlay" [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: "5"
+          - generic [ref=e278]: "6"
+        - generic [ref=e279]:
+          - text: Issue
+          - generic [ref=e280]: s
+      - button "Collapse issues badge" [ref=e281]:
+        - img [ref=e282]
+  - alert [ref=e284]

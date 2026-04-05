@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - link "Back to AI Engineer" [ref=e21] [cursor=pointer]:
+        - /url: /tracks/ai-engineer
+        - button "Back to AI Engineer" [ref=e22]:
+          - img
+          - text: Back to AI Engineer
+      - generic [ref=e24]:
+        - img [ref=e26]
+        - generic [ref=e29]:
+          - heading "Lesson Locked" [level=2] [ref=e30]
+          - paragraph [ref=e31]: "Complete Architectural Mastery: Vision Transformers & Multi-Modal Models before opening Parameter-Efficient Fine-Tuning (PEFT)."
+        - link "Back to Track" [ref=e32] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "Back to Track" [ref=e33]:
+            - text: Back to Track
+            - img
+  - contentinfo [ref=e34]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - img [ref=e39]
+        - generic [ref=e42]: DroneAI Academy
+      - paragraph [ref=e43]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e44]: © 2026 DroneAI Academy
+  - button "Open Next.js Dev Tools" [ref=e50] [cursor=pointer]:
+    - img [ref=e51]

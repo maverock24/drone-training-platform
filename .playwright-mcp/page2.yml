@@ -1,0 +1,250 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "DroneAI Academy" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e9]: DroneAI Academy
+      - navigation [ref=e10]:
+        - link "Diary" [ref=e218] [cursor=pointer]:
+          - /url: /diary
+          - button "Diary" [ref=e219]:
+            - img
+            - text: Diary
+        - link "AI Engineer" [ref=e220] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e221]:
+            - img
+            - text: AI Engineer
+        - link "MLOps" [ref=e222] [cursor=pointer]:
+          - /url: /tracks/mlops-engineer
+          - button "MLOps" [ref=e223]:
+            - img
+            - text: MLOps
+        - link "Data Engineer" [ref=e224] [cursor=pointer]:
+          - /url: /tracks/data-engineer
+          - button "Data Engineer" [ref=e225]:
+            - img
+            - text: Data Engineer
+        - link "Edge AI" [ref=e226] [cursor=pointer]:
+          - /url: /tracks/edge-ai
+          - button "Edge AI" [ref=e227]:
+            - img
+            - text: Edge AI
+        - link "Grand Project" [ref=e228] [cursor=pointer]:
+          - /url: /grand-project
+          - button "Grand Project" [ref=e229]:
+            - img
+            - text: Grand Project
+        - link "Domains" [ref=e11] [cursor=pointer]:
+          - /url: /domains
+          - button "Domains" [ref=e12]:
+            - img
+            - text: Domains
+        - link "Glossary" [ref=e13] [cursor=pointer]:
+          - /url: /glossary
+          - button "Glossary" [ref=e14]:
+            - img
+            - text: Glossary
+        - link "Hardware" [ref=e15] [cursor=pointer]:
+          - /url: /hardware
+          - button "Hardware" [ref=e16]:
+            - img
+            - text: Hardware
+        - link "Resources" [ref=e17] [cursor=pointer]:
+          - /url: /resources
+          - button "Resources" [ref=e18]:
+            - img
+            - text: Resources
+        - generic [ref=e231]:
+          - link "Diary" [ref=e232] [cursor=pointer]:
+            - /url: /diary
+            - button "Diary" [ref=e233]:
+              - img
+              - text: Diary
+          - link "testuser" [ref=e234] [cursor=pointer]:
+            - /url: /profile
+            - button "testuser" [ref=e235]:
+              - img
+              - text: testuser
+          - generic: 0.0 Hrs • Ground
+          - button "Logout" [ref=e236]:
+            - img
+            - text: Logout
+  - main [ref=e19]:
+    - generic [ref=e285]:
+      - img [ref=e287]
+      - generic [ref=e290]:
+        - link "AI Engineer" [ref=e291] [cursor=pointer]:
+          - /url: /tracks/ai-engineer
+          - button "AI Engineer" [ref=e292]:
+            - img
+            - text: AI Engineer
+        - generic [ref=e293]:
+          - img [ref=e295]
+          - generic [ref=e303]:
+            - generic [ref=e304]: Module 1
+            - 'heading "Architectural Mastery: Vision Transformers & Multi-Modal Models" [level=1] [ref=e305]'
+            - generic [ref=e306]:
+              - generic [ref=e307]: 4 Steps
+              - generic [ref=e308]: 20 Quiz Questions
+              - generic [ref=e309]:
+                - img
+                - text: ~74 min
+              - generic [ref=e310]:
+                - img
+                - text: Pass the quiz and submit proof
+        - generic [ref=e311]:
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - img [ref=e316]
+                - text: Lesson Readiness Board
+              - paragraph [ref=e319]: "Keep moving in order: practice, quiz, proof, then completion."
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: Readiness
+                - generic [ref=e323]: 25%
+              - progressbar [ref=e324]: x
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: Read the lesson briefing
+                  - paragraph [ref=e336]: Use the simplified overview and key terms first.
+              - generic [ref=e338]:
+                - img [ref=e339]
+                - generic [ref=e341]:
+                  - paragraph [ref=e342]: Complete the hands-on steps
+                  - paragraph [ref=e343]: 0 of 4 steps checked off
+              - generic [ref=e345]:
+                - img [ref=e346]
+                - generic [ref=e348]:
+                  - paragraph [ref=e349]: Pass the lesson quiz
+                  - paragraph [ref=e350]: Need at least 70%
+              - generic [ref=e352]:
+                - img [ref=e353]
+                - generic [ref=e355]:
+                  - paragraph [ref=e356]: Submit proof of execution
+                  - paragraph [ref=e357]: Add a run summary, output, or artifact link
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - paragraph [ref=e360]: Next best action
+                - paragraph [ref=e361]: Finish the remaining checklist steps before moving to the quiz.
+              - button "Continue hands-on practice" [ref=e363]
+        - generic [ref=e364]:
+          - tablist [ref=e365]:
+            - tab "Learn" [ref=e366]:
+              - img
+              - generic [ref=e367]: Learn
+            - tab "Script" [selected] [ref=e368]:
+              - img
+              - generic [ref=e369]: Script
+            - tab "Practice" [ref=e370]:
+              - img
+              - generic [ref=e371]: Practice
+            - tab "Quiz" [ref=e372]:
+              - img
+              - generic [ref=e373]: Quiz
+            - tab "Notes" [ref=e374]:
+              - img
+              - generic [ref=e375]: Notes
+          - tabpanel "Script" [ref=e750]:
+            - generic [ref=e795]:
+              - generic [ref=e796]:
+                - button "Previous page" [ref=e797]:
+                  - img
+                  - text: Previous
+                - generic [ref=e798]:
+                  - button "Go to page 1" [ref=e799]
+                  - button "Go to page 2" [ref=e800]
+                  - button "Go to page 3" [ref=e801]
+                  - button "Go to page 4" [ref=e802]
+                  - button "Go to page 5" [ref=e803]
+                  - button "Go to page 6" [ref=e804]
+                  - button "Go to page 7" [ref=e805]
+                  - button "Go to page 8" [ref=e806]
+                  - button "Go to page 9" [ref=e807]
+                  - button "Go to page 10" [ref=e808]
+                - button "Next page" [ref=e809]:
+                  - text: Next
+                  - img
+              - generic [ref=e810]:
+                - generic [ref=e812]:
+                  - generic [ref=e813]: Page 2 of 10
+                  - generic [ref=e814]: "Core Architecture: How Vision Transformers Process Images"
+                - generic [ref=e815]:
+                  - paragraph [ref=e816]:
+                    - text: The Vision Transformer architecture, introduced as
+                    - button "ViT" [ref=e817]
+                    - text: ", reimagines how neural networks process visual information by borrowing the sequence-to-sequence paradigm from natural language processing. Understanding this architecture in detail is essential for any drone"
+                    - button "AI" [ref=e818]
+                    - text: engineer because every subsequent optimization, deployment, and fine-tuning decision depends on grasping how data flows through the model.
+                  - paragraph [ref=e819]: The process begins with patch embedding. An input image of dimensions H by W with C color channels is divided into a regular grid of non-overlapping patches, each of size P by P pixels. For a standard configuration with 224 by 224 pixel images and 16 by 16 pixel patches, this produces a sequence of 196 patches. Each patch is then flattened into a one-dimensional vector and projected through a learnable linear layer (equivalently implemented as a convolution operation with kernel size and stride both equal to P) to produce a fixed-dimensional embedding vector. If the embedding dimension is 768, then each of the 196 patches becomes a 768-dimensional token, and the entire image is represented as a matrix of shape (196, 768).
+                  - paragraph [ref=e820]:
+                    - text: This flattening and projection step is conceptually simple but computationally elegant. By using a convolutional layer with stride equal to the patch size, the network simultaneously extracts and projects all patches in a single operation, avoiding the computational overhead of manually slicing and reshaping the image tensor. This is a critical implementation detail that directly affects
+                    - button "inference" [ref=e821]
+                    - button "latency" [ref=e822]
+                    - text: on edge devices like the Jetson Orin.
+                  - paragraph [ref=e823]:
+                    - text: After patch embedding, the architecture introduces positional encodings. Unlike convolutional networks, which inherently encode spatial relationships through the structure of their filters, transformers process tokens as unordered sets. Without additional information, the model would have no way to distinguish a patch from the top-left corner of the image from one in the bottom-right. Positional encodings, which are learnable vectors added element-wise to each patch embedding, provide this spatial context. The model learns during
+                    - button "training" [ref=e824]
+                    - text: that certain positions correspond to certain regions of the visual field, enabling it to reason about spatial relationships.
+                  - paragraph [ref=e825]: "The augmented sequence of patch embeddings is then prepended with a special classification token, commonly referred to as the CLS token. This is a learnable embedding that does not correspond to any specific image patch. Instead, it serves as an aggregation point: as the sequence passes through the transformer encoder layers, the CLS token accumulates information from all patches through the attention mechanism. At the output of the final encoder layer, the representation of the CLS token is extracted and passed through a classification head (typically a simple multi-layer perceptron) to produce the final prediction."
+                  - paragraph [ref=e826]: "The transformer encoder itself consists of a stack of identical layers, each containing two sub-layers. The first is a multi-head self-attention mechanism. Self-attention computes three projections for each token: a query, a key, and a value. The attention score between any two tokens is the dot product of their query and key vectors, normalized by the square root of the key dimension and passed through a softmax function. This produces attention weights that determine how much each token should attend to every other token. The weighted sum of value vectors produces the attention output. Multi-head attention runs this process multiple times in parallel with different learned projections, allowing the model to capture different types of relationships simultaneously."
+                  - paragraph [ref=e827]: The second sub-layer is a position-wise feed-forward network, which applies two linear transformations with a GELU activation function in between to each token independently. This component, controlled by the mlp_ratio parameter, expands the representation to a higher dimension (typically four times the embedding dimension) before projecting it back, allowing the network to learn complex non-linear transformations of each token representation.
+                  - paragraph [ref=e828]:
+                    - text: Both sub-layers employ residual connections and layer normalization. The residual connections add the input of each sub-layer to its output, preventing gradient degradation in deep networks. Layer normalization normalizes the activations across the feature dimension for each token independently, stabilizing the
+                    - button "training" [ref=e829]
+                    - text: process and enabling faster convergence. This pre-norm or post-norm placement is a design choice that affects
+                    - button "training" [ref=e830]
+                    - text: dynamics.
+                  - paragraph [ref=e831]:
+                    - text: For drone applications, the key insight is that after just one encoder layer, every patch token has already been influenced by the content of every other patch in the image. This is fundamentally different from a
+                    - button "CNN" [ref=e832]
+                    - text: ", where achieving a comparable receptive field requires stacking many layers of convolutions. For aerial imagery where relevant context can be spatially distributed across the entire frame, this global connectivity from the very first layer is transformative."
+              - generic [ref=e833]:
+                - generic [ref=e835]:
+                  - img [ref=e836]
+                  - text: Key Takeaways
+                - list [ref=e839]:
+                  - listitem [ref=e840]: Patch embedding converts image patches into token sequences using a convolution with stride equal to patch size, creating an efficient bridge between image data and transformer processing
+                  - listitem [ref=e842]: Positional encodings are essential because transformers have no inherent spatial awareness, and they enable the model to learn spatial relationships between patches
+                  - listitem [ref=e844]: The CLS token aggregates global information through attention layers and serves as the single representation from which classification decisions are made
+                  - listitem [ref=e846]: Multi-head self-attention allows every patch to attend to every other patch from the first layer, providing immediate global context
+              - generic [ref=e848]:
+                - button "Previous page" [ref=e849]:
+                  - img
+                  - text: Previous
+                - generic [ref=e850]: Page 2 of 10
+                - button "Next page" [ref=e851]:
+                  - text: Next
+                  - img
+        - separator [ref=e746]
+        - link "Next Lesson" [ref=e748] [cursor=pointer]:
+          - /url: /tracks/ai-engineer/parameter-efficient-fine-tuning-peft/lesson-2
+          - button "Next Lesson" [ref=e749]:
+            - text: Next Lesson
+            - img
+  - contentinfo [ref=e198]:
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - generic [ref=e206]: DroneAI Academy
+      - paragraph [ref=e207]: Master AI, MLOps, Data Engineering & Edge AI for autonomous drone systems.
+      - paragraph [ref=e208]: © 2026 DroneAI Academy
+  - generic [ref=e213] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e214]:
+      - img [ref=e215]
+    - generic [ref=e274]:
+      - button "Open issues overlay" [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]: "5"
+          - generic [ref=e278]: "6"
+        - generic [ref=e279]:
+          - text: Issue
+          - generic [ref=e280]: s
+      - button "Collapse issues badge" [ref=e281]:
+        - img [ref=e282]
+  - alert [ref=e284]
