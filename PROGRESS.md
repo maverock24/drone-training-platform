@@ -39,7 +39,7 @@
 - [x] TASK-5.1: Generate 10-page learning script for Edge AI Lesson 1 — "On-Device Hardware Acceleration" (20 quiz Qs). Add to tracks[3].lessons[0].learning_script.
 - [x] TASK-5.2: Generate 10-page learning script for Edge AI Lesson 2 — "Robotics Middleware: ROS 2 & MAVROS" (20 quiz Qs). Add to tracks[3].lessons[1].learning_script.
 - [x] TASK-5.3: Generate 10-page learning script for Edge AI Lesson 3 — "Optimization for Survival: HIL & Latency Profiling" (20 quiz Qs). Add to tracks[3].lessons[2].learning_script.
-- [ ] TASK-5.4: Generate 10-page learning script for Edge AI Lesson 4 — "TensorRT Optimization & Deployment Pipeline" (20 quiz Qs). Add to tracks[3].lessons[3].learning_script.
+- [x] TASK-5.4: Generate 10-page learning script for Edge AI Lesson 4 — "TensorRT Optimization & Deployment Pipeline" (20 quiz Qs). Add to tracks[3].lessons[3].learning_script.
 - [ ] TASK-5.5: Generate 10-page learning script for Edge AI Lesson 5 — "Bare-Metal Kernel Optimization for Real-Time Execution" (1 quiz Q). Add to tracks[3].lessons[4].learning_script.
 - [ ] TASK-5.6: Generate 10-page learning script for Edge AI Lesson 6 — duplicate of Lesson 5. Generate fresh variant for tracks[3].lessons[5].learning_script.
 
