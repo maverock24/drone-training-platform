@@ -1,0 +1,657 @@
+- generic [active] [ref=e1]:
+  - link "Mene sisältöön" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: https://asuntosalkunrakentaja.fi
+      - generic [ref=e14]:
+        - text:   
+        - button "Menu Toggle" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: 
+          - text: 
+        - text:   
+  - generic [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - img "rahoitusvastike" [ref=e24]
+        - heading "Rahoitusvastike & yhtiölaina – Hyödyt, riskit ja uskomukset" [level=1] [ref=e27]
+        - generic [ref=e30]:
+          - generic [ref=e32]:
+            - generic [ref=e36]:
+              - paragraph [ref=e37]: Rahoitusvastike, vähennysoikeus, yhtiölaina, kauppahinta, yhtiövastike, velaton hinta, hoitovastike, lyhennysvapaat…termejä on monia ja ne sekoittavat herkästi myös kokeneemman asuntosijoittajan ajatukset.
+              - paragraph [ref=e38]: Tämän artikkelin tarkoitus on antaa vastaukset sekä taklata kaikki kysymykset ja epäselvyydet, joita liittyy rahoitusvastikkeisiin ja yhtiölainoihin.
+              - paragraph [ref=e39]
+              - paragraph [ref=e40]: "Tästä kirjoituksesta saat vastauksia seuraaviin kysymyksiin:"
+              - list [ref=e41]:
+                - listitem [ref=e42]: Mitä yhtiölaina tarkoittaa?
+                - listitem [ref=e43]: Mikä on taloyhtiön rahoitusvastike?
+                - listitem [ref=e44]: Mitä tarkoittaa tuloutettu ja rahastoitu rahoitusvastike?
+                - listitem [ref=e45]: Millaisia verohyötyjä yhtiölainoissa on?
+                - listitem [ref=e46]: Onko yhtiölaina järkevämpi kuin oma pankkilaina?
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - heading "Sisällysluettelo" [level=4] [ref=e52]
+                - button "Open table of contents" [ref=e53] [cursor=pointer]:
+                  - generic [ref=e54]: 
+                - text: 
+              - list [ref=e56]:
+                - listitem [ref=e57]:
+                  - link "Mikä on yhtiölaina?" [ref=e59] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-0"
+                - listitem [ref=e60]:
+                  - link "Mikä on rahoitusvastike?" [ref=e62] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-1"
+                - listitem [ref=e63]:
+                  - link "Rahoitusvastike ei ole kulu" [ref=e65] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-2"
+                - listitem [ref=e66]:
+                  - link "Rahastoitu vai tuloutettu rahoitusvastike?" [ref=e68] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-3"
+                - listitem [ref=e69]:
+                  - link "Rahoitusvastike tuoton laskennassa" [ref=e71] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-4"
+                - listitem [ref=e72]:
+                  - link "Yhtiölainan verohyödyt" [ref=e74] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-5"
+                - listitem [ref=e75]:
+                  - link "Yhtiölainojen ehdot" [ref=e77] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-6"
+                - listitem [ref=e78]:
+                  - link "Piileekö yhtiölainoissa riskejä?" [ref=e80] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-7"
+                - listitem [ref=e81]:
+                  - link "Oma pankkilaina vai yhtiölaina?" [ref=e83] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-8"
+                - listitem [ref=e84]:
+                  - link "Yhteenveto" [ref=e86] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-9"
+                - listitem [ref=e87]:
+                  - link "Aiheeseen liittyviä termejä, kysymyksiä ja vastauksia" [ref=e89] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-10"
+                - listitem [ref=e90]:
+                  - link "Miksi myymme sijoitusasuntoja alle markkinahinnan?" [ref=e92] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-11"
+                - listitem [ref=e93]:
+                  - 'link "Lataa ilmainen e-kirja: Näin sijoitat menestyksekkäästi asuntoihin" [ref=e95] [cursor=pointer]':
+                    - /url: "#elementor-toc__heading-anchor-12"
+                - listitem [ref=e96]:
+                  - link "Seuraa Somessa" [ref=e98] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-13"
+                - listitem [ref=e99]:
+                  - link "Aiemmat blogikirjoitukset" [ref=e101] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-14"
+                - listitem [ref=e102]:
+                  - link "Uusimmat blogit" [ref=e104] [cursor=pointer]:
+                    - /url: "#elementor-toc__heading-anchor-15"
+          - generic [ref=e108]:
+            - heading "Mikä on yhtiölaina?" [level=2] [ref=e111]
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: Yhtiölaina on taloyhtiön ottama laina mikä jakaantuu taloyhtiön osakkaille eli asuntojen omistajille osakemäärien tai neliöiden mukaisesti.
+              - paragraph [ref=e115]:
+                - text: Poikkeuksetta RS-kohteina myytävät uudiskohteet sisältävät yhtiölainaa.
+                - strong [ref=e116]: Uudiskohteissa yhtiölainan määrä on yleensä ollut n. 60-70% asunnon velattomasta hinnasta.
+                - text: Yhtiölainan osuus saattaa olla suurempikin, esimerkiksi 80-85% jos asunnon pääsee ostamaan alennushinnalla.
+              - paragraph [ref=e117]:
+                - text: Heinäkuussa
+                - link "uusien yhtiölainarajoitusten myötä taloyhtiölainaa voi uudisrakentamisessa olla enintään 60 prosenttia" [ref=e118] [cursor=pointer]:
+                  - /url: https://valtioneuvosto.fi/-//10623/kotitalouksien-ja-taloyhtioiden-lainoihin-rajoituksia-heinakuun-alussa
+                - text: myytävien asuntojen velattomasta hinnasta.
+              - paragraph [ref=e119]: Yhtiölaina mahdollistaa sen, että ostaja voi valita rahoittaako omarahoitusosuuden lisäksi asunnon oston taloyhtiön ottamalla yhtiölainalla vai omalla pankkilainalla.
+              - paragraph [ref=e120]:
+                - strong [ref=e121]: Myös käytetyissä kohteissa voi olla
+                - strong [ref=e122]: yhtiölainaa
+                - text: ", koska vanhemmat taloyhtiöt ottavat lähes poikkeuksetta lainaa taloyhtiössä tehtäviin isompiin remontteihin. Lisäksi myös vanhojen kokonaisten vuokrakiinteistöjen ostojen yhteydessä, kun kiinteistö muutetaan asunto-osakeyhtiömuotoon, hankintaan käytetty laina muutetaan joissain tapauksissa yhtiölainaksi, jolloin asuntoihin kohdistuu yhtiölainaa."
+              - paragraph [ref=e123]: Me toimimme usein näin eli yhtiölainoitamme kokonaiset kohteet, jotka myymme verkostomme sijoittajille eteenpäin, koska sijoittaja saa yhtiölainasta selvää verohyötyä. Teemme poikkeuksen sellaisten taloyhtiöiden kohdalla, joihin on tulossa paljon isompia remontteja, että taloyhtiölle jää mahdollisuus ottaa lainaa tulevia remontteja varten.
+          - generic [ref=e127]:
+            - heading "Mikä on rahoitusvastike?" [level=2] [ref=e130]
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: Rahoitusvastike on asunto-osakkeen omistajalle kohdistuva kuukausittainen maksuerä, jolla lyhennetään asunto-osakkeeseen kohdistuvaa taloyhtiölainan osuutta. Rahoitusvastikkeesta voidaan käyttää myös termiä pääomavastike.
+              - paragraph [ref=e134]: Asuntoon kohdistuvaa yhtiölainaa voi maksaa pois myös kertasuorituksina tai isompina osasuorituksina taloyhtiön määrittäminä ajankohtina. Asuntosijoittajalle järkevämpi tapa on kuitenkin maksaa yhtiölainaa kuukausittain rahoitusvastikkeella, koska kertasuoritukset eivät ole yhtä lailla verovähennyskelpoisia.
+          - generic [ref=e142]:
+            - heading "Rahoitusvastike ei ole kulu" [level=2] [ref=e145]
+            - generic [ref=e147]:
+              - paragraph [ref=e148]: Uudiskohteiden myynti-ilmoituksissa käytetään usein termiä ”vastikekulut”. Vastikekuluilla tarkoitetaan yhtiövastikkeen kuukausittain maksettavaa määrää. Yhtiövastike on maksuerä, joka sisältää sekä hoitovastikkeen että rahoitusvastikkeen osuuden yhdessä ja samassa maksuerässä. Hoitovastikkeen osuus kattaa taloyhtiön ylläpitokulut, kuten lämmityksen, isännöinnin, huollon, kiinteistöveron ja vakuutukset.
+              - paragraph [ref=e149]:
+                - text: On tärkeää ymmärtää, että hoitovastike on kulu, mutta rahoitusvastike ei.
+                - strong [ref=e150]: Rahoitusvastike on lainanlyhennyserä, joka kasvattaa varallisuuttasi
+                - text: pienentäen asuntoon kohdistuvaa lainaa, samalla tavalla kuin normaalin pankkilainankin lyhennyserä. Yhtiölaina eroaa pankkilainasta kuitenkin esimerkiksi helppouden, laina-ehtojen ja tärkeimpänä verohyötyjen osalta.
+          - generic [ref=e154]:
+            - heading "Rahastoitu vai tuloutettu rahoitusvastike?" [level=2] [ref=e157]
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: "Tämä on se kysymys, jonka asuntosijoittajat usein yhtiölainakohteissa kysyvät. Ja hyvä että kysyvät, koska asia on tärkeä sillä se vaikuttaa veroihin. Yksinkertaistettuna:"
+              - list [ref=e161]:
+                - listitem [ref=e162]:
+                  - strong [ref=e163]: Jos yhtiölainasuoritukset tuloutetaan taloyhtiön kirjanpidossa => ovat vähennyskelpoisia
+                - listitem [ref=e164]:
+                  - strong [ref=e165]: Jos yhtiölainasuoritukset rahastoidaan taloyhtiön kirjanpidossa => eivät ole vähennyskelpoisia
+              - paragraph [ref=e166]: Uudiskohteissa yhtiölainat ovat käytännössä aina tuloutettu eli rahoitusvastikkeet ovat vähennyskelpoisia. Joissain uudiskohteissa asia on kirjattu jopa yhtiöjärjestykseen. Rahastointi tulee kysymykseen enemmänkin vanhoihin kohteisiin tehtävissä korjaushankkeissa. Allekirjoittaneelle ei ole toistaiseksi tullut vastaan ainoatakaan kohdetta, jossa yhtiölainasuoritukset rahastoitaisiin. Tämä kannattaa kuitenkin aina varmistaa.
+              - paragraph [ref=e167]: Yhtiölainasuoritusten kirjaamistavan päättää yhtiökokous, joten voit vaikuttaa kirjaamistapaan osallistumalla yhtiökokoukseen, pyrkimällä taloyhtiön hallitukseen tai muuten vain esittämällä asian taloyhtiön hallitukselle ja isännöitsijälle.
+              - paragraph [ref=e168]:
+                - text: Yksityishenkilö täydentää vähennyskelpoiset rahoitusvastikkeet vuokratulojen,
+                - link "hoitovastikkeiden" [ref=e169] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/hoitovastike/
+                - text: ja muiden kulujen tavoin esitäytettyyn veroilmoitukseen vuosittain.
+              - paragraph [ref=e170]:
+                - text: Yksityiskohtaisempaa ja syvällisempää sanaa asiasta löytyy
+                - link "raha.fi" [ref=e171] [cursor=pointer]:
+                  - /url: https://raha.fi/oma-talous/tulouttaminen-vai-rahastointi-kumpi-on-parempi/
+                - text: sekä
+                - link "Verohallinnon" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/hoitovastike-ja-paaomavastike/
+                - text: sivuilta.
+          - generic [ref=e176]:
+            - heading "Rahoitusvastike tuoton laskennassa" [level=2] [ref=e179]
+            - generic [ref=e181]:
+              - paragraph [ref=e182]:
+                - text: Kun lasketaan sijoitusasunnon vuokratuottoa, rahoitusvastike täytyy jättää laskennan ulkopuolelle. Joskus tulee vastaan tilanteita, joissa sijoittaja on laskenut uudiskohteen vuokratuoton vähentäen myös rahoitusvastikkeen. Tällöin
+                - link "vuokratuottolaskuri" [ref=e183] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/vuokratuotto/
+                - text: antaa vääristettyjä lukemia. Tällä laskutavalla uudiskohteen vuokratuotto olisi parempi lyhennysvapaiden aikana kuin lyhennysten alettua. Tilanne on siitä hassunkurinen, että kyseessä olisi sama asia jos laskisi pankkilainoitetun sijoitusasunnon vuokratuottoon pankkilainan lyhennyserän mukaan. Rahoitusvastike on samalla tavalla lyhennyserä, joten jätä se vuokratuoton laskennassa pois.
+              - paragraph [ref=e184]: Eri asia on, kun lasketaan sijoitusasunnon kassavirtaa tai kassavirtatuottoa. Rahoitusvastikkeet vaikuttavat ilman muuta kassavirtaan, samalla tavalla kuin vaikuttaa myös normaalin pankkilainan maksuerä.
+              - paragraph [ref=e185]:
+                - link "Oman pääoman tuottoa" [ref=e186] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/oman-paaoman-tuotto/
+                - text: laskettaessa myös rahoitusvastike täytyy huomioida. Oman pääoman tuoton laskennassa täytyy selvittää vieraan pääoman kulu eli toisin sanoen lainan vuosittaiset korkomenot.
+          - heading "Yhtiölainan verohyödyt" [level=2] [ref=e193]
+          - generic [ref=e195]:
+            - generic [ref=e199]:
+              - paragraph [ref=e200]:
+                - text: Sijoitusasunnon ostoa varten otetun pankkilainan eli tulonhankkimislainan korot ovat vähennyskelpoisia kaikista pääomatuloista sekä lisäksi alijäämähyvityksenä ansiotuloista, jos korkokuluja on enemmän kuin pääomatuloja.
+                - strong [ref=e201]: Yhtiölainan verohyödyt ovat normaalia pankkilainaa parempia sillä voit vähentää rahoitusvastikkeet kokonaisuudessaan kyseisen vuoden vuokratuloista.
+                - text: Tästä syystä asuntosijoittajan ei kannata maksaa yhtiölainaa pois kerralla vaan kuukausittain rahoitusvastikkeella.
+              - paragraph [ref=e202]:
+                - strong [ref=e203]: Omistusasuja ei voi vähentää rahoitusvastiketta ollenkaan
+                - text: ", joten omistusasujan kannattaa uudiskohteissa maksaa yhtiölaina pois normaalilla pankkilainalla, jonka korot ovat vähennyskelpoisia."
+              - paragraph [ref=e204]: Asuntosijoittaja ei pääse kuitenkaan kokonaan välttämään veroa sillä vero tulee maksuun asunnon myyntihetkellä lyhentyneen yhtiölainan osalta. Veron siirtäminen eteenpäin on kuitenkin aina järkevää ja yhtiölainan avulla se onnistuu hyvin.
+            - img "Kuva Jyväskylässä sijaitsevasta uudiskohteesta" [ref=e209]
+          - generic [ref=e215]:
+            - 'heading "Esimerkki: Uudiskohde alle 10v" [level=3] [ref=e216]':
+              - strong [ref=e217]: "Esimerkki: Uudiskohde alle 10v"
+            - paragraph [ref=e218]: Ostat velattomalta hinnaltaan 100.000€ maksavan uudisasunnon, johon kohdistuu yhtiölainaa 70.000€. Sijoitat itse siis 30.000€. Muutamien vuosien päästä päätät myydä asunnon ja saat siitä 110.000€ velattoman hinnan. Yhtiölaina on lyhentynyt 50.000 euroon, joten saat 60.000€ eli sijoittamasi summan tuplana takaisin. Maksat luovutusvoittoveroa sekä arvonnousun (10.000€) että lyhentyneestä yhtiölainaosuudesta (20.000€) eli yhteensä 30.000 eurosta vuoden 2026 verotuksella (30-34%) 9.000 – 10.200€ riippuen pääomatulojen määrästä.
+            - paragraph [ref=e219]:
+              - text: Pitkän aikavälin asuntosijoittajille uudiskohteet tarjoavat siis oikein hyvän verohyödyn. Erityisesti
+              - strong [ref=e220]: yli 10 vuotta asunnon omistaneet yksityishenkilöt (ei yritykset) voivat hyödyntää asunnon myyntihetkellä hankintameno-olettamaa
+              - text: ", joka on 40% asunnon luovutushinnasta."
+          - generic [ref=e226]:
+            - 'heading "Esimerkki: Uudiskohde yli 10v" [level=3] [ref=e227]':
+              - strong [ref=e228]: "Esimerkki: Uudiskohde yli 10v"
+            - paragraph [ref=e229]: Olet ostanut velattomalta hinnaltaan 100.000€ maksavan uudisasunnon, johon kohdistuu yhtiölainaa 70.000€, jonka laina-aika on 25 vuotta. Sijoitat itse siis 30.000€. Olet pitkän tähtäimen sijoittaja ja pidät asuntoa vuokrattuna koko yhtiölainan laina-ajan verran eli 25 vuotta. Olet onnistunut ostamaan asunnon kehittyvältä alueelta ja saat myydessäsi asunnosta 200.000 euron hinnan. Koska yhtiölaina on maksettu kokonaan pois, saat koko summan itsellesi. Normaalisti maksaisit veroa sekä arvonnousun (100.000€) että lyhentyneen yhtiölainan (70.000€) osalta eli yhteensä 170.000 eurosta eli 57.800€ tämän hetken verotuksella.
+            - paragraph [ref=e230]:
+              - strong [ref=e231]: Koska olet omistanut asunnon yli 10 vuotta, voit käyttää hankintameno-olettamaa.
+              - text: Oletettu hankintameno on siis 40% luovutushetken hinnasta eli 80.000€. Maksat luovutusvoittoveroa siis 120.000 eurosta (200.000 – 80.000€) 40.800 euroa eli 17.000 euroa vähemmän kuin ilman hankintameno-olettamaa. Tämän lisäksi olet maksanut vuokratulosta veroa vain todella pienestä osuudesta, koska olet koko yhtiölainan laina-ajan verran voinut vähentää rahoitusvastikkeet vuokratuloista. Todella verotehokasta siis!
+            - paragraph [ref=e232]:
+              - strong [ref=e233]: Yhtälö on vielä mielenkiintoisempi jos satut omistusaikana asumaan asunnossa yhtenäisesti vähintään kaksi vuotta
+              - text: ", koska et joudu nykyverotuksella maksamaan luovutusvoittoveroa ollenkaan. Tunnen useita, jotka ovat ostaneet uudisasunnon omaksi asunnokseen kahdeksi vuodeksi, jonka jälkeen ovat jättäneet asunnon sijoitusasunnoksi."
+            - paragraph [ref=e234]: Ei varsinaisesti verotukseen liittyvä etu, mutta yhtiölainan lisähyöty suhteessa pankkilainaan on lisäksi se, että vältät lainan toimitusmaksun minkä joutuisit normaalista pankkilainasta maksamaan.
+          - generic [ref=e240]:
+            - heading "Rahoitusvastikkeen verovähennysoikeuden poistoa suunniteltiin" [level=3] [ref=e241]:
+              - strong [ref=e242]: Rahoitusvastikkeen verovähennysoikeuden poistoa suunniteltiin
+            - paragraph [ref=e243]: Valtionvarainministeriö teki esityksen rahoitusvastikkeen verovähennysoikeuden poistamisesta.
+            - paragraph [ref=e244]: Ehdotuksen mukaan rahoitusvastiketta ei voisi enää jatkossa vähentää kokonaisuudessaan, vaan pelkät korot olisivat enää vähennyskelpoisia. Käytäntö olisi siis sama kuin normaalissa pankkilainassa.
+            - paragraph [ref=e245]: Lisäksi esitettiin tiukennuksia uudiskohteiden yhtiölainoitukseen. Lyhennysvapaita ei saisi olla enää laina-ajan alussa, laina-aika saisi olla enintään 25 vuotta ja yhtiölaina-aste maksimissaan 60% asuntojen velattomasta hinnasta.
+            - paragraph [ref=e246]:
+              - text: Kirjoitimme tästä aiheesta aiemmin blogitekstin
+              - link "Rahoitusvastikkeiden verovähennysoikeuden poisto – hyvä tarkoitus, synkkä lopputulos." [ref=e247] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/rahoitusvastikkeiden-verovahennysoikeus/
+            - paragraph [ref=e248]:
+              - text: Rahoitusvastikkeiden verovähennysoikeutta ei kuitenkaan päädytty poistamaan vaan
+              - strong [ref=e249]: "yhtiölainoihin tehtiin seuraavia rajoituksia, jotka astuivat voimaan muutama vuosi sitten:"
+            - list [ref=e250]:
+              - listitem [ref=e251]: Uusien asuntolainojen takaisinmaksuaika saa olla enintään 30 vuotta.
+              - listitem [ref=e252]: Taloyhtiölainat voivat olla uudisrakentamisessa enintään 60 prosenttia myytävien asuntojen velattomasta hinnasta.
+              - listitem [ref=e253]: Taloyhtiölainojen takaisinmaksuaika saa olla uudisrakentamisessa enintään 30 vuotta. Lyhennysvapaita ei voi olla ensimmäisinä viitenä vuotena rakennuksen valmistumisesta paitsi ensimmäisen vuoden aikana.
+            - paragraph [ref=e254]:
+              - text: Jos haluat opiskella laajemmin asuntosijoittamisen verotusasioita, kannatta lukea kirjoituksemme
+              - link "vuokratulojen verotuksesta" [ref=e255] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/sijoitusasunnon-verotus/
+              - text: .
+          - generic [ref=e259]:
+            - heading "Yhtiölainojen ehdot" [level=2] [ref=e262]
+            - generic [ref=e264]:
+              - paragraph [ref=e265]: Tämän artikkelin kirjoitushetkellä uudiskohteiden yhtiölainojen ehdot ovat sijoittajan kannalta edullisella tasolla. Laina-ajat ovat pääsääntöisesti n. 20-25 vuotta. Korkomarginaali on pääsääntöisesti 1%:n molemmin puolin. Matalin meillä vastaan tullut yhtiölainan korko oli vain 0,58%.
+              - paragraph [ref=e266]:
+                - text: Yhtiölainoissa on lähes poikkeuksetta myös
+                - link "lyhennysvapaata" [ref=e267] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/lyhennysvapaa-taloyhtiolaina/
+                - text: laina-ajan alussa, jolloin rahoitusvastikkeella maksetaan vain yhtiölainan korkoa. Lyhennysvapaat ovat olleet yleisimmin 1-3 vuotta, joskus jopa 5 vuotta. Nykyisin lyhennysvapaata voi olla enintään yksi vuosi kohteen valmistumisen jälkeen.
+          - generic [ref=e271]:
+            - heading "Piileekö yhtiölainoissa riskejä?" [level=2] [ref=e274]
+            - generic [ref=e276]:
+              - paragraph [ref=e277]:
+                - text: Uudiskohteissa kannattaa olla tarkkana kassavirtojen kanssa. Lyhennysvapaiden aikana kassavirrat ovat luonnollisesti selvästi plussan puolella. Joskus lyhennysten alkaessa kassavirta menee nollaan tai jopa miinukselle. Mitä lyhyempi laina-aika, korkeampi korko ja suurempi yhtiölainaosuus, sitä korkeampi rahoitusvastike ja
+                - link "sijoitusasunnon kassavirta" [ref=e278] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/kassavirta/
+                - text: menee todennäköisesti miinuksen puolelle. Toisaalta tällöin ei myöskään vuokratuloista aiheudu veroja, koska sekä hoito- että rahoitusvastikkeet ovat verovähennyskelpoisia.
+              - paragraph [ref=e279]: Suojautumiskeino korkojen nousua vastaan olisi pitkään kiinteään korkoon sidottu taloyhtiölaina mikä on tullut jo vastaan joissain uudiskohteissa, mutta voisi ehkä käyttää enemmänkin. Mikäli kassavirta kääntyisi rahoitusvastikkeen nousun myötä miinukselle, voisi sijoittajan takaporttina olla maksaa taloyhtiölaina pois henkilökohtaisella pankkilainalla, johon olisi neuvoteltu pidempi laina-aika kuin taloyhtiölainassa.
+              - paragraph [ref=e280]:
+                - strong [ref=e281]: Eräs riski saattaa myös kohota yhtiölainoitetuissa kohteissa
+                - text: ", joissa on yksi suuri omistaja, esimerkiksi yksityissijoittaja, instituutio tai vaikkapa asuntorahasto. Jos iso omistaja ajautuu vaikeuksiin ja rahoitusvastikkeet jäävät maksamatta, tulevat ne lopulta muiden osakkaiden maksettaviksi. On siis sijoittajan etu mikäli taloyhtiön omistus on hajaantunut. Se pienentää riskiä myös yhtiölainan myöntäneen pankin näkökulmasta, jolloin taloyhtiöllä on parempi neuvotteluasema yhtiölainaehtojen suhteen."
+              - paragraph [ref=e282]: Uudiskohteiden kassavirtariski realisoitui 2023-2024, kun euribor-korot nousivat parhaimmillaan yli 4 prosenttiin mikä vei uudiskohdesijoittajien kassavirrat pahasti miinuksen puolelle kohteissa, joissa lyhennysvapaat olivat jo ohi. Tämä vaikutti voimakkaasti uudiskohteiden sijoittajakysyntään, mutta antoi toisaalta mahdollisuuden ostaa laadukkaita kohteita hyviltä sijainneilta kovillakin alennuksilla.
+          - generic [ref=e286]:
+            - heading "Oma pankkilaina vai yhtiölaina?" [level=2] [ref=e289]
+            - generic [ref=e291]:
+              - paragraph [ref=e292]: Yhtiölainoissa on tiettyjä selkeitä hyötyjä, mutta myös joitain miinuspuolia. Hyödyt ja haitat ovat paljon riippuvaisia siitä, että ostaako asunnon omaan vai sijoituskäyttöön.
+              - paragraph [ref=e293]
+              - paragraph [ref=e294]:
+                - strong [ref=e295]: Yhtiölaina omistusasujalla
+            - list [ref=e298]:
+              - listitem [ref=e299]:
+                - generic [ref=e301]: 
+                - generic [ref=e302]: Säästyt vaivalta hakea pankista lainaa
+              - listitem [ref=e303]:
+                - generic [ref=e305]: 
+                - generic [ref=e306]: Vältyt pankkilainan nostopalkkiolta
+              - listitem [ref=e307]:
+                - generic [ref=e309]: 
+                - generic [ref=e310]: Korkoehdot yleensä hyvät ja laina-aika pitkä
+              - listitem [ref=e311]:
+                - generic [ref=e313]: 
+                - generic [ref=e314]: Et saa verohyötyjä (oman asuntolainan korot ovat osittain vähennyskelpoisia)
+              - listitem [ref=e315]:
+                - generic [ref=e317]: 
+                - generic [ref=e318]: Et pysty neuvottelemaan lainaehtoja itse etkä sopimaan lyhennysvapaista tarvittaessa
+              - listitem [ref=e319]:
+                - generic [ref=e321]: 
+                - generic [ref=e322]: Kannat riskiä siitä, että joku taloyhtiön osakkaista ei maksa yhtiölainaa
+          - generic [ref=e326]:
+            - paragraph [ref=e329]:
+              - strong [ref=e330]: Yhtiölaina asuntosijoittajalla
+            - list [ref=e333]:
+              - listitem [ref=e334]:
+                - generic [ref=e336]: 
+                - generic [ref=e337]: Saat selvää verohyötyä rahoitusvastikkeesta
+              - listitem [ref=e338]:
+                - generic [ref=e340]: 
+                - generic [ref=e341]: Säästyt vaivalta hakea pankista lainaa
+              - listitem [ref=e342]:
+                - generic [ref=e344]: 
+                - generic [ref=e345]: Vältyt pankkilainan nostopalkkiolta
+              - listitem [ref=e346]:
+                - generic [ref=e348]: 
+                - generic [ref=e349]: Korkoehdot yleensä hyvät ja laina-aika pitkä
+              - listitem [ref=e350]:
+                - generic [ref=e352]: 
+                - generic [ref=e353]: Et pysty neuvottelemaan lainaehtoja itse etkä sopimaan lyhennysvapaista tarvittaessa
+              - listitem [ref=e354]:
+                - generic [ref=e356]: 
+                - generic [ref=e357]: Kannat riskiä siitä, että joku taloyhtiön osakkaista ei maksa yhtiölainaa
+          - generic [ref=e361]:
+            - heading "Yhteenveto" [level=2] [ref=e364]
+            - generic [ref=e366]:
+              - paragraph [ref=e367]:
+                - strong [ref=e368]: Yhtiölainan hyötyjä ovat sen helppous
+                - text: (ei pankkineuvotteluita eikä lainannostopalkkiota),
+                - strong [ref=e369]: hyvät lainaehdot sekä ennen kaikkea verohyödyt.
+                - text: Uudiskohteiden huolettomuus tekee niistä yhdessä yhtiölainan hyötyjen kanssa erittäin houkuttelevan pitkän aikavälin sijoituskohteen siitäkin huolimatta, että uudiskohteiden vuokratuotto on lähtökohtaisesti matalampi kuin vanhoissa kohteissa.
+              - paragraph [ref=e370]: Sijoittajan on kuitenkin hyvä muistaa, että yhtiölaina on lainarahaa ja siten asunnon omistajan vastuulla siinä missä normaali pankkilainakin. Jokaisen sijoittajan kannattaa määritellä itselleen sopiva velkavivun määrä. Uudiskohteissa on yleensä matalat vuokratuotot (n. 4-5,5%), jolloin korkojen noustessa kassavirta saattaa olla negatiivinen.
+              - paragraph [ref=e371]: Tässä artikkelissa esitetyt asiat perustuvat tämän hetken tilanteeseen. Korkotilanne, verotus ja säännökset saattavat muuttua tulevaisuudessa suuntaan tai toiseen.
+              - paragraph [ref=e372]:
+                - text: Lue myös
+                - link "sijoitusasunto-opas aloittelijoille" [ref=e373] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/sijoitusasunto/
+                - text: sekä
+                - link "asuntosijoittamisen 10 parasta syytä" [ref=e374] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/opas-asuntosijoittamiseen/
+          - generic [ref=e378]:
+            - heading "Aiheeseen liittyviä termejä, kysymyksiä ja vastauksia" [level=2] [ref=e385]
+            - generic [ref=e388]:
+              - button "Mitä yhtiövastike tarkoittaa?" [ref=e390] [cursor=pointer]:
+                - generic [ref=e391]:
+                  - generic [ref=e393]: 
+                  - text: 
+                - text: Mitä yhtiövastike tarkoittaa?
+              - button "Mikä on asunnon velaton hinta?" [ref=e395] [cursor=pointer]:
+                - generic [ref=e396]:
+                  - generic [ref=e398]: 
+                  - text: 
+                - text: Mikä on asunnon velaton hinta?
+              - button "Mikä on asunnon kauppahinta?" [ref=e400] [cursor=pointer]:
+                - generic [ref=e401]:
+                  - generic [ref=e403]: 
+                  - text: 
+                - text: Mikä on asunnon kauppahinta?
+              - button "Miten rahoitusvastike määräytyy?" [ref=e405] [cursor=pointer]:
+                - generic [ref=e406]:
+                  - generic [ref=e408]: 
+                  - text: 
+                - text: Miten rahoitusvastike määräytyy?
+              - button "Mitä eroa on pääomavastikkeella ja rahoitusvastikkeella?" [ref=e410] [cursor=pointer]:
+                - generic [ref=e411]:
+                  - generic [ref=e413]: 
+                  - text: 
+                - text: Mitä eroa on pääomavastikkeella ja rahoitusvastikkeella?
+              - button "Kannattaako yhtiölaina maksaa pois?" [ref=e415] [cursor=pointer]:
+                - generic [ref=e416]:
+                  - generic [ref=e418]: 
+                  - text: 
+                - text: Kannattaako yhtiölaina maksaa pois?
+              - button "Maksetaanko yhtiölainaosuudesta varainsiirtoveroa?" [ref=e420] [cursor=pointer]:
+                - generic [ref=e421]:
+                  - generic [ref=e423]: 
+                  - text: 
+                - text: Maksetaanko yhtiölainaosuudesta varainsiirtoveroa?
+          - generic [ref=e429]:
+            - heading "Lisäpotkua asuntosijoittamiseen:" [level=3] [ref=e430]:
+              - strong [ref=e432]: "Lisäpotkua asuntosijoittamiseen:"
+            - list [ref=e433]:
+              - listitem [ref=e434]:
+                - strong [ref=e435]:
+                  - text: Muut kirjoitukset löytyy
+                  - link "asuntosijoitusblogista" [ref=e436] [cursor=pointer]:
+                    - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen-blogi-2/
+              - listitem [ref=e437]:
+                - strong [ref=e438]:
+                  - text: Kiinnostaako hyvät sijoitusasunnot?
+                  - link "Liity sisäpiiriin" [ref=e439] [cursor=pointer]:
+                    - /url: https://asuntosalkunrakentaja.fi/sisapiiri/
+              - listitem [ref=e440]:
+                - strong [ref=e441]:
+                  - text: Yli 50 sivua asiaa asuntosijoittamisesta!
+                  - link "Lataa E-kirja asuntosijoittamiseen" [ref=e442] [cursor=pointer]:
+                    - /url: https://asuntosalkunrakentaja.fi/lataa-e-kirja/
+          - generic [ref=e446]:
+            - heading "Jaa artikkeli eteenpäin" [level=3] [ref=e449]
+            - list [ref=e452]:
+              - listitem [ref=e453]:
+                - button "Share on facebook" [ref=e454] [cursor=pointer]:
+                  - generic [ref=e456]: 
+                  - generic [ref=e458]: Facebook
+              - listitem [ref=e459]:
+                - button "Share on twitter" [ref=e460] [cursor=pointer]:
+                  - generic [ref=e462]: 
+                  - generic [ref=e464]: Twitter
+              - listitem [ref=e465]:
+                - button "Share on linkedin" [ref=e466] [cursor=pointer]:
+                  - generic [ref=e468]: 
+                  - generic [ref=e470]: LinkedIn
+              - listitem [ref=e471]:
+                - button "Share on email" [ref=e472] [cursor=pointer]:
+                  - generic [ref=e474]: 
+                  - generic [ref=e476]: Email
+              - listitem [ref=e477]:
+                - button "Share on whatsapp" [ref=e478] [cursor=pointer]:
+                  - generic [ref=e480]: 
+                  - generic [ref=e482]: WhatsApp
+              - listitem [ref=e483]:
+                - button "Share on print" [ref=e484] [cursor=pointer]:
+                  - generic [ref=e486]: 
+                  - generic [ref=e488]: Tulosta
+            - generic [ref=e493]:
+              - generic [ref=e495]:
+                - img "Pekka asuntosalkunrakentaja" [ref=e498]
+                - list [ref=e501]:
+                  - listitem [ref=e502]:
+                    - link "Facebook" [ref=e503] [cursor=pointer]:
+                      - /url: https://www.facebook.com/asuntosalkunrakentaja/
+                      - generic [ref=e504]: Facebook
+                      - generic [ref=e505]: 
+                  - listitem [ref=e506]:
+                    - link "Linkedin" [ref=e507] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/pekka-v%C3%A4%C3%A4n%C3%A4nen-b439b052/
+                      - generic [ref=e508]: Linkedin
+                      - generic [ref=e509]: 
+                  - listitem [ref=e510]:
+                    - link "Instagram" [ref=e511] [cursor=pointer]:
+                      - /url: https://www.instagram.com/asuntosalkunrakentaja.fi/
+                      - generic [ref=e512]: Instagram
+                      - generic [ref=e513]: 
+                  - listitem [ref=e514]:
+                    - link "Twitter" [ref=e515] [cursor=pointer]:
+                      - /url: https://twitter.com/Asuntosalkunrak
+                      - generic [ref=e516]: Twitter
+                      - generic [ref=e517]: 
+              - generic [ref=e519]:
+                - heading "Pekka Väänänen / Asuntosalkunrakentaja" [level=3] [ref=e522]
+                - paragraph [ref=e525]: Loimme Asuntosalkunrakentaja.fi sivuston, koska haluamme tuottaa lisäarvoa asuntosijoittamisesta kiinnostuneille. Aloitimme sisarusteni kanssa vuonna 2012 yhdestä asunnosta, nyt hankimme kokonaisia kerrostaloja. Pystymme tarjoamaan ostettavaksi tukkuhintaisia asuntoja, koska jaamme määräalennushyödyn asiakkaidemme kanssa. Lisäksi tarjoamme asuntosijoittajien käyttöön ilmaista materiaalia. Mukavaa matkaa asuntosijoittamisen parissa!
+      - generic [ref=e527]:
+        - generic [ref=e530] [cursor=pointer]:
+          - img "sijoitusasuntoja alle markkinahinnan" [ref=e532]
+          - generic [ref=e534]:
+            - heading "Miksi myymme sijoitusasuntoja alle markkinahinnan?" [level=2] [ref=e535]
+            - link "Lue lisää" [ref=e537]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/sijoitusasunto-alle-markkinahinnan/
+        - generic [ref=e540] [cursor=pointer]:
+          - img "Asuntosijoittaminen ekirja" [ref=e542]
+          - generic [ref=e544]:
+            - 'heading "Lataa ilmainen e-kirja: Näin sijoitat menestyksekkäästi asuntoihin" [level=2] [ref=e545]':
+              - text: "Lataa ilmainen e-kirja:"
+              - text: Näin sijoitat menestyksekkäästi asuntoihin
+            - link "Lue lisää" [ref=e547]:
+              - /url: https://asuntosalkunrakentaja.fi/lataa-e-kirja/
+        - generic [ref=e549]:
+          - heading "Hyödyllisiä lähteitä asuntosijoittamisen tueksi:" [level=3] [ref=e550]
+          - paragraph [ref=e551]:
+            - strong [ref=e552]:
+              - link "Muuttoliiketilastot – Tilastokeskus" [ref=e554] [cursor=pointer]:
+                - /url: https://stat.fi/tilasto/muutl
+            - text: Tutustu muuttoliikkeen ajankohtaisiin tilastotietoihin Suomessa.
+          - paragraph [ref=e555]:
+            - strong [ref=e557]:
+              - link "MDI Väestöennuste" [ref=e558] [cursor=pointer]:
+                - /url: https://www.mdi.fi/vaestoennuste/
+            - text: Väestönkehitystä koskevat ennusteet kunnittain ja alueittain. Tietoa tulevaisuuden väestörakenteista.
+          - paragraph [ref=e559]:
+            - link "Korkojen kehitys ja Euribor-korot" [ref=e561] [cursor=pointer]:
+              - /url: https://www.suomenpankki.fi/fi/Tilastot/korot/kuviot/korot_kuviot/euriborkorot_pv_chrt_fi/
+              - strong [ref=e562]: Korkojen kehitys ja Euribor-korot
+            - text: Seuraa ajankohtaisia Euribor-korkojen kehityksiä ja niiden vaikutusta lainamarkkinoihin.
+          - paragraph [ref=e563]:
+            - strong [ref=e565]:
+              - link "Rakentaminen ja asuminen – Tilastokeskus" [ref=e566] [cursor=pointer]:
+                - /url: https://stat.fi/aihe/asuminen-ja-rakentaminen
+            - text: Ajantasaiset tilastotiedot rakentamisesta ja asumisesta Suomessa.
+          - paragraph [ref=e567]:
+            - strong [ref=e569]:
+              - link "Asuntojen hintatilastot – Tilastokeskus" [ref=e570] [cursor=pointer]:
+                - /url: https://stat.fi/tilasto/ashi
+            - text: Asuntojen hintakehityksen tilastot ja analyysit eri puolilla Suomea.
+        - heading "Seuraa Somessa" [level=2] [ref=e573]
+        - list [ref=e576]:
+          - listitem [ref=e577]:
+            - link "Facebook-f" [ref=e578] [cursor=pointer]:
+              - /url: https://www.facebook.com/asuntosalkunrakentaja/
+              - generic [ref=e579]: Facebook-f
+              - generic [ref=e580]: 
+          - listitem [ref=e581]:
+            - link "Youtube" [ref=e582] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Asuntosalkunrakentaja
+              - generic [ref=e583]: Youtube
+              - generic [ref=e584]: 
+          - listitem [ref=e585]:
+            - link "X-twitter" [ref=e586] [cursor=pointer]:
+              - /url: https://x.com/Asuntosalkunrak/
+              - generic [ref=e587]: X-twitter
+              - generic [ref=e588]: 
+          - listitem [ref=e589]:
+            - link "Instagram" [ref=e590] [cursor=pointer]:
+              - /url: https://www.instagram.com/asuntosalkunrakentaja.fi/
+              - generic [ref=e591]: Instagram
+              - generic [ref=e592]: 
+          - listitem [ref=e593]:
+            - link "Linkedin" [ref=e594] [cursor=pointer]:
+              - /url: https://fi.linkedin.com/company/asuntosalkunrakentaja
+              - generic [ref=e595]: Linkedin
+              - generic [ref=e596]: 
+        - heading "Aiemmat blogikirjoitukset" [level=2] [ref=e599]
+        - list [ref=e602]:
+          - listitem [ref=e603]:
+            - link "Täydellinen sijoitusasunto" [ref=e604] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/taydellinen-sijoitusasunto/
+              - img "Täydellinen sijoitusasunto" [ref=e606]
+            - heading "Täydellinen sijoitusasunto" [level=3] [ref=e608]:
+              - link "Täydellinen sijoitusasunto" [ref=e609] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/taydellinen-sijoitusasunto/
+          - listitem [ref=e610]:
+            - link "Asuntorahastot kriisissä" [ref=e611] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntorahastot-kriisissa-hurraa-kohta-kaikki-paasee-ostamaan-alennushintaisia-asuntoja-ei-muuten-paase/
+              - img "Asuntorahastot kriisissä" [ref=e613]
+            - heading "Asuntorahastot kriisissä – hurraa, kohta kaikki pääsee ostamaan alennushintaisia asuntoja? Ei muuten pääse!" [level=3] [ref=e615]:
+              - link "Asuntorahastot kriisissä – hurraa, kohta kaikki pääsee ostamaan alennushintaisia asuntoja? Ei muuten pääse!" [ref=e616] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntorahastot-kriisissa-hurraa-kohta-kaikki-paasee-ostamaan-alennushintaisia-asuntoja-ei-muuten-paase/
+          - listitem [ref=e617]:
+            - link "asuntomarkkinat" [ref=e618] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntomarkkinoilla-viitteita-kaanteesta-kaytetyt-asunnot-kayvat-kaupaksi-ja-sijoittajat-palaamassa-korkojen-laskiessa/
+              - img "asuntomarkkinat" [ref=e620]
+            - 'heading "Asuntomarkkinoilla viitteitä käänteestä: käytetyt asunnot käyvät kaupaksi ja sijoittajat palaamassa korkojen laskiessa" [level=3] [ref=e622]':
+              - 'link "Asuntomarkkinoilla viitteitä käänteestä: käytetyt asunnot käyvät kaupaksi ja sijoittajat palaamassa korkojen laskiessa" [ref=e623] [cursor=pointer]':
+                - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntomarkkinoilla-viitteita-kaanteesta-kaytetyt-asunnot-kayvat-kaupaksi-ja-sijoittajat-palaamassa-korkojen-laskiessa/
+          - listitem [ref=e624]:
+            - link "Asuntomarkkinat elpyvät – Kauppamäärät ja hinnat kasvussa" [ref=e625] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntopuntari-syksy-2024-korot-laskussa-kauppamaarat-ja-hinnat-kaantyneet-nousuun/
+              - img "Asuntomarkkinat elpyvät – Kauppamäärät ja hinnat kasvussa" [ref=e627]
+            - 'heading "Asuntopuntari / syksy 2024: Korot laskussa – Kauppamäärät ja hinnat kääntyneet nousuun" [level=3] [ref=e629]':
+              - 'link "Asuntopuntari / syksy 2024: Korot laskussa – Kauppamäärät ja hinnat kääntyneet nousuun" [ref=e630] [cursor=pointer]':
+                - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntopuntari-syksy-2024-korot-laskussa-kauppamaarat-ja-hinnat-kaantyneet-nousuun/
+          - listitem [ref=e631]:
+            - link "Kymmenen vuotta ja kymmenen miljoonaa" [ref=e632] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/kymmenen-vuotta-ja-kymmenen-miljoonaa/
+              - img "Kymmenen vuotta ja kymmenen miljoonaa" [ref=e634]
+            - heading "”Kymmenen vuotta ja kymmenen miljoonaa”" [level=3] [ref=e636]:
+              - link "”Kymmenen vuotta ja kymmenen miljoonaa”" [ref=e637] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/kymmenen-vuotta-ja-kymmenen-miljoonaa/
+          - listitem [ref=e638]:
+            - link [ref=e639] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/asuntomarkkinavuosi-2024/
+            - heading "Asuntomarkkinavuosi 2024" [level=3] [ref=e642]:
+              - link "Asuntomarkkinavuosi 2024" [ref=e643] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/asuntomarkkinavuosi-2024/
+          - listitem [ref=e644]:
+            - link [ref=e645] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/asuntosijoittajat-vastaavat-korot-laskee-ja-ostohaluja-loytyy/
+            - 'heading "Asuntosijoittajat vastaavat: Korot laskee ja ostohaluja löytyy" [level=3] [ref=e648]':
+              - 'link "Asuntosijoittajat vastaavat: Korot laskee ja ostohaluja löytyy" [ref=e649] [cursor=pointer]':
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/asuntosijoittajat-vastaavat-korot-laskee-ja-ostohaluja-loytyy/
+          - listitem [ref=e650]:
+            - link "sijoitusasunnon rahoitus" [ref=e651] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/sijoitusasunnon-rahoitus/
+              - img "sijoitusasunnon rahoitus" [ref=e653]
+            - heading "Sijoitusasunnon rahoitus – Opas aloittelevalle asuntosijoittajalle" [level=3] [ref=e655]:
+              - link "Sijoitusasunnon rahoitus – Opas aloittelevalle asuntosijoittajalle" [ref=e656] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/sijoitusasunnon-rahoitus/
+    - navigation "Post Navigation" [ref=e663]:
+      - link "Prev Edellinen Sijoitusasuntojen vuokraus vai vuokrakoteihin sijoittaminen?" [ref=e665] [cursor=pointer]:
+        - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/sijoitusasunnon-vuokraus/
+        - generic [ref=e666]:
+          - generic [ref=e667]: 
+          - generic [ref=e668]: Prev
+        - generic [ref=e669]:
+          - generic [ref=e670]: Edellinen
+          - generic [ref=e671]: Sijoitusasuntojen vuokraus vai vuokrakoteihin sijoittaminen?
+      - link "Seuraava Vuokrasopimuksen irtisanominen & purkaminen Next" [ref=e673] [cursor=pointer]:
+        - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/vuokrasopimuksen-irtisanominen-purkaminen/
+        - generic [ref=e674]:
+          - generic [ref=e675]: Seuraava
+          - generic [ref=e676]: Vuokrasopimuksen irtisanominen & purkaminen
+        - generic [ref=e677]:
+          - generic [ref=e678]: 
+          - generic [ref=e679]: Next
+  - contentinfo [ref=e680]:
+    - generic [ref=e682]:
+      - generic [ref=e684]:
+        - heading "Viimeisimmat artikkelit" [level=2] [ref=e687]
+        - list [ref=e690]:
+          - listitem [ref=e691]:
+            - link "Täydellinen sijoitusasunto" [ref=e692] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/taydellinen-sijoitusasunto/
+              - img "Täydellinen sijoitusasunto" [ref=e694]
+            - generic [ref=e695]:
+              - heading "Täydellinen sijoitusasunto" [level=3] [ref=e696]:
+                - link "Täydellinen sijoitusasunto" [ref=e697] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/taydellinen-sijoitusasunto/
+              - paragraph [ref=e699]: "Mielikuvissa loistaa ajatus täydellisestä sijoitusasunnosta: “Se tulee vielä"
+          - listitem [ref=e700]:
+            - link "Asuntorahastot kriisissä" [ref=e701] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntorahastot-kriisissa-hurraa-kohta-kaikki-paasee-ostamaan-alennushintaisia-asuntoja-ei-muuten-paase/
+              - img "Asuntorahastot kriisissä" [ref=e703]
+            - generic [ref=e704]:
+              - heading "Asuntorahastot kriisissä – hurraa, kohta kaikki pääsee ostamaan alennushintaisia asuntoja? Ei muuten pääse!" [level=3] [ref=e705]:
+                - link "Asuntorahastot kriisissä – hurraa, kohta kaikki pääsee ostamaan alennushintaisia asuntoja? Ei muuten pääse!" [ref=e706] [cursor=pointer]:
+                  - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntorahastot-kriisissa-hurraa-kohta-kaikki-paasee-ostamaan-alennushintaisia-asuntoja-ei-muuten-paase/
+              - paragraph [ref=e708]: Avoimien asuntorahastojen sulkeminen on viime aikoina herättänyt paljon
+          - listitem [ref=e709]:
+            - link "asuntomarkkinat" [ref=e710] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntomarkkinoilla-viitteita-kaanteesta-kaytetyt-asunnot-kayvat-kaupaksi-ja-sijoittajat-palaamassa-korkojen-laskiessa/
+              - img "asuntomarkkinat" [ref=e712]
+            - generic [ref=e713]:
+              - 'heading "Asuntomarkkinoilla viitteitä käänteestä: käytetyt asunnot käyvät kaupaksi ja sijoittajat palaamassa korkojen laskiessa" [level=3] [ref=e714]':
+                - 'link "Asuntomarkkinoilla viitteitä käänteestä: käytetyt asunnot käyvät kaupaksi ja sijoittajat palaamassa korkojen laskiessa" [ref=e715] [cursor=pointer]':
+                  - /url: https://asuntosalkunrakentaja.fi/asuntomarkkinat/asuntomarkkinoilla-viitteita-kaanteesta-kaytetyt-asunnot-kayvat-kaupaksi-ja-sijoittajat-palaamassa-korkojen-laskiessa/
+              - paragraph [ref=e717]: Viimeisen kuukauden aikana ollaan saatu taas uusia viitteitä
+      - generic [ref=e719]:
+        - heading "Lataa ilmainen e-kirja" [level=2] [ref=e722]
+        - generic [ref=e724]:
+          - link [ref=e725] [cursor=pointer]:
+            - /url: https://asuntosalkunrakentaja.fi/lataa-e-kirja/
+          - paragraph [ref=e726]:
+            - link "Yli 50 sivua asuntosijoittamisesta!" [ref=e729] [cursor=pointer]:
+              - /url: https://asuntosalkunrakentaja.fi/lataa-e-kirja/
+      - generic [ref=e731]:
+        - heading "Tutustu sijoitusasuntoihin" [level=2] [ref=e734]
+        - generic [ref=e736]:
+          - link [ref=e737] [cursor=pointer]:
+            - /url: https://asuntosalkunrakentaja.fi/sisapiiri/
+          - link "Liity sisäpiiriin ja tutustu myytäviin sijoitusasuntoihin!" [ref=e739] [cursor=pointer]:
+            - /url: https://asuntosalkunrakentaja.fi/sisapiiri/
+      - generic [ref=e741]:
+        - heading "Ota yhteyttä" [level=2] [ref=e744]
+        - generic [ref=e746]:
+          - paragraph [ref=e747]: Jos koet, että voisimme tehdä yhteistyötä asuntosijoittamiseen liittyvissä asioissa niin ota rohkeasti yhteyttä
+          - paragraph [ref=e748]:
+            - strong [ref=e749]: Sibvest Oy
+            - text: 044 2300 694
+            - text: info[at]asuntosalkunrakentaja.fi
+    - generic [ref=e755]:
+      - heading "Copyright © 2026 Asuntosalkunrakentaja.fi | Sibvest Oy | 044 2300 694 | info [at] asuntosalkunrakentaja.fi" [level=5] [ref=e756]:
+        - generic [ref=e757]:
+          - generic [ref=e758]: Copyright © 2026 Asuntosalkunrakentaja.fi | Sibvest Oy | 044 2300 694 | info [at] asuntosalkunraken
+          - text: taja.fi
+      - paragraph [ref=e759]:
+        - link "Tietosuojaseloste" [ref=e761] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/tietosuojaseloste/
+    - generic [ref=e763]:
+      - paragraph [ref=e768]:
+        - link "Etusivu" [ref=e770] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/
+      - paragraph [ref=e775]:
+        - link "Sisäpiiri" [ref=e777] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/sisapiiri/
+      - paragraph [ref=e782]:
+        - link "Blogi" [ref=e784] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen-blogi-2/
+      - paragraph [ref=e789]:
+        - link "E-kirja" [ref=e791] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/lataa-e-kirja/
+      - paragraph [ref=e796]:
+        - link "Asuntosijoittaminen" [ref=e798] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/opas-asuntosijoittamiseen/
+      - paragraph [ref=e803]:
+        - link "Yritys" [ref=e805] [cursor=pointer]:
+          - /url: https://asuntosalkunrakentaja.fi/tiimi/
+    - list [ref=e812]:
+      - listitem [ref=e813]:
+        - link "Facebook" [ref=e814] [cursor=pointer]:
+          - /url: https://www.facebook.com/asuntosalkunrakentaja
+          - generic [ref=e815]: Facebook
+          - generic [ref=e816]: 
+      - listitem [ref=e817]:
+        - link "Instagram" [ref=e818] [cursor=pointer]:
+          - /url: https://www.instagram.com/asuntosalkunrakentaja.fi/
+          - generic [ref=e819]: Instagram
+          - generic [ref=e820]: 
+      - listitem [ref=e821]:
+        - link "Twitter" [ref=e822] [cursor=pointer]:
+          - /url: https://twitter.com/Asuntosalkunrak/
+          - generic [ref=e823]: Twitter
+          - generic [ref=e824]: 
+      - listitem [ref=e825]:
+        - link "Youtube" [ref=e826] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCVxfAlVSfnpk9dA5Q9pJFqg
+          - generic [ref=e827]: Youtube
+          - generic [ref=e828]: 
+      - listitem [ref=e829]:
+        - link "Linkedin" [ref=e830] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/79774009/
+          - generic [ref=e831]: Linkedin
+          - generic [ref=e832]: 
+  - generic [ref=e833]: tablet

@@ -1,0 +1,338 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e4]:
+      - 'heading "Special Offer: Renew your A2 remote pilot certificate in April for just 29 EUR instead of 69 EUR. Order now" [level=3] [ref=e13]':
+        - 'link "Special Offer: Renew your A2 remote pilot certificate in April for just 29 EUR instead of 69 EUR. Order now" [ref=e14] [cursor=pointer]':
+          - /url: https://droniq.de/en/produkte/fernpiloten-zeugnis-a2-auffrischungs-schulung/
+          - strong [ref=e15]: "Special Offer: Renew your A2 remote pilot certificate in April for just 29 EUR instead of 69 EUR."
+          - strong [ref=e16]:
+            - generic [ref=e17]: Order now
+      - generic [ref=e20]:
+        - link [ref=e22] [cursor=pointer]:
+          - /url: https://droniq.de/en/
+          - img [ref=e23]
+        - button "Toggle navigation" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+    - main [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e48]:
+          - link "Nicolas Koch Caroline Brandis André Voigt Jan Westhoff Free initial consultation Book an appointment now" [ref=e49] [cursor=pointer]:
+            - /url: https://outlook.office.com/book/DroniqVertriebsteam@droniq.de/
+            - generic [ref=e50]:
+              - img "Nicolas Koch" [ref=e51]
+              - img "Caroline Brandis" [ref=e52]
+              - img "André Voigt" [ref=e53]
+              - img "Jan Westhoff" [ref=e54]
+            - generic [ref=e55]:
+              - text: Free initial consultation
+              - text: Book an appointment now
+          - img [ref=e57]
+        - generic [ref=e61]:
+          - paragraph [ref=e64]: INFORMATION ON THE
+          - heading "Drone driver's license" [level=1] [ref=e67]
+          - 'heading "Remote pilot certificates A1/A3, A2, or STS in comparison— : What qualifications and certificates do you really need as a remote pilot?" [level=2] [ref=e70]':
+            - text: Remote pilot certificates A1/A3, A2, or STS in comparison—
+            - text: ": What qualifications and certificates do you really need as a remote pilot?"
+        - generic [ref=e72]:
+          - link "EU certificate of competence (A1/A3) - Open category Online course and examination of the Luftfahrt Bundesamt (LBA)" [ref=e78] [cursor=pointer]:
+            - /url: https://lba-openuav.de/
+            - img [ref=e80]
+            - generic [ref=e82]:
+              - generic [ref=e84]: EU certificate of competence (A1/A3) - Open category
+              - paragraph [ref=e87]: Online course and examination of the Luftfahrt Bundesamt (LBA)
+          - link "EU Remote Pilot Certificate (A2) - Open Category Online exam & e-learning for drone license A2" [ref=e93] [cursor=pointer]:
+            - /url: https://droniq.de/en/produkte/drohnenfuehrerschein-a2-online-pruefung/
+            - img [ref=e95]
+            - generic [ref=e97]:
+              - generic [ref=e99]: EU Remote Pilot Certificate (A2) - Open Category
+              - paragraph [ref=e102]: Online exam & e-learning for drone license A2
+          - link "EU Remote Pilot Certificate (A2) - Open Category Presence exam incl. e-learning for drone license A2" [ref=e108] [cursor=pointer]:
+            - /url: https://droniq.de/en/fernpilotenzeugnis-a2/
+            - img [ref=e110]
+            - generic [ref=e112]:
+              - generic [ref=e114]: EU Remote Pilot Certificate (A2) - Open Category
+              - paragraph [ref=e117]: Presence exam incl. e-learning for drone license A2
+        - generic [ref=e119]:
+          - link "EU Remote Pilot Certificate (A2) - Open Category Refresher course as e-learning for drone license A2" [ref=e125] [cursor=pointer]:
+            - /url: https://droniq.de/en/produkte/fernpiloten-zeugnis-a2-auffrischungs-schulung/
+            - img [ref=e127]
+            - generic [ref=e129]:
+              - generic [ref=e131]: EU Remote Pilot Certificate (A2) - Open Category
+              - paragraph [ref=e134]: Refresher course as e-learning for drone license A2
+          - link "BOS knowledge for remote pilots - Open category E-learning as further training for BOS staff" [ref=e140] [cursor=pointer]:
+            - /url: https://droniq.de/en/produkte/schulungen/bos-wissen-fuer-fernpiloten/
+            - img [ref=e142]
+            - generic [ref=e144]:
+              - generic [ref=e146]: BOS knowledge for remote pilots - Open category
+              - paragraph [ref=e149]: E-learning as further training for BOS staff
+        - generic [ref=e151]:
+          - link "EASA mandatory training - special category Compulsory training for UAS operation in the special category" [ref=e157] [cursor=pointer]:
+            - /url: https://droniq.de/en/produkte/schulungen/uas-betrieb-spezielle-kategorie/
+            - img [ref=e159]
+            - generic [ref=e161]:
+              - generic [ref=e163]: EASA mandatory training - special category
+              - paragraph [ref=e166]: Compulsory training for UAS operation in the special category
+          - link "EU Remote Pilot Certificate (STS) - Special Category Online exam & e-learning for the STS drone license" [ref=e172] [cursor=pointer]:
+            - /url: https://droniq.de/en/produkte/fernpilotenzeugnis-sts-online-pruefung/
+            - img [ref=e174]
+            - generic [ref=e176]:
+              - generic [ref=e178]: EU Remote Pilot Certificate (STS) - Special Category
+              - paragraph [ref=e181]: Online exam & e-learning for the STS drone license
+          - link "EU Remote Pilot Certificate (STS) - Special Category Refresher training as e-learning for the STS drone license" [ref=e187] [cursor=pointer]:
+            - /url: https://droniq.de/en/produkte/fernpilotenzeugnis-sts-online-pruefung/
+            - img [ref=e189]
+            - generic [ref=e191]:
+              - generic [ref=e193]: EU Remote Pilot Certificate (STS) - Special Category
+              - paragraph [ref=e196]: Refresher training as e-learning for the STS drone license
+        - generic [ref=e200]:
+          - heading "Overview of drone license prices:" [level=2] [ref=e203]
+          - generic [ref=e205]:
+            - paragraph [ref=e206]: "Our price comparison shows the price of the respective drone licenses/certificates and bundles:"
+            - table [ref=e208]:
+              - rowgroup [ref=e209]:
+                - row "Drone driver's license Operator Includes Prices" [ref=e210]:
+                  - columnheader "Drone driver's license" [ref=e211]
+                  - columnheader "Operator" [ref=e212]
+                  - columnheader "Includes" [ref=e213]
+                  - columnheader "Prices" [ref=e214]
+              - rowgroup [ref=e215]:
+                - row "EU certificate of competence (A1/A3) Federal Aviation Office Online exam incl. online training 25,00 € incl. VAT." [ref=e216]:
+                  - cell "EU certificate of competence (A1/A3)" [ref=e217]
+                  - cell "Federal Aviation Office" [ref=e218]
+                  - cell "Online exam incl. online training" [ref=e219]
+                  - cell "25,00 € incl. VAT." [ref=e220]
+                - row "EU Remote Pilot Certificate (A2) - Online Droniq Online exam incl. e-learning 95,00 € incl. VAT." [ref=e221]:
+                  - cell "EU Remote Pilot Certificate (A2) - Online" [ref=e222]
+                  - cell "Droniq" [ref=e223]
+                  - cell "Online exam incl. e-learning" [ref=e224]
+                  - cell "95,00 € incl. VAT." [ref=e225]
+                - row "EU Remote Pilot Certificate (A2) - Presence Droniq Presence exam incl. e-learning 248,00 € incl. VAT." [ref=e226]:
+                  - cell "EU Remote Pilot Certificate (A2) - Presence" [ref=e227]
+                  - cell "Droniq" [ref=e228]
+                  - cell "Presence exam incl. e-learning" [ref=e229]
+                  - cell "248,00 € incl. VAT." [ref=e230]
+                - row "EU Remote Pilot Certificate (A2) - Refresher Training / Refresher Droniq E-Learning €39.00 instead of €69.00 incl. VAT (introductory price until January 31, 2026)" [ref=e231]:
+                  - cell "EU Remote Pilot Certificate (A2) - Refresher Training / Refresher" [ref=e232]
+                  - cell "Droniq" [ref=e233]
+                  - cell "E-Learning" [ref=e234]
+                  - cell "€39.00 instead of €69.00 incl. VAT (introductory price until January 31, 2026)" [ref=e235]
+                - row "UAS operation in the special category (EASA mandatory training) Droniq Online training with certificate of attendance 199,00 € incl. VAT." [ref=e236]:
+                  - cell "UAS operation in the special category (EASA mandatory training)" [ref=e237]
+                  - cell "Droniq" [ref=e238]
+                  - cell "Online training with certificate of attendance" [ref=e239]
+                  - cell "199,00 € incl. VAT." [ref=e240]
+                - row "Remote pilot certificate STS - online theory Droniq Online theory exam incl. e-learning 199,00 € incl. VAT." [ref=e241]:
+                  - cell "Remote pilot certificate STS - online theory" [ref=e242]
+                  - cell "Droniq" [ref=e243]
+                  - cell "Online theory exam incl. e-learning" [ref=e244]
+                  - cell "199,00 € incl. VAT." [ref=e245]
+                - row "Remote Pilot Certificate STS - Refresher Training / Refresher Droniq E-Learning €99.00 incl. VAT" [ref=e246]:
+                  - cell "Remote Pilot Certificate STS - Refresher Training / Refresher" [ref=e247]
+                  - cell "Droniq" [ref=e248]
+                  - cell "E-Learning" [ref=e249]
+                  - cell "€99.00 incl. VAT" [ref=e250]
+        - generic [ref=e254]:
+          - heading "DRONIQ - true expert status" [level=2] [ref=e257]
+          - generic [ref=e259]:
+            - generic [ref=e263]:
+              - paragraph [ref=e264]:
+                - text: DRONIQ specializes in training and testing for the
+                - link "A2" [ref=e265] [cursor=pointer]:
+                  - /url: https://droniq.de/en/produkte/fernpiloten-zeugnis-a2-auffrischungs-schulung/
+                - text: and
+                - link "STS" [ref=e266] [cursor=pointer]:
+                  - /url: https://droniq.de/en/produkte/fernpilotenzeugnis-sts-online-pruefung/
+                - text: drone pilot licenses. As a certified training company and recognized testing center, Droniq offers comprehensive training programs that optimally prepare remote pilots for the theoretical and practical requirements of the EU remote pilot certificate. With many years of experience and in-depth expertise, we ensure that participants not only pass the exams successfully, but also acquire the necessary skills and knowledge to fly drones safely and responsibly.
+              - paragraph [ref=e267]: Our training courses are not only tailored to individuals. Companies also benefit from tailor-made training programs from our trainers. These have been specially tailored to their needs and areas of application. Whether for inspections, agricultural applications or film production - theory training courses are offered that meet the latest standards and offer participants real added value. With Droniq as your partner, you are ideally equipped for the challenges and opportunities that drone flying brings.
+            - img "Droniq driving license experts" [ref=e272]
+        - heading "Our competences" [level=2] [ref=e279]
+    - generic [ref=e285]:
+      - generic [ref=e288] [cursor=pointer]:
+        - link "Support" [ref=e290]:
+          - /url: https://droniq.de/en/support/
+          - img [ref=e291]
+        - link "Support" [ref=e296]:
+          - /url: https://droniq.de/en/support/
+      - generic [ref=e299] [cursor=pointer]:
+        - link "Kontakt" [ref=e301]:
+          - /url: https://droniq.de/en/kontakt/
+          - img [ref=e302]
+        - link "Contact" [ref=e310]:
+          - /url: https://droniq.de/en/kontakt/
+      - generic [ref=e313] [cursor=pointer]:
+        - link "Beratungs-<br />termin" [ref=e315]:
+          - /url: https://outlook.office.com/book/DroniqVertriebsteam@droniq.de/
+          - img [ref=e316]
+        - link "Consultation appointment" [ref=e320]:
+          - /url: https://outlook.office.com/book/DroniqVertriebsteam@droniq.de/
+          - text: Consultation
+          - text: appointment
+    - generic [ref=e322]:
+      - generic [ref=e324]:
+        - img [ref=e327]
+        - img [ref=e335]
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - generic [ref=e342]: Contact
+          - link "Contact form" [ref=e343] [cursor=pointer]:
+            - /url: /en/kontakt/
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - generic [ref=e346]: Newsletter
+            - generic [ref=e347]: Receive regular updates from us.
+          - link "Subscribe to the newsletter now" [ref=e350] [cursor=pointer]:
+            - /url: /en/newsletter/
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - generic [ref=e355]: Legal
+          - list [ref=e356]:
+            - listitem [ref=e357]:
+              - link "Imprint" [ref=e358] [cursor=pointer]:
+                - /url: https://droniq.de/en/impressum/
+            - listitem [ref=e359]:
+              - link "AGB" [ref=e360] [cursor=pointer]:
+                - /url: https://droniq.de/en/agb/
+            - listitem [ref=e361]:
+              - link "Revocation" [ref=e362] [cursor=pointer]:
+                - /url: https://droniq.de/en/widerruf/
+            - listitem [ref=e363]:
+              - link "Privacy" [ref=e364] [cursor=pointer]:
+                - /url: https://droniq.de/en/datenschutz/
+            - listitem [ref=e365]:
+              - link "Disclaimer" [ref=e366] [cursor=pointer]:
+                - /url: https://droniq.de/en/disclaimer/
+            - listitem [ref=e367]:
+              - link "Environmental information" [ref=e368] [cursor=pointer]:
+                - /url: https://droniq.de/en/umwelthinweise/
+            - listitem [ref=e369]:
+              - link "Gender reference" [ref=e370] [cursor=pointer]:
+                - /url: https://droniq.de/en/genderhinweis/
+            - listitem [ref=e371]:
+              - link "Competition" [ref=e372] [cursor=pointer]:
+                - /url: https://droniq.de/en/gewinnspiel/
+          - generic [ref=e373]: News & Events
+          - list [ref=e374]:
+            - listitem [ref=e375]:
+              - link "Blog + News" [ref=e376] [cursor=pointer]:
+                - /url: https://droniq.de/en/blog/
+            - listitem [ref=e377]:
+              - link "Events" [ref=e378] [cursor=pointer]:
+                - /url: https://droniq.de/category/termine-events/
+            - listitem [ref=e379]:
+              - link "Webinars" [ref=e380] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLuzI8z6RGVOklDCzr9SsHlNLE3w7o3fvm
+          - generic [ref=e381]: Product highlights
+          - list [ref=e382]:
+            - listitem [ref=e383]:
+              - link "Online to the remote pilot certificate A2" [ref=e384] [cursor=pointer]:
+                - /url: https://droniq.de/en/produkte/drohnenfuehrerschein-a2-online-pruefung/
+            - listitem [ref=e385]:
+              - link "Drone driver's license" [ref=e386] [cursor=pointer]:
+                - /url: https://droniq.de/en/drohnenfuehrerschein/
+            - listitem [ref=e387]:
+              - 'link "Web App TraX: Subscription models" [ref=e388] [cursor=pointer]':
+                - /url: https://droniq.de/en/trax-abomodelle/
+            - listitem [ref=e389]:
+              - link "Drone services / Drones as a service" [ref=e390] [cursor=pointer]:
+                - /url: https://droniq.de/en/drones-as-a-service/
+            - listitem [ref=e391]:
+              - link "DJI drones" [ref=e392] [cursor=pointer]:
+                - /url: https://droniq.de/en/produkte/drohnen/dji/
+            - listitem [ref=e393]:
+              - link "Drone with thermal imaging camera" [ref=e394] [cursor=pointer]:
+                - /url: https://droniq.de/en/produkte/drohnen/mit-waermebildkamera/
+            - listitem [ref=e395]:
+              - link "Drone in a Box" [ref=e396] [cursor=pointer]:
+                - /url: https://droniq.de/en/produkte/drone-in-a-box-system/dji-dock-2/
+        - generic [ref=e397]:
+          - generic [ref=e398]: Services
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "Contact" [ref=e401] [cursor=pointer]:
+                - /url: https://droniq.de/en/kontakt/
+            - listitem [ref=e402]:
+              - link "FAQ" [ref=e403] [cursor=pointer]:
+                - /url: https://droniq.de/en/faq/
+            - listitem [ref=e404]:
+              - link "Glossary" [ref=e405] [cursor=pointer]:
+                - /url: https://droniq.de/glossar/
+            - listitem [ref=e406]:
+              - link "Shipping and payment" [ref=e407] [cursor=pointer]:
+                - /url: https://droniq.de/en/versand-und-zahlung/
+            - listitem [ref=e408]:
+              - link "Guarantees & Repairs" [ref=e409] [cursor=pointer]:
+                - /url: https://droniq.de/en/garantie/
+            - listitem [ref=e410]:
+              - link "Manufacturer & supplier" [ref=e411] [cursor=pointer]:
+                - /url: https://droniq.de/en/hersteller/
+            - listitem [ref=e412]:
+              - link "Cancellation of subscriptions" [ref=e413] [cursor=pointer]:
+                - /url: https://droniq.de/en/kuendigung-abo/
+          - generic [ref=e414]: Company
+          - list [ref=e415]:
+            - listitem [ref=e416]:
+              - link "Blog" [ref=e417] [cursor=pointer]:
+                - /url: https://droniq.de/en/blog/
+            - listitem [ref=e418]:
+              - link "About us" [ref=e419] [cursor=pointer]:
+                - /url: https://droniq.de/en/ueber-uns/
+            - listitem [ref=e420]:
+              - link "Career" [ref=e421] [cursor=pointer]:
+                - /url: https://droniq.de/en/karriere/
+            - listitem [ref=e422]:
+              - link "Team" [ref=e423] [cursor=pointer]:
+                - /url: https://droniq.de/en/team/
+            - listitem [ref=e424]:
+              - link "Press" [ref=e425] [cursor=pointer]:
+                - /url: https://droniq.de/en/presse/
+            - listitem [ref=e426]:
+              - link "Awards & achievements" [ref=e427] [cursor=pointer]:
+                - /url: https://droniq.de/en/auszeichnungen-awards/
+        - generic [ref=e428]:
+          - generic [ref=e429]:
+            - generic [ref=e430]: Follow us
+            - generic [ref=e431]:
+              - link [ref=e432] [cursor=pointer]:
+                - /url: https://www.instagram.com/droniq.de/
+                - img [ref=e433]
+              - link [ref=e437] [cursor=pointer]:
+                - /url: https://www.facebook.com/droniq.de/
+                - img [ref=e438]
+              - link [ref=e440] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/droniq
+                - img [ref=e441]
+              - link [ref=e443] [cursor=pointer]:
+                - /url: https://de.linkedin.com/company/droniq
+                - img [ref=e444]
+          - generic [ref=e446]:
+            - generic [ref=e447]: Droniq App
+            - generic [ref=e448]:
+              - link [ref=e449] [cursor=pointer]:
+                - /url: https://apps.apple.com/de/app/droniq-app/id1541813194
+                - img [ref=e450]
+              - link [ref=e453] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=de.droniq.droniqapp
+                - img [ref=e454]
+  - generic [ref=e464]: mobile_extra
+  - 'complementary "Language selected: English" [ref=e465]':
+    - 'option "Language switcher : German" [ref=e466]':
+      - 'option "Language switcher : German" [ref=e467] [cursor=pointer]'
+  - dialog "Cookie banner":
+    - generic [ref=e471]:
+      - generic [ref=e472]:
+        - heading "We use cookies" [level=2] [ref=e474]
+        - paragraph [ref=e477]:
+          - paragraph [ref=e478]:
+            - text: We may place these for analysis of our visitor data, to improve our website, show personalised content and to give you a great website experience. For more information about the cookies we use open the settings.
+            - link "Privacy Policy" [ref=e479] [cursor=pointer]:
+              - /url: https://droniq.de/en/datenschutz/
+            - text: "|"
+            - link "Imprint" [ref=e480] [cursor=pointer]:
+              - /url: https://droniq.de/en/impressum/
+      - generic [ref=e482]:
+        - button "Accept all cookies" [ref=e484] [cursor=pointer]:
+          - generic [ref=e485]: Accept all
+        - button "Adjust cookie preferences" [ref=e487] [cursor=pointer]:
+          - generic [ref=e488]: No, adjust

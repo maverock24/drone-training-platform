@@ -1,0 +1,283 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:danskebank.fi osakekauppa välityspalkkio hinnasto site:danskebank.fi osakekauppa välityspalkkio hinnasto
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:danskebank.fi%2Bosakekauppa%2Bv%25C3%25A4lityspalkkio%2Bhinnasto&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sca_esv=abbb0aaa8824193d&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&aep=1&ntc=1&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8QtKgLegQIFBAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8QtKgLegQIExAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Qs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Qs6gLegQIEBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q0pQJegQIERAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:danskebank.fi%2Bosakekauppa%2Bv%25C3%25A4lityspalkkio%2Bhinnasto&hl=en&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8QhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8QiIQCKAN6BAgNEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Tulokset internetistä" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Arvopaperipalveluiden palvelumaksut Danske Bank https://danskebank.fi › danske-bank › sijoittaminen" [ref=e154] [cursor=pointer]:
+                - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/list-of-fees-for-securities-services.pdf?rev=f9a08cf20a9f45cc99536126d275acaa&hash=263824593363D6A35BE27096B3F8AB9D
+                - heading "Arvopaperipalveluiden palvelumaksut" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Danske Bank
+                  - generic [ref=e164]: https://danskebank.fi › danske-bank › sijoittaminen
+              - generic [ref=e165]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e166] [cursor=pointer]:
+                - img [ref=e169]
+            - generic [ref=e172]: Joukko- ja indeksilainojen jälkimarkkinakaupasta pankki perii palkkion, joka on enintään 4 prosenttia kauppahinnasta. Uusmerkintöjen osalta palkkiot ja kulut ...
+        - generic [ref=e176]:
+          - generic [ref=e179]:
+            - link "Millä summalla kannattaa ostaa osakkeita? Danske Bank https://danskebank.fi › sinulle › oppaat › milla-summall..." [ref=e181] [cursor=pointer]:
+              - /url: https://danskebank.fi/sinulle/saastaminen-ja-sijoittaminen/oppaat/milla-summalla-kannattaa-ostaa-osakkeita
+              - heading "Millä summalla kannattaa ostaa osakkeita?" [level=3] [ref=e182]
+              - generic [ref=e187]:
+                - generic [ref=e189]: Danske Bank
+                - generic [ref=e191]: https://danskebank.fi › sinulle › oppaat › milla-summall...
+            - button "Tietoja tästä tuloksesta" [ref=e192] [cursor=pointer]:
+              - img [ref=e195]
+          - generic [ref=e199]:
+            - emphasis [ref=e200]: Välityspalkkio vaihtelee 0,08–0,2 % välillä
+            - text: . Minimiveloitus on 2–8 euroa ... Tämä ei ole täydellinen selvitys Danske Kaupankäynti Onlinesta, Osakesäästötilistä, ...
+        - generic [ref=e204]:
+          - generic [ref=e207]:
+            - link "Danske Kaupankäynti Online -palvelun hinnoittelurakenne Danske Bank https://danskebank.fi › danske-bank › sijoittaminen" [ref=e209] [cursor=pointer]:
+              - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/danske-kaupankaeynti-online_hinnasto.pdf?rev=2d9e616048f24c1b8f0f2b9cb4f6499d&hash=C4EA53CB023950335ACB110871FFB39F
+              - heading "Danske Kaupankäynti Online -palvelun hinnoittelurakenne" [level=3] [ref=e210]
+              - generic [ref=e215]:
+                - generic [ref=e217]: Danske Bank
+                - generic [ref=e219]: https://danskebank.fi › danske-bank › sijoittaminen
+            - generic [ref=e220]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e221] [cursor=pointer]:
+              - img [ref=e224]
+          - generic [ref=e228]:
+            - emphasis [ref=e229]: 8 EUR /kauppa
+            - text: . Välityspalkkiot määräytyvät kaupankäynnin volyymin mukaan. **. Kaupankäynnin volyymi. Hinta. Danske Kaupankäynti Online -palvelun ...
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - link "Osakkeet ja osakesijoittaminen Danske Bank https://danskebank.fi › sinulle › tuotteet › osakkeet" [ref=e238] [cursor=pointer]:
+              - /url: https://danskebank.fi/sinulle/saastaminen-ja-sijoittaminen/tuotteet/osakkeet
+              - heading "Osakkeet ja osakesijoittaminen" [level=3] [ref=e239]
+              - generic [ref=e244]:
+                - generic [ref=e246]: Danske Bank
+                - generic [ref=e248]: https://danskebank.fi › sinulle › tuotteet › osakkeet
+            - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+              - img [ref=e252]
+          - generic [ref=e256]:
+            - text: Osakesijoittaminen Danske Bankissa. Edullista osakekauppaa globaalisti –
+            - emphasis [ref=e257]: välityspalkkiot alk. 2 € kaikille 25 kaupankäynnin kohteena olevalle markkinalle
+            - text: .
+        - generic [ref=e261]:
+          - generic [ref=e264]:
+            - link "Sijoitusneuvonta - Sijoitusneuvojan palvelut Danske Bank https://danskebank.fi › saastaminen-ja-sijoittaminen › sij..." [ref=e266] [cursor=pointer]:
+              - /url: https://danskebank.fi/sinulle/saastaminen-ja-sijoittaminen/palvelut/sijoitusneuvonta
+              - heading "Sijoitusneuvonta - Sijoitusneuvojan palvelut" [level=3] [ref=e267]
+              - generic [ref=e272]:
+                - generic [ref=e274]: Danske Bank
+                - generic [ref=e276]: https://danskebank.fi › saastaminen-ja-sijoittaminen › sij...
+            - button "Tietoja tästä tuloksesta" [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+          - generic [ref=e283]: Yksilöllinen, Laaja ; Sijoitettava summa, €, 10 000, 150 000, 300 000, 10 000 ; Neuvontapalkkio,. €/kk sis. alv 25,5 %. 200, 200, 232,5, 20,60 ...
+        - generic [ref=e287]:
+          - generic [ref=e290]:
+            - link "Osakesäästötilin hinnoittelurakenne Danske Bank https://danskebank.fi › danske-bank › sijoittaminen" [ref=e292] [cursor=pointer]:
+              - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/osakesaeaestoetilin-hinnoittelurakenne---danske-bank.pdf?rev=905a0eeb1a0b419ca481606f94f6bf45&hash=2A77D3139B6B43C0E4759D36ED301F00
+              - heading "Osakesäästötilin hinnoittelurakenne" [level=3] [ref=e293]
+              - generic [ref=e298]:
+                - generic [ref=e300]: Danske Bank
+                - generic [ref=e302]: https://danskebank.fi › danske-bank › sijoittaminen
+            - generic [ref=e303]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e304] [cursor=pointer]:
+              - img [ref=e307]
+          - generic [ref=e310]: "Danske Säännöllisen Säästämisen toimeksiannoista veloitettavat välityspalkkiot. Kaikki toimeksiannot. 0,20 %,. Ei minimipalkkiota. Hallinnointikulu: 2 EUR/kk ..."
+        - generic [ref=e314]:
+          - generic [ref=e317]:
+            - link "Danske Kaupankäynti Online, hinnasto Danske Bank https://danskebank.fi › danske-bank › sijoittaminen" [ref=e319] [cursor=pointer]:
+              - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/package-fee-description-trade_final.pdf?rev=96b145762f2342cf829978d8c3565e76&hash=A31DAAC73A8FF1C98085751B64D3EB57
+              - heading "Danske Kaupankäynti Online, hinnasto" [level=3] [ref=e320]
+              - generic [ref=e325]:
+                - generic [ref=e327]: Danske Bank
+                - generic [ref=e329]: https://danskebank.fi › danske-bank › sijoittaminen
+            - generic [ref=e330]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e331] [cursor=pointer]:
+              - img [ref=e334]
+          - generic [ref=e337]: Rahastojen palkkiot ilmenevät rahastojen hinnastosta, rahastoesiteestä ja avaintietoesitteestä. Danske Bank ei saa tähän sopimukseen liittyen välityspalkkioiden ...
+        - generic [ref=e341]:
+          - generic [ref=e344]:
+            - link "Usein kysyttyä Osakesäästötilistä Danske Bank https://danskebank.fi › asiakaspalvelu › osakesaastotili" [ref=e346] [cursor=pointer]:
+              - /url: https://danskebank.fi/sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/osakesaastotili
+              - heading "Usein kysyttyä Osakesäästötilistä" [level=3] [ref=e347]
+              - generic [ref=e352]:
+                - generic [ref=e354]: Danske Bank
+                - generic [ref=e356]: https://danskebank.fi › asiakaspalvelu › osakesaastotili
+            - button "Tietoja tästä tuloksesta" [ref=e357] [cursor=pointer]:
+              - img [ref=e360]
+          - generic [ref=e364]:
+            - text: Osakesäästötilin hallinnointikulu on 2 euroa kuukaudessa (sis. alv 24 %).
+            - emphasis [ref=e365]: Välityspalkkio
+            - text: perustuu kaupankäynnin volyymiin. Välityspalkkiotasoja on kolme, ja ...
+        - generic [ref=e369]:
+          - generic [ref=e372]:
+            - link "Osakesäästötilin palveluhinnasto Danske Bank https://danskebank.fi › danske-bank › sijoittaminen" [ref=e374] [cursor=pointer]:
+              - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/osakesaeaestoetilin-palveluhinnasto.pdf?rev=76797bf59ae344ffb24ec3d611c6b165&hash=E9DE1D024A8E0A85BD67A44E3F2D82CE
+              - heading "Osakesäästötilin palveluhinnasto" [level=3] [ref=e375]
+              - generic [ref=e380]:
+                - generic [ref=e382]: Danske Bank
+                - generic [ref=e384]: https://danskebank.fi › danske-bank › sijoittaminen
+            - generic [ref=e385]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e386] [cursor=pointer]:
+              - img [ref=e389]
+          - generic [ref=e393]:
+            - text: Sijoituskohteiden ja -palveluiden palkkiot. Osakesäästötilisopimukseen kuuluvien sijoituskohtei- ... OSAKESÄÄSTÖTILISOPIMUKSEN
+            - emphasis [ref=e394]: HINNASTO
+            - text: . 1.1.2025.
+          - generic [ref=e396]:
+            - text: "Puuttuu: osakekauppa ‎| Hae tällä:"
+            - link "osakekauppa" [ref=e397] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&q=site:danskebank.fi+%22osakekauppa%22+v%C3%A4lityspalkkio+hinnasto&sa=X&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q5t4CegQIRRAB
+        - generic [ref=e401]:
+          - generic [ref=e404]:
+            - link "Danske Bankin sijoituspalveluihin liittyvät kulut Danske Bank https://www.danskebank.fi › PDF › Kuluopas" [ref=e406] [cursor=pointer]:
+              - /url: https://www.danskebank.fi/PDF/fi/Sijoitukset/Kuluopas.pdf
+              - heading "Danske Bankin sijoituspalveluihin liittyvät kulut" [level=3] [ref=e407]
+              - generic [ref=e412]:
+                - generic [ref=e414]: Danske Bank
+                - generic [ref=e416]: https://www.danskebank.fi › PDF › Kuluopas
+            - generic [ref=e417]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e418] [cursor=pointer]:
+              - img [ref=e421]
+          - generic [ref=e423]:
+            - generic [ref=e425]:
+              - emphasis [ref=e426]: Välityspalkkio
+              - text: ": Arvio maksusta, joka maksetaan Danske Bankin sijoitusneuvojien tai verkkopalveluiden kautta tehdyistä arvopaperikaupoista. Vuosittaiset ..."
+            - generic [ref=e427]: 38 sivua
+      - navigation [ref=e430]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e431]
+        - text: "1"
+        - link "Page 2" [ref=e434] [cursor=pointer]:
+          - /url: /search?q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sca_esv=abbb0aaa8824193d&ei=OH7Racy0ErunwPAPuZ7r-Ag&start=10&sa=N&sstk=Af77f_cvqIbXQboBYegTKwbpGr0RtfIOKeKS88wspC1Gkixuos9wORLl33H3QG3tFDVAzOf9e_r_l8aC_pY7rcx-sIhpEjFVjeY8vw&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q8tMDegQINRAE
+          - text: "2"
+        - link "Page 3" [ref=e436] [cursor=pointer]:
+          - /url: /search?q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sca_esv=abbb0aaa8824193d&ei=OH7Racy0ErunwPAPuZ7r-Ag&start=20&sa=N&sstk=Af77f_cvqIbXQboBYegTKwbpGr0RtfIOKeKS88wspC1Gkixuos9wORLl33H3QG3tFDVAzOf9e_r_l8aC_pY7rcx-sIhpEjFVjeY8vw&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q8tMDegQINRAG
+          - text: "3"
+        - link "Page 4" [ref=e438] [cursor=pointer]:
+          - /url: /search?q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sca_esv=abbb0aaa8824193d&ei=OH7Racy0ErunwPAPuZ7r-Ag&start=30&sa=N&sstk=Af77f_cvqIbXQboBYegTKwbpGr0RtfIOKeKS88wspC1Gkixuos9wORLl33H3QG3tFDVAzOf9e_r_l8aC_pY7rcx-sIhpEjFVjeY8vw&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q8tMDegQINRAI
+          - text: "4"
+        - link "Page 5" [ref=e440] [cursor=pointer]:
+          - /url: /search?q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sca_esv=abbb0aaa8824193d&ei=OH7Racy0ErunwPAPuZ7r-Ag&start=40&sa=N&sstk=Af77f_cvqIbXQboBYegTKwbpGr0RtfIOKeKS88wspC1Gkixuos9wORLl33H3QG3tFDVAzOf9e_r_l8aC_pY7rcx-sIhpEjFVjeY8vw&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q8tMDegQINRAK
+          - text: "5"
+        - heading "Seuraava" [level=2] [ref=e442]:
+          - link "Seuraava" [ref=e443] [cursor=pointer]:
+            - /url: /search?q=site:danskebank.fi+osakekauppa+v%C3%A4lityspalkkio+hinnasto&sca_esv=abbb0aaa8824193d&ei=OH7Racy0ErunwPAPuZ7r-Ag&start=10&sa=N&sstk=Af77f_cvqIbXQboBYegTKwbpGr0RtfIOKeKS88wspC1Gkixuos9wORLl33H3QG3tFDVAzOf9e_r_l8aC_pY7rcx-sIhpEjFVjeY8vw&ved=2ahUKEwjMsNrhjdWTAxW7ExAIHTnPGo8Q8NMDegQINRAM
+            - generic [ref=e445]: Seuraava
+      - navigation
+    - contentinfo [ref=e446]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e447]
+      - generic [ref=e451]:
+        - generic [ref=e453]:
+          - text: Suomi
+          - generic [ref=e455]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e457] [cursor=pointer]:
+              - generic [ref=e458]: 00940, Helsinki
+              - generic [ref=e460]:
+                - text: "-"
+                - generic [ref=e461]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e463] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e466]:
+          - link "Ohje" [ref=e467] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e468] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e469] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e470] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

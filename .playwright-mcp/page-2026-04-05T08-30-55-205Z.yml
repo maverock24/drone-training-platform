@@ -1,0 +1,315 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - navigation "Murupolku" [ref=e55]:
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - link "Henkilöasiakkaat" [ref=e59] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/
+              - listitem [ref=e60]:
+                - link "Omaisuus ja asuminen" [ref=e61] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/
+              - listitem [ref=e62]: Varainsiirtovero
+          - generic [ref=e63]:
+            - generic [ref=e66]:
+              - heading "Varainsiirtovero" [level=1] [ref=e67]
+              - paragraph [ref=e68]: Kun ostat kiinteistön, asunnon tai muun arvopaperin, kaupasta täytyy tehdä varainsiirtoveroilmoitus ja maksaa varainsiirtovero. Varainsiirtoveron määrä ja määräajat riippuvat siitä, mitä omaisuutta olet ostanut. Tee ilmoitus ja maksa vero oma-aloitteisesti.
+            - generic [ref=e71]:
+              - generic [ref=e73]:
+                - paragraph [ref=e74]: Huomio alkaa.
+                - heading "Ajankohtaista" [level=3] [ref=e75]
+                - generic [ref=e76]:
+                  - paragraph [ref=e77]: Varainsiirtoverolaki on muuttunut 1.1.2026. Lakimuutoksen myötä lisäkauppahinnan ilmoittamiseen on tullut muutoksia. Olemme julkaisseet uuden ohjeen, jossa kerrotaan lisäkauppahinnan ilmoittamisesta ja määräajoista.
+                  - paragraph [ref=e78]:
+                    - link "Lue lisää lisäkauppahinnan ilmoittamisesta" [ref=e79] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/lisakauppahinnan-ilmoittaminen/
+                - paragraph [ref=e80]: Huomio päättyy
+              - link "Asunto-osakkeen ostaja Ostitko asunnon, esimerkiksi kerrostalo- tai rivitalohuoneiston? Ohjeet asunto-osakkeen ostajalle" [ref=e83] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/asuntoosakkeen-ostaja/
+                - generic [ref=e84]:
+                  - heading "Asunto-osakkeen ostaja" [level=2] [ref=e85]
+                  - paragraph [ref=e87]: Ostitko asunnon, esimerkiksi kerrostalo- tai rivitalohuoneiston?
+                  - button "Ohjeet asunto-osakkeen ostajalle" [ref=e88]
+              - link "Kiinteistön ostaja Ostitko kiinteistön, esimerkiksi omakotitalon tai kesämökin? Ohjeet kiinteistön ostajalle" [ref=e91] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/kiinteiston-ostaja/
+                - generic [ref=e92]:
+                  - heading "Kiinteistön ostaja" [level=2] [ref=e93]
+                  - paragraph [ref=e95]: Ostitko kiinteistön, esimerkiksi omakotitalon tai kesämökin?
+                  - button "Ohjeet kiinteistön ostajalle" [ref=e96]
+            - generic [ref=e99]:
+              - link "Varainsiirtoverolaskuri Varainsiirtoverolaskurilla voit alustavasti laskea, paljonko sinun pitää maksaa varainsiirtoveroa. Varainsiirtoverolaskuri" [ref=e102] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/varainsiirtoverolaskuri/
+                - generic [ref=e103]:
+                  - heading "Varainsiirtoverolaskuri" [level=2] [ref=e104]
+                  - paragraph [ref=e106]: Varainsiirtoverolaskurilla voit alustavasti laskea, paljonko sinun pitää maksaa varainsiirtoveroa.
+                  - button "Varainsiirtoverolaskuri" [ref=e107]
+              - link "Liikeosakkeet Ostitko esimerkiksi yrityksen osakkeita tai puhelinosakkeita? Ohjeet liikeosakkeiden ostajalle" [ref=e110] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/liikeosakkeet/
+                - generic [ref=e111]:
+                  - heading "Liikeosakkeet" [level=2] [ref=e112]
+                  - paragraph [ref=e114]: Ostitko esimerkiksi yrityksen osakkeita tai puhelinosakkeita?
+                  - button "Ohjeet liikeosakkeiden ostajalle" [ref=e115]
+              - generic [ref=e118]:
+                - heading "Muut tilanteet" [level=2] [ref=e119]
+                - list [ref=e121]:
+                  - listitem [ref=e122]:
+                    - link "Uudiskohteen osto" [ref=e124] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/asuntoosakkeen-ostaja/uudiskohde/
+                  - listitem [ref=e125]:
+                    - link "Pelkän rakennuksen osto" [ref=e127] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/pelkan-rakennuksen-hankinta/
+                  - listitem [ref=e128]:
+                    - link "Autopaikan tai muun tilan osto" [ref=e130] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/asuntoosakkeen-ostaja/autopaikka-ja-muut-tilat/
+                  - listitem [ref=e131]:
+                    - link "Lomaosakkeen osto" [ref=e133] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/asuntoosakkeen-ostaja/lomaosake-tai-golfosake/
+                  - listitem [ref=e134]:
+                    - link "Vaihto, ositus ja perinnönjako" [ref=e136] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/vaihto-ositus-ja-perinnonjako/
+                  - listitem [ref=e137]:
+                    - link "Ulkomainen ostaja" [ref=e139] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/ulkomaisen-ostajan-varainsiirtovero/
+        - article [ref=e140]:
+          - generic [ref=e147]:
+            - generic [ref=e149]:
+              - link "Ilmoitus- ja maksuohjeet" [ref=e150] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/
+                - text: Ilmoitus- ja maksuohjeet
+                - img
+              - link "Myöhässä ilmoittaminen tai maksaminen" [ref=e151] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/jos-varainsiirtoveroilmoitus-tai-maksu-myohastyy/
+                - text: Myöhässä ilmoittaminen tai maksaminen
+                - img
+              - link "Virheet ilmoituksessa tai maksussa" [ref=e152] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/virheet-ilmoituksessa-tai-maksussa/
+                - text: Virheet ilmoituksessa tai maksussa
+                - img
+              - link "Varainsiirtoveron palautus" [ref=e153] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/maksetun-varainsiirtoveron-palautus/
+                - text: Varainsiirtoveron palautus
+                - img
+              - link "Kiinteistönvälittäjät" [ref=e154] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/kiinteistonvalittajat/
+                - text: Kiinteistönvälittäjät
+                - img
+              - link "Arvopaperikauppiaat" [ref=e155] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/arvopaperikauppiaat/
+                - text: Arvopaperikauppiaat
+                - img
+            - generic [ref=e157]:
+              - paragraph [ref=e158]: Huomio alkaa.
+              - heading "Varainsiirtoveroprosentit" [level=3] [ref=e159]
+              - generic [ref=e160]:
+                - list [ref=e161]:
+                  - listitem [ref=e162]:
+                    - text: "Kiinteistöt ja rakennukset:"
+                    - strong [ref=e163]: 3 %
+                  - listitem [ref=e164]:
+                    - text: "Asunto-osakkeet ja kiinteistöyhtiön osakkeet:"
+                    - strong [ref=e165]: 1,5 %
+                  - listitem [ref=e166]:
+                    - text: "Muut arvopaperit, kuten osakeyhtiön osakkeet tai puhelinosakkeet:"
+                    - strong [ref=e167]: 1,5 %
+                - paragraph [ref=e168]:
+                  - link "Varainsiirtoverolaskuri" [ref=e169] [cursor=pointer]:
+                    - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/varainsiirtoverolaskuri/
+                - paragraph [ref=e170]:
+                  - link "Mistä varainsiirtoveroa ei tarvitse maksaa?" [ref=e171] [cursor=pointer]:
+                    - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/varainsiirtoverolaskuri/#mista-ei-tarvitse-maksaa
+              - paragraph [ref=e172]: Huomio päättyy
+            - generic [ref=e174]:
+              - img "OmaVero logo" [ref=e175]
+              - generic [ref=e176]:
+                - paragraph [ref=e177]: Tee varainsiirtoveroilmoitus ja maksa vero OmaVerossa.
+                - link "Siirry OmaVeroon" [ref=e178] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+                  - text: Siirry OmaVeroon
+                  - img
+          - navigation "Osion alasivut" [ref=e183]:
+            - heading "Varainsiirtovero" [level=3] [ref=e184]
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - link "Asunto-osake ja muut tilat" [ref=e190] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/asuntoosakkeen-ostaja/
+              - listitem [ref=e191]:
+                - link "Ensiasunto" [ref=e193] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ensiasunto/
+              - listitem [ref=e194]:
+                - link "Kiinteistö" [ref=e196] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/kiinteiston-ostaja/
+              - listitem [ref=e197]:
+                - link "Rakennus, esim. siirtolapuutarhamökki" [ref=e199] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/pelkan-rakennuksen-hankinta/
+              - listitem [ref=e200]:
+                - link "Liikeosakkeet" [ref=e202] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/liikeosakkeet/
+              - listitem [ref=e203]:
+                - link "Vaihto, ositus ja perinnönjako" [ref=e205] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/vaihto-ositus-ja-perinnonjako/
+              - listitem [ref=e206]:
+                - link "Ilmoitus- ja maksuohjeet" [ref=e208] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/
+              - listitem [ref=e209]:
+                - link "Maksetun veron palautus" [ref=e211] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/maksetun-varainsiirtoveron-palautus/
+              - listitem [ref=e212]:
+                - link "Varainsiirtoverolaskuri" [ref=e214] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/varainsiirtoverolaskuri/
+              - listitem [ref=e215]:
+                - link "Kiinteistönvälittäjät" [ref=e217] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/kiinteistonvalittajat/
+              - listitem [ref=e218]:
+                - link "Arvopaperikauppiaat" [ref=e220] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/arvopaperikauppiaat/
+              - listitem [ref=e221]:
+                - link "Oikaisuvaatimus" [ref=e223] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/varainsiirtovero/oikaisuvaatimus-varainsiirtoverotuksessa/
+          - separator [ref=e224]
+          - generic [ref=e227]:
+            - heading "Mitä mieltä olet tästä sisällöstä?" [level=2] [ref=e229]
+            - group "Mitä mieltä olet tästä sisällöstä?" [ref=e230]:
+              - button "Löysin etsimäni" [ref=e232] [cursor=pointer]:
+                - generic [ref=e233]: Löysin etsimäni
+              - button "Selkeää" [ref=e235] [cursor=pointer]:
+                - generic [ref=e236]: Selkeää
+              - button "Epäselvää" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: Epäselvää
+              - button "En löytänyt etsimääni" [ref=e241] [cursor=pointer]:
+                - generic [ref=e242]: En löytänyt etsimääni
+          - generic [ref=e243]: Sivu on viimeksi päivitetty 1.1.2026
+      - generic [ref=e248]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e249]
+        - paragraph [ref=e251]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e252] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e253]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - heading "Asioi verkossa" [level=2] [ref=e258]
+            - list [ref=e260]:
+              - listitem [ref=e261]:
+                - link "OmaVero" [ref=e263] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e264]:
+                - link "Laskurit" [ref=e266] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e267]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e269] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e270]:
+                - link "Positiivinen luottotietorekisteri" [ref=e272] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e273]:
+                - link "Tulorekisteri" [ref=e275] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e276]:
+            - heading "Yhteystiedot" [level=2] [ref=e277]
+            - list [ref=e279]:
+              - listitem [ref=e280]:
+                - link "Chat" [ref=e282] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e283]:
+                - link "Yhteystiedot ja asiointi" [ref=e285] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e286]:
+                - link "Sosiaalinen media" [ref=e288] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e289]:
+                - link "Paperilomakkeet" [ref=e291] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e292]:
+                - link "Käsittelyajat" [ref=e294] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e295]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e296]
+            - generic [ref=e300]:
+              - paragraph [ref=e301]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e302]:
+                - listitem [ref=e303]:
+                  - link "Syventävät vero-ohjeet" [ref=e305] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e306]:
+            - heading "Verohallinto" [level=2] [ref=e307]
+            - generic [ref=e311]:
+              - paragraph [ref=e312]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e313]:
+                - listitem [ref=e314]:
+                  - link "Tietoa Verohallinnosta" [ref=e316] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e319]:
+          - listitem [ref=e320]: © Verohallinto
+          - listitem [ref=e321]:
+            - link "Tietosuoja" [ref=e323] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e324]:
+            - link "Palaute" [ref=e326] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e327]:
+            - link "Saavutettavuusseloste" [ref=e329] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e330]:
+            - link "Tulosta" [ref=e332] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e334] [cursor=pointer]:
+    - img [ref=e335]
+    - paragraph [ref=e337]: Chatbot

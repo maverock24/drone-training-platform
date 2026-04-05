@@ -1,0 +1,203 @@
+- generic [ref=e1]:
+  - alertdialog "Parempaa palvelua evästeiden avulla" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Parempaa palvelua evästeiden avulla" [level=2] [ref=e5]
+        - paragraph [ref=e6]: Jos hyväksyt kaikki evästeet
+        - paragraph
+        - list [ref=e7]:
+          - listitem [ref=e8]: saat henkilökohtaisia suosituksia pankki- ja vakuutuspalveluista
+          - listitem [ref=e9]: saat laajemmin tietoa sinulle kuuluvista eduista
+          - listitem [ref=e10]: annat meille luvan kerätä ja käyttää tietojasi OP Pohjolan palvelujen kehittämiseen ja mainonnan kohdentamiseen.
+        - paragraph [ref=e11]: Osa evästeistä on palvelujemme luotettavan ja turvallisen toiminnan kannalta välttämättömiä. Parhaan palvelukokemuksen saat, kun hyväksyt kaikki evästeet.
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - button "Hyväksy kaikki evästeet." [active] [ref=e14] [cursor=pointer]: Hyväksy kaikki evästeet
+          - button "Valitse hyväksyttävät evästeet." [ref=e15] [cursor=pointer]: Valitse hyväksyttävät
+          - button "Jatka välttämättömillä evästeillä." [ref=e16] [cursor=pointer]: Jatka välttämättömillä
+        - link "Lue lisää evästeistä ›" [ref=e17] [cursor=pointer]:
+          - /url: /tietosuoja/sinun-oikeutesi#evasteet
+  - status
+  - generic [ref=e18]:
+    - generic:
+      - generic [ref=e19]: ‍
+      - link "Siirry sisältöön‍" [ref=e20] [cursor=pointer]:
+        - text: Siirry sisältöön‍
+        - img [ref=e21]
+    - banner [ref=e23]:
+      - generic [ref=e25]:
+        - button "Avaa valikko" [ref=e26] [cursor=pointer]:
+          - img "Avaa valikko" [ref=e27]
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - button "Kirjaudu sisään" [ref=e31] [cursor=pointer]:
+              - img "Kirjaudu sisään" [ref=e32]
+          - listitem [ref=e34]:
+            - link "Asiakaspalvelu" [ref=e35] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-tp-ha-ano-aspa
+              - img "Asiakaspalvelu" [ref=e36]
+          - listitem [ref=e38]:
+            - link "Hae" [ref=e39] [cursor=pointer]:
+              - /url: /haku
+              - img "Hae" [ref=e40]
+        - link "Siirry henkilöasiakkaiden etusivulle." [ref=e43] [cursor=pointer]:
+          - /url: /
+          - img "OP" [ref=e44]
+  - generic [ref=e48]:
+    - text: 
+    - main [ref=e52]:
+      - generic [ref=e56]:
+        - generic [ref=e65]:
+          - img "\" \"" [ref=e68]
+          - generic [ref=e69]:
+            - heading "Sijoitusvakuutuksen verotus" [level=1] [ref=e70]
+            - link "Takaisin‍" [ref=e72] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/vakuutussaastaminen/saastohenkivakuutus
+              - text: Takaisin‍
+              - img [ref=e73]
+        - generic [ref=e83]:
+          - generic [ref=e85]:
+            - paragraph [ref=e86]: "Tässä artikkelissa käymme läpi sijoitusvakuutuksen verotusta eri tilanteissa:"
+            - paragraph [ref=e87]:
+              - link "Kun teet osittaisen takaisinoston tai sijoitusvakuutus päättyy varojen nostamiseen, ja säästöt maksetaan sinulle itsellesi." [ref=e88] [cursor=pointer]:
+                - /url: "#itse"
+            - paragraph [ref=e89]:
+              - link "Kun sijoitusvakuutus päättyy sopimuksen erääntymiseen, ja säästöt maksetaan lähiomaisellesi." [ref=e90] [cursor=pointer]:
+                - /url: "#lähiomaiset"
+            - paragraph [ref=e91]:
+              - link "Kun sijoitusvakuutus päättyy kuolemantapaukseen, ja säästöt maksetaan edunsaajamääräyksen mukaan tai kuolinpesälle." [ref=e92] [cursor=pointer]:
+                - /url: "#kuolemantapaus"
+            - paragraph [ref=e93]:
+              - link [ref=e94] [cursor=pointer]:
+                - /url: "#kuolemantapaus"
+            - heading "Sijoitusvakuutus ja verotus – nämä asiat on hyvä tietää" [level=2] [ref=e95]
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - text: • Sijoitusvakuutuksen verotus tapahtuu säästöjen noston yhteydessä
+                - link "." [ref=e98] [cursor=pointer]:
+                  - /url: "#kuolemantapaus"
+              - listitem [ref=e99]:
+                - text: •
+                - link "OP Sijoitusvakuutus" [ref=e100] [cursor=pointer]:
+                  - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/vakuutussaastaminen/op-sijoitusvakuutus
+                - text: on sijoitussidonnainen säästöhenkivakuutus, jonka säästöt muodostuvat siihen tekemistäsi maksuista ja valitsemiesi sijoituskohteiden mahdollisen arvonnousun muodostamasta tuotosta.
+              - listitem [ref=e101]: • Sijoitusvakuutus on vakuutuskuori, jonka sisälle voit valita erilaisia sijoituskohteita. Vakuutuskuoren ansiosta voit vaihtaa sijoituskohteita vakuutuksen sisällä ilman tuoton verotusta.
+              - listitem [ref=e102]: • Säästöhenkivakuutus sisältää myös henkivakuutuksen. Tämä tarkoittaa, että kuolemantapauksessa säästösi maksetaan valitsemallesi edunsaajalle ja hän voi käyttää vakuutuskorvauksen haluamallaan tavalla esimerkiksi perintöveroihin tai lainojen lyhentämiseen.
+            - paragraph
+          - generic [ref=e104]:
+            - heading "Säästöhenkivakuutuksen verotus – Tuotto verotetaan aina pääomatulona varoja nostaessasi" [level=2] [ref=e105]
+            - paragraph [ref=e106]: Sijoitusvakuutus on vakuutuskuori, jonka sisällä voit vaihtaa sijoituskohteita ilman tuoton verotusta vaihdon yhteydessä. Säästäminen sijoitusvakuutukseen on siis joustavaa ja korkoa korolle -ilmiön ansiosta säästösi saavat parhaan mahdollisuuden tuottaa, kun tuottoa verotetaan vasta noston yhteydessä. Kun nostat varoja, säästövakuutuksen eli säästöhenkivakuutuksen verotus määräytyy sen mukaan, paljonko nostettavasta summasta on tuottoa.
+            - paragraph [ref=e107]: Pääoma eli vakuutukseen maksetut maksut ovat verottomia, kun säästöt maksetaan vakuutetulle itselleen. Veroa maksat ainoastaan tuotosta. Sijoitusvakuutuksen tuotto verotetaan pääomatulona. Säästöhenkivakuutuksen tuotto on kuitenkin veronalaista pääomatuloa vasta siinä vaiheessa, kun nostat varoja vakuutuksestasi.
+            - paragraph [ref=e108]: Sijoitusvakuutuksesta voit nostaa säästöjäsi tekemällä joko osittaisen tai kokonaisen takaisinoston. Osittainen takaisinosto muodostuu aina pääomasta ja tuotosta. Vakuutukseen maksamasi maksut eivät ole yksityishenkilön verotuksessa vähennyskelpoisia.
+            - paragraph
+          - generic [ref=e110]:
+            - heading "Sijoitusvakuutuksen erääntyminen - Edunsaajana lähiomaiset" [level=2] [ref=e111]
+            - paragraph [ref=e112]: Sijoitusvakuutuksen erääntyessä pääoma verotetaan lahjaveron mukaan, jos se maksetaan edunsaajamääräyksen mukaisesti lähiomaisellesi. Lahjaveroa ei tarvitse maksaa, mikäli vakuutuksen pääoma ja muut samalta antajalta saadut lahjat eivät ylitä 7 499 euroa kolmen vuoden aikana. Kertynyt tuotto on veronalaista pääomatuloa myös lähiomaiselle.
+            - paragraph [ref=e113]: Lähiomaisia ovat
+            - list [ref=e114]:
+              - listitem [ref=e115]: • vakuutetun aviopuoliso,
+              - listitem [ref=e116]: • vakuutetun perilliset,
+              - listitem [ref=e117]: • adoptiolapsi ja tämän rintaperillinen,
+              - listitem [ref=e118]: • kasvattilapsi ja puolison lapsi.
+            - paragraph [ref=e119]: Avopuolisoa kohdellaan verolainsäädännössä puolisona, jos avopuolisot ovat aikaisemmin olleet avioliitossa keskenään tai heillä on tai on ollut yhteinen lapsi.
+            - paragraph [ref=e120]: Jos vakuutussäästö maksetaan muulle henkilölle kuin sinulle itsellesi tai lähiomaisellesi, vakuutussäästö on kokonaan veronalaista pääomatuloa.
+            - paragraph
+          - generic [ref=e122]:
+            - heading "Kuolintapauskorvauksen verotus" [level=2] [ref=e123]
+            - paragraph [ref=e124]: Sijoitusvakuutukseen sisältyy myös henkivakuutus. Jos kuolet vakuutuksen voimassaoloaikana, koko säästösumma maksetaan valitsemallesi edunsaajalle kuolintapauskorvauksena. Edunsaajamääräys ohittaa testamentin, jos edunsaajana ei ole kuolinpesä, ja vaikuttaa siihen, maksetaanko sijoitusvakuutuksesta perintöveroa vai pääomatuloveroa. Kuolintapauskorvaus maksetaan vakuutetun kuolinpesälle, jos edunsaajaksi on määrätty kuolinpesä, tai edunsaajamääräys on rauennut edunsaajien puuttumisen vuoksi.
+            - paragraph [ref=e125]: "Kuolintapauskorvauksen osalta säästöhenkivakuutuksen verotus riippuu edunsaajasta seuraavasti:"
+            - list [ref=e126]:
+              - listitem [ref=e127]: • Jos edunsaaja on vakuutetun lähiomainen, kuolintapauskorvaus on perintöverotettavaa.
+              - listitem [ref=e128]: • Jos edunsaaja ei ole vakuutetun lähiomainen, kuolintapauskorvaus on veronalaista pääomatuloa.
+              - listitem [ref=e129]: • Jos kuolintapauskorvaus maksetaan vakuutetun kuolinpesälle, siitä tulee osa kuolinpesän varallisuutta. Kuolinpesästä saatu omaisuus on perintöverotettavaa omaisuutta perittävän ja perillisen tai testamentinsaajan sukulaisuussuhteesta riippumatta.
+          - generic [ref=e131]:
+            - heading "Sijoitusvakuutus ja perintövero" [level=2] [ref=e132]
+            - paragraph [ref=e133]: Kun vakuutuksenottaja on valinnut edunsaajaksi lähiomaisen, edunsaajalle maksettava osuus sijoitusvakuutuksesta on perintöverotettavaa. Tämä tarkoittaa, että edunsaaja maksaa perintöveroa vakuutuksesta saadusta korvauksesta. Perintöveron suuruus riippuu edunsaajan sukulaisuussuhteesta vakuutuksenottajaan sekä korvauksen määrästä.
+          - generic [ref=e135]:
+            - heading "Vakuutussäästämisen tappion vähentäminen verotuksessa" [level=2] [ref=e136]
+            - paragraph [ref=e137]: Sijoituksen arvo voi sekä nousta että laskea ja näin ollen vakuutuksenottaja voi menettää sijoittamansa pääoman sekä tuoton osittain tai kokonaan. Mikäli vakuutuksesi päättyy tappiollisena, voit vähentää säästöhenkivakuutuksen tappion vakuutussopimuksen päättymisvuoden verotuksessa. Tappiota syntyy, jos vakuutukseen maksamiesi maksujen määrä on suurempi kuin sopimusaikana maksettujen suoritusten määrä. Tappio vähennetään veronalaisesta pääomatulosta ja se otetaan huomioon pääomatulolajin tappiota vahvistettaessa. Tappio on vähennettävissä seuraavan 10 vuoden aikana sitä mukaa kuin pääomatuloa syntyy. Tappiota ei kuitenkaan oteta huomioon pääomatulolajin alijäämää vahvistettaessa.
+          - generic [ref=e139]:
+            - paragraph [ref=e140]
+            - paragraph [ref=e141]: Verotuksesta annetut tiedot perustuvat 1.1.2025 voimassa olleeseen verolainsäädäntöön. Vakuutusten verotus voi muuttua ja noudattaa kulloinkin voimassa olevaa verolainsäädäntöä.
+      - generic [ref=e144]:
+        - link "Vakuutussäästäminen Joustava keino säästää itsellesi tai vaikkapa läheisillesi. \" \"" [ref=e156] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/vakuutussaastaminen
+          - generic [ref=e158]:
+            - heading "Vakuutussäästäminen" [level=2] [ref=e159]:
+              - text: Vakuutussäästäminen
+              - generic [ref=e160]:
+                - button:
+                  - text: ‍
+                  - img
+            - generic [ref=e161]: Joustava keino säästää itsellesi tai vaikkapa läheisillesi.
+          - img "\" \"" [ref=e163]
+        - link "Sijoitusvakuutus Sijoitusvakuutus antaa valinnanvapautta elämäntilanteesi mukaan. \" \"" [ref=e175] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/vakuutussaastaminen/op-sijoitusvakuutus
+          - generic [ref=e177]:
+            - heading "Sijoitusvakuutus" [level=2] [ref=e178]:
+              - text: Sijoitusvakuutus
+              - generic [ref=e179]:
+                - button:
+                  - text: ‍
+                  - img
+            - generic [ref=e180]: Sijoitusvakuutus antaa valinnanvapautta elämäntilanteesi mukaan.
+          - img "\" \"" [ref=e182]
+    - contentinfo [ref=e187]:
+      - search [ref=e191]:
+        - textbox "Hae" [ref=e192]
+        - button "Hae" [ref=e193] [cursor=pointer]: 
+      - paragraph:
+        - link "Siirry sivun alkuun" [ref=e194] [cursor=pointer]:
+          - /url: "#"
+          - text: Sivun alkuun
+      - generic [ref=e197]:
+        - link "Asiakaspalvelu" [ref=e199] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-ft-aspa
+        - link "Anna palautetta" [ref=e201] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/palautteet-ja-ongelmat?icmp=yl-ft-anna-palautetta
+        - link "Evästeiden käyttö" [ref=e203] [cursor=pointer]:
+          - /url: /evasteiden-kaytto?icmp=yl-ft-evasteet
+        - link "Palveluhinnasto" [ref=e205] [cursor=pointer]:
+          - /url: /hinnasto?icmp=yl-ft-hinnasto
+        - link "Puheluhinnasto" [ref=e207] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/puheluhinnasto?icmp=yl-ft-puheluhinnasto
+        - link "Sähköinen allekirjoituspalvelu" [ref=e209] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/digitaaliset-palvelut/sahkoinen-allekirjoituspalvelu?icmp=yl-ft-allekirjoitus
+        - link "Tule OP:n asiakkaaksi" [ref=e211] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakkuus/tule-opn-asiakkaaksi?icmp=yl-ft-asiakkaaksi
+        - link "Turvallinen asiointi" [ref=e213] [cursor=pointer]:
+          - /url: /turvallinen-asiointi?icmp=yl-ft-turvallisuus
+        - link "Verkkopalvelun käyttö" [ref=e215] [cursor=pointer]:
+          - /url: /verkkopalveluiden-kaytto?icmp=yl-ft-kaytto
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - link "OP Media" [ref=e218] [cursor=pointer]:
+            - /url: https://www.op-media.fi/
+          - link "OP Koti" [ref=e219] [cursor=pointer]:
+            - /url: https://op-koti.fi/
+          - link "Pohjola Vahinkoapu" [ref=e220] [cursor=pointer]:
+            - /url: https://vahinkoapu.pohjola.fi
+        - generic [ref=e221]:
+          - link "facebook" [ref=e222] [cursor=pointer]:
+            - /url: https://www.facebook.com/op.fi
+          - link "linkedin" [ref=e223] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/op-pohjola
+          - link "instagram" [ref=e224] [cursor=pointer]:
+            - /url: https://www.instagram.com/op_pohjola
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]: © OP Pohjola
+          - generic [ref=e229]: "BIC: OKOYFIHH"
+        - generic [ref=e230]:
+          - link "Tietosuoja" [ref=e231] [cursor=pointer]:
+            - /url: /tietosuoja?icmp=yl-ft-tietosuoja
+          - link "Saavutettavuus" [ref=e232] [cursor=pointer]:
+            - /url: /saavutettavuus?icmp=yl-ft-saavutettavuus
+          - link "Käyttöehdot" [ref=e233] [cursor=pointer]:
+            - /url: /kayttoehdot?icmp=yl-ft-kayttoehdot
+          - link "Sopimusehdot" [ref=e234] [cursor=pointer]:
+            - /url: /ehdot?icmp=yl-ft-sopimusehdot
+    - generic [ref=e239]:
+      - generic:
+        - status [ref=e240]
+        - status [ref=e241]

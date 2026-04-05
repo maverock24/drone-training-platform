@@ -1,0 +1,12 @@
+[     925ms] [LOG] analyzify-settings is running  @ https://www.dronelicense.eu/:494
+[     927ms] [LOG] Analyzify is run on the dev mode @ https://www.dronelicense.eu/:639
+[     933ms] [LOG] Analyzify settings loaded in 0.40ms. @ https://www.dronelicense.eu/:1325
+[     946ms] [LOG] Analyzify 4.3.59 is ready. @ https://cdn.shopify.com/extensions/019d1eec-fc21-7598-85cd-b44f741fce83/analyzify-ga4-ads-tracking-281/assets/an_analyzify.js:4408
+[    1246ms] [LOG] [Alia app extension] v1.0.5 @ https://www.dronelicense.eu/:3143
+[    1623ms] [LOG] Concept theme (5.1.0) by RoarTheme | Learn more at https://roartheme.co @ https://www.dronelicense.eu/cdn/shop/t/206/assets/theme.js?v=4114423769098893131773826250:11
+[    3422ms] [INFO] k-web-pixel-version 1 @ https://www.dronelicense.eu/web-pixels/strict/app/web-pixel-2549416270@524f6c1ee37bacdca7657a665bdca589.js:0
+[    3424ms] [LOG] Alia web pixel @ https://www.dronelicense.eu/web-pixels/strict/app/web-pixel-1866531150@f0af4213e47be1020811d284172e1b0d.js:0
+[    3653ms] [LOG] [Alia launcher] drone-license.myshopify.com @ https://sdk.gleap.io/latest/index.js:0
+[    4345ms] [INFO] Clear-Site-Data header on 'https://www.dronelicense.eu/cart/update.js': Cleared data types: "prefetchCache", "prerenderCache". @ https://www.dronelicense.eu/:0
+[    4813ms] [INFO] Clear-Site-Data header on 'https://www.dronelicense.eu/cart/update.js': Cleared data types: "prefetchCache", "prerenderCache". @ https://www.dronelicense.eu/:0
+[   14526ms] [WARNING] The resource https://www.dronelicense.eu/cdn/fonts/inter/inter_n6.771af0474a71b3797eb38f3487d6fb79d43b6877.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.dronelicense.eu/:0

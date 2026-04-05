@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Scam messages have been sent out in the Tax Administration’s name.
+          - link "Read more about scams" [ref=e9] [cursor=pointer]:
+            - /url: /en/About-us/contact-us/efil/Information-on-e-services/scam-messages/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Go to contents" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Go to main search" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "To front page" [ref=e18] [cursor=pointer]:
+          - /url: /en/
+          - img "vero.fi - To front page" [ref=e19]
+        - navigation "Website main categories" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Individuals" [ref=e23] [cursor=pointer]:
+                - /url: /en/individuals/
+            - listitem [ref=e24]:
+              - link "Businesses" [ref=e25] [cursor=pointer]:
+                - /url: /en/businesses-and-corporations/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Open the mobile menu" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Menu
+        - listitem [ref=e36]:
+          - button "Search" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Search
+        - listitem [ref=e41]:
+          - generic "Language navigation" [ref=e44]:
+            - button "EN" [ref=e45] [cursor=pointer]:
+              - img
+              - text: EN
+        - listitem [ref=e46]:
+          - generic "/accessibility/MyTaxMenu" [ref=e49]:
+            - button "MyTax" [ref=e50] [cursor=pointer]:
+              - img
+              - text: MyTax
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Search route" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Individuals" [ref=e58] [cursor=pointer]:
+                - /url: /en/individuals/
+            - listitem [ref=e59]:
+              - link "Tax card and tax return" [ref=e60] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/
+            - listitem [ref=e61]:
+              - link "Tax card" [ref=e62] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/
+            - listitem [ref=e63]:
+              - link "Tax rate and income ceiling" [ref=e64] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/tax-rate-and-income-ceiling/
+            - listitem [ref=e65]: Tax bases
+        - article [ref=e68]:
+          - heading "Tax bases 2026" [level=1] [ref=e69]
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: Tax cards 2026 enter into force at the beginning of the year, on 1 January. The income ceiling stated on the tax card is for the full year, i.e. a period of 12 months.
+            - paragraph [ref=e72]: You can change your tax rate and income ceiling by requesting a new tax card at any time in 2026, if necessary. You can change your tax card as many times as necessary.
+            - heading "What information are the 2026 tax card and prepayments based on?" [level=2] [ref=e73]
+            - paragraph [ref=e74]: The Tax Administration calculates the tax rate for your tax card and the prepayment amount based on the income and deductions in your latest finalised tax assessment. If you requested a change to your tax rate or tax prepayment last year, your this year’s tax card and prepayment calculation are based on the revised data. Occasional income is not included in the taxable income.
+            - paragraph [ref=e75]:
+              - text: You can see the bases in your prepayment decision, which you may receive with your tax card, for example.
+              - link "How to find your current tax card in MyTax" [ref=e76] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/how-to-find-your-tax-card-in-mytax/
+              - text: .
+            - heading "Tax bases for earned income in 2026" [level=3] [ref=e77]
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "State income tax schedule 2026" [ref=e80] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/tulot/ansiotulot/#tuloveroasteikko
+                - text: (available in Finnish and Swedish, link to Finnish)
+              - listitem [ref=e81]:
+                - link "Income tax rates of municipalities and parishes in 2026" [ref=e82] [cursor=pointer]:
+                  - /url: /syventavat-vero-ohjeet/paatokset/47465/
+                - text: (available in Finnish and Swedish, link to Finnish)
+              - list [ref=e83]:
+                - listitem [ref=e84]: Municipal income tax rate for non-residents (taxpayers living permanently abroad) 7.60%
+              - listitem [ref=e85]: Health care contribution
+              - list [ref=e86]:
+                - listitem [ref=e87]: on wage and work income 1.10%
+                - listitem [ref=e88]: on pensions, benefits and other income 1.49%
+              - listitem [ref=e89]: Daily allowance contribution (for 16- to 67-year-olds)
+              - list [ref=e90]:
+                - listitem [ref=e91]: 0,00% for wage earners whose annual income is less than €17,255
+                - listitem [ref=e92]: 0,88% for wage earners whose annual income is €17,255 or more
+                - listitem [ref=e93]: 1,11% for self-employed individuals whose annual income is €17,255 or more
+                - listitem [ref=e94]: 0,23% for self-employed individuals whose annual income is less than €17,255
+              - listitem [ref=e95]: Additional tax on pension income 5.85% on the part of pension exceeding €60,000
+              - listitem [ref=e96]:
+                - link "Public Broadcasting Tax" [ref=e97] [cursor=pointer]:
+                  - /url: https://vero.fi/en/About-us/newsroom/visual_aids_for_presentations_and_for_t/public_broadcasting_tax/
+                - text: 2,50% on income (capital and earned income) exceeding €15,150 is €160.
+              - listitem [ref=e98]:
+                - link "Åland Islands media fee" [ref=e99] [cursor=pointer]:
+                  - /url: https://vero.fi/en/About-us/newsroom/visual_aids_for_presentations_and_for_t/public_broadcasting_tax/
+                - text: €128 if income (capital and earned income in total) exceeds €14,000
+            - paragraph [ref=e100]: "The tax card and prepayment calculation takes into account, for example, the following deductions:"
+            - paragraph [ref=e101]: "Further information on deductions:"
+            - list [ref=e102]:
+              - listitem [ref=e103]:
+                - link "Deductions - Pre-calculated deductions" [ref=e104] [cursor=pointer]:
+                  - /url: /en/individuals/deductions/
+              - listitem [ref=e105]:
+                - link "Home office deduction" [ref=e106] [cursor=pointer]:
+                  - /url: /en/individuals/deductions/expenses-for-the-production-of-income/home-office-deduction/
+            - heading "Tax rates for capital income" [level=3] [ref=e107]
+            - list [ref=e108]:
+              - listitem [ref=e109]: 30% if capital income is no more than €30,000
+              - listitem [ref=e110]: 34% on the part of capital income exceeding €30,000
+          - navigation "Or are you looking for these?" [ref=e111]:
+            - heading "Or are you looking for these?" [level=3] [ref=e112]
+            - navigation "Page navigation" [ref=e113]:
+              - link "Tax rate and income ceiling" [ref=e114] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/tax-rate-and-income-ceiling/
+              - list [ref=e115]:
+                - listitem
+        - navigation [ref=e116]:
+          - heading "Tax card" [level=3] [ref=e117]:
+            - link "Tax card" [ref=e118] [cursor=pointer]:
+              - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "How to find your tax card in MyTax" [ref=e124] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/how-to-find-your-tax-card-in-mytax/
+            - listitem [ref=e125]:
+              - link "Request a new tax card" [ref=e127] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/request-a-new-tax-card/
+            - listitem [ref=e128]:
+              - link "Wages" [ref=e130] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/wage-earners/
+            - listitem [ref=e131]:
+              - link "Daily allowances and other benefits" [ref=e133] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/daily-allowances-and-other-benefits/
+            - listitem [ref=e134]:
+              - link "Pension" [ref=e136] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/pension/
+            - listitem [ref=e137]:
+              - link "Trade income, copyright royalties" [ref=e139] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/working_for_more_than_one_employe/
+            - listitem [ref=e140]:
+              - link "Tax rate and income ceiling" [ref=e142] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/tax-rate-and-income-ceiling/
+            - listitem [ref=e143]:
+              - link "Tax percentage calculator" [ref=e145] [cursor=pointer]:
+                - /url: /en/individuals/tax-cards-and-tax-returns/tax_card/tax-percentage-calculator/
+        - separator [ref=e146]
+        - generic [ref=e147]: Page last updated 11/22/2025
+      - generic [ref=e152]:
+        - heading "Give up paper mail" [level=2] [ref=e153]
+        - paragraph [ref=e155]: Activate Suomi.fi messages or select electronic tax mail in MyTax.
+        - link "Suomi.fi messages and electronic tax mail" [ref=e156] [cursor=pointer]:
+          - /url: /en/About-us/contact-us/efil/activate-suomi.fi-messages
+          - text: Suomi.fi messages and electronic tax mail
+          - img
+    - contentinfo [ref=e157]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - heading "E-file" [level=2] [ref=e162]
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - link "MyTax" [ref=e167] [cursor=pointer]:
+                  - /url: /en/e-file/mytax/
+              - listitem [ref=e168]:
+                - link "Calculators" [ref=e170] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/calculators/
+              - listitem [ref=e171]:
+                - link "Other e-filing resources" [ref=e173] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/efil/
+              - listitem [ref=e174]:
+                - link "The Positive credit register" [ref=e176] [cursor=pointer]:
+                  - /url: /en/positivecreditregister/
+              - listitem [ref=e177]:
+                - link "Incomes Register" [ref=e179] [cursor=pointer]:
+                  - /url: /en/incomes-register/
+          - generic [ref=e180]:
+            - heading "Contact" [level=2] [ref=e181]
+            - list [ref=e183]:
+              - listitem [ref=e184]:
+                - link "Chat" [ref=e186] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/chat_with_the_tax_authoritie/
+              - listitem [ref=e187]:
+                - link "Contact us" [ref=e189] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/
+              - listitem [ref=e190]:
+                - link "Social media" [ref=e192] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/ask-us-on-social-media/
+              - listitem [ref=e193]:
+                - link "Forms" [ref=e195] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/forms/
+              - listitem [ref=e196]:
+                - link "Processing times" [ref=e198] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/processing-times-for-returns-and-applications/
+          - generic [ref=e199]:
+            - heading "Detailed guidance" [level=2] [ref=e200]
+            - generic [ref=e204]:
+              - paragraph [ref=e205]: The Tax Administration's detailed guidance is especially for tax professionals.
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - link "Detailed guidance" [ref=e209] [cursor=pointer]:
+                    - /url: /en/detailed-guidance/
+          - generic [ref=e210]:
+            - heading "About us" [level=2] [ref=e211]
+            - generic [ref=e215]:
+              - paragraph [ref=e216]: Facts about the Tax Administration plus jobs, news and statistics.
+              - list [ref=e217]:
+                - listitem [ref=e218]:
+                  - link "About us" [ref=e220] [cursor=pointer]:
+                    - /url: /en/About-us/
+        - list [ref=e223]:
+          - listitem [ref=e224]: © Tax Administration
+          - listitem [ref=e225]:
+            - link "Data Protection" [ref=e227] [cursor=pointer]:
+              - /url: /en/About-us/finnish-tax-administration/data-security-and-information-access/data-security-and-the-processing-of-personal-data/
+          - listitem [ref=e228]:
+            - link "Feedback" [ref=e230] [cursor=pointer]:
+              - /url: /en/About-us/contact-us/feedback/
+          - listitem [ref=e231]:
+            - link "Print" [ref=e233] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Back to top":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e235] [cursor=pointer]:
+    - img [ref=e236]
+    - paragraph [ref=e238]: Chatbot

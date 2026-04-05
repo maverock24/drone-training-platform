@@ -1,0 +1,406 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: ML risk scoring personal finance XGBoost anomaly detection credit risk tutorial Python 2025 2026 ML risk scoring personal finance XGBoost anomaly detection credit risk tutorial Python 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DML%2Brisk%2Bscoring%2Bpersonal%2Bfinance%2BXGBoost%2Banomaly%2Bdetection%2Bcredit%2Brisk%2Btutorial%2BPython%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84QtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Qs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84QtKgLegQIFRAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q0pQJegQIFBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Qs6gLegQIEhAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DML%2Brisk%2Bscoring%2Bpersonal%2Bfinance%2BXGBoost%2Banomaly%2Bdetection%2Bcredit%2Brisk%2Btutorial%2BPython%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84QhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84QiIQCKAN6BAgOEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: Haetaan
+            - generic [ref=e175]: Odota vielä hetki
+        - progressbar [ref=e177]
+      - main [ref=e219]:
+        - generic [ref=e223]:
+          - generic [ref=e226]:
+            - heading "Web results" [level=2] [ref=e227]
+            - generic [ref=e228]:
+              - generic [ref=e231]:
+                - 'link "Credit Risk Modeling with Machine Learning: A Data ... Medium · Shubham Kadariya Yksi tykkäys · 6 kuukautta sitten" [ref=e233] [cursor=pointer]':
+                  - /url: https://medium.com/learning-data/credit-risk-modeling-with-machine-learning-a-data-driven-comparison-of-models-and-pipeline-a7ce253c8da7
+                  - 'heading "Credit Risk Modeling with Machine Learning: A Data ..." [level=3] [ref=e234]'
+                  - generic [ref=e239]:
+                    - generic [ref=e241]: Medium · Shubham Kadariya
+                    - generic [ref=e243]: Yksi tykkäys · 6 kuukautta sitten
+                - button "Tietoja tästä tuloksesta" [ref=e244] [cursor=pointer]:
+                  - img [ref=e247]
+              - generic [ref=e251]:
+                - text: This research explores the development of a complete
+                - emphasis [ref=e252]: credit risk
+                - text: modeling pipeline using
+                - emphasis [ref=e253]: Python
+                - text: . The study focuses on data cleaning, ...
+          - generic [ref=e257]:
+            - generic [ref=e260]:
+              - link "An analytical approach to credit risk assessment using ... ScienceDirect.com https://www.sciencedirect.com › pii" [ref=e262] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S277266222500061X
+                - heading "An analytical approach to credit risk assessment using ..." [level=3] [ref=e263]
+                - generic [ref=e268]:
+                  - generic [ref=e270]: ScienceDirect.com
+                  - generic [ref=e272]: https://www.sciencedirect.com › pii
+              - generic [ref=e273]:
+                - generic [ref=e274]: ·
+                - link "Käännä tämä sivu" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.sciencedirect.com/science/article/pii/S277266222500061X
+              - button "Tietoja tästä tuloksesta" [ref=e276] [cursor=pointer]:
+                - img [ref=e279]
+            - generic [ref=e282]:
+              - generic [ref=e283]: kirjoittanut MR Machado · 2025 · Viittausten määrä 20 —
+              - generic [ref=e284]:
+                - text: These application of
+                - emphasis [ref=e285]: ML
+                - text: in managing
+                - emphasis [ref=e286]: credit risk
+                - text: "spans three main areas: fraud"
+                - emphasis [ref=e287]: detection
+                - text: ", credit"
+                - emphasis [ref=e288]: scoring
+                - text: ", and"
+                - emphasis [ref=e289]: financial
+                - text: distress prediction ([13]). Fraud ...
+          - generic [ref=e293]:
+            - generic [ref=e296]:
+              - link "(PDF) Predict credit risk with XGBoost ResearchGate https://www.researchgate.net › 382..." [ref=e298] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/382186326_Predict_credit_risk_with_XGBoost
+                - heading "(PDF) Predict credit risk with XGBoost" [level=3] [ref=e299]
+                - generic [ref=e304]:
+                  - generic [ref=e306]: ResearchGate
+                  - generic [ref=e308]: https://www.researchgate.net › 382...
+              - generic [ref=e309]:
+                - generic [ref=e310]: ·
+                - link "Käännä tämä sivu" [ref=e311] [cursor=pointer]:
+                  - /url: https://www.researchgate.net/publication/382186326_Predict_credit_risk_with_XGBoost
+              - button "Tietoja tästä tuloksesta" [ref=e312] [cursor=pointer]:
+                - img [ref=e315]
+            - generic [ref=e319]:
+              - text: The model established by eXtreme Gradient Boosting method (
+              - emphasis [ref=e320]: XGBoost
+              - text: ) can more accurately identify the
+              - emphasis [ref=e321]: risk
+              - text: of
+              - emphasis [ref=e322]: credit
+              - text: loans based on the characteristics of the ...
+          - generic [ref=e326]:
+            - generic [ref=e329]:
+              - link "Ultimate guide to XGBoost library in Python Deepnote https://deepnote.com › blog › ultima..." [ref=e331] [cursor=pointer]:
+                - /url: https://deepnote.com/blog/ultimate-guide-to-xgboost-library-in-python
+                - heading "Ultimate guide to XGBoost library in Python" [level=3] [ref=e332]
+                - generic [ref=e337]:
+                  - generic [ref=e339]: Deepnote
+                  - generic [ref=e341]: https://deepnote.com › blog › ultima...
+              - generic [ref=e342]:
+                - generic [ref=e343]: ·
+                - link "Käännä tämä sivu" [ref=e344] [cursor=pointer]:
+                  - /url: https://deepnote.com/blog/ultimate-guide-to-xgboost-library-in-python
+              - button "Tietoja tästä tuloksesta" [ref=e345] [cursor=pointer]:
+                - img [ref=e348]
+            - generic [ref=e351]:
+              - generic [ref=e352]: 22.8.2025 —
+              - generic [ref=e353]:
+                - text: For example, in finance,
+                - emphasis [ref=e354]: XGBoost is used to build credit risk models
+                - text: and fraud detection systems that outperform older logistic regression ...
+          - generic [ref=e358]:
+            - generic [ref=e361]:
+              - link "Enhancing credit card fraud detection with a hybrid ... Nature https://www.nature.com › articles" [ref=e363] [cursor=pointer]:
+                - /url: https://www.nature.com/articles/s41598-026-42891-4
+                - heading "Enhancing credit card fraud detection with a hybrid ..." [level=3] [ref=e364]
+                - generic [ref=e369]:
+                  - generic [ref=e371]: Nature
+                  - generic [ref=e373]: https://www.nature.com › articles
+              - generic [ref=e374]:
+                - generic [ref=e375]: ·
+                - link "Käännä tämä sivu" [ref=e376] [cursor=pointer]:
+                  - /url: https://www.nature.com/articles/s41598-026-42891-4
+              - button "Tietoja tästä tuloksesta" [ref=e377] [cursor=pointer]:
+                - img [ref=e380]
+            - generic [ref=e383]:
+              - generic [ref=e384]: kirjoittanut N Gamal · 2026 —
+              - generic [ref=e385]:
+                - text: Machine
+                - emphasis [ref=e386]: learning
+                - text: (
+                - emphasis [ref=e387]: ML
+                - text: ) and deep
+                - emphasis [ref=e388]: learning
+                - text: (DL) offer powerful solutions to enhance the accuracy and efficiency of
+                - emphasis [ref=e389]: credit
+                - text: card fraud
+                - emphasis [ref=e390]: detection
+                - text: .
+          - generic [ref=e394]:
+            - generic [ref=e397]:
+              - link "Evaluating Machine Learning Strategies for Credit Risk ... SciTePress - SCIENCE AND TECHNOLOGY PUBLICATIONS https://www.scitepress.org › Papers › 2025" [ref=e399] [cursor=pointer]:
+                - /url: https://www.scitepress.org/Papers/2025/136990/136990.pdf
+                - heading "Evaluating Machine Learning Strategies for Credit Risk ..." [level=3] [ref=e400]
+                - generic [ref=e405]:
+                  - generic [ref=e407]: SciTePress - SCIENCE AND TECHNOLOGY PUBLICATIONS
+                  - generic [ref=e409]: https://www.scitepress.org › Papers › 2025
+              - generic [ref=e410]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e411] [cursor=pointer]:
+                - img [ref=e414]
+            - generic [ref=e416]:
+              - generic [ref=e417]:
+                - generic [ref=e418]: kirjoittanut C Hu —
+                - generic [ref=e419]:
+                  - text: "Abstract: This study addresses class imbalance in"
+                  - emphasis [ref=e420]: credit risk
+                  - text: classification and optimizes model performance. One-hot encoding was applied during data ...
+              - generic [ref=e421]: 6 sivua
+            - generic [ref=e423]: "Puuttuu: personal ‎tutorial ‎Python ‎2026"
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e429]
+              - button "Tietoja tästä tuloksesta" [ref=e430] [cursor=pointer]:
+                - img [ref=e433]
+            - generic [ref=e435]:
+              - button "What are the 5 C's of credit risk?" [ref=e441] [cursor=pointer]:
+                - generic [ref=e443]: What are the 5 C's of credit risk?
+                - img [ref=e446]
+              - button "Do risk analysts use Python?" [ref=e455] [cursor=pointer]:
+                - generic [ref=e457]: Do risk analysts use Python?
+                - img [ref=e460]
+              - button "What is EAD vs PD vs LGD?" [ref=e469] [cursor=pointer]:
+                - generic [ref=e471]: What is EAD vs PD vs LGD?
+                - img [ref=e474]
+              - button "Which analytics engine is best for credit risk modeling?" [ref=e483] [cursor=pointer]:
+                - generic [ref=e485]: Which analytics engine is best for credit risk modeling?
+                - img [ref=e488]
+          - generic [ref=e493]:
+            - heading "Web results" [level=2] [ref=e494]
+            - generic [ref=e495]:
+              - generic [ref=e498]:
+                - link "Built Real-Time Credit Risk Scoring API with Python ... LinkedIn · Shashank Pandey Yli 20 reaktiota · 8 kuukautta sitten" [ref=e500] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/posts/snkp0018_machinelearning-fintech-mlops-activity-7348806934801641475-NE71
+                  - heading "Built Real-Time Credit Risk Scoring API with Python ..." [level=3] [ref=e501]
+                  - generic [ref=e506]:
+                    - generic [ref=e508]: LinkedIn · Shashank Pandey
+                    - generic [ref=e510]: Yli 20 reaktiota · 8 kuukautta sitten
+                - button "Tietoja tästä tuloksesta" [ref=e511] [cursor=pointer]:
+                  - img [ref=e514]
+              - generic [ref=e518]:
+                - text: Enabled real-time SHAP-based explainability in my
+                - emphasis [ref=e519]: credit risk scoring
+                - text: API using FastAPI and
+                - emphasis [ref=e520]: XGBoost
+                - text: . No alternative text description for this ...
+              - generic [ref=e522]: "Puuttuu: personal ‎anomaly"
+          - generic [ref=e526]:
+            - generic [ref=e529]:
+              - link "Credit Risk Modeling in Python. XGBClassifier, ROC Curve ... Medium · Danrlei Diegues 3 tykkää · 1 vuosi sitten" [ref=e531] [cursor=pointer]:
+                - /url: https://medium.com/@danrlei.diegues_91903/credit-risk-modeling-in-python-e9b2379ebeb0
+                - heading "Credit Risk Modeling in Python. XGBClassifier, ROC Curve ..." [level=3] [ref=e532]
+                - generic [ref=e537]:
+                  - generic [ref=e539]: Medium · Danrlei Diegues
+                  - generic [ref=e541]: 3 tykkää · 1 vuosi sitten
+              - button "Tietoja tästä tuloksesta" [ref=e542] [cursor=pointer]:
+                - img [ref=e545]
+            - generic [ref=e549]:
+              - text: The purpose of this fast project is to dive deep into key concepts of
+              - emphasis [ref=e550]: Credit Risk
+              - text: Modeling using
+              - emphasis [ref=e551]: Python
+              - text: ", utilizing the Scikit-learn library to create ..."
+          - generic [ref=e558]:
+            - generic [ref=e561]:
+              - link "Build a Credit Scoring Model with Python | FinTech ML Project ... YouTube · Epython Lab Yli 6,4 t. katselukertaa · 10 kuukautta sitten" [ref=e563] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=pWOoYpJsaDc
+                - heading "Build a Credit Scoring Model with Python | FinTech ML Project ..." [level=3] [ref=e564]
+                - generic [ref=e569]:
+                  - generic [ref=e571]: YouTube · Epython Lab
+                  - generic [ref=e573]: Yli 6,4 t. katselukertaa · 10 kuukautta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e574] [cursor=pointer]:
+                - img [ref=e577]
+            - generic [ref=e579]:
+              - 'button "Build a Credit Scoring Model with Python | FinTech ML Project ..., tekijä: Epython Lab, alusta: YouTube. Katso Googlessa. 52:13" [ref=e580] [cursor=pointer]':
+                - generic [ref=e582]:
+                  - img [ref=e588]
+                  - generic [ref=e591]:
+                    - generic [ref=e592]: 52:13
+                    - img [ref=e595]
+              - generic [ref=e598]: Build a Credit Scoring Model with Python – A FinTech ML Labs Tutorial This comprehensive, hands-on tutorial guides you through building a ...
+            - button "3 avainkohtaa tässä videossa" [ref=e603] [cursor=pointer]:
+              - generic [ref=e612]:
+                - generic [ref=e615]: 3 avainkohtaa tässä videossa
+                - img [ref=e617]
+          - generic [ref=e622]:
+            - generic [ref=e625]:
+              - link "A PROPOSED MODEL CREDIT CARD FRAUD ... المجلات الاكاديمية العراقية https://iasj.rdd.edu.iq › uploads › 2026/01/31" [ref=e627] [cursor=pointer]:
+                - /url: https://iasj.rdd.edu.iq/journals/uploads/2026/01/31/6d459e4082ee0bd6a2aba4e679f2ad25.pdf
+                - heading "A PROPOSED MODEL CREDIT CARD FRAUD ..." [level=3] [ref=e628]
+                - generic [ref=e630]:
+                  - img [ref=e634]
+                  - generic [ref=e636]:
+                    - generic [ref=e638]: المجلات الاكاديمية العراقية
+                    - generic [ref=e640]: https://iasj.rdd.edu.iq › uploads › 2026/01/31
+              - generic [ref=e641]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e642] [cursor=pointer]:
+                - img [ref=e645]
+            - generic [ref=e648]:
+              - generic [ref=e649]: 30.1.2026 —
+              - generic [ref=e650]:
+                - text: After being trained on a large dataset of
+                - emphasis [ref=e651]: credit
+                - text: card transactions, the model is used to
+                - emphasis [ref=e652]: detect
+                - text: trends and
+                - emphasis [ref=e653]: anomalies
+                - text: that may indicate ...
+        - generic [ref=e655]:
+          - generic [ref=e660]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e662]
+            - generic [ref=e664]:
+              - link "Credit risk modelling in Python PDF" [ref=e669] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Credit+risk+modelling+in+Python+PDF&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q1QJ6BAhJEAE
+                - generic [ref=e670]:
+                  - generic [ref=e675]: Credit risk modelling in Python PDF
+                  - img [ref=e679]
+              - link "Credit risk modeling in Python" [ref=e685] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Credit+risk+modeling+in+Python&sa=X&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q1QJ6BAhKEAE
+                - generic [ref=e686]:
+                  - generic [ref=e691]: Credit risk modeling in Python
+                  - img [ref=e695]
+          - navigation [ref=e697]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e698]
+            - text: "1"
+            - link "Page 2" [ref=e701] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=10&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAE
+              - text: "2"
+            - link "Page 3" [ref=e703] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=20&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAG
+              - text: "3"
+            - link "Page 4" [ref=e705] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=30&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAI
+              - text: "4"
+            - link "Page 5" [ref=e707] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=40&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAK
+              - text: "5"
+            - link "Page 6" [ref=e709] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=50&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAM
+              - text: "6"
+            - link "Page 7" [ref=e711] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=60&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAO
+              - text: "7"
+            - link "Page 8" [ref=e713] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=70&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAQ
+              - text: "8"
+            - link "Page 9" [ref=e715] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=80&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAS
+              - text: "9"
+            - link "Page 10" [ref=e717] [cursor=pointer]:
+              - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=90&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8tMDegQIRxAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e719]:
+              - link "Seuraava" [ref=e720] [cursor=pointer]:
+                - /url: /search?q=ML+risk+scoring+personal+finance+XGBoost+anomaly+detection+credit+risk+tutorial+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=iW3RafqnEpyowPAP36__8Aw&start=10&sa=N&sstk=Af77f_fEZ_rkkEIbhAupctRmxU414hrrqMAC2cAzd4HGyuL3N8naKeQPaB8ccN0v4Xcn2BQR5BckhlT0tBBDoBCF9SbCdDGBzlnznQ&ved=2ahUKEwi6kJHt_dSTAxUcFBAIHd_XH84Q8NMDegQIRxAW
+                - generic [ref=e722]: Seuraava
+        - navigation
+    - contentinfo [ref=e723]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e724]
+      - generic [ref=e728]:
+        - generic [ref=e730]:
+          - text: Suomi
+          - generic [ref=e732]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e734] [cursor=pointer]:
+              - generic [ref=e735]: Helsinki
+              - generic [ref=e737]:
+                - text: "-"
+                - generic [ref=e738]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e740] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e743]:
+          - link "Ohje" [ref=e744] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e745] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e746] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e747] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,1241 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Asuntojen hinnat" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Asuntojen hinnat" [ref=e7]
+      - navigation [ref=e8]:
+        - generic [ref=e10] [cursor=pointer]:
+          - text: Välittäjät
+          - img [ref=e11]
+        - generic [ref=e14] [cursor=pointer]:
+          - text: Asunnon arvo
+          - img [ref=e15]
+        - generic [ref=e18] [cursor=pointer]:
+          - text: Muuta asumisesta
+          - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e23]:
+      - navigation [ref=e24]:
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - link "Asuntojenhinnat.fi" [ref=e27] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e28]:
+            - text: /
+            - link "Toteutuneet asuntokaupat" [ref=e29] [cursor=pointer]:
+              - /url: /myytyjen-asuntojen-tilastot
+          - listitem [ref=e30]:
+            - text: /
+            - link "Helsinki" [ref=e31] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - heading "Toteutuneet asuntokaupat - Helsinki" [level=1] [ref=e34]
+          - heading "Toteutuneiden asuntokauppojen tilastot ja markkinakatsaus" [level=2] [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]: Vanhojen kerros- ja rivitaloasuntojen hinnat nousivat kunnassa Helsinki 0,97 prosenttia vuonna 2025 neljännellä vuosineljänneksellä. Edellisen vuoden vastaavaan ajankohtaan verrattuna hinnat laskivat 2,31 prosenttia. Kallein asuinalue neliöhinnoiltaan oli Kaartinkaupunki. Helsinki oli kalleimpien kuntien listalla numerolla 1.
+          - generic [ref=e38]: Vuoden 2025 neljännellä vuosineljänneksellä vanhan osakehuoneiston keskimääräinen neliöhinta kunnassa Helsinki oli 4868 euroa, pääkaupunkiseudulla 4291 euroa ja muualla Suomessa 1702 euroa.
+        - button "Valitse alue" [ref=e41] [cursor=pointer]:
+          - text: Valitse alue
+          - img [ref=e42]
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - term [ref=e48]: Asuntokaupat Helsinki
+            - definition [ref=e49]: 2 711
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic "Prosentuaalinen muutos asuntojen kauppojen määrässä verrattuna edelliseen vuosineljännekseen" [ref=e52]: 3kk
+              - generic [ref=e53]: +7,41 %
+            - generic [ref=e54]:
+              - generic "Prosentuaalinen muutos asuntojen kauppojen määrässä verrattuna edelliseen vuoden vastaavaan vuosineljännekseen" [ref=e55]: 12kk
+              - generic [ref=e56]: "-6,29 %"
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - term [ref=e59]: Neliöhinta Helsinki
+            - definition [ref=e60]: 4 868€ / m²
+          - generic [ref=e61]:
+            - generic [ref=e62]:
+              - generic "Prosentuaalinen muutos asuntojen neliöhinnassa verrattuna edelliseen vuosineljännekseen" [ref=e63]: 3kk
+              - generic [ref=e64]: +0,97 %
+            - generic [ref=e65]:
+              - generic "Prosentuaalinen muutos asuntojen neliöhinnassa verrattuna edelliseen vuoden vastaavaan vuosineljännekseen" [ref=e66]: 12kk
+              - generic [ref=e67]: "-2,31 %"
+        - generic [ref=e69]:
+          - term [ref=e70]: Sijoitus kuntien neliöhintalistalla
+          - definition [ref=e71]: "1"
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - term [ref=e74]: Neliöhinta PK-seudulla
+            - definition [ref=e75]: 4 291€ / m²
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic "Prosentuaalinen muutos asuntojen neliöhinnassa pääkaupunkiseudulla edelliseen vuosineljännekseen" [ref=e78]: 3kk
+              - generic [ref=e79]: +0,42 %
+            - generic [ref=e80]:
+              - generic "Prosentuaalinen muutos asuntojen neliöhinnassa pääkaupunkiseudulla verrattuna edelliseen vuoden vastaavaan vuosineljännekseen" [ref=e81]: 12kk
+              - generic [ref=e82]: "-2,74 %"
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - term [ref=e85]: Neliöhinta muualla
+            - definition [ref=e86]: 1 702€ / m²
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic "Prosentuaalinen muutos asuntojen neliöhinnassa pääkaupunkiseudulla edelliseen vuosineljännekseen" [ref=e89]: 3kk
+              - generic [ref=e90]: "-2,13 %"
+            - generic [ref=e91]:
+              - generic "Prosentuaalinen muutos asuntojen neliöhinnassa pääkaupunkiseudulla verrattuna edelliseen vuoden vastaavaan vuosineljännekseen" [ref=e92]: 12kk
+              - generic [ref=e93]: "-3,13 %"
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - heading "Asuntojen hintakehitys ja asuntokauppojen määrä kunnassa Helsinki" [level=2] [ref=e96]
+          - heading "Saa parempi markkinaymmärrys historiadatalla" [level=3] [ref=e97]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: "Aikaväli:"
+            - combobox [ref=e101]:
+              - option "2 vuotta (8 kvartaalia)" [selected]
+              - option "4 vuotta (16 kvartaalia)"
+              - option "6 vuotta (24 kvartaalia)"
+          - img [ref=e105]:
+            - generic [ref=e113]: Neliöhinta (€)
+            - generic [ref=e115]: Kauppojen määrä
+            - generic [ref=e135]:
+              - generic [ref=e136]: 2024Q1
+              - generic [ref=e137]: 2024Q2
+              - generic [ref=e138]: 2024Q3
+              - generic [ref=e139]: 2024Q4
+              - generic [ref=e140]: 2025Q1
+              - generic [ref=e141]: 2025Q2
+              - generic [ref=e142]: 2025Q3
+              - generic [ref=e143]: 2025Q4
+            - generic [ref=e147]:
+              - generic [ref=e149] [cursor=pointer]: Helsinki
+              - generic [ref=e151] [cursor=pointer]: Pääkaupunkiseutu
+              - generic [ref=e153] [cursor=pointer]: Koko maa
+              - generic [ref=e155] [cursor=pointer]: Kaupat
+            - generic [ref=e157] [cursor=pointer]: Asuntojenhinnat.fi
+        - generic [ref=e158]: Yllä oleva graafi esittää, miten asuntojen hintakehitys Helsinki-kunnassa on muuttunut vuosineljänneksittäin viimeisen kuuden vuoden aikana. Kuviossa näkyy Helsingin hintakehityksen lisäksi myös koko maan vastaavat luvut. Mukana ovat lisäksi toteutuneiden asuntokauppojen määrät, jotka tarjoavat tarkempaa tietoa markkinan aktiivisuudesta.
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - heading "Asuntokaupan kehitys" [level=2] [ref=e161]
+          - heading "Toteutuneiden asuntokauppojen hintojen kehitys asuntotyypin mukaan" [level=3] [ref=e162]
+        - img [ref=e167]:
+          - generic [ref=e174]: Neliöhinta (€)
+          - generic [ref=e191]:
+            - generic [ref=e193] [cursor=pointer]: Kerrostalo yksiö
+            - generic [ref=e195] [cursor=pointer]: Kerrostalo kaksio
+            - generic [ref=e197] [cursor=pointer]: Kerrostalo kolmio tai isompi
+            - generic [ref=e199] [cursor=pointer]: Rivitalo yhteensä
+          - generic [ref=e200]:
+            - generic [ref=e201]: 2020Q1
+            - generic [ref=e202]: 2020Q2
+            - generic [ref=e203]: 2020Q3
+            - generic [ref=e204]: 2020Q4
+            - generic [ref=e205]: 2021Q1
+            - generic [ref=e206]: 2021Q2
+            - generic [ref=e207]: 2021Q3
+            - generic [ref=e208]: 2021Q4
+            - generic [ref=e209]: 2022Q1
+            - generic [ref=e210]: 2022Q2
+            - generic [ref=e211]: 2022Q3
+            - generic [ref=e212]: 2022Q4
+            - generic [ref=e213]: 2023Q1
+            - generic [ref=e214]: 2023Q2
+            - generic [ref=e215]: 2023Q3
+            - generic [ref=e216]: 2023Q4
+            - generic [ref=e217]: 2024Q1
+            - generic [ref=e218]: 2024Q2
+            - generic [ref=e219]: 2024Q3
+            - generic [ref=e220]: 2024Q4
+            - generic [ref=e221]: 2025Q1
+            - generic [ref=e222]: 2025Q2
+            - generic [ref=e223]: 2025Q3
+            - generic [ref=e224]: 2025Q4
+          - generic [ref=e225]:
+            - generic [ref=e226]: 3 000 €
+            - generic [ref=e227]: 4 000 €
+            - generic [ref=e228]: 5 000 €
+            - generic [ref=e229]: 6 000 €
+            - generic [ref=e230]: 7 000 €
+          - generic [ref=e231] [cursor=pointer]: Asuntojenhinnat.fi
+      - generic [ref=e234]:
+        - heading "Tiedämme Helsingin hinnat" [level=2] [ref=e235]
+        - paragraph [ref=e236]: Kiinnostaako hinta-arvio asunnostasi? Toimitamme luotettavan hinta-arvion minuuteissa. Täytät vain asunnon perustiedot, niin laskemme tilastoihin perustuvan hinta-arvion. Vaivatonta ja helppoa!
+        - link "Tilaa ilmainen hinta-arvio" [ref=e237] [cursor=pointer]:
+          - /url: /asunnon-hinta-arvio
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - heading "Kalleimmat asuinalueet - Helsinki" [level=2] [ref=e240]
+          - heading "Alueet järjestettynä viimeisimmän vuosineljänneksen neliöhintojen mukaan" [level=3] [ref=e241]
+        - generic [ref=e242]:
+          - generic [ref=e245]: 4. vuosineljännes 2025
+          - generic [ref=e246]:
+            - generic [ref=e247]: Taulukko lajiteltu oletuksena viimeisimmän neliöhinnan mukaan
+            - generic [ref=e248]:
+              - generic [ref=e249]: Hae aluetta
+              - searchbox "Hae aluetta" [ref=e250]
+        - table [ref=e256]:
+          - rowgroup [ref=e257]:
+            - row "# ↕ Alue ↕ Kunta ↕ Viimeisin (€/m²) ▼ Edellinen (€/m²) ↕ Muutos (€/m²) ↕" [ref=e258]:
+              - columnheader "# ↕" [ref=e259]:
+                - button "# ↕" [ref=e260] [cursor=pointer]:
+                  - generic [ref=e261]: "#"
+                  - generic [ref=e262]: ↕
+              - columnheader "Alue ↕" [ref=e263]:
+                - button "Alue ↕" [ref=e264] [cursor=pointer]:
+                  - generic [ref=e265]: Alue
+                  - generic [ref=e266]: ↕
+              - columnheader "Kunta ↕" [ref=e267]:
+                - button "Kunta ↕" [ref=e268] [cursor=pointer]:
+                  - generic [ref=e269]: Kunta
+                  - generic [ref=e270]: ↕
+              - columnheader "Viimeisin (€/m²) ▼" [ref=e271]:
+                - button "Viimeisin (€/m²) ▼" [ref=e272] [cursor=pointer]:
+                  - generic [ref=e273]: Viimeisin (€/m²)
+                  - generic [ref=e274]: ▼
+              - columnheader "Edellinen (€/m²) ↕" [ref=e275]:
+                - button "Edellinen (€/m²) ↕" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e277]: Edellinen (€/m²)
+                  - generic [ref=e278]: ↕
+              - columnheader "Muutos (€/m²) ↕" [ref=e279]:
+                - button "Muutos (€/m²) ↕" [ref=e280] [cursor=pointer]:
+                  - generic [ref=e281]: Muutos (€/m²)
+                  - generic [ref=e282]: ↕
+          - rowgroup [ref=e283]:
+            - row "1 Kaartinkaupunki Helsinki 9218 9218 ▲ 0" [ref=e284]:
+              - cell "1" [ref=e285]
+              - cell "Kaartinkaupunki" [ref=e286]:
+                - link "Kaartinkaupunki" [ref=e287] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kaartinkaupunki
+              - cell "Helsinki" [ref=e288]
+              - cell "9218" [ref=e289]
+              - cell "9218" [ref=e290]
+              - cell "▲ 0" [ref=e291]:
+                - generic [ref=e292]:
+                  - generic [ref=e293]: ▲
+                  - text: "0"
+            - row "2 Kaivopuisto Helsinki 8657 8789 ▼ -132" [ref=e294]:
+              - cell "2" [ref=e295]
+              - cell "Kaivopuisto" [ref=e296]:
+                - link "Kaivopuisto" [ref=e297] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kaivopuisto
+              - cell "Helsinki" [ref=e298]
+              - cell "8657" [ref=e299]
+              - cell "8789" [ref=e300]
+              - cell "▼ -132" [ref=e301]:
+                - generic [ref=e302]:
+                  - generic [ref=e303]: ▼
+                  - text: "-132"
+            - row "3 Eira Helsinki 8245 7772 ▲ 473" [ref=e304]:
+              - cell "3" [ref=e305]
+              - cell "Eira" [ref=e306]:
+                - link "Eira" [ref=e307] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/eira
+              - cell "Helsinki" [ref=e308]
+              - cell "8245" [ref=e309]
+              - cell "7772" [ref=e310]
+              - cell "▲ 473" [ref=e311]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]: ▲
+                  - text: "473"
+            - row "4 Verkkosaari Helsinki 7795 7058 ▲ 737" [ref=e314]:
+              - cell "4" [ref=e315]
+              - cell "Verkkosaari" [ref=e316]:
+                - link "Verkkosaari" [ref=e317] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/verkkosaari
+              - cell "Helsinki" [ref=e318]
+              - cell "7795" [ref=e319]
+              - cell "7058" [ref=e320]
+              - cell "▲ 737" [ref=e321]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]: ▲
+                  - text: "737"
+            - row "5 Keski-Töölö Helsinki 7708 6548 ▲ 1160" [ref=e324]:
+              - cell "5" [ref=e325]
+              - cell "Keski-Töölö" [ref=e326]:
+                - link "Keski-Töölö" [ref=e327] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/keski-toolo
+              - cell "Helsinki" [ref=e328]
+              - cell "7708" [ref=e329]
+              - cell "6548" [ref=e330]
+              - cell "▲ 1160" [ref=e331]:
+                - generic [ref=e332]:
+                  - generic [ref=e333]: ▲
+                  - text: "1160"
+            - row "6 Punavuori Helsinki 7622 7844 ▼ -222" [ref=e334]:
+              - cell "6" [ref=e335]
+              - cell "Punavuori" [ref=e336]:
+                - link "Punavuori" [ref=e337] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/punavuori
+              - cell "Helsinki" [ref=e338]
+              - cell "7622" [ref=e339]
+              - cell "7844" [ref=e340]
+              - cell "▼ -222" [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e343]: ▼
+                  - text: "-222"
+            - row "7 Jätkäsaari Helsinki 7533 6009 ▲ 1524" [ref=e344]:
+              - cell "7" [ref=e345]
+              - cell "Jätkäsaari" [ref=e346]:
+                - link "Jätkäsaari" [ref=e347] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/jatkasaari
+              - cell "Helsinki" [ref=e348]
+              - cell "7533" [ref=e349]
+              - cell "6009" [ref=e350]
+              - cell "▲ 1524" [ref=e351]:
+                - generic [ref=e352]:
+                  - generic [ref=e353]: ▲
+                  - text: "1524"
+            - row "8 Katajanokka Helsinki 7476 6962 ▲ 514" [ref=e354]:
+              - cell "8" [ref=e355]
+              - cell "Katajanokka" [ref=e356]:
+                - link "Katajanokka" [ref=e357] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/katajanokka
+              - cell "Helsinki" [ref=e358]
+              - cell "7476" [ref=e359]
+              - cell "6962" [ref=e360]
+              - cell "▲ 514" [ref=e361]:
+                - generic [ref=e362]:
+                  - generic [ref=e363]: ▲
+                  - text: "514"
+            - row "9 Kruununhaka Helsinki 7445 7560 ▼ -115" [ref=e364]:
+              - cell "9" [ref=e365]
+              - cell "Kruununhaka" [ref=e366]:
+                - link "Kruununhaka" [ref=e367] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kruununhaka
+              - cell "Helsinki" [ref=e368]
+              - cell "7445" [ref=e369]
+              - cell "7560" [ref=e370]
+              - cell "▼ -115" [ref=e371]:
+                - generic [ref=e372]:
+                  - generic [ref=e373]: ▼
+                  - text: "-115"
+            - row "10 Etu-Töölö Helsinki 7315 7309 ▲ 6" [ref=e374]:
+              - cell "10" [ref=e375]
+              - cell "Etu-Töölö" [ref=e376]:
+                - link "Etu-Töölö" [ref=e377] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/etu-toolo
+              - cell "Helsinki" [ref=e378]
+              - cell "7315" [ref=e379]
+              - cell "7309" [ref=e380]
+              - cell "▲ 6" [ref=e381]:
+                - generic [ref=e382]:
+                  - generic [ref=e383]: ▲
+                  - text: "6"
+            - row "11 Ruoholahti Helsinki 6686 6617 ▲ 69" [ref=e384]:
+              - cell "11" [ref=e385]
+              - cell "Ruoholahti" [ref=e386]:
+                - link "Ruoholahti" [ref=e387] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/ruoholahti
+              - cell "Helsinki" [ref=e388]
+              - cell "6686" [ref=e389]
+              - cell "6617" [ref=e390]
+              - cell "▲ 69" [ref=e391]:
+                - generic [ref=e392]:
+                  - generic [ref=e393]: ▲
+                  - text: "69"
+            - row "12 Vattuniemi Helsinki 6462 6098 ▲ 364" [ref=e394]:
+              - cell "12" [ref=e395]
+              - cell "Vattuniemi" [ref=e396]:
+                - link "Vattuniemi" [ref=e397] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/vattuniemi
+              - cell "Helsinki" [ref=e398]
+              - cell "6462" [ref=e399]
+              - cell "6098" [ref=e400]
+              - cell "▲ 364" [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]: ▲
+                  - text: "364"
+            - row "13 Taka-Töölö Helsinki 6396 6352 ▲ 44" [ref=e404]:
+              - cell "13" [ref=e405]
+              - cell "Taka-Töölö" [ref=e406]:
+                - link "Taka-Töölö" [ref=e407] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/taka-toolo
+              - cell "Helsinki" [ref=e408]
+              - cell "6396" [ref=e409]
+              - cell "6352" [ref=e410]
+              - cell "▲ 44" [ref=e411]:
+                - generic [ref=e412]:
+                  - generic [ref=e413]: ▲
+                  - text: "44"
+            - row "14 Kalasatama Helsinki 6276 6276 ▲ 0" [ref=e414]:
+              - cell "14" [ref=e415]
+              - cell "Kalasatama" [ref=e416]:
+                - link "Kalasatama" [ref=e417] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kalasatama
+              - cell "Helsinki" [ref=e418]
+              - cell "6276" [ref=e419]
+              - cell "6276" [ref=e420]
+              - cell "▲ 0" [ref=e421]:
+                - generic [ref=e422]:
+                  - generic [ref=e423]: ▲
+                  - text: "0"
+            - row "15 Munkkiniemi Helsinki 6153 6369 ▼ -216" [ref=e424]:
+              - cell "15" [ref=e425]
+              - cell "Munkkiniemi" [ref=e426]:
+                - link "Munkkiniemi" [ref=e427] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/munkkiniemi
+              - cell "Helsinki" [ref=e428]
+              - cell "6153" [ref=e429]
+              - cell "6369" [ref=e430]
+              - cell "▼ -216" [ref=e431]:
+                - generic [ref=e432]:
+                  - generic [ref=e433]: ▼
+                  - text: "-216"
+            - row "16 Kaitalahti Helsinki 6092 6092 ▲ 0" [ref=e434]:
+              - cell "16" [ref=e435]
+              - cell "Kaitalahti" [ref=e436]:
+                - link "Kaitalahti" [ref=e437] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kaitalahti
+              - cell "Helsinki" [ref=e438]
+              - cell "6092" [ref=e439]
+              - cell "6092" [ref=e440]
+              - cell "▲ 0" [ref=e441]:
+                - generic [ref=e442]:
+                  - generic [ref=e443]: ▲
+                  - text: "0"
+            - row "17 Lauttasaari Helsinki 5917 6191 ▼ -274" [ref=e444]:
+              - cell "17" [ref=e445]
+              - cell "Lauttasaari" [ref=e446]:
+                - link "Lauttasaari" [ref=e447] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/lauttasaari
+              - cell "Helsinki" [ref=e448]
+              - cell "5917" [ref=e449]
+              - cell "6191" [ref=e450]
+              - cell "▼ -274" [ref=e451]:
+                - generic [ref=e452]:
+                  - generic [ref=e453]: ▼
+                  - text: "-274"
+            - row "18 Pohjois-Meilahti Helsinki 5751 5623 ▲ 128" [ref=e454]:
+              - cell "18" [ref=e455]
+              - cell "Pohjois-Meilahti" [ref=e456]:
+                - link "Pohjois-Meilahti" [ref=e457] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pohjois-meilahti
+              - cell "Helsinki" [ref=e458]
+              - cell "5751" [ref=e459]
+              - cell "5623" [ref=e460]
+              - cell "▲ 128" [ref=e461]:
+                - generic [ref=e462]:
+                  - generic [ref=e463]: ▲
+                  - text: "128"
+            - row "19 Itä-Pasila Helsinki 5559 5819 ▼ -260" [ref=e464]:
+              - cell "19" [ref=e465]
+              - cell "Itä-Pasila" [ref=e466]:
+                - link "Itä-Pasila" [ref=e467] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/ita-pasila
+              - cell "Helsinki" [ref=e468]
+              - cell "5559" [ref=e469]
+              - cell "5819" [ref=e470]
+              - cell "▼ -260" [ref=e471]:
+                - generic [ref=e472]:
+                  - generic [ref=e473]: ▼
+                  - text: "-260"
+            - row "20 Toukola-Vanhakaupunki Helsinki 5368 5287 ▲ 81" [ref=e474]:
+              - cell "20" [ref=e475]
+              - cell "Toukola-Vanhakaupunki" [ref=e476]:
+                - link "Toukola-Vanhakaupunki" [ref=e477] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/toukola-vanhakaupunki
+              - cell "Helsinki" [ref=e478]
+              - cell "5368" [ref=e479]
+              - cell "5287" [ref=e480]
+              - cell "▲ 81" [ref=e481]:
+                - generic [ref=e482]:
+                  - generic [ref=e483]: ▲
+                  - text: "81"
+            - row "21 Kallio Helsinki 5295 5466 ▼ -171" [ref=e484]:
+              - cell "21" [ref=e485]
+              - cell "Kallio" [ref=e486]:
+                - link "Kallio" [ref=e487] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kallio
+              - cell "Helsinki" [ref=e488]
+              - cell "5295" [ref=e489]
+              - cell "5466" [ref=e490]
+              - cell "▼ -171" [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]: ▼
+                  - text: "-171"
+            - row "22 Etu-Vallila Helsinki 5204 5495 ▼ -291" [ref=e494]:
+              - cell "22" [ref=e495]
+              - cell "Etu-Vallila" [ref=e496]:
+                - link "Etu-Vallila" [ref=e497] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/etu-vallila
+              - cell "Helsinki" [ref=e498]
+              - cell "5204" [ref=e499]
+              - cell "5495" [ref=e500]
+              - cell "▼ -291" [ref=e501]:
+                - generic [ref=e502]:
+                  - generic [ref=e503]: ▼
+                  - text: "-291"
+            - row "23 Ruskeasuo Helsinki 5123 5144 ▼ -21" [ref=e504]:
+              - cell "23" [ref=e505]
+              - cell "Ruskeasuo" [ref=e506]:
+                - link "Ruskeasuo" [ref=e507] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/ruskeasuo
+              - cell "Helsinki" [ref=e508]
+              - cell "5123" [ref=e509]
+              - cell "5144" [ref=e510]
+              - cell "▼ -21" [ref=e511]:
+                - generic [ref=e512]:
+                  - generic [ref=e513]: ▼
+                  - text: "-21"
+            - row "24 Vallila Helsinki 5108 5184 ▼ -76" [ref=e514]:
+              - cell "24" [ref=e515]
+              - cell "Vallila" [ref=e516]:
+                - link "Vallila" [ref=e517] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/vallila
+              - cell "Helsinki" [ref=e518]
+              - cell "5108" [ref=e519]
+              - cell "5184" [ref=e520]
+              - cell "▼ -76" [ref=e521]:
+                - generic [ref=e522]:
+                  - generic [ref=e523]: ▼
+                  - text: "-76"
+            - row "25 Sörnäinen Helsinki 5075 5241 ▼ -166" [ref=e524]:
+              - cell "25" [ref=e525]
+              - cell "Sörnäinen" [ref=e526]:
+                - link "Sörnäinen" [ref=e527] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/sornainen
+              - cell "Helsinki" [ref=e528]
+              - cell "5075" [ref=e529]
+              - cell "5241" [ref=e530]
+              - cell "▼ -166" [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e533]: ▼
+                  - text: "-166"
+            - row "26 Herttoniemi Helsinki 5059 5263 ▼ -204" [ref=e534]:
+              - cell "26" [ref=e535]
+              - cell "Herttoniemi" [ref=e536]:
+                - link "Herttoniemi" [ref=e537] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/herttoniemi
+              - cell "Helsinki" [ref=e538]
+              - cell "5059" [ref=e539]
+              - cell "5263" [ref=e540]
+              - cell "▼ -204" [ref=e541]:
+                - generic [ref=e542]:
+                  - generic [ref=e543]: ▼
+                  - text: "-204"
+            - row "27 Kulosaari Helsinki 4908 5181 ▼ -273" [ref=e544]:
+              - cell "27" [ref=e545]
+              - cell "Kulosaari" [ref=e546]:
+                - link "Kulosaari" [ref=e547] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kulosaari
+              - cell "Helsinki" [ref=e548]
+              - cell "4908" [ref=e549]
+              - cell "5181" [ref=e550]
+              - cell "▼ -273" [ref=e551]:
+                - generic [ref=e552]:
+                  - generic [ref=e553]: ▼
+                  - text: "-273"
+            - row "28 Etelä-Haaga Helsinki 4860 4879 ▼ -19" [ref=e554]:
+              - cell "28" [ref=e555]
+              - cell "Etelä-Haaga" [ref=e556]:
+                - link "Etelä-Haaga" [ref=e557] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/etela-haaga
+              - cell "Helsinki" [ref=e558]
+              - cell "4860" [ref=e559]
+              - cell "4879" [ref=e560]
+              - cell "▼ -19" [ref=e561]:
+                - generic [ref=e562]:
+                  - generic [ref=e563]: ▼
+                  - text: "-19"
+            - row "29 Käpylä Helsinki 4851 4956 ▼ -105" [ref=e564]:
+              - cell "29" [ref=e565]
+              - cell "Käpylä" [ref=e566]:
+                - link "Käpylä" [ref=e567] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kapyla
+              - cell "Helsinki" [ref=e568]
+              - cell "4851" [ref=e569]
+              - cell "4956" [ref=e570]
+              - cell "▼ -105" [ref=e571]:
+                - generic [ref=e572]:
+                  - generic [ref=e573]: ▼
+                  - text: "-105"
+            - row "30 Munkkivuori-Niemenmäki Helsinki 4708 4577 ▲ 131" [ref=e574]:
+              - cell "30" [ref=e575]
+              - cell "Munkkivuori-Niemenmäki" [ref=e576]:
+                - link "Munkkivuori-Niemenmäki" [ref=e577] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/munkkivuori-niemenmaki
+              - cell "Helsinki" [ref=e578]
+              - cell "4708" [ref=e579]
+              - cell "4577" [ref=e580]
+              - cell "▲ 131" [ref=e581]:
+                - generic [ref=e582]:
+                  - generic [ref=e583]: ▲
+                  - text: "131"
+            - row "31 Kuusisaari-Lehtisaari Helsinki 4569 4569 ▲ 0" [ref=e584]:
+              - cell "31" [ref=e585]
+              - cell "Kuusisaari-Lehtisaari" [ref=e586]:
+                - link "Kuusisaari-Lehtisaari" [ref=e587] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kuusisaari-lehtisaari
+              - cell "Helsinki" [ref=e588]
+              - cell "4569" [ref=e589]
+              - cell "4569" [ref=e590]
+              - cell "▲ 0" [ref=e591]:
+                - generic [ref=e592]:
+                  - generic [ref=e593]: ▲
+                  - text: "0"
+            - row "32 Länsi-Pasila Helsinki 4546 4323 ▲ 223" [ref=e594]:
+              - cell "32" [ref=e595]
+              - cell "Länsi-Pasila" [ref=e596]:
+                - link "Länsi-Pasila" [ref=e597] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/lansi-pasila
+              - cell "Helsinki" [ref=e598]
+              - cell "4546" [ref=e599]
+              - cell "4323" [ref=e600]
+              - cell "▲ 223" [ref=e601]:
+                - generic [ref=e602]:
+                  - generic [ref=e603]: ▲
+                  - text: "223"
+            - row "33 Länsi-Herttoniemi Helsinki 4544 4638 ▼ -94" [ref=e604]:
+              - cell "33" [ref=e605]
+              - cell "Länsi-Herttoniemi" [ref=e606]:
+                - link "Länsi-Herttoniemi" [ref=e607] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/lansi-herttoniemi
+              - cell "Helsinki" [ref=e608]
+              - cell "4544" [ref=e609]
+              - cell "4638" [ref=e610]
+              - cell "▼ -94" [ref=e611]:
+                - generic [ref=e612]:
+                  - generic [ref=e613]: ▼
+                  - text: "-94"
+            - row "34 Tammisalo Helsinki 4543 4339 ▲ 204" [ref=e614]:
+              - cell "34" [ref=e615]
+              - cell "Tammisalo" [ref=e616]:
+                - link "Tammisalo" [ref=e617] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/tammisalo
+              - cell "Helsinki" [ref=e618]
+              - cell "4543" [ref=e619]
+              - cell "4339" [ref=e620]
+              - cell "▲ 204" [ref=e621]:
+                - generic [ref=e622]:
+                  - generic [ref=e623]: ▲
+                  - text: "204"
+            - row "35 Kivihaka Helsinki 4462 4462 ▲ 0" [ref=e624]:
+              - cell "35" [ref=e625]
+              - cell "Kivihaka" [ref=e626]:
+                - link "Kivihaka" [ref=e627] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kivihaka
+              - cell "Helsinki" [ref=e628]
+              - cell "4462" [ref=e629]
+              - cell "4462" [ref=e630]
+              - cell "▲ 0" [ref=e631]:
+                - generic [ref=e632]:
+                  - generic [ref=e633]: ▲
+                  - text: "0"
+            - row "36 Länsi-Pakila Helsinki 4377 3706 ▲ 671" [ref=e634]:
+              - cell "36" [ref=e635]
+              - cell "Länsi-Pakila" [ref=e636]:
+                - link "Länsi-Pakila" [ref=e637] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/lansi-pakila
+              - cell "Helsinki" [ref=e638]
+              - cell "4377" [ref=e639]
+              - cell "3706" [ref=e640]
+              - cell "▲ 671" [ref=e641]:
+                - generic [ref=e642]:
+                  - generic [ref=e643]: ▲
+                  - text: "671"
+            - row "37 Pikku Huopalahti Helsinki 4371 4371 ▲ 0" [ref=e644]:
+              - cell "37" [ref=e645]
+              - cell "Pikku Huopalahti" [ref=e646]:
+                - link "Pikku Huopalahti" [ref=e647] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pikku-huopalahti
+              - cell "Helsinki" [ref=e648]
+              - cell "4371" [ref=e649]
+              - cell "4371" [ref=e650]
+              - cell "▲ 0" [ref=e651]:
+                - generic [ref=e652]:
+                  - generic [ref=e653]: ▲
+                  - text: "0"
+            - row "38 Viikki Helsinki 4359 4359 ▲ 0" [ref=e654]:
+              - cell "38" [ref=e655]
+              - cell "Viikki" [ref=e656]:
+                - link "Viikki" [ref=e657] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/viikki
+              - cell "Helsinki" [ref=e658]
+              - cell "4359" [ref=e659]
+              - cell "4359" [ref=e660]
+              - cell "▲ 0" [ref=e661]:
+                - generic [ref=e662]:
+                  - generic [ref=e663]: ▲
+                  - text: "0"
+            - row "39 Pitäjänmäen teollisuusalue Helsinki 4340 4340 ▲ 0" [ref=e664]:
+              - cell "39" [ref=e665]
+              - cell "Pitäjänmäen teollisuusalue" [ref=e666]:
+                - link "Pitäjänmäen teollisuusalue" [ref=e667] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pitajanmaen-teollisuusalue
+              - cell "Helsinki" [ref=e668]
+              - cell "4340" [ref=e669]
+              - cell "4340" [ref=e670]
+              - cell "▲ 0" [ref=e671]:
+                - generic [ref=e672]:
+                  - generic [ref=e673]: ▲
+                  - text: "0"
+            - row "40 Maununneva Helsinki 4273 2759 ▲ 1514" [ref=e674]:
+              - cell "40" [ref=e675]
+              - cell "Maununneva" [ref=e676]:
+                - link "Maununneva" [ref=e677] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/maununneva
+              - cell "Helsinki" [ref=e678]
+              - cell "4273" [ref=e679]
+              - cell "2759" [ref=e680]
+              - cell "▲ 1514" [ref=e681]:
+                - generic [ref=e682]:
+                  - generic [ref=e683]: ▲
+                  - text: "1514"
+            - row "41 Jollas Helsinki 4257 4257 ▲ 0" [ref=e684]:
+              - cell "41" [ref=e685]
+              - cell "Jollas" [ref=e686]:
+                - link "Jollas" [ref=e687] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/jollas
+              - cell "Helsinki" [ref=e688]
+              - cell "4257" [ref=e689]
+              - cell "4257" [ref=e690]
+              - cell "▲ 0" [ref=e691]:
+                - generic [ref=e692]:
+                  - generic [ref=e693]: ▲
+                  - text: "0"
+            - row "42 Aurinkolahti Helsinki 4246 4431 ▼ -185" [ref=e694]:
+              - cell "42" [ref=e695]
+              - cell "Aurinkolahti" [ref=e696]:
+                - link "Aurinkolahti" [ref=e697] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/aurinkolahti
+              - cell "Helsinki" [ref=e698]
+              - cell "4246" [ref=e699]
+              - cell "4431" [ref=e700]
+              - cell "▼ -185" [ref=e701]:
+                - generic [ref=e702]:
+                  - generic [ref=e703]: ▼
+                  - text: "-185"
+            - row "43 Reimarla Helsinki 4231 3172 ▲ 1059" [ref=e704]:
+              - cell "43" [ref=e705]
+              - cell "Reimarla" [ref=e706]:
+                - link "Reimarla" [ref=e707] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/reimarla
+              - cell "Helsinki" [ref=e708]
+              - cell "4231" [ref=e709]
+              - cell "3172" [ref=e710]
+              - cell "▲ 1059" [ref=e711]:
+                - generic [ref=e712]:
+                  - generic [ref=e713]: ▲
+                  - text: "1059"
+            - row "44 Metsälä-Etelä-Oulunkylä Helsinki 4080 4080 ▲ 0" [ref=e714]:
+              - cell "44" [ref=e715]
+              - cell "Metsälä-Etelä-Oulunkylä" [ref=e716]:
+                - link "Metsälä-Etelä-Oulunkylä" [ref=e717] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/metsala-etela-oulunkyla
+              - cell "Helsinki" [ref=e718]
+              - cell "4080" [ref=e719]
+              - cell "4080" [ref=e720]
+              - cell "▲ 0" [ref=e721]:
+                - generic [ref=e722]:
+                  - generic [ref=e723]: ▲
+                  - text: "0"
+            - row "45 Pajamäki Helsinki 4020 4020 ▲ 0" [ref=e724]:
+              - cell "45" [ref=e725]
+              - cell "Pajamäki" [ref=e726]:
+                - link "Pajamäki" [ref=e727] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pajamaki
+              - cell "Helsinki" [ref=e728]
+              - cell "4020" [ref=e729]
+              - cell "4020" [ref=e730]
+              - cell "▲ 0" [ref=e731]:
+                - generic [ref=e732]:
+                  - generic [ref=e733]: ▲
+                  - text: "0"
+            - row "46 Pohjois-Haaga Helsinki 3957 4096 ▼ -139" [ref=e734]:
+              - cell "46" [ref=e735]
+              - cell "Pohjois-Haaga" [ref=e736]:
+                - link "Pohjois-Haaga" [ref=e737] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pohjois-haaga
+              - cell "Helsinki" [ref=e738]
+              - cell "3957" [ref=e739]
+              - cell "4096" [ref=e740]
+              - cell "▼ -139" [ref=e741]:
+                - generic [ref=e742]:
+                  - generic [ref=e743]: ▼
+                  - text: "-139"
+            - row "47 Oulunkylä-Patola Helsinki 3955 3442 ▲ 513" [ref=e744]:
+              - cell "47" [ref=e745]
+              - cell "Oulunkylä-Patola" [ref=e746]:
+                - link "Oulunkylä-Patola" [ref=e747] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/oulunkyla-patola
+              - cell "Helsinki" [ref=e748]
+              - cell "3955" [ref=e749]
+              - cell "3442" [ref=e750]
+              - cell "▲ 513" [ref=e751]:
+                - generic [ref=e752]:
+                  - generic [ref=e753]: ▲
+                  - text: "513"
+            - row "48 Roihuvuori Helsinki 3763 3637 ▲ 126" [ref=e754]:
+              - cell "48" [ref=e755]
+              - cell "Roihuvuori" [ref=e756]:
+                - link "Roihuvuori" [ref=e757] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/roihuvuori
+              - cell "Helsinki" [ref=e758]
+              - cell "3763" [ref=e759]
+              - cell "3637" [ref=e760]
+              - cell "▲ 126" [ref=e761]:
+                - generic [ref=e762]:
+                  - generic [ref=e763]: ▲
+                  - text: "126"
+            - row "49 Koskela-Helsinki Helsinki 3761 3761 ▲ 0" [ref=e764]:
+              - cell "49" [ref=e765]
+              - cell "Koskela-Helsinki" [ref=e766]:
+                - link "Koskela-Helsinki" [ref=e767] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/koskela-helsinki
+              - cell "Helsinki" [ref=e768]
+              - cell "3761" [ref=e769]
+              - cell "3761" [ref=e770]
+              - cell "▲ 0" [ref=e771]:
+                - generic [ref=e772]:
+                  - generic [ref=e773]: ▲
+                  - text: "0"
+            - row "50 Itä-Pakila Helsinki 3749 3635 ▲ 114" [ref=e774]:
+              - cell "50" [ref=e775]
+              - cell "Itä-Pakila" [ref=e776]:
+                - link "Itä-Pakila" [ref=e777] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/ita-pakila
+              - cell "Helsinki" [ref=e778]
+              - cell "3749" [ref=e779]
+              - cell "3635" [ref=e780]
+              - cell "▲ 114" [ref=e781]:
+                - generic [ref=e782]:
+                  - generic [ref=e783]: ▲
+                  - text: "114"
+            - row "51 Jakomäki Helsinki 3699 3699 ▲ 0" [ref=e784]:
+              - cell "51" [ref=e785]
+              - cell "Jakomäki" [ref=e786]:
+                - link "Jakomäki" [ref=e787] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/jakomaki
+              - cell "Helsinki" [ref=e788]
+              - cell "3699" [ref=e789]
+              - cell "3699" [ref=e790]
+              - cell "▲ 0" [ref=e791]:
+                - generic [ref=e792]:
+                  - generic [ref=e793]: ▲
+                  - text: "0"
+            - row "52 Paloheinä Helsinki 3664 3856 ▼ -192" [ref=e794]:
+              - cell "52" [ref=e795]
+              - cell "Paloheinä" [ref=e796]:
+                - link "Paloheinä" [ref=e797] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/paloheina
+              - cell "Helsinki" [ref=e798]
+              - cell "3664" [ref=e799]
+              - cell "3856" [ref=e800]
+              - cell "▼ -192" [ref=e801]:
+                - generic [ref=e802]:
+                  - generic [ref=e803]: ▼
+                  - text: "-192"
+            - row "53 Laajasalo Helsinki 3568 3757 ▼ -189" [ref=e804]:
+              - cell "53" [ref=e805]
+              - cell "Laajasalo" [ref=e806]:
+                - link "Laajasalo" [ref=e807] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/laajasalo
+              - cell "Helsinki" [ref=e808]
+              - cell "3568" [ref=e809]
+              - cell "3757" [ref=e810]
+              - cell "▼ -189" [ref=e811]:
+                - generic [ref=e812]:
+                  - generic [ref=e813]: ▼
+                  - text: "-189"
+            - row "54 Veräjämäki Helsinki 3546 4309 ▼ -763" [ref=e814]:
+              - cell "54" [ref=e815]
+              - cell "Veräjämäki" [ref=e816]:
+                - link "Veräjämäki" [ref=e817] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/verajamaki
+              - cell "Helsinki" [ref=e818]
+              - cell "3546" [ref=e819]
+              - cell "4309" [ref=e820]
+              - cell "▼ -763" [ref=e821]:
+                - generic [ref=e822]:
+                  - generic [ref=e823]: ▼
+                  - text: "-763"
+            - row "55 Maunula-Suursuo Helsinki 3382 3945 ▼ -563" [ref=e824]:
+              - cell "55" [ref=e825]
+              - cell "Maunula-Suursuo" [ref=e826]:
+                - link "Maunula-Suursuo" [ref=e827] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/maunula-suursuo
+              - cell "Helsinki" [ref=e828]
+              - cell "3382" [ref=e829]
+              - cell "3945" [ref=e830]
+              - cell "▼ -563" [ref=e831]:
+                - generic [ref=e832]:
+                  - generic [ref=e833]: ▼
+                  - text: "-563"
+            - row "56 Tuomarinkylä-Torpparinmäki Helsinki 3369 3369 ▲ 0" [ref=e834]:
+              - cell "56" [ref=e835]
+              - cell "Tuomarinkylä-Torpparinmäki" [ref=e836]:
+                - link "Tuomarinkylä-Torpparinmäki" [ref=e837] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/tuomarinkyla-torpparinmaki
+              - cell "Helsinki" [ref=e838]
+              - cell "3369" [ref=e839]
+              - cell "3369" [ref=e840]
+              - cell "▲ 0" [ref=e841]:
+                - generic [ref=e842]:
+                  - generic [ref=e843]: ▲
+                  - text: "0"
+            - row "57 Lassila Helsinki 3288 3288 ▲ 0" [ref=e844]:
+              - cell "57" [ref=e845]
+              - cell "Lassila" [ref=e846]:
+                - link "Lassila" [ref=e847] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/lassila
+              - cell "Helsinki" [ref=e848]
+              - cell "3288" [ref=e849]
+              - cell "3288" [ref=e850]
+              - cell "▲ 0" [ref=e851]:
+                - generic [ref=e852]:
+                  - generic [ref=e853]: ▲
+                  - text: "0"
+            - row "58 Suurmetsä Helsinki 3259 3009 ▲ 250" [ref=e854]:
+              - cell "58" [ref=e855]
+              - cell "Suurmetsä" [ref=e856]:
+                - link "Suurmetsä" [ref=e857] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/suurmetsa
+              - cell "Helsinki" [ref=e858]
+              - cell "3259" [ref=e859]
+              - cell "3009" [ref=e860]
+              - cell "▲ 250" [ref=e861]:
+                - generic [ref=e862]:
+                  - generic [ref=e863]: ▲
+                  - text: "250"
+            - row "59 Vartioharju Helsinki 3227 3891 ▼ -664" [ref=e864]:
+              - cell "59" [ref=e865]
+              - cell "Vartioharju" [ref=e866]:
+                - link "Vartioharju" [ref=e867] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/vartioharju
+              - cell "Helsinki" [ref=e868]
+              - cell "3227" [ref=e869]
+              - cell "3891" [ref=e870]
+              - cell "▼ -664" [ref=e871]:
+                - generic [ref=e872]:
+                  - generic [ref=e873]: ▼
+                  - text: "-664"
+            - row "60 Tapanila Helsinki 3205 2980 ▲ 225" [ref=e874]:
+              - cell "60" [ref=e875]
+              - cell "Tapanila" [ref=e876]:
+                - link "Tapanila" [ref=e877] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/tapanila
+              - cell "Helsinki" [ref=e878]
+              - cell "3205" [ref=e879]
+              - cell "2980" [ref=e880]
+              - cell "▲ 225" [ref=e881]:
+                - generic [ref=e882]:
+                  - generic [ref=e883]: ▲
+                  - text: "225"
+            - row "61 Tapaninvainio Helsinki 3123 3358 ▼ -235" [ref=e884]:
+              - cell "61" [ref=e885]
+              - cell "Tapaninvainio" [ref=e886]:
+                - link "Tapaninvainio" [ref=e887] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/tapaninvainio
+              - cell "Helsinki" [ref=e888]
+              - cell "3123" [ref=e889]
+              - cell "3358" [ref=e890]
+              - cell "▼ -235" [ref=e891]:
+                - generic [ref=e892]:
+                  - generic [ref=e893]: ▼
+                  - text: "-235"
+            - row "62 Puotila Helsinki 3072 3289 ▼ -217" [ref=e894]:
+              - cell "62" [ref=e895]
+              - cell "Puotila" [ref=e896]:
+                - link "Puotila" [ref=e897] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/puotila
+              - cell "Helsinki" [ref=e898]
+              - cell "3072" [ref=e899]
+              - cell "3289" [ref=e900]
+              - cell "▼ -217" [ref=e901]:
+                - generic [ref=e902]:
+                  - generic [ref=e903]: ▼
+                  - text: "-217"
+            - row "63 Konala Helsinki 3031 3197 ▼ -166" [ref=e904]:
+              - cell "63" [ref=e905]
+              - cell "Konala" [ref=e906]:
+                - link "Konala" [ref=e907] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/konala
+              - cell "Helsinki" [ref=e908]
+              - cell "3031" [ref=e909]
+              - cell "3197" [ref=e910]
+              - cell "▼ -166" [ref=e911]:
+                - generic [ref=e912]:
+                  - generic [ref=e913]: ▼
+                  - text: "-166"
+            - row "64 Pukinmäki-Savela Helsinki 3004 2656 ▲ 348" [ref=e914]:
+              - cell "64" [ref=e915]
+              - cell "Pukinmäki-Savela" [ref=e916]:
+                - link "Pukinmäki-Savela" [ref=e917] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pukinmaki-savela
+              - cell "Helsinki" [ref=e918]
+              - cell "3004" [ref=e919]
+              - cell "2656" [ref=e920]
+              - cell "▲ 348" [ref=e921]:
+                - generic [ref=e922]:
+                  - generic [ref=e923]: ▲
+                  - text: "348"
+            - row "65 Etelä-Laajasalo Helsinki 2937 2937 ▲ 0" [ref=e924]:
+              - cell "65" [ref=e925]
+              - cell "Etelä-Laajasalo" [ref=e926]:
+                - link "Etelä-Laajasalo" [ref=e927] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/etela-laajasalo
+              - cell "Helsinki" [ref=e928]
+              - cell "2937" [ref=e929]
+              - cell "2937" [ref=e930]
+              - cell "▲ 0" [ref=e931]:
+                - generic [ref=e932]:
+                  - generic [ref=e933]: ▲
+                  - text: "0"
+            - row "66 Siltamäki Helsinki 2826 2533 ▲ 293" [ref=e934]:
+              - cell "66" [ref=e935]
+              - cell "Siltamäki" [ref=e936]:
+                - link "Siltamäki" [ref=e937] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/siltamaki
+              - cell "Helsinki" [ref=e938]
+              - cell "2826" [ref=e939]
+              - cell "2533" [ref=e940]
+              - cell "▲ 293" [ref=e941]:
+                - generic [ref=e942]:
+                  - generic [ref=e943]: ▲
+                  - text: "293"
+            - row "67 Puistola Helsinki 2755 2755 ▲ 0" [ref=e944]:
+              - cell "67" [ref=e945]
+              - cell "Puistola" [ref=e946]:
+                - link "Puistola" [ref=e947] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/puistola
+              - cell "Helsinki" [ref=e948]
+              - cell "2755" [ref=e949]
+              - cell "2755" [ref=e950]
+              - cell "▲ 0" [ref=e951]:
+                - generic [ref=e952]:
+                  - generic [ref=e953]: ▲
+                  - text: "0"
+            - row "68 Malmi Helsinki 2751 2945 ▼ -194" [ref=e954]:
+              - cell "68" [ref=e955]
+              - cell "Malmi" [ref=e956]:
+                - link "Malmi" [ref=e957] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/malmi
+              - cell "Helsinki" [ref=e958]
+              - cell "2751" [ref=e959]
+              - cell "2945" [ref=e960]
+              - cell "▼ -194" [ref=e961]:
+                - generic [ref=e962]:
+                  - generic [ref=e963]: ▼
+                  - text: "-194"
+            - row "69 Etelä-Vuosaari Helsinki 2751 2865 ▼ -114" [ref=e964]:
+              - cell "69" [ref=e965]
+              - cell "Etelä-Vuosaari" [ref=e966]:
+                - link "Etelä-Vuosaari" [ref=e967] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/etela-vuosaari
+              - cell "Helsinki" [ref=e968]
+              - cell "2751" [ref=e969]
+              - cell "2865" [ref=e970]
+              - cell "▼ -114" [ref=e971]:
+                - generic [ref=e972]:
+                  - generic [ref=e973]: ▼
+                  - text: "-114"
+            - row "70 Kannelmäki Helsinki 2677 3257 ▼ -580" [ref=e974]:
+              - cell "70" [ref=e975]
+              - cell "Kannelmäki" [ref=e976]:
+                - link "Kannelmäki" [ref=e977] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kannelmaki
+              - cell "Helsinki" [ref=e978]
+              - cell "2677" [ref=e979]
+              - cell "3257" [ref=e980]
+              - cell "▼ -580" [ref=e981]:
+                - generic [ref=e982]:
+                  - generic [ref=e983]: ▼
+                  - text: "-580"
+            - row "71 Pihlajamäki Helsinki 2653 2385 ▲ 268" [ref=e984]:
+              - cell "71" [ref=e985]
+              - cell "Pihlajamäki" [ref=e986]:
+                - link "Pihlajamäki" [ref=e987] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pihlajamaki
+              - cell "Helsinki" [ref=e988]
+              - cell "2653" [ref=e989]
+              - cell "2385" [ref=e990]
+              - cell "▲ 268" [ref=e991]:
+                - generic [ref=e992]:
+                  - generic [ref=e993]: ▲
+                  - text: "268"
+            - row "72 Myllypuro Helsinki 2585 2930 ▼ -345" [ref=e994]:
+              - cell "72" [ref=e995]
+              - cell "Myllypuro" [ref=e996]:
+                - link "Myllypuro" [ref=e997] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/myllypuro
+              - cell "Helsinki" [ref=e998]
+              - cell "2585" [ref=e999]
+              - cell "2930" [ref=e1000]
+              - cell "▼ -345" [ref=e1001]:
+                - generic [ref=e1002]:
+                  - generic [ref=e1003]: ▼
+                  - text: "-345"
+            - row "73 Pohjois-Vuosaari Helsinki 2152 1970 ▲ 182" [ref=e1004]:
+              - cell "73" [ref=e1005]
+              - cell "Pohjois-Vuosaari" [ref=e1006]:
+                - link "Pohjois-Vuosaari" [ref=e1007] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/pohjois-vuosaari
+              - cell "Helsinki" [ref=e1008]
+              - cell "2152" [ref=e1009]
+              - cell "1970" [ref=e1010]
+              - cell "▲ 182" [ref=e1011]:
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]: ▲
+                  - text: "182"
+            - row "74 Kontula Helsinki 2132 2076 ▲ 56" [ref=e1014]:
+              - cell "74" [ref=e1015]
+              - cell "Kontula" [ref=e1016]:
+                - link "Kontula" [ref=e1017] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/kontula
+              - cell "Helsinki" [ref=e1018]
+              - cell "2132" [ref=e1019]
+              - cell "2076" [ref=e1020]
+              - cell "▲ 56" [ref=e1021]:
+                - generic [ref=e1022]:
+                  - generic [ref=e1023]: ▲
+                  - text: "56"
+            - row "75 Puotinharju Helsinki 2062 2241 ▼ -179" [ref=e1024]:
+              - cell "75" [ref=e1025]
+              - cell "Puotinharju" [ref=e1026]:
+                - link "Puotinharju" [ref=e1027] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/puotinharju
+              - cell "Helsinki" [ref=e1028]
+              - cell "2062" [ref=e1029]
+              - cell "2241" [ref=e1030]
+              - cell "▼ -179" [ref=e1031]:
+                - generic [ref=e1032]:
+                  - generic [ref=e1033]: ▼
+                  - text: "-179"
+            - row "76 Itäkeskus-Marjaniemi Helsinki 1885 1885 ▲ 0" [ref=e1034]:
+              - cell "76" [ref=e1035]
+              - cell "Itäkeskus-Marjaniemi" [ref=e1036]:
+                - link "Itäkeskus-Marjaniemi" [ref=e1037] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/itakeskus-marjaniemi
+              - cell "Helsinki" [ref=e1038]
+              - cell "1885" [ref=e1039]
+              - cell "1885" [ref=e1040]
+              - cell "▲ 0" [ref=e1041]:
+                - generic [ref=e1042]:
+                  - generic [ref=e1043]: ▲
+                  - text: "0"
+            - row "77 Mellunkylä Helsinki 1882 2036 ▼ -154" [ref=e1044]:
+              - cell "77" [ref=e1045]
+              - cell "Mellunkylä" [ref=e1046]:
+                - link "Mellunkylä" [ref=e1047] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/mellunkyla
+              - cell "Helsinki" [ref=e1048]
+              - cell "1882" [ref=e1049]
+              - cell "2036" [ref=e1050]
+              - cell "▼ -154" [ref=e1051]:
+                - generic [ref=e1052]:
+                  - generic [ref=e1053]: ▼
+                  - text: "-154"
+            - row "78 Malminkartano Helsinki 1765 3298 ▼ -1533" [ref=e1054]:
+              - cell "78" [ref=e1055]
+              - cell "Malminkartano" [ref=e1056]:
+                - link "Malminkartano" [ref=e1057] [cursor=pointer]:
+                  - /url: /myytyjen-asuntojen-tilastot/kunta/helsinki/alue/malminkartano
+              - cell "Helsinki" [ref=e1058]
+              - cell "1765" [ref=e1059]
+              - cell "3298" [ref=e1060]
+              - cell "▼ -1533" [ref=e1061]:
+                - generic [ref=e1062]:
+                  - generic [ref=e1063]: ▼
+                  - text: "-1533"
+      - paragraph [ref=e1065]:
+        - text: Toteutuneet asuntokaupat raportti käsittelee toteuneita kauppahintoja ja niiden velattomia myyntihintoja edelliseltä vuosineljännekseltä ja vertaa niitä aiempaan historiatietoon. Tilastot käsittävät noin 66% toteutuneista asuntokaupoista. Asuntojen myyntihinnat ovat lähtöisin verohallinnon varainsiirtoaineistosta ja tilastot on koostanut
+        - link "Tilastokeskus" [ref=e1066] [cursor=pointer]:
+          - /url: http://tilastokeskus.fi/til/ashi/
+        - text: .
+  - contentinfo [ref=e1067]:
+    - generic [ref=e1068]:
+      - img "Asuntojenhinnat.fi" [ref=e1069]
+      - generic [ref=e1070]:
+        - link "Toteutuneet kaupat" [ref=e1071] [cursor=pointer]:
+          - /url: /myytyjen-asuntojen-tilastot
+        - link "Artikkelit" [ref=e1072] [cursor=pointer]:
+          - /url: /artikkeli
+        - link "Asuinalueet" [ref=e1073] [cursor=pointer]:
+          - /url: /asuinalueena
+        - link "Asuntolainalaskuri" [ref=e1074] [cursor=pointer]:
+          - /url: /asuntolainalaskuri
+    - generic [ref=e1075]:
+      - generic [ref=e1077]:
+        - link "Seuraa meitä Facebookissa" [ref=e1079] [cursor=pointer]:
+          - /url: https://www.facebook.com/asuntojenhinnat/
+          - img [ref=e1080]
+        - link "Seuraa meitä X:ssä" [ref=e1084] [cursor=pointer]:
+          - /url: https://x.com/asuntojenhinta
+          - img [ref=e1085]
+      - generic [ref=e1087]:
+        - generic [ref=e1088]:
+          - generic [ref=e1089]: Vertaile ja löydä paras välittäjä sinun asuinalueelta.
+          - heading "Palvelut" [level=4] [ref=e1090]
+          - list [ref=e1091]:
+            - listitem [ref=e1092]:
+              - link "Kilpailuta välittäjä" [ref=e1093] [cursor=pointer]:
+                - /url: /kilpailuta-valittaja
+            - listitem [ref=e1094]:
+              - link "Välityspalkkiolaskuri" [ref=e1095] [cursor=pointer]:
+                - /url: /valityspalkkiolaskuri
+            - listitem [ref=e1096]:
+              - link "Asunnon hinta-arvio" [ref=e1097] [cursor=pointer]:
+                - /url: /asunnon-hinta-arvio
+            - listitem [ref=e1098]:
+              - link "Metsätilan hinta-arvio" [ref=e1099] [cursor=pointer]:
+                - /url: /metsatilan-hinta-arvio
+        - generic [ref=e1100]:
+          - heading "Suositut kaupungit" [level=4] [ref=e1101]
+          - list [ref=e1102]:
+            - listitem [ref=e1103]:
+              - link "Kiinteistönvälittäjä Helsinki" [ref=e1104] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/helsinki
+            - listitem [ref=e1105]:
+              - link "Kiinteistönvälittäjä Espoo" [ref=e1106] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/espoo
+            - listitem [ref=e1107]:
+              - link "Kiinteistönvälittäjä Tampere" [ref=e1108] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/tampere
+            - listitem [ref=e1109]:
+              - link "Kiinteistönvälittäjä Turku" [ref=e1110] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/turku
+            - listitem [ref=e1111]:
+              - link "Kiinteistönvälittäjä Vantaa" [ref=e1112] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/vantaa
+            - listitem [ref=e1113]:
+              - link "Kiinteistönvälittäjä Oulu" [ref=e1114] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/oulu
+            - listitem [ref=e1115]:
+              - link "Kiinteistönvälittäjä Lahti" [ref=e1116] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/lahti
+            - listitem [ref=e1117]:
+              - link "Kiinteistönvälittäjä Jyväskylä" [ref=e1118] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/jyvaskyla
+            - listitem [ref=e1119]:
+              - link "Kiinteistönvälittäjä Kuopio" [ref=e1120] [cursor=pointer]:
+                - /url: /kiinteistonvalitys/kuopio
+        - generic [ref=e1121]:
+          - heading "Linkit" [level=4] [ref=e1122]
+          - list [ref=e1123]:
+            - listitem [ref=e1124]:
+              - link "Käyttöehdot" [ref=e1125] [cursor=pointer]:
+                - /url: /kayttoehdot
+            - listitem [ref=e1126]:
+              - link "Tietosuoja" [ref=e1127] [cursor=pointer]:
+                - /url: /tietosuoja
+            - listitem [ref=e1128]:
+              - link "Tietoa evästeistä" [ref=e1129] [cursor=pointer]:
+                - /url: /tietoa-evasteista
+            - listitem [ref=e1130]:
+              - link "Jämför mäklare i Sverige" [ref=e1131] [cursor=pointer]:
+                - /url: https://valjamaklare.se/
+            - listitem [ref=e1132]:
+              - link "Välittäjän kirjautuminen" [ref=e1133] [cursor=pointer]:
+                - /url: https://realtysignal.io/fi/login
+                - text: Välittäjän kirjautuminen
+            - listitem [ref=e1134]:
+              - link "Välittäjille" [ref=e1135] [cursor=pointer]:
+                - /url: /rekisteroidy
+            - listitem [ref=e1136]:
+              - link "Ota yhteyttä" [ref=e1137] [cursor=pointer]:
+                - /url: /ota-yhteytta
+      - generic [ref=e1138]: Copyright © 2026 Reaktio Solutions Oy. Kaikki oikeudet pidätetään.

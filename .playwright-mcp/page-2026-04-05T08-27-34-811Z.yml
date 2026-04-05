@@ -1,0 +1,1021 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "Oikotie" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Oikotie" [ref=e7]
+        - navigation
+      - generic [ref=e8]:
+        - button "Kirjaudu" [ref=e11] [cursor=pointer]
+        - generic "Näytä valikko" [ref=e13]:
+          - button "Näytä valikko" [ref=e14] [cursor=pointer]:
+            - img [ref=e17]
+    - generic: 
+    - generic [ref=e23]:
+      - navigation [ref=e24]:
+        - list [ref=e25]:
+          - listitem [ref=e26]:
+            - link "Asunnot" [ref=e27] [cursor=pointer]:
+              - /url: /myytavat-asunnot
+              - img [ref=e29]
+              - generic [ref=e31]: Asunnot
+          - listitem [ref=e32]:
+            - link "Uudisasunnot" [ref=e33] [cursor=pointer]:
+              - /url: /myytavat-uudisasunnot
+              - img [ref=e35]
+              - generic [ref=e37]: Uudisasunnot
+          - listitem [ref=e38]:
+            - link "Loma-asunnot" [ref=e39] [cursor=pointer]:
+              - /url: /myytavat-loma-asunnot
+              - img [ref=e41]
+              - generic [ref=e43]: Loma-asunnot
+          - listitem [ref=e44]:
+            - link "Autotallit" [ref=e45] [cursor=pointer]:
+              - /url: /myytavat-autotallit
+              - img [ref=e47]
+              - generic [ref=e49]: Autotallit
+          - listitem [ref=e50]:
+            - link "Tontit" [ref=e51] [cursor=pointer]:
+              - /url: /myytavat-tontit
+              - img [ref=e53]
+              - generic [ref=e55]: Tontit
+          - listitem [ref=e56]:
+            - link "Maa- ja metsätilat" [ref=e57] [cursor=pointer]:
+              - /url: /myytavat-metsatilat-ja-maatilat
+              - img [ref=e59]
+              - generic [ref=e61]: Maa- ja metsätilat
+      - generic [ref=e62]:
+        - 'heading "Myytävät asunnot: yksiö, kerrostalo" [level=1] [ref=e63]':
+          - text: Myytävät asunnot
+          - generic [ref=e64]: ": yksiö, kerrostalo"
+        - button "Edelliset haut" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: Edelliset haut
+          - img [ref=e71]
+        - paragraph [ref=e74]: Meiltä löydät myytävät kerrostaloasunnot ympäri Suomen. Hae vapaat myytävät kerrostaloasunnot ja löydä unelmiesi koti!
+    - generic [ref=e76]:
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e87]:
+                - generic [ref=e89]:
+                  - generic [ref=e90]: Valitse sijainti
+                  - combobox [ref=e91]:
+                    - textbox "Valitse sijainti" [ref=e92]:
+                      - /placeholder: Sijainti tai postinumero
+                    - img [ref=e96]
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Helsinki
+                  - button "Poista" [ref=e102] [cursor=pointer]:
+                    - img [ref=e105]
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - text: Vapaasanahaku
+                  - button "Näytä tooltip" [ref=e112] [cursor=pointer]:
+                    - img [ref=e115]
+                - generic [ref=e117]:
+                  - textbox "Vapaasanahaku Näytä tooltip" [ref=e118]
+                  - button "Lisää" [ref=e120] [cursor=pointer]:
+                    - img [ref=e123]
+            - generic [ref=e125]:
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - text: Talotyyppi
+                  - button "Näytä tooltip" [ref=e131] [cursor=pointer]:
+                    - img [ref=e134]
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - checkbox "Kerrostalo " [checked] [ref=e138]
+                    - generic [ref=e139] [cursor=pointer]: Kerrostalo 
+                  - generic [ref=e140]:
+                    - checkbox "Rivitalo" [ref=e141]
+                    - generic [ref=e142] [cursor=pointer]: Rivitalo
+                  - generic [ref=e143]:
+                    - checkbox "Paritalo" [ref=e144]
+                    - generic [ref=e145] [cursor=pointer]: Paritalo
+                  - generic [ref=e146]:
+                    - checkbox "Omakotitalo" [ref=e147]
+                    - generic [ref=e148] [cursor=pointer]: Omakotitalo
+                  - generic [ref=e149]:
+                    - checkbox "Puutalo-osake" [ref=e150]
+                    - generic [ref=e151] [cursor=pointer]: Puutalo-osake
+              - generic "Huoneita" [ref=e153]:
+                - generic [ref=e154]: Huoneita
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - checkbox "1h " [checked] [ref=e157]
+                    - generic [ref=e158] [cursor=pointer]: 1h 
+                  - generic [ref=e159]:
+                    - checkbox "2h" [ref=e160]
+                    - generic [ref=e161] [cursor=pointer]: 2h
+                  - generic [ref=e162]:
+                    - checkbox "3h" [ref=e163]
+                    - generic [ref=e164] [cursor=pointer]: 3h
+                  - generic [ref=e165]:
+                    - checkbox "4h" [ref=e166]
+                    - generic [ref=e167] [cursor=pointer]: 4h
+                  - generic [ref=e168]:
+                    - checkbox "5h" [ref=e169]
+                    - generic [ref=e170] [cursor=pointer]: 5h
+                  - generic [ref=e171]:
+                    - checkbox "6h" [ref=e172]
+                    - generic [ref=e173] [cursor=pointer]: 6h
+                  - generic [ref=e174]:
+                    - checkbox "7h+" [ref=e175]
+                    - generic [ref=e176] [cursor=pointer]: 7h+
+            - generic [ref=e177]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: Hinta
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: Minimihinta
+                    - textbox "Minimihinta" [ref=e184]:
+                      - /placeholder: min
+                    - generic [ref=e185]: €
+                  - generic [ref=e186]: −
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: Maksimihinta
+                    - textbox "Maksimihinta" [ref=e189]:
+                      - /placeholder: max
+                      - text: 120 000
+                    - generic [ref=e190]: €
+              - generic [ref=e192]:
+                - generic [ref=e193]: Asuinpinta-ala
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: Pienin pinta-ala
+                    - textbox "Pienin pinta-ala" [ref=e197]:
+                      - /placeholder: min
+                    - generic [ref=e198]:
+                      - text: m
+                      - superscript: "2"
+                  - generic [ref=e199]: −
+                  - generic [ref=e200]:
+                    - generic [ref=e201]: Suurin pinta-ala
+                    - textbox "Suurin pinta-ala" [ref=e202]:
+                      - /placeholder: max
+                    - generic [ref=e203]:
+                      - text: m
+                      - superscript: "2"
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - button "Kaikki hakuehdot 4" [ref=e208] [cursor=pointer]:
+                - img [ref=e211]
+                - generic [ref=e213]:
+                  - text: Kaikki hakuehdot
+                  - generic [ref=e216]: "4"
+              - button "Tallenna vahdiksi" [ref=e221] [cursor=pointer]:
+                - img [ref=e224]
+                - generic [ref=e226]: Tallenna vahdiksi
+            - generic [ref=e227]:
+              - button "Tyhjennä" [ref=e228] [cursor=pointer]
+              - button "Hae kohteet (147)" [ref=e229] [cursor=pointer]:
+                - img [ref=e232]
+                - generic [ref=e234]: Hae kohteet (147)
+        - generic: 
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - link "Karttahaku" [ref=e243] [cursor=pointer]:
+              - /url: /kartta/myytavat-asunnot?locations=%5B%5B64,6,%22Helsinki%22%5D%5D&price%5Bmax%5D=120000&roomCount%5B%5D=1&buildingType%5B%5D=1&cardType=100
+              - img [ref=e246]
+              - generic [ref=e248]: Karttahaku
+            - combobox "Järjestys" [ref=e253]:
+              - option "Uusin ilmoitus ensin" [selected]
+              - option "Vanhin ilmoitus ensin"
+              - option "Halvin ensin"
+              - option "Kallein ensin"
+              - option "Pienin ensin"
+              - option "Suurin ensin"
+              - option "Seuraava näyttö ensin"
+              - option "Suosituin ensin"
+          - generic [ref=e254]:
+            - generic [ref=e255]: 147 Kohdetta
+            - generic [ref=e258]: Sivu 1/7
+        - navigation "Pagination Navigation" [ref=e260]:
+          - button "Edellinen" [disabled] [ref=e262]:
+            - img [ref=e265]
+            - generic [ref=e267]: Edellinen
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - button "Siirry sivulle 1" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: "1"
+            - listitem [ref=e272]:
+              - button "Siirry sivulle 2" [ref=e273] [cursor=pointer]:
+                - generic [ref=e274]: "2"
+            - listitem [ref=e275]:
+              - button "Siirry sivulle 3" [ref=e276] [cursor=pointer]:
+                - generic [ref=e277]: "3"
+            - listitem [ref=e278]: …
+            - listitem [ref=e279]:
+              - button "Siirry sivulle 6" [ref=e280] [cursor=pointer]:
+                - generic [ref=e281]: "6"
+            - listitem [ref=e282]:
+              - button "Siirry sivulle 7" [ref=e283] [cursor=pointer]:
+                - generic [ref=e284]: "7"
+          - button "Seuraava" [ref=e286] [cursor=pointer]:
+            - generic [ref=e287]: Seuraava
+            - img [ref=e290]
+    - generic [ref=e293]:
+      - generic [ref=e294]:
+        - heading "Löydä unelmiesi kerrostaloasunto Oikotien avulla" [level=2] [ref=e295]
+        - paragraph [ref=e296]: Oikotie on tukenasi unelmien kerrostaloasunnon etsinnässä. Tältä sivulta löydät kaikki myytävät kerrostaloasunnot. Voit etsiä vapaita kerrostaloasuntoja rajaamalla hakuasi sijainnin, ominaisuuksien, hinnan, asuin pinta-alan ja ilmoituksen iän mukaan. Näet kaikki hakuasi vastaavat myytävät kerrostaloasunnot klikkaamalla "Hae kohteet". Löytäessäsi sinua kiinnostavat kerrostaloasunnot, voit ottaa yhteyttä myyjään kohdesivun yhteydenottolomakkeen kautta. Tutustu myös asunnon osto-oppaaseen. Etsimäsi unelmien kerrostaloasunto voi olla vain muutaman klikkauksen päässä!
+        - heading "Uusimmat myytävät kerrostaloasunnot Oikotiellä" [level=2] [ref=e297]
+        - paragraph [ref=e298]: Jos et löydä heti itsellesi sopivaa kerrostaloasuntoa, voit tallentaa Oikotien hakuvahdin. Hakuvahti ilmoittaa sinulle sähköpostitse uusimmat hakuehtojasi vastaavat myytävät kerrostaloasunnot. Näe uusimmat myytävät kerrostaloasunnot ensimmäisenä ja nappaa unelmiesi koti.
+      - generic [ref=e301]:
+        - generic [ref=e302]:
+          - heading "MYYTÄVÄT ASUNNOT KAUPUNGEITTAIN" [level=2] [ref=e303]
+          - separator [ref=e304]
+          - list [ref=e305]:
+            - listitem [ref=e306]:
+              - link "Myytävät asunnot Helsinki" [ref=e307] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/helsinki
+            - listitem [ref=e308]:
+              - link "Myytävät asunnot Espoo" [ref=e309] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/espoo
+            - listitem [ref=e310]:
+              - link "Myytävät asunnot Vantaa" [ref=e311] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/vantaa
+            - listitem [ref=e312]:
+              - link "Myytävät asunnot Tampere" [ref=e313] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/tampere
+            - listitem [ref=e314]:
+              - link "Myytävät asunnot Turku" [ref=e315] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/turku
+            - listitem [ref=e316]:
+              - link "Myytävät asunnot Oulu" [ref=e317] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/oulu
+            - listitem [ref=e318]:
+              - link "Myytävät asunnot Lahti" [ref=e319] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/lahti
+            - listitem [ref=e320]:
+              - link "Myytävät asunnot Jyväskylä" [ref=e321] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/jyv%C3%A4skyl%C3%A4
+            - listitem [ref=e322]:
+              - link "Myytävät asunnot Kuopio" [ref=e323] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kuopio
+            - listitem [ref=e324]:
+              - link "Myytävät asunnot Pori" [ref=e325] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/pori
+            - listitem [ref=e326]:
+              - link "Myytävät asunnot Lappeenranta" [ref=e327] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/lappeenranta
+            - listitem [ref=e328]:
+              - link "Myytävät asunnot Kouvola" [ref=e329] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kouvola
+            - listitem [ref=e330]:
+              - link "Myytävät asunnot Hämeenlinna" [ref=e331] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/h%C3%A4meenlinna
+            - listitem [ref=e332]:
+              - link "Myytävät asunnot Järvenpää" [ref=e333] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/j%C3%A4rvenp%C3%A4%C3%A4
+            - listitem [ref=e334]:
+              - link "Myytävät asunnot Kerava" [ref=e335] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kerava
+            - listitem [ref=e336]:
+              - link "Myytävät asunnot Joensuu" [ref=e337] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/joensuu
+            - listitem [ref=e338]:
+              - link "Myytävät asunnot Porvoo" [ref=e339] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/porvoo
+            - listitem [ref=e340]:
+              - link "Myytävät asunnot Kotka" [ref=e341] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kotka
+            - listitem [ref=e342]:
+              - link "Myytävät asunnot Hyvinkää" [ref=e343] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/hyvink%C3%A4%C3%A4
+            - listitem [ref=e344]:
+              - link "Myytävät asunnot Tuusula" [ref=e345] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/tuusula
+            - listitem [ref=e346]:
+              - link "Myytävät asunnot Vaasa" [ref=e347] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/vaasa
+            - listitem [ref=e348]:
+              - link "Myytävät asunnot Seinäjoki" [ref=e349] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/sein%C3%A4joki
+            - listitem [ref=e350]:
+              - link "Myytävät asunnot Mikkeli" [ref=e351] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/mikkeli
+            - listitem [ref=e352]:
+              - link "Myytävät asunnot Lohja" [ref=e353] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/lohja
+            - listitem [ref=e354]:
+              - link "Myytävät asunnot Kaarina" [ref=e355] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kaarina
+            - listitem [ref=e356]:
+              - link "Myytävät asunnot Rauma" [ref=e357] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/rauma
+            - listitem [ref=e358]:
+              - link "Myytävät asunnot Kirkkonummi" [ref=e359] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kirkkonummi
+            - listitem [ref=e360]:
+              - link "Myytävät asunnot Nurmijärvi" [ref=e361] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/nurmij%C3%A4rvi
+            - listitem [ref=e362]:
+              - link "Myytävät asunnot Salo" [ref=e363] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/salo
+            - listitem [ref=e364]:
+              - link "Myytävät asunnot Raasepori" [ref=e365] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/raasepori
+            - listitem [ref=e366]:
+              - link "Myytävät asunnot Kangasala" [ref=e367] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kangasala
+            - listitem [ref=e368]:
+              - link "Myytävät asunnot Raisio" [ref=e369] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/raisio
+            - listitem [ref=e370]:
+              - link "Myytävät asunnot Riihimäki" [ref=e371] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/riihim%C3%A4ki
+            - listitem [ref=e372]:
+              - link "Myytävät asunnot Kuusamo" [ref=e373] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kuusamo
+            - listitem [ref=e374]:
+              - link "Myytävät asunnot Imatra" [ref=e375] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/imatra
+            - listitem [ref=e376]:
+              - link "Myytävät asunnot Heinola" [ref=e377] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/heinola
+            - listitem [ref=e378]:
+              - link "Myytävät asunnot Ylöjärvi" [ref=e379] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/yl%C3%B6j%C3%A4rvi
+            - listitem [ref=e380]:
+              - link "Myytävät asunnot Vihti" [ref=e381] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/vihti
+            - listitem [ref=e382]:
+              - link "Myytävät asunnot Savonlinna" [ref=e383] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/savonlinna
+            - listitem [ref=e384]:
+              - link "Myytävät asunnot Kemi" [ref=e385] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kemi
+            - listitem [ref=e386]:
+              - link "Myytävät asunnot Kokkola" [ref=e387] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kokkola
+            - listitem [ref=e388]:
+              - link "Myytävät asunnot Nokia" [ref=e389] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/nokia
+            - listitem [ref=e390]:
+              - link "Myytävät asunnot Sipoo" [ref=e391] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/sipoo
+            - listitem [ref=e392]:
+              - link "Myytävät asunnot Varkaus" [ref=e393] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/varkaus
+            - listitem [ref=e394]:
+              - link "Myytävät asunnot Pirkkala" [ref=e395] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/pirkkala
+            - listitem [ref=e396]:
+              - link "Myytävät asunnot Naantali" [ref=e397] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/naantali
+            - listitem [ref=e398]:
+              - link "Myytävät asunnot Jämsä" [ref=e399] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/j%C3%A4ms%C3%A4
+            - listitem [ref=e400]:
+              - link "Myytävät asunnot Kittilä" [ref=e401] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kittil%C3%A4
+            - listitem [ref=e402]:
+              - link "Myytävät asunnot Rovaniemi" [ref=e403] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/rovaniemi
+            - listitem [ref=e404]:
+              - link "Myytävät asunnot Kajaani" [ref=e405] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kajaani
+          - button "Näytä kaikki" [ref=e406] [cursor=pointer]:
+            - generic [ref=e407]: Näytä kaikki
+            - img [ref=e410]
+        - generic [ref=e412]:
+          - heading "MYYTÄVÄT ASUNNOT TYYPEITTÄIN" [level=2] [ref=e413]
+          - separator [ref=e414]
+          - list [ref=e415]:
+            - listitem [ref=e416]:
+              - link "Myytävät yksiöt" [ref=e417] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot?roomCount%5B%5D%3D=1
+            - listitem [ref=e418]:
+              - link "Myytävät kaksiot" [ref=e419] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot?roomCount%5B%5D%3D=2
+            - listitem [ref=e420]:
+              - link "Myytävät kolmiot" [ref=e421] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot?roomCount%5B%5D%3D=3
+            - listitem [ref=e422]:
+              - link "Myytävät kerrostalot" [ref=e423] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/kerrostalo
+            - listitem [ref=e424]:
+              - link "Myytävät rivitalot" [ref=e425] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/rivitalo
+            - listitem [ref=e426]:
+              - link "Myytävät omakotitalot" [ref=e427] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/omakotitalo
+            - listitem [ref=e428]:
+              - link "Myytävät paritalot" [ref=e429] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/paritalo
+            - listitem [ref=e430]:
+              - link "Myytävät erillistalot" [ref=e431] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/erillistalo
+            - listitem [ref=e432]:
+              - link "Myytävät luhtitalot" [ref=e433] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/luhtitalo
+            - listitem [ref=e434]:
+              - link "Myytävät puutalo-osakkeet" [ref=e435] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/puutalo-osake
+            - listitem [ref=e436]:
+              - link "Myytävät omistusasunnot" [ref=e437] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot?habitationType%5B%5D=1
+            - listitem [ref=e438]:
+              - link "Myytävät osaomistusasunnot" [ref=e439] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot?habitationType%5B%5D=4
+            - listitem [ref=e440]:
+              - link "Myytävät asumisoikeusasunnot" [ref=e441] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot?habitationType%5B%5D=2
+            - listitem [ref=e442]:
+              - link "Myytävät uudisasunnot" [ref=e443] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-uudisasunnot
+            - listitem [ref=e444]:
+              - link "Myytävät loft-asunnot" [ref=e445] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/loft
+            - listitem [ref=e446]:
+              - link "Myytävät asunnot Espanjassa" [ref=e447] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/espanja
+            - listitem [ref=e448]:
+              - link "Myytävät asunnot järven rannalla" [ref=e449] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/jarven-rannalla
+            - listitem [ref=e450]:
+              - link "Myytävät hirsitalot" [ref=e451] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/hirsitalo
+            - listitem [ref=e452]:
+              - link "Myytävät asunnot Fuengirolassa" [ref=e453] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-asunnot/fuengirola
+            - listitem [ref=e454]:
+              - link "Myytävät siirtolapuutarhat" [ref=e455] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-loma-asunnot/siirtolapuutarha
+            - listitem [ref=e456]:
+              - link "Myytävät hirsimökit" [ref=e457] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-loma-asunnot/hirsimokki
+            - listitem [ref=e458]:
+              - link "Myytävät mökit saaressa" [ref=e459] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-loma-asunnot/saaressa
+            - listitem [ref=e460]:
+              - link "Myytävät mökit järven rannalla" [ref=e461] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-loma-asunnot/jarven-rannalla
+            - listitem [ref=e462]:
+              - link "Myytävät mökit meren rannalla" [ref=e463] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/myytavat-loma-asunnot/meren-rannalla
+          - button "Näytä kaikki" [ref=e464] [cursor=pointer]:
+            - generic [ref=e465]: Näytä kaikki
+            - img [ref=e468]
+        - generic [ref=e470]:
+          - heading "VUOKRA-ASUNNOT KAUPUNGEITTAIN" [level=2] [ref=e471]
+          - separator [ref=e472]
+          - list [ref=e473]:
+            - listitem [ref=e474]:
+              - link "Vuokra-asunnot Helsinki" [ref=e475] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/helsinki
+            - listitem [ref=e476]:
+              - link "Vuokra-asunnot Espoo" [ref=e477] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/espoo
+            - listitem [ref=e478]:
+              - link "Vuokra-asunnot Vantaa" [ref=e479] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/vantaa
+            - listitem [ref=e480]:
+              - link "Vuokra-asunnot Tampere" [ref=e481] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/tampere
+            - listitem [ref=e482]:
+              - link "Vuokra-asunnot Turku" [ref=e483] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/turku
+            - listitem [ref=e484]:
+              - link "Vuokra-asunnot Oulu" [ref=e485] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/oulu
+            - listitem [ref=e486]:
+              - link "Vuokra-asunnot Lahti" [ref=e487] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/lahti
+            - listitem [ref=e488]:
+              - link "Vuokra-asunnot Jyväskylä" [ref=e489] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/jyv%C3%A4skyl%C3%A4
+            - listitem [ref=e490]:
+              - link "Vuokra-asunnot Kuopio" [ref=e491] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kuopio
+            - listitem [ref=e492]:
+              - link "Vuokra-asunnot Pori" [ref=e493] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/pori
+            - listitem [ref=e494]:
+              - link "Vuokra-asunnot Lappeenranta" [ref=e495] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/lappeenranta
+            - listitem [ref=e496]:
+              - link "Vuokra-asunnot Kouvola" [ref=e497] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kouvola
+            - listitem [ref=e498]:
+              - link "Vuokra-asunnot Hämeenlinna" [ref=e499] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/h%C3%A4meenlinna
+            - listitem [ref=e500]:
+              - link "Vuokra-asunnot Järvenpää" [ref=e501] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/j%C3%A4rvenp%C3%A4%C3%A4
+            - listitem [ref=e502]:
+              - link "Vuokra-asunnot Kerava" [ref=e503] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kerava
+            - listitem [ref=e504]:
+              - link "Vuokra-asunnot Joensuu" [ref=e505] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/joensuu
+            - listitem [ref=e506]:
+              - link "Vuokra-asunnot Porvoo" [ref=e507] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/porvoo
+            - listitem [ref=e508]:
+              - link "Vuokra-asunnot Kotka" [ref=e509] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kotka
+            - listitem [ref=e510]:
+              - link "Vuokra-asunnot Hyvinkää" [ref=e511] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/hyvink%C3%A4%C3%A4
+            - listitem [ref=e512]:
+              - link "Vuokra-asunnot Tuusula" [ref=e513] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/tuusula
+            - listitem [ref=e514]:
+              - link "Vuokra-asunnot Vaasa" [ref=e515] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/vaasa
+            - listitem [ref=e516]:
+              - link "Vuokra-asunnot Seinäjoki" [ref=e517] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/sein%C3%A4joki
+            - listitem [ref=e518]:
+              - link "Vuokra-asunnot Mikkeli" [ref=e519] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/mikkeli
+            - listitem [ref=e520]:
+              - link "Vuokra-asunnot Lohja" [ref=e521] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/lohja
+            - listitem [ref=e522]:
+              - link "Vuokra-asunnot Kaarina" [ref=e523] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kaarina
+            - listitem [ref=e524]:
+              - link "Vuokra-asunnot Rauma" [ref=e525] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/rauma
+            - listitem [ref=e526]:
+              - link "Vuokra-asunnot Kirkkonummi" [ref=e527] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kirkkonummi
+            - listitem [ref=e528]:
+              - link "Vuokra-asunnot Nurmijärvi" [ref=e529] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/nurmij%C3%A4rvi
+            - listitem [ref=e530]:
+              - link "Vuokra-asunnot Salo" [ref=e531] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/salo
+            - listitem [ref=e532]:
+              - link "Vuokra-asunnot Raasepori" [ref=e533] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/raasepori
+            - listitem [ref=e534]:
+              - link "Vuokra-asunnot Kangasala" [ref=e535] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kangasala
+            - listitem [ref=e536]:
+              - link "Vuokra-asunnot Raisio" [ref=e537] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/raisio
+            - listitem [ref=e538]:
+              - link "Vuokra-asunnot Riihimäki" [ref=e539] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/riihim%C3%A4ki
+            - listitem [ref=e540]:
+              - link "Vuokra-asunnot Kuusamo" [ref=e541] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kuusamo
+            - listitem [ref=e542]:
+              - link "Vuokra-asunnot Imatra" [ref=e543] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/imatra
+            - listitem [ref=e544]:
+              - link "Vuokra-asunnot Heinola" [ref=e545] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/heinola
+            - listitem [ref=e546]:
+              - link "Vuokra-asunnot Ylöjärvi" [ref=e547] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/yl%C3%B6j%C3%A4rvi
+            - listitem [ref=e548]:
+              - link "Vuokra-asunnot Vihti" [ref=e549] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/vihti
+            - listitem [ref=e550]:
+              - link "Vuokra-asunnot Savonlinna" [ref=e551] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/savonlinna
+            - listitem [ref=e552]:
+              - link "Vuokra-asunnot Kemi" [ref=e553] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kemi
+            - listitem [ref=e554]:
+              - link "Vuokra-asunnot Kokkola" [ref=e555] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kokkola
+            - listitem [ref=e556]:
+              - link "Vuokra-asunnot Nokia" [ref=e557] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/nokia
+            - listitem [ref=e558]:
+              - link "Vuokra-asunnot Sipoo" [ref=e559] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/sipoo
+            - listitem [ref=e560]:
+              - link "Vuokra-asunnot Varkaus" [ref=e561] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/varkaus
+            - listitem [ref=e562]:
+              - link "Vuokra-asunnot Pirkkala" [ref=e563] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/pirkkala
+            - listitem [ref=e564]:
+              - link "Vuokra-asunnot Naantali" [ref=e565] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/naantali
+            - listitem [ref=e566]:
+              - link "Vuokra-asunnot Jämsä" [ref=e567] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/j%C3%A4ms%C3%A4
+            - listitem [ref=e568]:
+              - link "Vuokra-asunnot Kittilä" [ref=e569] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kittil%C3%A4
+            - listitem [ref=e570]:
+              - link "Vuokra-asunnot Rovaniemi" [ref=e571] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/rovaniemi
+            - listitem [ref=e572]:
+              - link "Vuokra-asunnot Kajaani" [ref=e573] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/kajaani
+          - button "Näytä kaikki" [ref=e574] [cursor=pointer]:
+            - generic [ref=e575]: Näytä kaikki
+            - img [ref=e578]
+    - generic [ref=e583]:
+      - heading "Oikotien yhteistyövälittäjiä" [level=2] [ref=e584]
+      - list [ref=e586]:
+        - listitem [ref=e587]:
+          - link "Roof Group" [ref=e589] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/roof-lkv/roof-lkv-helsinki-8079491
+            - img "Roof Group"
+        - listitem [ref=e590]:
+          - link "Aktia" [ref=e592] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/aktia-kiinteistonvalitys-5014141
+            - img "Aktia"
+        - listitem [ref=e593]:
+          - link "SKVL" [ref=e595] [cursor=pointer]:
+            - /url: https://skvl.fi/
+            - img "SKVL"
+        - listitem [ref=e596]:
+          - link "SRV" [ref=e598] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/srv-rakennus-oy-konserni-5015087
+            - img "SRV"
+        - listitem [ref=e599]:
+          - link "Kuivinen LKV" [ref=e601] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/kuivinen-lkv-8571295
+            - img "Kuivinen LKV"
+        - listitem [ref=e602]:
+          - link "Sp-Koti Oy" [ref=e604] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/sp-koti-oy-7140005
+            - img "Sp-Koti Oy"
+        - listitem [ref=e605]:
+          - link "Blok" [ref=e607] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/blok-lkv-17807563
+            - img "Blok"
+        - listitem [ref=e608]:
+          - link "Huoneistokeskus" [ref=e610] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/huoneistokeskus-5012653
+            - img "Huoneistokeskus"
+        - listitem [ref=e611]:
+          - link "Habita" [ref=e613] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/habita-finland-oy-habita-yhtiot-5012947
+            - img "Habita"
+        - listitem [ref=e614]:
+          - link "Myyntiturva / Vuokraturva Oy" [ref=e616] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/myyntiturva-vuokraturva-oy/myyntiturva-lkv-a-vuokrakohteiden-osalta-katso-vuokraturva-5610477
+            - img "Myyntiturva / Vuokraturva Oy"
+        - listitem [ref=e617]:
+          - link "JYA Housing" [ref=e619] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/jya-housing-lkv-6915167
+            - img "JYA Housing"
+        - listitem [ref=e620]:
+          - link "Skanska" [ref=e622] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/skanska-talonrakennus-oy-5014061
+            - img "Skanska"
+        - listitem [ref=e623]:
+          - link "Strand Properties" [ref=e625] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/strand-properties-oy-22905067
+            - img "Strand Properties"
+        - listitem [ref=e626]:
+          - link "Pekka Lahtinen LKV" [ref=e628] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/pekka-lahtinen-lkv-7892235
+            - img "Pekka Lahtinen LKV"
+        - listitem [ref=e629]:
+          - link "OP-Kiinteistökeskus" [ref=e631] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/op-koti-oy-lkv-5013017
+            - img "OP-Kiinteistökeskus"
+        - listitem [ref=e632]:
+          - link "Kiinteistömaailma" [ref=e634] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/kiinteistomaailma-konserni-5012659
+            - img "Kiinteistömaailma"
+        - listitem [ref=e635]:
+          - link "Bonava" [ref=e637] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/bonava-suomi-oy-5013679
+            - img "Bonava"
+        - listitem [ref=e638]:
+          - link "Kotijoukkue" [ref=e640] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/suomen-kotijoukkue-10050099
+            - img "Kotijoukkue"
+        - listitem [ref=e641]:
+          - link "West House" [ref=e643] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/westhouse-lkv-a-5013445
+            - img "West House"
+        - listitem [ref=e644]:
+          - link "Aninkainen" [ref=e646] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/aninkainen-turku-aninkaisten-kiinteistovalitys-oy-13177017
+            - img "Aninkainen"
+        - listitem [ref=e647]:
+          - link "RE/Max" [ref=e649] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/remax-finland-5014629
+            - img "RE/Max"
+        - listitem [ref=e650]:
+          - link "Maison Luumi" [ref=e652] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/yritys/maison-luumi-oy-8873759
+            - img "Maison Luumi"
+      - button "Näytä lisää" [ref=e653] [cursor=pointer]:
+        - img [ref=e656]
+        - generic [ref=e658]: Näytä lisää
+    - generic [ref=e659]:
+      - heading [level=4] [ref=e661]: Lataa ilmainen Oikotie-sovellus
+      - list [ref=e662]:
+        - listitem [ref=e663]:
+          - img [ref=e666]
+          - generic [ref=e668]: Tallenna kohde suosikiksi
+        - listitem [ref=e669]:
+          - img [ref=e672]
+          - generic [ref=e674]: Push-notifikaatiolla tieto uusista kohteista
+        - listitem [ref=e675]:
+          - img [ref=e678]
+          - generic [ref=e680]: Selkeä haku ja karttapalvelu
+    - generic [ref=e682]:
+      - button [ref=e684] [cursor=pointer]
+      - paragraph [ref=e685]: Vastaa kyselyyn ja osallistu kahden 100€ arvoisen lahjakortin arvontaan!
+      - link "Vastaa kyselyyn" [ref=e686] [cursor=pointer]:
+        - /url: https://response.questback.com/vend_marketplaces_oy/oikotie_kysely_kevat_2026_1
+  - generic [ref=e687]:
+    - generic [ref=e689]:
+      - link "Oikotie Asunnot" [ref=e691] [cursor=pointer]:
+        - /url: https://asunnot.oikotie.fi/myytavat-asunnot
+        - img "Oikotie Asunnot" [ref=e692]
+      - generic [ref=e693]:
+        - generic [ref=e694]:
+          - heading "Suosituimmat myytävät asunnot" [level=3] [ref=e695]
+          - generic [ref=e696]:
+            - link "Helsinki" [ref=e698] [cursor=pointer]:
+              - /url: /myytavat-asunnot/helsinki
+            - generic [ref=e699]:
+              - text: •
+              - link "Espoo" [ref=e700] [cursor=pointer]:
+                - /url: /myytavat-asunnot/espoo
+            - generic [ref=e701]:
+              - text: •
+              - link "Vantaa" [ref=e702] [cursor=pointer]:
+                - /url: /myytavat-asunnot/vantaa
+            - generic [ref=e703]:
+              - text: •
+              - link "Tampere" [ref=e704] [cursor=pointer]:
+                - /url: /myytavat-asunnot/tampere
+            - generic [ref=e705]:
+              - text: •
+              - link "Turku" [ref=e706] [cursor=pointer]:
+                - /url: /myytavat-asunnot/turku
+            - generic [ref=e707]:
+              - text: •
+              - link "Oulu" [ref=e708] [cursor=pointer]:
+                - /url: /myytavat-asunnot/oulu
+            - link "Lahti" [ref=e710] [cursor=pointer]:
+              - /url: /myytavat-asunnot/lahti
+            - generic [ref=e711]:
+              - text: •
+              - link "Jyväskylä" [ref=e712] [cursor=pointer]:
+                - /url: /myytavat-asunnot/jyv%C3%A4skyl%C3%A4
+            - generic [ref=e713]:
+              - text: •
+              - link "Kuopio" [ref=e714] [cursor=pointer]:
+                - /url: /myytavat-asunnot/kuopio
+            - generic [ref=e715]:
+              - text: •
+              - link "Pori" [ref=e716] [cursor=pointer]:
+                - /url: /myytavat-asunnot/pori
+            - generic [ref=e717]:
+              - text: •
+              - link "Lappeenranta" [ref=e718] [cursor=pointer]:
+                - /url: /myytavat-asunnot/lappeenranta
+            - link "Kouvola" [ref=e720] [cursor=pointer]:
+              - /url: /myytavat-asunnot/kouvola
+        - generic [ref=e721]:
+          - heading "Suosituimmat vuokrattavat asunnot" [level=3] [ref=e722]
+          - generic [ref=e723]:
+            - link "Helsinki" [ref=e725] [cursor=pointer]:
+              - /url: /vuokra-asunnot/helsinki
+            - generic [ref=e726]:
+              - text: •
+              - link "Espoo" [ref=e727] [cursor=pointer]:
+                - /url: /vuokra-asunnot/espoo
+            - generic [ref=e728]:
+              - text: •
+              - link "Vantaa" [ref=e729] [cursor=pointer]:
+                - /url: /vuokra-asunnot/vantaa
+            - generic [ref=e730]:
+              - text: •
+              - link "Tampere" [ref=e731] [cursor=pointer]:
+                - /url: /vuokra-asunnot/tampere
+            - generic [ref=e732]:
+              - text: •
+              - link "Turku" [ref=e733] [cursor=pointer]:
+                - /url: /vuokra-asunnot/turku
+            - generic [ref=e734]:
+              - text: •
+              - link "Oulu" [ref=e735] [cursor=pointer]:
+                - /url: /vuokra-asunnot/oulu
+            - link "Lahti" [ref=e737] [cursor=pointer]:
+              - /url: /vuokra-asunnot/lahti
+            - generic [ref=e738]:
+              - text: •
+              - link "Jyväskylä" [ref=e739] [cursor=pointer]:
+                - /url: /vuokra-asunnot/jyv%C3%A4skyl%C3%A4
+            - generic [ref=e740]:
+              - text: •
+              - link "Kuopio" [ref=e741] [cursor=pointer]:
+                - /url: /vuokra-asunnot/kuopio
+            - generic [ref=e742]:
+              - text: •
+              - link "Pori" [ref=e743] [cursor=pointer]:
+                - /url: /vuokra-asunnot/pori
+            - generic [ref=e744]:
+              - text: •
+              - link "Lappeenranta" [ref=e745] [cursor=pointer]:
+                - /url: /vuokra-asunnot/lappeenranta
+            - link "Kouvola" [ref=e747] [cursor=pointer]:
+              - /url: /vuokra-asunnot/kouvola
+      - generic [ref=e748]:
+        - generic [ref=e749]: Seuraa meitä
+        - list [ref=e750]:
+          - listitem [ref=e751]:
+            - link "Seuraa Facebookissa" [ref=e752] [cursor=pointer]:
+              - /url: https://fi-fi.facebook.com/oikotieasunnot
+              - img "Seuraa Facebookissa" [ref=e753]: 
+          - listitem [ref=e754]:
+            - link "Seuraa Twitterissä" [ref=e755] [cursor=pointer]:
+              - /url: https://x.com/OikotieAsunnot
+              - img "Seuraa Twitterissä" [ref=e756]: 
+          - listitem [ref=e757]:
+            - link "Seuraa Instagramissa" [ref=e758] [cursor=pointer]:
+              - /url: https://instagram.com/oikotieasunnot/
+              - img "Seuraa Instagramissa" [ref=e759]: 
+    - generic [ref=e763]:
+      - generic:
+        - img "Lapsiperhe istuu sohvalla lukemassa Oikotien uutiskirjettä"
+      - generic [ref=e764]:
+        - generic [ref=e765]:
+          - 'heading "Tilaa uutiskirje: Tietoa ja inspiraatiota asumiseen" [level=2] [ref=e766]'
+          - paragraph [ref=e767]: Tilaamalla sähköpostiisi Oikotien personoidun uutiskirjeen saat tietoa ja inspiraatiota asumiseen.
+        - generic [ref=e768]:
+          - generic [ref=e769]:
+            - generic [ref=e770]: Minkälaista asuntoa etsit?
+            - combobox "Minkälaista asuntoa etsit?" [ref=e771]:
+              - option "Valitse..." [selected]
+              - option "Myytävät asunnot"
+              - option "Vuokrattavat asunnot"
+          - generic [ref=e773]:
+            - generic [ref=e774]: Mistä etsit ensisijaisesti kotia?
+            - combobox [ref=e775]:
+              - textbox "Mistä etsit ensisijaisesti kotia?" [ref=e776]:
+                - /placeholder: Valitse...
+          - generic [ref=e777]:
+            - generic [ref=e778]: Sähköpostiosoitteesi *
+            - textbox "Sähköpostiosoitteesi *" [ref=e779]
+        - generic [ref=e781]:
+          - checkbox "Hyväksyn Oikotien käyttöehdot ja tietosuojalausekkeen" [ref=e782]
+          - generic [ref=e783] [cursor=pointer]:
+            - text: Hyväksyn Oikotien
+            - link "käyttöehdot" [ref=e784]:
+              - /url: https://www.oikotie.fi/kayttoehdot/
+            - text: ja
+            - link "tietosuojalausekkeen" [ref=e785]:
+              - /url: https://vend.com/privacy/fi-policy
+        - button "Tilaa uutiskirje" [ref=e786] [cursor=pointer]
+    - generic [ref=e789]:
+      - generic [ref=e790]:
+        - heading "Yksityisille ilmoittajille" [level=3] [ref=e791]
+        - generic [ref=e792]:
+          - link "Tee myynti-ilmoitus" [ref=e793] [cursor=pointer]:
+            - /url: /myy
+          - link "Tee vuokrailmoitus" [ref=e794] [cursor=pointer]:
+            - /url: /vuokraa
+          - link "Asuntomyynnin opas" [ref=e795] [cursor=pointer]:
+            - /url: /artikkelit/oppaat/asunnon-myyntiopas-myy-kotisi-hetkessa/
+          - link "Vuokranantajan opas" [ref=e796] [cursor=pointer]:
+            - /url: /artikkelit/oppaat/vuokratuotto-kattoon-vuokranantajan-opas/
+          - link "Valitse välittäjä avuksi" [ref=e797] [cursor=pointer]:
+            - /url: /valitse-kiinteistonvalittaja
+          - link "Hinnasto" [ref=e798] [cursor=pointer]:
+            - /url: /luo-ilmoitus
+      - generic [ref=e799]:
+        - heading "Yritysasiakkaille" [level=3] [ref=e800]
+        - generic [ref=e801]:
+          - link "Palvelut ja hinnasto" [ref=e802] [cursor=pointer]:
+            - /url: /hinnasto
+          - link "Sopimukset" [ref=e803] [cursor=pointer]:
+            - /url: /sopimukset
+          - link "Kiinteistönvälitysjärjestelmä" [ref=e804] [cursor=pointer]:
+            - /url: /kiinteistonvalitysjarjestelma
+          - link "Rakennusliikkeet" [ref=e805] [cursor=pointer]:
+            - /url: /pdx-constructor
+          - link "Ota yhteyttä" [ref=e806] [cursor=pointer]:
+            - /url: https://tuki.oikotie.fi/
+      - generic [ref=e807]:
+        - heading "Asunnon etsijöille" [level=3] [ref=e808]
+        - generic [ref=e809]:
+          - link "Tee hakuvahti" [ref=e810] [cursor=pointer]:
+            - /url: https://asunnot.oikotie.fi/myytavat-asunnot?show-guard-tour=1&show-guard-tour-again=1
+          - link "Hae välittäjätoimistoja" [ref=e811] [cursor=pointer]:
+            - /url: /yritys
+  - contentinfo [ref=e812]:
+    - generic [ref=e814]:
+      - generic [ref=e815]:
+        - link "Oikotie logo" [ref=e817] [cursor=pointer]:
+          - /url: https://asunnot.oikotie.fi
+          - img "Oikotie logo" [ref=e818]
+        - generic [ref=e819]:
+          - generic [ref=e820]:
+            - heading "Yrityksille" [level=4] [ref=e821]
+            - generic [ref=e822]:
+              - link "Myy tai mainosta" [ref=e823] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/hinnasto
+              - link "Yleiset myyntiehdot" [ref=e824] [cursor=pointer]:
+                - /url: https://www.tori.fi/yrityksille/gdpr-ja-yleiset-sopimusehdot
+          - generic [ref=e825]:
+            - heading "Oikotie" [level=4] [ref=e826]
+            - generic [ref=e827]:
+              - link "Oikotie Asunnot" [ref=e828] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi
+              - link "Oikotie Toimitilat" [ref=e829] [cursor=pointer]:
+                - /url: https://toimitilat.oikotie.fi
+              - link "Tietoa Vendistä" [ref=e830] [cursor=pointer]:
+                - /url: https://asunnot.oikotie.fi/artikkelit/asuminen/vend/
+          - generic [ref=e831]:
+            - heading "Tietosuoja" [level=4] [ref=e832]
+            - generic [ref=e833]:
+              - button "Evästeasetukset" [ref=e835] [cursor=pointer]:
+                - generic [ref=e836]: Evästeasetukset
+              - link "Käyttäytymiseen perustuva mainonta" [ref=e837] [cursor=pointer]:
+                - /url: https://www.youronlinechoices.com/fi/
+              - link "Yksityisyysasetukset" [ref=e839] [cursor=pointer]:
+                - /url: https://privacysettings.vend.fi/?client_id=6322eb3b9dddad507226afac&referrer=https%3A%2F%2Fasunnot.oikotie.fi%2F&utm_source=oikotie&utm_medium=footer&environmentId=
+              - link "Tietosuojakäytäntö" [ref=e840] [cursor=pointer]:
+                - /url: https://vend.com/privacy/fi-policy
+          - generic [ref=e841]:
+            - heading "Tuki" [level=4] [ref=e842]
+            - generic [ref=e843]:
+              - link "Asiakaspalvelu" [ref=e844] [cursor=pointer]:
+                - /url: https://tuki.oikotie.fi/
+              - link "Käyttöehdot" [ref=e845] [cursor=pointer]:
+                - /url: https://www.oikotie.fi/kayttoehdot/
+      - separator [ref=e846]
+      - generic [ref=e847]:
+        - list [ref=e850]:
+          - listitem [ref=e851]:
+            - link "Seuraa Facebookissa" [ref=e852] [cursor=pointer]:
+              - /url: https://fi-fi.facebook.com/oikotieasunnot
+              - img "Seuraa Facebookissa" [ref=e853]: 
+          - listitem [ref=e854]:
+            - link "Seuraa Twitterissä" [ref=e855] [cursor=pointer]:
+              - /url: https://x.com/OikotieAsunnot
+              - img "Seuraa Twitterissä" [ref=e856]: 
+          - listitem [ref=e857]:
+            - link "Seuraa Instagramissa" [ref=e858] [cursor=pointer]:
+              - /url: https://instagram.com/oikotieasunnot/
+              - img "Seuraa Instagramissa" [ref=e859]: 
+        - generic [ref=e860]:
+          - paragraph [ref=e861]: Sisältö on suojattu tekijänoikeuslailla. Säännöllinen, järjestelmällinen tai jatkuva tietojen kerääminen, tallentaminen, indeksointi, jakelu tai muu tietojen kokoaminen ei ole sallittua ilman Oikotien antamaa kirjallista lupaa.
+          - paragraph [ref=e862]: ©1999–2026 Oikotie
+    - list [ref=e868]:
+      - listitem [ref=e869]: "Tutustu myös:"
+      - listitem [ref=e870]:
+        - link "AutoVex" [ref=e871] [cursor=pointer]:
+          - /url: https://autovex.fi/
+      - listitem [ref=e872]:
+        - text: ●
+        - link "Hintaopas" [ref=e873] [cursor=pointer]:
+          - /url: https://hintaopas.fi/
+      - listitem [ref=e874]:
+        - text: ●
+        - link "Hygglo" [ref=e875] [cursor=pointer]:
+          - /url: https://www.hygglo.fi/
+      - listitem [ref=e876]:
+        - text: ●
+        - link "Qasa" [ref=e877] [cursor=pointer]:
+          - /url: https://qasa.fi/fi
+      - listitem [ref=e878]:
+        - text: ●
+        - link "Tori" [ref=e879] [cursor=pointer]:
+          - /url: https://www.tori.fi/
+  - generic [ref=e882]:
+    - img "Vend logo" [ref=e883]
+    - paragraph [ref=e884]:
+      - generic [ref=e885]: Oikotie on osa Vend-konsernia.
+      - generic [ref=e886]: Vend on vastuussa tietojesi käsittelystä tällä sivustolla.
+      - link "Lue lisää" [ref=e887] [cursor=pointer]:
+        - /url: http://vend.com/privacy/fi-policy
+  - dialog "Evästeasetukset" [ref=e888]:
+    - iframe [active] [ref=e889]:
+      - generic [ref=f6e6]:
+        - generic [ref=f6e7]:
+          - generic [ref=f6e8]:
+            - generic [ref=f6e10]:
+              - img "Vend logo" [ref=f6e12]
+              - img "Oikotie logo" [ref=f6e14]
+            - heading "Evästeasetukset" [level=1] [ref=f6e16]
+          - paragraph [ref=f6e17]:
+            - text: Käytämme evästeitä palveluidemme laadun takaamiseksi. Hyväksymällä evästeet sallit, että Vend ja sen
+            - link "62 mainontakumppania" [ref=f6e18] [cursor=pointer]:
+              - /url: "#"
+            - text: "voivat tallentaa tietoja tai käyttää tietoja laitteellesi, kuten evästeitä ja laitetunnuksia Oikotie-palvelussa kerätäkseen henkilötietoja kuten tietoja vierailemistasi sivuista, seuraaviin tarkoituksiin:"
+          - generic [ref=f6e20]:
+            - button "Tietojen tallentaminen laitteelle ja/tai laitteella olevien tietojen käyttö" [ref=f6e22] [cursor=pointer]: Tietojen tallentaminen laitteelle ja/tai laitteella olevien tietojen käyttö
+            - button "Kohdennettu mainonta, mainonnan mittaaminen, yleisötutkimus ja palvelujen kehittäminen" [ref=f6e25] [cursor=pointer]: Kohdennettu mainonta, mainonnan mittaaminen, yleisötutkimus ja palvelujen kehittäminen
+            - button "Vendin tekemää tuotekehitystä, personointia, markkinointia (mukaan lukien Google, Meta ja Snap) ja mainontaa varten" [ref=f6e28] [cursor=pointer]: Vendin tekemää tuotekehitystä, personointia, markkinointia (mukaan lukien Google, Meta ja Snap) ja mainontaa varten
+          - paragraph [ref=f6e31]: Valitse Muokkaa tai kiellä, jos haluat muokata suostumuksiasi tai kieltää tietojen käytön oikeutetun edun perusteella. Voit muuttaa asetuksiasi milloin tahansa palveluidemme sivustojen alareunasta löytyvän Evästeasetukset-linkin kautta.
+          - paragraph [ref=f6e33]:
+            - link "Tietosuoja- ja evästekäytäntö" [ref=f6e34] [cursor=pointer]:
+              - /url: https://vend.com/privacy/fi-policy
+        - generic [ref=f6e35]:
+          - button "Hyväksy kaikki" [ref=f6e36] [cursor=pointer]
+          - button "Muokkaa tai kiellä" [ref=f6e37] [cursor=pointer]

@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic [ref=e3]: ‍
+      - link "Siirry sisältöön‍" [ref=e4] [cursor=pointer]:
+        - text: Siirry sisältöön‍
+        - img [ref=e5]
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - button "Avaa valikko" [ref=e10] [cursor=pointer]:
+          - img "Avaa valikko" [ref=e11]
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - button "Kirjaudu sisään" [ref=e15] [cursor=pointer]:
+              - img "Kirjaudu sisään" [ref=e16]
+          - listitem [ref=e18]:
+            - link "Asiakaspalvelu" [ref=e19] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-tp-ha-ano-aspa
+              - img "Asiakaspalvelu" [ref=e20]
+          - listitem [ref=e22]:
+            - link "Hae" [ref=e23] [cursor=pointer]:
+              - /url: /haku
+              - img "Hae" [ref=e24]
+        - link "Siirry henkilöasiakkaiden etusivulle." [ref=e27] [cursor=pointer]:
+          - /url: /
+          - img "OP" [ref=e28]
+  - generic [ref=e32]:
+    - text: 
+    - main [ref=e36]:
+      - generic [ref=e40]:
+        - generic [ref=e50]:
+          - heading "Sijoittamisen edut ja hinnasto" [level=1] [ref=e51]
+          - paragraph [ref=e52]: Sijoittaminen voi olla elämäsi kannattavin päätös. Meillä se kannattaa erityisesti, koska saat etuja ja aina edulliset hinnat. Tutustu tällä sivulla omistaja-asiakkaan ja sijoittajan etuihin. Löydät kootusti rahastojen, osakkeiden ja vakuutussäästämisen hinnastot.
+        - group "1 / 1" [ref=e65]:
+          - generic [ref=e68]:
+            - heading "Sijoita OP-bonukset rahastoon" [level=2] [ref=e69]
+            - generic [ref=e70]: Sijoittamalla bonukset rahastoon, voit saada niille tuottoa ja hyötyä entistä enemmän.
+            - link "Sijoita OP-bonukset" [ref=e72] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/sijoita-op-bonukset
+              - generic [ref=e73]: Sijoita OP-bonukset
+        - generic [ref=e83]:
+          - generic [ref=e85]:
+            - heading "Edut omistaja-asiakkaille" [level=2] [ref=e86]
+            - paragraph [ref=e87]: Osuuspankin omistaja-asiakkaana saat merkittäviä lisäetuja rahastosijoittamiseen ja vakuutussäästämiseen sekä voit sijoittaa oman osuuspankkisi Tuotto-osuuteen.
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - text: 
+                - strong [ref=e90]: Sijoita OP-bonukset rahastoon
+                - text: Omistaja-asiakkaana voit sijoittaa sinulle kertyneet bonukset suoraan rahastoon.
+              - listitem [ref=e91]:
+                - text: 
+                - strong [ref=e92]: Rahastoista ja vakuutussäästöistä kertyy OP-bonuksia
+                - text: Omistaja-asiakkaana sinulle kertyy OP-bonuksia lähes kaikista rahastoista ja sijoitussidonnaisista vakuutuksista 0,28 %. Indeksirahastoista bonuksia kertyy 0,245 %.
+              - listitem [ref=e93]:
+                - text: 
+                - strong [ref=e94]: Vain omistaja-asiakkaana voit sijoittaa Tuotto-osuuteen
+                - text: Tuotto-osuuteen sijoittamalla voit hyötyä osuuspankkisi menestyksestä. Omistaja-asiakkaana voit sijoittaa Tuotto-osuuteen, jonka tuottotavoite vuodelle 2026 on 4,5 prosenttia.
+          - generic [ref=e96]:
+            - heading "Edut kaikille asiakkaille – sijoita aina edullisesti" [level=2] [ref=e97]
+            - paragraph [ref=e98]: OP:lla sijoitat aina edullisesti ja jopa maksutta – riippumatta siitä, oletko omistaja-asiakas vai et. Kaikki edut ja alennukset ovat automaattisesti käytössäsi.
+            - list [ref=e99]:
+              - listitem [ref=e100]:
+                - text: 
+                - strong [ref=e101]: Rahastot
+                - text: Lähes kaikkien OP:n rahastojen ostaminen ja myyminen on maksutonta.* Rahastojen merkintä- ja lunastuspalkkiot ovat kaikille asiakkaille 0 €.
+              - listitem [ref=e102]:
+                - text: 
+                - strong [ref=e103]: Sijoita osakkeisiin ilman kuukausimaksuja
+                - text: Avaat arvo-osuustilin ja osakesäästötilin maksutta, eli hintaan 0 €. Myös lähes kaikki palvelupaketit ovat kuukausimaksuttomia. Jos valitset osakesäästötilille maksullisen Sijoittajan palvelupaketin, saat sen ilman kuukausimaksuja kuluvan ja seuraavan kuukauden ajaksi.
+            - table [ref=e105]:
+              - rowgroup [ref=e106]:
+                - row "Palvelupaketti Säästäjä Sijoittaja" [ref=e107]:
+                  - columnheader "Palvelupaketti" [ref=e108]
+                  - columnheader "Säästäjä" [ref=e109]
+                  - columnheader "Sijoittaja" [ref=e110]
+              - rowgroup [ref=e111]:
+                - row "Osakesäästötili 0 €/kk 9,99 €/kk" [ref=e112]:
+                  - cell "Osakesäästötili" [ref=e113]
+                  - cell "0 €/kk" [ref=e114]
+                  - cell "9,99 €/kk" [ref=e115]
+                - row "Arvo-osuustili 0 €/kk 0 €/kk" [ref=e116]:
+                  - cell "Arvo-osuustili" [ref=e117]
+                  - cell "0 €/kk" [ref=e118]
+                  - cell "0 €/kk" [ref=e119]
+            - paragraph [ref=e120]
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - text: 
+                - strong [ref=e123]: Vakuutussäästäminen
+                - text: OP Sijoitusvakuutuksen lisäsijoitukset ja sijoituskohteiden vaihtaminen digikanavissa on kulutonta.
+              - listitem [ref=e124]:
+                - text: 
+                - strong [ref=e125]: Arvo-osuustilille ja osakesäästötilille edulliset kaupankäyntipalkkiot
+                - text: Arvo-osuustilillä käyt kauppaa ensimmäisen kuluvan kalenterineljänneksen ajan 0,10 % (min. 5 €) kaupankäyntipalkkiolla. Osakesäästötilillä käyt kauppaa ilman kaupankäyntipalkkioita ensimmäiset 30 päivää. Tämän jälkeen osakekaupat arvo-osuustilillä alkaen 0,05 % (min. 3 €) ja osakesäästötilillä alkaen 0,08 % (min 3 €). Arvo-osuustilille saat myös 1 %:n palkkiokaton kotimaisiin osakekauppoihin.
+              - listitem [ref=e126]:
+                - text: 
+                - strong [ref=e127]: Osakesuositukset ja -analyysit
+                - text: Saat osakesuositukset ja -analyysit ilman lisämaksua. Hyödynnä osakepoiminnassa suositukset ja kattavat analyysit kotimaisista ja ulkomaisista pörssiyhtiöistä.
+            - paragraph [ref=e128]: "*Seuraavista erikoissijoitusrahastoista veloitetaan normaalit kulut: OP-Palvelukiinteistöt, OP-Metsänomistaja, OP-Vuokratuotto, OP-Alternative Portfolio ja OP-Private Equity."
+            - heading "Sijoittamisen hinnastot" [level=2] [ref=e129]
+        - heading "Osakesäästötilin hinnasto" [level=2] [ref=e141]:
+          - link "Osakesäästötilin hinnasto" [ref=e142] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-hinnasto/osakesaastotilin-hinnasto
+            - generic [ref=e143]: Osakesäästötilin hinnasto
+            - img [ref=e144]
+        - heading "Arvo-osuustilin hinnasto" [level=2] [ref=e157]:
+          - link "Arvo-osuustilin hinnasto" [ref=e158] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-hinnasto/arvo-osuustilin-hinnasto
+            - generic [ref=e159]: Arvo-osuustilin hinnasto
+            - img [ref=e160]
+        - heading "Rahastojen hinnasto" [level=2] [ref=e173]:
+          - link "Rahastojen hinnasto" [ref=e174] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/rahastot/rahastojen-hinnasto
+            - generic [ref=e175]: Rahastojen hinnasto
+            - img [ref=e176]
+        - heading "Vakuutussäästämisen hinnasto (pdf)" [level=2] [ref=e189]:
+          - link "Vakuutussäästämisen hinnasto (pdf)" [ref=e190] [cursor=pointer]:
+            - /url: https://www.op.fi/documents/10208/2483892/op_sijoitusvakuutus_hinnasto_fi_0125.pdf/67e739c5-f419-cf22-33e6-37ad9eb805c1
+            - generic [ref=e191]: Vakuutussäästämisen hinnasto (pdf)
+            - img [ref=e192]
+      - generic [ref=e196]:
+        - link "Sijoita Tuotto-osuuteen Tuotto-osuus on sijoitus oman osuuspankkisi pääomaan. Vain omistaja-asiakkaana voit sijoittaa ja saada sijoituksellesi kilpailukykyisen koron. Tuotto-osuus" [ref=e211] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/tuotto-osuus
+          - generic [ref=e213]:
+            - heading "Sijoita Tuotto-osuuteen" [level=2] [ref=e214]:
+              - text: Sijoita Tuotto-osuuteen
+              - generic [ref=e215]:
+                - button:
+                  - text: ‍
+                  - img
+            - generic [ref=e216]: Tuotto-osuus on sijoitus oman osuuspankkisi pääomaan. Vain omistaja-asiakkaana voit sijoittaa ja saada sijoituksellesi kilpailukykyisen koron.
+          - img "Tuotto-osuus" [ref=e218]
+        - link "Tule omistaja-asiakkaaksi Omistaja-asiakkaana saat lisäetuja. Tarkista omistaja-asiakkuutesi tilanne tai liity omistaja-asiakkaaksi. \"\"" [ref=e233] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/omistaja-asiakkuus
+          - generic [ref=e235]:
+            - heading "Tule omistaja-asiakkaaksi" [level=2] [ref=e236]:
+              - text: Tule omistaja-asiakkaaksi
+              - generic [ref=e237]:
+                - button:
+                  - text: ‍
+                  - img
+            - generic [ref=e238]: Omistaja-asiakkaana saat lisäetuja. Tarkista omistaja-asiakkuutesi tilanne tai liity omistaja-asiakkaaksi.
+          - img "\"\"" [ref=e240]
+      - generic [ref=e255]:
+        - paragraph [ref=e256]: Tämä on mainos. Sijoittamisen palvelut tarjoaa osuuspankki. OP-rahastoja hallinnoi OP-Rahastoyhtiö Oy. Omistaja-asiakkuus edellyttää osuuspankin jäsenosuusmaksun maksamista, useimmiten maksu on 100 euroa. Tutustu op.fi/omistaja-asiakkuus. OP-bonuksia ei kerrytä OP-Euro-sijoitusrahasto, instituutiosarjat ja kolmansien osapuolten rahastot.
+        - paragraph [ref=e257]: "OP Sijoitusvakuutuksen ja OP Kapitalisaatiosopimuksen myöntää OP-Henkivakuutus, jonka asiamiehenä osuuspankki toimii. Sijoitussidonnaiset vakuutukset kerryttävät OP-bonuksia, pois lukien yksilölliset sijoitusvakuutukset ja yksilölliset sijoitussopimukset. Vakuutussäästöihin liitettyjen rahastojen OP-bonusten kertymisen periaatteita yhdenmukaistetaan suorien sijoitusten kanssa. Seuraavat vakuutussäästöihin liitetyt rahastot eivät kerrytä OP-bonuksia: kolmansien osapuolten rahastot kuten JP Morganin rahastot, strukturoidut lainat ja instituutiosarjan rahastot."
+    - contentinfo [ref=e258]:
+      - search [ref=e262]:
+        - textbox "Hae" [ref=e263]
+        - button "Hae" [ref=e264] [cursor=pointer]: 
+      - paragraph:
+        - link "Siirry sivun alkuun" [ref=e265] [cursor=pointer]:
+          - /url: "#"
+          - text: Sivun alkuun
+      - generic [ref=e268]:
+        - link "Asiakaspalvelu" [ref=e270] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-ft-aspa
+        - link "Anna palautetta" [ref=e272] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/palautteet-ja-ongelmat?icmp=yl-ft-anna-palautetta
+        - link "Evästeiden käyttö" [ref=e274] [cursor=pointer]:
+          - /url: /evasteiden-kaytto?icmp=yl-ft-evasteet
+        - link "Palveluhinnasto" [ref=e276] [cursor=pointer]:
+          - /url: /hinnasto?icmp=yl-ft-hinnasto
+        - link "Puheluhinnasto" [ref=e278] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/puheluhinnasto?icmp=yl-ft-puheluhinnasto
+        - link "Sähköinen allekirjoituspalvelu" [ref=e280] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/digitaaliset-palvelut/sahkoinen-allekirjoituspalvelu?icmp=yl-ft-allekirjoitus
+        - link "Tule OP:n asiakkaaksi" [ref=e282] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakkuus/tule-opn-asiakkaaksi?icmp=yl-ft-asiakkaaksi
+        - link "Turvallinen asiointi" [ref=e284] [cursor=pointer]:
+          - /url: /turvallinen-asiointi?icmp=yl-ft-turvallisuus
+        - link "Verkkopalvelun käyttö" [ref=e286] [cursor=pointer]:
+          - /url: /verkkopalveluiden-kaytto?icmp=yl-ft-kaytto
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - link "OP Media" [ref=e289] [cursor=pointer]:
+            - /url: https://www.op-media.fi/
+          - link "OP Koti" [ref=e290] [cursor=pointer]:
+            - /url: https://op-koti.fi/
+          - link "Pohjola Vahinkoapu" [ref=e291] [cursor=pointer]:
+            - /url: https://vahinkoapu.pohjola.fi
+        - generic [ref=e292]:
+          - link "facebook" [ref=e293] [cursor=pointer]:
+            - /url: https://www.facebook.com/op.fi
+          - link "linkedin" [ref=e294] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/op-pohjola
+          - link "instagram" [ref=e295] [cursor=pointer]:
+            - /url: https://www.instagram.com/op_pohjola
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - generic [ref=e299]: © OP Pohjola
+          - generic [ref=e300]: "BIC: OKOYFIHH"
+        - generic [ref=e301]:
+          - link "Tietosuoja" [ref=e302] [cursor=pointer]:
+            - /url: /tietosuoja?icmp=yl-ft-tietosuoja
+          - link "Saavutettavuus" [ref=e303] [cursor=pointer]:
+            - /url: /saavutettavuus?icmp=yl-ft-saavutettavuus
+          - link "Käyttöehdot" [ref=e304] [cursor=pointer]:
+            - /url: /kayttoehdot?icmp=yl-ft-kayttoehdot
+          - link "Sopimusehdot" [ref=e305] [cursor=pointer]:
+            - /url: /ehdot?icmp=yl-ft-sopimusehdot
+    - generic [ref=e310]:
+      - generic:
+        - status [ref=e311]
+        - status [ref=e312]

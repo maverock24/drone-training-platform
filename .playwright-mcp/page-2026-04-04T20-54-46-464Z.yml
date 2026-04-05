@@ -1,0 +1,362 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Nordnet Nordea OP S-Pankki palkkiot hinnasto vertailu 2026 osakekauppa Nordnet Nordea OP S-Pankki palkkiot hinnasto vertailu 2026 osakekauppa
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DNordnet%2BNordea%2BOP%2BS-Pankki%2Bpalkkiot%2Bhinnasto%2Bvertailu%2B2026%2Bosakekauppa%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sca_esv=abbb0aaa8824193d&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Nordnet vs OP -osakevälittäjien kilpailutus Osinkoinsinööri https://www.osinkoinsinoori.fi › 2018/03 › nordnet-vs-..." [ref=e222] [cursor=pointer]:
+                  - /url: https://www.osinkoinsinoori.fi/2018/03/nordnet-vs-op-osakevalittajien.html
+                  - heading "Nordnet vs OP -osakevälittäjien kilpailutus" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Osinkoinsinööri
+                    - generic [ref=e232]: https://www.osinkoinsinoori.fi › 2018/03 › nordnet-vs-...
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]: Välityspalkkioiden suuruus vaihtelee merkittävästi Osuuspankin ja Nordnetin vertailussa keskimääräisen osakekaupan ollessa 250 ja 2000 euron välillä ... Edellisen ...
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e245]
+              - button "Tietoja tästä tuloksesta" [ref=e246] [cursor=pointer]:
+                - img [ref=e249]
+            - generic [ref=e251]:
+              - button "Paljonko on Nordnetin välityspalkkio?" [ref=e257] [cursor=pointer]:
+                - generic [ref=e259]: Paljonko on Nordnetin välityspalkkio?
+                - img [ref=e262]
+              - button "Mikä on paras osakesäästötili?" [ref=e271] [cursor=pointer]:
+                - generic [ref=e273]: Mikä on paras osakesäästötili?
+                - img [ref=e276]
+              - button "Voiko Nordealla ostaa osakkeita?" [ref=e285] [cursor=pointer]:
+                - generic [ref=e287]: Voiko Nordealla ostaa osakkeita?
+                - img [ref=e290]
+              - button "Onko Nordnet-tili maksullinen?" [ref=e299] [cursor=pointer]:
+                - generic [ref=e301]: Onko Nordnet-tili maksullinen?
+                - img [ref=e304]
+          - generic [ref=e309]:
+            - heading "Tulokset internetistä" [level=2] [ref=e310]
+            - generic [ref=e311]:
+              - generic [ref=e314]:
+                - link "Osakesäästötilien vertailu 2026 Vertailut.com https://vertailut.com › osakesaastotilit" [ref=e316] [cursor=pointer]:
+                  - /url: https://vertailut.com/osakesaastotilit/
+                  - heading "Osakesäästötilien vertailu 2026" [level=3] [ref=e317]
+                  - generic [ref=e322]:
+                    - generic [ref=e324]: Vertailut.com
+                    - generic [ref=e326]: https://vertailut.com › osakesaastotilit
+                - button "Tietoja tästä tuloksesta" [ref=e327] [cursor=pointer]:
+                  - img [ref=e330]
+              - generic [ref=e334]:
+                - text: Osakesäästötilejä tarjoavat tällä hetkellä
+                - emphasis [ref=e335]: Nordnet
+                - text: ","
+                - emphasis [ref=e336]: Nordea
+                - text: ","
+                - emphasis [ref=e337]: OP
+                - text: ", Ålandsbanken, Danske Bank ja Mandatum Trader. Näiden palveluissa ja hinnoissa on eroja ..."
+              - generic [ref=e340]:
+                - img "Arvio 4,8/5 (1 079) käyttäjäarvostelua" [ref=e342]:
+                  - text: 4,8
+                  - img [ref=e343]
+                  - text: (1 079)
+                - button [ref=e348]:
+                  - img [ref=e350]
+          - generic [ref=e355]:
+            - generic [ref=e358]:
+              - link "Tällaiset ovat vaihtoehdot ja niiden kulut Arvopaperi https://www.arvopaperi.fi › Uutiset › Sijoittaminen" [ref=e360] [cursor=pointer]:
+                - /url: https://www.arvopaperi.fi/uutiset/a/0f8f598d-a722-4ced-88dd-ba88d920d3f2
+                - heading "Tällaiset ovat vaihtoehdot ja niiden kulut" [level=3] [ref=e361]
+                - generic [ref=e366]:
+                  - generic [ref=e368]: Arvopaperi
+                  - generic [ref=e370]: https://www.arvopaperi.fi › Uutiset › Sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e371] [cursor=pointer]:
+                - img [ref=e374]
+            - generic [ref=e377]:
+              - generic [ref=e378]: 9.2.2026 —
+              - generic [ref=e379]:
+                - text: Jos bonuskuvio sivuutetaan, edullisimmat kulut ovat
+                - emphasis [ref=e380]: S
+                - text: "-"
+                - emphasis [ref=e381]: Pankin
+                - text: kautta Handelsbankenin rahastot, mutta niitä jakelee myös
+                - emphasis [ref=e382]: Nordnet
+                - text: . Seligsonit ...
+          - generic [ref=e386]:
+            - generic [ref=e389]:
+              - link "Ryntäys ostolaidoille antoi huippustartin sijoitusvuodelle 2026 nordnet.fi https://www.nordnet.fi › yksityissijoittajien-tammikuu" [ref=e391] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/blogi/yksityissijoittajien-tammikuu/
+                - heading "Ryntäys ostolaidoille antoi huippustartin sijoitusvuodelle 2026" [level=3] [ref=e392]
+                - generic [ref=e397]:
+                  - generic [ref=e399]: nordnet.fi
+                  - generic [ref=e401]: https://www.nordnet.fi › yksityissijoittajien-tammikuu
+              - button "Tietoja tästä tuloksesta" [ref=e402] [cursor=pointer]:
+                - img [ref=e405]
+            - generic [ref=e408]:
+              - generic [ref=e409]: 4.2.2026 —
+              - generic [ref=e410]:
+                - text: Pörssivuosi
+                - emphasis [ref=e411]: "2026"
+                - text: on käynnistynyt parin prosentin nousuvireessä. Q4-tuloskausi alkaneen vuoden näkymineen ja osinkoehdotuksineen vilkastutti.
+            - generic [ref=e413]: "Puuttuu: OP ‎S- ‎Pankki ‎palkkiot ‎vertailu"
+          - generic [ref=e417]:
+            - generic [ref=e420]:
+              - link "OP-rahastot vertailussa – omistajille bonusta ja halpoja ... Sijoittaja.fi https://www.sijoittaja.fi › op-rahastot-vertailussa" [ref=e422] [cursor=pointer]:
+                - /url: https://www.sijoittaja.fi/99929/op-rahastot-vertailussa/
+                - heading "OP-rahastot vertailussa – omistajille bonusta ja halpoja ..." [level=3] [ref=e423]
+                - generic [ref=e428]:
+                  - generic [ref=e430]: Sijoittaja.fi
+                  - generic [ref=e432]: https://www.sijoittaja.fi › op-rahastot-vertailussa
+              - button "Tietoja tästä tuloksesta" [ref=e433] [cursor=pointer]:
+                - img [ref=e436]
+            - generic [ref=e439]:
+              - generic [ref=e440]: 10.2.2026 —
+              - generic [ref=e441]:
+                - text: Kaikkien
+                - emphasis [ref=e442]: OP
+                - text: Indeksirahastojen vuosittainen hallinnointipalkkio on tällä hetkellä 0,39 %. Lisäksi ne kerryttävät tänä vuonna omistaja-asiakkaille ...
+          - generic [ref=e446]:
+            - generic [ref=e449]:
+              - link "Osakesäästötileissä on yllättävän paljon eroa – KL vertaili Kauppalehti https://www.kauppalehti.fi › Uutiset › Sijoittaminen" [ref=e451] [cursor=pointer]:
+                - /url: https://www.kauppalehti.fi/uutiset/a/dfca9134-e312-415d-b65b-b962fb5fa281
+                - heading "Osakesäästötileissä on yllättävän paljon eroa – KL vertaili" [level=3] [ref=e452]
+                - generic [ref=e457]:
+                  - generic [ref=e459]: Kauppalehti
+                  - generic [ref=e461]: https://www.kauppalehti.fi › Uutiset › Sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e462] [cursor=pointer]:
+                - img [ref=e465]
+            - generic [ref=e468]:
+              - generic [ref=e469]: 12.9.2025 —
+              - generic [ref=e470]:
+                - text: Markkinatarjoomaltaan
+                - emphasis [ref=e471]: Nordea
+                - text: ","
+                - emphasis [ref=e472]: Nordnet
+                - text: "ja Danske Bank ovat samankaltaisia: Eurooppa, Yhdysvallat ja Kanada. Valikoimassa on yksittäisiä eroja ..."
+          - generic [ref=e476]:
+            - generic [ref=e479]:
+              - link "Sijoittamisen kaupankäyntikulut ja välityspalkkiot Nordea https://www.nordea.fi › ... › Sijoittaminen" [ref=e481] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/kaupankaynnin-ja-sailytyspalveluiden-hintoja.html
+                - heading "Sijoittamisen kaupankäyntikulut ja välityspalkkiot" [level=3] [ref=e482]
+                - generic [ref=e487]:
+                  - generic [ref=e489]: Nordea
+                  - generic [ref=e491]: https://www.nordea.fi › ... › Sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e492] [cursor=pointer]:
+                - img [ref=e495]
+            - generic [ref=e498]: Tältä sivulta löydät Nordean sijoittamisen hinnaston. Pohjoismaisissa pörsseissä tehtyjen kauppojen hintakatto on korkeintaan 1 %. Lisäksi sama hintakatto pätee ...
+            - generic [ref=e500]:
+              - text: "Puuttuu: S- ‎| Hae tällä:"
+              - link "S-" [ref=e501] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+Nordea+OP+%22S-%22+Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ5t4CegQIVBAB
+          - generic [ref=e505]:
+            - generic [ref=e508]:
+              - 'link "Tässä ovat sijoittajien suosikkipalvelut: Nordnet ja S- ... Talouselämä https://www.talouselama.fi › Uutiset › Sijoittaminen" [ref=e510] [cursor=pointer]':
+                - /url: https://www.talouselama.fi/uutiset/a/d865f91c-50d8-451c-9b44-f9583a55bcbb
+                - 'heading "Tässä ovat sijoittajien suosikkipalvelut: Nordnet ja S- ..." [level=3] [ref=e511]'
+                - generic [ref=e516]:
+                  - generic [ref=e518]: Talouselämä
+                  - generic [ref=e520]: https://www.talouselama.fi › Uutiset › Sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e521] [cursor=pointer]:
+                - img [ref=e524]
+            - generic [ref=e527]:
+              - generic [ref=e528]: 1.12.2025 —
+              - generic [ref=e529]:
+                - text: Syyt suosion taustalla eroavat EPSI Ratingin mukaan toisistaan.
+                - emphasis [ref=e530]: Nordnet
+                - text: ja
+                - emphasis [ref=e531]: S
+                - text: "-"
+                - emphasis [ref=e532]: Pankki
+                - text: ovat olleet kärkisijoilla pitkään.
+          - generic [ref=e536]:
+            - generic [ref=e539]:
+              - link "Nordnetin hinnasto | Nordnet nordnet.fi https://www.nordnet.fi › palvelut › hinnasto" [ref=e541] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/palvelut/hinnasto
+                - heading "Nordnetin hinnasto | Nordnet" [level=3] [ref=e542]
+                - generic [ref=e547]:
+                  - generic [ref=e549]: nordnet.fi
+                  - generic [ref=e551]: https://www.nordnet.fi › palvelut › hinnasto
+              - button "Tietoja tästä tuloksesta" [ref=e552] [cursor=pointer]:
+                - img [ref=e555]
+            - generic [ref=e559]:
+              - text: Nordnetin
+              - emphasis [ref=e560]: hinnasto
+              - text: . Osakekaupat alk. 0,06 % (min. 3 €). Säilytysmaksut 0 €. Mitä enemmän käyt kauppaa, sitä alhaisemmat ovat kaupankäyntikustannuksesi.
+            - generic [ref=e562]: "Puuttuu: Nordea ‎OP ‎S- ‎Pankki ‎vertailu"
+          - generic [ref=e566]:
+            - generic [ref=e569]:
+              - link "Parhaat rahastot per pankki Omavaraisuushaaste https://www.omavaraisuushaaste.com › ... › Rahastot" [ref=e571] [cursor=pointer]:
+                - /url: https://www.omavaraisuushaaste.com/parhaat-rahastot-per-pankki/
+                - heading "Parhaat rahastot per pankki" [level=3] [ref=e572]
+                - generic [ref=e577]:
+                  - generic [ref=e579]: Omavaraisuushaaste
+                  - generic [ref=e581]: https://www.omavaraisuushaaste.com › ... › Rahastot
+              - button "Tietoja tästä tuloksesta" [ref=e582] [cursor=pointer]:
+                - img [ref=e585]
+            - generic [ref=e588]:
+              - generic [ref=e589]: 12.11.2025 —
+              - generic [ref=e590]:
+                - emphasis [ref=e591]: Nordea
+                - text: yllättää indeksirahastoillaan positiivisesti, koska kaikkien rahastojen vuosittaiset kulut asettuvat tarkalleen 0,4%:iin. Suomalaisista ...
+        - generic [ref=e593]:
+          - generic [ref=e598]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e600]
+            - generic [ref=e602]:
+              - generic [ref=e603]:
+                - link "OP vs Nordnet rahastot" [ref=e607] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP+vs+Nordnet+rahastot&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhdEAE
+                  - generic [ref=e608]:
+                    - generic [ref=e613]: OP vs Nordnet rahastot
+                    - img [ref=e617]
+                - link "OP osakesäästötili hinnasto" [ref=e622] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP+osakes%C3%A4%C3%A4st%C3%B6tili+hinnasto&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhhEAE
+                  - generic [ref=e623]:
+                    - generic [ref=e628]: OP osakesäästötili hinnasto
+                    - img [ref=e632]
+                - link "OP indeksirahasto kulut" [ref=e637] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP+indeksirahasto+kulut&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhgEAE
+                  - generic [ref=e638]:
+                    - generic [ref=e643]: OP indeksirahasto kulut
+                    - img [ref=e647]
+                - link "Nordnet vai pankki" [ref=e652] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+vai+pankki&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhfEAE
+                  - generic [ref=e653]:
+                    - generic [ref=e658]: Nordnet vai pankki
+                    - img [ref=e662]
+              - generic [ref=e664]:
+                - link "OP-Rohkea kokemuksia" [ref=e668] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP-Rohkea+kokemuksia&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhaEAE
+                  - generic [ref=e669]:
+                    - generic [ref=e674]: OP-Rohkea kokemuksia
+                    - img [ref=e678]
+                - link "OP Pohjoismaat indeksi keskustelu" [ref=e683] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP+Pohjoismaat+indeksi+keskustelu&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhbEAE
+                  - generic [ref=e684]:
+                    - generic [ref=e689]: OP Pohjoismaat indeksi keskustelu
+                    - img [ref=e693]
+                - link "OP-Tavoite 4" [ref=e698] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP-Tavoite+4&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAheEAE
+                  - generic [ref=e699]:
+                    - generic [ref=e704]: OP-Tavoite 4
+                    - img [ref=e708]
+                - link "OP-Amerikka Indeksi kokemuksia" [ref=e713] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP-Amerikka+Indeksi+kokemuksia&sa=X&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ1QJ6BAhcEAE
+                  - generic [ref=e714]:
+                    - generic [ref=e719]: OP-Amerikka Indeksi kokemuksia
+                    - img [ref=e723]
+          - navigation [ref=e725]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e726]
+            - text: "1"
+            - link "Page 2" [ref=e729] [cursor=pointer]:
+              - /url: /search?q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sca_esv=abbb0aaa8824193d&hl=fi&ei=lXrRaYPjDPGgwPAPmLqHoQ4&start=10&sa=N&sstk=Af77f_d2jGmWLnXs1QYEbyV8YVQQHu_EXAc8G_jlzYfLaVfFpAtU2cc1gQ9gNZMkwbV5vX8o9-9ylMKSPxna23ylZG1_Ch0gPfH5eA&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ8tMDegQIWBAE
+              - text: "2"
+            - link "Page 3" [ref=e731] [cursor=pointer]:
+              - /url: /search?q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sca_esv=abbb0aaa8824193d&hl=fi&ei=lXrRaYPjDPGgwPAPmLqHoQ4&start=20&sa=N&sstk=Af77f_d2jGmWLnXs1QYEbyV8YVQQHu_EXAc8G_jlzYfLaVfFpAtU2cc1gQ9gNZMkwbV5vX8o9-9ylMKSPxna23ylZG1_Ch0gPfH5eA&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ8tMDegQIWBAG
+              - text: "3"
+            - heading "Seuraava" [level=2] [ref=e733]:
+              - link "Seuraava" [ref=e734] [cursor=pointer]:
+                - /url: /search?q=Nordnet+Nordea+OP+S-Pankki+palkkiot+hinnasto+vertailu+2026+osakekauppa&sca_esv=abbb0aaa8824193d&hl=fi&ei=lXrRaYPjDPGgwPAPmLqHoQ4&start=10&sa=N&sstk=Af77f_d2jGmWLnXs1QYEbyV8YVQQHu_EXAc8G_jlzYfLaVfFpAtU2cc1gQ9gNZMkwbV5vX8o9-9ylMKSPxna23ylZG1_Ch0gPfH5eA&ved=2ahUKEwjDgd2litWTAxVxEBAIHRjdIeQQ8NMDegQIWBAI
+                - generic [ref=e736]: Seuraava
+        - navigation
+    - contentinfo [ref=e737]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e738]
+      - generic [ref=e742]:
+        - generic [ref=e744]:
+          - text: Suomi
+          - generic [ref=e746]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e748] [cursor=pointer]:
+              - generic [ref=e749]: 00940, Helsinki
+              - generic [ref=e751]:
+                - text: "-"
+                - generic [ref=e752]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e754] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e757]:
+          - link "Ohje" [ref=e758] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e759] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e760] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e761] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

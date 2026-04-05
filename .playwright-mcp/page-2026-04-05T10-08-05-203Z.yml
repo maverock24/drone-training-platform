@@ -1,0 +1,377 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: "\"drone training\" \"EASA\" European platform 2024 OR 2025 \"drone training\" \"EASA\" European platform 2024 OR 2025"
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3D%2522drone%2Btraining%2522%2B%2522EASA%2522%2BEuropean%2Bplatform%2B2024%2BOR%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ2J8OegQIDxAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQtKgLegQIFBAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ0pQJegQIEhAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQs6gLegQIERAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522drone%2Btraining%2522%2B%2522EASA%2522%2BEuropean%2Bplatform%2B2024%2BOR%2B2025&hl=en&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQiIQCKAN6BAgLEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii Haetaan Odota vielä hetki" [level=2] [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: Miettii
+            - generic [ref=e167]: Haetaan
+            - generic [ref=e177]: Odota vielä hetki
+        - progressbar [ref=e179]
+      - main [ref=e221]:
+        - generic [ref=e225]:
+          - generic [ref=e228]:
+            - heading "Web results" [level=2] [ref=e229]
+            - generic [ref=e230]:
+              - generic [ref=e233]:
+                - link "Drone training A1/A3 + A2 - OmniDrones omnidrones.eu https://omnidrones.eu › droneoplei..." [ref=e235] [cursor=pointer]:
+                  - /url: https://omnidrones.eu/en/droneopleiding-a1-a3-a2/?srsltid=AfmBOorXf4so-TKoZbGTAUMcVNdM9eIKS1rqF15oof0AlkoZrRhZMcMm
+                  - heading "Drone training A1/A3 + A2 - OmniDrones" [level=3] [ref=e236]
+                  - generic [ref=e241]:
+                    - generic [ref=e243]: omnidrones.eu
+                    - generic [ref=e245]: https://omnidrones.eu › droneoplei...
+                - generic [ref=e246]:
+                  - generic [ref=e247]: ·
+                  - link "Käännä tämä sivu" [ref=e248] [cursor=pointer]:
+                    - /url: https://omnidrones.eu/en/droneopleiding-a1-a3-a2/
+                - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+                  - img [ref=e252]
+              - generic [ref=e256]:
+                - text: Via this link, you can enter your Official
+                - emphasis [ref=e257]: EASA
+                - text: drone certificate download. For registration with the RDW, you pay €10 per certificate. You pay this amount ...
+          - generic [ref=e261]:
+            - generic [ref=e264]:
+              - 'link "UAS operation in the special category: Online training ... Droniq https://droniq.de › uas-betrieb-spezielle-kategorie" [ref=e266] [cursor=pointer]':
+                - /url: https://droniq.de/en/produkte/schulungen/uas-betrieb-spezielle-kategorie/
+                - 'heading "UAS operation in the special category: Online training ..." [level=3] [ref=e267]'
+                - generic [ref=e272]:
+                  - generic [ref=e274]: Droniq
+                  - generic [ref=e276]: https://droniq.de › uas-betrieb-spezielle-kategorie
+              - button "Tietoja tästä tuloksesta" [ref=e277] [cursor=pointer]:
+                - img [ref=e280]
+            - generic [ref=e284]:
+              - text: Practice-oriented
+              - emphasis [ref=e285]: drone training
+              - text: with current & operationally relevant content according to
+              - emphasis [ref=e286]: EASA
+              - text: syllabus; Official certificate of attendance upon completion ...
+          - generic [ref=e290]:
+            - generic [ref=e293]:
+              - link "EU Specific Category Theoretical Course & Flight Exam ... - Cita cita.ie https://www.cita.ie › cita-skillnet › e..." [ref=e295] [cursor=pointer]:
+                - /url: https://www.cita.ie/cita-skillnet/eu-specific-category-theoretical-course-flight-exam-drone-training/
+                - heading "EU Specific Category Theoretical Course & Flight Exam ... - Cita" [level=3] [ref=e296]
+                - generic [ref=e301]:
+                  - generic [ref=e303]: cita.ie
+                  - generic [ref=e305]: https://www.cita.ie › cita-skillnet › e...
+              - generic [ref=e306]:
+                - generic [ref=e307]: ·
+                - link "Käännä tämä sivu" [ref=e308] [cursor=pointer]:
+                  - /url: https://www.cita.ie/cita-skillnet/eu-specific-category-theoretical-course-flight-exam-drone-training/
+              - button "Tietoja tästä tuloksesta" [ref=e309] [cursor=pointer]:
+                - img [ref=e312]
+            - generic [ref=e316]:
+              - emphasis [ref=e317]: EU
+              - text: Specific Category Theoretical Course & Flight Exam (
+              - emphasis [ref=e318]: Drone Training
+              - text: ). Home ...
+              - emphasis [ref=e319]: EASA
+              - text: rules and regulations. By obtaining your training with us, you ...
+          - generic [ref=e323]:
+            - generic [ref=e326]:
+              - link "Training for drone professionals Logisticsinnovation.org https://www.logisticsinnovation.org › ..." [ref=e328] [cursor=pointer]:
+                - /url: https://www.logisticsinnovation.org/en/education/2209-training-for-drone-pilots
+                - heading "Training for drone professionals" [level=3] [ref=e329]
+                - generic [ref=e334]:
+                  - generic [ref=e336]: Logisticsinnovation.org
+                  - generic [ref=e338]: https://www.logisticsinnovation.org › ...
+              - generic [ref=e339]:
+                - generic [ref=e340]: ·
+                - link "Käännä tämä sivu" [ref=e341] [cursor=pointer]:
+                  - /url: https://www.logisticsinnovation.org/en/education/2209-training-for-drone-pilots
+              - button "Tietoja tästä tuloksesta" [ref=e342] [cursor=pointer]:
+                - img [ref=e345]
+            - generic [ref=e349]:
+              - text: With the introduction of the new
+              - emphasis [ref=e350]: EASA
+              - text: (
+              - emphasis [ref=e351]: European
+              - text: ... The TCS offers training courses with professional providers.
+              - emphasis [ref=e352]: Drone training
+              - text: ...
+              - emphasis [ref=e353]: platform
+              - text: ", flying over the ..."
+          - generic [ref=e357]:
+            - generic [ref=e360]:
+              - link "European Union Drone Regulations Explained EagleNXT https://eaglenxt.com › european-uni..." [ref=e362] [cursor=pointer]:
+                - /url: https://eaglenxt.com/european-union-drone-regulations-explained/
+                - heading "European Union Drone Regulations Explained" [level=3] [ref=e363]
+                - generic [ref=e368]:
+                  - generic [ref=e370]: EagleNXT
+                  - generic [ref=e372]: https://eaglenxt.com › european-uni...
+              - generic [ref=e373]:
+                - generic [ref=e374]: ·
+                - link "Käännä tämä sivu" [ref=e375] [cursor=pointer]:
+                  - /url: https://eaglenxt.com/european-union-drone-regulations-explained/
+              - button "Tietoja tästä tuloksesta" [ref=e376] [cursor=pointer]:
+                - img [ref=e379]
+            - generic [ref=e383]:
+              - emphasis [ref=e384]: Drone Training
+              - text: · Sensors · MicaSense Series · Altum-PT · RedEdge-P · Rededge-p Triple ...
+              - emphasis [ref=e385]: Europe
+              - text: ", with a scenario already covered by one of the"
+              - emphasis [ref=e386]: EASA
+              - text: published ...
+          - generic [ref=e390]:
+            - generic [ref=e393]:
+              - link "Avtrain | Drone Training & Certification Ireland Avtrain https://avtrain.aero" [ref=e395] [cursor=pointer]:
+                - /url: https://avtrain.aero/
+                - heading "Avtrain | Drone Training & Certification Ireland" [level=3] [ref=e396]
+                - generic [ref=e401]:
+                  - generic [ref=e403]: Avtrain
+                  - generic [ref=e405]: https://avtrain.aero
+              - generic [ref=e406]:
+                - generic [ref=e407]: ·
+                - link "Käännä tämä sivu" [ref=e408] [cursor=pointer]:
+                  - /url: https://avtrain.aero/
+              - button "Tietoja tästä tuloksesta" [ref=e409] [cursor=pointer]:
+                - img [ref=e412]
+            - generic [ref=e416]:
+              - text: IAA approved
+              - emphasis [ref=e417]: drone training
+              - text: and certification in Ireland.
+              - emphasis [ref=e418]: EASA
+              - text: recognised courses for recreational and professional pilots. Expert instructors with airline ...
+            - generic [ref=e420]:
+              - text: "Puuttuu: platform ‎| Hae tällä:"
+              - link "platform" [ref=e421] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=%22drone+training%22+%22EASA%22+European+%22platform%22+2024+OR+2025&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ5t4CegQIShAB
+          - generic [ref=e425]:
+            - generic [ref=e428]:
+              - link "Regulations – open category (A) Pro Fly Center https://proflycenter.com › blog › reg..." [ref=e430] [cursor=pointer]:
+                - /url: https://proflycenter.com/en/blog/category/regulations-open-category-a.html
+                - heading "Regulations – open category (A)" [level=3] [ref=e431]
+                - generic [ref=e436]:
+                  - generic [ref=e438]: Pro Fly Center
+                  - generic [ref=e440]: https://proflycenter.com › blog › reg...
+              - generic [ref=e441]:
+                - generic [ref=e442]: ·
+                - link "Käännä tämä sivu" [ref=e443] [cursor=pointer]:
+                  - /url: https://proflycenter.com/en/blog/category/regulations-open-category-a.html
+              - button "Tietoja tästä tuloksesta" [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - generic [ref=e450]:
+              - generic [ref=e451]: 27.2.2026 —
+              - generic [ref=e452]:
+                - text: What happens when an experienced private pilot takes a closer look at
+                - emphasis [ref=e453]: drone training
+                - text: "? What initially began as a... Read more ·"
+                - emphasis [ref=e454]: EASA
+                - text: Stops ...
+          - generic [ref=e458]:
+            - generic [ref=e461]:
+              - link "What Knowledge Should Modern Drone Training Deliver? cloudia.info https://www.cloudia.info › what-kn..." [ref=e463] [cursor=pointer]:
+                - /url: https://www.cloudia.info/en/what-knowledge-should-modern-drone-training-deliver/
+                - heading "What Knowledge Should Modern Drone Training Deliver?" [level=3] [ref=e464]
+                - generic [ref=e469]:
+                  - generic [ref=e471]: cloudia.info
+                  - generic [ref=e473]: https://www.cloudia.info › what-kn...
+              - generic [ref=e474]:
+                - generic [ref=e475]: ·
+                - link "Käännä tämä sivu" [ref=e476] [cursor=pointer]:
+                  - /url: https://www.cloudia.info/en/what-knowledge-should-modern-drone-training-deliver/
+              - button "Tietoja tästä tuloksesta" [ref=e477] [cursor=pointer]:
+                - img [ref=e480]
+            - generic [ref=e484]:
+              - text: Beyond the legal minimum, modern
+              - emphasis [ref=e485]: drone training
+              - text: must develop competencies that actually work in real operations. ...
+              - emphasis [ref=e486]: EASA
+              - text: refers to this as the “Proof of ...
+          - generic [ref=e490]:
+            - generic [ref=e493]:
+              - link "List of Certified Drones EU Drone Port https://eudroneport.com › blog › li..." [ref=e495] [cursor=pointer]:
+                - /url: https://eudroneport.com/blog/list-of-certified-drones/
+                - heading "List of Certified Drones" [level=3] [ref=e496]
+                - generic [ref=e501]:
+                  - generic [ref=e503]: EU Drone Port
+                  - generic [ref=e505]: https://eudroneport.com › blog › li...
+              - generic [ref=e506]:
+                - generic [ref=e507]: ·
+                - link "Käännä tämä sivu" [ref=e508] [cursor=pointer]:
+                  - /url: https://eudroneport.com/blog/list-of-certified-drones/
+              - button "Tietoja tästä tuloksesta" [ref=e509] [cursor=pointer]:
+                - img [ref=e512]
+            - generic [ref=e516]:
+              - text: The
+              - emphasis [ref=e517]: European
+              - text: Union Aviation Safety Agency (
+              - emphasis [ref=e518]: EASA
+              - text: ) has released new ... Help with
+              - emphasis [ref=e519]: Drone Training
+              - text: ". 54 Responses. Wouter van der Mark says: March 30, 2023 at ..."
+          - generic [ref=e523]:
+            - generic [ref=e526]:
+              - link "Drone Training - Remote Pilot Competency IAA.ie https://www.iaa.ie › drones › drone-t..." [ref=e528] [cursor=pointer]:
+                - /url: https://www.iaa.ie/general-aviation/drones/rpas-training-facilities/drone-training---remote-pilot-competency
+                - heading "Drone Training - Remote Pilot Competency" [level=3] [ref=e529]
+                - generic [ref=e534]:
+                  - generic [ref=e536]: IAA.ie
+                  - generic [ref=e538]: https://www.iaa.ie › drones › drone-t...
+              - generic [ref=e539]:
+                - generic [ref=e540]: ·
+                - link "Käännä tämä sivu" [ref=e541] [cursor=pointer]:
+                  - /url: https://www.iaa.ie/general-aviation/drones/rpas-training-facilities/drone-training---remote-pilot-competency
+              - button "Tietoja tästä tuloksesta" [ref=e542] [cursor=pointer]:
+                - img [ref=e545]
+            - generic [ref=e549]:
+              - text: As part of the registration process you will be required to contact a
+              - emphasis [ref=e550]: drone training
+              - text: organisation which will enable you to learn about the requirements and ...
+        - generic [ref=e552]:
+          - generic [ref=e557]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e559]
+            - generic [ref=e561]:
+              - link "Drone A1 licence" [ref=e566] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Drone+A1+licence&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ1QJ6BAgwEAE
+                - generic [ref=e567]:
+                  - generic [ref=e572]: Drone A1 licence
+                  - img [ref=e576]
+              - link "OmniDrones" [ref=e582] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=OmniDrones&sa=X&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ1QJ6BAgxEAE
+                - generic [ref=e583]:
+                  - generic [ref=e588]: OmniDrones
+                  - img [ref=e592]
+          - navigation [ref=e594]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e595]
+            - text: "1"
+            - link "Page 2" [ref=e598] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=10&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAE
+              - text: "2"
+            - link "Page 3" [ref=e600] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=20&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAG
+              - text: "3"
+            - link "Page 4" [ref=e602] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=30&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAI
+              - text: "4"
+            - link "Page 5" [ref=e604] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=40&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAK
+              - text: "5"
+            - link "Page 6" [ref=e606] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=50&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAM
+              - text: "6"
+            - link "Page 7" [ref=e608] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=60&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAO
+              - text: "7"
+            - link "Page 8" [ref=e610] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=70&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAQ
+              - text: "8"
+            - link "Page 9" [ref=e612] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=80&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAS
+              - text: "9"
+            - link "Page 10" [ref=e614] [cursor=pointer]:
+              - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=90&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8tMDegQIOhAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e616]:
+              - link "Seuraava" [ref=e617] [cursor=pointer]:
+                - /url: /search?q=%22drone+training%22+%22EASA%22+European+platform+2024+OR+2025&sca_esv=a73392c086c649e8&ei=gzTSacq3HvaPwPAPj6Sd0Ao&start=10&sa=N&sstk=Af77f_c8QQdze9P7s6dOgcil722pQGVnkImfh2eH1AnHn5rhsydm2hN2sCs26FtQhNauvKdTnLLoiRhv49JUehIZGGKyfGFJF6tcZg&ved=2ahUKEwiKha7Ou9aTAxX2BxAIHQ9SB6oQ8NMDegQIOhAW
+                - generic [ref=e619]: Seuraava
+        - navigation
+    - contentinfo [ref=e620]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e621]
+      - generic [ref=e625]:
+        - generic [ref=e627]:
+          - text: Suomi
+          - generic [ref=e629]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e631] [cursor=pointer]:
+              - generic [ref=e632]: 00920, Helsinki
+              - generic [ref=e634]:
+                - text: "-"
+                - generic [ref=e635]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e637] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e640]:
+          - link "Ohje" [ref=e641] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e642] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e643] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e644] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

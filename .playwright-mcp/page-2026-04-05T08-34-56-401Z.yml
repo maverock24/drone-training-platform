@@ -1,0 +1,215 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Omaisuus ja asuminen" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/
+            - listitem [ref=e61]:
+              - link "Vuokratulot" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/
+            - listitem [ref=e63]: Kuinka paljon vuokratuloista menee veroa?
+        - article [ref=e66]:
+          - heading "Kuinka paljon vuokratuloista menee veroa?" [level=1] [ref=e67]
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: Vuokratulot ovat pääomatuloa. Ne verotetaan pääomatulojen veroprosentin mukaan.
+            - table "Pääomatulojen veroprosentit" [ref=e70]:
+              - caption [ref=e71]: Pääomatulojen veroprosentit
+              - rowgroup [ref=e72]:
+                - row "30 000 euroon asti 30 %" [ref=e73]:
+                  - rowheader "30 000 euroon asti" [ref=e74]
+                  - cell "30 %" [ref=e75]
+                - row "30 000 euroa ylittävältä osuudelta 34 %" [ref=e76]:
+                  - rowheader "30 000 euroa ylittävältä osuudelta" [ref=e77]
+                  - cell "34 %" [ref=e78]
+            - separator [ref=e79]
+            - heading "Vero lasketaan nettovuokratulosta" [level=2] [ref=e80]
+            - paragraph [ref=e81]: Vero lasketaan nettovuokratulosta. Nettotulon määrän saat, kun vähennät vuokratuloista kulut, joita vuokralle antamisesta tulee. Yleisimpiä kuluja ovat asunto-osakkeen hoitovastikkeet ja vuokralaisen hankkimiseen liittyvät kulut, esimerkiksi lehti-ilmoitukset tai palkkiot vuokranvälittäjälle.
+            - paragraph [ref=e82]:
+              - link "Katso kaikki vähennykset vuokratuloista." [ref=e83] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/
+            - paragraph [ref=e84]:
+              - strong [ref=e85]: "Esimerkki:"
+              - text: Saat asunnon vuokrauksesta tuloa 750 euroa kuukaudessa koko vuoden ajalta. Vuokratuloa kertyy siis 9 000 euroa vuodessa. Saat vähentää vuokratulosta asunnon hoitovastikkeen, joka on 320 euroa kuukaudessa eli yhteensä 3 840 e. Nettovuokratuloa eli verotettavaa vuokratuloa jää 9 000 e – 3 840 e = 5 160 e.
+              - text: Sinulla ei ole muita pääomatuloja eli pääomatulojen määrä on alle 30 000 euroa. Maksat veroa 30 % eli 5 160 e x 0,30 = 1 548 euroa.
+            - separator [ref=e86]
+        - navigation "Osion alasivut" [ref=e87]:
+          - heading "Vuokratulot" [level=3] [ref=e88]:
+            - link "Vuokratulot" [ref=e89] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/vuokratulot/
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Ilmoitus- ja maksuohjeet" [ref=e95] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/ilmoitus-ja-maksuohjeet/
+            - listitem [ref=e96]:
+              - link "Vähennykset" [ref=e98] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/
+            - listitem [ref=e99]:
+              - link "Lyhytaikainen ja satunnainen vuokraus" [ref=e101] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/lyhytaikainen-ja-satunnainen-vuokraus/
+            - listitem [ref=e102]:
+              - link "Asunnon vuokraaminen alihintaan" [ref=e104] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/asunnon-vuokraaminen-alihintaan/
+            - listitem [ref=e105]:
+              - link "Mikä on vuokratuloa?" [ref=e107] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/mika-on-vuokratuloa/
+            - listitem [ref=e108]:
+              - link "Muutokset vuokraustoiminnassa" [ref=e110] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/muutokset-vuokraustoiminnassa/
+            - listitem [ref=e111]:
+              - link "Kuinka paljon vuokratuloista menee veroa?" [ref=e113] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/kuinka-paljon-vuokratuloista-menee-veroa/
+            - listitem [ref=e114]:
+              - link "Vuokratulo muualta kuin asuinmaasta" [ref=e116] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vuokratulo-muualta-kuin-asuinmaasta/
+        - separator [ref=e117]
+        - generic [ref=e120]:
+          - heading "Mitä mieltä olet tästä sisällöstä?" [level=2] [ref=e122]
+          - group "Mitä mieltä olet tästä sisällöstä?" [ref=e123]:
+            - button "Löysin etsimäni" [ref=e125] [cursor=pointer]:
+              - generic [ref=e126]: Löysin etsimäni
+            - button "Selkeää" [ref=e128] [cursor=pointer]:
+              - generic [ref=e129]: Selkeää
+            - button "Epäselvää" [ref=e131] [cursor=pointer]:
+              - generic [ref=e132]: Epäselvää
+            - button "En löytänyt etsimääni" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]: En löytänyt etsimääni
+        - generic [ref=e136]: Sivu on viimeksi päivitetty 26.4.2024
+      - generic [ref=e141]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e142]
+        - paragraph [ref=e144]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e145] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e146]:
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Asioi verkossa" [level=2] [ref=e151]
+            - list [ref=e153]:
+              - listitem [ref=e154]:
+                - link "OmaVero" [ref=e156] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e157]:
+                - link "Laskurit" [ref=e159] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e160]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e162] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e163]:
+                - link "Positiivinen luottotietorekisteri" [ref=e165] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e166]:
+                - link "Tulorekisteri" [ref=e168] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e169]:
+            - heading "Yhteystiedot" [level=2] [ref=e170]
+            - list [ref=e172]:
+              - listitem [ref=e173]:
+                - link "Chat" [ref=e175] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e176]:
+                - link "Yhteystiedot ja asiointi" [ref=e178] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e179]:
+                - link "Sosiaalinen media" [ref=e181] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e182]:
+                - link "Paperilomakkeet" [ref=e184] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e185]:
+                - link "Käsittelyajat" [ref=e187] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e188]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e189]
+            - generic [ref=e193]:
+              - paragraph [ref=e194]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e195]:
+                - listitem [ref=e196]:
+                  - link "Syventävät vero-ohjeet" [ref=e198] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e199]:
+            - heading "Verohallinto" [level=2] [ref=e200]
+            - generic [ref=e204]:
+              - paragraph [ref=e205]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - link "Tietoa Verohallinnosta" [ref=e209] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e212]:
+          - listitem [ref=e213]: © Verohallinto
+          - listitem [ref=e214]:
+            - link "Tietosuoja" [ref=e216] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e217]:
+            - link "Palaute" [ref=e219] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e220]:
+            - link "Saavutettavuusseloste" [ref=e222] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e223]:
+            - link "Tulosta" [ref=e225] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e227] [cursor=pointer]:
+    - img [ref=e228]
+    - paragraph [ref=e230]: Chatbot

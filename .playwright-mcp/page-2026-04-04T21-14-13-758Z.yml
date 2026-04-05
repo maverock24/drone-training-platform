@@ -1,0 +1,264 @@
+- generic:
+  - generic:
+    - generic:
+      - link:
+        - /url: "#main-content"
+        - text: Siirry pääsisältöön
+      - banner:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /
+                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - button:
+                                            - generic:
+                                              - generic:
+                                                - generic: FI
+                                                - img
+                                - generic:
+                                  - list:
+                                    - button:
+                                      - generic: Avaa tili
+                                    - button:
+                                      - generic: Kirjaudu
+                              - generic:
+                                - button:
+                                  - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button:
+                                - generic:
+                                  - generic:
+                                    - img
+      - generic:
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - navigation:
+                              - list:
+                                - listitem:
+                                  - link:
+                                    - /url: /koulu
+                                    - text: Nordnet Koulu
+                                  - text: /
+                                - listitem:
+                                  - link:
+                                    - /url: /koulu/etf
+                                    - text: ETF
+                                  - generic: /
+                                - listitem:
+                                  - generic: Osingot uudelleensijoittava ETF – kannattaako sittenkään?
+                          - heading [level=1]: Osingot uudelleensijoittava ETF – kannattaako sittenkään?
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph:
+                                    - text: Olemme
+                                    - link:
+                                      - /url: /blogi/rahapodi/
+                                      - text: Rahapodissa
+                                    - text: usein suositelleet osingot uudelleensijoittavia ETF:iä/rahastoja verotuksellisista syistä. Onko asia kuitenkaan oikeasti niin esimerkiksi
+                                    - link:
+                                      - /url: /koulu/sp-500
+                                      - text: S&P 500:n
+                                    - text: kohdalla?
+                                  - paragraph: Tämä kirjoitus on alunperin julkaistu vuonna 2015 Nordnet Blogissa Nordnetin talousasiantuntijan nimissä ja siirretty vuonna 2025 Nordnet Kouluun.
+                                  - paragraph: Sijoitusrahastot ja ETF:t eivät tavallisesti maksa veroja rahastoihin kertyvästä osinko- tai korkotuotosta. Tämä pätee myös Irlantiin rekisteröityihin ETF:iin.
+                                  - paragraph: Yhdysvaltoihin sijoittavat, Euroopan Unioniin rekisteröidyt rahastot joutuvat kuitenkin maksamaan lähdeveron osingoistaan Yhdysvaltoihin. Lähdeveron määrä on määritelty rahaston rekisteröintimaan ja Yhdysvaltojen välisessä verosopimuksessa. Esimerkiksi irlantilaiset ja suomalaiset sijoitusrahastot maksavat yhdysvaltalaisista osingoista 15 prosenttia lähdeveroa.
+                                  - paragraph: EU:n alueelle sijoittavat rahastot eivät maksa lähdeveroja, oli rahasto sitten rekisteröity EU:ssa tai Yhdysvalloissa. Verovapaus on toisin sanoen yksisuuntainen.
+                                  - paragraph: Yhdysvaltalaiset osingot karttuvat eurooppalaiseen rahastoon 85-prosenttisesti ja kasvavat kasvu-osuudellisessa rahastossa korkoa korolle, kunnes myyt osuudet. Luovutusvoitosta maksat pääomatuloveron Suomeen.
+                                  - paragraph: Mikäli valitset osingot ulos maksavan, tuotto-osuudellisen rahaston, maksat lähde veron lisäksi
+                                  - list:
+                                    - listitem:
+                                      - paragraph: rahaston rekisteröintimaan perimän ennakkoveron ja
+                                    - listitem:
+                                      - paragraph: Suomen verotuksessa loput.
+                                  - paragraph:
+                                    - text: Jos vuosittain muistat
+                                    - link:
+                                      - /url: /faq/verotus/miten-perin-takaisin-verosopimuksen-ylittavat-lahdeverot
+                                      - text: anoa oikaisua
+                                    - text: Suomen verosopimuksen puitteissa rahaston rekisteröintimaassa väärin tehtyyn ennakonpidätykseen, maksat osingoista vuosittain suomalaisen pääomatuloverotuksen mukaiset 30-33 prosentin verot (osinkotulojen määrästä riippuen).
+                                  - paragraph: Rahastosijoituksen kannalta tämä vastaa, yllä esittämälläsi 2–5 prosentin osinkotuotto-olettamalla ylimääräistä 0,3-0,9 prosentin vuotuista kuluerää (2 % x (30 %-15 %) = 0,3 ja 5 % x (33 %-15 %) = 0,9).
+                                  - paragraph:
+                                    - text: Näin ollen osingot uudelleensijoittavan rahaston veroetu on pitkässä juoksussa
+                                    - link:
+                                      - /url: /koulu/kulut-jarruttavat-tuottoa-mutta-miten-paljon
+                                      - text: merkittävä
+                                    - text: .
+                            - generic:
+                              - heading [level=3]: Aloita ETF-säästäminen.
+                              - button:
+                                - link:
+                                  - /url: /onboarding
+                                  - text: Avaa Nordnet-tili
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Aiheeseen liittyvät artikkelit
+                                - generic:
+                                  - paragraph: "6"
+                            - generic:
+                              - button [disabled]:
+                                - img
+                              - button:
+                                - img
+                        - generic:
+                          - link "ETF Maailman parhaat ETF-rahastot?":
+                            - /url: /koulu/maailman-parhaat-etf-rahastot
+                            - generic:
+                              - generic:
+                                - generic: ETF
+                                - generic: Maailman parhaat ETF-rahastot?
+                          - link "ETF Miten valita ETF?":
+                            - /url: /koulu/miten-valita-etf
+                            - generic:
+                              - generic:
+                                - generic: ETF
+                                - generic: Miten valita ETF?
+                          - link "ETF Mitä tarkoittaa Covered Call ETF?":
+                            - /url: /koulu/covered-call-etf
+                            - generic:
+                              - generic:
+                                - generic: ETF
+                                - generic: Mitä tarkoittaa Covered Call ETF?
+                          - link "ETF Parempaa tuottoa pienillä arvoyhtiöillä?":
+                            - /url: /koulu/parempaa-tuottoa
+                            - generic:
+                              - generic:
+                                - generic: ETF
+                                - generic: Parempaa tuottoa pienillä arvoyhtiöillä?
+                          - link "ETF Mitä ovat monimutkaiset ETF:t?":
+                            - /url: /koulu/monimutkaiset-etf-t
+                            - generic:
+                              - generic:
+                                - generic: ETF
+                                - generic: Mitä ovat monimutkaiset ETF:t?
+                          - link "ETF Megatrendi-ETF:t – tässä lista":
+                            - /url: /koulu/megatrendi-etf
+                            - generic:
+                              - generic:
+                                - generic: ETF
+                                - generic: Megatrendi-ETF:t – tässä lista
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Nordnet
+                              - generic:
+                                - img
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Asiakaspalvelu
+                              - generic:
+                                - img
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Tietoa palvelusta
+                              - generic:
+                                - img
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: https://facebook.com/nordnetfi
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://twitter.com/nordnetFI
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://www.instagram.com/nordnetsuomi/
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://www.youtube.com/nordnetsuomi
+                          - generic:
+                            - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: "Byt språk: svenska / finska"
+                                  - generic:
+                                    - button:
+                                      - generic:
+                                        - generic:
+                                          - generic: Suomi (FI)
+                                    - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: © 2026 Nordnet Bank AB.
+                    - generic:
+                      - generic:
+                        - generic: Nordnet | Alvar Aallon katu 5 C, 3. krs | FI-00100 Helsinki
+  - dialog "Päätä valinnaisista evästeistä" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Päätä valinnaisista evästeistä" [level=2] [ref=e6]
+        - paragraph [ref=e7]:
+          - text: Evästeet auttavat meitä personoimaan käyttökokemuksesi, analysoimaan sivuston käyttöä ja näyttämään olennaista viestintää tuotteistamme ja palveluistamme. Voit peruuttaa suostumuksesi milloin tahansa.
+          - button "Mukauta evästeeni." [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - button "Hyväksy" [ref=e10] [cursor=pointer]
+        - button "Hylkää" [ref=e11] [cursor=pointer]

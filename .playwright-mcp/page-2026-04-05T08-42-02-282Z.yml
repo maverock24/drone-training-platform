@@ -1,0 +1,398 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: tilastokeskus "hoitokulut nousivat" 2024 kerrostalo hoitovastike "4,86" tilastokeskus "hoitokulut nousivat" 2024 kerrostalo hoitovastike "4,86"
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dtilastokeskus%2B%2522hoitokulut%2Bnousivat%2522%2B2024%2Bkerrostalo%2Bhoitovastike%2B%25224%252C86%2522%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ2J8OegQIEhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQtKgLegQIFxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQs6gLegQIFBAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQtKgLegQIGBAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQs6gLegQIFhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ0pQJegQIFRAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Miettii Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Miettii
+            - generic [ref=e156]: Haetaan
+            - generic [ref=e166]: Odota vielä hetki
+        - progressbar [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e211]:
+          - generic [ref=e215]:
+            - heading "Ei tuloksia hakusanoilla tilastokeskus \"hoitokulut nousivat\" 2024 kerrostalo hoitovastike \"4,86\"." [level=2] [ref=e216]
+            - text: Tulokset haulle
+            - link "tilastokeskus hoitokulut nousivat 2024 kerrostalo hoitovastike 4,86" [ref=e217] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQgwN6BAgQEAE
+            - text: "(ilman lainausmerkkejä):"
+          - generic [ref=e220]:
+            - generic [ref=e223]:
+              - heading "Tulokset internetistä" [level=2] [ref=e224]
+              - generic [ref=e225]:
+                - generic [ref=e228]:
+                  - link "Asunto-osakeyhtiöiden hoitokulut nousivat 4,1 % vuonna ... Tilastokeskus https://stat.fi › ... › Asunto-osakeyhtiöiden talous" [ref=e230] [cursor=pointer]:
+                    - /url: https://stat.fi/fi/julkaisu/cm19962dkbar908w9370hpyia
+                    - heading "Asunto-osakeyhtiöiden hoitokulut nousivat 4,1 % vuonna ..." [level=3] [ref=e231]
+                    - generic [ref=e236]:
+                      - generic [ref=e238]: Tilastokeskus
+                      - generic [ref=e240]: https://stat.fi › ... › Asunto-osakeyhtiöiden talous
+                  - button "Tietoja tästä tuloksesta" [ref=e241] [cursor=pointer]:
+                    - img [ref=e244]
+                - generic [ref=e247]:
+                  - generic [ref=e248]: 17.6.2025 —
+                  - generic [ref=e249]:
+                    - emphasis [ref=e250]: Vuonna 2024 kerrostalojen hoitovastikkeet olivat keskimäärin 4,86 euroa
+                    - text: ja rivitalojen hoitovastikkeet 3,69 euroa huoneistoneliöltä kuukaudessa.
+                - generic [ref=e252]:
+                  - text: "Puuttuu: kerrostalo ‎| Hae tällä:"
+                  - link "kerrostalo" [ref=e253] [cursor=pointer]:
+                    - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=tilastokeskus+hoitokulut+nousivat+2024+%22kerrostalo%22+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ5t4CegQIHhAB
+            - generic [ref=e257]:
+              - generic [ref=e260]:
+                - link "Taloyhtiöiden hoitovastikekysely 2024 Kiinteistöliitto https://www.kiinteistoliitto.fi › media › jrtieqoo" [ref=e262] [cursor=pointer]:
+                  - /url: https://www.kiinteistoliitto.fi/media/jrtieqoo/hoitovastikekysely2024keskeisettulokset.pdf
+                  - heading "Taloyhtiöiden hoitovastikekysely 2024" [level=3] [ref=e263]
+                  - generic [ref=e268]:
+                    - generic [ref=e270]: Kiinteistöliitto
+                    - generic [ref=e272]: https://www.kiinteistoliitto.fi › media › jrtieqoo
+                - generic [ref=e273]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e274] [cursor=pointer]:
+                  - img [ref=e277]
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]: 20.6.2024 —
+                  - generic [ref=e282]:
+                    - text: 3). Vuosien 2023 ja
+                    - emphasis [ref=e283]: "2024"
+                    - text: hoitovastikearviot hoitovastikekyselystä mahtuvat muusta tilastollisesta tiedosta saavan kehitysarvion raameihin.
+                - generic [ref=e284]: 38 sivua
+              - generic [ref=e286]:
+                - text: "Puuttuu: nousivat ‎| Hae tällä:"
+                - link "nousivat" [ref=e287] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=tilastokeskus+hoitokulut+%22nousivat%22+2024+kerrostalo+hoitovastike+4,86&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ5t4CegQIGxAB
+            - generic [ref=e291]:
+              - generic [ref=e294]:
+                - link "Asunto-osakeyhtiöiden vastikkeet nousivat enemmän kuin ... Tilastokeskus https://stat.fi › ... › Asunto-osakeyhtiöiden talous" [ref=e296] [cursor=pointer]:
+                  - /url: https://stat.fi/fi/julkaisu/clmaajxzdajk90bw6idfuk9pr
+                  - heading "Asunto-osakeyhtiöiden vastikkeet nousivat enemmän kuin ..." [level=3] [ref=e297]
+                  - generic [ref=e302]:
+                    - generic [ref=e304]: Tilastokeskus
+                    - generic [ref=e306]: https://stat.fi › ... › Asunto-osakeyhtiöiden talous
+                - button "Tietoja tästä tuloksesta" [ref=e307] [cursor=pointer]:
+                  - img [ref=e310]
+              - generic [ref=e313]:
+                - generic [ref=e314]: 19.6.2024 —
+                - generic [ref=e315]:
+                  - emphasis [ref=e316]: Hoitokulut nousivat
+                  - text: edellisvuodesta 2,5 %. Kerrostaloissa
+                  - emphasis [ref=e317]: hoitokulut
+                  - text: olivat keskimäärin 5,52 euroa ja rivitaloissa
+                  - emphasis [ref=e318]: "4"
+                  - text: ",09 euroa huoneistoneliöltä ..."
+              - generic [ref=e320]: "Puuttuu: kerrostalo ‎86"
+            - generic [ref=e324]:
+              - generic [ref=e327]:
+                - link "Kerrostaloyhtiöiden hoitokulut nousivat viisi prosenttia ... Kiinteistöliitto https://www.kiinteistoliitto.fi › blogit › tutkiijakehittaa" [ref=e329] [cursor=pointer]:
+                  - /url: https://www.kiinteistoliitto.fi/blogit/tutkiijakehittaa/kerrostaloyhtioidenhoitokulutnousivatviisiprosenttiavuonna2024-kiinteistoverovetoisesti/
+                  - heading "Kerrostaloyhtiöiden hoitokulut nousivat viisi prosenttia ..." [level=3] [ref=e330]
+                  - generic [ref=e335]:
+                    - generic [ref=e337]: Kiinteistöliitto
+                    - generic [ref=e339]: https://www.kiinteistoliitto.fi › blogit › tutkiijakehittaa
+                - button "Tietoja tästä tuloksesta" [ref=e340] [cursor=pointer]:
+                  - img [ref=e343]
+              - generic [ref=e346]:
+                - generic [ref=e347]: 26.6.2025 —
+                - generic [ref=e348]:
+                  - text: Kerrostaloyhtiöiden
+                  - emphasis [ref=e349]: hoitokulut nousivat
+                  - text: keskimäärin
+                  - emphasis [ref=e350]: "4"
+                  - text: ",9 prosenttia edellisvuodesta (2023 -->"
+                  - emphasis [ref=e351]: "2024"
+                  - text: ). On tärkeää, että noteerataan myös ...
+              - generic [ref=e353]: "Puuttuu: kerrostalo ‎hoitovastike ‎86"
+            - generic [ref=e357]:
+              - generic [ref=e360]:
+                - link "Hinnoilla on taipumus nousta – myös tulevaisuudessa Suomen Vuokranantajat https://vuokranantajat.fi › Makupaloja lehdestä" [ref=e362] [cursor=pointer]:
+                  - /url: https://vuokranantajat.fi/lehdet/hinnoilla-on-taipumus-nousta-myos-tulevaisuudessa/
+                  - heading "Hinnoilla on taipumus nousta – myös tulevaisuudessa" [level=3] [ref=e363]
+                  - generic [ref=e365]:
+                    - img [ref=e369]
+                    - generic [ref=e371]:
+                      - generic [ref=e373]: Suomen Vuokranantajat
+                      - generic [ref=e375]: https://vuokranantajat.fi › Makupaloja lehdestä
+                - button "Tietoja tästä tuloksesta" [ref=e376] [cursor=pointer]:
+                  - img [ref=e379]
+              - generic [ref=e383]:
+                - text: Rivitaloissa hoitovastike nousi vuonna 2024 keskimäärin miltei viisi ...
+                - emphasis [ref=e384]: Kerrostalojen keskimääräinen hoitovastike vuonna 2024 oli 4,63 euroa
+                - text: ...
+              - generic [ref=e386]: "Puuttuu: tilastokeskus ‎86"
+            - generic [ref=e390]:
+              - generic [ref=e393]:
+                - link "Asunto-osakeyhtiöiden hoitokulut nousivat reilut neljä ... Asuntomarkkina ja maankäyttö https://asuntomarkkina.fi › Tilaajille › Tilastot" [ref=e395] [cursor=pointer]:
+                  - /url: https://asuntomarkkina.fi/tilastokeskus-asunto-osakeyhtioiden-hoitokulut-nousivat-reilut-nelja-prosenttia/
+                  - heading "Asunto-osakeyhtiöiden hoitokulut nousivat reilut neljä ..." [level=3] [ref=e396]
+                  - generic [ref=e401]:
+                    - generic [ref=e403]: Asuntomarkkina ja maankäyttö
+                    - generic [ref=e405]: https://asuntomarkkina.fi › Tilaajille › Tilastot
+                - button "Tietoja tästä tuloksesta" [ref=e406] [cursor=pointer]:
+                  - img [ref=e409]
+              - generic [ref=e412]:
+                - generic [ref=e413]: 16.7.2025 —
+                - generic [ref=e414]:
+                  - text: Tilastokeskuksen mukaan asunto-osakeyhtiöiden
+                  - emphasis [ref=e415]: hoitokulut
+                  - text: olivat vuonna
+                  - emphasis [ref=e416]: "2024"
+                  - text: keskimäärin 5,12 euroa huoneistoneliöltä kuukaudessa.
+              - generic [ref=e418]: "Puuttuu: hoitovastike ‎86"
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - heading "Ihmiset kysyvät myös" [level=2] [ref=e424]
+                - button "Tietoja tästä tuloksesta" [ref=e425] [cursor=pointer]:
+                  - img [ref=e428]
+              - generic [ref=e430]:
+                - button "Mikä on keskimääräinen yhtiövastike?" [ref=e436] [cursor=pointer]:
+                  - generic [ref=e438]: Mikä on keskimääräinen yhtiövastike?
+                  - img [ref=e441]
+                - button "Mikä on keskimääräinen yhtiövastike Helsingissä?" [ref=e450] [cursor=pointer]:
+                  - generic [ref=e452]: Mikä on keskimääräinen yhtiövastike Helsingissä?
+                  - img [ref=e455]
+            - generic [ref=e460]:
+              - heading "Tulokset internetistä" [level=2] [ref=e461]
+              - generic [ref=e462]:
+                - generic [ref=e465]:
+                  - 'link "Tuntuva nousu: 50 neliön asunnossa jopa satasten ... Talouselämä https://www.talouselama.fi › Uutiset › Asuminen" [ref=e467] [cursor=pointer]':
+                    - /url: https://www.talouselama.fi/uutiset/a/78b90888-793e-43df-8d56-b28025e7cd41
+                    - 'heading "Tuntuva nousu: 50 neliön asunnossa jopa satasten ..." [level=3] [ref=e468]'
+                    - generic [ref=e473]:
+                      - generic [ref=e475]: Talouselämä
+                      - generic [ref=e477]: https://www.talouselama.fi › Uutiset › Asuminen
+                  - button "Tietoja tästä tuloksesta" [ref=e478] [cursor=pointer]:
+                    - img [ref=e481]
+                - generic [ref=e484]:
+                  - generic [ref=e485]: 23.6.2024 —
+                  - generic [ref=e486]:
+                    - text: Hoitovastikkeet puolestaan
+                    - emphasis [ref=e487]: nousivat
+                    - text: 9,9 prosenttia ja olivat keskimäärin
+                    - emphasis [ref=e488]: "4"
+                    - text: ",22 euroa huoneistoneliötä kohti kuukaudessa. Kerrostaloissa ..."
+                - generic [ref=e490]:
+                  - text: "Puuttuu: 86 ‎| Hae tällä:"
+                  - link "86" [ref=e491] [cursor=pointer]:
+                    - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,+%2286%22&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ5t4CegQIQBAB
+            - generic [ref=e495]:
+              - generic [ref=e498]:
+                - link "Edellisvuotta harvemmat taloyhtiöt nostivat hoitovastiketta ... STT Info https://www.sttinfo.fi › tiedote › edellisvuotta-harvemm..." [ref=e500] [cursor=pointer]:
+                  - /url: https://www.sttinfo.fi/tiedote/70337207/edellisvuotta-harvemmat-taloyhtiot-nostivat-hoitovastiketta-2024?publisherId=1552&lang=fi
+                  - heading "Edellisvuotta harvemmat taloyhtiöt nostivat hoitovastiketta ..." [level=3] [ref=e501]
+                  - generic [ref=e506]:
+                    - generic [ref=e508]: STT Info
+                    - generic [ref=e510]: https://www.sttinfo.fi › tiedote › edellisvuotta-harvemm...
+                - button "Tietoja tästä tuloksesta" [ref=e511] [cursor=pointer]:
+                  - img [ref=e514]
+              - generic [ref=e517]:
+                - generic [ref=e518]: 20.6.2024 —
+                - generic [ref=e519]:
+                  - emphasis [ref=e520]: Hoitovastike
+                  - text: noussut kerrostaloissa keskimäärin neljä ja rivitaloissa viisi prosenttia vuonna
+                  - emphasis [ref=e521]: "2024"
+                  - text: . Kyselyn vastauksista nähdään, että ...
+            - generic [ref=e525]:
+              - generic [ref=e528]:
+                - link "Näin taloyhtiöiden vastikkeet nousevat tänä vuonna Tekniikka&Talous https://www.tekniikkatalous.fi › Uutiset › Asuminen" [ref=e530] [cursor=pointer]:
+                  - /url: https://www.tekniikkatalous.fi/uutiset/a/c101c0ed-0385-4427-8e86-d3c9ba68f2dc
+                  - heading "Näin taloyhtiöiden vastikkeet nousevat tänä vuonna" [level=3] [ref=e531]
+                  - generic [ref=e536]:
+                    - generic [ref=e538]: Tekniikka&Talous
+                    - generic [ref=e540]: https://www.tekniikkatalous.fi › Uutiset › Asuminen
+                - button "Tietoja tästä tuloksesta" [ref=e541] [cursor=pointer]:
+                  - img [ref=e544]
+              - generic [ref=e547]:
+                - generic [ref=e548]: 23.6.2024 —
+                - generic [ref=e549]:
+                  - text: Hoitovastikkeet
+                  - emphasis [ref=e550]: nousevat
+                  - text: kerrostaloissa tänä vuonna keskimäärin noin neljä prosenttia ;
+                  - emphasis [ref=e551]: "4"
+                  - text: ",04,"
+                  - emphasis [ref=e552]: "4"
+                  - text: ",56,"
+                  - emphasis [ref=e553]: "4"
+                  - text: ",75, 12,8% ;"
+                  - emphasis [ref=e554]: "4"
+                  - text: ",08,"
+                  - emphasis [ref=e555]: "4"
+                  - text: ",45,"
+                  - emphasis [ref=e556]: "4"
+                  - text: ",63, 9,0% ..."
+            - generic [ref=e560]:
+              - generic [ref=e563]:
+                - link "Taloyhtiön hoitovastike, miksi poikkeuksellinen nousu? optimate.fi https://www.optimate.fi › blogi › hoitovastike-nousu" [ref=e565] [cursor=pointer]:
+                  - /url: https://www.optimate.fi/blogi/hoitovastike-nousu/
+                  - heading "Taloyhtiön hoitovastike, miksi poikkeuksellinen nousu?" [level=3] [ref=e566]
+                  - generic [ref=e571]:
+                    - generic [ref=e573]: optimate.fi
+                    - generic [ref=e575]: https://www.optimate.fi › blogi › hoitovastike-nousu
+                - button "Tietoja tästä tuloksesta" [ref=e576] [cursor=pointer]:
+                  - img [ref=e579]
+              - generic [ref=e582]:
+                - generic [ref=e583]: 1.10.2024 —
+                - generic [ref=e584]:
+                  - emphasis [ref=e585]: Hoitokulut
+                  - text: kasvoivat edellisvuodesta vain 2,5 %, mutta hoitovastikkeet
+                  - emphasis [ref=e586]: nousivat
+                  - text: lähes 10 %. Erityisesti kerrostaloissa hoitovastikkeita ...
+              - generic [ref=e588]: "Puuttuu: kerrostalo ‎86"
+        - generic [ref=e590]:
+          - generic [ref=e595]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e597]
+            - generic [ref=e599]:
+              - generic [ref=e600]:
+                - link "Rivitalon hoitovastike keskimäärin" [ref=e604] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Rivitalon+hoitovastike+keskim%C3%A4%C3%A4rin&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhTEAE
+                  - generic [ref=e605]:
+                    - generic [ref=e610]: Rivitalon hoitovastike keskimäärin
+                    - img [ref=e614]
+                - link "Kallis hoitovastike" [ref=e619] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Kallis+hoitovastike&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhYEAE
+                  - generic [ref=e620]:
+                    - generic [ref=e625]: Kallis hoitovastike
+                    - img [ref=e629]
+                - link "Keskimääräinen hoitovastike Tampere" [ref=e634] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Keskim%C3%A4%C3%A4r%C3%A4inen+hoitovastike+Tampere&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhWEAE
+                  - generic [ref=e635]:
+                    - generic [ref=e640]: Keskimääräinen hoitovastike Tampere
+                    - img [ref=e644]
+                - link "Hoitovastike keskimäärin 2025" [ref=e649] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hoitovastike+keskim%C3%A4%C3%A4rin+2025&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhVEAE
+                  - generic [ref=e650]:
+                    - generic [ref=e655]: Hoitovastike keskimäärin 2025
+                    - img [ref=e659]
+              - generic [ref=e661]:
+                - link "Tyypillinen hoitovastike" [ref=e665] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Tyypillinen+hoitovastike&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhUEAE
+                  - generic [ref=e666]:
+                    - generic [ref=e671]: Tyypillinen hoitovastike
+                    - img [ref=e675]
+                - link "Hoitovastike keskimäärin Helsinki" [ref=e680] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hoitovastike+keskim%C3%A4%C3%A4rin+Helsinki&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhXEAE
+                  - generic [ref=e681]:
+                    - generic [ref=e686]: Hoitovastike keskimäärin Helsinki
+                    - img [ref=e690]
+                - link "Miksi hoitovastike on korkea" [ref=e695] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Miksi+hoitovastike+on+korkea&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhSEAE
+                  - generic [ref=e696]:
+                    - generic [ref=e701]: Miksi hoitovastike on korkea
+                    - img [ref=e705]
+                - link "Hoitovastike yhtiövastike" [ref=e710] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hoitovastike+yhti%C3%B6vastike&sa=X&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ1QJ6BAhREAE
+                  - generic [ref=e711]:
+                    - generic [ref=e716]: Hoitovastike yhtiövastike
+                    - img [ref=e720]
+          - navigation [ref=e722]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e723]
+            - text: "1"
+            - link "Page 2" [ref=e726] [cursor=pointer]:
+              - /url: /search?q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sca_esv=bb65bd8365f461f5&hl=fi&ei=WCDSacbfPP7vwPAPxc6YgQY&start=10&sa=N&sstk=Af77f_fT-Y6vxB5SP09fy2BX5uU20WdrQkwlR9E0ahJ5Kh5et-x_EtcQG-3Wwp8ReYfzjW1KZxMUpw1cMYIB8eFdPort2mfyPlqS-w&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ8tMDegQIRBAE
+              - text: "2"
+            - link "Page 3" [ref=e728] [cursor=pointer]:
+              - /url: /search?q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sca_esv=bb65bd8365f461f5&hl=fi&ei=WCDSacbfPP7vwPAPxc6YgQY&start=20&sa=N&sstk=Af77f_fT-Y6vxB5SP09fy2BX5uU20WdrQkwlR9E0ahJ5Kh5et-x_EtcQG-3Wwp8ReYfzjW1KZxMUpw1cMYIB8eFdPort2mfyPlqS-w&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ8tMDegQIRBAG
+              - text: "3"
+            - heading "Seuraava" [level=2] [ref=e730]:
+              - link "Seuraava" [ref=e731] [cursor=pointer]:
+                - /url: /search?q=tilastokeskus+hoitokulut+nousivat+2024+kerrostalo+hoitovastike+4,86&sca_esv=bb65bd8365f461f5&hl=fi&ei=WCDSacbfPP7vwPAPxc6YgQY&start=10&sa=N&sstk=Af77f_fT-Y6vxB5SP09fy2BX5uU20WdrQkwlR9E0ahJ5Kh5et-x_EtcQG-3Wwp8ReYfzjW1KZxMUpw1cMYIB8eFdPort2mfyPlqS-w&ved=2ahUKEwjG69ewqNaTAxX-NxAIHUUnJmAQ8NMDegQIRBAI
+                - generic [ref=e733]: Seuraava
+        - navigation
+    - contentinfo [ref=e734]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e735]
+      - generic [ref=e739]:
+        - generic [ref=e741]:
+          - text: Suomi
+          - generic [ref=e743]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]: Helsinki
+              - generic [ref=e748]:
+                - text: "-"
+                - generic [ref=e749]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e751] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e754]:
+          - link "Ohje" [ref=e755] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e756] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e757] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e758] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

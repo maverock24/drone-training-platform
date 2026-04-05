@@ -1,0 +1,507 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Helsinki asuntojen hinnat neliöhinta 2026 tilastokeskus Helsinki asuntojen hinnat neliöhinta 2026 tilastokeskus
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DHelsinki%2Basuntojen%2Bhinnat%2Bneli%25C3%25B6hinta%2B2026%2Btilastokeskus%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQs6gLegQIEhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ0pQJegQIExAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - img [ref=e156]
+              - heading "AI-yhteenveto" [level=2] [ref=e158]
+            - button "Tietoja tästä tuloksesta" [ref=e162]:
+              - img [ref=e164]
+          - generic [ref=e185]:
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - mark [ref=e190]:
+                  - generic [ref=e191]: Helsingin asuntojen hinnat vuonna 2026 näyttävät vakiintuvan tammikuun 2026 katsausten mukaan, kun korkotaso tasaantuu ja kysyntä kasvaa erityisesti hyvillä sijainneilla
+                - text: . Vanhojen osakeasuntojen hinnat elävät markkinatilanteen mukaan, ja tammikuussa 2026 raportoitiin hintojen laskun ja myyntiaikojen pidentymisen jatkuneen tietyillä alueilla.
+                - button "Kiinteistönvälitysalan Keskusliitto (+1) – katso aiheeseen liittyvät linkit" [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195]:
+                    - img "Kiinteistönvälitysalan Keskusliitto" [ref=e196]
+                    - generic [ref=e197]:
+                      - generic [ref=e198]: Kiinteistönvälitysalan Keskusliitto
+                      - generic [ref=e199]: "+1"
+              - strong [ref=e201]: "Toteutuneet hinnat ja tilastot (2025-2026):"
+              - list [ref=e202]:
+                - listitem [ref=e203]:
+                  - generic [ref=e204]:
+                    - strong [ref=e205]: "Yleinen taso:"
+                    - text: Vuoden 2025 lopulla vanhan osakehuoneiston keskimääräinen neliöhinta Helsingissä oli noin
+                    - generic [ref=e208]:
+                      - generic [ref=e209]:
+                        - img
+                        - img [ref=e210]:
+                          - generic [ref=e211]: "4"
+                          - generic [ref=e212]: "8"
+                          - generic [ref=e213]: "0"
+                          - generic [ref=e214]: "0"
+                      - generic [ref=e215]:
+                        - img
+                        - img [ref=e216]:
+                          - generic [ref=e217]: –
+                      - generic [ref=e218]:
+                        - img
+                        - img [ref=e219]:
+                          - generic [ref=e220]: "4"
+                          - generic [ref=e221]: "9"
+                          - generic [ref=e222]: "0"
+                          - generic [ref=e223]: "0"
+                    - text: €/
+                    - generic [ref=e226]:
+                      - img
+                      - math [ref=e228]:
+                        - generic [ref=e230]:
+                          - generic [ref=e231]: m
+                          - generic [ref=e232]: "2"
+                      - img [ref=e233]:
+                        - generic [ref=e234]: 𝑚
+                        - generic [ref=e235]: "2"
+                    - text: .
+                - listitem [ref=e236]:
+                  - generic [ref=e237]:
+                    - strong [ref=e238]: "Alueelliset erot:"
+                    - text: Keskustassa ja hyvien kulkuyhteyksien varrella neliöhinnat ovat merkittävästi keskiarvoa korkeammat. Esimerkiksi Kalasatamassa neliöhinnat olivat yli
+                    - generic [ref=e241]:
+                      - img
+                      - math [ref=e243]:
+                        - generic [ref=e245]: "6200"
+                      - img [ref=e246]:
+                        - generic [ref=e247]: "6"
+                        - generic [ref=e248]: "2"
+                        - generic [ref=e249]: "0"
+                        - generic [ref=e250]: "0"
+                    - text: €/
+                    - generic [ref=e253]:
+                      - img
+                      - math [ref=e255]:
+                        - generic [ref=e257]:
+                          - generic [ref=e258]: m
+                          - generic [ref=e259]: "2"
+                      - img [ref=e260]:
+                        - generic [ref=e261]: 𝑚
+                        - generic [ref=e262]: "2"
+                    - text: vuoden 2025 lopussa.
+                - listitem [ref=e263]:
+                  - generic [ref=e264]:
+                    - strong [ref=e265]: "Hintakehitys:"
+                    - text: Vuoden 2026 alussa markkinoilla on nähty merkkejä hinnanlaskun jatkumisesta, mikä on tehnyt tilanteesta ostajan markkinat.
+                - listitem [ref=e266]:
+                  - generic [ref=e267]:
+                    - strong [ref=e268]: "Tiedonlähteet:"
+                    - text: Ajantasaiset tilastot vanhojen osakeasuntojen neliöhinnoista julkaisee
+                    - link [ref=e270] [cursor=pointer]:
+                      - /url: https://stat.fi/fi/tilasto/ashi
+                      - text: Tilastokeskus
+                    - text: .
+                  - button [ref=e273] [cursor=pointer]:
+                    - img [ref=e275]
+              - generic [ref=e277]:
+                - emphasis [ref=e278]: "Huom: Tammikuun 2026 lopun tilannekuva perustuu alustaviin raportteihin, ja lopulliset, kattavat tilastot vuodelle 2026 tarkentuvat Tilastokeskuksen aineistoissa myöhemmin."
+                - button [ref=e281] [cursor=pointer]:
+                  - generic [ref=e282]:
+                    - img [ref=e283]
+                    - generic [ref=e285]: Tilastokeskus
+            - generic [ref=e292]:
+              - list [ref=e294]:
+                - listitem [ref=e295]:
+                  - generic [ref=e296]:
+                    - 'link "Tammikuun 2026 asuntokauppakatsaus: Asuntojen hintojen .... Avautuu uudelle välilehdelle." [ref=e297] [cursor=pointer]':
+                      - /url: https://kiinteistonvalitysala.fi/asuntomarkkinat/tammikuun-2026-asuntokauppakatsaus-asuntojen-hintojen-lasku-ja-myyntiaikojen-piteneminen-jatkuivat/#:~:text=Myyntiaikojen%20tilastoinnissa%20k%C3%A4ytet%C3%A4%C3%A4n%20myyntiaikojen%20keskiarvoa%20kohteille%2C%20joiden%20myyntiaika%20on%201%E2%80%93999%20p%C3%A4iv%C3%A4%C3%A4.
+                    - generic [ref=e299]:
+                      - generic [ref=e300]: "Tammikuun 2026 asuntokauppakatsaus: Asuntojen hintojen ..."
+                      - generic [ref=e301]: 19.1.2026 — Myyntiaikojen tilastoinnissa käytetään myyntiaikojen keskiarvoa kohteille, joiden myyntiaika on 1–999 päivää.
+                      - generic [ref=e302]:
+                        - generic [ref=e307]: Kiinteistönvälitysalan Keskusliitto
+                        - button "Tietoja tästä tuloksesta" [ref=e309] [cursor=pointer]:
+                          - img [ref=e310]
+                - listitem [ref=e314]:
+                  - generic [ref=e315]:
+                    - link "Osakeasuntojen hinnat - Tilastokeskus. Avautuu uudelle välilehdelle." [ref=e316] [cursor=pointer]:
+                      - /url: https://stat.fi/fi/tilasto/ashi#:~:text=T%C3%A4ll%C3%A4%20sivulla%20*%20Kuviot.%20*%20Taulukot.%20*%20Tietojen%20tarkentuminen%20(revisiot)
+                    - generic [ref=e318]:
+                      - generic [ref=e319]: Osakeasuntojen hinnat - Tilastokeskus
+                      - generic [ref=e320]: Tällä sivulla * Kuviot. * Taulukot. * Tietojen tarkentuminen (revisiot)
+                      - generic [ref=e321]:
+                        - generic [ref=e326]: Tilastokeskus
+                        - button [ref=e328] [cursor=pointer]:
+                          - img [ref=e329]
+                - listitem [ref=e333]:
+                  - generic [ref=e334]:
+                    - link [ref=e335] [cursor=pointer]:
+                      - /url: https://pxdata.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__ashi/statfin_ashi_pxt_13mu.px
+                    - generic [ref=e337]:
+                      - generic [ref=e338]: 13mu -- Vanhojen osakeasuntojen neliöhinnat ja kauppojen ...
+                      - generic [ref=e339]: Valitse muuttujat * 19.2.2026. * 5.5.2026. * 3.5.2022. * Tilastokeskus, osakeasuntojen hinnat. * 001_13mu_2025.
+                      - generic [ref=e340]:
+                        - generic [ref=e345]: Tilastokeskus
+                        - button [ref=e347] [cursor=pointer]:
+                          - img [ref=e348]
+              - button [ref=e352] [cursor=pointer]:
+                - generic [ref=e353]: Näytä kaikki
+        - button "Näytä lisää AI-yhteenvetoja" [ref=e357]:
+          - generic [ref=e359] [cursor=pointer]:
+            - generic [ref=e360]: Näytä lisää
+            - img [ref=e362]
+      - main [ref=e365]:
+        - generic [ref=e369]:
+          - generic [ref=e372]:
+            - heading "Tulokset internetistä" [level=2] [ref=e373]
+            - generic [ref=e374]:
+              - generic [ref=e377]:
+                - link "Osakeasuntojen hinnat Tilastokeskus https://stat.fi › Etusivu › Tilastot" [ref=e379] [cursor=pointer]:
+                  - /url: https://stat.fi/fi/tilasto/ashi
+                  - heading "Osakeasuntojen hinnat" [level=3] [ref=e380]
+                  - generic [ref=e385]:
+                    - generic [ref=e387]: Tilastokeskus
+                    - generic [ref=e389]: https://stat.fi › Etusivu › Tilastot
+                - button "Tietoja tästä tuloksesta" [ref=e390] [cursor=pointer]:
+                  - img [ref=e393]
+              - generic [ref=e396]: Vanhojen osakeasuntojen neliöhinnat, hintakehitys ja kauppamäärät alueittain (2020=100) 2026M02* ; 4 791, 87,9, 0,6, −3,6 ; 3 625, 90,9, −2,7, −3,3 ...
+          - generic [ref=e400]:
+            - generic [ref=e403]:
+              - link "Asuntojen hinnat | Tutkimus - Kaupunkitieto - Helsingin kaupunki Helsingin kaupunki https://kaupunkitieto.hel.fi › asuminen › asuntomarkkinat" [ref=e405] [cursor=pointer]:
+                - /url: https://kaupunkitieto.hel.fi/fi/asuminen/asuntomarkkinat/asuntojen-hinnat
+                - heading "Asuntojen hinnat | Tutkimus - Kaupunkitieto - Helsingin kaupunki" [level=3] [ref=e406]
+                - generic [ref=e411]:
+                  - generic [ref=e413]: Helsingin kaupunki
+                  - generic [ref=e415]: https://kaupunkitieto.hel.fi › asuminen › asuntomarkkinat
+              - button "Tietoja tästä tuloksesta" [ref=e416] [cursor=pointer]:
+                - img [ref=e419]
+            - generic [ref=e423]:
+              - emphasis [ref=e424]: Tilastokeskuksen
+              - text: "ennakkotietojen mukaan vanhojen kerrostalo- ja rivitaloasuntojen keskineliöhinta oli vuonna 2025 Helsingissä 4 985 euroa. Avaa kartta: ..."
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e430]
+              - button "Tietoja tästä tuloksesta" [ref=e431] [cursor=pointer]:
+                - img [ref=e434]
+            - generic [ref=e436]:
+              - button "Kannattaako ostaa asunto 2026?" [ref=e442] [cursor=pointer]:
+                - generic [ref=e444]: Kannattaako ostaa asunto 2026?
+                - img [ref=e447]
+              - button "Paljonko asuntojen hinnat ovat laskeneet Helsingissä?" [ref=e456] [cursor=pointer]:
+                - generic [ref=e458]: Paljonko asuntojen hinnat ovat laskeneet Helsingissä?
+                - img [ref=e461]
+              - button "Mistä näkee toteutuneiden asuntokauppojen hinnat?" [ref=e470] [cursor=pointer]:
+                - generic [ref=e472]: Mistä näkee toteutuneiden asuntokauppojen hinnat?
+                - img [ref=e475]
+              - button "Onko nyt asunnon ostajan markkinat?" [ref=e484] [cursor=pointer]:
+                - generic [ref=e486]: Onko nyt asunnon ostajan markkinat?
+                - img [ref=e489]
+          - generic [ref=e494]:
+            - heading "Tulokset internetistä" [level=2] [ref=e495]
+            - generic [ref=e496]:
+              - generic [ref=e499]:
+                - link "Osakeasuntojen hinnat Tilastokeskus https://stat.fi › Etusivu › Tilastot" [ref=e501] [cursor=pointer]:
+                  - /url: https://stat.fi/fi/tilasto/ashi?gsid=4ac32fab-8e12-42bc-a7a4-323742f02475
+                  - heading "Osakeasuntojen hinnat" [level=3] [ref=e502]
+                  - generic [ref=e507]:
+                    - generic [ref=e509]: Tilastokeskus
+                    - generic [ref=e511]: https://stat.fi › Etusivu › Tilastot
+                - button "Tietoja tästä tuloksesta" [ref=e512] [cursor=pointer]:
+                  - img [ref=e515]
+              - generic [ref=e518]: Vanhojen osakeasuntojen neliöhinnat, hintakehitys ja kauppamäärät alueittain (2020=100) 2026M02* ; 2 033, 92,6, 1,1, −2,8 ; 1 568, 87,2, 5,8, 5,4 ...
+          - generic [ref=e522]:
+            - generic [ref=e525]:
+              - link "Tilastot aiheittain - Kiinteistöjen hinnat Tilastokeskus https://stat.fi › til › kihi" [ref=e527] [cursor=pointer]:
+                - /url: https://stat.fi/til/kihi/
+                - heading "Tilastot aiheittain - Kiinteistöjen hinnat" [level=3] [ref=e528]
+                - generic [ref=e533]:
+                  - generic [ref=e535]: Tilastokeskus
+                  - generic [ref=e537]: https://stat.fi › til › kihi
+              - button "Tietoja tästä tuloksesta" [ref=e538] [cursor=pointer]:
+                - img [ref=e541]
+            - generic [ref=e545]:
+              - text: Suomen virallinen
+              - emphasis [ref=e546]: tilasto
+              - text: "(SVT): Kiinteistöjen"
+              - emphasis [ref=e547]: hinnat
+              - text: "[verkkojulkaisu]. ISSN=1799-456X."
+              - emphasis [ref=e548]: Helsinki
+              - text: ":"
+              - emphasis [ref=e549]: Tilastokeskus
+              - text: "[viitattu: 1.4."
+              - emphasis [ref=e550]: "2026"
+              - text: "]. Saantitapa: https ..."
+          - generic [ref=e554]:
+            - generic [ref=e557]:
+              - link "Asuntojen hintaindeksi Helsingin Seudun Suunnat https://www.helsinginseudunsuunnat.fi › asuntomarkkinat" [ref=e559] [cursor=pointer]:
+                - /url: https://www.helsinginseudunsuunnat.fi/fi/asunto-ja-toimitilamarkkinat/asuntomarkkinat/asuntojen-hintaindeksi
+                - heading "Asuntojen hintaindeksi" [level=3] [ref=e560]
+                - generic [ref=e565]:
+                  - generic [ref=e567]: Helsingin Seudun Suunnat
+                  - generic [ref=e569]: https://www.helsinginseudunsuunnat.fi › asuntomarkkinat
+              - button "Tietoja tästä tuloksesta" [ref=e570] [cursor=pointer]:
+                - img [ref=e573]
+            - generic [ref=e576]:
+              - generic [ref=e577]: 19.2.2026 —
+              - generic [ref=e578]:
+                - text: Vanhojen kerrostaloasuntojen
+                - emphasis [ref=e579]: hinnat
+                - text: olivat vuoden 2025 viimeisellä neljänneksellä edelleen laskussa sekä pääkaupunkiseudulla, että muualla ...
+          - generic [ref=e583]:
+            - generic [ref=e586]:
+              - link "Asuntojen hinnat - Helsingin osa-alueet Tilastokeskus https://stat.fi › til › ashi › ashi_2004-12-15_luo_001" [ref=e588] [cursor=pointer]:
+                - /url: https://stat.fi/til/ashi/ashi_2004-12-15_luo_001.html
+                - heading "Asuntojen hinnat - Helsingin osa-alueet" [level=3] [ref=e589]
+                - generic [ref=e594]:
+                  - generic [ref=e596]: Tilastokeskus
+                  - generic [ref=e598]: https://stat.fi › til › ashi › ashi_2004-12-15_luo_001
+              - button "Tietoja tästä tuloksesta" [ref=e599] [cursor=pointer]:
+                - img [ref=e602]
+            - generic [ref=e605]:
+              - generic [ref=e606]: 15.12.2004 —
+              - generic [ref=e607]:
+                - text: Suomen virallinen
+                - emphasis [ref=e608]: tilasto
+                - text: "(SVT): Osakeasuntojen"
+                - emphasis [ref=e609]: hinnat
+                - text: "[verkkojulkaisu]. ISSN=2323-878X."
+                - emphasis [ref=e610]: Helsinki
+                - text: ":"
+                - emphasis [ref=e611]: Tilastokeskus
+                - text: "[viitattu: 2.4."
+                - emphasis [ref=e612]: "2026"
+                - text: "]."
+          - generic [ref=e616]:
+            - generic [ref=e619]:
+              - link "Helsinki - myydyt asunnot, toteutuneet neliöhinnat ja ... Asuntojenhinnat.fi https://www.asuntojenhinnat.fi › kunta › helsinki" [ref=e621] [cursor=pointer]:
+                - /url: https://www.asuntojenhinnat.fi/myytyjen-asuntojen-tilastot/kunta/helsinki
+                - heading "Helsinki - myydyt asunnot, toteutuneet neliöhinnat ja ..." [level=3] [ref=e622]
+                - generic [ref=e627]:
+                  - generic [ref=e629]: Asuntojenhinnat.fi
+                  - generic [ref=e631]: https://www.asuntojenhinnat.fi › kunta › helsinki
+              - button "Tietoja tästä tuloksesta" [ref=e632] [cursor=pointer]:
+                - img [ref=e635]
+            - generic [ref=e639]:
+              - text: Asuntokaupat
+              - emphasis [ref=e640]: Helsinki
+              - text: ": 2 711 · +7,41 % ;"
+              - emphasis [ref=e641]: Neliöhinta Helsinki
+              - text: ": 4 868€ / m² · +0,97 % ;"
+              - emphasis [ref=e642]: Neliöhinta
+              - text: "PK-seudulla: 4 291€ / m² · +0,42 % ;"
+              - emphasis [ref=e643]: Neliöhinta
+              - text: "muualla: 1 702€ / m²."
+          - generic [ref=e647]:
+            - generic [ref=e650]:
+              - link "Tilastot aiheittain - Osakeasuntojen hinnat Tilastokeskus https://stat.fi › til › ashi" [ref=e652] [cursor=pointer]:
+                - /url: https://stat.fi/til/ashi/index.html
+                - heading "Tilastot aiheittain - Osakeasuntojen hinnat" [level=3] [ref=e653]
+                - generic [ref=e658]:
+                  - generic [ref=e660]: Tilastokeskus
+                  - generic [ref=e662]: https://stat.fi › til › ashi
+              - button "Tietoja tästä tuloksesta" [ref=e663] [cursor=pointer]:
+                - img [ref=e666]
+            - generic [ref=e670]:
+              - text: Osakeasuntojen
+              - emphasis [ref=e671]: hinnat
+              - text: "-"
+              - emphasis [ref=e672]: tilasto
+              - text: kuvaa vanhojen osakehuoneistojen hintakehitystä. Kuukausi- ja neljännesvuositilastot soveltuvat
+              - emphasis [ref=e673]: asuntojen
+              - text: hintakehityksen ...
+          - generic [ref=e677]:
+            - generic [ref=e680]:
+              - 'link "Tammikuun 2026 asuntokauppakatsaus: Asuntojen ... Kiinteistönvälitysalan Keskusliitto https://kiinteistonvalitysala.fi › Asuntomarkkinat" [ref=e682] [cursor=pointer]':
+                - /url: https://kiinteistonvalitysala.fi/asuntomarkkinat/tammikuun-2026-asuntokauppakatsaus-asuntojen-hintojen-lasku-ja-myyntiaikojen-piteneminen-jatkuivat/
+                - 'heading "Tammikuun 2026 asuntokauppakatsaus: Asuntojen ..." [level=3] [ref=e683]'
+                - generic [ref=e685]:
+                  - img [ref=e689]
+                  - generic [ref=e691]:
+                    - generic [ref=e693]: Kiinteistönvälitysalan Keskusliitto
+                    - generic [ref=e695]: https://kiinteistonvalitysala.fi › Asuntomarkkinat
+              - button "Tietoja tästä tuloksesta" [ref=e696] [cursor=pointer]:
+                - img [ref=e699]
+            - generic [ref=e702]:
+              - generic [ref=e703]: 19.1.2026 —
+              - text: Hintojen tilastointiin käytetään liiton käyttöön tuotettua vanhojen kerrostaloasuntojen laatuvakioitua hintaindeksiä, joka on laskettu 13 ...
+          - generic [ref=e707]:
+            - generic [ref=e710]:
+              - link "Asuntojen hintatiedot Asuntojen hintatiedot https://asuntojen.hintatiedot.fi › haku" [ref=e712] [cursor=pointer]:
+                - /url: https://asuntojen.hintatiedot.fi/haku
+                - heading "Asuntojen hintatiedot" [level=3] [ref=e713]
+                - generic [ref=e718]:
+                  - generic [ref=e720]: Asuntojen hintatiedot
+                  - generic [ref=e722]: https://asuntojen.hintatiedot.fi › haku
+              - button "Tietoja tästä tuloksesta" [ref=e723] [cursor=pointer]:
+                - img [ref=e726]
+            - generic [ref=e729]: Palvelun kautta voi hakea kerros-, rivi- ja omakotitalojen asuntokauppatietoja viimeisen 12 kuukauden ajalta koko Suomen alueelta.
+        - generic [ref=e731]:
+          - generic [ref=e736]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e738]
+            - generic [ref=e740]:
+              - generic [ref=e741]:
+                - link "Tilastokeskus asuntojen hinnat postinumeroalueittain" [ref=e745] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Tilastokeskus+asuntojen+hinnat+postinumeroalueittain&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhVEAE
+                  - generic [ref=e746]:
+                    - generic [ref=e751]: Tilastokeskus asuntojen hinnat postinumeroalueittain
+                    - img [ref=e755]
+                - link "Toteutuneet asuntojen hinnat" [ref=e760] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Toteutuneet+asuntojen+hinnat&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhbEAE
+                  - generic [ref=e761]:
+                    - generic [ref=e766]: Toteutuneet asuntojen hinnat
+                    - img [ref=e770]
+                - link "Mistä löytää myytyjen asuntojen hinnat" [ref=e775] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Mist%C3%A4+l%C3%B6yt%C3%A4%C3%A4+myytyjen+asuntojen+hinnat&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhaEAE
+                  - generic [ref=e776]:
+                    - generic [ref=e781]: Mistä löytää myytyjen asuntojen hinnat
+                    - img [ref=e785]
+                - link "Asuntojen hintakehitys alueittain" [ref=e790] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hintakehitys+alueittain&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhcEAE
+                  - generic [ref=e791]:
+                    - generic [ref=e796]: Asuntojen hintakehitys alueittain
+                    - img [ref=e800]
+              - generic [ref=e802]:
+                - link "Asuntojen hintakehitys 2000-luvulla" [ref=e806] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hintakehitys+2000-luvulla&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhYEAE
+                  - generic [ref=e807]:
+                    - generic [ref=e812]: Asuntojen hintakehitys 2000-luvulla
+                    - img [ref=e816]
+                - link "Asuntojen hinnat Helsinki postinumeroittain" [ref=e821] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hinnat+Helsinki+postinumeroittain&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhdEAE
+                  - generic [ref=e822]:
+                    - generic [ref=e827]: Asuntojen hinnat Helsinki postinumeroittain
+                    - img [ref=e831]
+                - link "Asuntojen hinnat Tilastokeskus" [ref=e836] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hinnat+Tilastokeskus&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhZEAE
+                  - generic [ref=e837]:
+                    - generic [ref=e842]: Asuntojen hinnat Tilastokeskus
+                    - img [ref=e846]
+                - link "Asuntojen hintakehitys historia" [ref=e851] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hintakehitys+historia&sa=X&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ1QJ6BAhXEAE
+                  - generic [ref=e852]:
+                    - generic [ref=e857]: Asuntojen hintakehitys historia
+                    - img [ref=e861]
+          - navigation [ref=e863]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e864]
+            - text: "1"
+            - link "Page 2" [ref=e867] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=10&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAE
+              - text: "2"
+            - link "Page 3" [ref=e869] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=20&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAG
+              - text: "3"
+            - link "Page 4" [ref=e871] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=30&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAI
+              - text: "4"
+            - link "Page 5" [ref=e873] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=40&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAK
+              - text: "5"
+            - link "Page 6" [ref=e875] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=50&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAM
+              - text: "6"
+            - link "Page 7" [ref=e877] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=60&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAO
+              - text: "7"
+            - link "Page 8" [ref=e879] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=70&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAQ
+              - text: "8"
+            - link "Page 9" [ref=e881] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=80&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAS
+              - text: "9"
+            - link "Page 10" [ref=e883] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=90&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8tMDegQISBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e885]:
+              - link "Seuraava" [ref=e886] [cursor=pointer]:
+                - /url: /search?q=Helsinki+asuntojen+hinnat+neli%C3%B6hinta+2026+tilastokeskus&sca_esv=bb65bd8365f461f5&hl=fi&ei=bBvSaceLBduvwPAPl6ncqQ4&start=10&sa=N&sstk=Af77f_dT-80u_7gjaF8HcQVG-v7StKXcpkHEToAhJ-MMpE0EZnPT3pvpWb5qX1QqnEju3VqKyQkQzcSHtikx8yjOAbOMms7So8BOHA&ved=2ahUKEwjH8bfXo9aTAxXbFxAIHZcUN-UQ8NMDegQISBAW
+                - generic [ref=e888]: Seuraava
+        - navigation
+    - contentinfo [ref=e889]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e890]
+      - generic [ref=e894]:
+        - generic [ref=e896]:
+          - text: Suomi
+          - generic [ref=e898]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e900] [cursor=pointer]:
+              - generic [ref=e901]: Helsinki
+              - generic [ref=e903]:
+                - text: "-"
+                - generic [ref=e904]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e906] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e909]:
+          - link "Ohje" [ref=e910] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e911] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e912] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e913] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

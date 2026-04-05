@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: putkiremontti kustannus yksiö Helsinki nelio hinta 2025 2026 linjasaneeraus putkiremontti kustannus yksiö Helsinki nelio hinta 2025 2026 linjasaneeraus
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dputkiremontti%2Bkustannus%2Byksi%25C3%25B6%2BHelsinki%2Bnelio%2Bhinta%2B2025%2B2026%2Blinjasaneeraus%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQtKgLegQIFBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Putkiremontin hinta kerrostalossa – mitä se maksaa ... Sustera https://sustera.fi › ajankohtaista › uutiset › putkiremonti..." [ref=e222] [cursor=pointer]:
+                  - /url: https://sustera.fi/ajankohtaista/uutiset/putkiremontin-hinta-kerrostalossa-mita-se-oikeasti-maksaa-taloyhtiolle/
+                  - heading "Putkiremontin hinta kerrostalossa – mitä se maksaa ..." [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Sustera
+                    - generic [ref=e232]: https://sustera.fi › ajankohtaista › uutiset › putkiremonti...
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 2.12.2025 —
+                - generic [ref=e241]:
+                  - text: Perinteinen
+                  - emphasis [ref=e242]: linjasaneeraus
+                  - text: maksaa taloyhtiön osakkaalle keskimäärin 50 000 euroa asuntoa kohden. Neliöhinnat liikkuvat yleensä 500–1500 eurossa.
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e248]
+              - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+            - generic [ref=e254]:
+              - button "Paljonko linjasaneeraus maksaa per neliö?" [ref=e260] [cursor=pointer]:
+                - generic [ref=e262]: Paljonko linjasaneeraus maksaa per neliö?
+                - img [ref=e265]
+              - button "Paljonko putkiremontti maksaa Helsingissä?" [ref=e274] [cursor=pointer]:
+                - generic [ref=e276]: Paljonko putkiremontti maksaa Helsingissä?
+                - img [ref=e279]
+              - button "Onko linjasaneeraus sama kuin putkiremontti?" [ref=e288] [cursor=pointer]:
+                - generic [ref=e290]: Onko linjasaneeraus sama kuin putkiremontti?
+                - img [ref=e293]
+              - button "Paljonko tuleva putkiremontti laskee asunnon hintaa?" [ref=e302] [cursor=pointer]:
+                - generic [ref=e304]: Paljonko tuleva putkiremontti laskee asunnon hintaa?
+                - img [ref=e307]
+          - generic [ref=e312]:
+            - heading "Tulokset internetistä" [level=2] [ref=e313]
+            - generic [ref=e314]:
+              - generic [ref=e317]:
+                - link "Linjasaneeraus –Hinta ja toteutustavat 2026 LVI-Pitkälä https://lvipitkala.fi › linjasaneeraus-yleisimmin-kysytyt-k..." [ref=e319] [cursor=pointer]:
+                  - /url: https://lvipitkala.fi/linjasaneeraus-yleisimmin-kysytyt-kysymykset/
+                  - heading "Linjasaneeraus –Hinta ja toteutustavat 2026" [level=3] [ref=e320]
+                  - generic [ref=e325]:
+                    - generic [ref=e327]: LVI-Pitkälä
+                    - generic [ref=e329]: https://lvipitkala.fi › linjasaneeraus-yleisimmin-kysytyt-k...
+                - button "Tietoja tästä tuloksesta" [ref=e330] [cursor=pointer]:
+                  - img [ref=e333]
+              - generic [ref=e336]:
+                - generic [ref=e337]: 18.2.2025 —
+                - generic [ref=e338]:
+                  - emphasis [ref=e339]: Linjasaneeraus kustantaa keskimäärin 40 000-150 000euroa
+                  - text: . Linjasaneerauksen hinta voi vaihdella hyvin merkittävästi rakennuksen koosta ja ...
+              - generic [ref=e341]:
+                - text: "Puuttuu: Helsinki ‎| Hae tällä:"
+                - link "Helsinki" [ref=e342] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=putkiremontti+kustannus+yksi%C3%B6+%22Helsinki%22+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ5t4CegQIVBAB
+          - generic [ref=e346]:
+            - generic [ref=e349]:
+              - link "Putkiremontti hinta Helsinki 2026 | Paljonko maksaa? paljonkomaksaa.fi https://paljonkomaksaa.fi › ... › Putkiremontti" [ref=e351] [cursor=pointer]:
+                - /url: https://paljonkomaksaa.fi/hinnat/putkiremontti/helsinki
+                - heading "Putkiremontti hinta Helsinki 2026 | Paljonko maksaa?" [level=3] [ref=e352]
+                - generic [ref=e357]:
+                  - generic [ref=e359]: paljonkomaksaa.fi
+                  - generic [ref=e361]: https://paljonkomaksaa.fi › ... › Putkiremontti
+              - button "Tietoja tästä tuloksesta" [ref=e362] [cursor=pointer]:
+                - img [ref=e365]
+            - generic [ref=e369]:
+              - emphasis [ref=e370]: Putkiremontti
+              - text: maksaa Helsingissä yleensä noin 50 000–150 000 €/m². Keskimääräinen
+              - emphasis [ref=e371]: hinta
+              - text: on noin 75 000 €/m² riippuen kohteesta, materiaaleista ja ...
+            - generic [ref=e373]:
+              - text: "Puuttuu: nelio ‎| Hae tällä:"
+              - link "nelio" [ref=e374] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+%22nelio%22+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ5t4CegQIUxAB
+          - generic [ref=e378]:
+            - generic [ref=e381]:
+              - link "Putkiremontti hinta - Toteutuneet hinnat (2026) UrakkaDiili https://urakkadiili.fi › putkiremontti-hinta" [ref=e383] [cursor=pointer]:
+                - /url: https://urakkadiili.fi/putkiremontti-hinta
+                - heading "Putkiremontti hinta - Toteutuneet hinnat (2026)" [level=3] [ref=e384]
+                - generic [ref=e389]:
+                  - generic [ref=e391]: UrakkaDiili
+                  - generic [ref=e393]: https://urakkadiili.fi › putkiremontti-hinta
+              - button "Tietoja tästä tuloksesta" [ref=e394] [cursor=pointer]:
+                - img [ref=e397]
+            - generic [ref=e401]:
+              - text: Putkiremontin
+              - emphasis [ref=e402]: kustannukset
+              - text: ovat useimmiten 400-900 €/m2 välillä. Pääkaupunkiseudulla
+              - emphasis [ref=e403]: hinta
+              - text: voi olla peräti yli 1000 € neliöltä. Käyttövesiputkiremontin
+              - emphasis [ref=e404]: hinta
+              - text: ...
+          - generic [ref=e408]:
+            - generic [ref=e411]:
+              - link "Taloyhtiön linjasaneeraus (putkiremontti) - Hinta ja vinkit Remppakamu https://remppakamu.fi › Taloyhtiön remontti" [ref=e413] [cursor=pointer]:
+                - /url: https://remppakamu.fi/taloyhtion-remontti/taloyhtion-linjasaneeraus-putkiremontti/
+                - heading "Taloyhtiön linjasaneeraus (putkiremontti) - Hinta ja vinkit" [level=3] [ref=e414]
+                - generic [ref=e419]:
+                  - generic [ref=e421]: Remppakamu
+                  - generic [ref=e423]: https://remppakamu.fi › Taloyhtiön remontti
+              - button "Tietoja tästä tuloksesta" [ref=e424] [cursor=pointer]:
+                - img [ref=e427]
+            - generic [ref=e430]:
+              - generic [ref=e431]: 13.1.2026 —
+              - text: Käytännössä neliöhinnat voivat asettua hyvin eri tasoille, ja ääripäissä on nähty jopa 200–2000 €/m². Hallituksen kannattaa katsoa hintaa ...
+            - generic [ref=e433]:
+              - text: "Puuttuu: yksiö ‎| Hae tällä:"
+              - link "yksiö" [ref=e434] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=putkiremontti+kustannus+%22yksi%C3%B6%22+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ5t4CegQIVxAB
+          - generic [ref=e438]:
+            - generic [ref=e441]:
+              - link "Näin putkiremontti vaikuttaa asunnon arvoon OP Media https://www.op-media.fi › Asunnon osto" [ref=e443] [cursor=pointer]:
+                - /url: https://www.op-media.fi/asunnon-osto/nain-putkiremontti-vaikuttaa-asunnon-arvoon/
+                - heading "Näin putkiremontti vaikuttaa asunnon arvoon" [level=3] [ref=e444]
+                - generic [ref=e449]:
+                  - generic [ref=e451]: OP Media
+                  - generic [ref=e453]: https://www.op-media.fi › Asunnon osto
+              - button "Tietoja tästä tuloksesta" [ref=e454] [cursor=pointer]:
+                - img [ref=e457]
+            - generic [ref=e460]:
+              - generic [ref=e461]: 18.7.2025 —
+              - generic [ref=e462]:
+                - text: Isännöintiliiton kyselyssä‍ perinteisesti toteutettu
+                - emphasis [ref=e463]: linjasaneeraus
+                - text: maksaa Suomessa tyypillisesti jo yli 800 euroa neliöltä.
+                - emphasis [ref=e464]: Hinnat
+                - text: vaihtelevat ...
+          - generic [ref=e468]:
+            - generic [ref=e471]:
+              - 'link "Putkiremontti hintaopas 2026: Paljonko ... LVI-Pitkälä https://lvipitkala.fi › putkiremontin-hinta-2026" [ref=e473] [cursor=pointer]':
+                - /url: https://lvipitkala.fi/putkiremontin-hinta-2026/
+                - 'heading "Putkiremontti hintaopas 2026: Paljonko ..." [level=3] [ref=e474]'
+                - generic [ref=e479]:
+                  - generic [ref=e481]: LVI-Pitkälä
+                  - generic [ref=e483]: https://lvipitkala.fi › putkiremontin-hinta-2026
+              - button "Tietoja tästä tuloksesta" [ref=e484] [cursor=pointer]:
+                - img [ref=e487]
+            - generic [ref=e490]:
+              - generic [ref=e491]: 19.2.2025 —
+              - generic [ref=e492]:
+                - text: Taloyhtiön putkiremontin
+                - emphasis [ref=e493]: hinta
+                - text: voi vaihdella jopa 100-800 euroa per
+                - emphasis [ref=e494]: neliö
+                - text: . Pienehkön rivitalon käyttövesiputkiremontti voi kustantaa noin 30 000 ...
+            - generic [ref=e496]:
+              - text: "Puuttuu: Helsinki ‎| Hae tällä:"
+              - link "Helsinki" [ref=e497] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=putkiremontti+kustannus+yksi%C3%B6+%22Helsinki%22+nelio+hinta+2025+2026+linjasaneeraus&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ5t4CegQIVRAB
+          - generic [ref=e501]:
+            - generic [ref=e504]:
+              - link "Todellinen putkiremontin hinta 2025 Lvienergia Oy https://lvienergia.fi › todellinen-putkiremontin-hinta-2025" [ref=e506] [cursor=pointer]:
+                - /url: https://lvienergia.fi/todellinen-putkiremontin-hinta-2025.html
+                - heading "Todellinen putkiremontin hinta 2025" [level=3] [ref=e507]
+                - generic [ref=e512]:
+                  - generic [ref=e514]: Lvienergia Oy
+                  - generic [ref=e516]: https://lvienergia.fi › todellinen-putkiremontin-hinta-2025
+              - button "Tietoja tästä tuloksesta" [ref=e517] [cursor=pointer]:
+                - img [ref=e520]
+            - generic [ref=e524]:
+              - text: Perinteinen viemäriputkien uusiminen maksaa meidän kauttamme omakotitaloon tyypillisesti noin 10 000–20 000 euroa.
+              - emphasis [ref=e525]: Hinta
+              - text: määräytyy yleensä asunnon koon, työn ...
+            - generic [ref=e527]: "Puuttuu: Helsinki ‎2026"
+          - generic [ref=e531]:
+            - generic [ref=e534]:
+              - link "Linjasaneeraus opas 2026 - Milloin tehdä ja miten etenee Putki-Hait Oy https://putki-hait.fi › mita-on-linjasaneeraus-2" [ref=e536] [cursor=pointer]:
+                - /url: https://putki-hait.fi/mita-on-linjasaneeraus-2/
+                - heading "Linjasaneeraus opas 2026 - Milloin tehdä ja miten etenee" [level=3] [ref=e537]
+                - generic [ref=e542]:
+                  - generic [ref=e544]: Putki-Hait Oy
+                  - generic [ref=e546]: https://putki-hait.fi › mita-on-linjasaneeraus-2
+              - button "Tietoja tästä tuloksesta" [ref=e547] [cursor=pointer]:
+                - img [ref=e550]
+            - generic [ref=e553]:
+              - generic [ref=e554]: 22.10.2025 —
+              - generic [ref=e555]:
+                - text: Kattava
+                - emphasis [ref=e556]: linjasaneeraus
+                - text: opas taloyhtiöille. Opi milloin
+                - emphasis [ref=e557]: putkiremontti
+                - text: kannattaa tehdä, miten prosessi etenee ja mitä se maksaa.
+          - generic [ref=e561]:
+            - generic [ref=e564]:
+              - 'link "Putkiremontin kustannukset 2025: Realistinen hinnoittelu ... Lämpö Optimi Oy https://lampooptimi.fi › putkiremontin-kustannukset-20..." [ref=e566] [cursor=pointer]':
+                - /url: https://lampooptimi.fi/putkiremontin-kustannukset-2025-realistinen-hinnoittelu-ja-mihin-hinta-muodostuu/
+                - 'heading "Putkiremontin kustannukset 2025: Realistinen hinnoittelu ..." [level=3] [ref=e567]'
+                - generic [ref=e572]:
+                  - generic [ref=e574]: Lämpö Optimi Oy
+                  - generic [ref=e576]: https://lampooptimi.fi › putkiremontin-kustannukset-20...
+              - button "Tietoja tästä tuloksesta" [ref=e577] [cursor=pointer]:
+                - img [ref=e580]
+            - generic [ref=e583]:
+              - generic [ref=e584]: 27.10.2025 —
+              - generic [ref=e585]:
+                - text: Vuonna
+                - emphasis [ref=e586]: 2025 putkiremontti
+                - text: maksaa tyypillisesti 500-1200 euroa neliömetriltä perinteisellä menetelmällä, kun taas sukitusmenetelmällä
+                - emphasis [ref=e587]: hinta
+                - text: on ...
+            - generic [ref=e589]: "Puuttuu: yksiö ‎Helsinki ‎2026"
+        - generic [ref=e591]:
+          - generic [ref=e596]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e598]
+            - generic [ref=e600]:
+              - generic [ref=e601]:
+                - link "Putkiremontin hinta 70-luvun kerrostalossa" [ref=e605] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Putkiremontin+hinta+70-luvun+kerrostalossa&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhbEAE
+                  - generic [ref=e606]:
+                    - generic [ref=e611]: Putkiremontin hinta 70-luvun kerrostalossa
+                    - img [ref=e615]
+                - link "Putkiremontin hinta 80 luvun kerrostalossa" [ref=e620] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Putkiremontin+hinta+80+luvun+kerrostalossa&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhiEAE
+                  - generic [ref=e621]:
+                    - generic [ref=e626]: Putkiremontin hinta 80 luvun kerrostalossa
+                    - img [ref=e630]
+                - link "Linjasaneeraus hinta" [ref=e635] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Linjasaneeraus+hinta&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhhEAE
+                  - generic [ref=e636]:
+                    - generic [ref=e641]: Linjasaneeraus hinta
+                    - img [ref=e645]
+                - link "Putkiremontti hinta per neliö" [ref=e650] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Putkiremontti+hinta+per+neli%C3%B6&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhgEAE
+                  - generic [ref=e651]:
+                    - generic [ref=e656]: Putkiremontti hinta per neliö
+                    - img [ref=e660]
+              - generic [ref=e662]:
+                - link "Linjasaneeraus hinta kerrostalo" [ref=e666] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Linjasaneeraus+hinta+kerrostalo&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAheEAE
+                  - generic [ref=e667]:
+                    - generic [ref=e672]: Linjasaneeraus hinta kerrostalo
+                    - img [ref=e676]
+                - link "Kerrostalon putkiremontti hinta" [ref=e681] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Kerrostalon+putkiremontti+hinta&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhfEAE
+                  - generic [ref=e682]:
+                    - generic [ref=e687]: Kerrostalon putkiremontti hinta
+                    - img [ref=e691]
+                - link "Rivitalo putkiremontti hinta" [ref=e696] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Rivitalo+putkiremontti+hinta&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhdEAE
+                  - generic [ref=e697]:
+                    - generic [ref=e702]: Rivitalo putkiremontti hinta
+                    - img [ref=e706]
+                - link "Linjasaneeraus kesto" [ref=e711] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Linjasaneeraus+kesto&sa=X&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ1QJ6BAhcEAE
+                  - generic [ref=e712]:
+                    - generic [ref=e717]: Linjasaneeraus kesto
+                    - img [ref=e721]
+          - navigation [ref=e723]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e724]
+            - text: "1"
+            - link "Page 2" [ref=e727] [cursor=pointer]:
+              - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&ei=QxzSaaD_EqupwPAPjdm6qAE&start=10&sa=N&sstk=Af77f_c9zNJ1q_ZKvWcDV0a8bTg_eN_DvbQw6sT4RCkl6-iJ0nhcUQBYkHxCht6ufatpmUo4VP7TLOSEx3_iGyrSSTYlKsDwYXNLTA&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ8tMDegQIWRAE
+              - text: "2"
+            - link "Page 3" [ref=e729] [cursor=pointer]:
+              - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&ei=QxzSaaD_EqupwPAPjdm6qAE&start=20&sa=N&sstk=Af77f_c9zNJ1q_ZKvWcDV0a8bTg_eN_DvbQw6sT4RCkl6-iJ0nhcUQBYkHxCht6ufatpmUo4VP7TLOSEx3_iGyrSSTYlKsDwYXNLTA&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ8tMDegQIWRAG
+              - text: "3"
+            - link "Page 4" [ref=e731] [cursor=pointer]:
+              - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&ei=QxzSaaD_EqupwPAPjdm6qAE&start=30&sa=N&sstk=Af77f_c9zNJ1q_ZKvWcDV0a8bTg_eN_DvbQw6sT4RCkl6-iJ0nhcUQBYkHxCht6ufatpmUo4VP7TLOSEx3_iGyrSSTYlKsDwYXNLTA&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ8tMDegQIWRAI
+              - text: "4"
+            - link "Page 5" [ref=e733] [cursor=pointer]:
+              - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&ei=QxzSaaD_EqupwPAPjdm6qAE&start=40&sa=N&sstk=Af77f_c9zNJ1q_ZKvWcDV0a8bTg_eN_DvbQw6sT4RCkl6-iJ0nhcUQBYkHxCht6ufatpmUo4VP7TLOSEx3_iGyrSSTYlKsDwYXNLTA&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ8tMDegQIWRAK
+              - text: "5"
+            - link "Page 6" [ref=e735] [cursor=pointer]:
+              - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&ei=QxzSaaD_EqupwPAPjdm6qAE&start=50&sa=N&sstk=Af77f_c9zNJ1q_ZKvWcDV0a8bTg_eN_DvbQw6sT4RCkl6-iJ0nhcUQBYkHxCht6ufatpmUo4VP7TLOSEx3_iGyrSSTYlKsDwYXNLTA&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ8tMDegQIWRAM
+              - text: "6"
+            - heading "Seuraava" [level=2] [ref=e737]:
+              - link "Seuraava" [ref=e738] [cursor=pointer]:
+                - /url: /search?q=putkiremontti+kustannus+yksi%C3%B6+Helsinki+nelio+hinta+2025+2026+linjasaneeraus&sca_esv=bb65bd8365f461f5&hl=fi&ei=QxzSaaD_EqupwPAPjdm6qAE&start=10&sa=N&sstk=Af77f_c9zNJ1q_ZKvWcDV0a8bTg_eN_DvbQw6sT4RCkl6-iJ0nhcUQBYkHxCht6ufatpmUo4VP7TLOSEx3_iGyrSSTYlKsDwYXNLTA&ved=2ahUKEwjgrIi-pNaTAxWrFBAIHY2sDhUQ8NMDegQIWRAO
+                - generic [ref=e740]: Seuraava
+        - navigation
+    - contentinfo [ref=e741]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e742]
+      - generic [ref=e746]:
+        - generic [ref=e748]:
+          - text: Suomi
+          - generic [ref=e750]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e752] [cursor=pointer]:
+              - generic [ref=e753]: Helsinki
+              - generic [ref=e755]:
+                - text: "-"
+                - generic [ref=e756]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e758] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e761]:
+          - link "Ohje" [ref=e762] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e763] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e764] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e765] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

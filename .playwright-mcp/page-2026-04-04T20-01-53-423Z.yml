@@ -1,0 +1,435 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Treasury yields I-Bond composite rate CD rates high-yield savings account APY 2026 current Treasury yields I-Bond composite rate CD rates high-yield savings account APY 2026 current
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DTreasury%2Byields%2BI-Bond%2Bcomposite%2Brate%2BCD%2Brates%2Bhigh-yield%2Bsavings%2Baccount%2BAPY%2B2026%2Bcurrent&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQtKgLegQIEhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQs6gLegQIFhAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQtKgLegQIFRAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DTreasury%2Byields%2BI-Bond%2Bcomposite%2Brate%2BCD%2Brates%2Bhigh-yield%2Bsavings%2Baccount%2BAPY%2B2026%2Bcurrent&hl=en&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "I bonds interest rates TreasuryDirect (.gov) https://www.treasurydirect.gov › i-..." [ref=e180] [cursor=pointer]:
+                  - /url: https://www.treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/
+                  - heading "I bonds interest rates" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: TreasuryDirect (.gov)
+                    - generic [ref=e190]: https://www.treasurydirect.gov › i-...
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e201]:
+                - text: The composite rate for I bonds issued from November 2025 through April 2026 is
+                - emphasis [ref=e202]: "4.03"
+                - text: "%. Here's how we got that rate: Fixed rate, 0.90%. Semiannual (1/2 year) ..."
+              - generic [ref=e204]:
+                - text: "Puuttuu: CD ‎| Hae tällä:"
+                - link "CD" [ref=e205] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Treasury+yields+I-Bond+composite+rate+%22CD%22+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ5t4CegQIJxAB
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e211]
+              - button "Tietoja tästä tuloksesta" [ref=e212] [cursor=pointer]:
+                - img [ref=e215]
+            - generic [ref=e217]:
+              - button "What is the new I bond rate in 2026?" [ref=e223] [cursor=pointer]:
+                - generic [ref=e225]: What is the new I bond rate in 2026?
+                - img [ref=e228]
+              - button "Are ibonds a good investment in 2026?" [ref=e237] [cursor=pointer]:
+                - generic [ref=e239]: Are ibonds a good investment in 2026?
+                - img [ref=e242]
+              - button "What is the bond yield in 2026?" [ref=e251] [cursor=pointer]:
+                - generic [ref=e253]: What is the bond yield in 2026?
+                - img [ref=e256]
+              - button "How much is a $100 saving bond worth after 30 years?" [ref=e265] [cursor=pointer]:
+                - generic [ref=e267]: How much is a $100 saving bond worth after 30 years?
+                - img [ref=e270]
+          - generic [ref=e275]:
+            - heading "Web results" [level=2] [ref=e276]
+            - generic [ref=e277]:
+              - generic [ref=e280]:
+                - link "Daily Treasury Rates | U.S. Department of the ... U.S. Department of the Treasury (.gov) https://home.treasury.gov › TextView" [ref=e282] [cursor=pointer]:
+                  - /url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates&field_tdr_date_value=2026
+                  - heading "Daily Treasury Rates | U.S. Department of the ..." [level=3] [ref=e283]
+                  - generic [ref=e288]:
+                    - generic [ref=e290]: U.S. Department of the Treasury (.gov)
+                    - generic [ref=e292]: https://home.treasury.gov › TextView
+                - generic [ref=e293]:
+                  - generic [ref=e294]: ·
+                  - link "Käännä tämä sivu" [ref=e295] [cursor=pointer]:
+                    - /url: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_bill_rates&field_tdr_date_value=2026
+                - button "Tietoja tästä tuloksesta" [ref=e296] [cursor=pointer]:
+                  - img [ref=e299]
+              - generic [ref=e303]:
+                - text: The Long-Term
+                - emphasis [ref=e304]: Composite Rate
+                - text: is the unweighted average of bid
+                - emphasis [ref=e305]: yields
+                - text: on all outstanding fixed-coupon
+                - emphasis [ref=e306]: bonds
+                - text: neither due nor callable in less than 10 years. For ...
+          - generic [ref=e310]:
+            - generic [ref=e313]:
+              - link "The Current I-Bond Rate Is Mildly Attractive. Here's Why. Kiplinger https://www.kiplinger.com › savings" [ref=e315] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/personal-finance/banking/savings/savings-bonds/603848/fight-inflation-with-series-i-bonds
+                - heading "The Current I-Bond Rate Is Mildly Attractive. Here's Why." [level=3] [ref=e316]
+                - generic [ref=e321]:
+                  - generic [ref=e323]: Kiplinger
+                  - generic [ref=e325]: https://www.kiplinger.com › savings
+              - generic [ref=e326]:
+                - generic [ref=e327]: ·
+                - link "Käännä tämä sivu" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/personal-finance/banking/savings/savings-bonds/603848/fight-inflation-with-series-i-bonds
+              - button "Tietoja tästä tuloksesta" [ref=e329] [cursor=pointer]:
+                - img [ref=e332]
+            - generic [ref=e335]:
+              - generic [ref=e336]: 3.3.2026 —
+              - generic [ref=e337]:
+                - text: The current I-bond rate, valid for bonds issued November 1, 2025, through April 30, 2026, is
+                - emphasis [ref=e338]: "4.03"
+                - text: "%. That includes a fixed rate of 0.90%. To put ..."
+            - generic [ref=e340]:
+              - text: "Puuttuu: composite ‎| Hae tällä:"
+              - link "composite" [ref=e341] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Treasury+yields+I-Bond+%22composite%22+rate+CD+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ5t4CegQIWBAB
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - 'link "Treasury: Series I bond rate is 4.03% through April 2026 CNBC https://www.cnbc.com › 2025/10/31" [ref=e350] [cursor=pointer]':
+                - /url: https://www.cnbc.com/2025/10/31/treasury-i-bond-rate-through-april-2026.html
+                - 'heading "Treasury: Series I bond rate is 4.03% through April 2026" [level=3] [ref=e351]'
+                - generic [ref=e356]:
+                  - generic [ref=e358]: CNBC
+                  - generic [ref=e360]: https://www.cnbc.com › 2025/10/31
+              - generic [ref=e361]:
+                - generic [ref=e362]: ·
+                - link "Käännä tämä sivu" [ref=e363] [cursor=pointer]:
+                  - /url: https://www.cnbc.com/2025/10/31/treasury-i-bond-rate-through-april-2026.html
+              - button "Tietoja tästä tuloksesta" [ref=e364] [cursor=pointer]:
+                - img [ref=e367]
+            - generic [ref=e370]:
+              - generic [ref=e371]: 31.10.2025 —
+              - generic [ref=e372]:
+                - text: Newly purchased I
+                - emphasis [ref=e373]: bonds
+                - text: will pay 4.03% annual
+                - emphasis [ref=e374]: interest
+                - text: from Nov. 1 through April 30, which is up from the 3.98%
+                - emphasis [ref=e375]: yield
+                - text: offered through Oct. 31.
+            - generic [ref=e377]:
+              - text: "Puuttuu: CD ‎| Hae tällä:"
+              - link "CD" [ref=e378] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Treasury+yields+I-Bond+composite+rate+%22CD%22+rates+high-yield+savings+account+APY+2026+current&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ5t4CegQIWhAB
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - 'link "I Bond buying guide for 2026: Wait it out tipswatch.com https://tipswatch.com › 2026/01/25" [ref=e387] [cursor=pointer]':
+                - /url: https://tipswatch.com/2026/01/25/i-bond-buying-guide-for-2026-wait-it-out/
+                - 'heading "I Bond buying guide for 2026: Wait it out" [level=3] [ref=e388]'
+                - generic [ref=e393]:
+                  - generic [ref=e395]: tipswatch.com
+                  - generic [ref=e397]: https://tipswatch.com › 2026/01/25
+              - generic [ref=e398]:
+                - generic [ref=e399]: ·
+                - link "Käännä tämä sivu" [ref=e400] [cursor=pointer]:
+                  - /url: https://tipswatch.com/2026/01/25/i-bond-buying-guide-for-2026-wait-it-out/
+              - button "Tietoja tästä tuloksesta" [ref=e401] [cursor=pointer]:
+                - img [ref=e404]
+            - generic [ref=e407]:
+              - generic [ref=e408]: 25.1.2026 —
+              - generic [ref=e409]:
+                - text: The current composite rate is
+                - emphasis [ref=e410]: "4.0"
+                - text: 3%, up from 3.11% last January. That is better than the 13-week Treasury yield of about 3.70%. This year ...
+          - generic [ref=e414]:
+            - generic [ref=e417]:
+              - 'link "Top CD rates March 20, 2026: Lock in up to up to 4.20% Fortune https://fortune.com › article › cd-ra..." [ref=e419] [cursor=pointer]':
+                - /url: https://fortune.com/article/cd-rates-3-20-26/
+                - 'heading "Top CD rates March 20, 2026: Lock in up to up to 4.20%" [level=3] [ref=e420]'
+                - generic [ref=e425]:
+                  - generic [ref=e427]: Fortune
+                  - generic [ref=e429]: https://fortune.com › article › cd-ra...
+              - generic [ref=e430]:
+                - generic [ref=e431]: ·
+                - link "Käännä tämä sivu" [ref=e432] [cursor=pointer]:
+                  - /url: https://fortune.com/article/cd-rates-3-20-26/
+              - button "Tietoja tästä tuloksesta" [ref=e433] [cursor=pointer]:
+                - img [ref=e436]
+            - generic [ref=e439]:
+              - generic [ref=e440]: 20.3.2026 —
+              - generic [ref=e441]:
+                - text: The top-performing certificates of deposit on the market offer
+                - emphasis [ref=e442]: rates
+                - text: up to 4.20%
+                - emphasis [ref=e443]: APY
+                - text: (annual percentage
+                - emphasis [ref=e444]: yield
+                - text: ) as of March 20,
+                - emphasis [ref=e445]: "2026"
+                - text: .
+          - generic [ref=e449]:
+            - generic [ref=e452]:
+              - link "Current CD Rates For April 2026 Bankrate https://www.bankrate.com › cds › cu..." [ref=e454] [cursor=pointer]:
+                - /url: https://www.bankrate.com/banking/cds/current-cd-interest-rates/
+                - heading "Current CD Rates For April 2026" [level=3] [ref=e455]
+                - generic [ref=e460]:
+                  - generic [ref=e462]: Bankrate
+                  - generic [ref=e464]: https://www.bankrate.com › cds › cu...
+              - generic [ref=e465]:
+                - generic [ref=e466]: ·
+                - link "Käännä tämä sivu" [ref=e467] [cursor=pointer]:
+                  - /url: https://www.bankrate.com/banking/cds/current-cd-interest-rates/
+              - button "Tietoja tästä tuloksesta" [ref=e468] [cursor=pointer]:
+                - img [ref=e471]
+            - generic [ref=e475]:
+              - text: Current CD rates for April 2026 ·
+              - emphasis [ref=e476]: "1-year CD yield: 1.9 percent APY"
+              - text: "· 3-year CD yield: 1.64 percent APY · 5-year CD yield: 1.69 percent APY ..."
+            - generic [ref=e478]: "Puuttuu: Bond ‎composite"
+          - generic [ref=e482]:
+            - generic [ref=e485]:
+              - 'link "Current CD Rates, April 2026: APYs Drop NerdWallet https://www.nerdwallet.com › learn" [ref=e487] [cursor=pointer]':
+                - /url: https://www.nerdwallet.com/banking/learn/current-cd-rates
+                - 'heading "Current CD Rates, April 2026: APYs Drop" [level=3] [ref=e488]'
+                - generic [ref=e493]:
+                  - generic [ref=e495]: NerdWallet
+                  - generic [ref=e497]: https://www.nerdwallet.com › learn
+              - generic [ref=e498]:
+                - generic [ref=e499]: ·
+                - link "Käännä tämä sivu" [ref=e500] [cursor=pointer]:
+                  - /url: https://www.nerdwallet.com/banking/learn/current-cd-rates
+              - button "Tietoja tästä tuloksesta" [ref=e501] [cursor=pointer]:
+                - img [ref=e504]
+            - generic [ref=e508]:
+              - emphasis [ref=e509]: High
+              - text: "-"
+              - emphasis [ref=e510]: yield CD rates
+              - text: today can be several times the national average of 1.34%
+              - emphasis [ref=e511]: APY
+              - text: for five-year terms and the national average of 1.52%
+              - emphasis [ref=e512]: APY
+              - text: for one-year terms.
+            - generic [ref=e515]:
+              - generic [ref=e516]:
+                - img "Arvio 4,8/5 (122 758) käyttäjäarvostelua" [ref=e517]:
+                  - text: 4,8
+                  - img [ref=e518]
+                  - text: (122 758)
+                - text: ·
+              - text: Ilmainen · ‎Talous
+              - button [ref=e523]:
+                - img [ref=e525]
+          - generic [ref=e530]:
+            - generic [ref=e533]:
+              - 'link "The Bond Market in 2026: What Could Go Wrong? Charles Schwab https://www.schwab.com › story" [ref=e535] [cursor=pointer]':
+                - /url: https://www.schwab.com/learn/story/bond-market-2026-what-could-go-wrong
+                - 'heading "The Bond Market in 2026: What Could Go Wrong?" [level=3] [ref=e536]'
+                - generic [ref=e541]:
+                  - generic [ref=e543]: Charles Schwab
+                  - generic [ref=e545]: https://www.schwab.com › story
+              - generic [ref=e546]:
+                - generic [ref=e547]: ·
+                - link "Käännä tämä sivu" [ref=e548] [cursor=pointer]:
+                  - /url: https://www.schwab.com/learn/story/bond-market-2026-what-could-go-wrong
+              - button "Tietoja tästä tuloksesta" [ref=e549] [cursor=pointer]:
+                - img [ref=e552]
+            - generic [ref=e555]:
+              - generic [ref=e556]: 14.1.2026 —
+              - generic [ref=e557]:
+                - text: We expect another generally good year for
+                - emphasis [ref=e558]: bond
+                - text: returns this year, but even the
+                - emphasis [ref=e559]: best
+                - text: "-laid plans can go awry when circumstances change."
+          - generic [ref=e563]:
+            - generic [ref=e566]:
+              - link "Series I Bond Rates Deposit Accounts https://www.depositaccounts.com › ..." [ref=e568] [cursor=pointer]:
+                - /url: https://www.depositaccounts.com/blog/inflation-treasury-series-i-savings-bonds/
+                - heading "Series I Bond Rates" [level=3] [ref=e569]
+                - generic [ref=e574]:
+                  - generic [ref=e576]: Deposit Accounts
+                  - generic [ref=e578]: https://www.depositaccounts.com › ...
+              - generic [ref=e579]:
+                - generic [ref=e580]: ·
+                - link "Käännä tämä sivu" [ref=e581] [cursor=pointer]:
+                  - /url: https://www.depositaccounts.com/blog/inflation-treasury-series-i-savings-bonds/
+              - button "Tietoja tästä tuloksesta" [ref=e582] [cursor=pointer]:
+                - img [ref=e585]
+            - generic [ref=e588]:
+              - generic [ref=e589]: 1.12.2025 —
+              - generic [ref=e590]:
+                - emphasis [ref=e591]: Series I savings bonds currently pay 4.03% through April 2026
+                - text: . This is slightly higher than the previous rate of 3.98%, which was in effect ...
+        - generic [ref=e593]:
+          - generic [ref=e598]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e600]
+            - generic [ref=e602]:
+              - generic [ref=e603]:
+                - link "US bond yields" [ref=e607] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=US+bond+yields&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ1QJ6BAhfEAE
+                  - generic [ref=e608]:
+                    - generic [ref=e613]: US bond yields
+                    - img [ref=e617]
+                - link "U.S. bonds" [ref=e622] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+bonds&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ1QJ6BAhgEAE
+                  - generic [ref=e623]:
+                    - generic [ref=e628]: U.S. bonds
+                    - img [ref=e632]
+              - generic [ref=e634]:
+                - link "TIPS Bond" [ref=e638] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=TIPS+Bond&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ1QJ6BAhdEAE
+                  - generic [ref=e639]:
+                    - generic [ref=e644]: TIPS Bond
+                    - img [ref=e648]
+                - link "U.S. Treasury yields" [ref=e653] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+Treasury+yields&sa=X&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ1QJ6BAheEAE
+                  - generic [ref=e654]:
+                    - generic [ref=e659]: U.S. Treasury yields
+                    - img [ref=e663]
+          - navigation [ref=e665]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e666]
+            - text: "1"
+            - link "Page 2" [ref=e669] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=10&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAE
+              - text: "2"
+            - link "Page 3" [ref=e671] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=20&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAG
+              - text: "3"
+            - link "Page 4" [ref=e673] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=30&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAI
+              - text: "4"
+            - link "Page 5" [ref=e675] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=40&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAK
+              - text: "5"
+            - link "Page 6" [ref=e677] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=50&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAM
+              - text: "6"
+            - link "Page 7" [ref=e679] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=60&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAO
+              - text: "7"
+            - link "Page 8" [ref=e681] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=70&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAQ
+              - text: "8"
+            - link "Page 9" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=80&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAS
+              - text: "9"
+            - link "Page 10" [ref=e685] [cursor=pointer]:
+              - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=90&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8tMDegQIWxAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e687]:
+              - link "Seuraava" [ref=e688] [cursor=pointer]:
+                - /url: /search?q=Treasury+yields+I-Bond+composite+rate+CD+rates+high-yield+savings+account+APY+2026+current&sca_esv=f72dd7b5cfdb5d01&ei=L27RaZ_iMY-nwPAP2Oe_gQc&start=10&sa=N&sstk=Af77f_d9NESHLpPeHEZrG33FF9Nxf63qcnxq3BTGTqmenPnyd1lzhLGD8HMNtQ0RMcz1x3tj_X2HMXKIVZi6Y3d0fn5Qv4Bn6eksug&ved=2ahUKEwjftcS8_tSTAxWPExAIHdjzL3AQ8NMDegQIWxAW
+                - generic [ref=e690]: Seuraava
+        - navigation
+    - contentinfo [ref=e691]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e692]
+      - generic [ref=e696]:
+        - generic [ref=e698]:
+          - text: Suomi
+          - generic [ref=e700]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e702] [cursor=pointer]:
+              - generic [ref=e703]: Helsinki
+              - generic [ref=e705]:
+                - text: "-"
+                - generic [ref=e706]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e708] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e711]:
+          - link "Ohje" [ref=e712] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e713] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e714] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e715] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

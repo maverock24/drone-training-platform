@@ -1,0 +1,507 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-FI
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: best robo-advisors 2026 comparison fees returns Betterment Wealthfront Schwab best robo-advisors 2026 comparison fees returns Betterment Wealthfront Schwab
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Brobo-advisors%2B2026%2Bcomparison%2Bfees%2Breturns%2BBetterment%2BWealthfront%2BSchwab%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9Bb0K5VJ4vB7W_dqAM1oXVKswmJzssazkHJpZPtL2acni6QLEN8Rbmae_PXNShxoeSuJW69ZKfdpscJqW23YEd2N9bHmvSpDrvNhzyQl2BkleoGDBkVSsQbDZa3Bx_SJ5oy4zf&aep=1&ntc=1&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ2J8OegQIDhAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "Short videos" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9Bb0K5VJ4vB7W_dqAM1oXVKswmJzssazkHJpZPtL2acni6QLEN8Rbmae_PXNShxoeSuJW69ZKfdpscJqW23YEd2N9bHmvSpDrvNhzyQl2BkleoGDBkVSsQbDZa3Bx_SJ5oy4zf&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQs6gLegQIFRAB
+              - generic [ref=e86]: Short videos
+          - listitem [ref=e87]:
+            - link "News" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9Bb0K5VJ4vB7W_dqAM1oXVKswmJzssazkHJpZPtL2acni6QLEN8Rbmae_PXNShxoeSuJW69ZKfdpscJqW23YEd2N9bHmvSpDrvNhzyQl2BkleoGDBkVSsQbDZa3Bx_SJ5oy4zf&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ0pQJegQIExAB
+              - generic [ref=e90]: News
+          - listitem [ref=e91]:
+            - link "Videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9Bb0K5VJ4vB7W_dqAM1oXVKswmJzssazkHJpZPtL2acni6QLEN8Rbmae_PXNShxoeSuJW69ZKfdpscJqW23YEd2N9bHmvSpDrvNhzyQl2BkleoGDBkVSsQbDZa3Bx_SJ5oy4zf&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQtKgLegQIFBAB
+              - generic [ref=e94]: Videos
+          - listitem [ref=e95]:
+            - link "Forums" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9Bb0K5VJ4vB7W_dqAM1oXVKswmJzssazkHJpZPtL2acni6QLEN8Rbmae_PXNShxoeSuJW69ZKfdpscJqW23YEd2N9bHmvSpDrvNhzyQl2BkleoGDBkVSsQbDZa3Bx_SJ5oy4zf&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQs6gLegQIEhAB
+              - generic [ref=e98]: Forums
+          - listitem [ref=e99]:
+            - link "Images" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpV6Bbbmx4QVaoKkiRQ2jlwl20uNAbIkFGyPSBvJfm6h9Bb0K5VJ4vB7W_dqAM1oXVKswmJzssazkHJpZPtL2acni6QLEN8Rbmae_PXNShxoeSuJW69ZKfdpscJqW23YEd2N9bHmvSpDrvNhzyQl2BkleoGDBkVSsQbDZa3Bx_SJ5oy4zf&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQtKgLegQIERAB
+              - generic [ref=e102]: Images
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - main [ref=e125]:
+      - generic [ref=e129]:
+        - generic [ref=e133]:
+          - generic [ref=e135]:
+            - heading "Videos" [level=2] [ref=e136]
+            - button "About this result" [ref=e137] [cursor=pointer]:
+              - img [ref=e140]
+          - generic [ref=e143]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - link "The Best Robo-Advisors for 2026 (Ranked Worst to Best) YouTube Money Matters MD 2 weeks ago" [ref=e152] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=82ZXlrptdf4
+                  - heading "The Best Robo-Advisors for 2026 (Ranked Worst to Best) YouTube Money Matters MD 2 weeks ago" [level=3] [ref=e153]:
+                    - generic [ref=e156]: The Best Robo-Advisors for 2026 (Ranked Worst to Best)
+                    - generic [ref=e158]:
+                      - generic [ref=e159]:
+                        - text: YouTube
+                        - generic [ref=e160]: · Money Matters MD
+                      - generic [ref=e161]: 2 weeks ago
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Money Matters MD
+                    - button "About this result" [ref=e162] [cursor=pointer]:
+                      - img [ref=e165]
+              - button "The Best Robo-Advisors for 2026 (Ranked Worst to Best) by Money Matters MD on YouTube. Play on Google. 19:49" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]:
+                  - img [ref=e171]
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: 19:49
+                    - img [ref=e178]
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - link "Wealthfront in 2026 - Still the Best Robo-Advisor? YouTube Wanderer001 Reviews 7 Feb 2026" [ref=e189] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=fUkTRhqfWYs
+                    - heading "Wealthfront in 2026 - Still the Best Robo-Advisor? YouTube Wanderer001 Reviews 7 Feb 2026" [level=3] [ref=e190]:
+                      - generic [ref=e193]: Wealthfront in 2026 - Still the Best Robo-Advisor?
+                      - generic [ref=e195]:
+                        - generic [ref=e196]:
+                          - text: YouTube
+                          - generic [ref=e197]: · Wanderer001 Reviews
+                        - generic [ref=e198]: 7 Feb 2026
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Wanderer001 Reviews
+                      - button "About this result" [ref=e199] [cursor=pointer]:
+                        - img [ref=e202]
+                - button "Wealthfront in 2026 - Still the Best Robo-Advisor? by Wanderer001 Reviews on YouTube. Play on Google. 13:15" [ref=e204] [cursor=pointer]:
+                  - generic [ref=e205]:
+                    - img [ref=e211]
+                    - generic [ref=e214]:
+                      - generic [ref=e215]: 13:15
+                      - img [ref=e218]
+              - button "3 key moments in this video" [ref=e224] [cursor=pointer]:
+                - generic [ref=e233]:
+                  - generic [ref=e236]: 3 key moments in this video
+                  - img [ref=e238]
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - link "Experts Say THIS is the Best Robo Advisor! YouTube Nanalyze 8 Dec 2025" [ref=e248] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=El8-58mKnVs
+                    - heading "Experts Say THIS is the Best Robo Advisor! YouTube Nanalyze 8 Dec 2025" [level=3] [ref=e249]:
+                      - generic [ref=e252]: Experts Say THIS is the Best Robo Advisor!
+                      - generic [ref=e254]:
+                        - generic [ref=e255]:
+                          - text: YouTube
+                          - generic [ref=e256]: · Nanalyze
+                        - generic [ref=e257]: 8 Dec 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Nanalyze
+                      - button "About this result" [ref=e258] [cursor=pointer]:
+                        - img [ref=e261]
+                - button "Experts Say THIS is the Best Robo Advisor! by Nanalyze on YouTube. Play on Google. 12:34" [ref=e263] [cursor=pointer]:
+                  - generic [ref=e264]:
+                    - img [ref=e267]
+                    - generic [ref=e270]:
+                      - generic [ref=e271]: 12:34
+                      - img [ref=e274]
+              - button "11 key moments in this video" [ref=e280] [cursor=pointer]:
+                - generic [ref=e283]:
+                  - generic [ref=e286]: 11 key moments in this video
+                  - img [ref=e288]
+          - link "View all videos" [ref=e292] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=7&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8ccDKAJ6BAgZEAQ
+            - separator [ref=e293]
+            - generic [ref=e294]:
+              - generic [ref=e295]: View all
+              - img [ref=e297]
+        - generic [ref=e309]:
+          - heading "Thinking Searching Thinking a little longer" [level=2] [ref=e313]:
+            - generic [ref=e314]:
+              - generic [ref=e316]: Thinking
+              - generic [ref=e318]: Searching
+              - generic [ref=e328]: Thinking a little longer
+          - progressbar [ref=e330]
+        - generic [ref=e376]:
+          - heading "Discussions and forums" [level=2] [ref=e378]
+          - generic [ref=e379]:
+            - generic [ref=e382]:
+              - generic [ref=e384] [cursor=pointer]:
+                - generic [ref=e387]:
+                  - link "best robo advisors 2026 for a hands off taxable account, i've been managing my own etfs but i'm getting tired of it. Reddit · r/portfolios · 10+ comments · 3 months ago" [ref=e388]:
+                    - /url: https://www.reddit.com/r/portfolios/comments/1ps0zrh/best_robo_advisors_2026_for_a_hands_off_taxable/
+                    - generic [ref=e389]:
+                      - heading "best robo advisors 2026 for a hands off taxable account, i've been managing my own etfs but i'm getting tired of it." [level=3] [ref=e390]:
+                        - link "best robo advisors 2026 for a hands off taxable account, i've been managing my own etfs but i'm getting tired of it." [ref=e391]
+                      - generic [ref=e398]:
+                        - generic [ref=e399]: Reddit ·
+                        - generic [ref=e401]:
+                          - generic [ref=e402]:
+                            - generic [ref=e403]: r/portfolios
+                            - generic [ref=e404]:
+                              - generic [ref=e405]: ·
+                              - generic [ref=e406]: 10+ comments
+                          - generic [ref=e407]:
+                            - generic [ref=e408]: ·
+                            - generic [ref=e409]: 3 months ago
+                  - generic [ref=e415]:
+                    - generic [ref=e419]: ·
+                    - button "About this result" [ref=e424]:
+                      - img [ref=e427]
+                - button "best robo advisors 2026 for a hands off taxable account, i've been managing my own etfs but i'm getting tired of it. Reddit · r/portfolios · 10+ comments · 3 months ago" [expanded] [ref=e429]:
+                  - img [ref=e432]
+              - list [ref=e441]:
+                - listitem [ref=e442]:
+                  - generic [ref=e446]:
+                    - link "Betterment for me has done almost 20% YTD, 40% lifetime. It has tax loss harvesting and you can setup how much you want in bonds versus stock. More discussions on best robo advisors 2026 for a hands off taxable account, i've been managing my own etfs but i'm getting tired of it.":
+                      - /url: https://www.reddit.com/r/portfolios/comments/1ps0zrh/best_robo_advisors_2026_for_a_hands_off_taxable/
+                    - generic [ref=e448]:
+                      - text: Betterment for me has done almost 20% YTD, 40% lifetime. It has tax loss harvesting and you can setup how much you want in bonds versus stock.
+                      - link [ref=e449] [cursor=pointer]:
+                        - /url: https://www.reddit.com/r/portfolios/comments/1ps0zrh/best_robo_advisors_2026_for_a_hands_off_taxable/
+                        - generic [ref=e450]: More
+                        - img [ref=e452]
+            - generic [ref=e458] [cursor=pointer]:
+              - generic [ref=e461]:
+                - link "Best robo advisor for $100k Reddit · r/investing · 20+ comments · 6 months ago" [ref=e462]:
+                  - /url: https://www.reddit.com/r/investing/comments/1nzk8pc/best_robo_advisor_for_100k/
+                  - generic [ref=e463]:
+                    - heading "Best robo advisor for $100k" [level=3] [ref=e464]:
+                      - link "Best robo advisor for $100k" [ref=e465]
+                    - generic [ref=e472]:
+                      - generic [ref=e473]: Reddit ·
+                      - generic [ref=e475]:
+                        - generic [ref=e476]:
+                          - generic [ref=e477]: r/investing
+                          - generic [ref=e478]:
+                            - generic [ref=e479]: ·
+                            - generic [ref=e480]: 20+ comments
+                        - generic [ref=e481]:
+                          - generic [ref=e482]: ·
+                          - generic [ref=e483]: 6 months ago
+                - generic [ref=e489]:
+                  - generic [ref=e493]: ·
+                  - button "About this result" [ref=e498]:
+                    - img [ref=e501]
+              - button "Best robo advisor for $100k Reddit · r/investing · 20+ comments · 6 months ago" [ref=e503]:
+                - img [ref=e506]
+            - link "See more discussions" [ref=e509] [cursor=pointer]:
+              - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&udm=18&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8poLegQINhAD
+              - separator [ref=e510]
+              - generic [ref=e511]:
+                - generic [ref=e512]: See more
+                - img [ref=e514]
+        - generic [ref=e518]:
+          - heading "Web results" [level=2] [ref=e519]
+          - generic [ref=e520]:
+            - generic [ref=e523]:
+              - 'link "Best Robo-Advisors: Top Picks for March 2026 NerdWallet https://www.nerdwallet.com › Investing" [ref=e525] [cursor=pointer]':
+                - /url: https://www.nerdwallet.com/investing/best/robo-advisors
+                - 'heading "Best Robo-Advisors: Top Picks for March 2026" [level=3] [ref=e526]'
+                - generic [ref=e531]:
+                  - generic [ref=e533]: NerdWallet
+                  - generic [ref=e535]: https://www.nerdwallet.com › Investing
+              - button "About this result" [ref=e536] [cursor=pointer]:
+                - img [ref=e539]
+            - generic [ref=e542]:
+              - generic [ref=e543]:
+                - text: "In our analysis, four robo-advisors earned the highest scores from our team:"
+                - emphasis [ref=e544]: Wealthfront, Schwab Intelligent Portfolios, Betterment
+                - text: and Fidelity Go. They ...
+              - link "Read more" [ref=e545] [cursor=pointer]:
+                - /url: https://www.nerdwallet.com/investing/best/robo-advisors#:~:text=In%20our%20analysis%2C%20four%20robo%2Dadvisors,Betterment%20and%20Fidelity%20Go.%20They
+            - generic [ref=e548]:
+              - generic [ref=e549]:
+                - img "Rated 4,8 out of 5, (116 500) user reviews" [ref=e550]:
+                  - text: 4,8
+                  - img [ref=e551]
+                  - text: (116 500)
+                - text: ·
+              - text: Free · ‎Finance
+              - button [ref=e556]:
+                - img [ref=e558]
+        - generic [ref=e563]:
+          - generic [ref=e566]:
+            - link "The best robo-advisors of April 2026 CNBC https://www.cnbc.com › CNBC Select › Investing" [ref=e568] [cursor=pointer]:
+              - /url: https://www.cnbc.com/select/best-robo-advisors/
+              - heading "The best robo-advisors of April 2026" [level=3] [ref=e569]
+              - generic [ref=e574]:
+                - generic [ref=e576]: CNBC
+                - generic [ref=e578]: https://www.cnbc.com › CNBC Select › Investing
+            - button "About this result" [ref=e579] [cursor=pointer]:
+              - img [ref=e582]
+          - generic [ref=e585]:
+            - generic [ref=e586]: 4 days ago —
+            - generic [ref=e587]:
+              - text: CNBC Select
+              - emphasis [ref=e588]: compared over 20 different robo-advisors
+              - text: to choose the best based on diversification, fees, and more.
+            - link "Read more" [ref=e589] [cursor=pointer]:
+              - /url: https://www.cnbc.com/select/best-robo-advisors/#:~:text=CNBC%20Select%20compared%20over%2020,on%20diversification%2C%20fees%2C%20and%20more.
+        - generic [ref=e593]:
+          - generic [ref=e596]:
+            - link "Best Robo Advisors of 2026 WSJ https://www.wsj.com › ... › Financial Advisors" [ref=e598] [cursor=pointer]:
+              - /url: https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors
+              - heading "Best Robo Advisors of 2026" [level=3] [ref=e599]
+              - generic [ref=e604]:
+                - generic [ref=e606]: WSJ
+                - generic [ref=e608]: https://www.wsj.com › ... › Financial Advisors
+            - button "About this result" [ref=e609] [cursor=pointer]:
+              - img [ref=e612]
+          - generic [ref=e615]:
+            - generic [ref=e616]: 23 Feb 2026 —
+            - generic [ref=e617]:
+              - emphasis [ref=e618]: Betterment
+              - text: · $10 to invest · $5/month up to $24,000, up to 0.25% ; Ally Invest Robo Portfolios · $100 · Up to 0.30% ; Wealthfront · $500 · 0.25%.
+            - link "Read more" [ref=e619] [cursor=pointer]:
+              - /url: https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors#:~:text=Betterment&text=%2410%20to%20invest&text=%245%2Fmonth%20up%20to%20%2424%2C000%2C%20up,to%200.25%25&text=Ally%20Invest%20Robo%20Portfolios&text=%24100&text=Up%20to%200.30%25&text=Wealthfront&text=%24500&text=0.25%25
+        - generic [ref=e623]:
+          - generic [ref=e626]:
+            - link "The Best Robo-Advisors Of 2026 Forbes https://www.forbes.com › Advisor › Investing" [ref=e628] [cursor=pointer]:
+              - /url: https://www.forbes.com/advisor/investing/best-robo-advisors/
+              - heading "The Best Robo-Advisors Of 2026" [level=3] [ref=e629]
+              - generic [ref=e634]:
+                - generic [ref=e636]: Forbes
+                - generic [ref=e638]: https://www.forbes.com › Advisor › Investing
+            - button "About this result" [ref=e639] [cursor=pointer]:
+              - img [ref=e642]
+          - generic [ref=e645]:
+            - generic [ref=e646]: 2 days ago —
+            - generic [ref=e647]:
+              - text: Find the
+              - emphasis [ref=e648]: best robo-advisors of 2026
+              - text: with our comprehensive comparison of fees, features and investment options. Make an informed choice to ...
+          - generic [ref=e650]:
+            - text: "Missing: Wealthfront ‎| Show results with:"
+            - link "Wealthfront" [ref=e651] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=best+robo-advisors+2026+comparison+fees+returns+Betterment+%22Wealthfront%22+Schwab&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ5t4CegQINBAB
+        - generic [ref=e655]:
+          - generic [ref=e658]:
+            - link "Best Robo-Advisors In 2026 Bankrate https://www.bankrate.com › investing › best-robo-advisors" [ref=e660] [cursor=pointer]:
+              - /url: https://www.bankrate.com/investing/best-robo-advisors/
+              - heading "Best Robo-Advisors In 2026" [level=3] [ref=e661]
+              - generic [ref=e666]:
+                - generic [ref=e668]: Bankrate
+                - generic [ref=e670]: https://www.bankrate.com › investing › best-robo-advisors
+            - button "About this result" [ref=e671] [cursor=pointer]:
+              - img [ref=e674]
+          - generic [ref=e677]:
+            - generic [ref=e678]:
+              - text: Best of all,
+              - emphasis [ref=e679]: Schwab charges no management fee
+              - text: ". (Note: In 2026, Schwab discontinued its \"premium\" tier of Intelligent Portfolios, which charged a fee but ..."
+            - link "Read more" [ref=e680] [cursor=pointer]:
+              - /url: https://www.bankrate.com/investing/best-robo-advisors/#:~:text=Best%20of%20all%2C%20Schwab%20charges,access%20to%20certified%20financial%20planners.
+        - generic [ref=e684]:
+          - generic [ref=e687]:
+            - link "Best Robo-Advisors for April 2026 Investopedia https://www.investopedia.com › the-best-robo-advisors-..." [ref=e689] [cursor=pointer]:
+              - /url: https://www.investopedia.com/the-best-robo-advisors-8764849
+              - heading "Best Robo-Advisors for April 2026" [level=3] [ref=e690]
+              - generic [ref=e695]:
+                - generic [ref=e697]: Investopedia
+                - generic [ref=e699]: https://www.investopedia.com › the-best-robo-advisors-...
+            - button "About this result" [ref=e700] [cursor=pointer]:
+              - img [ref=e703]
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - emphasis [ref=e708]: Wealthfront is the best overall robo-advisor
+              - text: ", thanks to key features that include stock investing, low-interest rate borrowing, and dynamic tax-loss harvesting."
+            - link "Read more" [ref=e709] [cursor=pointer]:
+              - /url: https://www.investopedia.com/the-best-robo-advisors-8764849#:~:text=After%20careful%20analysis%2C%20Investopedia's%20in%2Dhouse,borrowing%2C%20and%20dynamic%20tax%2Dloss%20harvesting.
+        - generic [ref=e713]:
+          - generic [ref=e716]:
+            - link "The Largest Robo-Advisors by AUM, Users, and Returns The Motley Fool https://www.fool.com › Research" [ref=e718] [cursor=pointer]:
+              - /url: https://www.fool.com/money/research/largest-robo-advisors/
+              - heading "The Largest Robo-Advisors by AUM, Users, and Returns" [level=3] [ref=e719]
+              - generic [ref=e724]:
+                - generic [ref=e726]: The Motley Fool
+                - generic [ref=e728]: https://www.fool.com › Research
+            - button "About this result" [ref=e729] [cursor=pointer]:
+              - img [ref=e732]
+          - generic [ref=e735]:
+            - generic [ref=e736]: 12 Feb 2026 —
+            - generic [ref=e737]:
+              - emphasis [ref=e738]: Schwab Intelligent Portfolios
+              - text: is the only major robo-advisor that charges no advisory fee on its standard plan. The trade-off is that its ...
+            - link "Read more" [ref=e739] [cursor=pointer]:
+              - /url: https://www.fool.com/money/research/largest-robo-advisors/#:~:text=Schwab%20Intelligent%20Portfolios%20is%20the,The%20trade%2Doff%20is%20that%20its
+        - generic [ref=e743]:
+          - generic [ref=e746]:
+            - link "The Best Robo-Advisors of 2026 SmartAsset https://smartasset.com › SmartReads › Retirement" [ref=e748] [cursor=pointer]:
+              - /url: https://smartasset.com/retirement/the-top-10-robo-advisors
+              - heading "The Best Robo-Advisors of 2026" [level=3] [ref=e749]
+              - generic [ref=e754]:
+                - generic [ref=e756]: SmartAsset
+                - generic [ref=e758]: https://smartasset.com › SmartReads › Retirement
+            - button "About this result" [ref=e759] [cursor=pointer]:
+              - img [ref=e762]
+          - generic [ref=e765]:
+            - generic [ref=e766]: 1 Jan 2026 —
+            - generic [ref=e767]:
+              - emphasis [ref=e768]: Betterment's annual advisory fee is lower than what you'll pay with other advisors
+              - text: ", which may be a good incentive to consider setting up a ..."
+            - link "Read more" [ref=e769] [cursor=pointer]:
+              - /url: https://smartasset.com/retirement/the-top-10-robo-advisors#:~:text=Betterment's%20annual%20advisory%20fee%20is,least%20%2420%2C000%20if%20that's%20doable.
+      - generic [ref=e771]:
+        - generic [ref=e776]:
+          - heading "People also search for" [level=2] [ref=e778]
+          - generic [ref=e780]:
+            - generic [ref=e781]:
+              - link "Best robo advisor returns" [ref=e785] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+robo+advisor+returns&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhDEAE
+                - generic [ref=e786]:
+                  - generic [ref=e791]: Best robo advisor returns
+                  - img [ref=e795]
+              - link "Robo-advisor performance comparison" [ref=e800] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Robo-advisor+performance+comparison&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhKEAE
+                - generic [ref=e801]:
+                  - generic [ref=e806]: Robo-advisor performance comparison
+                  - img [ref=e810]
+              - link "Best robo-advisor 2026" [ref=e815] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+robo-advisor+2026&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhJEAE
+                - generic [ref=e816]:
+                  - generic [ref=e821]: Best robo-advisor 2026
+                  - img [ref=e825]
+              - link "Betterment robo-advisor" [ref=e830] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Betterment+robo-advisor&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhIEAE
+                - generic [ref=e831]:
+                  - generic [ref=e836]: Betterment robo-advisor
+                  - img [ref=e840]
+            - generic [ref=e842]:
+              - link "Best robo-advisor for beginners" [ref=e846] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+robo-advisor+for+beginners&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhEEAE
+                - generic [ref=e847]:
+                  - generic [ref=e852]: Best robo-advisor for beginners
+                  - img [ref=e856]
+              - link "Betterment robo advisor fees" [ref=e861] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Betterment+robo+advisor+fees&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhFEAE
+                - generic [ref=e862]:
+                  - generic [ref=e867]: Betterment robo advisor fees
+                  - img [ref=e871]
+              - link "Betterment robo advisor returns" [ref=e876] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Betterment+robo+advisor+returns&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhHEAE
+                - generic [ref=e877]:
+                  - generic [ref=e882]: Betterment robo advisor returns
+                  - img [ref=e886]
+              - link "Vanguard Digital Advisor" [ref=e891] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Vanguard+Digital+Advisor&sa=X&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ1QJ6BAhGEAE
+                - generic [ref=e892]:
+                  - generic [ref=e897]: Vanguard Digital Advisor
+                  - img [ref=e901]
+        - navigation [ref=e903]:
+          - heading "Page navigation" [level=1] [ref=e904]
+          - text: "1"
+          - link "Page 2" [ref=e907] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=10&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAE
+            - text: "2"
+          - link "Page 3" [ref=e909] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=20&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAG
+            - text: "3"
+          - link "Page 4" [ref=e911] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=30&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAI
+            - text: "4"
+          - link "Page 5" [ref=e913] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=40&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAK
+            - text: "5"
+          - link "Page 6" [ref=e915] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=50&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAM
+            - text: "6"
+          - link "Page 7" [ref=e917] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=60&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAO
+            - text: "7"
+          - link "Page 8" [ref=e919] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=70&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAQ
+            - text: "8"
+          - link "Page 9" [ref=e921] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=80&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAS
+            - text: "9"
+          - link "Page 10" [ref=e923] [cursor=pointer]:
+            - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=90&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8tMDegQINxAU
+            - text: "10"
+          - heading "Next" [level=2] [ref=e925]:
+            - link "Next" [ref=e926] [cursor=pointer]:
+              - /url: /search?q=best+robo-advisors+2026+comparison+fees+returns+Betterment+Wealthfront+Schwab&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=X2zRaae2Mc68wPAPmYn9iAQ&start=10&sa=N&sstk=Af77f_fQIe0BmDGWNvr3s_RFRTwueIDwBLsSo5f3WWDeUCktekX6kzbclFDZ-Qrc_lNGJDUBBdxSQpKwXMgwgj9R2qnShyZ-zz1Fag&ved=2ahUKEwjn4aPf_NSTAxVOHhAIHZlEH0EQ8NMDegQINxAW
+              - generic [ref=e928]: Next
+      - navigation
+    - contentinfo [ref=e929]:
+      - heading "Footer links" [level=1] [ref=e930]
+      - generic [ref=e934]:
+        - generic [ref=e936]:
+          - text: Finland
+          - generic [ref=e938]:
+            - button "Helsinki - From your IP address" [ref=e940] [cursor=pointer]:
+              - generic [ref=e941]: Helsinki
+              - generic [ref=e943]:
+                - text: "-"
+                - generic [ref=e944]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e946] [cursor=pointer]: Update location
+        - generic [ref=e949]:
+          - link "Help" [ref=e950] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-FI&fg=1
+          - link "Send feedback" [ref=e951] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e952] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-FI&fg=1
+          - link "Terms" [ref=e953] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-FI&fg=1

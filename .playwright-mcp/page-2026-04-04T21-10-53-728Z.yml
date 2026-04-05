@@ -1,0 +1,225 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - link "Siirry sisältöön" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - navigation "Muut sivustot" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Sinulle" [ref=e10] [cursor=pointer]:
+              - /url: /sinulle
+          - listitem [ref=e11]:
+            - link "Yrityksille" [ref=e12] [cursor=pointer]:
+              - /url: /yrityksille
+          - listitem [ref=e13]:
+            - link "Private Banking" [ref=e14] [cursor=pointer]:
+              - /url: /private-banking
+          - listitem [ref=e15]:
+            - button "Muut sivustot" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]:
+                - generic [ref=e22]: Muut sivustot
+                - img [ref=e23]
+      - generic [ref=e27]:
+        - navigation "Main navigation" [ref=e28]:
+          - link "Danske Bank" [ref=e29] [cursor=pointer]:
+            - /url: /sinulle
+            - generic [ref=e30]:
+              - img "Danske Bank"
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - button "Lainat" [ref=e34] [cursor=pointer]
+            - listitem [ref=e35]:
+              - button "Säästä ja sijoita" [ref=e36] [cursor=pointer]
+            - listitem [ref=e37]:
+              - button "Päivittäispalvelut" [ref=e38] [cursor=pointer]
+            - listitem [ref=e39]:
+              - button "Elämäni" [ref=e40] [cursor=pointer]
+            - listitem [ref=e41]:
+              - link "Asiakastuki" [ref=e42] [cursor=pointer]:
+                - /url: /sinulle/asiakaspalvelu
+            - listitem [ref=e43]:
+              - button "Asiakkuus ja edut" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "EN" [ref=e49] [cursor=pointer]:
+                - /url: /en
+            - listitem [ref=e50]:
+              - link "SV" [ref=e51] [cursor=pointer]:
+                - /url: /se
+          - button "Hae" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Kirjaudu" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Kirjaudu
+            - img [ref=e60]
+  - main [ref=e62]:
+    - generic [ref=e67]:
+      - heading "Valitettavasti hakemaasi sivua ei löytynyt" [level=1] [ref=e68]
+      - paragraph [ref=e69]: Hae valikosta tai käytä hakua löytääksesi etsimäsi sivu.
+      - generic [ref=e70]:
+        - link:
+          - /url: /
+        - link "Jatka etusivulle" [ref=e71] [cursor=pointer]:
+          - /url: /sinulle/sinulle
+  - generic [ref=e74]:
+    - heading "Kiinnostuitko? Tervetuloa Danske Bankiin." [level=2] [ref=e77]:
+      - text: Kiinnostuitko?
+      - text: Tervetuloa Danske Bankiin.
+    - generic [ref=e80]:
+      - link "Ota yhteyttä" [ref=e81] [cursor=pointer]:
+        - /url: https://danskebank.fi/sinulle/asiakaspalvelu?section=contact
+      - link "Tule asiakkaaksi" [ref=e82] [cursor=pointer]:
+        - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+  - contentinfo [ref=e83]:
+    - generic [ref=e85]:
+      - link "Danske Bank" [ref=e87] [cursor=pointer]:
+        - /url: /sinulle
+        - img "Danske Bank" [ref=e88]
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - group:
+            - generic "Työkalut":
+              - paragraph: Työkalut
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - link "Lainahakemus" [ref=e94] [cursor=pointer]:
+                  - /url: /sinulle/lainat/hae/lainahakemus
+              - listitem [ref=e95]:
+                - link "Lainalaskuri" [ref=e96] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/lainalaskuri
+              - listitem [ref=e97]:
+                - link "Valuuttalaskuri" [ref=e98] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/valuuttalaskuri
+        - generic [ref=e99]:
+          - group:
+            - generic "Hyödyllistä tietoa":
+              - paragraph: Hyödyllistä tietoa
+            - list [ref=e100]:
+              - listitem [ref=e101]:
+                - link "Kortit" [ref=e102] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/kortit
+              - listitem [ref=e103]:
+                - link "Pankkitunnukset ja kirjautuminen" [ref=e104] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/pankkitunnukset
+              - listitem [ref=e105]:
+                - link "Saavutettavuus" [ref=e106] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/saavutettavuus
+              - listitem [ref=e107]:
+                - link "Artikkelit" [ref=e108] [cursor=pointer]:
+                  - /url: /sinulle/artikkelit/arkisto/artikkelit
+              - listitem [ref=e109]:
+                - link "Talousrikollisuuden torjunta" [ref=e110] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/tarkkana-verkossa/talousrikollisuuden-torjunta
+              - listitem [ref=e111]:
+                - link "Ilmiantosivusto" [ref=e112] [cursor=pointer]:
+                  - /url: /sinulle/links/ilmianto
+        - generic [ref=e113]:
+          - group:
+            - generic "Asiakaspalvelu":
+              - paragraph: Asiakaspalvelu
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - link "Yhteystiedot" [ref=e116] [cursor=pointer]:
+                  - /url: /sinulle/links/yhteystiedotpb
+              - listitem [ref=e117]:
+                - link "Tule asiakkaaksi" [ref=e118] [cursor=pointer]:
+                  - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+              - listitem [ref=e119]:
+                - link "Anna palautetta" [ref=e120] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/anna-palautetta
+        - generic [ref=e121]:
+          - group:
+            - generic "Tietoa pankista":
+              - paragraph: Tietoa pankista
+            - list [ref=e122]:
+              - listitem [ref=e123]:
+                - link "Tietoa pankista" [ref=e124] [cursor=pointer]:
+                  - /url: /sinulle/links/tietoa-pankista
+              - listitem [ref=e125]:
+                - link "Sijoittajasuhteet" [ref=e126] [cursor=pointer]:
+                  - /url: /sinulle/links/sijoittajasuhteet
+              - listitem [ref=e127]:
+                - link "Medialle" [ref=e128] [cursor=pointer]:
+                  - /url: /sinulle/links/medialle
+              - listitem [ref=e129]:
+                - link "Ura" [ref=e130] [cursor=pointer]:
+                  - /url: /sinulle/links/ura
+              - listitem [ref=e131]:
+                - link "Vastuullisuus" [ref=e132] [cursor=pointer]:
+                  - /url: /sinulle/links/vastuullisuus
+              - listitem [ref=e133]:
+                - link "Kiinnitysluottopankki" [ref=e134] [cursor=pointer]:
+                  - /url: /sinulle/links/kiinnitysluottopankki
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: Tämä verkkosivusto ei ole tarkoitettu eikä sitä saa käyttää kukaan Australiassa asuva luonnollinen henkilö tai minkään tyyppinen Australiassa kotipaikkaansa pitävä, rekisteröity tai perustettu yritys.
+          - paragraph [ref=e146]: Danske Bank ei tarjoa sijoitusneuvontapalveluja ("sijoitusneuvontapalvelut") tai osakkeiden tai muiden arvopaperien kaupankäynti-, välitys- ja myyntipalveluja ("välitys- ja myyntipalvelut") yhdysvaltalaisille henkilöille, jotka määritellään jäljempänä, ja tämän verkkosivuston sisältö ei ole tarkoitettu jaeltavaksi tällaisille yhdysvaltalaisille henkilöille tai heidän käytettäväkseen. Mitään tämän verkkosivuston sisällössä ei pidä tulkita sijoitusneuvontapalvelujen tai välitys- ja myyntipalvelujen tarjoamiseksi yhdysvaltalaisille henkilöille.
+          - button "Lue lisää »" [ref=e147] [cursor=pointer]
+        - generic "Lue lisää »":
+          - paragraph [ref=e148]:
+            - text: Sijoitusneuvontapalvelujen osalta yhdysvaltalaiseksi henkilöksi katsotaan Yhdysvalloissa asuva luonnollinen henkilö; tai Yhdysvalloissa rekisteriin merkitty tai perustettu yritys tai yhtiö, pois lukien pätevistä liiketoiminnallisista syistä toimivan, säännellyn yhdysvaltalaisen vakuutusyhtiön tai pankin offshore-sivuliikkeet tai asiamiehet; tai ulkomaisen, Yhdysvalloissa sijaitsevan ulkomaisen tahon sivuliike tai asiamies; tai trusti, jonka edunvalvoja on yhdysvaltalainen henkilö, paitsi jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai kuolinpesä, jonka pesäjakaja tai pesänhoitaja on yhdysvaltalainen henkilö, paitsi jos kuolinpesään sovelletaan ulkomaista lainsäädäntöä ja jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai ei-harkinnanvarainen, yhdysvaltalaisen henkilön hyväksi hallinnoitu tili; tai yhdysvaltalaisen välittäjän tai uskotun miehen hallinnoima harkinnanvarainen tili, paitsi jos sitä hallinnoidaan ei-yhdysvaltalaisen henkilön hyväksi; tai mikä tahansa Yhdysvaltain arvopaperilainsäädännön kiertämistarkoituksessa perustettu tai toimiva taho. Termi ”yhdysvaltalainen henkilö” ei tarkoita ketään henkilöä, joka ei ollut Yhdysvalloissa tullessaan Danske Bankin sijoitusneuvonnan asiakkaaksi.
+            - text: Välitys- ja myyntipalvelujen osalta yhdysvaltalainen henkilö on kuka tahansa Yhdysvalloissa sijaitseva asiakas, pois lukien asiakkaat, jotka asuivat Yhdysvaltojen ulkopuolella silloin, kun asiakassuhde Danske Bankiin syntyi ja jotka – Yhdysvalloissa ollessaan – eivät ole (i) Yhdysvaltain kansalaisia (mukaan lukien Yhdysvaltojen ja toisen maan kaksoiskansalaisuus), (ii) laillisia, pysyviä Yhdysvaltain asukkaita (eli green cardin haltija) eivätkä (iii) oleskele Yhdysvalloissa muuten kuin väliaikaisesti.
+      - text: "Danske Bank A/S, Suomen sivuliike, Televisiokatu 1, Helsinki, PL 1243, 00075 DANSKE BANK, BIC: DABAFIHH"
+      - link "Yhteystiedot" [ref=e149] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Yleiset ehdot" [ref=e150] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Tietosuoja" [ref=e151] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/tietosuoja/tietosuojatiedote
+      - text: "|"
+      - link "Evästekäytäntö" [ref=e152] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/evasteet
+      - text: "|"
+      - link "Saavutettavuus" [ref=e153] [cursor=pointer]:
+        - /url: /saavutettavuus
+      - text: "|"
+      - link "Ilmiantosivusto" [ref=e154] [cursor=pointer]:
+        - /url: https://danskebank.whistleblowernetwork.net
+      - text: Puhelut voidaan nauhoittaa turvallisuussyistä sekä dokumentointia varten
+  - dialog "Danske Bankin evästeiden käyttö ja henkilötietojen käsittely Käytämme omista evästeistämme ja kolmannen osapuolen evästeistä saatavia tietoja. Käytämme evästeitä ja käsittelemme henkilötietoja asetustesi muistamiseen, palvelujemme parantamiseen, sivuston liikenteen seurantaan, sinulle kohdennettujen viestien näyttämiseen (mukaan lukien profilointi) ja sivuston käyttösi seurantaan. Voit hyväksyä kaikkien evästeiden käytön, toiminnallisten, tilastollisten ja markkinointievästeiden käytön tai vain välttämättömien evästeiden käytön. Suostumuksesi kattaa sekä evästeiden käytön että niihin liittyvien henkilötietojen käsittelyn. Voit lukea lisätietoja evästeiden käytöstä ja henkilötietojen käsittelystä. Jos haluat lisätietoja suostumuksesi peruuttamisesta, napsauta sivuston alareunassa olevaa evästekäytäntö-linkkiä." [ref=e156]:
+    - generic [ref=e159]:
+      - generic [active] [ref=e160]:
+        - heading "Danske Bankin evästeiden käyttö ja henkilötietojen käsittely" [level=2] [ref=e161]
+        - text: Käytämme omista evästeistämme ja kolmannen osapuolen evästeistä saatavia tietoja. Käytämme evästeitä ja käsittelemme henkilötietoja asetustesi muistamiseen, palvelujemme parantamiseen, sivuston liikenteen seurantaan, sinulle kohdennettujen viestien näyttämiseen (mukaan lukien profilointi) ja sivuston käyttösi seurantaan. Voit hyväksyä kaikkien evästeiden käytön, toiminnallisten, tilastollisten ja markkinointievästeiden käytön tai vain välttämättömien evästeiden käytön. Suostumuksesi kattaa sekä evästeiden käytön että niihin liittyvien henkilötietojen käsittelyn. Voit lukea lisätietoja
+        - link "evästeiden käytöstä" [ref=e162] [cursor=pointer]:
+          - /url: /evasteet
+        - text: ja
+        - link "henkilötietojen käsittelystä" [ref=e163] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/tietosuoja/tietosuojatiedote
+        - text: . Jos haluat lisätietoja suostumuksesi peruuttamisesta, napsauta sivuston alareunassa olevaa evästekäytäntö-linkkiä.
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - checkbox "Välttämättömät evästeet Välttämättömien evästeiden ansiosta sivustomme toimii oikein, sillä ne aktivoivat perustoimintoja, kuten sivustolla navigoinnin ja sivuston suojattujen osien käytön." [checked] [disabled]
+          - generic [ref=e166] [cursor=pointer]:
+            - strong [ref=e167]: Välttämättömät evästeet
+            - text: Välttämättömien evästeiden ansiosta sivustomme toimii oikein, sillä ne aktivoivat perustoimintoja, kuten sivustolla navigoinnin ja sivuston suojattujen osien käytön.
+        - generic [ref=e168]:
+          - checkbox "Toiminnalliset evästeet Toiminnallisten evästeiden (eli mieltymysevästeiden) ansiosta sivustomme muistaa valitsemasi asetukset sivuston näyttötavasta."
+          - generic [ref=e169] [cursor=pointer]:
+            - strong [ref=e170]: Toiminnalliset evästeet
+            - text: Toiminnallisten evästeiden (eli mieltymysevästeiden) ansiosta sivustomme muistaa valitsemasi asetukset sivuston näyttötavasta.
+        - generic [ref=e171]:
+          - checkbox "Tilastolliset evästeet Tilastollisten evästeiden avulla seuraamme sivustolla kävijöiden toimintaa koostetusti. Tämän ansiosta voimme mitata sivustomme tehokkuutta ja optimoida sitä."
+          - generic [ref=e172] [cursor=pointer]:
+            - strong [ref=e173]: Tilastolliset evästeet
+            - text: Tilastollisten evästeiden avulla seuraamme sivustolla kävijöiden toimintaa koostetusti. Tämän ansiosta voimme mitata sivustomme tehokkuutta ja optimoida sitä.
+        - generic [ref=e174]:
+          - checkbox "Markkinointievästeet Markkinointievästeiden avulla pystymme tunnistamaan sinut (laitteesi) ja profiloimaan toimintasi sinulle merkityksellisen sisällön tarjoamiseksi."
+          - generic [ref=e175] [cursor=pointer]:
+            - strong [ref=e176]: Markkinointievästeet
+            - text: Markkinointievästeiden avulla pystymme tunnistamaan sinut (laitteesi) ja profiloimaan toimintasi sinulle merkityksellisen sisällön tarjoamiseksi.
+    - generic [ref=e180]:
+      - button "OK välttämättömiin" [ref=e181] [cursor=pointer]
+      - button "OK kaikkiin" [ref=e182] [cursor=pointer]
+    - button "Sulje" [ref=e183] [cursor=pointer]:
+      - img [ref=e184]
+  - generic:
+    - generic [ref=e186]: Näytä
+    - generic [ref=e187]: Sulje
+    - generic [ref=e188]: "Show more rows: All table rows are already visible for screen readers."
+    - generic [ref=e189]: "Show less rows: All table rows are already visible for screen readers."
+  - status [ref=e190]
+  - status [ref=e191]

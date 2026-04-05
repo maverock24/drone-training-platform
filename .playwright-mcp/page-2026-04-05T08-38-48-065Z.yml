@@ -1,0 +1,421 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: PTT asuntomarkkinaennuste 2026 Helsinki "-2%" OR "-1%" ennuste PTT asuntomarkkinaennuste 2026 Helsinki "-2%" OR "-1%" ennuste
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DPTT%2Basuntomarkkinaennuste%2B2026%2BHelsinki%2B%2522-2%2525%2522%2BOR%2B%2522-1%2525%2522%2Bennuste%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQs6gLegQIExAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e156]: Odota vielä hetki
+        - progressbar [ref=e158]
+      - main [ref=e200]:
+        - generic [ref=e204]:
+          - generic [ref=e207]:
+            - heading "Tulokset internetistä" [level=2] [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e212]:
+                - link "Alueellinen asuntomarkkinaennuste 2026 - PTT ptt.fi https://www.ptt.fi › Ennusteet" [ref=e214] [cursor=pointer]:
+                  - /url: https://www.ptt.fi/ennusteet/alueellinen-asuntomarkkinaennuste-2026/
+                  - heading "Alueellinen asuntomarkkinaennuste 2026 - PTT" [level=3] [ref=e215]
+                  - generic [ref=e220]:
+                    - generic [ref=e222]: ptt.fi
+                    - generic [ref=e224]: https://www.ptt.fi › Ennusteet
+                - button "Tietoja tästä tuloksesta" [ref=e225] [cursor=pointer]:
+                  - img [ref=e228]
+              - generic [ref=e231]:
+                - generic [ref=e232]: 12.2.2026 —
+                - generic [ref=e233]:
+                  - text: Kotitalouksien epävarmuus jarruttaa vielä asuntohintojen nousua ;
+                  - emphasis [ref=e234]: Helsinki
+                  - text: ", -"
+                  - emphasis [ref=e235]: "2"
+                  - text: ",0, -"
+                  - emphasis [ref=e236]: "1"
+                  - text: ",4 ; Espoo-Kauniainen, -"
+                  - emphasis [ref=e237]: "2"
+                  - text: ",5, -"
+                  - emphasis [ref=e238]: "1"
+                  - text: ",5 ; Vantaa, -4,6, -"
+                  - emphasis [ref=e239]: "2"
+                  - text: ",8 ; Turku ..."
+          - generic [ref=e243]:
+            - generic [ref=e246]:
+              - link "Asuntomarkkinoiden tunnelmat apeat vielä tänä vuonna ptt.fi https://www.ptt.fi › Asuntomarkkkinaennuste-2026" [ref=e248] [cursor=pointer]:
+                - /url: https://www.ptt.fi/wp-content/uploads/2026/02/Asuntomarkkkinaennuste-2026.pdf
+                - heading "Asuntomarkkinoiden tunnelmat apeat vielä tänä vuonna" [level=3] [ref=e249]
+                - generic [ref=e254]:
+                  - generic [ref=e256]: ptt.fi
+                  - generic [ref=e258]: https://www.ptt.fi › Asuntomarkkkinaennuste-2026
+              - generic [ref=e259]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e260] [cursor=pointer]:
+                - img [ref=e263]
+            - generic [ref=e266]:
+              - generic [ref=e267]: 12.2.2026 —
+              - generic [ref=e268]:
+                - emphasis [ref=e269]: Helsinki 2026
+                - text: . Veera Holappa ja Markus Lahtinen. Page
+                - emphasis [ref=e270]: "2"
+                - text: .
+                - emphasis [ref=e271]: PTT
+                - text: "-ennusteet"
+                - emphasis [ref=e272]: "1"
+                - text: /
+                - emphasis [ref=e273]: "2026"
+                - text: . Alueellinen
+                - emphasis [ref=e274]: asuntomarkkinaennuste 2026
+                - text: ": Asuntomarkkinoiden ..."
+          - generic [ref=e278]:
+            - generic [ref=e281]:
+              - 'link "Erikoisteema: Alueellinen asuntomarkkinaennuste 2026 - PTT ptt.fi https://www.ptt.fi › Ennusteet" [ref=e283] [cursor=pointer]':
+                - /url: https://www.ptt.fi/ennusteet/erikoisteema-alueellinen-asuntomarkkinaennuste-2026/
+                - 'heading "Erikoisteema: Alueellinen asuntomarkkinaennuste 2026 - PTT" [level=3] [ref=e284]'
+                - generic [ref=e289]:
+                  - generic [ref=e291]: ptt.fi
+                  - generic [ref=e293]: https://www.ptt.fi › Ennusteet
+              - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+                - img [ref=e297]
+            - generic [ref=e300]:
+              - generic [ref=e301]: 12.2.2026 —
+              - generic [ref=e302]:
+                - text: Asuntorakentamisen viimeinenkin vuosikymmen on ollut värikäs. Asuntorakentamisen tilannetta kuvataan usein asuntoaloitusten määrällä (Kuvio
+                - emphasis [ref=e303]: "2"
+                - text: ).
+          - generic [ref=e307]:
+            - generic [ref=e310]:
+              - link "Asuntomarkkinoille tulossa jälleen miinusvuosi - PTT ptt.fi https://www.ptt.fi › Ajankohtaista" [ref=e312] [cursor=pointer]:
+                - /url: https://www.ptt.fi/asuntomarkkinoille-tulossa-jalleen-miinusvuosi/
+                - heading "Asuntomarkkinoille tulossa jälleen miinusvuosi - PTT" [level=3] [ref=e313]
+                - generic [ref=e318]:
+                  - generic [ref=e320]: ptt.fi
+                  - generic [ref=e322]: https://www.ptt.fi › Ajankohtaista
+              - button "Tietoja tästä tuloksesta" [ref=e323] [cursor=pointer]:
+                - img [ref=e326]
+            - generic [ref=e329]:
+              - generic [ref=e330]: 12.2.2026 —
+              - generic [ref=e331]:
+                - text: Tuettujen vuokra-asuntojen vuokrien arvioidaan nousevan vuonna
+                - emphasis [ref=e332]: "2026"
+                - text: noin
+                - emphasis [ref=e333]: "1"
+                - text: ",3 prosenttia, ja erityisesti pääkaupunkiseudulla nousupaineet jäävät ..."
+          - generic [ref=e337]:
+            - generic [ref=e340]:
+              - link "ei vieläkään lupausta käänteestä | Pellervon taloustutkimus ... STT Info https://www.sttinfo.fi › tiedote › pikakommentti-ankea-..." [ref=e342] [cursor=pointer]:
+                - /url: https://www.sttinfo.fi/tiedote/71836441/pikakommentti-ankea-alkuvuosi-asuntomarkkinoilla-ei-vielakaan-lupausta-kaanteesta?publisherId=69819107&lang=fi
+                - heading "ei vieläkään lupausta käänteestä | Pellervon taloustutkimus ..." [level=3] [ref=e343]
+                - generic [ref=e348]:
+                  - generic [ref=e350]: STT Info
+                  - generic [ref=e352]: https://www.sttinfo.fi › tiedote › pikakommentti-ankea-...
+              - button "Tietoja tästä tuloksesta" [ref=e353] [cursor=pointer]:
+                - img [ref=e356]
+            - generic [ref=e359]:
+              - generic [ref=e360]: 26.2.2026 —
+              - generic [ref=e361]:
+                - text: ...
+                - emphasis [ref=e362]: "2"
+                - text: ",8 % verrattuna vuotta aiempaan. Pääkaupunkiseudulla hinnat laskivat 3,3 % vuoden takaisesta ja"
+                - emphasis [ref=e363]: "1"
+                - text: ",3 % edelliskuusta. Kiinteistönvälittäjien ..."
+          - generic [ref=e367]:
+            - generic [ref=e370]:
+              - link "Ennusteet Archive - PTT ptt.fi https://www.ptt.fi › ennusteet" [ref=e372] [cursor=pointer]:
+                - /url: https://www.ptt.fi/ennusteet/
+                - heading "Ennusteet Archive - PTT" [level=3] [ref=e373]
+                - generic [ref=e378]:
+                  - generic [ref=e380]: ptt.fi
+                  - generic [ref=e382]: https://www.ptt.fi › ennusteet
+              - button "Tietoja tästä tuloksesta" [ref=e383] [cursor=pointer]:
+                - img [ref=e386]
+            - generic [ref=e390]:
+              - text: "Erikoisteema: Alueellinen"
+              - emphasis [ref=e391]: asuntomarkkinaennuste 2026
+              - text: . 12.2.
+              - emphasis [ref=e392]: "2026"
+              - text: . Avaa artikkeli ... Artikkelien sivutus. Previous
+              - emphasis [ref=e393]: 1 2
+              - text: … 8 Next. Tilaa tiedotteet. Tilaa ...
+          - generic [ref=e397]:
+            - generic [ref=e398]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e399]
+              - button "Tietoja tästä tuloksesta" [ref=e400] [cursor=pointer]:
+                - img [ref=e403]
+            - generic [ref=e405]:
+              - button "Kannattaako ostaa asunto 2026?" [ref=e411] [cursor=pointer]:
+                - generic [ref=e413]: Kannattaako ostaa asunto 2026?
+                - img [ref=e416]
+              - button "Kannattaako ostaa asunto Helsingistä?" [ref=e425] [cursor=pointer]:
+                - generic [ref=e427]: Kannattaako ostaa asunto Helsingistä?
+                - img [ref=e430]
+              - button "Onko nyt asunnon ostajan markkinat?" [ref=e439] [cursor=pointer]:
+                - generic [ref=e441]: Onko nyt asunnon ostajan markkinat?
+                - img [ref=e444]
+              - button "Milloin asunnon hintaa kannattaa laskea?" [ref=e453] [cursor=pointer]:
+                - generic [ref=e455]: Milloin asunnon hintaa kannattaa laskea?
+                - img [ref=e458]
+          - generic [ref=e463]:
+            - heading "Tulokset internetistä" [level=2] [ref=e464]
+            - generic [ref=e465]:
+              - generic [ref=e468]:
+                - link "Kattava opas kaupunkeineen ja tilastoineen (2026) kasvutalous.fi https://kasvutalous.fi › Asuntomarkkinat" [ref=e470] [cursor=pointer]:
+                  - /url: https://kasvutalous.fi/kiinteistoliiketoiminnan-aloittaminen-suomessa-kattava-opas-kaupunkeineen-ja-tilastoineen-2026/
+                  - heading "Kattava opas kaupunkeineen ja tilastoineen (2026)" [level=3] [ref=e471]
+                  - generic [ref=e476]:
+                    - generic [ref=e478]: kasvutalous.fi
+                    - generic [ref=e480]: https://kasvutalous.fi › Asuntomarkkinat
+                - button "Tietoja tästä tuloksesta" [ref=e481] [cursor=pointer]:
+                  - img [ref=e484]
+              - generic [ref=e487]:
+                - generic [ref=e488]: 8.3.2026 —
+                - generic [ref=e489]:
+                  - text: "Ostokustannukset: Varainsiirtovero (asunto-osake):"
+                  - emphasis [ref=e490]: "2"
+                  - text: 600 € (
+                  - emphasis [ref=e491]: "1"
+                  - text: ",6 %); Lainankäsittelykulut: n. 300 €; Yhteensä ostokulut:"
+                  - emphasis [ref=e492]: "2"
+                  - text: 900 €.
+          - generic [ref=e496]:
+            - generic [ref=e499]:
+              - link "Miten asuntomarkkinat kehittyvät? – Katso uusin ennuste Nordea https://www.nordea.fi › Asunnon osto" [ref=e501] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/asuntomarkkinat.html
+                - heading "Miten asuntomarkkinat kehittyvät? – Katso uusin ennuste" [level=3] [ref=e502]
+                - generic [ref=e507]:
+                  - generic [ref=e509]: Nordea
+                  - generic [ref=e511]: https://www.nordea.fi › Asunnon osto
+              - button "Tietoja tästä tuloksesta" [ref=e512] [cursor=pointer]:
+                - img [ref=e515]
+            - generic [ref=e519]:
+              - text: Lainaneuvotteluun jopa
+              - emphasis [ref=e520]: "1"
+              - text: –
+              - emphasis [ref=e521]: "2"
+              - text: pankkipäivässä. Hae alustava lainatarjous kätevästi verkossa. Ensiasunnon ostajalla on edelleen hyvä tilanne asuntomarkkinoilla.
+            - generic [ref=e523]:
+              - text: "Puuttuu: PTT ‎| Hae tällä:"
+              - link "PTT" [ref=e524] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=%22PTT%22+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ5t4CegQIShAB
+          - generic [ref=e528]:
+            - generic [ref=e531]:
+              - link "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ... Yle https://yle.fi › Yle Uutiset › Asuminen" [ref=e533] [cursor=pointer]:
+                - /url: https://yle.fi/a/74-20209724
+                - heading "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ..." [level=3] [ref=e534]
+                - generic [ref=e539]:
+                  - generic [ref=e541]: Yle
+                  - generic [ref=e543]: https://yle.fi › Yle Uutiset › Asuminen
+              - button "Tietoja tästä tuloksesta" [ref=e544] [cursor=pointer]:
+                - img [ref=e547]
+            - generic [ref=e550]:
+              - generic [ref=e551]: 12.2.2026 —
+              - generic [ref=e552]:
+                - text: Hintojen muutos, prosenttia, 2025,
+                - emphasis [ref=e553]: "2026"
+                - text: ; Koko maa, -
+                - emphasis [ref=e554]: "2"
+                - text: ",3, -"
+                - emphasis [ref=e555]: "1"
+                - text: ",0 ;"
+                - emphasis [ref=e556]: Helsinki
+                - text: ", -"
+                - emphasis [ref=e557]: "2"
+                - text: ",0, -"
+                - emphasis [ref=e558]: "1"
+                - text: ",4 ; Espoo, Kauniainen, -"
+                - emphasis [ref=e559]: "2"
+                - text: ",5, -"
+                - emphasis [ref=e560]: "1"
+                - text: ",5 ; Vantaa, -4,6, -"
+                - emphasis [ref=e561]: "2"
+                - text: ",8."
+            - generic [ref=e563]:
+              - text: "Puuttuu: asuntomarkkinaennuste ‎| Hae tällä:"
+              - link "asuntomarkkinaennuste" [ref=e564] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+%22asuntomarkkinaennuste%22+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ5t4CegQISBAB
+          - generic [ref=e568]:
+            - generic [ref=e571]:
+              - 'link "Asuntokaupan käänne peruttu: Viides miinusmerkkinen ... TM Rakennusmaailma https://rakennusmaailma.fi › Asuminen" [ref=e573] [cursor=pointer]':
+                - /url: https://rakennusmaailma.fi/asuntokaupan-kaanne-peruttu-viiden-miinusmerkkinen-vuosi-edessa/
+                - 'heading "Asuntokaupan käänne peruttu: Viides miinusmerkkinen ..." [level=3] [ref=e574]'
+                - generic [ref=e579]:
+                  - generic [ref=e581]: TM Rakennusmaailma
+                  - generic [ref=e583]: https://rakennusmaailma.fi › Asuminen
+              - button "Tietoja tästä tuloksesta" [ref=e584] [cursor=pointer]:
+                - img [ref=e587]
+            - generic [ref=e590]:
+              - generic [ref=e591]: 12.2.2026 —
+              - generic [ref=e592]:
+                - text: Tuettujen vuokra-asuntojen vuokrien arvioidaan nousevan vuonna
+                - emphasis [ref=e593]: "2026"
+                - text: noin
+                - emphasis [ref=e594]: "1"
+                - text: ",3 prosenttia, ja erityisesti pääkaupunkiseudulla nousupaineet jäävät ..."
+            - generic [ref=e596]:
+              - text: "Puuttuu: Helsinki ‎| Hae tällä:"
+              - link "Helsinki" [ref=e597] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+asuntomarkkinaennuste+2026+%22Helsinki%22+%22-2%25%22+OR+%22-1%25%22+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ5t4CegQIRxAB
+        - generic [ref=e599]:
+          - generic [ref=e604]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e606]
+            - generic [ref=e608]:
+              - generic [ref=e609]:
+                - link "PTT ennuste" [ref=e613] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+ennuste&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhQEAE
+                  - generic [ref=e614]:
+                    - generic [ref=e619]: PTT ennuste
+                    - img [ref=e623]
+                - link "Ptt tiedotteet" [ref=e628] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Ptt+tiedotteet&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhgEAE
+                  - generic [ref=e629]:
+                    - generic [ref=e634]: Ptt tiedotteet
+                    - img [ref=e638]
+                - link "PTT ry" [ref=e643] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+ry&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhfEAE
+                  - generic [ref=e644]:
+                    - generic [ref=e649]: PTT ry
+                    - img [ref=e653]
+                - link "PTT hallitus" [ref=e658] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+hallitus&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAheEAE
+                  - generic [ref=e659]:
+                    - generic [ref=e664]: PTT hallitus
+                    - img [ref=e668]
+              - generic [ref=e670]:
+                - link "Ptt kansantalous" [ref=e674] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Ptt+kansantalous&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhhEAE
+                  - generic [ref=e675]:
+                    - generic [ref=e680]: Ptt kansantalous
+                    - img [ref=e684]
+                - link "Ptt hankkeet" [ref=e689] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Ptt+hankkeet&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhdEAE
+                  - generic [ref=e690]:
+                    - generic [ref=e695]: Ptt hankkeet
+                    - img [ref=e699]
+                - link "PTT Oy" [ref=e704] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+Oy&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhbEAE
+                  - generic [ref=e705]:
+                    - generic [ref=e710]: PTT Oy
+                    - img [ref=e714]
+                - link "PTT Tekniikka" [ref=e719] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=PTT+Tekniikka&sa=X&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ1QJ6BAhWEAE
+                  - generic [ref=e720]:
+                    - generic [ref=e725]: PTT Tekniikka
+                    - img [ref=e729]
+          - navigation [ref=e731]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e732]
+            - text: "1"
+            - link "Page 2" [ref=e735] [cursor=pointer]:
+              - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&ei=lh_SacnpJe2xwPAPzOetsQc&start=10&sa=N&sstk=Af77f_eWaKY8QQFG1SLuN-vzpO7Pt2Jv82N81P0e6Dpuz1QGQisAGgiw27i9d69x45sO0BRV4KJK0yYH8vzFr3N2BH0CoGq_vyCpmw&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ8tMDegQISxAE
+              - text: "2"
+            - link "Page 3" [ref=e737] [cursor=pointer]:
+              - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&ei=lh_SacnpJe2xwPAPzOetsQc&start=20&sa=N&sstk=Af77f_eWaKY8QQFG1SLuN-vzpO7Pt2Jv82N81P0e6Dpuz1QGQisAGgiw27i9d69x45sO0BRV4KJK0yYH8vzFr3N2BH0CoGq_vyCpmw&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ8tMDegQISxAG
+              - text: "3"
+            - link "Page 4" [ref=e739] [cursor=pointer]:
+              - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&ei=lh_SacnpJe2xwPAPzOetsQc&start=30&sa=N&sstk=Af77f_eWaKY8QQFG1SLuN-vzpO7Pt2Jv82N81P0e6Dpuz1QGQisAGgiw27i9d69x45sO0BRV4KJK0yYH8vzFr3N2BH0CoGq_vyCpmw&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ8tMDegQISxAI
+              - text: "4"
+            - link "Page 5" [ref=e741] [cursor=pointer]:
+              - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&ei=lh_SacnpJe2xwPAPzOetsQc&start=40&sa=N&sstk=Af77f_eWaKY8QQFG1SLuN-vzpO7Pt2Jv82N81P0e6Dpuz1QGQisAGgiw27i9d69x45sO0BRV4KJK0yYH8vzFr3N2BH0CoGq_vyCpmw&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ8tMDegQISxAK
+              - text: "5"
+            - link "Page 6" [ref=e743] [cursor=pointer]:
+              - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&ei=lh_SacnpJe2xwPAPzOetsQc&start=50&sa=N&sstk=Af77f_eWaKY8QQFG1SLuN-vzpO7Pt2Jv82N81P0e6Dpuz1QGQisAGgiw27i9d69x45sO0BRV4KJK0yYH8vzFr3N2BH0CoGq_vyCpmw&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ8tMDegQISxAM
+              - text: "6"
+            - heading "Seuraava" [level=2] [ref=e745]:
+              - link "Seuraava" [ref=e746] [cursor=pointer]:
+                - /url: /search?q=PTT+asuntomarkkinaennuste+2026+Helsinki+%22-2%25%22+OR+%22-1%25%22+ennuste&sca_esv=bb65bd8365f461f5&hl=fi&ei=lh_SacnpJe2xwPAPzOetsQc&start=10&sa=N&sstk=Af77f_eWaKY8QQFG1SLuN-vzpO7Pt2Jv82N81P0e6Dpuz1QGQisAGgiw27i9d69x45sO0BRV4KJK0yYH8vzFr3N2BH0CoGq_vyCpmw&ved=2ahUKEwjJjIDUp9aTAxXtGBAIHcxzK3YQ8NMDegQISxAO
+                - generic [ref=e748]: Seuraava
+        - navigation
+    - contentinfo [ref=e749]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e750]
+      - generic [ref=e754]:
+        - generic [ref=e756]:
+          - text: Suomi
+          - generic [ref=e758]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e760] [cursor=pointer]:
+              - generic [ref=e761]: Helsinki
+              - generic [ref=e763]:
+                - text: "-"
+                - generic [ref=e764]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e766] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e769]:
+          - link "Ohje" [ref=e770] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e771] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e772] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e773] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

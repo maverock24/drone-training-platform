@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: vastike yksiö Helsinki keskimaarainen hoitovastike isannointiliitto euroa nelio vastike yksiö Helsinki keskimaarainen hoitovastike isannointiliitto euroa nelio
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dvastike%2Byksi%25C3%25B6%2BHelsinki%2Bkeskimaarainen%2Bhoitovastike%2Bisannointiliitto%2Beuroa%2Bnelio%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4QtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4QtKgLegQIEhAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Qs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Qs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Taloyhtiön puskurit kuntoon ja hoitovastike hallintaan Taloustaito https://www.taloustaito.fi › koti › taloyhtion-puskurit-k..." [ref=e222] [cursor=pointer]:
+                  - /url: https://www.taloustaito.fi/koti/taloyhtion-puskurit-kuntoon-ja-hoitovastike-hallintaan--helsingin-pumpputehtaalla-kulut-kontrollissa/
+                  - heading "Taloyhtiön puskurit kuntoon ja hoitovastike hallintaan" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Taloustaito
+                    - generic [ref=e232]: https://www.taloustaito.fi › koti › taloyhtion-puskurit-k...
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 1.11.2024 —
+                - generic [ref=e241]:
+                  - text: ”Niissä
+                  - emphasis [ref=e242]: hoitovastike
+                  - text: on tyypillisesti noin 6,5–7
+                  - emphasis [ref=e243]: euroa
+                  - text: ", mutta korkeimmillaan jopa 8"
+                  - emphasis [ref=e244]: euroa
+                  - text: neliöltä. Silti rahaa saattaa jäädä vain jokunen tuhat ...
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e250]
+              - button "Tietoja tästä tuloksesta" [ref=e251] [cursor=pointer]:
+                - img [ref=e254]
+            - generic [ref=e256]:
+              - button "Mikä on keskimääräinen yhtiövastike Helsingissä?" [ref=e262] [cursor=pointer]:
+                - generic [ref=e264]: Mikä on keskimääräinen yhtiövastike Helsingissä?
+                - img [ref=e267]
+              - button "Paljonko on normaali hoitovastike?" [ref=e276] [cursor=pointer]:
+                - generic [ref=e278]: Paljonko on normaali hoitovastike?
+                - img [ref=e281]
+              - button "Mikä on keskimääräinen hoitovastike?" [ref=e290] [cursor=pointer]:
+                - generic [ref=e292]: Mikä on keskimääräinen hoitovastike?
+                - img [ref=e295]
+              - button "Paljonko hoitovastike maksaa?" [ref=e304] [cursor=pointer]:
+                - generic [ref=e306]: Paljonko hoitovastike maksaa?
+                - img [ref=e309]
+          - generic [ref=e314]:
+            - heading "Tulokset internetistä" [level=2] [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e319]:
+                - link "Taloyhtiöiden hoitovastikekysely 2024 Kiinteistöliitto https://www.kiinteistoliitto.fi › media › jrtieqoo" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.kiinteistoliitto.fi/media/jrtieqoo/hoitovastikekysely2024keskeisettulokset.pdf
+                  - heading "Taloyhtiöiden hoitovastikekysely 2024" [level=3] [ref=e322]
+                  - generic [ref=e327]:
+                    - generic [ref=e329]: Kiinteistöliitto
+                    - generic [ref=e331]: https://www.kiinteistoliitto.fi › media › jrtieqoo
+                - generic [ref=e332]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e333] [cursor=pointer]:
+                  - img [ref=e336]
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]: 20.6.2024 —
+                  - text: Taloyhtiöiden talousnäkymien selvittäminen, keskittymällä hoitovastikkeisiin, ja niihin liittyviin päätöksiin.
+                - generic [ref=e341]: 38 sivua
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - link "Rahoitusvastikkeet rajussa nousussa uudiskohteissa Isännöintiliitto https://www.isannointiliitto.fi › rahoitusvastikkeetnousu..." [ref=e350] [cursor=pointer]:
+                - /url: https://www.isannointiliitto.fi/rahoitusvastikkeetnousussa/
+                - heading "Rahoitusvastikkeet rajussa nousussa uudiskohteissa" [level=3] [ref=e351]
+                - generic [ref=e356]:
+                  - generic [ref=e358]: Isännöintiliitto
+                  - generic [ref=e360]: https://www.isannointiliitto.fi › rahoitusvastikkeetnousu...
+              - button "Tietoja tästä tuloksesta" [ref=e361] [cursor=pointer]:
+                - img [ref=e364]
+            - generic [ref=e367]:
+              - generic [ref=e368]: 10.11.2022 —
+              - text: Raskaasti lainoitetuissa taloyhtiöissä vastikekulut voivat nousta jopa yli tuhannella eurolla. Isännöintiliiton tekemä esimerkkilaskelma ...
+          - generic [ref=e372]:
+            - generic [ref=e375]:
+              - 'link "Taloyhtiössä asuvan kannattaa olla nyt tarkkana: Vastike ... Yle https://yle.fi › Yle Uutiset › Asuminen" [ref=e377] [cursor=pointer]':
+                - /url: https://yle.fi/a/74-20021235
+                - 'heading "Taloyhtiössä asuvan kannattaa olla nyt tarkkana: Vastike ..." [level=3] [ref=e378]'
+                - generic [ref=e383]:
+                  - generic [ref=e385]: Yle
+                  - generic [ref=e387]: https://yle.fi › Yle Uutiset › Asuminen
+              - button "Tietoja tästä tuloksesta" [ref=e388] [cursor=pointer]:
+                - img [ref=e391]
+            - generic [ref=e394]:
+              - generic [ref=e395]: 21.3.2023 —
+              - generic [ref=e396]:
+                - text: "Taloyhtiössä asuvan kannattaa olla nyt tarkkana:"
+                - emphasis [ref=e397]: Vastike
+                - text: voi nousta jopa kymmenkertaiseksi · Hoitovastikkeita nostetaan kevään yhtiökokouksissa ...
+          - generic [ref=e401]:
+            - generic [ref=e404]:
+              - link "Aiempaa harvempi taloyhtiö nostanut hoitovastiketta Suomen Kiinteistölehti https://www.kiinteistolehti.fi › aiempaa-harvempi-taloy..." [ref=e406] [cursor=pointer]:
+                - /url: https://www.kiinteistolehti.fi/aiempaa-harvempi-taloyhtio-nostanut-hoitovastiketta
+                - heading "Aiempaa harvempi taloyhtiö nostanut hoitovastiketta" [level=3] [ref=e407]
+                - generic [ref=e412]:
+                  - generic [ref=e414]: Suomen Kiinteistölehti
+                  - generic [ref=e416]: https://www.kiinteistolehti.fi › aiempaa-harvempi-taloy...
+              - button "Tietoja tästä tuloksesta" [ref=e417] [cursor=pointer]:
+                - img [ref=e420]
+            - generic [ref=e423]:
+              - generic [ref=e424]: 20.6.2024 —
+              - generic [ref=e425]:
+                - emphasis [ref=e426]: Keskimääräinen hoitovastike
+                - text: pääkaupunkiseudulla kerrostaloissa on 5,22
+                - emphasis [ref=e427]: euroa
+                - text: neliöltä ja koko maassa 4,63
+                - emphasis [ref=e428]: euroa
+                - text: neliöltä kuluvana vuonna.
+            - generic [ref=e430]: "Puuttuu: isannointiliitto ‎nelio"
+          - generic [ref=e434]:
+            - generic [ref=e437]:
+              - link "Asunto-osakeyhtiöiden vastikkeet nousivat enemmän kuin ... Tilastokeskus https://stat.fi › ... › Asunto-osakeyhtiöiden talous" [ref=e439] [cursor=pointer]:
+                - /url: https://stat.fi/fi/julkaisu/clmaajxzdajk90bw6idfuk9pr
+                - heading "Asunto-osakeyhtiöiden vastikkeet nousivat enemmän kuin ..." [level=3] [ref=e440]
+                - generic [ref=e445]:
+                  - generic [ref=e447]: Tilastokeskus
+                  - generic [ref=e449]: https://stat.fi › ... › Asunto-osakeyhtiöiden talous
+              - button "Tietoja tästä tuloksesta" [ref=e450] [cursor=pointer]:
+                - img [ref=e453]
+            - generic [ref=e456]:
+              - generic [ref=e457]: 19.6.2024 —
+              - generic [ref=e458]:
+                - text: Tilastokeskuksen mukaan asunto-osakeyhtiöiden hoitokulut olivat vuonna 2023
+                - emphasis [ref=e459]: keskimäärin
+                - text: 4,92
+                - emphasis [ref=e460]: euroa
+                - text: huoneistoneliöltä kuukaudessa.
+            - generic [ref=e462]:
+              - text: "Puuttuu: isannointiliitto ‎| Hae tällä:"
+              - link "isannointiliitto" [ref=e463] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+%22isannointiliitto%22+euroa+nelio&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q5t4CegQIVhAB
+          - generic [ref=e467]:
+            - generic [ref=e470]:
+              - link "Hoitovastike, korjausvastike, pääomavastike ja yhtiövastike Qvadrat LKV https://www.qvadrat.fi › hoitovastike-korjausvastike-paa..." [ref=e472] [cursor=pointer]:
+                - /url: https://www.qvadrat.fi/hoitovastike-korjausvastike-paaomavastike-ja-yhtiovastike/
+                - heading "Hoitovastike, korjausvastike, pääomavastike ja yhtiövastike" [level=3] [ref=e473]
+                - generic [ref=e478]:
+                  - generic [ref=e480]: Qvadrat LKV
+                  - generic [ref=e482]: https://www.qvadrat.fi › hoitovastike-korjausvastike-paa...
+              - button "Tietoja tästä tuloksesta" [ref=e483] [cursor=pointer]:
+                - img [ref=e486]
+            - generic [ref=e489]:
+              - generic [ref=e490]: 15.2.2024 —
+              - generic [ref=e491]:
+                - text: Vuonna 2022 kaikkien Helsingissä myytyjen vanhojen kerrostaloasuntojen
+                - emphasis [ref=e492]: keskimääräinen hoitovastike
+                - text: oli 5,03 €/m2/kk. Mikäli
+                - emphasis [ref=e493]: hoitovastike
+                - text: on ...
+          - generic [ref=e497]:
+            - generic [ref=e500]:
+              - link "Taloyhtiöiden hoitovastikekysely 2025 Kiinteistöliitto https://www.kiinteistoliitto.fi › media › hoitovastik..." [ref=e502] [cursor=pointer]:
+                - /url: https://www.kiinteistoliitto.fi/media/mb1dm1u3/hoitovastikekysely_2025.pdf
+                - heading "Taloyhtiöiden hoitovastikekysely 2025" [level=3] [ref=e503]
+                - generic [ref=e508]:
+                  - generic [ref=e510]: Kiinteistöliitto
+                  - generic [ref=e512]: https://www.kiinteistoliitto.fi › media › hoitovastik...
+              - generic [ref=e513]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e514] [cursor=pointer]:
+                - img [ref=e517]
+            - generic [ref=e519]:
+              - generic [ref=e520]:
+                - generic [ref=e521]: 18.6.2025 —
+                - generic [ref=e522]:
+                  - text: Kerrostalojen
+                  - emphasis [ref=e523]: keskimääräinen hoitovastike
+                  - text: ja sen muutos suuralueittain 2021-2025.
+                  - emphasis [ref=e524]: Hoitovastike
+                  - text: "kerrostaloissa €/m2/kk. Lähde: Kiinteistöliitto ..."
+              - generic [ref=e525]: 37 sivua
+          - generic [ref=e529]:
+            - generic [ref=e532]:
+              - link "Uusien asuntojen yhtiövastike nousemassa pilviin Iltalehti https://www.iltalehti.fi › asumisartikkelit" [ref=e534] [cursor=pointer]:
+                - /url: https://www.iltalehti.fi/asumisartikkelit/a/43b706bd-4b83-4a0e-9dca-cd61de0814b9
+                - heading "Uusien asuntojen yhtiövastike nousemassa pilviin" [level=3] [ref=e535]
+                - generic [ref=e540]:
+                  - generic [ref=e542]: Iltalehti
+                  - generic [ref=e544]: https://www.iltalehti.fi › asumisartikkelit
+              - button "Tietoja tästä tuloksesta" [ref=e545] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e551]:
+              - generic [ref=e552]: 11.1.2023 —
+              - generic [ref=e553]:
+                - text: Uudiskohteen
+                - emphasis [ref=e554]: vastike
+                - text: voi nousta jopa tuhannella eurolla kuussa, arvioi
+                - emphasis [ref=e555]: Isännöintiliitto
+                - text: tiedotteessaan. Taustalla ovat liiton mukaan ...
+          - generic [ref=e559]:
+            - generic [ref=e562]:
+              - link "Laskelmat paljastavat taloyhtiöiden hurjat erot Tekniikka&Talous https://www.tekniikkatalous.fi › Uutiset › Asuminen" [ref=e564] [cursor=pointer]:
+                - /url: https://www.tekniikkatalous.fi/uutiset/a/7c85fceb-f859-47ca-93ee-beb7dc169544
+                - heading "Laskelmat paljastavat taloyhtiöiden hurjat erot" [level=3] [ref=e565]
+                - generic [ref=e570]:
+                  - generic [ref=e572]: Tekniikka&Talous
+                  - generic [ref=e574]: https://www.tekniikkatalous.fi › Uutiset › Asuminen
+              - button "Tietoja tästä tuloksesta" [ref=e575] [cursor=pointer]:
+                - img [ref=e578]
+            - generic [ref=e581]:
+              - generic [ref=e582]: 24.6.2023 —
+              - generic [ref=e583]:
+                - emphasis [ref=e584]: Hoitovastike
+                - text: ","
+                - emphasis [ref=e585]: euroa
+                - text: /m2, 4,9, 5,4, 5,4.
+                - emphasis [ref=e586]: Hoitovastike
+                - text: ","
+                - emphasis [ref=e587]: euroa
+                - text: ", 245,6, 270,2, 270,2."
+                - emphasis [ref=e588]: Vastike
+                - text: yhteensä,
+                - emphasis [ref=e589]: euroa
+                - text: ", 245,6, 270,2, 270,2. Lähde: ..."
+            - generic [ref=e591]:
+              - text: "Puuttuu: keskimaarainen ‎| Hae tällä:"
+              - link "keskimaarainen" [ref=e592] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=vastike+yksi%C3%B6+Helsinki+%22keskimaarainen%22+hoitovastike+isannointiliitto+euroa+nelio&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q5t4CegQIVxAB
+        - generic [ref=e594]:
+          - generic [ref=e599]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e601]
+            - generic [ref=e603]:
+              - generic [ref=e604]:
+                - link "Tyypillinen hoitovastike" [ref=e608] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Tyypillinen+hoitovastike&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhcEAE
+                  - generic [ref=e609]:
+                    - generic [ref=e614]: Tyypillinen hoitovastike
+                    - img [ref=e618]
+                - link "Kallis hoitovastike" [ref=e623] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Kallis+hoitovastike&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhgEAE
+                  - generic [ref=e624]:
+                    - generic [ref=e629]: Kallis hoitovastike
+                    - img [ref=e633]
+                - link "Korkea hoitovastike" [ref=e638] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Korkea+hoitovastike&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhhEAE
+                  - generic [ref=e639]:
+                    - generic [ref=e644]: Korkea hoitovastike
+                    - img [ref=e648]
+                - link "Keskimääräinen hoitovastike Tampere" [ref=e653] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Keskim%C3%A4%C3%A4r%C3%A4inen+hoitovastike+Tampere&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhfEAE
+                  - generic [ref=e654]:
+                    - generic [ref=e659]: Keskimääräinen hoitovastike Tampere
+                    - img [ref=e663]
+              - generic [ref=e665]:
+                - link "Hoitovastike keskimäärin Helsinki" [ref=e669] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hoitovastike+keskim%C3%A4%C3%A4rin+Helsinki&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAheEAE
+                  - generic [ref=e670]:
+                    - generic [ref=e675]: Hoitovastike keskimäärin Helsinki
+                    - img [ref=e679]
+                - link "Hoitovastike keskimäärin 2025" [ref=e684] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hoitovastike+keskim%C3%A4%C3%A4rin+2025&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhdEAE
+                  - generic [ref=e685]:
+                    - generic [ref=e690]: Hoitovastike keskimäärin 2025
+                    - img [ref=e694]
+                - link "Hoitovastike yhtiövastike" [ref=e699] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hoitovastike+yhti%C3%B6vastike&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhbEAE
+                  - generic [ref=e700]:
+                    - generic [ref=e705]: Hoitovastike yhtiövastike
+                    - img [ref=e709]
+                - link "Keskimääräinen yhtiövastike" [ref=e714] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Keskim%C3%A4%C3%A4r%C3%A4inen+yhti%C3%B6vastike&sa=X&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q1QJ6BAhaEAE
+                  - generic [ref=e715]:
+                    - generic [ref=e720]: Keskimääräinen yhtiövastike
+                    - img [ref=e724]
+          - navigation [ref=e726]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e727]
+            - text: "1"
+            - link "Page 2" [ref=e730] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=10&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAE
+              - text: "2"
+            - link "Page 3" [ref=e732] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=20&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAG
+              - text: "3"
+            - link "Page 4" [ref=e734] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=30&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAI
+              - text: "4"
+            - link "Page 5" [ref=e736] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=40&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAK
+              - text: "5"
+            - link "Page 6" [ref=e738] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=50&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAM
+              - text: "6"
+            - link "Page 7" [ref=e740] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=60&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAO
+              - text: "7"
+            - link "Page 8" [ref=e742] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=70&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAQ
+              - text: "8"
+            - link "Page 9" [ref=e744] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=80&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAS
+              - text: "9"
+            - link "Page 10" [ref=e746] [cursor=pointer]:
+              - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=90&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8tMDegQIWBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e748]:
+              - link "Seuraava" [ref=e749] [cursor=pointer]:
+                - /url: /search?q=vastike+yksi%C3%B6+Helsinki+keskimaarainen+hoitovastike+isannointiliitto+euroa+nelio&sca_esv=bb65bd8365f461f5&hl=fi&ei=-xvSaZGiHamE1fIP-cXgcA&start=10&sa=N&sstk=Af77f_cZjgDjoZ8wNRYJPg4WJVi1fPkKO2a-BUHVRoDCVgXfbZkwfofieA5Kfel1ccftTwAj0NyHpjhsOZNztrFsiVd6yF0DSHwfiw&ved=2ahUKEwjRi-ibpNaTAxUpQlUIHfkiGA4Q8NMDegQIWBAW
+                - generic [ref=e751]: Seuraava
+        - navigation
+    - contentinfo [ref=e752]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e753]
+      - generic [ref=e757]:
+        - generic [ref=e759]:
+          - text: Suomi
+          - generic [ref=e761]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e763] [cursor=pointer]:
+              - generic [ref=e764]: Helsinki
+              - generic [ref=e766]:
+                - text: "-"
+                - generic [ref=e767]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e769] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e772]:
+          - link "Ohje" [ref=e773] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e774] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e775] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e776] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

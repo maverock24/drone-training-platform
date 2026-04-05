@@ -1,0 +1,398 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQpYkNCA0
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e16]:
+          - combobox "Hae" [ref=e19]: Seligson Eurooppa Pohjois-Amerikka indeksirahasto TER juoksevat kulut 2025 2026 Seligson Eurooppa Pohjois-Amerikka indeksirahasto TER juoksevat kulut 2025 2026
+          - generic [ref=e20]:
+            - button "Tyhjennä" [ref=e22] [cursor=pointer]:
+              - img [ref=e24]
+            - generic [ref=e27]:
+              - button "Syöttötyökalut" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - button "Puhehaku" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Hae kuvan perusteella" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Haku" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Asetukset" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google-sovellukset" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Kirjaudu" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DSeligson%2BEurooppa%2BPohjois-Amerikka%2Bindeksirahasto%2BTER%2Bjuoksevat%2Bkulut%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Tekoälytila" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ2J8OegQIEBAE
+              - generic [ref=e78]: Tekoälytila
+          - listitem [ref=e79]:
+            - link "Kaikki" [disabled] [ref=e80]:
+              - generic [ref=e82]: Kaikki
+          - listitem [ref=e83]:
+            - link "Kuvahaku" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQtKgLegQIFhAB
+              - generic [ref=e86]: Kuvahaku
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQtKgLegQIFRAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQs6gLegQIFBAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQs6gLegQIERAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ0pQJegQIExAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - button "Lisää suodattimia" [ref=e104] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Lisää
+                  - img [ref=e109]
+        - button "Työkalut" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Työkalut
+            - img [ref=e117]
+    - heading "Hakutulokset" [level=1] [ref=e119]
+    - generic [ref=e125]:
+      - generic [ref=e126]: Looking for results in English?
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e129]
+      - link "Change to English" [ref=e131] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DSeligson%2BEurooppa%2BPohjois-Amerikka%2Bindeksirahasto%2BTER%2Bjuoksevat%2Bkulut%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e132] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e134] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQiIQCKAN6BAgLEAY#languages
+    - generic [ref=e135]:
+      - generic [ref=e154]:
+        - heading "Miettii" [level=2] [ref=e158]:
+          - generic [ref=e159]: Miettii
+        - progressbar [ref=e160]
+      - main [ref=e162]:
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - heading "Tulokset internetistä" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - generic [ref=e174]:
+                - link "Eurooppa indeksirahasto - tunnusluvut Seligson https://www.seligson.fi › sco › suomi › rahastot › euroo..." [ref=e176] [cursor=pointer]:
+                  - /url: https://www.seligson.fi/sco/suomi/rahastot/eurooppa-indeksirahasto-tunnusluvut/
+                  - heading "Eurooppa indeksirahasto - tunnusluvut" [level=3] [ref=e177]
+                  - generic [ref=e182]:
+                    - generic [ref=e184]: Seligson
+                    - generic [ref=e186]: https://www.seligson.fi › sco › suomi › rahastot › euroo...
+                - button "Tietoja tästä tuloksesta" [ref=e187] [cursor=pointer]:
+                  - img [ref=e190]
+              - generic [ref=e194]:
+                - text: KULUT JA TUNNUSLUVUT, 1.1.2025 – 31.12.2025.
+                - emphasis [ref=e195]: Juoksevat kulut, 0,44
+                - text: "%. Tuottosidonnainen palkkio, -. Kaupankäyntikulut, 0,20 %. Kokonaiskulut (TKA), 0,64 %."
+              - generic [ref=e197]: "Puuttuu: TER ‎2026"
+          - generic [ref=e201]:
+            - generic [ref=e204]:
+              - link "sisällys Seligson & Co https://www.seligson.fi › seligson_rahastot_4-2025" [ref=e206] [cursor=pointer]:
+                - /url: https://www.seligson.fi/resource/seligson_rahastot_4-2025.pdf?v=1773399600119
+                - heading "sisällys" [level=3] [ref=e207]
+                - generic [ref=e212]:
+                  - generic [ref=e214]: Seligson & Co
+                  - generic [ref=e216]: https://www.seligson.fi › seligson_rahastot_4-2025
+              - generic [ref=e217]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e218] [cursor=pointer]:
+                - img [ref=e221]
+            - generic [ref=e224]:
+              - generic [ref=e225]: 31.12.2025 —
+              - generic [ref=e226]:
+                - emphasis [ref=e227]: Pohjois
+                - text: "-"
+                - emphasis [ref=e228]: Amerikan
+                - text: ","
+                - emphasis [ref=e229]: Euroopan
+                - text: ja Aasian
+                - emphasis [ref=e230]: indeksirahasto
+                - text: "- jemme ... *"
+                - emphasis [ref=e231]: Juoksevat kulut
+                - text: 31.12.
+                - emphasis [ref=e232]: "2025"
+                - text: päättyneelle 12 kk jaksolle, sisältää ...
+            - generic [ref=e234]:
+              - text: "Puuttuu: TER ‎| Hae tällä:"
+              - link "TER" [ref=e235] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+%22TER%22+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ5t4CegQIGxAB
+          - generic [ref=e239]:
+            - generic [ref=e242]:
+              - link "Seligson & Co Pohjois-Amerikka Indeksirahasto Seligson https://www.seligson.fi › suomi › rahastot › rahes_pam" [ref=e244] [cursor=pointer]:
+                - /url: https://www.seligson.fi/suomi/rahastot/rahes_pam.htm
+                - heading "Seligson & Co Pohjois-Amerikka Indeksirahasto" [level=3] [ref=e245]
+                - generic [ref=e250]:
+                  - generic [ref=e252]: Seligson
+                  - generic [ref=e254]: https://www.seligson.fi › suomi › rahastot › rahes_pam
+              - button "Tietoja tästä tuloksesta" [ref=e255] [cursor=pointer]:
+                - img [ref=e258]
+            - generic [ref=e262]:
+              - emphasis [ref=e263]: Juoksevat kulut
+              - text: "raportoidaan mm. tunnusluvuissa sekä esitteissä ja katsauksissa. Kaupankäyntikorvaus (maksetaan rahastolle):. -, Merkittäessä: 0,1 ..."
+            - generic [ref=e265]:
+              - text: "Puuttuu: TER ‎| Hae tällä:"
+              - link "TER" [ref=e266] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+%22TER%22+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ5t4CegQIUhAB
+          - generic [ref=e270]:
+            - generic [ref=e273]:
+              - link "Seligson & Co Rahastoyhtiö Oyj - Rahastojen arvot Seligson https://www.seligson.fi › rahastot › FundValues_FI" [ref=e275] [cursor=pointer]:
+                - /url: https://www.seligson.fi/suomi/rahastot/FundValues_FI.html
+                - heading "Seligson & Co Rahastoyhtiö Oyj - Rahastojen arvot" [level=3] [ref=e276]
+                - generic [ref=e281]:
+                  - generic [ref=e283]: Seligson
+                  - generic [ref=e285]: https://www.seligson.fi › rahastot › FundValues_FI
+              - button "Tietoja tästä tuloksesta" [ref=e286] [cursor=pointer]:
+                - img [ref=e289]
+            - generic [ref=e293]:
+              - text: Rahastojen arvojen kehitys ;
+              - emphasis [ref=e294]: Eurooppa
+              - text: ", 02.04."
+              - emphasis [ref=e295]: "2026"
+              - text: ", 5,672 €, -1,39 %, -3,59 % ;"
+              - emphasis [ref=e296]: Pohjois
+              - text: "-"
+              - emphasis [ref=e297]: Amerikka
+              - text: ", 02.04."
+              - emphasis [ref=e298]: "2026"
+              - text: ", 61,828 €, 0,03 %, -2,80 % ..."
+            - generic [ref=e300]: "Puuttuu: TER ‎juoksevat ‎kulut"
+          - generic [ref=e304]:
+            - generic [ref=e307]:
+              - link "Rahastojen arvot annualisoituina Seligson https://www.seligson.fi › rahastot › FundValues_ANN_FI" [ref=e309] [cursor=pointer]:
+                - /url: https://www.seligson.fi/suomi/rahastot/FundValues_ANN_FI.html
+                - heading "Rahastojen arvot annualisoituina" [level=3] [ref=e310]
+                - generic [ref=e315]:
+                  - generic [ref=e317]: Seligson
+                  - generic [ref=e319]: https://www.seligson.fi › rahastot › FundValues_ANN_FI
+              - button "Tietoja tästä tuloksesta" [ref=e320] [cursor=pointer]:
+                - img [ref=e323]
+            - generic [ref=e327]:
+              - text: Rahastojen arvojen kehitys - annualisoidut tuottoprosentit ;
+              - emphasis [ref=e328]: Eurooppa
+              - text: ", 02.04."
+              - emphasis [ref=e329]: "2026"
+              - text: ", 5,672 € ;"
+              - emphasis [ref=e330]: Pohjois
+              - text: "-"
+              - emphasis [ref=e331]: Amerikka
+              - text: ", 02.04."
+              - emphasis [ref=e332]: "2026"
+              - text: ", 61,828 € ; Aasia, 02.04."
+              - emphasis [ref=e333]: "2026"
+              - text: ", 9,976 € ..."
+            - generic [ref=e335]: "Puuttuu: TER ‎juoksevat ‎kulut"
+          - generic [ref=e339]:
+            - generic [ref=e342]:
+              - link "Sääntömuutoksia Seligson & Co -indeksirahastoissa LähiTapiola https://www.lahitapiola.fi › ... › Uutishuone › Tiedotteet" [ref=e344] [cursor=pointer]:
+                - /url: https://www.lahitapiola.fi/tietoa-lahitapiolasta/uutishuone/tiedotteet/saantomuutoksia-seligson-ja-co-indeksirahastoissa/
+                - heading "Sääntömuutoksia Seligson & Co -indeksirahastoissa" [level=3] [ref=e345]
+                - generic [ref=e350]:
+                  - generic [ref=e352]: LähiTapiola
+                  - generic [ref=e354]: https://www.lahitapiola.fi › ... › Uutishuone › Tiedotteet
+              - button "Tietoja tästä tuloksesta" [ref=e355] [cursor=pointer]:
+                - img [ref=e358]
+            - generic [ref=e361]:
+              - generic [ref=e362]: 5.11.2025 —
+              - generic [ref=e363]:
+                - text: Rahastojen salkkuihin tarvittavat muutokset tehdään 19.12.
+                - emphasis [ref=e364]: "2025"
+                - text: päätöskursseihin. Indeksin vaihtamisesta aiheutuu jonkin verran ylimääräistä ...
+            - generic [ref=e366]: "Puuttuu: TER ‎juoksevat ‎kulut"
+          - generic [ref=e370]:
+            - generic [ref=e373]:
+              - link "2025 – Seligson Seligson https://www.seligson.fi › sco › suomi › ajankohtaista" [ref=e375] [cursor=pointer]:
+                - /url: https://www.seligson.fi/sco/suomi/ajankohtaista/2025/
+                - heading "2025 – Seligson" [level=3] [ref=e376]
+                - generic [ref=e381]:
+                  - generic [ref=e383]: Seligson
+                  - generic [ref=e385]: https://www.seligson.fi › sco › suomi › ajankohtaista
+              - button "Tietoja tästä tuloksesta" [ref=e386] [cursor=pointer]:
+                - img [ref=e389]
+            - generic [ref=e392]: Sääntömuutos ei edellytä osuudenomistajalta toimenpiteitä. Sääntömuutoksella ei ole vaikutusta rahastojen sijoituspolitiikkaan, palkkioihin tai kuluihin eikä ...
+            - generic [ref=e394]: "Puuttuu: TER ‎juoksevat ‎kulut"
+          - generic [ref=e398]:
+            - generic [ref=e401]:
+              - link "TOISTOANNOKSILLA TEHOA Seligson & Co https://www.seligson.fi › seligson_rahastot_1-2025" [ref=e403] [cursor=pointer]:
+                - /url: https://www.seligson.fi/resource/seligson_rahastot_1-2025.pdf?v=1767398400121
+                - heading "TOISTOANNOKSILLA TEHOA" [level=3] [ref=e404]
+                - generic [ref=e409]:
+                  - generic [ref=e411]: Seligson & Co
+                  - generic [ref=e413]: https://www.seligson.fi › seligson_rahastot_1-2025
+              - generic [ref=e414]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e415] [cursor=pointer]:
+                - img [ref=e418]
+            - generic [ref=e421]:
+              - generic [ref=e422]: 31.3.2025 —
+              - generic [ref=e423]:
+                - emphasis [ref=e424]: Pohjois
+                - text: "-"
+                - emphasis [ref=e425]: Amerikka Indeksirahasto
+                - text: . 23. Global Top 25 Brands. 24. Global ... *
+                - emphasis [ref=e426]: Juoksevat kulut
+                - text: 31.3.
+                - emphasis [ref=e427]: "2025"
+                - text: päättyneelle 12 kk jaksolle, sisältää ...
+            - generic [ref=e429]:
+              - text: "Puuttuu: TER ‎| Hae tällä:"
+              - link "TER" [ref=e430] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+%22TER%22+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ5t4CegQIVhAB
+          - generic [ref=e434]:
+            - generic [ref=e437]:
+              - link "sisällys Seligson https://www.seligson.fi › seligson_rahastot_3-2025" [ref=e439] [cursor=pointer]:
+                - /url: https://www.seligson.fi/resource/seligson_rahastot_3-2025.pdf
+                - heading "sisällys" [level=3] [ref=e440]
+                - generic [ref=e445]:
+                  - generic [ref=e447]: Seligson
+                  - generic [ref=e449]: https://www.seligson.fi › seligson_rahastot_3-2025
+              - generic [ref=e450]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e451] [cursor=pointer]:
+                - img [ref=e454]
+            - generic [ref=e456]:
+              - generic [ref=e457]:
+                - generic [ref=e458]: 30.9.2025 —
+                - generic [ref=e459]:
+                  - text: KULUT JA TUNNUSLUVUT / VIITTEET. *
+                  - emphasis [ref=e460]: Juoksevat kulut
+                  - text: 30.9.
+                  - emphasis [ref=e461]: "2025"
+                  - text: päättyneelle 12 kk jaksolle, sisältää mahdolliset alennukset kohderahastoista.
+              - generic [ref=e462]: 28 sivua
+            - generic [ref=e464]:
+              - text: "Puuttuu: TER ‎| Hae tällä:"
+              - link "TER" [ref=e465] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+%22TER%22+juoksevat+kulut+2025+2026&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ5t4CegQIWRAB
+          - generic [ref=e469]:
+            - generic [ref=e472]:
+              - link "Seligson & Co Rahastoyhtiö Oyj - Indeksirahastot Seligson https://www.seligson.fi › suomi › rahastot › indeksiraha..." [ref=e474] [cursor=pointer]:
+                - /url: https://www.seligson.fi/suomi/rahastot/indeksirahastot.htm
+                - heading "Seligson & Co Rahastoyhtiö Oyj - Indeksirahastot" [level=3] [ref=e475]
+                - generic [ref=e480]:
+                  - generic [ref=e482]: Seligson
+                  - generic [ref=e484]: https://www.seligson.fi › suomi › rahastot › indeksiraha...
+              - button "Tietoja tästä tuloksesta" [ref=e485] [cursor=pointer]:
+                - img [ref=e488]
+            - generic [ref=e492]:
+              - emphasis [ref=e493]: Indeksirahastot
+              - text: seuraavat kohdemarkkinansa kehitystä ilman salkunhoitajan aktiivisia valintoja tai aktiivista kaupankäyntiä. Niiden tavoitteena on rahaston ...
+            - generic [ref=e495]: "Puuttuu: TER ‎juoksevat ‎kulut ‎2026"
+        - generic [ref=e497]:
+          - generic [ref=e502]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e504]
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - link "Seligson Eurooppa Indeksirahasto" [ref=e511] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Eurooppa+Indeksirahasto&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAgyEAE
+                  - generic [ref=e512]:
+                    - generic [ref=e517]: Seligson Eurooppa Indeksirahasto
+                    - img [ref=e521]
+                - link "Seligson Suomi Indeksirahasto" [ref=e526] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Suomi+Indeksirahasto&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAhJEAE
+                  - generic [ref=e527]:
+                    - generic [ref=e532]: Seligson Suomi Indeksirahasto
+                    - img [ref=e536]
+                - link "Seligson Pohjois-Amerikka Indeksirahasto" [ref=e541] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Pohjois-Amerikka+Indeksirahasto&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAhDEAE
+                  - generic [ref=e542]:
+                    - generic [ref=e547]: Seligson Pohjois-Amerikka Indeksirahasto
+                    - img [ref=e551]
+                - link "Seligson Indeksirahasto kulut" [ref=e556] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Indeksirahasto+kulut&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAg_EAE
+                  - generic [ref=e557]:
+                    - generic [ref=e562]: Seligson Indeksirahasto kulut
+                    - img [ref=e566]
+              - generic [ref=e568]:
+                - link "Seligson Aasia" [ref=e572] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Aasia&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAg-EAE
+                  - generic [ref=e573]:
+                    - generic [ref=e578]: Seligson Aasia
+                    - img [ref=e582]
+                - link "Seligson Indeksirahastot" [ref=e587] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+Indeksirahastot&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAg9EAE
+                  - generic [ref=e588]:
+                    - generic [ref=e593]: Seligson Indeksirahastot
+                    - img [ref=e597]
+                - link "Seligson rahastot kokemuksia" [ref=e602] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Seligson+rahastot+kokemuksia&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAg0EAE
+                  - generic [ref=e603]:
+                    - generic [ref=e608]: Seligson rahastot kokemuksia
+                    - img [ref=e612]
+                - link "Paras Eurooppa Indeksirahasto" [ref=e617] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Paras+Eurooppa+Indeksirahasto&sa=X&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ1QJ6BAgzEAE
+                  - generic [ref=e618]:
+                    - generic [ref=e623]: Paras Eurooppa Indeksirahasto
+                    - img [ref=e627]
+          - navigation [ref=e629]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e630]
+            - text: "1"
+            - link "Page 2" [ref=e633] [cursor=pointer]:
+              - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&ei=cYDRab-lLaiZ1fIPm_LhuAk&start=10&sa=N&sstk=Af77f_eGEXxJfrOaMp9wFDUEXPOa-KwXwJ2rEvdgzEwKQYx1M_NpBAiWwvGooPhQmUuu7c4GKKcstANxOfn7kgyaTPiTyl2o2uxHAg&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ8tMDegQIWhAE
+              - text: "2"
+            - link "Page 3" [ref=e635] [cursor=pointer]:
+              - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&ei=cYDRab-lLaiZ1fIPm_LhuAk&start=20&sa=N&sstk=Af77f_eGEXxJfrOaMp9wFDUEXPOa-KwXwJ2rEvdgzEwKQYx1M_NpBAiWwvGooPhQmUuu7c4GKKcstANxOfn7kgyaTPiTyl2o2uxHAg&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ8tMDegQIWhAG
+              - text: "3"
+            - link "Page 4" [ref=e637] [cursor=pointer]:
+              - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&ei=cYDRab-lLaiZ1fIPm_LhuAk&start=30&sa=N&sstk=Af77f_eGEXxJfrOaMp9wFDUEXPOa-KwXwJ2rEvdgzEwKQYx1M_NpBAiWwvGooPhQmUuu7c4GKKcstANxOfn7kgyaTPiTyl2o2uxHAg&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ8tMDegQIWhAI
+              - text: "4"
+            - link "Page 5" [ref=e639] [cursor=pointer]:
+              - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&ei=cYDRab-lLaiZ1fIPm_LhuAk&start=40&sa=N&sstk=Af77f_eGEXxJfrOaMp9wFDUEXPOa-KwXwJ2rEvdgzEwKQYx1M_NpBAiWwvGooPhQmUuu7c4GKKcstANxOfn7kgyaTPiTyl2o2uxHAg&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ8tMDegQIWhAK
+              - text: "5"
+            - link "Page 6" [ref=e641] [cursor=pointer]:
+              - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&ei=cYDRab-lLaiZ1fIPm_LhuAk&start=50&sa=N&sstk=Af77f_eGEXxJfrOaMp9wFDUEXPOa-KwXwJ2rEvdgzEwKQYx1M_NpBAiWwvGooPhQmUuu7c4GKKcstANxOfn7kgyaTPiTyl2o2uxHAg&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ8tMDegQIWhAM
+              - text: "6"
+            - heading "Seuraava" [level=2] [ref=e643]:
+              - link "Seuraava" [ref=e644] [cursor=pointer]:
+                - /url: /search?q=Seligson+Eurooppa+Pohjois-Amerikka+indeksirahasto+TER+juoksevat+kulut+2025+2026&sca_esv=24f50bc0831b3fb1&ei=cYDRab-lLaiZ1fIPm_LhuAk&start=10&sa=N&sstk=Af77f_eGEXxJfrOaMp9wFDUEXPOa-KwXwJ2rEvdgzEwKQYx1M_NpBAiWwvGooPhQmUuu7c4GKKcstANxOfn7kgyaTPiTyl2o2uxHAg&ved=2ahUKEwj_oZ7xj9WTAxWoTFUIHRt5GJcQ8NMDegQIWhAO
+                - generic [ref=e646]: Seuraava
+        - navigation
+    - contentinfo [ref=e647]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e648]
+      - generic [ref=e652]:
+        - generic [ref=e654]:
+          - text: Suomi
+          - generic [ref=e656]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e658] [cursor=pointer]:
+              - generic [ref=e659]: 00940, Helsinki
+              - generic [ref=e661]:
+                - text: "-"
+                - generic [ref=e662]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e664] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e667]:
+          - link "Ohje" [ref=e668] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e669] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e670] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e671] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

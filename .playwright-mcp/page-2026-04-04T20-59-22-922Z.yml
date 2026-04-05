@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Vähennykset" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/
+            - listitem [ref=e61]:
+              - link "Mitä vähennyksiä voi saada verotuksessa?" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+            - listitem [ref=e63]: Alijäämähyvitys
+        - article [ref=e66]:
+          - heading "Alijäämähyvitys - Verohallinto tekee vähennyksen puolestasi" [level=1] [ref=e67]
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: Alijäämähyvitys on vähennys, jonka Verohallinto tekee automaattisesti ansiotulojen verosta, jos olet siihen oikeutettu. Voit saada alijäämähyvitystä, jos pääomatuloista tehtävät vähennykset ovat suuremmat kuin pääomatulosi.
+            - paragraph [ref=e70]: Alijäämä syntyy esimerkiksi silloin, kun pääomatuloista vähennettävät kulut ovat suuremmat kuin tulot, esimerkiksi vuokra-asunnon remonttikulut ovat suuremmat kuin vuokratulot.
+            - paragraph [ref=e71]: Osa tästä pääomatulojen alijäämästä vähennetään ansiotulojen, esim. palkkatulojen veroista alijäämähyvityksenä.
+            - paragraph [ref=e72]:
+              - text: Jos saat alijäämähyvitystä, se näkyy
+              - strong [ref=e73]: verotuspäätöksessäsi
+              - text: kohdassa
+              - strong [ref=e74]: Veroista ja maksuista tehtävät vähennykset.
+            - heading "Kuinka paljon alijäämähyvitys on?" [level=2] [ref=e75]
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - text: Hyvitys on
+                - strong [ref=e78]: 30 % alijäämästä
+                - text: .
+              - listitem [ref=e79]:
+                - text: Alijäämähyvitystä voi saada
+                - strong [ref=e80]: enintään 1 400 euroa vuodessa
+                - text: .
+            - paragraph [ref=e81]:
+              - text: Jos sinulla on alaikäisiä lapsia, hyvityksen
+              - strong [ref=e82]: enimmäismäärään tehdään lapsikorotus
+              - text: ":"
+            - list [ref=e83]:
+              - listitem [ref=e84]: Jos sinulla tai teillä puolisosi kanssa yhdessä on alaikäinen lapsi, enimmäismäärää korotetaan 400 euroa. Silloin alijäämähyvitys on enimmillään 1 800 euroa.
+              - listitem [ref=e85]: Jos lapsia on kaksi tai enemmän, korotus on yhteensä 800 euroa. Silloin alijäämähyvitys on enimmillään 2 200 euroa.
+          - generic [ref=e87]:
+            - generic [ref=e89]:
+              - heading "Täytyykö minun hakea alijäämähyvityksen lapsikorotusta?" [level=3] [ref=e90] [cursor=pointer]:
+                - button "Täytyykö minun hakea alijäämähyvityksen lapsikorotusta?" [ref=e91]:
+                  - text: Täytyykö minun hakea alijäämähyvityksen lapsikorotusta?
+                  - img
+              - region "Täytyykö minun hakea alijäämähyvityksen lapsikorotusta?":
+                - generic:
+                  - paragraph [ref=e92]: Ei tarvitse. Verohallinto myöntää automaattisesti lapsikorotuksen ensisijaisesti sille puolisolle, jonka ansiotulojen valtion tulovero on suurempi.
+                  - paragraph [ref=e93]: Jos haluatte, että lapsikorotus tehdään pienempituloisella puolisolla, sitä on vaadittava veroilmoituksen yhteydessä. Ilmoita silloin kohdassa "Alijäämähyvitys ja sen lapsikorotus", kuinka monesta lapsesta vaadit korotusta omassa verotuksessasi.
+                  - paragraph [ref=e94]: Lapsikorotusta voit vaatia
+                  - list [ref=e95]:
+                    - listitem [ref=e96]:
+                      - link "OmaVerossa" [ref=e97] [cursor=pointer]:
+                        - /url: /sahkoiset-asiointipalvelut/omavero/
+                      - text: kohdassa Muut vähennykset – Alijäämähyvityksen lapsikorotus ja siirto puolisolle
+                    - listitem [ref=e98]:
+                      - link "lomakkeella 50B" [ref=e99] [cursor=pointer]:
+                        - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/50b-p%C3%A4%C3%A4omatulot-ja-niist%C3%A4-teht%C3%A4v%C3%A4t-v%C3%A4hennykset/
+                      - text: Pääomatulot ja niistä tehtävät vähennykset.
+                  - paragraph [ref=e100]:
+                    - strong [ref=e101]: Jos lapsia on enemmän kuin yksi,
+                    - text: voit jakaa lapsikorotuksen puolisosi kanssa niin, että molemmat saavat 400 euron lapsikorotuksen. Korotus on jaettava tasan. Sitä ei voi jakaa niin, että toinen puoliso saisi esimerkiksi 200 euroa ja toinen 600 euroa.
+                  - paragraph [ref=e102]:
+                    - strong [ref=e103]: Jos olette eronneet tai asutte erillänne puolisosi kanssa,
+                    - text: oikeus lapsikorotukseen on vain sillä vanhemmalla, joka on lähivanhempi.
+            - generic [ref=e105]:
+              - heading "Minulla on niin paljon lainakuluja, että alijäämähyvityksen enimmäismäärä ylittyy. Menetänkö vähennysoikeuden?" [level=3] [ref=e106] [cursor=pointer]:
+                - button "Minulla on niin paljon lainakuluja, että alijäämähyvityksen enimmäismäärä ylittyy. Menetänkö vähennysoikeuden?" [ref=e107]:
+                  - text: Minulla on niin paljon lainakuluja, että alijäämähyvityksen enimmäismäärä ylittyy. Menetänkö vähennysoikeuden?
+                  - img
+              - region "Minulla on niin paljon lainakuluja, että alijäämähyvityksen enimmäismäärä ylittyy. Menetänkö vähennysoikeuden?":
+                - generic:
+                  - paragraph [ref=e108]: Et menetä. Jos sinulla on puoliso ja hänen alijäämähyvityksensä jää alle 1 400 euron, sinulle siirretään häneltä käyttämättä jäävä osuus enimmäismäärästä (= 1 400 e - käytetty alijäämähyvitys).
+                  - paragraph [ref=e109]: Muussa tapauksessa sinulle vahvistetaan pääomatulolajin tappio, joka vähennetään pääomatuloistasi seuraavien 10 vuoden aikana sitä mukaa kuin pääomatuloja syntyy. Pääomatuloja ovat esimerkiksi osakkeiden tai rahasto-osuuksien myyntivoitot, osinkotulot ja vuokratulot.
+          - generic [ref=e110]:
+            - heading "Alijäämähyvityksen voi siirtää puolisolle" [level=2] [ref=e111]
+            - paragraph [ref=e112]: Verotuksessa puolisollesi voidaan siirtää
+            - list [ref=e113]:
+              - listitem [ref=e114]:
+                - strong [ref=e115]: alijäämähyvityksen enimmäismäärästä se osa, joka jää käyttämättä omassa verotuksessasi.
+                - text: Tämän Verohallinto tekee automaattisesti eikä sitä tarvitse erikseen vaatia.
+              - listitem [ref=e116]:
+                - strong [ref=e117]: alijäämähyvitys, jota ei voida vähentää omassa verotuksessasi
+                - text: . Näin käy silloin, jos sinulla ei ole ansiotuloista määrättäviä veroja tai verot eivät riitä koko alijäämähyvityksen vähentämiseen. Tätä sinun on halutessasi vaadittava veroilmoituksessa. Tee vaatimus
+                - list [ref=e118]:
+                  - listitem [ref=e119]:
+                    - link "OmaVerossa" [ref=e120] [cursor=pointer]:
+                      - /url: /sahkoiset-asiointipalvelut/omavero/
+                    - text: kohdassa Muut vähennykset – Alijäämähyvityksen lapsikorotus ja siirto puolisolle
+                - list [ref=e121]:
+                  - listitem [ref=e122]:
+                    - link "lomakkeella 50B, Pääomatulot ja niistä tehtävät vähennykset" [ref=e123] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/50b-p%C3%A4%C3%A4omatulot-ja-niist%C3%A4-teht%C3%A4v%C3%A4t-v%C3%A4hennykset/
+                    - text: ", kohdassa Alijäämähyvitys ja sen lapsikorotus."
+                  - listitem [ref=e124]: Vaatimus on tehtävä viimeistään ennen kuin verovuoden verotuksesi päättyy.
+                  - listitem [ref=e125]: Jos et vaadi alijäämähyvityksen siirtoa puolisolle, sinulle vahvistetaan pääomatulolajin tappio, joka vähennetään pääomatuloistasi seuraavien 10 vuoden aikana sitä mukaa kuin pääomatuloja syntyy.
+            - generic [ref=e126]:
+              - heading "Esimerkki alijäämähyvityksen enimmäismäärän siirrosta puolisolle" [level=3] [ref=e127] [cursor=pointer]:
+                - button "Esimerkki alijäämähyvityksen enimmäismäärän siirrosta puolisolle" [ref=e128]:
+                  - text: Esimerkki alijäämähyvityksen enimmäismäärän siirrosta puolisolle
+                  - img
+              - region "Esimerkki alijäämähyvityksen enimmäismäärän siirrosta puolisolle":
+                - generic:
+                  - paragraph [ref=e129]:
+                    - strong [ref=e130]: "Esimerkki:"
+                    - text: Matilla ja Maijalla on yksi yhteinen alaikäinen lapsi. Matin ansiotuloista menevän veron määrä on 15 000 euroa. Matin pääomatulojen alijäämä on 11 000 euroa. Maijalla ei ole lainkaan pääomatulojen alijäämää.
+                  - paragraph [ref=e131]: Alijäämähyvityksen osuus, eli 30 % Matin pääomatulojen 11 000 euron alijäämästä olisi 3 300 euroa. Alijäämähyvityksen enimmäismäärä on kuitenkin 1 400 euroa. Maijan alijäämähyvitys (1 400 euroa) siirretään Matin hyväksi, koska Maijalla ei ole lainkaan pääomatulojen alijäämää.
+                  - paragraph [ref=e132]: Myös alijäämähyvityksen lapsikorotus huomioidaan Matin verotuksessa. Matin alijäämähyvityksen enimmäismääräksi tulee siis 3 200 euroa (oman alijäämähyvityksen enimmäismäärä 1 400 e + puolisolta käyttämättä jäänyt 1 400 e + lapsikorotus 400 e).
+                  - paragraph [ref=e133]: Tämä 3 200 euroa vähennetään alijäämähyvityksenä Matin ansiotulojen verosta. Matin ansiotuloista menee veroa 11 800 euroa (15 000 e - 3 200 e).
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - img
+            - generic [ref=e137]:
+              - heading "Syventävät vero-ohjeet" [level=2] [ref=e138]
+              - list [ref=e139]:
+                - listitem [ref=e140]:
+                  - link "Verotettavan tulon laskeminen henkilöverotuksessa" [ref=e142] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/ohje-hakusivu/49038/
+        - navigation "Osion alasivut" [ref=e143]:
+          - heading "Mitä vähennyksiä voi saada verotuksessa?" [level=3] [ref=e144]:
+            - link "Mitä vähennyksiä voi saada verotuksessa?" [ref=e145] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+          - list [ref=e148]:
+            - listitem [ref=e149]:
+              - link "Näin ilmoitat vähennyksiä OmaVerossa" [ref=e151] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/nain-ilmoitat-vahennyksia-omaverossa/
+            - listitem [ref=e152]:
+              - link "Verohallinto laskee nämä vähennykset automaattisesti" [ref=e154] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/verohallinto-laskee-nama-vahennykset-automaattisesti/
+            - listitem [ref=e155]:
+              - link "Alijäämähyvitys" [ref=e157] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/alijaamahyvitys/
+            - listitem [ref=e158]:
+              - link "Elatusvelvollisuusvähennys" [ref=e160] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/elatusvelvollisuusvahennys/
+            - listitem [ref=e161]:
+              - link "Tulontasaus" [ref=e163] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/tulontasaus/
+            - listitem [ref=e164]:
+              - link "Lahjoitusvähennys" [ref=e166] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/lahjoitusvahennys/
+            - listitem [ref=e167]:
+              - link "Veronmaksukyvyn alentumisvähennys" [ref=e169] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/veronmaksukyvyn-alentumisvahennys/
+            - listitem [ref=e170]:
+              - link "Asuntolainan korkovähennys" [ref=e172] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/asuntolainan-korkovahennys/
+            - listitem [ref=e173]:
+              - link "Vähennykset pääomatuloista" [ref=e175] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-paaomatuloista/
+            - listitem [ref=e176]:
+              - link "Velat ja korot" [ref=e178] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/
+            - listitem [ref=e179]:
+              - link "Vähennykset Ahvenanmaalla asuville" [ref=e181] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-ahvenanmaalla-asuville/
+        - separator [ref=e182]
+        - generic [ref=e183]: Sivu on viimeksi päivitetty 1.1.2026
+      - generic [ref=e188]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e189]
+        - paragraph [ref=e191]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e192] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e193]:
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - heading "Asioi verkossa" [level=2] [ref=e198]
+            - list [ref=e200]:
+              - listitem [ref=e201]:
+                - link "OmaVero" [ref=e203] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e204]:
+                - link "Laskurit" [ref=e206] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e207]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e209] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e210]:
+                - link "Positiivinen luottotietorekisteri" [ref=e212] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e213]:
+                - link "Tulorekisteri" [ref=e215] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e216]:
+            - heading "Yhteystiedot" [level=2] [ref=e217]
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - link "Chat" [ref=e222] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e223]:
+                - link "Yhteystiedot ja asiointi" [ref=e225] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e226]:
+                - link "Sosiaalinen media" [ref=e228] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e229]:
+                - link "Paperilomakkeet" [ref=e231] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e232]:
+                - link "Käsittelyajat" [ref=e234] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e235]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e236]
+            - generic [ref=e240]:
+              - paragraph [ref=e241]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e242]:
+                - listitem [ref=e243]:
+                  - link "Syventävät vero-ohjeet" [ref=e245] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e246]:
+            - heading "Verohallinto" [level=2] [ref=e247]
+            - generic [ref=e251]:
+              - paragraph [ref=e252]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e253]:
+                - listitem [ref=e254]:
+                  - link "Tietoa Verohallinnosta" [ref=e256] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e259]:
+          - listitem [ref=e260]: © Verohallinto
+          - listitem [ref=e261]:
+            - link "Tietosuoja" [ref=e263] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e264]:
+            - link "Palaute" [ref=e266] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e267]:
+            - link "Saavutettavuusseloste" [ref=e269] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e270]:
+            - link "Tulosta" [ref=e272] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e274] [cursor=pointer]:
+    - img [ref=e275]
+    - paragraph [ref=e277]: Chatbot

@@ -1,0 +1,372 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Facebook Prophet LSTM spending prediction personal finance budgeting app Python Plaid API tutorial 2025 2026 Facebook Prophet LSTM spending prediction personal finance budgeting app Python Plaid API tutorial 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DFacebook%2BProphet%2BLSTM%2Bspending%2Bprediction%2Bpersonal%2Bfinance%2Bbudgeting%2Bapp%2BPython%2BPlaid%2BAPI%2Btutorial%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&aep=1&ntc=1&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQs6gLegQIEBAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQtKgLegQIERAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQtKgLegQIEhAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ0pQJegQIExAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQs6gLegQIFBAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DFacebook%2BProphet%2BLSTM%2Bspending%2Bprediction%2Bpersonal%2Bfinance%2Bbudgeting%2Bapp%2BPython%2BPlaid%2BAPI%2Btutorial%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQiIQCKAN6BAgNEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "(PDF) Personal Finance Prediction and Investment Advisor ResearchGate https://www.researchgate.net › 397..." [ref=e154] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/397898679_Personal_Finance_Prediction_and_Investment_Advisor
+                - heading "(PDF) Personal Finance Prediction and Investment Advisor" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: ResearchGate
+                  - generic [ref=e164]: https://www.researchgate.net › 397...
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.researchgate.net/publication/397898679_Personal_Finance_Prediction_and_Investment_Advisor
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e174]:
+              - generic [ref=e175]: 26.11.2025 —
+              - generic [ref=e176]:
+                - text: This intelligent system analyses
+                - emphasis [ref=e177]: spending
+                - text: patterns, income streams, market conditions, and individual goals to create customised
+                - emphasis [ref=e178]: financial
+                - text: plans ...
+        - generic [ref=e182]:
+          - generic [ref=e185]:
+            - link "How I Built a Personal Finance Tracker in Python That ... Python in Plain English https://python.plainenglish.io › ho..." [ref=e187] [cursor=pointer]:
+              - /url: https://python.plainenglish.io/how-i-built-a-personal-finance-tracker-in-python-that-talks-to-my-bank-categorizes-expenses-and-16c88994b0cc
+              - heading "How I Built a Personal Finance Tracker in Python That ..." [level=3] [ref=e188]
+              - generic [ref=e193]:
+                - generic [ref=e195]: Python in Plain English
+                - generic [ref=e197]: https://python.plainenglish.io › ho...
+            - generic [ref=e198]:
+              - generic [ref=e199]: ·
+              - link "Käännä tämä sivu" [ref=e200] [cursor=pointer]:
+                - /url: https://python.plainenglish.io/how-i-built-a-personal-finance-tracker-in-python-that-talks-to-my-bank-categorizes-expenses-and-16c88994b0cc
+            - button "Tietoja tästä tuloksesta" [ref=e201] [cursor=pointer]:
+              - img [ref=e204]
+          - generic [ref=e207]:
+            - generic [ref=e208]: 27.6.2025 —
+            - generic [ref=e209]:
+              - text: "1."
+              - emphasis [ref=e210]: Connecting to My Bank with Plaid API
+              - text: . To pull transaction data from my bank, I used Plaid — a secure and developer-friendly API for accessing ...
+          - generic [ref=e212]: "Puuttuu: Facebook ‎Prophet ‎LSTM ‎prediction"
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e218]
+            - button "Tietoja tästä tuloksesta" [ref=e219] [cursor=pointer]:
+              - img [ref=e222]
+          - generic [ref=e224]:
+            - button "How to forecast using Prophet?" [ref=e230] [cursor=pointer]:
+              - generic [ref=e232]: How to forecast using Prophet?
+              - img [ref=e235]
+            - button "How does the Facebook Prophet work?" [ref=e244] [cursor=pointer]:
+              - generic [ref=e246]: How does the Facebook Prophet work?
+              - img [ref=e249]
+            - button "What is the prophet function in Python?" [ref=e258] [cursor=pointer]:
+              - generic [ref=e260]: What is the prophet function in Python?
+              - img [ref=e263]
+            - button "What is yhat in prophet?" [ref=e272] [cursor=pointer]:
+              - generic [ref=e274]: What is yhat in prophet?
+              - img [ref=e277]
+        - generic [ref=e286]:
+          - generic [ref=e289]:
+            - link "Python Time Series Forecasting Tutorial with Meta Prophet ... YouTube · Data Science with Onur Yli 1,8 t. katselukertaa · 9 kuukautta sitten" [ref=e291] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=nIoHj7ei2to
+              - heading "Python Time Series Forecasting Tutorial with Meta Prophet ..." [level=3] [ref=e292]
+              - generic [ref=e297]:
+                - generic [ref=e299]: YouTube · Data Science with Onur
+                - generic [ref=e301]: Yli 1,8 t. katselukertaa · 9 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e302] [cursor=pointer]:
+              - img [ref=e305]
+          - generic [ref=e307]:
+            - 'button "Python Time Series Forecasting Tutorial with Meta Prophet ..., tekijä: Data Science with Onur, alusta: YouTube. Katso Googlessa. 9:59" [ref=e308] [cursor=pointer]':
+              - generic [ref=e310]:
+                - img [ref=e316]
+                - generic [ref=e319]:
+                  - generic [ref=e320]: 9:59
+                  - img [ref=e323]
+            - generic [ref=e326]: Learn how to forecast time series data in Python using Facebook Prophet, now known as Meta Prophet. In this step-by-step tutorial, ...
+          - button "3 avainkohtaa tässä videossa" [ref=e331] [cursor=pointer]:
+            - generic [ref=e340]:
+              - generic [ref=e343]: 3 avainkohtaa tässä videossa
+              - img [ref=e345]
+          - generic [ref=e348]: "Puuttuu: LSTM ‎spending ‎personal ‎finance ‎budgeting ‎app ‎Plaid ‎API ‎2025 ‎2026"
+        - generic [ref=e352]:
+          - generic [ref=e355]:
+            - link "haroon-ai1/personal-Finance-Manager-Application-Python ... GitHub https://github.com › haroon23108124" [ref=e357] [cursor=pointer]:
+              - /url: https://github.com/haroon23108124/personal-Finance-Manager-Application-Python-
+              - heading "haroon-ai1/personal-Finance-Manager-Application-Python ..." [level=3] [ref=e358]
+              - generic [ref=e363]:
+                - generic [ref=e365]: GitHub
+                - generic [ref=e367]: https://github.com › haroon23108124
+            - generic [ref=e368]:
+              - generic [ref=e369]: ·
+              - link "Käännä tämä sivu" [ref=e370] [cursor=pointer]:
+                - /url: https://github.com/haroon23108124/personal-Finance-Manager-Application-Python-
+            - button "Tietoja tästä tuloksesta" [ref=e371] [cursor=pointer]:
+              - img [ref=e374]
+          - generic [ref=e378]:
+            - text: An AI-powered
+            - emphasis [ref=e379]: Personal Finance
+            - text: Manager featuring a "Master Brain" (
+            - emphasis [ref=e380]: LSTM
+            - text: Neural Network) to forecast future
+            - emphasis [ref=e381]: spending
+            - text: trends. Built with
+            - emphasis [ref=e382]: Python
+            - text: ", TensorFlow, ..."
+          - generic [ref=e384]: "Puuttuu: Facebook ‎Prophet ‎Plaid ‎API ‎2025"
+        - generic [ref=e388]:
+          - generic [ref=e391]:
+            - link "Getting Started Predicting Time Series Data with Facebook ... Medium · Jonas Dieckmann 2 vuotta sitten" [ref=e393] [cursor=pointer]:
+              - /url: https://medium.com/data-science/getting-started-predicting-time-series-data-with-facebook-prophet-c74ad3040525
+              - heading "Getting Started Predicting Time Series Data with Facebook ..." [level=3] [ref=e394]
+              - generic [ref=e399]:
+                - generic [ref=e401]: Medium · Jonas Dieckmann
+                - generic [ref=e403]: 2 vuotta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e404] [cursor=pointer]:
+              - img [ref=e407]
+          - generic [ref=e411]:
+            - text: This article aims to take away the entry barriers to get started with time series analysis in a hands-on
+            - emphasis [ref=e412]: tutorial
+            - text: using
+            - emphasis [ref=e413]: Prophet
+            - text: .
+          - generic [ref=e415]: "Puuttuu: LSTM ‎spending ‎personal ‎finance ‎budgeting ‎Plaid"
+        - generic [ref=e419]:
+          - generic [ref=e422]:
+            - link "Personal Financial Insights API for PFM & Banking Apps Plaid https://plaid.com › use-cases › pers..." [ref=e424] [cursor=pointer]:
+              - /url: https://plaid.com/use-cases/personal-financial-insights/
+              - heading "Personal Financial Insights API for PFM & Banking Apps" [level=3] [ref=e425]
+              - generic [ref=e430]:
+                - generic [ref=e432]: Plaid
+                - generic [ref=e434]: https://plaid.com › use-cases › pers...
+            - generic [ref=e435]:
+              - generic [ref=e436]: ·
+              - link "Käännä tämä sivu" [ref=e437] [cursor=pointer]:
+                - /url: https://plaid.com/use-cases/personal-financial-insights/
+            - button "Tietoja tästä tuloksesta" [ref=e438] [cursor=pointer]:
+              - img [ref=e441]
+          - generic [ref=e445]:
+            - text: Deliver real-time insights with Plaid.
+            - emphasis [ref=e446]: Access transaction, investment, & debt data
+            - text: with enrichment, categorization, & aggregation APIs for PFM. Learn more.
+          - generic [ref=e448]: "Puuttuu: Facebook ‎Prophet ‎LSTM ‎prediction ‎Python ‎tutorial ‎2025"
+        - generic [ref=e452]:
+          - generic [ref=e455]:
+            - link "Building a Personal Finance Dashboard with Plaid API Facebook · LavX News 1 vuosi sitten" [ref=e457] [cursor=pointer]:
+              - /url: https://www.facebook.com/lavxnews/posts/-building-a-personal-finance-dashboard-with-plaid-api-a-developers-guide-unlock-/122111230910723764/
+              - heading "Building a Personal Finance Dashboard with Plaid API" [level=3] [ref=e458]
+              - generic [ref=e463]:
+                - generic [ref=e465]: Facebook · LavX News
+                - generic [ref=e467]: 1 vuosi sitten
+            - button "Tietoja tästä tuloksesta" [ref=e468] [cursor=pointer]:
+              - img [ref=e471]
+          - generic [ref=e475]:
+            - text: This article dives deep into the setup, features, and development strategies for creating a robust application that tracks your
+            - emphasis [ref=e476]: financial
+            - text: ...
+          - generic [ref=e478]: "Puuttuu: Prophet ‎LSTM ‎spending ‎prediction ‎app ‎Python ‎2026"
+        - generic [ref=e482]:
+          - generic [ref=e485]:
+            - link "Quick Start | Prophet Meta Open Source http://facebook.github.io › docs" [ref=e487] [cursor=pointer]:
+              - /url: http://facebook.github.io/prophet/docs/quick_start.html
+              - heading "Quick Start | Prophet" [level=3] [ref=e488]
+              - generic [ref=e493]:
+                - generic [ref=e495]: Meta Open Source
+                - generic [ref=e497]: http://facebook.github.io › docs
+            - generic [ref=e498]:
+              - generic [ref=e499]: ·
+              - link "Käännä tämä sivu" [ref=e500] [cursor=pointer]:
+                - /url: http://facebook.github.io/prophet/docs/quick_start.html
+            - button "Tietoja tästä tuloksesta" [ref=e501] [cursor=pointer]:
+              - img [ref=e504]
+          - generic [ref=e508]:
+            - emphasis [ref=e509]: Prophet is a forecasting procedure implemented in R and Python
+            - text: . It is fast and provides completely automated forecasts that can be tuned by hand by data ...
+          - generic [ref=e511]: "Puuttuu: LSTM ‎spending ‎personal ‎finance ‎budgeting ‎app ‎Plaid ‎2025 ‎2026"
+        - generic [ref=e518]:
+          - generic [ref=e521]:
+            - link "Forecasting with the FB Prophet Model YouTube · Rob Mulla Yli 142,1 t. katselukertaa · 3 vuotta sitten" [ref=e523] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=j0eioK5edqg
+              - heading "Forecasting with the FB Prophet Model" [level=3] [ref=e524]
+              - generic [ref=e529]:
+                - generic [ref=e531]: YouTube · Rob Mulla
+                - generic [ref=e533]: Yli 142,1 t. katselukertaa · 3 vuotta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e534] [cursor=pointer]:
+              - img [ref=e537]
+          - generic [ref=e539]:
+            - 'button "Forecasting with the FB Prophet Model, tekijä: Rob Mulla, alusta: YouTube. Katso Googlessa. 20:42" [ref=e540] [cursor=pointer]':
+              - generic [ref=e542]:
+                - img [ref=e545]
+                - generic [ref=e548]:
+                  - generic [ref=e549]: 20:42
+                  - img [ref=e552]
+            - generic [ref=e555]: In this video I show how you can use facebook's prophet model to easily do time series forecasting in python. This model is very powerful ...
+          - button "8 avainkohtaa tässä videossa" [ref=e560] [cursor=pointer]:
+            - generic [ref=e563]:
+              - generic [ref=e566]: 8 avainkohtaa tässä videossa
+              - img [ref=e568]
+          - generic [ref=e571]: "Puuttuu: LSTM ‎spending ‎personal ‎finance ‎budgeting ‎app ‎Plaid ‎API ‎2025 ‎2026"
+        - generic [ref=e575]:
+          - generic [ref=e578]:
+            - link "Predicting timeseries data using Facebook Prophet in a ... hashbang.nl https://hashbang.nl › blog › predict..." [ref=e580] [cursor=pointer]:
+              - /url: https://hashbang.nl/blog/predicting-timeseries-data-using-facebook-prophet-in-a-python-flask-service-influxdb-and-grafana-on-raspberry-pi
+              - heading "Predicting timeseries data using Facebook Prophet in a ..." [level=3] [ref=e581]
+              - generic [ref=e586]:
+                - generic [ref=e588]: hashbang.nl
+                - generic [ref=e590]: https://hashbang.nl › blog › predict...
+            - generic [ref=e591]:
+              - generic [ref=e592]: ·
+              - link "Käännä tämä sivu" [ref=e593] [cursor=pointer]:
+                - /url: https://hashbang.nl/blog/predicting-timeseries-data-using-facebook-prophet-in-a-python-flask-service-influxdb-and-grafana-on-raspberry-pi
+            - button "Tietoja tästä tuloksesta" [ref=e594] [cursor=pointer]:
+              - img [ref=e597]
+          - generic [ref=e600]:
+            - generic [ref=e601]: 15.2.2023 —
+            - generic [ref=e602]:
+              - text: Find the right timeseries prediction model;
+              - emphasis [ref=e603]: Get prophet running on arm
+              - text: ; Turn Prophet into a REST API; Query Influxdb data, make a prediction, ...
+      - generic [ref=e605]:
+        - generic [ref=e610]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e612]
+          - generic [ref=e614]:
+            - generic [ref=e615]:
+              - link "Prophet forecasting Python" [ref=e619] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Prophet+forecasting+Python&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ1QJ6BAguEAE
+                - generic [ref=e620]:
+                  - generic [ref=e625]: Prophet forecasting Python
+                  - img [ref=e629]
+              - link "Prophet time series" [ref=e634] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Prophet+time+series&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ1QJ6BAgwEAE
+                - generic [ref=e635]:
+                  - generic [ref=e640]: Prophet time series
+                  - img [ref=e644]
+            - generic [ref=e646]:
+              - link "Prophet model example" [ref=e650] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Prophet+model+example&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ1QJ6BAgxEAE
+                - generic [ref=e651]:
+                  - generic [ref=e656]: Prophet model example
+                  - img [ref=e660]
+              - link "Prophet daily seasonality" [ref=e665] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Prophet+daily+seasonality&sa=X&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ1QJ6BAgtEAE
+                - generic [ref=e666]:
+                  - generic [ref=e671]: Prophet daily seasonality
+                  - img [ref=e675]
+        - navigation [ref=e677]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e678]
+          - text: "1"
+          - link "Page 2" [ref=e681] [cursor=pointer]:
+            - /url: /search?q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=jnHRaYW3HKqNwPAPt7zKgQw&start=10&sa=N&sstk=Af77f_cu5xqFRMCAb1-tkRYlFDV7BHKmmvvE5Ld14TXvAIuuP206QIw5Sb6lnRycAxmN6gz5wgQa6A7GDVwAO7dW2GFnYU8U525oog&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ8tMDegQIKxAE
+            - text: "2"
+          - heading "Seuraava" [level=2] [ref=e683]:
+            - link "Seuraava" [ref=e684] [cursor=pointer]:
+              - /url: /search?q=Facebook+Prophet+LSTM+spending+prediction+personal+finance+budgeting+app+Python+Plaid+API+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=jnHRaYW3HKqNwPAPt7zKgQw&start=10&sa=N&sstk=Af77f_cu5xqFRMCAb1-tkRYlFDV7BHKmmvvE5Ld14TXvAIuuP206QIw5Sb6lnRycAxmN6gz5wgQa6A7GDVwAO7dW2GFnYU8U525oog&ved=2ahUKEwiFtvDXgdWTAxWqBhAIHTeeMsAQ8NMDegQIKxAG
+              - generic [ref=e686]: Seuraava
+      - navigation
+    - contentinfo [ref=e687]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e688]
+      - generic [ref=e692]:
+        - generic [ref=e694]:
+          - text: Suomi
+          - generic [ref=e696]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e698] [cursor=pointer]:
+              - generic [ref=e699]: 00940, Helsinki
+              - generic [ref=e701]:
+                - text: "-"
+                - generic [ref=e702]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e704] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e707]:
+          - link "Ohje" [ref=e708] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e709] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e710] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e711] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

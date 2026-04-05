@@ -1,0 +1,356 @@
+- generic [active] [ref=e1]:
+  - link "Siirry sisältöön" [ref=e3] [cursor=pointer]:
+    - /url: "#start"
+  - generic [ref=e6]:
+    - link "Siirry etusivulle - Tilastokeskus" [ref=e8] [cursor=pointer]:
+      - /url: /fi
+      - img [ref=e9]
+    - generic [ref=e12]:
+      - button "Kieli" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+        - text: Kieli
+      - link "Haku" [ref=e16] [cursor=pointer]:
+        - /url: /fi/haku
+        - img [ref=e17]
+        - generic [ref=e19]: Haku
+      - button "Valikko" [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+        - generic [ref=e24]: Valikko
+  - main [ref=e25]:
+    - navigation "murupolku" [ref=e28]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "Etusivu" [ref=e31] [cursor=pointer]:
+            - /url: /fi
+            - generic [ref=e32]: Etusivu
+        - listitem [ref=e33]:
+          - generic [ref=e34]: /
+          - link "Tilastot" [ref=e35] [cursor=pointer]:
+            - /url: /fi/tilastot
+            - generic [ref=e36]: Tilastot
+        - listitem [ref=e37]:
+          - generic [ref=e38]: /
+          - generic "Asunto-osakeyhtiöiden talous" [ref=e39]:
+            - generic [ref=e40]: Asunto-osakeyhtiöiden talous
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: "Liittyy aiheisiin:"
+        - link "Asuminen ja rakentaminen" [ref=e45] [cursor=pointer]:
+          - /url: /fi/aihe/asuminen-ja-rakentaminen
+          - generic [ref=e46]: Asuminen ja rakentaminen
+      - generic [ref=e47]:
+        - heading "Asunto-osakeyhtiöiden talous" [level=1] [ref=e48]
+        - img "Suomen virallinen tilasto (SVT)" [ref=e51]
+      - paragraph [ref=e53]: Asunto-osakeyhtiöiden talous -tilasto kuvaa asunto-osakeyhtiöiden asumiskustannuksia sekä selvittää, mistä asumiskustannukset muodostuvat ja mistä erot kustannuksissa johtuvat. Tiedot kerätään kyselyllä ja julkaistaan kerran vuodessa.
+    - article [ref=e56]:
+      - img [ref=e57]
+      - generic [ref=e60]:
+        - heading "Korjaus" [level=2] [ref=e61]
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: Tietokantataulukkoa 13jy -- Asunto-osakeyhtiöiden, joilla tapahtumia, tuloslaskelmaerät rakennusvuosittain on korjattu 23.2.2026.
+          - link "Lue lisää korjauksesta" [ref=e64] [cursor=pointer]:
+            - /url: /fi/muutostiedote/cmlur2j5on84g07w0e2hx4nhx
+    - navigation "Tällä sivulla" [ref=e67]:
+      - heading "Tällä sivulla" [level=2] [ref=e68]
+      - list [ref=e69]:
+        - listitem [ref=e70]:
+          - link "Avainluvut" [ref=e71] [cursor=pointer]:
+            - /url: "#keyfigures"
+        - listitem [ref=e72]:
+          - link "Kuviot" [ref=e73] [cursor=pointer]:
+            - /url: "#graphs"
+        - listitem [ref=e74]:
+          - link "Taulukot" [ref=e75] [cursor=pointer]:
+            - /url: "#tables"
+        - listitem [ref=e76]:
+          - link "Tietokantataulukot" [ref=e77] [cursor=pointer]:
+            - /url: "#cubes"
+        - listitem [ref=e78]:
+          - link "Julkaisut" [ref=e79] [cursor=pointer]:
+            - /url: "#publications"
+        - listitem [ref=e80]:
+          - link "Dokumentaatio" [ref=e81] [cursor=pointer]:
+            - /url: "#documentation"
+        - listitem [ref=e82]:
+          - link "Viittausohje" [ref=e83] [cursor=pointer]:
+            - /url: "#reference"
+        - listitem [ref=e84]:
+          - link "Etsitkö aiemmin julkaistua tilastotietoa?" [ref=e85] [cursor=pointer]:
+            - /url: "#archive"
+        - listitem [ref=e86]:
+          - link "Yhteystiedot" [ref=e87] [cursor=pointer]:
+            - /url: "#contacts"
+    - generic [ref=e90]:
+      - heading "Avainluvut" [level=2] [ref=e91]
+      - article [ref=e95]:
+        - generic [ref=e96]:
+          - heading "Asunto-osakeyhtiöiden keskimääräiset hoitokulut" [level=3] [ref=e97]
+          - button "Avainluvun valikko" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+        - paragraph [ref=e101]:
+          - generic [ref=e102]: 512snt/m2/kk
+          - text: 512snt/m2/kk
+        - paragraph [ref=e103]: "2024"
+        - paragraph [ref=e104]:
+          - link "Asunto-osakeyhtiöiden talous" [ref=e105] [cursor=pointer]:
+            - /url: /fi/tilasto/asyta
+          - text: "Päivitetty: 17.6.2025"
+    - generic [ref=e107]:
+      - heading "Kuviot" [level=2] [ref=e108]
+      - generic [ref=e109]: Katso keskeiset tilastotiedot kuvioista.
+      - generic [ref=e110]:
+        - generic [ref=e111] [cursor=pointer]:
+          - generic [ref=e113]:
+            - time [ref=e115]: 17.6.2025
+            - heading "Asunto-osakeyhtiöiden hoitokulut talotyypin ja rakennusvuoden mukaan 2023 ja 2024" [level=3] [ref=e117]
+          - button "Asunto-osakeyhtiöiden hoitokulut talotyypin ja rakennusvuoden mukaan 2023 ja 2024" [expanded] [ref=e118]:
+            - img [ref=e119]
+        - region "Asunto-osakeyhtiöiden hoitokulut talotyypin ja rakennusvuoden mukaan 2023 ja 2024" [ref=e121]:
+          - alert [ref=e125]: Sisältöä ladataan
+      - generic [ref=e128] [cursor=pointer]:
+        - generic [ref=e130]:
+          - time [ref=e132]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden hoitokulut talotyypin mukaan suuralueittain 2023 ja 2024" [level=3] [ref=e134]
+        - button "Asunto-osakeyhtiöiden hoitokulut talotyypin mukaan suuralueittain 2023 ja 2024" [ref=e135]:
+          - img [ref=e136]
+      - generic [ref=e139] [cursor=pointer]:
+        - generic [ref=e141]:
+          - time [ref=e143]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden kiinteistön tuotot talotyypin ja rakennusvuoden mukaan 2023 ja 2024" [level=3] [ref=e145]
+        - button "Asunto-osakeyhtiöiden kiinteistön tuotot talotyypin ja rakennusvuoden mukaan 2023 ja 2024" [ref=e146]:
+          - img [ref=e147]
+      - generic [ref=e150] [cursor=pointer]:
+        - generic [ref=e152]:
+          - time [ref=e154]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden tuotot ja kulut talotyypin ja rakennusvuoden mukaan 2009-2024" [level=3] [ref=e156]
+        - button "Asunto-osakeyhtiöiden tuotot ja kulut talotyypin ja rakennusvuoden mukaan 2009-2024" [ref=e157]:
+          - img [ref=e158]
+      - generic [ref=e161] [cursor=pointer]:
+        - generic [ref=e163]:
+          - time [ref=e165]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden tuotot ja kulut talotyypin mukaan suuralueittain 2009-2024" [level=3] [ref=e167]
+        - button "Asunto-osakeyhtiöiden tuotot ja kulut talotyypin mukaan suuralueittain 2009-2024" [ref=e168]:
+          - img [ref=e169]
+    - generic [ref=e172]:
+      - heading "Taulukot" [level=2] [ref=e173]
+      - generic [ref=e174]: Katso keskeiset tilastotiedot taulukoista.
+      - generic [ref=e175]:
+        - generic [ref=e176] [cursor=pointer]:
+          - generic [ref=e178]:
+            - time [ref=e180]: 17.6.2025
+            - heading "Asunto-osakeyhtiöiden tuloslaskelmaerät rakennusvuosittain 2024" [level=3] [ref=e182]
+          - button "Asunto-osakeyhtiöiden tuloslaskelmaerät rakennusvuosittain 2024" [expanded] [ref=e183]:
+            - img [ref=e184]
+        - region "Asunto-osakeyhtiöiden tuloslaskelmaerät rakennusvuosittain 2024" [ref=e186]:
+          - alert [ref=e190]: Sisältöä ladataan
+      - generic [ref=e193] [cursor=pointer]:
+        - generic [ref=e195]:
+          - time [ref=e197]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden tuloslaskelmaerät suuralueittain 2024" [level=3] [ref=e199]
+        - button "Asunto-osakeyhtiöiden tuloslaskelmaerät suuralueittain 2024" [ref=e200]:
+          - img [ref=e201]
+      - generic [ref=e204] [cursor=pointer]:
+        - generic [ref=e206]:
+          - time [ref=e208]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden, joilla tapahtumia, tuloslaskelmaerät rakennusvuosittain 2024" [level=3] [ref=e210]
+        - button "Asunto-osakeyhtiöiden, joilla tapahtumia, tuloslaskelmaerät rakennusvuosittain 2024" [ref=e211]:
+          - img [ref=e212]
+      - generic [ref=e215] [cursor=pointer]:
+        - generic [ref=e217]:
+          - time [ref=e219]: 17.6.2025
+          - heading "Asunto-osakeyhtiöiden lukumäärät rakennusvuosittain ja suuralueittain 2024" [level=3] [ref=e221]
+        - button "Asunto-osakeyhtiöiden lukumäärät rakennusvuosittain ja suuralueittain 2024" [ref=e222]:
+          - img [ref=e223]
+    - article [ref=e227]:
+      - img [ref=e228]
+      - generic [ref=e233]:
+        - heading "Tilaston yksityiskohtaiset taulukot löydät StatFin-tietokannasta" [level=2] [ref=e234]
+        - generic [ref=e235]: StatFin-tietokannassa ovat päivitetyt taulukot. Poimi tarvitsemiasi tietoja taulukoiksi, tarkastele tietoja kuvioina tai lataa dataa käyttöösi.
+        - link "Siirry tietokantaan" [ref=e236] [cursor=pointer]:
+          - /url: https://pxdata.stat.fi/PXWeb/pxweb/fi/StatFin/StatFin__asyta/?tablelist=true
+          - generic [ref=e237]: Siirry tietokantaan
+    - generic [ref=e239]:
+      - heading "Julkaisut" [level=2] [ref=e240]
+      - generic [ref=e241]:
+        - generic [ref=e243]:
+          - heading "Asunto-osakeyhtiöiden hoitokulut nousivat 4,1 % vuonna 2024" [level=3] [ref=e244]:
+            - link "Asunto-osakeyhtiöiden hoitokulut nousivat 4,1 % vuonna 2024" [ref=e245] [cursor=pointer]:
+              - /url: /fi/julkaisu/cm19962dkbar908w9370hpyia
+          - paragraph [ref=e246]: Asunto-osakeyhtiöiden talous 2024
+          - generic [ref=e247]:
+            - time [ref=e249]: 17.6.2025
+            - generic [ref=e250]: tiedote
+        - generic [ref=e252]:
+          - heading "Asunto-osakeyhtiöiden vastikkeet nousivat enemmän kuin hoitokulut vuonna 2023" [level=3] [ref=e253]:
+            - link "Asunto-osakeyhtiöiden vastikkeet nousivat enemmän kuin hoitokulut vuonna 2023" [ref=e254] [cursor=pointer]:
+              - /url: /fi/julkaisu/clmaajxzdajk90bw6idfuk9pr
+          - paragraph [ref=e255]: Asunto-osakeyhtiöiden talous 2023
+          - generic [ref=e256]:
+            - time [ref=e258]: 19.6.2024
+            - generic [ref=e259]: tiedote
+        - generic [ref=e261]:
+          - heading "Asunto-osakeyhtiöiden hoitokulut nousivat vuonna 2022" [level=3] [ref=e262]:
+            - link "Asunto-osakeyhtiöiden hoitokulut nousivat vuonna 2022" [ref=e263] [cursor=pointer]:
+              - /url: /fi/julkaisu/cl7r8oki1bmmv0cw05172cq5l
+          - paragraph [ref=e264]: Asunto-osakeyhtiöiden talous 2022
+          - generic [ref=e265]:
+            - time [ref=e267]: 13.6.2023
+            - generic [ref=e268]: tiedote
+      - link "Kaikki tilaston julkaisut" [ref=e270] [cursor=pointer]:
+        - /url: /fi/tilastot/julkaisut?statistic=asyta
+        - generic [ref=e271]: Kaikki tilaston julkaisut
+      - generic [ref=e274]:
+        - heading "Tulevat julkaisut" [level=3] [ref=e275]:
+          - generic [ref=e276]: Tulevat julkaisut
+        - alert [ref=e277]: Sisältöä ladataan
+    - generic [ref=e281]:
+      - generic [ref=e282]:
+        - heading "Dokumentaatio" [level=2] [ref=e283]
+        - paragraph [ref=e284]: Kuvaus tilaston tuottamisesta, käytetyistä menetelmistä ja laadusta.
+        - link "Siirry tilaston dokumentaatioon" [ref=e285] [cursor=pointer]:
+          - /url: /fi/tilasto/dokumentaatio/asyta
+          - generic [ref=e286]: Siirry tilaston dokumentaatioon
+      - generic [ref=e288]:
+        - heading "Viittausohje" [level=2] [ref=e289]
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]: "Suomen virallinen tilasto (SVT):"
+              - generic [ref=e295]: Asunto-osakeyhtiöiden talous
+              - generic [ref=e296]: "[verkkojulkaisu]."
+            - generic [ref=e297]:
+              - generic [ref=e298]: ISSN=1799-2990.
+              - generic [ref=e299]: "Helsinki: Tilastokeskus [Viitattu: 5.4.2026]."
+            - generic [ref=e301]: "Saantitapa:"
+          - button "Kopioi lähdemerkintä leikepöydälle" [ref=e303] [cursor=pointer]:
+            - generic [ref=e304]: Kopioi lähdemerkintä leikepöydälle
+            - img [ref=e305]
+    - article [ref=e310]:
+      - img [ref=e311]
+      - generic [ref=e319]:
+        - heading "Etsitkö aiemmin julkaistua tilastotietoa?" [level=2] [ref=e320]
+        - generic [ref=e322]:
+          - link "Arkistoidut tietokantataulukot" [ref=e323] [cursor=pointer]:
+            - /url: https://pxdata.stat.fi/PXWeb/pxweb/fi/StatFin_Passiivi/StatFin__asyta/?tablelist=true
+          - link "Julkistukset ennen 5.4.2022" [ref=e324] [cursor=pointer]:
+            - /url: https://tilastokeskus.finna.fi/Search/Results?lookfor=ISSN%3D1799-2990&type=AllFields&limit=20&sort=main_date_str+desc
+    - generic [ref=e326]:
+      - heading "Yhteystiedot" [level=2] [ref=e327]
+      - generic [ref=e328]:
+        - generic [ref=e331]:
+          - generic [ref=e332]: Palvelusähköposti
+          - link "asuminen.hinnat@stat.fi" [ref=e333] [cursor=pointer]:
+            - /url: mailto:asuminen.hinnat@stat.fi
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - heading "Tiedustelut ensisijaisesti" [level=3] [ref=e336]
+            - generic [ref=e338]:
+              - generic [ref=e339]: Elina Peltoniemi
+              - generic [ref=e340]: yliaktuaari
+              - generic [ref=e341]: 029 551 3088
+          - generic [ref=e342]:
+            - heading "Muut asiantuntijat" [level=3] [ref=e343]
+            - generic [ref=e345]:
+              - generic [ref=e346]: Martti Korhonen
+              - generic [ref=e347]: yliaktuaari
+              - generic [ref=e348]: 029 551 3451
+  - generic [ref=e351]:
+    - img [ref=e353]
+    - heading "Miksi tätä sisältöä ei näytetä?" [level=1] [ref=e356]
+    - paragraph [ref=e357]: Tämä sisältö ei näy, jos olet estänyt evästeiden käytön. Jos haluat nähdä sisällön, tarkista evästeasetuksesi.
+    - button "Muokkaa evästeasetuksia" [ref=e358] [cursor=pointer]
+  - contentinfo [ref=e359]:
+    - navigation [ref=e361]:
+      - link "Siirry etusivulle" [ref=e363] [cursor=pointer]:
+        - /url: /fi
+        - img [ref=e364]
+      - generic [ref=e367]:
+        - heading "Ota yhteyttä" [level=2] [ref=e368]
+        - list [ref=e369]:
+          - listitem [ref=e370]:
+            - link "Opastinsilta 12, 00520 Helsinki" [ref=e371] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Opastinsilta+12,+00520+Helsinki
+              - text: Opastinsilta 12 00520 Helsinki
+          - listitem [ref=e372]:
+            - link "Vaihde 029 551 1000" [ref=e373] [cursor=pointer]:
+              - /url: tel:029 551 1000
+          - listitem [ref=e374]:
+            - link "Tietopalvelu 029 551 2220" [ref=e375] [cursor=pointer]:
+              - /url: tel:029 551 2220
+          - listitem [ref=e376]:
+            - link "info@stat.fi" [ref=e377] [cursor=pointer]:
+              - /url: mailto:info@stat.fi
+      - generic [ref=e378]:
+        - heading "Kysy meiltä" [level=2] [ref=e379]
+        - list [ref=e380]:
+          - listitem [ref=e381]:
+            - link "Neuvonta ja tietopalvelu" [ref=e382] [cursor=pointer]:
+              - /url: https://stat.fi/fi/tietoa-meista/yhteystiedot/neuvonta-ja-tietopalvelu
+          - listitem [ref=e383]:
+            - link "Medialle" [ref=e384] [cursor=pointer]:
+              - /url: https://stat.fi/fi/tietoa-meista/yhteystiedot/medialle
+      - generic [ref=e385]:
+        - heading "Löydä nopeasti" [level=2] [ref=e386]
+        - list [ref=e387]:
+          - listitem [ref=e388]:
+            - link "StatFin-tietokanta" [ref=e389] [cursor=pointer]:
+              - /url: "https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/ "
+          - listitem [ref=e390]:
+            - link "Tilastotietokannat" [ref=e391] [cursor=pointer]:
+              - /url: https://stat.fi/fi/palvelut/tilastodatapalvelut/tilastotietokannat
+          - listitem [ref=e392]:
+            - link "Luokitukset" [ref=e393] [cursor=pointer]:
+              - /url: https://stat.fi/fi/luokitukset/
+          - listitem [ref=e394]:
+            - link "Suomi lukuina" [ref=e395] [cursor=pointer]:
+              - /url: /fi/tilastot/tietoa-teemoittain/suomi-lukuina
+          - listitem [ref=e396]:
+            - link "Otos-julkaisuarkisto" [ref=e397] [cursor=pointer]:
+              - /url: https://otos.stat.fi/home
+          - listitem [ref=e398]:
+            - link "Tulevat julkaisut" [ref=e399] [cursor=pointer]:
+              - /url: https://stat.fi/fi/tulevat-julkaisut
+      - generic [ref=e400]:
+        - heading "Seuraa meitä" [level=2] [ref=e401]
+        - list [ref=e402]:
+          - listitem [ref=e403]:
+            - link "Tilaa uutisviesti" [ref=e404] [cursor=pointer]:
+              - /url: https://assets-eur.mkt.dynamics.com/b9da23cc-7e79-4893-aff9-62fa77c6b023/digitalassets/standaloneforms/0fb195d6-a80f-f011-998a-000d3ab531ac
+              - img [ref=e405]
+              - text: Tilaa uutisviesti
+          - listitem [ref=e407]:
+            - link "Facebook" [ref=e408] [cursor=pointer]:
+              - /url: https://fi-fi.facebook.com/Tilastotohtori
+              - img [ref=e409]
+              - text: Facebook
+          - listitem [ref=e411]:
+            - link "LinkedIn" [ref=e412] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/statistics-finland
+              - img [ref=e413]
+              - text: LinkedIn
+          - listitem [ref=e415]:
+            - link "YouTube" [ref=e416] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UC-7i21PII1N0yedcqFDpwdA
+              - img [ref=e417]
+              - text: YouTube
+          - listitem [ref=e420]:
+            - link "Instagram" [ref=e421] [cursor=pointer]:
+              - /url: https://www.instagram.com/tilastokeskus
+              - img [ref=e422]
+              - text: Instagram
+    - navigation [ref=e426]:
+      - list [ref=e427]:
+        - link "Yhteystiedot" [ref=e428] [cursor=pointer]:
+          - /url: https://stat.fi/fi/tietoa-meista/yhteystiedot
+        - link "Palaute" [ref=e429] [cursor=pointer]:
+          - /url: https://www.stat.fi/fi/tietoa-meista/yhteystiedot/palaute
+        - link "Käyttöehdot" [ref=e430] [cursor=pointer]:
+          - /url: https://www.stat.fi/fi/tietoa-meista/tutustu-tilastokeskukseen/lainsaadanto/kayttoehdot
+        - link "Tietosuoja" [ref=e431] [cursor=pointer]:
+          - /url: https://www.stat.fi/meta/tietosuoja/index.html
+        - link "Saavutettavuus" [ref=e432] [cursor=pointer]:
+          - /url: https://www.stat.fi/fi/tietoa-meista/tilastokeskuksen-verkkosivuston-saavutettavuusseloste
+        - link "Tietoa sivustosta" [ref=e433] [cursor=pointer]:
+          - /url: https://www.stat.fi/fi/tietoa-meista/tietoa-sivustosta
+        - link "Evästeet" [ref=e434] [cursor=pointer]:
+          - /url: https://www.stat.fi/fi/tietoa-meista/tietoa-sivustosta/evasteet

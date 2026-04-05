@@ -1,0 +1,12 @@
+[    1551ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://coptrz.com/wp-content/litespeed/js/74e994b24a219c1adee0a9e14ba6a0e5.js?ver=6a0e5:1
+[    1614ms] [LOG] opt-in @ https://coptrz.com/wp-content/litespeed/js/95ac1e709a236ddc67b4dc36a40b3225.js?ver=b3225:0
+[    2857ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.omappapi.com/v2/embed/256006?d=coptrz.com&device=tablet:0
+[    2857ms] [ERROR] [OptinMonster] This account is not currently active. It is either expired, paused, archived, cancelled or temporarily suspended. @ https://a.omappapi.com/app/js/api.min.js:0
+[    3107ms] [WARNING] Error: The domain COPTRZ.COM is not authorized to show the cookie banner for domain group ID d482c3e1-0fc2-4c4c-a216-f19fa003ba47. Please add it to the domain group in the Cookiebot Manager to authorize the domain. @ https://consent.cookiebot.com/d482c3e1-0fc2-4c4c-a216-f19fa003ba47/cc.js?renew=false&referer=coptrz.com&dnt=false&init=false:0
+[    3475ms] [INFO] [olark][info] gtag() did not exist, you may need to configure event triggers in Google Tag Manager @ https://static.olark.com/jsclient-bucket5/application2.js?v=1774993884807:17
+[    3492ms] [ERROR] [olark][error] Cannot create Custom Google Analytics Tracker without Tracking ID @ https://static.olark.com/jsclient-bucket5/application2.js?v=1774993884807:17
+[    3555ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://coptrz.com/:0
+[    3741ms] [WARNING] Unrecognized feature: 'web-share'. @ https://www.youtube.com/s/player/f4c47414/www-widgetapi.vflset/www-widgetapi.js:193
+[    4053ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://coptrz.com'). @ https://www.youtube.com/s/player/f4c47414/www-widgetapi.vflset/www-widgetapi.js:209
+[    6719ms] Uncaught (in promise) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD
+    at e (https://static.olark.com/jsclient-bucket5/application2.js?v=1774993884807:32:11271)

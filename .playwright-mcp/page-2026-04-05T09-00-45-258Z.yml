@@ -1,0 +1,314 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: varainsiirtovero asunto-osake prosentti 2026 site:vuokranantajat.fi OR site:veronmaksajat.fi OR site:nordea.fi OR site:op.fi varainsiirtovero asunto-osake prosentti 2026 site:vuokranantajat.fi OR site:veronmaksajat.fi OR site:nordea.fi OR site:op.fi
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dvarainsiirtovero%2Basunto-osake%2Bprosentti%2B2026%2Bsite:vuokranantajat.fi%2BOR%2Bsite:veronmaksajat.fi%2BOR%2Bsite:nordea.fi%2BOR%2Bsite:op.fi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sca_esv=3a2a6e3c008af294&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&aep=1&ntc=1&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ2J8OegQIERAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQtKgLegQIFxAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQtKgLegQIFhAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dvarainsiirtovero%2Basunto-osake%2Bprosentti%2B2026%2Bsite:vuokranantajat.fi%2BOR%2Bsite:veronmaksajat.fi%2BOR%2Bsite:nordea.fi%2BOR%2Bsite:op.fi&hl=en&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQiIQCKAN6BAgOEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Tulokset internetistä" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Varainsiirtovero asuntokaupan yhteydessä Nordea https://www.nordea.fi › Asunnon osto" [ref=e154] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/varainsiirtovero.html
+                - heading "Varainsiirtovero asuntokaupan yhteydessä" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Nordea
+                  - generic [ref=e164]: https://www.nordea.fi › Asunnon osto
+              - button "Tietoja tästä tuloksesta" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e172]:
+              - emphasis [ref=e173]: Osakehuoneiston vero on 1,5
+              - text: "% ja kiinteistön, kuten omakotitalo, 3 %. Varainsiirtoveron maksaminen ja varainsiirtoveroilmoitus asuntokaupan yhteydessä."
+            - generic [ref=e175]:
+              - text: "Puuttuu: prosentti ‎| Hae tällä:"
+              - link "prosentti" [ref=e176] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=varainsiirtovero+asunto-osake+%22prosentti%22+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ5t4CegQIJxAB
+        - generic [ref=e180]:
+          - generic [ref=e183]:
+            - link "Varainsiirtovero - Veronmaksajain Keskusliitto ry Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › asunnon-osto" [ref=e185] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/asuminen-ja-auto/asunnon-osto/varainsiirtovero/
+              - heading "Varainsiirtovero - Veronmaksajain Keskusliitto ry" [level=3] [ref=e186]
+              - generic [ref=e191]:
+                - generic [ref=e193]: Veronmaksajain Keskusliitto
+                - generic [ref=e195]: https://www.veronmaksajat.fi › neuvot › asunnon-osto
+            - button "Tietoja tästä tuloksesta" [ref=e196] [cursor=pointer]:
+              - img [ref=e199]
+          - generic [ref=e202]:
+            - generic [ref=e203]: 29.12.2025 —
+            - generic [ref=e204]:
+              - emphasis [ref=e205]: Asunto
+              - text: "-osakeyhtiön ..."
+              - emphasis [ref=e206]: osakkeiden
+              - text: omistusoikeuden luovutuksesta suoritettava
+              - emphasis [ref=e207]: varainsiirtovero
+              - text: on 1,5
+              - emphasis [ref=e208]: prosenttia
+              - text: 12.10.2023 alkaen.
+          - generic [ref=e210]:
+            - text: "Puuttuu: 2026 ‎| Hae tällä:"
+            - link "2026" [ref=e211] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=varainsiirtovero+asunto-osake+prosentti+%222026%22+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ5t4CegQIKBAB
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - link "Omaisuuden myynti - Veronmaksajain Keskusliitto ry Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot" [ref=e220] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/omaisuuden-myynti/
+              - heading "Omaisuuden myynti - Veronmaksajain Keskusliitto ry" [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: Veronmaksajain Keskusliitto
+                - generic [ref=e230]: https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot
+            - button "Tietoja tästä tuloksesta" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+          - generic [ref=e237]:
+            - generic [ref=e238]: 7.1.2026 —
+            - generic [ref=e239]:
+              - text: Veronalainen luovutusvoitto on pääomatuloa, josta maksetaan veroa 30
+              - emphasis [ref=e240]: prosenttia
+              - text: ", 30 000 euroa ylittävältä osalta 34"
+              - emphasis [ref=e241]: prosenttia
+              - text: . Luovutusvoiton ...
+        - generic [ref=e245]:
+          - generic [ref=e248]:
+            - link "Myyntivoitto eli luovutusvoitto Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot" [ref=e250] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/2023/myyntivoitto-/
+              - heading "Myyntivoitto eli luovutusvoitto" [level=3] [ref=e251]
+              - generic [ref=e256]:
+                - generic [ref=e258]: Veronmaksajain Keskusliitto
+                - generic [ref=e260]: https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot
+            - button "Tietoja tästä tuloksesta" [ref=e261] [cursor=pointer]:
+              - img [ref=e264]
+          - generic [ref=e267]:
+            - generic [ref=e268]: 7.1.2026 —
+            - generic [ref=e269]:
+              - text: Veronalainen luovutusvoitto on pääomatuloa, josta maksetaan veroa 30
+              - emphasis [ref=e270]: prosenttia
+              - text: ", 30 000 euroa ylittävältä osalta 34"
+              - emphasis [ref=e271]: prosenttia
+              - text: . Myyntivoiton ...
+        - generic [ref=e275]:
+          - generic [ref=e278]:
+            - link "Asunnon myynti- eli luovutusvoitto Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › asuminen-ja-auto › asun..." [ref=e280] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/asuminen-ja-auto/asunnon-myynti/2025/asunnon-myynti--eli-luovutusvoitto/
+              - heading "Asunnon myynti- eli luovutusvoitto" [level=3] [ref=e281]
+              - generic [ref=e286]:
+                - generic [ref=e288]: Veronmaksajain Keskusliitto
+                - generic [ref=e290]: https://www.veronmaksajat.fi › asuminen-ja-auto › asun...
+            - button "Tietoja tästä tuloksesta" [ref=e291] [cursor=pointer]:
+              - img [ref=e294]
+          - generic [ref=e297]:
+            - generic [ref=e298]: 11.1.2026 —
+            - generic [ref=e299]:
+              - text: Veronalainen luovutusvoitto on pääomatuloa, josta maksetaan veroa 30
+              - emphasis [ref=e300]: prosenttia
+              - text: ", 30 000 euroa ylittävältä osalta 34"
+              - emphasis [ref=e301]: prosenttia
+              - text: . Luovutusvoiton ...
+        - generic [ref=e305]:
+          - generic [ref=e308]:
+            - link "Asuntosijoittajan ajankohtaiset veromuutokset Suomen Vuokranantajat https://vuokranantajat.fi › Uutiset" [ref=e310] [cursor=pointer]:
+              - /url: https://vuokranantajat.fi/uutiset/asuntosijoittajan-ajankohtaiset-veromuutokset/
+              - heading "Asuntosijoittajan ajankohtaiset veromuutokset" [level=3] [ref=e311]
+              - generic [ref=e313]:
+                - img [ref=e317]
+                - generic [ref=e319]:
+                  - generic [ref=e321]: Suomen Vuokranantajat
+                  - generic [ref=e323]: https://vuokranantajat.fi › Uutiset
+            - button "Tietoja tästä tuloksesta" [ref=e324] [cursor=pointer]:
+              - img [ref=e327]
+          - generic [ref=e330]:
+            - generic [ref=e331]: 4.1.2024 —
+            - generic [ref=e332]:
+              - text: Muiden arvopapereiden, kuten
+              - emphasis [ref=e333]: osakkeiden
+              - text: ","
+              - emphasis [ref=e334]: varainsiirtovero
+              - text: alenee 1,6 prosentista 1,5 prosenttiin. Lisäksi ensiasunnon varainsiirtoverovapaus ...
+        - generic [ref=e338]:
+          - generic [ref=e341]:
+            - link "Osakeyhtiön kautta sijoittaminen Suomen Vuokranantajat https://vuokranantajat.fi › Tietopankki" [ref=e343] [cursor=pointer]:
+              - /url: https://vuokranantajat.fi/tietopankki/osakeyhtion-kautta-sijoittaminen/
+              - heading "Osakeyhtiön kautta sijoittaminen" [level=3] [ref=e344]
+              - generic [ref=e346]:
+                - img [ref=e350]
+                - generic [ref=e352]:
+                  - generic [ref=e354]: Suomen Vuokranantajat
+                  - generic [ref=e356]: https://vuokranantajat.fi › Tietopankki
+            - button "Tietoja tästä tuloksesta" [ref=e357] [cursor=pointer]:
+              - img [ref=e360]
+          - generic [ref=e364]:
+            - text: Jos asunnot myydään yhtiölle, tämä aiheuttaa veroseuraamuksia varainsiirtoveron muodossa.
+            - emphasis [ref=e365]: Varainsiirtovero
+            - text: tulee lähtökohtaisesti maksettavaksi myös silloin, ...
+        - generic [ref=e369]:
+          - generic [ref=e372]:
+            - link "Kannattaako hankkia omistusasunto vai asua vuokralla? Nordea https://www.nordea.fi › Asunnon osto" [ref=e374] [cursor=pointer]:
+              - /url: https://www.nordea.fi/henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/omistusasunto.html
+              - heading "Kannattaako hankkia omistusasunto vai asua vuokralla?" [level=3] [ref=e375]
+              - generic [ref=e380]:
+                - generic [ref=e382]: Nordea
+                - generic [ref=e384]: https://www.nordea.fi › Asunnon osto
+            - button "Tietoja tästä tuloksesta" [ref=e385] [cursor=pointer]:
+              - img [ref=e388]
+          - generic [ref=e392]:
+            - emphasis [ref=e393]: Asunto
+            - text: "-"
+            - emphasis [ref=e394]: osakkeiden
+            - text: oston yhteydessä tulee myös
+            - emphasis [ref=e395]: varainsiirtovero
+            - text: maksettavaksi. Maksat kuukausittain yhtiövastiketta, joka voi koostua hoito- ja ...
+        - generic [ref=e399]:
+          - generic [ref=e402]:
+            - link "Rahanarvoiset verovähennykset Suomen Vuokranantajat https://vuokranantajat.fi › Tietopankki" [ref=e404] [cursor=pointer]:
+              - /url: https://vuokranantajat.fi/tietopankki/rahanarvoiset-verovahennykset/
+              - heading "Rahanarvoiset verovähennykset" [level=3] [ref=e405]
+              - generic [ref=e407]:
+                - img [ref=e411]
+                - generic [ref=e413]:
+                  - generic [ref=e415]: Suomen Vuokranantajat
+                  - generic [ref=e417]: https://vuokranantajat.fi › Tietopankki
+            - button "Tietoja tästä tuloksesta" [ref=e418] [cursor=pointer]:
+              - img [ref=e421]
+          - generic [ref=e425]:
+            - text: Vuodelta 2025 se tarkoittaa 30
+            - emphasis [ref=e426]: prosenttia
+            - text: 30 000 euroon asti ja sen ylittävältä osalta 34
+            - emphasis [ref=e427]: prosenttia
+            - text: . Vuokratulot merkitään veroilmoituksessa asuntokohtaisesti.
+        - generic [ref=e431]:
+          - generic [ref=e434]:
+            - link "Vaihdamme asuntoja – onko vaihdosta maksettava ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › asunnon-osto" [ref=e436] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/asuminen-ja-auto/asunnon-osto/2023/vaihdamme-asuntoja--onko-vaihdosta-maksettava-varainsiirtoveroa/
+              - heading "Vaihdamme asuntoja – onko vaihdosta maksettava ..." [level=3] [ref=e437]
+              - generic [ref=e442]:
+                - generic [ref=e444]: Veronmaksajain Keskusliitto
+                - generic [ref=e446]: https://www.veronmaksajat.fi › neuvot › asunnon-osto
+            - button "Tietoja tästä tuloksesta" [ref=e447] [cursor=pointer]:
+              - img [ref=e450]
+          - generic [ref=e453]:
+            - generic [ref=e454]: 26.1.2026 —
+            - generic [ref=e455]:
+              - text: Asunto-osakkeesta maksettava vero on 1,5
+              - emphasis [ref=e456]: prosenttia asunto
+              - text: "-"
+              - emphasis [ref=e457]: osakkeen
+              - text: kauppahinnasta tai mahdollisista muista vastikkeista sekä ...
+          - generic [ref=e459]:
+            - text: "Puuttuu: varainsiirtovero ‎| Hae tällä:"
+            - link "varainsiirtovero" [ref=e460] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=%22varainsiirtovero%22+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sa=X&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ5t4CegQIPhAB
+      - navigation [ref=e463]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e464]
+        - text: "1"
+        - link "Page 2" [ref=e467] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sca_esv=3a2a6e3c008af294&ei=vCTSaa2SEPXFwPAP_OuB2AU&start=10&sa=N&sstk=Af77f_eBXX54RmTy31FmdoW05qAcUCQSOWEY5Vr-_yZSewpP7H2OToOG3APAgyA6UtQSB5CR8RnzY3YYXsHIt7JbSkgF0-gjLCOvRA&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ8tMDegQIKRAE
+          - text: "2"
+        - heading "Seuraava" [level=2] [ref=e469]:
+          - link "Seuraava" [ref=e470] [cursor=pointer]:
+            - /url: /search?q=varainsiirtovero+asunto-osake+prosentti+2026+site:vuokranantajat.fi+OR+site:veronmaksajat.fi+OR+site:nordea.fi+OR+site:op.fi&sca_esv=3a2a6e3c008af294&ei=vCTSaa2SEPXFwPAP_OuB2AU&start=10&sa=N&sstk=Af77f_eBXX54RmTy31FmdoW05qAcUCQSOWEY5Vr-_yZSewpP7H2OToOG3APAgyA6UtQSB5CR8RnzY3YYXsHIt7JbSkgF0-gjLCOvRA&ved=2ahUKEwit4KbIrNaTAxX1IhAIHfx1AFsQ8NMDegQIKRAG
+            - generic [ref=e472]: Seuraava
+      - navigation
+    - contentinfo [ref=e473]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e474]
+      - generic [ref=e478]:
+        - generic [ref=e480]:
+          - text: Suomi
+          - generic [ref=e482]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e484] [cursor=pointer]:
+              - generic [ref=e485]: 00920, Helsinki
+              - generic [ref=e487]:
+                - text: "-"
+                - generic [ref=e488]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e490] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e493]:
+          - link "Ohje" [ref=e494] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e495] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e496] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e497] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,313 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: PS-tili vapaaehtoinen eläkevakuutus verotus 2026 vero.fi PS-tili vapaaehtoinen eläkevakuutus verotus 2026 vero.fi
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DPS-tili%2Bvapaaehtoinen%2Bel%25C3%25A4kevakuutus%2Bverotus%2B2026%2Bvero.fi%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sca_esv=abbb0aaa8824193d&hl=fi&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&aep=1&ntc=1&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQtKgLegQIFhAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQtKgLegQIFRAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "PS-tili Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › muut-sijoitukset" [ref=e222] [cursor=pointer]:
+                  - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/muut-sijoitukset/2021/ps-tili/
+                  - heading "PS-tili" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Veronmaksajain Keskusliitto
+                    - generic [ref=e232]: https://www.veronmaksajat.fi › neuvot › muut-sijoitukset
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 4.1.2026 —
+                - text: Verottaja tukee eläkesäästäjää verovähennyksellä, joka alentaa maksettavia veroja enimmillään 1 700 euroa vuodessa. Maksimivähennyksen saa, jos ...
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e246]
+              - button "Tietoja tästä tuloksesta" [ref=e247] [cursor=pointer]:
+                - img [ref=e250]
+            - generic [ref=e252]:
+              - button "Miten vapaaehtoinen eläkevakuutus verotetaan?" [ref=e258] [cursor=pointer]:
+                - generic [ref=e260]: Miten vapaaehtoinen eläkevakuutus verotetaan?
+                - img [ref=e263]
+              - button "Kannattaako vapaaehtoinen eläkevakuutus?" [ref=e272] [cursor=pointer]:
+                - generic [ref=e274]: Kannattaako vapaaehtoinen eläkevakuutus?
+                - img [ref=e277]
+              - button "Onko vapaaehtoinen eläke pääomatuloa?" [ref=e286] [cursor=pointer]:
+                - generic [ref=e288]: Onko vapaaehtoinen eläke pääomatuloa?
+                - img [ref=e291]
+              - button "Pitääkö vapaaehtoinen eläkevakuutus ilmoittaa tulorekisteriin?" [ref=e300] [cursor=pointer]:
+                - generic [ref=e302]: Pitääkö vapaaehtoinen eläkevakuutus ilmoittaa tulorekisteriin?
+                - img [ref=e305]
+          - generic [ref=e310]:
+            - heading "Tulokset internetistä" [level=2] [ref=e311]
+            - generic [ref=e312]:
+              - generic [ref=e315]:
+                - link "Vapaaehtoisen eläkesäästämisen verotuki poistuu vuonna ... Valtiovarainministeriö https://vm.fi › vapaaehtoisen-elakesaastamisen-verotuki..." [ref=e317] [cursor=pointer]:
+                  - /url: https://vm.fi/-/vapaaehtoisen-elakesaastamisen-verotuki-poistuu-vuonna-2027
+                  - heading "Vapaaehtoisen eläkesäästämisen verotuki poistuu vuonna ..." [level=3] [ref=e318]
+                  - generic [ref=e323]:
+                    - generic [ref=e325]: Valtiovarainministeriö
+                    - generic [ref=e327]: https://vm.fi › vapaaehtoisen-elakesaastamisen-verotuki...
+                - button "Tietoja tästä tuloksesta" [ref=e328] [cursor=pointer]:
+                  - img [ref=e331]
+              - generic [ref=e334]:
+                - generic [ref=e335]: 20.3.2025 —
+                - generic [ref=e336]:
+                  - text: Hallitus esittää, että
+                  - emphasis [ref=e337]: verotuki poistetaan vuoden 2027 alusta
+                  - text: . Valtiovarainministeriön arvion mukaan muutos kasvattaa verotuloja 57 miljoonalla ...
+          - generic [ref=e341]:
+            - generic [ref=e344]:
+              - link "Vuosi-ilmoitus vapaaehtoisen eläkevakuutuksen ja PS- ... Vero.fi https://www.vero.fi › lomakkeet › kuvaus › vuosi-ilmoi..." [ref=e346] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/vuosi-ilmoitus-vapaaehtoisen-elakevakuutuksen-ja-PS-sopimuksen-maksuista/
+                - heading "Vuosi-ilmoitus vapaaehtoisen eläkevakuutuksen ja PS- ..." [level=3] [ref=e347]
+                - generic [ref=e352]:
+                  - generic [ref=e354]: Vero.fi
+                  - generic [ref=e356]: https://www.vero.fi › lomakkeet › kuvaus › vuosi-ilmoi...
+              - button "Tietoja tästä tuloksesta" [ref=e357] [cursor=pointer]:
+                - img [ref=e360]
+            - generic [ref=e363]:
+              - generic [ref=e364]: 24.2.2026 —
+              - text: Tällä vuosi-ilmoituksella esimerkiksi palveluntarjoajat voivat antaa vuosi-ilmoitustiedot verovelvollisten maksamista eläkevakuutuksen ja ...
+            - generic [ref=e366]: "Puuttuu: tili ‎verotus"
+          - generic [ref=e370]:
+            - generic [ref=e373]:
+              - link "Vapaaehtoisen eläkesäästämisen verotus muuttuu Tilisanomat https://tilisanomat.fi › verotus › vapaaehtoisen-elakesaas..." [ref=e375] [cursor=pointer]:
+                - /url: https://tilisanomat.fi/verotus/vapaaehtoisen-elakesaastamisen-verotus-muuttuu
+                - heading "Vapaaehtoisen eläkesäästämisen verotus muuttuu" [level=3] [ref=e376]
+                - generic [ref=e381]:
+                  - generic [ref=e383]: Tilisanomat
+                  - generic [ref=e385]: https://tilisanomat.fi › verotus › vapaaehtoisen-elakesaas...
+              - button "Tietoja tästä tuloksesta" [ref=e386] [cursor=pointer]:
+                - img [ref=e389]
+            - generic [ref=e393]:
+              - text: Luonnollisen henkilön ottaman vapaaehtoisen eläkevakuutuksen maksujen vähennyskelpoisuus lakkaa vuoden 2027 alusta lukien. Samaan aikaan lakkaa myös
+              - emphasis [ref=e394]: PS
+              - text: "- ..."
+          - generic [ref=e398]:
+            - generic [ref=e401]:
+              - link "Satoihintuhansiin suomalaisiin eläkesäästäjiin iskee pian ... Talouselämä https://www.talouselama.fi › Uutiset › Verotus" [ref=e403] [cursor=pointer]:
+                - /url: https://www.talouselama.fi/uutiset/a/a66d2b24-5785-4a21-ba56-9716ffefe99a
+                - heading "Satoihintuhansiin suomalaisiin eläkesäästäjiin iskee pian ..." [level=3] [ref=e404]
+                - generic [ref=e409]:
+                  - generic [ref=e411]: Talouselämä
+                  - generic [ref=e413]: https://www.talouselama.fi › Uutiset › Verotus
+              - button "Tietoja tästä tuloksesta" [ref=e414] [cursor=pointer]:
+                - img [ref=e417]
+            - generic [ref=e420]:
+              - generic [ref=e421]: 24.3.2026 —
+              - generic [ref=e422]:
+                - text: Vapaaehtoisen eläkevakuutuksen perusteella maksettu
+                - emphasis [ref=e423]: eläke
+                - text: ja
+                - emphasis [ref=e424]: ps
+                - text: "-"
+                - emphasis [ref=e425]: tilin
+                - text: "perusteella maksettu suoritus verotetaan pääomatulona. Lähde: ..."
+          - generic [ref=e429]:
+            - generic [ref=e432]:
+              - link "Näin aloitat vapaaehtoisen eläkkeen nostamisen Nordea https://www.nordea.fi › ... › Sijoittaminen" [ref=e434] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/elakkeen-aloittaminen.html
+                - heading "Näin aloitat vapaaehtoisen eläkkeen nostamisen" [level=3] [ref=e435]
+                - generic [ref=e440]:
+                  - generic [ref=e442]: Nordea
+                  - generic [ref=e444]: https://www.nordea.fi › ... › Sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e445] [cursor=pointer]:
+                - img [ref=e448]
+            - generic [ref=e452]:
+              - text: Ota huomioon vapaaehtoisen eläkkeen
+              - emphasis [ref=e453]: verotus
+              - text: .
+              - emphasis [ref=e454]: Vapaaehtoinen eläke
+              - text: on saajalleen veronalaista tuloa. Eläkevakuutuksesi veroerottelun näet saamastasi eläkkeen ...
+          - generic [ref=e458]:
+            - generic [ref=e461]:
+              - link "Eläkesäästäminen Finanssiala https://www.finanssiala.fi › Aiheet › ELÄKKEET" [ref=e463] [cursor=pointer]:
+                - /url: https://www.finanssiala.fi/aiheet/elakesaastaminen/
+                - heading "Eläkesäästäminen" [level=3] [ref=e464]
+                - generic [ref=e469]:
+                  - generic [ref=e471]: Finanssiala
+                  - generic [ref=e473]: https://www.finanssiala.fi › Aiheet › ELÄKKEET
+              - button "Tietoja tästä tuloksesta" [ref=e474] [cursor=pointer]:
+                - img [ref=e477]
+            - generic [ref=e480]:
+              - generic [ref=e481]: 7.8.2025 —
+              - generic [ref=e482]:
+                - emphasis [ref=e483]: Vapaaehtoinen
+                - text: eläkesäästäminen (
+                - emphasis [ref=e484]: eläkevakuutus
+                - text: ja
+                - emphasis [ref=e485]: PS
+                - text: "-tilit) täydentää eläkeajan taloudellista turvaa. Se on luonteeltaan pitkäaikaista ja sitä ..."
+          - generic [ref=e489]:
+            - generic [ref=e492]:
+              - link "Veroperusteet 2026 Vero.fi https://www.vero.fi › veroprosentti-ja-tuloraja › verope..." [ref=e494] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosentti-ja-tuloraja/veroperusteet/
+                - heading "Veroperusteet 2026" [level=3] [ref=e495]
+                - generic [ref=e500]:
+                  - generic [ref=e502]: Vero.fi
+                  - generic [ref=e504]: https://www.vero.fi › veroprosentti-ja-tuloraja › verope...
+              - button "Tietoja tästä tuloksesta" [ref=e505] [cursor=pointer]:
+                - img [ref=e508]
+            - generic [ref=e511]:
+              - generic [ref=e512]: 22.11.2025 —
+              - generic [ref=e513]:
+                - text: Vuoden
+                - emphasis [ref=e514]: "2026"
+                - text: verokortti tulee voimaan vuoden alussa eli 1. tammikuuta. Verokortille merkitty tuloraja on laskettu koko vuodelle eli 12 ...
+            - generic [ref=e516]: "Puuttuu: PS- ‎tili ‎vapaaehtoinen"
+          - generic [ref=e520]:
+            - generic [ref=e523]:
+              - link "Vapaaehtoisen eläkesäästämisen verotuki pois vuonna 2027 SalkunRakentaja https://www.salkunrakentaja.fi › Artikkelit › Oma talous" [ref=e525] [cursor=pointer]:
+                - /url: https://www.salkunrakentaja.fi/2025/03/hallitus-vapaaehtoinen-elakevakuutus-pois/
+                - heading "Vapaaehtoisen eläkesäästämisen verotuki pois vuonna 2027" [level=3] [ref=e526]
+                - generic [ref=e531]:
+                  - generic [ref=e533]: SalkunRakentaja
+                  - generic [ref=e535]: https://www.salkunrakentaja.fi › Artikkelit › Oma talous
+              - button "Tietoja tästä tuloksesta" [ref=e536] [cursor=pointer]:
+                - img [ref=e539]
+            - generic [ref=e542]:
+              - generic [ref=e543]: 21.3.2025 —
+              - generic [ref=e544]:
+                - text: Vakuutuksen perusteella maksettavan eläkkeen
+                - emphasis [ref=e545]: verotus
+                - text: pysyy pääosin ennallaan. Kuitenkin enintään 5 000 euron suuruiset eläkesäästöt voisi nostaa ...
+          - generic [ref=e549]:
+            - generic [ref=e552]:
+              - link "Eläketulon verotus Vero.fi https://www.vero.fi › elaketulon-verotus9" [ref=e554] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48865/elaketulon-verotus9/
+                - heading "Eläketulon verotus" [level=3] [ref=e555]
+                - generic [ref=e560]:
+                  - generic [ref=e562]: Vero.fi
+                  - generic [ref=e564]: https://www.vero.fi › elaketulon-verotus9
+              - button "Tietoja tästä tuloksesta" [ref=e565] [cursor=pointer]:
+                - img [ref=e568]
+            - generic [ref=e572]:
+              - text: Tässä ohjeessa käsitellään eläketulon verotusta. Ohjeessa on otettu huomioon 1.1.
+              - emphasis [ref=e573]: "2026"
+              - text: voimaan tulevat lainsäädäntömuutokset.
+            - generic [ref=e575]:
+              - text: "Puuttuu: tili ‎| Hae tällä:"
+              - link "tili" [ref=e576] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=PS-+%22tili%22+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sa=X&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ5t4CegQIVBAB
+        - navigation [ref=e579]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e580]
+          - text: "1"
+          - link "Page 2" [ref=e583] [cursor=pointer]:
+            - /url: /search?q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sca_esv=abbb0aaa8824193d&hl=fi&ei=-nrRaY2FAou7wPAPsLLykQQ&start=10&sa=N&sstk=Af77f_fExplx8uDlupgyaZsiy9EfSEz4rL2SMjpUjP5RrDFvud7P6D0uV5PuezZiLxq1lO1zm83nccOoD2ucxZNqkj_d_t686NUgPg&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ8tMDegQIVRAE
+            - text: "2"
+          - link "Page 3" [ref=e585] [cursor=pointer]:
+            - /url: /search?q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sca_esv=abbb0aaa8824193d&hl=fi&ei=-nrRaY2FAou7wPAPsLLykQQ&start=20&sa=N&sstk=Af77f_fExplx8uDlupgyaZsiy9EfSEz4rL2SMjpUjP5RrDFvud7P6D0uV5PuezZiLxq1lO1zm83nccOoD2ucxZNqkj_d_t686NUgPg&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ8tMDegQIVRAG
+            - text: "3"
+          - link "Page 4" [ref=e587] [cursor=pointer]:
+            - /url: /search?q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sca_esv=abbb0aaa8824193d&hl=fi&ei=-nrRaY2FAou7wPAPsLLykQQ&start=30&sa=N&sstk=Af77f_fExplx8uDlupgyaZsiy9EfSEz4rL2SMjpUjP5RrDFvud7P6D0uV5PuezZiLxq1lO1zm83nccOoD2ucxZNqkj_d_t686NUgPg&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ8tMDegQIVRAI
+            - text: "4"
+          - link "Page 5" [ref=e589] [cursor=pointer]:
+            - /url: /search?q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sca_esv=abbb0aaa8824193d&hl=fi&ei=-nrRaY2FAou7wPAPsLLykQQ&start=40&sa=N&sstk=Af77f_fExplx8uDlupgyaZsiy9EfSEz4rL2SMjpUjP5RrDFvud7P6D0uV5PuezZiLxq1lO1zm83nccOoD2ucxZNqkj_d_t686NUgPg&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ8tMDegQIVRAK
+            - text: "5"
+          - heading "Seuraava" [level=2] [ref=e591]:
+            - link "Seuraava" [ref=e592] [cursor=pointer]:
+              - /url: /search?q=PS-tili+vapaaehtoinen+el%C3%A4kevakuutus+verotus+2026+vero.fi&sca_esv=abbb0aaa8824193d&hl=fi&ei=-nrRaY2FAou7wPAPsLLykQQ&start=10&sa=N&sstk=Af77f_fExplx8uDlupgyaZsiy9EfSEz4rL2SMjpUjP5RrDFvud7P6D0uV5PuezZiLxq1lO1zm83nccOoD2ucxZNqkj_d_t686NUgPg&ved=2ahUKEwiN6ubVitWTAxWLHRAIHTCZPEIQ8NMDegQIVRAM
+              - generic [ref=e594]: Seuraava
+        - navigation
+    - contentinfo [ref=e595]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e596]
+      - generic [ref=e600]:
+        - generic [ref=e602]:
+          - text: Suomi
+          - generic [ref=e604]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e606] [cursor=pointer]:
+              - generic [ref=e607]: 00940, Helsinki
+              - generic [ref=e609]:
+                - text: "-"
+                - generic [ref=e610]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e612] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e615]:
+          - link "Ohje" [ref=e616] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e617] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e618] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e619] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

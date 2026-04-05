@@ -1,0 +1,357 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - region "Evästeasetukset":
+      - generic [ref=e4]:
+        - heading "Evästeet kaupunkitieto.hel.fi-sivustolla" [level=2] [ref=e5]
+        - paragraph [ref=e6]: Tämä sivusto käyttää välttämättömiä evästeitä sivun perustoimintojen ja suorituskyvyn varmistamiseksi. Lisäksi käytämme kohdennusevästeitä käyttäjäkokemuksen parantamiseksi, analytiikkaan ja yksilöidyn sisällön näyttämiseen.
+        - button "Näytä yksityiskohdat" [ref=e7] [cursor=pointer]:
+          - generic [ref=e9]: Näytä yksityiskohdat
+        - generic [ref=e10]:
+          - button "Hyväksy kaikki evästeet" [ref=e11] [cursor=pointer]:
+            - generic [ref=e12]: Hyväksy kaikki evästeet
+          - button "Hyväksy vain välttämättömät evästeet" [ref=e13] [cursor=pointer]:
+            - generic [ref=e14]: Hyväksy vain välttämättömät evästeet
+  - link "Hyppää pääsisältöön" [ref=e15] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - banner [ref=e18]:
+        - generic [ref=e19]:
+          - link "Helsinki-kehystunnus" [ref=e21] [cursor=pointer]:
+            - /url: https://www.hel.fi/fi
+            - img "Helsinki-kehystunnus" [ref=e22]
+          - navigation "Valitse sivuston kieli" [ref=e24]:
+            - generic [ref=e26]:
+              - link "Suomi" [ref=e28]:
+                - /url: /fi/asuminen/asuntomarkkinat/asuntojen-hinnat
+              - button "Svenska" [ref=e31] [cursor=pointer]:
+                - generic [ref=e33]: Svenska
+              - button "English" [ref=e36] [cursor=pointer]:
+                - generic [ref=e38]: English
+          - button "Avaa navigaatiovalikko" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: Valikko
+              - generic [ref=e43]: Avaa navigaatiovalikko
+          - navigation "Navigaatiovalikko"
+        - generic:
+          - navigation "Päävalikko"
+      - main [ref=e44]:
+        - navigation "Murupolku" [ref=e47]:
+          - list [ref=e48]:
+            - listitem [ref=e49]:
+              - link "Etusivu" [ref=e50] [cursor=pointer]:
+                - /url: /fi
+              - img [ref=e51]
+            - listitem [ref=e52]:
+              - link "Asuminen" [ref=e53] [cursor=pointer]:
+                - /url: /fi/asuminen
+              - img [ref=e54]
+            - listitem [ref=e55]:
+              - link "Asuntomarkkinat" [ref=e56] [cursor=pointer]:
+                - /url: /fi/asuminen/asuntomarkkinat
+              - img [ref=e57]
+            - listitem [ref=e58]:
+              - generic [ref=e59]: Asuntojen hinnat
+        - heading "Asuntojen hinnat" [level=1] [ref=e66]
+        - article [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e75]:
+              - generic [ref=e79]:
+                - list [ref=e80]:
+                  - listitem [ref=e81]:
+                    - strong [ref=e82]: Asuntojen hinnat vaihtelevat Helsingissä voimakkaasti kaupungin eri osien välillä.
+                  - listitem [ref=e83]:
+                    - strong [ref=e84]: Vanhojen kerrostalo- ja rivitaloasuntojen keskimääräinen neliöhinta oli 4 985 euroa vuonna 2025.
+                  - listitem [ref=e85]:
+                    - strong [ref=e86]: Asuntojen hinnat ovat yli kaksinkertaistuneet Helsingissä 2000-luvun alusta.
+                - paragraph [ref=e87]: Asuntokauppojen määrä kuvastaa asuntojen kysyntää Helsingissä. Kova kysyntä on ylläpitänyt puolestaan asuntojen hintojen nousua viime vuosiin saakka. Helsingin asuntomarkkinoille on tunnusomaista asuntojen hintojen suuri alueellinen vaihtelu. Helsingin keskustassa, rannan tuntumassa, on niukasti asuntorakentamiseen soveltuvaa maata tarjolla. Asuntojen korkea kysyntä ja niukka tarjonta keskustassa ja sen liepeillä onkin ajanut asuntomarkkinat jatkuvaan ylikysyntään. Asuntojen hinnat ovatkin nousseet tällä alueella merkittävästi yli rakennuskustannusten.
+                - paragraph [ref=e88]: Helsingin kalleimmat asunnot ovatkin kaupungin ytimessä. Kaupunki jaetaan neljään kalleusalueeseen, ja keskusta-aluetta kutsutaan kalleusalueeksi 1. Seuraavaksi kalleimmat asunnot ovat ulommassa kantakaupungissa ja sen ympärysalueilla sijaitsevalla kalleusalueella 2, jossa myös asuntotuotanto on voimakkainta. Edullisimmilla alueilla, etenkin kalleusalueella 4, asuntojen hinnat vertautuvat Helsingin sijaan seudun pienempiin kuntiin (kuten Keski-Uudenmaan hintatasoon), joissa asuminen on huomattavasti edullisempaa. Tilastokeskuksen ennakkotietojen mukaan vanhojen kerrostalo- ja rivitaloasuntojen keskineliöhinta oli vuonna 2025 Helsingissä 4 985 euroa.
+                - paragraph [ref=e89]:
+                  - 'link "Avaa kartta: Helsingin kalleusalueet (Linkki johtaa ulkoiseen palveluun)" [ref=e90] [cursor=pointer]':
+                    - /url: https://infogram.com/helsingin-kalleusalueet-1h984wor7wlwz6p?live
+                    - strong [ref=e91]: "Avaa kartta: Helsingin kalleusalueet"
+                    - generic [ref=e93]: (Linkki johtaa ulkoiseen palveluun)
+                - paragraph [ref=e94]: Asuntokaupan heikko tila on vaikuttanut Helsingissäkin asuntojen hintojen laskuun. Positiivinen hintakehitys muuttui vuonna 2022 viimeisellä neljänneksellä laskuun, joskin asuntokaupan vilkas alkuvuosi nosti koko vuoden myytyjen asuntojen hinnat aiempien vuosien tasolle. Vuonna 2025 asuntojen hinnat laskivat Tilastokeskuksen ennakkotietojen mukaan edelleen Helsingissä kahdella prosentilla. Asuntojen hintojen laskua voidaan pitää merkittävänä siihen nähden, että hintojen laskua edeltävinä koronavuosina 2020–2021 asuntojen hinnat nousivat merkittävästi ja keskimäärin asuntojen hinnat ovat kasvaneet koko 2000-luvun ajan kolme prosenttia vuodessa.
+                - paragraph [ref=e95]: Asuntojen hinnat ovat kuitenkin yli kaksinkertaistuneet vuoden 2000 hintatasosta, ja hintakehitys on ollut huomattavasti nopeampaa kuin muualla Suomessa. Asuntojen hintakehitys on toisaalta eriytynyt Helsingissä ja on erityisesti seurausta keskusta-alueen eli kalleusalueen 1 hintojen merkittävästi lähiövyöhykettä nopeammasta kasvusta, eikä kalleusalueen 2 hintakehitys jää juurikaan siitä jälkeen. Lähiövyöhykkeen kalleusalueilla 3 ja 4, asuntojen hintojen nousu on ollut hitaampaa. Asuntojen hintojen lasku ei myöskään ole jakautunut tasan kaupungin eri kalleusalueiden välillä. Tilastokeskuksen ennakkotietojen mukaan vuonna 2025 kalleusalueen 4 vanhojen osakeasuntojen hinnat laskivat 4,6 prosentilla ja kalleusalueen 2 vanhojen osakeasuntojen hinnat laskivat 2,9 prosentilla. Kalleusalueiden 1 ja 3 vanhojen osakeasuntojen hinnoissa ei ollut vuonna 2025 nähtäviä muutoksia. Asuntojen hintojen lasku on kuitenkin hidastunut vuodesta 2023 huomattavasti. Ainoastaan kalleusalueen 4 vanhojen osakehuoneistojen hinta on painunut alle vuoden 2010 hintatason.
+              - generic [ref=e98]:
+                - heading [level=3]
+                - generic [ref=e99]:
+                  - generic [ref=e100]: "Linkit:"
+                  - link "Hankkeet" [ref=e102] [cursor=pointer]:
+                    - /url: /fi/hankkeet
+                    - generic [ref=e103]: Hankkeet
+                  - link "Tietokannat" [ref=e105] [cursor=pointer]:
+                    - /url: /fi/helsingin-tilastotietokannat
+                    - generic [ref=e106]: Tietokannat
+                  - link "Käsitteet ja määritelmät" [ref=e108] [cursor=pointer]:
+                    - /url: /fi/kasitteet-ja-maaritelmat
+                    - generic [ref=e109]: Käsitteet ja määritelmät
+            - figure "Kuviossa esitetään hintaindeksinä vanhojen osakeasuntojen hintakehitys Helsingissä vuosineljänneksittäin vuodesta 2010 alkaen. Toisella välilehdellä esitetään vanhojen osakeasuntojen keskineliöhinta viimeisimmällä vuosineljänneksellä. Tiedot näytetään kalleusalueittain, ja kalleusalueiden sijainti esitetään kolmannella välilehdellä." [ref=e113]:
+              - generic [ref=e116]:
+                - img [ref=e117]
+                - heading "Sisältöä ei voida näyttää" [level=2] [ref=e118]
+                - paragraph [ref=e119]: Tämä sisältö haetaan osoitteesta https://app.powerbi.com. Sen näyttämiseen vaaditaan, että hyväksyt sivuston evästeet. Pääset näkemään sisällön joko siirtymällä ulkoiselle sivustolle tai sallimalla evästeasetuksista personointi- ja tilastointievästeet.
+                - generic [ref=e120]:
+                  - link "Asuntojen hinnat (Linkki johtaa ulkoiseen palveluun)" [ref=e121] [cursor=pointer]:
+                    - /url: https://app.powerbi.com/view?r=eyJrIjoiNmE3NzAxYTctMWI0Zi00YWZiLTg5YWQtNDY2NjczYzU0ZDY3IiwidCI6IjNmZWI2YmMxLWQ3MjItNDcyNi05NjZjLTViNThiNjRkZjc1MiIsImMiOjh9
+                    - generic [ref=e122]: Asuntojen hinnat
+                    - generic [ref=e123]: Siirry ulkoiselle sivustolle
+                    - generic [ref=e125]: (Linkki johtaa ulkoiseen palveluun)
+                  - link "Muokkaa evästeasetuksia" [ref=e126] [cursor=pointer]:
+                    - /url: /fi/evasteasetukset
+                    - generic [ref=e127]: Muokkaa evästeasetuksia
+              - paragraph [ref=e129]: Kuviossa esitetään hintaindeksinä vanhojen osakeasuntojen hintakehitys Helsingissä vuosineljänneksittäin vuodesta 2010 alkaen. Toisella välilehdellä esitetään vanhojen osakeasuntojen keskineliöhinta viimeisimmällä vuosineljänneksellä. Tiedot näytetään kalleusalueittain, ja kalleusalueiden sijainti esitetään kolmannella välilehdellä.
+        - generic [ref=e133]:
+          - heading "Uusimmat artikkelit" [level=2] [ref=e135]
+          - generic [ref=e136]:
+            - link "Kaksi naista kaupunkipyörillä Kalasatamassa." [ref=e139] [cursor=pointer]:
+              - /url: /fi/asuntomarkkinoiden-ja-rakentamisen-vuosijulkaisu-2024
+              - img "Kaksi naista kaupunkipyörillä Kalasatamassa." [ref=e141]
+            - heading "Asuntomarkkinoiden ja rakentamisen vuosijulkaisu 2024" [level=4] [ref=e143]:
+              - link "Asuntomarkkinoiden ja rakentamisen vuosijulkaisu 2024" [ref=e144] [cursor=pointer]:
+                - /url: /fi/asuntomarkkinoiden-ja-rakentamisen-vuosijulkaisu-2024
+            - time [ref=e147]: 21.8.2025
+            - generic [ref=e149]:
+              - text: "|"
+              - link "Jasmin Bayar" [ref=e150] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:175
+              - text: ", |"
+              - link "Reetta Marttinen" [ref=e151] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:153
+            - generic [ref=e153]: Vuonna 2024 asuntomarkkinoiden ja rakentamisen toimintaympäristö säilyi haastavana. Asuntorakentamisen määrä oli selvästi alhaisemmalla tasolla, vaikka aiempina vuosina valmistuneita asuntoja oli markkinoilla runsaasti. Talouden yleinen epävarmuus ja kuluttajien vähäinen luottamus haastoivat...
+            - list [ref=e156]:
+              - listitem [ref=e157]:
+                - link "Asuminen" [ref=e158] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A9
+              - listitem [ref=e159]:
+                - link "Rakentaminen" [ref=e160] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A111
+              - listitem [ref=e161]:
+                - link "Asuntomarkkinat" [ref=e162] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A22
+              - listitem [ref=e163]:
+                - link "Asuntotuotanto" [ref=e164] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A176
+            - link "Link to page" [ref=e167] [cursor=pointer]:
+              - /url: /fi/asuntomarkkinoiden-ja-rakentamisen-vuosijulkaisu-2024
+          - generic [ref=e168]:
+            - link "Mies, nainen ja koira kävelevät rantabulevardilla Aurinkolahdessa." [ref=e171] [cursor=pointer]:
+              - /url: /fi/asuntomarkkinoiden-ja-rakentamisen-vuosijulkaisu-2023
+              - img "Mies, nainen ja koira kävelevät rantabulevardilla Aurinkolahdessa." [ref=e173]
+            - heading "Asuntomarkkinoiden ja rakentamisen vuosijulkaisu 2023" [level=4] [ref=e175]:
+              - link "Asuntomarkkinoiden ja rakentamisen vuosijulkaisu 2023" [ref=e176] [cursor=pointer]:
+                - /url: /fi/asuntomarkkinoiden-ja-rakentamisen-vuosijulkaisu-2023
+            - time [ref=e179]: 14.8.2024
+            - generic [ref=e181]:
+              - text: "|"
+              - link "Jasmin Bayar" [ref=e182] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:175
+              - text: ", |"
+              - link "Reetta Marttinen" [ref=e183] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:153
+            - generic [ref=e185]: Asuntomarkkinoita ja rakentamista koetelleet poikkeusajat jatkuivat vuonna 2023. Talouden taantuman vaikutukset heijastuivat niin rakentamiseen kuin asuntomarkkinoihin. Asuntokauppa oli vuonna 2023 edellisiä vuosia merkittävästi hiljaisempaa, mikä laski asuntojen hintoja Helsingissä ja koko...
+            - list [ref=e188]:
+              - listitem [ref=e189]:
+                - link "Asuminen" [ref=e190] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A9
+              - listitem [ref=e191]:
+                - link "Asuntomarkkinat" [ref=e192] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A22
+              - listitem [ref=e193]:
+                - link "Rakentaminen" [ref=e194] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A111
+              - listitem [ref=e195]:
+                - link "Asuntotuotanto" [ref=e196] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A176
+            - link "Link to page" [ref=e199] [cursor=pointer]:
+              - /url: /fi/asuntomarkkinoiden-ja-rakentamisen-vuosijulkaisu-2023
+          - generic [ref=e200]:
+            - link [ref=e203] [cursor=pointer]:
+              - /url: /fi/poikkeusajasta-toiseen-katsaus-asuntomarkkinoihin-ja-rakentamiseen-helsingissa-vuosina-2020-2022
+            - heading "Poikkeusajasta toiseen – katsaus asuntomarkkinoihin ja rakentamiseen Helsingissä vuosina 2020–2022" [level=4] [ref=e206]:
+              - link "Poikkeusajasta toiseen – katsaus asuntomarkkinoihin ja rakentamiseen Helsingissä vuosina 2020–2022" [ref=e207] [cursor=pointer]:
+                - /url: /fi/poikkeusajasta-toiseen-katsaus-asuntomarkkinoihin-ja-rakentamiseen-helsingissa-vuosina-2020-2022
+            - time [ref=e210]: 2.6.2023
+            - generic [ref=e212]:
+              - text: "|"
+              - link "Reetta Marttinen" [ref=e213] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:153
+              - text: ", |"
+              - link "Jasmin Bayar" [ref=e214] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:175
+            - generic [ref=e216]: Viime vuosien maailmanlaajuiset mullistukset ovat heijastuneet kaikkiin yhteiskunnan osa-alueisiin, myös asumiseen ja rakentamiseen. Koronaviruspandemian aikana etätyö yleistyi entisestään ja liikkumisen tavat muuttuivat, ja esimerkiksi monipaikkaisen työskentelyn on arvioitu säilyvän yleisenä...
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - link "Asuntomarkkinat" [ref=e221] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A22
+              - listitem [ref=e222]:
+                - link "Muuttoliike" [ref=e223] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A21
+              - listitem [ref=e224]:
+                - link "Asuminen" [ref=e225] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A9
+              - listitem [ref=e226]:
+                - link "Rakentaminen" [ref=e227] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A111
+              - listitem [ref=e228]:
+                - link "Covid-19" [ref=e229] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A139
+            - link "Link to page" [ref=e232] [cursor=pointer]:
+              - /url: /fi/poikkeusajasta-toiseen-katsaus-asuntomarkkinoihin-ja-rakentamiseen-helsingissa-vuosina-2020-2022
+          - generic [ref=e233]:
+            - link [ref=e236] [cursor=pointer]:
+              - /url: /fi/toimitilamarkkinat-helsingissa-ja-paakaupunkiseudulla-202223
+            - heading "Toimitilamarkkinat Helsingissä ja pääkaupunkiseudulla 2022/23" [level=4] [ref=e239]:
+              - link "Toimitilamarkkinat Helsingissä ja pääkaupunkiseudulla 2022/23" [ref=e240] [cursor=pointer]:
+                - /url: /fi/toimitilamarkkinat-helsingissa-ja-paakaupunkiseudulla-202223
+            - time [ref=e243]: 20.2.2023
+            - generic [ref=e245]:
+              - text: "|"
+              - link "Hanna Kaleva" [ref=e246] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:202
+              - text: ", |"
+              - link "Saana Kumpula" [ref=e247] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:203
+              - text: ", |"
+              - link "Perttu Rantanen" [ref=e248] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:204
+            - generic [ref=e250]: Katsaus on pääkaupunkiseudun toimitilamarkkinoita monipuolisesti kuvaava vuosittain julkaistava ajankohtaisraportti. Kiinteistösijoitusmarkkinat ovat viime vuosina houkutelleet runsaasti pääomia ennätysmatalien korkojen ja rahoitusmarkkinoiden korkean likviditeetin siivittämänä. Vuonna 2022...
+            - list [ref=e253]:
+              - listitem [ref=e254]:
+                - link "Helsinki" [ref=e255] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A221
+              - listitem [ref=e256]:
+                - link "Pääkaupunkiseutu" [ref=e257] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A229
+              - listitem [ref=e258]:
+                - link "Toimitilat" [ref=e259] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A155
+              - listitem [ref=e260]:
+                - link "Kiinteistöt" [ref=e261] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A156
+              - listitem [ref=e262]:
+                - link "Sijoitus" [ref=e263] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A157
+              - listitem [ref=e264]:
+                - link "Markkinat" [ref=e265] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A158
+              - listitem [ref=e266]:
+                - link "Etätyö" [ref=e267] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A249
+              - listitem [ref=e268]:
+                - link "Asunto" [ref=e269] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A250
+              - listitem [ref=e270]:
+                - link "Asuntomarkkinat" [ref=e271] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A22
+              - listitem [ref=e272]:
+                - link "Asuminen" [ref=e273] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A9
+            - link "Link to page" [ref=e276] [cursor=pointer]:
+              - /url: /fi/toimitilamarkkinat-helsingissa-ja-paakaupunkiseudulla-202223
+          - generic [ref=e277]:
+            - link [ref=e280] [cursor=pointer]:
+              - /url: /fi/asuntojen-hintojen-ja-vuokrien-vuosijulkaisu-2020
+            - heading "Asuntojen hintojen ja vuokrien vuosijulkaisu 2020" [level=4] [ref=e283]:
+              - link "Asuntojen hintojen ja vuokrien vuosijulkaisu 2020" [ref=e284] [cursor=pointer]:
+                - /url: /fi/asuntojen-hintojen-ja-vuokrien-vuosijulkaisu-2020
+            - time [ref=e287]: 20.1.2022
+            - generic [ref=e289]:
+              - text: "|"
+              - link "Reetta Marttinen" [ref=e290] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:153
+            - generic [ref=e292]: Asuntojen hinta- ja vuokrakehitystä sekä asuntokauppaa Helsingissä seurataan tiiviisti. Vuosittain kehityksestä julkaistaan edellisen vuoden tilastokatsaus, joka perehtyy edellisen vuoden ja pidemmän aikavälin kehitykseen. Vuonna 2020 asuntokauppa kävi vilkkaana koronaviruspandemiasta huolimatta....
+            - list [ref=e295]:
+              - listitem [ref=e296]:
+                - link "Asuntomarkkinat" [ref=e297] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A22
+              - listitem [ref=e298]:
+                - link "Vuokrakanta" [ref=e299] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A116
+              - listitem [ref=e300]:
+                - link "Korona" [ref=e301] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A151
+              - listitem [ref=e302]:
+                - link "Hinnat" [ref=e303] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A152
+            - link "Link to page" [ref=e306] [cursor=pointer]:
+              - /url: /fi/asuntojen-hintojen-ja-vuokrien-vuosijulkaisu-2020
+          - generic [ref=e307]:
+            - link [ref=e310] [cursor=pointer]:
+              - /url: /fi/helsingin-ja-helsingin-seudun-vaestoennuste-2020-2060-ennuste-alueittain-2020-2036
+            - heading "Helsingin ja Helsingin seudun väestöennuste 2020–2060 – Ennuste alueittain 2020–2036" [level=4] [ref=e313]:
+              - link "Helsingin ja Helsingin seudun väestöennuste 2020–2060 – Ennuste alueittain 2020–2036" [ref=e314] [cursor=pointer]:
+                - /url: /fi/helsingin-ja-helsingin-seudun-vaestoennuste-2020-2060-ennuste-alueittain-2020-2036
+            - time [ref=e317]: 24.9.2021
+            - generic [ref=e319]:
+              - text: "|"
+              - link "Harri Sinkko" [ref=e320] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:38
+              - text: ", |"
+              - link "Pekka Vuori" [ref=e321] [cursor=pointer]:
+                - /url: /fi/haku?filter[0]=author:205
+            - generic [ref=e323]: Julkaisussa esitetään Helsingin kaupungin ja Helsingin seudun uudet väestöennusteet 2020–2060 ja Helsingin osa-alueittainen ennuste 2020–2036. Väestöennuste laadittiin myös ruotsinkielisestä väestöstä. Väestöennusteen tulokset esitellään palvelujen suunnittelun kannalta merkittävimmistä ikäryhmistä...
+            - list [ref=e326]:
+              - listitem [ref=e327]:
+                - link "Väestöennusteet" [ref=e328] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A20
+              - listitem [ref=e329]:
+                - link "Väestönmuutokset" [ref=e330] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A24
+              - listitem [ref=e331]:
+                - link "Muuttoliike" [ref=e332] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A21
+              - listitem [ref=e333]:
+                - link "Asuntomarkkinat" [ref=e334] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A22
+              - listitem [ref=e335]:
+                - link "Aluetalous" [ref=e336] [cursor=pointer]:
+                  - /url: /fi/haku?filter%5B0%5D=keywords%3A23
+            - link "Link to page" [ref=e339] [cursor=pointer]:
+              - /url: /fi/helsingin-ja-helsingin-seudun-vaestoennuste-2020-2060-ennuste-alueittain-2020-2036
+        - generic [ref=e342]:
+          - img [ref=e343]
+          - heading "Haluatko antaa meille palautetta tästä sivusta?" [level=2] [ref=e344]
+          - paragraph [ref=e345]: Pääset antamaan palautetta, jos sallit evästeasetuksista tilastointiin liittyvät evästeet.
+          - link "Muokkaa evästeasetuksia" [ref=e347] [cursor=pointer]:
+            - /url: /fi/evasteasetukset
+            - generic [ref=e348]: Muokkaa evästeasetuksia
+    - contentinfo [ref=e349]:
+      - navigation "Ota yhteyttä" [ref=e353]:
+        - heading "Ota yhteyttä" [level=2] [ref=e354]
+        - list [ref=e355]:
+          - listitem [ref=e356]:
+            - link "Asiantuntijat ja tietopalvelu" [ref=e358] [cursor=pointer]:
+              - /url: /fi/asiantuntijoiden-yhteystiedot
+          - listitem [ref=e359]:
+            - link "Anna palautetta kaupungille" [ref=e361] [cursor=pointer]:
+              - /url: https://www.hel.fi/palaute
+          - listitem [ref=e362]:
+            - link "Tilaa uutiskirjeitä" [ref=e364] [cursor=pointer]:
+              - /url: /fi/tilaa-uutiskirjeita
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - link "Helsinki-kehystunnus" [ref=e368] [cursor=pointer]:
+            - /url: https://www.hel.fi/fi
+            - img "Helsinki-kehystunnus" [ref=e369]
+          - list [ref=e371]:
+            - listitem [ref=e372]:
+              - generic [ref=e375]: © Helsingin kaupunki 2026
+            - listitem [ref=e376]:
+              - link "Saavutettavuusseloste (Linkki johtaa ulkoiseen palveluun)" [ref=e378] [cursor=pointer]:
+                - /url: https://stplattaprod.blob.core.windows.net/drupal62b56prod/saavutettavuusseloste.pdf
+                - text: Saavutettavuusseloste
+                - generic [ref=e380]: (Linkki johtaa ulkoiseen palveluun)
+            - listitem [ref=e381]:
+              - link "Evästeasetukset" [ref=e383] [cursor=pointer]:
+                - /url: /fi/evasteasetukset
+            - listitem [ref=e384]:
+              - link "Tietosuoja" [ref=e386] [cursor=pointer]:
+                - /url: https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tietoa-helsingista/tietosuoja-ja-tiedonhallinta/tietosuoja
+            - listitem [ref=e387]:
+              - link "Tietoa Hel.fistä" [ref=e389] [cursor=pointer]:
+                - /url: https://www.hel.fi/tietoapalvelusta
+        - link "Takaisin ylös" [ref=e390] [cursor=pointer]:
+          - /url: "#skip-to-main"
+          - text: Takaisin ylös
+          - img [ref=e391]

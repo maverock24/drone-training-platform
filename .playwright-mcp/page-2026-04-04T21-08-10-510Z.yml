@@ -1,0 +1,159 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic [ref=e3]: ‍
+      - link "Siirry sisältöön‍" [ref=e4] [cursor=pointer]:
+        - text: Siirry sisältöön‍
+        - img [ref=e5]
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - button "Avaa valikko" [ref=e10] [cursor=pointer]:
+          - img "Avaa valikko" [ref=e11]
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - button "Kirjaudu sisään" [ref=e15] [cursor=pointer]:
+              - img "Kirjaudu sisään" [ref=e16]
+          - listitem [ref=e18]:
+            - link "Asiakaspalvelu" [ref=e19] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-tp-ha-ano-aspa
+              - img "Asiakaspalvelu" [ref=e20]
+          - listitem [ref=e22]:
+            - link "Hae" [ref=e23] [cursor=pointer]:
+              - /url: /haku
+              - img "Hae" [ref=e24]
+        - link "Siirry henkilöasiakkaiden etusivulle." [ref=e27] [cursor=pointer]:
+          - /url: /
+          - img "OP" [ref=e28]
+  - generic [ref=e32]:
+    - text: 
+    - main [ref=e36]:
+      - generic [ref=e40]:
+        - generic [ref=e49]:
+          - img "\"\"" [ref=e52]
+          - generic [ref=e53]:
+            - heading "Osakesäästötilin hinnasto ja tietoa markkinapaikoista" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Osakesäästötilillä käyt kauppaa aina edullisesti. Valitsemasi palvelupaketti määrittää kaupankäyntisi hinnat. Kun avaat osakesäästötilin ensimmäisen kerran, käyt kauppaa maksutta ensimmäiset 30 päivää, eikä sinulta veloiteta kuukausimaksua kuluvalta tai seuraavalta kalenterikuukaudelta.
+        - generic [ref=e66]:
+          - table [ref=e68]:
+            - rowgroup [ref=e69]:
+              - row "Palvelupaketti Säästäjä Sijoittaja" [ref=e70]:
+                - columnheader "Palvelupaketti" [ref=e71]
+                - columnheader "Säästäjä" [ref=e72]
+                - columnheader "Sijoittaja" [ref=e73]
+            - rowgroup [ref=e74]:
+              - row "Kuukausimaksut 0 €/kk 9,99 €/kk" [ref=e75]:
+                - cell "Kuukausimaksut" [ref=e76]
+                - cell "0 €/kk" [ref=e77]
+                - cell "9,99 €/kk" [ref=e78]
+              - row "Kaupankäyntihinnat Välityspalkkio 0,15 %, kuitenkin vähintään 5 € Välityspalkkio 0,08 %, kuitenkin vähintään 3 €" [ref=e79]:
+                - cell "Kaupankäyntihinnat" [ref=e80]
+                - cell "Välityspalkkio 0,15 %, kuitenkin vähintään 5 €" [ref=e81]:
+                  - text: Välityspalkkio 0,15 %,
+                  - text: kuitenkin vähintään 5 €
+                - cell "Välityspalkkio 0,08 %, kuitenkin vähintään 3 €" [ref=e82]:
+                  - text: Välityspalkkio 0,08 %,
+                  - text: kuitenkin vähintään 3 €
+          - paragraph [ref=e83]: Palvelupakettimme sisältävät osakesäilytyksen, perusteelliset osake- ja markkina-analyysit sekä asiantuntijoiden osakesuositukset. Palvelupakettien kuukausimaksuihin ei voi käyttää OP-bonuksia. Huomioi myös, että 1 %:n välityspalkkiokatto ei ole voimassa osakesäästötilillä.
+          - table [ref=e85]:
+            - rowgroup [ref=e86]:
+              - row "Osakesäästötilin siirto OP:sta toiselle palveluntarjoajalle (sisältää saldotietojen, kotimaisten osakkeiden ja rahavarojen siirron) 81 € (sis. alv 25,5 %)" [ref=e87]:
+                - cell "Osakesäästötilin siirto OP:sta toiselle palveluntarjoajalle (sisältää saldotietojen, kotimaisten osakkeiden ja rahavarojen siirron)" [ref=e88]:
+                  - text: Osakesäästötilin siirto OP:sta toiselle palveluntarjoajalle
+                  - text: (sisältää saldotietojen, kotimaisten osakkeiden ja rahavarojen siirron)
+                - cell "81 € (sis. alv 25,5 %)" [ref=e89]
+              - row "Muiden arvopapereiden siirto 25,50 €/per arvopaperilaji (sis. alv 25,5 %)" [ref=e90]:
+                - cell "Muiden arvopapereiden siirto" [ref=e91]
+                - cell "25,50 €/per arvopaperilaji (sis. alv 25,5 %)" [ref=e92]
+              - row "Osakesäästötilin lopettaminen 51 € (sis. alv 25,5 %)" [ref=e93]:
+                - cell "Osakesäästötilin lopettaminen" [ref=e94]
+                - cell "51 € (sis. alv 25,5 %)" [ref=e95]
+          - paragraph [ref=e96]: Voit muuttaa palvelupakettia OP-mobiilissa, kun kaupankäyntitarpeesi muuttuvat. Muutos astuu voimaan seuraavana kuukautena.
+          - heading "Tietoa markkinapaikoista" [level=2] [ref=e97]
+          - paragraph [ref=e98]: Osakesäästötilillä voit käydä kauppaa pörssiosakkeilla, jotka on listattu Nasdaq Helsinki Pörssissä tai First North Finland -markkinapaikalla. Kauppaa ei voi käydä ulkomaisilla osakkeilla tai merkintäoikeuksilla. Osakesäästötililtä voit myydä merkintäoikeuksia, joilla käydään kauppaa Nasdaq Helsinki Pörssissä tai First North Finland -markkinapaikalla.
+          - paragraph [ref=e99]:
+            - link "Lue lisää osakesäästötilistä" [ref=e100] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/osakesaastotili
+        - generic [ref=e111] [cursor=pointer]:
+          - button "Miten valitsen sopivan palvelupaketin?" [ref=e112]:
+            - generic [ref=e113]: Miten valitsen sopivan palvelupaketin?
+          - img
+        - generic [ref=e124] [cursor=pointer]:
+          - button "Paljonko maksan välityspalkkiota?" [ref=e125]:
+            - generic [ref=e126]: Paljonko maksan välityspalkkiota?
+          - img
+      - generic [ref=e137]:
+        - link "Osakesäästötili Avaa osakesäästötili ja aloita sijoittaminen. \"\"" [ref=e152] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/osakesaastotili
+          - generic [ref=e154]:
+            - heading "Osakesäästötili" [level=2] [ref=e155]:
+              - text: Osakesäästötili
+              - generic [ref=e156]:
+                - button:
+                  - text: ‍
+                  - img
+            - generic [ref=e157]: Avaa osakesäästötili ja aloita sijoittaminen.
+          - img "\"\"" [ref=e159]
+        - link "Sijoittamisen edut ja hinnasto Tutustu kattaviin etuihin säästämisestä ja sijoittamisesta. Meillä saat aina edulliset hinnat." [ref=e171] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-edut-ja-hinnasto
+          - generic [ref=e175]:
+            - generic [ref=e176]: Sijoittamisen edut ja hinnasto
+            - paragraph [ref=e178]: Tutustu kattaviin etuihin säästämisestä ja sijoittamisesta. Meillä saat aina edulliset hinnat.
+    - contentinfo [ref=e181]:
+      - search [ref=e185]:
+        - textbox "Hae" [ref=e186]
+        - button "Hae" [ref=e187] [cursor=pointer]: 
+      - paragraph:
+        - link "Siirry sivun alkuun" [ref=e188] [cursor=pointer]:
+          - /url: "#"
+          - text: Sivun alkuun
+      - generic [ref=e191]:
+        - link "Asiakaspalvelu" [ref=e193] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-ft-aspa
+        - link "Anna palautetta" [ref=e195] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/palautteet-ja-ongelmat?icmp=yl-ft-anna-palautetta
+        - link "Evästeiden käyttö" [ref=e197] [cursor=pointer]:
+          - /url: /evasteiden-kaytto?icmp=yl-ft-evasteet
+        - link "Palveluhinnasto" [ref=e199] [cursor=pointer]:
+          - /url: /hinnasto?icmp=yl-ft-hinnasto
+        - link "Puheluhinnasto" [ref=e201] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/puheluhinnasto?icmp=yl-ft-puheluhinnasto
+        - link "Sähköinen allekirjoituspalvelu" [ref=e203] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/digitaaliset-palvelut/sahkoinen-allekirjoituspalvelu?icmp=yl-ft-allekirjoitus
+        - link "Tule OP:n asiakkaaksi" [ref=e205] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakkuus/tule-opn-asiakkaaksi?icmp=yl-ft-asiakkaaksi
+        - link "Turvallinen asiointi" [ref=e207] [cursor=pointer]:
+          - /url: /turvallinen-asiointi?icmp=yl-ft-turvallisuus
+        - link "Verkkopalvelun käyttö" [ref=e209] [cursor=pointer]:
+          - /url: /verkkopalveluiden-kaytto?icmp=yl-ft-kaytto
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - link "OP Media" [ref=e212] [cursor=pointer]:
+            - /url: https://www.op-media.fi/
+          - link "OP Koti" [ref=e213] [cursor=pointer]:
+            - /url: https://op-koti.fi/
+          - link "Pohjola Vahinkoapu" [ref=e214] [cursor=pointer]:
+            - /url: https://vahinkoapu.pohjola.fi
+        - generic [ref=e215]:
+          - link "facebook" [ref=e216] [cursor=pointer]:
+            - /url: https://www.facebook.com/op.fi
+          - link "linkedin" [ref=e217] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/op-pohjola
+          - link "instagram" [ref=e218] [cursor=pointer]:
+            - /url: https://www.instagram.com/op_pohjola
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]: © OP Pohjola
+          - generic [ref=e223]: "BIC: OKOYFIHH"
+        - generic [ref=e224]:
+          - link "Tietosuoja" [ref=e225] [cursor=pointer]:
+            - /url: /tietosuoja?icmp=yl-ft-tietosuoja
+          - link "Saavutettavuus" [ref=e226] [cursor=pointer]:
+            - /url: /saavutettavuus?icmp=yl-ft-saavutettavuus
+          - link "Käyttöehdot" [ref=e227] [cursor=pointer]:
+            - /url: /kayttoehdot?icmp=yl-ft-kayttoehdot
+          - link "Sopimusehdot" [ref=e228] [cursor=pointer]:
+            - /url: /ehdot?icmp=yl-ft-sopimusehdot
+    - generic [ref=e233]:
+      - generic:
+        - status [ref=e234]
+        - status [ref=e235]

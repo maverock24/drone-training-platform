@@ -1,0 +1,499 @@
+- generic:
+  - generic:
+    - generic:
+      - link:
+        - /url: "#main-content"
+        - text: Siirry pääsisältöön
+      - banner:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /
+                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - button:
+                                            - generic:
+                                              - generic:
+                                                - generic: FI
+                                                - img
+                                - generic:
+                                  - list:
+                                    - button:
+                                      - generic: Avaa tili
+                                    - button:
+                                      - generic: Kirjaudu
+                              - generic:
+                                - button:
+                                  - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button:
+                                - generic:
+                                  - generic:
+                                    - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /palvelut/hinnasto
+                        - generic: Hinnasto (Taso 1–4 ja Active Trader)
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /palvelut/hinnasto/private-banking
+                        - generic: Private Banking -hinnasto
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /palvelut/hinnasto/sijoitusvakuutus
+                        - generic: Sijoitusvakuutuksen hinnasto
+      - generic:
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=1]: Nordnetin hinnasto
+                              - generic:
+                                - generic:
+                                  - link:
+                                    - /url: /onboarding
+                                    - generic: Avaa tili
+                                  - link:
+                                    - /url: /info/arvo-osuustilin-siirto
+                                    - generic: Siirrä sijoituksesi Nordnetiin
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Nordnetissä et maksa salkustasi avaus- tai säilytysmaksuja* – asiakkuuden hinta on siis 0 €.
+                                    - generic:
+                                      - generic:
+                                        - paragraph: Alla olevat hinnat koskevat Taso 1–4- ja Active Trader -asiakkaiden osake- ja rahastosalkkua sekä osakesäästötiliä, jollei toisin mainita. Mitä enemmän käyt kauppaa, sitä alhaisemmat ovat kaupankäyntikustannuksesi.
+                                        - paragraph: Uutena asiakkaana käyt vähintään kaksi ensimmäistä täyttä kalenterikuukautta kauppaa hinnaston edullisimmalla tasolla 1 (koskee ensimmäistä avattavaa salkkua).
+                                        - paragraph: Huomioi, että Private Banking -asiakkailla ja Sijoitusvakuutuksella on erilliset hinnastot.
+                                  - generic:
+                                    - link:
+                                      - /url: /palvelut/hinnasto/private-banking
+                                      - generic: Private Banking -hinnastoon
+                                    - link:
+                                      - /url: /palvelut/hinnasto/sijoitusvakuutus
+                                      - generic: Sijoitusvakuutuksen hinnastoon
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - subscript: "* Säilytysmaksuja ei peritä pörssilistatuista osakkeista eikä rahasto-osuuksista. Pohjoismaisiin listaamattomiin osakkeisiin liittyy kuukausittain perittävä hallinnointimaksu. Lisätietoa kohdassa \"Toimenpidemaksut\"."
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Neljä hinnaston tasoa kaupankäyntiin
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Taso 1
+                              - generic:
+                                - paragraph: "Kaupankäyntipalkkio Helsingin pörssissä: 0,06 % Minimipalkkio: 3 € Asiakkaille, jotka ovat tehneet yli 50 kauppaa edellisen kalenterikuukauden aikana."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Taso 2
+                              - generic:
+                                - paragraph: "Kaupankäyntipalkkio Helsingin pörssissä: 0,10 % Minimipalkkio: 5 € Asiakkaille, jotka ovat tehneet 11–50 kauppaa edellisen kalenterikuukauden aikana."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Taso 3
+                              - generic:
+                                - paragraph: "Kaupankäyntipalkkio Helsingin pörssissä: 0,15 % Minimipalkkio: 7 € Asiakkaille, jotka ovat tehneet 1–10 kauppaa edellisen kalenterikuukauden aikana."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Taso 4
+                              - generic:
+                                - paragraph: "Kaupankäyntipalkkio Helsingin pörssissä: 0,20 % Minimipalkkio: 9 € Asiakkaille, jotka eivät ole tehneet yhtään kauppaa edellisen kalenterikuukauden aikana."
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Lue lisää hinnaston tasojen logiikasta
+                                          - generic:
+                                            - img
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Yllä olevat hinnat eivät koske Private Banking- eikä Active Trading -asiakkaita. Kaupankäyntipalkkiot osakkeille, warranteille, ETF- ja ETC-tuotteille kotimaan markkinoilla.
+                                      - paragraph: Palkkiotasoa laskettaessa saman henkilötunnuksen alla olevien salkkujen ja osakesäästötilin kaikki toteutuneet toimeksiannot lasketaan yhteen. Myös vähintään 1 000 euron rahastotoimeksiannot lasketaan mukaan toimeksiantojen määrään. Rahastotoimeksiannot lasketaan kaupan kirjauspäivän mukaisen kalenterikuukauden toimeksiantoihin.
+                                      - paragraph: Määrässä ei huomioida kampanjatoimeksiantoja 0 euron välityspalkkioilla, kauppoja Nordnet Markets -tuotteilla, ETF-kuukausisäästösopimusten kautta tehtyjä toimeksiantoja eikä alle 1 000 euron rahastotoimeksiantoja. Pidempiaikaisten toimeksiantojen tapauksessa hinnaston mukainen välityspalkkio veloitetaan jokaiselta toteutuspäivältä erikseen.
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Erikoishinnastot
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Uudet asiakkaat
+                              - generic:
+                                - paragraph: "Kaksi ensimmäistä kuukautta käyt kauppaa parhaalla palkkiotasolla: 0,06 % Minimipalkkio: 3 € Yllä oleva esimerkki koskee Helsingin pörssissä tehtyjä osakekauppoja."
+                              - generic:
+                                - button: Lue lisää
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Active Trading
+                              - generic:
+                                - paragraph: "Edullisemmat välityspalkkiot sinulle, joka teet yli 100 kauppaa/kk: 0,055 % ja siitä alaspäin Minimipalkkio: 3 € Kaupankäynti Pohjoismaissa 0,06 %, min. 4 € ja muualla Euroopassa ja USA:ssa 0,07 % min. 7 €."
+                              - generic:
+                                - button: Lue lisää
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: Private Banking
+                              - generic:
+                                - paragraph: "Edullisemmat välityspalkkiot sinulle, jonka sijoitusvarallisuus on vähintään 200 000 €: 0,05–0,08 % Minimipalkkio: 5 € Kaupankäynti muualla Euroopassa ja USA:ssa min. 8 €"
+                              - generic:
+                                - link:
+                                  - /url: /palvelut/hinnasto/private-banking
+                                  - text: Private Banking -hinnastoon
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Palkkiot kaikilla markkinoilla.
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Kaupankäynti Euroopan, USA:n, Kanadan ja Pohjoismaiden markkinoilla
+                                          - generic:
+                                            - img
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Kaupankäynti vakioiduilla johdannaisilla
+                                          - generic:
+                                            - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Korot ja luotot.
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Laina- ja talletuskorot
+                                          - generic:
+                                            - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Analyysit, uutiset ja markkinainformaatio.
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Analyysit ja uutiset
+                                          - generic:
+                                            - img
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Markkinainformaatio
+                                          - generic:
+                                            - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Sovellukset ja toimenpidemaksut.
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Kaupankäyntipalvelut ja -sovellukset
+                                          - generic:
+                                            - img
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Toimenpidemaksut
+                                          - generic:
+                                            - img
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Raportointipalvelut
+                                          - generic:
+                                            - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Kampanjatuotteet ja tarjoukset.
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Nordnetin edut Osakesäästäjien jäsenille
+                                          - generic:
+                                            - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=3]: Tietoa palkkioista.
+                                  - generic:
+                                    - generic:
+                                      - heading [level=3]:
+                                        - button:
+                                          - generic:
+                                            - generic: Tietoa palkkioista, joita Nordnet saa ja maksaa kolmansille osapuolille.
+                                          - generic:
+                                            - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Usein kysyttyä Nordnetin hinnastosta.
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Miten välityspalkkio veloitetaan osakekaupan yhteydessä?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Mikä välityspalkkio salkussani on?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Hinnasto ei näy laitteellani kunnolla. Miten saan sen näkymään paremmin?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link:
+                                              - /url: /faq
+                                              - generic:
+                                                - generic: Lisää usein kysyttyjä kysymyksiä
+                                                - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Meillä on Suomen tyytyväisimmät sijoittajat. Taas.
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - paragraph: Nordnetillä on EPSI Ratingin (2025, 2024 ja 2023) mukaan sijoittajien keskuudessa korkein asiakastyytyväisyys Suomessa. Korkea taso selittyy muun muassa erittäin korkeilla tuote- ja palvelulaatua sekä rahalle saatavaa vastinetta koskevilla arvioilla.
+                                    - generic:
+                                      - generic:
+                                        - paragraph: Tee kuten yli 700 000 suomalaista, avaa tili Nordnetiin. Asiakkuus ei maksa mitään.
+                                  - generic:
+                                    - link:
+                                      - /url: /onboarding
+                                      - generic: Avaa asiakkuus
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Nordnet
+                              - generic:
+                                - img
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Asiakaspalvelu
+                              - generic:
+                                - img
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Tietoa palvelusta
+                              - generic:
+                                - img
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: https://facebook.com/nordnetfi
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://twitter.com/nordnetFI
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://www.instagram.com/nordnetsuomi/
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://www.youtube.com/nordnetsuomi
+                          - generic:
+                            - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: "Byt språk: svenska / finska"
+                                  - generic:
+                                    - button:
+                                      - generic:
+                                        - generic:
+                                          - generic: Suomi (FI)
+                                    - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: © 2026 Nordnet Bank AB.
+                    - generic:
+                      - generic:
+                        - generic: Nordnet | Alvar Aallon katu 5 C, 3. krs | FI-00100 Helsinki
+  - dialog "Päätä valinnaisista evästeistä" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Päätä valinnaisista evästeistä" [level=2] [ref=e6]
+        - paragraph [ref=e7]:
+          - text: Evästeet auttavat meitä personoimaan käyttökokemuksesi, analysoimaan sivuston käyttöä ja näyttämään olennaista viestintää tuotteistamme ja palveluistamme. Voit peruuttaa suostumuksesi milloin tahansa.
+          - button "Mukauta evästeeni." [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - button "Hyväksy" [ref=e10] [cursor=pointer]
+        - button "Hylkää" [ref=e11] [cursor=pointer]

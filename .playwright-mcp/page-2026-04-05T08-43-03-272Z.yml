@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - dialog "This website uses cookies" [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - status [ref=e8]: This website uses cookies
+        - paragraph [ref=e9]:
+          - text: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. Read more about our cookie policy
+          - link "here" [ref=e10] [cursor=pointer]:
+            - /url: https://www.raksystems.fi/en/raksystems-in-finland/privacy-policy-and-cookies/
+          - text: .
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - button "Allow all cookies" [ref=e14] [cursor=pointer]
+        - listitem [ref=e15]:
+          - button "Use necessary cookies only" [ref=e16] [cursor=pointer]
+        - listitem [ref=e17]:
+          - button "Show details" [ref=e18] [cursor=pointer]
+  - link "Siirry sisältöön" [ref=e19] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e20]:
+    - generic [ref=e21]:
+      - link "Sustera" [ref=e23] [cursor=pointer]:
+        - /url: https://sustera.fi/
+        - generic [ref=e24]: Sustera
+        - img [ref=e25]
+      - button [ref=e28] [cursor=pointer]:
+        - img [ref=e30]
+      - button "Valikko" [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: Valikko
+      - navigation
+  - main [ref=e38]:
+    - article [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - time [ref=e44]: 2.12.2025
+          - heading "Putkiremontin hinta kerrostalossa – mitä se oikeasti maksaa taloyhtiölle?" [level=1] [ref=e45]
+          - paragraph [ref=e46]: Taloyhtiön putkiremontin kustannuksia ei kannata arvioida pelkän neliöhinnan perusteella. Remontin hinta muodostuu monista tekijöistä, kuten hankkeen sisällöstä ja talon rakenteesta.
+        - figure [ref=e47]:
+          - img "Putkiremontti kerrostalossa." [ref=e48]
+      - generic [ref=e50]:
+        - generic [ref=e52]:
+          - heading "Sisällys" [level=2] [ref=e53]
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Mitä taloyhtiön putkiremontti maksaa?" [ref=e58] [cursor=pointer]:
+                - /url: "#Mitä-taloyhtiön-putkiremontti-maksaa?"
+            - listitem [ref=e59]:
+              - 'link "Putkiremontin kustannukset: mikä sisältyy ja mikä ei?" [ref=e60] [cursor=pointer]':
+                - /url: "#Putkiremontin-kustannukset:-mikä-sisältyy-ja-mikä-ei?"
+            - listitem [ref=e61]:
+              - link "Eniten hintaan vaikuttaa remontin sisältö" [ref=e62] [cursor=pointer]:
+                - /url: "#Remontin-sisältö-vaikuttaa-eniten-hintaan"
+            - listitem [ref=e63]:
+              - link "Talolla on väliä" [ref=e64] [cursor=pointer]:
+                - /url: "#Talolla-on-väliä"
+            - listitem [ref=e65]:
+              - link "Laatutasolla on yllättävän pieni merkitys hintaan" [ref=e66] [cursor=pointer]:
+                - /url: "#Laatutasolla-on-yllättävän-pieni-merkitys-hintaan"
+        - generic [ref=e67]:
+          - heading "Mitä taloyhtiön putkiremontti maksaa?" [level=2] [ref=e68]
+          - paragraph [ref=e69]: Perinteinen linjasaneeraus maksaa taloyhtiön osakkaalle keskimäärin 50 000 euroa asuntoa kohden. Neliöhinnat liikkuvat yleensä 500–1500 eurossa.
+          - paragraph [ref=e70]:
+            - text: ”Huoneistokohtainen hinta antaa realistisemman kuvan putkiremontin hinnasta. Esimerkiksi 60 ja 40 neliön asunnolle kokonaiskustannus on lähes sama, mikäli kummassakin asunnossa on kylpyhuoneita vain yksi”, sanoo Susteran taloyhtiöpalveluiden osastonjohtaja
+            - strong [ref=e71]: Jarno Nurminen
+            - text: .
+          - 'heading "Putkiremontin kustannukset: mikä sisältyy ja mikä ei?" [level=2] [ref=e72]'
+          - paragraph [ref=e73]: Taloyhtiön putkiremontin hinta pitää sisällään urakka- ja asiantuntijapalveluista syntyvät kulut. Myös rakennuslupamaksut, tiedotus, rahoituskulut ja mahdolliset lisätyöt lasketaan mukaan budjettiin. Urakkaan kuuluvia maksuja ovat työvoima-, materiaali- ja työmaakulut. Asiantuntijapalveluita taas suunnittelusta, projektinjohdosta, kuntotutkimuksista ja valvonnasta syntyvät kustannukset.
+          - paragraph [ref=e74]: Osakkaalle syntyy myös taloyhtiön yhteisten kulujen lisäksi muita kustannuksia. Taloyhtiön remontin hintaan ei sisälly erikoislaatat, lattialämmitykset tai muut peruspakettiin kuulumattomat ratkaisut. Lisäksi remontti vaatii usein tilapäismajoitusta, josta syntyy osakkaalle lisäkustannuksia.
+          - heading "Eniten hintaan vaikuttaa remontin sisältö" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Taloyhtiön putkiremontteja toteutetaan hyvin erilaisilla laajuuksilla. Putkiremonttiin voi kuulua viemäri- ja vesiputkien, ilmanvaihto-, tele- ja sähköjärjestelmien sekä märkätilojen kunnostamista tai uusimista. Remontti voidaan myös laajentaa huoneistoista talon yleisiin tiloihin, kuten saunaan tai pesutupaan.
+          - paragraph [ref=e77]:
+            - text: ”Erilaisten järjestelmien ja tilojen remontoiminen yhtä aikaa on suositeltavaa. Kun esimerkiksi
+            - link "perinteisessä putkiremontissa" [ref=e78] [cursor=pointer]:
+              - /url: https://sustera.fi/ajankohtaista/blogi/perinteinen-putkiremontti-vai-sukittaminen-nain-valitset-oikean-menetelman-putkiremontin-toteuttamiseen/
+            - text: uusitaan LVISA-järjestelmien lisäksi märkätilat, se tulee 20 % erillisiä remontteja halvemmaksi”.
+          - paragraph [ref=e79]:
+            - text: ”Kaikkea kannattaa harvoin kuitenkaan remontoida kerralla. Me
+            - link "projektipäälliköt" [ref=e80] [cursor=pointer]:
+              - /url: https://sustera.fi/palvelu/yritykset/rakennuttaminen-ja-valvonta/projektinjohto-ja-rakennuttaminen/
+            - text: autamme taloyhtiöitä järkevän kokonaisuuden valinnassa”.
+          - heading "Talolla on väliä" [level=3] [ref=e81]
+          - paragraph [ref=e82]: Putkiremontin hintaan vaikuttaa paitsi sisältö se, millainen talo on remontin kohteena. Esimerkiksi kiinteistön koolla, iällä, rakenneratkaisuilla ja huoneistojen määrällä on merkitystä.
+          - paragraph [ref=e83]: ”Suuremmassa talossa hinta on asuntoa kohden usein edullisempi, koska kustannukset jakautuvat useamman osakkaan kesken.”
+          - paragraph [ref=e84]: Monimuotoinen jugend-rakennus on kalliimpi kuin suoralinjainen elementtitalo, jossa työt ovat usein suoraviivaisempia ja nopeampia. Saman ikäisissä rakennuksissa voi myös olla vaihtelua.
+          - paragraph [ref=e85]: ”Esimerkiksi osassa 1960–70-luvulla rakennetuista kerrostaloista on tehdasvalmisteiset, suoraan paikalleen nostetut peltikylpyhuoneet. Ratkaisussa putket kulkevat niin sanotun kopin rakenteiden sisällä, mikä tekee rakenteisiin pääsyn haastavammaksi ja siten remontoinnin kalliimmaksi”.
+          - heading "Laatutasolla on yllättävän pieni merkitys hintaan" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Putkiremontin laatutaso koostuu huoneistojen ja yleisten tilojen materiaali- kaluste- ja viimeistelyvalinnoista. Yleensä se jaetaan perus-, keski- ja korkeatasoisiin ratkaisuihin. Perustasolla tarkoitetaan edullisia ja toimivia perusratkaisuja, keskitasolla hieman laadukkaampia materiaaleja ja kalusteita, ja korkealla tasolla kylpylämäisiä ratkaisuja.
+          - paragraph [ref=e88]: ”Laattojen ja kalusteiden vaikutus remontin hintaan on luultua vähäisempi. Kustannus on tyypillisesti satasia huoneistoa kohti”.
+        - generic [ref=e89]:
+          - heading "Liittyvät palvelut" [level=2] [ref=e90]
+          - paragraph [ref=e91]:
+            - link "Putkistojen ja viemäreiden kuntotutkimukset" [ref=e92] [cursor=pointer]:
+              - /url: https://sustera.fi/palvelu/yritykset/tutkimukset/putkistojen-ja-viemareiden-tutkimukset/
+          - paragraph [ref=e93]:
+            - link "Projektinjohto" [ref=e94] [cursor=pointer]:
+              - /url: https://sustera.fi/palvelu/yritykset/rakennuttaminen-ja-valvonta/projektinjohto-ja-rakennuttaminen/
+          - paragraph [ref=e95]:
+            - link "Korjaussuunnittelu" [ref=e96] [cursor=pointer]:
+              - /url: https://sustera.fi/palvelu/yritykset/suunnittelu/korjaussuunnittelu/
+      - generic [ref=e97]:
+        - separator [ref=e98]
+        - heading "Lue myös" [level=2] [ref=e99]
+        - generic [ref=e102]:
+          - article [ref=e103]:
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - list [ref=e108]:
+                    - listitem [ref=e109]: Asumisvinkit
+                  - generic [ref=e110]: •
+                  - time [ref=e112]: 3.3.2026
+                - heading "Kunnossapitotarveselvitys ja usein kysytyt kysymykset" [level=3] [ref=e113]:
+                  - link "Kunnossapitotarveselvitys ja usein kysytyt kysymykset" [ref=e114] [cursor=pointer]:
+                    - /url: https://sustera.fi/ajankohtaista/asumisvinkit/kunnossapitotarveselvitys-ja-usein-kysytyt-kysymykset/
+                - generic [ref=e115]: Mikä on kunnossapitotarveselvitys? Kunnossapitotarveselvityksellä tarkoitetaan listausta rakennusten ja kiinteistöjen kunnossapito- ja korjaustoimenpiteistä,…
+              - paragraph [ref=e117]: Lue lisää
+          - article [ref=e118]:
+            - img "Suomalaisia pientaloja talvella." [ref=e120]
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - list [ref=e124]:
+                    - listitem [ref=e125]: Uutiset
+                    - listitem [ref=e126]: Asumisvinkit
+                    - listitem [ref=e127]: Oppaat
+                  - generic [ref=e128]: •
+                  - time [ref=e130]: 11.2.2026
+                - heading "Pientalojen historiaopas tiivistää pientalojen ongelmakohdat" [level=3] [ref=e131]:
+                  - link "Pientalojen historiaopas tiivistää pientalojen ongelmakohdat" [ref=e132] [cursor=pointer]:
+                    - /url: https://sustera.fi/ajankohtaista/oppaat/lataa-itsellesi-raksystemsin-pientalojen-historia-opas/
+                - generic [ref=e133]: Suomalaisilla pientaloilla on kirjava ja monipuolinen menneisyys Suomen pientalojen historiaan on mahtunut…
+              - paragraph [ref=e135]: Lue lisää
+          - article [ref=e136]:
+            - img "Taloyhtiön remonttiin kuuluu julkisten tilojen suojaaminen esimerkiksi pölyltä." [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - generic [ref=e141]:
+                  - list [ref=e142]:
+                    - listitem [ref=e143]: Asumisvinkit
+                    - listitem [ref=e144]: Blogi
+                  - generic [ref=e145]: •
+                  - time [ref=e147]: 27.1.2026
+                - heading "Neljä syytä toteuttaa taloyhtiön remontti nyt" [level=3] [ref=e148]:
+                  - link "Neljä syytä toteuttaa taloyhtiön remontti nyt" [ref=e149] [cursor=pointer]:
+                    - /url: https://sustera.fi/ajankohtaista/blogi/taloyhtion-remontti-rakennusalan-taantumassa/
+                - generic [ref=e150]: Toisin kuin luullaan taloyhtiön remontti on kannattavaa toteuttaa, kun rakennusala on taantumassa ja lainakustannukset vaihtelevat.
+              - paragraph [ref=e152]: Lue lisää
+      - generic [ref=e153]:
+        - heading "Ota yhteyttä" [level=2] [ref=e155]
+        - generic [ref=e156]:
+          - paragraph [ref=e157]: Palvelemme valtakunnallisessa palvelunumerossamme arkisin klo 8-16.
+          - generic [ref=e158]:
+            - link "Soita meille" [ref=e160] [cursor=pointer]:
+              - /url: tel:+358306705500
+            - link "Lähetä tarjouspyyntö" [ref=e162] [cursor=pointer]:
+              - /url: https://sustera.fi/yritysasiakkaiden-tarjouspyynto/
+  - contentinfo [ref=e163]:
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - link "Sustera" [ref=e166] [cursor=pointer]:
+          - /url: https://sustera.fi/
+          - generic [ref=e167]: Sustera
+          - img [ref=e168]
+        - paragraph [ref=e171]: Yhteystiedot
+        - paragraph [ref=e172]:
+          - text: Sustera Finland
+          - text: Karvaamokuja 2 D
+          - text: FI-00380 Helsinki
+        - paragraph [ref=e173]:
+          - link "030 670 5500" [ref=e174] [cursor=pointer]:
+            - /url: tel:+358306705500
+          - link "asiakaspalvelu@sustera.com" [ref=e175] [cursor=pointer]:
+            - /url: mailto:asiakaspalvelu@sustera.com
+        - paragraph [ref=e176]
+        - paragraph [ref=e177]: Puhelut 030/010-alkuisiin numeroihin hinnoitellaan soittavan operaattorin mukaan.
+        - list [ref=e178]:
+          - listitem [ref=e179]:
+            - link "LinkedIn" [ref=e180] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/susterasuomi
+              - img [ref=e181]
+              - generic [ref=e186]: LinkedIn
+          - listitem [ref=e187]:
+            - link "Facebook" [ref=e188] [cursor=pointer]:
+              - /url: https://www.facebook.com/SusteraFinland
+              - img [ref=e189]
+              - generic [ref=e191]: Facebook
+          - listitem [ref=e192]:
+            - link "Instagram" [ref=e193] [cursor=pointer]:
+              - /url: https://www.instagram.com/susterafinland/
+              - img [ref=e194]
+              - generic [ref=e199]: Instagram
+          - listitem [ref=e200]:
+            - link "Youtube" [ref=e201] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UClTyqPVhr8oejPnau6EpyxA
+              - img [ref=e202]
+              - generic [ref=e204]: Youtube
+      - list [ref=e206]:
+        - listitem [ref=e207]:
+          - link "Kodit" [ref=e208] [cursor=pointer]:
+            - /url: https://sustera.fi/palvelu/kodit/
+        - listitem [ref=e209]:
+          - link "Yritykset" [ref=e210] [cursor=pointer]:
+            - /url: https://sustera.fi/palvelu/yritykset/
+        - listitem [ref=e211]:
+          - link "Referenssit" [ref=e212] [cursor=pointer]:
+            - /url: https://sustera.fi/referenssit/
+        - listitem [ref=e213]:
+          - link "Ajankohtaista" [ref=e214] [cursor=pointer]:
+            - /url: https://sustera.fi/ajankohtaista/
+      - list [ref=e216]:
+        - listitem [ref=e217]:
+          - link "Sustera" [ref=e218] [cursor=pointer]:
+            - /url: https://sustera.fi/sustera/
+        - listitem [ref=e219]:
+          - link "Ura Susteralla" [ref=e220] [cursor=pointer]:
+            - /url: https://sustera.fi/ura-susteralla/
+        - listitem [ref=e221]:
+          - link "Vastuullisuus" [ref=e222] [cursor=pointer]:
+            - /url: https://sustera.fi/vastuullisuus/
+        - listitem [ref=e223]:
+          - link "Yhteystiedot" [ref=e224] [cursor=pointer]:
+            - /url: https://sustera.fi/yhteystiedot/
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - heading "Uutiskirje" [level=2] [ref=e228]
+          - paragraph
+        - generic [ref=e229]:
+          - generic [ref=e231]:
+            - group "Valitse uutiskirje" [ref=e232]:
+              - generic [ref=e233]: Valitse uutiskirje
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - checkbox "Kiinteistöalan ammattilaisten uutiskirje" [ref=e237]
+                  - generic [ref=e238]: Kiinteistöalan ammattilaisten uutiskirje
+                - generic [ref=e239]:
+                  - checkbox "Pientaloasukkaiden uutiskirje" [ref=e240]
+                  - generic [ref=e241]: Pientaloasukkaiden uutiskirje
+                - generic [ref=e242]:
+                  - checkbox "Taloyhtiöasukkaiden uutiskirje" [ref=e243]
+                  - generic [ref=e244]: Taloyhtiöasukkaiden uutiskirje
+                - generic [ref=e245]:
+                  - checkbox "Kiinteistönvälittäjien uutiskirje" [ref=e246]
+                  - generic [ref=e247]: Kiinteistönvälittäjien uutiskirje
+            - generic [ref=e248]:
+              - generic [ref=e249]: Sähköposti
+              - textbox "Sähköposti" [ref=e251]:
+                - /placeholder: Sähköpostiosoitteesi
+          - button "Tilaa" [ref=e253]
+    - generic [ref=e255]:
+      - list [ref=e256]:
+        - listitem [ref=e257]
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "Politiikat ja dokumentit" [ref=e260] [cursor=pointer]:
+            - /url: https://sustera.fi/yrityspolitiikka-ja-dokumentit/
+  - iframe [ref=e263]:
+    

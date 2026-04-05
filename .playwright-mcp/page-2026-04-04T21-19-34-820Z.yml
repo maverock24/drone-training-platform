@@ -1,0 +1,132 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Seligson" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Seligson" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "SVENSKA" [ref=e10] [cursor=pointer]:
+            - /url: /svenska/
+          - text: "|"
+          - link "ENGLISH" [ref=e11] [cursor=pointer]:
+            - /url: /sco/seligson-co-fund-management-in-brief/
+        - navigation [ref=e12]:
+          - link "Yritys ja henkilöstö" [ref=e13] [cursor=pointer]:
+            - /url: /sco/suomi/yritys/
+          - link "Esitteet ja katsaukset" [ref=e14] [cursor=pointer]:
+            - /url: /sco/suomi/esitteet/
+          - link "Sijoitustietoa" [ref=e15] [cursor=pointer]:
+            - /url: /sco/suomi/sijoitustietoa/
+          - link "Laskurit ja työkalut" [ref=e16] [cursor=pointer]:
+            - /url: /suomi/sijoitustieto/tyokalut/
+          - link "Oma salkku" [ref=e17] [cursor=pointer]:
+            - /url: /sco/suomi/asiointi/omasalkku/
+          - link "Haku" [ref=e18] [cursor=pointer]:
+            - /url: /sco/suomi/haku/
+    - navigation [ref=e19]:
+      - link "Asiakkaaksi" [ref=e20] [cursor=pointer]:
+        - /url: /sco/suomi/asiakkaaksi/henkiloasiakas-aikuinen/
+        - text: Asiakkaaksi
+        - generic [ref=e21]: 
+      - link "Rahastot" [ref=e22] [cursor=pointer]:
+        - /url: /sco/suomi/rahastot/
+        - text: Rahastot
+        - generic [ref=e23]: 
+      - link "Rahastoarvot" [ref=e24] [cursor=pointer]:
+        - /url: /suomi/rahastot/FundValues_FI.html
+        - text: Rahastoarvot
+        - generic [ref=e25]: 
+      - link "Asiointi" [ref=e26] [cursor=pointer]:
+        - /url: /sco/suomi/asiointi/merkinta/
+        - text: Asiointi
+        - generic [ref=e27]: 
+      - link "Hinnasto" [ref=e28] [cursor=pointer]:
+        - /url: /sco/suomi/hinnasto/
+      - link "Varainhoito" [ref=e29] [cursor=pointer]:
+        - /url: /sco/suomi/varainhoito/
+      - link "Ota yhteyttä" [ref=e30] [cursor=pointer]:
+        - /url: /suomi/yhteydenotto
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - text: Indeksirahastot
+      - generic [ref=e33]: keyboard_arrow_down
+    - article [ref=e34]:
+      - heading "Indeksirahastot" [level=1] [ref=e35]
+      - paragraph [ref=e36]: Indeksirahastot seuraavat kohdemarkkinansa kehitystä ilman salkunhoitajan aktiivisia valintoja tai aktiivista kaupankäyntiä. Niiden tavoitteena on rahaston vertailuindeksin mukainen tuotto.
+      - paragraph [ref=e37]: Indeksisijoittaminen on kustannustehokas tapa muodostaa kansainvälinen osakerahastosalkku, joka on erinomaisesti hajautettu.
+      - paragraph [ref=e38]: Indeksirahastot Eurooppa, Pohjois-Amerikka, Aasia ja Suomi määrittelevät markkinansa maantieteellisesti.
+      - paragraph [ref=e39]: OMX Helsinki 25 on pörssinoteerattu indeksirahasto, joka sijoittaa Helsingin pörssin vaihdetuimpiin osakkeisiin. Sen osuuksilla voi käydä kauppaa arvopaperivälittäjien kautta.
+      - paragraph [ref=e40]:
+        - text: Indeksirahastojen salkunhoitajat ovat
+        - link "Jani Holmberg" [ref=e41] [cursor=pointer]:
+          - /url: /sco/suomi/yritys/henkilosto/
+        - text: ","
+        - link "Juuso Jokinen" [ref=e42] [cursor=pointer]:
+          - /url: /sco/suomi/yritys/henkilosto/
+        - text: ja
+        - link "Kare Hallamaa" [ref=e43] [cursor=pointer]:
+          - /url: /sco/suomi/yritys/henkilosto/
+        - text: .
+      - heading "Indeksirahastojen esittelyt:" [level=4] [ref=e44]
+      - paragraph [ref=e45]:
+        - link "Eurooppa Indeksirahasto" [ref=e46] [cursor=pointer]:
+          - /url: /suomi/rahastot/rahes_eurooppa.htm
+      - paragraph [ref=e47]:
+        - link "Pohjois-Amerikka Indeksirahasto" [ref=e48] [cursor=pointer]:
+          - /url: /suomi/rahastot/rahes_pam.htm
+      - paragraph [ref=e49]:
+        - link "Aasia Indeksirahasto" [ref=e50] [cursor=pointer]:
+          - /url: /suomi/rahastot/rahes_aasia.htm
+      - paragraph [ref=e51]:
+        - link "Suomi Indeksirahasto" [ref=e52] [cursor=pointer]:
+          - /url: /suomi/rahastot/rahes_suomi.htm
+      - paragraph [ref=e53]:
+        - link "OMX Helsinki 25 UCITS ETF" [ref=e54] [cursor=pointer]:
+          - /url: /suomi/rahastot/rahes_etf.htm
+  - separator [ref=e55]
+  - contentinfo [ref=e56]:
+    - list [ref=e58]:
+      - listitem [ref=e59]:
+        - link "Merkintä" [ref=e60] [cursor=pointer]:
+          - /url: /sco/suomi/asiointi/merkinta/
+      - listitem [ref=e61]:
+        - link "Lunastus" [ref=e62] [cursor=pointer]:
+          - /url: /sco/suomi/asiointi/lunastus/
+      - listitem [ref=e63]:
+        - link "Pankkitilit" [ref=e64] [cursor=pointer]:
+          - /url: /suomi/asiointi/ibanpankkitilit.htm
+      - listitem [ref=e65]:
+        - link "Oma salkku" [ref=e66] [cursor=pointer]:
+          - /url: https://omasalkku.seligson.fi/
+    - generic [ref=e67]:
+      - list [ref=e68]:
+        - listitem [ref=e69]: © Seligson & Co Rahastoyhtiö Oyj
+        - listitem [ref=e70]: Erottajankatu 1-3 FI-00130 Helsinki
+        - listitem [ref=e71]: 09 6817 8200 (arkisin 9-16)
+        - listitem [ref=e72]:
+          - link "if.nosgiles@ofni‎" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e74]: if.nosgiles@ofni
+            - text: ‎
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - link "Tietoa palvelusta" [ref=e77] [cursor=pointer]:
+            - /url: /sco/suomi/tietoa-palveluista/
+        - listitem [ref=e78]:
+          - link "Lisätietoa kestävyydestä" [ref=e79] [cursor=pointer]:
+            - /url: /sco/suomi/vastuullisuus/
+        - listitem [ref=e80]:
+          - link "Evästeet" [ref=e81] [cursor=pointer]:
+            - /url: /sco/suomi/evasteet/
+        - listitem [ref=e82]:
+          - link "Tietosuoja ja henkilötietojen käsittely" [ref=e83] [cursor=pointer]:
+            - /url: /sco/suomi/henkilotietojesi-kasittelysta/
+        - listitem [ref=e84]:
+          - link "Saavutettavuus" [ref=e85] [cursor=pointer]:
+            - /url: /sco/suomi/saavutettavuus/
+    - generic [ref=e86]:
+      - link "Seligson" [ref=e87] [cursor=pointer]:
+        - /url: /
+        - img "Seligson" [ref=e88]
+      - generic [ref=e89]: Yksinkertainen on tehokasta!

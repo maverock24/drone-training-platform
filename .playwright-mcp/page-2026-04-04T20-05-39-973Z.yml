@@ -1,0 +1,464 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Vanguard Fidelity asset allocation by age recommended stocks bonds split 20s 30s 40s 50s 60s 2026 Vanguard Fidelity asset allocation by age recommended stocks bonds split 20s 30s 40s 50s 60s 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DVanguard%2BFidelity%2Basset%2Ballocation%2Bby%2Bage%2Brecommended%2Bstocks%2Bbonds%2Bsplit%2B20s%2B30s%2B40s%2B50s%2B60s%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQs6gLegQIFRAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DVanguard%2BFidelity%2Basset%2Ballocation%2Bby%2Bage%2Brecommended%2Bstocks%2Bbonds%2Bsplit%2B20s%2B30s%2B40s%2B50s%2B60s%2B2026&hl=en&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - 'link "Investment portfolios: Asset allocation models - Vanguard Vanguard https://investor.vanguard.com › mo..." [ref=e180] [cursor=pointer]':
+                  - /url: https://investor.vanguard.com/investor-resources-education/education/model-portfolio-allocation
+                  - 'heading "Investment portfolios: Asset allocation models - Vanguard" [level=3] [ref=e181]'
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Vanguard
+                    - generic [ref=e190]: https://investor.vanguard.com › mo...
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://investor.vanguard.com/investor-resources-education/education/model-portfolio-allocation
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e201]:
+                - emphasis [ref=e202]: Explore Vanguard's model portfolio allocation strategies
+                - text: . Learn how to build diversified portfolios that match your risk tolerance and investment goals.
+              - generic [ref=e204]: "Puuttuu: Fidelity ‎30s ‎60s"
+          - generic [ref=e208]:
+            - generic [ref=e209]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e210]
+              - button "Tietoja tästä tuloksesta" [ref=e211] [cursor=pointer]:
+                - img [ref=e214]
+            - generic [ref=e216]:
+              - button "What is Vanguard 40 60 portfolio for 2026?" [ref=e222] [cursor=pointer]:
+                - generic [ref=e224]: What is Vanguard 40 60 portfolio for 2026?
+                - img [ref=e227]
+              - button "Is a $300,000 investment better in Vanguard or in Fidelity?" [ref=e236] [cursor=pointer]:
+                - generic [ref=e238]: Is a $300,000 investment better in Vanguard or in Fidelity?
+                - img [ref=e241]
+              - button "What is Warren Buffett's 90/10 rule?" [ref=e250] [cursor=pointer]:
+                - generic [ref=e252]: What is Warren Buffett's 90/10 rule?
+                - img [ref=e255]
+              - button "What is the best asset allocation for a 50 year old?" [ref=e264] [cursor=pointer]:
+                - generic [ref=e266]: What is the best asset allocation for a 50 year old?
+                - img [ref=e269]
+          - generic [ref=e274]:
+            - heading "Web results" [level=2] [ref=e275]
+            - generic [ref=e276]:
+              - generic [ref=e279]:
+                - link "Vanguard Recommends 40/60 Stock/Bond split for retirees ... Reddit · r/Bogleheads Yli 110 kommenttia · 2 kuukautta sitten" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Bogleheads/comments/1qpgxde/vanguard_recommends_4060_stockbond_split_for/
+                  - heading "Vanguard Recommends 40/60 Stock/Bond split for retirees ..." [level=3] [ref=e282]
+                  - generic [ref=e287]:
+                    - generic [ref=e289]: Reddit · r/Bogleheads
+                    - generic [ref=e291]: Yli 110 kommenttia · 2 kuukautta sitten
+                - button "Tietoja tästä tuloksesta" [ref=e292] [cursor=pointer]:
+                  - img [ref=e295]
+              - generic [ref=e299]:
+                - emphasis [ref=e300]: Vanguard Recommends 40/60 Stock/Bond split for retirees in 2026
+                - text: . Flipping the usual 60/40 recommendation ...
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - link "Vanguard's recent recommendation to shift to a 70 ..." [ref=e307] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Bogleheads/comments/1mmefot/vanguards_recent_recommendation_to_shift_to_a_70/
+                    - generic [ref=e308]:
+                      - emphasis [ref=e309]: Vanguard's
+                      - text: recent recommendation to shift to a 70 ...
+                  - generic [ref=e311]: 322 postausta
+                  - generic [ref=e313]: 10.8.2025
+                - generic [ref=e314]:
+                  - link "When did you increase your bond allocation — age ..." [ref=e317] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Bogleheads/comments/1px6vs0/when_did_you_increase_your_bond_allocation_age/
+                    - generic [ref=e318]:
+                      - text: When did you increase your
+                      - emphasis [ref=e319]: bond allocation
+                      - text: —
+                      - emphasis [ref=e320]: age
+                      - text: ...
+                  - generic [ref=e322]: 94 postausta
+                  - generic [ref=e324]: 27.12.2025
+                - link "Lisää tuloksia kohteesta www.reddit.com" [ref=e328] [cursor=pointer]:
+                  - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026+site:www.reddit.com&sca_esv=f72dd7b5cfdb5d01&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQrQIoAnoECEYQAw
+              - generic [ref=e330]:
+                - text: "Puuttuu: 30s ‎| Hae tällä:"
+                - link "30s" [ref=e331] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+%2230s%22+40s+50s+60s+2026&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ5t4CegQIXhAB
+          - generic [ref=e335]:
+            - generic [ref=e338]:
+              - 'link "Retirement savings by age: What to do with your portfolio in ... T. Rowe Price https://www.troweprice.com › retir..." [ref=e340] [cursor=pointer]':
+                - /url: https://www.troweprice.com/personal-investing/resources/insights/retirement-savings-by-age-what-to-do-with-your-portfolio.html
+                - 'heading "Retirement savings by age: What to do with your portfolio in ..." [level=3] [ref=e341]'
+                - generic [ref=e346]:
+                  - generic [ref=e348]: T. Rowe Price
+                  - generic [ref=e350]: https://www.troweprice.com › retir...
+              - generic [ref=e351]:
+                - generic [ref=e352]: ·
+                - link "Käännä tämä sivu" [ref=e353] [cursor=pointer]:
+                  - /url: https://www.troweprice.com/personal-investing/resources/insights/retirement-savings-by-age-what-to-do-with-your-portfolio.html
+              - button "Tietoja tästä tuloksesta" [ref=e354] [cursor=pointer]:
+                - img [ref=e357]
+            - generic [ref=e361]:
+              - emphasis [ref=e362]: Asset allocation
+              - text: in your
+              - emphasis [ref=e363]: 20s
+              - text: and
+              - emphasis [ref=e364]: 30s
+              - text: . You should be focused primarily on the growth potential of
+              - emphasis [ref=e365]: stocks
+              - text: in your
+              - emphasis [ref=e366]: retirement
+              - text: savings.
+              - emphasis [ref=e367]: Asset allocation
+              - text: pie ...
+            - generic [ref=e369]: "Puuttuu: Vanguard ‎Fidelity"
+          - generic [ref=e373]:
+            - generic [ref=e376]:
+              - link "7 Models for the Best Asset Allocation by Age Commons Capital https://www.commonsllc.com › bes..." [ref=e378] [cursor=pointer]:
+                - /url: https://www.commonsllc.com/insights/best-asset-allocation-by-age
+                - heading "7 Models for the Best Asset Allocation by Age" [level=3] [ref=e379]
+                - generic [ref=e384]:
+                  - generic [ref=e386]: Commons Capital
+                  - generic [ref=e388]: https://www.commonsllc.com › bes...
+              - generic [ref=e389]:
+                - generic [ref=e390]: ·
+                - link "Käännä tämä sivu" [ref=e391] [cursor=pointer]:
+                  - /url: https://www.commonsllc.com/insights/best-asset-allocation-by-age
+              - button "Tietoja tästä tuloksesta" [ref=e392] [cursor=pointer]:
+                - img [ref=e395]
+            - generic [ref=e398]:
+              - generic [ref=e399]: 30.9.2025 —
+              - generic [ref=e400]:
+                - text: This updated guideline recommends subtracting your
+                - emphasis [ref=e401]: age
+                - text: from 120 to find the ideal percentage of your
+                - emphasis [ref=e402]: portfolio
+                - text: to allocate to
+                - emphasis [ref=e403]: stocks
+                - text: ", with the ..."
+          - generic [ref=e407]:
+            - generic [ref=e410]:
+              - link "5 Things to Know About Asset Allocation The Motley Fool https://www.fool.com › strategies" [ref=e412] [cursor=pointer]:
+                - /url: https://www.fool.com/retirement/strategies/asset-allocation-by-age/
+                - heading "5 Things to Know About Asset Allocation" [level=3] [ref=e413]
+                - generic [ref=e418]:
+                  - generic [ref=e420]: The Motley Fool
+                  - generic [ref=e422]: https://www.fool.com › strategies
+              - generic [ref=e423]:
+                - generic [ref=e424]: ·
+                - link "Käännä tämä sivu" [ref=e425] [cursor=pointer]:
+                  - /url: https://www.fool.com/retirement/strategies/asset-allocation-by-age/
+              - button "Tietoja tästä tuloksesta" [ref=e426] [cursor=pointer]:
+                - img [ref=e429]
+            - generic [ref=e432]:
+              - generic [ref=e433]: 24.2.2026 —
+              - generic [ref=e434]:
+                - emphasis [ref=e435]: Use the Rule of 110 to guide stock investment percentage by age
+                - text: . Invest in diversified asset classes and holdings to stabilize returns.
+            - generic [ref=e437]: "Puuttuu: Fidelity ‎30s"
+          - generic [ref=e441]:
+            - generic [ref=e444]:
+              - 'link "401(k) Asset Allocation By Age: Examples and Charts SmartAsset.com https://smartasset.com › ... › 401(k)" [ref=e446] [cursor=pointer]':
+                - /url: https://smartasset.com/retirement/401k-asset-allocation-by-age
+                - 'heading "401(k) Asset Allocation By Age: Examples and Charts" [level=3] [ref=e447]'
+                - generic [ref=e452]:
+                  - generic [ref=e454]: SmartAsset.com
+                  - generic [ref=e456]: https://smartasset.com › ... › 401(k)
+              - generic [ref=e457]:
+                - generic [ref=e458]: ·
+                - link "Käännä tämä sivu" [ref=e459] [cursor=pointer]:
+                  - /url: https://smartasset.com/retirement/401k-asset-allocation-by-age
+              - button "Tietoja tästä tuloksesta" [ref=e460] [cursor=pointer]:
+                - img [ref=e463]
+            - generic [ref=e466]:
+              - generic [ref=e467]: 13.2.2026 —
+              - generic [ref=e468]:
+                - text: For investors in their
+                - emphasis [ref=e469]: 20s
+                - text: and
+                - emphasis [ref=e470]: 30s
+                - text: ","
+                - emphasis [ref=e471]: bonds
+                - text: might make up a small portion of the
+                - emphasis [ref=e472]: investment portfolio
+                - text: ", often around 10-"
+                - emphasis [ref=e473]: "20"
+                - text: "%, since there's more ..."
+            - generic [ref=e475]:
+              - text: "Puuttuu: split ‎| Hae tällä:"
+              - link "split" [ref=e476] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+%22split%22+20s+30s+40s+50s+60s+2026&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ5t4CegQIWxAB
+          - generic [ref=e480]:
+            - generic [ref=e483]:
+              - link "Managing your retirement asset allocation Fidelity https://www.fidelity.com › retireme..." [ref=e485] [cursor=pointer]:
+                - /url: https://www.fidelity.com/learning-center/personal-finance/retirement-asset-allocation
+                - heading "Managing your retirement asset allocation" [level=3] [ref=e486]
+                - generic [ref=e491]:
+                  - generic [ref=e493]: Fidelity
+                  - generic [ref=e495]: https://www.fidelity.com › retireme...
+              - generic [ref=e496]:
+                - generic [ref=e497]: ·
+                - link "Käännä tämä sivu" [ref=e498] [cursor=pointer]:
+                  - /url: https://www.fidelity.com/learning-center/personal-finance/retirement-asset-allocation
+              - button "Tietoja tästä tuloksesta" [ref=e499] [cursor=pointer]:
+                - img [ref=e502]
+            - generic [ref=e506]:
+              - text: Planning your
+              - emphasis [ref=e507]: retirement asset allocation
+              - text: during times of high inflation or possible recession can be hard. Here's how to create a plan that includes ...
+          - generic [ref=e511]:
+            - generic [ref=e514]:
+              - link "Vanguard flips the script on 60/40 investment strategy Yahoo Finance https://finance.yahoo.com › news" [ref=e516] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/news/vanguard-flips-the-script-on-6040-investment-strategy-110026190.html
+                - heading "Vanguard flips the script on 60/40 investment strategy" [level=3] [ref=e517]
+                - generic [ref=e522]:
+                  - generic [ref=e524]: Yahoo Finance
+                  - generic [ref=e526]: https://finance.yahoo.com › news
+              - generic [ref=e527]:
+                - generic [ref=e528]: ·
+                - link "Käännä tämä sivu" [ref=e529] [cursor=pointer]:
+                  - /url: https://finance.yahoo.com/news/vanguard-flips-the-script-on-6040-investment-strategy-110026190.html
+              - button "Tietoja tästä tuloksesta" [ref=e530] [cursor=pointer]:
+                - img [ref=e533]
+            - generic [ref=e536]:
+              - generic [ref=e537]: 27.12.2025 —
+              - generic [ref=e538]:
+                - emphasis [ref=e539]: Vanguard
+                - text: is singing a new tune for investors in
+                - emphasis [ref=e540]: "2026"
+                - text: ". It goes like this: Out with the standard"
+                - emphasis [ref=e541]: portfolio
+                - text: mix of
+                - emphasis [ref=e542]: "60"
+                - text: "%"
+                - emphasis [ref=e543]: equity
+                - text: and
+                - emphasis [ref=e544]: "40"
+                - text: "% fixed ..."
+            - generic [ref=e546]: "Puuttuu: Fidelity ‎30s"
+          - generic [ref=e550]:
+            - generic [ref=e553]:
+              - 'link "Asset Allocation by Age: A Guide to Investing Waterloo Capital Management https://waterloocap.com › asset-allo..." [ref=e555] [cursor=pointer]':
+                - /url: https://waterloocap.com/asset-allocation-by-age-guide/
+                - 'heading "Asset Allocation by Age: A Guide to Investing" [level=3] [ref=e556]'
+                - generic [ref=e561]:
+                  - generic [ref=e563]: Waterloo Capital Management
+                  - generic [ref=e565]: https://waterloocap.com › asset-allo...
+              - generic [ref=e566]:
+                - generic [ref=e567]: ·
+                - link "Käännä tämä sivu" [ref=e568] [cursor=pointer]:
+                  - /url: https://waterloocap.com/asset-allocation-by-age-guide/
+              - button "Tietoja tästä tuloksesta" [ref=e569] [cursor=pointer]:
+                - img [ref=e572]
+            - generic [ref=e576]:
+              - emphasis [ref=e577]: Asset allocation
+              - text: by
+              - emphasis [ref=e578]: age
+              - text: "made simple: Explore expert strategies,"
+              - emphasis [ref=e579]: age
+              - text: "-based tips, and"
+              - emphasis [ref=e580]: portfolio
+              - text: mistakes to avoid for smarter investing at every life stage.
+          - generic [ref=e584]:
+            - generic [ref=e587]:
+              - link "Vanguard likes a 40/60 portfolio for 2026. Where the firm ... CNBC https://www.cnbc.com › 2026/01/05" [ref=e589] [cursor=pointer]:
+                - /url: https://www.cnbc.com/2026/01/05/vanguard-likes-a-40/60-portfolio-for-2026-where-the-firm-sees-solid-returns.html
+                - heading "Vanguard likes a 40/60 portfolio for 2026. Where the firm ..." [level=3] [ref=e590]
+                - generic [ref=e595]:
+                  - generic [ref=e597]: CNBC
+                  - generic [ref=e599]: https://www.cnbc.com › 2026/01/05
+              - generic [ref=e600]:
+                - generic [ref=e601]: ·
+                - link "Käännä tämä sivu" [ref=e602] [cursor=pointer]:
+                  - /url: https://www.cnbc.com/2026/01/05/vanguard-likes-a-40/60-portfolio-for-2026-where-the-firm-sees-solid-returns.html
+              - button "Tietoja tästä tuloksesta" [ref=e603] [cursor=pointer]:
+                - img [ref=e606]
+            - generic [ref=e609]:
+              - generic [ref=e610]: 5.1.2026 —
+              - generic [ref=e611]:
+                - emphasis [ref=e612]: Vanguard
+                - text: is leaning away from artificial intelligence
+                - emphasis [ref=e613]: stocks
+                - text: and into
+                - emphasis [ref=e614]: bonds
+                - text: for
+                - emphasis [ref=e615]: "2026"
+                - text: . "Flipping the formula" from a
+                - emphasis [ref=e616]: "60"
+                - text: "%"
+                - emphasis [ref=e617]: stocks
+                - text: /
+                - emphasis [ref=e618]: "40"
+                - text: "% fixed ..."
+            - generic [ref=e620]: "Puuttuu: Fidelity ‎split ‎20s ‎30s"
+        - generic [ref=e622]:
+          - generic [ref=e627]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e629]
+            - generic [ref=e631]:
+              - generic [ref=e632]:
+                - link "Vanguard 60/40 fund" [ref=e636] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+60/40+fund&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ1QJ6BAhiEAE
+                  - generic [ref=e637]:
+                    - generic [ref=e642]: Vanguard 60/40 fund
+                    - img [ref=e646]
+                - link "Vanguard login" [ref=e651] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+login&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ1QJ6BAhkEAE
+                  - generic [ref=e652]:
+                    - generic [ref=e657]: Vanguard login
+                    - img [ref=e661]
+              - generic [ref=e663]:
+                - link "Vanguard Investor questionnaire" [ref=e667] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+Investor+questionnaire&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ1QJ6BAhlEAE
+                  - generic [ref=e668]:
+                    - generic [ref=e673]: Vanguard Investor questionnaire
+                    - img [ref=e677]
+                - link "2026 stock market outlook" [ref=e682] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=2026+stock+market+outlook&sa=X&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ1QJ6BAhjEAE
+                  - generic [ref=e683]:
+                    - generic [ref=e688]: 2026 stock market outlook
+                    - img [ref=e692]
+          - navigation [ref=e694]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e695]
+            - text: "1"
+            - link "Page 2" [ref=e698] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=10&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAE
+              - text: "2"
+            - link "Page 3" [ref=e700] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=20&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAG
+              - text: "3"
+            - link "Page 4" [ref=e702] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=30&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAI
+              - text: "4"
+            - link "Page 5" [ref=e704] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=40&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAK
+              - text: "5"
+            - link "Page 6" [ref=e706] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=50&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAM
+              - text: "6"
+            - link "Page 7" [ref=e708] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=60&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAO
+              - text: "7"
+            - link "Page 8" [ref=e710] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=70&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAQ
+              - text: "8"
+            - link "Page 9" [ref=e712] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=80&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAS
+              - text: "9"
+            - link "Page 10" [ref=e714] [cursor=pointer]:
+              - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=90&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8tMDegQIYBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e716]:
+              - link "Seuraava" [ref=e717] [cursor=pointer]:
+                - /url: /search?q=Vanguard+Fidelity+asset+allocation+by+age+recommended+stocks+bonds+split+20s+30s+40s+50s+60s+2026&sca_esv=f72dd7b5cfdb5d01&ei=Em_RaaPUE86SwPAPxpfh4QY&start=10&sa=N&sstk=Af77f_eMI_F_-ENdS0MZE1qk4bar64oWD7U66JFM1N1e03oLH-KH-0fulTQA3AR90mDTuUKwTX3ePtfTLfwEKYaN8k2ML2GcXJH7VQ&ved=2ahUKEwijpcWo_9STAxVOCRAIHcZLOGwQ8NMDegQIYBAW
+                - generic [ref=e719]: Seuraava
+        - navigation
+    - contentinfo [ref=e720]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e721]
+      - generic [ref=e725]:
+        - generic [ref=e727]:
+          - text: Suomi
+          - generic [ref=e729]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e731] [cursor=pointer]:
+              - generic [ref=e732]: Helsinki
+              - generic [ref=e734]:
+                - text: "-"
+                - generic [ref=e735]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e737] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e740]:
+          - link "Ohje" [ref=e741] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e742] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e743] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e744] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

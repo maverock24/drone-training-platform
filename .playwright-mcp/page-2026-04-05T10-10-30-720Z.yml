@@ -1,0 +1,509 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - text: Call now -
+    - link "0330 111 7177" [ref=e4] [cursor=pointer]:
+      - /url: tel:03301117177
+  - banner [ref=e5]:
+    - generic [ref=e8]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: https://coptrz.com
+        - img [ref=e13]
+      - generic [ref=e25]:
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://www.coptrzacademy-usp.io/login
+          - img [ref=e28]
+        - link "0" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e35]
+          - generic [ref=e40]: "0"
+        - button [ref=e42] [cursor=pointer]
+  - main [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - iframe [ref=e49]:
+          - generic [active] [ref=f22e1]:
+            - generic "YouTube Video Player" [ref=f22e3]
+            - button "Show player controls" [ref=f22e7] [cursor=pointer]
+        - generic [ref=e51]:
+          - heading "The Drone Experts" [level=1] [ref=e52]
+          - paragraph [ref=e54]: Providing you with tailored cutting-edge commercial drone technology and training to transform your operational efficiency.
+      - generic [ref=e59]:
+        - group "1 / 14" [ref=e60]:
+          - link [ref=e61] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/dji/
+        - group "2 / 14" [ref=e63]:
+          - link [ref=e64] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/emesent/
+        - group "3 / 14" [ref=e66]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/skyshyld/
+        - group "4 / 14" [ref=e69]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/parrot/
+        - group "5 / 14" [ref=e72]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/phase-one/
+        - group "6 / 14" [ref=e75]:
+          - link [ref=e76] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/pix4d/
+        - group "7 / 14" [ref=e78]:
+          - link [ref=e79] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/flyability/
+        - group "8 / 14" [ref=e81]:
+          - link [ref=e82] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/air-data-uav/
+        - group "9 / 14" [ref=e84]:
+          - link [ref=e85] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/ageagle/
+        - group "10 / 14" [ref=e87]:
+          - link [ref=e88] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/sky-hero/
+        - group "11 / 14" [ref=e90]:
+          - link [ref=e91] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/typhon/
+        - group "12 / 14" [ref=e93]:
+          - link [ref=e94] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/lidar-usa/
+        - group "13 / 14" [ref=e96]:
+          - link [ref=e97] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/trendspek/
+        - group "14 / 14" [ref=e99]:
+          - link [ref=e100] [cursor=pointer]:
+            - /url: https://coptrz.com/brands/premium-positioning/
+      - generic [ref=e103]:
+        - heading "Explore Drone Solutions for your Industry" [level=2] [ref=e104]:
+          - text: Explore Drone Solutions
+          - text: for your Industry
+        - generic [ref=e106]:
+          - generic [ref=e108]:
+            - heading "Asset Integrity & Inspection" [level=3] [ref=e110]
+            - link "Asset Integrity & Inspection" [ref=e112] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/asset-integrity-and-inspection/
+            - link "Learn More" [ref=e114] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/asset-integrity-and-inspection/
+          - generic [ref=e116]:
+            - heading "Surveying & Construction" [level=3] [ref=e118]
+            - link "Surveying & Construction" [ref=e120] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/surveying-and-construction/
+            - link "Learn More" [ref=e122] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/surveying-and-construction/
+          - generic [ref=e124]:
+            - heading "Public Safety" [level=3] [ref=e126]
+            - link "Public Safety" [ref=e128] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/public-safety/
+            - link "Learn More" [ref=e130] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/public-safety/
+          - generic [ref=e132]:
+            - heading "Agriculture & Forestry" [level=3] [ref=e134]
+            - link "Agriculture & Forestry" [ref=e136] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/agriculture-and-forestry/
+            - link "Learn More" [ref=e138] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/agriculture-and-forestry/
+          - generic [ref=e140]:
+            - img "Drones education" [ref=e142]
+            - heading "Research & Education" [level=3] [ref=e143]
+            - link "Research & Education" [ref=e145] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/research-and-education/
+            - link "Learn More" [ref=e147] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/research-and-education/
+          - generic [ref=e149]:
+            - heading "Energy & Renewables" [level=3] [ref=e151]
+            - link "Energy & Renewables" [ref=e153] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/energy-and-renewables/
+            - link "Learn More" [ref=e155] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/energy-and-renewables/
+          - generic [ref=e157]:
+            - heading "Oil & Gas" [level=3] [ref=e159]
+            - link "Oil & Gas" [ref=e161] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/oil-and-gas/
+            - link "Learn More" [ref=e163] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/oil-and-gas/
+          - generic [ref=e165]:
+            - img "Coptrz Sport" [ref=e167]
+            - heading "Sport" [level=3] [ref=e168]
+            - link "Sport" [ref=e170] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/sport/
+            - link "Learn More" [ref=e172] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/sport/
+          - generic [ref=e174]:
+            - img "A computer with video camera" [ref=e176]
+            - heading "Security" [level=3] [ref=e177]
+            - link "Security" [ref=e179] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/security/
+            - link "Learn More" [ref=e181] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/security/
+          - generic [ref=e183]:
+            - heading "Film & Media" [level=3] [ref=e185]
+            - link "Film & Media" [ref=e187] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/film-and-media/
+            - link "Learn More" [ref=e189] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/film-and-media/
+          - generic [ref=e191]:
+            - heading "Marine" [level=3] [ref=e193]
+            - link "Marine" [ref=e195] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/marine/
+            - link "Learn More" [ref=e197] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/marine/
+          - generic [ref=e199]:
+            - heading "Drone Service Provider" [level=3] [ref=e201]
+            - link "Drone Service Provider" [ref=e203] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/drone-service-provider/
+            - link "Learn More" [ref=e205] [cursor=pointer]:
+              - /url: https://coptrz.com/industry-solutions/drone-service-provider/
+        - generic [ref=e207]:
+          - button "Enquire Now" [ref=e209] [cursor=pointer]
+          - link "All Sectors" [ref=e211] [cursor=pointer]:
+            - /url: /industry-solutions/
+      - generic [ref=e213]:
+        - heading "Take The Coptrz Drone Quiz" [level=2] [ref=e214]
+        - paragraph [ref=e216]: Discover the drone for you.
+        - link "Start Now" [ref=e220] [cursor=pointer]:
+          - /url: https://shop.coptrz.com/tools/perfect-product-finder/drone-finder-quiz#/?utm_source=coptrz-main-site&utm_medium=referral
+      - generic [ref=e224]:
+        - heading "Impartial Expertise for Commercial Drone Integration" [level=2] [ref=e225]:
+          - text: Impartial Expertise for
+          - text: Commercial Drone Integration
+        - generic [ref=e226]:
+          - generic [ref=e228]:
+            - img [ref=e230]
+            - heading "End-to-end Drone Solutions" [level=4] [ref=e232]
+            - paragraph [ref=e234]: Complete drone solutions, including hardware, software, pilot training, repairs and support.
+          - generic [ref=e236]:
+            - img [ref=e238]
+            - heading "Impartial Advice" [level=4] [ref=e242]
+            - paragraph [ref=e244]: Industry experts work closely with you to find the best solution for your organisation.
+          - generic [ref=e246]:
+            - img [ref=e248]
+            - heading "UK's Widest Drone Selection" [level=4] [ref=e251]
+            - paragraph [ref=e253]: We're not limited to one brand, we offer the UK's widest range of world-renowned suppliers.
+        - generic [ref=e255]:
+          - button "Enquire Now" [ref=e257] [cursor=pointer]
+          - link "About Us" [ref=e259] [cursor=pointer]:
+            - /url: https://coptrz.com/about-us/
+      - generic [ref=e260]:
+        - heading "Capabilities" [level=2] [ref=e261]
+        - generic [ref=e263]:
+          - generic [ref=e266]:
+            - group "1 / 9" [ref=e267]:
+              - generic [ref=e269]:
+                - heading "LiDAR Technology" [level=3] [ref=e271]
+                - link "LiDAR Technology" [ref=e273] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/lidar-technology/
+                - link "Learn More" [ref=e275] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/lidar-technology/
+            - group "2 / 9" [ref=e276]:
+              - generic [ref=e278]:
+                - heading "Photogrammetry" [level=3] [ref=e280]
+                - link "Photogrammetry" [ref=e282] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/photogrammetry/
+                - link "Learn More" [ref=e284] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/photogrammetry/
+            - group "3 / 9" [ref=e285]:
+              - generic [ref=e287]:
+                - heading "Thermal" [level=3] [ref=e289]
+                - link "Thermal" [ref=e291] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/thermal/
+                - link "Learn More" [ref=e293] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/thermal/
+            - group "4 / 9" [ref=e294]:
+              - generic [ref=e296]:
+                - heading "Underwater Drones" [level=3] [ref=e298]
+                - link "Underwater Drones" [ref=e300] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/underwater-inspection/
+                - link "Learn More" [ref=e302] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/underwater-inspection/
+            - group "5 / 9" [ref=e303]:
+              - generic [ref=e305]:
+                - heading "Ultrasonic" [level=3] [ref=e307]
+                - link "Ultrasonic" [ref=e309] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/ultrasonic/
+                - link "Learn More" [ref=e311] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/ultrasonic/
+            - group "6 / 9" [ref=e312]:
+              - generic [ref=e314]:
+                - heading "RTK Drones" [level=3] [ref=e316]
+                - link "RTK Drones" [ref=e318] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/rtk-drones/
+                - link "Learn More" [ref=e320] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/rtk-drones/
+            - group "7 / 9" [ref=e321]:
+              - generic [ref=e323]:
+                - img "AGEAGLE MULTISPECTRAL" [ref=e325]
+                - heading "Multispectral Imaging" [level=3] [ref=e326]
+                - link "Multispectral Imaging" [ref=e328] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/multispectral-imaging/
+                - link "Learn More" [ref=e330] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/multispectral-imaging/
+            - group "8 / 9" [ref=e331]:
+              - generic [ref=e333]:
+                - heading "FPV Drones" [level=3] [ref=e335]
+                - link "FPV Drones" [ref=e337] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/fpv-drones/
+                - link "Learn More" [ref=e339] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/fpv-drones/
+            - group "9 / 9" [ref=e340]:
+              - generic [ref=e342]:
+                - heading "Photography Drones" [level=3] [ref=e344]
+                - link "Photography Drones" [ref=e346] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/photography-drones/
+                - link "Learn More" [ref=e348] [cursor=pointer]:
+                  - /url: https://coptrz.com/capabilities/photography-drones/
+          - generic [ref=e349]:
+            - button "Previous slide" [ref=e350] [cursor=pointer]: prev
+            - button "Next slide" [ref=e351] [cursor=pointer]: next
+      - generic [ref=e356]:
+        - generic [ref=e357]:
+          - group "1 / 2" [ref=e358]:
+            - paragraph [ref=e364]: Texo were contracted by Mace Group to complete a glass and facade inspection of the Leadenhall Building in London.
+          - group "2 / 2" [ref=e366]:
+            - paragraph [ref=e372]: Enhancing firefighter safety and situational awareness with drone technology
+        - generic [ref=e376]:
+          - generic [ref=e378]:
+            - button "Previous slide" [ref=e379] [cursor=pointer]: prev
+            - button "Next slide" [ref=e380] [cursor=pointer]: next
+          - generic [ref=e382]:
+            - link "Read Case Study" [ref=e384] [cursor=pointer]:
+              - /url: https://coptrz.com/case-studies/texo-group/
+            - link "All Case Studies" [ref=e386] [cursor=pointer]:
+              - /url: https://coptrz.com/case-studies/
+      - generic [ref=e393]:
+        - group "1 / 14" [ref=e394]
+        - group "2 / 14" [ref=e395]
+        - group "3 / 14" [ref=e396]
+        - group "4 / 14" [ref=e397]
+        - group "5 / 14" [ref=e398]
+        - group "6 / 14" [ref=e399]
+        - group "7 / 14" [ref=e400]
+        - group "8 / 14" [ref=e401]
+        - group "9 / 14" [ref=e402]
+        - group "10 / 14" [ref=e403]
+        - group "11 / 14" [ref=e404]
+        - group "12 / 14" [ref=e405]
+        - group "13 / 14" [ref=e406]
+        - group "14 / 14" [ref=e407]
+    - generic [ref=e418]:
+      - heading "Latest From Coptrz" [level=2] [ref=e419]
+      - generic [ref=e421]:
+        - generic [ref=e423]:
+          - link "Uncategorized" [ref=e426] [cursor=pointer]:
+            - /url: https://coptrz.com/blog/category/uncategorized/
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - text: "17"
+              - superscript [ref=e429]: th
+              - text: February
+            - 'link "Emesent GX1: The World’s Most Accurate RTK SLAM Mobile LiDAR Scanner" [ref=e430] [cursor=pointer]':
+              - /url: https://coptrz.com/blog/emesent-gx1-the-worlds-most-accurate-rtk-slam-mobile-lidar-scanner/
+              - 'heading "Emesent GX1: The World’s Most Accurate RTK SLAM Mobile LiDAR Scanner" [level=3] [ref=e431]'
+            - link "Read the Article" [ref=e433] [cursor=pointer]:
+              - /url: https://coptrz.com/blog/emesent-gx1-the-worlds-most-accurate-rtk-slam-mobile-lidar-scanner/
+        - generic [ref=e435]:
+          - link "Uncategorized" [ref=e438] [cursor=pointer]:
+            - /url: https://coptrz.com/blog/category/uncategorized/
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - text: "21"
+              - superscript [ref=e441]: st
+              - text: January
+            - link "The Hidden Cost of Poor DJI Drone Maintenance (And How to Avoid It)" [ref=e442] [cursor=pointer]:
+              - /url: https://coptrz.com/blog/the-hidden-cost-of-poor-dji-drone-maintenance-and-how-to-avoid-it/
+              - heading "The Hidden Cost of Poor DJI Drone Maintenance (And How to Avoid It)" [level=3] [ref=e443]
+            - link "Read the Article" [ref=e445] [cursor=pointer]:
+              - /url: https://coptrz.com/blog/the-hidden-cost-of-poor-dji-drone-maintenance-and-how-to-avoid-it/
+        - generic [ref=e447]:
+          - link [ref=e449] [cursor=pointer]:
+            - /url: https://coptrz.com/shop/drones/dji-matrice-400/
+          - generic [ref=e450]:
+            - generic [ref=e451]: NEW
+            - link "DJI Matrice 400" [ref=e452] [cursor=pointer]:
+              - /url: https://coptrz.com/shop/drones/dji-matrice-400/
+              - heading "DJI Matrice 400" [level=3] [ref=e453]
+            - link "View Product" [ref=e455] [cursor=pointer]:
+              - /url: https://coptrz.com/shop/drones/dji-matrice-400/
+        - generic [ref=e457]:
+          - link [ref=e459] [cursor=pointer]:
+            - /url: https://coptrz.com/guides/become-a-drone-pilot/
+          - generic [ref=e460]:
+            - link "Become a Drone Pilot" [ref=e461] [cursor=pointer]:
+              - /url: https://coptrz.com/guides/become-a-drone-pilot/
+              - heading "Become a Drone Pilot" [level=3] [ref=e462]
+            - link "Download Guide" [ref=e464] [cursor=pointer]:
+              - /url: https://coptrz.com/guides/become-a-drone-pilot/
+    - generic [ref=e468]:
+      - link "4.9 574 reviews" [ref=e471] [cursor=pointer]:
+        - /url: https://www.reviews.io/company-reviews/store/coptrz.com
+        - generic [ref=e472]:
+          - generic [ref=e473]: "4.9"
+          - generic [ref=e474]:
+            - generic [ref=e475]:
+              - img [ref=e476]
+              - img [ref=e478]
+              - img [ref=e480]
+              - img [ref=e482]
+              - img [ref=e484]
+            - generic [ref=e486]: 574 reviews
+      - link "4.9 187 reviews" [ref=e490] [cursor=pointer]:
+        - /url: https://www.google.com/maps/place/Coptrz/@53.6487213,-1.5957807,11z/data=!3m1!5s0x48795c1db6c4a153:0xd84010c469752480!4m12!1m2!2m1!1scoptrz!3m8!1s0x487973db4cfc206f:0x68dbb5ebd344400!8m2!3d53.7991882!4d-1.5476264!9m1!1b1!15sCgZjb3B0cnpaCCIGY29wdHJ6kgERdHJhaW5pbmdfcHJvdmlkZXLgAQA!16s%2Fg%2F11b_3bwv53?entry=ttu
+        - generic [ref=e491]:
+          - generic [ref=e492]: "4.9"
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - img [ref=e495]
+              - img [ref=e497]
+              - img [ref=e499]
+              - img [ref=e501]
+              - img [ref=e503]
+            - generic [ref=e505]: 187 reviews
+    - generic [ref=e512]:
+      - heading "Unlock your business potential with drone technology" [level=2] [ref=e515]
+      - button "Enquire Now" [ref=e521] [cursor=pointer]
+    - generic [ref=e522]:
+      - generic [ref=e526]:
+        - link [ref=e529] [cursor=pointer]:
+          - /url: https://coptrz.com
+          - img [ref=e531]
+        - list [ref=e545]:
+          - listitem [ref=e546]:
+            - link [ref=e547] [cursor=pointer]:
+              - /url: https://www.facebook.com/coptrz/
+              - img [ref=e548]
+          - listitem [ref=e550]:
+            - link [ref=e551] [cursor=pointer]:
+              - /url: https://www.instagram.com/coptrz/?hl=en
+              - img [ref=e552]
+          - listitem [ref=e554]:
+            - link [ref=e555] [cursor=pointer]:
+              - /url: https://twitter.com/Coptrz?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+              - img [ref=e556]
+          - listitem [ref=e558]:
+            - link [ref=e559] [cursor=pointer]:
+              - /url: https://uk.linkedin.com/company/coptrz
+              - img [ref=e560]
+          - listitem [ref=e562]:
+            - link [ref=e563] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCaSoWnfzOkLf-gVsqqkRZBQ
+              - img [ref=e564]
+      - generic [ref=e569]:
+        - generic [ref=e571]:
+          - heading "About Us" [level=4] [ref=e572]:
+            - button "About Us"
+          - generic "About Us" [ref=e573]:
+            - list [ref=e576]:
+              - listitem [ref=e577]:
+                - link "Company" [ref=e578] [cursor=pointer]:
+                  - /url: https://coptrz.com/about-us/
+              - listitem [ref=e579]:
+                - link "Our Brands" [ref=e580] [cursor=pointer]:
+                  - /url: https://coptrz.com/brands/
+              - listitem [ref=e581]:
+                - link "Environment Initiative" [ref=e582] [cursor=pointer]:
+                  - /url: https://ecologi.com/coptrz
+              - listitem [ref=e583]:
+                - link "Sitemap" [ref=e584] [cursor=pointer]:
+                  - /url: https://coptrz.com/sitemap.xml
+        - generic [ref=e586]:
+          - heading "Solutions" [level=4] [ref=e587]:
+            - button "Solutions"
+          - generic "Solutions" [ref=e588]:
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "Asset Integrity & Inspection" [ref=e593] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/asset-integrity-and-inspection/
+              - listitem [ref=e594]:
+                - link "Surveying & Construction" [ref=e595] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/surveying-and-construction/
+              - listitem [ref=e596]:
+                - link "Public Safety" [ref=e597] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/public-safety/
+              - listitem [ref=e598]:
+                - link "Agriculture & Forestry" [ref=e599] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/agriculture-and-forestry/
+              - listitem [ref=e600]:
+                - link "Research & Education" [ref=e601] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/research-and-education/
+              - listitem [ref=e602]:
+                - link "Energy & Renewables" [ref=e603] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/energy-and-renewables/
+              - listitem [ref=e604]:
+                - link "Oil & Gas" [ref=e605] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/oil-and-gas/
+              - listitem [ref=e606]:
+                - link "Security" [ref=e607] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/security/
+              - listitem [ref=e608]:
+                - link "Government Body" [ref=e609] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/government-body/
+              - listitem [ref=e610]:
+                - link "Sport" [ref=e611] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/sport/
+              - listitem [ref=e612]:
+                - link "Film & Media" [ref=e613] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/film-and-media/
+              - listitem [ref=e614]:
+                - link "Marine" [ref=e615] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/marine/
+              - listitem [ref=e616]:
+                - link "Drone Service Provider" [ref=e617] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/drone-service-provider/
+        - generic [ref=e619]:
+          - heading "Resources" [level=4] [ref=e620]:
+            - button "Resources"
+          - generic "Resources" [ref=e621]:
+            - list [ref=e624]:
+              - listitem [ref=e625]:
+                - link "Case Studies" [ref=e626] [cursor=pointer]:
+                  - /url: https://coptrz.com/case-studies/
+              - listitem [ref=e627]:
+                - link "Drone Repair" [ref=e628] [cursor=pointer]:
+                  - /url: https://coptrz.com/drone-repair/
+              - listitem [ref=e629]:
+                - link "Drone Servicing" [ref=e630] [cursor=pointer]:
+                  - /url: https://coptrz.com/drone-servicing/
+              - listitem [ref=e631]:
+                - link "Blog" [ref=e632] [cursor=pointer]:
+                  - /url: https://coptrz.com/blog/
+        - generic [ref=e634]:
+          - heading "Learn" [level=4] [ref=e635]:
+            - button "Learn"
+          - generic "Learn" [ref=e636]:
+            - list [ref=e639]:
+              - listitem [ref=e640]:
+                - link "Coptrz Academy" [ref=e641] [cursor=pointer]:
+                  - /url: https://www.coptrzacademy-usp.io/login
+              - listitem [ref=e642]:
+                - link "Help Centre" [ref=e643] [cursor=pointer]:
+                  - /url: https://help.coptrz.com/en/
+        - figure [ref=e646]
+      - generic [ref=e650]:
+        - figure [ref=e653]:
+          - figure [ref=e654]
+          - figure [ref=e655]
+          - figure [ref=e656]
+          - figure [ref=e657]
+          - figure [ref=e658]
+        - list [ref=e662]:
+          - listitem [ref=e663]:
+            - link "Terms and Conditions" [ref=e664] [cursor=pointer]:
+              - /url: https://coptrz.com/terms-and-conditions/
+          - listitem [ref=e665]:
+            - link "Privacy Policy" [ref=e666] [cursor=pointer]:
+              - /url: https://coptrz.com/privacy-policy/
+          - listitem [ref=e667]:
+            - link "Cookie Policy (UK)" [ref=e668] [cursor=pointer]:
+              - /url: https://coptrz.com/cookie-policy-uk/
+  - status [ref=e669]
+  - iframe [ref=e670]:
+    
+  - text:   
+  - generic:
+    - generic:
+      - generic: 
+  - iframe [ref=e673]:
+    - generic [ref=f18e6]:
+      - text: protected by
+      - strong [ref=f18e7]: reCAPTCHA
+  - iframe [ref=e674]:
+    
+  - button "Open Intercom Messenger" [ref=e675] [cursor=pointer]:
+    - generic:
+      - img

@@ -1,0 +1,297 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:vero.fi pääomatulovero 2026 site:vero.fi pääomatulovero 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Avero.fi%2Bp%25C3%25A4%25C3%25A4omatulovero%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&aep=1&ntc=1&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ2J8OegQIERAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQtKgLegQIFxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ0pQJegQIFhAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQs6gLegQIFBAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:vero.fi%2Bp%25C3%25A4%25C3%25A4omatulovero%2B2026&hl=en&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQiIQCKAN6BAgNEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Tulokset internetistä" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Mikä muuttuu verotuksessa vuonna 2026? Vero.fi https://www.vero.fi › uutishuone › uutiset › uutiset › mi..." [ref=e154] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2025/mik%C3%A4-muuttuu-verotuksessa-vuonna-2026/
+                - heading "Mikä muuttuu verotuksessa vuonna 2026?" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Vero.fi
+                  - generic [ref=e164]: https://www.vero.fi › uutishuone › uutiset › uutiset › mi...
+              - button "Tietoja tästä tuloksesta" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e171]:
+              - generic [ref=e172]: 8.12.2025 —
+              - generic [ref=e173]:
+                - text: Alennettuun 14 prosentin verokantaan kuuluvien tavaroiden ja palveluiden arvonlisävero laskee vuoden
+                - emphasis [ref=e174]: "2026"
+                - text: alusta 13,5 prosenttiin. Tähän ...
+        - generic [ref=e178]:
+          - generic [ref=e181]:
+            - link "Veroperusteet 2026 Vero.fi https://www.vero.fi › veroprosentti-ja-tuloraja › verope..." [ref=e183] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosentti-ja-tuloraja/veroperusteet/
+              - heading "Veroperusteet 2026" [level=3] [ref=e184]
+              - generic [ref=e189]:
+                - generic [ref=e191]: Vero.fi
+                - generic [ref=e193]: https://www.vero.fi › veroprosentti-ja-tuloraja › verope...
+            - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+              - img [ref=e197]
+          - generic [ref=e200]:
+            - generic [ref=e201]: 22.11.2025 —
+            - generic [ref=e202]:
+              - text: Vuoden
+              - emphasis [ref=e203]: "2026"
+              - text: verokortti tulee voimaan vuoden alussa eli 1. tammikuuta. Verokortille merkitty tuloraja on laskettu koko vuodelle eli 12 ...
+        - generic [ref=e207]:
+          - generic [ref=e210]:
+            - link "Pääomatuloista tehtävät vähennykset Vero.fi https://www.vero.fi › vahennykset-paaomatuloista" [ref=e212] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-paaomatuloista/
+              - heading "Pääomatuloista tehtävät vähennykset" [level=3] [ref=e213]
+              - generic [ref=e218]:
+                - generic [ref=e220]: Vero.fi
+                - generic [ref=e222]: https://www.vero.fi › vahennykset-paaomatuloista
+            - button "Tietoja tästä tuloksesta" [ref=e223] [cursor=pointer]:
+              - img [ref=e226]
+          - generic [ref=e229]: Pääomatuloista voi vähentää kulut, jotka ovat syntyneet pääomatulojen hankkimisesta tai säilyttämisestä.
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - link "Henkilöasiakkaan tärkeät päivämäärät 2026 Vero.fi https://www.vero.fi › henkiloasiakkaat › henkiloasiakka..." [ref=e238] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/henkiloasiakkaan_tarkeat_paivamaarat/
+              - heading "Henkilöasiakkaan tärkeät päivämäärät 2026" [level=3] [ref=e239]
+              - generic [ref=e244]:
+                - generic [ref=e246]: Vero.fi
+                - generic [ref=e248]: https://www.vero.fi › henkiloasiakkaat › henkiloasiakka...
+            - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+              - img [ref=e252]
+          - generic [ref=e255]:
+            - generic [ref=e256]: 15.12.2025 —
+            - generic [ref=e257]:
+              - text: Vuoden
+              - emphasis [ref=e258]: "2026"
+              - text: verokortit ja ennakkoveron tilisiirtolomakkeet olivat asiakkailla joulukuun 2025 loppuun mennessä.
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "Pääomatulon veroprosentti Vero.fi https://www.vero.fi › tulot › paaomatulot" [ref=e267] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/tulot/paaomatulot/
+              - heading "Pääomatulon veroprosentti" [level=3] [ref=e268]
+              - generic [ref=e273]:
+                - generic [ref=e275]: Vero.fi
+                - generic [ref=e277]: https://www.vero.fi › tulot › paaomatulot
+            - button "Tietoja tästä tuloksesta" [ref=e278] [cursor=pointer]:
+              - img [ref=e281]
+          - generic [ref=e285]:
+            - text: Lue lisää pääomatuloista tehtävistä vähennyksistä. Veroprosentti – pääomatulot.
+            - emphasis [ref=e286]: Pääomatulon veroprosentti 30 000 e asti 30
+            - text: "%, yli 30 000 e 34 %. 30 000 ..."
+        - generic [ref=e290]:
+          - generic [ref=e293]:
+            - link "Verotuksen muutoksia - vero.fi Vero.fi https://www.vero.fi › tietoa-verohallinnosta › uutishuone" [ref=e295] [cursor=pointer]:
+              - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/verotuksen_muutoksia/
+              - heading "Verotuksen muutoksia - vero.fi" [level=3] [ref=e296]
+              - generic [ref=e301]:
+                - generic [ref=e303]: Vero.fi
+                - generic [ref=e305]: https://www.vero.fi › tietoa-verohallinnosta › uutishuone
+            - button "Tietoja tästä tuloksesta" [ref=e306] [cursor=pointer]:
+              - img [ref=e309]
+          - generic [ref=e312]:
+            - generic [ref=e313]: 3.3.2026 —
+            - generic [ref=e314]:
+              - text: Muita muutoksia. Verovapaat matkakustannusten korvaukset vuonna
+              - emphasis [ref=e315]: "2026"
+              - text: · Vuoden
+              - emphasis [ref=e316]: "2026"
+              - text: luontoisetuarvot on vahvistettu · Sosiaalivakuutusmaksut ...
+        - generic [ref=e320]:
+          - generic [ref=e323]:
+            - link "Verohallinnon päätös ennakonpidätysprosenttien ... Vero.fi https://www.vero.fi › syventavat-vero-ohjeet › paatokset" [ref=e325] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/paatokset/47363/verohallinnon-paatos-ennakonpidatysprosenttien-laskentaperusteista-palkkatuloa-varten-ja-ennakonkannossa-maarattavan-ennakkoveron-laskentaperusteista-vuodelle-2026/
+              - heading "Verohallinnon päätös ennakonpidätysprosenttien ..." [level=3] [ref=e326]
+              - generic [ref=e331]:
+                - generic [ref=e333]: Vero.fi
+                - generic [ref=e335]: https://www.vero.fi › syventavat-vero-ohjeet › paatokset
+            - button "Tietoja tästä tuloksesta" [ref=e336] [cursor=pointer]:
+              - img [ref=e339]
+          - generic [ref=e342]:
+            - generic [ref=e343]: 20.11.2025 —
+            - generic [ref=e344]:
+              - text: "7.3"
+              - emphasis [ref=e345]: Pääomatulovero
+              - text: .
+              - emphasis [ref=e346]: Pääomatulovero
+              - text: lasketaan verotettavasta pääomatulosta 30 000 euroon asti 30 prosentin mukaan ja ylimenevästä osasta 34 ...
+        - generic [ref=e350]:
+          - generic [ref=e353]:
+            - link "Osakeyhtiön ja osuuskunnan tuloverotus Vero.fi https://www.vero.fi › osakeyhtio-ja-osuuskunta › tulove..." [ref=e355] [cursor=pointer]:
+              - /url: https://www.vero.fi/yritykset-ja-yhteisot/verot-ja-maksut/osakeyhtio-ja-osuuskunta/tuloverotus/
+              - heading "Osakeyhtiön ja osuuskunnan tuloverotus" [level=3] [ref=e356]
+              - generic [ref=e361]:
+                - generic [ref=e363]: Vero.fi
+                - generic [ref=e365]: https://www.vero.fi › osakeyhtio-ja-osuuskunta › tulove...
+            - button "Tietoja tästä tuloksesta" [ref=e366] [cursor=pointer]:
+              - img [ref=e369]
+          - generic [ref=e373]:
+            - text: Molempien tilikausien verovuosi on
+            - emphasis [ref=e374]: "2026"
+            - text: . Yhteisön pitää antaa veroilmoitus erikseen 31.3. päättyvältä tilikaudelta ja 31.12. päättyvältä tilikaudelta.
+        - generic [ref=e378]:
+          - generic [ref=e381]:
+            - link "Verohallinnon päätös työhuonevähennyksen määrästä ... Vero.fi https://www.vero.fi › syventavat-vero-ohjeet › paatokset" [ref=e383] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/paatokset/360555/verohallinnon-paatos-tyohuonevahennyksen-maarasta-vuodelta-2026-toimitettavassa-verotuksessa/
+              - heading "Verohallinnon päätös työhuonevähennyksen määrästä ..." [level=3] [ref=e384]
+              - generic [ref=e389]:
+                - generic [ref=e391]: Vero.fi
+                - generic [ref=e393]: https://www.vero.fi › syventavat-vero-ohjeet › paatokset
+            - button "Tietoja tästä tuloksesta" [ref=e394] [cursor=pointer]:
+              - img [ref=e397]
+          - generic [ref=e400]:
+            - generic [ref=e401]: 17.12.2025 —
+            - generic [ref=e402]:
+              - emphasis [ref=e403]: Päätös tulee voimaan 1.1.2026
+              - text: . Sitä sovelletaan verovuodelta 2026 toimitettavassa verotuksessa. Helsingissä 17 päivänä joulukuuta 2025.
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - link "Maksa vero sijoituksista - vero.fi Vero.fi https://www.vero.fi › omaisuus › sijoitukset › maksa-ve..." [ref=e412] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/maksa-vero-sijoituksista/
+              - heading "Maksa vero sijoituksista - vero.fi" [level=3] [ref=e413]
+              - generic [ref=e418]:
+                - generic [ref=e420]: Vero.fi
+                - generic [ref=e422]: https://www.vero.fi › omaisuus › sijoitukset › maksa-ve...
+            - button "Tietoja tästä tuloksesta" [ref=e423] [cursor=pointer]:
+              - img [ref=e426]
+          - generic [ref=e429]:
+            - generic [ref=e430]: 12.12.2025 —
+            - generic [ref=e431]:
+              - text: Jaanan verotuksen päättymispäivä on vasta kesäkuun
+              - emphasis [ref=e432]: "2026"
+              - text: lopussa, joten hän voi halutessaan hakea ja maksaa lisäennakkoa sinne saakka.
+      - navigation [ref=e435]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e436]
+        - text: "1"
+        - link "Page 2" [ref=e439] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=10&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAE
+          - text: "2"
+        - link "Page 3" [ref=e441] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=20&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAG
+          - text: "3"
+        - link "Page 4" [ref=e443] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=30&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAI
+          - text: "4"
+        - link "Page 5" [ref=e445] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=40&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAK
+          - text: "5"
+        - link "Page 6" [ref=e447] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=50&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAM
+          - text: "6"
+        - link "Page 7" [ref=e449] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=60&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAO
+          - text: "7"
+        - link "Page 8" [ref=e451] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=70&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8tMDegQIJxAQ
+          - text: "8"
+        - heading "Seuraava" [level=2] [ref=e453]:
+          - link "Seuraava" [ref=e454] [cursor=pointer]:
+            - /url: /search?q=site:vero.fi+p%C3%A4%C3%A4omatulovero+2026&sca_esv=abbb0aaa8824193d&ei=r3nRafL7LsWn1fIP4snrwAQ&start=10&sa=N&sstk=Af77f_fszWn2dJ7VmIRtvnzmDMDZ0-ksEKjF1hzvDLGFf99RsaAWnaDV-ByGtAF4Z9Ud8-NKX8sHBB7QsB4GQOcO_8t6_UBqw3JYaw&ved=2ahUKEwiyj6m4idWTAxXFU1UIHeLkGkgQ8NMDegQIJxAS
+            - generic [ref=e456]: Seuraava
+      - navigation
+    - contentinfo [ref=e457]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e458]
+      - generic [ref=e462]:
+        - generic [ref=e464]:
+          - text: Suomi
+          - generic [ref=e466]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e468] [cursor=pointer]:
+              - generic [ref=e469]: Helsinki
+              - generic [ref=e471]:
+                - text: "-"
+                - generic [ref=e472]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e474] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e477]:
+          - link "Ohje" [ref=e478] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e479] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e480] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e481] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

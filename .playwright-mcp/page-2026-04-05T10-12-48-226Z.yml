@@ -1,0 +1,394 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: "\"autonomous drone\" \"MLOps\" OR \"Docker\" \"training platform\" OR \"course\" \"PX4\" OR \"ArduPilot\" \"autonomous drone\" \"MLOps\" OR \"Docker\" \"training platform\" OR \"course\" \"PX4\" OR \"ArduPilot\""
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3D%2522autonomous%2Bdrone%2522%2B%2522MLOps%2522%2BOR%2B%2522Docker%2522%2B%2522training%2Bplatform%2522%2BOR%2B%2522course%2522%2B%2522PX4%2522%2BOR%2B%2522ArduPilot%2522&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&aep=1&ntc=1&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ0pQJegQIEBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQs6gLegQIERAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522autonomous%2Bdrone%2522%2B%2522MLOps%2522%2BOR%2B%2522Docker%2522%2B%2522training%2Bplatform%2522%2BOR%2B%2522course%2522%2B%2522PX4%2522%2BOR%2B%2522ArduPilot%2522&hl=en&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQiIQCKAN6BAgLEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Autonomous Drone Programming Engineer EdYoda https://www.edyoda.com › autono..." [ref=e154] [cursor=pointer]:
+                - /url: https://www.edyoda.com/micro-degree/autonomous-drone-programming-micro-degree
+                - heading "Autonomous Drone Programming Engineer" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: EdYoda
+                  - generic [ref=e164]: https://www.edyoda.com › autono...
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.edyoda.com/micro-degree/autonomous-drone-programming-micro-degree
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e175]:
+              - emphasis [ref=e176]: PX4
+              - text: vs
+              - emphasis [ref=e177]: ArduPilot
+              - text: vs ROS – choosing the right stack; Setting up
+              - emphasis [ref=e178]: PX4
+              - text: ... for successfully completing the '
+              - emphasis [ref=e179]: Autonomous Drone
+              - text: Programming Engineer'
+              - emphasis [ref=e180]: course
+              - text: conducted ...
+        - generic [ref=e184]:
+          - generic [ref=e187]:
+            - link "Drone Development Architect EdYoda https://www.edyoda.com › drone-d..." [ref=e189] [cursor=pointer]:
+              - /url: https://www.edyoda.com/micro-degree/drone-development-architect-micro-degree
+              - heading "Drone Development Architect" [level=3] [ref=e190]
+              - generic [ref=e195]:
+                - generic [ref=e197]: EdYoda
+                - generic [ref=e199]: https://www.edyoda.com › drone-d...
+            - generic [ref=e200]:
+              - generic [ref=e201]: ·
+              - link "Käännä tämä sivu" [ref=e202] [cursor=pointer]:
+                - /url: https://www.edyoda.com/micro-degree/drone-development-architect-micro-degree
+            - button "Tietoja tästä tuloksesta" [ref=e203] [cursor=pointer]:
+              - img [ref=e206]
+          - generic [ref=e210]:
+            - text: Master advanced drone development with EdYoda's hands-on
+            - emphasis [ref=e211]: course
+            - text: covering
+            - emphasis [ref=e212]: PX4
+            - text: autopilot, MAVLink communication, ROS2 integration, Gazebo simulation, ...
+        - generic [ref=e216]:
+          - generic [ref=e219]:
+            - link "Open-Source Drone Programming Course for Distance ... MDPI https://www.mdpi.com › ..." [ref=e221] [cursor=pointer]:
+              - /url: https://www.mdpi.com/2079-9292/9/12/2163
+              - heading "Open-Source Drone Programming Course for Distance ..." [level=3] [ref=e222]
+              - generic [ref=e227]:
+                - generic [ref=e229]: MDPI
+                - generic [ref=e231]: https://www.mdpi.com › ...
+            - generic [ref=e232]:
+              - generic [ref=e233]: ·
+              - link "Käännä tämä sivu" [ref=e234] [cursor=pointer]:
+                - /url: https://www.mdpi.com/2079-9292/9/12/2163
+            - button "Tietoja tästä tuloksesta" [ref=e235] [cursor=pointer]:
+              - img [ref=e238]
+          - generic [ref=e241]:
+            - generic [ref=e242]: kirjoittanut JM Cañas · 2020 · Viittausten määrä 58 —
+            - generic [ref=e243]:
+              - text: This
+              - emphasis [ref=e244]: course
+              - text: uses the
+              - emphasis [ref=e245]: ArduPilot
+              - text: "software in the ... Two different flight controllers are conventional when using drones:"
+              - emphasis [ref=e246]: ArduPilot
+              - text: and
+              - emphasis [ref=e247]: PX4
+              - text: .
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - link "Open-Source Drone Programming Course for Distance ... Academia.edu https://www.academia.edu › Open_..." [ref=e256] [cursor=pointer]:
+              - /url: https://www.academia.edu/90681689/Open_Source_Drone_Programming_Course_for_Distance_Engineering_Education
+              - heading "Open-Source Drone Programming Course for Distance ..." [level=3] [ref=e257]
+              - generic [ref=e262]:
+                - generic [ref=e264]: Academia.edu
+                - generic [ref=e266]: https://www.academia.edu › Open_...
+            - generic [ref=e267]:
+              - generic [ref=e268]: ·
+              - link "Käännä tämä sivu" [ref=e269] [cursor=pointer]:
+                - /url: https://www.academia.edu/90681689/Open_Source_Drone_Programming_Course_for_Distance_Engineering_Education
+            - button "Tietoja tästä tuloksesta" [ref=e270] [cursor=pointer]:
+              - img [ref=e273]
+          - generic [ref=e277]:
+            - text: This
+            - emphasis [ref=e278]: course
+            - text: uses the
+            - emphasis [ref=e279]: ArduPilot
+            - text: "software in the loop (SITL) ... Two different flight controllers are conventional when using drones:"
+            - emphasis [ref=e280]: ArduPilot
+            - text: and
+            - emphasis [ref=e281]: PX4
+            - text: .
+        - generic [ref=e288]:
+          - generic [ref=e291]:
+            - link "Stream Live Drone Data Like a Pro | Python + Mavlink + Pixhawk YouTube · ubicoders Yli 6 t. katselukertaa · 1 vuosi sitten" [ref=e293] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=j_wWPCc5ZwI
+              - heading "Stream Live Drone Data Like a Pro | Python + Mavlink + Pixhawk" [level=3] [ref=e294]
+              - generic [ref=e299]:
+                - generic [ref=e301]: YouTube · ubicoders
+                - generic [ref=e303]: Yli 6 t. katselukertaa · 1 vuosi sitten
+            - button "Tietoja tästä tuloksesta" [ref=e304] [cursor=pointer]:
+              - img [ref=e307]
+          - generic [ref=e309]:
+            - 'button "Stream Live Drone Data Like a Pro | Python + Mavlink + Pixhawk, tekijä: ubicoders, alusta: YouTube. Katso Googlessa. 8:54" [ref=e310] [cursor=pointer]':
+              - generic [ref=e312]:
+                - img [ref=e318]
+                - generic [ref=e321]:
+                  - generic [ref=e322]: 8:54
+                  - img [ref=e325]
+            - generic [ref=e328]: "➡️Docker course: https://www.ubicoders.... ➡️ ... Building a sub 250g Autonomous Drone with Ardupilot and ExpressLRS AirPort Telemetry."
+          - button "7 avainkohtaa tässä videossa" [ref=e333] [cursor=pointer]:
+            - generic [ref=e342]:
+              - generic [ref=e345]: 7 avainkohtaa tässä videossa
+              - img [ref=e347]
+        - generic [ref=e352]:
+          - generic [ref=e355]:
+            - 'link "Inside Drone Software: How UAVs Are Programmed for ... HackMag https://hackmag.com › drone-coding" [ref=e357] [cursor=pointer]':
+              - /url: https://hackmag.com/security/drone-coding
+              - 'heading "Inside Drone Software: How UAVs Are Programmed for ..." [level=3] [ref=e358]'
+              - generic [ref=e363]:
+                - generic [ref=e365]: HackMag
+                - generic [ref=e367]: https://hackmag.com › drone-coding
+            - generic [ref=e368]:
+              - generic [ref=e369]: ·
+              - link "Käännä tämä sivu" [ref=e370] [cursor=pointer]:
+                - /url: https://hackmag.com/security/drone-coding
+            - button "Tietoja tästä tuloksesta" [ref=e371] [cursor=pointer]:
+              - img [ref=e374]
+          - generic [ref=e377]:
+            - generic [ref=e378]: 8.9.2025 —
+            - generic [ref=e379]:
+              - text: Enabling
+              - emphasis [ref=e380]: autonomous drone
+              - text: control requires solving three key ... Download and build the
+              - emphasis [ref=e381]: PX4
+              - text: code in SITL mode inside a
+              - emphasis [ref=e382]: Docker
+              - text: container.
+        - generic [ref=e386]:
+          - generic [ref=e389]:
+            - link "Writing MAVSDK/PX4 Drone Applications Circuit Cellar https://circuitcellar.com › writing-ma..." [ref=e391] [cursor=pointer]:
+              - /url: https://circuitcellar.com/research-design-hub/design-solutions/writing-mavsdk-px4-drone-applications/
+              - heading "Writing MAVSDK/PX4 Drone Applications" [level=3] [ref=e392]
+              - generic [ref=e397]:
+                - generic [ref=e399]: Circuit Cellar
+                - generic [ref=e401]: https://circuitcellar.com › writing-ma...
+            - generic [ref=e402]:
+              - generic [ref=e403]: ·
+              - link "Käännä tämä sivu" [ref=e404] [cursor=pointer]:
+                - /url: https://circuitcellar.com/research-design-hub/design-solutions/writing-mavsdk-px4-drone-applications/
+            - button "Tietoja tästä tuloksesta" [ref=e405] [cursor=pointer]:
+              - img [ref=e408]
+          - generic [ref=e411]:
+            - generic [ref=e412]: 1.8.2020 —
+            - generic [ref=e413]:
+              - text: Previously, Raul has written articles introducing
+              - emphasis [ref=e414]: Ardupilot
+              - text: and
+              - emphasis [ref=e415]: PX4
+              - text: for drone development ...
+              - emphasis [ref=e416]: course
+              - text: ", the Python programming language."
+        - generic [ref=e420]:
+          - generic [ref=e423]:
+            - link "Simulated drone with camera using ArduPilot, MatLab and ... Ιδρυματικό Αποθετήριο Πανεπιστημίου Θεσσαλίας https://ir.lib.uth.gr › xmlui › bitstream › handle" [ref=e425] [cursor=pointer]:
+              - /url: https://ir.lib.uth.gr/xmlui/bitstream/handle/11615/85750/31127.pdf?sequence=4&isAllowed=y
+              - heading "Simulated drone with camera using ArduPilot, MatLab and ..." [level=3] [ref=e426]
+              - generic [ref=e431]:
+                - generic [ref=e433]: Ιδρυματικό Αποθετήριο Πανεπιστημίου Θεσσαλίας
+                - generic [ref=e435]: https://ir.lib.uth.gr › xmlui › bitstream › handle
+            - generic [ref=e436]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e437] [cursor=pointer]:
+              - img [ref=e440]
+          - generic [ref=e444]:
+            - text: proven, in the
+            - emphasis [ref=e445]: course
+            - text: of time, that this thesis or part of it does not ...
+            - emphasis [ref=e446]: Docker
+            - text: ": To run"
+            - emphasis [ref=e447]: ArduPilot
+            - text: "instances. • Mission Planner: For configuring and ..."
+        - generic [ref=e451]:
+          - generic [ref=e452]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e453]
+            - button "Tietoja tästä tuloksesta" [ref=e454] [cursor=pointer]:
+              - img [ref=e457]
+          - generic [ref=e459]:
+            - button "What programming language is used for drones?" [ref=e465] [cursor=pointer]:
+              - generic [ref=e467]: What programming language is used for drones?
+              - img [ref=e470]
+            - button "Can you program drones with Python?" [ref=e479] [cursor=pointer]:
+              - generic [ref=e481]: Can you program drones with Python?
+              - img [ref=e484]
+            - button "Are there any programmable drones?" [ref=e493] [cursor=pointer]:
+              - generic [ref=e495]: Are there any programmable drones?
+              - img [ref=e498]
+        - generic [ref=e503]:
+          - heading "Web results" [level=2] [ref=e504]
+          - generic [ref=e505]:
+            - generic [ref=e508]:
+              - link "Fly a simulated drone and learn from the open source ... Facebook · Udemy Yli 180 reaktiota · 7 vuotta sitten" [ref=e510] [cursor=pointer]:
+                - /url: https://www.facebook.com/udemy/posts/fly-a-simulated-drone-and-learn-from-the-open-source-software-projects-that-are-/2482514845121898/
+                - heading "Fly a simulated drone and learn from the open source ..." [level=3] [ref=e511]
+                - generic [ref=e516]:
+                  - generic [ref=e518]: Facebook · Udemy
+                  - generic [ref=e520]: Yli 180 reaktiota · 7 vuotta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e521] [cursor=pointer]:
+                - img [ref=e524]
+            - generic [ref=e528]:
+              - text: ...
+              - emphasis [ref=e529]: PX4
+              - text: . Would be awesome if you guys could guide me. Thanks · Abhilash ... Been taking the EdX
+              - emphasis [ref=e530]: course
+              - text: on programming an
+              - emphasis [ref=e531]: autonomous drone
+              - text: .
+        - generic [ref=e535]:
+          - generic [ref=e538]:
+            - link "Autonomous Drone Operations & Mission Planning Software WEZOM https://wezom.com › blog › autono..." [ref=e540] [cursor=pointer]:
+              - /url: https://wezom.com/blog/autonomous-drone-operations-and-advanced-mission-planning-software
+              - heading "Autonomous Drone Operations & Mission Planning Software" [level=3] [ref=e541]
+              - generic [ref=e546]:
+                - generic [ref=e548]: WEZOM
+                - generic [ref=e550]: https://wezom.com › blog › autono...
+            - generic [ref=e551]:
+              - generic [ref=e552]: ·
+              - link "Käännä tämä sivu" [ref=e553] [cursor=pointer]:
+                - /url: https://wezom.com/blog/autonomous-drone-operations-and-advanced-mission-planning-software
+            - button "Tietoja tästä tuloksesta" [ref=e554] [cursor=pointer]:
+              - img [ref=e557]
+          - generic [ref=e560]:
+            - generic [ref=e561]: 5.11.2025 —
+            - generic [ref=e562]:
+              - text: Of
+              - emphasis [ref=e563]: course
+              - text: ... It's also worth checking the best drone autopilot software frameworks, such as
+              - emphasis [ref=e564]: ArduPilot
+              - text: or
+              - emphasis [ref=e565]: PX4
+              - text: ", which are designed for deeper ..."
+      - navigation [ref=e568]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e569]
+        - text: "1"
+        - link "Page 2" [ref=e572] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=10&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAE
+          - text: "2"
+        - link "Page 3" [ref=e574] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=20&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAG
+          - text: "3"
+        - link "Page 4" [ref=e576] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=30&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAI
+          - text: "4"
+        - link "Page 5" [ref=e578] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=40&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAK
+          - text: "5"
+        - link "Page 6" [ref=e580] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=50&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAM
+          - text: "6"
+        - link "Page 7" [ref=e582] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=60&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAO
+          - text: "7"
+        - link "Page 8" [ref=e584] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=70&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAQ
+          - text: "8"
+        - link "Page 9" [ref=e586] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=80&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAS
+          - text: "9"
+        - link "Page 10" [ref=e588] [cursor=pointer]:
+          - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=90&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8tMDegQIMxAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e590]:
+          - link "Seuraava" [ref=e591] [cursor=pointer]:
+            - /url: /search?q=%22autonomous+drone%22+%22MLOps%22+OR+%22Docker%22+%22training+platform%22+OR+%22course%22+%22PX4%22+OR+%22ArduPilot%22&sca_esv=a73392c086c649e8&ei=njXSad2XOODBwPAP5dmS2AQ&start=10&sa=N&sstk=Af77f_drObp-Jwn_-7tftHgkQJDm0dA7uRls6VAiRu3HAOypO-36IVvBbY0RLr05kx9eILo0eBM-cPrv3gQIa3otWedJQlVKyEY21A&ved=2ahUKEwjd3sDVvNaTAxXgIBAIHeWsBEsQ8NMDegQIMxAW
+            - generic [ref=e593]: Seuraava
+      - navigation
+    - contentinfo [ref=e594]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e595]
+      - generic [ref=e599]:
+        - generic [ref=e601]:
+          - text: Suomi
+          - generic [ref=e603]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e605] [cursor=pointer]:
+              - generic [ref=e606]: 00920, Helsinki
+              - generic [ref=e608]:
+                - text: "-"
+                - generic [ref=e609]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e611] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e614]:
+          - link "Ohje" [ref=e615] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e616] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e617] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e618] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,40 @@
+- generic [ref=e2]:
+  - table [ref=e4]:
+    - rowgroup [ref=e5]:
+      - row [ref=e6]:
+        - cell [ref=e7]:
+          - img [ref=e8]
+      - row "www.hel.fi Sivua ei löytynyt Sidan hittades inte Page not found Jos ongelma toistuu siirry sivun kopioon. Om problemet kvarstår, gå till den statiska kopian av sidorna. If the problem persists, go to the static copy of the pages." [ref=e9]:
+        - cell "www.hel.fi Sivua ei löytynyt Sidan hittades inte Page not found Jos ongelma toistuu siirry sivun kopioon. Om problemet kvarstår, gå till den statiska kopian av sidorna. If the problem persists, go to the static copy of the pages." [ref=e10]:
+          - link "www.hel.fi" [ref=e13] [cursor=pointer]:
+            - /url: http://www.hel.fi
+          - generic [ref=e14]: Sivua ei löytynyt
+          - generic [ref=e16]: Sidan hittades inte
+          - generic [ref=e18]: Page not found
+          - generic [ref=e20]:
+            - text: Jos ongelma toistuu
+            - link "siirry sivun kopioon." [ref=e21] [cursor=pointer]:
+              - /url: http://kopio.hel.fi/fi.html
+          - generic [ref=e22]:
+            - text: Om problemet kvarstår,
+            - link "gå till den statiska kopian av sidorna." [ref=e23] [cursor=pointer]:
+              - /url: http://kopio.hel.fi/sv.html
+          - generic [ref=e24]:
+            - text: If the problem persists,
+            - link "go to the static copy of the pages." [ref=e25] [cursor=pointer]:
+              - /url: http://kopio.hel.fi/en.html
+      - row "Kysy kaupungista! Neuvomme ja opastamme, kun etsit tietoa kaupungin palveluista. Helsinki-info Fråga staden! Vi ger råd när du söker information om stadens tjänster. Helsingfors-info Ask about the city! We can advise and guide you when you are looking for information on the city services. Helsinki-info" [ref=e26]:
+        - cell "Kysy kaupungista! Neuvomme ja opastamme, kun etsit tietoa kaupungin palveluista. Helsinki-info Fråga staden! Vi ger råd när du söker information om stadens tjänster. Helsingfors-info Ask about the city! We can advise and guide you when you are looking for information on the city services. Helsinki-info" [ref=e27]:
+          - generic [ref=e29]:
+            - text: Kysy kaupungista! Neuvomme ja opastamme, kun etsit tietoa kaupungin palveluista.
+            - link "Helsinki-info" [ref=e30] [cursor=pointer]:
+              - /url: https://www.hel.fi/fi/paatoksenteko-ja-hallinto/ota-yhteytta/helsinki-info
+          - generic [ref=e31]:
+            - text: Fråga staden! Vi ger råd när du söker information om stadens tjänster.
+            - link "Helsingfors-info" [ref=e32] [cursor=pointer]:
+              - /url: https://www.hel.fi/sv/beslutsfattande-och-forvaltning/ta-kontakt/helsingfors-info
+          - generic [ref=e33]:
+            - text: Ask about the city! We can advise and guide you when you are looking for information on the city services.
+            - link "Helsinki-info" [ref=e34] [cursor=pointer]:
+              - /url: https://www.hel.fi/en/decision-making/contact-us/helsinki-info
+  - img [ref=e36]

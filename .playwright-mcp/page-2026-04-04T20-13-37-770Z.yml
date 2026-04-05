@@ -1,0 +1,423 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Alpaca API Python stock data portfolio management 2025 2026 endpoints free tier Alpaca API Python stock data portfolio management 2025 2026 endpoints free tier
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DAlpaca%2BAPI%2BPython%2Bstock%2Bdata%2Bportfolio%2Bmanagement%2B2025%2B2026%2Bendpoints%2Bfree%2Btier&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQtKgLegQIEhAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ0pQJegQIERAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQs6gLegQIEBAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DAlpaca%2BAPI%2BPython%2Bstock%2Bdata%2Bportfolio%2Bmanagement%2B2025%2B2026%2Bendpoints%2Bfree%2Btier&hl=en&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQhoQCKAF6BAgIEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQiIQCKAN6BAgIEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Alpaca - Developer-first API for Stock, Options, Crypto Trading alpaca.markets https://alpaca.markets" [ref=e154] [cursor=pointer]:
+                - /url: https://alpaca.markets/
+                - heading "Alpaca - Developer-first API for Stock, Options, Crypto Trading" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: alpaca.markets
+                  - generic [ref=e164]: https://alpaca.markets
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://alpaca.markets/
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e175]:
+              - emphasis [ref=e176]: Alpaca's easy to use APIs
+              - text: allow developers and businesses to trade algorithms, build apps and embed investing into their services.
+            - generic [ref=e178]:
+              - text: "Puuttuu: endpoints ‎| Hae tällä:"
+              - link "endpoints" [ref=e179] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+%22endpoints%22+free+tier&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ5t4CegQIJhAB
+        - generic [ref=e183]:
+          - generic [ref=e186]:
+            - link "Unlimited Access, Real-time Market Data API - Alpaca alpaca.markets https://alpaca.markets › data" [ref=e188] [cursor=pointer]:
+              - /url: https://alpaca.markets/data
+              - heading "Unlimited Access, Real-time Market Data API - Alpaca" [level=3] [ref=e189]
+              - generic [ref=e194]:
+                - generic [ref=e196]: alpaca.markets
+                - generic [ref=e198]: https://alpaca.markets › data
+            - generic [ref=e199]:
+              - generic [ref=e200]: ·
+              - link "Käännä tämä sivu" [ref=e201] [cursor=pointer]:
+                - /url: https://alpaca.markets/data
+            - button "Tietoja tästä tuloksesta" [ref=e202] [cursor=pointer]:
+              - img [ref=e205]
+          - generic [ref=e209]:
+            - text: Trading API.
+            - emphasis [ref=e210]: Real-Time Stock, Options and Crypto Market Data
+            - text: . Developer-first API with up to 10,000 API calls/min and over 7 years of historical data.
+          - generic [ref=e212]: "Puuttuu: Python ‎management ‎2025 ‎endpoints"
+        - generic [ref=e216]:
+          - generic [ref=e219]:
+            - link "Visualize Your Alpaca Algorithmic Trades in One Dashboard AllInvestView https://www.allinvestview.com › Broker Sync" [ref=e221] [cursor=pointer]:
+              - /url: https://www.allinvestview.com/alpaca-portfolio-tracker/
+              - heading "Visualize Your Alpaca Algorithmic Trades in One Dashboard" [level=3] [ref=e222]
+              - generic [ref=e227]:
+                - generic [ref=e229]: AllInvestView
+                - generic [ref=e231]: https://www.allinvestview.com › Broker Sync
+            - button "Tietoja tästä tuloksesta" [ref=e232] [cursor=pointer]:
+              - img [ref=e235]
+          - generic [ref=e239]:
+            - emphasis [ref=e240]: Visualize Your Alpaca Algorithmic Trades in One Dashboard
+            - text: . Track your Alpaca investments with AllInvestView — Stocks, ETFs, Crypto & more.
+          - generic [ref=e242]: "Puuttuu: Python ‎2025 ‎tier"
+        - generic [ref=e246]:
+          - generic [ref=e249]:
+            - link "How to Build a Trading Robot in Python Using the FMP API ... Python in Plain English https://python.plainenglish.io › ho..." [ref=e251] [cursor=pointer]:
+              - /url: https://python.plainenglish.io/how-to-build-a-trading-robot-in-python-using-the-fmp-api-and-alpaca-d6579ef6c711
+              - heading "How to Build a Trading Robot in Python Using the FMP API ..." [level=3] [ref=e252]
+              - generic [ref=e257]:
+                - generic [ref=e259]: Python in Plain English
+                - generic [ref=e261]: https://python.plainenglish.io › ho...
+            - generic [ref=e262]:
+              - generic [ref=e263]: ·
+              - link "Käännä tämä sivu" [ref=e264] [cursor=pointer]:
+                - /url: https://python.plainenglish.io/how-to-build-a-trading-robot-in-python-using-the-fmp-api-and-alpaca-d6579ef6c711
+            - button "Tietoja tästä tuloksesta" [ref=e265] [cursor=pointer]:
+              - img [ref=e268]
+          - generic [ref=e271]:
+            - generic [ref=e272]: 18.11.2025 —
+            - generic [ref=e273]:
+              - emphasis [ref=e274]: Clear pricing and free tier
+              - text: ; Easy-to-use endpoints. Perfect for beginners and technical traders. 2. Is Alpaca safe for beginners? Yes. Alpaca ...
+        - generic [ref=e278]:
+          - generic [ref=e281]:
+            - link "How to Trade 24/5 with Alpaca's Trading API and dashboard alpaca.markets https://alpaca.markets › learn › ho..." [ref=e283] [cursor=pointer]:
+              - /url: https://alpaca.markets/learn/how-to-trade-us-stocks-24_5-overnight-with-python-and-alpaca
+              - heading "How to Trade 24/5 with Alpaca's Trading API and dashboard" [level=3] [ref=e284]
+              - generic [ref=e289]:
+                - generic [ref=e291]: alpaca.markets
+                - generic [ref=e293]: https://alpaca.markets › learn › ho...
+            - generic [ref=e294]:
+              - generic [ref=e295]: ·
+              - link "Käännä tämä sivu" [ref=e296] [cursor=pointer]:
+                - /url: https://alpaca.markets/learn/how-to-trade-us-stocks-24_5-overnight-with-python-and-alpaca
+            - button "Tietoja tästä tuloksesta" [ref=e297] [cursor=pointer]:
+              - img [ref=e300]
+          - generic [ref=e303]:
+            - generic [ref=e304]: 28.1.2026 —
+            - generic [ref=e305]:
+              - text: "Step 1: Install the"
+              - emphasis [ref=e306]: Alpaca's
+              - text: "SDK · Step 2: Connect to the"
+              - emphasis [ref=e307]: API
+              - text: "· Step 3: Check the Market"
+              - emphasis [ref=e308]: Data
+              - text: "· Step 4: Determine What"
+              - emphasis [ref=e309]: Stock
+              - text: You Want to Trade.
+        - generic [ref=e313]:
+          - generic [ref=e316]:
+            - link "alpacahq/alpaca-trade-api-python GitHub https://github.com › alpacahq › alpa..." [ref=e318] [cursor=pointer]:
+              - /url: https://github.com/alpacahq/alpaca-trade-api-python
+              - heading "alpacahq/alpaca-trade-api-python" [level=3] [ref=e319]
+              - generic [ref=e324]:
+                - generic [ref=e326]: GitHub
+                - generic [ref=e328]: https://github.com › alpacahq › alpa...
+            - generic [ref=e329]:
+              - generic [ref=e330]: ·
+              - link "Käännä tämä sivu" [ref=e331] [cursor=pointer]:
+                - /url: https://github.com/alpacahq/alpaca-trade-api-python
+            - button "Tietoja tästä tuloksesta" [ref=e332] [cursor=pointer]:
+              - img [ref=e335]
+          - generic [ref=e339]:
+            - text: A
+            - emphasis [ref=e340]: python
+            - text: library for the
+            - emphasis [ref=e341]: Alpaca
+            - text: Commission
+            - emphasis [ref=e342]: Free
+            - text: Trading
+            - emphasis [ref=e343]: API
+            - text: . It allows rapid trading algo development easily, with support for both REST and streaming
+            - emphasis [ref=e344]: data
+            - text: ...
+          - generic [ref=e346]:
+            - text: "Puuttuu: 2025 ‎| Hae tällä:"
+            - link "2025" [ref=e347] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+API+Python+stock+data+portfolio+management+%222025%22+2026+endpoints+free+tier&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ5t4CegQIUxAB
+        - generic [ref=e351]:
+          - generic [ref=e354]:
+            - link "How to Access Market Data for Free in Python Using Alpaca alpaca.markets https://alpaca.markets › learn › acc..." [ref=e356] [cursor=pointer]:
+              - /url: https://alpaca.markets/learn/access-free-market-data
+              - heading "How to Access Market Data for Free in Python Using Alpaca" [level=3] [ref=e357]
+              - generic [ref=e362]:
+                - generic [ref=e364]: alpaca.markets
+                - generic [ref=e366]: https://alpaca.markets › learn › acc...
+            - generic [ref=e367]:
+              - generic [ref=e368]: ·
+              - link "Käännä tämä sivu" [ref=e369] [cursor=pointer]:
+                - /url: https://alpaca.markets/learn/access-free-market-data
+            - button "Tietoja tästä tuloksesta" [ref=e370] [cursor=pointer]:
+              - img [ref=e373]
+          - generic [ref=e376]:
+            - generic [ref=e377]: 29.1.2021 —
+            - generic [ref=e378]:
+              - emphasis [ref=e379]: Learn how to fetch free historical stock data
+              - text: including bars, quotes, and trades in Python using Alpaca's Trading API.
+          - generic [ref=e381]: "Puuttuu: 2025 ‎endpoints ‎tier"
+        - generic [ref=e385]:
+          - generic [ref=e386]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e387]
+            - button "Tietoja tästä tuloksesta" [ref=e388] [cursor=pointer]:
+              - img [ref=e391]
+          - generic [ref=e393]:
+            - button "Is Alpaca API free?" [ref=e399] [cursor=pointer]:
+              - generic [ref=e401]: Is Alpaca API free?
+              - img [ref=e404]
+            - button "Which API is free to get NSE stock data?" [ref=e413] [cursor=pointer]:
+              - generic [ref=e415]: Which API is free to get NSE stock data?
+              - img [ref=e418]
+            - button "How do I get the API key for Alpaca trading?" [ref=e427] [cursor=pointer]:
+              - generic [ref=e429]: How do I get the API key for Alpaca trading?
+              - img [ref=e432]
+            - button "What is the limit of Alpaca API?" [ref=e441] [cursor=pointer]:
+              - generic [ref=e443]: What is the limit of Alpaca API?
+              - img [ref=e446]
+        - generic [ref=e451]:
+          - heading "Web results" [level=2] [ref=e452]
+          - generic [ref=e453]:
+            - generic [ref=e456]:
+              - 'link "Alpaca API: Your Gateway To Algorithmic Trading Broadwayinfosys https://ftp.broadwayinfosys.com › al..." [ref=e458] [cursor=pointer]':
+                - /url: https://ftp.broadwayinfosys.com/blog/alpaca-api-your-gateway-to-algorithmic-trading-1764803457
+                - 'heading "Alpaca API: Your Gateway To Algorithmic Trading" [level=3] [ref=e459]'
+                - generic [ref=e461]:
+                  - img [ref=e465]
+                  - generic [ref=e467]:
+                    - generic [ref=e469]: Broadwayinfosys
+                    - generic [ref=e471]: https://ftp.broadwayinfosys.com › al...
+              - generic [ref=e472]:
+                - generic [ref=e473]: ·
+                - link "Käännä tämä sivu" [ref=e474] [cursor=pointer]:
+                  - /url: https://ftp.broadwayinfosys.com/blog/alpaca-api-your-gateway-to-algorithmic-trading-1764803457
+              - button "Tietoja tästä tuloksesta" [ref=e475] [cursor=pointer]:
+                - img [ref=e478]
+            - generic [ref=e481]:
+              - generic [ref=e482]: 4.12.2025 —
+              - generic [ref=e483]:
+                - text: This powerful tool is basically your all-access pass to the
+                - emphasis [ref=e484]: stock
+                - text: market, letting you automate your trades and build sophisticated strategies.
+        - generic [ref=e488]:
+          - generic [ref=e491]:
+            - 'link "Unlocking Financial Markets: Alpaca API With Python - Ftp bills.com.au https://ftp.bills.com.au › News" [ref=e493] [cursor=pointer]':
+              - /url: https://ftp.bills.com.au/lunar-tips/unlocking-financial-markets-alpaca-api-with-python-1764797497
+              - 'heading "Unlocking Financial Markets: Alpaca API With Python - Ftp" [level=3] [ref=e494]'
+              - generic [ref=e499]:
+                - generic [ref=e501]: bills.com.au
+                - generic [ref=e503]: https://ftp.bills.com.au › News
+            - generic [ref=e504]:
+              - generic [ref=e505]: ·
+              - link "Käännä tämä sivu" [ref=e506] [cursor=pointer]:
+                - /url: https://ftp.bills.com.au/lunar-tips/unlocking-financial-markets-alpaca-api-with-python-1764797497
+            - button "Tietoja tästä tuloksesta" [ref=e507] [cursor=pointer]:
+              - img [ref=e510]
+          - generic [ref=e513]:
+            - generic [ref=e514]: 4.12.2025 —
+            - generic [ref=e515]:
+              - text: Once you have your account and Python ready to go, the next step is
+              - emphasis [ref=e516]: installing the Alpaca API library for Python
+              - text: . Open your terminal or command ...
+          - generic [ref=e518]: "Puuttuu: endpoints ‎tier"
+        - generic [ref=e522]:
+          - generic [ref=e525]:
+            - link "Best Stock APIs and Industry Landscape in 2022 Medium · Patrick Collins Yli 910 tykkäystä · 5 vuotta sitten" [ref=e527] [cursor=pointer]:
+              - /url: https://patrickalphac.medium.com/stock-api-landscape-5c6e054ee631
+              - heading "Best Stock APIs and Industry Landscape in 2022" [level=3] [ref=e528]
+              - generic [ref=e533]:
+                - generic [ref=e535]: Medium · Patrick Collins
+                - generic [ref=e537]: Yli 910 tykkäystä · 5 vuotta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e538] [cursor=pointer]:
+              - img [ref=e541]
+          - generic [ref=e545]:
+            - text: "Polygon: Powering fintech powerhouses such as Robinhood and"
+            - emphasis [ref=e546]: Alpaca
+            - text: ", Polygon offers nanosecond level realtime"
+            - emphasis [ref=e547]: stock data
+            - text: streamed directly from ...
+      - generic [ref=e549]:
+        - generic [ref=e554]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e556]
+          - generic [ref=e558]:
+            - generic [ref=e559]:
+              - link "Alpaca trading" [ref=e563] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+trading&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAg8EAE
+                - generic [ref=e564]:
+                  - generic [ref=e569]: Alpaca trading
+                  - img [ref=e573]
+              - link "Alpaca API pricing" [ref=e578] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+API+pricing&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAhOEAE
+                - generic [ref=e579]:
+                  - generic [ref=e584]: Alpaca API pricing
+                  - img [ref=e588]
+              - link "Alpaca market data api" [ref=e593] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+market+data+api&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAhIEAE
+                - generic [ref=e594]:
+                  - generic [ref=e599]: Alpaca market data api
+                  - img [ref=e603]
+              - link "Alpaca Algo Trader Plus" [ref=e608] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+Algo+Trader+Plus&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAhGEAE
+                - generic [ref=e609]:
+                  - generic [ref=e614]: Alpaca Algo Trader Plus
+                  - img [ref=e618]
+            - generic [ref=e620]:
+              - link "Alpaca pricing" [ref=e624] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+pricing&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAhFEAE
+                - generic [ref=e625]:
+                  - generic [ref=e630]: Alpaca pricing
+                  - img [ref=e634]
+              - link "Alpaca unlimited plan" [ref=e639] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+unlimited+plan&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAhDEAE
+                - generic [ref=e640]:
+                  - generic [ref=e645]: Alpaca unlimited plan
+                  - img [ref=e649]
+              - link "How to get Alpaca API key" [ref=e654] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=How+to+get+Alpaca+API+key&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAg9EAE
+                - generic [ref=e655]:
+                  - generic [ref=e660]: How to get Alpaca API key
+                  - img [ref=e664]
+              - link "Alpaca real-time data" [ref=e669] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpaca+real-time+data&sa=X&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ1QJ6BAg7EAE
+                - generic [ref=e670]:
+                  - generic [ref=e675]: Alpaca real-time data
+                  - img [ref=e679]
+        - navigation [ref=e681]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e682]
+          - text: "1"
+          - link "Page 2" [ref=e685] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=10&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAE
+            - text: "2"
+          - link "Page 3" [ref=e687] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=20&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAG
+            - text: "3"
+          - link "Page 4" [ref=e689] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=30&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAI
+            - text: "4"
+          - link "Page 5" [ref=e691] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=40&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAK
+            - text: "5"
+          - link "Page 6" [ref=e693] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=50&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAM
+            - text: "6"
+          - link "Page 7" [ref=e695] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=60&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAO
+            - text: "7"
+          - link "Page 8" [ref=e697] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=70&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAQ
+            - text: "8"
+          - link "Page 9" [ref=e699] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=80&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAS
+            - text: "9"
+          - link "Page 10" [ref=e701] [cursor=pointer]:
+            - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=90&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8tMDegQIOhAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e703]:
+            - link "Seuraava" [ref=e704] [cursor=pointer]:
+              - /url: /search?q=Alpaca+API+Python+stock+data+portfolio+management+2025+2026+endpoints+free+tier&sca_esv=f72dd7b5cfdb5d01&ei=8HDRaerJC_qSwPAPlfX7iAM&start=10&sa=N&sstk=Af77f_dep8RLQADuPCod75j0aggd7v_VP2qJOaac4Linb0nzM4_JUVnis8uk1cUQZ0qxsna_KAunSD2xEglJqfxsa-WRmMiVqz0Gag&ved=2ahUKEwjqgbSMgdWTAxV6CRAIHZX6HjEQ8NMDegQIOhAW
+              - generic [ref=e706]: Seuraava
+      - navigation
+    - contentinfo [ref=e707]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e708]
+      - generic [ref=e712]:
+        - generic [ref=e714]:
+          - text: Suomi
+          - generic [ref=e716]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e718] [cursor=pointer]:
+              - generic [ref=e719]: Helsinki
+              - generic [ref=e721]:
+                - text: "-"
+                - generic [ref=e722]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e724] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e727]:
+          - link "Ohje" [ref=e728] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e729] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e730] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e731] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

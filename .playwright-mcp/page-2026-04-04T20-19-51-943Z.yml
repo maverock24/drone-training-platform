@@ -1,0 +1,429 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: FOMC March 2026 projections GDP unemployment inflation fed funds rate summary FOMC March 2026 projections GDP unemployment inflation fed funds rate summary
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DFOMC%2BMarch%2B2026%2Bprojections%2BGDP%2Bunemployment%2Binflation%2Bfed%2Bfunds%2Brate%2Bsummary&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQtKgLegQIFBAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQs6gLegQIEhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ0pQJegQIExAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DFOMC%2BMarch%2B2026%2Bprojections%2BGDP%2Bunemployment%2Binflation%2Bfed%2Bfunds%2Brate%2Bsummary&hl=en&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQhoQCKAF6BAgPEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQiIQCKAN6BAgPEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e149]:
+          - generic [ref=e155]:
+            - heading "Hakutulosyhteenveto verkosta" [level=2] [ref=e156]
+            - generic [ref=e160]:
+              - generic [ref=e164]: The median of the Committee continues to expect a convergence towards an equilibrium of around 2% growth, 4% unemployment, 2% inflation, and a 3% Fed Funds Rate over the next few years.
+              - generic [ref=e169]:
+                - 'link "FOMC Statement: March 2026 | J.P. Morgan Asset Management J.P. Morgan https://am.jpmorgan.com › fixed-income-perspectives › f..." [ref=e171] [cursor=pointer]':
+                  - /url: https://am.jpmorgan.com/us/en/asset-management/adv/insights/portfolio-insights/fixed-income/fixed-income-perspectives/fomc-statement-march-2026/
+                  - 'heading "FOMC Statement: March 2026 | J.P. Morgan Asset Management" [level=3] [ref=e172]'
+                  - generic [ref=e174]:
+                    - img [ref=e178]
+                    - generic [ref=e180]:
+                      - generic [ref=e182]: J.P. Morgan
+                      - generic [ref=e184]: https://am.jpmorgan.com › fixed-income-perspectives › f...
+                - button "About this result" [ref=e185] [cursor=pointer]:
+                  - img [ref=e188]
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - link [ref=e196] [cursor=pointer]:
+                - /url: https://support.google.com/websearch?p=featured_snippets&hl=fi
+                - img [ref=e198]
+              - link "Tietoja hakutulosyhteenvedoista" [ref=e201] [cursor=pointer]:
+                - /url: https://support.google.com/websearch?p=featured_snippets&hl=fi
+              - generic [ref=e202]: •
+            - generic [ref=e205]:
+              - img [ref=e207] [cursor=pointer]
+              - button "Palaute" [ref=e209] [cursor=pointer]:
+                - generic [ref=e211]: Palaute
+        - generic [ref=e214]:
+          - heading "Web results" [level=2] [ref=e215]
+          - generic [ref=e216]:
+            - generic [ref=e219]:
+              - link "Summary of Economic Projections, March 18, 2026 Federal Reserve Board (.gov) https://www.federalreserve.gov › files › fomcpro..." [ref=e221] [cursor=pointer]:
+                - /url: https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260318.pdf
+                - heading "Summary of Economic Projections, March 18, 2026" [level=3] [ref=e222]
+                - generic [ref=e227]:
+                  - generic [ref=e229]: Federal Reserve Board (.gov)
+                  - generic [ref=e231]: https://www.federalreserve.gov › files › fomcpro...
+              - generic [ref=e232]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                - img [ref=e236]
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - generic [ref=e240]: 18.3.2026 —
+                - generic [ref=e241]:
+                  - text: metric and centered on the medians of
+                  - emphasis [ref=e242]: FOMC
+                  - text: participants'
+                  - emphasis [ref=e243]: projections
+                  - text: for
+                  - emphasis [ref=e244]: GDP
+                  - text: growth, the
+                  - emphasis [ref=e245]: unemployment rate
+                  - text: ", and"
+                  - emphasis [ref=e246]: inflation
+                  - text: . However, in some ...
+              - generic [ref=e247]: 17 sivua
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - link "FOMC Summary of Economic Projections, March 2026 FRED Blog https://fredblog.stlouisfed.org › fom..." [ref=e256] [cursor=pointer]:
+              - /url: https://fredblog.stlouisfed.org/2026/03/fomc-summary-of-economic-projections-march-2026/
+              - heading "FOMC Summary of Economic Projections, March 2026" [level=3] [ref=e257]
+              - generic [ref=e262]:
+                - generic [ref=e264]: FRED Blog
+                - generic [ref=e266]: https://fredblog.stlouisfed.org › fom...
+            - generic [ref=e267]:
+              - generic [ref=e268]: ·
+              - link "Käännä tämä sivu" [ref=e269] [cursor=pointer]:
+                - /url: https://fredblog.stlouisfed.org/2026/03/fomc-summary-of-economic-projections-march-2026/
+            - button "Tietoja tästä tuloksesta" [ref=e270] [cursor=pointer]:
+              - img [ref=e273]
+          - generic [ref=e276]:
+            - generic [ref=e277]: 23.3.2026 —
+            - generic [ref=e278]:
+              - text: Most recently, as shown by the red bar, the median FOMC participant projects that the unemployment
+              - emphasis [ref=e279]: rate will average 4.4
+              - text: "% in Q4 2026 and drop to ..."
+        - generic [ref=e283]:
+          - generic [ref=e286]:
+            - link "FOMC Releases Updated Projections at March 2026 Meeting American Deposit Management https://americandeposits.com › fom..." [ref=e288] [cursor=pointer]:
+              - /url: https://americandeposits.com/insights/fomc-releases-updated-projections-march-2026/
+              - heading "FOMC Releases Updated Projections at March 2026 Meeting" [level=3] [ref=e289]
+              - generic [ref=e294]:
+                - generic [ref=e296]: American Deposit Management
+                - generic [ref=e298]: https://americandeposits.com › fom...
+            - generic [ref=e299]:
+              - generic [ref=e300]: ·
+              - link "Käännä tämä sivu" [ref=e301] [cursor=pointer]:
+                - /url: https://americandeposits.com/insights/fomc-releases-updated-projections-march-2026/
+            - button "Tietoja tästä tuloksesta" [ref=e302] [cursor=pointer]:
+              - img [ref=e305]
+          - generic [ref=e308]:
+            - generic [ref=e309]: 20.3.2026 —
+            - generic [ref=e310]:
+              - emphasis [ref=e311]: GDP Projections Increased Moderately
+              - text: · Inflation Expectations Modestly Increased for 2026 · Unemployment Forecasts Largely Unchanged.
+        - generic [ref=e315]:
+          - generic [ref=e318]:
+            - link "Federal Reserve issues FOMC statement Federal Reserve Board (.gov) https://www.federalreserve.gov › m..." [ref=e320] [cursor=pointer]:
+              - /url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm
+              - heading "Federal Reserve issues FOMC statement" [level=3] [ref=e321]
+              - generic [ref=e326]:
+                - generic [ref=e328]: Federal Reserve Board (.gov)
+                - generic [ref=e330]: https://www.federalreserve.gov › m...
+            - generic [ref=e331]:
+              - generic [ref=e332]: ·
+              - link "Käännä tämä sivu" [ref=e333] [cursor=pointer]:
+                - /url: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm
+            - button "Tietoja tästä tuloksesta" [ref=e334] [cursor=pointer]:
+              - img [ref=e337]
+          - generic [ref=e340]:
+            - generic [ref=e341]: 18.3.2026 —
+            - generic [ref=e342]:
+              - text: The Committee seeks to achieve maximum employment and
+              - emphasis [ref=e343]: inflation
+              - text: at the
+              - emphasis [ref=e344]: rate
+              - text: of 2 percent over the longer run. Uncertainty about the economic ...
+          - generic [ref=e346]:
+            - text: "Puuttuu: projections ‎| Hae tällä:"
+            - link "projections" [ref=e347] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=FOMC+March+2026+%22projections%22+GDP+unemployment+inflation+fed+funds+rate+summary&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ5t4CegQIRhAB
+        - generic [ref=e351]:
+          - generic [ref=e354]:
+            - link "Federal Reserve FOMC Projections March 2026 Libertify.com https://www.libertify.com › federal..." [ref=e356] [cursor=pointer]:
+              - /url: https://www.libertify.com/interactive-library/federal-reserve-fomc-projections-march-2026/
+              - heading "Federal Reserve FOMC Projections March 2026" [level=3] [ref=e357]
+              - generic [ref=e362]:
+                - generic [ref=e364]: Libertify.com
+                - generic [ref=e366]: https://www.libertify.com › federal...
+            - generic [ref=e367]:
+              - generic [ref=e368]: ·
+              - link "Käännä tämä sivu" [ref=e369] [cursor=pointer]:
+                - /url: https://www.libertify.com/interactive-library/federal-reserve-fomc-projections-march-2026/
+            - button "Tietoja tästä tuloksesta" [ref=e370] [cursor=pointer]:
+              - img [ref=e373]
+          - generic [ref=e376]:
+            - generic [ref=e377]: 27.3.2026 —
+            - generic [ref=e378]:
+              - text: These projections encompass
+              - emphasis [ref=e379]: GDP growth rates, unemployment projections, inflation forecasts
+              - text: ", and long-term economic potential assessments, ..."
+        - generic [ref=e383]:
+          - generic [ref=e386]:
+            - link "U.S. FOMC Meeting (March 2026) - TD Economics TD Economics https://economics.td.com › us-fomc-..." [ref=e388] [cursor=pointer]:
+              - /url: https://economics.td.com/us-fomc-statement
+              - heading "U.S. FOMC Meeting (March 2026) - TD Economics" [level=3] [ref=e389]
+              - generic [ref=e394]:
+                - generic [ref=e396]: TD Economics
+                - generic [ref=e398]: https://economics.td.com › us-fomc-...
+            - generic [ref=e399]:
+              - generic [ref=e400]: ·
+              - link "Käännä tämä sivu" [ref=e401] [cursor=pointer]:
+                - /url: https://economics.td.com/us-fomc-statement
+            - button "Tietoja tästä tuloksesta" [ref=e402] [cursor=pointer]:
+              - img [ref=e405]
+          - generic [ref=e408]:
+            - generic [ref=e409]: 18.3.2026 —
+            - generic [ref=e410]:
+              - text: The median
+              - emphasis [ref=e411]: projection
+              - text: for real
+              - emphasis [ref=e412]: GDP
+              - text: growth – as measured on Q4/Q4 basis – was upgraded to 2.4% (previously 2.3%) in
+              - emphasis [ref=e413]: "2026"
+              - text: ", and 2.3% (previously ..."
+        - generic [ref=e417]:
+          - generic [ref=e420]:
+            - link "March 2026 Fed Dot Plot Sees Low-3% Fed Funds by 2027 Bondsavvy https://www.bondsavvy.com › fed-..." [ref=e422] [cursor=pointer]:
+              - /url: https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot
+              - heading "March 2026 Fed Dot Plot Sees Low-3% Fed Funds by 2027" [level=3] [ref=e423]
+              - generic [ref=e428]:
+                - generic [ref=e430]: Bondsavvy
+                - generic [ref=e432]: https://www.bondsavvy.com › fed-...
+            - generic [ref=e433]:
+              - generic [ref=e434]: ·
+              - link "Käännä tämä sivu" [ref=e435] [cursor=pointer]:
+                - /url: https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot
+            - button "Tietoja tästä tuloksesta" [ref=e436] [cursor=pointer]:
+              - img [ref=e439]
+          - generic [ref=e442]:
+            - generic [ref=e443]: 18.3.2026 —
+            - generic [ref=e444]:
+              - text: The
+              - emphasis [ref=e445]: March 2026
+              - text: Fed dot plot projected a 3.00% to 3.25%
+              - emphasis [ref=e446]: Fed funds rate
+              - text: by yearend 2027. Click to read our
+              - emphasis [ref=e447]: analysis
+              - text: of the Fed dot plot and ...
+        - generic [ref=e451]:
+          - generic [ref=e454]:
+            - link "United States Fed Funds Interest Rate Trading Economics https://tradingeconomics.com › inter..." [ref=e456] [cursor=pointer]:
+              - /url: https://tradingeconomics.com/united-states/interest-rate
+              - heading "United States Fed Funds Interest Rate" [level=3] [ref=e457]
+              - generic [ref=e462]:
+                - generic [ref=e464]: Trading Economics
+                - generic [ref=e466]: https://tradingeconomics.com › inter...
+            - generic [ref=e467]:
+              - generic [ref=e468]: ·
+              - link "Käännä tämä sivu" [ref=e469] [cursor=pointer]:
+                - /url: https://tradingeconomics.com/united-states/interest-rate
+            - button "Tietoja tästä tuloksesta" [ref=e470] [cursor=pointer]:
+              - img [ref=e473]
+          - generic [ref=e477]:
+            - text: The Federal Reserve is widely expected to hold the federal
+            - emphasis [ref=e478]: funds rate
+            - text: steady within the 3.5%–3.75% target range for a second consecutive meeting in
+            - emphasis [ref=e479]: March 2026
+            - text: ", ..."
+        - generic [ref=e483]:
+          - generic [ref=e486]:
+            - link "The Fed - FOMC meeting commentary March 2026 Nuveen https://www.nuveen.com › fed-update" [ref=e488] [cursor=pointer]:
+              - /url: https://www.nuveen.com/en-us/insights/investment-outlook/fed-update
+              - heading "The Fed - FOMC meeting commentary March 2026" [level=3] [ref=e489]
+              - generic [ref=e494]:
+                - generic [ref=e496]: Nuveen
+                - generic [ref=e498]: https://www.nuveen.com › fed-update
+            - generic [ref=e499]:
+              - generic [ref=e500]: ·
+              - link "Käännä tämä sivu" [ref=e501] [cursor=pointer]:
+                - /url: https://www.nuveen.com/en-us/insights/investment-outlook/fed-update
+            - button "Tietoja tästä tuloksesta" [ref=e502] [cursor=pointer]:
+              - img [ref=e505]
+          - generic [ref=e509]:
+            - text: The
+            - emphasis [ref=e510]: Summary
+            - text: of Economic
+            - emphasis [ref=e511]: Projections
+            - text: showed upward revisions to the growth and
+            - emphasis [ref=e512]: inflation forecasts
+            - text: . The median policy
+            - emphasis [ref=e513]: rates forecast
+            - text: was unchanged, though ...
+      - generic [ref=e515]:
+        - generic [ref=e520]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e522]
+          - generic [ref=e524]:
+            - generic [ref=e525]:
+              - link "Fed Summary of economic projections March 2026" [ref=e529] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Fed+Summary+of+economic+projections+March+2026&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAgqEAE
+                - generic [ref=e530]:
+                  - generic [ref=e535]: Fed Summary of economic projections March 2026
+                  - img [ref=e539]
+              - link "Fed sep March 2026" [ref=e544] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Fed+sep+March+2026&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAg2EAE
+                - generic [ref=e545]:
+                  - generic [ref=e550]: Fed sep March 2026
+                  - img [ref=e554]
+              - link "What is the Summary of economic projections" [ref=e559] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=What+is+the+Summary+of+economic+projections&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAg3EAE
+                - generic [ref=e560]:
+                  - generic [ref=e565]: What is the Summary of economic projections
+                  - img [ref=e569]
+              - link "Summary of economic projections 2026" [ref=e574] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Summary+of+economic+projections+2026&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAguEAE
+                - generic [ref=e575]:
+                  - generic [ref=e580]: Summary of economic projections 2026
+                  - img [ref=e584]
+            - generic [ref=e586]:
+              - link "Fed dot plot March 2026" [ref=e590] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Fed+dot+plot+March+2026&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAgxEAE
+                - generic [ref=e591]:
+                  - generic [ref=e596]: Fed dot plot March 2026
+                  - img [ref=e600]
+              - link "FOMC dot plot" [ref=e605] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=FOMC+dot+plot&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAg1EAE
+                - generic [ref=e606]:
+                  - generic [ref=e611]: FOMC dot plot
+                  - img [ref=e615]
+              - link "Fed dot plot 2026" [ref=e620] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Fed+dot+plot+2026&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAg0EAE
+                - generic [ref=e621]:
+                  - generic [ref=e626]: Fed dot plot 2026
+                  - img [ref=e630]
+              - link "FOMC statement" [ref=e635] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=FOMC+statement&sa=X&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ1QJ6BAgtEAE
+                - generic [ref=e636]:
+                  - generic [ref=e641]: FOMC statement
+                  - img [ref=e645]
+        - navigation [ref=e647]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e648]
+          - text: "1"
+          - link "Page 2" [ref=e651] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=10&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAE
+            - text: "2"
+          - link "Page 3" [ref=e653] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=20&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAG
+            - text: "3"
+          - link "Page 4" [ref=e655] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=30&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAI
+            - text: "4"
+          - link "Page 5" [ref=e657] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=40&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAK
+            - text: "5"
+          - link "Page 6" [ref=e659] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=50&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAM
+            - text: "6"
+          - link "Page 7" [ref=e661] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=60&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAO
+            - text: "7"
+          - link "Page 8" [ref=e663] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=70&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAQ
+            - text: "8"
+          - link "Page 9" [ref=e665] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=80&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAS
+            - text: "9"
+          - link "Page 10" [ref=e667] [cursor=pointer]:
+            - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=90&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8tMDegQIJBAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e669]:
+            - link "Seuraava" [ref=e670] [cursor=pointer]:
+              - /url: /search?q=FOMC+March+2026+projections+GDP+unemployment+inflation+fed+funds+rate+summary&sca_esv=f72dd7b5cfdb5d01&ei=ZnLRaffNJ4DYwPAPk8admAo&start=10&sa=N&sstk=Af77f_czr0mRHz9p4zDXZJEbbRQwtvw1ydKk_NoZ3z271ekqJ7LspfKnDXh2Gp2ku7fp6S3uL9i5iG0g15X0lwWRcW_xpJZnI6MchQ&ved=2ahUKEwj3mPu-gtWTAxUALBAIHRNjB6MQ8NMDegQIJBAW
+              - generic [ref=e672]: Seuraava
+      - navigation
+    - contentinfo [ref=e673]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e674]
+      - generic [ref=e678]:
+        - generic [ref=e680]:
+          - text: Suomi
+          - generic [ref=e682]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e684] [cursor=pointer]:
+              - generic [ref=e685]: Helsinki
+              - generic [ref=e687]:
+                - text: "-"
+                - generic [ref=e688]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e690] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e693]:
+          - link "Ohje" [ref=e694] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e695] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e696] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e697] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

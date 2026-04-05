@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e54]:
+        - navigation "Murupolku" [ref=e55]:
+          - list [ref=e57]:
+            - listitem [ref=e58]: Etsimääsi sivua ei valitettavasti löytynyt
+        - article [ref=e59]:
+          - heading "Etsimääsi sivua ei valitettavasti löytynyt" [level=1] [ref=e60]
+          - generic [ref=e61]:
+            - paragraph [ref=e62]: Pahoittelemme, etsimääsi sivua ei löytynyt.
+            - paragraph [ref=e63]: Olemme saattaneet poistaa tai siirtää sivun. Varmistathan kuitenkin, että kirjoitit osoitteen oikein.
+            - paragraph [ref=e64]: Toivomme, että löydät etsimäsi tiedon vero.fi:n etusivulta tai käyttämällä hakua.
+            - paragraph [ref=e65]:
+              - link "Vero.fi:n etusivulle" [ref=e66] [cursor=pointer]:
+                - /url: /
+            - separator [ref=e67]
+            - heading "Sidan som du sökte finns inte" [level=2] [ref=e68]
+            - paragraph [ref=e69]:
+              - text: Sidan kunde tyvärr inte hittas. Kontrollera att adressen är korrekt.
+              - text: Sidan kan ha avlägsnats eller flyttats.
+            - paragraph [ref=e70]: Gå till ingångssidan för vero.fi och sök efter önskad anvisning eller önskat ämne genom att navigera i tjänsten eller med hjälp av Sök-funktionen.
+            - paragraph [ref=e71]:
+              - link "Till ingångssidan för vero.fi" [ref=e72] [cursor=pointer]:
+                - /url: /sv/
+            - separator [ref=e73]
+            - heading "The page you were looking for was not found" [level=2] [ref=e74]
+            - paragraph [ref=e75]: Unfortunately, our Search could not find the page. Please re-check the page address. The page may have been removed or relocated.
+            - paragraph [ref=e76]: Try navigating from the vero.fi home page. Try writing the keywords of the subject matter into the Search box to look for the page or article. Thank you for your patience.
+            - paragraph [ref=e77]:
+              - link "To vero.fi home page" [ref=e78] [cursor=pointer]:
+                - /url: /en/
+          - generic [ref=e79]: Sivu on viimeksi päivitetty 22.11.2022
+    - contentinfo [ref=e80]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - heading "Asioi verkossa" [level=2] [ref=e85]
+            - list [ref=e87]:
+              - listitem [ref=e88]:
+                - link "OmaVero" [ref=e90] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e91]:
+                - link "Laskurit" [ref=e93] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e94]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e96] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e97]:
+                - link "Positiivinen luottotietorekisteri" [ref=e99] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e100]:
+                - link "Tulorekisteri" [ref=e102] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e103]:
+            - heading "Yhteystiedot" [level=2] [ref=e104]
+            - list [ref=e106]:
+              - listitem [ref=e107]:
+                - link "Chat" [ref=e109] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e110]:
+                - link "Yhteystiedot ja asiointi" [ref=e112] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e113]:
+                - link "Sosiaalinen media" [ref=e115] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e116]:
+                - link "Paperilomakkeet" [ref=e118] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e119]:
+                - link "Käsittelyajat" [ref=e121] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e122]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e123]
+            - generic [ref=e127]:
+              - paragraph [ref=e128]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e129]:
+                - listitem [ref=e130]:
+                  - link "Syventävät vero-ohjeet" [ref=e132] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e133]:
+            - heading "Verohallinto" [level=2] [ref=e134]
+            - generic [ref=e138]:
+              - paragraph [ref=e139]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e140]:
+                - listitem [ref=e141]:
+                  - link "Tietoa Verohallinnosta" [ref=e143] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e146]:
+          - listitem [ref=e147]: © Verohallinto
+          - listitem [ref=e148]:
+            - link "Tietosuoja" [ref=e150] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e151]:
+            - link "Palaute" [ref=e153] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e154]:
+            - link "Saavutettavuusseloste" [ref=e156] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e157]:
+            - link "Tulosta" [ref=e159] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img

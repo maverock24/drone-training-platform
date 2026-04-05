@@ -1,0 +1,228 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:yle.fi "Asuntokaupan käänne ei tulekaan" PTT 2026 Helsinki site:yle.fi "Asuntokaupan käänne ei tulekaan" PTT 2026 Helsinki
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:yle.fi%2B%2522Asuntokaupan%2Bk%25C3%25A4%25C3%25A4nne%2Bei%2Btulekaan%2522%2BPTT%2B2026%2BHelsinki%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:yle.fi+%22Asuntokaupan+k%C3%A4%C3%A4nne+ei+tulekaan%22+PTT+2026+Helsinki&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQ2J8OegQIERAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:yle.fi+%22Asuntokaupan+k%C3%A4%C3%A4nne+ei+tulekaan%22+PTT+2026+Helsinki&sa=X&ved=2ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQtKgLegQIFxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:yle.fi+%22Asuntokaupan+k%C3%A4%C3%A4nne+ei+tulekaan%22+PTT+2026+Helsinki&sa=X&ved=2ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQtKgLegQIFhAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:yle.fi+%22Asuntokaupan+k%C3%A4%C3%A4nne+ei+tulekaan%22+PTT+2026+Helsinki&sa=X&ved=2ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:yle.fi+%22Asuntokaupan+k%C3%A4%C3%A4nne+ei+tulekaan%22+PTT+2026+Helsinki&sa=X&ved=2ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:yle.fi+%22Asuntokaupan+k%C3%A4%C3%A4nne+ei+tulekaan%22+PTT+2026+Helsinki&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwisgr3fp9aTAxWpERAIHdPZLnsQ0pQJegQIExAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Tulokset internetistä" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ... Yle https://yle.fi › Yle Uutiset › Asuminen" [ref=e143] [cursor=pointer]:
+                - /url: https://yle.fi/a/74-20209724
+                - heading "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ..." [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Yle
+                  - generic [ref=e153]: https://yle.fi › Yle Uutiset › Asuminen
+              - button "Tietoja tästä tuloksesta" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 12.2.2026 —
+              - generic [ref=e162]:
+                - emphasis [ref=e163]: Asuntokaupan käänne ei tulekaan
+                - text: –
+                - emphasis [ref=e164]: PTT
+                - text: "ennustaa viidettä laskevien hintojen vuotta: katso lista kaupungeista. Monet pankit ovat jo ehtineet ..."
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - link "Helsingin paraatipaikalla on uusi talo, jonka asunnoista yli ... Yle https://yle.fi › Yle Uutiset › Asuminen" [ref=e173] [cursor=pointer]:
+              - /url: https://yle.fi/a/74-20210783
+              - heading "Helsingin paraatipaikalla on uusi talo, jonka asunnoista yli ..." [level=3] [ref=e174]
+              - generic [ref=e179]:
+                - generic [ref=e181]: Yle
+                - generic [ref=e183]: https://yle.fi › Yle Uutiset › Asuminen
+            - button "Tietoja tästä tuloksesta" [ref=e184] [cursor=pointer]:
+              - img [ref=e187]
+          - generic [ref=e190]:
+            - generic [ref=e191]: 6.3.2026 —
+            - generic [ref=e192]:
+              - emphasis [ref=e193]: Asuntokaupan käänne ei tulekaan
+              - text: –
+              - emphasis [ref=e194]: PTT
+              - text: "ennustaa viidettä laskevien hintojen vuotta: katso lista kaupungeista · Asuminen. Julkaistu 12.2."
+              - emphasis [ref=e195]: "2026"
+              - text: .
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - link "uhkakuva pian koittavasta asuntopulasta ei toteudu Yle https://yle.fi › Yle Uutiset › Asuminen" [ref=e204] [cursor=pointer]:
+              - /url: https://yle.fi/a/74-20205457
+              - heading "uhkakuva pian koittavasta asuntopulasta ei toteudu" [level=3] [ref=e205]
+              - generic [ref=e210]:
+                - generic [ref=e212]: Yle
+                - generic [ref=e214]: https://yle.fi › Yle Uutiset › Asuminen
+            - button "Tietoja tästä tuloksesta" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]: 15.2.2026 —
+            - generic [ref=e223]:
+              - emphasis [ref=e224]: Asuntokaupan käänne ei tulekaan
+              - text: –
+              - emphasis [ref=e225]: PTT
+              - text: "ennustaa viidettä laskevien hintojen vuotta: katso lista kaupungeista · Asuminen. Julkaistu 12.2."
+              - emphasis [ref=e226]: "2026"
+              - text: .
+        - generic [ref=e230]:
+          - generic [ref=e233]:
+            - link "Taloudelliset ennusteet Yle https://yle.fi › ..." [ref=e235] [cursor=pointer]:
+              - /url: https://yle.fi/t/18-218933/fi
+              - heading "Taloudelliset ennusteet" [level=3] [ref=e236]
+              - generic [ref=e241]:
+                - generic [ref=e243]: Yle
+                - generic [ref=e245]: https://yle.fi › ...
+            - button "Tietoja tästä tuloksesta" [ref=e246] [cursor=pointer]:
+              - img [ref=e249]
+          - generic [ref=e252]: Ylen uutiset aiheesta ”Taloudelliset ennusteet” nopeasti ja luotettavasti.
+        - generic [ref=e256]:
+          - generic [ref=e259]:
+            - link "Antti Parviala Yle https://yle.fi › ..." [ref=e261] [cursor=pointer]:
+              - /url: https://yle.fi/p/56-74-17/en
+              - heading "Antti Parviala" [level=3] [ref=e262]
+              - generic [ref=e267]:
+                - generic [ref=e269]: Yle
+                - generic [ref=e271]: https://yle.fi › ...
+            - button "Tietoja tästä tuloksesta" [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+          - generic [ref=e278]: "Antti Parviala: All articles and journalistic content on Yle."
+          - link "site:yle.fi \"Asuntokaupan käänne ei tulekaan\" PTT 2026 Helsinki sivustosta yle.fi" [ref=e281] [cursor=pointer]:
+            - /url: https://yle.fi/p/56-74-17/en
+            - img "site:yle.fi \"Asuntokaupan käänne ei tulekaan\" PTT 2026 Helsinki sivustosta yle.fi" [ref=e283]
+        - generic [ref=e287]:
+          - heading "Kuvahaku" [level=2] [ref=e291]
+          - generic [ref=e295]:
+            - generic [ref=e299] [cursor=pointer]:
+              - link "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ... Yle":
+                - /url: https://yle.fi/a/74-20209724
+              - button "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ..." [ref=e301]:
+                - img "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ..." [ref=e303]
+              - generic [ref=e305]:
+                - generic [ref=e307]: Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ...
+                - generic [ref=e308]:
+                  - generic [ref=e315]: Yle
+                  - button "Tietoja tästä tuloksesta" [ref=e318]:
+                    - img [ref=e321]
+            - generic [ref=e326] [cursor=pointer]:
+              - link "Asuntokaupassa tapahtunut piristymistä Yle":
+                - /url: https://yle.fi/a/74-20209724
+              - button "Asuntokaupassa tapahtunut piristymistä" [ref=e328]:
+                - img "Asuntokaupassa tapahtunut piristymistä" [ref=e330]
+              - generic [ref=e332]:
+                - generic [ref=e334]: Asuntokaupassa tapahtunut piristymistä
+                - generic [ref=e335]:
+                  - generic [ref=e342]: Yle
+                  - button "Tietoja tästä tuloksesta" [ref=e345]:
+                    - img [ref=e348]
+            - generic [ref=e353] [cursor=pointer]:
+              - link "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ... Yle":
+                - /url: https://yle.fi/a/74-20209724
+              - button "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ..." [ref=e355]:
+                - img "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ..." [ref=e357]
+              - generic [ref=e359]:
+                - generic [ref=e361]: Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä ...
+                - generic [ref=e362]:
+                  - generic [ref=e369]: Yle
+                  - button "Tietoja tästä tuloksesta" [ref=e372]:
+                    - img [ref=e375]
+          - button "Näytä lisää kuvia" [ref=e378] [cursor=pointer]:
+            - separator [ref=e379]
+            - generic [ref=e380]:
+              - generic [ref=e381]: Näytä lisää kuvia
+              - img [ref=e383]
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=e385]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e386]
+      - generic [ref=e390]:
+        - generic [ref=e392]:
+          - text: Suomi
+          - generic [ref=e394]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]: Helsinki
+              - generic [ref=e399]:
+                - text: "-"
+                - generic [ref=e400]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e402] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e405]:
+          - link "Ohje" [ref=e406] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e407] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e408] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e409] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,389 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Wealthfront management fee 2026 Betterment fee Schwab Intelligent Portfolios fee Wealthfront management fee 2026 Betterment fee Schwab Intelligent Portfolios fee
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DWealthfront%2Bmanagement%2Bfee%2B2026%2BBetterment%2Bfee%2BSchwab%2BIntelligent%2BPortfolios%2Bfee&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP1o3Nt23JOBc-SOTKqZljM2ga4NCb_PtOKuBLZjcEx38E06K8KzDvZlybNtYKIGUbUzNYAi4JXNOCjhWlfWoG3-hy06-lBxCzoOoooK_0reisu3K3RdRhM9SqHc1D-_g0jpxCON&aep=1&ntc=1&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP1o3Nt23JOBc-SOTKqZljM2ga4NCb_PtOKuBLZjcEx38E06K8KzDvZlybNtYKIGUbUzNYAi4JXNOCjhWlfWoG3-hy06-lBxCzoOoooK_0reisu3K3RdRhM9SqHc1D-_g0jpxCON&q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQtKgLegQIExAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP1o3Nt23JOBc-SOTKqZljM2ga4NCb_PtOKuBLZjcEx38E06K8KzDvZlybNtYKIGUbUzNYAi4JXNOCjhWlfWoG3-hy06-lBxCzoOoooK_0reisu3K3RdRhM9SqHc1D-_g0jpxCON&q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQtKgLegQIEhAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP1o3Nt23JOBc-SOTKqZljM2ga4NCb_PtOKuBLZjcEx38E06K8KzDvZlybNtYKIGUbUzNYAi4JXNOCjhWlfWoG3-hy06-lBxCzoOoooK_0reisu3K3RdRhM9SqHc1D-_g0jpxCON&q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP1o3Nt23JOBc-SOTKqZljM2ga4NCb_PtOKuBLZjcEx38E06K8KzDvZlybNtYKIGUbUzNYAi4JXNOCjhWlfWoG3-hy06-lBxCzoOoooK_0reisu3K3RdRhM9SqHc1D-_g0jpxCON&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ0pQJegQIFRAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP1o3Nt23JOBc-SOTKqZljM2ga4NCb_PtOKuBLZjcEx38E06K8KzDvZlybNtYKIGUbUzNYAi4JXNOCjhWlfWoG3-hy06-lBxCzoOoooK_0reisu3K3RdRhM9SqHc1D-_g0jpxCON&q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQs6gLegQIFhAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DWealthfront%2Bmanagement%2Bfee%2B2026%2BBetterment%2Bfee%2BSchwab%2BIntelligent%2BPortfolios%2Bfee&hl=en&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQhoQCKAF6BAgKEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQiIQCKAN6BAgKEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "The best robo-advisors of April 2026 CNBC https://www.cnbc.com › select › be..." [ref=e180] [cursor=pointer]:
+                  - /url: https://www.cnbc.com/select/best-robo-advisors/
+                  - heading "The best robo-advisors of April 2026" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: CNBC
+                    - generic [ref=e190]: https://www.cnbc.com › select › be...
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.cnbc.com/select/best-robo-advisors/
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e200]:
+                - generic [ref=e201]: 4 päivää sitten —
+                - generic [ref=e202]:
+                  - text: "Cost: A basic Schwab Intelligent Portfolios account has"
+                  - emphasis [ref=e203]: no monthly management fees
+                  - text: and a $5,000 minimum deposit requirement. If you have at ...
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e209]
+              - button "Tietoja tästä tuloksesta" [ref=e210] [cursor=pointer]:
+                - img [ref=e213]
+            - generic [ref=e215]:
+              - button "Is there a fee for Schwab intelligent portfolio?" [ref=e221] [cursor=pointer]:
+                - generic [ref=e223]: Is there a fee for Schwab intelligent portfolio?
+                - img [ref=e226]
+              - button "What is the Betterment fee vs Wealthfront fee?" [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: What is the Betterment fee vs Wealthfront fee?
+                - img [ref=e240]
+              - button "What is the difference between Wealthfront and Schwab intelligent portfolios?" [ref=e249] [cursor=pointer]:
+                - generic [ref=e251]: What is the difference between Wealthfront and Schwab intelligent portfolios?
+                - img [ref=e254]
+              - button "Why is Schwab getting rid of intelligent portfolio premium?" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: Why is Schwab getting rid of intelligent portfolio premium?
+                - img [ref=e268]
+          - generic [ref=e273]:
+            - heading "Web results" [level=2] [ref=e274]
+            - generic [ref=e275]:
+              - generic [ref=e278]:
+                - link "Best Robo-Advisors for April 2026 Investopedia https://www.investopedia.com › the..." [ref=e280] [cursor=pointer]:
+                  - /url: https://www.investopedia.com/the-best-robo-advisors-8764849
+                  - heading "Best Robo-Advisors for April 2026" [level=3] [ref=e281]
+                  - generic [ref=e286]:
+                    - generic [ref=e288]: Investopedia
+                    - generic [ref=e290]: https://www.investopedia.com › the...
+                - generic [ref=e291]:
+                  - generic [ref=e292]: ·
+                  - link "Käännä tämä sivu" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.investopedia.com/the-best-robo-advisors-8764849
+                - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+                  - img [ref=e297]
+              - generic [ref=e301]:
+                - emphasis [ref=e302]: Fees
+                - text: ": 0.25% (annual) for investing plan accounts with at least $20,000 or at least $250 per month in recurring account deposits. Otherwise, the"
+                - emphasis [ref=e303]: fee
+                - text: is $4/month.
+          - generic [ref=e307]:
+            - generic [ref=e310]:
+              - 'link "Best Robo-Advisors: Top Picks for March 2026 NerdWallet https://www.nerdwallet.com › robo..." [ref=e312] [cursor=pointer]':
+                - /url: https://www.nerdwallet.com/investing/best/robo-advisors
+                - 'heading "Best Robo-Advisors: Top Picks for March 2026" [level=3] [ref=e313]'
+                - generic [ref=e318]:
+                  - generic [ref=e320]: NerdWallet
+                  - generic [ref=e322]: https://www.nerdwallet.com › robo...
+              - generic [ref=e323]:
+                - generic [ref=e324]: ·
+                - link "Käännä tämä sivu" [ref=e325] [cursor=pointer]:
+                  - /url: https://www.nerdwallet.com/investing/best/robo-advisors
+              - button "Tietoja tästä tuloksesta" [ref=e326] [cursor=pointer]:
+                - img [ref=e329]
+            - generic [ref=e333]:
+              - text: Fees. 0%management fee. Account minimum. $5,000. Key facts.
+              - emphasis [ref=e334]: Schwab Intelligent Portfolios is unique in charging zero management fee
+              - text: ", but the advisor's ..."
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - img "Arvio 4,8/5 (116 500) käyttäjäarvostelua" [ref=e339]:
+                  - text: 4,8
+                  - img [ref=e340]
+                  - text: (116 500)
+                - text: ·
+              - text: Ilmainen · ‎Talous
+              - button [ref=e345]:
+                - img [ref=e347]
+          - generic [ref=e352]:
+            - generic [ref=e355]:
+              - link "Best Robo-Advisors In 2026 Bankrate https://www.bankrate.com › investing" [ref=e357] [cursor=pointer]:
+                - /url: https://www.bankrate.com/investing/best-robo-advisors/
+                - heading "Best Robo-Advisors In 2026" [level=3] [ref=e358]
+                - generic [ref=e363]:
+                  - generic [ref=e365]: Bankrate
+                  - generic [ref=e367]: https://www.bankrate.com › investing
+              - generic [ref=e368]:
+                - generic [ref=e369]: ·
+                - link "Käännä tämä sivu" [ref=e370] [cursor=pointer]:
+                  - /url: https://www.bankrate.com/investing/best-robo-advisors/
+              - button "Tietoja tästä tuloksesta" [ref=e371] [cursor=pointer]:
+                - img [ref=e374]
+            - generic [ref=e378]:
+              - text: Best of all,
+              - emphasis [ref=e379]: Schwab charges no management fee
+              - text: ". (Note: In 2026, Schwab discontinued its \"premium\" tier of Intelligent Portfolios, which charged a fee but ..."
+          - generic [ref=e383]:
+            - generic [ref=e386]:
+              - link "Best Robo Advisors of 2026 WSJ https://www.wsj.com › buyside › h..." [ref=e388] [cursor=pointer]:
+                - /url: https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors
+                - heading "Best Robo Advisors of 2026" [level=3] [ref=e389]
+                - generic [ref=e394]:
+                  - generic [ref=e396]: WSJ
+                  - generic [ref=e398]: https://www.wsj.com › buyside › h...
+              - generic [ref=e399]:
+                - generic [ref=e400]: ·
+                - link "Käännä tämä sivu" [ref=e401] [cursor=pointer]:
+                  - /url: https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors
+              - button "Tietoja tästä tuloksesta" [ref=e402] [cursor=pointer]:
+                - img [ref=e405]
+            - generic [ref=e408]:
+              - generic [ref=e409]: 23.2.2026 —
+              - generic [ref=e410]:
+                - text: Best Robo Advisors of
+                - emphasis [ref=e411]: "2026"
+                - text: ;
+                - emphasis [ref=e412]: Betterment
+                - text: · $10 to invest · $5/month up to $24,000, up to 0.25% · Low minimum to begin investing ; Ally Invest Robo ...
+          - generic [ref=e416]:
+            - generic [ref=e419]:
+              - link "Automated Investing | Schwab Intelligent Portfolios Charles Schwab https://www.schwab.com › intellige..." [ref=e421] [cursor=pointer]:
+                - /url: https://www.schwab.com/intelligent-portfolios
+                - heading "Automated Investing | Schwab Intelligent Portfolios" [level=3] [ref=e422]
+                - generic [ref=e427]:
+                  - generic [ref=e429]: Charles Schwab
+                  - generic [ref=e431]: https://www.schwab.com › intellige...
+              - generic [ref=e432]:
+                - generic [ref=e433]: ·
+                - link "Käännä tämä sivu" [ref=e434] [cursor=pointer]:
+                  - /url: https://www.schwab.com/intelligent-portfolios
+              - button "Tietoja tästä tuloksesta" [ref=e435] [cursor=pointer]:
+                - img [ref=e438]
+            - generic [ref=e442]:
+              - text: For Schwab Intelligent Portfolios Premium, there is an
+              - emphasis [ref=e443]: initial planning fee of $300 upon enrollment
+              - text: and a $30-per-month advisory fee charged on a quarterly ...
+          - generic [ref=e447]:
+            - generic [ref=e450]:
+              - link "Top Robo-Advisors and Hyper-Personalized Portfolios for 2026 professionalbusinessdirectory.com https://professionalbusinessdirectory.com › ..." [ref=e452] [cursor=pointer]:
+                - /url: https://professionalbusinessdirectory.com/ai-robo-advisor-wealth-management-2026/
+                - heading "Top Robo-Advisors and Hyper-Personalized Portfolios for 2026" [level=3] [ref=e453]
+                - generic [ref=e458]:
+                  - generic [ref=e460]: professionalbusinessdirectory.com
+                  - generic [ref=e462]: https://professionalbusinessdirectory.com › ...
+              - generic [ref=e463]:
+                - generic [ref=e464]: ·
+                - link "Käännä tämä sivu" [ref=e465] [cursor=pointer]:
+                  - /url: https://professionalbusinessdirectory.com/ai-robo-advisor-wealth-management-2026/
+              - button "Tietoja tästä tuloksesta" [ref=e466] [cursor=pointer]:
+                - img [ref=e469]
+            - generic [ref=e472]:
+              - generic [ref=e473]: 17.2.2026 —
+              - generic [ref=e474]:
+                - text: "AI-Powered Wealth Management: Top Robo-Advisors and Hyper-Personalized Portfolios for 2026 ;"
+                - emphasis [ref=e475]: Wealthfront, 0.25%, $500
+                - text: ; Betterment, 0.25% or $0 ( ...
+          - generic [ref=e479]:
+            - generic [ref=e482]:
+              - link "Best Robo-Advisors Of 2026 (Ranked By Features) The College Investor https://thecollegeinvestor.com › bes..." [ref=e484] [cursor=pointer]:
+                - /url: https://thecollegeinvestor.com/34294/best-robo-advisors/?srsltid=AfmBOoqe9Q0vFEMIC_Xpr76pes9rfe0P_D41cN4UJE_n4Ke1Rwj-v_6J
+                - heading "Best Robo-Advisors Of 2026 (Ranked By Features)" [level=3] [ref=e485]
+                - generic [ref=e490]:
+                  - generic [ref=e492]: The College Investor
+                  - generic [ref=e494]: https://thecollegeinvestor.com › bes...
+              - generic [ref=e495]:
+                - generic [ref=e496]: ·
+                - link "Käännä tämä sivu" [ref=e497] [cursor=pointer]:
+                  - /url: https://thecollegeinvestor.com/34294/best-robo-advisors/
+              - button "Tietoja tästä tuloksesta" [ref=e498] [cursor=pointer]:
+                - img [ref=e501]
+            - generic [ref=e504]:
+              - generic [ref=e505]: 3.1.2026 —
+              - generic [ref=e506]:
+                - emphasis [ref=e507]: Schwab Intelligent Portfolios
+                - text: "; Best DIY Tool: M1 Finance; Best ... With a 0.25% annual"
+                - emphasis [ref=e508]: management fee
+                - text: ","
+                - emphasis [ref=e509]: Wealthfront
+                - text: is also a low-
+                - emphasis [ref=e510]: cost
+                - text: leader.
+          - generic [ref=e514]:
+            - generic [ref=e517]:
+              - link "Wealthfront vs. Schwab Intelligent Portfolios Investopedia https://www.investopedia.com › we..." [ref=e519] [cursor=pointer]:
+                - /url: https://www.investopedia.com/wealthfront-vs-charles-schwab-robo-advisors-4693442
+                - heading "Wealthfront vs. Schwab Intelligent Portfolios" [level=3] [ref=e520]
+                - generic [ref=e525]:
+                  - generic [ref=e527]: Investopedia
+                  - generic [ref=e529]: https://www.investopedia.com › we...
+              - generic [ref=e530]:
+                - generic [ref=e531]: ·
+                - link "Käännä tämä sivu" [ref=e532] [cursor=pointer]:
+                  - /url: https://www.investopedia.com/wealthfront-vs-charles-schwab-robo-advisors-4693442
+              - button "Tietoja tästä tuloksesta" [ref=e533] [cursor=pointer]:
+                - img [ref=e536]
+            - generic [ref=e540]:
+              - text: In terms of
+              - emphasis [ref=e541]: fees
+              - text: ", however,"
+              - emphasis [ref=e542]: Schwab Intelligent Portfolios
+              - text: has no
+              - emphasis [ref=e543]: fees
+              - text: compared to 0.25% at
+              - emphasis [ref=e544]: Wealthfront
+              - text: . Both robo-advisors offer some level of portfolio ...
+          - generic [ref=e548]:
+            - generic [ref=e551]:
+              - link "Top 10 Robo-Advisors Ranked by Assets Under ... Financial Advisor Transitions https://www.financialadvisortransitions.com › ..." [ref=e553] [cursor=pointer]:
+                - /url: https://www.financialadvisortransitions.com/blog/top-10-roboadvisors-ranked-by-assets-under-management
+                - heading "Top 10 Robo-Advisors Ranked by Assets Under ..." [level=3] [ref=e554]
+                - generic [ref=e559]:
+                  - generic [ref=e561]: Financial Advisor Transitions
+                  - generic [ref=e563]: https://www.financialadvisortransitions.com › ...
+              - generic [ref=e564]:
+                - generic [ref=e565]: ·
+                - link "Käännä tämä sivu" [ref=e566] [cursor=pointer]:
+                  - /url: https://www.financialadvisortransitions.com/blog/top-10-roboadvisors-ranked-by-assets-under-management
+              - button "Tietoja tästä tuloksesta" [ref=e567] [cursor=pointer]:
+                - img [ref=e570]
+            - generic [ref=e573]:
+              - generic [ref=e574]: 16.8.2024 —
+              - generic [ref=e575]:
+                - emphasis [ref=e576]: Betterment
+                - text: Digital has no minimum investment and charges a 0.25 percent AUM
+                - emphasis [ref=e577]: fee
+                - text: . Premium clients need $100,000 to get started and pay a 0.40 ...
+        - navigation [ref=e580]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e581]
+          - text: "1"
+          - link "Page 2" [ref=e584] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=10&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAE
+            - text: "2"
+          - link "Page 3" [ref=e586] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=20&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAG
+            - text: "3"
+          - link "Page 4" [ref=e588] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=30&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAI
+            - text: "4"
+          - link "Page 5" [ref=e590] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=40&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAK
+            - text: "5"
+          - link "Page 6" [ref=e592] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=50&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAM
+            - text: "6"
+          - link "Page 7" [ref=e594] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=60&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAO
+            - text: "7"
+          - link "Page 8" [ref=e596] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=70&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAQ
+            - text: "8"
+          - link "Page 9" [ref=e598] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=80&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAS
+            - text: "9"
+          - link "Page 10" [ref=e600] [cursor=pointer]:
+            - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=90&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8tMDegQIWxAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e602]:
+            - link "Seuraava" [ref=e603] [cursor=pointer]:
+              - /url: /search?q=Wealthfront+management+fee+2026+Betterment+fee+Schwab+Intelligent+Portfolios+fee&sca_esv=f72dd7b5cfdb5d01&ei=qHLRaZXtKeO8wPAPouiCgAY&start=10&sa=N&sstk=Af77f_eN_RFSp5wGE4QCk3-Yk9I0l2TbSvMA2AhkUZ2akp7QLxG_fFCJzF6asHA1e3jaQbRM_AZfv3nl7XOC814zIHC6jroOW7O5ww&ved=2ahUKEwiV4bnegtWTAxVjHhAIHSK0AGAQ8NMDegQIWxAW
+              - generic [ref=e605]: Seuraava
+        - navigation
+    - contentinfo [ref=e606]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e607]
+      - generic [ref=e611]:
+        - generic [ref=e613]:
+          - text: Suomi
+          - generic [ref=e615]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e617] [cursor=pointer]:
+              - generic [ref=e618]: 00940, Helsinki
+              - generic [ref=e620]:
+                - text: "-"
+                - generic [ref=e621]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e623] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e626]:
+          - link "Ohje" [ref=e627] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e628] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e629] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e630] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

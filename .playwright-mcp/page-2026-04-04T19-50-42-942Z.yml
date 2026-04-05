@@ -1,0 +1,466 @@
+- generic [ref=e1]:
+  - link [ref=e2] [cursor=pointer]: Siirry pääsisältöön
+  - link [ref=e3] [cursor=pointer]:
+    - /url: https://support.google.com/websearch/answer/181196?hl=fi
+    - text: Käytettävyysohje
+  - link [ref=e4] [cursor=pointer]: Esteettömyyden palaute
+  - dialog "Ennen kuin jatkat Google Hakuun" [active]:
+    - generic [ref=e11]:
+      - generic [ref=e13]:
+        - img "Google" [ref=e14]
+        - generic [ref=e15]:
+          - 'button "Kieli: ‪Suomi‬" [ref=e17] [cursor=pointer]':
+            - generic [ref=e18]:
+              - img
+              - generic [ref=e19]: fi
+          - link "Kirjaudu sisään" [ref=e20] [cursor=pointer]
+      - generic [ref=e21]:
+        - heading "Ennen kuin jatkat Googleen" [level=1] [ref=e22]
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - text: Käytämme
+            - link "evästeitä" [ref=e25] [cursor=pointer]:
+              - /url: https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=fi
+            - text: ja dataa
+            - list [ref=e26]:
+              - listitem [ref=e27]: Googlen palveluiden toimittamiseen ja ylläpitämiseen
+              - listitem [ref=e28]: käyttökatkojen seurantaan ja roskasisällöltä, petoksilta ja väärinkäytöltä suojaamiseen
+              - listitem [ref=e29]: yleisön aktivoitumisen ja sivustojen tilastotietojen mittaamiseen palveluiden käyttötapojen ymmärtämiseksi ja kyseisten palveluiden laadun parantamiseen.
+          - generic [ref=e30]:
+            - text: Jos valitset "Hyväksy kaikki", käytämme evästeitä ja dataa myös
+            - list [ref=e31]:
+              - listitem [ref=e32]: uusien palveluiden kehittämiseen ja parantamiseen
+              - listitem [ref=e33]: mainosten toimittamiseen ja niiden vaikuttavuuden mittaamiseen
+              - listitem [ref=e34]: personoidun sisällön näyttämiseen asetuksistasi riippuen
+              - listitem [ref=e35]: personoitujen mainosten näyttämiseen asetuksistasi riippuen.
+            - generic [ref=e36]: Jos valitset "Hylkää kaikki", emme käytä evästeitä viimeksi mainittuihin tarkoituksiin.
+          - generic [ref=e37]: Personoimattomaan sisältöön vaikuttavat esimerkiksi parhaillaan katselemasi sisältö, toimintasi aktiivisen hakukerran aikana ja sijaintisi. Personoimattomiin mainoksiin vaikuttavat parhaillaan katselemasi sisältö ja karkea sijaintisi. Personoituihin mainoksiin ja sisältöön voi kuulua myös osuvampia tuloksia, suosituksia ja personoituja mainoksia, jotka perustuvat aiempaan toimintaan tällä selaimella, esim. aiempiin hakuihin Googlessa. Räätälöimme tarvittaessa myös kokemuksen ikäryhmälle sopivaksi evästeiden ja datan avulla.
+          - generic [ref=e38]: Valitse "Lisäasetukset", niin näet lisätietoa esimerkiksi yksityisyysasetusten muuttamisesta. Voit myös käydä osoitteessa g.co/privacytools milloin tahansa.
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - button "Hylkää kaikki" [ref=e41] [cursor=pointer]
+          - button "Hyväksy kaikki" [ref=e42] [cursor=pointer]
+        - link "Lisää personointiasetuksia ja evästeitä koskevia asetuksia" [ref=e44] [cursor=pointer]:
+          - generic "Lisää personointiasetuksia ja evästeitä koskevia asetuksia" [ref=e45]: Lisäasetukset
+      - generic [ref=e46]:
+        - link "Tietosuoja" [ref=e47] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=fi&fg=1&utm_source=ucbs
+        - generic [ref=e48]: ·
+        - link "Käyttöehdot" [ref=e49] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=fi&fg=1&utm_source=ucbs
+  - generic [ref=e54]:
+    - search [ref=e55]:
+      - generic [ref=e58]:
+        - link [ref=e59] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQpYkNCGw
+        - generic [ref=e60]:
+          - combobox [ref=e63]: 2026 US macroeconomic outlook inflation interest rates GDP federal reserve 2026 US macroeconomic outlook inflation interest rates GDP federal reserve
+          - generic [ref=e64]:
+            - button [ref=e66] [cursor=pointer]:
+              - img [ref=e68]
+            - generic [ref=e71]:
+              - button [ref=e72] [cursor=pointer]:
+                - img [ref=e74]
+              - button [ref=e76] [cursor=pointer]:
+                - img [ref=e77]
+              - button [ref=e79] [cursor=pointer]:
+                - img [ref=e80]
+        - button [ref=e82] [cursor=pointer]:
+          - img [ref=e85]
+    - generic [ref=e87]:
+      - button [ref=e89] [cursor=pointer]
+      - generic [ref=e90]:
+        - button [ref=e92] [cursor=pointer]:
+          - img [ref=e93]
+        - link [ref=e97] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3D2026%2BUS%2Bmacroeconomic%2Boutlook%2Binflation%2Binterest%2Brates%2BGDP%2Bfederal%2Breserve%26sei%3DkGvRaZLBLu2xwPAPzOetsQc&ec=futura_srp_og_si_72236_p
+          - text: Kirjaudu
+  - generic [ref=e99]:
+    - navigation [ref=e105]:
+      - list [ref=e110]:
+        - listitem [ref=e111]:
+          - link [ref=e114] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ2J8OegQIDRAE
+            - generic [ref=e117]: Tekoälytila
+        - listitem [ref=e118]:
+          - link [disabled] [ref=e119]:
+            - generic [ref=e121]: Kaikki
+        - listitem [ref=e122]:
+          - link [ref=e123] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQtKgLegQIJxAB
+            - generic [ref=e125]: Kuvahaku
+        - listitem [ref=e126]:
+          - link [ref=e127] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQs6gLegQIJhAB
+            - generic [ref=e129]: Lyhyet videot
+        - listitem [ref=e130]:
+          - link [ref=e131] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQtKgLegQIJRAB
+            - generic [ref=e133]: Videot
+        - listitem [ref=e134]:
+          - link [ref=e135] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQs6gLegQIJBAB
+            - generic [ref=e137]: Verkkohaku
+        - listitem [ref=e138]:
+          - link [ref=e139] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ0pQJegQIIxAB
+            - generic [ref=e141]: Teokset
+        - listitem [ref=e142]:
+          - button [ref=e143] [cursor=pointer]:
+            - generic [ref=e145]:
+              - generic [ref=e146]: Lisää
+              - img [ref=e148]
+    - heading [level=1] [ref=e150]: Hakutulokset
+    - generic [ref=e156]:
+      - generic [ref=e157]: Looking for results in English?
+      - link [ref=e158] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e160]
+      - link [ref=e162] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D2026%2BUS%2Bmacroeconomic%2Boutlook%2Binflation%2Binterest%2Brates%2BGDP%2Bfederal%2Breserve%26sei%3DkGvRaZLBLu2xwPAPzOetsQc&hl=en&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQhoQCKAF6BAgoEAQ
+        - text: Change to English
+      - link [ref=e163] [cursor=pointer]:
+        - /url: "#"
+        - text: Pidä Suomi
+      - link [ref=e165] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQiIQCKAN6BAgoEAY#languages
+        - text: Kieliasetukset
+    - main [ref=e167]:
+      - generic [ref=e171]:
+        - generic [ref=e174]:
+          - heading [level=2] [ref=e175]: Web results
+          - generic [ref=e176]:
+            - generic [ref=e179]:
+              - link [ref=e181] [cursor=pointer]:
+                - /url: https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260318.pdf
+                - heading [level=3] [ref=e182]: Summary of Economic Projections, March 18, 2026
+                - generic [ref=e187]:
+                  - generic [ref=e189]: Federal Reserve Board (.gov)
+                  - generic [ref=e191]: https://www.federalreserve.gov › files › fomcpro...
+              - generic [ref=e192]:
+                - generic:
+                  - generic: PDF
+              - button [ref=e193] [cursor=pointer]:
+                - img [ref=e196]
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - generic [ref=e200]: 18.3.2026 —
+                - generic [ref=e201]:
+                  - text: For
+                  - emphasis [ref=e202]: Federal Reserve
+                  - text: staff forecasts, measure is the federal funds
+                  - emphasis [ref=e203]: rate
+                  - text: . ... projections for
+                  - emphasis [ref=e204]: GDP
+                  - text: growth, the
+                  - emphasis [ref=e205]: unemployment rate
+                  - text: ", and"
+                  - emphasis [ref=e206]: inflation
+                  - text: .
+              - generic [ref=e207]: 17 sivua
+            - generic [ref=e209]:
+              - text: "Puuttuu: US ‎| Hae tällä:"
+              - link [ref=e210] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=2026+%22US%22+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ5t4CegQIDxAB
+                - text: US
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - link [ref=e219] [cursor=pointer]:
+              - /url: https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html
+              - heading [level=3] [ref=e220]: United States Economic Forecast 2026–2030
+              - generic [ref=e225]:
+                - generic [ref=e227]: Deloitte
+                - generic [ref=e229]: https://www.deloitte.com › economy
+            - generic [ref=e230]:
+              - generic [ref=e231]: ·
+              - link [ref=e232] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.deloitte.com/us/en/insights/topics/economy/us-economic-forecast/united-states-outlook-analysis.html&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e233] [cursor=pointer]:
+              - img [ref=e236]
+          - generic [ref=e239]:
+            - generic [ref=e240]: 27.3.2026 —
+            - generic [ref=e241]:
+              - text: The
+              - emphasis [ref=e242]: Federal Reserve
+              - text: delivered three quarter-point
+              - emphasis [ref=e243]: interest rate
+              - text: cuts in the second half of last year. With
+              - emphasis [ref=e244]: inflation
+              - text: moving higher throughout ...
+        - generic [ref=e248]:
+          - generic [ref=e251]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: https://www.imf.org/en/news/articles/2026/04/01/pr-26102-usa-imf-executive-board-concludes-2026-article-iv-consult
+              - heading [level=3] [ref=e254]: IMF Executive Board Concludes 2026 Article IV ...
+              - generic [ref=e259]:
+                - generic [ref=e261]: International Monetary Fund | IMF
+                - generic [ref=e263]: https://www.imf.org › 2026/04/01
+            - generic [ref=e264]:
+              - generic [ref=e265]: ·
+              - link [ref=e266] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.imf.org/en/news/articles/2026/04/01/pr-26102-usa-imf-executive-board-concludes-2026-article-iv-consult&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e267] [cursor=pointer]:
+              - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e274]: 2 päivää sitten —
+            - generic [ref=e275]:
+              - text: Growth is projected to rise to 2.4% in
+              - emphasis [ref=e276]: "2026"
+              - text: ", while fading tariff effects and lower oil prices should bring core PCE"
+              - emphasis [ref=e277]: inflation
+              - text: back to 2% during ...
+        - generic [ref=e281]:
+          - generic [ref=e284]:
+            - link [ref=e286] [cursor=pointer]:
+              - /url: https://www.spglobal.com/ratings/en/regulatory/article/economic-outlook-us-q2-2026-curb-your-enthusiasm-s101676533
+              - heading [level=3] [ref=e287]: "Economic Outlook U.S. Q2 2026: Curb Your Enthusiasm"
+              - generic [ref=e292]:
+                - generic [ref=e294]: S&P Global
+                - generic [ref=e296]: https://www.spglobal.com › article
+            - generic [ref=e297]:
+              - generic [ref=e298]: ·
+              - link [ref=e299] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.spglobal.com/ratings/en/regulatory/article/economic-outlook-us-q2-2026-curb-your-enthusiasm-s101676533&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e300] [cursor=pointer]:
+              - img [ref=e303]
+          - generic [ref=e306]:
+            - generic [ref=e307]: 25.3.2026 —
+            - generic [ref=e308]:
+              - text: S&P Global Ratings forecasts 2.2%
+              - emphasis [ref=e309]: GDP
+              - text: growth for the
+              - emphasis [ref=e310]: U.S.
+              - text: in
+              - emphasis [ref=e311]: "2026"
+              - text: ", followed by an average of 1.9% in 2027–2029. The baseline incorporates a ..."
+        - generic [ref=e315]:
+          - generic [ref=e318]:
+            - link [ref=e320] [cursor=pointer]:
+              - /url: https://corporate.vanguard.com/content/corporatesite/us/en/corp/vemo/vemo-united-states.html
+              - heading [level=3] [ref=e321]: Our economic outlook for the United States - Vanguard
+              - generic [ref=e326]:
+                - generic [ref=e328]: vanguard.com
+                - generic [ref=e330]: https://corporate.vanguard.com › us
+            - generic [ref=e331]:
+              - generic [ref=e332]: ·
+              - link [ref=e333] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://corporate.vanguard.com/content/corporatesite/us/en/corp/vemo/vemo-united-states.html&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e334] [cursor=pointer]:
+              - img [ref=e337]
+          - generic [ref=e340]:
+            - generic [ref=e341]: 3 päivää sitten —
+            - generic [ref=e342]:
+              - text: We have downgraded our
+              - emphasis [ref=e343]: "2026"
+              - text: real
+              - emphasis [ref=e344]: GDP
+              - text: growth
+              - emphasis [ref=e345]: forecast
+              - text: by 0.2 percentage points to 2.3%, reflecting firmer energy prices and emerging tariff pass‑ ...
+        - generic [ref=e349]:
+          - generic [ref=e352]:
+            - link [ref=e354] [cursor=pointer]:
+              - /url: https://libertystreeteconomics.newyorkfed.org/2026/03/the-new-york-fed-dsge-model-forecast-march-2026/
+              - heading [level=3] [ref=e355]: The New York Fed DSGE Model Forecast—March 2026
+              - generic [ref=e360]:
+                - generic [ref=e362]: Liberty Street Economics
+                - generic [ref=e364]: https://libertystreeteconomics.newyorkfed.org › ...
+            - generic [ref=e365]:
+              - generic [ref=e366]: ·
+              - link [ref=e367] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://libertystreeteconomics.newyorkfed.org/2026/03/the-new-york-fed-dsge-model-forecast-march-2026/&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e368] [cursor=pointer]:
+              - img [ref=e371]
+          - generic [ref=e374]:
+            - generic [ref=e375]: 20.3.2026 —
+            - generic [ref=e376]:
+              - text: To summarize,
+              - emphasis [ref=e377]: growth in 2026 is expected to be more robust
+              - text: ", and inflation more persistent, than predicted in December. Stronger investment is ..."
+        - generic [ref=e381]:
+          - generic [ref=e384]:
+            - link [ref=e386] [cursor=pointer]:
+              - /url: https://www.cbo.gov/publication/62105
+              - heading [level=3] [ref=e387]: "The Budget and Economic Outlook: 2026 to 2036"
+              - generic [ref=e392]:
+                - generic [ref=e394]: Congressional Budget Office (.gov)
+                - generic [ref=e396]: https://www.cbo.gov › publication
+            - generic [ref=e397]:
+              - generic [ref=e398]: ·
+              - link [ref=e399] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.cbo.gov/publication/62105&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e400] [cursor=pointer]:
+              - img [ref=e403]
+          - generic [ref=e406]:
+            - generic [ref=e407]: 11.2.2026 —
+            - generic [ref=e408]:
+              - text: The primary deficit declines over the same period, from 2.6 percent of
+              - emphasis [ref=e409]: GDP
+              - text: in
+              - emphasis [ref=e410]: "2026"
+              - text: to 2.1 percent in 2036, while net
+              - emphasis [ref=e411]: interest
+              - text: payments grow from ...
+        - generic [ref=e415]:
+          - generic [ref=e418]:
+            - link [ref=e420] [cursor=pointer]:
+              - /url: https://siepr.stanford.edu/publications/policy-brief/us-economy-2026-what-watch
+              - heading [level=3] [ref=e421]: "The U.S. economy in 2026: What to watch for"
+              - generic [ref=e426]:
+                - generic [ref=e428]: Stanford Institute for Economic Policy Research (SIEPR)
+                - generic [ref=e430]: https://siepr.stanford.edu › us-econ...
+            - generic [ref=e431]:
+              - generic [ref=e432]: ·
+              - link [ref=e433] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://siepr.stanford.edu/publications/policy-brief/us-economy-2026-what-watch&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e434] [cursor=pointer]:
+              - img [ref=e437]
+          - generic [ref=e441]:
+            - text: We expect this year to bring increased focus on the
+            - emphasis [ref=e442]: Federal Reserve's interest rates
+            - text: decisions, the weakening job market and AI's impact on it, valuations ...
+        - generic [ref=e446]:
+          - generic [ref=e449]:
+            - link [ref=e451] [cursor=pointer]:
+              - /url: https://ag.purdue.edu/commercialag/home/paer-article/the-outlook-for-the-u-s-economy-in-2026/
+              - heading [level=3] [ref=e452]: The Outlook for the U.S. Economy in 2026
+              - generic [ref=e457]:
+                - generic [ref=e459]: Purdue University - College of Agriculture
+                - generic [ref=e461]: https://ag.purdue.edu › paer-article
+            - generic [ref=e462]:
+              - generic [ref=e463]: ·
+              - link [ref=e464] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://ag.purdue.edu/commercialag/home/paer-article/the-outlook-for-the-u-s-economy-in-2026/&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e465] [cursor=pointer]:
+              - img [ref=e468]
+          - generic [ref=e471]:
+            - generic [ref=e472]: 23.3.2026 —
+            - generic [ref=e473]:
+              - text: The
+              - emphasis [ref=e474]: Federal Reserve's
+              - text: policy
+              - emphasis [ref=e475]: interest rate
+              - text: —the federal funds rate–was 4.3% through much of
+              - emphasis [ref=e476]: "2026"
+              - text: . The Fed was balancing the threats of slower ...
+        - generic [ref=e480]:
+          - generic [ref=e483]:
+            - link [ref=e485] [cursor=pointer]:
+              - /url: https://www.stlouisfed.org/on-the-economy/2025/dec/professional-forecasters-past-performance-outlook-2026
+              - heading [level=3] [ref=e486]: Professional Forecasters' Past Performance and the 2026 ...
+              - generic [ref=e491]:
+                - generic [ref=e493]: Federal Reserve Bank of St. Louis
+                - generic [ref=e495]: https://www.stlouisfed.org › dec
+            - generic [ref=e496]:
+              - generic [ref=e497]: ·
+              - link [ref=e498] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.stlouisfed.org/on-the-economy/2025/dec/professional-forecasters-past-performance-outlook-2026&hl=fi&sl=en&tl=fi&client=search
+                - text: Käännä tämä sivu
+            - button [ref=e499] [cursor=pointer]:
+              - img [ref=e502]
+          - generic [ref=e505]:
+            - generic [ref=e506]: 18.12.2025 —
+            - generic [ref=e507]:
+              - text: Forecasters now expect
+              - emphasis [ref=e508]: GDP
+              - text: growth to continue at a similar
+              - emphasis [ref=e509]: rate
+              - text: in
+              - emphasis [ref=e510]: "2026"
+              - text: ", with both the"
+              - emphasis [ref=e511]: unemployment rate
+              - text: and CPI
+              - emphasis [ref=e512]: inflation
+              - text: to tick up.
+              - emphasis [ref=e513]: Interest
+              - text: ...
+      - generic [ref=e515]:
+        - generic [ref=e520]:
+          - heading [level=2] [ref=e522]: Ihmiset hakevat myös näitä
+          - generic [ref=e524]:
+            - generic [ref=e525]:
+              - link [ref=e529] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Economic+forecast+for+next+5+years&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAgvEAE
+                - generic [ref=e530]:
+                  - generic [ref=e535]: Economic forecast for next 5 years
+                  - img [ref=e539]
+              - link [ref=e544] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=US+economic+forecast+2026&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAg0EAE
+                - generic [ref=e545]:
+                  - generic [ref=e550]: US economic forecast 2026
+                  - img [ref=e554]
+              - link [ref=e559] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=How+strong+is+the+U.S.+economy+today&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAgzEAE
+                - generic [ref=e560]:
+                  - generic [ref=e565]: How strong is the U.S. economy today
+                  - img [ref=e569]
+              - link [ref=e574] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+economic+outlook&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAgyEAE
+                - generic [ref=e575]:
+                  - generic [ref=e580]: U.S. economic outlook
+                  - img [ref=e584]
+            - generic [ref=e586]:
+              - link [ref=e590] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+economic+forecast+for+next+10+years&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAgtEAE
+                - generic [ref=e591]:
+                  - generic [ref=e596]: U.S. economic forecast for next 10 years
+                  - img [ref=e600]
+              - link [ref=e605] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+GDP+forecast+2030&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAguEAE
+                - generic [ref=e606]:
+                  - generic [ref=e611]: U.S. GDP forecast 2030
+                  - img [ref=e615]
+              - link [ref=e620] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Will+the+economy+get+better+in+2026&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAgxEAE
+                - generic [ref=e621]:
+                  - generic [ref=e626]: Will the economy get better in 2026
+                  - img [ref=e630]
+              - link [ref=e635] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+growth+forecast+2026&sa=X&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ1QJ6BAgwEAE
+                - generic [ref=e636]:
+                  - generic [ref=e641]: U.S. growth forecast 2026
+                  - img [ref=e645]
+        - navigation [ref=e647]:
+          - heading [level=1] [ref=e648]: Sivuilla liikkuminen
+          - text: "1"
+          - link [ref=e651] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=10&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAE
+            - text: "2"
+          - link [ref=e653] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=20&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAG
+            - text: "3"
+          - link [ref=e655] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=30&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAI
+            - text: "4"
+          - link [ref=e657] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=40&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAK
+            - text: "5"
+          - link [ref=e659] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=50&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAM
+            - text: "6"
+          - link [ref=e661] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=60&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAO
+            - text: "7"
+          - link [ref=e663] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=70&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAQ
+            - text: "8"
+          - link [ref=e665] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=80&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAS
+            - text: "9"
+          - link [ref=e667] [cursor=pointer]:
+            - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=90&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8tMDegQIKxAU
+            - text: "10"
+          - heading [level=2] [ref=e669]:
+            - link [ref=e670] [cursor=pointer]:
+              - /url: /search?q=2026+US+macroeconomic+outlook+inflation+interest+rates+GDP+federal+reserve&sca_esv=f72dd7b5cfdb5d01&ei=kWvRadrCEP7xwPAPxI_RyQM&start=10&sa=N&sstk=Af77f_cSUZMY2P3rycekeo_Q63aJoBYU1kUHnTByRBhAyhCoGQuoLyv9Ovz_abSlhthCrmrYh_l-kkqhPwQp6yELOHwIIiYr_G66UQ&ved=2ahUKEwiaz-X8-9STAxX-OBAIHcRHNDkQ8NMDegQIKxAW
+              - generic [ref=e672]: Seuraava
+    - contentinfo [ref=e673]:
+      - heading [level=1] [ref=e674]: Alatunnisteen linkit

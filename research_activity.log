@@ -1,0 +1,26 @@
+# Research Activity Log
+
+| Timestamp | Task ID | Action | Result | Notes |
+|-----------|---------|--------|--------|-------|
+| 2026-04-05T10:05 | TASK-1.1 | Google SERP: "drone training" "EASA" European platform 2024/2025 | COMPLETE | Found OmniDrones, Droniq, CITA, EagleNxt, Avtrain, ProFlyCenter, Cloudia, EU Drone Port |
+| 2026-04-05T10:08 | TASK-1.2 | Google SERP: droneii.com "drone market" 2024/2025 | COMPLETE | Found DroneII Market Report 2025-2030, State of Drone Industry 2025, Market Size infographic, Scribd sample |
+| 2026-04-05T10:09 | TASK-1.2 | Playwright: fetch droneii.com/the-state-of-the-drone-industry | COMPLETE | Extracted full survey results: 768 respondents, 87 countries, top applications, challenges, expectations |
+| 2026-04-05T10:09 | TASK-1.3 | Google SERP: Coptrz/UAV Hub/DroneDeploy Academy competitors | COMPLETE | Found Coptrz GVC, DroneLicense.eu, Drone Launch Academy, Heliguy |
+| 2026-04-05T10:09 | TASK-1.3 | Google SERP: best European drone training platforms EASA online | COMPLETE | Found Droniq, OmniDrones, EU Drone Port, DroneFlightAcademy, DroneLicense.eu, AirHub |
+| 2026-04-05T10:10 | TASK-2.1 | Playwright: fetch coptrz.com/drone-training/ | COMPLETE | Extracted 60+ course catalog: GVC, thermography, domain-specific courses, business startup |
+| 2026-04-05T10:11 | TASK-2.1 | Playwright: fetch dronelicense.eu | COMPLETE | Extracted: 65K+ trained, 95%+ pass rate, pan-EU A1/A2/STS, €49-149 pricing |
+| 2026-04-05T10:11 | TASK-2.1 | Playwright: fetch droniq.de/en/drohnenfuehrerschein/ | COMPLETE | Extracted: Full pricing table (A1/A3 €25, A2 €95-248, STS €199), LBA certified |
+| 2026-04-05T10:11 | TASK-2.3 | Playwright: fetch easa.europa.eu drones FAQs | COMPLETE | Extracted: Full FAQ structure for Open + Specific categories |
+| 2026-04-05T10:12 | TASK-2.3 | Playwright: fetch EASA Open Category page | COMPLETE | Extracted: A1/A2/A3 subcategory requirements table, class identification labels |
+| 2026-04-05T10:12 | TASK-2.3 | Playwright: fetch EASA Specific Category page | COMPLETE | Extracted: STS/PDRA/SORA/LUC pathways, Operations Manual requirements |
+| 2026-04-05T10:12 | TASK-2.2 | Playwright: fetch droneii.com/drone-market-growth-in-2025-and-beyond | COMPLETE | Extracted: $57.8B by 2030, regional breakdown, 73% VC decline, top applications |
+| 2026-04-05T10:12 | TASK-3.1 | Google SERP: ROS2 PX4 Jetson PyTorch edge AI drone course | COMPLETE | Found EdYoda (Autonomous Drone Programming + Drone Development Architect), academic papers |
+| 2026-04-05T10:13 | TASK-3.1 | Google SERP: "autonomous drone" MLOps Docker PX4 ArduPilot | COMPLETE | Found EdYoda, open-source drone programming course (MDPI), hackmag Docker+PX4 guide |
+| 2026-04-05T10:13 | TASK-3.1 | Playwright: fetch edyoda.com autonomous drone programming | COMPLETE | Extracted: Full 8-module syllabus, pricing (€550), 6-week format, PX4+ROS2+AI+Jetson |
+| 2026-04-05T10:13 | TASK-3.1 | Playwright: fetch edyoda.com drone development architect | COMPLETE | Extracted: Full 12-module syllabus, pricing (€775), hardware + software combined |
+| 2026-04-05T10:14 | TASK-3.2/3.3 | Write synthesis: Training Blueprint + MLOps breakdown | COMPLETE | 6-track curriculum architecture with 40+ modules |
+| 2026-04-05T10:14 | TASK-4.1-4.3 | Cross-verification against EASA official sources | COMPLETE | All regulatory claims verified against easa.europa.eu |
+| 2026-04-05T10:15 | TASK-5.1 | Write synthesis: Formal Competitive Matrix (5 competitors) | COMPLETE | Matrix with 15 feature dimensions |
+| 2026-04-05T10:15 | TASK-5.2 | Write synthesis: App Feature-List Breakdown | COMPLETE | 30+ features across 5 epics with P0/P1/P2 priorities |
+| 2026-04-05T10:15 | TASK-5.3 | Write synthesis: Business Opportunities + Revenue Model | COMPLETE | 10 niche analysis + 7 revenue streams |
+| 2026-04-05T10:16 | TASK-FINAL | Write research_narrator_summary.md (TTS-optimized) | COMPLETE | ~3500 word flowing narrative |

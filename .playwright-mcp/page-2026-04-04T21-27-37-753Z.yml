@@ -1,0 +1,737 @@
+- generic:
+  - generic:
+    - generic:
+      - link:
+        - /url: "#main-content"
+        - text: Siirry pääsisältöön
+      - banner:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /
+                          - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - button:
+                                            - generic:
+                                              - generic:
+                                                - generic: FI
+                                                - img
+                                - generic:
+                                  - list:
+                                    - button:
+                                      - generic: Avaa tili
+                                    - button:
+                                      - generic: Kirjaudu
+                              - generic:
+                                - button:
+                                  - img
+                        - generic:
+                          - generic:
+                            - generic:
+                              - button:
+                                - generic:
+                                  - generic:
+                                    - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /palvelut/tilit/osakesaastotili
+                        - generic: Osakesäästötili (OST)
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /palvelut/tilit/osakesaastotili/mihin-sijoittaa
+                        - generic: Mihin sijoittaa osakesäästötilillä?
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /osakkeet/ideat
+                        - generic: Lisää osakeideoita
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: /palvelut/tilit
+                        - generic: Muut tilityypit
+      - generic:
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=1]: Osakesäästötili (OST)
+                                - generic:
+                                  - heading [level=2]: Osakekaupat ja osingot tilillä verovapaasti
+                              - generic:
+                                - generic:
+                                  - link:
+                                    - /url: /avaa-tili/avaa?accountType=ESA
+                                    - generic: Avaa osakesäästötili
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Maksimoi säästöjesi kasvu
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - paragraph: Osakesäästötili (OST) on verotehokas sijoitustili, jolle voit tallettaa rahaa korkeintaan 100 000 €, kerralla tai erissä. Voit sijoittaa osakesäästötilin kautta koti- ja ulkomaisiin pörssiosakkeisiin ja maksat mahdollisesta voitosta veroa vasta siirtäessäsi rahaa ulos osakesäästötililtäsi.
+                                    - generic:
+                                      - generic:
+                                        - paragraph: Nordnetin osakesäästötili on Suomen suosituin. Ei avaus- tai säilytysmaksuja. Osakekaupat alk. 3 €/kpl.
+                                  - generic:
+                                    - link:
+                                      - /url: /info/turvallisuus
+                                      - generic: Lue lisää talletussuojasta
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Tili on Ruotsin valtiovarainministeriön (Riksgälden) päätöksellä ruotsalaisen talletustakuun piirissä. Jokaisella asiakkaalla on oikeus saada enimmäismäärältään 100 000 euron korvaus Nordnetissä olevien tiliensä kokonaissaldosta. Tämän summan lisäksi tilinomistaja voi lain mukaan saada tietyin edellytyksin korkeintaan 5 miljoonaa Ruotsin kruunua korvausta sellaisten talletusten osalta, jotka liittyvät tiettyihin Ruotsin laissa määriteltyihin elämäntapahtumiin. Riksgälden maksaa korvauksen seitsemän arkipäivän kuluessa siitä, kun pankki asetettiin konkurssiin tai kun Ruotsin Finansinspektionen on antanut päätöksen talletustakuun astumisesta voimaan. Lisätietoja on osoitteessa www.riksgalden.se.
+                                      - paragraph: Säilytystilillä olevat rahoitusvälineet ovat Ruotsin sijoittajansuojalain (1999:158) mukaisen sijoittajansuojan piirissä. Asiakkaalla on oikeus saada enintään 250 000 kruunun suuruinen erityiskorvaus, jos hän ei Nordnet Bank AB:n konkurssin sattuessa pystyisi saamaan rahoitusvälineitään takaisin säilytystililtään. Asiakkaan, joka haluaa korvausta, on viimeistään vuoden kuluessa konkurssipäätöksestä esitettävä vaatimus Riksgäldenille, joka harkinnan jälkeen maksaa korvauksen. Lisätietoja on osoitteessa www.riksgalden.se.
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - generic:
+                                        - img
+                                      - generic:
+                                        - paragraph: Osakekaupat ja osingot tilillä verovapaasti.
+                                    - listitem:
+                                      - generic:
+                                        - img
+                                      - generic:
+                                        - paragraph: Maksat veroja voitoista vasta, kun nostat tililtä rahaa.
+                                    - listitem:
+                                      - generic:
+                                        - img
+                                      - generic:
+                                        - paragraph: Yksityishenkilöllä voi olla käytössään vain yksi osakesäästötili.
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Avaa osakesäästötili aikuiselle tai lapselle
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Tilin avaaminen on maksutonta ja vie vain muutaman minuutin. Osakesäästötili voidaan avata myös lapselle.
+                                - paragraph: Lainsäädännössä olevan rajoituksen mukaan sinulla voi olla ainoastaan yksi voimassa oleva osakesäästötili kerrallaan, lukuun ottamatta palveluntarjoajan vaihtamisesta johtuvaa väliaikaista tilannetta. Jos osakesäästötilin avaa useampaan kuin yhteen pankkiin, verottaja voi periä takautuvasti lisäveroa jokaisesta tilistä 10 euroa päivässä.
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: "Jos olet jo asiakas Nordnetissä:"
+                              - generic:
+                                - list:
+                                  - listitem:
+                                    - paragraph: Kirjaudu sisään Nordnetin verkkopalveluun.
+                                  - listitem:
+                                    - paragraph: Klikkaa Uusi tili -painiketta Tilit-otsikon alla.
+                                  - listitem:
+                                    - paragraph: Klikkaa Avaa Osakesäästötili -painiketta ja seuraa ohjeita.
+                              - generic:
+                                - link:
+                                  - /url: /avaa-tili/avaa?accountType=ESA
+                                  - text: Avaa OST asiakkaana
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: "Jos et ole vielä asiakas:"
+                              - generic:
+                                - list:
+                                  - listitem:
+                                    - paragraph: Aloita klikkaamalla painiketta alta. Kun olet tekemässä hakemusta, näet Salkku-otsikon alla kohdan Osakesäästötili. Lisää kohtaan ruksi.
+                                  - listitem:
+                                    - paragraph: Täytä asiakashakemus ja allekirjoita se verkkopankkitunnuksillasi. Osakesäästötilisi on tämän jälkeen avattu!
+                              - generic:
+                                - link:
+                                  - /url: /onboarding
+                                  - text: Avaa asiakkuus
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: "Avaa osakesäästötili lapselle:"
+                              - generic:
+                                - list:
+                                  - listitem:
+                                    - paragraph: Täytä lapsen asiakashakemus. Lisää ruksi hakemuksen kohtaan Osakesäästötili.
+                                  - listitem:
+                                    - paragraph: Täytä hakemukseen alaikäisen sekä molempien vanhempien tiedot. Kun tiedot on täytetty, vanhemmat saavat sähköpostiinsa linkin, jolla sopimuksen voi allekirjoittaa verkkopankkitunnuksilla.
+                                  - listitem:
+                                    - paragraph: Nordnet käsittelee hakemuksen, kun kaikki osapuolet ovat allekirjoittaneet sen. Käsittelyssä voi mennä muutama päivä.
+                              - generic:
+                                - link:
+                                  - /url: /palvelut/tilit/lapselle-saastaminen
+                                  - text: Lapselle säästäminen
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Mikä on osakesäästötili?
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - paragraph: Osakesäästötili tarkoittaa tiliä, jonka sisällä voit käydä kauppaa osakkeilla verovapaasti. Myöskään mahdollisista osingoista ei peritä veroa niin kauan, kun raha pysyy tilin sisällä. Verotettavaa tuottoa syntyy vasta, kun teet tililtä noston tai kun lakkautat osakesäästötilisi.
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=3]:
+                                          - button:
+                                            - generic:
+                                              - generic: Mitä eroja osakesäästötilin ja arvo-osuustilin välillä on?
+                                            - generic:
+                                              - img
+                                      - generic:
+                                        - heading [level=3]:
+                                          - button:
+                                            - generic:
+                                              - generic: Voiko olla osakesäästötili ja arvo-osuustili?
+                                            - generic:
+                                              - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Kuusi syytä avata osakesäästötili Nordnetiin
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: 1. Tili, verkkopalvelu, säilytys ja striimaavat kurssit 0 €
+                              - generic:
+                                - paragraph: Ei avaus-, kuukausi-, verkkopankkitunnus- tai säilytysmaksuja. Asiakkuuden ja osakesäästötilin hinta on siis 0 €. Käytössäsi on myös reaaliaikaisesti striimaavat kurssit pohjoismaisille osakkeille maksutta.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: "2. Uusasiakastarjous: käy kauppaa 2 kk alk. 3 € Helsingin pörssissä"
+                              - generic:
+                                - paragraph: "Uutena asiakkaana käyt kauppaa osakesäästötilillä vähintään kaksi ensimmäistä kalenterikuukautta hinnaston parhaalla tasolla 1: 0,06 % min. 3 €/toimeksianto Helsingin pörssissä. Jos avaat osakesäästötilisi nykyisenä asiakkaana, sama etu on käytössäsi kuluvan kuun/tilinavauskuukauden ajan."
+                              - generic:
+                                - link:
+                                  - /url: /palvelut/hinnasto
+                                  - text: Tutustu hinnastoon
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: 3. Ideoita menestyviltä sijoittajilta ja analyyseistä
+                              - generic:
+                                - paragraph:
+                                  - text: Nordnetin kautta saat pääsyn mm.
+                                  - link:
+                                    - /url: /koulu/nain-selvitat-osakkeen-tavoitehinnan
+                                    - text: analyytikoiden suosituksiin
+                                  - text: ja tavoitehintoihin. Sharevillessä seuraat muita sijoittajia ja näet reaaliajassa, mitä he ostavat ja myyvät.
+                              - generic:
+                                - link:
+                                  - /url: /opi-uutta/shareville
+                                  - text: Tutustu Sharevilleen
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: 4. Tutkitusti Suomen laadukkain veroraportointi
+                              - generic:
+                                - paragraph: Automaattinen veroraportointi säästää aikaasi. Nordnet on saanut riippumattomassa Välittäjä-tutkimuksessa korkeat pisteet raportoinnin kaikilla osa-alueilla, kuten virheettömyydessä ja kattavuudessa.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: 5. Mahdollisuus osallistua listautumisanteihin
+                              - generic:
+                                - paragraph: Nordnetissä voit osallistua listautumisanteihin osakesäästötilin kautta.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - img
+                              - generic:
+                                - heading [level=3]: 6. Pääomaa salkkua vastaan
+                              - generic:
+                                - paragraph: Nordnetistä saat lainarahoitusta omistuksiasi vastaan. Korkoa maksat vain käyttämästäsi luotosta, eli silloin, kun salkkusi saldo on negatiivinen. Luottoa voit käyttää luottorajasi (limiittisi) puitteissa niin paljon kuin haluat, milloin haluat ja mihin haluat. Vaikka osakesäästötilisijoituksiin.
+                              - generic:
+                                - link:
+                                  - /url: /palvelut/private-banking/sijoituslaina
+                                  - text: Tutustu sijoituslainaan
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Osakesäästötili, osingot ja verotus
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - paragraph: "Pitkäjänteiselle osinkosijoittajalle osakesäästötili antaa avaimet korkoa korolle -efektin täysimääräiseen hyödyntämiseen, mutta lyhyellä aikavälillä osinkoverotus suosii arvo-osuustilisijoittajaa. Osinkojen verotus arvo-osuustilien ja osakesäästötilien välillä poikkeaa seuraavasti:"
+                                    - generic:
+                                      - generic:
+                                        - list:
+                                          - listitem:
+                                            - paragraph: "Arvo-osuustili: 85 % osingoista veronalaista tuloa, jota verotetaan pääomatuloveroprosentin mukaisesti."
+                                          - listitem:
+                                            - paragraph: "Osakesäästötili: Tilin sisällä osinkoja ei veroteta, mutta kaikki arvonnousu verotetaan pääomatuloveroprosentin mukaisesti varoja tililtä nostettaessa."
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=3]:
+                                          - button:
+                                            - generic:
+                                              - generic: "Lue lisää: osinkoverotuksen erot tilityyppien välillä: OST vs. AOT."
+                                            - generic:
+                                              - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - heading [level=2]: Osingot arvo-osuustilille vai osakesäästötilille?
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Sopivan tilityypin valinta riippuu niin sijoitushorisontista kuin sijoitusstrategiastakin, mutta alla olevaan taulukkoon on koottu muutamia karkeita nyrkkisääntöjä, joiden avulla voit maksimoida osingoista saatavan hyödyn.
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - table:
+                                        - generic:
+                                          - row:
+                                            - columnheader:
+                                              - generic: Miten sijoitat?
+                                            - columnheader:
+                                              - generic: AOT
+                                            - columnheader:
+                                              - generic: OST
+                                            - columnheader:
+                                              - generic: SV
+                                          - row:
+                                            - cell:
+                                              - generic: Sijoitushorisontti alle 5 vuotta
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Pitkä sijoitushorisontti (5+ vuotta)
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Yrityksen lukuun
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Alaikäisen lukuun
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Rahastoihin/ETF:iin
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Tuotto-osuudellisiin ETF:iin
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                  - text: (pääomatulovero)
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                  - text: (ei veroja tilin sisällä)
+                                          - row:
+                                            - cell:
+                                              - generic: Suomalaisiin osinko-osakkeisiin
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Ulkomaisiin osinko-osakkeisiin
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Osallistun listautumisanteihin
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Uudelleensijoitan osingot
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Kuukausisäästän
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                  - text: Rahastot ja ETF:t
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                  - text: Tulossa rahastoihin ja ETF:iin
+                                          - row:
+                                            - cell:
+                                              - generic: Haluan nostaa osinkoja salkusta elämiseen
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                          - row:
+                                            - cell:
+                                              - generic: Haluan hyödyntää osakkeita heti tai myöhemmin sijoituslainan vakuutena
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                  - text: Tulossa
+                                          - row:
+                                            - cell:
+                                              - generic: Arvopaperien siirtäminen tilille/tililtä
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                                                  - text: Vain koko tili
+                                            - cell:
+                                              - generic:
+                                                - generic:
+                                                  - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - heading [level=2]: Usein kysyttyä osakesäästötiliin liittyen
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Mikä on osakesäästötili?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Kannattaako osakkeet ostaa osakesäästötilille (OST) vai osake- ja rahastosalkkuun eli arvo-osuustilille (AOT)?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Miten OST-sijoitukset vaikuttavat opintotukeen ja muihin Kelan etuuksiin?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Miten teen noston osakesäästötililtäni?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                            - generic:
+                                              - heading [level=3]:
+                                                - button:
+                                                  - generic:
+                                                    - generic: Miten siirrän osakesäästötilin Nordnetiin tai Nordnetistä?
+                                                  - generic:
+                                                    - generic:
+                                                      - img
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - link:
+                                              - /url: /faq/osakesaastotili
+                                              - generic:
+                                                - generic: Lisää kysymyksiä osakesäästötilistä
+                                                - img
+                                            - link:
+                                              - /url: /palvelut/tilit/osakesaastotili/lisatietoa-osakesaastotilista
+                                              - generic:
+                                                - generic: Syventävää tietoa osakesäästötilin verotuksesta ym.
+                                                - img
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Nordnet
+                              - generic:
+                                - img
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Asiakaspalvelu
+                              - generic:
+                                - img
+                      - generic:
+                        - generic:
+                          - heading [level=3]:
+                            - button:
+                              - generic:
+                                - generic: Tietoa palvelusta
+                              - generic:
+                                - img
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: https://facebook.com/nordnetfi
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://twitter.com/nordnetFI
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://www.instagram.com/nordnetsuomi/
+                          - generic:
+                            - img
+                      - listitem:
+                        - link:
+                          - /url: https://www.youtube.com/nordnetsuomi
+                          - generic:
+                            - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: "Byt språk: svenska / finska"
+                                  - generic:
+                                    - button:
+                                      - generic:
+                                        - generic:
+                                          - generic: Suomi (FI)
+                                    - img
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: © 2026 Nordnet Bank AB.
+                    - generic:
+                      - generic:
+                        - generic: Nordnet | Alvar Aallon katu 5 C, 3. krs | FI-00100 Helsinki
+  - dialog "Päätä valinnaisista evästeistä" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "Päätä valinnaisista evästeistä" [level=2] [ref=e6]
+        - paragraph [ref=e7]:
+          - text: Evästeet auttavat meitä personoimaan käyttökokemuksesi, analysoimaan sivuston käyttöä ja näyttämään olennaista viestintää tuotteistamme ja palveluistamme. Voit peruuttaa suostumuksesi milloin tahansa.
+          - button "Mukauta evästeeni." [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - button "Hyväksy" [ref=e10] [cursor=pointer]
+        - button "Hylkää" [ref=e11] [cursor=pointer]

@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: LangChain RAG financial advisor chatbot tutorial 2025 2026 Python vector store OpenAI function calling architecture LangChain RAG financial advisor chatbot tutorial 2025 2026 Python vector store OpenAI function calling architecture
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DLangChain%2BRAG%2Bfinancial%2Badvisor%2Bchatbot%2Btutorial%2B2025%2B2026%2BPython%2Bvector%2Bstore%2BOpenAI%2Bfunction%2Bcalling%2Barchitecture&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQtKgLegQIEhAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ0pQJegQIEBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQs6gLegQIERAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DLangChain%2BRAG%2Bfinancial%2Badvisor%2Bchatbot%2Btutorial%2B2025%2B2026%2BPython%2Bvector%2Bstore%2BOpenAI%2Bfunction%2Bcalling%2Barchitecture&hl=en&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQiIQCKAN6BAgMEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Build a RAG agent with LangChain LangChain https://docs.langchain.com › python" [ref=e154] [cursor=pointer]:
+                - /url: https://docs.langchain.com/oss/python/langchain/rag
+                - heading "Build a RAG agent with LangChain" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: LangChain
+                  - generic [ref=e164]: https://docs.langchain.com › python
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://docs.langchain.com/oss/python/langchain/rag
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e175]:
+              - text: This
+              - emphasis [ref=e176]: tutorial
+              - text: "will show how to build a simple Q&A application over an unstructured text data source. We will demonstrate: A"
+              - emphasis [ref=e177]: RAG
+              - text: agent that executes searches ...
+            - generic [ref=e179]: "Puuttuu: financial ‎2026"
+        - generic [ref=e183]:
+          - generic [ref=e186]:
+            - 'link "LangChain Python Tutorial: A Complete Guide for 2026 The JetBrains Blog https://blog.jetbrains.com › 2026/02" [ref=e188] [cursor=pointer]':
+              - /url: https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/
+              - 'heading "LangChain Python Tutorial: A Complete Guide for 2026" [level=3] [ref=e189]'
+              - generic [ref=e194]:
+                - generic [ref=e196]: The JetBrains Blog
+                - generic [ref=e198]: https://blog.jetbrains.com › 2026/02
+            - generic [ref=e199]:
+              - generic [ref=e200]: ·
+              - link "Käännä tämä sivu" [ref=e201] [cursor=pointer]:
+                - /url: https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/
+            - button "Tietoja tästä tuloksesta" [ref=e202] [cursor=pointer]:
+              - img [ref=e205]
+          - generic [ref=e208]:
+            - generic [ref=e209]: 19.2.2026 —
+            - generic [ref=e210]:
+              - emphasis [ref=e211]: Learn how to build AI agents with LangChain in 2026
+              - text: – from chatbots and document Q&A to tools, guardrails, testing, and debugging in ...
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - 'link "Build RAG Chatbot with LangChain ... Zilliz: Vector Database https://zilliz.com › tutorials › rag" [ref=e220] [cursor=pointer]':
+              - /url: https://zilliz.com/tutorials/rag/langchain-and-langchain-vector-store-and-openai-gpt-o1-and-openai-text-embedding-ada-002
+              - heading "Build RAG Chatbot with LangChain ..." [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: "Zilliz: Vector Database"
+                - generic [ref=e230]: https://zilliz.com › tutorials › rag
+            - generic [ref=e231]:
+              - generic [ref=e232]: ·
+              - link "Käännä tämä sivu" [ref=e233] [cursor=pointer]:
+                - /url: https://zilliz.com/tutorials/rag/langchain-and-langchain-vector-store-and-openai-gpt-o1-and-openai-text-embedding-ada-002
+            - button "Tietoja tästä tuloksesta" [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+          - generic [ref=e241]:
+            - text: This
+            - emphasis [ref=e242]: tutorial
+            - text: shows you how to build a simple
+            - emphasis [ref=e243]: RAG chatbot
+            - text: in
+            - emphasis [ref=e244]: Python
+            - text: "using the following components:"
+        - generic [ref=e248]:
+          - generic [ref=e251]:
+            - link "How to Build Your First RAG Chatbot Using Python and ... Medium · ITLearningAi 2 kuukautta sitten" [ref=e253] [cursor=pointer]:
+              - /url: https://medium.com/@itlearningai/how-to-build-your-first-rag-chatbot-using-python-and-langchain-complete-tutorial-98e0a9220fd0
+              - heading "How to Build Your First RAG Chatbot Using Python and ..." [level=3] [ref=e254]
+              - generic [ref=e259]:
+                - generic [ref=e261]: Medium · ITLearningAi
+                - generic [ref=e263]: 2 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e264] [cursor=pointer]:
+              - img [ref=e267]
+          - generic [ref=e271]:
+            - emphasis [ref=e272]: Step-by-step guide to creating a RAG chatbot with Python and LangChain
+            - text: . Discover best practices, Python code examples, and tips for building ...
+        - generic [ref=e276]:
+          - generic [ref=e279]:
+            - link "Building a Secure RAG with Python, LangChain, and ... Auth0 https://auth0.com › blog › building..." [ref=e281] [cursor=pointer]:
+              - /url: https://auth0.com/blog/building-a-secure-rag-with-python-langchain-and-openfga/
+              - heading "Building a Secure RAG with Python, LangChain, and ..." [level=3] [ref=e282]
+              - generic [ref=e287]:
+                - generic [ref=e289]: Auth0
+                - generic [ref=e291]: https://auth0.com › blog › building...
+            - generic [ref=e292]:
+              - generic [ref=e293]: ·
+              - link "Käännä tämä sivu" [ref=e294] [cursor=pointer]:
+                - /url: https://auth0.com/blog/building-a-secure-rag-with-python-langchain-and-openfga/
+            - button "Tietoja tästä tuloksesta" [ref=e295] [cursor=pointer]:
+              - img [ref=e298]
+          - generic [ref=e302]:
+            - emphasis [ref=e303]: LangChain is a library that streamlines building LLM applications
+            - text: by assembling different components—like loading documents, vector stores, and prompt templates ...
+        - generic [ref=e310]:
+          - generic [ref=e313]:
+            - link "Build a Chatbot with RAG in 10 minutes | Python, LangChain ... YouTube · Thomas Janssen Yli 37,4 t. katselukertaa · 1 vuosi sitten" [ref=e315] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=xf3gAFclwqo
+              - heading "Build a Chatbot with RAG in 10 minutes | Python, LangChain ..." [level=3] [ref=e316]
+              - generic [ref=e321]:
+                - generic [ref=e323]: YouTube · Thomas Janssen
+                - generic [ref=e325]: Yli 37,4 t. katselukertaa · 1 vuosi sitten
+            - button "Tietoja tästä tuloksesta" [ref=e326] [cursor=pointer]:
+              - img [ref=e329]
+          - generic [ref=e331]:
+            - 'button "Build a Chatbot with RAG in 10 minutes | Python, LangChain ..., tekijä: Thomas Janssen, alusta: YouTube. Katso Googlessa. 9:46" [ref=e332] [cursor=pointer]':
+              - generic [ref=e334]:
+                - img [ref=e340]
+                - generic [ref=e343]:
+                  - generic [ref=e344]: 9:46
+                  - img [ref=e347]
+            - generic [ref=e350]: Are you tired of getting generic responses from a chatbot? Retrieval Augmented Generation (RAG) allows you to provide context to your ...
+          - generic [ref=e352]: "Puuttuu: financial ‎advisor ‎2025 ‎2026 ‎store ‎function ‎calling"
+        - generic [ref=e356]:
+          - generic [ref=e359]:
+            - link "How to Build a Langchain Chatbot with Memory in Python? ProjectPro https://www.projectpro.io › article" [ref=e361] [cursor=pointer]:
+              - /url: https://www.projectpro.io/article/langchain-chatbot/1106
+              - heading "How to Build a Langchain Chatbot with Memory in Python?" [level=3] [ref=e362]
+              - generic [ref=e367]:
+                - generic [ref=e369]: ProjectPro
+                - generic [ref=e371]: https://www.projectpro.io › article
+            - generic [ref=e372]:
+              - generic [ref=e373]: ·
+              - link "Käännä tämä sivu" [ref=e374] [cursor=pointer]:
+                - /url: https://www.projectpro.io/article/langchain-chatbot/1106
+            - button "Tietoja tästä tuloksesta" [ref=e375] [cursor=pointer]:
+              - img [ref=e378]
+          - generic [ref=e381]:
+            - generic [ref=e382]: 13.3.2025 —
+            - generic [ref=e383]:
+              - text: In this blog, we'll explore how
+              - emphasis [ref=e384]: LangChain can be used to build intelligent, memory-enhanced chatbots
+              - text: capable of leveraging text data for more accurate ...
+        - generic [ref=e388]:
+          - generic [ref=e391]:
+            - link "How to Build a RAG Chatbot with LangChain and OpenAI LinkedIn https://www.linkedin.com › posts" [ref=e393] [cursor=pointer]:
+              - /url: https://www.linkedin.com/posts/nitin-shekhawat_langchain-openai-rag-activity-7363859072149815296-tGEF
+              - heading "How to Build a RAG Chatbot with LangChain and OpenAI" [level=3] [ref=e394]
+              - generic [ref=e399]:
+                - generic [ref=e401]: LinkedIn
+                - generic [ref=e403]: https://www.linkedin.com › posts
+            - generic [ref=e404]:
+              - generic [ref=e405]: ·
+              - link "Käännä tämä sivu" [ref=e406] [cursor=pointer]:
+                - /url: https://www.linkedin.com/posts/nitin-shekhawat_langchain-openai-rag-activity-7363859072149815296-tGEF
+            - button "Tietoja tästä tuloksesta" [ref=e407] [cursor=pointer]:
+              - img [ref=e410]
+          - generic [ref=e413]:
+            - generic [ref=e414]: 20.8.2025 —
+            - generic [ref=e415]:
+              - emphasis [ref=e416]: Building Your Own RAG Chatbot
+              - text: ": From Setup to Data Ingestion Over the past few days, I've been experimenting with setting up a RAG-powered ..."
+        - generic [ref=e420]:
+          - generic [ref=e423]:
+            - link "How to Build Agentic AI with LangChain and LangGraph Codecademy https://www.codecademy.com › ag..." [ref=e425] [cursor=pointer]:
+              - /url: https://www.codecademy.com/article/agentic-ai-with-langchain-langgraph
+              - heading "How to Build Agentic AI with LangChain and LangGraph" [level=3] [ref=e426]
+              - generic [ref=e431]:
+                - generic [ref=e433]: Codecademy
+                - generic [ref=e435]: https://www.codecademy.com › ag...
+            - generic [ref=e436]:
+              - generic [ref=e437]: ·
+              - link "Käännä tämä sivu" [ref=e438] [cursor=pointer]:
+                - /url: https://www.codecademy.com/article/agentic-ai-with-langchain-langgraph
+            - button "Tietoja tästä tuloksesta" [ref=e439] [cursor=pointer]:
+              - img [ref=e442]
+          - generic [ref=e446]:
+            - emphasis [ref=e447]: Learn to build autonomous AI agents
+            - text: that use tools, make decisions, and accomplish complex tasks using LangChain and agentic design patterns. Includes 6 Courses ...
+        - generic [ref=e451]:
+          - generic [ref=e454]:
+            - link "Build an LLM RAG Chatbot With LangChain Real Python https://realpython.com › build-llm-..." [ref=e456] [cursor=pointer]:
+              - /url: https://realpython.com/build-llm-rag-chatbot-with-langchain/
+              - heading "Build an LLM RAG Chatbot With LangChain" [level=3] [ref=e457]
+              - generic [ref=e462]:
+                - generic [ref=e464]: Real Python
+                - generic [ref=e466]: https://realpython.com › build-llm-...
+            - generic [ref=e467]:
+              - generic [ref=e468]: ·
+              - link "Käännä tämä sivu" [ref=e469] [cursor=pointer]:
+                - /url: https://realpython.com/build-llm-rag-chatbot-with-langchain/
+            - button "Tietoja tästä tuloksesta" [ref=e470] [cursor=pointer]:
+              - img [ref=e473]
+          - generic [ref=e477]:
+            - text: "In this tutorial, you'll learn how to:"
+            - emphasis [ref=e478]: Use LangChain to build custom chatbots
+            - text: ; Design a chatbot using your understanding of the business requirements and ...
+      - generic [ref=e480]:
+        - generic [ref=e485]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e487]
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - link "LangChain tutorial PDF" [ref=e494] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=LangChain+tutorial+PDF&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg4EAE
+                - generic [ref=e495]:
+                  - generic [ref=e500]: LangChain tutorial PDF
+                  - img [ref=e504]
+              - link "LangChain Python tutorial" [ref=e509] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=LangChain+Python+tutorial&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg-EAE
+                - generic [ref=e510]:
+                  - generic [ref=e515]: LangChain Python tutorial
+                  - img [ref=e519]
+              - link "LangChain tutorial w3schools" [ref=e524] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=LangChain+tutorial+w3schools&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg8EAE
+                - generic [ref=e525]:
+                  - generic [ref=e530]: LangChain tutorial w3schools
+                  - img [ref=e534]
+              - link "Python LangChain" [ref=e539] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Python+LangChain&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg7EAE
+                - generic [ref=e540]:
+                  - generic [ref=e545]: Python LangChain
+                  - img [ref=e549]
+            - generic [ref=e551]:
+              - link "LangChain documentation" [ref=e555] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=LangChain+documentation&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg9EAE
+                - generic [ref=e556]:
+                  - generic [ref=e561]: LangChain documentation
+                  - img [ref=e565]
+              - link "LangChain-AI" [ref=e570] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=LangChain-AI&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg6EAE
+                - generic [ref=e571]:
+                  - generic [ref=e576]: LangChain-AI
+                  - img [ref=e580]
+              - link "Langchain create_agent" [ref=e585] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Langchain+create_agent&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg3EAE
+                - generic [ref=e586]:
+                  - generic [ref=e591]: Langchain create_agent
+                  - img [ref=e595]
+              - link "Langchain academy" [ref=e600] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Langchain+academy&sa=X&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ1QJ6BAg5EAE
+                - generic [ref=e601]:
+                  - generic [ref=e606]: Langchain academy
+                  - img [ref=e610]
+        - navigation [ref=e612]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e613]
+          - text: "1"
+          - link "Page 2" [ref=e616] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=10&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=e618] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=20&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=e620] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=30&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=e622] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=40&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=e624] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=50&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=e626] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=60&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAO
+            - text: "7"
+          - link "Page 8" [ref=e628] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=70&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAQ
+            - text: "8"
+          - link "Page 9" [ref=e630] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=80&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAS
+            - text: "9"
+          - link "Page 10" [ref=e632] [cursor=pointer]:
+            - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=90&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8tMDegQINRAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e634]:
+            - link "Seuraava" [ref=e635] [cursor=pointer]:
+              - /url: /search?q=LangChain+RAG+financial+advisor+chatbot+tutorial+2025+2026+Python+vector+store+OpenAI+function+calling+architecture&sca_esv=f72dd7b5cfdb5d01&ei=T3HRaZeNMrab1fIPq8OwoAI&start=10&sa=N&sstk=Af77f_daADMfVbOcnPW2vUV1mmCnHNy3DF5zesj7njC_Tjcnldjb4GQ7N7qljV6DMY6n96g4-UtslJX1DXMrIC7Qj5WhiVzcKk-ccg&ved=2ahUKEwjX8IC6gdWTAxW2TVUIHashDCQQ8NMDegQINRAW
+              - generic [ref=e637]: Seuraava
+      - navigation
+    - contentinfo [ref=e638]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e639]
+      - generic [ref=e643]:
+        - generic [ref=e645]:
+          - text: Suomi
+          - generic [ref=e647]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e649] [cursor=pointer]:
+              - generic [ref=e650]: Helsinki
+              - generic [ref=e652]:
+                - text: "-"
+                - generic [ref=e653]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e655] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e658]:
+          - link "Ohje" [ref=e659] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e660] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e661] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e662] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,318 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Omaisuus ja asuminen" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/
+            - listitem [ref=e61]:
+              - link "Sijoitukset" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/
+            - listitem [ref=e63]: Osakesäästötili
+        - article [ref=e66]:
+          - heading "Osakesäästötili" [level=1] [ref=e67]
+          - generic [ref=e69]:
+            - paragraph [ref=e71]: Tällä sivulla
+            - list [ref=e72]:
+              - listitem [ref=e73] [cursor=pointer]:
+                - link "Miten osakesäästötili toimii?" [ref=e74]:
+                  - /url: "#Miten-osakesäästötili-toimii?"
+                  - generic [ref=e75]: Miten osakesäästötili toimii?
+              - listitem [ref=e76] [cursor=pointer]:
+                - link "Pankki hoitaa ennakonpidätyksen – tarkista esitäytetty veroilmoituksesi" [ref=e77]:
+                  - /url: "#Pankki-hoitaa-ennakonpidätyksen-–-tarkista-esitäytetty-veroilmoituksesi"
+                  - generic [ref=e78]: Pankki hoitaa ennakonpidätyksen – tarkista esitäytetty veroilmoituksesi
+              - listitem [ref=e79] [cursor=pointer]:
+                - link "Miten tuotto lasketaan?" [ref=e80]:
+                  - /url: "#Miten-tuotto-lasketaan?"
+                  - generic [ref=e81]: Miten tuotto lasketaan?
+              - listitem [ref=e82] [cursor=pointer]:
+                - link "Osakesäästötilejä voi olla vain yksi" [ref=e83]:
+                  - /url: "#Osakesäästötilejä-voi-olla-vain-yksi"
+                  - generic [ref=e84]: Osakesäästötilejä voi olla vain yksi
+              - listitem [ref=e85] [cursor=pointer]:
+                - link "Osinkojen osittaista verovapautta tai hankintameno-olettamaa ei voi hyödyntää" [ref=e86]:
+                  - /url: "#Osinkojen-osittaista-verovapautta-tai-hankintameno-olettamaa-ei-voi-hyödyntää"
+                  - generic [ref=e87]: Osinkojen osittaista verovapautta tai hankintameno-olettamaa ei voi hyödyntää
+              - listitem [ref=e88] [cursor=pointer]:
+                - link "Usein kysyttyä" [ref=e89]:
+                  - /url: "#Usein-kysyttyä"
+                  - generic [ref=e90]: Usein kysyttyä
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: Osakesäästötilin sisällä voit ostaa ja myydä pörssiosakkeita niin, ettei sinun tarvitse maksaa veroa yksittäisistä myynneistä. Myöskään osinkoja ja korkotuloja ei veroteta vielä siinä vaiheessa, kun ne tulevat osakesäästötilille. Osakesäästötilin tuotto verotetaan vasta silloin, kun nostat sieltä rahaa.
+            - heading "Miten osakesäästötili toimii?" [level=2] [ref=e93]
+            - paragraph [ref=e94]:
+              - text: Osakesäästötilissä on erikseen
+              - strong [ref=e95]: rahatili
+              - text: ja
+              - strong [ref=e96]: osakkeiden säilytystili.
+            - paragraph [ref=e97]: Osakesäästötilille voi sijoittaa enintään 100 000 euroa rahaa. Voit laittaa rahat tilille kaikki yhdellä kertaa tai useampana talletuksena. Osakesäästötilille voit sijoittaa vain rahaa – et siis voi siirtää sinne omistamiasi osakkeita.
+            - paragraph [ref=e98]:
+              - text: Osakesäästötilillä voi kuitenkin olla samaan aikaan sekä rahaa että osakkeita. Voit ostaa ja myydä osakkeita tilin sisällä ilman veroja. Voit myös sijoittaa saamiasi osinkoja tai korkoja uusiin osakkeisiin.
+              - strong [ref=e99]: Osakesäästötilin tuotto verotetaan vasta siinä vaiheessa, kun nostat sieltä varoja pois.
+            - paragraph [ref=e100]: Osakesäästötililtä voit nostaa vain rahaa, joten sinun tulee myydä mahdolliset osakkeet ennen varojen nostamista. Voit nostaa tililtä rahaa milloin tahansa. Nostoja ei siis ole rajattu mihinkään tiettyyn talletusaikaan.
+            - paragraph [ref=e101]:
+              - strong [ref=e102]: Jos osakesäästötilisi tuottaa tappiota, voit vähentää tappion pääomatuloistasi ainoastaan sinä vuonna, kun lopetat osakesäästötilin.
+              - text: Tappiota ei siis vähennetä vielä siinä vaiheessa, kun nostat varoja tililtä.
+            - heading "Pankki hoitaa ennakonpidätyksen – tarkista esitäytetty veroilmoituksesi" [level=2] [ref=e103]
+            - paragraph [ref=e104]:
+              - text: Kun nostat varoja osakesäästötililtä, varat jaetaan
+              - strong [ref=e105]: tuottoon
+              - text: ja
+              - strong [ref=e106]: pääomaan
+              - text: . Tuotto on veronalaista tuloa, pääoma taas verotonta. Pankki tai muu palveluntarjoaja laskee tuoton puolestasi ja perii ennakonpidätyksen, joka on 30 % tuotosta.
+            - paragraph [ref=e107]: Jos olet nostanut varoja osakesäästötililtä verovuoden aikana, tuoton määrä ja ennakonpidätys siirtyvät esitäytettyyn veroilmoitukseesi automaattisesti. Sinun ei siis tarvitse ilmoittaa tietoja erikseen – riittää, että tarkistat tiedot, kun saat esitäytetyn veroilmoituksen. Osakesäästötilin tuotto näkyy veroilmoituksen kohdassa "Osakesäästötilin tuotto ja tappio".
+            - paragraph [ref=e108]: Jos et ole nostanut varoja osakesäästötililtä verovuoden aikana, veroilmoituksen kohdassa "Osakesäästötilin tuotto ja tappio" ei näy tuottoa. Osakesäästötilin tiedot ja tilillä olevien varojen käypä arvo näkyvät kuitenkin kohdassa "Varat".
+            - paragraph [ref=e109]: Palveluntarjoaja yleensä vähentää palvelumaksunsa tai muut kulut osakesäästötilisi rahatililtä. Silloin et voi vähentää niitä muista pääomatuloistasi.
+            - paragraph [ref=e110]: Jos otat velkaa sijoittaaksesi rahaa osakesäästötilille, kyseinen velka on tulonhankkimisvelkaa. Tulonhankkimisvelan korot vähennetään kaikista pääomatuloista täysimääräisinä. Tarkista, että velan käyttötarkoitus on merkitty oikein esitäytettyyn veroilmoitukseesi.
+            - heading "Miten tuotto lasketaan?" [level=2] [ref=e111]
+            - paragraph [ref=e112]: "Voit määrittää osakesäästötilisi tuoton seuraavalla tavalla:"
+            - list [ref=e113]:
+              - listitem [ref=e114]: Erota voiton osuus osakesäästötilin käyvästä arvosta.
+              - listitem [ref=e115]: Jaa voitto tilillä olevien varojen käyvällä arvolla.
+              - listitem [ref=e116]: Kerro tämä määrä tililtä nostamallasi euromäärällä.
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: Esimerkki alkaa
+              - paragraph [ref=e119]:
+                - strong [ref=e120]: Esimerkki 1
+                - text: ": Sari on tallettanut osakesäästötilille 10 000 euroa, joilla hän on ostanut suomalaisen pörssiyhtiön osakkeita. Osakkeiden arvo on noussut 5 000 euroa. Tällöin tilin varojen käypä arvo on 15 000 euroa ja voitto 5 000 euroa."
+                - text: "Sari myy tilillään olevia osakkeita ja nostaa tililtä rahaa 1 500 euroa. Tästä summasta on veronalaista pääomatuloa 500 euroa:"
+                - text: 5 000 euroa (voitto) / 15 000 euroa (käypä arvo) × 1 500 euroa (nostettu määrä) = 500 euroa.
+                - text: Tililtä nostetun rahamäärän loppuosa eli 1 000 euroa (1 500 € − 500 €) on verovapaata pääoman nostoa. Sarin tallettaman pääoman määräksi jää 9 000 euroa (10 000 € − 1 000 €).
+              - paragraph [ref=e121]: Esimerkki päättyy
+            - generic [ref=e122]:
+              - paragraph [ref=e123]: Esimerkki alkaa
+              - paragraph [ref=e124]:
+                - strong [ref=e125]: "Esimerkki 2:"
+                - text: Keijo sijoittaa osakesäästötilille 10 000 euroa ja ostaa koko summalla osakkeita. Osakkeiden arvo laskee vuoden aikana 7 000 euroon. Keijo nostaa osakesäästötililtä 2 000 euroa. Summasta ei mene veroa, koska osakesäästötili on tappiolla. Tappion voi vähentää verotuksessa vasta sinä vuonna, kun Keijo lopettaa tilin.
+              - paragraph [ref=e126]: Esimerkki päättyy
+            - paragraph [ref=e127]: Osakesäästötilin käypään arvoon lasketaan tilillä olevat rahavarat ja osakkeiden arvo nostohetkellä. Pörssiosakkeiden arvona käytetään nostopäivää edeltävän päivän päätöskurssia.
+            - heading "Osakesäästötilejä voi olla vain yksi" [level=2] [ref=e128]: Osakesäästötilejä voi olla vain yksi
+            - paragraph [ref=e129]: Sinulla voi olla kerrallaan vain yksi osakesäästötili. Tämä on tärkeää huomata, koska jos sinulla on samaan aikaan käytössäsi useita osakesäästötilejä, Verohallinto määrää jokaiselle niistä 10 euron veronkorotuksen päivää kohti.
+            - paragraph [ref=e130]: Jos haluat vaihtaa pankkia, voit siirtää osakesäästötilillesi kertyneet varat suoraan toiseen pankkiin. Sinun ei siis tarvitse myydä osakkeita eikä maksaa veroa siirron yhteydessä. Siinä tapauksessa sinun pitää irtisanoa sopimus aiemmasta osakesäästötilistäsi vanhan pankkisi kanssa ja tehdä sopimus uudesta osakesäästötilistä uuden pankkisi kanssa. Varasi siirretään uudelle tilille heti aiemman sopimuksesi päättyessä.
+            - heading "Osinkojen osittaista verovapautta tai hankintameno-olettamaa ei voi hyödyntää" [level=2] [ref=e131]
+            - paragraph [ref=e132]: "Jos sinulla olisi tavallinen arvo-osuustili, siellä olevien suomalaisten pörssiosakkeiden osingoista 15 % olisi verovapaata. Osakesäästötilillä et voi hyödyntää tätä verovapaata osuutta: kaikki tuotto – osingot mukaan lukien – on veronalaista."
+          - generic [ref=e136]:
+            - heading "Pääomatulon veroprosentti" [level=2] [ref=e137]
+            - table "Pääomatulon veroprosentti 30 000 e asti 30 %, yli 30 000 e 34 %" [ref=e139]:
+              - caption [ref=e140]: Pääomatulon veroprosentti 30 000 e asti 30 %, yli 30 000 e 34 %
+              - rowgroup [ref=e141]:
+                - row "30 000 euroon asti 30 %" [ref=e142]:
+                  - rowheader "30 000 euroon asti" [ref=e143]
+                  - cell "30 %" [ref=e144]
+                - row "30 000 euroa ylittävästä osasta 34 %" [ref=e145]:
+                  - rowheader "30 000 euroa ylittävästä osasta" [ref=e146]
+                  - cell "34 %" [ref=e147]
+          - generic [ref=e148]:
+            - paragraph [ref=e149]:
+              - text: Kaupankäynti osakesäästötilillä poikkeaa tavallisesta osakekaupasta myös siten, että osakkeiden myynnin yhteydessä ei voi soveltaa
+              - link "hankintameno-olettamaa." [ref=e150] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakkeiden_myynt/
+            - heading "Usein kysyttyä" [level=2] [ref=e151]
+          - generic [ref=e153]:
+            - generic [ref=e155]:
+              - heading "Avasin vahingossa 2 osakesäästötiliä eri pankkeihin, vaikka niitä saisi olla vain yksi. Mitä minun pitää tehdä?" [level=3] [ref=e156] [cursor=pointer]:
+                - button "Avasin vahingossa 2 osakesäästötiliä eri pankkeihin, vaikka niitä saisi olla vain yksi. Mitä minun pitää tehdä?" [ref=e157]:
+                  - text: Avasin vahingossa 2 osakesäästötiliä eri pankkeihin, vaikka niitä saisi olla vain yksi. Mitä minun pitää tehdä?
+                  - img
+              - region "Avasin vahingossa 2 osakesäästötiliä eri pankkeihin, vaikka niitä saisi olla vain yksi. Mitä minun pitää tehdä?":
+                - generic:
+                  - paragraph [ref=e158]:
+                    - text: Jos sinulla on useampi kuin yksi osakesäästötili, Verohallinto määrää siitä veronkorotusta. Veronkorotus on lähtökohtaisesti
+                    - strong [ref=e159]: 10 euroa päivässä
+                    - text: kutakin osakesäästötiliä kohden. Sanktion tavoitteena on poistaa väärinkäytöksiä, koska yhdelle osakesäästötilille voi sijoittaa enintään 100 000 euroa rahaa.
+                  - paragraph [ref=e160]: Veronkorotusta ei määrätä, jos sinulla on ollut verovuoden aikana voimassa selvän erehdyksen vuoksi samanaikaisesti useampia osakesäästötilejä, mutta verovuoden aikana säästövaroja eli rahaa tai osakkeita on ollut enintään yhdellä osakesäästötilillä. Veronkorotus jätetään määräämättä tai sitä alennetaan myös silloin, jos
+                  - list [ref=e161]:
+                    - listitem [ref=e162]: veronkorotus olisi kohtuuttoman suuri osakesäästötileillä olleiden varojen vähäiseen määrään nähden
+                    - listitem [ref=e163]: veronkorotuksen määräämättä jättämiselle tai alentamiselle on pätevä syy. Tällaisina syinä voidaan pitää esimerkiksi sairastumista, jonka vuoksi osakesäästötiliin liittyvät asiat ovat jääneet hoitamatta, tai tietoliikennehäiriötä, jonka vuoksi et ole yrityksistäsi huolimatta voinut lopettaa osakesäästötiliä.
+            - generic [ref=e165]:
+              - heading "Minulla on sekä osakesäästötili että tavallinen arvo-osuustili, jossa on osakkeita. Lisäksi omistan sijoitusrahastoja. Tuleeko niistä veronkorotusta?" [level=3] [ref=e166] [cursor=pointer]:
+                - button "Minulla on sekä osakesäästötili että tavallinen arvo-osuustili, jossa on osakkeita. Lisäksi omistan sijoitusrahastoja. Tuleeko niistä veronkorotusta?" [ref=e167]:
+                  - text: Minulla on sekä osakesäästötili että tavallinen arvo-osuustili, jossa on osakkeita. Lisäksi omistan sijoitusrahastoja. Tuleeko niistä veronkorotusta?
+                  - img
+              - region "Minulla on sekä osakesäästötili että tavallinen arvo-osuustili, jossa on osakkeita. Lisäksi omistan sijoitusrahastoja. Tuleeko niistä veronkorotusta?":
+                - generic:
+                  - paragraph [ref=e168]: Ei tule, jos sinulla on vain yksi osakesäästötili.
+                  - paragraph [ref=e169]:
+                    - text: Veronkorotus määrätään silloin, jos sinulla on
+                    - strong [ref=e170]: useita
+                    - strong [ref=e171]: osakesäästötilejä.
+                    - text: Sen sijaan tavallisten arvo-osuustilien määrää ei ole rajoitettu. Voit myös omistaa erilaisia sijoitusrahasto-osuuksia samaan aikaan, vaikka eri pankeissa.
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - img
+            - generic [ref=e175]:
+              - heading "Syventävät vero-ohjeet" [level=2] [ref=e176]
+              - list [ref=e177]:
+                - listitem [ref=e178]:
+                  - link "Osakesäästötilin verotus" [ref=e180] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/ohje-hakusivu/81118/
+        - navigation "Osion alasivut" [ref=e181]:
+          - heading "Sijoitukset" [level=3] [ref=e182]:
+            - link "Sijoitukset" [ref=e183] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/sijoitukset/
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Ilmoita tiedot sijoituksista" [ref=e189] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/ilmoita_tulot_sijoituksista/
+            - listitem [ref=e190]:
+              - link "Maksa vero sijoituksista" [ref=e192] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/maksa-vero-sijoituksista/
+            - listitem [ref=e193]:
+              - link "Osakkeiden myynti" [ref=e195] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakkeiden_myynt/
+            - listitem [ref=e196]:
+              - link "Osingot" [ref=e198] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/
+            - listitem [ref=e199]:
+              - link "Osakesäästötili" [ref=e201] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakes%C3%A4%C3%A4st%C3%B6tili/
+            - listitem [ref=e202]:
+              - link "Sijoitusrahasto-osuudet" [ref=e204] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/sijoitusrahastoosuude/
+            - listitem [ref=e205]:
+              - link "Osuuskuntien ylijäämien verotus" [ref=e207] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osuuskuntien_ylijaamien_verotu/
+            - listitem [ref=e208]:
+              - link "Kryptovarat" [ref=e210] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/virtuaalivaluutat/
+        - separator [ref=e211]
+        - generic [ref=e212]: Sivu on viimeksi päivitetty 1.1.2026
+      - generic [ref=e217]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e218]
+        - paragraph [ref=e220]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e221] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e222]:
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - heading "Asioi verkossa" [level=2] [ref=e227]
+            - list [ref=e229]:
+              - listitem [ref=e230]:
+                - link "OmaVero" [ref=e232] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e233]:
+                - link "Laskurit" [ref=e235] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e236]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e238] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e239]:
+                - link "Positiivinen luottotietorekisteri" [ref=e241] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e242]:
+                - link "Tulorekisteri" [ref=e244] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e245]:
+            - heading "Yhteystiedot" [level=2] [ref=e246]
+            - list [ref=e248]:
+              - listitem [ref=e249]:
+                - link "Chat" [ref=e251] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e252]:
+                - link "Yhteystiedot ja asiointi" [ref=e254] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e255]:
+                - link "Sosiaalinen media" [ref=e257] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e258]:
+                - link "Paperilomakkeet" [ref=e260] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e261]:
+                - link "Käsittelyajat" [ref=e263] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e264]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e265]
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e271]:
+                - listitem [ref=e272]:
+                  - link "Syventävät vero-ohjeet" [ref=e274] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e275]:
+            - heading "Verohallinto" [level=2] [ref=e276]
+            - generic [ref=e280]:
+              - paragraph [ref=e281]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e282]:
+                - listitem [ref=e283]:
+                  - link "Tietoa Verohallinnosta" [ref=e285] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e288]:
+          - listitem [ref=e289]: © Verohallinto
+          - listitem [ref=e290]:
+            - link "Tietosuoja" [ref=e292] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e293]:
+            - link "Palaute" [ref=e295] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e296]:
+            - link "Saavutettavuusseloste" [ref=e298] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e299]:
+            - link "Tulosta" [ref=e301] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e303] [cursor=pointer]:
+    - img [ref=e304]
+    - paragraph [ref=e306]: Chatbot

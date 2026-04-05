@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Siirry sisältöön" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - navigation "Muut sivustot" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Sinulle" [ref=e10] [cursor=pointer]:
+              - /url: /sinulle
+          - listitem [ref=e11]:
+            - link "Yrityksille" [ref=e12] [cursor=pointer]:
+              - /url: /yrityksille
+          - listitem [ref=e13]:
+            - link "Private Banking" [ref=e14] [cursor=pointer]:
+              - /url: /private-banking
+          - listitem [ref=e15]:
+            - button "Muut sivustot" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]:
+                - generic [ref=e22]: Muut sivustot
+                - img [ref=e23]
+      - generic [ref=e27]:
+        - navigation "Main navigation" [ref=e28]:
+          - link "Danske Bank" [ref=e29] [cursor=pointer]:
+            - /url: /sinulle
+            - generic [ref=e30]:
+              - img "Danske Bank"
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - button "Lainat" [ref=e34] [cursor=pointer]
+            - listitem [ref=e35]:
+              - button "Säästä ja sijoita" [ref=e36] [cursor=pointer]
+            - listitem [ref=e37]:
+              - button "Päivittäispalvelut" [ref=e38] [cursor=pointer]
+            - listitem [ref=e39]:
+              - button "Elämäni" [ref=e40] [cursor=pointer]
+            - listitem [ref=e41]:
+              - link "Asiakastuki" [ref=e42] [cursor=pointer]:
+                - /url: /sinulle/asiakaspalvelu
+            - listitem [ref=e43]:
+              - button "Asiakkuus ja edut" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "EN" [ref=e49] [cursor=pointer]:
+                - /url: /en
+            - listitem [ref=e50]:
+              - link "SV" [ref=e51] [cursor=pointer]:
+                - /url: /se
+          - button "Hae" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Kirjaudu" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Kirjaudu
+            - img [ref=e60]
+  - main [ref=e62]:
+    - figure [ref=e63]:
+      - img "Taustakuva" [ref=e65]
+    - generic [ref=e71]:
+      - heading "Osakesäästötili" [level=1] [ref=e72]
+      - heading "Avaa osakesäästötili itsellesi tai lapsellesi" [level=2] [ref=e73]
+      - paragraph [ref=e74]: Osakesäästötilin sisällä voit ostaa ja myydä koti- ja ulkomaisia osakkeita ilman välittömiä veroseuraamuksia. Pitkäaikaiselle osakesijoittajalle se on oiva tapa ottaa kaikki irti korkoa korolle -ilmiöstä, koska tuotosta tapahtuva verojen maksu suoritetaan vasta, kun nostat varoja pois tililtä.
+      - paragraph [ref=e75]:
+        - link "Avaa Osakesäästötili" [ref=e76] [cursor=pointer]:
+          - /url: https://danskebank.fi/sinulle/saastaminen-ja-sijoittaminen/palvelut/osakesaastotili?dlink=F600E094DD594B969D7196C6C9C595BA
+        - link "Siirrä sijoituksesi Danske Bankiin" [ref=e77] [cursor=pointer]:
+          - /url: /sinulle/saastaminen-ja-sijoittaminen/arvo-osuustilin-siirto
+    - generic [ref=e80]:
+      - img "kuukausisäästä osakkeisiin" [ref=e85]
+      - generic [ref=e88]:
+        - heading "Kuukausisäästä myös osakkeisiin - vain Danske Bankissa!" [level=2] [ref=e89]:
+          - text: Kuukausisäästä myös osakkeisiin
+          - text: "- vain Danske Bankissa!"
+        - paragraph [ref=e90]: Kuukausisäästä osakkeisiin Danske Bankin osakesäästötilillä! Automaattisen osakesäästämisen kaupankäyntikulut ovat 0,2 % (ei minimiveloitusta), joten nyt sinun on mahdollista säästää osakkeisiin pienemmilläkin summilla.
+        - paragraph [ref=e91]:
+          - link "Lue lisää osakkeisiin kuukausisäästämisestä" [ref=e92] [cursor=pointer]:
+            - /url: /sinulle/saastaminen-ja-sijoittaminen/kuukausisaastaminen/kuukausisaasta-osakkeisiin
+    - generic [ref=e100]:
+      - heading "Saat nämä, kun avaat osakesäästötilin Danske Bankiin:" [level=2] [ref=e101]
+      - list [ref=e102]:
+        - listitem [ref=e103]: Voit sijoittaa koti- ja ulkomaisiin pörssilistattuihin osakkeisiin
+        - listitem [ref=e104]: Voit sijoittaa mahdolliset voitot uudestaan osakesäästötilin sisällä
+        - listitem [ref=e105]: Maksat tuotoista veroja vain kun nostat tililtä varoja
+    - generic [ref=e119]:
+      - heading "Hinnat ja ehdot" [level=5] [ref=e120]
+      - paragraph [ref=e121]:
+        - link "Danske Kaupankäynti Online - Osakesäästötilin hinnoittelurakenne" [ref=e122] [cursor=pointer]:
+          - /url: /-/media/pdf/danske-bank/fi/sijoittaminen/osakesaeaestoetilin-hinnoittelurakenne---danske-bank.pdf?rev=905a0eeb1a0b419ca481606f94f6bf45&hash=2A77D3139B6B43C0E4759D36ED301F00
+        - link "Osakesäästötilin palveluhinnasto" [ref=e123] [cursor=pointer]:
+          - /url: /-/media/pdf/danske-bank/fi/sijoittaminen/osakesaeaestoetilin-palveluhinnasto.pdf?rev=76797bf59ae344ffb24ec3d611c6b165&hash=E9DE1D024A8E0A85BD67A44E3F2D82CE
+        - link "Danske Kaupankäynti Online" [ref=e124] [cursor=pointer]:
+          - /url: /-/media/pdf/danske-bank/fi/sijoittaminen/package-fee-description-trade_final.pdf?rev=96b145762f2342cf829978d8c3565e76&hash=A31DAAC73A8FF1C98085751B64D3EB57
+        - link "Arvopaperipalveluiden hinnasto" [ref=e125] [cursor=pointer]:
+          - /url: /-/media/pdf/danske-bank/fi/sijoittaminen/list-of-fees-for-securities-services.pdf?rev=f9a08cf20a9f45cc99536126d275acaa&hash=263824593363D6A35BE27096B3F8AB9D
+        - link "Tilien palveluhinnasto" [ref=e126] [cursor=pointer]:
+          - /url: /-/media/pdf/danske-bank/fi/fi/tuotteet/palveluhinnasto.pdf?rev=f362e5103cd348ca95208811dc82f6b7&hash=D0EF322352F68A56CCA6BA5115E50F2D
+    - generic [ref=e132]:
+      - heading "Kannattaako osakesäästötili ja kenelle se sopii?" [level=2] [ref=e133]
+      - paragraph [ref=e134]: Osakesäästötili sopii kaikille kiinnostuneille, myös aloitteleville sijoittajille, jotka haluavat oppia lisää osakesijoittamisesta. Erityisen hyvin osakesäästötili sopii pitkäaikaiselle sijoittajalle, joka on kiinnostunut sijoittamaan osingot uudestaan ja haluaa itse aika ajoin päivittää sijoitussalkkunsa sisältöä. Käytännössä, mitä aktiivisempi sijoittaja olet, sitä hyödyllisempi osakesäästötili sinulle on verrattuna sijoittamiseen osakesäästötilin ulkopuolella.
+    - generic [ref=e140]:
+      - heading "”Osta ja pidä” -tyyli ei osakesäästötilin kohdalla toimi" [level=2] [ref=e141]
+      - paragraph [ref=e142]: Täysin passiivinen osakesijoittaja ei saa osakesäästötilistä täyttä hyötyä irti. Jos esimerkiksi osingot haluaa ohjata suoraan kulutukseen, kannattaa sijoittaa osakesäästötilin ulkopuolella perinteisellä arvo-osuustilillä.
+      - paragraph [ref=e143]:
+        - link "Tutustu Danske Kaupankäynti Onlineen" [ref=e144] [cursor=pointer]:
+          - /url: /sinulle/saastaminen-ja-sijoittaminen/palvelut/kaupankaynti-online
+    - generic [ref=e146]:
+      - generic [ref=e149]:
+        - heading "Miten osakesäästötili toimii ja miten se eroaa perinteisestä arvo-osuustilistä?" [level=2] [ref=e150]
+        - paragraph [ref=e151]: Osakesäästötilille voi siirtää rahaa 100 000 euroon asti, mutta tilin arvo voi nousta yli 100 000 euron. Osakesäästötilillä voi käydä kauppaa vain osakkeilla, eli tilin sisällä ei voi käydä kauppaa esimerkiksi pörssinoteeratuilla rahastoilla (ETF:llä). Arvo-osuustilistä osakesäästötilin erottaa se, että maksat veroja mahdollisista tuotoista vasta, kun nostat rahaa pois osakesäästötililtä. Voit siis myydä ja ostaa osakkeita ilman välittömiä veroseuraamuksia.
+        - paragraph [ref=e152]: Osingot ovat myös verovapaita osakesäästötilin sisällä ja voit sijoittaa ne uudestaan. Verot maksetaan osingoista vasta kun nostat rahaa pois osakesäästötililtä. Tämä tarkoittaa, että osakesäästötilillä ei ole mahdollista hyötyä osinkojen verovapaasta osasta, vaan nostoista peritään aina normaali pääomavero. Osakesäästötilin verotuksessa on hyvä myös huomioida, että ulkomaalaisten yritysten osakkeiden osingoista voidaan periä lähdemaan verotuksen mukainen vero jo ennen kuin nostat varoja pois osakesäästötililtä. Ulkomaisia osakkeita ostettaessa sijoittajan kannattaakin etsiä ulkomailta ensisijaisesti osakkeita, jotka ovat todennäköisemmin kasvuyhtiöitä kuin osinkonimiä.
+        - paragraph [ref=e153]: Huomioithan myös, että sinulla voi olla kerralla vain yksi osakesäästötili. Myyntitappiot voit vähentää, jos lopetat osakesäästötilin ja kaikki varat nostetaan tililtä.
+        - paragraph [ref=e154]
+      - heading "Osakesäästötilin ja arvo-osuustilin keskeiset erot" [level=2] [ref=e158]
+      - table [ref=e163]:
+        - rowgroup
+        - rowgroup [ref=e164]:
+          - row "Omistaja Vain yksityishenkilö Yksityishenkilö tai yritys" [ref=e165]:
+            - cell "Omistaja" [ref=e166]
+            - cell "Vain yksityishenkilö" [ref=e167]
+            - cell "Yksityishenkilö tai yritys" [ref=e168]
+          - row "Tilien lukumäärä Vain yksi per yksityishenkilö Ei rajoitettu" [ref=e169]:
+            - cell "Tilien lukumäärä" [ref=e170]
+            - cell "Vain yksi per yksityishenkilö" [ref=e171]
+            - cell "Ei rajoitettu" [ref=e172]
+          - row "Talletusraja 100 000 euroa Ei rajoitettu" [ref=e173]:
+            - cell "Talletusraja" [ref=e174]
+            - cell "100 000 euroa" [ref=e175]
+            - cell "Ei rajoitettu" [ref=e176]
+          - row "Kaupankäynti Kotimaiset ja ulkomaiset osakkeet Kotimaiset ja ulkomaiset osakkeet, rahastot, ETF:t" [ref=e177]:
+            - cell "Kaupankäynti" [ref=e178]
+            - cell "Kotimaiset ja ulkomaiset osakkeet" [ref=e179]
+            - cell "Kotimaiset ja ulkomaiset osakkeet, rahastot, ETF:t" [ref=e180]
+          - row "Tuottojen ja osinkojen verotus Tuotosta peritään verot, kun rahaa nostetaan pois osakesäästötililtä Voittojen ja osinkojen vuotuinen verotus" [ref=e181]:
+            - cell "Tuottojen ja osinkojen verotus" [ref=e182]
+            - cell "Tuotosta peritään verot, kun rahaa nostetaan pois osakesäästötililtä" [ref=e183]
+            - cell "Voittojen ja osinkojen vuotuinen verotus" [ref=e184]
+          - row "Myyntitappiot Myyntitappiot voi vähentää verotuksessa vasta, jos tili suljetaan ja omistukset myydään Myyntitappiot voi vähentää verotuksessa vuosittain tai enintään seuraavan 5 vuoden aikana" [ref=e185]:
+            - cell "Myyntitappiot" [ref=e186]
+            - cell "Myyntitappiot voi vähentää verotuksessa vasta, jos tili suljetaan ja omistukset myydään" [ref=e187]
+            - cell "Myyntitappiot voi vähentää verotuksessa vuosittain tai enintään seuraavan 5 vuoden aikana" [ref=e188]
+    - generic [ref=e193]:
+      - heading "Ota käyttöön" [level=2] [ref=e194]
+      - paragraph [ref=e195]:
+        - link "Avaa Osakesäästötili" [ref=e196] [cursor=pointer]:
+          - /url: https://danskebank.fi/sinulle/saastaminen-ja-sijoittaminen/palvelut/osakesaastotili?dlink=F600E094DD594B969D7196C6C9C595BA
+    - generic [ref=e203]:
+      - heading "Kysymyksiä osakesäästötilistä" [level=2] [ref=e206]
+      - list [ref=e209]:
+        - listitem [ref=e210]:
+          - button "Kuka voi avata osakesäästötilin?" [ref=e211] [cursor=pointer]:
+            - generic [ref=e212]: Kuka voi avata osakesäästötilin?
+            - img [ref=e213]
+        - listitem [ref=e215]:
+          - button "Voiko osakesäästötilin avata myös lapselle?" [ref=e216] [cursor=pointer]:
+            - generic [ref=e217]: Voiko osakesäästötilin avata myös lapselle?
+            - img [ref=e218]
+        - listitem [ref=e220]:
+          - button "Voiko yhdellä henkilöllä olla useampi osakesäästötili?" [ref=e221] [cursor=pointer]:
+            - generic [ref=e222]: Voiko yhdellä henkilöllä olla useampi osakesäästötili?
+            - img [ref=e223]
+        - listitem [ref=e225]:
+          - button "Miten osakesäästötilin palvelut on hinnoiteltu?" [ref=e226] [cursor=pointer]:
+            - generic [ref=e227]: Miten osakesäästötilin palvelut on hinnoiteltu?
+            - img [ref=e228]
+        - listitem [ref=e230]:
+          - button "Miten kaupankäynti on hinnoiteltu osakesäästötilin sisällä?" [ref=e231] [cursor=pointer]:
+            - generic [ref=e232]: Miten kaupankäynti on hinnoiteltu osakesäästötilin sisällä?
+            - img [ref=e233]
+        - listitem [ref=e235]:
+          - button "Liittyykö osakesäästötililtä tehtyihin nostoihin kuluja?" [ref=e236] [cursor=pointer]:
+            - generic [ref=e237]: Liittyykö osakesäästötililtä tehtyihin nostoihin kuluja?
+            - img [ref=e238]
+        - listitem [ref=e240]:
+          - button "Kun osakesäästötililtä nostetaan varoja, pidätetäänkö mahdolliset luovutusvoittoverot automaattisesti samalla kertaa?" [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]: Kun osakesäästötililtä nostetaan varoja, pidätetäänkö mahdolliset luovutusvoittoverot automaattisesti samalla kertaa?
+            - img [ref=e243]
+        - listitem [ref=e245]:
+          - button "Osakesäästötilin kulut" [ref=e246] [cursor=pointer]:
+            - generic [ref=e247]: Osakesäästötilin kulut
+            - img [ref=e248]
+    - generic [ref=e257]:
+      - paragraph [ref=e258]
+      - heading "Tarvitsetko apua asiointiin?" [level=2] [ref=e259]
+      - paragraph [ref=e260]:
+        - link "Usein kysytyt kysymykset osakesäästötilistä" [ref=e261] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/osakesaastotili
+    - generic [ref=e265]:
+      - heading "Sinua voisi myös kiinnostaa" [level=2] [ref=e266]
+      - separator [ref=e267]
+    - generic [ref=e270]:
+      - link "Sijoittaminen Osakkeet - aloita osakesijoittaminen Osakesijoittajana saat tuottoa osingoista ja osakkeen arvonnoususta. Osakkeille on tyypillistä voimakas kurssien nouseminen ja laskeminen. Sijoittamalla osakkeisiin voit tavoitella sijoituksillesi korkosijoituksia korkeampaa tuottoa pitkällä aikavälillä. Lue lisää osakesijoittamisesta" [ref=e271] [cursor=pointer]:
+        - /url: /sinulle/saastaminen-ja-sijoittaminen/tuotteet/osakkeet
+        - generic [ref=e275]:
+          - generic [ref=e278]:
+            - paragraph [ref=e279]: Sijoittaminen
+            - heading "Osakkeet - aloita osakesijoittaminen" [level=3] [ref=e280]
+            - paragraph [ref=e281]: Osakesijoittajana saat tuottoa osingoista ja osakkeen arvonnoususta. Osakkeille on tyypillistä voimakas kurssien nouseminen ja laskeminen. Sijoittamalla osakkeisiin voit tavoitella sijoituksillesi korkosijoituksia korkeampaa tuottoa pitkällä aikavälillä.
+          - generic [ref=e283]:
+            - text: Lue lisää osakesijoittamisesta
+            - img [ref=e284]
+      - link "Sijoittaminen Danske Kaupankäynti Online Kaupankäynti Online sopii sinulle, kun haluat huolehtia sijoituksistasi itse. Tarjoamme monipuoliset digitaaliset palvelut sekä kattavat sijoitusvaihtoehdot maailmanlaajuisesti, kilpailukykyisin välityspalkkiohinnoin. Lue lisää Danske Kaupankäynti Onlinesta" [ref=e286] [cursor=pointer]:
+        - /url: /sinulle/saastaminen-ja-sijoittaminen/palvelut/kaupankaynti-online
+        - generic [ref=e290]:
+          - generic [ref=e293]:
+            - paragraph [ref=e294]: Sijoittaminen
+            - heading "Danske Kaupankäynti Online" [level=3] [ref=e295]
+            - paragraph [ref=e296]: Kaupankäynti Online sopii sinulle, kun haluat huolehtia sijoituksistasi itse. Tarjoamme monipuoliset digitaaliset palvelut sekä kattavat sijoitusvaihtoehdot maailmanlaajuisesti, kilpailukykyisin välityspalkkiohinnoin.
+          - generic [ref=e298]:
+            - text: Lue lisää Danske Kaupankäynti Onlinesta
+            - img [ref=e299]
+      - link "Sijoittaminen Sijoittajan lisäpalvelut Sijoittajan lisäpalveluiden avulla saat työkaluja, jotka helpottavat aktiivista kaupankäyntiä ja auttavat sinua sijoituspäätösten tekemisessä. Lue lisää sijoittajan lisäpalveluista" [ref=e301] [cursor=pointer]:
+        - /url: /sinulle/saastaminen-ja-sijoittaminen/palvelut/sijoittajan-lisapalvelut
+        - generic [ref=e305]:
+          - generic [ref=e308]:
+            - paragraph [ref=e309]: Sijoittaminen
+            - heading "Sijoittajan lisäpalvelut" [level=3] [ref=e310]
+            - paragraph [ref=e311]: Sijoittajan lisäpalveluiden avulla saat työkaluja, jotka helpottavat aktiivista kaupankäyntiä ja auttavat sinua sijoituspäätösten tekemisessä.
+          - generic [ref=e313]:
+            - text: Lue lisää sijoittajan lisäpalveluista
+            - img [ref=e314]
+  - generic [ref=e318]:
+    - heading "Kiinnostuitko? Tervetuloa Danske Bankiin." [level=2] [ref=e321]:
+      - text: Kiinnostuitko?
+      - text: Tervetuloa Danske Bankiin.
+    - generic [ref=e324]:
+      - link "Ota yhteyttä" [ref=e325] [cursor=pointer]:
+        - /url: https://danskebank.fi/sinulle/asiakaspalvelu?section=contact
+      - link "Tule asiakkaaksi" [ref=e326] [cursor=pointer]:
+        - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+  - contentinfo [ref=e327]:
+    - generic [ref=e329]:
+      - link "Danske Bank" [ref=e331] [cursor=pointer]:
+        - /url: /sinulle
+        - img "Danske Bank" [ref=e332]
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - group:
+            - generic "Työkalut":
+              - paragraph: Työkalut
+            - list [ref=e336]:
+              - listitem [ref=e337]:
+                - link "Lainahakemus" [ref=e338] [cursor=pointer]:
+                  - /url: /sinulle/lainat/hae/lainahakemus
+              - listitem [ref=e339]:
+                - link "Lainalaskuri" [ref=e340] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/lainalaskuri
+              - listitem [ref=e341]:
+                - link "Valuuttalaskuri" [ref=e342] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/valuuttalaskuri
+        - generic [ref=e343]:
+          - group:
+            - generic "Hyödyllistä tietoa":
+              - paragraph: Hyödyllistä tietoa
+            - list [ref=e344]:
+              - listitem [ref=e345]:
+                - link "Kortit" [ref=e346] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/kortit
+              - listitem [ref=e347]:
+                - link "Pankkitunnukset ja kirjautuminen" [ref=e348] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/pankkitunnukset
+              - listitem [ref=e349]:
+                - link "Saavutettavuus" [ref=e350] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/saavutettavuus
+              - listitem [ref=e351]:
+                - link "Artikkelit" [ref=e352] [cursor=pointer]:
+                  - /url: /sinulle/artikkelit/arkisto/artikkelit
+              - listitem [ref=e353]:
+                - link "Talousrikollisuuden torjunta" [ref=e354] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/tarkkana-verkossa/talousrikollisuuden-torjunta
+              - listitem [ref=e355]:
+                - link "Ilmiantosivusto" [ref=e356] [cursor=pointer]:
+                  - /url: /sinulle/links/ilmianto
+        - generic [ref=e357]:
+          - group:
+            - generic "Asiakaspalvelu":
+              - paragraph: Asiakaspalvelu
+            - list [ref=e358]:
+              - listitem [ref=e359]:
+                - link "Yhteystiedot" [ref=e360] [cursor=pointer]:
+                  - /url: /sinulle/links/yhteystiedotpb
+              - listitem [ref=e361]:
+                - link "Tule asiakkaaksi" [ref=e362] [cursor=pointer]:
+                  - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+              - listitem [ref=e363]:
+                - link "Anna palautetta" [ref=e364] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/anna-palautetta
+        - generic [ref=e365]:
+          - group:
+            - generic "Tietoa pankista":
+              - paragraph: Tietoa pankista
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - link "Tietoa pankista" [ref=e368] [cursor=pointer]:
+                  - /url: /sinulle/links/tietoa-pankista
+              - listitem [ref=e369]:
+                - link "Sijoittajasuhteet" [ref=e370] [cursor=pointer]:
+                  - /url: /sinulle/links/sijoittajasuhteet
+              - listitem [ref=e371]:
+                - link "Medialle" [ref=e372] [cursor=pointer]:
+                  - /url: /sinulle/links/medialle
+              - listitem [ref=e373]:
+                - link "Ura" [ref=e374] [cursor=pointer]:
+                  - /url: /sinulle/links/ura
+              - listitem [ref=e375]:
+                - link "Vastuullisuus" [ref=e376] [cursor=pointer]:
+                  - /url: /sinulle/links/vastuullisuus
+              - listitem [ref=e377]:
+                - link "Kiinnitysluottopankki" [ref=e378] [cursor=pointer]:
+                  - /url: /sinulle/links/kiinnitysluottopankki
+    - generic [ref=e386]:
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - paragraph [ref=e389]: Tämä verkkosivusto ei ole tarkoitettu eikä sitä saa käyttää kukaan Australiassa asuva luonnollinen henkilö tai minkään tyyppinen Australiassa kotipaikkaansa pitävä, rekisteröity tai perustettu yritys.
+          - paragraph [ref=e390]: Danske Bank ei tarjoa sijoitusneuvontapalveluja ("sijoitusneuvontapalvelut") tai osakkeiden tai muiden arvopaperien kaupankäynti-, välitys- ja myyntipalveluja ("välitys- ja myyntipalvelut") yhdysvaltalaisille henkilöille, jotka määritellään jäljempänä, ja tämän verkkosivuston sisältö ei ole tarkoitettu jaeltavaksi tällaisille yhdysvaltalaisille henkilöille tai heidän käytettäväkseen. Mitään tämän verkkosivuston sisällössä ei pidä tulkita sijoitusneuvontapalvelujen tai välitys- ja myyntipalvelujen tarjoamiseksi yhdysvaltalaisille henkilöille.
+          - button "Lue lisää »" [ref=e391] [cursor=pointer]
+        - generic "Lue lisää »":
+          - paragraph [ref=e392]:
+            - text: Sijoitusneuvontapalvelujen osalta yhdysvaltalaiseksi henkilöksi katsotaan Yhdysvalloissa asuva luonnollinen henkilö; tai Yhdysvalloissa rekisteriin merkitty tai perustettu yritys tai yhtiö, pois lukien pätevistä liiketoiminnallisista syistä toimivan, säännellyn yhdysvaltalaisen vakuutusyhtiön tai pankin offshore-sivuliikkeet tai asiamiehet; tai ulkomaisen, Yhdysvalloissa sijaitsevan ulkomaisen tahon sivuliike tai asiamies; tai trusti, jonka edunvalvoja on yhdysvaltalainen henkilö, paitsi jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai kuolinpesä, jonka pesäjakaja tai pesänhoitaja on yhdysvaltalainen henkilö, paitsi jos kuolinpesään sovelletaan ulkomaista lainsäädäntöä ja jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai ei-harkinnanvarainen, yhdysvaltalaisen henkilön hyväksi hallinnoitu tili; tai yhdysvaltalaisen välittäjän tai uskotun miehen hallinnoima harkinnanvarainen tili, paitsi jos sitä hallinnoidaan ei-yhdysvaltalaisen henkilön hyväksi; tai mikä tahansa Yhdysvaltain arvopaperilainsäädännön kiertämistarkoituksessa perustettu tai toimiva taho. Termi ”yhdysvaltalainen henkilö” ei tarkoita ketään henkilöä, joka ei ollut Yhdysvalloissa tullessaan Danske Bankin sijoitusneuvonnan asiakkaaksi.
+            - text: Välitys- ja myyntipalvelujen osalta yhdysvaltalainen henkilö on kuka tahansa Yhdysvalloissa sijaitseva asiakas, pois lukien asiakkaat, jotka asuivat Yhdysvaltojen ulkopuolella silloin, kun asiakassuhde Danske Bankiin syntyi ja jotka – Yhdysvalloissa ollessaan – eivät ole (i) Yhdysvaltain kansalaisia (mukaan lukien Yhdysvaltojen ja toisen maan kaksoiskansalaisuus), (ii) laillisia, pysyviä Yhdysvaltain asukkaita (eli green cardin haltija) eivätkä (iii) oleskele Yhdysvalloissa muuten kuin väliaikaisesti.
+      - text: "Danske Bank A/S, Suomen sivuliike, Televisiokatu 1, Helsinki, PL 1243, 00075 DANSKE BANK, BIC: DABAFIHH"
+      - link "Yhteystiedot" [ref=e393] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Yleiset ehdot" [ref=e394] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Tietosuoja" [ref=e395] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/tietosuoja/tietosuojatiedote
+      - text: "|"
+      - link "Evästekäytäntö" [ref=e396] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/evasteet
+      - text: "|"
+      - link "Saavutettavuus" [ref=e397] [cursor=pointer]:
+        - /url: /saavutettavuus
+      - text: "|"
+      - link "Ilmiantosivusto" [ref=e398] [cursor=pointer]:
+        - /url: https://danskebank.whistleblowernetwork.net
+      - text: Puhelut voidaan nauhoittaa turvallisuussyistä sekä dokumentointia varten
+  - generic:
+    - generic [ref=e399]: Näytä
+    - generic [ref=e400]: Sulje
+    - generic [ref=e401]: "Show more rows: All table rows are already visible for screen readers."
+    - generic [ref=e402]: "Show less rows: All table rows are already visible for screen readers."
+  - status [ref=e403]
+  - status [ref=e404]

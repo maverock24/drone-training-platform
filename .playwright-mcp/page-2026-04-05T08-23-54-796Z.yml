@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: varainsiirtovero asunto-osake 2026 site:vero.fi OR vuokratulon verotus 2026 site:vero.fi varainsiirtovero asunto-osake 2026 site:vero.fi OR vuokratulon verotus 2026 site:vero.fi
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dvarainsiirtovero%2Basunto-osake%2B2026%2Bsite%253Avero.fi%2BOR%2Bvuokratulon%2Bverotus%2B2026%2Bsite%253Avero.fi%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sa=X&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sa=X&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sa=X&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sa=X&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ0pQJegQIEBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Tulokset internetistä" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Varainsiirtovero - vero.fi Vero.fi https://www.vero.fi › henkiloasiakkaat › omaisuus › var..." [ref=e143] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/varainsiirtovero/
+                - heading "Varainsiirtovero - vero.fi" [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Vero.fi
+                  - generic [ref=e153]: https://www.vero.fi › henkiloasiakkaat › omaisuus › var...
+              - button "Tietoja tästä tuloksesta" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 1.1.2026 —
+              - generic [ref=e162]:
+                - text: "Varainsiirtoveroprosentit · Kiinteistöt ja rakennukset: 3 % ·"
+                - emphasis [ref=e163]: "Asunto-osakkeet ja kiinteistöyhtiön osakkeet: 1,5"
+                - text: "% · Muut arvopaperit, kuten ..."
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - link "Varainsiirtovero kiinteistön luovutuksessa Vero.fi https://www.vero.fi › ohje-hakusivu › varainsiirtovero-..." [ref=e172] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/79873/varainsiirtovero-kiinteiston-luovutuksessa6/
+              - heading "Varainsiirtovero kiinteistön luovutuksessa" [level=3] [ref=e173]
+              - generic [ref=e178]:
+                - generic [ref=e180]: Vero.fi
+                - generic [ref=e182]: https://www.vero.fi › ohje-hakusivu › varainsiirtovero-...
+            - button "Tietoja tästä tuloksesta" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]: 30.1.2026 —
+            - generic [ref=e191]:
+              - text: Luvun 7.4 ohjeistusta ehdollisen lisäkauppahinnan varainsiirtoveron suorittamisesta on muutettu 1.1.
+              - emphasis [ref=e192]: "2026"
+              - text: voimaan tulleen varainsiirtoverolain ...
+        - generic [ref=e196]:
+          - generic [ref=e199]:
+            - link "Vastuu aiempien luovutusten varainsiirtoverosta Vero.fi https://www.vero.fi › ohje-hakusivu › vastuu-aiempien-..." [ref=e201] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/78099/vastuu-aiempien-luovutusten-varainsiirtoverosta3/
+              - heading "Vastuu aiempien luovutusten varainsiirtoverosta" [level=3] [ref=e202]
+              - generic [ref=e207]:
+                - generic [ref=e209]: Vero.fi
+                - generic [ref=e211]: https://www.vero.fi › ohje-hakusivu › vastuu-aiempien-...
+            - button "Tietoja tästä tuloksesta" [ref=e212] [cursor=pointer]:
+              - img [ref=e215]
+          - generic [ref=e218]:
+            - generic [ref=e219]: 25.2.2026 —
+            - text: Tässä ohjeessa käsitellään luovutuksensaajan verovastuuta, jos kiinteistön aiemmalle saannolle ei ole haettu lainhuutoa tai kirjaamista.
+        - generic [ref=e223]:
+          - generic [ref=e226]:
+            - link "Varainsiirtovero arvopapereiden luovutuksessa Vero.fi https://www.vero.fi › ohje-hakusivu › varainsiirtovero-..." [ref=e228] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/79871/varainsiirtovero-arvopapereiden-luovutuksessa8/
+              - heading "Varainsiirtovero arvopapereiden luovutuksessa" [level=3] [ref=e229]
+              - generic [ref=e234]:
+                - generic [ref=e236]: Vero.fi
+                - generic [ref=e238]: https://www.vero.fi › ohje-hakusivu › varainsiirtovero-...
+            - button "Tietoja tästä tuloksesta" [ref=e239] [cursor=pointer]:
+              - img [ref=e242]
+          - generic [ref=e246]:
+            - text: Luvun 9.5 ohjeistusta ehdollisen lisäkauppahinnan varainsiirtoveron suorittamisesta on muutettu 1.1.
+            - emphasis [ref=e247]: "2026"
+            - text: voimaan tulleen varainsiirtoverolain muutoksen vuoksi.
+        - generic [ref=e251]:
+          - generic [ref=e254]:
+            - link "Varainsiirtoverolaskuri - vero.fi Vero.fi https://www.vero.fi › omaisuus › varainsiirtovero › var..." [ref=e256] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/varainsiirtovero/varainsiirtoverolaskuri/
+              - heading "Varainsiirtoverolaskuri - vero.fi" [level=3] [ref=e257]
+              - generic [ref=e262]:
+                - generic [ref=e264]: Vero.fi
+                - generic [ref=e266]: https://www.vero.fi › omaisuus › varainsiirtovero › var...
+            - button "Tietoja tästä tuloksesta" [ref=e267] [cursor=pointer]:
+              - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e274]: 13.3.2025 —
+            - text: Varainsiirtoverolaskurilla voit alustavasti laskea, paljonko sinun pitää maksaa varainsiirtoveroa. Laskurin tulos perustuu merkitsemääsi summaan ...
+        - generic [ref=e278]:
+          - generic [ref=e281]:
+            - link "Vuokratulojen verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › vuokratulojen-ve..." [ref=e283] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/
+              - heading "Vuokratulojen verotus Syventävä vero-ohje" [level=3] [ref=e284]
+              - generic [ref=e289]:
+                - generic [ref=e291]: Vero.fi
+                - generic [ref=e293]: https://www.vero.fi › ohje-hakusivu › vuokratulojen-ve...
+            - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+              - img [ref=e297]
+          - generic [ref=e300]:
+            - generic [ref=e301]: 14.1.2026 —
+            - text: Kaavamainen vähennys on 40 euroa kuukaudessa, kun vuokrauksen kohteena on kalustettu yksiö tai huone. Jos vuokrauksen kohteena on kalustettu ...
+        - generic [ref=e305]:
+          - generic [ref=e308]:
+            - link "Asunto-osakkeen ostaja – tee varainsiirtoveroilmoitus Vero.fi https://www.vero.fi › omaisuus › varainsiirtovero › asu..." [ref=e310] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/varainsiirtovero/asuntoosakkeen-ostaja/
+              - heading "Asunto-osakkeen ostaja – tee varainsiirtoveroilmoitus" [level=3] [ref=e311]
+              - generic [ref=e316]:
+                - generic [ref=e318]: Vero.fi
+                - generic [ref=e320]: https://www.vero.fi › omaisuus › varainsiirtovero › asu...
+            - button "Tietoja tästä tuloksesta" [ref=e321] [cursor=pointer]:
+              - img [ref=e324]
+          - generic [ref=e327]:
+            - generic [ref=e328]: 17.12.2024 —
+            - generic [ref=e329]:
+              - text: Asunto-osakkeen varainsiirtoveron määrä.
+              - emphasis [ref=e330]: Vero on 1,5 % asunto-osakkeen kauppahinnasta
+              - text: (ja mahdollisista muista vastikkeista) sekä ...
+        - generic [ref=e334]:
+          - generic [ref=e337]:
+            - link "Näin ilmoitat lisäkauppahinnan varainsiirtoveron Vero.fi https://www.vero.fi › lisakauppahinnan-ilmoittaminen" [ref=e339] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/varainsiirtovero/ilmoitus-ja-maksuohjeet/lisakauppahinnan-ilmoittaminen/
+              - heading "Näin ilmoitat lisäkauppahinnan varainsiirtoveron" [level=3] [ref=e340]
+              - generic [ref=e345]:
+                - generic [ref=e347]: Vero.fi
+                - generic [ref=e349]: https://www.vero.fi › lisakauppahinnan-ilmoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e350] [cursor=pointer]:
+              - img [ref=e353]
+          - generic [ref=e356]:
+            - generic [ref=e357]: 1.1.2026 —
+            - generic [ref=e358]:
+              - emphasis [ref=e359]: Varainsiirtovero
+              - text: lasketaan kauppahinnasta tai muun vastikkeen arvosta. Jos kauppahinnan määrä nousee myöhemmin, joudut maksamaan lisää myös ...
+        - generic [ref=e363]:
+          - generic [ref=e366]:
+            - link "Näin ilmoitat vuokratulot ja maksat veron Vero.fi https://www.vero.fi › omaisuus › ilmoitus-ja-maksuohjeet" [ref=e368] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/vuokratulot/ilmoitus-ja-maksuohjeet/
+              - heading "Näin ilmoitat vuokratulot ja maksat veron" [level=3] [ref=e369]
+              - generic [ref=e374]:
+                - generic [ref=e376]: Vero.fi
+                - generic [ref=e378]: https://www.vero.fi › omaisuus › ilmoitus-ja-maksuohjeet
+            - button "Tietoja tästä tuloksesta" [ref=e379] [cursor=pointer]:
+              - img [ref=e382]
+          - generic [ref=e385]:
+            - generic [ref=e386]: 1.1.2026 —
+            - generic [ref=e387]:
+              - emphasis [ref=e388]: Varainsiirtovero
+              - text: ja asunnon osto · Asunnon myynti ... Voit ilmoittaa vuoden
+              - emphasis [ref=e389]: "2026"
+              - text: vuokratulot verokorttia tai ennakkoveroa varten OmaVerossa.
+        - generic [ref=e393]:
+          - generic [ref=e396]:
+            - link "Omaisuuden luovutusvoitot ja -tappiot luonnollisen ... Vero.fi https://www.vero.fi › ohje-hakusivu › omaisuuden-luov..." [ref=e398] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48935/omaisuuden-luovutusvoitot-ja-tappiot-luonnollisen-henkilon-tuloverotuksessa3/
+              - heading "Omaisuuden luovutusvoitot ja -tappiot luonnollisen ..." [level=3] [ref=e399]
+              - generic [ref=e404]:
+                - generic [ref=e406]: Vero.fi
+                - generic [ref=e408]: https://www.vero.fi › ohje-hakusivu › omaisuuden-luov...
+            - button "Tietoja tästä tuloksesta" [ref=e409] [cursor=pointer]:
+              - img [ref=e412]
+          - generic [ref=e415]:
+            - generic [ref=e416]: 19.12.2025 —
+            - generic [ref=e417]:
+              - text: A:n vuoden
+              - emphasis [ref=e418]: 2026 verotuksessa
+              - text: luovutushinnaksi katsotaan kaupanteon yhteydessä maksettu 100 000 euroa. Hankintameno-olettama (40 prosenttia, 40 ...
+      - navigation [ref=e421]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e422]
+        - text: "1"
+        - link "Page 2" [ref=e425] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=10&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAE
+          - text: "2"
+        - link "Page 3" [ref=e427] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=20&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAG
+          - text: "3"
+        - link "Page 4" [ref=e429] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=30&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAI
+          - text: "4"
+        - link "Page 5" [ref=e431] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=40&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAK
+          - text: "5"
+        - link "Page 6" [ref=e433] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=50&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAM
+          - text: "6"
+        - link "Page 7" [ref=e435] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=60&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAO
+          - text: "7"
+        - link "Page 8" [ref=e437] [cursor=pointer]:
+          - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=70&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8tMDegQINRAQ
+          - text: "8"
+        - heading "Seuraava" [level=2] [ref=e439]:
+          - link "Seuraava" [ref=e440] [cursor=pointer]:
+            - /url: /search?q=varainsiirtovero+asunto-osake+2026+site:vero.fi+OR+vuokratulon+verotus+2026+site:vero.fi&sca_esv=bb65bd8365f461f5&hl=fi&ei=GRzSacDHKOK-wPAP5P3oyAE&start=10&sa=N&sstk=Af77f_fGcG92Y-2DwkLUHNOrU4f0pwGjV-bDFgvT26-LJIpzL5HIHq8re9u-x4tYRp4a_ARoumdWUmH3r0VFtrha4irW5nOE5hcgvA&ved=2ahUKEwiAuJqqpNaTAxViHxAIHeQ-GhkQ8NMDegQINRAS
+            - generic [ref=e442]: Seuraava
+      - navigation
+    - contentinfo [ref=e443]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e444]
+      - generic [ref=e448]:
+        - generic [ref=e450]:
+          - text: Suomi
+          - generic [ref=e452]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e454] [cursor=pointer]:
+              - generic [ref=e455]: Helsinki
+              - generic [ref=e457]:
+                - text: "-"
+                - generic [ref=e458]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e460] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e463]:
+          - link "Ohje" [ref=e464] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e465] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e466] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e467] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

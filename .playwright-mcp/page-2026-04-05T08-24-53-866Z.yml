@@ -1,0 +1,343 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjppJDGpNaTAxWXJRAIHboACwMQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Helsinki asuntosijoitus paras alue yksiö vuokratuotto opiskelija metro 2025 2026 Helsinki asuntosijoitus paras alue yksiö vuokratuotto opiskelija metro 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DHelsinki%2Basuntosijoitus%2Bparas%2Balue%2Byksi%25C3%25B6%2Bvuokratuotto%2Bopiskelija%2Bmetro%2B2025%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ0pQJegQIERAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Asuntojen vuokrat Helsingissä – katso kartalta alueiden ... Vuokraovi.com https://www.vuokraovi.com › vuokraovi › asuntojen-v..." [ref=e222] [cursor=pointer]:
+                  - /url: https://www.vuokraovi.com/kumppanisisallot/vuokraovi/asuntojen-vuokrat-helsingissa-katso-kartalta-alueiden-neliovuokrat/
+                  - heading "Asuntojen vuokrat Helsingissä – katso kartalta alueiden ..." [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Vuokraovi.com
+                    - generic [ref=e232]: https://www.vuokraovi.com › vuokraovi › asuntojen-v...
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 12.6.2025 —
+                - text: Katso tilastosta asuntojen vuokrat Helsingissä. Löydät kartalta yksiöiden, kaksioiden ja kolmioiden keskimääräiset neliövuokrat.
+              - generic [ref=e242]: "Puuttuu: opiskelija ‎metro"
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e248]
+              - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+            - generic [ref=e254]:
+              - button "Paljonko vuokra nousevat vuonna 2026?" [ref=e260] [cursor=pointer]:
+                - generic [ref=e262]: Paljonko vuokra nousevat vuonna 2026?
+                - img [ref=e265]
+              - button "Paljonko on hyvä vuokratuotto?" [ref=e274] [cursor=pointer]:
+                - generic [ref=e276]: Paljonko on hyvä vuokratuotto?
+                - img [ref=e279]
+              - button "Missä kaupungissa on paras vuokratuotto?" [ref=e288] [cursor=pointer]:
+                - generic [ref=e290]: Missä kaupungissa on paras vuokratuotto?
+                - img [ref=e293]
+              - button "Kannattaako ostaa asunto 2026?" [ref=e302] [cursor=pointer]:
+                - generic [ref=e304]: Kannattaako ostaa asunto 2026?
+                - img [ref=e307]
+          - generic [ref=e312]:
+            - heading "Tulokset internetistä" [level=2] [ref=e313]
+            - generic [ref=e314]:
+              - generic [ref=e317]:
+                - link "Miksi Hoasin vuokrat nousevat - taas? hoas.fi https://hoas.fi › Uutiset" [ref=e319] [cursor=pointer]:
+                  - /url: https://hoas.fi/2025/12/15/miksi-hoasin-vuokrat-nousevat-taas/
+                  - heading "Miksi Hoasin vuokrat nousevat - taas?" [level=3] [ref=e320]
+                  - generic [ref=e325]:
+                    - generic [ref=e327]: hoas.fi
+                    - generic [ref=e329]: https://hoas.fi › Uutiset
+                - button "Tietoja tästä tuloksesta" [ref=e330] [cursor=pointer]:
+                  - img [ref=e333]
+              - generic [ref=e336]:
+                - generic [ref=e337]: 15.12.2025 —
+                - generic [ref=e338]:
+                  - text: Vuokrat nousevat Hoasilla vuonna
+                  - emphasis [ref=e339]: "2026"
+                  - text: . Keskimääräinen korotus on 2,7 prosenttia, mutta asuntokohtainen muutos voi olla tätä pienempi tai ...
+          - generic [ref=e343]:
+            - generic [ref=e346]:
+              - 'link "Oikotie: Tässä ovat suosituimmat kaupunginosat ... Ilta-Sanomat https://www.is.fi › taloussanomat › art-2000011902606" [ref=e348] [cursor=pointer]':
+                - /url: https://www.is.fi/taloussanomat/art-2000011902606.html
+                - 'heading "Oikotie: Tässä ovat suosituimmat kaupunginosat ..." [level=3] [ref=e349]'
+                - generic [ref=e354]:
+                  - generic [ref=e356]: Ilta-Sanomat
+                  - generic [ref=e358]: https://www.is.fi › taloussanomat › art-2000011902606
+              - button "Tietoja tästä tuloksesta" [ref=e359] [cursor=pointer]:
+                - img [ref=e362]
+            - generic [ref=e365]:
+              - generic [ref=e366]: 25.3.2026 —
+              - generic [ref=e367]:
+                - text: Suurimman yllätyksen vertailussa tuotti
+                - emphasis [ref=e368]: Helsingin Länsi-Pakila
+                - text: ", joka nousi ensimmäistä kertaa Helsingin vetovoimaisimpien kaupunginosien ..."
+          - generic [ref=e372]:
+            - generic [ref=e375]:
+              - link "Mikä on hyvä sijainti sijoitusasunnoille Helsingissä? Top House LKV https://www.tophouse.fi › Artikkelit" [ref=e377] [cursor=pointer]:
+                - /url: https://www.tophouse.fi/mika-on-hyva-sijainti-sijoitusasunnoille-helsingissa/
+                - heading "Mikä on hyvä sijainti sijoitusasunnoille Helsingissä?" [level=3] [ref=e378]
+                - generic [ref=e380]:
+                  - img [ref=e384]
+                  - generic [ref=e386]:
+                    - generic [ref=e388]: Top House LKV
+                    - generic [ref=e390]: https://www.tophouse.fi › Artikkelit
+              - button "Tietoja tästä tuloksesta" [ref=e391] [cursor=pointer]:
+                - img [ref=e394]
+            - generic [ref=e397]:
+              - generic [ref=e398]: 24.9.2025 —
+              - generic [ref=e399]:
+                - emphasis [ref=e400]: Helsingin parhaimmat sijoitusalueet ovat Punavuori, Kamppi, Kallio ja Ullanlinna
+                - text: ", joissa vuokrakysyntä pysyy korkeana ympäri vuoden. Nämä alueet ..."
+          - generic [ref=e404]:
+            - generic [ref=e407]:
+              - link "Asuntosijoittaminen vuonna 2026 Sijoittaja.fi https://www.sijoittaja.fi › asuntosijoittaminen-vuonna-2..." [ref=e409] [cursor=pointer]:
+                - /url: https://www.sijoittaja.fi/424295/asuntosijoittaminen-vuonna-2026/
+                - heading "Asuntosijoittaminen vuonna 2026" [level=3] [ref=e410]
+                - generic [ref=e415]:
+                  - generic [ref=e417]: Sijoittaja.fi
+                  - generic [ref=e419]: https://www.sijoittaja.fi › asuntosijoittaminen-vuonna-2...
+              - button "Tietoja tästä tuloksesta" [ref=e420] [cursor=pointer]:
+                - img [ref=e423]
+            - generic [ref=e426]:
+              - generic [ref=e427]: 18.2.2026 —
+              - text: Laaja artikkeli asuntosijoittamisen aloittamisesta, tuottomahdollisuuksista, riskeistä ja asuntosijoittamisen perusteista.
+            - generic [ref=e429]: "Puuttuu: opiskelija ‎metro"
+          - generic [ref=e433]:
+            - generic [ref=e436]:
+              - link "Asuntokatsaus 2025 HSY https://www.hsy.fi › asuminen › asuntokatsaus-2" [ref=e438] [cursor=pointer]:
+                - /url: https://www.hsy.fi/ymparistotieto/asuminen-ja-maankaytto/asuminen/asuntokatsaus-2/
+                - heading "Asuntokatsaus 2025" [level=3] [ref=e439]
+                - generic [ref=e441]:
+                  - img [ref=e445]
+                  - generic [ref=e447]:
+                    - generic [ref=e449]: HSY
+                    - generic [ref=e451]: https://www.hsy.fi › asuminen › asuntokatsaus-2
+              - button "Tietoja tästä tuloksesta" [ref=e452] [cursor=pointer]:
+                - img [ref=e455]
+            - generic [ref=e458]:
+              - generic [ref=e459]: 18.9.2025 —
+              - text: Asuntokatsauksessa tarkastellaan Helsingin seudun asuntotuotantoa ja asuntokannan kehitystä asuntojen hallintamuodon näkökulmasta.
+            - generic [ref=e461]: "Puuttuu: vuokratuotto ‎metro ‎2026"
+          - generic [ref=e465]:
+            - generic [ref=e468]:
+              - link "Sijoitusasunto Helsingistä – kannattaako? Asuntosalkunrakentaja.fi https://asuntosalkunrakentaja.fi › sijoitusasunto-helsingista" [ref=e470] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/sijoitusasunto-helsingista/
+                - heading "Sijoitusasunto Helsingistä – kannattaako?" [level=3] [ref=e471]
+                - generic [ref=e476]:
+                  - generic [ref=e478]: Asuntosalkunrakentaja.fi
+                  - generic [ref=e480]: https://asuntosalkunrakentaja.fi › sijoitusasunto-helsingista
+              - button "Tietoja tästä tuloksesta" [ref=e481] [cursor=pointer]:
+                - img [ref=e484]
+            - generic [ref=e488]:
+              - text: Vuokratuotoltaan keskusta-alueiden yksiöt eivät kuitenkaan ole houkuttelevimpia vaihtoehtoja. Otetaan esimerkiksi hyväkuntoinen 200 000€ arvoinen
+              - emphasis [ref=e489]: yksiö
+              - text: ...
+            - generic [ref=e491]: "Puuttuu: metro ‎2025"
+          - generic [ref=e495]:
+            - generic [ref=e498]:
+              - link "Hekan keskivuokraan ensi vuodelle maltillinen korotus STT Info https://www.sttinfo.fi › tiedote › hekan-keskivuokraan-..." [ref=e500] [cursor=pointer]:
+                - /url: https://www.sttinfo.fi/tiedote/71474182/hekan-keskivuokraan-ensi-vuodelle-maltillinen-korotus?publisherId=69818936&lang=fi
+                - heading "Hekan keskivuokraan ensi vuodelle maltillinen korotus" [level=3] [ref=e501]
+                - generic [ref=e506]:
+                  - generic [ref=e508]: STT Info
+                  - generic [ref=e510]: https://www.sttinfo.fi › tiedote › hekan-keskivuokraan-...
+              - button "Tietoja tästä tuloksesta" [ref=e511] [cursor=pointer]:
+                - img [ref=e514]
+            - generic [ref=e517]:
+              - generic [ref=e518]: 24.9.2025 —
+              - text: Alhaisimmillaan vuokrankorotukset ovat 0,1 prosenttia ja korkeimmillaan 2,4 prosenttia. Enemmistö korotuksista on 1 ja 2 prosentin välillä.
+          - generic [ref=e522]:
+            - generic [ref=e525]:
+              - link "Uusia vuokra-asuntoja rakenteilla Helsinkiin TA.fi https://ta.fi › tiedotteet › uusia-vuokra-asuntoja-rakentei..." [ref=e527] [cursor=pointer]:
+                - /url: https://ta.fi/tiedotteet/uusia-vuokra-asuntoja-rakenteilla-helsinkiin-haku-asukkaaksi-on-alkanut/
+                - heading "Uusia vuokra-asuntoja rakenteilla Helsinkiin" [level=3] [ref=e528]
+                - generic [ref=e533]:
+                  - generic [ref=e535]: TA.fi
+                  - generic [ref=e537]: https://ta.fi › tiedotteet › uusia-vuokra-asuntoja-rakentei...
+              - button "Tietoja tästä tuloksesta" [ref=e538] [cursor=pointer]:
+                - img [ref=e541]
+            - generic [ref=e544]:
+              - generic [ref=e545]: 28.5.2025 —
+              - text: TA-Yhtiöihin kuuluva TA-Yhtymä Oy rakennuttaa uusia vuokra-asuntoja Helsingin Konalaan, osoitteeseen Konalantie 60.
+          - generic [ref=e549]:
+            - generic [ref=e552]:
+              - link "Asuntosijoittajan vuosi 2025 – mitä markkinoilla tapahtui ja ... sijoitusasuntovahti.fi https://sijoitusasuntovahti.fi › Artikkelit" [ref=e554] [cursor=pointer]:
+                - /url: https://sijoitusasuntovahti.fi/asuntosijoittajan-vuosi-2025-mita-markkinoilla-tapahtui-ja-mita-se-tarkoittaa-sijoittajalle/
+                - heading "Asuntosijoittajan vuosi 2025 – mitä markkinoilla tapahtui ja ..." [level=3] [ref=e555]
+                - generic [ref=e560]:
+                  - generic [ref=e562]: sijoitusasuntovahti.fi
+                  - generic [ref=e564]: https://sijoitusasuntovahti.fi › Artikkelit
+              - button "Tietoja tästä tuloksesta" [ref=e565] [cursor=pointer]:
+                - img [ref=e568]
+            - generic [ref=e571]:
+              - generic [ref=e572]: 1.12.2025 —
+              - generic [ref=e573]:
+                - text: Katsaus vuoden
+                - emphasis [ref=e574]: "2025"
+                - text: "suurimpiin asuntosijoittamisen muutoksiin: korot, vuokrat, hinnat ja lakiuudistukset sijoittajan näkökulmasta."
+        - generic [ref=e576]:
+          - generic [ref=e581]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e583]
+            - generic [ref=e585]:
+              - generic [ref=e586]:
+                - link "Keskivuokra Helsinki" [ref=e590] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Keskivuokra+Helsinki&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhOEAE
+                  - generic [ref=e591]:
+                    - generic [ref=e596]: Keskivuokra Helsinki
+                    - img [ref=e600]
+                - link "Keskimääräinen vuokra Suomessa" [ref=e605] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Keskim%C3%A4%C3%A4r%C3%A4inen+vuokra+Suomessa&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhLEAE
+                  - generic [ref=e606]:
+                    - generic [ref=e611]: Keskimääräinen vuokra Suomessa
+                    - img [ref=e615]
+                - link "Vuokrataso Helsinki" [ref=e620] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokrataso+Helsinki&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhNEAE
+                  - generic [ref=e621]:
+                    - generic [ref=e626]: Vuokrataso Helsinki
+                    - img [ref=e630]
+                - link "Vuokrien kehitys Helsinki" [ref=e635] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokrien+kehitys+Helsinki&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhMEAE
+                  - generic [ref=e636]:
+                    - generic [ref=e641]: Vuokrien kehitys Helsinki
+                    - img [ref=e645]
+              - generic [ref=e647]:
+                - link "Etuovi" [ref=e651] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Etuovi&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhHEAE
+                  - generic [ref=e652]:
+                    - generic [ref=e657]: Etuovi
+                    - img [ref=e661]
+                - link "Vuokrahinnat Helsinki" [ref=e666] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokrahinnat+Helsinki&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhKEAE
+                  - generic [ref=e667]:
+                    - generic [ref=e672]: Vuokrahinnat Helsinki
+                    - img [ref=e676]
+                - link "Asuntojen vuokrat kunnittain" [ref=e681] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+vuokrat+kunnittain&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhIEAE
+                  - generic [ref=e682]:
+                    - generic [ref=e687]: Asuntojen vuokrat kunnittain
+                    - img [ref=e691]
+                - link "Oikotie vuokra-asunnot Helsinki" [ref=e696] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Oikotie+vuokra-asunnot+Helsinki&sa=X&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ1QJ6BAhJEAE
+                  - generic [ref=e697]:
+                    - generic [ref=e702]: Oikotie vuokra-asunnot Helsinki
+                    - img [ref=e706]
+          - navigation [ref=e708]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e709]
+            - text: "1"
+            - link "Page 2" [ref=e712] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=VBzSaemqDZfLwPAPuoGsGA&start=10&sa=N&sstk=Af77f_f2svGH2UU30MO5SQrvDiddI-DYjujTNuklkDEygc2-L8u2sf5dHT4w9A5Qn0WM8Ca_4DSBJTz3OQM8ScSmAIe02NOlovXLqg&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ8tMDegQIRRAE
+              - text: "2"
+            - link "Page 3" [ref=e714] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=VBzSaemqDZfLwPAPuoGsGA&start=20&sa=N&sstk=Af77f_f2svGH2UU30MO5SQrvDiddI-DYjujTNuklkDEygc2-L8u2sf5dHT4w9A5Qn0WM8Ca_4DSBJTz3OQM8ScSmAIe02NOlovXLqg&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ8tMDegQIRRAG
+              - text: "3"
+            - link "Page 4" [ref=e716] [cursor=pointer]:
+              - /url: /search?q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=VBzSaemqDZfLwPAPuoGsGA&start=30&sa=N&sstk=Af77f_f2svGH2UU30MO5SQrvDiddI-DYjujTNuklkDEygc2-L8u2sf5dHT4w9A5Qn0WM8Ca_4DSBJTz3OQM8ScSmAIe02NOlovXLqg&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ8tMDegQIRRAI
+              - text: "4"
+            - heading "Seuraava" [level=2] [ref=e718]:
+              - link "Seuraava" [ref=e719] [cursor=pointer]:
+                - /url: /search?q=Helsinki+asuntosijoitus+paras+alue+yksi%C3%B6+vuokratuotto+opiskelija+metro+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=VBzSaemqDZfLwPAPuoGsGA&start=10&sa=N&sstk=Af77f_f2svGH2UU30MO5SQrvDiddI-DYjujTNuklkDEygc2-L8u2sf5dHT4w9A5Qn0WM8Ca_4DSBJTz3OQM8ScSmAIe02NOlovXLqg&ved=2ahUKEwjppJDGpNaTAxWXJRAIHboACwMQ8NMDegQIRRAK
+                - generic [ref=e721]: Seuraava
+        - navigation
+    - contentinfo [ref=e722]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e723]
+      - generic [ref=e727]:
+        - generic [ref=e729]:
+          - text: Suomi
+          - generic [ref=e731]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e733] [cursor=pointer]:
+              - generic [ref=e734]: Helsinki
+              - generic [ref=e736]:
+                - text: "-"
+                - generic [ref=e737]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e739] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e742]:
+          - link "Ohje" [ref=e743] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e744] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e745] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e746] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,378 @@
+- generic [ref=e1]:
+  - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - text:    
+      - generic [ref=e9]:
+        - link "Veronmaksajat - etusivulle" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Veronmaksajat - etusivulle" [ref=e12]
+        - generic [ref=e14]:
+          - link "Kirjaudu" [ref=e16] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/ssl/kirjaudu/?redirect=https://www.veronmaksajat.fi/tutkimus-ja-tilastot/suomen-verot-ja-menot/veromuutokset/veromuutoksia-2026/
+            - generic [ref=e17]: 
+          - link "Ostoskori" [ref=e19] [cursor=pointer]:
+            - /url: /tapahtumat-ja-julkaisut/verkkokauppa/ostoskori/
+            - generic [ref=e20]: 
+          - link "Haku" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e23]: 
+          - link "Valikko" [ref=e25] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e26]: 
+    - generic [ref=e28]:
+      - link "Etusivu" [ref=e29] [cursor=pointer]:
+        - /url: /
+      - link "Tutkimus & tilastot" [ref=e30] [cursor=pointer]:
+        - /url: /tutkimus-ja-tilastot/
+      - link "Suomen verot ja menot" [ref=e31] [cursor=pointer]:
+        - /url: /tutkimus-ja-tilastot/suomen-verot-ja-menot/
+      - generic [ref=e32]: Veromuutoksia 2026
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - text: Ansiotulojen verot ja maksut
+        - generic [ref=e36]: 22.9.2025 – Päivitetty 12.12.2025
+      - heading "Veromuutokset 2026" [level=1] [ref=e37]
+      - complementary [ref=e39]:
+        - button "Kuuntele" [ref=e42] [cursor=pointer]:
+          - img [ref=e44]
+          - generic [ref=e46]: Kuuntele
+      - paragraph [ref=e47]: Miten verotus muuttuu vuonna 2026? Kooste perustuu pääministeri Petteri Orpon hallituksen budjettiesitykseen sekä loppuvuoden 2025 aikana vahvistettuihin muutoksiin.
+      - paragraph [ref=e48]:
+        - img "2026-veromuutokset-ei-otsikkoa-820x328.png" [ref=e49]
+      - heading "Ansiotulojen verotus" [level=2] [ref=e50]:
+        - strong [ref=e51]: Ansiotulojen verotus
+      - paragraph [ref=e52]: Vuodelle 2026 on luvassa hallituksen kevään 2025 puoliväliriiheen ja hallitusohjelmaan perustuvia kevennyksiä työn verotukseen. Toisaalta tulonhankkimiseen liittyviä vähennyksiä leikataan.
+      - heading "Palkansaajan verotus" [level=3] [ref=e53]:
+        - strong [ref=e54]: Palkansaajan verotus
+      - paragraph [ref=e55]: Palkansaajan veromuutokset riippuvat vuonna 2026 paitsi tulotasosta, iästä ja huollettavien lasten lukumäärästä myös mm. siitä, paljonko on maksanut työmarkkinajärjestöille jäsenmaksuja tai käyttänyt etätyöhön liittyvää työhuonevähennystä.
+      - paragraph [ref=e56]:
+        - strong [ref=e57]: Yleisesti palkkaverotus
+        - text: (ml. tuloverot ja veronluonteiset sosiaalivakuutusmaksut) kevenee hallituksen puoliväliriiheen ja hallitusohjelmaan perustuvien tuloverokevennysten myötä. Pieni- ja keskituloisten palkkaverotusta keventää työtulovähennyksen kasvattaminen.
+      - paragraph [ref=e58]: Osin palkkaverotuksen kevennystä syö sosiaalivakuutusmaksujen muutokset, kun esim. palkansaajan veronluonteinen työttömyysvakuutusmaksu nousee 0,3 prosenttiyksikköä.
+      - paragraph [ref=e59]: Palkansaajan korkeimpien marginaaliverojen alentaminen noin 52 prosenttiin keventää suurituloisimpien palkansaajien verotusta, kun marginaalivero on ollut aiemmin jopa 59 prosenttia hieman vajaan 100 000 euron vuositulosta alkaen.
+      - paragraph [ref=e60]:
+        - link "Arvioita palkansaajan veroprosentin muutoksesta eri tulotasoilla 2026 (pdf, päivitetty 1.12.2025)" [ref=e61] [cursor=pointer]:
+          - /url: /contentassets/1d4babd0fd904c61aecc3b62950f9313/palkansaajan-veroprosentin-muutos-2026-011225.pdf
+      - paragraph [ref=e62]:
+        - link "Palkansaajan marginaaliveroprosenttien muutos 2026 (pdf)" [ref=e63] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/palkansaajan_marginaaliveroprosenttien_muutos_2026.pdf
+      - paragraph [ref=e64]:
+        - text: Palkansaajan työeläkemaksu muuttuu vuonna 2026, kun 53–62-vuotiaiden vakuutusmaksun
+        - link "korotusosuus poistuu" [ref=e65] [cursor=pointer]:
+          - /url: https://www.taloustaito.fi/blogit/janne-kalluinen/5362-vuotiaiden-nettopalkat-kasvavat-muita-enemman-vuonna-2026-miksi/
+        - text: . Muutos laskee selvästi 53–62-vuotiaiden vakuutusmaksua ja nostaa täten käteen jäävää nettotuloa.
+      - paragraph [ref=e66]:
+        - link "Työeläkemaksun korotusosuuden poiston ja muiden muutosten vaikutus 53–62-v palkkaverotukseen (pdf, päivitetty 1.12.2025)" [ref=e67] [cursor=pointer]:
+          - /url: /contentassets/1d4babd0fd904c61aecc3b62950f9313/53-62v-palkansaajan-veroprosentin-muutos-2026-011225.pdf
+      - heading "Työtulovähennyksen lapsikorotus nousee" [level=4] [ref=e68]:
+        - strong [ref=e69]: Työtulovähennyksen lapsikorotus nousee
+      - paragraph [ref=e70]: Työtulovähennyksen lapsikorotusta nostetaan 55 eurolla 105 euroon per huollettava lapsi. Yksinhuoltajille lapsikorotus myönnetään kaksinkertaisena. Työtulovähennykseen on oikeutettu palkkatulojen ja muiden työtulojen perusteella. Vähennys tehdään suoraan verosta, jolloin 55 euron nosto merkitsee 55 euroa aiempaa enemmän nettona käteen vuodessa.
+      - paragraph [ref=e71]:
+        - link "Työtulovähennyksen lapsikorotuksen noston vaikutus 2026 (pdf)" [ref=e72] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/tyotulovahennyksen_lapsikorotuksen_noston_vaikutus_2026.pdf?_gl=1*h0qzqt*_up*MQ..*_ga*MTg4NDYzMDM4Ni4xNzU4MTkzOTMz*_ga_MYTTQFQN21*czE3NTgxOTM5MzIkbzEkZzEkdDE3NTgxOTM5MzkkajUzJGwwJGgw
+      - heading "Työmarkkinajärjestöjen jäsenmaksujen verovähennysoikeus poistuu" [level=4] [ref=e73]:
+        - strong [ref=e74]: Työmarkkinajärjestöjen jäsenmaksujen verovähennysoikeus poistuu
+      - paragraph [ref=e75]: Jäsenmaksut tahoille, joilla sääntöjensä mukaan voisi olla työmarkkinatoimintaan liittyviä tavoitteita, säädetään vähennyskelvottomiksi. Vähennysoikeus poistuu sekä työntekijä- ja työnantajapuolelta. Työttömyyskassalle menevä maksu(osuus) olisi jatkossa entiseen tapaan vähennyskelpoinen.
+      - paragraph [ref=e76]:
+        - link "Työmarkkinajärjestöjen jäsenmaksuvähennyksen poiston vaikutus 2026 (pdf)" [ref=e77] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/tyomarkkinajarjestojen_jasenmaksuvahennyksen_poiston_vaikutus_2026.pdf?_gl=1*q2vcig*_up*MQ..*_ga*MTg4NDYzMDM4Ni4xNzU4MTkzOTMz*_ga_MYTTQFQN21*czE3NTgxOTM5MzIkbzEkZzEkdDE3NTgxOTM5MzkkajUzJGwwJGgw
+      - heading "Työhuonevähennys palkkatuloista" [level=4] [ref=e78]:
+        - strong [ref=e79]: Työhuonevähennys palkkatuloista
+      - paragraph [ref=e80]: Omassa tai perheen käytössä olevan asunnon tai vapaa-ajan asunnon kustannukset eivät enää verovuodesta 2026 alkaen olisi palkkatulon hankkimisesta tai säilyttämisestä johtuvia vähennyskelpoisia menoja.
+      - heading "Työsuhdepolkupyörien verovapaus poistuu siirtymäajalla" [level=4] [ref=e81]:
+        - strong [ref=e82]: Työsuhdepolkupyörien verovapaus poistuu siirtymäajalla
+      - paragraph [ref=e83]: Verovapaus poistuu uusilta polkupyöräeduilta, joiden käyttöönotosta työnantaja ja työntekijä ovat sopineet 24.4.2025 tai sen jälkeen. Ennen tätä sovitut polkupyöräedut ovat verovapauden piirissä sopimuskauden loppuun saakka tai jos kyse on työnantajan ostamasta polkupyörästä, viiden vuoden ajan edun käyttöönotosta.
+      - heading "Työnantajan kustantama oikeudellinen neuvonta" [level=4] [ref=e84]
+      - paragraph [ref=e85]: Työnantajan työntekijälle kustantama oikeudellinen neuvonta on jatkossa verovapaata työtehtävistä aiheutuneissa asioissa.
+      - heading "Suomeen tulevien avainhenkilöiden lähdeveron kevennys ja laajennus" [level=4] [ref=e86]:
+        - strong [ref=e87]: Suomeen tulevien avainhenkilöiden lähdeveron kevennys ja laajennus
+      - paragraph [ref=e88]:
+        - text: Suomeen töihin tulevien avainhenkilöiden lähdevero alenee 32 prosentista 25 prosenttiin. Lisäksi lain soveltamisala laajenee kotimaahan palaaviin Suomen kansalaisiin. Hallituksen esityksessä Suomen kansalaisiin ehdotettiin 24 kuukauden soveltamisaikaa, mutta eduskuntakäsittelyssä se muuttui
+        - generic [ref=e89]:
+          - generic [ref=e90]: Valiokunta ehdottaa sisältöä muutettavaksi
+          - text: "60"
+          - generic [ref=e91]: Muutosehdotus päättyy
+        - text: kuukaudeksi työskentelyn alkamisesta.
+      - heading "Luontoisedut - latausetu, lataushybridit, lounasetu..." [level=4] [ref=e92]
+      - paragraph [ref=e93]: Auton latausetu ei ole enää verovapaa 1.1.2026 alkaen. Muutos koskee työntekijän oman auton tai käyttöetuauton lataamista työpaikalla ja julkisissa latauspisteissä. Täyssähköauton latausedun raha-arvo on tammikuun alusta lähtien 30 euroa ja lataushybridin 20 euroa kuukaudessa. Vapaassa autoedussa lataus sisältyy edun arvoon.
+      - paragraph [ref=e94]: Autoedun osalta lataushybrideihin määräajan sovellettu 85 euron alennus kuukausiarvosta poistuu.
+      - paragraph [ref=e95]:
+        - link "Verohallinon luontoisetupäätöksessä" [ref=e96] [cursor=pointer]:
+          - /url: https://www.vero.fi/syventavat-vero-ohjeet/paatokset/47380/verohallinnon-paatos-vuodelta-2026-toimitettavassa-verotuksessa-noudatettavista-luontoisetujen-laskentaperusteista/
+        - text: on vahvistettu arvot myös muille yleisimmille luontoiseduille, kuten asuntoedulle, autoedulle, ravintoedulle ja puhelinedulle. Ravintoedun yläraja nousee 13,70 eurosta 14,00 euroon vuodelle 2026.
+      - heading "Kilometrikorvaukset ja päivärahat" [level=4] [ref=e97]
+      - paragraph [ref=e98]:
+        - text: Katso linkeistä verohallinnon vuodelle 2026 vahvistamat verovapaat
+        - link "kilometrikorvaukset" [ref=e99] [cursor=pointer]:
+          - /url: /neuvot/henkiloverotus/tyo-elake-ja-etuudet/paivarahat-ja-kilometrikorvaukset/kilometrikorvaukset/
+        - text: ","
+        - link "kotimaan päivärahat" [ref=e100] [cursor=pointer]:
+          - /url: /neuvot/henkiloverotus/tyo-elake-ja-etuudet/paivarahat-ja-kilometrikorvaukset/paivarahat/
+        - text: ja
+        - link "ulkomaan päivärahat" [ref=e101] [cursor=pointer]:
+          - /url: /neuvot/henkiloverotus/tyo-elake-ja-etuudet/paivarahat-ja-kilometrikorvaukset/ulkomaan-paivarahat/
+        - text: .
+      - heading "Eläkkeensaajan verotus ja eläketulon lisävero" [level=3] [ref=e102]:
+        - strong [ref=e103]: Eläkkeensaajan verotus ja eläketulon lisävero
+      - paragraph [ref=e104]: Hallituksen tuloverokevennykset ja verovähennysten leikkaukset on suunnattu lähtökohtaisesti työtuloihin. Eläketulojen verotukseen sen sijaan kohdistuu vähemmän muutoksia. Työeläkkeet nousevat indeksitarkituksen myötä 0,88 % vuonna 2026. Kansaneläkeindeksi nousee 0,47 %.
+      - paragraph [ref=e105]: Korkeimpien marginaaliverojen alennukseen liittyvät muutokset koskevat myös eläketuloja. Samalla eläketulon lisävero kevenee sen alarajan noustessa 47 000 euron eläketulosta 60 000 euroon. Lisäveron kevennys on kuitenkin vain kompensoiva toimi sille, että valtion tuloveroasteikkoon ehdotetut parametrimuutokset kiristävät eläkeverotusta. Jollei tämän vastapainoksi kevennettäisi eläketulon lisäveroa, eläkeverotus kiristyisi paikoitellen huomattavasti.
+      - paragraph [ref=e106]: Kokonaisuudessaan suurimmalle osalle eläkkeensaajista ei isoja muutoksia eläkeverotukseen ole tulossa. Noin 70 000–100 000 euroa vuodessa ansaitsevan eläkkeensaajan verotus on kuitenkin kiristymässä eläketulon lisäveron kevennyksestä huolimatta. Yli 100 000 euroa ansaitseva eläkeläinen taasen hyötyy marginaaliverojen alennuksesta, joten kaikkein suurimmilla eläketasoilla verotus kevenee.
+      - paragraph [ref=e107]: Palkkatuloja ansaitsevan eläkeläisen verotus voi keventyä jo pienemmillä tulotasoilla laajemman työn verotuksen kevennyksen takia.
+      - paragraph [ref=e108]:
+        - link "Työeläkkeensaajan indeksitarkistus ja veromuutos, esimerkkejä eri eläketasoilla 2026 (pdf, päivitetty 1.12.2025)" [ref=e109] [cursor=pointer]:
+          - /url: /contentassets/1d4babd0fd904c61aecc3b62950f9313/elakkeensaajan-indeksi--ja-veromuutos-2026-011225.pdf
+      - heading "Kunnallisverot 2026" [level=3] [ref=e110]:
+        - strong [ref=e111]: Kunnallisverot 2026
+      - paragraph [ref=e112]: Vuonna 2026 kunnallisveroprosentti nousee 36 Manner-Suomen kunnassa ja laskee vastaavasti neljässä kunnassa. Keskimääräinen kunnallisveroprosentti nousee 7,57 prosenttiin (+0,04 %-yks. vuodesta 2025). Oheisissa kuvissa on esitetty veroprosenttiaan muuttaneet kunnat sekä muutoksen vaikutuksia keskituloiselle palkansaajalle sekä eläkkeensaajalle.
+      - paragraph [ref=e113]:
+        - link "Kunnallisveroprosentin muutoksen vaikutuksia keskituloiselle palkansaajalle 2026 (18.11.2026, jpg)" [ref=e114] [cursor=pointer]:
+          - /url: /globalassets/2-tutkimustilastot/21-suomen-verot--menot/kiristajat-ja-keventajat-2026_181125_1.jpg
+        - link "Kunnallisveroprosentin muutoksen vaikutuksia keskituloiselle eläkkeensaajalle 2026 (18.11.2025, jpg)" [ref=e115] [cursor=pointer]:
+          - /url: /globalassets/2-tutkimustilastot/21-suomen-verot--menot/kiristajat-ja-keventajat-2026_181125_2.jpg
+      - heading "Perintö- ja lahjaveron alarajat nousevat" [level=2] [ref=e116]:
+        - strong [ref=e117]: Perintö- ja lahjaveron alarajat nousevat
+      - paragraph [ref=e118]: Verotettavan perintöosuuden alaraja nousee 20 000 eurosta 30 000 euroon ja verotettavan lahjan alaraja 5 000 eurosta 7 500 euroon 1.1.2026 alkaen. Lisäksi perintö- ja lahjaverosta vapaan tavanomaisen koti-irtaimiston arvoa korotetaan 4 000 eurosta 7 500 euroon.
+      - paragraph [ref=e119]: Perintöveron kymmenen vuoden maksuajalta perittävän koron marginaali alenee 3,5 prosentista kahteen prosenttiin.
+      - paragraph [ref=e120]:
+        - link "Perintö- ja lahjavero, esimerkkejä alarajan muutoksista (pdf)" [ref=e121] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/perinto--ja-lahjavero-esimerkkeja.pdf
+      - heading "Bensiinin ja dieselin verotaso laskee" [level=2] [ref=e122]:
+        - strong [ref=e123]: Bensiinin ja dieselin verotaso laskee
+      - paragraph [ref=e124]: "Liikennepolttoaineiden valmisteverotasot alenevat kahdessa osassa: 1.1.2026 ja 1.1.2027. Alennus toteutetaan alentamalla polttoaineiden hiilidioksidiverokomponenttia."
+      - paragraph [ref=e125]: Molempien muutosten yhteisvaikutus polttoaineiden arvonlisäverolliseen kuluttajahintaan arvioidaan olevan bensiinille 3 senttiä litralta ja dieselille 3,3 senttiä litralta. 1.1.2026 veromuutos olisi suunnilleen puolet tästä, eli noin 1,5 senttiä litralta.
+      - paragraph [ref=e126]:
+        - link "Esimerkkejä kulutusveromuutoksista 2026 (pdf)" [ref=e127] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/kulutusveromuutoksia_2026_10102025.pdf?_gl=1*3uka0r*_up*MQ..*_ga*MTM5MDcyNjQwNi4xNzU4MTk4NTg2*_ga_MYTTQFQN21*czE3NTgxOTg1ODUkbzEkZzEkdDE3NTgxOTg1OTYkajQ5JGwwJGgw
+      - heading "14 prosentin ALV-kanta alenee 13,5 prosenttiin" [level=2] [ref=e128]:
+        - strong [ref=e129]: 14 prosentin ALV-kanta alenee 13,5 prosenttiin
+      - paragraph [ref=e130]: 14 prosentin arvonlisäverokanta, joka koskee mm. elintarvikkeita, ravintola-aterioita, kirjoja, lääkkeitä, joukkoliikennettä ja majoituspalveluita, alenee 0,5 prosenttiyksiköllä 1.1.2026 alkaen.
+      - paragraph [ref=e131]:
+        - link "Esimerkkejä kulutusveromuutoksista 2026 (pdf)" [ref=e132] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/kulutusveromuutoksia_2026_10102025.pdf?_gl=1*3uka0r*_up*MQ..*_ga*MTM5MDcyNjQwNi4xNzU4MTk4NTg2*_ga_MYTTQFQN21*czE3NTgxOTg1ODUkbzEkZzEkdDE3NTgxOTg1OTYkajQ5JGwwJGgw
+      - heading "Alkoholivero" [level=2] [ref=e133]:
+        - strong [ref=e134]: Alkoholivero
+      - paragraph [ref=e135]: Kaikkien alkoholijuomien verotasoihin tehdään kuluttajahintojen nousua vastaava indeksitarkistus vuodelle 2026, minkä ohella verotasot sidottaisiin vastaisuudessa pysyvästi indeksiin. Toisin sanoen verotasot nousisivat vuosittain automaattisesti suhteessa kuluttajahintojen toteutuneeseen muutokseen.
+      - paragraph [ref=e136]: Lisäksi viineihin ja muihin käymisteitse valmistettuihin alkoholijuomien kategoriaan toteutetaan indeksikorotuksen päälle erillinen veronkorotus, joka tulee voimaan 1.1.2026. Korotuksen tarkoitus on osittain kompensoida makeisten ja suklaan arvonlisäveron korotuksen toteuttamatta jättämisestä aiheutuvaa verotulojen menetystä.
+      - paragraph [ref=e137]:
+        - link "Esimerkkejä kulutusveromuutoksista 2026 (pdf)" [ref=e138] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/kulutusveromuutoksia_2026_10102025.pdf?_gl=1*3uka0r*_up*MQ..*_ga*MTM5MDcyNjQwNi4xNzU4MTk4NTg2*_ga_MYTTQFQN21*czE3NTgxOTg1ODUkbzEkZzEkdDE3NTgxOTg1OTYkajQ5JGwwJGgw
+      - heading "Virvoitusjuomavero" [level=2] [ref=e139]:
+        - strong [ref=e140]: Virvoitusjuomavero
+      - paragraph [ref=e141]: Virvoitusjuomaverotuksessa otetaan käyttöön uusi verotuottoneutraaliksi mitoitettu veroporrastus. Uusi porrastus jaottelee veronalaisia juomia aiempaa hienojakoisemmin sokeripitoisuuden mukaan.
+      - paragraph [ref=e142]: Tämän ohella virvoitusjuomaveroon toteutetaan hallitusohjelmassa sekä keväiden 2024 & 2025 kehysriihissä päätetyt yhteensä noin 110 miljoonan euron veronkiristys.
+      - paragraph [ref=e143]: Veromuutosten on tarkoitus tulla voimaan 1.4.2026.
+      - paragraph [ref=e144]:
+        - link "Esimerkkejä kulutusveromuutoksista 2026 (pdf)" [ref=e145] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/kulutusveromuutoksia_2026_10102025.pdf?_gl=1*3uka0r*_up*MQ..*_ga*MTM5MDcyNjQwNi4xNzU4MTk4NTg2*_ga_MYTTQFQN21*czE3NTgxOTg1ODUkbzEkZzEkdDE3NTgxOTg1OTYkajQ5JGwwJGgw
+      - heading "Tupakkavero" [level=2] [ref=e146]:
+        - strong [ref=e147]: Tupakkavero
+      - paragraph [ref=e148]: Eri nikotiinituotteiden, kuten savukkeiden, nikotiinipussien ja sähkösavukenesteiden valmisteverot nousevat.
+      - paragraph [ref=e149]:
+        - link "Esimerkkejä kulutusveromuutoksista 2026 (pdf)" [ref=e150] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/kulutusveromuutoksia_2026_10102025.pdf?_gl=1*3uka0r*_up*MQ..*_ga*MTM5MDcyNjQwNi4xNzU4MTk4NTg2*_ga_MYTTQFQN21*czE3NTgxOTg1ODUkbzEkZzEkdDE3NTgxOTg1OTYkajQ5JGwwJGgw
+      - heading "Sähkön huoltovarmuusmaksu" [level=2] [ref=e151]:
+        - strong [ref=e152]: Sähkön huoltovarmuusmaksu
+      - paragraph [ref=e153]: Sähkön huoltovarmuusmaksua ollaan korottamassa 1.4.2026 alkaen.
+      - paragraph [ref=e154]: Esimerkiksi 2 000 kilowattitunnin/v. sähkönkulutuksella muutoksen vaikutus kohottaisi kotitalouden sähkökustannuksia noin 2 eurolla vuodessa.
+      - paragraph [ref=e155]:
+        - link "Esimerkkejä kulutusveromuutoksista 2026 (pdf)" [ref=e156] [cursor=pointer]:
+          - /url: /globalassets/5-medialle/50-lehdistotiedotteet/budjettiriihi-20250902/kulutusveromuutoksia_2026_10102025.pdf?_gl=1*3uka0r*_up*MQ..*_ga*MTM5MDcyNjQwNi4xNzU4MTk4NTg2*_ga_MYTTQFQN21*czE3NTgxOTg1ODUkbzEkZzEkdDE3NTgxOTg1OTYkajQ5JGwwJGgw
+      - heading "Metsävähennys" [level=2] [ref=e157]:
+        - strong [ref=e158]: Metsävähennys
+      - paragraph [ref=e159]: Metsävähennyksen vuotuinen vähennysoikeus sekä enimmäismäärä nousevat verovuodelle 2026. Metsävähennys nousee 60 prosentista 75 prosenttiin verovuoden metsätalouden pääomatuloista.
+      - paragraph [ref=e160]:
+        - text: "Lue tarkemmin Taloustaito Bonuksesta (vain jäsenille):"
+        - link "Metsävähennyksen korotus kannustaa puukaupoille" [ref=e161] [cursor=pointer]:
+          - /url: https://www.taloustaito.fi/bonus/verotus/metsavahennyksen-korotus-kannustaa-puukaupoille/
+      - heading "Osakevaihdot" [level=2] [ref=e162]
+      - paragraph [ref=e163]: Etuyhteydessä olevien osapuolten välisissä osakevaihdoissa omistusta vaihtavat osakkeet arvostetaan jatkossa hankkivan yhtiön nettovarallisuutta laskettaessa osakevaihtoa edeltävään matemaattiseen arvoon. Lisäksi osakkeita hankkivan osakeyhtiön verotuksessa osakkeiden hankintamenona pidetään osakevaihtoa edeltävää yhteenlaskettua matemaattista arvoa lisättynä hankinnasta aiheutuneilla menoilla. Muutoksia sovelletaan 1.1.2026 tai sen jälkeen nostetavissa oleviin osinkoihin ja 1.1.2017 tai sen jälkeen toteutettuihin osakevaihtoihin.
+      - heading "Ehdollinen lisäkauppahinta" [level=2] [ref=e164]
+      - paragraph [ref=e165]: Ehdollisen lisäkauppahinnan luovutusvoittovero ja varainsiirtovero perustuvat jatkossa ehdollisen lisäkauppahinnan määrän vahvistumisajankohtaan.
+      - heading "Finanssialan bonukset" [level=2] [ref=e166]:
+        - strong [ref=e167]: Finanssialan bonukset
+      - paragraph [ref=e168]: Asiakasbonus, -hyvitys, -alennus tai muu vastaava asiakkuuteen perustuva rahanarvoinen etu on vuodesta 2026 alkaen veronalaista pääomatuloa, jos etu kertyy tai muodostuu yksityistalouden luottojen, talletusten, sijoitusten, sijoitusvakuutusten tai kapitalisaatiosopimusten määrän tai arvon perusteella. Etu on kuitenkin verovapaata tuloa siltä osin, kuin etu käytettään tai se kohdistuu edellä mainittuihin samoihin eriin liittyviin palveluihin, palvelumaksuihin tai luoton korkoihin eikä etua makseta rahana tai siihen verrattavalla tavalla.
+      - paragraph [ref=e169]:
+        - text: Lue tarkemmin Taloustaidosta
+        - link "OP-bonukset kohta verolle – miten ottaa kaikki irti vielä verottomasta bonustilistä?" [ref=e170] [cursor=pointer]:
+          - /url: https://www.taloustaito.fi/Rahat/op-bonukset-kohta-verolle--miten-ottaa-kaikki-irti-viela-verottomasta-bonustilista/
+      - heading "Kaivosten ja datakeskusten sähkövero" [level=2] [ref=e171]:
+        - strong [ref=e172]: Kaivosten ja datakeskusten sähkövero
+      - paragraph [ref=e173]: Kaivosten verotuki poistuu 1.1.2026, kun ne siirtyvät yleiseen sähköveroluokkaan I. Käytännössä energiavero nousee 0,05 sentistä 2,24 senttiin kilowattitunnilta. Hallitus linjasi kaivosten ja datakeskusten sähköverotuen poistosta luovuttuaan makeisten ja suklaan arvonlisäveron korotuksesta. Datakeskusten osalta verotuen poisto on suunniteltu 1.7.2026 alkaen.
+      - heading "Kaivosvero" [level=2] [ref=e174]
+      - paragraph [ref=e175]: Kaivosmineraalien vero nousee nykyisestä 0,6 prosentista 2,5 prosenttiin rikastukseen toimitetun malmin sisältämän metallin verotusarvosta.
+      - heading "Tappioiden vähentäminen" [level=2] [ref=e176]
+      - paragraph [ref=e177]: Hallituksen sopi kevään 2025 kehysriihen kasvupaketissa tappioiden vähennysoikeuden pidentämisestä 10 vuodesta 25 vuoteen. Muutos tulisi voimaan verovuodelta 2026 vahvistetuista tappioista lukien.
+      - heading "Viranomaisposti" [level=2] [ref=e178]
+      - paragraph [ref=e179]: Vireillä olevan lainsäädäntömuutoksen mukaan viranomaisposti toimitettaisiin 12.1.2026 alkaen sähköisesti kaikille niille, jotka käyttävät viranomaisten sähköisiä asiointipalveluja. Jokaisella olisi kuitenkin mahdollista ilmoittaa, ettei käytä Omaveroa tai muuta sähköistä palvelua ja saada postinsa jatkossakin paperilla. Asian käsittely eduskunnassa on kesken.
+      - heading "Hallituksen myöhempiä verohankkeita:" [level=2] [ref=e180]:
+        - strong [ref=e181]: "Hallituksen myöhempiä verohankkeita:"
+      - heading "Kiinteistöverotuksen arvostamisuudistus" [level=4] [ref=e182]:
+        - strong [ref=e183]: Kiinteistöverotuksen arvostamisuudistus
+      - paragraph [ref=e184]: Hallitusohjelman mukaan kiinteistöverotukseen toteutetaan uudistus, jolla korjataan kiinteistöjen verotusarvojen ja käypien arvojen eriytyminen toisistaan. Aikataulu ja toteutus eivät ole selvillä.
+      - heading "Yhteisövero alenee 2027" [level=4] [ref=e185]:
+        - strong [ref=e186]: Yhteisövero alenee 2027
+      - paragraph [ref=e187]: Hallitus sopi kevään kehysriihessä yhteisöveron alentamisesta 20 prosentista 18 prosenttiin vuoden 2027 alusta. Veromuutos käsitellään eduskunnassa vasta myöhemmin vuonna 2026.
+      - paragraph [ref=e188]:
+        - text: Entä
+        - strong [ref=e189]: kotitalousvähennys, pääomatulovero ja...
+        - text: Muilta osin isompia veronkevennyksia tai -kiristyksiä ei ole tiedossa vuodelle 2026. Esimerkiksi kotitalousvähennys pysyy ennallaan samana kuin
+        - link "vuonna 2025" [ref=e190] [cursor=pointer]:
+          - /url: /neuvot/henkiloverotus/asuminen-ja-auto/kotitalousvahennys-ja-palkanmaksu/kotitalousvahennys-ohjeet/kotitalousvahennys/
+        - text: .
+      - generic [ref=e191]:
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - heading "Löysitkö etsimäsi tiedon tältä sivulta?" [level=2] [ref=e196]
+            - generic [ref=e197]: Vastauksia 462 kpl
+          - group "Löysitkö etsimäsi tiedon tältä sivulta?" [ref=e198]:
+            - button "Kyllä" [ref=e200] [cursor=pointer]:
+              - generic [ref=e202]: 
+              - generic [ref=e203]: Kyllä
+              - generic [ref=e204]: "+1"
+            - button "En" [ref=e206] [cursor=pointer]:
+              - generic [ref=e208]: 
+              - generic [ref=e209]: En
+              - generic [ref=e210]: "+1"
+            - button "Hyödyllinen" [ref=e212] [cursor=pointer]:
+              - generic [ref=e214]: 
+              - generic [ref=e215]: Hyödyllinen
+              - generic [ref=e216]: "+1"
+            - button "Sisältö oli epäselvää" [ref=e218] [cursor=pointer]:
+              - generic [ref=e220]: 
+              - generic [ref=e221]: Sisältö oli epäselvää
+              - generic [ref=e222]: "+1"
+          - status [ref=e223]
+        - link " Tulosta sivu" [ref=e224] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e225]: 
+          - text: Tulosta sivu
+    - generic [ref=e226]:
+      - heading "Sinua saattaisi kiinnostaa" [level=2] [ref=e227]
+      - generic [ref=e228]:
+        - article [ref=e229]:
+          - link "Eläkkeensaajan ostovoimakatsaus 2026" [ref=e230] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/selvitykset/2025/elakkeensaajan-ostovoimakatsaus-20262/
+            - heading "Eläkkeensaajan ostovoimakatsaus 2026" [level=3] [ref=e231]
+          - paragraph [ref=e232]: Maltillisen toteutuneen inflaation vuoksi eläkkeiden indeksikorotukset jäävät maltillisiksi vuonna 2026. Eläkkeiden veroprosentit säilyvät pääosin ennallaan, mutta katsauksen suurituloisella eläkkeensaajalla verotus kiristyy. Ennustettu inflaation lievä vauhdittuminen koettelee ostovoimaa.
+          - link "Lue lisää" [ref=e233] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/selvitykset/2025/elakkeensaajan-ostovoimakatsaus-20262/
+            - paragraph [ref=e234]: Lue lisää
+        - article [ref=e235]:
+          - link "Palkansaajan ostovoimakatsaus 2026" [ref=e236] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/selvitykset/2025/palkansaajan-ostovoimakatsaus-2026/
+            - heading "Palkansaajan ostovoimakatsaus 2026" [level=3] [ref=e237]
+          - paragraph [ref=e238]: Vuonna 2026 reaalipalkkojen nousu ja palkkaverotuksen keveneminen nostavat keskituloisen palkansaajan ostovoiman vihdoin kuuden vuoden takaiselle tasolle.
+          - link "Lue lisää" [ref=e239] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/selvitykset/2025/palkansaajan-ostovoimakatsaus-2026/
+            - paragraph [ref=e240]: Lue lisää
+        - article [ref=e241]:
+          - link "Palkansaajan veroprosentit" [ref=e242] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/tuloverot/palkansaajan-veroprosentit/
+            - heading "Palkansaajan veroprosentit" [level=3] [ref=e243]
+          - paragraph [ref=e244]: Kuinka paljon palkasta maksetaan veroja ja paljonko jää käteen? Kuvion ja taulukon veroasteet ja veroprosentit kertovat maksettavien tuloverojen ja veronluonteisten maksujen osuuden eri tulotasoilla. Loppuosa bruttopalkasta jää nettona verojen jälkeen käteen.
+          - link "Lue lisää" [ref=e245] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/tuloverot/palkansaajan-veroprosentit/
+            - paragraph [ref=e246]: Lue lisää
+    - generic "[Missing text '/footer/contect' for 'Finnish']" [ref=e247]:
+      - link "Veronmaksajat Puolenpitoa" [ref=e249] [cursor=pointer]:
+        - /url: /
+        - img "Veronmaksajat Puolenpitoa" [ref=e250]
+      - generic [ref=e251]:
+        - generic [ref=e256]:
+          - textbox "Haku koko sivustolta" [ref=e257]
+          - button "" [ref=e258] [cursor=pointer]:
+            - generic [ref=e259]: 
+        - generic [ref=e260]:
+          - heading "Liity Veronmaksajien jäseneksi. Vain 37 € vuodessa + 8 € liittymismaksu!" [level=3] [ref=e261]
+          - generic [ref=e262]:
+            - link "Liity jäseneksi" [ref=e263] [cursor=pointer]:
+              - /url: /jasenpalvelut/liity/liity-jaseneksi/
+            - link "Nämä edut saat" [ref=e264] [cursor=pointer]:
+              - /url: /jasenpalvelut/jasenedut/
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]: Veronmaksajain Keskusliitto
+            - generic [ref=e268]: Kalevankatu 4, 00100 Helsinki
+            - link "Puhelin" [ref=e270] [cursor=pointer]:
+              - /url: tel:09 618 871
+              - generic [ref=e271]: 
+              - text: Vaihde 09 618 871
+            - link "Puhelin" [ref=e273] [cursor=pointer]:
+              - /url: tel:03 010 5511
+              - generic [ref=e274]: 
+              - text: Jäsenpalvelu 03 010 5511
+            - link "Sähköposti" [ref=e276] [cursor=pointer]:
+              - /url: mailto:veronmaksajat@veronmaksajat.fi
+              - generic [ref=e277]: 
+              - text: veronmaksajat@veronmaksajat.fi
+            - generic [ref=e278]:
+              - link "Liiton Facebook-sivut" [ref=e279] [cursor=pointer]:
+                - /url: https://www.facebook.com/veronmaksajat/
+                - generic [ref=e280]: 
+              - link "Liitto X:ssä" [ref=e281] [cursor=pointer]:
+                - /url: https://x.com/veronmaksajat
+                - generic [ref=e282]: 
+              - link "Liitto Instagramissa" [ref=e283] [cursor=pointer]:
+                - /url: https://www.instagram.com/veronmaksajat_ry/
+                - generic [ref=e284]: 
+              - link "Liitto LinkedInissä" [ref=e285] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/veronmaksajain-keskusliitto-ry/
+                - generic [ref=e286]: 
+          - list [ref=e288]:
+            - listitem [ref=e289]:
+              - text: 
+              - link "Veroneuvonta" [ref=e290] [cursor=pointer]:
+                - /url: /neuvot/
+            - listitem [ref=e291]:
+              - text: 
+              - link "Tutkimus & tilastot" [ref=e292] [cursor=pointer]:
+                - /url: /tutkimus-ja-tilastot/
+            - listitem [ref=e293]:
+              - text: 
+              - link "Tapahtumat & julkaisut" [ref=e294] [cursor=pointer]:
+                - /url: /tapahtumat-ja-julkaisut/
+            - listitem [ref=e295]:
+              - text: 
+              - link "Medialle" [ref=e296] [cursor=pointer]:
+                - /url: /medialle/
+            - listitem [ref=e297]:
+              - text: 
+              - link "Jäsenyys" [ref=e298] [cursor=pointer]:
+                - /url: /jasenpalvelut/
+            - listitem [ref=e299]:
+              - text: 
+              - link "Veronmaksajat" [ref=e300] [cursor=pointer]:
+                - /url: /veronmaksajat/
+            - listitem [ref=e301]:
+              - text: 
+              - link "TaxFax" [ref=e302] [cursor=pointer]:
+                - /url: /taxfax/
+            - listitem [ref=e303]:
+              - text: 
+              - link "Jäsenpalvelun yhteystiedot" [ref=e304] [cursor=pointer]:
+                - /url: /jasenpalvelut/jasenpalvelun-yhteystiedot/
+    - generic [ref=e305]:
+      - text: Evästeasetukset
+      - link "Tietosuojaseloste" [ref=e306] [cursor=pointer]:
+        - /url: /jasenpalvelut/tietosuoja/
+      - link "Saavutettavuusseloste" [ref=e307] [cursor=pointer]:
+        - /url: /y/saavutettavuusseloste/
+  - region "Cookie banner" [active] [ref=e309]:
+    - alertdialog "Veronmaksajat.fi toimii paremmin evästeiden avulla" [ref=e310]:
+      - generic [ref=e311]:
+        - generic [ref=e312]:
+          - generic:
+            - heading "Veronmaksajat.fi toimii paremmin evästeiden avulla" [level=2] [ref=e313]
+            - generic [ref=e314]:
+              - text: Keräämme sivujemme käyttäjiltä eväste- ja laitetunnisteita, jotta voimme mitata kävijämääriä, tutkia sivujen käyttöä ja tarjota paremmin toimivan sivuston.
+              - text: Voit hallinnoida kerättäviä tietoja evästeasetuksien kautta. Osa evästeistä on välttämättömiä palvelujen tarjoamiseksi. Esimerkiksi kirjautuminen ei onnistu ilman käyttäjätunnuksen ja salasanan keräämistä.
+              - link "Tietosuojaselosteesta" [ref=e315] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/jasenyys/Jasenena/tietosuoja/#2c12cb0a
+              - text: näet tarkemmin, miten käsittelemme henkilötietoja.
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - button "Hyväksy välttämättömät" [ref=e319] [cursor=pointer]
+            - button "Hyväksy kaikki evästeet" [ref=e320] [cursor=pointer]
+          - button "Evästeasetukset" [ref=e321] [cursor=pointer]

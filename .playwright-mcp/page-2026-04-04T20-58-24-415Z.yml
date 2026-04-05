@@ -1,0 +1,219 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Scam messages have been sent out in the Tax Administration’s name.
+          - link "Read more about scams" [ref=e9] [cursor=pointer]:
+            - /url: /en/About-us/contact-us/efil/Information-on-e-services/scam-messages/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Go to contents" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Go to main search" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "To front page" [ref=e18] [cursor=pointer]:
+          - /url: /en/
+          - img "vero.fi - To front page" [ref=e19]
+        - navigation "Website main categories" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Individuals" [ref=e23] [cursor=pointer]:
+                - /url: /en/individuals/
+            - listitem [ref=e24]:
+              - link "Businesses" [ref=e25] [cursor=pointer]:
+                - /url: /en/businesses-and-corporations/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Open the mobile menu" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Menu
+        - listitem [ref=e36]:
+          - button "Search" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Search
+        - listitem [ref=e41]:
+          - generic "Language navigation" [ref=e44]:
+            - button "EN" [ref=e45] [cursor=pointer]:
+              - img
+              - text: EN
+        - listitem [ref=e46]:
+          - generic "/accessibility/MyTaxMenu" [ref=e49]:
+            - button "MyTax" [ref=e50] [cursor=pointer]:
+              - img
+              - text: MyTax
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Search route" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "About us" [ref=e58] [cursor=pointer]:
+                - /url: /en/About-us/
+            - listitem [ref=e59]:
+              - link "Newsroom" [ref=e60] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/
+            - listitem [ref=e61]:
+              - link "News" [ref=e62] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/news/
+            - listitem [ref=e63]: What will change in taxation in 2026?
+        - article [ref=e66]:
+          - heading "What will change in taxation in 2026?" [level=1] [ref=e67]
+          - text: News, 12/8/2025
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: The proposed legislative amendments having the objective to prioritise digital communications and electronically provided services are expected to come into force in spring 2026. This means that the authorities will primarily send letters to taxpayers in electronic format, not by post.
+            - paragraph [ref=e70]: As for changes in taxation during the 2026 tax year, membership fees for labour market organisations can no longer be deducted, and the standard home office deduction becomes no longer available to wage earners.
+            - paragraph [ref=e71]: The minimum thresholds for taxes levied on gifts and inheritance will increase.
+            - heading "Legislation on digital priority of official mail, including tax returns, decisions, etc." [level=2] [ref=e72]
+            - paragraph [ref=e73]: Electronic tax mail will replace paper post, and this will mean that the Tax Administration can send its decisions and other letters only to the MyTax accounts of the individual and corporate taxpayers that have started using MyTax and other e-services offered by the public authorities. Taxpayers will receive an electronic notification whenever an item of new tax mail arrives. However, this requires signing up for Suomi.fi messaging beforehand, setting up the personal notification preferences, and submittal of a phone number or e-mail address to be recorded digitally.
+            - paragraph [ref=e74]: At the same time, the alternative channel for communicating by letter post will still be available for people who are unable to use MyTax and other e-services.
+            - paragraph [ref=e75]: The “Digital first” initiative to reduce paper-printing and the need for paper letters is expected to introduce annual savings of 10 million euros from 2026 onwards.
+            - heading "Standard home office deductions are no longer available, membership fees of trade unions can no longer be deducted" [level=2] [ref=e76]
+            - paragraph [ref=e77]: "The following is a brief summary of the changed 2026 tax rules that will affect natural persons:"
+            - list [ref=e78]:
+              - listitem [ref=e79]: The standard formula-based deduction for those using a workspace at home will be removed. However, income tax returns to be submitted in spring 2026 concern the 2025 tax year, so you can still claim this deduction if you worked from home or from a second home during the year that ended. Although the deduction scheme based on a formula will cease, people who need to pay expenses to arrange a workspace outside their home are still entitled to tax-deductions.
+              - listitem [ref=e80]: During the 2026 tax year, membership fees for labour market organisations can no longer be deducted in taxation. This will also mean that no tax-card percentage rates can be revised downward any longer because of a wage earner having to pay these fees, which were tax-deductible in the past. However, income tax returns to be submitted in spring 2026 concern the 2025 tax year, so you can still claim the paid membership fees and get a deduction for the year that ended. The change to deduction rules does not extend to unemployment insurance. If you pay a membership fee to an unemployment fund, it is still tax-deductibe.
+              - listitem [ref=e81]: "Tax exemptions no longer to be offered to riders of employer-provided bicycles: this change concerns recipients of the fringe benefit in the form of a bicycle. If the employee and employer agreed on the employer-provided bicycle on 24 April 2024 or a later date, no exemption can be obtained. If this agreement between employee and employer had been made prior to 24 April 2024, the fringe benefit is tax-exempt up to the end date of the agreement. However, the maximum length of the exemption is restricted to 5 years, counting from the date when the employee was given the bicycle."
+              - listitem [ref=e82]: Smaller adjustments will affect the deduction called the basic allowance, the tax credit on employment income, and the additional income tax on pensions.
+            - paragraph [ref=e83]: The deduction for commuting expenses will stay the same as in 2025, in other words, up to €7,000 of your commuting costs are deductible. The threshold of deductibility is still €900. No changes will be introduced in 2026 to the size of the tax credit for household expenses, nor to the threshold related to this credit.
+            - paragraph [ref=e84]: The full tax-exempt per diem for travel in Finland will be €54, the partial per diem will remain at €25 also in 2026, and the meal allowance will be €13.50. The kilometre allowance will be 55 cents per kilometre.
+            - heading "Lower tax on gifts and inheritance" [level=2] [ref=e85]
+            - paragraph [ref=e86]: Starting 2026, a private individual can donate, over the course of 3 years, up to €7,499 to another individual, and the latter – the recipient – will pay less gift tax than before. At present, the threshold of taxability stands at €4,999. Correspondingly, the new reduced threshold in inheritance taxation will be €30,000 in 2026. At present, the threshold of taxability stands at €20,000. Additionally, the late-payment penalty interest for inheritance tax is adjusted downwards.
+            - heading "Taxes collected on loyalty bonuses will change" [level=2] [ref=e87]
+            - paragraph [ref=e88]: As of 2026, the concept of “income from capital” will extend to bank customers’ bonus income, discounts and comparable benefits that depend on the customer relationship, on having a private loan from the bank, on holding a bank account, on buying the bank’s investment products, etc. This income will be subject to tax. One of the effects of this change is that if a private customer receives a bonus from the bank based on a loan contract, he or she can no longer divert the bonus to insurance premium payments without having to pay capital-income tax.
+            - paragraph [ref=e89]: "However, no tax will be collected if:"
+            - list [ref=e90]:
+              - listitem [ref=e91]: The bank’s customer spends the bonus on a loan’s interest payments, etc., so the source of the benefit and its targeted use are identical.
+              - listitem [ref=e92]: The bonus income never takes the form of a cash remittance to the bank’s customer.
+              - listitem [ref=e93]: The bank’s customer has no unlimited choice on how the bonus income should be spent.
+            - paragraph [ref=e94]: The above change only applies to bonuses received from banks and other financial institutions. When families and private households receive bonuses, discounts, etc. from a food supermarket, it will continue to be exempt from income tax.
+            - heading "New obligation to provide information on crypto asset services in 2026" [level=2] [ref=e95]
+            - paragraph [ref=e96]: Starting in tax year 2026, the Tax Administration will require a more extensive set of information on crypto trading. This means that the crypto asset service providers reporting to Finland must collect information on identities of the users of their services, the users’ purchases, sales and transfers of assets. Information will be collected on both Finnish and non-Finnish service users. Crypto asset service providers must submit annual returns on this information to the Tax Administration for the first time in 2027.
+            - heading "The 14-percent VAT rate is adjusted to 13.5% – this VAT rate applies to food, pharmaceutical products, etc." [level=2] [ref=e97]
+            - paragraph [ref=e98]: A change is made to VAT rules to decrease the reduced-rate VAT, applied on certain goods and services, to 13.5 percent from 14 percent. Examples of VAT-taxable goods and services subject to the reduced-rate VAT include food, restaurant and catering services, pharmaceuticals, passenger transport (=taxi), hotel accommodation. However, the standard VAT rate is still 25.5%.
+            - heading "An increased annual deduction to be available to operators of forestry" [level=2] [ref=e99]
+            - paragraph [ref=e100]: The size of a statutory deduction available to forestry taxpayers goes up to max. 75% of the value of the capital income gained through the operation. Previously, the deduction was at most 60%. Another change affecting the statutory deduction is a new rule on the deduction’s base, which now depends on the total value of all woodlands in the forestry taxpayer’s ownership, by acquisition prices, and equals 75% – instead of the previous 60% – of the total.
+            - heading "Taxes on receipts of dividends will change – the objective is to prevent abuse of swap deals" [level=2] [ref=e101]
+            - paragraph [ref=e102]: The Parliament adopted the Government’s bill to introduce changes to the tax rules applicable on income in the form of dividends and on how the assets of the company distributing dividends are valued if the company has recently carried out an exchange of shares. The changes apply to situations where the distributing company is the acquiring party in a share exchange or swap, and the parties involved are in an associated relationship with one another.
+            - paragraph [ref=e103]: This measure is especially directed toward the prevention of avoidance schemes involving planned share exchanges before reporting the company’s taxable income and dividends for the tax year.
+            - heading "The classification of business sectors will change" [level=2] [ref=e104]
+            - paragraph [ref=e105]: The Tax Administration will update its “line of business” records in the registers as of 1 January 2026 to match the recently introduced TOL 2025 classification. Companies, corporate entities and other taxpayer entities have a set of identification details recorded in MyTax and the Business Information System, BIS.
+            - paragraph [ref=e106]: After the update, records concerning their sector of activity of business will be fully in line with the new classification. You can use MyTax to make changes to your company information if needed.
+            - heading "Other changes" [level=2] [ref=e107]
+            - paragraph [ref=e108]: "Importing nicotine pouches and snus products to Finland is subject to new restrictions starting in 2026: travellers and tourists will be allowed to bring max. 1000 grams of these products with them duty-free from other EU member countries."
+            - paragraph [ref=e109]: Lower rates than previously will apply to excise taxation on the selling of liquid fuels including gasoline/petrol. At the same time, other excise duties are going up – including the duty on alcohol, the duty on tobacco, and the duty on soft drinks. There will also be an upward rate change affecting the tax on mined minerals. In addition, the mining industry’s partial relief of excise duties on electricity will no longer be in force.
+            - paragraph [ref=e110]: "The Finnish government also proposes changes to the base of the self-assessed pharmacy tax: in future, the size of this tax would be linked to profit margins. The proposal and bill also include adjustments of tax-deductibility and bracketing. These changes to the legislation in force are part of the new Acts governing the selling of pharmaceutical products."
+            - paragraph [ref=e111]
+            - paragraph [ref=e112]:
+              - strong [ref=e113]: For more information
+              - text: "on upcoming and future changes, visit:"
+              - link "vero.fi/changes" [ref=e114] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/changes-in-taxation/
+        - navigation [ref=e115]:
+          - heading "Newsroom" [level=3] [ref=e116]:
+            - link "Newsroom" [ref=e117] [cursor=pointer]:
+              - /url: /en/About-us/newsroom/
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "News" [ref=e123] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/news/
+            - listitem [ref=e124]:
+              - link "Changes in taxation" [ref=e126] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/changes-in-taxation/
+            - listitem [ref=e127]:
+              - link "Social media" [ref=e129] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/social-media/
+            - listitem [ref=e130]:
+              - link "Events, webinars" [ref=e132] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/events-and-webinars/
+            - listitem [ref=e133]:
+              - link "Videos and presentations" [ref=e135] [cursor=pointer]:
+                - /url: /en/About-us/newsroom/visual_aids_for_presentations_and_for_t/
+        - separator [ref=e136]
+        - generic [ref=e139]:
+          - heading "What do you think of this page?" [level=2] [ref=e141]
+          - group "What do you think of this page?" [ref=e142]:
+            - button "I found what I was looking for" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: I found what I was looking for
+            - button "Easy to understand" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: Easy to understand
+            - button "Difficult to understand" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Difficult to understand
+            - button "I did not find what I was looking for" [ref=e153] [cursor=pointer]:
+              - generic [ref=e154]: I did not find what I was looking for
+        - generic [ref=e155]: Page last updated 12/8/2025
+    - contentinfo [ref=e156]:
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - heading "E-file" [level=2] [ref=e161]
+            - list [ref=e163]:
+              - listitem [ref=e164]:
+                - link "MyTax" [ref=e166] [cursor=pointer]:
+                  - /url: /en/e-file/mytax/
+              - listitem [ref=e167]:
+                - link "Calculators" [ref=e169] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/calculators/
+              - listitem [ref=e170]:
+                - link "Other e-filing resources" [ref=e172] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/efil/
+              - listitem [ref=e173]:
+                - link "The Positive credit register" [ref=e175] [cursor=pointer]:
+                  - /url: /en/positivecreditregister/
+              - listitem [ref=e176]:
+                - link "Incomes Register" [ref=e178] [cursor=pointer]:
+                  - /url: /en/incomes-register/
+          - generic [ref=e179]:
+            - heading "Contact" [level=2] [ref=e180]
+            - list [ref=e182]:
+              - listitem [ref=e183]:
+                - link "Chat" [ref=e185] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/chat_with_the_tax_authoritie/
+              - listitem [ref=e186]:
+                - link "Contact us" [ref=e188] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/
+              - listitem [ref=e189]:
+                - link "Social media" [ref=e191] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/ask-us-on-social-media/
+              - listitem [ref=e192]:
+                - link "Forms" [ref=e194] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/forms/
+              - listitem [ref=e195]:
+                - link "Processing times" [ref=e197] [cursor=pointer]:
+                  - /url: /en/About-us/contact-us/processing-times-for-returns-and-applications/
+          - generic [ref=e198]:
+            - heading "Detailed guidance" [level=2] [ref=e199]
+            - generic [ref=e203]:
+              - paragraph [ref=e204]: The Tax Administration's detailed guidance is especially for tax professionals.
+              - list [ref=e205]:
+                - listitem [ref=e206]:
+                  - link "Detailed guidance" [ref=e208] [cursor=pointer]:
+                    - /url: /en/detailed-guidance/
+          - generic [ref=e209]:
+            - heading "About us" [level=2] [ref=e210]
+            - generic [ref=e214]:
+              - paragraph [ref=e215]: Facts about the Tax Administration plus jobs, news and statistics.
+              - list [ref=e216]:
+                - listitem [ref=e217]:
+                  - link "About us" [ref=e219] [cursor=pointer]:
+                    - /url: /en/About-us/
+        - list [ref=e222]:
+          - listitem [ref=e223]: © Tax Administration
+          - listitem [ref=e224]:
+            - link "Data Protection" [ref=e226] [cursor=pointer]:
+              - /url: /en/About-us/finnish-tax-administration/data-security-and-information-access/data-security-and-the-processing-of-personal-data/
+          - listitem [ref=e227]:
+            - link "Feedback" [ref=e229] [cursor=pointer]:
+              - /url: /en/About-us/contact-us/feedback/
+          - listitem [ref=e230]:
+            - link "Print" [ref=e232] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Back to top":
+        - /url: "#top"
+        - img

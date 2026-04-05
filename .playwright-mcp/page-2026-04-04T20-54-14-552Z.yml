@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: sijoitusvakuutus verotus vertailu 2026 Mandatum OP Nordea sijoitusvakuutus verotus vertailu 2026 Mandatum OP Nordea
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsijoitusvakuutus%2Bverotus%2Bvertailu%2B2026%2BMandatum%2BOP%2BNordea%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sca_esv=abbb0aaa8824193d&hl=fi&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQtKgLegQIFBAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Miettii Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Miettii
+            - generic [ref=e156]: Haetaan
+            - generic [ref=e166]: Odota vielä hetki
+        - progressbar [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - heading "Tulokset internetistä" [level=2] [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - 'link "Vakuutuskuoret: Kannattaako sijoitusvakuutus? Sijoittaja.fi https://www.sijoittaja.fi › vakuutuskuoret-kannattaako-k..." [ref=e224] [cursor=pointer]':
+                  - /url: https://www.sijoittaja.fi/60607/vakuutuskuoret-kannattaako-kapitalisaatiosopimus-tai-sijoitusvakuutus/
+                  - 'heading "Vakuutuskuoret: Kannattaako sijoitusvakuutus?" [level=3] [ref=e225]'
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: Sijoittaja.fi
+                    - generic [ref=e234]: https://www.sijoittaja.fi › vakuutuskuoret-kannattaako-k...
+                - button "Tietoja tästä tuloksesta" [ref=e235] [cursor=pointer]:
+                  - img [ref=e238]
+              - generic [ref=e241]:
+                - generic [ref=e242]: 18.5.2025 —
+                - text: Vakuutuskuori mahdollistaa verotuksen siirtämisen tulevaisuuteen, kun sijoitukset joskus nostetaan kuoresta ulos. Lainsäädännön muutokset ovat ...
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e248]
+              - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+            - generic [ref=e254]:
+              - button "Pitääkö sijoitusvakuutus ilmoittaa verotuksessa?" [ref=e260] [cursor=pointer]:
+                - generic [ref=e262]: Pitääkö sijoitusvakuutus ilmoittaa verotuksessa?
+                - img [ref=e265]
+              - button "Milloin sijoitusvakuutus päättyy?" [ref=e274] [cursor=pointer]:
+                - generic [ref=e276]: Milloin sijoitusvakuutus päättyy?
+                - img [ref=e279]
+              - button "Voiko sijoitusvakuutuksesta nostaa rahaa?" [ref=e288] [cursor=pointer]:
+                - generic [ref=e290]: Voiko sijoitusvakuutuksesta nostaa rahaa?
+                - img [ref=e293]
+              - button "Miksi valita sijoitusvakuutus?" [ref=e302] [cursor=pointer]:
+                - generic [ref=e304]: Miksi valita sijoitusvakuutus?
+                - img [ref=e307]
+          - generic [ref=e312]:
+            - heading "Tulokset internetistä" [level=2] [ref=e313]
+            - generic [ref=e314]:
+              - generic [ref=e317]:
+                - link "Vertailimme suosituimmat sijoitusvakuutukset Kauppalehti https://www.kauppalehti.fi › Uutiset › Sijoittaminen" [ref=e319] [cursor=pointer]:
+                  - /url: https://www.kauppalehti.fi/uutiset/a/5eb632ac-88d8-4f52-8a17-391f71d696e6
+                  - heading "Vertailimme suosituimmat sijoitusvakuutukset" [level=3] [ref=e320]
+                  - generic [ref=e325]:
+                    - generic [ref=e327]: Kauppalehti
+                    - generic [ref=e329]: https://www.kauppalehti.fi › Uutiset › Sijoittaminen
+                - button "Tietoja tästä tuloksesta" [ref=e330] [cursor=pointer]:
+                  - img [ref=e333]
+              - generic [ref=e336]:
+                - generic [ref=e337]: 23.11.2023 —
+                - text: Sijoitusvakuutukset ovat tänä vuonna nousseet takaisin sijoittajien kartalle. Kyseessä ei suinkaan ole uusi pitkäaikaisen säästämisen muoto.
+          - generic [ref=e341]:
+            - generic [ref=e344]:
+              - link "Kulut kiusaavat vakuutussijoittajia Taloustaito https://www.taloustaito.fi › Rahat › kulut-kiusaavat-vak..." [ref=e346] [cursor=pointer]:
+                - /url: https://www.taloustaito.fi/Rahat/kulut-kiusaavat-vakuutussijoittajia/
+                - heading "Kulut kiusaavat vakuutussijoittajia" [level=3] [ref=e347]
+                - generic [ref=e352]:
+                  - generic [ref=e354]: Taloustaito
+                  - generic [ref=e356]: https://www.taloustaito.fi › Rahat › kulut-kiusaavat-vak...
+              - button "Tietoja tästä tuloksesta" [ref=e357] [cursor=pointer]:
+                - img [ref=e360]
+            - generic [ref=e363]:
+              - generic [ref=e364]: 7.6.2023 —
+              - generic [ref=e365]:
+                - emphasis [ref=e366]: OP
+                - text: "-"
+                - emphasis [ref=e367]: Sijoitusvakuutus
+                - text: "*, 0,4 % (82 500 euroon asti), 0,2 % (82 500 euroa ylittävästä osasta)."
+                - emphasis [ref=e368]: Mandatum Sijoitusvakuutus
+                - text: ", 0,8 % (70 000 euroon asti) ..."
+          - generic [ref=e372]:
+            - generic [ref=e375]:
+              - link "Viisi kysymystä sijoitusvakuutuksista Nordea https://www.nordea.fi › ... › Vakuutussäästäminen" [ref=e377] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/vakuutussaastaminen/viisi-kysymysta-sijoitusvakuutuksista.html
+                - heading "Viisi kysymystä sijoitusvakuutuksista" [level=3] [ref=e378]
+                - generic [ref=e383]:
+                  - generic [ref=e385]: Nordea
+                  - generic [ref=e387]: https://www.nordea.fi › ... › Vakuutussäästäminen
+              - button "Tietoja tästä tuloksesta" [ref=e388] [cursor=pointer]:
+                - img [ref=e391]
+            - generic [ref=e395]:
+              - emphasis [ref=e396]: Sijoitusvakuutus
+              - text: sopii kaikille, jotka haluavat sijoittaa pitkäjänteisesti, verotehokkaasti ja muokata sijoituksiaan joustavasti. Kokeneempi sijoittaja hyötyy ...
+            - generic [ref=e398]: "Puuttuu: Mandatum ‎OP"
+          - generic [ref=e402]:
+            - generic [ref=e405]:
+              - link "Eläkevakuutus säästöaikana - Sijoittaminen Nordea https://www.nordea.fi › ... › Sijoittaminen" [ref=e407] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/elakevakuutus-saastoaikana.html
+                - heading "Eläkevakuutus säästöaikana - Sijoittaminen" [level=3] [ref=e408]
+                - generic [ref=e413]:
+                  - generic [ref=e415]: Nordea
+                  - generic [ref=e417]: https://www.nordea.fi › ... › Sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e418] [cursor=pointer]:
+                - img [ref=e421]
+            - generic [ref=e425]:
+              - text: Vuoden
+              - emphasis [ref=e426]: "2026"
+              - text: loppuun asti voit vähentää eläkevakuutusmaksuja verotuksessa enintään 5000 euroa vuodessa. Jos työnantajasi on ottanut sinulle vapaaehtoisen ...
+            - generic [ref=e428]: "Puuttuu: sijoitusvakuutus ‎Mandatum ‎OP"
+          - generic [ref=e432]:
+            - generic [ref=e435]:
+              - link "Sijoitusvakuutus tai säästösopimus Mandatum https://www.mandatum.fi › sijoittaminen › sijoitusvaku..." [ref=e437] [cursor=pointer]:
+                - /url: https://www.mandatum.fi/sijoittaminen/sijoitusvakuutus-ja-saastosopimus/
+                - heading "Sijoitusvakuutus tai säästösopimus" [level=3] [ref=e438]
+                - generic [ref=e443]:
+                  - generic [ref=e445]: Mandatum
+                  - generic [ref=e447]: https://www.mandatum.fi › sijoittaminen › sijoitusvaku...
+              - button "Tietoja tästä tuloksesta" [ref=e448] [cursor=pointer]:
+                - img [ref=e451]
+            - generic [ref=e455]:
+              - text: Voit vaihtaa sijoituskohteita sijoitusvakuutuksen ja säästösopimuksen sisällä ilman veroseuraamuksia. Pääset näin hyötymään korkoa korolle -ilmiöstä.
+              - emphasis [ref=e456]: Verot
+              - text: ...
+            - generic [ref=e458]: "Puuttuu: vertailu ‎OP"
+          - generic [ref=e462]:
+            - generic [ref=e465]:
+              - link "Sijoitusvakuutuksen verotus OP https://www.op.fi › henkiloasiakkaat › op-sijoitusvakuutus" [ref=e467] [cursor=pointer]:
+                - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/vakuutussaastaminen/op-sijoitusvakuutus/op-sijoitusvakuutuksen-verotus
+                - heading "Sijoitusvakuutuksen verotus" [level=3] [ref=e468]
+                - generic [ref=e473]:
+                  - generic [ref=e475]: OP
+                  - generic [ref=e477]: https://www.op.fi › henkiloasiakkaat › op-sijoitusvakuutus
+              - button "Tietoja tästä tuloksesta" [ref=e478] [cursor=pointer]:
+                - img [ref=e481]
+            - generic [ref=e485]:
+              - text: Sijoitusvakuutuksessa maksat
+              - emphasis [ref=e486]: verot
+              - text: vasta säästöjen noston yhteydessä. Voit vaihtaa sijoituskohteita vakuutuskuoren sisällä ilman veroseuraamuksia.
+            - generic [ref=e488]: "Puuttuu: vertailu ‎2026 ‎Mandatum"
+          - generic [ref=e495]:
+            - generic [ref=e498]:
+              - 'link "Sijoituspodi: 2026 – jälleen hyvä sijoitusvuosi? | Nordea 3.12 ... YouTube · Nordea Suomi Yli 3,3 t. katselukertaa · 4 kuukautta sitten" [ref=e500] [cursor=pointer]':
+                - /url: https://www.youtube.com/watch?v=3_tu4hTWzas
+                - 'heading "Sijoituspodi: 2026 – jälleen hyvä sijoitusvuosi? | Nordea 3.12 ..." [level=3] [ref=e501]'
+                - generic [ref=e506]:
+                  - generic [ref=e508]: YouTube · Nordea Suomi
+                  - generic [ref=e510]: Yli 3,3 t. katselukertaa · 4 kuukautta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e511] [cursor=pointer]:
+                - img [ref=e514]
+            - generic [ref=e516]:
+              - 'button "Sijoituspodi: 2026 – jälleen hyvä sijoitusvuosi? | Nordea 3.12 ..., tekijä: Nordea Suomi, alusta: YouTube. Katso Googlessa. 27:45" [ref=e517] [cursor=pointer]':
+                - generic [ref=e519]:
+                  - img [ref=e525]
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: 27:45
+                    - img [ref=e532]
+              - generic [ref=e535]: Osakemarkkinoilla nähtiin marraskuussa maltillinen korjausliike, joka painoi eniten teknologia-alan osakkeita. Millainen vuosi 2025 on ollut ...
+          - generic [ref=e539]:
+            - generic [ref=e542]:
+              - link "Sijoitusvakuutus joustaa markkinoiden muuttuessa Nordea https://www.nordea.fi › ... › Vakuutussäästäminen" [ref=e544] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/vakuutussaastaminen/sijoitusvakuutus-joustaa-markkinoiden-muuttuessa.html
+                - heading "Sijoitusvakuutus joustaa markkinoiden muuttuessa" [level=3] [ref=e545]
+                - generic [ref=e550]:
+                  - generic [ref=e552]: Nordea
+                  - generic [ref=e554]: https://www.nordea.fi › ... › Vakuutussäästäminen
+              - button "Tietoja tästä tuloksesta" [ref=e555] [cursor=pointer]:
+                - img [ref=e558]
+            - generic [ref=e562]:
+              - text: Sopimuksen sisällä sijoituskohteita voi myös vaihtaa ilman vaihtoon liittyvää verotusta. Tuotosta maksetaan
+              - emphasis [ref=e563]: verot
+              - text: vasta siinä vaiheessa, kun varoja nostetaan ...
+            - generic [ref=e565]: "Puuttuu: Mandatum ‎OP"
+          - generic [ref=e569]:
+            - generic [ref=e572]:
+              - link "Löydä paras osakevälittäjä ja sijoitusalusta Sijoittaja.fi https://www.sijoittaja.fi › Laskurit ja vertailut" [ref=e574] [cursor=pointer]:
+                - /url: https://www.sijoittaja.fi/laskurit-ja-vertailut/osakevalittaja/
+                - heading "Löydä paras osakevälittäjä ja sijoitusalusta" [level=3] [ref=e575]
+                - generic [ref=e580]:
+                  - generic [ref=e582]: Sijoittaja.fi
+                  - generic [ref=e584]: https://www.sijoittaja.fi › Laskurit ja vertailut
+              - button "Tietoja tästä tuloksesta" [ref=e585] [cursor=pointer]:
+                - img [ref=e588]
+            - generic [ref=e592]:
+              - text: Osakevälittäjät esittelyssä · Suosittujen kaupankäyntialustojen
+              - emphasis [ref=e593]: vertailu
+              - text: · eToro osakevälittäjänä · Nordnet osakevälittäjänä ·
+              - emphasis [ref=e594]: Mandatum
+              - text: Trader osakevälittäjänä.
+        - generic [ref=e596]:
+          - generic [ref=e601]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e603]
+            - generic [ref=e605]:
+              - generic [ref=e606]:
+                - link "OP Sijoitusvakuutus kulut" [ref=e610] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP+Sijoitusvakuutus+kulut&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhYEAE
+                  - generic [ref=e611]:
+                    - generic [ref=e616]: OP Sijoitusvakuutus kulut
+                    - img [ref=e620]
+                - link "Rahasto vai sijoitusvakuutus" [ref=e625] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Rahasto+vai+sijoitusvakuutus&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhfEAE
+                  - generic [ref=e626]:
+                    - generic [ref=e631]: Rahasto vai sijoitusvakuutus
+                    - img [ref=e635]
+                - link "Nordnet sijoitusvakuutus" [ref=e640] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+sijoitusvakuutus&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAheEAE
+                  - generic [ref=e641]:
+                    - generic [ref=e646]: Nordnet sijoitusvakuutus
+                    - img [ref=e650]
+                - link "Nordea sijoitusvakuutus kulut" [ref=e655] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordea+sijoitusvakuutus+kulut&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhdEAE
+                  - generic [ref=e656]:
+                    - generic [ref=e661]: Nordea sijoitusvakuutus kulut
+                    - img [ref=e665]
+              - generic [ref=e667]:
+                - link "Nordnet Sijoitusvakuutus kokemuksia" [ref=e671] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+Sijoitusvakuutus+kokemuksia&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhcEAE
+                  - generic [ref=e672]:
+                    - generic [ref=e677]: Nordnet Sijoitusvakuutus kokemuksia
+                    - img [ref=e681]
+                - link "Sijoitusvakuutus vs osakesäästötili" [ref=e686] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Sijoitusvakuutus+vs+osakes%C3%A4%C3%A4st%C3%B6tili&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhbEAE
+                  - generic [ref=e687]:
+                    - generic [ref=e692]: Sijoitusvakuutus vs osakesäästötili
+                    - img [ref=e696]
+                - link "Mandatum Sijoitusvakuutus" [ref=e701] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Mandatum+Sijoitusvakuutus&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhaEAE
+                  - generic [ref=e702]:
+                    - generic [ref=e707]: Mandatum Sijoitusvakuutus
+                    - img [ref=e711]
+                - link "Sijoitusvakuutus Danske Bank" [ref=e716] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Sijoitusvakuutus+Danske+Bank&sa=X&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ1QJ6BAhZEAE
+                  - generic [ref=e717]:
+                    - generic [ref=e722]: Sijoitusvakuutus Danske Bank
+                    - img [ref=e726]
+          - navigation [ref=e728]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e729]
+            - text: "1"
+            - link "Page 2" [ref=e732] [cursor=pointer]:
+              - /url: /search?q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sca_esv=abbb0aaa8824193d&hl=fi&ei=dXrRacTHGoPTwPAP1fC60Ac&start=10&sa=N&sstk=Af77f_dHa0bobSDLFVlhsOT5TqznOU289tO5v5V8U4Wkq6_klJA3xSfpIXY624X-8av_S8_eXXCtTJ-_a_EEDMft2GSAqkrfHihD6A&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ8tMDegQIVhAE
+              - text: "2"
+            - link "Page 3" [ref=e734] [cursor=pointer]:
+              - /url: /search?q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sca_esv=abbb0aaa8824193d&hl=fi&ei=dXrRacTHGoPTwPAP1fC60Ac&start=20&sa=N&sstk=Af77f_dHa0bobSDLFVlhsOT5TqznOU289tO5v5V8U4Wkq6_klJA3xSfpIXY624X-8av_S8_eXXCtTJ-_a_EEDMft2GSAqkrfHihD6A&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ8tMDegQIVhAG
+              - text: "3"
+            - heading "Seuraava" [level=2] [ref=e736]:
+              - link "Seuraava" [ref=e737] [cursor=pointer]:
+                - /url: /search?q=sijoitusvakuutus+verotus+vertailu+2026+Mandatum+OP+Nordea&sca_esv=abbb0aaa8824193d&hl=fi&ei=dXrRacTHGoPTwPAP1fC60Ac&start=10&sa=N&sstk=Af77f_dHa0bobSDLFVlhsOT5TqznOU289tO5v5V8U4Wkq6_klJA3xSfpIXY624X-8av_S8_eXXCtTJ-_a_EEDMft2GSAqkrfHihD6A&ved=2ahUKEwiE1smWitWTAxWDKRAIHVW4DnoQ8NMDegQIVhAI
+                - generic [ref=e739]: Seuraava
+        - navigation
+    - contentinfo [ref=e740]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e741]
+      - generic [ref=e745]:
+        - generic [ref=e747]:
+          - text: Suomi
+          - generic [ref=e749]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e751] [cursor=pointer]:
+              - generic [ref=e752]: 00940, Helsinki
+              - generic [ref=e754]:
+                - text: "-"
+                - generic [ref=e755]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e757] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e760]:
+          - link "Ohje" [ref=e761] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e762] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e763] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e764] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

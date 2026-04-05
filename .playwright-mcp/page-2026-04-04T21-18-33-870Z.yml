@@ -1,0 +1,391 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQpYkNCA0
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e16]:
+          - combobox "Hae" [ref=e19]: TyEL eläkevakuutusmaksu 2026 prosentit työntekijä TyEL eläkevakuutusmaksu 2026 prosentit työntekijä
+          - generic [ref=e20]:
+            - button "Tyhjennä" [ref=e22] [cursor=pointer]:
+              - img [ref=e24]
+            - generic [ref=e27]:
+              - button "Syöttötyökalut" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - button "Puhehaku" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Hae kuvan perusteella" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Haku" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Asetukset" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google-sovellukset" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Kirjaudu" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DTyEL%2Bel%25C3%25A4kevakuutusmaksu%2B2026%2Bprosentit%2Bty%25C3%25B6ntekij%25C3%25A4&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Tekoälytila" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ2J8OegQIERAE
+              - generic [ref=e78]: Tekoälytila
+          - listitem [ref=e79]:
+            - link "Kaikki" [disabled] [ref=e80]:
+              - generic [ref=e82]: Kaikki
+          - listitem [ref=e83]:
+            - link "Kuvahaku" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQtKgLegQIFxAB
+              - generic [ref=e86]: Kuvahaku
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQtKgLegQIFhAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQs6gLegQIFRAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ0pQJegQIFBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - button "Lisää suodattimia" [ref=e104] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Lisää
+                  - img [ref=e109]
+        - button "Työkalut" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Työkalut
+            - img [ref=e117]
+    - heading "Hakutulokset" [level=1] [ref=e119]
+    - generic [ref=e125]:
+      - generic [ref=e126]: Looking for results in English?
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e129]
+      - link "Change to English" [ref=e131] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DTyEL%2Bel%25C3%25A4kevakuutusmaksu%2B2026%2Bprosentit%2Bty%25C3%25B6ntekij%25C3%25A4&hl=en&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e132] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e134] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - 'heading "Tarkoititko: TyÖeläkevakuutusmaksu 2026 prosentit työntekijä" [level=2] [ref=e141]':
+          - text: "Tarkoititko:"
+          - link "TyÖeläkevakuutusmaksu 2026 prosentit työntekijä" [ref=e142] [cursor=pointer]:
+            - /url: /search?sca_esv=24f50bc0831b3fb1&q=Ty%C3%96el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&spell=1&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQBSgAegQIDxAB
+            - generic [ref=e143]: TyÖeläkevakuutusmaksu
+            - text: 2026 prosentit työntekijä
+        - generic [ref=e158]:
+          - heading "Miettii" [level=2] [ref=e162]:
+            - generic [ref=e163]: Miettii
+          - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Tulokset internetistä" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "Jatkossa kaikilla työntekijöillä on sama eläkemaksuprosentti Työeläke.fi https://www.tyoelake.fi › Ajankohtaista" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.tyoelake.fi/jatkossa-kaikilla-tyontekijoilla-on-sama-elakemaksuprosentti-vuonna-2026-se-on-7-3-prosenttia-palkasta/
+                  - heading "Jatkossa kaikilla työntekijöillä on sama eläkemaksuprosentti" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Työeläke.fi
+                    - generic [ref=e190]: https://www.tyoelake.fi › Ajankohtaista
+                - button "Tietoja tästä tuloksesta" [ref=e191] [cursor=pointer]:
+                  - img [ref=e194]
+              - generic [ref=e197]:
+                - generic [ref=e198]: 21.11.2025 —
+                - generic [ref=e199]:
+                  - text: Jatkossa kaikilla työntekijöillä on sama eläkemaksuprosentti – vuonna
+                  - emphasis [ref=e200]: "2026"
+                  - text: "se on 7,3 prosenttia palkasta · alle 53-vuotiaat: maksu 7,15 -> 7,3 ..."
+          - generic [ref=e204]:
+            - generic [ref=e207]:
+              - link "Työeläkemaksut vuodelle 2026 on vahvistettu Ilmarinen https://www.ilmarinen.fi › uutiset-ja-tiedotteet › tyoelak..." [ref=e209] [cursor=pointer]:
+                - /url: https://www.ilmarinen.fi/ajankohtaista/uutiset-ja-tiedotteet/2025/tyoelakemaksut-vuodelle-2026-on-vahvistettu/
+                - heading "Työeläkemaksut vuodelle 2026 on vahvistettu" [level=3] [ref=e210]
+                - generic [ref=e215]:
+                  - generic [ref=e217]: Ilmarinen
+                  - generic [ref=e219]: https://www.ilmarinen.fi › uutiset-ja-tiedotteet › tyoelak...
+              - button "Tietoja tästä tuloksesta" [ref=e220] [cursor=pointer]:
+                - img [ref=e223]
+            - generic [ref=e226]:
+              - generic [ref=e227]: 21.11.2025 —
+              - generic [ref=e228]:
+                - text: Keskimääräinen perittävä
+                - emphasis [ref=e229]: TyEL
+                - text: "-maksu on ensi vuonna 24,4 prosenttia palkkasummasta eli sama kuin vuonna 2025 perittävä varsinainen maksu."
+          - generic [ref=e233]:
+            - generic [ref=e236]:
+              - 'link "Työeläkemaksut vuonna 2026 Eläketurvakeskus https://www.etk.fi › ... › Kategoria: Uutinen" [ref=e238] [cursor=pointer]':
+                - /url: https://www.etk.fi/ajankohtaista/tyoelakemaksut-vuonna-2026/
+                - heading "Työeläkemaksut vuonna 2026" [level=3] [ref=e239]
+                - generic [ref=e244]:
+                  - generic [ref=e246]: Eläketurvakeskus
+                  - generic [ref=e248]: "https://www.etk.fi › ... › Kategoria: Uutinen"
+              - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+                - img [ref=e252]
+            - generic [ref=e255]:
+              - generic [ref=e256]: 7.10.2025 —
+              - generic [ref=e257]:
+                - emphasis [ref=e258]: TyEL-maksu on 24,4 prosenttia maksun perusteena olevista palkoista
+                - text: . · Työnantajan maksu on keskimäärin 17,10 prosenttia maksun perusteena ...
+          - generic [ref=e262]:
+            - generic [ref=e265]:
+              - link "Työeläkevakuutusmaksut vuodelle 2026 on vahvistettu Sosiaali- ja terveysministeriö https://stm.fi › tyoelakevakuutusmaksut-vuodelle-2026-o..." [ref=e267] [cursor=pointer]:
+                - /url: https://stm.fi/-/tyoelakevakuutusmaksut-vuodelle-2026-on-vahvistettu
+                - heading "Työeläkevakuutusmaksut vuodelle 2026 on vahvistettu" [level=3] [ref=e268]
+                - generic [ref=e273]:
+                  - generic [ref=e275]: Sosiaali- ja terveysministeriö
+                  - generic [ref=e277]: https://stm.fi › tyoelakevakuutusmaksut-vuodelle-2026-o...
+              - button "Tietoja tästä tuloksesta" [ref=e278] [cursor=pointer]:
+                - img [ref=e281]
+            - generic [ref=e284]:
+              - generic [ref=e285]: 21.11.2025 —
+              - generic [ref=e286]:
+                - text: Vuonna
+                - emphasis [ref=e287]: "2026"
+                - text: työntekijän eläkelain mukainen keskimääräinen työeläkevakuutusmaksu on 24,4 prosenttia palkasta. Maatalousyrittäjän eläkelain ...
+          - generic [ref=e291]:
+            - generic [ref=e294]:
+              - link "TyEL-maksut eli työeläkemaksut ja maksaminen Varma https://www.varma.fi › tyonantaja › tyel-vakuutus › tye..." [ref=e296] [cursor=pointer]:
+                - /url: https://www.varma.fi/tyonantaja/tyel-vakuutus/tyel-maksut-ja-maksaminen/
+                - heading "TyEL-maksut eli työeläkemaksut ja maksaminen" [level=3] [ref=e297]
+                - generic [ref=e302]:
+                  - generic [ref=e304]: Varma
+                  - generic [ref=e306]: https://www.varma.fi › tyonantaja › tyel-vakuutus › tye...
+              - button "Tietoja tästä tuloksesta" [ref=e307] [cursor=pointer]:
+                - img [ref=e310]
+            - generic [ref=e314]:
+              - emphasis [ref=e315]: TyEL-perusmaksu vuonna 2026 on 24,85 % työntekijöiden palkoista
+              - text: ", ja siihen lisätään työeläkeyhtiökohtainen hoitokustannusmaksu. Lisäksi sopimustyönantaja saa ..."
+          - generic [ref=e319]:
+            - generic [ref=e322]:
+              - link "Palkkahallinnon tärkeät luvut 2026 Palkanlaskijan opas https://palkanlaskijanopas.fi › taulukot › palkkahallinnon..." [ref=e324] [cursor=pointer]:
+                - /url: https://palkanlaskijanopas.fi/taulukot/palkkahallinnon-tarkeat-luvut/palkkahallinnon-tarkeat-luvut-2026/
+                - heading "Palkkahallinnon tärkeät luvut 2026" [level=3] [ref=e325]
+                - generic [ref=e330]:
+                  - generic [ref=e332]: Palkanlaskijan opas
+                  - generic [ref=e334]: https://palkanlaskijanopas.fi › taulukot › palkkahallinnon...
+              - button "Tietoja tästä tuloksesta" [ref=e335] [cursor=pointer]:
+                - img [ref=e338]
+            - generic [ref=e342]:
+              - text: Työntekijän maksut v.
+              - emphasis [ref=e343]: "2026"
+              - text: ; Työntekijän työeläkemaksu - alkaa 17-vuoden täyttämistä seuraavan kuukauden alusta - päättyy sen kuukauden lopussa, jona
+              - emphasis [ref=e344]: työntekijä
+              - text: ...
+          - generic [ref=e348]:
+            - generic [ref=e351]:
+              - link "Työnantajan sivukulut 2026 — kaikki maksut prosentteina yrityksen-perustaminen.net https://yrityksen-perustaminen.net › tyonantajan-sivuku..." [ref=e353] [cursor=pointer]:
+                - /url: https://yrityksen-perustaminen.net/tyonantajan-sivukulut/
+                - heading "Työnantajan sivukulut 2026 — kaikki maksut prosentteina" [level=3] [ref=e354]
+                - generic [ref=e359]:
+                  - generic [ref=e361]: yrityksen-perustaminen.net
+                  - generic [ref=e363]: https://yrityksen-perustaminen.net › tyonantajan-sivuku...
+              - button "Tietoja tästä tuloksesta" [ref=e364] [cursor=pointer]:
+                - img [ref=e367]
+            - generic [ref=e371]:
+              - text: Työntekijän maksut 2026 ;
+              - emphasis [ref=e372]: TyEL-eläkemaksu (työntekijän osuus), 7,30
+              - text: "% ; Työttömyysvakuutusmaksu, 0,89 % ; YHTEENSÄ, 8,19 % ..."
+          - generic [ref=e376]:
+            - generic [ref=e379]:
+              - link "Eläkevakuutusmaksut 2026–2014 Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › tyo-elake-ja-etuudet › el..." [ref=e381] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/tyo-elake-ja-etuudet/ansiotulojen-verot-ja-maksut/elakevakuutusmaksut-2026---2014/
+                - heading "Eläkevakuutusmaksut 2026–2014" [level=3] [ref=e382]
+                - generic [ref=e387]:
+                  - generic [ref=e389]: Veronmaksajain Keskusliitto
+                  - generic [ref=e391]: https://www.veronmaksajat.fi › tyo-elake-ja-etuudet › el...
+              - button "Tietoja tästä tuloksesta" [ref=e392] [cursor=pointer]:
+                - img [ref=e395]
+            - generic [ref=e398]:
+              - generic [ref=e399]: 17.12.2025 —
+              - generic [ref=e400]:
+                - text: Vuonna
+                - emphasis [ref=e401]: "2026"
+                - text: työntekijän eläkelain mukainen keskimääräinen työeläkevakuutusmaksu on yhteensä 24,40 prosenttia palkasta sisältäen myös ...
+          - generic [ref=e405]:
+            - generic [ref=e408]:
+              - link "Työeläkevakuuttamisen vuosi 2026 – katso muutokset Ilmarinen https://www.ilmarinen.fi › uutiset-ja-tiedotteet › tyoelak..." [ref=e410] [cursor=pointer]:
+                - /url: https://www.ilmarinen.fi/ajankohtaista/uutiset-ja-tiedotteet/2025/tyoelakevakuuttamisen-vuosi-2026--katso-muutokset/
+                - heading "Työeläkevakuuttamisen vuosi 2026 – katso muutokset" [level=3] [ref=e411]
+                - generic [ref=e416]:
+                  - generic [ref=e418]: Ilmarinen
+                  - generic [ref=e420]: https://www.ilmarinen.fi › uutiset-ja-tiedotteet › tyoelak...
+              - button "Tietoja tästä tuloksesta" [ref=e421] [cursor=pointer]:
+                - img [ref=e424]
+            - generic [ref=e427]:
+              - generic [ref=e428]: 30.12.2025 —
+              - generic [ref=e429]:
+                - text: Työnantajan eläkevakuutuksen (TyEL) keskimääräinen perittävä maksu on
+                - emphasis [ref=e430]: 24 prosenttia palkkasummasta vuonna 2026
+                - text: . Keskimääräinen maksu kuvaa ...
+            - generic [ref=e432]:
+              - text: "Puuttuu: prosentit ‎| Hae tällä:"
+              - link "prosentit" [ref=e433] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=TyEL+el%C3%A4kevakuutusmaksu+2026+%22prosentit%22+ty%C3%B6ntekij%C3%A4&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ5t4CegQISRAB
+          - generic [ref=e437]:
+            - generic [ref=e438]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e439]
+              - button "Tietoja tästä tuloksesta" [ref=e440] [cursor=pointer]:
+                - img [ref=e443]
+            - generic [ref=e445]:
+              - button "Paljonko työeläkemaksu on 2026?" [ref=e451] [cursor=pointer]:
+                - generic [ref=e453]: Paljonko työeläkemaksu on 2026?
+                - img [ref=e456]
+              - button "Paljonko työntekijä maksaa eläkemaksuja?" [ref=e465] [cursor=pointer]:
+                - generic [ref=e467]: Paljonko työntekijä maksaa eläkemaksuja?
+                - img [ref=e470]
+              - button "Mikä on YEL raja 2026?" [ref=e479] [cursor=pointer]:
+                - generic [ref=e481]: Mikä on YEL raja 2026?
+                - img [ref=e484]
+              - button "Mikä on työntekijän eläkemaksu?" [ref=e493] [cursor=pointer]:
+                - generic [ref=e495]: Mikä on työntekijän eläkemaksu?
+                - img [ref=e498]
+          - generic [ref=e503]:
+            - heading "Tulokset internetistä" [level=2] [ref=e504]
+            - generic [ref=e505]:
+              - generic [ref=e508]:
+                - link "Suurtyönantajan TyEL-vakuutusmaksuopas 2026 - Elo elo.fi https://www.elo.fi › files › vakuuttaminen-esitteet" [ref=e510] [cursor=pointer]:
+                  - /url: https://www.elo.fi/-/media/files/vakuuttaminen-esitteet/suurtyonantajan_tyel_vakuutusmaksuopas.pdf
+                  - heading "Suurtyönantajan TyEL-vakuutusmaksuopas 2026 - Elo" [level=3] [ref=e511]
+                  - generic [ref=e516]:
+                    - generic [ref=e518]: elo.fi
+                    - generic [ref=e520]: https://www.elo.fi › files › vakuuttaminen-esitteet
+                - generic [ref=e521]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e522] [cursor=pointer]:
+                  - img [ref=e525]
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - generic [ref=e529]: 1.1.2026 —
+                  - generic [ref=e530]:
+                    - emphasis [ref=e531]: TyEL
+                    - text: "-vakuutusmaksun laskuperusteet ovat asiakas- hyvitystä ja hoitokustannusosaa lukuun ottamatta yhteiset kaikille"
+                    - emphasis [ref=e532]: eläkevakuutus
+                    - text: yhtiöille.
+                - generic [ref=e533]: 10 sivua
+        - generic [ref=e535]:
+          - generic [ref=e540]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e542]
+            - generic [ref=e544]:
+              - generic [ref=e545]:
+                - link "Työttömyysvakuutusmaksu 2026" [ref=e549] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Ty%C3%B6tt%C3%B6myysvakuutusmaksu+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhMEAE
+                  - generic [ref=e550]:
+                    - generic [ref=e555]: Työttömyysvakuutusmaksu 2026
+                    - img [ref=e559]
+                - link "Työntekijän TyEL 2026" [ref=e564] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Ty%C3%B6ntekij%C3%A4n+TyEL+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhREAE
+                  - generic [ref=e565]:
+                    - generic [ref=e570]: Työntekijän TyEL 2026
+                    - img [ref=e574]
+                - link "TyEL-maksu prosentti 2026" [ref=e579] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=TyEL-maksu+prosentti+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhPEAE
+                  - generic [ref=e580]:
+                    - generic [ref=e585]: TyEL-maksu prosentti 2026
+                    - img [ref=e589]
+                - link "Eläkemaksut 2026 päivät" [ref=e594] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=El%C3%A4kemaksut+2026+p%C3%A4iv%C3%A4t&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhTEAE
+                  - generic [ref=e595]:
+                    - generic [ref=e600]: Eläkemaksut 2026 päivät
+                    - img [ref=e604]
+              - generic [ref=e606]:
+                - link "TyEL alaraja 2026" [ref=e610] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=TyEL+alaraja+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhSEAE
+                  - generic [ref=e611]:
+                    - generic [ref=e616]: TyEL alaraja 2026
+                    - img [ref=e620]
+                - link "Työnantajamaksut 2026" [ref=e625] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Ty%C3%B6nantajamaksut+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhQEAE
+                  - generic [ref=e626]:
+                    - generic [ref=e631]: Työnantajamaksut 2026
+                    - img [ref=e635]
+                - link "Varma TyEL 2026" [ref=e640] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Varma+TyEL+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhNEAE
+                  - generic [ref=e641]:
+                    - generic [ref=e646]: Varma TyEL 2026
+                    - img [ref=e650]
+                - link "Elo TyEL 2026" [ref=e655] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Elo+TyEL+2026&sa=X&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ1QJ6BAhOEAE
+                  - generic [ref=e656]:
+                    - generic [ref=e661]: Elo TyEL 2026
+                    - img [ref=e665]
+          - navigation [ref=e667]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e668]
+            - text: "1"
+            - link "Page 2" [ref=e671] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=10&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAE
+              - text: "2"
+            - link "Page 3" [ref=e673] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=20&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAG
+              - text: "3"
+            - link "Page 4" [ref=e675] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=30&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAI
+              - text: "4"
+            - link "Page 5" [ref=e677] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=40&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAK
+              - text: "5"
+            - link "Page 6" [ref=e679] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=50&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAM
+              - text: "6"
+            - link "Page 7" [ref=e681] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=60&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAO
+              - text: "7"
+            - link "Page 8" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=70&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAQ
+              - text: "8"
+            - link "Page 9" [ref=e685] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=80&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAS
+              - text: "9"
+            - link "Page 10" [ref=e687] [cursor=pointer]:
+              - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=90&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8tMDegQIShAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e689]:
+              - link "Seuraava" [ref=e690] [cursor=pointer]:
+                - /url: /search?q=TyEL+el%C3%A4kevakuutusmaksu+2026+prosentit+ty%C3%B6ntekij%C3%A4&sca_esv=24f50bc0831b3fb1&ei=KIDRafT0MKS_wPAPxs6luQI&start=10&sa=N&sstk=Af77f_fxYOGav0l7-JcWqNgPA5CjC-hcfCVK5bwxFaop0gQ3Y5T56_EmilWMYVbll6mWs13cOiamLnMhH-9cq6OqmE8oxoI29gM6-w&ved=2ahUKEwj0qLrOj9WTAxWkHxAIHUZnKScQ8NMDegQIShAW
+                - generic [ref=e692]: Seuraava
+        - navigation
+    - contentinfo [ref=e693]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e694]
+      - generic [ref=e698]:
+        - generic [ref=e700]:
+          - text: Suomi
+          - generic [ref=e702]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e704] [cursor=pointer]:
+              - generic [ref=e705]: 00940, Helsinki
+              - generic [ref=e707]:
+                - text: "-"
+                - generic [ref=e708]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e710] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e713]:
+          - link "Ohje" [ref=e714] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e715] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e716] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e717] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

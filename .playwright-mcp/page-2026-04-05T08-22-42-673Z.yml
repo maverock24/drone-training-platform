@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: hypo asuntomarkkinakatsaus 2026 OR PTT ennuste asuntomarkkina Helsinki 2026 hypo asuntomarkkinakatsaus 2026 OR PTT ennuste asuntomarkkina Helsinki 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dhypo%2Basuntomarkkinakatsaus%2B2026%2BOR%2BPTT%2Bennuste%2Basuntomarkkina%2BHelsinki%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQtKgLegQIExAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQtKgLegQIFBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ0pQJegQIEBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Tulokset internetistä" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Asuntomarkkina- ja Talouskatsaukset Suomen Hypoteekkiyhdistys https://www.hypo.fi › Asuminen" [ref=e143] [cursor=pointer]:
+                - /url: https://www.hypo.fi/asuminen/ajankohtaiskatsaukset/
+                - heading "Asuntomarkkina- ja Talouskatsaukset" [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Suomen Hypoteekkiyhdistys
+                  - generic [ref=e153]: https://www.hypo.fi › Asuminen
+              - button "Tietoja tästä tuloksesta" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e161]:
+              - text: Hypon
+              - emphasis [ref=e162]: asuntomarkkinakatsaus
+              - text: – Asuntojen hinnat ovat laskeneet yhtäjaksoisesti jo 3,5 vuoden ajan eli yhtä pitkään kuin 1990-luvun laman pahimpaan aikaan.
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - link "Asuntomarkkinoiden tunnelmat apeat vielä tänä vuonna ptt.fi https://www.ptt.fi › Asuntomarkkkinaennuste-2026" [ref=e171] [cursor=pointer]:
+              - /url: https://www.ptt.fi/wp-content/uploads/2026/02/Asuntomarkkkinaennuste-2026.pdf
+              - heading "Asuntomarkkinoiden tunnelmat apeat vielä tänä vuonna" [level=3] [ref=e172]
+              - generic [ref=e177]:
+                - generic [ref=e179]: ptt.fi
+                - generic [ref=e181]: https://www.ptt.fi › Asuntomarkkkinaennuste-2026
+            - generic [ref=e182]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]: 12.2.2026 —
+            - generic [ref=e191]:
+              - emphasis [ref=e192]: Helsinki 2026
+              - text: . Veera Holappa ja Markus Lahtinen. Page 2.
+              - emphasis [ref=e193]: PTT
+              - text: "-ennusteet 1/"
+              - emphasis [ref=e194]: "2026"
+              - text: . Alueellinen asuntomarkkinaennuste
+              - emphasis [ref=e195]: "2026"
+              - text: ": Asuntomarkkinoiden ..."
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - link "Asuntohintojen alamäki on historian pisin Suomen Hypoteekkiyhdistys https://www.hypo.fi › Ajankohtaista – kaikki" [ref=e204] [cursor=pointer]:
+              - /url: https://www.hypo.fi/asuntohintojen-alamaki-on-historian-pisin/
+              - heading "Asuntohintojen alamäki on historian pisin" [level=3] [ref=e205]
+              - generic [ref=e210]:
+                - generic [ref=e212]: Suomen Hypoteekkiyhdistys
+                - generic [ref=e214]: https://www.hypo.fi › Ajankohtaista – kaikki
+            - button "Tietoja tästä tuloksesta" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]: 12.3.2026 —
+            - generic [ref=e223]:
+              - text: Hypon
+              - emphasis [ref=e224]: asuntomarkkinakatsaus
+              - text: – Asuntojen hinnat ovat laskeneet yhtäjaksoisesti jo 3,5 vuoden ajan eli yhtä pitkään kuin 1990-luvun laman ...
+          - generic [ref=e226]:
+            - text: "Puuttuu: ennuste ‎| Hae tällä:"
+            - link "ennuste" [ref=e227] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+%22ennuste%22+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ5t4CegQIIhAB
+        - generic [ref=e231]:
+          - generic [ref=e234]:
+            - link "Alueellinen asuntomarkkinaennuste 2026 - PTT ptt.fi https://www.ptt.fi › Ennusteet" [ref=e236] [cursor=pointer]:
+              - /url: https://www.ptt.fi/ennusteet/alueellinen-asuntomarkkinaennuste-2026/
+              - heading "Alueellinen asuntomarkkinaennuste 2026 - PTT" [level=3] [ref=e237]
+              - generic [ref=e242]:
+                - generic [ref=e244]: ptt.fi
+                - generic [ref=e246]: https://www.ptt.fi › Ennusteet
+            - button "Tietoja tästä tuloksesta" [ref=e247] [cursor=pointer]:
+              - img [ref=e250]
+          - generic [ref=e253]:
+            - generic [ref=e254]: 12.2.2026 —
+            - generic [ref=e255]:
+              - text: Kotitalouksien epävarmuus jarruttaa vielä asuntohintojen nousua ;
+              - emphasis [ref=e256]: Helsinki
+              - text: ", -2,0, -1,4 ; Espoo-Kauniainen, -2,5, -1,5 ; Vantaa, -4,6, -2,8 ; Turku ..."
+          - generic [ref=e258]: "Puuttuu: hypo ‎asuntomarkkinakatsaus"
+        - generic [ref=e262]:
+          - generic [ref=e265]:
+            - link "HYPOn Asuntomarkkinakatsaus 1/2026 Inderes https://www.inderes.fi › videos › hypon-asuntomarkkin..." [ref=e267] [cursor=pointer]:
+              - /url: https://www.inderes.fi/videos/hypon-asuntomarkkinakatsaus-12026
+              - heading "HYPOn Asuntomarkkinakatsaus 1/2026" [level=3] [ref=e268]
+              - generic [ref=e273]:
+                - generic [ref=e275]: Inderes
+                - generic [ref=e277]: https://www.inderes.fi › videos › hypon-asuntomarkkin...
+            - button "Tietoja tästä tuloksesta" [ref=e278] [cursor=pointer]:
+              - img [ref=e281]
+          - generic [ref=e284]:
+            - generic [ref=e285]: 19.3.2026 —
+            - generic [ref=e286]:
+              - text: "Aika: 19.03."
+              - emphasis [ref=e287]: "2026"
+              - text: klo 11.08 Alkuvuosi oli odotuksia heikompi asuntokaupalle, mutta ostajien ja myyjien hintanäkemykset ovat lähentyneet.
+          - generic [ref=e289]:
+            - text: "Puuttuu: ennuste ‎| Hae tällä:"
+            - link "ennuste" [ref=e290] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+%22ennuste%22+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ5t4CegQIJhAB
+        - generic [ref=e294]:
+          - generic [ref=e297]:
+            - link "Ajankohtaiskatsaus Archives Suomen Hypoteekkiyhdistys https://www.hypo.fi › category › ajankohtaiskatsaus" [ref=e299] [cursor=pointer]:
+              - /url: https://www.hypo.fi/category/ajankohtaiskatsaus/
+              - heading "Ajankohtaiskatsaus Archives" [level=3] [ref=e300]
+              - generic [ref=e305]:
+                - generic [ref=e307]: Suomen Hypoteekkiyhdistys
+                - generic [ref=e309]: https://www.hypo.fi › category › ajankohtaiskatsaus
+            - button "Tietoja tästä tuloksesta" [ref=e310] [cursor=pointer]:
+              - img [ref=e313]
+          - generic [ref=e317]:
+            - text: Hypon
+            - emphasis [ref=e318]: asuntomarkkinakatsaus
+            - text: – Asuntojen hinnat ovat laskeneet yhtäjaksoisesti jo 3,5 vuoden ajan eli yhtä pitkään kuin 1990-luvun laman pahimpaan aikaan.
+        - generic [ref=e322]:
+          - generic [ref=e325]:
+            - 'link "Kevään 2026 asuntomarkkinat: mitä välittäjän pitää tietää bookable.fi https://www.bookable.fi › blogi › kevaan-2026-asunto..." [ref=e327] [cursor=pointer]':
+              - /url: https://www.bookable.fi/blogi/kevaan-2026-asuntomarkkinat-mita-valittajan-pitaa-tietaa
+              - 'heading "Kevään 2026 asuntomarkkinat: mitä välittäjän pitää tietää" [level=3] [ref=e328]'
+              - generic [ref=e333]:
+                - generic [ref=e335]: bookable.fi
+                - generic [ref=e337]: https://www.bookable.fi › blogi › kevaan-2026-asunto...
+            - button "Tietoja tästä tuloksesta" [ref=e338] [cursor=pointer]:
+              - img [ref=e341]
+          - generic [ref=e344]:
+            - generic [ref=e345]: 26.3.2026 —
+            - generic [ref=e346]:
+              - text: Helmikuussa
+              - emphasis [ref=e347]: "2026"
+              - text: kauppamäärä oli 4 039, mikä on 9,4 prosenttia vähemmän kuin vuosi sitten ja 21,1 prosenttia alle viiden vuoden keskiarvon (KVKL ...
+          - generic [ref=e349]:
+            - text: "Puuttuu: ennuste ‎| Hae tällä:"
+            - link "ennuste" [ref=e350] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+%22ennuste%22+asuntomarkkina+Helsinki+2026&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ5t4CegQIUhAB
+        - generic [ref=e354]:
+          - generic [ref=e355]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e356]
+            - button "Tietoja tästä tuloksesta" [ref=e357] [cursor=pointer]:
+              - img [ref=e360]
+          - generic [ref=e362]:
+            - button "Kannattaako ostaa asunto 2026?" [ref=e368] [cursor=pointer]:
+              - generic [ref=e370]: Kannattaako ostaa asunto 2026?
+              - img [ref=e373]
+            - button "Onko nyt asunnon ostajan markkinat?" [ref=e382] [cursor=pointer]:
+              - generic [ref=e384]: Onko nyt asunnon ostajan markkinat?
+              - img [ref=e387]
+            - button "Kannattaako ostaa asunto Helsingistä?" [ref=e396] [cursor=pointer]:
+              - generic [ref=e398]: Kannattaako ostaa asunto Helsingistä?
+              - img [ref=e401]
+            - button "Milloin asunnon hintaa kannattaa laskea?" [ref=e410] [cursor=pointer]:
+              - generic [ref=e412]: Milloin asunnon hintaa kannattaa laskea?
+              - img [ref=e415]
+        - generic [ref=e420]:
+          - heading "Tulokset internetistä" [level=2] [ref=e421]
+          - generic [ref=e422]:
+            - generic [ref=e425]:
+              - link "asuntomarkkinat Archives Suomen Hypoteekkiyhdistys https://www.hypo.fi › tag › asuntomarkkinat" [ref=e427] [cursor=pointer]:
+                - /url: https://www.hypo.fi/tag/asuntomarkkinat/
+                - heading "asuntomarkkinat Archives" [level=3] [ref=e428]
+                - generic [ref=e433]:
+                  - generic [ref=e435]: Suomen Hypoteekkiyhdistys
+                  - generic [ref=e437]: https://www.hypo.fi › tag › asuntomarkkinat
+              - button "Tietoja tästä tuloksesta" [ref=e438] [cursor=pointer]:
+                - img [ref=e441]
+            - generic [ref=e445]:
+              - text: Hypon
+              - emphasis [ref=e446]: asuntomarkkinakatsaus
+              - text: – Asuntojen hinnat ovat laskeneet yhtäjaksoisesti jo 3,5 vuoden ajan eli yhtä pitkään kuin 1990-luvun laman pahimpaan aikaan.
+        - generic [ref=e450]:
+          - generic [ref=e453]:
+            - link "Asuntokaupan kituvuosi on kohta ohi – Hypo laski vielä ... Kauppalehti https://www.kauppalehti.fi › Uutiset › Asuminen" [ref=e455] [cursor=pointer]:
+              - /url: https://www.kauppalehti.fi/uutiset/a/e09587c0-0513-4de9-ba6f-6ddb1c6d902c
+              - heading "Asuntokaupan kituvuosi on kohta ohi – Hypo laski vielä ..." [level=3] [ref=e456]
+              - generic [ref=e461]:
+                - generic [ref=e463]: Kauppalehti
+                - generic [ref=e465]: https://www.kauppalehti.fi › Uutiset › Asuminen
+            - button "Tietoja tästä tuloksesta" [ref=e466] [cursor=pointer]:
+              - img [ref=e469]
+          - generic [ref=e472]:
+            - generic [ref=e473]: 12.12.2025 —
+            - generic [ref=e474]:
+              - text: Kummoista ilon aihetta ei kuitenkaan ole näkyvissä, ja
+              - emphasis [ref=e475]: Hypo
+              - text: laskeekin jälleen hintojen kasvuennustettaan sekä tälle vuodelle että vuodelle
+              - emphasis [ref=e476]: "2026"
+              - text: .
+        - generic [ref=e480]:
+          - generic [ref=e483]:
+            - link "Kattava opas kaupunkeineen ja tilastoineen (2026) kasvutalous.fi https://kasvutalous.fi › Asuntomarkkinat" [ref=e485] [cursor=pointer]:
+              - /url: https://kasvutalous.fi/kiinteistoliiketoiminnan-aloittaminen-suomessa-kattava-opas-kaupunkeineen-ja-tilastoineen-2026/
+              - heading "Kattava opas kaupunkeineen ja tilastoineen (2026)" [level=3] [ref=e486]
+              - generic [ref=e491]:
+                - generic [ref=e493]: kasvutalous.fi
+                - generic [ref=e495]: https://kasvutalous.fi › Asuntomarkkinat
+            - button "Tietoja tästä tuloksesta" [ref=e496] [cursor=pointer]:
+              - img [ref=e499]
+          - generic [ref=e502]:
+            - generic [ref=e503]: 8.3.2026 —
+            - text: Tässä oppaassa käymme läpi kaiken, mitä sinun tulee tietää kiinteistöliiketoiminnan aloittamisesta Suomessa – verotuksesta kaupunkikohtaisiin ...
+      - generic [ref=e505]:
+        - generic [ref=e510]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e512]
+          - generic [ref=e514]:
+            - generic [ref=e515]:
+              - link "Hypo-luokitus postinumero" [ref=e519] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo-luokitus+postinumero&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAg9EAE
+                - generic [ref=e520]:
+                  - generic [ref=e525]: Hypo-luokitus postinumero
+                  - img [ref=e529]
+              - link "Hypo asuntoluottoluokitus postinumerohaku" [ref=e534] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo+asuntoluottoluokitus+postinumerohaku&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAg8EAE
+                - generic [ref=e535]:
+                  - generic [ref=e540]: Hypo asuntoluottoluokitus postinumerohaku
+                  - img [ref=e544]
+              - link "Hypo luottoluokitus kunnat" [ref=e549] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo+luottoluokitus+kunnat&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAhHEAE
+                - generic [ref=e550]:
+                  - generic [ref=e555]: Hypo luottoluokitus kunnat
+                  - img [ref=e559]
+              - link "OP asuntomarkkinakatsaus" [ref=e564] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=OP+asuntomarkkinakatsaus&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAg7EAE
+                - generic [ref=e565]:
+                  - generic [ref=e570]: OP asuntomarkkinakatsaus
+                  - img [ref=e574]
+            - generic [ref=e576]:
+              - link "Hypo asuntoluottoluokitus 2025" [ref=e580] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo+asuntoluottoluokitus+2025&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAhEEAE
+                - generic [ref=e581]:
+                  - generic [ref=e586]: Hypo asuntoluottoluokitus 2025
+                  - img [ref=e590]
+              - link "Hypo asunnot" [ref=e595] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo+asunnot&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAhGEAE
+                - generic [ref=e596]:
+                  - generic [ref=e601]: Hypo asunnot
+                  - img [ref=e605]
+              - link "Hypo luokitus helsinki" [ref=e610] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo+luokitus+helsinki&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAhDEAE
+                - generic [ref=e611]:
+                  - generic [ref=e616]: Hypo luokitus helsinki
+                  - img [ref=e620]
+              - link "Hypo kaupunginosa luokitus" [ref=e625] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Hypo+kaupunginosa+luokitus&sa=X&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ1QJ6BAg-EAE
+                - generic [ref=e626]:
+                  - generic [ref=e631]: Hypo kaupunginosa luokitus
+                  - img [ref=e635]
+        - navigation [ref=e637]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e638]
+          - text: "1"
+          - link "Page 2" [ref=e641] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=10&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAE
+            - text: "2"
+          - link "Page 3" [ref=e643] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=20&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAG
+            - text: "3"
+          - link "Page 4" [ref=e645] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=30&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAI
+            - text: "4"
+          - link "Page 5" [ref=e647] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=40&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAK
+            - text: "5"
+          - link "Page 6" [ref=e649] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=50&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAM
+            - text: "6"
+          - link "Page 7" [ref=e651] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=60&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAO
+            - text: "7"
+          - link "Page 8" [ref=e653] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=70&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAQ
+            - text: "8"
+          - link "Page 9" [ref=e655] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=80&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAS
+            - text: "9"
+          - link "Page 10" [ref=e657] [cursor=pointer]:
+            - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=90&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8tMDegQIORAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e659]:
+            - link "Seuraava" [ref=e660] [cursor=pointer]:
+              - /url: /search?q=hypo+asuntomarkkinakatsaus+2026+OR+PTT+ennuste+asuntomarkkina+Helsinki+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=0RvSadX-KuCg1fIPsOyI4A0&start=10&sa=N&sstk=Af77f_dqO5ahx2dz8fE6eQ9uDvvOVxdY61oRPmKqVQvfwTDsophdWN6yOPJWIStZK6zDOOdmKcrC-mu-7vbrXDk3HcdQBbLDy2MvqQ&ved=2ahUKEwiVq_KHpNaTAxVgUFUIHTA2AtwQ8NMDegQIORAW
+              - generic [ref=e662]: Seuraava
+      - navigation
+    - contentinfo [ref=e663]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e664]
+      - generic [ref=e668]:
+        - generic [ref=e670]:
+          - text: Suomi
+          - generic [ref=e672]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e674] [cursor=pointer]:
+              - generic [ref=e675]: Helsinki
+              - generic [ref=e677]:
+                - text: "-"
+                - generic [ref=e678]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e680] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e683]:
+          - link "Ohje" [ref=e684] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e685] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e686] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e687] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

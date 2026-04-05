@@ -1,0 +1,326 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Omaisuus ja asuminen" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/
+            - listitem [ref=e61]:
+              - link "Sijoitukset" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/
+            - listitem [ref=e63]: Osakkeiden myynti
+        - article [ref=e66]:
+          - heading "Osakkeiden myynti" [level=1] [ref=e67]
+          - generic [ref=e69]:
+            - paragraph [ref=e71]: Tällä sivulla
+            - list [ref=e72]:
+              - listitem [ref=e73] [cursor=pointer]:
+                - link "Myynnistä syntyy voittoa tai tappiota" [ref=e74]:
+                  - /url: "#Myynnistä-syntyy-voittoa-tai-tappiota"
+                  - generic [ref=e75]: Myynnistä syntyy voittoa tai tappiota
+              - listitem [ref=e76] [cursor=pointer]:
+                - link "Myyntivoitto on yleensä verollista tuloa" [ref=e77]:
+                  - /url: "#Myyntivoitto-on-yleensä-verollista-tuloa"
+                  - generic [ref=e78]: Myyntivoitto on yleensä verollista tuloa
+              - listitem [ref=e79] [cursor=pointer]:
+                - link "Myyntitappio vähennetään pääomatuloistasi" [ref=e80]:
+                  - /url: "#Myyntitappio-vähennetään-pääomatuloistasi"
+                  - generic [ref=e81]: Myyntitappio vähennetään pääomatuloistasi
+              - listitem [ref=e82] [cursor=pointer]:
+                - link "Arvo-osuustilin osakkeiden myynnissä käytetään FIFO-periaatetta" [ref=e83]:
+                  - /url: "#Arvo-osuustilin-osakkeiden-myynnissä-käytetään-FIFO-periaatetta"
+                  - generic [ref=e84]: Arvo-osuustilin osakkeiden myynnissä käytetään FIFO-periaatetta
+              - listitem [ref=e85] [cursor=pointer]:
+                - link "Tarkista esitäytetty veroilmoitus" [ref=e86]:
+                  - /url: "#Tarkista-esitäytetty-veroilmoitus"
+                  - generic [ref=e87]: Tarkista esitäytetty veroilmoitus
+              - listitem [ref=e88] [cursor=pointer]:
+                - link "Onko kauppakirjassa sovittu lisäkauppahinnasta?" [ref=e89]:
+                  - /url: "#Onko-kauppakirjassa-sovittu-lisäkauppahinnasta?"
+                  - generic [ref=e90]: Onko kauppakirjassa sovittu lisäkauppahinnasta?
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: Osakkeiden omistamisesta ei tarvitse maksaa veroa. Maksat osakkeista veron, kun myyt niitä.
+            - paragraph [ref=e93]: Osakkeiden myynnin verotukseen pätevät yleensä samat säännöt riippumatta siitä, ovatko osakkeet suomalaisesta vai ulkomaisesta yhtiöstä tai onko kauppa toteutettu kotimaisen tai ulkomaisen arvo-osuustilin kautta. Siihen ei vaikuta myöskään se, onko kyseinen yhtiö listattu vai listaamaton.
+            - generic [ref=e94]:
+              - paragraph [ref=e95]: Huomio alkaa.
+              - generic [ref=e96]:
+                - paragraph [ref=e97]:
+                  - strong [ref=e98]: Ajankohtaista
+                - paragraph [ref=e99]:
+                  - text: Vältä mätkyt – hae ja maksa lisäennakkoa
+                  - strong [ref=e100]: vuodelle 2025
+                  - text: .
+                  - link "Lue ohje asiointiin." [ref=e101] [cursor=pointer]:
+                    - /url: /yritykset-ja-yhteisot/verot-ja-maksut/ennakkovero/lisaennakko/
+              - paragraph [ref=e102]: Huomio päättyy
+            - heading "Myynnistä syntyy voittoa tai tappiota" [level=2] [ref=e103]
+            - paragraph [ref=e104]: Kun myyt osakkeita, sinulle tulee niistä yleensä joko myyntivoittoa eli luovutusvoittoa tai myyntitappiota eli luovutustappiota. Kun lasket voiton tai tappion määrää, vähennä osakkeiden myyntihinnasta
+            - list [ref=e105]:
+              - listitem [ref=e106]: osakkeista maksamasi ostohinta ja mahdollinen varainsiirtovero
+              - listitem [ref=e107]: voiton hankkimiskulut, kuten välityspalkkiot ja toimitusmaksut.
+            - paragraph [ref=e108]:
+              - text: Jos olet saanut osakkeet lahjaksi tai perinnöksi, voit vähentää myyntihinnasta lahjaverotuksessa tai perintöverotuksessa käytetyn verotusarvon. Lue lisää voiton ja tappion laskemisesta syventävän vero-ohjeen
+              - link "Arvopaperien luovutusten verotus kohdasta 4 Luovutusvoiton ja -tappion laskeminen" [ref=e109] [cursor=pointer]:
+                - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/arvopaperien-luovutusten-verotus2/#4-luovutusvoiton--ja-tappion-laskeminen
+              - text: .
+            - heading "Hankintameno-olettamaa voi käyttää ostohinnan ja voiton hankkimiskulujen sijaan" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Voiton määrää laskiessasi voit halutessasi vähentää osakkeiden myyntihinnasta hankintameno-olettaman sen sijaan, että vähentäisit siitä osakkeiden ostohinnan ja voiton hankkimiskulut tai perintö- ja lahjaverotuksen verotusarvon.
+            - list [ref=e112]:
+              - listitem [ref=e113]: Jos olet omistanut myymäsi osakkeet alle 10 vuotta, hankintameno-olettama on 20 % osakkeiden myyntihinnasta.
+              - listitem [ref=e114]: Jos olet omistanut myymäsi osakkeet vähintään 10 vuotta, hankintameno-olettama on 40 % osakkeiden myyntihinnasta.
+            - paragraph [ref=e115]:
+              - text: Lue lisää hankintameno-olettamasta syventävän vero-ohjeen
+              - link "Arvopaperien luovutusten verotus kohdasta 4.2.2 Hankintameno-olettama ja omistusaika" [ref=e116] [cursor=pointer]:
+                - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/arvopaperien-luovutusten-verotus2/#4.2.2-hankintameno-olettama-ja-omistusaika
+              - text: .
+            - paragraph [ref=e117]:
+              - text: Huomaa, että jos käytät hankintameno-olettamaa, et enää saa vähentää osakkeiden myyntihinnasta niiden ostohintaa ja voiton hankkimiskuluja.
+              - text: "Kyseessä on siis kaksi eri vaihtoehtoa:"
+              - strong [ref=e118]: joko
+              - text: ostohinta + voiton hankkimiskulut (tai verotusarvo)
+              - strong [ref=e119]: tai
+              - text: hankintameno-olettama.
+            - paragraph [ref=e120]:
+              - strong [ref=e121]: "Esimerkki:"
+              - text: Antti osti 1 000 kappaletta Yhtiö Oy:n osakkeita vuonna 1994. Osakkeiden ostohinta oli 4 markkaa osakkeelta eli yhteensä 4 000 markkaa. Antti maksoi osakkeiden ostosta välityspalkkiota 40 markkaa. Osakkeiden hankintahinta on siis 4 040 markkaa eli 679,47 euroa.
+              - text: Antti myy kyseiset osakkeet vuonna 2025. Myyntihinta on 2,50 euroa osakkeelta eli yhteensä 2 500 euroa. Voiton hankkimiskuluiksi luettavat myyntikulut ovat 25 euroa.
+              - text: Antti on omistanut Yhtiö Oy:n osakkeet myyntihetkellä vähintään 10 vuoden ajan. Niinpä hankintameno-olettama on 40 % myyntihinnasta eli 2 500 euroa × 40 % = 1 000 euroa.
+              - text: Myyntihinnasta vähennettävä määrä on siis suurempi hankintameno-olettaman (1 000 €) mukaan kuin todellisen ostohinnan ja voiton hankkimiskulujen yhteismäärän (679,47 € + 25 € = 704,47 €) mukaan. Myyntivoitto kannattaa siis verotuksen kannalta laskea vähentämällä myyntihinnasta hankintameno-olettama. Tällöin verotettava myyntivoitto jää pienemmäksi eli 1 500 euroon (2 500 € – 1 000 €).
+              - text: "Jos Antti olisi hankkinut osakkeet vasta vuonna 2016 mutta myynyt ne jo vuonna 2024, hän olisi omistanut ne alle 10 vuotta. Tällöin hankintameno-olettama olisi ollut 20 % myyntihinnasta eli 2 500 euroa × 20 % = 500 euroa. Tässä tapauksessa Antille olisi ollut verotuksellisesti edullisempaa käyttää hankintameno-olettaman (500 €) sijaan todellisen ostohinnan ja voiton hankkimiskulujen yhteismäärää (704,47 €). Kun se olisi vähennetty myyntihinnasta, verotettava myyntivoitto olisi ollut pienempi: 1 795,33 euroa (2 500 € − 704,47 €)."
+            - heading "Myyntivoitto on yleensä verollista tuloa" [level=2] [ref=e122]
+            - paragraph [ref=e123]: Kun myyt osakkeita voitolla, maksat myyntivoitosta veroa pääomatulojen veroprosentin mukaan.
+            - table "Pääomatulon veroprosentit" [ref=e124]:
+              - caption [ref=e125]: Pääomatulon veroprosentit
+              - rowgroup [ref=e126]:
+                - row "30 000 euroon asti 30 %" [ref=e127]:
+                  - rowheader "30 000 euroon asti" [ref=e128]
+                  - cell "30 %" [ref=e129]
+                - row "30 000 euroa ylittävästä osasta 34 %" [ref=e130]:
+                  - rowheader "30 000 euroa ylittävästä osasta" [ref=e131]
+                  - cell "34 %" [ref=e132]
+            - paragraph [ref=e133]:
+              - link "Näin maksat veron osakkeiden myyntivoitoista" [ref=e134] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/maksa-vero-sijoituksista/#_Osakkeiden_myynti
+            - paragraph [ref=e135]:
+              - strong [ref=e136]: Jos kuitenkin olet myynyt osakkeita kalenterivuoden aikana yhteensä enintään 1 000 eurolla
+              - text: ", sinun ei tarvitse maksaa myyntivoitosta veroa. 1 000 euron myyntihintaan luetaan kaikki vuoden aikana tehdyt myynnit, ei pelkästään osakemyynnit. Verovapaita myyntejä ei lasketa mukaan."
+            - paragraph [ref=e137]:
+              - text: Lisätietoa saat syventävästä vero-ohjeesta
+              - link "Arvopaperien luovutusten verotus" [ref=e138] [cursor=pointer]:
+                - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/
+              - text: ", kohdasta 3.2 Pienet luovutukset."
+            - heading "Myyntitappio vähennetään pääomatuloistasi" [level=2] [ref=e139]
+            - paragraph [ref=e140]: Jos osakkeiden myynnistä koituu sinulle tappiota, se vähennetään ensisijaisesti luovutusvoitoista ja jos niitä ei ole niin vähennys tehdään kaikista pääomatuloistasi.
+            - paragraph [ref=e141]: Jos sinulla ei ole lainkaan pääomatuloja tai niitä on vähemmän kuin vähennettäviä myyntitappioita, vähennys siirtyy seuraaville 5 vuodelle.
+            - paragraph [ref=e142]: Myyntitappioita ei kuitenkaan vähennetä lainkaan, jos kalenterivuoden aikana myymiesi osakkeiden ostohinta oli yhteensä enintään 1 000 euroa.
+            - paragraph [ref=e143]: Huomaa myös, että osakkeista syntynyt myyntitappio ei vaikuta ansiotulojesi verotukseen. Et siis voi saada sen perusteella alijäämähyvitystä.
+            - heading "Arvo-osuustilin osakkeiden myynnissä käytetään FIFO-periaatetta" [level=2] [ref=e144]
+            - paragraph [ref=e145]: "Arvo-osuustililtä myytyjen osakkeiden myynnissä tulee aina noudattaa FIFO-periaatetta: First In – First Out. Jos sinulla on siis eri aikaan ostettuja saman yhtiön osakkeita, ne myydään samassa järjestyksessä kuin ostit ne – vanhimmat ensin."
+            - paragraph [ref=e146]: FIFO-periaate on kuitenkin arvo-osuustilikohtainen. Jos sinulla on saman yhtiön osakkeita useammassa sähköisessä osakesalkussa, voit halutessasi myydä niitä uudemmasta salkusta aikaisemmin kuin vanhasta.
+            - paragraph [ref=e147]:
+              - text: Lue lisää FIFO-periaatteesta syventävän vero-ohjeen
+              - link "Arvopaperien luovutusten verotus kohdasta 21 Arvopaperien luovutusjärjestys" [ref=e148] [cursor=pointer]:
+                - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/arvopaperien-luovutusten-verotus2/#21-arvopaperien-luovutusj%C3%A4rjestys
+              - text: .
+            - heading "Tarkista esitäytetty veroilmoitus" [level=2] [ref=e149]
+            - paragraph [ref=e150]: Tarkista, että tiedot osakkeiden myynneistä ja osinkotuotoista näkyvät oikein keväällä saamassasi esitäytetyssä veroilmoituksessa. Ilmoita puuttuvat ja korjaa virheelliset tiedot.
+            - paragraph [ref=e151]: Jos olet myynyt osakkeita tai muita arvopapereita ulkomaisen etävälittäjän kautta, ilmoita voitot tai tappiot myös näistä kaupoista. Verohallinto saa tietoja myös ulkomailla tapahtuneista arvopaperikaupoista ja valvoo näiden tietojen ilmoittamista verotuksessa.
+            - paragraph [ref=e152]:
+              - link "Näin ilmoitat osakkeita koskevat tiedot Verohallintoon." [ref=e153] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/ilmoita_tulot_sijoituksista/
+            - paragraph [ref=e154]:
+              - link "Sain vuonna 2025 Ahlstrom-Munksjö Oyj:n vähemmistöosakkeiden lunastushinnan. Miten ilmoitan sen veroilmoituksessani?" [ref=e155] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/ukk/sain-vuonna-2025-ahlstrom-munksjo-oyjn-vahemmistoosakkeiden-lunastushinnan/
+            - heading "Onko kauppakirjassa sovittu lisäkauppahinnasta?" [level=2] [ref=e156]:
+              - strong [ref=e157]: Onko kauppakirjassa sovittu lisäkauppahinnasta?
+            - paragraph [ref=e158]: Kun myyt omaisuutta, kauppakirjassa voi olla ehto, että kauppahinta täsmennetään tai tarkistetaan myöhemmin. Silloin voit saada myöhemmin lisäkauppahintaa peruskauppahinnan lisäksi. Lisäkauppahintaa voidaan kutsua myös ehdolliseksi lisäkauppahinnaksi, lisävastikkeeksi tai ehdolliseksi vastikkeeksi.
+            - paragraph [ref=e159]: Lisäkauppahinta voi olla ehtona esimerkiksi yritys- tai kiinteistökaupoissa. Lisäkauppahinta voi olla sidottu esimerkiksi yrityksen liiketoiminnan kehitykseen tai kiinteistön arvon nousuun. Lisäkauppahinnasta ei ole kyse silloin, jos ostaja maksaa kauppakirjassa sovitun kauppahinnan osissa myyjälle.
+            - paragraph [ref=e160]:
+              - text: Jos lisäkauppahinnan määrä selviää vasta myöhemmin, lisäkauppahinnan osuus verotetaan vuodesta 2026 alkaen
+              - strong [ref=e161]: sen verovuoden tulona, jolloin lisäkauppahinta varmistuu.
+              - text: Sillä ei ole merkitystä, minä vuonna lisäkauppahinta maksetaan.
+            - list [ref=e162]:
+              - listitem [ref=e163]: Ilmoita peruskauppahinta kaupantekovuoden veroilmoituksessa, kohdassa Luovutusvoitot tai -tappiot – Myyntihinta.
+              - listitem [ref=e164]: Ilmoita lisäkauppahinta sen vuoden veroilmoituksessa, jolloin määrä vahvistuu. Merkitse lisäkauppahinta kohtaan Luovutusvoitot tai -tappiot – Myyntihinta.
+            - paragraph [ref=e165]:
+              - link "Lue lisää lisäkauppahinnan verotuksesta" [ref=e166] [cursor=pointer]:
+                - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48935/#6.2-lis%C3%A4kauppahinnan-verotus
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - img
+            - generic [ref=e170]:
+              - heading "Syventävät vero-ohjeet" [level=2] [ref=e171]
+              - list [ref=e172]:
+                - listitem [ref=e173]:
+                  - link "Arvopaperien luovutusten verotus" [ref=e175] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/
+          - text: "-"
+        - navigation "Osion alasivut" [ref=e176]:
+          - heading "Sijoitukset" [level=3] [ref=e177]:
+            - link "Sijoitukset" [ref=e178] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/sijoitukset/
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Ilmoita tiedot sijoituksista" [ref=e184] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/ilmoita_tulot_sijoituksista/
+            - listitem [ref=e185]:
+              - link "Maksa vero sijoituksista" [ref=e187] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/maksa-vero-sijoituksista/
+            - listitem [ref=e188]:
+              - link "Osakkeiden myynti" [ref=e190] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakkeiden_myynt/
+            - listitem [ref=e191]:
+              - link "Osingot" [ref=e193] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/
+            - listitem [ref=e194]:
+              - link "Osakesäästötili" [ref=e196] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakes%C3%A4%C3%A4st%C3%B6tili/
+            - listitem [ref=e197]:
+              - link "Sijoitusrahasto-osuudet" [ref=e199] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/sijoitusrahastoosuude/
+            - listitem [ref=e200]:
+              - link "Osuuskuntien ylijäämien verotus" [ref=e202] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osuuskuntien_ylijaamien_verotu/
+            - listitem [ref=e203]:
+              - link "Kryptovarat" [ref=e205] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/virtuaalivaluutat/
+        - separator [ref=e206]
+        - generic [ref=e207]: Sivu on viimeksi päivitetty 26.3.2026
+      - generic [ref=e212]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e213]
+        - paragraph [ref=e215]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e216] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e217]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - heading "Asioi verkossa" [level=2] [ref=e222]
+            - list [ref=e224]:
+              - listitem [ref=e225]:
+                - link "OmaVero" [ref=e227] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e228]:
+                - link "Laskurit" [ref=e230] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e231]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e233] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e234]:
+                - link "Positiivinen luottotietorekisteri" [ref=e236] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e237]:
+                - link "Tulorekisteri" [ref=e239] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e240]:
+            - heading "Yhteystiedot" [level=2] [ref=e241]
+            - list [ref=e243]:
+              - listitem [ref=e244]:
+                - link "Chat" [ref=e246] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e247]:
+                - link "Yhteystiedot ja asiointi" [ref=e249] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e250]:
+                - link "Sosiaalinen media" [ref=e252] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e253]:
+                - link "Paperilomakkeet" [ref=e255] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e256]:
+                - link "Käsittelyajat" [ref=e258] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e259]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e260]
+            - generic [ref=e264]:
+              - paragraph [ref=e265]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e266]:
+                - listitem [ref=e267]:
+                  - link "Syventävät vero-ohjeet" [ref=e269] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e270]:
+            - heading "Verohallinto" [level=2] [ref=e271]
+            - generic [ref=e275]:
+              - paragraph [ref=e276]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e277]:
+                - listitem [ref=e278]:
+                  - link "Tietoa Verohallinnosta" [ref=e280] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e283]:
+          - listitem [ref=e284]: © Verohallinto
+          - listitem [ref=e285]:
+            - link "Tietosuoja" [ref=e287] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e288]:
+            - link "Palaute" [ref=e290] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e291]:
+            - link "Saavutettavuusseloste" [ref=e293] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e294]:
+            - link "Tulosta" [ref=e296] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e298] [cursor=pointer]:
+    - img [ref=e299]
+    - paragraph [ref=e301]: Chatbot

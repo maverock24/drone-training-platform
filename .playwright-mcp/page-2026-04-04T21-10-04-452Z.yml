@@ -1,0 +1,389 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQpYkNCA0
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e16]:
+          - combobox "Hae" [ref=e19]: Danske Bank Finland henkilöasiakkaat sijoittaminen 2025 2026 Danske Bank Finland henkilöasiakkaat sijoittaminen 2025 2026
+          - generic [ref=e20]:
+            - button "Tyhjennä" [ref=e22] [cursor=pointer]:
+              - img [ref=e24]
+            - generic [ref=e27]:
+              - button "Syöttötyökalut" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - button "Puhehaku" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Hae kuvan perusteella" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Haku" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Asetukset" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google-sovellukset" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Kirjaudu" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DDanske%2BBank%2BFinland%2Bhenkil%25C3%25B6asiakkaat%2Bsijoittaminen%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Tekoälytila" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ2J8OegQIEBAE
+              - generic [ref=e78]: Tekoälytila
+          - listitem [ref=e79]:
+            - link "Kaikki" [disabled] [ref=e80]:
+              - generic [ref=e82]: Kaikki
+          - listitem [ref=e83]:
+            - link "Kuvahaku" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQtKgLegQIFhAB
+              - generic [ref=e86]: Kuvahaku
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQtKgLegQIExAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQs6gLegQIFBAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQs6gLegQIEhAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ0pQJegQIFRAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - button "Lisää suodattimia" [ref=e104] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Lisää
+                  - img [ref=e109]
+        - button "Työkalut" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Työkalut
+            - img [ref=e117]
+    - heading "Hakutulokset" [level=1] [ref=e119]
+    - generic [ref=e125]:
+      - generic [ref=e126]: Looking for results in English?
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e129]
+      - link "Change to English" [ref=e131] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DDanske%2BBank%2BFinland%2Bhenkil%25C3%25B6asiakkaat%2Bsijoittaminen%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQhoQCKAF6BAgJEAQ
+      - link "Pidä Suomi" [ref=e132] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e134] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQiIQCKAN6BAgJEAY#languages
+    - generic [ref=e135]:
+      - generic [ref=e154]:
+        - heading "Miettii" [level=2] [ref=e158]:
+          - generic [ref=e159]: Miettii
+        - progressbar [ref=e160]
+      - main [ref=e162]:
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - heading "Tulokset internetistä" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - generic [ref=e174]:
+                - link "Sijoitusnäkemyksen ja mallisalkkujen teemat kevät 2026 Danske Bank https://danskebank.fi › pdf › mallisalkkumuutos" [ref=e176] [cursor=pointer]:
+                  - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/mallisalkkumuutos.pdf?rev=59bd9d33774941f7875ed359f9764cdc&hash=1347BF501D31B125204B2482B75EC795
+                  - heading "Sijoitusnäkemyksen ja mallisalkkujen teemat kevät 2026" [level=3] [ref=e177]
+                  - generic [ref=e182]:
+                    - generic [ref=e184]: Danske Bank
+                    - generic [ref=e186]: https://danskebank.fi › pdf › mallisalkkumuutos
+                - generic [ref=e187]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e188] [cursor=pointer]:
+                  - img [ref=e191]
+              - generic [ref=e194]:
+                - generic [ref=e195]: 20.2.2026 —
+                - text: Tämän ytimen tulisi lisäksi kohdistua laajasti eri alueille ja toimialoille riskien hajauttamiseksi ja vakaan perustan luomiseksi.
+          - generic [ref=e199]:
+            - generic [ref=e202]:
+              - 'link "Sijoitusnäkemys: osakkeilla vahvat lähtökohdat ensi vuoteen Danske Bank https://danskebank.fi › sinulle › artikkelit › 2025/12 › s..." [ref=e204] [cursor=pointer]':
+                - /url: https://danskebank.fi/sinulle/artikkelit/2025/12/sijoitusnakemys-osakkeilla-vahvat-lahtokohdat-ensi-vuoteen
+                - 'heading "Sijoitusnäkemys: osakkeilla vahvat lähtökohdat ensi vuoteen" [level=3] [ref=e205]'
+                - generic [ref=e210]:
+                  - generic [ref=e212]: Danske Bank
+                  - generic [ref=e214]: https://danskebank.fi › sinulle › artikkelit › 2025/12 › s...
+              - button "Tietoja tästä tuloksesta" [ref=e215] [cursor=pointer]:
+                - img [ref=e218]
+            - generic [ref=e221]:
+              - generic [ref=e222]: 2.12.2025 —
+              - generic [ref=e223]:
+                - emphasis [ref=e224]: Danske Bank
+                - text: odottaa koronlaskujen jatkuvan vuonna
+                - emphasis [ref=e225]: "2026"
+                - text: ", mikä normaalisti hyödyttää osakemarkkinoita. Tekoälykupla vai ei? Erityisesti ..."
+          - generic [ref=e229]:
+            - generic [ref=e232]:
+              - 'link "Tutkimus: Suurituloiset ja nuoret eivät pelkää riskiä Danske Bank https://danskebank.com › uutiset › 2026 › 14012026" [ref=e234] [cursor=pointer]':
+                - /url: https://danskebank.com/fi/uutiset/uutisarkisto/press-releases/2026/14012026
+                - 'heading "Tutkimus: Suurituloiset ja nuoret eivät pelkää riskiä" [level=3] [ref=e235]'
+                - generic [ref=e240]:
+                  - generic [ref=e242]: Danske Bank
+                  - generic [ref=e244]: https://danskebank.com › uutiset › 2026 › 14012026
+              - button "Tietoja tästä tuloksesta" [ref=e245] [cursor=pointer]:
+                - img [ref=e248]
+            - generic [ref=e251]:
+              - generic [ref=e252]: 15.1.2026 —
+              - generic [ref=e253]:
+                - text: Riskinottohalukkuus on Sijoittavat suomalaiset
+                - emphasis [ref=e254]: "2025"
+                - text: "-tutkimuksen mukaan suurinta parhaiten tienaavien ja varakkaimpien suomalaisten keskuudessa."
+          - generic [ref=e258]:
+            - generic [ref=e261]:
+              - link "Osinkokeväästä ennustetaan hyvää - kokonaispotti voi ... Danske Bank https://danskebank.fi › sinulle › artikkelit › 2025/12 › o..." [ref=e263] [cursor=pointer]:
+                - /url: https://danskebank.fi/sinulle/artikkelit/2025/12/osinkokevaasta-ennustetaan-hyvaa---kokonaispotti-voi-ylittaa-viime-vuoden-osinkohuipun
+                - heading "Osinkokeväästä ennustetaan hyvää - kokonaispotti voi ..." [level=3] [ref=e264]
+                - generic [ref=e269]:
+                  - generic [ref=e271]: Danske Bank
+                  - generic [ref=e273]: https://danskebank.fi › sinulle › artikkelit › 2025/12 › o...
+              - button "Tietoja tästä tuloksesta" [ref=e274] [cursor=pointer]:
+                - img [ref=e277]
+            - generic [ref=e280]:
+              - generic [ref=e281]: 30.12.2025 —
+              - generic [ref=e282]:
+                - text: Vuonna
+                - emphasis [ref=e283]: "2025"
+                - text: yhtiö maksoi osinkoa 1,25 miljardia euroa ja vuoden
+                - emphasis [ref=e284]: "2026"
+                - text: ennusteen mukaan yhtiö maksaa osinkoa 686 miljoonaa. Pudotus selittyy ...
+          - generic [ref=e288]:
+            - generic [ref=e291]:
+              - 'link "Suhdannekatsaus: Parempien aikojen kynnyksellä Danske Bank https://danskebank.fi › sinulle › artikkelit › 2025/12 › s..." [ref=e293] [cursor=pointer]':
+                - /url: https://danskebank.fi/sinulle/artikkelit/2025/12/suhdannekatsaus
+                - 'heading "Suhdannekatsaus: Parempien aikojen kynnyksellä" [level=3] [ref=e294]'
+                - generic [ref=e299]:
+                  - generic [ref=e301]: Danske Bank
+                  - generic [ref=e303]: https://danskebank.fi › sinulle › artikkelit › 2025/12 › s...
+              - button "Tietoja tästä tuloksesta" [ref=e304] [cursor=pointer]:
+                - img [ref=e307]
+            - generic [ref=e310]:
+              - generic [ref=e311]: 3.12.2025 —
+              - generic [ref=e312]:
+                - text: Usean vaisun vuoden jälkeen
+                - emphasis [ref=e313]: Danske Bank
+                - text: ennustaa talouskasvun kiihtyvän vuonna
+                - emphasis [ref=e314]: "2026"
+                - text: ", mutta jäävän aiemmin ennakoitua hitaammaksi."
+          - generic [ref=e318]:
+            - generic [ref=e321]:
+              - link "Danske Bankilta täysin uusi tapa sijoittaa osakkeisiin Danske Bank https://danskebank.fi › sinulle › artikkelit › 2025/10 › d..." [ref=e323] [cursor=pointer]:
+                - /url: https://danskebank.fi/sinulle/artikkelit/2025/10/danske-bankilta-taysin-uusi-tapa-sijoittaa-osakkeisiin
+                - heading "Danske Bankilta täysin uusi tapa sijoittaa osakkeisiin" [level=3] [ref=e324]
+                - generic [ref=e329]:
+                  - generic [ref=e331]: Danske Bank
+                  - generic [ref=e333]: https://danskebank.fi › sinulle › artikkelit › 2025/10 › d...
+              - button "Tietoja tästä tuloksesta" [ref=e334] [cursor=pointer]:
+                - img [ref=e337]
+            - generic [ref=e340]:
+              - generic [ref=e341]: 28.10.2025 —
+              - text: Asiakas valitsee itsepalveluna osakkeet, joihin haluaa säännöllisesti säästää sekä määrittelee kuinka paljon sijoittaa kuhunkin osakkeeseen.
+            - generic [ref=e343]:
+              - text: "Puuttuu: 2026 ‎| Hae tällä:"
+              - link "2026" [ref=e344] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+%222026%22&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ5t4CegQIRxAB
+          - generic [ref=e348]:
+            - generic [ref=e351]:
+              - 'link "Suhdannekatsaus: Talous on vihdoin kääntynyt kasvuun Danske Bank https://danskebank.fi › sinulle › artikkelit › 2026/03 › s..." [ref=e353] [cursor=pointer]':
+                - /url: https://danskebank.fi/sinulle/artikkelit/2026/03/suhdannekatsaus-talous-on-vihdoin-kaantynyt-kasvuun
+                - 'heading "Suhdannekatsaus: Talous on vihdoin kääntynyt kasvuun" [level=3] [ref=e354]'
+                - generic [ref=e359]:
+                  - generic [ref=e361]: Danske Bank
+                  - generic [ref=e363]: https://danskebank.fi › sinulle › artikkelit › 2026/03 › s...
+              - button "Tietoja tästä tuloksesta" [ref=e364] [cursor=pointer]:
+                - img [ref=e367]
+            - generic [ref=e370]:
+              - generic [ref=e371]: 27.3.2026 —
+              - generic [ref=e372]:
+                - emphasis [ref=e373]: Danske Bank
+                - text: ennustaa tuotannollisten investointien kasvun piristyvän ja yksityisten investointien kasvavan erityisesti datakeskusten ja vihreän ...
+          - generic [ref=e377]:
+            - generic [ref=e380]:
+              - 'link "Tutkimus: Suurituloiset ja nuoret eivät pelkää riskiä – ... Danske Bank https://danskebank.fi › sinulle › artikkelit › 2026/01 › t..." [ref=e382] [cursor=pointer]':
+                - /url: https://danskebank.fi/sinulle/artikkelit/2026/01/tutkimus-suurituloiset-ja-nuoret-eivat-pelkaa-riskia
+                - 'heading "Tutkimus: Suurituloiset ja nuoret eivät pelkää riskiä – ..." [level=3] [ref=e383]'
+                - generic [ref=e388]:
+                  - generic [ref=e390]: Danske Bank
+                  - generic [ref=e392]: https://danskebank.fi › sinulle › artikkelit › 2026/01 › t...
+              - button "Tietoja tästä tuloksesta" [ref=e393] [cursor=pointer]:
+                - img [ref=e396]
+            - generic [ref=e399]:
+              - generic [ref=e400]: 15.1.2026 —
+              - generic [ref=e401]:
+                - text: Riskinottohalukkuus suomalaisten keskuudessa on kasvanut, ja jopa 28 prosenttia
+                - emphasis [ref=e402]: Danske
+                - text: Bankin Sijoittavat suomalaiset
+                - emphasis [ref=e403]: "2025"
+                - text: "-kyselytutkimukseen"
+          - generic [ref=e407]:
+            - generic [ref=e410]:
+              - link "Osinkokevät 2026 – pörssinäkymät suomalaiselle sijoittajalle Danske Bank https://danskebank.fi › sinulle › webinaarit › 2026/02" [ref=e412] [cursor=pointer]:
+                - /url: https://danskebank.fi/sinulle/webinaarit/2026/02/osinkokevat-2026-porssinakymat-suomalaiselle-sijoittajalle
+                - heading "Osinkokevät 2026 – pörssinäkymät suomalaiselle sijoittajalle" [level=3] [ref=e413]
+                - generic [ref=e418]:
+                  - generic [ref=e420]: Danske Bank
+                  - generic [ref=e422]: https://danskebank.fi › sinulle › webinaarit › 2026/02
+              - button "Tietoja tästä tuloksesta" [ref=e423] [cursor=pointer]:
+                - img [ref=e426]
+            - generic [ref=e429]:
+              - generic [ref=e430]: 12.2.2026 —
+              - generic [ref=e431]:
+                - text: Liity mukaan Suomen Osakesäästäjien ja
+                - emphasis [ref=e432]: Danske
+                - text: Bankin järjestämään webinaariin torstaina 12.2.
+                - emphasis [ref=e433]: "2026"
+                - text: klo 17.30.
+            - generic [ref=e435]:
+              - text: "Puuttuu: 2025 ‎| Hae tällä:"
+              - link "2025" [ref=e436] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+%222025%22+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ5t4CegQIShAB
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e442]
+              - button "Tietoja tästä tuloksesta" [ref=e443] [cursor=pointer]:
+                - img [ref=e446]
+            - generic [ref=e448]:
+              - button "Onko Danske Bank kaatunut?" [ref=e454] [cursor=pointer]:
+                - generic [ref=e456]: Onko Danske Bank kaatunut?
+                - img [ref=e459]
+              - button "Paljonko Danske Bank maksaa korkoa?" [ref=e468] [cursor=pointer]:
+                - generic [ref=e470]: Paljonko Danske Bank maksaa korkoa?
+                - img [ref=e473]
+              - button "Mikä Sampo-pankki oli ennen?" [ref=e482] [cursor=pointer]:
+                - generic [ref=e484]: Mikä Sampo-pankki oli ennen?
+                - img [ref=e487]
+              - button "Voiko Danske Bankiin mennä ilman ajanvarausta?" [ref=e496] [cursor=pointer]:
+                - generic [ref=e498]: Voiko Danske Bankiin mennä ilman ajanvarausta?
+                - img [ref=e501]
+          - generic [ref=e506]:
+            - heading "Tulokset internetistä" [level=2] [ref=e507]
+            - generic [ref=e508]:
+              - generic [ref=e511]:
+                - link "Talouden ja sijoitusmarkkinoiden näkymät – kevät 2025 Danske Bank https://danskebank.fi › sinulle › webinaarit › 2025/03" [ref=e513] [cursor=pointer]:
+                  - /url: https://danskebank.fi/sinulle/webinaarit/2025/03/talouden-ja-sijoitusmarkkinoiden-nakymat-kevat-2025
+                  - heading "Talouden ja sijoitusmarkkinoiden näkymät – kevät 2025" [level=3] [ref=e514]
+                  - generic [ref=e519]:
+                    - generic [ref=e521]: Danske Bank
+                    - generic [ref=e523]: https://danskebank.fi › sinulle › webinaarit › 2025/03
+                - button "Tietoja tästä tuloksesta" [ref=e524] [cursor=pointer]:
+                  - img [ref=e527]
+              - generic [ref=e530]:
+                - generic [ref=e531]: 11.3.2025 —
+                - generic [ref=e532]:
+                  - emphasis [ref=e533]: Danske
+                  - text: Bankin tuoreen sijoitusnäkemyksen ja maailmantalouden keskeisiä teemoja avaavat
+                  - emphasis [ref=e534]: Danske
+                  - text: Bankin senioristrategi Tuukka Kemppainen ja ...
+              - generic [ref=e536]:
+                - text: "Puuttuu: 2026 ‎| Hae tällä:"
+                - link "2026" [ref=e537] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+%222026%22&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ5t4CegQISRAB
+        - generic [ref=e539]:
+          - generic [ref=e544]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e546]
+            - generic [ref=e548]:
+              - generic [ref=e549]:
+                - link "Danske Bank osinko 2026" [ref=e553] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+osinko+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhWEAE
+                  - generic [ref=e554]:
+                    - generic [ref=e559]: Danske Bank osinko 2026
+                    - img [ref=e563]
+                - link "Danske Bank osinkoennuste 2026" [ref=e568] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+osinkoennuste+2026&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhdEAE
+                  - generic [ref=e569]:
+                    - generic [ref=e574]: Danske Bank osinkoennuste 2026
+                    - img [ref=e578]
+                - link "Danske Bank sijoitusnäkemys" [ref=e583] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+sijoitusn%C3%A4kemys&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhgEAE
+                  - generic [ref=e584]:
+                    - generic [ref=e589]: Danske Bank sijoitusnäkemys
+                    - img [ref=e593]
+                - link "Danske Bank suhdannekatsaus" [ref=e598] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+suhdannekatsaus&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAheEAE
+                  - generic [ref=e599]:
+                    - generic [ref=e604]: Danske Bank suhdannekatsaus
+                    - img [ref=e608]
+              - generic [ref=e610]:
+                - link "Danske Bank kuukausisäästäminen osakkeisiin" [ref=e614] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+kuukausis%C3%A4%C3%A4st%C3%A4minen+osakkeisiin&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhfEAE
+                  - generic [ref=e615]:
+                    - generic [ref=e620]: Danske Bank kuukausisäästäminen osakkeisiin
+                    - img [ref=e624]
+                - link "Danske Bank Säännöllinen Säästäminen" [ref=e629] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+S%C3%A4%C3%A4nn%C3%B6llinen+S%C3%A4%C3%A4st%C3%A4minen&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhcEAE
+                  - generic [ref=e630]:
+                    - generic [ref=e635]: Danske Bank Säännöllinen Säästäminen
+                    - img [ref=e639]
+                - link "Danske Bank osake" [ref=e644] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+Bank+osake&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhbEAE
+                  - generic [ref=e645]:
+                    - generic [ref=e650]: Danske Bank osake
+                    - img [ref=e654]
+                - link "Danske osakesäästötili" [ref=e659] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Danske+osakes%C3%A4%C3%A4st%C3%B6tili&sa=X&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ1QJ6BAhaEAE
+                  - generic [ref=e660]:
+                    - generic [ref=e665]: Danske osakesäästötili
+                    - img [ref=e669]
+          - navigation [ref=e671]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e672]
+            - text: "1"
+            - link "Page 2" [ref=e675] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=10&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8tMDegQISxAE
+              - text: "2"
+            - link "Page 3" [ref=e677] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=20&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8tMDegQISxAG
+              - text: "3"
+            - link "Page 4" [ref=e679] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=30&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8tMDegQISxAI
+              - text: "4"
+            - link "Page 5" [ref=e681] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=40&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8tMDegQISxAK
+              - text: "5"
+            - link "Page 6" [ref=e683] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=50&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8tMDegQISxAM
+              - text: "6"
+            - link "Page 7" [ref=e685] [cursor=pointer]:
+              - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=60&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8tMDegQISxAO
+              - text: "7"
+            - heading "Seuraava" [level=2] [ref=e687]:
+              - link "Seuraava" [ref=e688] [cursor=pointer]:
+                - /url: /search?q=Danske+Bank+Finland+henkil%C3%B6asiakkaat+sijoittaminen+2025+2026&sca_esv=24f50bc0831b3fb1&ei=Kn7RabuYMJeTwPAP9q73uA4&start=10&sa=N&sstk=Af77f_eGAfwdv4u5bHFdaIvSpLogkX64iphlGUY8Fpo0rP2kS_i3g_8-JXMCc6TeI3MyCacKjP3iGmu82O18iU_9SG7M5Y3mubTGwQ&ved=2ahUKEwi71aHbjdWTAxWXCRAIHXbXHecQ8NMDegQISxAQ
+                - generic [ref=e690]: Seuraava
+        - navigation
+    - contentinfo [ref=e691]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e692]
+      - generic [ref=e696]:
+        - generic [ref=e698]:
+          - text: Suomi
+          - generic [ref=e700]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e702] [cursor=pointer]:
+              - generic [ref=e703]: 00940, Helsinki
+              - generic [ref=e705]:
+                - text: "-"
+                - generic [ref=e706]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e708] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e711]:
+          - link "Ohje" [ref=e712] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e713] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e714] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e715] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

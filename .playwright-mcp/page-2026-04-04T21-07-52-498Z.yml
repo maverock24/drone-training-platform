@@ -1,0 +1,260 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic [ref=e3]: ‍
+      - link "Siirry sisältöön‍" [ref=e4] [cursor=pointer]:
+        - text: Siirry sisältöön‍
+        - img [ref=e5]
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - button "Avaa valikko" [ref=e10] [cursor=pointer]:
+          - img "Avaa valikko" [ref=e11]
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - button "Kirjaudu sisään" [ref=e15] [cursor=pointer]:
+              - img "Kirjaudu sisään" [ref=e16]
+          - listitem [ref=e18]:
+            - link "Asiakaspalvelu" [ref=e19] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-tp-ha-ano-aspa
+              - img "Asiakaspalvelu" [ref=e20]
+          - listitem [ref=e22]:
+            - link "Hae" [ref=e23] [cursor=pointer]:
+              - /url: /haku
+              - img "Hae" [ref=e24]
+        - link "Siirry henkilöasiakkaiden etusivulle." [ref=e27] [cursor=pointer]:
+          - /url: /
+          - img "OP" [ref=e28]
+  - generic [ref=e32]:
+    - text: 
+    - main [ref=e36]:
+      - generic [ref=e40]:
+        - generic [ref=e49]:
+          - img "\"\"" [ref=e52]
+          - generic [ref=e53]:
+            - heading "Arvo-osuustilin hinnasto ja tietoa markkinapaikoista" [level=1] [ref=e54]
+            - paragraph [ref=e55]: Käy osakekauppaa aina edullisesti, sijoititpa sitten pienillä tai suuremmilla summilla. Maksat digikanavissa osakekaupankäynnistä Helsingin pörssissä aina enintään 1 prosentin kaupankäyntipalkkion.
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: Mitä enemmän käyt kauppaa, sitä alhaisemmat ovat kaupankäyntikulusi. Hinnastossa on neljä tasoa. Hinnat kaupankäynnille määräytyvät edellisen kalenterineljänneksen osakekauppojesi palkkioiden summan perusteella.
+          - heading "Uuden asiakkaan etu" [level=2] [ref=e68]
+          - paragraph [ref=e69]: Kun avaat arvo-osuustilin, käyt kauppaa kuluvan kalenterineljänneksen ajan hinnaston tasolla kolme (0,10 %, min. 5 €). Esimerkiksi jos avaat arvo-osuustilin helmikuussa, saat tason kolme hinnat maaliskuun loppuun asti. Tämän jälkeen tasosi määräytyy osakekauppojesi palkkioiden summan perusteella.
+          - paragraph [ref=e70]: Etu koskee digikanavassa avattua arvo-osuustiliä. Etua ei voi hyödyntää, jos sinulla on tai on ollut viimeisen vuoden aikana arvo-osuustili OP:lla.
+          - heading "Kaupankäynti Helsingin pörssissä listatuilla arvopapereilla" [level=2] [ref=e71]
+          - table [ref=e73]:
+            - rowgroup [ref=e74]:
+              - row "Taso 1 2 3 4" [ref=e75]:
+                - columnheader "Taso" [ref=e76]
+                - columnheader "1" [ref=e77]
+                - columnheader "2" [ref=e78]
+                - columnheader "3" [ref=e79]
+                - columnheader "4" [ref=e80]
+            - rowgroup [ref=e81]:
+              - row "Kaupankäyntipalkkiot edelliseltä kalenterineljännekseltä Alle 500 € Yli 500 € Yli 1000 € Yli 2500 €" [ref=e82]:
+                - cell "Kaupankäyntipalkkiot edelliseltä kalenterineljännekseltä" [ref=e83]
+                - cell "Alle 500 €" [ref=e84]
+                - cell "Yli 500 €" [ref=e85]
+                - cell "Yli 1000 €" [ref=e86]
+                - cell "Yli 2500 €" [ref=e87]
+              - row "Osakekaupan summa Alle 700 € Alle 500 € Alle 500 € Alle 300 €" [ref=e88]:
+                - cell "Osakekaupan summa" [ref=e89]
+                - cell "Alle 700 €" [ref=e90]
+                - cell "Alle 500 €" [ref=e91]
+                - cell "Alle 500 €" [ref=e92]
+                - cell "Alle 300 €" [ref=e93]
+              - row "Kaupankäyntipalkkio 1 % 1 % 1 % 1 %" [ref=e94]:
+                - cell "Kaupankäyntipalkkio" [ref=e95]
+                - cell "1 %" [ref=e96]
+                - cell "1 %" [ref=e97]
+                - cell "1 %" [ref=e98]
+                - cell "1 %" [ref=e99]
+              - row "Osakekaupan summa Yli 700 € Yli 500 € Yli 500 € Yli 300 €" [ref=e100]:
+                - cell "Osakekaupan summa" [ref=e101]
+                - cell "Yli 700 €" [ref=e102]
+                - cell "Yli 500 €" [ref=e103]
+                - cell "Yli 500 €" [ref=e104]
+                - cell "Yli 300 €" [ref=e105]
+              - row "Kaupankäyntipalkkio 0,17 %, min 7 € 0,15 %, min 5 € 0,10 %, min 5 € 0,05 %, min 3 €" [ref=e106]:
+                - cell "Kaupankäyntipalkkio" [ref=e107]
+                - cell "0,17 %, min 7 €" [ref=e108]:
+                  - text: 0,17 %,
+                  - text: min 7 €
+                - cell "0,15 %, min 5 €" [ref=e109]:
+                  - text: 0,15 %,
+                  - text: min 5 €
+                - cell "0,10 %, min 5 €" [ref=e110]:
+                  - text: 0,10 %,
+                  - text: min 5 €
+                - cell "0,05 %, min 3 €" [ref=e111]:
+                  - text: 0,05 %,
+                  - text: min 3 €
+              - row "Esimerkki osakekaupan summa Palkkio" [ref=e112]:
+                - cell "Esimerkki osakekaupan summa" [ref=e113]
+                - cell "Palkkio" [ref=e114]
+              - row "100 € 1 € 1 € 1 € 1 €" [ref=e115]:
+                - cell "100 €" [ref=e116]
+                - cell "1 €" [ref=e117]
+                - cell "1 €" [ref=e118]
+                - cell "1 €" [ref=e119]
+                - cell "1 €" [ref=e120]
+              - row "500 € 5 € 5 € 5 € 3 €" [ref=e121]:
+                - cell "500 €" [ref=e122]
+                - cell "5 €" [ref=e123]
+                - cell "5 €" [ref=e124]
+                - cell "5 €" [ref=e125]
+                - cell "3 €" [ref=e126]
+              - row "1 000 € 7 € 5 € 5 € 3 €" [ref=e127]:
+                - cell "1 000 €" [ref=e128]
+                - cell "7 €" [ref=e129]
+                - cell "5 €" [ref=e130]
+                - cell "5 €" [ref=e131]
+                - cell "3 €" [ref=e132]
+              - row "5 000 € 8,50 € 7,50 € 5 € 3 €" [ref=e133]:
+                - cell "5 000 €" [ref=e134]
+                - cell "8,50 €" [ref=e135]
+                - cell "7,50 €" [ref=e136]
+                - cell "5 €" [ref=e137]
+                - cell "3 €" [ref=e138]
+              - row "10 000 € 17 € 15 € 10 € 5 €" [ref=e139]:
+                - cell "10 000 €" [ref=e140]
+                - cell "17 €" [ref=e141]
+                - cell "15 €" [ref=e142]
+                - cell "10 €" [ref=e143]
+                - cell "5 €" [ref=e144]
+        - figure [ref=e153]
+        - generic [ref=e166] [cursor=pointer]:
+          - button "Kaupankäynti muissa pörsseissä listatuilla arvopapereilla" [ref=e167]:
+            - generic [ref=e168]: Kaupankäynti muissa pörsseissä listatuilla arvopapereilla
+          - img
+        - generic [ref=e177]:
+          - generic [ref=e179]:
+            - paragraph [ref=e180]
+            - paragraph [ref=e181]: Etkö löytänyt etsimääsi?
+          - link "Katso kaikki osuuspankkien palveluhinnastot‍" [ref=e185] [cursor=pointer]:
+            - /url: /hinnasto
+            - text: Katso kaikki osuuspankkien palveluhinnastot‍
+            - img [ref=e186]
+          - generic [ref=e189]:
+            - heading "Arvo-osuustilillä sijoitat ilman kuukausimaksuja" [level=2] [ref=e190]
+            - paragraph [ref=e191]: Arvo-osuustilin avaamisen yhteydessä, valitset itsellesi sopivan palvelupaketin. Ne sisältävät arvopaperisäilytyksen, raportoinnin sekä kattavan osake- ja markkina-analyysin.
+            - paragraph [ref=e192]: Sijoittajan palvelupaketti sisältää myös markkinoiden seurantatyökalun ja reaaliaikaiset 1 tason kurssit. Lisämaksusta saat myös reaaliaikaiset 5 tason kurssit ja uutiset.
+            - table [ref=e194]:
+              - rowgroup [ref=e195]:
+                - row "Palvelupaketti Säästäjä Sijoittaja" [ref=e196]:
+                  - columnheader "Palvelupaketti" [ref=e197]
+                  - columnheader "Säästäjä" [ref=e198]
+                  - columnheader "Sijoittaja" [ref=e199]
+              - rowgroup [ref=e200]:
+                - row "Kuukausimaksut 0 €/kk 0 €/kk" [ref=e201]:
+                  - cell "Kuukausimaksut" [ref=e202]
+                  - cell "0 €/kk" [ref=e203]
+                  - cell "0 €/kk" [ref=e204]
+                - row "Sisältyy Arvopaperisäilytys ja arvo-osuustili Arvopaperisäilytys ja arvo-osuustili" [ref=e205]:
+                  - cell "Sisältyy" [ref=e206]
+                  - cell "Arvopaperisäilytys ja arvo-osuustili" [ref=e207]
+                  - cell "Arvopaperisäilytys ja arvo-osuustili" [ref=e208]
+                - row "Raportointi Raportointi" [ref=e209]:
+                  - cell "Raportointi" [ref=e210]
+                  - cell "Raportointi" [ref=e211]
+                - row "Osake- ja markkina-analyysi Osake- ja markkina-analyysi" [ref=e212]:
+                  - cell "Osake- ja markkina-analyysi" [ref=e213]
+                  - cell "Osake- ja markkina-analyysi" [ref=e214]
+                - row "Markkinoiden seurantatyökalu" [ref=e215]:
+                  - cell [ref=e216]
+                  - cell "Markkinoiden seurantatyökalu" [ref=e217]
+                - row "Reaaliaikaiset kurssit 1 taso Helsinki, Tukholma, Kööpenhamina" [ref=e218]:
+                  - cell [ref=e219]
+                  - cell "Reaaliaikaiset kurssit 1 taso Helsinki, Tukholma, Kööpenhamina" [ref=e220]:
+                    - text: Reaaliaikaiset kurssit 1 taso
+                    - text: Helsinki, Tukholma, Kööpenhamina
+                - row "Lisäpalvelut Reaaliaikaiset kurssit 5 tasoa +5 €/kk* Helsinki, Tukholma, Kööpenhamina" [ref=e221]:
+                  - cell "Lisäpalvelut" [ref=e222]
+                  - cell [ref=e223]
+                  - cell "Reaaliaikaiset kurssit 5 tasoa +5 €/kk* Helsinki, Tukholma, Kööpenhamina" [ref=e224]:
+                    - text: Reaaliaikaiset kurssit 5 tasoa +5 €/kk*
+                    - text: Helsinki, Tukholma, Kööpenhamina
+                - row "Reaaliaikaiset uutiset +5 €/kk*" [ref=e225]:
+                  - cell [ref=e226]
+                  - cell "Reaaliaikaiset uutiset +5 €/kk*" [ref=e227]
+            - paragraph [ref=e228]: "*Maksuton, mikäli osakevälityksen palkkiot ovat yli 500 € edellisessä kalenterineljänneksessä."
+            - paragraph [ref=e229]: Hinnat sisältävät arvonlisäveron siltä osin, kun on kyse arvonlisäverollisesta palvelusta.
+          - link "Avaa arvo-osuustili‍" [ref=e233] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/arvo-osuustili
+            - text: Avaa arvo-osuustili‍
+            - img [ref=e234]
+      - generic [ref=e246]:
+        - generic [ref=e249]:
+          - link "Arvo-osuustili Avaa arvo-osuustili ja aloita sijoittaminen. \"\"" [ref=e261] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/arvo-osuustili
+            - generic [ref=e263]:
+              - heading "Arvo-osuustili" [level=2] [ref=e264]:
+                - text: Arvo-osuustili
+                - generic [ref=e265]:
+                  - button:
+                    - text: ‍
+                    - img
+              - generic [ref=e266]: Avaa arvo-osuustili ja aloita sijoittaminen.
+            - img "\"\"" [ref=e268]
+          - paragraph [ref=e277]: Arvo-osuustilin tarjoaa osuuspankki.
+        - link "Sijoittamisen edut ja hinnasto Tutustu kattaviin etuihin säästämisestä ja sijoittamisesta. Meillä saat aina edulliset hinnat." [ref=e289] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-edut-ja-hinnasto
+          - generic [ref=e293]:
+            - generic [ref=e294]: Sijoittamisen edut ja hinnasto
+            - paragraph [ref=e296]: Tutustu kattaviin etuihin säästämisestä ja sijoittamisesta. Meillä saat aina edulliset hinnat.
+    - contentinfo [ref=e299]:
+      - search [ref=e303]:
+        - textbox "Hae" [ref=e304]
+        - button "Hae" [ref=e305] [cursor=pointer]: 
+      - paragraph:
+        - link "Siirry sivun alkuun" [ref=e306] [cursor=pointer]:
+          - /url: "#"
+          - text: Sivun alkuun
+      - generic [ref=e309]:
+        - link "Asiakaspalvelu" [ref=e311] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu?icmp=yl-ft-aspa
+        - link "Anna palautetta" [ref=e313] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/palautteet-ja-ongelmat?icmp=yl-ft-anna-palautetta
+        - link "Evästeiden käyttö" [ref=e315] [cursor=pointer]:
+          - /url: /evasteiden-kaytto?icmp=yl-ft-evasteet
+        - link "Palveluhinnasto" [ref=e317] [cursor=pointer]:
+          - /url: /hinnasto?icmp=yl-ft-hinnasto
+        - link "Puheluhinnasto" [ref=e319] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakaspalvelu/puheluhinnasto?icmp=yl-ft-puheluhinnasto
+        - link "Sähköinen allekirjoituspalvelu" [ref=e321] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/digitaaliset-palvelut/sahkoinen-allekirjoituspalvelu?icmp=yl-ft-allekirjoitus
+        - link "Tule OP:n asiakkaaksi" [ref=e323] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/asiakkuus/tule-opn-asiakkaaksi?icmp=yl-ft-asiakkaaksi
+        - link "Turvallinen asiointi" [ref=e325] [cursor=pointer]:
+          - /url: /turvallinen-asiointi?icmp=yl-ft-turvallisuus
+        - link "Verkkopalvelun käyttö" [ref=e327] [cursor=pointer]:
+          - /url: /verkkopalveluiden-kaytto?icmp=yl-ft-kaytto
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - link "OP Media" [ref=e330] [cursor=pointer]:
+            - /url: https://www.op-media.fi/
+          - link "OP Koti" [ref=e331] [cursor=pointer]:
+            - /url: https://op-koti.fi/
+          - link "Pohjola Vahinkoapu" [ref=e332] [cursor=pointer]:
+            - /url: https://vahinkoapu.pohjola.fi
+        - generic [ref=e333]:
+          - link "facebook" [ref=e334] [cursor=pointer]:
+            - /url: https://www.facebook.com/op.fi
+          - link "linkedin" [ref=e335] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/op-pohjola
+          - link "instagram" [ref=e336] [cursor=pointer]:
+            - /url: https://www.instagram.com/op_pohjola
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - generic [ref=e340]: © OP Pohjola
+          - generic [ref=e341]: "BIC: OKOYFIHH"
+        - generic [ref=e342]:
+          - link "Tietosuoja" [ref=e343] [cursor=pointer]:
+            - /url: /tietosuoja?icmp=yl-ft-tietosuoja
+          - link "Saavutettavuus" [ref=e344] [cursor=pointer]:
+            - /url: /saavutettavuus?icmp=yl-ft-saavutettavuus
+          - link "Käyttöehdot" [ref=e345] [cursor=pointer]:
+            - /url: /kayttoehdot?icmp=yl-ft-kayttoehdot
+          - link "Sopimusehdot" [ref=e346] [cursor=pointer]:
+            - /url: /ehdot?icmp=yl-ft-sopimusehdot
+    - generic [ref=e351]:
+      - generic:
+        - status [ref=e352]
+        - status [ref=e353]

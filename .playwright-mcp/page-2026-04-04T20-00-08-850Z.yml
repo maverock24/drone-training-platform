@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: AI budgeting app Prophet LSTM Plaid API MX tutorial spending prediction Python 2025 2026 AI budgeting app Prophet LSTM Plaid API MX tutorial spending prediction Python 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DAI%2Bbudgeting%2Bapp%2BProphet%2BLSTM%2BPlaid%2BAPI%2BMX%2Btutorial%2Bspending%2Bprediction%2BPython%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&aep=1&ntc=1&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQs6gLegQIFBAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQtKgLegQIEhAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQ0pQJegQIERAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQs6gLegQIEBAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DAI%2Bbudgeting%2Bapp%2BProphet%2BLSTM%2BPlaid%2BAPI%2BMX%2Btutorial%2Bspending%2Bprediction%2BPython%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQhoQCKAF6BAgJEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQiIQCKAN6BAgJEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - 'link "Building an AI-Driven Personal Finance App: A Step-by- ... GeekyAnts https://geekyants.com › Blog" [ref=e154] [cursor=pointer]':
+                - /url: https://geekyants.com/blog/building-an-ai-driven-personal-finance-app-a-step-by-step-guide
+                - 'heading "Building an AI-Driven Personal Finance App: A Step-by- ..." [level=3] [ref=e155]'
+                - generic [ref=e160]:
+                  - generic [ref=e162]: GeekyAnts
+                  - generic [ref=e164]: https://geekyants.com › Blog
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://geekyants.com/blog/building-an-ai-driven-personal-finance-app-a-step-by-step-guide
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e174]:
+              - generic [ref=e175]: 27.6.2025 —
+              - generic [ref=e176]:
+                - emphasis [ref=e177]: Learn how to develop AI personal finance apps
+                - text: with NLP, predictive insights, goal tracking & fraud detection—plus real 2025 cost breakdowns.
+        - generic [ref=e181]:
+          - generic [ref=e184]:
+            - link "haroon-ai1/personal-Finance-Manager-Application-Python ... GitHub https://github.com › haroon23108124" [ref=e186] [cursor=pointer]:
+              - /url: https://github.com/haroon23108124/personal-Finance-Manager-Application-Python-
+              - heading "haroon-ai1/personal-Finance-Manager-Application-Python ..." [level=3] [ref=e187]
+              - generic [ref=e192]:
+                - generic [ref=e194]: GitHub
+                - generic [ref=e196]: https://github.com › haroon23108124
+            - generic [ref=e197]:
+              - generic [ref=e198]: ·
+              - link "Käännä tämä sivu" [ref=e199] [cursor=pointer]:
+                - /url: https://github.com/haroon23108124/personal-Finance-Manager-Application-Python-
+            - button "Tietoja tästä tuloksesta" [ref=e200] [cursor=pointer]:
+              - img [ref=e203]
+          - generic [ref=e207]:
+            - text: An
+            - emphasis [ref=e208]: AI
+            - text: "-powered Personal"
+            - emphasis [ref=e209]: Finance
+            - text: Manager featuring a "Master Brain" (
+            - emphasis [ref=e210]: LSTM
+            - text: Neural Network) to
+            - emphasis [ref=e211]: forecast
+            - text: future
+            - emphasis [ref=e212]: spending
+            - text: trends. Built with
+            - emphasis [ref=e213]: Python
+            - text: ", TensorFlow, ..."
+          - generic [ref=e215]: "Puuttuu: Prophet ‎Plaid ‎API ‎MX ‎2025"
+        - generic [ref=e219]:
+          - generic [ref=e222]:
+            - link "How to Build an AI Budget-Planning Optimizer for Your ... Towards Data Science https://towardsdatascience.com › h..." [ref=e224] [cursor=pointer]:
+              - /url: https://towardsdatascience.com/how-to-build-an-ai-budget-planning-optimizer-for-your-2026-capex-review-langgraph-fastapi-and-n8n/
+              - heading "How to Build an AI Budget-Planning Optimizer for Your ..." [level=3] [ref=e225]
+              - generic [ref=e230]:
+                - generic [ref=e232]: Towards Data Science
+                - generic [ref=e234]: https://towardsdatascience.com › h...
+            - generic [ref=e235]:
+              - generic [ref=e236]: ·
+              - link "Käännä tämä sivu" [ref=e237] [cursor=pointer]:
+                - /url: https://towardsdatascience.com/how-to-build-an-ai-budget-planning-optimizer-for-your-2026-capex-review-langgraph-fastapi-and-n8n/
+            - button "Tietoja tästä tuloksesta" [ref=e238] [cursor=pointer]:
+              - img [ref=e241]
+          - generic [ref=e244]:
+            - generic [ref=e245]: 10.9.2025 —
+            - generic [ref=e246]:
+              - text: In this article, we will build an
+              - emphasis [ref=e247]: AI
+              - text: Agent for
+              - emphasis [ref=e248]: Budget
+              - text: Planning that turns email requests into an optimised CAPEX portfolio. This
+              - emphasis [ref=e249]: AI
+              - text: workflow is ...
+          - generic [ref=e251]: "Puuttuu: Prophet ‎LSTM ‎Plaid ‎MX ‎prediction"
+        - generic [ref=e255]:
+          - generic [ref=e258]:
+            - link "An AI-Based Hybrid Prophet–LSTM Model for Forecasting ... Artificial Intelligence for Sustainable Cities https://aiforsustainablecities.com › download" [ref=e260] [cursor=pointer]:
+              - /url: https://aiforsustainablecities.com/index.php/aifsc/article/download/966/715
+              - heading "An AI-Based Hybrid Prophet–LSTM Model for Forecasting ..." [level=3] [ref=e261]
+              - generic [ref=e266]:
+                - generic [ref=e268]: Artificial Intelligence for Sustainable Cities
+                - generic [ref=e270]: https://aiforsustainablecities.com › download
+            - generic [ref=e271]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+          - generic [ref=e278]:
+            - generic [ref=e279]: kirjoittanut TR Razak · 2025 —
+            - text: The findings demonstrate that the proposed framework provides a robust, interpretable, and modular decision-support tool for utility operators, energy planners, ...
+          - generic [ref=e281]: "Puuttuu: Plaid ‎API ‎MX ‎Python"
+        - generic [ref=e285]:
+          - generic [ref=e288]:
+            - 'link "“Building a Future Prediction System with Python: From ... Medium · Zeeshan Safdar Yksi tykkäys · 8 kuukautta sitten" [ref=e290] [cursor=pointer]':
+              - /url: https://medium.com/@muhammadzeeshansafdar17/building-a-future-prediction-system-with-python-from-historical-data-to-intelligent-forecasting-26ee1a3a747f
+              - 'heading "“Building a Future Prediction System with Python: From ..." [level=3] [ref=e291]'
+              - generic [ref=e296]:
+                - generic [ref=e298]: Medium · Zeeshan Safdar
+                - generic [ref=e300]: Yksi tykkäys · 8 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e301] [cursor=pointer]:
+              - img [ref=e304]
+          - generic [ref=e308]:
+            - text: How I created a
+            - emphasis [ref=e309]: Python-powered system that predicts future trends
+            - text: using time series, machine learning, and even language models — complete ...
+          - generic [ref=e311]: "Puuttuu: Plaid ‎API ‎MX"
+        - generic [ref=e318]:
+          - generic [ref=e321]:
+            - 'link "Planning your 2026 AI tooling budget: guidance for ... YouTube · DX Yli 300 katselukertaa · 5 kuukautta sitten" [ref=e323] [cursor=pointer]':
+              - /url: https://www.youtube.com/watch?v=myUmFrxxUOk
+              - 'heading "Planning your 2026 AI tooling budget: guidance for ..." [level=3] [ref=e324]'
+              - generic [ref=e329]:
+                - generic [ref=e331]: YouTube · DX
+                - generic [ref=e333]: Yli 300 katselukertaa · 5 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e334] [cursor=pointer]:
+              - img [ref=e337]
+          - generic [ref=e339]:
+            - 'button "Planning your 2026 AI tooling budget: guidance for ..., tekijä: DX, alusta: YouTube. Katso Googlessa. 38:59" [ref=e340] [cursor=pointer]':
+              - generic [ref=e342]:
+                - img [ref=e348]
+                - generic [ref=e351]:
+                  - generic [ref=e352]: 38:59
+                  - img [ref=e355]
+            - generic [ref=e358]: In this episode of Engineering Enablement, Laura Tacho and Abi Noda discuss how engineering leaders can plan their 2026 AI budgets ...
+          - button "17 avainkohtaa tässä videossa" [ref=e363] [cursor=pointer]:
+            - generic [ref=e372]:
+              - generic [ref=e375]: 17 avainkohtaa tässä videossa
+              - img [ref=e377]
+          - generic [ref=e380]: "Puuttuu: app ‎Prophet ‎LSTM ‎Plaid ‎API ‎MX ‎prediction ‎Python ‎2025"
+        - generic [ref=e384]:
+          - generic [ref=e387]:
+            - link "Designing an LSTM-Based Model for Financial Asset ... Biblioteka Nauki https://bibliotekanauki.pl › articles" [ref=e389] [cursor=pointer]:
+              - /url: https://bibliotekanauki.pl/articles/64151794.pdf
+              - heading "Designing an LSTM-Based Model for Financial Asset ..." [level=3] [ref=e390]
+              - generic [ref=e395]:
+                - generic [ref=e397]: Biblioteka Nauki
+                - generic [ref=e399]: https://bibliotekanauki.pl › articles
+            - generic [ref=e400]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e401] [cursor=pointer]:
+              - img [ref=e404]
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - generic [ref=e408]: kirjoittanut N Yachou · 2026 —
+              - generic [ref=e409]:
+                - text: This study examines the predictive performance of Long Short-Term Memory (
+                - emphasis [ref=e410]: LSTM
+                - text: ) neural networks in forecasting stock prices, focusing on Apple ...
+            - generic [ref=e411]: 23 sivua
+          - generic [ref=e413]: "Puuttuu: app ‎Prophet ‎Plaid ‎API ‎MX"
+        - generic [ref=e417]:
+          - generic [ref=e420]:
+            - link "How I Built a Personal Finance Tracker in Python That ... Python in Plain English https://python.plainenglish.io › ho..." [ref=e422] [cursor=pointer]:
+              - /url: https://python.plainenglish.io/how-i-built-a-personal-finance-tracker-in-python-that-talks-to-my-bank-categorizes-expenses-and-16c88994b0cc
+              - heading "How I Built a Personal Finance Tracker in Python That ..." [level=3] [ref=e423]
+              - generic [ref=e428]:
+                - generic [ref=e430]: Python in Plain English
+                - generic [ref=e432]: https://python.plainenglish.io › ho...
+            - generic [ref=e433]:
+              - generic [ref=e434]: ·
+              - link "Käännä tämä sivu" [ref=e435] [cursor=pointer]:
+                - /url: https://python.plainenglish.io/how-i-built-a-personal-finance-tracker-in-python-that-talks-to-my-bank-categorizes-expenses-and-16c88994b0cc
+            - button "Tietoja tästä tuloksesta" [ref=e436] [cursor=pointer]:
+              - img [ref=e439]
+          - generic [ref=e442]:
+            - generic [ref=e443]: 27.6.2025 —
+            - generic [ref=e444]:
+              - text: So, I built my own using
+              - emphasis [ref=e445]: Python
+              - text: . Now I have a script that connects to my bank, downloads my transactions, categorizes them with
+              - emphasis [ref=e446]: AI
+              - text: ", and shows me ..."
+          - generic [ref=e448]: "Puuttuu: Prophet ‎LSTM ‎MX"
+        - generic [ref=e455]:
+          - generic [ref=e458]:
+            - link "Can AI Predict META's Stock Price Prophet Forecasting in ... YouTube · Computer Science (compsci112358) Yli 1,2 t. katselukertaa · 6 kuukautta sitten" [ref=e460] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=5dzd2JIJGEM
+              - heading "Can AI Predict META's Stock Price Prophet Forecasting in ..." [level=3] [ref=e461]
+              - generic [ref=e466]:
+                - generic [ref=e468]: YouTube · Computer Science (compsci112358)
+                - generic [ref=e470]: Yli 1,2 t. katselukertaa · 6 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e471] [cursor=pointer]:
+              - img [ref=e474]
+          - generic [ref=e476]:
+            - 'button "Can AI Predict META''s Stock Price Prophet Forecasting in ..., tekijä: Computer Science (compsci112358), alusta: YouTube. Katso Googlessa. 13:33" [ref=e477] [cursor=pointer]':
+              - generic [ref=e479]:
+                - img [ref=e485]
+                - generic [ref=e488]:
+                  - generic [ref=e489]: 13:33
+                  - img [ref=e492]
+            - generic [ref=e495]: "Programming #Python#machinelearning #stockprediction #ai #artificialintelligence #finance #stocks Description: This tutorial dives into time ..."
+          - button "3 avainkohtaa tässä videossa" [ref=e500] [cursor=pointer]:
+            - generic [ref=e509]:
+              - generic [ref=e512]: 3 avainkohtaa tässä videossa
+              - img [ref=e514]
+          - generic [ref=e517]: "Puuttuu: app ‎LSTM ‎Plaid ‎API ‎MX ‎2025 ‎2026"
+        - generic [ref=e524]:
+          - generic [ref=e527]:
+            - link "Automate Budgeting with Python and Planning Analytics YouTube · Nicholas Renotte Yli 25,5 t. katselukertaa · 5 vuotta sitten" [ref=e529] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=6iHFdS_PQjc
+              - heading "Automate Budgeting with Python and Planning Analytics" [level=3] [ref=e530]
+              - generic [ref=e535]:
+                - generic [ref=e537]: YouTube · Nicholas Renotte
+                - generic [ref=e539]: Yli 25,5 t. katselukertaa · 5 vuotta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e540] [cursor=pointer]:
+              - img [ref=e543]
+          - generic [ref=e545]:
+            - 'button "Automate Budgeting with Python and Planning Analytics, tekijä: Nicholas Renotte, alusta: YouTube. Katso Googlessa. 30:42" [ref=e546] [cursor=pointer]':
+              - generic [ref=e548]:
+                - img [ref=e554]
+                - generic [ref=e557]:
+                  - generic [ref=e558]: 30:42
+                  - img [ref=e561]
+            - generic [ref=e564]: Copying and pasting last month's budget? Tired of the same 'ol forecast? Just want to do stuff faster? I hear you, in this video you're ...
+          - button "10 avainkohtaa tässä videossa" [ref=e569] [cursor=pointer]:
+            - generic [ref=e578]:
+              - generic [ref=e581]: 10 avainkohtaa tässä videossa
+              - img [ref=e583]
+          - generic [ref=e586]: "Puuttuu: app ‎LSTM ‎Plaid ‎MX ‎2025"
+      - navigation [ref=e589]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e590]
+        - text: "1"
+        - link "Page 2" [ref=e593] [cursor=pointer]:
+          - /url: /search?q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=xm3RadqfNL3BwPAPseClyQg&start=10&sa=N&sstk=Af77f_ec7JXoOdbKJ8x6dPcoDDSJiI5HZO1C-zRw76CwYzmeTrK11-9GrQ2ZSJwaYPz6sxw0RLioAU7bgOcAHumf5LWtkKtcuZqMsw&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQ8tMDegQINhAE
+          - text: "2"
+        - link "Page 3" [ref=e595] [cursor=pointer]:
+          - /url: /search?q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=xm3RadqfNL3BwPAPseClyQg&start=20&sa=N&sstk=Af77f_ec7JXoOdbKJ8x6dPcoDDSJiI5HZO1C-zRw76CwYzmeTrK11-9GrQ2ZSJwaYPz6sxw0RLioAU7bgOcAHumf5LWtkKtcuZqMsw&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQ8tMDegQINhAG
+          - text: "3"
+        - heading "Seuraava" [level=2] [ref=e597]:
+          - link "Seuraava" [ref=e598] [cursor=pointer]:
+            - /url: /search?q=AI+budgeting+app+Prophet+LSTM+Plaid+API+MX+tutorial+spending+prediction+Python+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=xm3RadqfNL3BwPAPseClyQg&start=10&sa=N&sstk=Af77f_ec7JXoOdbKJ8x6dPcoDDSJiI5HZO1C-zRw76CwYzmeTrK11-9GrQ2ZSJwaYPz6sxw0RLioAU7bgOcAHumf5LWtkKtcuZqMsw&ved=2ahUKEwjamr6K_tSTAxW9IBAIHTFwKYkQ8NMDegQINhAI
+            - generic [ref=e600]: Seuraava
+      - navigation
+    - contentinfo [ref=e601]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e602]
+      - generic [ref=e606]:
+        - generic [ref=e608]:
+          - text: Suomi
+          - generic [ref=e610]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e612] [cursor=pointer]:
+              - generic [ref=e613]: Helsinki
+              - generic [ref=e615]:
+                - text: "-"
+                - generic [ref=e616]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e618] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e621]:
+          - link "Ohje" [ref=e622] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e623] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e624] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e625] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

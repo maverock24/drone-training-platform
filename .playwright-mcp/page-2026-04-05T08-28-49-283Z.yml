@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - link "Siirry Vuokraovi.comin etusivulle" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img [ref=e9]
+    - heading "Hups, sivua ei löydy" [level=1] [ref=e27]
+    - paragraph [ref=e28]: Etsimäsi sivu on saatettu poistaa palvelusta tai linkki on virheellinen. Tarkistathan, että olet kirjoittanut osoitteen oikein tai että etsimäsi kohteen kohdenumero on oikein.
+    - heading "Etsitkö vuokra-asuntoa tositarkoituksella?" [level=4] [ref=e29]
+    - paragraph [ref=e30]:
+      - link "Löydä unelmiesi koti" [ref=e31] [cursor=pointer]:
+        - /url: /haku/vuokra-asunnot
+        - text: Löydä unelmiesi koti
+    - heading "Tai jospa etsimäsi löytyisikin näiltä alueilta?" [level=4] [ref=e32]
+    - generic [ref=e33]:
+      - link "Helsinki »" [ref=e34] [cursor=pointer]:
+        - /url: /vuokra-asunnot/helsinki
+        - heading "Helsinki »" [level=5] [ref=e35]
+      - link "Espoo »" [ref=e36] [cursor=pointer]:
+        - /url: /vuokra-asunnot/espoo
+        - heading "Espoo »" [level=5] [ref=e37]
+      - link "Tampere »" [ref=e38] [cursor=pointer]:
+        - /url: /vuokra-asunnot/tampere
+        - heading "Tampere »" [level=5] [ref=e39]
+      - link "Vantaa »" [ref=e40] [cursor=pointer]:
+        - /url: /vuokra-asunnot/vantaa
+        - heading "Vantaa »" [level=5] [ref=e41]
+      - link "Oulu »" [ref=e42] [cursor=pointer]:
+        - /url: /vuokra-asunnot/oulu
+        - heading "Oulu »" [level=5] [ref=e43]
+      - link "Turku »" [ref=e44] [cursor=pointer]:
+        - /url: /vuokra-asunnot/turku
+        - heading "Turku »" [level=5] [ref=e45]
+      - link "Jyväskylä »" [ref=e46] [cursor=pointer]:
+        - /url: /vuokra-asunnot/jyvaskyla
+        - heading "Jyväskylä »" [level=5] [ref=e47]
+      - link "Lahti »" [ref=e48] [cursor=pointer]:
+        - /url: /vuokra-asunnot/lahti
+        - heading "Lahti »" [level=5] [ref=e49]
+  - alert [ref=e50]

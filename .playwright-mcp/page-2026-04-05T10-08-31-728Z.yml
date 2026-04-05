@@ -1,0 +1,345 @@
+- generic [active] [ref=e1]:
+  - region "We value your privacy" [ref=e2]:
+    - generic [ref=e4]:
+      - heading "We value your privacy" [level=1] [ref=e5]
+      - generic [ref=e6]:
+        - paragraph [ref=e8]: We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+        - generic [ref=e9]:
+          - button "Customize" [ref=e10] [cursor=pointer]
+          - button "Reject All" [ref=e11] [cursor=pointer]
+          - button "Accept All" [ref=e12] [cursor=pointer]
+  - generic [ref=e13]:
+    - banner [ref=e14]:
+      - generic [ref=e15]:
+        - link [ref=e17] [cursor=pointer]:
+          - /url: https://droneii.com
+        - generic [ref=e18]:
+          - button "search" [ref=e19] [cursor=pointer]:
+            - img "search" [ref=e20]
+          - generic [ref=e21]:
+            - button "handbag" [ref=e22] [cursor=pointer]:
+              - img "handbag" [ref=e23]
+            - generic [ref=e24]: "0"
+          - generic [ref=e25]:
+            - button [ref=e26] [cursor=pointer]
+            - generic [ref=e27]: Menu
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - img "State of the Drone Industry infographic" [ref=e30]
+        - img "article-hero-bg" [ref=e31]
+        - generic [ref=e32]:
+          - navigation [ref=e33]:
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link [ref=e36] [cursor=pointer]:
+                  - /url: https://droneii.com
+                  - img [ref=e37]
+                - text: ">"
+              - listitem [ref=e39]:
+                - link "Free resources" [ref=e40] [cursor=pointer]:
+                  - /url: https://droneii.com/free-resources-page/
+                - text: ">"
+              - listitem [ref=e41]:
+                - link "Publications" [ref=e42] [cursor=pointer]:
+                  - /url: https://droneii.com/drone-publications/
+                - text: ">"
+              - listitem [ref=e43]: The State of the Drone Industry – The Global Drone Survey Results 2025
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: Oct 09, 2025
+                - generic [ref=e48]: ● Kay Wackwitz
+              - generic [ref=e49]:
+                - img [ref=e50]
+                - generic [ref=e52]: 5 min read
+            - generic [ref=e53]: The State of the Drone Industry – The Global Drone Survey Results 2025
+            - generic [ref=e54]:
+              - link "Drone Market" [ref=e55] [cursor=pointer]:
+                - /url: https://droneii.com/category/drone-market
+              - link "Market" [ref=e56] [cursor=pointer]:
+                - /url: https://droneii.com/category/market
+              - link "Research" [ref=e57] [cursor=pointer]:
+                - /url: https://droneii.com/category/research
+              - link "Trends & Rankings" [ref=e58] [cursor=pointer]:
+                - /url: https://droneii.com/category/trends-rankings
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - generic [ref=e62]:
+            - generic [ref=e68]:
+              - heading "State of the Drone Industry 2025 - Survey Demographics" [level=1] [ref=e69]
+              - generic [ref=e71]:
+                - paragraph [ref=e72]:
+                  - text: The state of the drone industry report is the result of the Drone Industry Survey 2025. With polls closed in the summer, the results of the 8th annual survey are in, analyzed, and presented in the free
+                  - link "Global State of Drones 2025 report" [ref=e73] [cursor=pointer]:
+                    - /url: https://droneii.com/project/global-state-of-drones-2025-2
+                  - text: .
+                - paragraph [ref=e74]: This year, 768 completed survey forms were submitted from 87 countries. The majority of answers came from Europe (46%), followed by North America (19%) and Asia (18%).
+                - paragraph [ref=e75]: Just as last year, the service sector remains the largest, accounting for 68% (-6% from 2024), followed by hardware companies at 24% (+6%), and software companies at 8% (+/-0%).
+            - generic [ref=e79]:
+              - link "How Drones are Being Used" [ref=e80] [cursor=pointer]:
+                - /url: "#heading_1"
+                - heading "How Drones are Being Used" [level=2] [ref=e81]
+              - generic [ref=e83]:
+                - paragraph [ref=e84]: Mapping and surveying remain the primary methods for drone applications, used by 35% of all drone operators, followed by inspection (26%) and photography and filming (18%). Growing shares are also reported for methods like spraying and dispensing (7%), delivery (7%), and localization and tracking (5%).
+                - paragraph [ref=e85]: In 2025, the top reason for using drones is “saving time,” followed by improving quality. This marks a major shift from the previous year, when “improving work safety” was almost always the top reason. This could indicate that drone solutions need to deliver on their promises, and streamlining the whole process (not just data collection) becomes more crucial.
+              - figure [ref=e87]:
+                - link "State of the Drone Industry infographic" [ref=e88] [cursor=pointer]:
+                  - /url: https://droneii.com/project/global-state-of-drones-2025-infographic
+                  - img "State of the Drone Industry infographic" [ref=e89]
+            - generic [ref=e93]:
+              - link "Drone Industry Priorities and Primary Concerns" [ref=e94] [cursor=pointer]:
+                - /url: "#heading_2"
+                - heading "Drone Industry Priorities and Primary Concerns" [level=2] [ref=e95]
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: Regulatory obstacles remain the top challenge for the drone industry in 2025, marking the third consecutive year.
+                - paragraph [ref=e100]:
+                  - text: "Example USA: Drone regulation remains one of the most persistent challenges in the industry due to the high costs and complexity of achieving and maintaining airworthiness. While FAA Part 107 provided a regulatory foundation, its reliance on individual waivers created an inefficient and resource-intensive approval process. The newly proposed FAA Part 108 aims to address these issues"
+                  - link "for BVLOS operation" [ref=e101] [cursor=pointer]:
+                    - /url: https://www.faa.gov/newsroom/beyond-visual-line-sight-bvlos
+                  - text: by introducing risk-based flexibility, shifting certain responsibilities to industry standards, and better aligning with international frameworks such as those of EASA and Japan. Although expectations are high, it remains uncertain whether Part 108 will fully resolve the regulatory bottlenecks that have long hindered the industry’s growth.
+                - paragraph [ref=e102]:
+                  - text: However, notable shifts have occurred in other areas. While client acquisition stays in 2
+                  - superscript [ref=e103]: nd
+                  - text: "place, acquiring additional funding is becoming a real problem. With regulations limiting operational scalability and clients hard to onboard, additional funding is the only way to occupy certain niches and outperform competitors. With funds drying up, the challenge is only increasing – just as the ranking this year has moved to third position (2023: rank 8)."
+                - paragraph [ref=e104]: Some challenges have decreased over the years, like public awareness and inflation, which is somewhat reassuring. The main question is, what impact will these challenges have on the industry, how will drone companies respond, and what will the drone landscape look like in 2-3 years?
+            - generic [ref=e112]:
+              - figure [ref=e117]:
+                - link "global state of drones report 2025" [ref=e118] [cursor=pointer]:
+                  - /url: https://droneii.com/project/global-state-of-drones-2025-2
+                  - img "global state of drones report 2025" [ref=e119]
+              - generic [ref=e122]:
+                - heading "Global State of Drones White Paper 2025" [level=3] [ref=e123]:
+                  - link "Global State of Drones White Paper 2025" [ref=e124] [cursor=pointer]:
+                    - /url: https://droneii.com/project/global-state-of-drones-2025-2
+                - list [ref=e127]:
+                  - listitem [ref=e128]: Direct feedback from 768 companies in 87 countries
+                  - listitem [ref=e129]: Data on the top application methods and reasons to use drones
+                  - listitem [ref=e130]: Expectations vs Reality 2018-2025, including breakdown by segment
+                  - listitem [ref=e131]: Ranking of top industry challenges
+                  - listitem [ref=e132]: Top market drivers and company priorities
+                - link "View Report" [ref=e135] [cursor=pointer]:
+                  - /url: https://droneii.com/project/global-state-of-drones-2025-2
+            - generic [ref=e142]:
+              - link "Drone Market Expectations and Drivers" [ref=e143] [cursor=pointer]:
+                - /url: "#heading_3"
+                - heading "Drone Market Expectations and Drivers" [level=2] [ref=e144]
+              - generic [ref=e147]:
+                - paragraph [ref=e148]: Expectations and perceived reality have steadily improved despite the challenges mentioned. The survey reports a score of 6.8 for market expectations in 2025, indicating a generally positive outlook for the industry. More importantly, it shows that the drone industry remains cautious yet optimistic, not pessimistic or overly optimistic.
+                - paragraph [ref=e149]: This optimism varies across the main sectors. Drone hardware and software are very optimistic for the next 12 months compared to services and have also performed well over the past year. Additional background information can be found in the free Global State of Drones 2025.
+                - paragraph [ref=e150]: Similar to the challenges, the main market-driving factor is rule-making authorities, with another increase for the fourth year in a row, rising all the way to 61%. As more rules are implemented globally, rule-makers set the pace at which the market can develop, making them both the key enabler and restrictor simultaneously.
+                - paragraph [ref=e151]:
+                  - text: Furthermore, it is important to recognize the difference between “necessary regulations being in place” (which is necessary and important) and the
+                  - emphasis [ref=e152]: process
+                  - text: of regulatory approval (which can be slow and inefficient).
+            - generic [ref=e156]:
+              - link "State of the Drone Industry White Paper - More Insights Waiting for You!" [ref=e157] [cursor=pointer]:
+                - /url: "#heading_4"
+                - heading "State of the Drone Industry White Paper - More Insights Waiting for You!" [level=2] [ref=e158]
+              - generic [ref=e161]:
+                - paragraph [ref=e162]: As the drone market continues to grow and expand worldwide, drone companies are shifting their focus from gaining public acceptance to acquiring clients and securing additional funding. Saving time has become a top priority, encouraging adoption across various industries. Despite ongoing challenges, especially with regulation and funding, the overall outlook remains optimistic, with steady growth expected in the coming years.
+                - paragraph [ref=e163]:
+                  - text: The free
+                  - link "Global State of Drones 2025 white paper" [ref=e164] [cursor=pointer]:
+                    - /url: https://droneii.com/project/global-state-of-drones-2025-2
+                  - text: highlights an industry in transition. As the drone sector continues to grow, companies must adapt to these shifts. Success will depend on a clear understanding of global trends and the ability to navigate local regulations and market conditions.
+            - generic [ref=e172]:
+              - img "Kay Wackwitz" [ref=e174]
+              - link "Kay Wackwitz" [ref=e176] [cursor=pointer]:
+                - /url: https://droneii.com/author/kay-wackwitz
+              - paragraph [ref=e179]: Named one of the most influential people in the commercial drone industry, Kay established Drone Industry Insights as the leading drone market research consultancy in 2015. As well as personally consulting on projects and producing reports, he frequently speaks at conferences, seminars, and expos.
+              - link "Linkedin" [ref=e181] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/kaywackwitz/
+                - img [ref=e182]
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "1 How Drones are Being Used" [ref=e188] [cursor=pointer]:
+                - /url: "#heading_1"
+                - generic [ref=e189]: "1"
+                - generic [ref=e190]: How Drones are Being Used
+            - listitem [ref=e191]:
+              - link "2 Drone Industry Priorities and Primary Concerns" [ref=e192] [cursor=pointer]:
+                - /url: "#heading_2"
+                - generic [ref=e193]: "2"
+                - generic [ref=e194]: Drone Industry Priorities and Primary Concerns
+            - listitem [ref=e195]:
+              - link "3 Drone Market Expectations and Drivers" [ref=e196] [cursor=pointer]:
+                - /url: "#heading_3"
+                - generic [ref=e197]: "3"
+                - generic [ref=e198]: Drone Market Expectations and Drivers
+            - listitem [ref=e199]:
+              - link "4 State of the Drone Industry White Paper - More Insights Waiting for You!" [ref=e200] [cursor=pointer]:
+                - /url: "#heading_4"
+                - generic [ref=e201]: "4"
+                - generic [ref=e202]: State of the Drone Industry White Paper - More Insights Waiting for You!
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - link "state of drones" [ref=e205] [cursor=pointer]:
+              - /url: https://droneii.com/tag/state-of-drones
+          - listitem [ref=e206]:
+            - link "market drivers" [ref=e207] [cursor=pointer]:
+              - /url: https://droneii.com/tag/market-drivers
+          - listitem [ref=e208]:
+            - link "drone industry" [ref=e209] [cursor=pointer]:
+              - /url: https://droneii.com/tag/drone-industry
+          - listitem [ref=e210]:
+            - link "drone market" [ref=e211] [cursor=pointer]:
+              - /url: https://droneii.com/tag/drone-market
+          - listitem [ref=e212]:
+            - link "drone survey" [ref=e213] [cursor=pointer]:
+              - /url: https://droneii.com/tag/drone-survey
+    - contentinfo [ref=e214]:
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - link [ref=e218] [cursor=pointer]:
+              - /url: https://droneii.com
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - link [ref=e221] [cursor=pointer]:
+                  - /url: https://www.xing.com/companies/droneindustryinsights
+              - listitem [ref=e222]:
+                - link [ref=e223] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/drone-industry-insights/
+              - listitem [ref=e224]:
+                - link [ref=e225] [cursor=pointer]:
+                  - /url: https://youtube.com/@droneindustryinsights
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - textbox "E-mail address*" [ref=e231]
+              - button "SUBSCRIBE" [disabled] [ref=e232]
+            - generic [ref=e233] [cursor=pointer]:
+              - checkbox "I give my consent to the storage of my data in order to receive the newsletter. You can cancel it at any time." [ref=e234]
+              - paragraph [ref=e236]:
+                - text: I give my consent to the storage of
+                - link "my data" [ref=e237]:
+                  - /url: /privacy-statement
+                - text: in order to receive the newsletter. You can cancel it at any time.
+        - navigation [ref=e239]:
+          - list [ref=e240]:
+            - listitem [ref=e241]:
+              - link "Services" [ref=e242] [cursor=pointer]:
+                - /url: https://droneii.com/drone-services
+            - listitem [ref=e243]:
+              - link "Consulting Services" [ref=e244] [cursor=pointer]:
+                - /url: https://droneii.com/consulting-services
+            - listitem [ref=e245]:
+              - link "Drone Market Studies" [ref=e246] [cursor=pointer]:
+                - /url: https://droneii.com/drone-market-studies
+            - listitem [ref=e247]:
+              - link "Financial Services & Due Diligence" [ref=e248] [cursor=pointer]:
+                - /url: https://droneii.com/financial-services-due-diligence
+          - list [ref=e249]:
+            - listitem [ref=e250]:
+              - link "Industry Reports" [ref=e251] [cursor=pointer]:
+                - /url: https://droneii.com/drone-reports
+            - listitem [ref=e252]:
+              - link "All reports & databases" [ref=e253] [cursor=pointer]:
+                - /url: https://droneii.com/all-reports-databases
+            - listitem [ref=e254]:
+              - link "Global Drone Market" [ref=e255] [cursor=pointer]:
+                - /url: https://droneii.com/global-drone-market
+            - listitem [ref=e256]:
+              - link "Company Rankings" [ref=e257] [cursor=pointer]:
+                - /url: https://droneii.com/company-rankings
+            - listitem [ref=e258]:
+              - link "Air Mobility" [ref=e259] [cursor=pointer]:
+                - /url: https://droneii.com/air-mobility
+            - listitem [ref=e260]:
+              - link "Drone Applications" [ref=e261] [cursor=pointer]:
+                - /url: https://droneii.com/drone-applications
+            - listitem [ref=e262]:
+              - link "Drone Investments" [ref=e263] [cursor=pointer]:
+                - /url: https://droneii.com/drone-investments
+            - listitem [ref=e264]:
+              - link "Drone Regulation" [ref=e265] [cursor=pointer]:
+                - /url: https://droneii.com/drone-regulation
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Free Resources" [ref=e268] [cursor=pointer]:
+                - /url: https://droneii.com/free-drone-resources
+            - listitem [ref=e269]:
+              - link "Newsletter" [ref=e270] [cursor=pointer]:
+                - /url: https://droneii.com/newsletter
+            - listitem [ref=e271]:
+              - link "Publications" [ref=e272] [cursor=pointer]:
+                - /url: https://droneii.com/drone-publications
+            - listitem [ref=e273]:
+              - link "Infographics" [ref=e274] [cursor=pointer]:
+                - /url: https://droneii.com/drone-infographics
+            - listitem [ref=e275]:
+              - link "Whitepapers" [ref=e276] [cursor=pointer]:
+                - /url: https://droneii.com/drone-industry-whitepapers
+            - listitem [ref=e277]:
+              - link "Expert Interviews" [ref=e278] [cursor=pointer]:
+                - /url: https://droneii.com/expert-interviews
+          - list [ref=e279]:
+            - listitem [ref=e280]:
+              - link "Events" [ref=e281] [cursor=pointer]:
+                - /url: https://droneii.com/drone-events-webinars-and-keynotes
+            - listitem [ref=e282]:
+              - link "Expos, Keynotes and Webinars" [ref=e283] [cursor=pointer]:
+                - /url: https://droneii.com/drone-events-webinars-and-keynotes
+          - list [ref=e284]:
+            - listitem [ref=e285]:
+              - link "About" [ref=e286] [cursor=pointer]:
+                - /url: https://droneii.com/about
+            - listitem [ref=e287]:
+              - link "Client Feedback" [ref=e288] [cursor=pointer]:
+                - /url: https://droneii.com/our-clients
+            - listitem [ref=e289]:
+              - link "Partners" [ref=e290] [cursor=pointer]:
+                - /url: https://droneii.com/partners
+            - listitem [ref=e291]:
+              - link "Team" [ref=e292] [cursor=pointer]:
+                - /url: https://droneii.com/team
+            - listitem [ref=e293]:
+              - link "Methodology" [ref=e294] [cursor=pointer]:
+                - /url: https://droneii.com/our-methodology
+            - listitem [ref=e295]:
+              - link "Careers" [ref=e296] [cursor=pointer]:
+                - /url: https://droneii.com/careers
+            - listitem [ref=e297]:
+              - link "FAQs" [ref=e298] [cursor=pointer]:
+                - /url: https://droneii.com/faqs
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - link "Contact" [ref=e301] [cursor=pointer]:
+                - /url: https://droneii.com/contact
+        - generic [ref=e302]:
+          - navigation [ref=e303]:
+            - list [ref=e304]:
+              - listitem [ref=e305]:
+                - link "Legal Notice" [ref=e306] [cursor=pointer]:
+                  - /url: https://droneii.com/legal-notice/
+              - listitem [ref=e307]:
+                - link "Privacy Statement" [ref=e308] [cursor=pointer]:
+                  - /url: "\thttps://droneii.com/privacy-statement"
+              - listitem [ref=e309]:
+                - link "Terms and Conditions" [ref=e310] [cursor=pointer]:
+                  - /url: https://droneii.com/terms-and-conditions/
+          - generic [ref=e311]: Copyright ©2024 Droneii. All rights reserved.
+        - link "Developed by Mettevo" [ref=e312] [cursor=pointer]:
+          - /url: https://mettevo.com/
+          - img [ref=e313]
+          - generic [ref=e329]: Developed by Mettevo
+  - button [ref=e330] [cursor=pointer]:
+    - img [ref=e331]
+  - generic:
+    - generic:
+      - button:
+        - img
+      - generic:
+        - heading "Dear DII-Team, I would like to join the research subscription waiting list. Please contact me asap for more information." [level=2]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - heading "MY CART" [level=2]
+          - button:
+            - img
+        - paragraph: There are no product in cart yet
+        - generic:
+          - img
+        - generic:
+          - link "Open industry reports":
+            - /url: https://droneii.com/drone-reports

@@ -1,0 +1,370 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: XGBoost credit risk scoring Python tutorial 2025 2026 feature engineering SHAP explainability IsolationForest anomaly XGBoost credit risk scoring Python tutorial 2025 2026 feature engineering SHAP explainability IsolationForest anomaly
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DXGBoost%2Bcredit%2Brisk%2Bscoring%2BPython%2Btutorial%2B2025%2B2026%2Bfeature%2Bengineering%2BSHAP%2Bexplainability%2BIsolationForest%2Banomaly&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&aep=1&ntc=1&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQs6gLegQIFBAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQtKgLegQIExAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQtKgLegQIEhAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ0pQJegQIERAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQs6gLegQIEBAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DXGBoost%2Bcredit%2Brisk%2Bscoring%2BPython%2Btutorial%2B2025%2B2026%2Bfeature%2Bengineering%2BSHAP%2Bexplainability%2BIsolationForest%2Banomaly&hl=en&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQhoQCKAF6BAgKEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQiIQCKAN6BAgKEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - 'link "Machine Learning Algorithms: The Complete 2026 Guide AceCloud https://acecloud.ai › blog › machin..." [ref=e154] [cursor=pointer]':
+                - /url: https://acecloud.ai/blog/machine-learning-algorithms-guide/
+                - 'heading "Machine Learning Algorithms: The Complete 2026 Guide" [level=3] [ref=e155]'
+                - generic [ref=e160]:
+                  - generic [ref=e162]: AceCloud
+                  - generic [ref=e164]: https://acecloud.ai › blog › machin...
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://acecloud.ai/blog/machine-learning-algorithms-guide/&hl=fi&sl=en&tl=fi&client=search
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e174]:
+              - generic [ref=e175]: 1.1.2026 —
+              - generic [ref=e176]:
+                - text: Credit card fraud detection; Unusual trading pattern detection.
+                - emphasis [ref=e177]: XGBoost
+                - text: (
+                - emphasis [ref=e178]: Credit risk scoring
+                - text: ). Loan default prediction; Credit
+                - emphasis [ref=e179]: scoring
+                - text: ; Often ...
+        - generic [ref=e183]:
+          - generic [ref=e186]:
+            - 'link "FraudFlow India: How I Used XGBoost and Gemini 2.5 ... Medium · AI for India Yli 100 tykkäystä · 1 viikko sitten" [ref=e188] [cursor=pointer]':
+              - /url: https://medium.com/data-and-beyond/fraudflow-india-how-i-used-xgboost-and-gemini-2-5-flash-to-map-indias-upi-fraud-crisis-e8c5e1704cab
+              - 'heading "FraudFlow India: How I Used XGBoost and Gemini 2.5 ..." [level=3] [ref=e189]'
+              - generic [ref=e194]:
+                - generic [ref=e196]: Medium · AI for India
+                - generic [ref=e198]: Yli 100 tykkäystä · 1 viikko sitten
+            - button "Tietoja tästä tuloksesta" [ref=e199] [cursor=pointer]:
+              - img [ref=e202]
+          - generic [ref=e206]:
+            - text: Before training
+            - emphasis [ref=e207]: XGBoost
+            - text: ", I used scikit-learn's"
+            - emphasis [ref=e208]: IsolationForest
+            - text: to flag which districts were statistical
+            - emphasis [ref=e209]: anomalies
+            - text: in the fraud data.
+        - generic [ref=e213]:
+          - generic [ref=e216]:
+            - link "Explainable Artificial Intelligence for Credit Risk Assessment ResearchGate https://www.researchgate.net › 399..." [ref=e218] [cursor=pointer]:
+              - /url: https://www.researchgate.net/publication/399068793_Explainable_Artificial_Intelligence_for_Credit_Risk_Assessment_Balancing_Transparency_and_Predictive_Performance
+              - heading "Explainable Artificial Intelligence for Credit Risk Assessment" [level=3] [ref=e219]
+              - generic [ref=e224]:
+                - generic [ref=e226]: ResearchGate
+                - generic [ref=e228]: https://www.researchgate.net › 399...
+            - generic [ref=e229]:
+              - generic [ref=e230]: ·
+              - link "Käännä tämä sivu" [ref=e231] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/399068793_Explainable_Artificial_Intelligence_for_Credit_Risk_Assessment_Balancing_Transparency_and_Predictive_Performance&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e232] [cursor=pointer]:
+              - img [ref=e235]
+          - generic [ref=e238]:
+            - generic [ref=e239]: 1.2.2026 —
+            - generic [ref=e240]:
+              - text: (
+              - emphasis [ref=e241]: "2025"
+              - text: ) , who also found
+              - emphasis [ref=e242]: SHAP
+              - text: effective for explaining GBMs in
+              - emphasis [ref=e243]: credit risk
+              - text: . ...
+              - emphasis [ref=e244]: anomaly scoring
+              - text: techniques such as
+              - emphasis [ref=e245]: Isolation Forest
+              - text: and ...
+        - generic [ref=e249]:
+          - generic [ref=e252]:
+            - 'link "CreditScope: Credit Scoring & Risk Prediction Algorithm LinkedIn · Faiyaz Ahmed Yli 40 reaktiota · 3 viikkoa sitten" [ref=e254] [cursor=pointer]':
+              - /url: https://www.linkedin.com/posts/faiyaz-ahmed-b3ab04318_machinelearning-creditrisk-datascience-activity-7438516796015480832-GYx7
+              - 'heading "CreditScope: Credit Scoring & Risk Prediction Algorithm" [level=3] [ref=e255]'
+              - generic [ref=e260]:
+                - generic [ref=e262]: LinkedIn · Faiyaz Ahmed
+                - generic [ref=e264]: Yli 40 reaktiota · 3 viikkoa sitten
+            - button "Tietoja tästä tuloksesta" [ref=e265] [cursor=pointer]:
+              - img [ref=e268]
+          - generic [ref=e272]:
+            - emphasis [ref=e273]: Building an Explainable Credit Scoring Model (XGBoost + SHAP
+            - text: ) Credit risk modeling is one of the most impactful applications of machine ...
+        - generic [ref=e277]:
+          - generic [ref=e280]:
+            - link "Int. J. Engg. Res. & Sci. & Tech. 2026, ISSN 2319-5991 Vol. 22 ... ijerst.org https://ijerst.org › ijerst › article › download" [ref=e282] [cursor=pointer]:
+              - /url: https://ijerst.org/index.php/ijerst/article/download/2196/1981/4130
+              - heading "Int. J. Engg. Res. & Sci. & Tech. 2026, ISSN 2319-5991 Vol. 22 ..." [level=3] [ref=e283]
+              - generic [ref=e288]:
+                - generic [ref=e290]: ijerst.org
+                - generic [ref=e292]: https://ijerst.org › ijerst › article › download
+            - generic [ref=e293]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+              - img [ref=e297]
+          - generic [ref=e301]:
+            - text: This paper presents a hybrid machine learning system combining a supervised.
+            - emphasis [ref=e302]: XGBoost
+            - text: classifier and an unsupervised
+            - emphasis [ref=e303]: Isolation Forest anomaly
+            - text: detector to ...
+        - generic [ref=e307]:
+          - generic [ref=e310]:
+            - link "Interpretable Ensemble Learning Models for Credit Card ... MDPI https://www.mdpi.com › ..." [ref=e312] [cursor=pointer]:
+              - /url: https://www.mdpi.com/2076-3417/15/22/12073
+              - heading "Interpretable Ensemble Learning Models for Credit Card ..." [level=3] [ref=e313]
+              - generic [ref=e318]:
+                - generic [ref=e320]: MDPI
+                - generic [ref=e322]: https://www.mdpi.com › ...
+            - generic [ref=e323]:
+              - generic [ref=e324]: ·
+              - link "Käännä tämä sivu" [ref=e325] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.mdpi.com/2076-3417/15/22/12073&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e326] [cursor=pointer]:
+              - img [ref=e329]
+          - generic [ref=e332]:
+            - generic [ref=e333]: kirjoittanut S Iqbal · 2025 · Viittausten määrä 3 —
+            - generic [ref=e334]:
+              - text: Building on this, our study evaluates both Random Forest and
+              - emphasis [ref=e335]: XGBoost
+              - text: to provide a broader perspective on how ensemble methods balance predictive performance ...
+        - generic [ref=e339]:
+          - generic [ref=e340]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e341]
+            - button "Tietoja tästä tuloksesta" [ref=e342] [cursor=pointer]:
+              - img [ref=e345]
+          - generic [ref=e347]:
+            - button "Can XGBoost be used with Python?" [ref=e353] [cursor=pointer]:
+              - generic [ref=e355]: Can XGBoost be used with Python?
+              - img [ref=e358]
+            - button "Which of the following machine learning algorithms is based upon the idea of bagging 1 point decision tree random forest classification regression?" [ref=e367] [cursor=pointer]:
+              - generic [ref=e369]: Which of the following machine learning algorithms is based upon the idea of bagging 1 point decision tree random forest classification regression?
+              - img [ref=e372]
+        - generic [ref=e377]:
+          - heading "Web results" [level=2] [ref=e378]
+          - generic [ref=e379]:
+            - generic [ref=e382]:
+              - link "Income Tax Fraud Detection System Using AI and ML Preprints.org https://www.preprints.org › 202511" [ref=e384] [cursor=pointer]:
+                - /url: https://www.preprints.org/manuscript/202511.1804
+                - heading "Income Tax Fraud Detection System Using AI and ML" [level=3] [ref=e385]
+                - generic [ref=e390]:
+                  - generic [ref=e392]: Preprints.org
+                  - generic [ref=e394]: https://www.preprints.org › 202511
+              - generic [ref=e395]:
+                - generic [ref=e396]: ·
+                - link "Käännä tämä sivu" [ref=e397] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.preprints.org/manuscript/202511.1804&hl=fi&sl=en&tl=fi&client=search
+              - button "Tietoja tästä tuloksesta" [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+            - generic [ref=e404]:
+              - generic [ref=e405]: kirjoittanut A Kumar · 2025 —
+              - generic [ref=e406]:
+                - text: The framework focuses on
+                - emphasis [ref=e407]: feature engineering
+                - text: ","
+                - emphasis [ref=e408]: risk scoring
+                - text: ", and interpretability to facilitate efficient audit prioritization. The ..."
+        - generic [ref=e412]:
+          - generic [ref=e415]:
+            - link "Machine Learning For Financial Risk Management With Python Prefeitura de Patos https://creditosocial2023.patos.pb.gov.br › Machi..." [ref=e417] [cursor=pointer]:
+              - /url: https://creditosocial2023.patos.pb.gov.br/Resources/5nHPR0/7OK132/MachineLearningForFinancialRiskManagementWithPython.pdf
+              - heading "Machine Learning For Financial Risk Management With Python" [level=3] [ref=e418]
+              - generic [ref=e423]:
+                - generic [ref=e425]: Prefeitura de Patos
+                - generic [ref=e427]: https://creditosocial2023.patos.pb.gov.br › Machi...
+            - generic [ref=e428]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e429] [cursor=pointer]:
+              - img [ref=e432]
+          - generic [ref=e436]:
+            - emphasis [ref=e437]: Feature engineering
+            - text: to extract meaningful variables, such as moving averages, volatility indicators, or sentiment
+            - emphasis [ref=e438]: scores
+            - text: from news feeds. Time-series ...
+        - generic [ref=e442]:
+          - generic [ref=e445]:
+            - link "Research on the Construction of Corporate Financial ... ACM Digital Library https://dl.acm.org › doi" [ref=e447] [cursor=pointer]:
+              - /url: https://dl.acm.org/doi/10.1145/3772900.3772929
+              - heading "Research on the Construction of Corporate Financial ..." [level=3] [ref=e448]
+              - generic [ref=e453]:
+                - generic [ref=e455]: ACM Digital Library
+                - generic [ref=e457]: https://dl.acm.org › doi
+            - generic [ref=e458]:
+              - generic [ref=e459]: ·
+              - link "Käännä tämä sivu" [ref=e460] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://dl.acm.org/doi/10.1145/3772900.3772929&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e461] [cursor=pointer]:
+              - img [ref=e464]
+          - generic [ref=e467]:
+            - generic [ref=e468]: 19.3.2026 —
+            - generic [ref=e469]:
+              - emphasis [ref=e470]: XGBoost
+              - text: ", in particular, is favored for its ability to handle missing values, perform automatic"
+              - emphasis [ref=e471]: feature
+              - text: selection, and implement regularization ...
+        - generic [ref=e475]:
+          - generic [ref=e478]:
+            - link "Building an AI-Powered AML System for Cross-Border ... Python in Plain English https://python.plainenglish.io › ..." [ref=e480] [cursor=pointer]:
+              - /url: https://python.plainenglish.io/building-an-ai-powered-aml-system-for-cross-border-financial-crime-detection-99039016cbc4
+              - heading "Building an AI-Powered AML System for Cross-Border ..." [level=3] [ref=e481]
+              - generic [ref=e486]:
+                - generic [ref=e488]: Python in Plain English
+                - generic [ref=e490]: https://python.plainenglish.io › ...
+            - generic [ref=e491]:
+              - generic [ref=e492]: ·
+              - link "Käännä tämä sivu" [ref=e493] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://python.plainenglish.io/building-an-ai-powered-aml-system-for-cross-border-financial-crime-detection-99039016cbc4&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e494] [cursor=pointer]:
+              - img [ref=e497]
+          - generic [ref=e500]:
+            - generic [ref=e501]: 15.10.2025 —
+            - generic [ref=e502]:
+              - text: "Subtitle: From"
+              - emphasis [ref=e503]: feature engineering
+              - text: to
+              - emphasis [ref=e504]: explainable
+              - text: models, how data teams can automate
+              - emphasis [ref=e505]: anomaly
+              - text: detection and reduce false positives in AML ...
+      - navigation [ref=e508]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e509]
+        - text: "1"
+        - link "Page 2" [ref=e512] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=10&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAE
+          - text: "2"
+        - link "Page 3" [ref=e514] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=20&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAG
+          - text: "3"
+        - link "Page 4" [ref=e516] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=30&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAI
+          - text: "4"
+        - link "Page 5" [ref=e518] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=40&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAK
+          - text: "5"
+        - link "Page 6" [ref=e520] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=50&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAM
+          - text: "6"
+        - link "Page 7" [ref=e522] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=60&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAO
+          - text: "7"
+        - link "Page 8" [ref=e524] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=70&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAQ
+          - text: "8"
+        - link "Page 9" [ref=e526] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=80&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAS
+          - text: "9"
+        - link "Page 10" [ref=e528] [cursor=pointer]:
+          - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=90&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8tMDegQIJBAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e530]:
+          - link "Seuraava" [ref=e531] [cursor=pointer]:
+            - /url: /search?q=XGBoost+credit+risk+scoring+Python+tutorial+2025+2026+feature+engineering+SHAP+explainability+IsolationForest+anomaly&sca_esv=f72dd7b5cfdb5d01&ei=fHHRacmrFcG5wPAPktSxIQ&start=10&sa=N&sstk=Af77f_dyT_b6iPSYuykmE9sL8W9D7x2HDnpwIUkKbQ0poWh9mSFh6d_6FQr9RFWxJyVzbDU2S8gT6tdFslVTlwXV2IvDtb_lS5bMAA&ved=2ahUKEwjJ2Z7PgdWTAxXBHBAIHRJqLAQQ8NMDegQIJBAW
+            - generic [ref=e533]: Seuraava
+      - navigation
+    - contentinfo [ref=e534]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e535]
+      - generic [ref=e539]:
+        - generic [ref=e541]:
+          - text: Suomi
+          - generic [ref=e543]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e545] [cursor=pointer]:
+              - generic [ref=e546]: Helsinki
+              - generic [ref=e548]:
+                - text: "-"
+                - generic [ref=e549]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e551] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e554]:
+          - link "Ohje" [ref=e555] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e556] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e557] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e558] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,8 @@
+[     651ms] [WARNING] [Elastic APM] RUM agent is inactive @ https://yle.fi/ukko/assets/build/apm-rum-e95ed5cfe04f57d5e490.js:0
+[    1316ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://login.api.yle.fi/v1/user/login?app_id=tunnus-sdk&app_key=dtYmXC2V3DYKhJG128xa7Alv6wK56QVo&initiating_app=uutiset:0
+[    1383ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://login.api.yle.fi/v1/user/login?app_id=yle-consent-sdk&app_key=9diylCAglIhpRSyHeTSCZc74udkYyOep:0
+[    1441ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://login.api.yle.fi/v1/user/login?app_id=yle-consent-sdk&app_key=9diylCAglIhpRSyHeTSCZc74udkYyOep:0
+[    1668ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://login.api.yle.fi/v1/user/login?app_id=tunnus-sdk&app_key=dtYmXC2V3DYKhJG128xa7Alv6wK56QVo&initiating_app=uutiset:0
+[    1697ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://login.api.yle.fi/v1/user/login?app_id=tunnus-sdk&app_key=dtYmXC2V3DYKhJG128xa7Alv6wK56QVo&initiating_app=comments-plugin:0
+[    1855ms] [LOG] add hook spa - pageview @ https://analytics-sdk.yle.fi/yle-analytics.min.js:1
+[    1958ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://login.api.yle.fi/v1/user/login?app_id=tunnus-sdk&app_key=dtYmXC2V3DYKhJG128xa7Alv6wK56QVo&initiating_app=player-static:0

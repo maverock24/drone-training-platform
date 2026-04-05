@@ -1,0 +1,427 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-FI
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: osakesäästötili 2026 vero.fi rules limits verotus osakesäästötili 2026 vero.fi rules limits verotus
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dosakes%25C3%25A4%25C3%25A4st%25C3%25B6tili%2B2026%2Bvero.fi%2Brules%2Blimits%2Bverotus%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIYFfWbU_Clyew-1Wh7zkL7GXEIyGmuNECR0N8Mieh0vrc3VBFaDgcqd_vBN0kWRNE6T86gyRP1WQ70WkT_DlKLij5qZFe24ocM1g3wzqkqtXQwSP_r1FnhZeUg89lzJXP8z5L1Q&aep=1&ntc=1&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ2J8OegQIEBAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "News" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIYFfWbU_Clyew-1Wh7zkL7GXEIyGmuNECR0N8Mieh0vrc3VBFaDgcqd_vBN0kWRNE6T86gyRP1WQ70WkT_DlKLij5qZFe24ocM1g3wzqkqtXQwSP_r1FnhZeUg89lzJXP8z5L1Q&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ0pQJegQIFhAB
+              - generic [ref=e86]: News
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIYFfWbU_Clyew-1Wh7zkL7GXEIyGmuNECR0N8Mieh0vrc3VBFaDgcqd_vBN0kWRNE6T86gyRP1WQ70WkT_DlKLij5qZFe24ocM1g3wzqkqtXQwSP_r1FnhZeUg89lzJXP8z5L1Q&q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQtKgLegQIEhAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIYFfWbU_Clyew-1Wh7zkL7GXEIyGmuNECR0N8Mieh0vrc3VBFaDgcqd_vBN0kWRNE6T86gyRP1WQ70WkT_DlKLij5qZFe24ocM1g3wzqkqtXQwSP_r1FnhZeUg89lzJXP8z5L1Q&q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQtKgLegQIFBAB
+              - generic [ref=e94]: Videos
+          - listitem [ref=e95]:
+            - link "Short videos" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIYFfWbU_Clyew-1Wh7zkL7GXEIyGmuNECR0N8Mieh0vrc3VBFaDgcqd_vBN0kWRNE6T86gyRP1WQ70WkT_DlKLij5qZFe24ocM1g3wzqkqtXQwSP_r1FnhZeUg89lzJXP8z5L1Q&q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQs6gLegQIFRAB
+              - generic [ref=e98]: Short videos
+          - listitem [ref=e99]:
+            - link "Web" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=web&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIYFfWbU_Clyew-1Wh7zkL7GXEIyGmuNECR0N8Mieh0vrc3VBFaDgcqd_vBN0kWRNE6T86gyRP1WQ70WkT_DlKLij5qZFe24ocM1g3wzqkqtXQwSP_r1FnhZeUg89lzJXP8z5L1Q&q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQs6gLegQIExAB
+              - generic [ref=e102]: Web
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - generic [ref=e124]:
+      - generic [ref=e143]:
+        - heading "Searching Thinking a little longer" [level=2] [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e150]: Searching
+            - generic [ref=e160]: Thinking a little longer
+        - progressbar [ref=e162]
+      - main [ref=e204]:
+        - generic [ref=e208]:
+          - generic [ref=e211]:
+            - heading "Tulokset internetistä" [level=2] [ref=e212]
+            - generic [ref=e213]:
+              - generic [ref=e216]:
+                - link "Osakesäästötili Vero.fi https://www.vero.fi › sijoitukset" [ref=e218] [cursor=pointer]:
+                  - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/osakes%C3%A4%C3%A4st%C3%B6tili/
+                  - heading "Osakesäästötili" [level=3] [ref=e219]
+                  - generic [ref=e224]:
+                    - generic [ref=e226]: Vero.fi
+                    - generic [ref=e228]: https://www.vero.fi › sijoitukset
+                - generic [ref=e229]:
+                  - generic [ref=e230]: ·
+                  - link "Translate this page" [ref=e231] [cursor=pointer]:
+                    - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/osakes%C3%A4%C3%A4st%C3%B6tili/
+                - button "About this result" [ref=e232] [cursor=pointer]:
+                  - img [ref=e235]
+              - generic [ref=e238]:
+                - generic [ref=e239]: 1 Jan 2026 —
+                - generic [ref=e240]:
+                  - text: Osakesäästötilin sisällä voit ostaa ja myydä pörssiosakkeita niin, ettei sinun tarvitse maksaa
+                  - emphasis [ref=e241]: veroa
+                  - text: yksittäisistä myynneistä.
+                - link "Read more" [ref=e242] [cursor=pointer]:
+                  - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/osakes%C3%A4%C3%A4st%C3%B6tili/#:~:text=Chatbot
+              - generic [ref=e244]: "Missing: rules ‎limits"
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - heading "People also ask" [level=2] [ref=e250]
+              - button "About this result" [ref=e251] [cursor=pointer]:
+                - img [ref=e254]
+            - generic [ref=e256]:
+              - button "Miten verotus kevenee 2026?" [ref=e262] [cursor=pointer]:
+                - generic [ref=e264]: Miten verotus kevenee 2026?
+                - img [ref=e267]
+              - button "Paljonko osakesäästötilillä saa olla rahaa?" [ref=e276] [cursor=pointer]:
+                - generic [ref=e278]: Paljonko osakesäästötilillä saa olla rahaa?
+                - img [ref=e281]
+              - button "Milloin tulee verotuspäätös 2026?" [ref=e290] [cursor=pointer]:
+                - generic [ref=e292]: Milloin tulee verotuspäätös 2026?
+                - img [ref=e295]
+              - button "Milloin osakesäästötililtä maksetaan vero?" [ref=e304] [cursor=pointer]:
+                - generic [ref=e306]: Milloin osakesäästötililtä maksetaan vero?
+                - img [ref=e309]
+          - generic [ref=e314]:
+            - heading "Tulokset internetistä" [level=2] [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e319]:
+                - link "Osakesäästötilin verotus Vero.fi https://www.vero.fi › ohje-hakusivu" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/81118/osakesaastotilin-verotus4/
+                  - heading "Osakesäästötilin verotus" [level=3] [ref=e322]
+                  - generic [ref=e327]:
+                    - generic [ref=e329]: Vero.fi
+                    - generic [ref=e331]: https://www.vero.fi › ohje-hakusivu
+                - generic [ref=e332]:
+                  - generic [ref=e333]: ·
+                  - link "Translate this page" [ref=e334] [cursor=pointer]:
+                    - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/81118/osakesaastotilin-verotus4/
+                - button "About this result" [ref=e335] [cursor=pointer]:
+                  - img [ref=e338]
+              - generic [ref=e341]:
+                - generic [ref=e342]: 1 Jan 2020 —
+                - text: Osakesäästötilille talletettavissa oleva euromääräinen yläraja on noussut 50 000 eurosta 100 000 euroon 1.1.2024 alkaen. Ohjetta ja sen ...
+                - link "Read more" [ref=e343] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/81118/osakesaastotilin-verotus4/#:~:text=Osakes%C3%A4%C3%A4st%C3%B6tilille%20talletettavissa%20oleva%20eurom%C3%A4%C3%A4r%C3%A4inen%20yl%C3%A4raja,esimerkkej%C3%A4%20on%20p%C3%A4ivitetty%20muutoksen%20johdosta.
+              - generic [ref=e345]: "Missing: 2026 ‎rules ‎limits"
+          - generic [ref=e349]:
+            - generic [ref=e352]:
+              - link "Mikä muuttuu verotuksessa vuonna 2026? Vero.fi https://www.vero.fi › uutiset › mik..." [ref=e354] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2025/mik%C3%A4-muuttuu-verotuksessa-vuonna-2026/
+                - heading "Mikä muuttuu verotuksessa vuonna 2026?" [level=3] [ref=e355]
+                - generic [ref=e360]:
+                  - generic [ref=e362]: Vero.fi
+                  - generic [ref=e364]: https://www.vero.fi › uutiset › mik...
+              - generic [ref=e365]:
+                - generic [ref=e366]: ·
+                - link "Translate this page" [ref=e367] [cursor=pointer]:
+                  - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2025/mik%C3%A4-muuttuu-verotuksessa-vuonna-2026/
+              - button "About this result" [ref=e368] [cursor=pointer]:
+                - img [ref=e371]
+            - generic [ref=e374]:
+              - generic [ref=e375]:
+                - text: Työmarkkinajärjestöjen jäsenmaksuja ei voi enää vähentää
+                - emphasis [ref=e376]: verotuksessa
+                - text: ", esimerkiksi vuoden"
+                - emphasis [ref=e377]: 2026 verokortilla
+                - text: . Jäsenmaksuista saa vähennyksen ...
+              - link "Read more" [ref=e378] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2025/mik%C3%A4-muuttuu-verotuksessa-vuonna-2026/#:~:text=Ty%C3%B6markkinaj%C3%A4rjest%C3%B6jen%20j%C3%A4senmaksuja%20ei%20voi%20en%C3%A4%C3%A4,v%C3%A4hennyksen%20viel%C3%A4%20vuoden%202025%20veroilmoituksella.
+            - generic [ref=e380]: "Missing: osakesäästötili ‎rules ‎limits"
+          - generic [ref=e384]:
+            - generic [ref=e387]:
+              - link "Osakeyhtiö − muista nämä asiat, kun olet antamassa ... Vero.fi https://www.vero.fi › uutiset › 2026" [ref=e389] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2026/osakeyhtio-muista-nama-asiat-kun-olet-antamassa-veroilmoitusta/
+                - heading "Osakeyhtiö − muista nämä asiat, kun olet antamassa ..." [level=3] [ref=e390]
+                - generic [ref=e395]:
+                  - generic [ref=e397]: Vero.fi
+                  - generic [ref=e399]: https://www.vero.fi › uutiset › 2026
+              - generic [ref=e400]:
+                - generic [ref=e401]: ·
+                - link "Translate this page" [ref=e402] [cursor=pointer]:
+                  - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2026/osakeyhtio-muista-nama-asiat-kun-olet-antamassa-veroilmoitusta/
+              - button "About this result" [ref=e403] [cursor=pointer]:
+                - img [ref=e406]
+            - generic [ref=e409]:
+              - generic [ref=e410]:
+                - emphasis [ref=e411]: Veroilmoitus
+                - text: on annettava neljän kuukauden kuluessa tilikauden päättymisestä eli joulukuussa 2025 tilikautensa päättäneiden yhtiöiden on ...
+              - link "Read more" [ref=e412] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2026/osakeyhtio-muista-nama-asiat-kun-olet-antamassa-veroilmoitusta/#:~:text=Veroilmoitus%20on%20annettava%20nelj%C3%A4n%20kuukauden,on%20annettava%20veroilmoituksensa%20viimeist%C3%A4%C3%A4n%2030.4.2026.
+            - generic [ref=e414]: "Missing: osakesäästötili ‎rules ‎limits"
+          - generic [ref=e418]:
+            - generic [ref=e421]:
+              - link "Osakesäästötili Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › os..." [ref=e423] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/osakesaastotili/osakesaastotili/
+                - heading "Osakesäästötili" [level=3] [ref=e424]
+                - generic [ref=e429]:
+                  - generic [ref=e431]: Veronmaksajain Keskusliitto
+                  - generic [ref=e433]: https://www.veronmaksajat.fi › os...
+              - generic [ref=e434]:
+                - generic [ref=e435]: ·
+                - link "Translate this page" [ref=e436] [cursor=pointer]:
+                  - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/osakesaastotili/osakesaastotili/
+              - button "About this result" [ref=e437] [cursor=pointer]:
+                - img [ref=e440]
+            - generic [ref=e443]:
+              - generic [ref=e444]: 28 Dec 2025 —
+              - generic [ref=e445]:
+                - emphasis [ref=e446]: Osakesäästötilin talletusraja on vuoden 2024 alusta ollut 100 000 euroa
+                - text: . Vuodesta 2020 alkaen yksityishenkilö on voinut avata ...
+              - link "Read more" [ref=e447] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/osakesaastotili/osakesaastotili/#:~:text=Osakes%C3%A4%C3%A4st%C3%B6tilin%20talletusraja%20on%20vuoden%202024,rahalaitoksessa%2C%20jonka%20palveluihin%20sellainen%20kuuluu.
+          - generic [ref=e451]:
+            - generic [ref=e454]:
+              - link "Miten osakesäästötili toimii? Pörssisäätiö https://www.porssisaatio.fi › miten..." [ref=e456] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/opi-sijoittamaan/sijoituskoulu/miten-osakesaastotili-toimii/
+                - heading "Miten osakesäästötili toimii?" [level=3] [ref=e457]
+                - generic [ref=e462]:
+                  - generic [ref=e464]: Pörssisäätiö
+                  - generic [ref=e466]: https://www.porssisaatio.fi › miten...
+              - generic [ref=e467]:
+                - generic [ref=e468]: ·
+                - link "Translate this page" [ref=e469] [cursor=pointer]:
+                  - /url: https://www.porssisaatio.fi/opi-sijoittamaan/sijoituskoulu/miten-osakesaastotili-toimii/
+              - button "About this result" [ref=e470] [cursor=pointer]:
+                - img [ref=e473]
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - emphasis [ref=e478]: Tapahtumia tilin sisällä ei veroteta
+                - text: . Osakkeita on siis mahdollista myydä ilman välittömiä verovaikutuksia ja osingot voi sijoittaa uudelleen ilman, että niistä ...
+              - link "Read more" [ref=e479] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/opi-sijoittamaan/sijoituskoulu/miten-osakesaastotili-toimii/#:~:text=Tapahtumia%20tilin%20sis%C3%A4ll%C3%A4%20ei%20veroteta.,ett%C3%A4%20niist%C3%A4%20menee%20v%C3%A4liss%C3%A4%20veroa.
+          - generic [ref=e483]:
+            - generic [ref=e486]:
+              - link "Veroperusteet 2026 Vero.fi https://www.vero.fi › verokortti" [ref=e488] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosentti-ja-tuloraja/veroperusteet/
+                - heading "Veroperusteet 2026" [level=3] [ref=e489]
+                - generic [ref=e494]:
+                  - generic [ref=e496]: Vero.fi
+                  - generic [ref=e498]: https://www.vero.fi › verokortti
+              - generic [ref=e499]:
+                - generic [ref=e500]: ·
+                - link "Translate this page" [ref=e501] [cursor=pointer]:
+                  - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosentti-ja-tuloraja/veroperusteet/
+              - button "About this result" [ref=e502] [cursor=pointer]:
+                - img [ref=e505]
+            - generic [ref=e508]:
+              - generic [ref=e509]: 22 Nov 2025 —
+              - generic [ref=e510]:
+                - text: Vuoden
+                - emphasis [ref=e511]: 2026 verokortti
+                - text: tulee voimaan vuoden alussa eli 1. tammikuuta. Verokortille merkitty tuloraja on laskettu koko vuodelle eli 12 ...
+              - link "Read more" [ref=e512] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosentti-ja-tuloraja/veroperusteet/#:~:text=Vuoden%202026%20verokortti%20tulee%20voimaan,koko%20vuodelle%20eli%2012%20kuukaudelle.
+            - generic [ref=e514]: "Missing: osakesäästötili ‎rules ‎limits"
+          - generic [ref=e518]:
+            - generic [ref=e521]:
+              - link "Verotuksen muutoksia - vero.fi Vero.fi https://www.vero.fi › uutishuone" [ref=e523] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/verotuksen_muutoksia/
+                - heading "Verotuksen muutoksia - vero.fi" [level=3] [ref=e524]
+                - generic [ref=e529]:
+                  - generic [ref=e531]: Vero.fi
+                  - generic [ref=e533]: https://www.vero.fi › uutishuone
+              - generic [ref=e534]:
+                - generic [ref=e535]: ·
+                - link "Translate this page" [ref=e536] [cursor=pointer]:
+                  - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/verotuksen_muutoksia/
+              - button "About this result" [ref=e537] [cursor=pointer]:
+                - img [ref=e540]
+            - generic [ref=e543]:
+              - generic [ref=e544]: 3 Mar 2026 —
+              - generic [ref=e545]:
+                - text: Eduskunta on hyväksynyt muutoksia valmisteverotukseen vuodelle
+                - emphasis [ref=e546]: "2026"
+                - text: . Avainhenkilöiden
+                - emphasis [ref=e547]: lähdevero
+                - text: alenee 1.1.
+                - emphasis [ref=e548]: "2026"
+                - text: –
+                - emphasis [ref=e549]: verokorttia
+                - text: ei tarvitse uusia.
+            - generic [ref=e551]: "Missing: osakesäästötili ‎rules ‎limits"
+          - generic [ref=e555]:
+            - generic [ref=e558]:
+              - link "Henkilöasiakkaan tärkeät päivämäärät 2026 Vero.fi https://www.vero.fi › henkiloasiak..." [ref=e560] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/henkiloasiakkaan_tarkeat_paivamaarat/
+                - heading "Henkilöasiakkaan tärkeät päivämäärät 2026" [level=3] [ref=e561]
+                - generic [ref=e566]:
+                  - generic [ref=e568]: Vero.fi
+                  - generic [ref=e570]: https://www.vero.fi › henkiloasiak...
+              - generic [ref=e571]:
+                - generic [ref=e572]: ·
+                - link "Translate this page" [ref=e573] [cursor=pointer]:
+                  - /url: https://www.vero.fi/henkiloasiakkaat/henkiloasiakkaan_tarkeat_paivamaarat/
+              - button "About this result" [ref=e574] [cursor=pointer]:
+                - img [ref=e577]
+            - generic [ref=e580]:
+              - generic [ref=e581]: 15 Dec 2025 —
+              - generic [ref=e582]:
+                - text: Vuoden
+                - emphasis [ref=e583]: 2026 verokortit
+                - text: ja ennakkoveron tilisiirtolomakkeet olivat asiakkailla joulukuun 2025 loppuun mennessä.
+              - link "Read more" [ref=e584] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/henkiloasiakkaan_tarkeat_paivamaarat/#:~:text=Vuoden%202026%20verokortit%20ja%20ennakkoveron,asiakkailla%20joulukuun%202025%20loppuun%20menness%C3%A4.
+            - generic [ref=e586]: "Missing: osakesäästötili ‎rules ‎limits"
+          - generic [ref=e590]:
+            - generic [ref=e593]:
+              - link "Usean osakesäästötilin avaamisesta johtuneisiin ... Valtioneuvosto https://valtioneuvosto.fi › usean-os..." [ref=e595] [cursor=pointer]:
+                - /url: https://valtioneuvosto.fi/-/10623/usean-osakesaastotilin-avaamisesta-johtuneisiin-veronkorotuksiin-muutoksia
+                - heading "Usean osakesäästötilin avaamisesta johtuneisiin ..." [level=3] [ref=e596]
+                - generic [ref=e601]:
+                  - generic [ref=e603]: Valtioneuvosto
+                  - generic [ref=e605]: https://valtioneuvosto.fi › usean-os...
+              - generic [ref=e606]:
+                - generic [ref=e607]: ·
+                - link "Translate this page" [ref=e608] [cursor=pointer]:
+                  - /url: https://valtioneuvosto.fi/-/10623/usean-osakesaastotilin-avaamisesta-johtuneisiin-veronkorotuksiin-muutoksia
+              - button "About this result" [ref=e609] [cursor=pointer]:
+                - img [ref=e612]
+            - generic [ref=e615]:
+              - generic [ref=e616]: 4 Nov 2021 —
+              - text: Osakesäästötilin veronkorotuksen tarkoituksena on ollut sanktioida osakesäästötilillä olevan 50 000 euron talletuskaton kiertäminen avaamalla ...
+              - link "Read more" [ref=e617] [cursor=pointer]:
+                - /url: https://valtioneuvosto.fi/-/10623/usean-osakesaastotilin-avaamisesta-johtuneisiin-veronkorotuksiin-muutoksia#:~:text=Osakes%C3%A4%C3%A4st%C3%B6tilin%20veronkorotuksen%20tarkoituksena%20on%20ollut,talletuskaton%20kiert%C3%A4minen%20avaamalla%20useampia%20osakes%C3%A4%C3%A4st%C3%B6tilej%C3%A4.
+        - generic [ref=e619]:
+          - generic [ref=e624]:
+            - heading "People also search for" [level=2] [ref=e626]
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - link "Osakesäästötili 2026 vero fi rules limits verotus english" [ref=e633] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero+fi+rules+limits+verotus+english&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAheEAE
+                  - generic [ref=e634]:
+                    - generic [ref=e639]: Osakesäästötili 2026 vero fi rules limits verotus english
+                    - img [ref=e643]
+                - link "Verotus 2026" [ref=e648] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Verotus+2026&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhlEAE
+                  - generic [ref=e649]:
+                    - generic [ref=e654]: Verotus 2026
+                    - img [ref=e658]
+                - link "Osinkojen verotus" [ref=e663] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Osinkojen+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhkEAE
+                  - generic [ref=e664]:
+                    - generic [ref=e669]: Osinkojen verotus
+                    - img [ref=e673]
+                - link "Osakesäästötili ETF" [ref=e678] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Osakes%C3%A4%C3%A4st%C3%B6tili+ETF&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhjEAE
+                  - generic [ref=e679]:
+                    - generic [ref=e684]: Osakesäästötili ETF
+                    - img [ref=e688]
+              - generic [ref=e690]:
+                - link "Arvo-osuustili vs osakesäästötili" [ref=e694] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Arvo-osuustili+vs+osakes%C3%A4%C3%A4st%C3%B6tili&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhiEAE
+                  - generic [ref=e695]:
+                    - generic [ref=e700]: Arvo-osuustili vs osakesäästötili
+                    - img [ref=e704]
+                - link "Nordnet verotus" [ref=e709] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Nordnet+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhgEAE
+                  - generic [ref=e710]:
+                    - generic [ref=e715]: Nordnet verotus
+                    - img [ref=e719]
+                - link "Rahasto verotus" [ref=e724] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Rahasto+verotus&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhfEAE
+                  - generic [ref=e725]:
+                    - generic [ref=e730]: Rahasto verotus
+                    - img [ref=e734]
+                - link "Nordea ost kulut" [ref=e739] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Nordea+ost+kulut&sa=X&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ1QJ6BAhhEAE
+                  - generic [ref=e740]:
+                    - generic [ref=e745]: Nordea ost kulut
+                    - img [ref=e749]
+          - navigation [ref=e751]:
+            - heading "Page navigation" [level=1] [ref=e752]
+            - text: "1"
+            - link "Page 2" [ref=e755] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=10&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAE
+              - text: "2"
+            - link "Page 3" [ref=e757] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=20&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAG
+              - text: "3"
+            - link "Page 4" [ref=e759] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=30&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAI
+              - text: "4"
+            - link "Page 5" [ref=e761] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=40&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAK
+              - text: "5"
+            - link "Page 6" [ref=e763] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=50&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAM
+              - text: "6"
+            - link "Page 7" [ref=e765] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=60&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAO
+              - text: "7"
+            - link "Page 8" [ref=e767] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=70&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAQ
+              - text: "8"
+            - link "Page 9" [ref=e769] [cursor=pointer]:
+              - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=80&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8tMDegQIXBAS
+              - text: "9"
+            - heading "Next" [level=2] [ref=e771]:
+              - link "Next" [ref=e772] [cursor=pointer]:
+                - /url: /search?q=osakes%C3%A4%C3%A4st%C3%B6tili+2026+vero.fi+rules+limits+verotus&sca_esv=abbb0aaa8824193d&hl=en&ei=G3rRaab4J_KowPAP2rSCyA8&start=10&sa=N&sstk=Af77f_dYfgG-tKNZs0i3lP6JcsDiJ_q2dVeyw6Dy6NZe82vgAj9TWz11fJMJ5PSazS6PZ-Xx-EDEgGHBfhb3SKtGW9XFKqMmesrBYw&ved=2ahUKEwjm8eHridWTAxVyFBAIHVqaAPkQ8NMDegQIXBAU
+                - generic [ref=e774]: Next
+        - navigation
+    - contentinfo [ref=e775]:
+      - heading "Footer links" [level=1] [ref=e776]
+      - generic [ref=e780]:
+        - generic [ref=e782]:
+          - text: Finland
+          - generic [ref=e784]:
+            - button "Helsinki - From your IP address" [ref=e786] [cursor=pointer]:
+              - generic [ref=e787]: Helsinki
+              - generic [ref=e789]:
+                - text: "-"
+                - generic [ref=e790]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e792] [cursor=pointer]: Update location
+        - generic [ref=e795]:
+          - link "Help" [ref=e796] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-FI&fg=1
+          - link "Send feedback" [ref=e797] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e798] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-FI&fg=1
+          - link "Terms" [ref=e799] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-FI&fg=1

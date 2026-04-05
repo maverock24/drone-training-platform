@@ -1,0 +1,369 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Seligson indeksirahasto Nordnet indeksirahasto halvimmat rahastot Suomi TER 2026 Seligson indeksirahasto Nordnet indeksirahasto halvimmat rahastot Suomi TER 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DSeligson%2Bindeksirahasto%2BNordnet%2Bindeksirahasto%2Bhalvimmat%2Brahastot%2BSuomi%2BTER%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8QtKgLegQIFRAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8QtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Qs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Qs6gLegQIEhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q0pQJegQIERAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Miettii Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Miettii
+            - generic [ref=e156]: Haetaan
+            - generic [ref=e166]: Odota vielä hetki
+        - progressbar [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - heading "Tulokset internetistä" [level=2] [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - link "Seligson & Co Rahastoyhtiö Oyj - Suomi indeksirahasto Seligson https://www.seligson.fi › suomi › rahastot › rahes_suomi" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.seligson.fi/suomi/rahastot/rahes_suomi.htm
+                  - heading "Seligson & Co Rahastoyhtiö Oyj - Suomi indeksirahasto" [level=3] [ref=e225]
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: Seligson
+                    - generic [ref=e234]: https://www.seligson.fi › suomi › rahastot › rahes_suomi
+                - button "Tietoja tästä tuloksesta" [ref=e235] [cursor=pointer]:
+                  - img [ref=e238]
+              - generic [ref=e242]:
+                - emphasis [ref=e243]: Rahasto
+                - text: sijoittaa Suomen osakemarkkinoille. Sen tavoitteena on antaa sijoittajalle tuotto, joka mahdollisimman hyvin vastaa OMX Finland Screened™ -osakeindeksin ...
+              - generic [ref=e245]: "Puuttuu: Nordnet ‎halvimmat ‎TER"
+          - generic [ref=e249]:
+            - generic [ref=e250]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e251]
+              - button "Tietoja tästä tuloksesta" [ref=e252] [cursor=pointer]:
+                - img [ref=e255]
+            - generic [ref=e257]:
+              - button "Milloin indeksirahastoa kannattaa ostaa?" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: Milloin indeksirahastoa kannattaa ostaa?
+                - img [ref=e268]
+              - button "Mikä on kannattava indeksirahasto?" [ref=e277] [cursor=pointer]:
+                - generic [ref=e279]: Mikä on kannattava indeksirahasto?
+                - img [ref=e282]
+              - button "Onko indeksirahasto osakkeita?" [ref=e291] [cursor=pointer]:
+                - generic [ref=e293]: Onko indeksirahasto osakkeita?
+                - img [ref=e296]
+              - button "Saako indeksirahastosta osinkoja?" [ref=e305] [cursor=pointer]:
+                - generic [ref=e307]: Saako indeksirahastosta osinkoja?
+                - img [ref=e310]
+          - generic [ref=e315]:
+            - heading "Tulokset internetistä" [level=2] [ref=e316]
+            - generic [ref=e317]:
+              - generic [ref=e320]:
+                - link "Seligson & Co Rahastoyhtiö Oyj - Indeksirahastot Seligson https://www.seligson.fi › suomi › rahastot › indeksiraha..." [ref=e322] [cursor=pointer]:
+                  - /url: https://www.seligson.fi/suomi/rahastot/indeksirahastot.htm
+                  - heading "Seligson & Co Rahastoyhtiö Oyj - Indeksirahastot" [level=3] [ref=e323]
+                  - generic [ref=e328]:
+                    - generic [ref=e330]: Seligson
+                    - generic [ref=e332]: https://www.seligson.fi › suomi › rahastot › indeksiraha...
+                - button "Tietoja tästä tuloksesta" [ref=e333] [cursor=pointer]:
+                  - img [ref=e336]
+              - generic [ref=e340]:
+                - text: Vaihtoehtorahastot · Eurooppa
+                - emphasis [ref=e341]: Indeksirahasto
+                - text: · Pohjois-Amerikka
+                - emphasis [ref=e342]: Indeksirahasto
+                - text: · Aasia
+                - emphasis [ref=e343]: Indeksirahasto
+                - text: ·
+                - emphasis [ref=e344]: Suomi Indeksirahasto
+                - text: · OMX Helsinki 25 UCITS ETF.
+              - generic [ref=e346]: "Puuttuu: Nordnet ‎halvimmat ‎TER ‎2026"
+          - generic [ref=e350]:
+            - generic [ref=e353]:
+              - link "Seligson & Co Rahastoyhtiö Oyj - Rahastojen arvot Seligson https://www.seligson.fi › rahastot › FundValues_FI" [ref=e355] [cursor=pointer]:
+                - /url: https://www.seligson.fi/suomi/rahastot/FundValues_FI.html
+                - heading "Seligson & Co Rahastoyhtiö Oyj - Rahastojen arvot" [level=3] [ref=e356]
+                - generic [ref=e361]:
+                  - generic [ref=e363]: Seligson
+                  - generic [ref=e365]: https://www.seligson.fi › rahastot › FundValues_FI
+              - button "Tietoja tästä tuloksesta" [ref=e366] [cursor=pointer]:
+                - img [ref=e369]
+            - generic [ref=e373]:
+              - text: Rahastojen arvojen kehitys ;
+              - emphasis [ref=e374]: Indeksirahastot
+              - text: ; Eurooppa, 02.04.
+              - emphasis [ref=e375]: "2026"
+              - text: ", 5,672 € ; Pohjois-Amerikka, 02.04."
+              - emphasis [ref=e376]: "2026"
+              - text: ", 61,828 € ; Aasia, 02.04."
+              - emphasis [ref=e377]: "2026"
+              - text: ", 9,976 € ..."
+            - generic [ref=e379]: "Puuttuu: Nordnet ‎halvimmat ‎TER"
+          - generic [ref=e383]:
+            - generic [ref=e386]:
+              - link "Suomi indeksirahasto - tunnusluvut Seligson https://www.seligson.fi › sco › suomi › rahastot › suomi..." [ref=e388] [cursor=pointer]:
+                - /url: https://www.seligson.fi/sco/suomi/rahastot/suomi-indeksirahasto-tunnusluvut/
+                - heading "Suomi indeksirahasto - tunnusluvut" [level=3] [ref=e389]
+                - generic [ref=e394]:
+                  - generic [ref=e396]: Seligson
+                  - generic [ref=e398]: https://www.seligson.fi › sco › suomi › rahastot › suomi...
+              - button "Tietoja tästä tuloksesta" [ref=e399] [cursor=pointer]:
+                - img [ref=e402]
+            - generic [ref=e406]:
+              - emphasis [ref=e407]: Suomi indeksirahasto
+              - text: – tunnusluvut ; Juoksevat kulut, 0,46 % ; Tuottosidonnainen palkkio, - ; Kaupankäyntikulut, 0,02 % ; Kokonaiskulut (TKA), 0,47 % ; Salkun ...
+            - generic [ref=e409]: "Puuttuu: Nordnet ‎halvimmat ‎TER ‎2026"
+          - generic [ref=e413]:
+            - generic [ref=e416]:
+              - link "Nordnet Suomi Indeksi – Vertaa ja osta rahastoja nordnet.fi https://www.nordnet.fi › rahastot › lista › nordnet-suom..." [ref=e418] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/rahastot/lista/nordnet-suomi-indeksi-eur-a401761d
+                - heading "Nordnet Suomi Indeksi – Vertaa ja osta rahastoja" [level=3] [ref=e419]
+                - generic [ref=e424]:
+                  - generic [ref=e426]: nordnet.fi
+                  - generic [ref=e428]: https://www.nordnet.fi › rahastot › lista › nordnet-suom...
+              - button "Tietoja tästä tuloksesta" [ref=e429] [cursor=pointer]:
+                - img [ref=e432]
+            - generic [ref=e436]:
+              - emphasis [ref=e437]: Rahasto
+              - text: on Suomen markkinoille sijoittava osakeindeksirahasto, ja rahaston tavoitteena on jäljitellä OMX Helsinki 25 ESG Responsible Gross -indeksiä, ...
+            - generic [ref=e440]:
+              - img "Arvio 5,0/5 (1) käyttäjäarvostelua" [ref=e442]:
+                - text: 5,0
+                - img [ref=e443]
+                - text: (1)
+              - button [ref=e448]:
+                - img [ref=e450]
+            - generic [ref=e453]: "Puuttuu: Seligson ‎halvimmat ‎TER"
+          - generic [ref=e457]:
+            - generic [ref=e460]:
+              - link "Seligson & Co Suomi Indeksirahasto A ... Kauppalehti https://www.kauppalehti.fi › porssi › rahastot" [ref=e462] [cursor=pointer]:
+                - /url: https://www.kauppalehti.fi/porssi/rahastot/3159672
+                - heading "Seligson & Co Suomi Indeksirahasto A ..." [level=3] [ref=e463]
+                - generic [ref=e468]:
+                  - generic [ref=e470]: Kauppalehti
+                  - generic [ref=e472]: https://www.kauppalehti.fi › porssi › rahastot
+              - button "Tietoja tästä tuloksesta" [ref=e473] [cursor=pointer]:
+                - img [ref=e476]
+            - generic [ref=e479]: Rahaston tiedot ; Rahaston koko. 253,49 milj. € ; Minimisijoitus. 10 € ; Volatiliteetti. 11,88 % ; Sharpen luku. 0,55 ; Hallinnointipalkkio. 0,45 %.
+          - generic [ref=e483]:
+            - generic [ref=e486]:
+              - link "Parhaiten tuottaneet indeksirahastot Sijoittaja.fi https://www.sijoittaja.fi › parhaiten-tuottaneet-indeksira..." [ref=e488] [cursor=pointer]:
+                - /url: https://www.sijoittaja.fi/436453/parhaiten-tuottaneet-indeksirahastot/
+                - heading "Parhaiten tuottaneet indeksirahastot" [level=3] [ref=e489]
+                - generic [ref=e494]:
+                  - generic [ref=e496]: Sijoittaja.fi
+                  - generic [ref=e498]: https://www.sijoittaja.fi › parhaiten-tuottaneet-indeksira...
+              - button "Tietoja tästä tuloksesta" [ref=e499] [cursor=pointer]:
+                - img [ref=e502]
+            - generic [ref=e505]:
+              - generic [ref=e506]: 26.1.2026 —
+              - generic [ref=e507]:
+                - emphasis [ref=e508]: Seligson
+                - text: "& Co"
+                - emphasis [ref=e509]: Suomi Indeksirahasto
+                - text: A on suomalainen
+                - emphasis [ref=e510]: indeksirahasto
+                - text: ", joka sijoittaa pääosin Suomen osakemarkkinoille. Sen tavoitteena on tarjota ..."
+            - generic [ref=e512]: "Puuttuu: halvimmat ‎TER"
+          - generic [ref=e516]:
+            - generic [ref=e519]:
+              - link "Rahastojen arvot annualisoituina Seligson https://www.seligson.fi › rahastot › FundValues_ANN_FI" [ref=e521] [cursor=pointer]:
+                - /url: https://www.seligson.fi/suomi/rahastot/FundValues_ANN_FI.html
+                - heading "Rahastojen arvot annualisoituina" [level=3] [ref=e522]
+                - generic [ref=e527]:
+                  - generic [ref=e529]: Seligson
+                  - generic [ref=e531]: https://www.seligson.fi › rahastot › FundValues_ANN_FI
+              - button "Tietoja tästä tuloksesta" [ref=e532] [cursor=pointer]:
+                - img [ref=e535]
+            - generic [ref=e539]:
+              - text: Rahastojen arvojen kehitys - annualisoidut tuottoprosentit ;
+              - emphasis [ref=e540]: Indeksirahastot
+              - text: ; Eurooppa, 02.04.
+              - emphasis [ref=e541]: "2026"
+              - text: ", 5,672 € ; Pohjois-Amerikka, 02.04."
+              - emphasis [ref=e542]: "2026"
+              - text: ", 61,828 € ; Aasia, 02.04 ..."
+            - generic [ref=e544]: "Puuttuu: Nordnet ‎halvimmat ‎TER"
+          - generic [ref=e548]:
+            - generic [ref=e551]:
+              - link "Indeksirahastot – hajauta matalin kuluin - Nordnet nordnet.fi https://www.nordnet.fi › rahastot › indeksirahastot" [ref=e553] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/rahastot/indeksirahastot
+                - heading "Indeksirahastot – hajauta matalin kuluin - Nordnet" [level=3] [ref=e554]
+                - generic [ref=e559]:
+                  - generic [ref=e561]: nordnet.fi
+                  - generic [ref=e563]: https://www.nordnet.fi › rahastot › indeksirahastot
+              - button "Tietoja tästä tuloksesta" [ref=e564] [cursor=pointer]:
+                - img [ref=e567]
+            - generic [ref=e571]:
+              - emphasis [ref=e572]: Indeksirahasto
+              - text: tarjoaa helpon tavan sijoittaa ympäri maailman edullisin kuluin. Katso sinulle parhaat
+              - emphasis [ref=e573]: indeksirahastot
+              - text: ja säästä kustannustehokkaasti.
+            - generic [ref=e575]: "Puuttuu: Seligson ‎TER"
+          - generic [ref=e579]:
+            - generic [ref=e582]:
+              - link "Seligson & Co Suomi Indeksirahasto - Arvopaperien listaus Seligson https://www.seligson.fi › luotain › FundViewer" [ref=e584] [cursor=pointer]:
+                - /url: https://www.seligson.fi/luotain/FundViewer.php?view=10&lang=0&fid=581&task=intro
+                - heading "Seligson & Co Suomi Indeksirahasto - Arvopaperien listaus" [level=3] [ref=e585]
+                - generic [ref=e590]:
+                  - generic [ref=e592]: Seligson
+                  - generic [ref=e594]: https://www.seligson.fi › luotain › FundViewer
+              - button "Tietoja tästä tuloksesta" [ref=e595] [cursor=pointer]:
+                - img [ref=e598]
+            - generic [ref=e601]: Alla olevassa taulukossa on listattu salkkuun kuuluvat yritykset sekä niiden osuus rahastosalkusta euroina ja prosentteina. ... Rahaston tiedot päivitetty 27.02.
+            - generic [ref=e603]: "Puuttuu: Nordnet ‎halvimmat ‎TER"
+        - generic [ref=e605]:
+          - generic [ref=e610]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e612]
+            - generic [ref=e614]:
+              - generic [ref=e615]:
+                - link "Seligson Eurooppa Indeksirahasto" [ref=e619] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+Eurooppa+Indeksirahasto&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAg-EAE
+                  - generic [ref=e620]:
+                    - generic [ref=e625]: Seligson Eurooppa Indeksirahasto
+                    - img [ref=e629]
+                - link "Seligson rahastot" [ref=e634] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+rahastot&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAhSEAE
+                  - generic [ref=e635]:
+                    - generic [ref=e640]: Seligson rahastot
+                    - img [ref=e644]
+                - link "Seligson Indeksirahasto kulut" [ref=e649] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+Indeksirahasto+kulut&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAhMEAE
+                  - generic [ref=e650]:
+                    - generic [ref=e655]: Seligson Indeksirahasto kulut
+                    - img [ref=e659]
+                - link "Seligson Aasia" [ref=e664] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+Aasia&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAhLEAE
+                  - generic [ref=e665]:
+                    - generic [ref=e670]: Seligson Aasia
+                    - img [ref=e674]
+              - generic [ref=e676]:
+                - link "Seligson rahastot kokemuksia" [ref=e680] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+rahastot+kokemuksia&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAhKEAE
+                  - generic [ref=e681]:
+                    - generic [ref=e686]: Seligson rahastot kokemuksia
+                    - img [ref=e690]
+                - link "OP-Suomi indeksirahasto" [ref=e695] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=OP-Suomi+indeksirahasto&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAhBEAE
+                  - generic [ref=e696]:
+                    - generic [ref=e701]: OP-Suomi indeksirahasto
+                    - img [ref=e705]
+                - link "Nordnet Indeksirahasto Suomi" [ref=e710] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+Indeksirahasto+Suomi&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAhAEAE
+                  - generic [ref=e711]:
+                    - generic [ref=e716]: Nordnet Indeksirahasto Suomi
+                    - img [ref=e720]
+                - link "Seligson rahastot nordnet" [ref=e725] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Seligson+rahastot+nordnet&sa=X&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q1QJ6BAg_EAE
+                  - generic [ref=e726]:
+                    - generic [ref=e731]: Seligson rahastot nordnet
+                    - img [ref=e735]
+          - navigation [ref=e737]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e738]
+            - text: "1"
+            - link "Page 2" [ref=e741] [cursor=pointer]:
+              - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=G3vRab0325rA8A-ho7n5BQ&start=10&sa=N&sstk=Af77f_fTvdzn9xvaISwdsxFYoBusdsgieheMtW-zbxjabixM46yVM_t-g-5z-v1CIkoMSm22omNW6AngR72ptk9u21gE7PtygU8DkQ&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q8tMDegQIZRAE
+              - text: "2"
+            - link "Page 3" [ref=e743] [cursor=pointer]:
+              - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=G3vRab0325rA8A-ho7n5BQ&start=20&sa=N&sstk=Af77f_fTvdzn9xvaISwdsxFYoBusdsgieheMtW-zbxjabixM46yVM_t-g-5z-v1CIkoMSm22omNW6AngR72ptk9u21gE7PtygU8DkQ&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q8tMDegQIZRAG
+              - text: "3"
+            - link "Page 4" [ref=e745] [cursor=pointer]:
+              - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=G3vRab0325rA8A-ho7n5BQ&start=30&sa=N&sstk=Af77f_fTvdzn9xvaISwdsxFYoBusdsgieheMtW-zbxjabixM46yVM_t-g-5z-v1CIkoMSm22omNW6AngR72ptk9u21gE7PtygU8DkQ&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q8tMDegQIZRAI
+              - text: "4"
+            - link "Page 5" [ref=e747] [cursor=pointer]:
+              - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=G3vRab0325rA8A-ho7n5BQ&start=40&sa=N&sstk=Af77f_fTvdzn9xvaISwdsxFYoBusdsgieheMtW-zbxjabixM46yVM_t-g-5z-v1CIkoMSm22omNW6AngR72ptk9u21gE7PtygU8DkQ&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q8tMDegQIZRAK
+              - text: "5"
+            - link "Page 6" [ref=e749] [cursor=pointer]:
+              - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=G3vRab0325rA8A-ho7n5BQ&start=50&sa=N&sstk=Af77f_fTvdzn9xvaISwdsxFYoBusdsgieheMtW-zbxjabixM46yVM_t-g-5z-v1CIkoMSm22omNW6AngR72ptk9u21gE7PtygU8DkQ&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q8tMDegQIZRAM
+              - text: "6"
+            - heading "Seuraava" [level=2] [ref=e751]:
+              - link "Seuraava" [ref=e752] [cursor=pointer]:
+                - /url: /search?q=Seligson+indeksirahasto+Nordnet+indeksirahasto+halvimmat+rahastot+Suomi+TER+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=G3vRab0325rA8A-ho7n5BQ&start=10&sa=N&sstk=Af77f_fTvdzn9xvaISwdsxFYoBusdsgieheMtW-zbxjabixM46yVM_t-g-5z-v1CIkoMSm22omNW6AngR72ptk9u21gE7PtygU8DkQ&ved=2ahUKEwj9sMPlitWTAxVbDRAIHaFRLl8Q8NMDegQIZRAO
+                - generic [ref=e754]: Seuraava
+        - navigation
+    - contentinfo [ref=e755]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e756]
+      - generic [ref=e760]:
+        - generic [ref=e762]:
+          - text: Suomi
+          - generic [ref=e764]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e766] [cursor=pointer]:
+              - generic [ref=e767]: 00940, Helsinki
+              - generic [ref=e769]:
+                - text: "-"
+                - generic [ref=e770]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e772] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e775]:
+          - link "Ohje" [ref=e776] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e777] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e778] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e779] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

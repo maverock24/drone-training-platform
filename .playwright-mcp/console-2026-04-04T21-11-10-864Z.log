@@ -1,0 +1,6 @@
+[     244ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.0 @ https://danskebank.fi/js/scripts.min.js?v=FGweuScB_FOfGhtq5WPtyXMqrW8tBL7laMzGfNf4apw1:0
+[     658ms] [WARNING] Unrecognized feature: 'web-share'. @ https://play2.qbrick.com/qplayer/loader/qplayer-loader.min.js:0
+[    1946ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://video.qbrick.com/api/v1/player/accounts/AccxTF6yYg860ethQmQocFxVA/settings/null:0
+[    1947ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://video.qbrick.com/api/v1/text/public/accounts/AccxTF6yYg860ethQmQocFxVA/medias/a9d4948b-781f-4b50-b669-edc63e566e26/transcription:0
+[    2090ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://video.qbrick.com/api/v1/text/public/accounts/AccxTF6yYg860ethQmQocFxVA/medias/a9d4948b-781f-4b50-b669-edc63e566e26/transcription:0
+[    2704ms] [WARNING] No translation for: positionText @ https://play2.qbrick.com/qbrick-player/framework/GoBrain.code.min.js:28

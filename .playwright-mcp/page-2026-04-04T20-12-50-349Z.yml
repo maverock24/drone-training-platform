@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: PyPortfolioOpt efficient frontier tutorial Python portfolio optimization 2025 2026 code example PyPortfolioOpt efficient frontier tutorial Python portfolio optimization 2025 2026 code example
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DPyPortfolioOpt%2Befficient%2Bfrontier%2Btutorial%2BPython%2Bportfolio%2Boptimization%2B2025%2B2026%2Bcode%2Bexample&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQtKgLegQIEhAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ0pQJegQIEBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQs6gLegQIERAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DPyPortfolioOpt%2Befficient%2Bfrontier%2Btutorial%2BPython%2Bportfolio%2Boptimization%2B2025%2B2026%2Bcode%2Bexample&hl=en&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQiIQCKAN6BAgMEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Portfolio optimization in Python A free guide ... Threads https://www.threads.com › post › p..." [ref=e154] [cursor=pointer]:
+                - /url: https://www.threads.com/@quantscience_/post/DPEKo-RDbwD/portfolio-optimization-in-python-a-free-guide-with-pyportfolioopt-thread
+                - heading "Portfolio optimization in Python A free guide ..." [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Threads
+                  - generic [ref=e164]: https://www.threads.com › post › p...
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.threads.com/@quantscience_/post/DPEKo-RDbwD/portfolio-optimization-in-python-a-free-guide-with-pyportfolioopt-thread&hl=fi&sl=en&tl=fi&client=search
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e174]:
+              - generic [ref=e175]: 26.9.2025 —
+              - generic [ref=e176]:
+                - emphasis [ref=e177]: PyPortfolioOpt is a library that implements portfolio optimization methods
+                - text: ", including classical efficient frontier techniques and ..."
+        - generic [ref=e181]:
+          - generic [ref=e184]:
+            - 'link "PyPortfolio/PyPortfolioOpt: Financial portfolio optimisation ... GitHub https://github.com › PyPortfolio › P..." [ref=e186] [cursor=pointer]':
+              - /url: https://github.com/PyPortfolio/PyPortfolioOpt
+              - 'heading "PyPortfolio/PyPortfolioOpt: Financial portfolio optimisation ..." [level=3] [ref=e187]'
+              - generic [ref=e192]:
+                - generic [ref=e194]: GitHub
+                - generic [ref=e196]: https://github.com › PyPortfolio › P...
+            - generic [ref=e197]:
+              - generic [ref=e198]: ·
+              - link "Käännä tämä sivu" [ref=e199] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://github.com/PyPortfolio/PyPortfolioOpt&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e200] [cursor=pointer]:
+              - img [ref=e203]
+          - generic [ref=e207]:
+            - emphasis [ref=e208]: PyPortfolioOpt
+            - text: is a library implementing portfolio optimization methods, including classical mean-variance optimization, Black-Litterman allocation, ...
+          - generic [ref=e210]:
+            - text: "Puuttuu: 2025 ‎| Hae tällä:"
+            - link "2025" [ref=e211] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+%222025%22+2026+code+example&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ5t4CegQIJRAB
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - link "Portfolio Optimization with MPT and Python Interactive Brokers https://www.interactivebrokers.com › ..." [ref=e220] [cursor=pointer]:
+              - /url: https://www.interactivebrokers.com/campus/ibkr-quant-news/portfolio-optimization-with-mpt-and-python/
+              - heading "Portfolio Optimization with MPT and Python" [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: Interactive Brokers
+                - generic [ref=e230]: https://www.interactivebrokers.com › ...
+            - generic [ref=e231]:
+              - generic [ref=e232]: ·
+              - link "Käännä tämä sivu" [ref=e233] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.interactivebrokers.com/campus/ibkr-quant-news/portfolio-optimization-with-mpt-and-python/&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+          - generic [ref=e240]:
+            - generic [ref=e241]: 2.12.2025 —
+            - generic [ref=e242]:
+              - emphasis [ref=e243]: Using the PyPortfolioOpt library, we can define and solve the optimization problem
+              - text: . This library simplifies mean-variance optimization, a key ...
+        - generic [ref=e247]:
+          - generic [ref=e250]:
+            - link "General Efficient Frontier — PyPortfolioOpt 1.5.4 documentation PyPortfolioOpt https://pyportfolioopt.readthedocs.io › ..." [ref=e252] [cursor=pointer]:
+              - /url: https://pyportfolioopt.readthedocs.io/en/latest/GeneralEfficientFrontier.html
+              - heading "General Efficient Frontier — PyPortfolioOpt 1.5.4 documentation" [level=3] [ref=e253]
+              - generic [ref=e258]:
+                - generic [ref=e260]: PyPortfolioOpt
+                - generic [ref=e262]: https://pyportfolioopt.readthedocs.io › ...
+            - generic [ref=e263]:
+              - generic [ref=e264]: ·
+              - link "Käännä tämä sivu" [ref=e265] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://pyportfolioopt.readthedocs.io/en/latest/GeneralEfficientFrontier.html&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e266] [cursor=pointer]:
+              - img [ref=e269]
+          - generic [ref=e273]:
+            - emphasis [ref=e274]: PyPortfolioOpt
+            - text: allows users to optimize along the efficient semivariance frontier via the EfficientSemivariance class.
+          - generic [ref=e276]: "Puuttuu: 2025 ‎2026"
+        - generic [ref=e280]:
+          - generic [ref=e283]:
+            - link "Portfolio Optimization Explained + Python Code Medium · Andre Nagano 7 tykkää · 7 kuukautta sitten" [ref=e285] [cursor=pointer]:
+              - /url: https://medium.com/@andrejin.nagano/portfolio-optimization-explained-python-code-d15cd017ff31
+              - heading "Portfolio Optimization Explained + Python Code" [level=3] [ref=e286]
+              - generic [ref=e291]:
+                - generic [ref=e293]: Medium · Andre Nagano
+                - generic [ref=e295]: 7 tykkää · 7 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e296] [cursor=pointer]:
+              - img [ref=e299]
+          - generic [ref=e303]:
+            - text: Explaining concepts in portfolio theory, and applying it to a
+            - emphasis [ref=e304]: portfolio optimization
+            - text: with a
+            - emphasis [ref=e305]: Python code
+            - text: .
+          - generic [ref=e307]:
+            - text: "Puuttuu: PyPortfolioOpt ‎| Hae tällä:"
+            - link "PyPortfolioOpt" [ref=e308] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=%22PyPortfolioOpt%22+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sa=X&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ5t4CegQIJhAB
+        - generic [ref=e312]:
+          - generic [ref=e315]:
+            - link "An Introduction to Portfolio Optimization in Python Built In https://builtin.com › data-science › p..." [ref=e317] [cursor=pointer]:
+              - /url: https://builtin.com/data-science/portfolio-optimization-python
+              - heading "An Introduction to Portfolio Optimization in Python" [level=3] [ref=e318]
+              - generic [ref=e323]:
+                - generic [ref=e325]: Built In
+                - generic [ref=e327]: https://builtin.com › data-science › p...
+            - generic [ref=e328]:
+              - generic [ref=e329]: ·
+              - link "Käännä tämä sivu" [ref=e330] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://builtin.com/data-science/portfolio-optimization-python&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e331] [cursor=pointer]:
+              - img [ref=e334]
+          - generic [ref=e338]:
+            - text: "Summary: The PyPortfolioOpt Python package"
+            - emphasis [ref=e339]: can simplify portfolio optimization
+            - text: . Methods such as mean-variance optimization (MVO), hierarchical risk parity (HRP) ...
+        - generic [ref=e343]:
+          - generic [ref=e346]:
+            - 'link "(PDF) PyPortfolioOpt: portfolio optimization in Python ResearchGate https://www.researchgate.net › 351..." [ref=e348] [cursor=pointer]':
+              - /url: https://www.researchgate.net/publication/351402411_PyPortfolioOpt_portfolio_optimization_in_Python
+              - 'heading "(PDF) PyPortfolioOpt: portfolio optimization in Python" [level=3] [ref=e349]'
+              - generic [ref=e354]:
+                - generic [ref=e356]: ResearchGate
+                - generic [ref=e358]: https://www.researchgate.net › 351...
+            - generic [ref=e359]:
+              - generic [ref=e360]: ·
+              - link "Käännä tämä sivu" [ref=e361] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://www.researchgate.net/publication/351402411_PyPortfolioOpt_portfolio_optimization_in_Python&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e362] [cursor=pointer]:
+              - img [ref=e365]
+          - generic [ref=e368]:
+            - generic [ref=e369]: 11.1.2026 —
+            - generic [ref=e370]:
+              - text: Finally, to plot the ideal
+              - emphasis [ref=e371]: efficient frontier
+              - text: introduced in Section II B, this work uses the
+              - emphasis [ref=e372]: PyPortfolioOpt Python
+              - text: package [32] . In ...
+        - generic [ref=e376]:
+          - generic [ref=e379]:
+            - link "Leveraging Python for Your Investment Portfolio Optimization Python in Plain English https://python.plainenglish.io › lev..." [ref=e381] [cursor=pointer]:
+              - /url: https://python.plainenglish.io/leveraging-python-for-your-investment-portfolio-optimization-15528744e964
+              - heading "Leveraging Python for Your Investment Portfolio Optimization" [level=3] [ref=e382]
+              - generic [ref=e387]:
+                - generic [ref=e389]: Python in Plain English
+                - generic [ref=e391]: https://python.plainenglish.io › lev...
+            - generic [ref=e392]:
+              - generic [ref=e393]: ·
+              - link "Käännä tämä sivu" [ref=e394] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://python.plainenglish.io/leveraging-python-for-your-investment-portfolio-optimization-15528744e964&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e395] [cursor=pointer]:
+              - img [ref=e398]
+          - generic [ref=e401]:
+            - generic [ref=e402]: 4.6.2023 —
+            - generic [ref=e403]:
+              - emphasis [ref=e404]: PyPortfolioOpt
+              - text: is a
+              - emphasis [ref=e405]: Python
+              - text: library specifically designed to solve
+              - emphasis [ref=e406]: portfolio optimization
+              - text: problems. It allows us to calculate the
+              - emphasis [ref=e407]: efficient
+              - text: ...
+        - generic [ref=e411]:
+          - generic [ref=e414]:
+            - link "Portfolio Optimization with Python using Efficient Frontier ... Machine Learning Plus https://machinelearningplus.com › ..." [ref=e416] [cursor=pointer]:
+              - /url: https://machinelearningplus.com/machine-learning/portfolio-optimization-python-example/
+              - heading "Portfolio Optimization with Python using Efficient Frontier ..." [level=3] [ref=e417]
+              - generic [ref=e422]:
+                - generic [ref=e424]: Machine Learning Plus
+                - generic [ref=e426]: https://machinelearningplus.com › ...
+            - generic [ref=e427]:
+              - generic [ref=e428]: ·
+              - link "Käännä tämä sivu" [ref=e429] [cursor=pointer]:
+                - /url: https://translate.google.com/translate?u=https://machinelearningplus.com/machine-learning/portfolio-optimization-python-example/&hl=fi&sl=en&tl=fi&client=search
+            - button "Tietoja tästä tuloksesta" [ref=e430] [cursor=pointer]:
+              - img [ref=e433]
+          - generic [ref=e437]:
+            - text: Investor's
+            - emphasis [ref=e438]: Portfolio Optimization
+            - text: using
+            - emphasis [ref=e439]: Python
+            - text: with Practical
+            - emphasis [ref=e440]: Examples
+            - text: . Photo by Markus. In this
+            - emphasis [ref=e441]: tutorial
+            - text: "you will learn: What is"
+            - emphasis [ref=e442]: portfolio optimization
+            - text: "?"
+          - generic [ref=e444]: "Puuttuu: PyPortfolioOpt ‎2025"
+        - generic [ref=e448]:
+          - generic [ref=e449]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e450]
+            - button "Tietoja tästä tuloksesta" [ref=e451] [cursor=pointer]:
+              - img [ref=e454]
+          - generic [ref=e456]:
+            - button "How to do portfolio optimization in Python?" [ref=e462] [cursor=pointer]:
+              - generic [ref=e464]: How to do portfolio optimization in Python?
+              - img [ref=e467]
+            - button "What is the efficient frontier for portfolio optimization?" [ref=e476] [cursor=pointer]:
+              - generic [ref=e478]: What is the efficient frontier for portfolio optimization?
+              - img [ref=e481]
+            - button "How to plot an efficient frontier in Excel?" [ref=e490] [cursor=pointer]:
+              - generic [ref=e492]: How to plot an efficient frontier in Excel?
+              - img [ref=e495]
+            - button "How to build an efficient frontier?" [ref=e504] [cursor=pointer]:
+              - generic [ref=e506]: How to build an efficient frontier?
+              - img [ref=e509]
+        - generic [ref=e514]:
+          - heading "Web results" [level=2] [ref=e515]
+          - generic [ref=e516]:
+            - generic [ref=e519]:
+              - link "PyPortfolioOpt/cookbook/2-Mean-Variance-Optimisation. ... GitHub https://github.com › blob › main › 2..." [ref=e521] [cursor=pointer]:
+                - /url: https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/cookbook/2-Mean-Variance-Optimisation.ipynb
+                - heading "PyPortfolioOpt/cookbook/2-Mean-Variance-Optimisation. ..." [level=3] [ref=e522]
+                - generic [ref=e527]:
+                  - generic [ref=e529]: GitHub
+                  - generic [ref=e531]: https://github.com › blob › main › 2...
+              - generic [ref=e532]:
+                - generic [ref=e533]: ·
+                - link "Käännä tämä sivu" [ref=e534] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/cookbook/2-Mean-Variance-Optimisation.ipynb&hl=fi&sl=en&tl=fi&client=search
+              - button "Tietoja tästä tuloksesta" [ref=e535] [cursor=pointer]:
+                - img [ref=e538]
+            - generic [ref=e542]:
+              - text: In this
+              - emphasis [ref=e543]: example
+              - text: ", we will plot the"
+              - emphasis [ref=e544]: efficient frontier
+              - text: corresponding to portfolios with a constraint on exposure to MSFT, AMZN, and TSLA (e.g maybe we want to ...
+      - navigation [ref=e547]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e548]
+        - text: "1"
+        - link "Page 2" [ref=e551] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=10&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAE
+          - text: "2"
+        - link "Page 3" [ref=e553] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=20&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAG
+          - text: "3"
+        - link "Page 4" [ref=e555] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=30&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAI
+          - text: "4"
+        - link "Page 5" [ref=e557] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=40&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAK
+          - text: "5"
+        - link "Page 6" [ref=e559] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=50&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAM
+          - text: "6"
+        - link "Page 7" [ref=e561] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=60&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAO
+          - text: "7"
+        - link "Page 8" [ref=e563] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=70&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAQ
+          - text: "8"
+        - link "Page 9" [ref=e565] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=80&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAS
+          - text: "9"
+        - link "Page 10" [ref=e567] [cursor=pointer]:
+          - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=90&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8tMDegQIORAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e569]:
+          - link "Seuraava" [ref=e570] [cursor=pointer]:
+            - /url: /search?q=PyPortfolioOpt+efficient+frontier+tutorial+Python+portfolio+optimization+2025+2026+code+example&sca_esv=f72dd7b5cfdb5d01&ei=wXDRafflCYqzwPAPu8KBmQQ&start=10&sa=N&sstk=Af77f_drzkUm4f6mcJcl2Wv5h45YtTJ6HgxEKUpoB2B7dDeI2SKEyZJWNoRt9HOxwiIEMfFC3FfB3F7ossKtw7jVfSGwnhLR-xmsOA&ved=2ahUKEwi3yv31gNWTAxWKGRAIHTthIEMQ8NMDegQIORAW
+            - generic [ref=e572]: Seuraava
+      - navigation
+    - contentinfo [ref=e573]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e574]
+      - generic [ref=e578]:
+        - generic [ref=e580]:
+          - text: Suomi
+          - generic [ref=e582]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e584] [cursor=pointer]:
+              - generic [ref=e585]: Helsinki
+              - generic [ref=e587]:
+                - text: "-"
+                - generic [ref=e588]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e590] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e593]:
+          - link "Ohje" [ref=e594] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e595] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e596] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e597] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

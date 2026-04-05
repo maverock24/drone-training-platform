@@ -1,0 +1,339 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjFhq39o9aTAxXDGhAIHXPELh4QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: yksiö Helsinki hinta 2026 postinumero neliöhinta yksiö Helsinki hinta 2026 postinumero neliöhinta
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dyksi%25C3%25B6%2BHelsinki%2Bhinta%2B2026%2Bpostinumero%2Bneli%25C3%25B6hinta%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&aep=1&ntc=1&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4QtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4QtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Qs6gLegQIFBAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q0pQJegQIEhAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Lyhyet videot" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Qs6gLegQIERAB
+              - generic [ref=e106]: Lyhyet videot
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Asuntojen hinnat – Seuraa asuntojen hintakehitystä - Blok blok.ai https://blok.ai › asuinaluevertailu" [ref=e222] [cursor=pointer]:
+                  - /url: https://blok.ai/asuinaluevertailu
+                  - heading "Asuntojen hinnat – Seuraa asuntojen hintakehitystä - Blok" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: blok.ai
+                    - generic [ref=e232]: https://blok.ai › asuinaluevertailu
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]: Blokin suuri asuinaluevertailu. Katso miten asuinalueesi hintataso on kehittynyt viime vuosina.
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e245]
+              - button "Tietoja tästä tuloksesta" [ref=e246] [cursor=pointer]:
+                - img [ref=e249]
+            - generic [ref=e251]:
+              - button "Mistä asunnon neliöhinta lasketaan?" [ref=e257] [cursor=pointer]:
+                - generic [ref=e259]: Mistä asunnon neliöhinta lasketaan?
+                - img [ref=e262]
+              - button "Mikä on yksiön keskimääräinen vuokrahinta?" [ref=e271] [cursor=pointer]:
+                - generic [ref=e273]: Mikä on yksiön keskimääräinen vuokrahinta?
+                - img [ref=e276]
+              - button "Kannattaako ostaa asunto 2026?" [ref=e285] [cursor=pointer]:
+                - generic [ref=e287]: Kannattaako ostaa asunto 2026?
+                - img [ref=e290]
+              - button "Mikä on Helsingin kallein alue?" [ref=e299] [cursor=pointer]:
+                - generic [ref=e301]: Mikä on Helsingin kallein alue?
+                - img [ref=e304]
+          - generic [ref=e309]:
+            - heading "Tulokset internetistä" [level=2] [ref=e310]
+            - generic [ref=e311]:
+              - generic [ref=e314]:
+                - link "Asuntojen hintatiedot Asuntojen hintatiedot https://asuntojen.hintatiedot.fi › haku" [ref=e316] [cursor=pointer]:
+                  - /url: https://asuntojen.hintatiedot.fi/haku
+                  - heading "Asuntojen hintatiedot" [level=3] [ref=e317]
+                  - generic [ref=e322]:
+                    - generic [ref=e324]: Asuntojen hintatiedot
+                    - generic [ref=e326]: https://asuntojen.hintatiedot.fi › haku
+                - button "Tietoja tästä tuloksesta" [ref=e327] [cursor=pointer]:
+                  - img [ref=e330]
+              - generic [ref=e333]: Palvelun kautta voi hakea kerros-, rivi- ja omakotitalojen asuntokauppatietoja viimeisen 12 kuukauden ajalta koko Suomen alueelta.
+          - generic [ref=e337]:
+            - generic [ref=e340]:
+              - link "Toteutuneet asuntokaupat Helsinki - neliöhinnat ja ... Asunnollehinta.fi https://www.asunnollehinta.fi › kerrostalojen_hintatauluk..." [ref=e342] [cursor=pointer]:
+                - /url: https://www.asunnollehinta.fi/kerrostalojen_hintataulukko_helsinki
+                - heading "Toteutuneet asuntokaupat Helsinki - neliöhinnat ja ..." [level=3] [ref=e343]
+                - generic [ref=e348]:
+                  - generic [ref=e350]: Asunnollehinta.fi
+                  - generic [ref=e352]: https://www.asunnollehinta.fi › kerrostalojen_hintatauluk...
+              - button "Tietoja tästä tuloksesta" [ref=e353] [cursor=pointer]:
+                - img [ref=e356]
+            - generic [ref=e360]:
+              - emphasis [ref=e361]: Helsinki
+              - text: asuntojen keskineliöhinta 4902.0 €/m² (Q4/2025).
+              - emphasis [ref=e362]: Hinnat
+              - text: nousivat 0.8% edelliseen neljännekseen ja 1.6% vuodessa.
+          - generic [ref=e366]:
+            - generic [ref=e369]:
+              - link "Helsinki - myydyt asunnot, toteutuneet neliöhinnat ja ... Asuntojenhinnat.fi https://www.asuntojenhinnat.fi › kunta › helsinki" [ref=e371] [cursor=pointer]:
+                - /url: https://www.asuntojenhinnat.fi/myytyjen-asuntojen-tilastot/kunta/helsinki
+                - heading "Helsinki - myydyt asunnot, toteutuneet neliöhinnat ja ..." [level=3] [ref=e372]
+                - generic [ref=e377]:
+                  - generic [ref=e379]: Asuntojenhinnat.fi
+                  - generic [ref=e381]: https://www.asuntojenhinnat.fi › kunta › helsinki
+              - button "Tietoja tästä tuloksesta" [ref=e382] [cursor=pointer]:
+                - img [ref=e385]
+            - generic [ref=e389]:
+              - text: Asuntokaupat
+              - emphasis [ref=e390]: Helsinki
+              - text: ": 2 711 · +7,41 % ;"
+              - emphasis [ref=e391]: Neliöhinta Helsinki
+              - text: ": 4 868€ / m² · +0,97 % ;"
+              - emphasis [ref=e392]: Neliöhinta
+              - text: "PK-seudulla: 4 291€ / m² · +0,42 % ;"
+              - emphasis [ref=e393]: Neliöhinta
+              - text: "muualla: 1 702€ / m²."
+          - generic [ref=e397]:
+            - generic [ref=e400]:
+              - link "Asuntojen hinnat Helsinki, 00530, Kallio Kiinteistömaailma https://www.kiinteistomaailma.fi › asuntojen-hinnat › Hel..." [ref=e402] [cursor=pointer]:
+                - /url: https://www.kiinteistomaailma.fi/asuntojen-hinnat/Helsinki/00530
+                - heading "Asuntojen hinnat Helsinki, 00530, Kallio" [level=3] [ref=e403]
+                - generic [ref=e408]:
+                  - generic [ref=e410]: Kiinteistömaailma
+                  - generic [ref=e412]: https://www.kiinteistomaailma.fi › asuntojen-hinnat › Hel...
+              - button "Tietoja tästä tuloksesta" [ref=e413] [cursor=pointer]:
+                - img [ref=e416]
+            - generic [ref=e419]: Toteutuneiden asuntokauppatilastojen perusteella asuntosi keskineliöhinta viime vuonna olisi ollut 5689 €/m². Neliöhinnan arvioinnissa on hyvä huomioida, että ...
+          - generic [ref=e423]:
+            - generic [ref=e426]:
+              - link "Osakeasuntojen hinnat Tilastokeskus https://stat.fi › Etusivu › Tilastot" [ref=e428] [cursor=pointer]:
+                - /url: https://stat.fi/fi/tilasto/ashi
+                - heading "Osakeasuntojen hinnat" [level=3] [ref=e429]
+                - generic [ref=e434]:
+                  - generic [ref=e436]: Tilastokeskus
+                  - generic [ref=e438]: https://stat.fi › Etusivu › Tilastot
+              - button "Tietoja tästä tuloksesta" [ref=e439] [cursor=pointer]:
+                - img [ref=e442]
+            - generic [ref=e446]:
+              - text: Osakeasuntojen
+              - emphasis [ref=e447]: hinnat
+              - text: "-tilasto kuvaa osakeasuntojen hintakehitystä ja asuntokaupan aktiivisuutta. Tiedot kerätään eri lähteistä."
+          - generic [ref=e451]:
+            - generic [ref=e454]:
+              - link "Asuntojen hinnat Helsinki Asuntojenmyynti.fi https://www.asuntojenmyynti.fi › asuntojen-hinnat › He..." [ref=e456] [cursor=pointer]:
+                - /url: https://www.asuntojenmyynti.fi/asuntojen-hinnat/Helsinki
+                - heading "Asuntojen hinnat Helsinki" [level=3] [ref=e457]
+                - generic [ref=e462]:
+                  - generic [ref=e464]: Asuntojenmyynti.fi
+                  - generic [ref=e466]: https://www.asuntojenmyynti.fi › asuntojen-hinnat › He...
+              - button "Tietoja tästä tuloksesta" [ref=e467] [cursor=pointer]:
+                - img [ref=e470]
+            - generic [ref=e473]: Asuntokauppadata näyttää sinulle paikkakuntasi viimeisintä hintatietoa. Meillä voi myös vertailla välityspalkkioita maksutta ja jopa kilpailuttaa paikkakunnan ...
+          - generic [ref=e477]:
+            - generic [ref=e480]:
+              - link "Asuntojen hinnat Helsinki, 00180, Kamppi - Ruoholahti Kiinteistömaailma https://www.kiinteistomaailma.fi › asuntojen-hinnat › Hel..." [ref=e482] [cursor=pointer]:
+                - /url: https://www.kiinteistomaailma.fi/asuntojen-hinnat/Helsinki/00180
+                - heading "Asuntojen hinnat Helsinki, 00180, Kamppi - Ruoholahti" [level=3] [ref=e483]
+                - generic [ref=e488]:
+                  - generic [ref=e490]: Kiinteistömaailma
+                  - generic [ref=e492]: https://www.kiinteistomaailma.fi › asuntojen-hinnat › Hel...
+              - button "Tietoja tästä tuloksesta" [ref=e493] [cursor=pointer]:
+                - img [ref=e496]
+            - generic [ref=e499]: Toteutuneiden asuntokauppatilastojen perusteella asuntosi keskineliöhinta viime vuonna olisi ollut 6560 €/m². Neliöhinnan arvioinnissa on hyvä huomioida, että ...
+          - generic [ref=e503]:
+            - generic [ref=e506]:
+              - link "Asuntomarkkinat ja asuntojen hinnat Suomessa Etuovi.com https://www.etuovi.com › asuntojen-hinnat-ja-asuntoma..." [ref=e508] [cursor=pointer]:
+                - /url: https://www.etuovi.com/asuntojen-hinnat-ja-asuntomarkkinat
+                - heading "Asuntomarkkinat ja asuntojen hinnat Suomessa" [level=3] [ref=e509]
+                - generic [ref=e514]:
+                  - generic [ref=e516]: Etuovi.com
+                  - generic [ref=e518]: https://www.etuovi.com › asuntojen-hinnat-ja-asuntoma...
+              - button "Tietoja tästä tuloksesta" [ref=e519] [cursor=pointer]:
+                - img [ref=e522]
+            - generic [ref=e526]:
+              - text: Selvitä asuntojen
+              - emphasis [ref=e527]: hinnat
+              - text: kaikkialla Suomessa nopeasti Etuovi.comista! Tutustu viimeisimpään asuntomarkkinatietoon koko Suomessa tai kaupunkikohtaisesti.
+          - generic [ref=e531]:
+            - generic [ref=e534]:
+              - link "Asuntojen vuokrat Helsingissä – katso kartalta alueiden ... Vuokraovi.com https://www.vuokraovi.com › vuokraovi › asuntojen-v..." [ref=e536] [cursor=pointer]:
+                - /url: https://www.vuokraovi.com/kumppanisisallot/vuokraovi/asuntojen-vuokrat-helsingissa-katso-kartalta-alueiden-neliovuokrat/
+                - heading "Asuntojen vuokrat Helsingissä – katso kartalta alueiden ..." [level=3] [ref=e537]
+                - generic [ref=e542]:
+                  - generic [ref=e544]: Vuokraovi.com
+                  - generic [ref=e546]: https://www.vuokraovi.com › vuokraovi › asuntojen-v...
+              - button "Tietoja tästä tuloksesta" [ref=e547] [cursor=pointer]:
+                - img [ref=e550]
+            - generic [ref=e553]:
+              - generic [ref=e554]: 12.6.2025 —
+              - text: Tässä tarkastelussa kuudella eri postinumeroalueella yksiöiden keskimääräinen neliövuokra on vähintään 30 euroa. Kalleimmaksi alueeksi nousee ...
+        - generic [ref=e556]:
+          - generic [ref=e561]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e563]
+            - generic [ref=e565]:
+              - generic [ref=e566]:
+                - link "Tilastokeskus asuntojen hinnat postinumeroalueittain" [ref=e570] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Tilastokeskus+asuntojen+hinnat+postinumeroalueittain&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhEEAE
+                  - generic [ref=e571]:
+                    - generic [ref=e576]: Tilastokeskus asuntojen hinnat postinumeroalueittain
+                    - img [ref=e580]
+                - link "Asuntojen hinnat Helsinki postinumeroittain" [ref=e585] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hinnat+Helsinki+postinumeroittain&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhJEAE
+                  - generic [ref=e586]:
+                    - generic [ref=e591]: Asuntojen hinnat Helsinki postinumeroittain
+                    - img [ref=e595]
+                - link "Toteutuneet asuntojen hinnat" [ref=e600] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Toteutuneet+asuntojen+hinnat&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhHEAE
+                  - generic [ref=e601]:
+                    - generic [ref=e606]: Toteutuneet asuntojen hinnat
+                    - img [ref=e610]
+                - link "Etuovi toteutuneet kaupat" [ref=e615] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Etuovi+toteutuneet+kaupat&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhIEAE
+                  - generic [ref=e616]:
+                    - generic [ref=e621]: Etuovi toteutuneet kaupat
+                    - img [ref=e625]
+              - generic [ref=e627]:
+                - link "Asuntojen hintakehitys Helsinki 2000-luvulla" [ref=e631] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Asuntojen+hintakehitys+Helsinki+2000-luvulla&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhCEAE
+                  - generic [ref=e632]:
+                    - generic [ref=e637]: Asuntojen hintakehitys Helsinki 2000-luvulla
+                    - img [ref=e641]
+                - link "Mistä löytää myytyjen asuntojen hinnat" [ref=e646] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Mist%C3%A4+l%C3%B6yt%C3%A4%C3%A4+myytyjen+asuntojen+hinnat&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhDEAE
+                  - generic [ref=e647]:
+                    - generic [ref=e652]: Mistä löytää myytyjen asuntojen hinnat
+                    - img [ref=e656]
+                - link "Toteutuneet asuntokaupat Helsinki" [ref=e661] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Toteutuneet+asuntokaupat+Helsinki&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhFEAE
+                  - generic [ref=e662]:
+                    - generic [ref=e667]: Toteutuneet asuntokaupat Helsinki
+                    - img [ref=e671]
+                - link "Mistä näkee toteutuneet kiinteistökaupat" [ref=e676] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Mist%C3%A4+n%C3%A4kee+toteutuneet+kiinteist%C3%B6kaupat&sa=X&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q1QJ6BAhGEAE
+                  - generic [ref=e677]:
+                    - generic [ref=e682]: Mistä näkee toteutuneet kiinteistökaupat
+                    - img [ref=e686]
+          - navigation [ref=e688]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e689]
+            - text: "1"
+            - link "Page 2" [ref=e692] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=10&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAE
+              - text: "2"
+            - link "Page 3" [ref=e694] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=20&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAG
+              - text: "3"
+            - link "Page 4" [ref=e696] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=30&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAI
+              - text: "4"
+            - link "Page 5" [ref=e698] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=40&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAK
+              - text: "5"
+            - link "Page 6" [ref=e700] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=50&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAM
+              - text: "6"
+            - link "Page 7" [ref=e702] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=60&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAO
+              - text: "7"
+            - link "Page 8" [ref=e704] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=70&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAQ
+              - text: "8"
+            - link "Page 9" [ref=e706] [cursor=pointer]:
+              - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=80&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8tMDegQIQBAS
+              - text: "9"
+            - heading "Seuraava" [level=2] [ref=e708]:
+              - link "Seuraava" [ref=e709] [cursor=pointer]:
+                - /url: /search?q=yksi%C3%B6+Helsinki+hinta+2026+postinumero+neli%C3%B6hinta&sca_esv=bb65bd8365f461f5&hl=fi&ei=uxvSaYW9JMO1wPAP84i78QE&start=10&sa=N&sstk=Af77f_ew4NrVwPDa7ZUbQY1lULQL0Yfndl-nNj1yRQxdKTwfOU0P8cGUtUHvm2NHfMqainbtaWeEJG5VNrGdC8BUbbo0eS9sGBDGmA&ved=2ahUKEwjFhq39o9aTAxXDGhAIHXPELh4Q8NMDegQIQBAU
+                - generic [ref=e711]: Seuraava
+        - navigation
+    - contentinfo [ref=e712]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e713]
+      - generic [ref=e717]:
+        - generic [ref=e719]:
+          - text: Suomi
+          - generic [ref=e721]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e723] [cursor=pointer]:
+              - generic [ref=e724]: Helsinki
+              - generic [ref=e726]:
+                - text: "-"
+                - generic [ref=e727]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e729] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e732]:
+          - link "Ohje" [ref=e733] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e734] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e735] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e736] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

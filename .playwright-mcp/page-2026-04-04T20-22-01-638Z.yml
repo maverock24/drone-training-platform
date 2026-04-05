@@ -1,0 +1,468 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: behavioral finance mistakes retail investors 2025 2026 loss aversion recency bias herd mentality overconfidence disposition effect behavioral finance mistakes retail investors 2025 2026 loss aversion recency bias herd mentality overconfidence disposition effect
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dbehavioral%2Bfinance%2Bmistakes%2Bretail%2Binvestors%2B2025%2B2026%2Bloss%2Baversion%2Brecency%2Bbias%2Bherd%2Bmentality%2Boverconfidence%2Bdisposition%2Beffect&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&aep=1&ntc=1&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQs6gLegQIFhAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQtKgLegQIFBAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQtKgLegQIFRAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ0pQJegQIEhAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPgdI3p2QrCd8hzBtcQ1SCP2QOsFhDfpwb9hZAT2y-vm7cD7xhwXbh6wi0_IhRsC2epHwDaN4-qVMr11JvqwnEpsrFNUVUloa6RSfFyufd7vCtt4MbZqyxngO6x3iGt0XtyU1y43sKz6fDLx8GPh1X7dZ5jPc&q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQs6gLegQIExAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dbehavioral%2Bfinance%2Bmistakes%2Bretail%2Binvestors%2B2025%2B2026%2Bloss%2Baversion%2Brecency%2Bbias%2Bherd%2Bmentality%2Boverconfidence%2Bdisposition%2Beffect&hl=en&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQiIQCKAN6BAgLEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "Herding behavior, disposition effect, and investment ... ScienceDirect.com https://www.sciencedirect.com › pii" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.sciencedirect.com/science/article/pii/S000169182500277X
+                  - heading "Herding behavior, disposition effect, and investment ..." [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: ScienceDirect.com
+                    - generic [ref=e190]: https://www.sciencedirect.com › pii
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.sciencedirect.com/science/article/pii/S000169182500277X
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e200]:
+                - generic [ref=e201]: kirjoittanut SA Bhutto · 2025 · Viittausten määrä 16 —
+                - generic [ref=e202]:
+                  - text: A
+                  - emphasis [ref=e203]: behavioral bias
+                  - text: known as the
+                  - emphasis [ref=e204]: disposition effect
+                  - text: is seen in
+                  - emphasis [ref=e205]: investors
+                  - text: ", who have a propensity to sell winning investments too soon and hang onto losing ..."
+          - generic [ref=e209]:
+            - generic [ref=e212]:
+              - link "Behavioural Finance Bias Reflections Vaasan yliopisto - Osuva https://osuva.uwasa.fi › bitstreams › download" [ref=e214] [cursor=pointer]:
+                - /url: https://osuva.uwasa.fi/bitstreams/9a89ee5b-e85b-4020-b635-a5b6c11cc279/download
+                - heading "Behavioural Finance Bias Reflections" [level=3] [ref=e215]
+                - generic [ref=e220]:
+                  - generic [ref=e222]: Vaasan yliopisto - Osuva
+                  - generic [ref=e224]: https://osuva.uwasa.fi › bitstreams › download
+              - generic [ref=e225]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e226] [cursor=pointer]:
+                - img [ref=e229]
+            - generic [ref=e232]:
+              - generic [ref=e233]: kirjoittanut K Kortelainen · 2026 —
+              - generic [ref=e234]:
+                - text: This thesis focuses on four selected behavioural
+                - emphasis [ref=e235]: biases
+                - text: . The selected
+                - emphasis [ref=e236]: biases
+                - text: are herding
+                - emphasis [ref=e237]: mentality bias
+                - text: ", over- confidence"
+                - emphasis [ref=e238]: bias
+                - text: ", anchoring and adjustment"
+                - emphasis [ref=e239]: bias
+                - text: ...
+          - generic [ref=e243]:
+            - generic [ref=e246]:
+              - link "Overconfidence, Disposition Effect, and Herding Behavior ResearchGate https://www.researchgate.net › 383..." [ref=e248] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/383451568_Behavioral_Biases_in_Investment_Overconfidence_Disposition_Effect_and_Herding_Behavior
+                - heading "Overconfidence, Disposition Effect, and Herding Behavior" [level=3] [ref=e249]
+                - generic [ref=e254]:
+                  - generic [ref=e256]: ResearchGate
+                  - generic [ref=e258]: https://www.researchgate.net › 383...
+              - generic [ref=e259]:
+                - generic [ref=e260]: ·
+                - link "Käännä tämä sivu" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.researchgate.net/publication/383451568_Behavioral_Biases_in_Investment_Overconfidence_Disposition_Effect_and_Herding_Behavior
+              - button "Tietoja tästä tuloksesta" [ref=e262] [cursor=pointer]:
+                - img [ref=e265]
+            - generic [ref=e268]:
+              - generic [ref=e269]: 24.6.2024 —
+              - generic [ref=e270]:
+                - text: This study specifically indicates that respondents are often subject to
+                - emphasis [ref=e271]: overconfidence
+                - text: ", the"
+                - emphasis [ref=e272]: disposition effect
+                - text: ", and herding"
+                - emphasis [ref=e273]: behavior
+                - text: ", and ..."
+          - generic [ref=e277]:
+            - generic [ref=e280]:
+              - link "Effect of Behavioural Biases on Investors' Decision Making Sage Journals https://journals.sagepub.com › doi" [ref=e282] [cursor=pointer]:
+                - /url: https://journals.sagepub.com/doi/10.1177/09726225251319119
+                - heading "Effect of Behavioural Biases on Investors' Decision Making" [level=3] [ref=e283]
+                - generic [ref=e288]:
+                  - generic [ref=e290]: Sage Journals
+                  - generic [ref=e292]: https://journals.sagepub.com › doi
+              - generic [ref=e293]:
+                - generic [ref=e294]: ·
+                - link "Käännä tämä sivu" [ref=e295] [cursor=pointer]:
+                  - /url: https://journals.sagepub.com/doi/10.1177/09726225251319119
+              - button "Tietoja tästä tuloksesta" [ref=e296] [cursor=pointer]:
+                - img [ref=e299]
+            - generic [ref=e302]:
+              - generic [ref=e303]: 12.4.2025 —
+              - generic [ref=e304]:
+                - text: Understanding
+                - emphasis [ref=e305]: biases
+                - text: like
+                - emphasis [ref=e306]: herd mentality
+                - text: ","
+                - emphasis [ref=e307]: loss aversion
+                - text: ", and"
+                - emphasis [ref=e308]: overconfidence
+                - text: can help
+                - emphasis [ref=e309]: investors
+                - text: make more informed financial decisions and ...
+          - generic [ref=e313]:
+            - generic [ref=e316]:
+              - link "Behavioral Finance and Investor Psychology Advances in Consumer Research https://acr-journal.com › article › b..." [ref=e318] [cursor=pointer]:
+                - /url: https://acr-journal.com/article/behavioral-finance-and-investor-psychology-understanding-market-volatility-in-crisis-scenarios-1763/
+                - heading "Behavioral Finance and Investor Psychology" [level=3] [ref=e319]
+                - generic [ref=e324]:
+                  - generic [ref=e326]: Advances in Consumer Research
+                  - generic [ref=e328]: https://acr-journal.com › article › b...
+              - generic [ref=e329]:
+                - generic [ref=e330]: ·
+                - link "Käännä tämä sivu" [ref=e331] [cursor=pointer]:
+                  - /url: https://acr-journal.com/article/behavioral-finance-and-investor-psychology-understanding-market-volatility-in-crisis-scenarios-1763/
+              - button "Tietoja tästä tuloksesta" [ref=e332] [cursor=pointer]:
+                - img [ref=e335]
+            - generic [ref=e338]:
+              - generic [ref=e339]: kirjoittanut DYY Sreeram Daida · 2025 · Viittausten määrä 2 —
+              - generic [ref=e340]:
+                - text: We explore how systematic psychological
+                - emphasis [ref=e341]: biases
+                - text: —including
+                - emphasis [ref=e342]: herd behavior
+                - text: ","
+                - emphasis [ref=e343]: loss aversion
+                - text: ","
+                - emphasis [ref=e344]: overconfidence
+                - text: ", and representativeness—drive collective"
+                - emphasis [ref=e345]: investor
+                - text: ...
+          - generic [ref=e349]:
+            - generic [ref=e352]:
+              - link "“The Role of Behavioral Biases in Shaping Investment ... European Economic Letters https://eelet.org.uk › journal › article › download" [ref=e354] [cursor=pointer]:
+                - /url: https://eelet.org.uk/index.php/journal/article/download/4267/3802/4872
+                - heading "“The Role of Behavioral Biases in Shaping Investment ..." [level=3] [ref=e355]
+                - generic [ref=e360]:
+                  - generic [ref=e362]: European Economic Letters
+                  - generic [ref=e364]: https://eelet.org.uk › journal › article › download
+              - generic [ref=e365]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e366] [cursor=pointer]:
+                - img [ref=e369]
+            - generic [ref=e373]:
+              - text: This study examines the significant influence of behavioural
+              - emphasis [ref=e374]: finance
+              - text: "on"
+              - emphasis [ref=e375]: investment
+              - text: decision- making in the stock market, challenging the conventional Efficient ...
+          - generic [ref=e379]:
+            - generic [ref=e382]:
+              - link "Psychological Biases in Investment Decisions Preprints.org https://www.preprints.org › 202502" [ref=e384] [cursor=pointer]:
+                - /url: https://www.preprints.org/manuscript/202502.2000
+                - heading "Psychological Biases in Investment Decisions" [level=3] [ref=e385]
+                - generic [ref=e390]:
+                  - generic [ref=e392]: Preprints.org
+                  - generic [ref=e394]: https://www.preprints.org › 202502
+              - generic [ref=e395]:
+                - generic [ref=e396]: ·
+                - link "Käännä tämä sivu" [ref=e397] [cursor=pointer]:
+                  - /url: https://www.preprints.org/manuscript/202502.2000
+              - button "Tietoja tästä tuloksesta" [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+            - generic [ref=e404]:
+              - generic [ref=e405]: 24.2.2025 —
+              - generic [ref=e406]:
+                - text: Common biases such as
+                - emphasis [ref=e407]: herd mentality, loss aversion, and overconfidence
+                - text: frequently drive poor investment choices, including blindly following ...
+          - generic [ref=e411]:
+            - generic [ref=e414]:
+              - link "Hegemony of behavioral biases dislodging financial well-being Springer Nature Link https://link.springer.com › article" [ref=e416] [cursor=pointer]:
+                - /url: https://link.springer.com/article/10.1186/s43093-025-00651-2
+                - heading "Hegemony of behavioral biases dislodging financial well-being" [level=3] [ref=e417]
+                - generic [ref=e422]:
+                  - generic [ref=e424]: Springer Nature Link
+                  - generic [ref=e426]: https://link.springer.com › article
+              - generic [ref=e427]:
+                - generic [ref=e428]: ·
+                - link "Käännä tämä sivu" [ref=e429] [cursor=pointer]:
+                  - /url: https://link.springer.com/article/10.1186/s43093-025-00651-2
+              - button "Tietoja tästä tuloksesta" [ref=e430] [cursor=pointer]:
+                - img [ref=e433]
+            - generic [ref=e436]:
+              - generic [ref=e437]: kirjoittanut S kanojia · 2025 —
+              - generic [ref=e438]:
+                - text: This paper gathers evidence related to
+                - emphasis [ref=e439]: behavioral
+                - text: anomalies like the herding
+                - emphasis [ref=e440]: bias
+                - text: ", the"
+                - emphasis [ref=e441]: disposition effect
+                - text: ","
+                - emphasis [ref=e442]: overconfidence bias
+                - text: ", ..."
+          - generic [ref=e446]:
+            - generic [ref=e447]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e448]
+              - button "Tietoja tästä tuloksesta" [ref=e449] [cursor=pointer]:
+                - img [ref=e452]
+            - generic [ref=e454]:
+              - button "What is loss aversion bias in behavioral finance?" [ref=e460] [cursor=pointer]:
+                - generic [ref=e462]: What is loss aversion bias in behavioral finance?
+                - img [ref=e465]
+              - button "What are the different types of behavioral investors?" [ref=e474] [cursor=pointer]:
+                - generic [ref=e476]: What are the different types of behavioral investors?
+                - img [ref=e479]
+              - button "What is recency bias in behavioral finance?" [ref=e488] [cursor=pointer]:
+                - generic [ref=e490]: What is recency bias in behavioral finance?
+                - img [ref=e493]
+              - button "What is the herding bias effect?" [ref=e502] [cursor=pointer]:
+                - generic [ref=e504]: What is the herding bias effect?
+                - img [ref=e507]
+          - generic [ref=e512]:
+            - heading "Web results" [level=2] [ref=e513]
+            - generic [ref=e514]:
+              - generic [ref=e517]:
+                - link "How Behavioral Finance Shapes Investor Psychology | IBCA Investment Banking Council of America https://www.investmentbankingcouncil.org › ..." [ref=e519] [cursor=pointer]:
+                  - /url: https://www.investmentbankingcouncil.org/blog/how-behavioral-finance-shapes-investor-psychology
+                  - heading "How Behavioral Finance Shapes Investor Psychology | IBCA" [level=3] [ref=e520]
+                  - generic [ref=e525]:
+                    - generic [ref=e527]: Investment Banking Council of America
+                    - generic [ref=e529]: https://www.investmentbankingcouncil.org › ...
+                - generic [ref=e530]:
+                  - generic [ref=e531]: ·
+                  - link "Käännä tämä sivu" [ref=e532] [cursor=pointer]:
+                    - /url: https://www.investmentbankingcouncil.org/blog/how-behavioral-finance-shapes-investor-psychology
+                - button "Tietoja tästä tuloksesta" [ref=e533] [cursor=pointer]:
+                  - img [ref=e536]
+              - generic [ref=e539]:
+                - generic [ref=e540]: 10.10.2025 —
+                - generic [ref=e541]:
+                  - emphasis [ref=e542]: Behavioral finance
+                  - text: highlights the role of
+                  - emphasis [ref=e543]: investor psychology
+                  - text: in shaping financial markets, showing how
+                  - emphasis [ref=e544]: biases
+                  - text: and emotions drive
+                  - emphasis [ref=e545]: investment
+                  - text: ...
+          - generic [ref=e549]:
+            - generic [ref=e552]:
+              - link "IIMK/WPS/673/FIN/2026/01 February 2026 Indian Institute of Management Kozhikode - IIMK https://iimk.ac.in › uploads › publications › IIMK..." [ref=e554] [cursor=pointer]:
+                - /url: https://iimk.ac.in/uploads/publications/IIMKWPS673FIN202601.pdf
+                - heading "IIMK/WPS/673/FIN/2026/01 February 2026" [level=3] [ref=e555]
+                - generic [ref=e557]:
+                  - img [ref=e561]
+                  - generic [ref=e563]:
+                    - generic [ref=e565]: Indian Institute of Management Kozhikode - IIMK
+                    - generic [ref=e567]: https://iimk.ac.in › uploads › publications › IIMK...
+              - generic [ref=e568]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e569] [cursor=pointer]:
+                - img [ref=e572]
+            - generic [ref=e575]:
+              - generic [ref=e576]: 1.2.2026 —
+              - generic [ref=e577]:
+                - text: The present study combines ideas from behavioural
+                - emphasis [ref=e578]: finance
+                - text: and consumer
+                - emphasis [ref=e579]: behaviour
+                - text: in order to evaluate how
+                - emphasis [ref=e580]: loss aversion
+                - text: ", herding,"
+                - emphasis [ref=e581]: overconfidence
+                - text: ...
+        - generic [ref=e583]:
+          - generic [ref=e588]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e590]
+            - generic [ref=e592]:
+              - generic [ref=e593]:
+                - link "Herding bias" [ref=e597] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Herding+bias&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhaEAE
+                  - generic [ref=e598]:
+                    - generic [ref=e603]: Herding bias
+                    - img [ref=e607]
+                - link "How financial literacy moderate the association between behaviour biases and investment decision" [ref=e612] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=How+financial+literacy+moderate+the+association+between+behaviour+biases+and+investment+decision&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhXEAE
+                  - generic [ref=e613]:
+                    - generic [ref=e618]: How financial literacy moderate the association between behaviour biases and investment decision
+                    - img [ref=e622]
+                - 'link "Behavioral finance factors and investment decisions: A mediating role of risk perception" [ref=e627] [cursor=pointer]':
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Behavioral+finance+factors+and+investment+decisions:+A+mediating+role+of+risk+perception&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhcEAE
+                  - generic [ref=e628]:
+                    - generic [ref=e633]: "Behavioral finance factors and investment decisions: A mediating role of risk perception"
+                    - img [ref=e637]
+                - link "Herd mentality finance" [ref=e642] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Herd+mentality+finance&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhdEAE
+                  - generic [ref=e643]:
+                    - generic [ref=e648]: Herd mentality finance
+                    - img [ref=e652]
+              - generic [ref=e654]:
+                - link "Behavioral biases in finance" [ref=e658] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Behavioral+biases+in+finance&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhbEAE
+                  - generic [ref=e659]:
+                    - generic [ref=e664]: Behavioral biases in finance
+                    - img [ref=e668]
+                - link "Investment behavior" [ref=e673] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Investment+behavior&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhZEAE
+                  - generic [ref=e674]:
+                    - generic [ref=e679]: Investment behavior
+                    - img [ref=e683]
+                - link "Exploring financial decision making biases among retail investors" [ref=e688] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Exploring+financial+decision+making+biases+among+retail+investors&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAhYEAE
+                  - generic [ref=e689]:
+                    - generic [ref=e694]: Exploring financial decision making biases among retail investors
+                    - img [ref=e698]
+                - link "Herd behavior in financial markets" [ref=e703] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&q=Herd+behavior+in+financial+markets&sa=X&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ1QJ6BAheEAE
+                  - generic [ref=e704]:
+                    - generic [ref=e709]: Herd behavior in financial markets
+                    - img [ref=e713]
+          - navigation [ref=e715]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e716]
+            - text: "1"
+            - link "Page 2" [ref=e719] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=10&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAE
+              - text: "2"
+            - link "Page 3" [ref=e721] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=20&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAG
+              - text: "3"
+            - link "Page 4" [ref=e723] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=30&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAI
+              - text: "4"
+            - link "Page 5" [ref=e725] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=40&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAK
+              - text: "5"
+            - link "Page 6" [ref=e727] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=50&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAM
+              - text: "6"
+            - link "Page 7" [ref=e729] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=60&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAO
+              - text: "7"
+            - link "Page 8" [ref=e731] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=70&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAQ
+              - text: "8"
+            - link "Page 9" [ref=e733] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=80&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAS
+              - text: "9"
+            - link "Page 10" [ref=e735] [cursor=pointer]:
+              - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=90&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8tMDegQISBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e737]:
+              - link "Seuraava" [ref=e738] [cursor=pointer]:
+                - /url: /search?q=behavioral+finance+mistakes+retail+investors+2025+2026+loss+aversion+recency+bias+herd+mentality+overconfidence+disposition+effect&sca_esv=abbb0aaa8824193d&ei=6HLRaav7HLSf1fIP9vrGqQI&start=10&sa=N&sstk=Af77f_dF_U11VZmT7ePvRrtkRQ3qTt4UXrfQt61YRIaoHX4DtCSGR3Lzy9UELaoWNzatuL8rsu4P7ced73VU_GXZy3mf_gxhdIp5dQ&ved=2ahUKEwirj-_8gtWTAxW0T1UIHXa9MSUQ8NMDegQISBAW
+                - generic [ref=e740]: Seuraava
+        - navigation
+    - contentinfo [ref=e741]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e742]
+      - generic [ref=e746]:
+        - generic [ref=e748]:
+          - text: Suomi
+          - generic [ref=e750]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e752] [cursor=pointer]:
+              - generic [ref=e753]: 00940, Helsinki
+              - generic [ref=e755]:
+                - text: "-"
+                - generic [ref=e756]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e758] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e761]:
+          - link "Ohje" [ref=e762] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e763] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e764] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e765] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

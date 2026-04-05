@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: VOO expense ratio 2026 Vanguard S&P 500 ETF VOO expense ratio 2026 Vanguard S&P 500 ETF
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DVOO%2Bexpense%2Bratio%2B2026%2BVanguard%2BS%2526P%2B500%2BETF&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQs6gLegQIFBAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQtKgLegQIExAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ0pQJegQIFRAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQs6gLegQIEhAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DVOO%2Bexpense%2Bratio%2B2026%2BVanguard%2BS%2526P%2B500%2BETF&hl=en&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQhoQCKAF6BAgKEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQiIQCKAN6BAgKEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "VOO-Vanguard S&P 500 ETF Vanguard https://investor.vanguard.com › etfs" [ref=e180] [cursor=pointer]:
+                  - /url: https://investor.vanguard.com/investment-products/etfs/profile/voo
+                  - heading "VOO-Vanguard S&P 500 ETF" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Vanguard
+                    - generic [ref=e190]: https://investor.vanguard.com › etfs
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://investor.vanguard.com/investment-products/etfs/profile/voo
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e201]:
+                - text: as of 04/01/2026. Market price. $602.30. as of 04/01/2026. Market price change. $4.75 (0.79%). as of 04/01/2026.
+                - emphasis [ref=e202]: Expense Ratio. 0.03
+                - text: "%. as of 04/29/2025. NAV ..."
+          - generic [ref=e206]:
+            - generic [ref=e209]:
+              - link "Vanguard S&P 500 ETF (VOO) Yahoo Finance https://finance.yahoo.com › quote" [ref=e211] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/quote/VOO/
+                - heading "Vanguard S&P 500 ETF (VOO)" [level=3] [ref=e212]
+                - generic [ref=e217]:
+                  - generic [ref=e219]: Yahoo Finance
+                  - generic [ref=e221]: https://finance.yahoo.com › quote
+              - generic [ref=e222]:
+                - generic [ref=e223]: ·
+                - link "Käännä tämä sivu" [ref=e224] [cursor=pointer]:
+                  - /url: https://finance.yahoo.com/quote/VOO/
+              - button "Tietoja tästä tuloksesta" [ref=e225] [cursor=pointer]:
+                - img [ref=e228]
+            - generic [ref=e232]:
+              - emphasis [ref=e233]: Vanguard S&P 500 ETF (VOO
+              - text: ) · 1.36% · -4.45% · -1.99% · -4.55% · 16.20% · 63.78% · 488.28%.
+          - generic [ref=e237]:
+            - generic [ref=e240]:
+              - link "Vanguard S&P 500 UCITS ETF (USD) Accumulating justETF https://www.justetf.com › etf-profile" [ref=e242] [cursor=pointer]:
+                - /url: https://www.justetf.com/en/etf-profile.html?isin=IE00BFMXXD54
+                - heading "Vanguard S&P 500 UCITS ETF (USD) Accumulating" [level=3] [ref=e243]
+                - generic [ref=e248]:
+                  - generic [ref=e250]: justETF
+                  - generic [ref=e252]: https://www.justetf.com › etf-profile
+              - generic [ref=e253]:
+                - generic [ref=e254]: ·
+                - link "Käännä tämä sivu" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.justetf.com/en/etf-profile.html?isin=IE00BFMXXD54
+              - button "Tietoja tästä tuloksesta" [ref=e256] [cursor=pointer]:
+                - img [ref=e259]
+            - generic [ref=e263]:
+              - text: The total
+              - emphasis [ref=e264]: expense ratio
+              - text: (TER) of
+              - emphasis [ref=e265]: Vanguard S&P 500
+              - text: UCITS
+              - emphasis [ref=e266]: ETF
+              - text: (USD) Accumulating amounts to 0.07% p.a.. These costs are withdrawn continuously from the fund ...
+          - generic [ref=e270]:
+            - generic [ref=e273]:
+              - link "VOO Costs Just 0.03% a Year and Tracks 500 of America's ... The Motley Fool https://www.fool.com › 2026/04/04" [ref=e275] [cursor=pointer]:
+                - /url: https://www.fool.com/investing/2026/04/04/voo-large-company-tough-market-value-stock/
+                - heading "VOO Costs Just 0.03% a Year and Tracks 500 of America's ..." [level=3] [ref=e276]
+                - generic [ref=e281]:
+                  - generic [ref=e283]: The Motley Fool
+                  - generic [ref=e285]: https://www.fool.com › 2026/04/04
+              - generic [ref=e286]:
+                - generic [ref=e287]: ·
+                - link "Käännä tämä sivu" [ref=e288] [cursor=pointer]:
+                  - /url: https://www.fool.com/investing/2026/04/04/voo-large-company-tough-market-value-stock/
+              - button "Tietoja tästä tuloksesta" [ref=e289] [cursor=pointer]:
+                - img [ref=e292]
+            - generic [ref=e295]:
+              - generic [ref=e296]: 11 tuntia sitten —
+              - generic [ref=e297]:
+                - emphasis [ref=e298]: VOO Costs Just 0.03% a Year
+                - text: and Tracks 500 of America's Largest Companies. A Tough Market Does Not Change That Value Proposition. As the S&P 500 ...
+          - generic [ref=e302]:
+            - generic [ref=e305]:
+              - link "VOO Stock Price Quote & News - Vanguard S&P 500 ETF Robinhood https://robinhood.com › Stocks" [ref=e307] [cursor=pointer]:
+                - /url: https://robinhood.com/stocks/VOO
+                - heading "VOO Stock Price Quote & News - Vanguard S&P 500 ETF" [level=3] [ref=e308]
+                - generic [ref=e313]:
+                  - generic [ref=e315]: Robinhood
+                  - generic [ref=e317]: https://robinhood.com › Stocks
+              - generic [ref=e318]:
+                - generic [ref=e319]: ·
+                - link "Käännä tämä sivu" [ref=e320] [cursor=pointer]:
+                  - /url: https://robinhood.com/stocks/VOO
+              - button "Tietoja tästä tuloksesta" [ref=e321] [cursor=pointer]:
+                - img [ref=e324]
+            - generic [ref=e328]:
+              - emphasis [ref=e329]: Expense ratio. 0.03
+              - text: . Expense ratio0.03. View Prospectus and Reports. Stock Snapshot. The current Vanguard S&P 500 ETF(VOO) stock price is $602.95, with a market ...
+          - generic [ref=e333]:
+            - generic [ref=e336]:
+              - link "VOO Index S&P 500 ETF - Vanguard for Advisors Vanguard for Advisors https://advisors.vanguard.com › va..." [ref=e338] [cursor=pointer]:
+                - /url: https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf
+                - heading "VOO Index S&P 500 ETF - Vanguard for Advisors" [level=3] [ref=e339]
+                - generic [ref=e344]:
+                  - generic [ref=e346]: Vanguard for Advisors
+                  - generic [ref=e348]: https://advisors.vanguard.com › va...
+              - generic [ref=e349]:
+                - generic [ref=e350]: ·
+                - link "Käännä tämä sivu" [ref=e351] [cursor=pointer]:
+                  - /url: https://advisors.vanguard.com/investments/products/voo/vanguard-sp-500-etf
+              - button "Tietoja tästä tuloksesta" [ref=e352] [cursor=pointer]:
+                - img [ref=e355]
+            - generic [ref=e359]:
+              - text: as of 04/01/2026. NAV CHANGE. $4.31 (0.72%). as of 04/01/2026.
+              - emphasis [ref=e360]: Expense ratio. 0.03
+              - text: "%. as of 04/29/2025. Is this the key fund data? Close ..."
+          - generic [ref=e364]:
+            - generic [ref=e367]:
+              - link "Vanguard S&P 500 ETF (USD), US9229083632 - VOO Cbonds https://cbonds.com › etf" [ref=e369] [cursor=pointer]:
+                - /url: https://cbonds.com/etf/33/
+                - heading "Vanguard S&P 500 ETF (USD), US9229083632 - VOO" [level=3] [ref=e370]
+                - generic [ref=e375]:
+                  - generic [ref=e377]: Cbonds
+                  - generic [ref=e379]: https://cbonds.com › etf
+              - generic [ref=e380]:
+                - generic [ref=e381]: ·
+                - link "Käännä tämä sivu" [ref=e382] [cursor=pointer]:
+                  - /url: https://cbonds.com/etf/33/
+              - button "Tietoja tästä tuloksesta" [ref=e383] [cursor=pointer]:
+                - img [ref=e386]
+            - generic [ref=e390]:
+              - text: Main exchange is NYSE Arca and ticker symbol is VOO. The
+              - emphasis [ref=e391]: total expense ratio is 0.03
+              - text: "%. The Vanguard S&P 500 ETF (USD) pays dividends 4 time(s) per year. Get ..."
+          - generic [ref=e395]:
+            - generic [ref=e398]:
+              - link "VOO – Price – Vanguard S&P 500 ETF Morningstar https://www.morningstar.com › arcx" [ref=e400] [cursor=pointer]:
+                - /url: https://www.morningstar.com/etfs/arcx/voo/price
+                - heading "VOO – Price – Vanguard S&P 500 ETF" [level=3] [ref=e401]
+                - generic [ref=e406]:
+                  - generic [ref=e408]: Morningstar
+                  - generic [ref=e410]: https://www.morningstar.com › arcx
+              - generic [ref=e411]:
+                - generic [ref=e412]: ·
+                - link "Käännä tämä sivu" [ref=e413] [cursor=pointer]:
+                  - /url: https://www.morningstar.com/etfs/arcx/voo/price
+              - button "Tietoja tästä tuloksesta" [ref=e414] [cursor=pointer]:
+                - img [ref=e417]
+            - generic [ref=e421]:
+              - text: The Adjusted
+              - emphasis [ref=e422]: Expense Ratio
+              - text: is the percentage of investment assets paid for operating expenses and management fees. In contrast to the gross
+              - emphasis [ref=e423]: expense ratio
+              - text: ", the ..."
+          - generic [ref=e427]:
+            - generic [ref=e430]:
+              - link "Vanguard S&P 500 ETF - VOO Stock Price Investing.com https://www.investing.com › etfs" [ref=e432] [cursor=pointer]:
+                - /url: https://www.investing.com/etfs/vanguard-s-p-500
+                - heading "Vanguard S&P 500 ETF - VOO Stock Price" [level=3] [ref=e433]
+                - generic [ref=e438]:
+                  - generic [ref=e440]: Investing.com
+                  - generic [ref=e442]: https://www.investing.com › etfs
+              - generic [ref=e443]:
+                - generic [ref=e444]: ·
+                - link "Käännä tämä sivu" [ref=e445] [cursor=pointer]:
+                  - /url: https://www.investing.com/etfs/vanguard-s-p-500
+              - button "Tietoja tästä tuloksesta" [ref=e446] [cursor=pointer]:
+                - img [ref=e449]
+            - generic [ref=e453]:
+              - text: "29.5304%. Day's Range: 593.03-604.79. 52-Week Range: 442.80-641.81. Market Cap. 422.40B."
+              - emphasis [ref=e454]: "Expense Ratio: 0.03"
+              - text: "%. Show More. Total Assets: 872.40B. Shares ..."
+          - generic [ref=e458]:
+            - generic [ref=e459]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e460]
+              - button "Tietoja tästä tuloksesta" [ref=e461] [cursor=pointer]:
+                - img [ref=e464]
+            - generic [ref=e466]:
+              - button "Is VOO still a good investment in 2026?" [ref=e472] [cursor=pointer]:
+                - generic [ref=e474]: Is VOO still a good investment in 2026?
+                - img [ref=e477]
+              - button "Is there an expense ratio for VOO?" [ref=e486] [cursor=pointer]:
+                - generic [ref=e488]: Is there an expense ratio for VOO?
+                - img [ref=e491]
+              - button "Is S&P 500 or VOO better?" [ref=e500] [cursor=pointer]:
+                - generic [ref=e502]: Is S&P 500 or VOO better?
+                - img [ref=e505]
+              - button "What is the 10 year return on VOO?" [ref=e514] [cursor=pointer]:
+                - generic [ref=e516]: What is the 10 year return on VOO?
+                - img [ref=e519]
+          - generic [ref=e524]:
+            - heading "Web results" [level=2] [ref=e525]
+            - generic [ref=e526]:
+              - generic [ref=e529]:
+                - link "Vanguard S&P 500 ETF Overview - VOO MarketWatch https://www.marketwatch.com › fund" [ref=e531] [cursor=pointer]:
+                  - /url: https://www.marketwatch.com/investing/fund/voo
+                  - heading "Vanguard S&P 500 ETF Overview - VOO" [level=3] [ref=e532]
+                  - generic [ref=e537]:
+                    - generic [ref=e539]: MarketWatch
+                    - generic [ref=e541]: https://www.marketwatch.com › fund
+                - generic [ref=e542]:
+                  - generic [ref=e543]: ·
+                  - link "Käännä tämä sivu" [ref=e544] [cursor=pointer]:
+                    - /url: https://www.marketwatch.com/investing/fund/voo
+                - button "Tietoja tästä tuloksesta" [ref=e545] [cursor=pointer]:
+                  - img [ref=e548]
+              - generic [ref=e551]:
+                - generic [ref=e552]: 2 päivää sitten —
+                - generic [ref=e553]:
+                  - text: Net
+                  - emphasis [ref=e554]: Expense Ratio
+                  - text: 0.03%; Turnover % 2%; Yield 1.18%; Dividend $1.87; Ex-Dividend Date Mar 27,
+                  - emphasis [ref=e555]: "2026"
+                  - text: ; Average Volume 10.74M. Lipper Leader. YTD ...
+        - generic [ref=e557]:
+          - generic [ref=e562]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e564]
+            - generic [ref=e566]:
+              - generic [ref=e567]:
+                - link "Vanguard s&p 500 stock" [ref=e571] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+s%26p+500+stock&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhKEAE
+                  - generic [ref=e572]:
+                    - generic [ref=e577]: Vanguard s&p 500 stock
+                    - img [ref=e581]
+                - link "Vanguard S&P 500 share price" [ref=e586] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+S%26P+500+share+price&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhcEAE
+                  - generic [ref=e587]:
+                    - generic [ref=e592]: Vanguard S&P 500 share price
+                    - img [ref=e596]
+                - link "VOO Vanguard S&P 500" [ref=e601] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=VOO+Vanguard+S%26P+500&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhaEAE
+                  - generic [ref=e602]:
+                    - generic [ref=e607]: VOO Vanguard S&P 500
+                    - img [ref=e611]
+                - link "VOO ETF" [ref=e616] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=VOO+ETF&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhXEAE
+                  - generic [ref=e617]:
+                    - generic [ref=e622]: VOO ETF
+                    - img [ref=e626]
+              - generic [ref=e628]:
+                - link "Vanguard S&P 500 ETF companies" [ref=e632] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+S%26P+500+ETF+companies&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhPEAE
+                  - generic [ref=e633]:
+                    - generic [ref=e638]: Vanguard S&P 500 ETF companies
+                    - img [ref=e642]
+                - link "Vanguard S&P 500 ETF Fact sheet" [ref=e647] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+S%26P+500+ETF+Fact+sheet&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhNEAE
+                  - generic [ref=e648]:
+                    - generic [ref=e653]: Vanguard S&P 500 ETF Fact sheet
+                    - img [ref=e657]
+                - link "Vanguard S&P 500 Index fund" [ref=e662] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Vanguard+S%26P+500+Index+fund&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhMEAE
+                  - generic [ref=e663]:
+                    - generic [ref=e668]: Vanguard S&P 500 Index fund
+                    - img [ref=e672]
+                - link "VOO ETF factsheet pdf" [ref=e677] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=VOO+ETF+factsheet+pdf&sa=X&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ1QJ6BAhLEAE
+                  - generic [ref=e678]:
+                    - generic [ref=e683]: VOO ETF factsheet pdf
+                    - img [ref=e687]
+          - navigation [ref=e689]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e690]
+            - text: "1"
+            - link "Page 2" [ref=e693] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=10&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAE
+              - text: "2"
+            - link "Page 3" [ref=e695] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=20&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAG
+              - text: "3"
+            - link "Page 4" [ref=e697] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=30&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAI
+              - text: "4"
+            - link "Page 5" [ref=e699] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=40&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAK
+              - text: "5"
+            - link "Page 6" [ref=e701] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=50&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAM
+              - text: "6"
+            - link "Page 7" [ref=e703] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=60&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAO
+              - text: "7"
+            - link "Page 8" [ref=e705] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=70&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAQ
+              - text: "8"
+            - link "Page 9" [ref=e707] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=80&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAS
+              - text: "9"
+            - link "Page 10" [ref=e709] [cursor=pointer]:
+              - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=90&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8tMDegQISBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e711]:
+              - link "Seuraava" [ref=e712] [cursor=pointer]:
+                - /url: /search?q=VOO+expense+ratio+2026+Vanguard+S%26P+500+ETF&sca_esv=f72dd7b5cfdb5d01&ei=enLRab3UJZatwPAP7v2wyQ8&start=10&sa=N&sstk=Af77f_fOOQ_8D0b-aN4uUyw_rcUk1uOSQ6o_b2JR6rnetb7bVKAeNP9odkseCgE0chSRjNd8Mo-9MTWz5JCKjZ-1E8fNIETZswT7Vw&ved=2ahUKEwi9-b3IgtWTAxWWFhAIHe4-LPkQ8NMDegQISBAW
+                - generic [ref=e714]: Seuraava
+        - navigation
+    - contentinfo [ref=e715]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e716]
+      - generic [ref=e720]:
+        - generic [ref=e722]:
+          - text: Suomi
+          - generic [ref=e724]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e726] [cursor=pointer]:
+              - generic [ref=e727]: 00940, Helsinki
+              - generic [ref=e729]:
+                - text: "-"
+                - generic [ref=e730]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e732] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e735]:
+          - link "Ohje" [ref=e736] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e737] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e738] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e739] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

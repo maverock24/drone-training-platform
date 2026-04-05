@@ -1,0 +1,21 @@
+[    5275ms] [LOG]  Initializing Smart Data Protector @ https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js:0
+[    5619ms] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'POWERED_BY')
+    at fetchTranslation (https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js:0:78948)
+[    5713ms] [LOG] Slimming: updating /Assets/img/logos/s-pankki-logo-107x46.svg?width=160&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5714ms] [LOG] Slimming: updating /Assets/img/logos/s-pankki-logo-107x46.svg?width=160&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5715ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/sasi/saastaminen-ja-sijoittaminen-yleiskuva-660x455.png?width=960&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5716ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/per-tieeri/s_luova_link_lifting_block_1055x660_2025_per_uusi.jpg?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5717ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/sasi/vrh-mobiili-yleiskuva-1055x660.jpg?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5717ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/sasi/varallisuudenhoito-pariskunta-1055x660.jpg?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5718ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/sasi/saastaminen-ja-sijoittaminen_nainen-ja-kissa-1055x660.png?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5719ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/yleiskuvat/adobestock_298665612_660x455.jpg?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5720ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/private-banking/wealth-planning_tiimi-1055x660.jpg?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5722ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/sasi/nain-aloitat-sijoittamisen-1055x660.png?width=160&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5722ms] [LOG] Slimming: updating /globalassets/media/uudet-kuvat/sasi/saastajasta-sijoittajaksi-1055x660.png?width=160&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5723ms] [LOG] Slimming: updating /link/270cf8ccddc74bf3bf116fe196519bd7.aspx?width=320&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5724ms] [LOG] Slimming: updating /globalassets/media/ikonit-ja-logot/emojit/ikoni-suoritettu-onnistuneesti_tummanvihrea-88x88.png?width=480&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5726ms] [LOG] Slimming: updating /globalassets/media/ikonit-ja-logot/emojit/ikoni-suoritettu-onnistuneesti_tummanvihrea-88x88.png?width=480&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5727ms] [LOG] Slimming: updating /globalassets/media/ikonit-ja-logot/emojit/ikoni-suoritettu-onnistuneesti_tummanvihrea-88x88.png?width=480&quality=90 @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    5727ms] [LOG] Slimmage: restored 12 images from noscript tags; sizing 15 images. 18ms @ https://www.s-pankki.fi/Assets/js/slimmage.min.js?v=QqUK0XaBlDK8dFdZkAvrN_mn7JCEwyANdF64mJJw9IU:0
+[    6732ms] ReferenceError: chatFormation is not defined
+    at <anonymous>:3:17

@@ -1,0 +1,377 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: build AI portfolio optimizer Python scikit-learn PyPortfolioOpt tutorial 2025 2026 build AI portfolio optimizer Python scikit-learn PyPortfolioOpt tutorial 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dbuild%2BAI%2Bportfolio%2Boptimizer%2BPython%2Bscikit-learn%2BPyPortfolioOpt%2Btutorial%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&aep=1&ntc=1&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Qs6gLegQIFBAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94QtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94QtKgLegQIEhAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q0pQJegQIEBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Qs6gLegQIDxAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dbuild%2BAI%2Bportfolio%2Boptimizer%2BPython%2Bscikit-learn%2BPyPortfolioOpt%2Btutorial%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94QhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94QiIQCKAN6BAgLEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "How to Optimize Portfolio Allocations with Python and ... LinkedIn · Suyash Dixit 4 reaktiota · 11 kuukautta sitten" [ref=e154] [cursor=pointer]:
+                - /url: https://www.linkedin.com/pulse/how-optimize-portfolio-allocations-python-machine-learning-dixit-1rgsc
+                - heading "How to Optimize Portfolio Allocations with Python and ..." [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: LinkedIn · Suyash Dixit
+                  - generic [ref=e164]: 4 reaktiota · 11 kuukautta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e172]:
+              - text: 1. Data Collection & Preprocessing 🗄️ · 2. Estimating Expected Returns & Risk ⚖️ · 3. Mean‑Variance
+              - emphasis [ref=e173]: Optimization
+              - text: with
+              - emphasis [ref=e174]: PyPortfolioOpt
+              - text: · 4.
+        - generic [ref=e178]:
+          - generic [ref=e181]:
+            - 'link "PyPortfolio/PyPortfolioOpt: Financial portfolio optimisation ... GitHub https://github.com › PyPortfolio › P..." [ref=e183] [cursor=pointer]':
+              - /url: https://github.com/PyPortfolio/PyPortfolioOpt
+              - 'heading "PyPortfolio/PyPortfolioOpt: Financial portfolio optimisation ..." [level=3] [ref=e184]'
+              - generic [ref=e189]:
+                - generic [ref=e191]: GitHub
+                - generic [ref=e193]: https://github.com › PyPortfolio › P...
+            - generic [ref=e194]:
+              - generic [ref=e195]: ·
+              - link "Käännä tämä sivu" [ref=e196] [cursor=pointer]:
+                - /url: https://github.com/PyPortfolio/PyPortfolioOpt
+            - button "Tietoja tästä tuloksesta" [ref=e197] [cursor=pointer]:
+              - img [ref=e200]
+          - generic [ref=e204]:
+            - emphasis [ref=e205]: PyPortfolioOpt
+            - text: is a library implementing portfolio optimization methods, including classical mean-variance optimization, Black-Litterman allocation, ...
+          - generic [ref=e207]:
+            - text: "Puuttuu: 2025 ‎| Hae tällä:"
+            - link "2025" [ref=e208] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+%222025%22+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q5t4CegQIIhAB
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - 'link "Mastering Portfolio Optimization: A Comprehensive Guide ... Medium · Cemal Öztürk, Ph.D. Yli 70 tykkäystä · 1 vuosi sitten" [ref=e217] [cursor=pointer]':
+              - /url: https://medium.com/@cemalozturk/mastering-portfolio-optimization-a-comprehensive-guide-with-python-9490b20cd980
+              - 'heading "Mastering Portfolio Optimization: A Comprehensive Guide ..." [level=3] [ref=e218]'
+              - generic [ref=e223]:
+                - generic [ref=e225]: Medium · Cemal Öztürk, Ph.D.
+                - generic [ref=e227]: Yli 70 tykkäystä · 1 vuosi sitten
+            - button "Tietoja tästä tuloksesta" [ref=e228] [cursor=pointer]:
+              - img [ref=e231]
+          - generic [ref=e235]:
+            - text: In this guide, we'll take a deep dive into the fundamentals of
+            - emphasis [ref=e236]: portfolio optimization using Python
+            - text: . We'll leverage the skfolio library, a comprehensive toolkit ...
+          - generic [ref=e238]:
+            - text: "Puuttuu: PyPortfolioOpt ‎| Hae tällä:"
+            - link "PyPortfolioOpt" [ref=e239] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=build+AI+portfolio+optimizer+Python+scikit-learn+%22PyPortfolioOpt%22+tutorial+2025+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q5t4CegQIIxAB
+        - generic [ref=e243]:
+          - generic [ref=e246]:
+            - link "Portfolio optimization in Python A free guide ... Threads https://www.threads.com › post › p..." [ref=e248] [cursor=pointer]:
+              - /url: https://www.threads.com/@quantscience_/post/DPEKo-RDbwD/portfolio-optimization-in-python-a-free-guide-with-pyportfolioopt-thread
+              - heading "Portfolio optimization in Python A free guide ..." [level=3] [ref=e249]
+              - generic [ref=e254]:
+                - generic [ref=e256]: Threads
+                - generic [ref=e258]: https://www.threads.com › post › p...
+            - generic [ref=e259]:
+              - generic [ref=e260]: ·
+              - link "Käännä tämä sivu" [ref=e261] [cursor=pointer]:
+                - /url: https://www.threads.com/@quantscience_/post/DPEKo-RDbwD/portfolio-optimization-in-python-a-free-guide-with-pyportfolioopt-thread
+            - button "Tietoja tästä tuloksesta" [ref=e262] [cursor=pointer]:
+              - img [ref=e265]
+          - generic [ref=e268]:
+            - generic [ref=e269]: 26.9.2025 —
+            - generic [ref=e270]:
+              - emphasis [ref=e271]: PyPortfolioOpt
+              - text: is a library that implements portfolio optimization methods, including classical efficient frontier techniques and ...
+          - generic [ref=e273]:
+            - text: "Puuttuu: scikit- ‎| Hae tällä:"
+            - link "scikit-" [ref=e274] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=build+AI+portfolio+optimizer+Python+%22scikit-%22+learn+PyPortfolioOpt+tutorial+2025+2026&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q5t4CegQIIRAB
+        - generic [ref=e281]:
+          - generic [ref=e284]:
+            - link "Build a Python Portfolio That Makes You Stand Out in 2025 ... YouTube · Code with Josh Yli 3,5 t. katselukertaa · 11 kuukautta sitten" [ref=e286] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=i5_iFatibRI
+              - heading "Build a Python Portfolio That Makes You Stand Out in 2025 ..." [level=3] [ref=e287]
+              - generic [ref=e292]:
+                - generic [ref=e294]: YouTube · Code with Josh
+                - generic [ref=e296]: Yli 3,5 t. katselukertaa · 11 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e297] [cursor=pointer]:
+              - img [ref=e300]
+          - generic [ref=e302]:
+            - 'button "Build a Python Portfolio That Makes You Stand Out in 2025 ..., tekijä: Code with Josh, alusta: YouTube. Katso Googlessa. 21:28" [ref=e303] [cursor=pointer]':
+              - generic [ref=e305]:
+                - img [ref=e311]
+                - generic [ref=e314]:
+                  - generic [ref=e315]: 21:28
+                  - img [ref=e318]
+            - generic [ref=e321]: Check out YourWare AI ~ https://www.yourware.so/?utm_source=joshwenner In this video, you'll learn how to make a Python portfolio that ...
+          - button "6 avainkohtaa tässä videossa" [ref=e326] [cursor=pointer]:
+            - generic [ref=e335]:
+              - generic [ref=e338]: 6 avainkohtaa tässä videossa
+              - img [ref=e340]
+          - generic [ref=e343]: "Puuttuu: optimizer ‎scikit- ‎PyPortfolioOpt"
+        - generic [ref=e347]:
+          - generic [ref=e350]:
+            - link "Introduction to Portfolio Analysis in Python Course DataCamp https://www.datacamp.com › courses" [ref=e352] [cursor=pointer]:
+              - /url: https://www.datacamp.com/courses/introduction-to-portfolio-analysis-in-python
+              - heading "Introduction to Portfolio Analysis in Python Course" [level=3] [ref=e353]
+              - generic [ref=e358]:
+                - generic [ref=e360]: DataCamp
+                - generic [ref=e362]: https://www.datacamp.com › courses
+            - generic [ref=e363]:
+              - generic [ref=e364]: ·
+              - link "Käännä tämä sivu" [ref=e365] [cursor=pointer]:
+                - /url: https://www.datacamp.com/courses/introduction-to-portfolio-analysis-in-python
+            - button "Tietoja tästä tuloksesta" [ref=e366] [cursor=pointer]:
+              - img [ref=e369]
+          - generic [ref=e373]:
+            - emphasis [ref=e374]: Learn how to calculate meaningful measures of risk and performance
+            - text: ", and how to compile an optimal portfolio for the desired risk and return trade-off."
+        - generic [ref=e378]:
+          - generic [ref=e381]:
+            - link "Quantitative Analysis and Algorithmic Trading with Python Tools In Plain English https://python.plainenglish.io › qua..." [ref=e383] [cursor=pointer]:
+              - /url: https://python.plainenglish.io/quantitative-analysis-and-algorithmic-trading-with-python-tools-2ae2742c9464
+              - heading "Quantitative Analysis and Algorithmic Trading with Python Tools" [level=3] [ref=e384]
+              - generic [ref=e389]:
+                - generic [ref=e391]: In Plain English
+                - generic [ref=e393]: https://python.plainenglish.io › qua...
+            - generic [ref=e394]:
+              - generic [ref=e395]: ·
+              - link "Käännä tämä sivu" [ref=e396] [cursor=pointer]:
+                - /url: https://python.plainenglish.io/quantitative-analysis-and-algorithmic-trading-with-python-tools-2ae2742c9464
+            - button "Tietoja tästä tuloksesta" [ref=e397] [cursor=pointer]:
+              - img [ref=e400]
+          - generic [ref=e403]:
+            - generic [ref=e404]: 15.4.2023 —
+            - generic [ref=e405]:
+              - text: Portfolio Management.
+              - emphasis [ref=e406]: Python can be used to manage and optimize investment portfolios
+              - text: using libraries such as PyPortfolioOpt and PortfolioLab.
+        - generic [ref=e410]:
+          - generic [ref=e413]:
+            - 'link "Python in the AI era: A strategic asset in modern investment ... The Inside Adviser https://insideadviser.com.au › pyth..." [ref=e415] [cursor=pointer]':
+              - /url: https://insideadviser.com.au/python-in-the-ai-era-a-strategic-asset-in-modern-investment-management/
+              - 'heading "Python in the AI era: A strategic asset in modern investment ..." [level=3] [ref=e416]'
+              - generic [ref=e421]:
+                - generic [ref=e423]: The Inside Adviser
+                - generic [ref=e425]: https://insideadviser.com.au › pyth...
+            - generic [ref=e426]:
+              - generic [ref=e427]: ·
+              - link "Käännä tämä sivu" [ref=e428] [cursor=pointer]:
+                - /url: https://insideadviser.com.au/python-in-the-ai-era-a-strategic-asset-in-modern-investment-management/
+            - button "Tietoja tästä tuloksesta" [ref=e429] [cursor=pointer]:
+              - img [ref=e432]
+          - generic [ref=e435]:
+            - generic [ref=e436]: 7.7.2025 —
+            - generic [ref=e437]:
+              - text: "Portfolio construction and optimisation:"
+              - emphasis [ref=e438]: Using Python libraries like PyPortfolioOpt
+              - text: or cvxpy, advisers can construct and optimise portfolios ...
+        - generic [ref=e442]:
+          - generic [ref=e443]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e444]
+            - button "Tietoja tästä tuloksesta" [ref=e445] [cursor=pointer]:
+              - img [ref=e448]
+          - generic [ref=e450]:
+            - button "How to create a portfolio for Python?" [ref=e456] [cursor=pointer]:
+              - generic [ref=e458]: How to create a portfolio for Python?
+              - img [ref=e461]
+            - button "What is portfolio optimization?" [ref=e470] [cursor=pointer]:
+              - generic [ref=e472]: What is portfolio optimization?
+              - img [ref=e475]
+        - generic [ref=e480]:
+          - heading "Web results" [level=2] [ref=e481]
+          - generic [ref=e482]:
+            - generic [ref=e485]:
+              - 'link "skfolio/skfolio: Python library for portfolio optimization built ... GitHub https://github.com › skfolio › skfolio" [ref=e487] [cursor=pointer]':
+                - /url: https://github.com/skfolio/skfolio
+                - 'heading "skfolio/skfolio: Python library for portfolio optimization built ..." [level=3] [ref=e488]'
+                - generic [ref=e493]:
+                  - generic [ref=e495]: GitHub
+                  - generic [ref=e497]: https://github.com › skfolio › skfolio
+              - generic [ref=e498]:
+                - generic [ref=e499]: ·
+                - link "Käännä tämä sivu" [ref=e500] [cursor=pointer]:
+                  - /url: https://github.com/skfolio/skfolio
+              - button "Tietoja tästä tuloksesta" [ref=e501] [cursor=pointer]:
+                - img [ref=e504]
+            - generic [ref=e508]:
+              - emphasis [ref=e509]: skfolio is a Python library for portfolio optimization
+              - text: and risk management built on top of scikit-learn. It offers a unified interface and tools compatible ...
+        - generic [ref=e513]:
+          - generic [ref=e516]:
+            - link "User Guide — PyPortfolioOpt 1.5.4 documentation PyPortfolioOpt https://pyportfolioopt.readthedocs.io › ..." [ref=e518] [cursor=pointer]:
+              - /url: https://pyportfolioopt.readthedocs.io/en/latest/UserGuide.html
+              - heading "User Guide — PyPortfolioOpt 1.5.4 documentation" [level=3] [ref=e519]
+              - generic [ref=e524]:
+                - generic [ref=e526]: PyPortfolioOpt
+                - generic [ref=e528]: https://pyportfolioopt.readthedocs.io › ...
+            - generic [ref=e529]:
+              - generic [ref=e530]: ·
+              - link "Käännä tämä sivu" [ref=e531] [cursor=pointer]:
+                - /url: https://pyportfolioopt.readthedocs.io/en/latest/UserGuide.html
+            - button "Tietoja tästä tuloksesta" [ref=e532] [cursor=pointer]:
+              - img [ref=e535]
+          - generic [ref=e539]:
+            - text: This is designed to be a practical
+            - emphasis [ref=e540]: guide
+            - text: ", mostly aimed at users who are interested in a quick way of optimally combining some assets (most likely stocks)."
+          - generic [ref=e542]: "Puuttuu: build ‎AI ‎scikit- ‎2025 ‎2026"
+      - generic [ref=e544]:
+        - generic [ref=e549]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e551]
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - link "Scikit-portfolio" [ref=e558] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Scikit-portfolio&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q1QJ6BAg4EAE
+                - generic [ref=e559]:
+                  - generic [ref=e564]: Scikit-portfolio
+                  - img [ref=e568]
+              - link "Skfolio Python" [ref=e573] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Skfolio+Python&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q1QJ6BAg6EAE
+                - generic [ref=e574]:
+                  - generic [ref=e579]: Skfolio Python
+                  - img [ref=e583]
+            - link "Open source portfolio optimization" [ref=e589] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Open+source+portfolio+optimization&sa=X&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q1QJ6BAg5EAE
+              - generic [ref=e590]:
+                - generic [ref=e595]: Open source portfolio optimization
+                - img [ref=e599]
+        - navigation [ref=e601]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e602]
+          - text: "1"
+          - link "Page 2" [ref=e605] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=10&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAE
+            - text: "2"
+          - link "Page 3" [ref=e607] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=20&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAG
+            - text: "3"
+          - link "Page 4" [ref=e609] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=30&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAI
+            - text: "4"
+          - link "Page 5" [ref=e611] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=40&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAK
+            - text: "5"
+          - link "Page 6" [ref=e613] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=50&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAM
+            - text: "6"
+          - link "Page 7" [ref=e615] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=60&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAO
+            - text: "7"
+          - link "Page 8" [ref=e617] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=70&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAQ
+            - text: "8"
+          - link "Page 9" [ref=e619] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=80&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAS
+            - text: "9"
+          - link "Page 10" [ref=e621] [cursor=pointer]:
+            - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=90&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8tMDegQINhAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e623]:
+            - link "Seuraava" [ref=e624] [cursor=pointer]:
+              - /url: /search?q=build+AI+portfolio+optimizer+Python+scikit-learn+PyPortfolioOpt+tutorial+2025+2026&sca_esv=f72dd7b5cfdb5d01&ei=Im3RaYuBM5iTwPAPj8O_8Q0&start=10&sa=N&sstk=Af77f_elO0hr1b4W6qTgHXlv7OMVfZny07wS3xedEs8L7oX61sWB6xJMN--euDKKMCOT3CYNaO-IuS4pjj4pu0ashHqjs3-WfJMRGw&ved=2ahUKEwiLmqO8_dSTAxWYCRAIHY_hL94Q8NMDegQINhAW
+              - generic [ref=e626]: Seuraava
+      - navigation
+    - contentinfo [ref=e627]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e628]
+      - generic [ref=e632]:
+        - generic [ref=e634]:
+          - text: Suomi
+          - generic [ref=e636]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e638] [cursor=pointer]:
+              - generic [ref=e639]: Helsinki
+              - generic [ref=e641]:
+                - text: "-"
+                - generic [ref=e642]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e644] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e647]:
+          - link "Ohje" [ref=e648] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e649] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e650] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e651] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

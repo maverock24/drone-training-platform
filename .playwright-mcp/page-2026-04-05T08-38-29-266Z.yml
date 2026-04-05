@@ -1,0 +1,81 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e4]:
+    - text: • 
+    - generic [ref=e5]:
+      - link "PTT - To front page" [ref=e7] [cursor=pointer]:
+        - /url: https://www.ptt.fi/
+        - img [ref=e8]
+        - generic [ref=e11]: PTT - To front page
+      - navigation "Main menu" [ref=e13]:
+        - button "Main menu" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: Main menu
+        - text:  
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - img [ref=e24]
+      - heading "Hups, pieleen meni! 404! Kokeile etsiä sisältöä hakutoiminnolla" [level=1] [ref=e28]
+      - paragraph [ref=e29]:
+        - link "Siirry etusivulle " [ref=e30] [cursor=pointer]:
+          - /url: https://www.ptt.fi/
+          - text: Siirry etusivulle
+          - generic [ref=e32]: 
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - heading "Tilaa tiedotteet" [level=2] [ref=e38]
+      - paragraph [ref=e40]: Tilaa tiedotteemme ja kutsumme STTInfo-palvelusta alla olevasta linkistä.
+      - paragraph [ref=e41]:
+        - link "Tilauslomakkeelle " [ref=e42] [cursor=pointer]:
+          - /url: https://www.sttinfo.fi/uutishuone/pellervon-taloustutkimus-ptt?publisherId=69819107&subscribe=
+          - text: Tilauslomakkeelle
+          - generic [ref=e44]: 
+    - generic [ref=e45]:
+      - heading "Tilaa uutiskirje" [level=2] [ref=e46]
+      - paragraph [ref=e48]: Lähetämme uutiskirjeen tärkeimmistä tutkimuksista ja ennusteista noin kerran kuukaudessa.
+      - paragraph [ref=e49]:
+        - link "Tilaa uutiskirje " [ref=e50] [cursor=pointer]:
+          - /url: http://uutiskirje.ptt.fi
+          - text: Tilaa uutiskirje
+          - generic [ref=e52]: 
+  - contentinfo [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - heading "Uudistuva Suomi tarvitsee luotettavaa tietoa taloudesta" [level=2] [ref=e56]
+        - list [ref=e57]:
+          - listitem [ref=e58]:
+            - link "Ennusteet" [ref=e59] [cursor=pointer]:
+              - /url: https://www.ptt.fi/ennusteet/
+          - listitem [ref=e60]:
+            - link "Tietoa meistä" [ref=e61] [cursor=pointer]:
+              - /url: https://www.ptt.fi/tietoa-pttsta/
+      - generic [ref=e62]:
+        - paragraph [ref=e63]: Pellervon taloustutkimus
+        - paragraph [ref=e64]: Eerikinkatu 28 A 00180 HELSINKI
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - link "Yhteystiedot ja laskutusohjeet" [ref=e67] [cursor=pointer]:
+              - /url: https://www.ptt.fi/yhteystiedot/
+            - text: •
+          - listitem [ref=e68]:
+            - link "Tietosuojaseloste" [ref=e69] [cursor=pointer]:
+              - /url: https://www.ptt.fi/tietosuojaseloste/
+            - text: •
+          - listitem [ref=e70]:
+            - link "Saavutettavuusseloste" [ref=e71] [cursor=pointer]:
+              - /url: https://www.ptt.fi/saavutettavuusseloste/
+      - generic [ref=e72]:
+        - img [ref=e74]
+        - list [ref=e77]:
+          - listitem [ref=e78]:
+            - link [ref=e79] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/pellervo-taloustutkimus-ptt-pellervo-economic-research/
+              - generic [ref=e80]: 
+          - listitem [ref=e81]:
+            - link [ref=e82] [cursor=pointer]:
+              - /url: https://twitter.com/PTTfi
+              - generic [ref=e83]: 
+          - listitem [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.instagram.com/ptt_ry/
+              - generic [ref=e86]: 

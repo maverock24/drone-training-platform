@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: ETF verotus Suomessa rahastojen verotus tuotto-osuus kasvuosuus 2026 ETF verotus Suomessa rahastojen verotus tuotto-osuus kasvuosuus 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DETF%2Bverotus%2BSuomessa%2Brahastojen%2Bverotus%2Btuotto-osuus%2Bkasvuosuus%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sca_esv=abbb0aaa8824193d&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ0pQJegQIERAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "ETF:ien verotus Sijoittaja.fi https://www.sijoittaja.fi › ... › ETF-sijoittaminen" [ref=e222] [cursor=pointer]:
+                  - /url: https://www.sijoittaja.fi/sijoittaminen/mika-on-etf/etfien-verotus/
+                  - heading "ETF:ien verotus" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Sijoittaja.fi
+                    - generic [ref=e232]: https://www.sijoittaja.fi › ... › ETF-sijoittaminen
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e240]:
+                - text: Verotuksessa
+                - emphasis [ref=e241]: tuotto
+                - text: "-"
+                - emphasis [ref=e242]: osuus
+                - text: on 100%:sesti verotettavaa pääomatuloa. Ulkomaalaisesta
+                - emphasis [ref=e243]: ETF
+                - text: "-rahastosta saatavan tulon verotukseen vaikuttaa Suomen sisäisen ..."
+              - generic [ref=e245]:
+                - text: "Puuttuu: kasvuosuus ‎| Hae tällä:"
+                - link "kasvuosuus" [ref=e246] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+%22kasvuosuus%22+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ5t4CegQIGRAB
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e252]
+              - button "Tietoja tästä tuloksesta" [ref=e253] [cursor=pointer]:
+                - img [ref=e256]
+            - generic [ref=e258]:
+              - button "Miten ETF verotus?" [ref=e264] [cursor=pointer]:
+                - generic [ref=e266]: Miten ETF verotus?
+                - img [ref=e269]
+              - button "Onko ETF sijoitusrahasto osuus?" [ref=e278] [cursor=pointer]:
+                - generic [ref=e280]: Onko ETF sijoitusrahasto osuus?
+                - img [ref=e283]
+              - button "Paljonko rahastoista maksetaan veroa?" [ref=e292] [cursor=pointer]:
+                - generic [ref=e294]: Paljonko rahastoista maksetaan veroa?
+                - img [ref=e297]
+              - button "Meneekö rahastoista automaattisesti vero?" [ref=e306] [cursor=pointer]:
+                - generic [ref=e308]: Meneekö rahastoista automaattisesti vero?
+                - img [ref=e311]
+          - generic [ref=e316]:
+            - heading "Tulokset internetistä" [level=2] [ref=e317]
+            - generic [ref=e318]:
+              - generic [ref=e321]:
+                - 'link "ETF rahasto 2026: Sijoittajan opas pörssinoteerattuihin ... nesteosake.com https://nesteosake.com › etf-rahasto" [ref=e323] [cursor=pointer]':
+                  - /url: https://nesteosake.com/etf-rahasto/
+                  - 'heading "ETF rahasto 2026: Sijoittajan opas pörssinoteerattuihin ..." [level=3] [ref=e324]'
+                  - generic [ref=e329]:
+                    - generic [ref=e331]: nesteosake.com
+                    - generic [ref=e333]: https://nesteosake.com › etf-rahasto
+                - button "Tietoja tästä tuloksesta" [ref=e334] [cursor=pointer]:
+                  - img [ref=e337]
+              - generic [ref=e341]:
+                - emphasis [ref=e342]: Verotus
+                - text: ja
+                - emphasis [ref=e343]: ETF
+                - text: "-säästäminen"
+                - emphasis [ref=e344]: Suomessa
+                - text: .
+                - emphasis [ref=e345]: Suomessa
+                - text: asuvalle sijoittajalle
+                - emphasis [ref=e346]: ETF
+                - text: "-"
+                - emphasis [ref=e347]: rahastojen verotus
+                - text: määräytyy pitkälti sen mukaan, onko kyseessä
+                - emphasis [ref=e348]: tuotto
+                - text: "- vai"
+                - emphasis [ref=e349]: kasvuosuus
+                - text: .
+          - generic [ref=e353]:
+            - generic [ref=e356]:
+              - link "Osingot uudelleensijoittava ETF – kannattaako sittenkään? nordnet.fi https://www.nordnet.fi › Nordnet Koulu › ETF" [ref=e358] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/koulu/osingot-uudelleensijoittava-etf
+                - heading "Osingot uudelleensijoittava ETF – kannattaako sittenkään?" [level=3] [ref=e359]
+                - generic [ref=e364]:
+                  - generic [ref=e366]: nordnet.fi
+                  - generic [ref=e368]: https://www.nordnet.fi › Nordnet Koulu › ETF
+              - button "Tietoja tästä tuloksesta" [ref=e369] [cursor=pointer]:
+                - img [ref=e372]
+            - generic [ref=e376]:
+              - text: Sijoitusrahastot ja
+              - emphasis [ref=e377]: ETF
+              - text: :t eivät tavallisesti maksa veroja rahastoihin kertyvästä osinko- tai korkotuotosta. Tämä pätee myös Irlantiin rekisteröityihin
+              - emphasis [ref=e378]: ETF
+              - text: :iin.
+            - generic [ref=e380]:
+              - text: "Puuttuu: kasvuosuus ‎| Hae tällä:"
+              - link "kasvuosuus" [ref=e381] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+%22kasvuosuus%22+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ5t4CegQIWRAB
+          - generic [ref=e385]:
+            - generic [ref=e388]:
+              - 'link "ETF-rahasto: opas aloittelijoille 2026 Alliez.fi https://www.alliez.fi › blogi › etfrahasto" [ref=e390] [cursor=pointer]':
+                - /url: https://www.alliez.fi/blogi/etfrahasto
+                - 'heading "ETF-rahasto: opas aloittelijoille 2026" [level=3] [ref=e391]'
+                - generic [ref=e396]:
+                  - generic [ref=e398]: Alliez.fi
+                  - generic [ref=e400]: https://www.alliez.fi › blogi › etfrahasto
+              - button "Tietoja tästä tuloksesta" [ref=e401] [cursor=pointer]:
+                - img [ref=e404]
+            - generic [ref=e408]:
+              - emphasis [ref=e409]: Etf
+              - text: "-"
+              - emphasis [ref=e410]: rahastojen verotus
+              - text: toimii
+              - emphasis [ref=e411]: Suomessa
+              - text: samalla tavalla kuin muidenkin sijoitusten. Kun myyt osuuksia voitolla, maksat pääomatuloveroa. Vuonna
+              - emphasis [ref=e412]: "2026"
+              - text: veroaste on ...
+            - generic [ref=e414]:
+              - text: "Puuttuu: kasvuosuus ‎| Hae tällä:"
+              - link "kasvuosuus" [ref=e415] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+%22kasvuosuus%22+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ5t4CegQIVBAB
+          - generic [ref=e419]:
+            - generic [ref=e422]:
+              - 'link "Sijoittamisen verotus 2025: Mitä jokaisen tulee tietää Kvarn X https://www.kvarnx.com › sisallot › sijoittamisen-verotu..." [ref=e424] [cursor=pointer]':
+                - /url: https://www.kvarnx.com/fi/sisallot/sijoittamisen-verotus-2025-mitae-jokaisen-tulee-tietaeae
+                - 'heading "Sijoittamisen verotus 2025: Mitä jokaisen tulee tietää" [level=3] [ref=e425]'
+                - generic [ref=e430]:
+                  - generic [ref=e432]: Kvarn X
+                  - generic [ref=e434]: https://www.kvarnx.com › sisallot › sijoittamisen-verotu...
+              - button "Tietoja tästä tuloksesta" [ref=e435] [cursor=pointer]:
+                - img [ref=e438]
+            - generic [ref=e441]:
+              - generic [ref=e442]: 20.10.2025 —
+              - generic [ref=e443]:
+                - text: Jos kyseessä on
+                - emphasis [ref=e444]: tuotto
+                - text: "-"
+                - emphasis [ref=e445]: osuus
+                - text: tai tuottoa jakava
+                - emphasis [ref=e446]: ETF
+                - text: "-osuussarja, tuotot maksetaan sijoittajalle ulos ja ne verotetaan vuosittain pääomatulona."
+          - generic [ref=e450]:
+            - generic [ref=e453]:
+              - link "Rahastojen verotus Suomessa - tässä tärkeimmät seikat SalkunRakentaja https://www.salkunrakentaja.fi › ... › Rahastotietoa" [ref=e455] [cursor=pointer]:
+                - /url: https://www.salkunrakentaja.fi/2025/05/rahastojen-verotus-tarkeimmat/
+                - heading "Rahastojen verotus Suomessa - tässä tärkeimmät seikat" [level=3] [ref=e456]
+                - generic [ref=e461]:
+                  - generic [ref=e463]: SalkunRakentaja
+                  - generic [ref=e465]: https://www.salkunrakentaja.fi › ... › Rahastotietoa
+              - button "Tietoja tästä tuloksesta" [ref=e466] [cursor=pointer]:
+                - img [ref=e469]
+            - generic [ref=e472]:
+              - generic [ref=e473]: 8.5.2025 —
+              - generic [ref=e474]:
+                - emphasis [ref=e475]: Tuotto
+                - text: "-osuuksista maksetut vuosittaiset tuotot verotetaan välittömästi 30 prosentin ennakonpidätyksellä, kun taas kasvuosuuksien"
+                - emphasis [ref=e476]: tuotto
+                - text: jää ...
+            - generic [ref=e478]:
+              - text: "Puuttuu: kasvuosuus ‎| Hae tällä:"
+              - link "kasvuosuus" [ref=e479] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+%22kasvuosuus%22+2026&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ5t4CegQIVhAB
+          - generic [ref=e483]:
+            - generic [ref=e486]:
+              - link "ETF-rahastot ja ETF-sijoittaminen | Näin pääset alkuun Nordea https://www.nordea.fi › Säästäminen ja sijoittaminen" [ref=e488] [cursor=pointer]:
+                - /url: https://www.nordea.fi/henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/etf-rahastot.html
+                - heading "ETF-rahastot ja ETF-sijoittaminen | Näin pääset alkuun" [level=3] [ref=e489]
+                - generic [ref=e494]:
+                  - generic [ref=e496]: Nordea
+                  - generic [ref=e498]: https://www.nordea.fi › Säästäminen ja sijoittaminen
+              - button "Tietoja tästä tuloksesta" [ref=e499] [cursor=pointer]:
+                - img [ref=e502]
+            - generic [ref=e506]:
+              - emphasis [ref=e507]: ETF
+              - text: "-"
+              - emphasis [ref=e508]: rahaston tuotto
+              - text: on käytännössä vertailuindeksin
+              - emphasis [ref=e509]: tuotto
+              - text: vähennettynä
+              - emphasis [ref=e510]: rahaston
+              - text: hallinnointipalkkiolla ja muilla kuluilla. Jos
+              - emphasis [ref=e511]: rahaston
+              - text: sijoitukset kasvavat ...
+          - generic [ref=e515]:
+            - generic [ref=e518]:
+              - link "Sijoitusrahasto-osuudet Vero.fi https://www.vero.fi › sijoitukset › sijoitusrahastoosuude" [ref=e520] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/sijoitusrahastoosuude/
+                - heading "Sijoitusrahasto-osuudet" [level=3] [ref=e521]
+                - generic [ref=e526]:
+                  - generic [ref=e528]: Vero.fi
+                  - generic [ref=e530]: https://www.vero.fi › sijoitukset › sijoitusrahastoosuude
+              - button "Tietoja tästä tuloksesta" [ref=e531] [cursor=pointer]:
+                - img [ref=e534]
+            - generic [ref=e537]:
+              - generic [ref=e538]: 20.12.2024 —
+              - generic [ref=e539]:
+                - text: Sijoitusrahasto-osuudelle maksettu vuotuinen
+                - emphasis [ref=e540]: tuotto
+                - text: verotetaan pääomatulona. Myös osuuksien myyntivoitto on pääomatuloa.
+            - generic [ref=e542]:
+              - text: "Puuttuu: 2026 ‎| Hae tällä:"
+              - link "2026" [ref=e543] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+%222026%22&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ5t4CegQIVxAB
+          - generic [ref=e547]:
+            - generic [ref=e550]:
+              - link "Veromuutoksia 2026 - Veronmaksajain Keskusliitto ry Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › veromuutokset › verom..." [ref=e552] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/tutkimus-ja-tilastot/suomen-verot-ja-menot/veromuutokset/veromuutoksia-2026/
+                - heading "Veromuutoksia 2026 - Veronmaksajain Keskusliitto ry" [level=3] [ref=e553]
+                - generic [ref=e558]:
+                  - generic [ref=e560]: Veronmaksajain Keskusliitto
+                  - generic [ref=e562]: https://www.veronmaksajat.fi › veromuutokset › verom...
+              - button "Tietoja tästä tuloksesta" [ref=e563] [cursor=pointer]:
+                - img [ref=e566]
+            - generic [ref=e569]:
+              - generic [ref=e570]: 22.9.2025 —
+              - generic [ref=e571]:
+                - text: Miten
+                - emphasis [ref=e572]: verotus
+                - text: muuttuu vuonna
+                - emphasis [ref=e573]: "2026"
+                - text: "? Kooste perustuu pääministeri Petteri Orpon hallituksen budjettiesitykseen sekä loppuvuoden 2025 aikana ..."
+            - generic [ref=e575]: "Puuttuu: ETF ‎rahastojen ‎tuotto- ‎kasvuosuus"
+          - generic [ref=e579]:
+            - generic [ref=e582]:
+              - link "Rahastot ja verotus – miten rahastoja verotetaan? OP https://www.op.fi › henkiloasiakkaat › saastot-ja-sijoitukset" [ref=e584] [cursor=pointer]:
+                - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/rahastot/rahastot-ja-verotus
+                - heading "Rahastot ja verotus – miten rahastoja verotetaan?" [level=3] [ref=e585]
+                - generic [ref=e590]:
+                  - generic [ref=e592]: OP
+                  - generic [ref=e594]: https://www.op.fi › henkiloasiakkaat › saastot-ja-sijoitukset
+              - button "Tietoja tästä tuloksesta" [ref=e595] [cursor=pointer]:
+                - img [ref=e598]
+            - generic [ref=e602]:
+              - text: Kattava opas
+              - emphasis [ref=e603]: rahastojen
+              - text: "verotuksesta: ymmärrä ero"
+              - emphasis [ref=e604]: tuotto
+              - text: "- ja kasvuosuuden verotuksessa, FIFO-periaatteen merkityksestä ja milloin veroa ei tarvitse maksaa."
+            - generic [ref=e606]:
+              - text: "Puuttuu: 2026 ‎| Hae tällä:"
+              - link "2026" [ref=e607] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+%222026%22&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ5t4CegQIWhAB
+        - generic [ref=e609]:
+          - generic [ref=e614]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e616]
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - link "Nordnet ETF verotus" [ref=e623] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Nordnet+ETF+verotus&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhfEAE
+                  - generic [ref=e624]:
+                    - generic [ref=e629]: Nordnet ETF verotus
+                    - img [ref=e633]
+                - link "Kuukausittain osinkoa maksavat ETF" [ref=e638] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Kuukausittain+osinkoa+maksavat+ETF&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhkEAE
+                  - generic [ref=e639]:
+                    - generic [ref=e644]: Kuukausittain osinkoa maksavat ETF
+                    - img [ref=e648]
+                - link "Parhaat osinko-ETF" [ref=e653] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Parhaat+osinko-ETF&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhjEAE
+                  - generic [ref=e654]:
+                    - generic [ref=e659]: Parhaat osinko-ETF
+                    - img [ref=e663]
+                - link "ETF tuotto-osuus verotus" [ref=e668] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+tuotto-osuus+verotus&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhiEAE
+                  - generic [ref=e669]:
+                    - generic [ref=e674]: ETF tuotto-osuus verotus
+                    - img [ref=e678]
+              - generic [ref=e680]:
+                - link "Osingot ulos maksava etf" [ref=e684] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Osingot+ulos+maksava+etf&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhhEAE
+                  - generic [ref=e685]:
+                    - generic [ref=e690]: Osingot ulos maksava etf
+                    - img [ref=e694]
+                - link "Osinko ETF Nordnet" [ref=e699] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=Osinko+ETF+Nordnet&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhdEAE
+                  - generic [ref=e700]:
+                    - generic [ref=e705]: Osinko ETF Nordnet
+                    - img [ref=e709]
+                - link "ETF lähdevero" [ref=e714] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF+l%C3%A4hdevero&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAheEAE
+                  - generic [ref=e715]:
+                    - generic [ref=e720]: ETF lähdevero
+                    - img [ref=e724]
+                - link "ETF-rahastot Nordnet" [ref=e729] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=ETF-rahastot+Nordnet&sa=X&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ1QJ6BAhgEAE
+                  - generic [ref=e730]:
+                    - generic [ref=e735]: ETF-rahastot Nordnet
+                    - img [ref=e739]
+          - navigation [ref=e741]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e742]
+            - text: "1"
+            - link "Page 2" [ref=e745] [cursor=pointer]:
+              - /url: /search?q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=tXrRaY3aJKX9wPAPndijkQw&start=10&sa=N&sstk=Af77f_eR_Hyj9w8hmuxFvXZ-pblnpb00T9pKGVnSNKpSjoYiUu2hW2rUtMBIAzUwC1_rmpvqqzuM9lxEoqsrBAJc_UogQoj1VhT30g&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ8tMDegQIWxAE
+              - text: "2"
+            - link "Page 3" [ref=e747] [cursor=pointer]:
+              - /url: /search?q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=tXrRaY3aJKX9wPAPndijkQw&start=20&sa=N&sstk=Af77f_eR_Hyj9w8hmuxFvXZ-pblnpb00T9pKGVnSNKpSjoYiUu2hW2rUtMBIAzUwC1_rmpvqqzuM9lxEoqsrBAJc_UogQoj1VhT30g&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ8tMDegQIWxAG
+              - text: "3"
+            - link "Page 4" [ref=e749] [cursor=pointer]:
+              - /url: /search?q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=tXrRaY3aJKX9wPAPndijkQw&start=30&sa=N&sstk=Af77f_eR_Hyj9w8hmuxFvXZ-pblnpb00T9pKGVnSNKpSjoYiUu2hW2rUtMBIAzUwC1_rmpvqqzuM9lxEoqsrBAJc_UogQoj1VhT30g&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ8tMDegQIWxAI
+              - text: "4"
+            - link "Page 5" [ref=e751] [cursor=pointer]:
+              - /url: /search?q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=tXrRaY3aJKX9wPAPndijkQw&start=40&sa=N&sstk=Af77f_eR_Hyj9w8hmuxFvXZ-pblnpb00T9pKGVnSNKpSjoYiUu2hW2rUtMBIAzUwC1_rmpvqqzuM9lxEoqsrBAJc_UogQoj1VhT30g&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ8tMDegQIWxAK
+              - text: "5"
+            - heading "Seuraava" [level=2] [ref=e753]:
+              - link "Seuraava" [ref=e754] [cursor=pointer]:
+                - /url: /search?q=ETF+verotus+Suomessa+rahastojen+verotus+tuotto-osuus+kasvuosuus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=tXrRaY3aJKX9wPAPndijkQw&start=10&sa=N&sstk=Af77f_eR_Hyj9w8hmuxFvXZ-pblnpb00T9pKGVnSNKpSjoYiUu2hW2rUtMBIAzUwC1_rmpvqqzuM9lxEoqsrBAJc_UogQoj1VhT30g&ved=2ahUKEwjNiJa1itWTAxWlPhAIHR3sKMIQ8NMDegQIWxAM
+                - generic [ref=e756]: Seuraava
+        - navigation
+    - contentinfo [ref=e757]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e758]
+      - generic [ref=e762]:
+        - generic [ref=e764]:
+          - text: Suomi
+          - generic [ref=e766]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e768] [cursor=pointer]:
+              - generic [ref=e769]: 00940, Helsinki
+              - generic [ref=e771]:
+                - text: "-"
+                - generic [ref=e772]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e774] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e777]:
+          - link "Ohje" [ref=e778] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e779] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e780] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e781] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

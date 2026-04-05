@@ -1,0 +1,373 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: vuokra yksiö Helsinki 2026 keskivuokra postinumero vuokra yksiö Helsinki 2026 keskivuokra postinumero
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dvuokra%2Byksi%25C3%25B6%2BHelsinki%2B2026%2Bkeskivuokra%2Bpostinumero%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ2J8OegQIDxAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQtKgLegQIERAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQtKgLegQIFhAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQs6gLegQIEhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Miettii Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Miettii
+            - generic [ref=e156]: Haetaan
+            - generic [ref=e166]: Odota vielä hetki
+        - progressbar [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - heading "Tulokset internetistä" [level=2] [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - 'link "Vuokra-asunnot yksiöt: 1 762 kpl - Helsinki Vuokraovi.com https://www.vuokraovi.com › helsinki › keskusta › yksio" [ref=e224] [cursor=pointer]':
+                  - /url: https://www.vuokraovi.com/vuokra-asunnot/helsinki/helsinki/keskusta/yksio
+                  - 'heading "Vuokra-asunnot yksiöt: 1 762 kpl - Helsinki" [level=3] [ref=e225]'
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: Vuokraovi.com
+                    - generic [ref=e234]: https://www.vuokraovi.com › helsinki › keskusta › yksio
+                - button "Tietoja tästä tuloksesta" [ref=e235] [cursor=pointer]:
+                  - img [ref=e238]
+              - generic [ref=e242]:
+                - text: Ilmoitamme sinulle heti, kun toiveidesi mukaisia asuntoja tulee myyntiin. Mietityttääkö asunnon
+                - emphasis [ref=e243]: vuokra
+                - text: "? Laske asunnon"
+                - emphasis [ref=e244]: vuokra
+                - text: "-arvio."
+          - generic [ref=e248]:
+            - generic [ref=e249]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e250]
+              - button "Tietoja tästä tuloksesta" [ref=e251] [cursor=pointer]:
+                - img [ref=e254]
+            - generic [ref=e256]:
+              - button "Mikä on yksiön keskimääräinen vuokrahinta?" [ref=e262] [cursor=pointer]:
+                - generic [ref=e264]: Mikä on yksiön keskimääräinen vuokrahinta?
+                - img [ref=e267]
+              - button "Kenelle Hekan asunnot on tarkoitettu?" [ref=e276] [cursor=pointer]:
+                - generic [ref=e278]: Kenelle Hekan asunnot on tarkoitettu?
+                - img [ref=e281]
+              - button "Paljonko on kohtuullinen vuokra?" [ref=e290] [cursor=pointer]:
+                - generic [ref=e292]: Paljonko on kohtuullinen vuokra?
+                - img [ref=e295]
+              - button "Missä on Suomen halvimmat vuokrat?" [ref=e304] [cursor=pointer]:
+                - generic [ref=e306]: Missä on Suomen halvimmat vuokrat?
+                - img [ref=e309]
+          - generic [ref=e314]:
+            - heading "Tulokset internetistä" [level=2] [ref=e315]
+            - generic [ref=e316]:
+              - generic [ref=e319]:
+                - 'link "Vuokra-asunnot: Keskusta, Helsinki 122 kpl Oikotie Asunnot https://asunnot.oikotie.fi › Vuokra-asunnot › Helsinki" [ref=e321] [cursor=pointer]':
+                  - /url: https://asunnot.oikotie.fi/vuokra-asunnot/helsinki/keskusta
+                  - 'heading "Vuokra-asunnot: Keskusta, Helsinki 122 kpl" [level=3] [ref=e322]'
+                  - generic [ref=e327]:
+                    - generic [ref=e329]: Oikotie Asunnot
+                    - generic [ref=e331]: https://asunnot.oikotie.fi › Vuokra-asunnot › Helsinki
+                - button "Tietoja tästä tuloksesta" [ref=e332] [cursor=pointer]:
+                  - img [ref=e335]
+              - generic [ref=e339]:
+                - text: Oikotieltä löydät
+                - emphasis [ref=e340]: vuokra
+                - text: "-asunnot alueella Keskusta,"
+                - emphasis [ref=e341]: Helsinki
+                - text: . Oikotie on Suomen suosituin asuntopalvelu. Suurin valikoima vuokrakoteja. Löydä unelmakotisi!
+              - generic [ref=e343]:
+                - text: "Puuttuu: postinumero ‎| Hae tällä:"
+                - link "postinumero" [ref=e344] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+%22postinumero%22&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ5t4CegQIWRAB
+          - generic [ref=e348]:
+            - generic [ref=e351]:
+              - link "Vapaarahoitteisten vuokra-asuntojen keskineliövuokrat ... Tilastokeskus https://pxdata.stat.fi › pxweb › StatFin › StatFin__asvu" [ref=e353] [cursor=pointer]:
+                - /url: https://pxdata.stat.fi/PxWeb/pxweb/fi/StatFin/StatFin__asvu/statfin_asvu_pxt_13eb.px/
+                - heading "Vapaarahoitteisten vuokra-asuntojen keskineliövuokrat ..." [level=3] [ref=e354]
+                - generic [ref=e359]:
+                  - generic [ref=e361]: Tilastokeskus
+                  - generic [ref=e363]: https://pxdata.stat.fi › pxweb › StatFin › StatFin__asvu
+              - button "Tietoja tästä tuloksesta" [ref=e364] [cursor=pointer]:
+                - img [ref=e367]
+            - generic [ref=e371]:
+              - text: Vapaarahoitteisten
+              - emphasis [ref=e372]: vuokra
+              - text: "-asuntojen keskineliövuokrat postinumeroalueittain muuttujina Vuosineljännes,"
+              - emphasis [ref=e373]: Postinumero
+              - text: ", Huoneluku ja Tiedot."
+          - generic [ref=e377]:
+            - generic [ref=e380]:
+              - 'link "Vuokra-asunnot yksiöt Helsinki: 1 758 kpl Vuokraovi.com https://www.vuokraovi.com › helsinki › yksio" [ref=e382] [cursor=pointer]':
+                - /url: https://www.vuokraovi.com/vuokra-asunnot/helsinki/yksio
+                - 'heading "Vuokra-asunnot yksiöt Helsinki: 1 758 kpl" [level=3] [ref=e383]'
+                - generic [ref=e388]:
+                  - generic [ref=e390]: Vuokraovi.com
+                  - generic [ref=e392]: https://www.vuokraovi.com › helsinki › yksio
+              - button "Tietoja tästä tuloksesta" [ref=e393] [cursor=pointer]:
+                - img [ref=e396]
+            - generic [ref=e400]:
+              - text: Ilmoitamme sinulle heti, kun toiveidesi mukaisia asuntoja tulee myyntiin. Mietityttääkö asunnon
+              - emphasis [ref=e401]: vuokra
+              - text: "? Laske asunnon"
+              - emphasis [ref=e402]: vuokra
+              - text: "-arvio."
+            - generic [ref=e404]: "Puuttuu: keskivuokra ‎postinumero"
+          - generic [ref=e408]:
+            - generic [ref=e411]:
+              - link "Vuokrat - Asuntojen hintatiedot Asuntojen hintatiedot https://asuntojen.hintatiedot.fi › haku › vuokratiedot" [ref=e413] [cursor=pointer]:
+                - /url: https://asuntojen.hintatiedot.fi/haku/vuokratiedot
+                - heading "Vuokrat - Asuntojen hintatiedot" [level=3] [ref=e414]
+                - generic [ref=e419]:
+                  - generic [ref=e421]: Asuntojen hintatiedot
+                  - generic [ref=e423]: https://asuntojen.hintatiedot.fi › haku › vuokratiedot
+              - button "Tietoja tästä tuloksesta" [ref=e424] [cursor=pointer]:
+                - img [ref=e427]
+            - generic [ref=e430]: Ennen kuviohakua valitse kunta ja neliö- tai kuukausivuokra. Tarkemman aluevalinnan voit tehdä postinumerovalikosta. Haku tuo näkyviin pylväskuvion, johon on ...
+          - generic [ref=e434]:
+            - generic [ref=e437]:
+              - 'link "Asunnot: Helsinki, vuokra TA.fi https://ta.fi › asunnot › etsi-asuntoa › housingTypes=vu..." [ref=e439] [cursor=pointer]':
+                - /url: https://ta.fi/asunnot/etsi-asuntoa/?cities=helsinki&housingTypes=vuokra
+                - 'heading "Asunnot: Helsinki, vuokra" [level=3] [ref=e440]'
+                - generic [ref=e445]:
+                  - generic [ref=e447]: TA.fi
+                  - generic [ref=e449]: https://ta.fi › asunnot › etsi-asuntoa › housingTypes=vu...
+              - button "Tietoja tästä tuloksesta" [ref=e450] [cursor=pointer]:
+                - img [ref=e453]
+            - generic [ref=e457]:
+              - text: "Asunnot:"
+              - emphasis [ref=e458]: Helsinki
+              - text: ","
+              - emphasis [ref=e459]: vuokra
+              - text: ; Konalantie 60 B 73 · | 80,5 m²1396,50 €/kk ; Konalantie 60 B 56 · | 90 m²1484,00 €/kk ; Konalantie 60 A 13 · | 90 m²1470,00 €/kk.
+            - generic [ref=e461]: "Puuttuu: keskivuokra ‎postinumero"
+          - generic [ref=e465]:
+            - generic [ref=e468]:
+              - link "Vuokra-asunnot Helsinki Lumo.fi https://lumo.fi › vuokra-asunnot › Helsinki" [ref=e470] [cursor=pointer]:
+                - /url: https://lumo.fi/vuokra-asunnot/Helsinki
+                - heading "Vuokra-asunnot Helsinki" [level=3] [ref=e471]
+                - generic [ref=e476]:
+                  - generic [ref=e478]: Lumo.fi
+                  - generic [ref=e480]: https://lumo.fi › vuokra-asunnot › Helsinki
+              - button "Tietoja tästä tuloksesta" [ref=e481] [cursor=pointer]:
+                - img [ref=e484]
+            - generic [ref=e488]:
+              - text: Lumo-verkkokaupassa on juuri nyt vapaana 749
+              - emphasis [ref=e489]: vuokra
+              - text: "-asuntoa alueella"
+              - emphasis [ref=e490]: Helsinki
+              - text: . Vuokravakuus 0€. Tyytyväisyystakuu 100%. Nopea netti 50 tai 100M.
+            - generic [ref=e492]: "Puuttuu: keskivuokra ‎postinumero"
+          - generic [ref=e496]:
+            - generic [ref=e499]:
+              - 'link "Vuokra-asunnot Helsinki: 5727 kpl Oikotie Asunnot https://asunnot.oikotie.fi › vuokra-asunnot › helsinki" [ref=e501] [cursor=pointer]':
+                - /url: https://asunnot.oikotie.fi/vuokra-asunnot/helsinki
+                - 'heading "Vuokra-asunnot Helsinki: 5727 kpl" [level=3] [ref=e502]'
+                - generic [ref=e507]:
+                  - generic [ref=e509]: Oikotie Asunnot
+                  - generic [ref=e511]: https://asunnot.oikotie.fi › vuokra-asunnot › helsinki
+              - button "Tietoja tästä tuloksesta" [ref=e512] [cursor=pointer]:
+                - img [ref=e515]
+            - generic [ref=e519]:
+              - emphasis [ref=e520]: Vuokra
+              - text: "-asunnot"
+              - emphasis [ref=e521]: Helsinki
+              - text: "-aluerajauksella löydät 5727 asuntoa Oikotieltä. Kurkkaa Suomen suosituimman asuntopalvelun helppo"
+              - emphasis [ref=e522]: vuokra
+              - text: "-asuntohaku ja löydä uusi ..."
+            - generic [ref=e524]:
+              - text: "Puuttuu: postinumero ‎| Hae tällä:"
+              - link "postinumero" [ref=e525] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+%22postinumero%22&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ5t4CegQIVBAB
+          - generic [ref=e529]:
+            - generic [ref=e532]:
+              - link "Vuokrahinnat Helsinki - Toteutuneet vuokrat ja hintakehitys Asunnollehinta.fi https://www.asunnollehinta.fi › vuokrataulukko_helsinki" [ref=e534] [cursor=pointer]:
+                - /url: https://www.asunnollehinta.fi/vuokrataulukko_helsinki
+                - heading "Vuokrahinnat Helsinki - Toteutuneet vuokrat ja hintakehitys" [level=3] [ref=e535]
+                - generic [ref=e540]:
+                  - generic [ref=e542]: Asunnollehinta.fi
+                  - generic [ref=e544]: https://www.asunnollehinta.fi › vuokrataulukko_helsinki
+              - button "Tietoja tästä tuloksesta" [ref=e545] [cursor=pointer]:
+                - img [ref=e548]
+            - generic [ref=e552]:
+              - text: Keskimääräinen neliövuokra
+              - emphasis [ref=e553]: Helsinki
+              - text: ": 2025Q4, yksiöiden keskimääräinen"
+              - emphasis [ref=e554]: vuokra
+              - text: oli 25.0 €/m², kaksioiden 18.0 €/m² ja kolmiot tai suuremmat 17.0 €/m².
+          - generic [ref=e558]:
+            - generic [ref=e561]:
+              - 'link "Vuokra-asunnot Helsinki: 121 vapaana – Vuokravakuus 0 € M2-Kodit https://m2kodit.fi › Vuokra-asunnot" [ref=e563] [cursor=pointer]':
+                - /url: https://m2kodit.fi/asunnot/helsinki
+                - 'heading "Vuokra-asunnot Helsinki: 121 vapaana – Vuokravakuus 0 €" [level=3] [ref=e564]'
+                - generic [ref=e569]:
+                  - generic [ref=e571]: M2-Kodit
+                  - generic [ref=e573]: https://m2kodit.fi › Vuokra-asunnot
+              - button "Tietoja tästä tuloksesta" [ref=e574] [cursor=pointer]:
+                - img [ref=e577]
+            - generic [ref=e581]:
+              - emphasis [ref=e582]: Vuokra
+              - text: "-asunto Helsingistä. Helsingissä M2-Kodeilla on paljon"
+              - emphasis [ref=e583]: vuokra
+              - text: "-asuntoja olit etsimässä sitten yksiötä, kaksiota, kolmiota tai suurempaa vuokrakotia."
+            - generic [ref=e585]: "Puuttuu: keskivuokra ‎postinumero"
+        - generic [ref=e587]:
+          - generic [ref=e592]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e594]
+            - generic [ref=e596]:
+              - generic [ref=e597]:
+                - link "Oikotie vuokra-asunnot Helsinki Keskusta" [ref=e601] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Oikotie+vuokra-asunnot+Helsinki+Keskusta&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAheEAE
+                  - generic [ref=e602]:
+                    - generic [ref=e607]: Oikotie vuokra-asunnot Helsinki Keskusta
+                    - img [ref=e611]
+                - link "Helsinki yksiö vuokra hinta" [ref=e616] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsinki+yksi%C3%B6+vuokra+hinta&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhjEAE
+                  - generic [ref=e617]:
+                    - generic [ref=e622]: Helsinki yksiö vuokra hinta
+                    - img [ref=e626]
+                - link "Vuokra-asunnot Helsinki yksityinen" [ref=e631] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokra-asunnot+Helsinki+yksityinen&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhiEAE
+                  - generic [ref=e632]:
+                    - generic [ref=e637]: Vuokra-asunnot Helsinki yksityinen
+                    - img [ref=e641]
+                - link "Yksiö vuokra Helsinki" [ref=e646] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Yksi%C3%B6+vuokra+Helsinki&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhhEAE
+                  - generic [ref=e647]:
+                    - generic [ref=e652]: Yksiö vuokra Helsinki
+                    - img [ref=e656]
+              - generic [ref=e658]:
+                - link "Vuokra-asunnot Helsinki Ullanlinna" [ref=e662] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokra-asunnot+Helsinki+Ullanlinna&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhgEAE
+                  - generic [ref=e663]:
+                    - generic [ref=e668]: Vuokra-asunnot Helsinki Ullanlinna
+                    - img [ref=e672]
+                - link "Vuokra asunnot Helsinki Kruununhaka" [ref=e677] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokra+asunnot+Helsinki+Kruununhaka&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhdEAE
+                  - generic [ref=e678]:
+                    - generic [ref=e683]: Vuokra asunnot Helsinki Kruununhaka
+                    - img [ref=e687]
+                - link "Vuokrayksiöt Helsinki" [ref=e692] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokrayksi%C3%B6t+Helsinki&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhcEAE
+                  - generic [ref=e693]:
+                    - generic [ref=e698]: Vuokrayksiöt Helsinki
+                    - img [ref=e702]
+                - link "Vuokra-asunnot Helsinki Töölö" [ref=e707] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Vuokra-asunnot+Helsinki+T%C3%B6%C3%B6l%C3%B6&sa=X&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ1QJ6BAhfEAE
+                  - generic [ref=e708]:
+                    - generic [ref=e713]: Vuokra-asunnot Helsinki Töölö
+                    - img [ref=e717]
+          - navigation [ref=e719]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e720]
+            - text: "1"
+            - link "Page 2" [ref=e723] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=10&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAE
+              - text: "2"
+            - link "Page 3" [ref=e725] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=20&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAG
+              - text: "3"
+            - link "Page 4" [ref=e727] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=30&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAI
+              - text: "4"
+            - link "Page 5" [ref=e729] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=40&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAK
+              - text: "5"
+            - link "Page 6" [ref=e731] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=50&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAM
+              - text: "6"
+            - link "Page 7" [ref=e733] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=60&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAO
+              - text: "7"
+            - link "Page 8" [ref=e735] [cursor=pointer]:
+              - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=70&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8tMDegQIWhAQ
+              - text: "8"
+            - heading "Seuraava" [level=2] [ref=e737]:
+              - link "Seuraava" [ref=e738] [cursor=pointer]:
+                - /url: /search?q=vuokra+yksi%C3%B6+Helsinki+2026+keskivuokra+postinumero&sca_esv=bb65bd8365f461f5&hl=fi&ei=7RvSabPLFNa6wPAP85uHiQU&start=10&sa=N&sstk=Af77f_cgsnY8ujc-0ape6NwbAxD2ormJ0RJN-JeutB_qav96eSSVEQ72DqQOkakCi8ipsKZnCykX1JtvuliexgppkLglIiL86Oxi2Q&ved=2ahUKEwjz9YiVpNaTAxVWHRAIHfPNIVEQ8NMDegQIWhAS
+                - generic [ref=e740]: Seuraava
+        - navigation
+    - contentinfo [ref=e741]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e742]
+      - generic [ref=e746]:
+        - generic [ref=e748]:
+          - text: Suomi
+          - generic [ref=e750]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e752] [cursor=pointer]:
+              - generic [ref=e753]: Helsinki
+              - generic [ref=e755]:
+                - text: "-"
+                - generic [ref=e756]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e758] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e761]:
+          - link "Ohje" [ref=e762] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e763] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e764] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e765] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

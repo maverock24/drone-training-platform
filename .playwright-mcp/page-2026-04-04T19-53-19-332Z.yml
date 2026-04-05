@@ -1,0 +1,453 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-FI
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0QpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: 2026 401k IRA HSA contribution limits IRS 2026 401k IRA HSA contribution limits IRS
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3D2026%2B401k%2BIRA%2BHSA%2Bcontribution%2Blimits%2BIRS%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44lyVbw3TTqoW3aie50SA0szxHfHrGAop9rSxsimT6lZvq3FKmjiE-vdqX7s8xissY03gQYJFWCAmdhqijusPzJGZ1rF5xX8-HVXIRPSptCNMaFN5Vi-vLHF7kvjhXhXgODWOIe&aep=1&ntc=1&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q2J8OegQIEBAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "News" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=2026+401k+IRA+HSA+contribution+limits+IRS&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44lyVbw3TTqoW3aie50SA0szxHfHrGAop9rSxsimT6lZvq3FKmjiE-vdqX7s8xissY03gQYJFWCAmdhqijusPzJGZ1rF5xX8-HVXIRPSptCNMaFN5Vi-vLHF7kvjhXhXgODWOIe&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q0pQJegQIFhAB
+              - generic [ref=e86]: News
+          - listitem [ref=e87]:
+            - link "Forums" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44lyVbw3TTqoW3aie50SA0szxHfHrGAop9rSxsimT6lZvq3FKmjiE-vdqX7s8xissY03gQYJFWCAmdhqijusPzJGZ1rF5xX8-HVXIRPSptCNMaFN5Vi-vLHF7kvjhXhXgODWOIe&q=2026+401k+IRA+HSA+contribution+limits+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Qs6gLegQIFRAB
+              - generic [ref=e90]: Forums
+          - listitem [ref=e91]:
+            - link "Images" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44lyVbw3TTqoW3aie50SA0szxHfHrGAop9rSxsimT6lZvq3FKmjiE-vdqX7s8xissY03gQYJFWCAmdhqijusPzJGZ1rF5xX8-HVXIRPSptCNMaFN5Vi-vLHF7kvjhXhXgODWOIe&q=2026+401k+IRA+HSA+contribution+limits+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0QtKgLegQIFBAB
+              - generic [ref=e94]: Images
+          - listitem [ref=e95]:
+            - link "Short videos" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44lyVbw3TTqoW3aie50SA0szxHfHrGAop9rSxsimT6lZvq3FKmjiE-vdqX7s8xissY03gQYJFWCAmdhqijusPzJGZ1rF5xX8-HVXIRPSptCNMaFN5Vi-vLHF7kvjhXhXgODWOIe&q=2026+401k+IRA+HSA+contribution+limits+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Qs6gLegQIExAB
+              - generic [ref=e98]: Short videos
+          - listitem [ref=e99]:
+            - link "Videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIc82917L_jAJqeHsSI12L44lyVbw3TTqoW3aie50SA0szxHfHrGAop9rSxsimT6lZvq3FKmjiE-vdqX7s8xissY03gQYJFWCAmdhqijusPzJGZ1rF5xX8-HVXIRPSptCNMaFN5Vi-vLHF7kvjhXhXgODWOIe&q=2026+401k+IRA+HSA+contribution+limits+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0QtKgLegQIEhAB
+              - generic [ref=e102]: Videos
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - generic [ref=e124]:
+      - generic [ref=e143]:
+        - generic [ref=e146]:
+          - generic [ref=e148]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - img [ref=e152]
+                - heading "AI Overview" [level=2] [ref=e154]
+              - generic [ref=e156]:
+                - generic [ref=e157]:
+                  - img [ref=e158]
+                  - generic [ref=e160]:
+                    - heading "Learn more, including details about data and privacy" [level=3] [ref=e161]
+                    - button "Close" [ref=e162] [cursor=pointer]:
+                      - img [ref=e164]
+                - button "About this result" [ref=e169]:
+                  - img [ref=e171]
+            - generic [ref=e197]:
+              - generic [ref=e198]: "For 2026, the IRS has increased retirement and health savings account limits: 401(k) employee deferrals rise to"
+              - strong [ref=e199]: $24,500
+              - text: ($32,500 for age 50+), traditional/Roth IRA limits increase to
+              - strong [ref=e200]: $7,500
+              - text: ($8,600 for age 50+), and HSA limits rise to
+              - strong [ref=e201]: $4,400
+              - text: (self-only) or
+              - strong [ref=e202]: $8,750
+              - text: (family).
+              - button "IRS (.gov) (+3) - View related links" [disabled] [ref=e205]:
+                - generic [ref=e206]:
+                  - img "IRS (.gov)" [ref=e207]
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: IRS (.gov)
+                    - generic [ref=e210]: "+3"
+          - progressbar [ref=e216]
+        - button "Show more AI Overview" [ref=e240]:
+          - generic [ref=e242] [cursor=pointer]:
+            - generic [ref=e243]: Show more
+            - img [ref=e245]
+      - main [ref=e248]:
+        - generic [ref=e252]:
+          - generic [ref=e255]:
+            - heading "Web results" [level=2] [ref=e256]
+            - generic [ref=e257]:
+              - generic [ref=e260]:
+                - link "401(k) limit increases to $24500 for 2026, IRA ... IRS (.gov) https://www.irs.gov › newsroom › 401k-limit-increases-t..." [ref=e262] [cursor=pointer]:
+                  - /url: https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500
+                  - heading "401(k) limit increases to $24500 for 2026, IRA ..." [level=3] [ref=e263]
+                  - generic [ref=e268]:
+                    - generic [ref=e270]: IRS (.gov)
+                    - generic [ref=e272]: https://www.irs.gov › newsroom › 401k-limit-increases-t...
+                - button "About this result" [ref=e273] [cursor=pointer]:
+                  - img [ref=e276]
+              - generic [ref=e279]:
+                - generic [ref=e280]: 13 Nov 2025 —
+                - generic [ref=e281]:
+                  - text: For
+                  - emphasis [ref=e282]: "2026"
+                  - text: ", this higher amount is increased to $18,100, up from $17,600 for 2025. The catch-up"
+                  - emphasis [ref=e283]: contribution limit
+                  - text: that generally applies for ...
+                - link "Read more" [ref=e284] [cursor=pointer]:
+                  - /url: https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500#:~:text=For%202026%2C%20this%20higher%20amount,up%20from%20%243%2C500%20for%202025.
+          - generic [ref=e288]:
+            - generic [ref=e291]:
+              - link "2026 Amounts Relating to Retirement Plans and IRAs, as ... IRS (.gov) https://www.irs.gov › pub › irs-drop" [ref=e293] [cursor=pointer]:
+                - /url: https://www.irs.gov/pub/irs-drop/n-25-67.pdf
+                - heading "2026 Amounts Relating to Retirement Plans and IRAs, as ..." [level=3] [ref=e294]
+                - generic [ref=e299]:
+                  - generic [ref=e301]: IRS (.gov)
+                  - generic [ref=e303]: https://www.irs.gov › pub › irs-drop
+              - generic [ref=e304]:
+                - generic:
+                  - generic: PDF
+              - button "About this result" [ref=e305] [cursor=pointer]:
+                - img [ref=e308]
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - generic [ref=e312]: 1 Jan 2026 —
+                - generic [ref=e313]:
+                  - text: Notice 2025-67. Section 415 of the
+                  - emphasis [ref=e314]: Internal Revenue
+                  - text: Code (“Code”) provides for
+                  - emphasis [ref=e315]: limitations
+                  - text: on benefits and
+                  - emphasis [ref=e316]: contributions
+                  - text: under qualified ...
+                - link "Read more" [ref=e317] [cursor=pointer]:
+                  - /url: https://www.irs.gov/pub/irs-drop/n-25-67.pdf#:~:text=Notice%202025%2D67,contributions%20under%20qualified%20retirement%20plans.
+              - generic [ref=e318]: 6 pages
+            - generic [ref=e320]:
+              - text: "Missing: HSA ‎| Show results with:"
+              - link "HSA" [ref=e321] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=2026+401k+IRA+%22HSA%22+contribution+limits+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q5t4CegQIGxAB
+          - generic [ref=e325]:
+            - generic [ref=e328]:
+              - link "IRA contribution limits for 2025 and 2026 Fidelity https://www.fidelity.com › learning-center › smart-money" [ref=e330] [cursor=pointer]:
+                - /url: https://www.fidelity.com/learning-center/smart-money/ira-contribution-limits
+                - heading "IRA contribution limits for 2025 and 2026" [level=3] [ref=e331]
+                - generic [ref=e336]:
+                  - generic [ref=e338]: Fidelity
+                  - generic [ref=e340]: https://www.fidelity.com › learning-center › smart-money
+              - button "About this result" [ref=e341] [cursor=pointer]:
+                - img [ref=e344]
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - emphasis [ref=e349]: "2026"
+                - text: ", $7,500, $8,600. Source: \""
+                - emphasis [ref=e350]: 401(k
+                - text: )
+                - emphasis [ref=e351]: limit
+                - text: increases to $24,500 for
+                - emphasis [ref=e352]: "2026"
+                - text: ","
+                - emphasis [ref=e353]: IRA limit
+                - text: increases to $7,500,"
+                - emphasis [ref=e354]: Internal Revenue
+                - text: Service, November 13, 2025.
+              - link "Read more" [ref=e355] [cursor=pointer]:
+                - /url: https://www.fidelity.com/learning-center/smart-money/ira-contribution-limits#:~:text=2026,Revenue%20Service%2C%20November%2013%2C%202025.
+          - generic [ref=e359]:
+            - generic [ref=e360]:
+              - heading "People also ask" [level=2] [ref=e361]
+              - button "About this result" [ref=e362] [cursor=pointer]:
+                - img [ref=e365]
+            - generic [ref=e367]:
+              - button "Is the IRS increasing 401k and IRA contribution limits in 2026?" [ref=e373] [cursor=pointer]:
+                - generic [ref=e375]: Is the IRS increasing 401k and IRA contribution limits in 2026?
+                - img [ref=e378]
+              - button "What is the IRS limit for HSA contributions in 2026?" [ref=e387] [cursor=pointer]:
+                - generic [ref=e389]: What is the IRS limit for HSA contributions in 2026?
+                - img [ref=e392]
+              - button "What is the 401k limit for 2026 over 60?" [ref=e401] [cursor=pointer]:
+                - generic [ref=e403]: What is the 401k limit for 2026 over 60?
+                - img [ref=e406]
+              - button "Can I contribute the maximum to my 401k and an IRA?" [ref=e415] [cursor=pointer]:
+                - generic [ref=e417]: Can I contribute the maximum to my 401k and an IRA?
+                - img [ref=e420]
+          - generic [ref=e425]:
+            - heading "Web results" [level=2] [ref=e426]
+            - generic [ref=e427]:
+              - generic [ref=e430]:
+                - link "IRS announces 2026 plan contribution and benefit limits TIAA https://www.tiaa.org › public › plansponsors › colalimits" [ref=e432] [cursor=pointer]:
+                  - /url: https://www.tiaa.org/public/plansponsors/colalimits
+                  - heading "IRS announces 2026 plan contribution and benefit limits" [level=3] [ref=e433]
+                  - generic [ref=e438]:
+                    - generic [ref=e440]: TIAA
+                    - generic [ref=e442]: https://www.tiaa.org › public › plansponsors › colalimits
+                - button "About this result" [ref=e443] [cursor=pointer]:
+                  - img [ref=e446]
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - text: The 415(c)
+                  - emphasis [ref=e451]: contribution limit
+                  - text: applicable to defined contribution retirement plans increased from $70,000 to $72,000. The 401(a)(17) annual compensation limit ...
+                - link "Read more" [ref=e452] [cursor=pointer]:
+                  - /url: https://www.tiaa.org/public/plansponsors/colalimits#:~:text=The%20415(c)%20contribution%20limit%20applicable,increased%20from%20%24350%2C000%20to%20%24360%2C000.
+          - generic [ref=e456]:
+            - generic [ref=e459]:
+              - link "COLA increases for dollar limitations on benefits and ... IRS (.gov) https://www.irs.gov › retirement-plans › cola-increases-f..." [ref=e461] [cursor=pointer]:
+                - /url: https://www.irs.gov/retirement-plans/cola-increases-for-dollar-limitations-on-benefits-and-contributions
+                - heading "COLA increases for dollar limitations on benefits and ..." [level=3] [ref=e462]
+                - generic [ref=e467]:
+                  - generic [ref=e469]: IRS (.gov)
+                  - generic [ref=e471]: https://www.irs.gov › retirement-plans › cola-increases-f...
+              - button "About this result" [ref=e472] [cursor=pointer]:
+                - img [ref=e475]
+            - generic [ref=e478]:
+              - generic [ref=e479]: 25 Feb 2026 —
+              - generic [ref=e480]:
+                - text: For 2025 and 2026, this higher catch-up contribution limit is $
+                - emphasis [ref=e481]: 11,250
+                - text: (instead of $7,500 and $8,000, respectively). Other, 2026, 2025, 2024 ...
+              - link "Read more" [ref=e482] [cursor=pointer]:
+                - /url: https://www.irs.gov/retirement-plans/cola-increases-for-dollar-limitations-on-benefits-and-contributions#:~:text=For%202025%20and%202026%2C%20this,2024
+          - generic [ref=e486]:
+            - generic [ref=e489]:
+              - link "What are 2026 401(k) and individual retirement account ... Principal https://www.principal.com › individuals › learn › what-a..." [ref=e491] [cursor=pointer]:
+                - /url: https://www.principal.com/individuals/learn/what-are-2026-401k-and-ira-max-contribution-limits
+                - heading "What are 2026 401(k) and individual retirement account ..." [level=3] [ref=e492]
+                - generic [ref=e497]:
+                  - generic [ref=e499]: Principal
+                  - generic [ref=e501]: https://www.principal.com › individuals › learn › what-a...
+              - button "About this result" [ref=e502] [cursor=pointer]:
+                - img [ref=e505]
+            - generic [ref=e508]:
+              - generic [ref=e509]: 1 Jan 2026 —
+              - generic [ref=e510]:
+                - text: For
+                - emphasis [ref=e511]: 401(k
+                - text: ) plans, the catch-up
+                - emphasis [ref=e512]: contribution
+                - text: increased from $7,500 to $8,000. For IRAs, the catch-up
+                - emphasis [ref=e513]: contribution
+                - text: increased from $1,000 to $1,100 ...
+              - link "Read more" [ref=e514] [cursor=pointer]:
+                - /url: https://www.principal.com/individuals/learn/what-are-2026-401k-and-ira-max-contribution-limits#:~:text=For%20401(k)%20plans%2C%20the%20catch%2Dup,increased%20from%20%241%2C000%20to%20%241%2C100.
+          - generic [ref=e518]:
+            - generic [ref=e521]:
+              - link "2026 Retirement Plan Contribution Limits (401k, 457(b) & ... MissionSquare Retirement https://www.missionsq.org › plan-sponsors › plan-rules" [ref=e523] [cursor=pointer]:
+                - /url: https://www.missionsq.org/plan-sponsors/plan-rules/contribution-limits
+                - heading "2026 Retirement Plan Contribution Limits (401k, 457(b) & ..." [level=3] [ref=e524]
+                - generic [ref=e529]:
+                  - generic [ref=e531]: MissionSquare Retirement
+                  - generic [ref=e533]: https://www.missionsq.org › plan-sponsors › plan-rules
+              - button "About this result" [ref=e534] [cursor=pointer]:
+                - img [ref=e537]
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - text: The total
+                - emphasis [ref=e542]: contribution limit
+                - text: for 401(a) defined contribution plans under section 415(c)(1)(A) increased from $70,000 to $72,000 for
+                - emphasis [ref=e543]: "2026"
+                - text: . This includes both ...
+              - link "Read more" [ref=e544] [cursor=pointer]:
+                - /url: https://www.missionsq.org/plan-sponsors/plan-rules/contribution-limits#:~:text=The%20total%20contribution%20limit%20for,both%20employer%20and%20employee%20contributions.
+          - generic [ref=e548]:
+            - generic [ref=e551]:
+              - link "Retirement plan contribution limits | Vanguard vanguard.com https://www.vanguard.com › contributionlimits" [ref=e553] [cursor=pointer]:
+                - /url: https://www.vanguard.com/contributionlimits
+                - heading "Retirement plan contribution limits | Vanguard" [level=3] [ref=e554]
+                - generic [ref=e559]:
+                  - generic [ref=e561]: vanguard.com
+                  - generic [ref=e563]: https://www.vanguard.com › contributionlimits
+              - button "About this result" [ref=e564] [cursor=pointer]:
+                - img [ref=e567]
+            - generic [ref=e570]:
+              - generic [ref=e571]:
+                - emphasis [ref=e572]: Limit
+                - text: or threshold,
+                - emphasis [ref=e573]: "2026"
+                - text: ", 2025."
+                - emphasis [ref=e574]: Maximum
+                - text: employee pre-tax and Roth
+                - emphasis [ref=e575]: contributions
+                - text: ", $24,500, $23,500."
+                - emphasis [ref=e576]: Maximum
+                - text: employee catch-up
+                - emphasis [ref=e577]: contributions
+                - text: —at least age 50 ...
+              - link "Read more" [ref=e578] [cursor=pointer]:
+                - /url: https://www.vanguard.com/contributionlimits#:~:text=Limit%20or%20threshold,least%20age%2050%20at%20year%2Dend
+          - generic [ref=e582]:
+            - generic [ref=e585]:
+              - link "IRS Increases Contribution Limits for 2026 Cain Watters https://www.cainwatters.com › digitalblogs › 2026-irs-c..." [ref=e587] [cursor=pointer]:
+                - /url: https://www.cainwatters.com/digitalblogs/2026-irs-contribution-limits/
+                - heading "IRS Increases Contribution Limits for 2026" [level=3] [ref=e588]
+                - generic [ref=e593]:
+                  - generic [ref=e595]: Cain Watters
+                  - generic [ref=e597]: https://www.cainwatters.com › digitalblogs › 2026-irs-c...
+              - button "About this result" [ref=e598] [cursor=pointer]:
+                - img [ref=e601]
+            - generic [ref=e604]:
+              - generic [ref=e605]: 27 Jan 2026 —
+              - generic [ref=e606]:
+                - emphasis [ref=e607]: 401(k) salary deferral limit increases to $24,500 per individual 401(k
+                - text: ) · 401(k) catch-up contributions at $8,000 for those 50 and over · IRA ...
+              - link "Read more" [ref=e608] [cursor=pointer]:
+                - /url: https://www.cainwatters.com/digitalblogs/2026-irs-contribution-limits/#:~:text=401(k)%20salary%20deferral%20limit%20increases,to%20%2424%2C500%20per%20individual%20401(k)&text=401(k)%20catch%2Dup%20contributions%20at%20%248%2C000,for%20those%2050%20and%20over&text=IRA%20contribution%20limit%20at%20%247%2C500,50%20and%20over%20at%20%241%2C100
+          - generic [ref=e612]:
+            - generic [ref=e615]:
+              - link "Nationwide Retirement Plans - IRS Contribution Limits Nationwide Mutual Insurance Company https://www.nationwide.com › investing › pages › irs-c..." [ref=e617] [cursor=pointer]:
+                - /url: https://www.nationwide.com/personal/investing/ssc-retirement-plans/pages/irs-contribution-limits
+                - heading "Nationwide Retirement Plans - IRS Contribution Limits" [level=3] [ref=e618]
+                - generic [ref=e623]:
+                  - generic [ref=e625]: Nationwide Mutual Insurance Company
+                  - generic [ref=e627]: https://www.nationwide.com › investing › pages › irs-c...
+              - button "About this result" [ref=e628] [cursor=pointer]:
+                - img [ref=e631]
+            - generic [ref=e634]:
+              - generic [ref=e635]:
+                - text: "[1]"
+                - emphasis [ref=e636]: 401(k) limit increases to $24,500 for 2026
+                - text: ", IRA limit increases to $7,500 [2] 401(k) and IRA limits increases for 2025 ... [4] 2025 HSA limits (PDF)."
+              - link "Read more" [ref=e637] [cursor=pointer]:
+                - /url: https://www.nationwide.com/personal/investing/ssc-retirement-plans/pages/irs-contribution-limits#:~:text=%5B1%5D%20401(k)%20limit%20increases%20to,IRA%20limits%20increases%20for%202025&text=%5B4%5D%202025%20HSA%20limits%20(PDF)
+        - generic [ref=e639]:
+          - generic [ref=e644]:
+            - heading "People also search for" [level=2] [ref=e646]
+            - generic [ref=e648]:
+              - generic [ref=e649]:
+                - link "2026 401k ira hsa contribution limits irs over" [ref=e653] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=2026+401k+ira+hsa+contribution+limits+irs+over&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhOEAE
+                  - generic [ref=e654]:
+                    - generic [ref=e659]: 2026 401k ira hsa contribution limits irs over
+                    - img [ref=e663]
+                - link "401k 2026 contribution limit IRS" [ref=e668] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=401k+2026+contribution+limit+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhSEAE
+                  - generic [ref=e669]:
+                    - generic [ref=e674]: 401k 2026 contribution limit IRS
+                    - img [ref=e678]
+                - link "2026 401k ira hsa contribution limits irs 2023" [ref=e683] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=2026+401k+ira+hsa+contribution+limits+irs+2023&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhREAE
+                  - generic [ref=e684]:
+                    - generic [ref=e689]: 2026 401k ira hsa contribution limits irs 2023
+                    - img [ref=e693]
+                - link "HSA 2026 contribution limit IRS" [ref=e698] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=HSA+2026+contribution+limit+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhNEAE
+                  - generic [ref=e699]:
+                    - generic [ref=e704]: HSA 2026 contribution limit IRS
+                    - img [ref=e708]
+              - generic [ref=e710]:
+                - link "IRA 2026 contribution limit IRS" [ref=e714] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=IRA+2026+contribution+limit+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhMEAE
+                  - generic [ref=e715]:
+                    - generic [ref=e720]: IRA 2026 contribution limit IRS
+                    - img [ref=e724]
+                - link "401k contribution limits 2026" [ref=e729] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=401k+contribution+limits+2026&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhQEAE
+                  - generic [ref=e730]:
+                    - generic [ref=e735]: 401k contribution limits 2026
+                    - img [ref=e739]
+                - link "Roth 2026 contribution limit IRS" [ref=e744] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Roth+2026+contribution+limit+IRS&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhPEAE
+                  - generic [ref=e745]:
+                    - generic [ref=e750]: Roth 2026 contribution limit IRS
+                    - img [ref=e754]
+                - link "2026 Roth IRA contribution limits" [ref=e759] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=2026+Roth+IRA+contribution+limits&sa=X&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q1QJ6BAhLEAE
+                  - generic [ref=e760]:
+                    - generic [ref=e765]: 2026 Roth IRA contribution limits
+                    - img [ref=e769]
+          - navigation [ref=e771]:
+            - heading "Page navigation" [level=1] [ref=e772]
+            - text: "1"
+            - link "Page 2" [ref=e775] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=10&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAE
+              - text: "2"
+            - link "Page 3" [ref=e777] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=20&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAG
+              - text: "3"
+            - link "Page 4" [ref=e779] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=30&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAI
+              - text: "4"
+            - link "Page 5" [ref=e781] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=40&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAK
+              - text: "5"
+            - link "Page 6" [ref=e783] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=50&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAM
+              - text: "6"
+            - link "Page 7" [ref=e785] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=60&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAO
+              - text: "7"
+            - link "Page 8" [ref=e787] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=70&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAQ
+              - text: "8"
+            - link "Page 9" [ref=e789] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=80&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAS
+              - text: "9"
+            - link "Page 10" [ref=e791] [cursor=pointer]:
+              - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=90&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8tMDegQISRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e793]:
+              - link "Next" [ref=e794] [cursor=pointer]:
+                - /url: /search?q=2026+401k+IRA+HSA+contribution+limits+IRS&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=LWzRaaLnKqmOwPAPvo-R6QY&start=10&sa=N&sstk=Af77f_e5l7kMEUAxOfgwtb5uWdvr4Cx_QV7geZpH-Jl0zbbsIqIxrw2ETTRChgk9sAuwpmny1NPNiwQQUAuRIrli6Ikw1BQKjumGig&ved=2ahUKEwjisbHH_NSTAxUpBxAIHb5HJG0Q8NMDegQISRAW
+                - generic [ref=e796]: Next
+        - navigation
+    - contentinfo [ref=e797]:
+      - heading "Footer links" [level=1] [ref=e798]
+      - generic [ref=e802]:
+        - generic [ref=e804]:
+          - text: Finland
+          - generic [ref=e806]:
+            - button "Helsinki - From your IP address" [ref=e808] [cursor=pointer]:
+              - generic [ref=e809]: Helsinki
+              - generic [ref=e811]:
+                - text: "-"
+                - generic [ref=e812]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e814] [cursor=pointer]: Update location
+        - generic [ref=e817]:
+          - link "Help" [ref=e818] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-FI&fg=1
+          - link "Send feedback" [ref=e819] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e820] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-FI&fg=1
+          - link "Terms" [ref=e821] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-FI&fg=1

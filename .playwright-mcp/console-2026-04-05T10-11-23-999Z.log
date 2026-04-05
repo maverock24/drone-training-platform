@@ -1,0 +1,3 @@
+[     970ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://droniq.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    1511ms] [WARNING] TOC or content container not found @ https://droniq.de/en/drohnenfuehrerschein/:3123
+[    6186ms] [WARNING] The resource https://droniq.de/wp-content/uploads/2024/07/DQ-Fuehrerschein-Header.jpg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://droniq.de/en/drohnenfuehrerschein/:0

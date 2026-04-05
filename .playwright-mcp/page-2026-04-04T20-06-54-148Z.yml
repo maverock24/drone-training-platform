@@ -1,0 +1,462 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: best index funds ETFs 2026 expense ratio returns comparison VOO VTI FXAIX VIG Vanguard Fidelity Schwab best index funds ETFs 2026 expense ratio returns comparison VOO VTI FXAIX VIG Vanguard Fidelity Schwab
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Bindex%2Bfunds%2BETFs%2B2026%2Bexpense%2Bratio%2Breturns%2Bcomparison%2BVOO%2BVTI%2BFXAIX%2BVIG%2BVanguard%2BFidelity%2BSchwab&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&aep=1&ntc=1&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQs6gLegQIFhAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQtKgLegQIEhAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ0pQJegQIExAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dbest%2Bindex%2Bfunds%2BETFs%2B2026%2Bexpense%2Bratio%2Breturns%2Bcomparison%2BVOO%2BVTI%2BFXAIX%2BVIG%2BVanguard%2BFidelity%2BSchwab&hl=en&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQiIQCKAN6BAgNEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "14 Low-Cost Index Funds and ETFs for April 2026 NerdWallet https://www.nerdwallet.com › learn" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.nerdwallet.com/investing/learn/low-cost-index-funds
+                  - heading "14 Low-Cost Index Funds and ETFs for April 2026" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: NerdWallet
+                    - generic [ref=e190]: https://www.nerdwallet.com › learn
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.nerdwallet.com/investing/learn/low-cost-index-funds
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e200]:
+                - generic [ref=e201]: 4 päivää sitten —
+                - generic [ref=e202]:
+                  - text: Top-rated low-cost index funds ;
+                  - emphasis [ref=e203]: FXAIX. Fidelity 500 Index Fund
+                  - text: . 0.015% ; SSEYX. State Street Equity 500 Index II Portfolio. 0.020% ; SWPPX. Schwab ...
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - img "Arvio 4,8/5 (122 758) käyttäjäarvostelua" [ref=e208]:
+                    - text: 4,8
+                    - img [ref=e209]
+                    - text: (122 758)
+                  - text: ·
+                - text: Ilmainen · ‎Talous
+                - button [ref=e214]:
+                  - img [ref=e216]
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e223]
+              - button "Tietoja tästä tuloksesta" [ref=e224] [cursor=pointer]:
+                - img [ref=e227]
+            - generic [ref=e229]:
+              - button "What are the best ETFs to buy in 2026?" [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: What are the best ETFs to buy in 2026?
+                - img [ref=e240]
+              - button "Which ETF is better, VOO or FXAIX?" [ref=e249] [cursor=pointer]:
+                - generic [ref=e251]: Which ETF is better, VOO or FXAIX?
+                - img [ref=e254]
+              - button "Who has better index funds, Vanguard or Fidelity?" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: Who has better index funds, Vanguard or Fidelity?
+                - img [ref=e268]
+              - button "What are the 4 funds Dave Ramsey recommends?" [ref=e277] [cursor=pointer]:
+                - generic [ref=e279]: What are the 4 funds Dave Ramsey recommends?
+                - img [ref=e282]
+          - generic [ref=e287]:
+            - heading "Web results" [level=2] [ref=e288]
+            - generic [ref=e289]:
+              - generic [ref=e292]:
+                - link "The 10 best index funds offer low ratios and strong returns Facebook · Quartz Yksi reaktio · 1 viikko sitten" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.facebook.com/quartznews/posts/bankrates-10-best-index-funds-for-2026-offer-low-ratios-and-strong-5-year-return/1296143559048126/
+                  - heading "The 10 best index funds offer low ratios and strong returns" [level=3] [ref=e295]
+                  - generic [ref=e300]:
+                    - generic [ref=e302]: Facebook · Quartz
+                    - generic [ref=e304]: Yksi reaktio · 1 viikko sitten
+                - button "Tietoja tästä tuloksesta" [ref=e305] [cursor=pointer]:
+                  - img [ref=e308]
+              - generic [ref=e312]:
+                - emphasis [ref=e313]: Bankrate's 10 best index funds for 2026
+                - text: "offer low ratios and strong 5-year returns: Whether you're a beginner or retiree, these ETFs are ..."
+          - generic [ref=e317]:
+            - generic [ref=e320]:
+              - link "The Best Stock Funds for the Core of an Investment ... Morningstar https://www.morningstar.com › bes..." [ref=e322] [cursor=pointer]:
+                - /url: https://www.morningstar.com/funds/best-stock-funds-core-an-investment-portfolio-2026
+                - heading "The Best Stock Funds for the Core of an Investment ..." [level=3] [ref=e323]
+                - generic [ref=e328]:
+                  - generic [ref=e330]: Morningstar
+                  - generic [ref=e332]: https://www.morningstar.com › bes...
+              - generic [ref=e333]:
+                - generic [ref=e334]: ·
+                - link "Käännä tämä sivu" [ref=e335] [cursor=pointer]:
+                  - /url: https://www.morningstar.com/funds/best-stock-funds-core-an-investment-portfolio-2026
+              - button "Tietoja tästä tuloksesta" [ref=e336] [cursor=pointer]:
+                - img [ref=e339]
+            - generic [ref=e342]:
+              - generic [ref=e343]: 21.6.2023 —
+              - generic [ref=e344]:
+                - text: These top-rated mutual
+                - emphasis [ref=e345]: funds
+                - text: and
+                - emphasis [ref=e346]: ETFs
+                - text: make excellent long-term core holdings.
+          - generic [ref=e350]:
+            - generic [ref=e353]:
+              - link "10 Best Low-Cost Index Funds to Buy in 2026 | Investing U.S. News Money https://money.usnews.com › articles" [ref=e355] [cursor=pointer]:
+                - /url: https://money.usnews.com/investing/articles/best-low-cost-index-funds
+                - heading "10 Best Low-Cost Index Funds to Buy in 2026 | Investing" [level=3] [ref=e356]
+                - generic [ref=e361]:
+                  - generic [ref=e363]: U.S. News Money
+                  - generic [ref=e365]: https://money.usnews.com › articles
+              - generic [ref=e366]:
+                - generic [ref=e367]: ·
+                - link "Käännä tämä sivu" [ref=e368] [cursor=pointer]:
+                  - /url: https://money.usnews.com/investing/articles/best-low-cost-index-funds
+              - button "Tietoja tästä tuloksesta" [ref=e369] [cursor=pointer]:
+                - img [ref=e372]
+            - generic [ref=e375]:
+              - generic [ref=e376]: 18.2.2026 —
+              - generic [ref=e377]:
+                - text: VHYAX currently pays a 2.3% 30-day SEC yield and charges a 0.08%
+                - emphasis [ref=e378]: expense ratio
+                - text: . 7
+                - emphasis [ref=e379]: Best Vanguard Funds
+                - text: to Buy and Hold ... investing, stock market, ...
+          - generic [ref=e383]:
+            - generic [ref=e386]:
+              - link "Vanguard, Fidelity or Schwab for investing in Index funds? Reddit · r/investing Yli 60 kommenttia · 1 kuukausi sitten" [ref=e388] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/investing/comments/1rf2ho2/vanguard_fidelity_or_schwab_for_investing_in/
+                - heading "Vanguard, Fidelity or Schwab for investing in Index funds?" [level=3] [ref=e389]
+                - generic [ref=e394]:
+                  - generic [ref=e396]: Reddit · r/investing
+                  - generic [ref=e398]: Yli 60 kommenttia · 1 kuukausi sitten
+              - button "Tietoja tästä tuloksesta" [ref=e399] [cursor=pointer]:
+                - img [ref=e402]
+            - generic [ref=e406]:
+              - emphasis [ref=e407]: Vanguard's VTI at 0.03% or VTSAX at 0.04
+              - text: "% are higher than Fidelity's FSKAX at 0.015% or FZROX at 0.00%. Same story with VOO/VFIAX vs FXAIX."
+            - generic [ref=e412]:
+              - link "65 vastausta" [ref=e413] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/investing/comments/1rf2ho2/vanguard_fidelity_or_schwab_for_investing_in/o7gycbm/
+              - generic [ref=e414]: ·
+              - generic [ref=e415]: "Paras vastaus:"
+              - generic [ref=e416]: Fidelity is usually cited as the most user friendly broker, and they have a wide variety ...
+            - generic [ref=e419]:
+              - generic [ref=e420]:
+                - 'link "Schwab vs. Vanguard vs. Fidelity : r/investing - Reddit" [ref=e423] [cursor=pointer]':
+                  - /url: https://www.reddit.com/r/investing/comments/1q0mxh9/schwab_vs_vanguard_vs_fidelity/
+                  - generic [ref=e424]:
+                    - emphasis [ref=e425]: Schwab
+                    - text: vs.
+                    - emphasis [ref=e426]: Vanguard
+                    - text: vs.
+                    - emphasis [ref=e427]: Fidelity
+                    - text: ": r/investing - Reddit"
+                - generic [ref=e429]: 200 vastausta
+                - generic [ref=e431]: 31.12.2025
+              - generic [ref=e432]:
+                - link "best index funds for 2026, i'm 19 and just opened a ..." [ref=e435] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Bogleheads/comments/1pr6ooi/best_index_funds_for_2026_im_19_and_just_opened_a/
+                  - generic [ref=e436]:
+                    - emphasis [ref=e437]: best index funds
+                    - text: for
+                    - emphasis [ref=e438]: "2026"
+                    - text: ", i'm 19 and just opened a ..."
+                - generic [ref=e440]: 44 vastausta
+                - generic [ref=e442]: 20.12.2025
+              - link "Lisää tuloksia kohteesta www.reddit.com" [ref=e446] [cursor=pointer]:
+                - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab+site:www.reddit.com&sca_esv=f72dd7b5cfdb5d01&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQrQIoAnoECEMQAw
+          - generic [ref=e450]:
+            - generic [ref=e453]:
+              - link "The 10 best index funds offer low ratios and strong returns qz.com https://qz.com › index-funds-2026-..." [ref=e455] [cursor=pointer]:
+                - /url: https://qz.com/index-funds-2026-voo-qqq-bankrate
+                - heading "The 10 best index funds offer low ratios and strong returns" [level=3] [ref=e456]
+                - generic [ref=e461]:
+                  - generic [ref=e463]: qz.com
+                  - generic [ref=e465]: https://qz.com › index-funds-2026-...
+              - generic [ref=e466]:
+                - generic [ref=e467]: ·
+                - link "Käännä tämä sivu" [ref=e468] [cursor=pointer]:
+                  - /url: https://qz.com/index-funds-2026-voo-qqq-bankrate
+              - button "Tietoja tästä tuloksesta" [ref=e469] [cursor=pointer]:
+                - img [ref=e472]
+            - generic [ref=e475]:
+              - generic [ref=e476]: 23.3.2026 —
+              - generic [ref=e477]:
+                - text: Bankrate's 10 best index funds for 2026 offer low ratios and strong 5-year returns · 1.
+                - emphasis [ref=e478]: Fidelity ZERO Large Cap Index (FNILX
+                - text: ) · 2. Vanguard S&P ...
+            - generic [ref=e480]: "Puuttuu: FXAIX ‎VIG"
+          - generic [ref=e484]:
+            - generic [ref=e487]:
+              - link "3 Best S&P 500 Index Funds to Buy in 2026 The Motley Fool https://www.fool.com › investing" [ref=e489] [cursor=pointer]:
+                - /url: https://www.fool.com/investing/how-to-invest/index-funds/best-sp-500-index-funds/
+                - heading "3 Best S&P 500 Index Funds to Buy in 2026" [level=3] [ref=e490]
+                - generic [ref=e495]:
+                  - generic [ref=e497]: The Motley Fool
+                  - generic [ref=e499]: https://www.fool.com › investing
+              - generic [ref=e500]:
+                - generic [ref=e501]: ·
+                - link "Käännä tämä sivu" [ref=e502] [cursor=pointer]:
+                  - /url: https://www.fool.com/investing/how-to-invest/index-funds/best-sp-500-index-funds/
+              - button "Tietoja tästä tuloksesta" [ref=e503] [cursor=pointer]:
+                - img [ref=e506]
+            - generic [ref=e509]:
+              - generic [ref=e510]: 5 päivää sitten —
+              - generic [ref=e511]:
+                - emphasis [ref=e512]: Fidelity has the lowest costs, with a 0.015% expense ratio
+                - text: . Schwab's is only slightly higher at 0.02%, while the Vanguard 500 Index Fund Admiral ...
+          - generic [ref=e516]:
+            - generic [ref=e519]:
+              - link "7 Best S&P 500 Index Funds To Buy In 2026 | March Edition Forbes https://www.forbes.com › article" [ref=e521] [cursor=pointer]:
+                - /url: https://www.forbes.com/sites/investor-hub/article/best-sp-500-index-funds-to-buy-2026/
+                - heading "7 Best S&P 500 Index Funds To Buy In 2026 | March Edition" [level=3] [ref=e522]
+                - generic [ref=e527]:
+                  - generic [ref=e529]: Forbes
+                  - generic [ref=e531]: https://www.forbes.com › article
+              - generic [ref=e532]:
+                - generic [ref=e533]: ·
+                - link "Käännä tämä sivu" [ref=e534] [cursor=pointer]:
+                  - /url: https://www.forbes.com/sites/investor-hub/article/best-sp-500-index-funds-to-buy-2026/
+              - button "Tietoja tästä tuloksesta" [ref=e535] [cursor=pointer]:
+                - img [ref=e538]
+            - generic [ref=e541]:
+              - generic [ref=e542]: 4.12.2025 —
+              - generic [ref=e543]:
+                - text: 7 Best S&P 500 Index Funds To Invest in for 2026 ·
+                - emphasis [ref=e544]: 1. Fidelity 500 Index Fund (FXAIX
+                - text: ) · 2. State Street SPDR Portfolio S&P 500 ETF (SPYM) · 3.
+            - generic [ref=e546]: "Puuttuu: VTI ‎VIG"
+          - generic [ref=e550]:
+            - generic [ref=e553]:
+              - link "I often get asked, “what is the best index fund?” And ... Instagram · personalfinanceclub Yli 2,5 t. tykkäystä · 2 kuukautta sitten" [ref=e555] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DTnuvH9DwW0/
+                - heading "I often get asked, “what is the best index fund?” And ..." [level=3] [ref=e556]
+                - generic [ref=e561]:
+                  - generic [ref=e563]: Instagram · personalfinanceclub
+                  - generic [ref=e565]: Yli 2,5 t. tykkäystä · 2 kuukautta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e566] [cursor=pointer]:
+                - img [ref=e569]
+            - generic [ref=e573]:
+              - text: ... (
+              - emphasis [ref=e574]: Vanguard
+              - text: ","
+              - emphasis [ref=e575]: Fidelity
+              - text: ","
+              - emphasis [ref=e576]: Schwab
+              - text: ", iShares/Blackrock, State Street)‎ • Their"
+              - emphasis [ref=e577]: expense
+              - text: ratios range from 0.015% (
+              - emphasis [ref=e578]: FXAIX
+              - text: and FSKAX) to 0.14% (VFINX).
+          - generic [ref=e582]:
+            - generic [ref=e585]:
+              - link "Best ETFs For 2026 Bankrate https://www.bankrate.com › investing" [ref=e587] [cursor=pointer]:
+                - /url: https://www.bankrate.com/investing/best-etfs/
+                - heading "Best ETFs For 2026" [level=3] [ref=e588]
+                - generic [ref=e593]:
+                  - generic [ref=e595]: Bankrate
+                  - generic [ref=e597]: https://www.bankrate.com › investing
+              - generic [ref=e598]:
+                - generic [ref=e599]: ·
+                - link "Käännä tämä sivu" [ref=e600] [cursor=pointer]:
+                  - /url: https://www.bankrate.com/investing/best-etfs/
+              - button "Tietoja tästä tuloksesta" [ref=e601] [cursor=pointer]:
+                - img [ref=e604]
+            - generic [ref=e608]:
+              - emphasis [ref=e609]: Vanguard
+              - text: S&P 500
+              - emphasis [ref=e610]: ETF
+              - text: (
+              - emphasis [ref=e611]: VOO
+              - text: ), with an
+              - emphasis [ref=e612]: expense ratio
+              - text: of 0.03%; Invesco QQQ Trust (QQQ), with an
+              - emphasis [ref=e613]: expense ratio
+              - text: of 0.20%. Both are low-cost
+              - emphasis [ref=e614]: funds
+              - text: that give you ...
+            - generic [ref=e616]: "Puuttuu: VTI ‎FXAIX"
+        - generic [ref=e618]:
+          - generic [ref=e623]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e625]
+            - generic [ref=e627]:
+              - generic [ref=e628]:
+                - link "Morningstar best index funds" [ref=e632] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Morningstar+best+index+funds&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAheEAE
+                  - generic [ref=e633]:
+                    - generic [ref=e638]: Morningstar best index funds
+                    - img [ref=e642]
+                - link "Best performing index funds last 10 years" [ref=e647] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+performing+index+funds+last+10+years&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhjEAE
+                  - generic [ref=e648]:
+                    - generic [ref=e653]: Best performing index funds last 10 years
+                    - img [ref=e657]
+                - link "Low cost index funds S&P 500" [ref=e662] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Low+cost+index+funds+S%26P+500&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhhEAE
+                  - generic [ref=e663]:
+                    - generic [ref=e668]: Low cost index funds S&P 500
+                    - img [ref=e672]
+                - link "Best performing Index funds last 5 years" [ref=e677] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+performing+Index+funds+last+5+years&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhiEAE
+                  - generic [ref=e678]:
+                    - generic [ref=e683]: Best performing Index funds last 5 years
+                    - img [ref=e687]
+              - generic [ref=e689]:
+                - link "Best index funds to buy and hold" [ref=e693] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+index+funds+to+buy+and+hold&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhgEAE
+                  - generic [ref=e694]:
+                    - generic [ref=e699]: Best index funds to buy and hold
+                    - img [ref=e703]
+                - link "Best index funds to invest in for beginners" [ref=e708] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+index+funds+to+invest+in+for+beginners&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhdEAE
+                  - generic [ref=e709]:
+                    - generic [ref=e714]: Best index funds to invest in for beginners
+                    - img [ref=e718]
+                - link "Best index funds returns" [ref=e723] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+index+funds+returns&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhcEAE
+                  - generic [ref=e724]:
+                    - generic [ref=e729]: Best index funds returns
+                    - img [ref=e733]
+                - link "How to buy low-cost index funds" [ref=e738] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=How+to+buy+low-cost+index+funds&sa=X&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ1QJ6BAhfEAE
+                  - generic [ref=e739]:
+                    - generic [ref=e744]: How to buy low-cost index funds
+                    - img [ref=e748]
+          - navigation [ref=e750]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e751]
+            - text: "1"
+            - link "Page 2" [ref=e754] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=10&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAE
+              - text: "2"
+            - link "Page 3" [ref=e756] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=20&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAG
+              - text: "3"
+            - link "Page 4" [ref=e758] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=30&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAI
+              - text: "4"
+            - link "Page 5" [ref=e760] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=40&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAK
+              - text: "5"
+            - link "Page 6" [ref=e762] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=50&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAM
+              - text: "6"
+            - link "Page 7" [ref=e764] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=60&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAO
+              - text: "7"
+            - link "Page 8" [ref=e766] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=70&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAQ
+              - text: "8"
+            - link "Page 9" [ref=e768] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=80&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAS
+              - text: "9"
+            - link "Page 10" [ref=e770] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=90&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8tMDegQIWRAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e772]:
+              - link "Seuraava" [ref=e773] [cursor=pointer]:
+                - /url: /search?q=best+index+funds+ETFs+2026+expense+ratio+returns+comparison+VOO+VTI+FXAIX+VIG+Vanguard+Fidelity+Schwab&sca_esv=f72dd7b5cfdb5d01&ei=XG_RacjAJa_ZwPAP9MjhiAY&start=10&sa=N&sstk=Af77f_dw01JdRlYNcLAan3aEmeic7ai5rskYUATCBZSjwfHubarE8OmLl_f-_r7iggGskGFVBAa22MLK2ebve50gSZKyOikz38o0vw&ved=2ahUKEwjI3vvL_9STAxWvLBAIHXRkGGEQ8NMDegQIWRAW
+                - generic [ref=e775]: Seuraava
+        - navigation
+    - contentinfo [ref=e776]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e777]
+      - generic [ref=e781]:
+        - generic [ref=e783]:
+          - text: Suomi
+          - generic [ref=e785]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e787] [cursor=pointer]:
+              - generic [ref=e788]: Helsinki
+              - generic [ref=e790]:
+                - text: "-"
+                - generic [ref=e791]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e793] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e796]:
+          - link "Ohje" [ref=e797] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e798] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e799] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e800] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

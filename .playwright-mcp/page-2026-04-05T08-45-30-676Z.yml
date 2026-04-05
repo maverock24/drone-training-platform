@@ -1,0 +1,421 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Helsinki yliopisto kampukset sijainti "Viikki" "Meilahti" "Kumpula" "keskusta" kartta osoite Helsinki yliopisto kampukset sijainti "Viikki" "Meilahti" "Kumpula" "keskusta" kartta osoite
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DHelsinki%2Byliopisto%2Bkampukset%2Bsijainti%2B%2522Viikki%2522%2B%2522Meilahti%2522%2B%2522Kumpula%2522%2B%2522keskusta%2522%2Bkartta%2Bosoite%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQs6gLegQIExAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Helsingin yliopiston opetustilat | Opetustilat Helsinki.fi https://tilavaraus.helsinki.fi › ..." [ref=e222] [cursor=pointer]:
+                  - /url: https://tilavaraus.helsinki.fi/fi
+                  - heading "Helsingin yliopiston opetustilat | Opetustilat" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Helsinki.fi
+                    - generic [ref=e232]: https://tilavaraus.helsinki.fi › ...
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e240]:
+                - text: Millaista tilaa tarvitset?
+                - emphasis [ref=e241]: Sijainti
+                - text: . - Kaikki -,
+                - emphasis [ref=e242]: Keskusta
+                - text: ","
+                - emphasis [ref=e243]: Kumpula
+                - text: ","
+                - emphasis [ref=e244]: Meilahti
+                - text: ","
+                - emphasis [ref=e245]: Viikki
+                - text: . Paikkoja vähintään. Esteettömyys. - Kaikki -, Esteellinen ...
+              - generic [ref=e247]: "Puuttuu: kampukset ‎kartta"
+          - generic [ref=e251]:
+            - generic [ref=e252]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e253]
+              - button "Tietoja tästä tuloksesta" [ref=e254] [cursor=pointer]:
+                - img [ref=e257]
+            - generic [ref=e259]:
+              - button "Missä Helsingin yliopisto sijaitsee?" [ref=e265] [cursor=pointer]:
+                - generic [ref=e267]: Missä Helsingin yliopisto sijaitsee?
+                - img [ref=e270]
+              - button "Montako professoria on Helsingin yliopistossa?" [ref=e279] [cursor=pointer]:
+                - generic [ref=e281]: Montako professoria on Helsingin yliopistossa?
+                - img [ref=e284]
+              - button "Missä on Helsingin lääkis?" [ref=e293] [cursor=pointer]:
+                - generic [ref=e295]: Missä on Helsingin lääkis?
+                - img [ref=e298]
+              - button "Mikä on hy?" [ref=e307] [cursor=pointer]:
+                - generic [ref=e309]: Mikä on hy?
+                - img [ref=e312]
+          - generic [ref=e318]:
+            - heading "Kuvahaku" [level=2] [ref=e322]
+            - generic [ref=e326]:
+              - generic [ref=e330] [cursor=pointer]:
+                - link "Helsingin yliopiston luontopääomakartoitus kampusalueilla ... Tietopankki | Knowledge Base":
+                  - /url: https://tietopankki.luomus.fi/lajiseurannat/helsingin-yliopiston-luontopaaomakartoitus-kampusalueilla/
+                - button "Helsingin yliopiston luontopääomakartoitus kampusalueilla ..." [ref=e332]:
+                  - img "Helsingin yliopiston luontopääomakartoitus kampusalueilla ..." [ref=e334]
+                - generic [ref=e336]:
+                  - generic [ref=e338]: Helsingin yliopiston luontopääomakartoitus kampusalueilla ...
+                  - generic [ref=e339]:
+                    - generic [ref=e346]: Tietopankki | Knowledge Base
+                    - button "Tietoja tästä tuloksesta" [ref=e349]:
+                      - img [ref=e352]
+              - generic [ref=e357] [cursor=pointer]:
+                - link "Helsinki – Wikipedia Wikipedia":
+                  - /url: https://fi.wikipedia.org/wiki/Helsinki
+                - button "Helsinki – Wikipedia" [ref=e359]:
+                  - img "Helsinki – Wikipedia" [ref=e361]
+                - generic [ref=e363]:
+                  - generic [ref=e365]: Helsinki – Wikipedia
+                  - generic [ref=e366]:
+                    - generic [ref=e373]: Wikipedia
+                    - button "Tietoja tästä tuloksesta" [ref=e376]:
+                      - img [ref=e379]
+              - generic [ref=e384] [cursor=pointer]:
+                - link "Kerro kantasi kaupunkipyöräpalvelun laajentamisesta ... Kerrokantasi - Helsingin kaupunki":
+                  - /url: https://kerrokantasi.hel.fi/kaupunkipyorat?label=45&headless=true
+                - button "Kerro kantasi kaupunkipyöräpalvelun laajentamisesta ..." [ref=e386]:
+                  - img "Kerro kantasi kaupunkipyöräpalvelun laajentamisesta ..." [ref=e388]
+                - generic [ref=e390]:
+                  - generic [ref=e392]: Kerro kantasi kaupunkipyöräpalvelun laajentamisesta ...
+                  - generic [ref=e393]:
+                    - generic [ref=e400]: Kerrokantasi - Helsingin kaupunki
+                    - button "Tietoja tästä tuloksesta" [ref=e403]:
+                      - img [ref=e406]
+            - button "Näytä lisää kuvia" [ref=e409] [cursor=pointer]:
+              - separator [ref=e410]
+              - generic [ref=e411]:
+                - generic [ref=e412]: Näytä lisää kuvia
+                - img [ref=e414]
+          - generic [ref=e418]:
+            - heading "Tulokset internetistä" [level=2] [ref=e419]
+            - generic [ref=e420]:
+              - generic [ref=e423]:
+                - link "KAMPUSLUONNON MONIMUOTOISUUS JA MONET ... Helsinki.fi https://www.helsinki.fi › assets › drupal › 30758..." [ref=e425] [cursor=pointer]:
+                  - /url: https://www.helsinki.fi/assets/drupal/2024-11/307583_HY_Kampusluonnon_monimuotoisuus_FI_Liitteet.pdf
+                  - heading "KAMPUSLUONNON MONIMUOTOISUUS JA MONET ..." [level=3] [ref=e426]
+                  - generic [ref=e431]:
+                    - generic [ref=e433]: Helsinki.fi
+                    - generic [ref=e435]: https://www.helsinki.fi › assets › drupal › 30758...
+                - generic [ref=e436]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e437] [cursor=pointer]:
+                  - img [ref=e440]
+              - generic [ref=e442]:
+                - generic [ref=e444]:
+                  - emphasis [ref=e445]: Meilahti Keskusta
+                  - text: .
+                  - emphasis [ref=e446]: Viikki
+                  - text: .
+                  - emphasis [ref=e447]: Kumpula
+                  - text: Lajiryhmä. Pyöröpoimulehti. Alchemilla propinqua. NT. 1. Putkilokasvit. Ketonukki. Androsace septentrionalis. EN. 1.
+                - generic [ref=e448]: 54 sivua
+          - generic [ref=e452]:
+            - generic [ref=e455]:
+              - link "Helsinki Wikipedia https://fi.wikipedia.org › wiki › Helsinki" [ref=e457] [cursor=pointer]:
+                - /url: https://fi.wikipedia.org/wiki/Helsinki
+                - heading "Helsinki" [level=3] [ref=e458]
+                - generic [ref=e463]:
+                  - generic [ref=e465]: Wikipedia
+                  - generic [ref=e467]: https://fi.wikipedia.org › wiki › Helsinki
+              - button "Tietoja tästä tuloksesta" [ref=e468] [cursor=pointer]:
+                - img [ref=e471]
+            - generic [ref=e475]:
+              - emphasis [ref=e476]: Meilahti
+              - text: "| 16. Ruskeasuo (Vanha Ruskeasuo; Pikku Huopalahti) | 18. Laakso ..."
+              - emphasis [ref=e477]: Kumpula
+              - text: "| 25. Käpylä | 26. Koskela | 27. Vanhakaupunki · Pohjoinen ..."
+          - generic [ref=e481]:
+            - generic [ref=e484]:
+              - link "Kumpulan fuksien selviytymisopas LIMES RY https://limes.fi › 2021/08 › Ala_hataile_digi" [ref=e486] [cursor=pointer]:
+                - /url: https://limes.fi/wp-content/uploads/2021/08/Ala_hataile_digi.pdf
+                - heading "Kumpulan fuksien selviytymisopas" [level=3] [ref=e487]
+                - generic [ref=e492]:
+                  - generic [ref=e494]: LIMES RY
+                  - generic [ref=e496]: https://limes.fi › 2021/08 › Ala_hataile_digi
+              - generic [ref=e497]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e498] [cursor=pointer]:
+                - img [ref=e501]
+            - generic [ref=e503]:
+              - generic [ref=e505]:
+                - text: "sat lukijat: Unisport"
+                - emphasis [ref=e506]: Viikki
+                - text: "! Yhtä kuin ryhmäliikuntaa kahdessa Viikin ..."
+                - emphasis [ref=e507]: Helsingin keskusta
+                - text: on siirtynyt tämän tontin ympärille, ja HYY omistaa Van ...
+              - generic [ref=e508]: 266 sivua
+          - generic [ref=e512]:
+            - generic [ref=e515]:
+              - link "Aino Suomalainen, Kiira Sarasjärvi, Jenni Lahtinen - Otus otus.fi https://www.otus.fi › uploads › 2020/01 › Opisk..." [ref=e517] [cursor=pointer]:
+                - /url: https://www.otus.fi/wp/wp-content/uploads/2020/01/Opiskelijankaupunki-7.1._adobe8.pdf
+                - heading "Aino Suomalainen, Kiira Sarasjärvi, Jenni Lahtinen - Otus" [level=3] [ref=e518]
+                - generic [ref=e523]:
+                  - generic [ref=e525]: otus.fi
+                  - generic [ref=e527]: https://www.otus.fi › uploads › 2020/01 › Opisk...
+              - generic [ref=e528]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e529] [cursor=pointer]:
+                - img [ref=e532]
+            - generic [ref=e536]:
+              - emphasis [ref=e537]: Kumpula
+              - text: "-"
+              - emphasis [ref=e538]: Viikki
+              - text: "-(Myllypuro) tarvitaan. Parantaisi myös korkeakoulujen ... Lisäksi"
+              - emphasis [ref=e539]: Meilahti
+              - text: "-Töölö-"
+              - emphasis [ref=e540]: Helsingin keskusta
+              - text: "- akselille on teh- ty useita ..."
+          - generic [ref=e544]:
+            - generic [ref=e547]:
+              - link "Helsingin Yleiskaava 2002 Helsingin kaupunki https://www.hel.fi › static › ksv › www › vastine" [ref=e549] [cursor=pointer]:
+                - /url: https://www.hel.fi/static/ksv/www/yk2002/vastine.pdf
+                - heading "Helsingin Yleiskaava 2002" [level=3] [ref=e550]
+                - generic [ref=e555]:
+                  - generic [ref=e557]: Helsingin kaupunki
+                  - generic [ref=e559]: https://www.hel.fi › static › ksv › www › vastine
+              - generic [ref=e560]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e561] [cursor=pointer]:
+                - img [ref=e564]
+            - generic [ref=e566]:
+              - generic [ref=e567]:
+                - generic [ref=e568]: 13.12.2001 —
+                - generic [ref=e569]:
+                  - text: ... Töölö (Töölön tori) -
+                  - emphasis [ref=e570]: Meilahti
+                  - text: (Tullinpuomi) - Pasila (Pasi- lan asema) -
+                  - emphasis [ref=e571]: Kumpula
+                  - text: /Arabia (Hämeentien ja. Kustaa Vaasan tien risteys) -
+                  - emphasis [ref=e572]: Viikki
+                  - text: .
+              - generic [ref=e573]: 116 sivua
+          - generic [ref=e577]:
+            - generic [ref=e580]:
+              - link "2022 PIKKU- Maantieteen opiskelijat https://www.maantieteenopiskelijat.fi › 2023/07" [ref=e582] [cursor=pointer]:
+                - /url: https://www.maantieteenopiskelijat.fi/wp-content/uploads/2023/07/Pikku-Mantu_2022-4.pdf
+                - heading "2022 PIKKU-" [level=3] [ref=e583]
+                - generic [ref=e588]:
+                  - generic [ref=e590]: Maantieteen opiskelijat
+                  - generic [ref=e592]: https://www.maantieteenopiskelijat.fi › 2023/07
+              - generic [ref=e593]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e594] [cursor=pointer]:
+                - img [ref=e597]
+            - generic [ref=e601]:
+              - text: oppimiskeskus Aleksandria sijaitsevat
+              - emphasis [ref=e602]: keskusta
+              - text: "- kampuksella"
+              - emphasis [ref=e603]: Helsingin
+              - text: ... tiedelinja, joka ajaa väliä
+              - emphasis [ref=e604]: Meilahti
+              - text: "-Pasila-Kumpu- la-"
+              - emphasis [ref=e605]: Viikki
+              - text: . Jää pois ...
+          - generic [ref=e609]:
+            - generic [ref=e612]:
+              - link "kartat - NLF Open Data Kansalliskirjasto https://data.nationallibrary.fi › yso" [ref=e614] [cursor=pointer]:
+                - /url: https://data.nationallibrary.fi/yso/p4987
+                - heading "kartat - NLF Open Data" [level=3] [ref=e615]
+                - generic [ref=e620]:
+                  - generic [ref=e622]: Kansalliskirjasto
+                  - generic [ref=e624]: https://data.nationallibrary.fi › yso
+              - button "Tietoja tästä tuloksesta" [ref=e625] [cursor=pointer]:
+                - img [ref=e628]
+            - generic [ref=e632]:
+              - emphasis [ref=e633]: Helsingin yliopisto
+              - text: "-"
+              - emphasis [ref=e634]: Kumpula
+              - text: ": Helsingfors universitet i Gumtäkt = University of Helsinki in"
+              - emphasis [ref=e635]: Kumpula
+              - text: ... Helsinki in
+              - emphasis [ref=e636]: Meilahti
+              - text: ;
+              - emphasis [ref=e637]: Helsingin yliopisto
+              - text: ...
+          - generic [ref=e641]:
+            - generic [ref=e644]:
+              - link "Al¨a h¨at¨aile LIMES RY https://limes.fi › 2018/08 › ala_hataile_digitaalinen" [ref=e646] [cursor=pointer]:
+                - /url: https://limes.fi/wp-content/uploads/2018/08/ala_hataile_digitaalinen.pdf
+                - heading "Al¨a h¨at¨aile" [level=3] [ref=e647]
+                - generic [ref=e652]:
+                  - generic [ref=e654]: LIMES RY
+                  - generic [ref=e656]: https://limes.fi › 2018/08 › ala_hataile_digitaalinen
+              - generic [ref=e657]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e658] [cursor=pointer]:
+                - img [ref=e661]
+            - generic [ref=e663]:
+              - generic [ref=e665]:
+                - text: gin
+                - emphasis [ref=e666]: keskusta
+                - text: on siirtynyt tämän ton- tin ympärille, ja HYY omistaa Van- han ...
+                - emphasis [ref=e667]: KUMPULA
+                - text: ": ML-tiedekunnan osastot. (lukuunottamatta."
+              - generic [ref=e668]: 284 sivua
+        - generic [ref=e670]:
+          - generic [ref=e675]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e677]
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - link "Future Optime helsinki" [ref=e684] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Future+Optime+helsinki&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhYEAE
+                  - generic [ref=e685]:
+                    - generic [ref=e690]: Future Optime helsinki
+                    - img [ref=e694]
+                - link "Helsingin yliopisto varattavat tilat" [ref=e699] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsingin+yliopisto+varattavat+tilat&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAheEAE
+                  - generic [ref=e700]:
+                    - generic [ref=e705]: Helsingin yliopisto varattavat tilat
+                    - img [ref=e709]
+                - link "Helsingin yliopisto ryhmätyötilat" [ref=e714] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsingin+yliopisto+ryhm%C3%A4ty%C3%B6tilat&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhfEAE
+                  - generic [ref=e715]:
+                    - generic [ref=e720]: Helsingin yliopisto ryhmätyötilat
+                    - img [ref=e724]
+                - link "Helsingin yliopisto työtilat" [ref=e729] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsingin+yliopisto+ty%C3%B6tilat&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhdEAE
+                  - generic [ref=e730]:
+                    - generic [ref=e735]: Helsingin yliopisto työtilat
+                    - img [ref=e739]
+              - generic [ref=e741]:
+                - link "Opetustilat keskusta" [ref=e745] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Opetustilat+keskusta&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhcEAE
+                  - generic [ref=e746]:
+                    - generic [ref=e751]: Opetustilat keskusta
+                    - img [ref=e755]
+                - link "Helsingin yliopisto tilojen varaus" [ref=e760] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsingin+yliopisto+tilojen+varaus&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhZEAE
+                  - generic [ref=e761]:
+                    - generic [ref=e766]: Helsingin yliopisto tilojen varaus
+                    - img [ref=e770]
+                - link "Helsinki liikunta tilavaraus" [ref=e775] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsinki+liikunta+tilavaraus&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhaEAE
+                  - generic [ref=e776]:
+                    - generic [ref=e781]: Helsinki liikunta tilavaraus
+                    - img [ref=e785]
+                - link "Helsingin yliopisto juhlasali" [ref=e790] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Helsingin+yliopisto+juhlasali&sa=X&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ1QJ6BAhbEAE
+                  - generic [ref=e791]:
+                    - generic [ref=e796]: Helsingin yliopisto juhlasali
+                    - img [ref=e800]
+          - navigation [ref=e802]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e803]
+            - text: "1"
+            - link "Page 2" [ref=e806] [cursor=pointer]:
+              - /url: /search?q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sca_esv=bb65bd8365f461f5&hl=fi&ei=KSHSadzAE5zJwPAPlZD3YA&start=10&sa=N&sstk=Af77f_ex3SqSbZgiThwzonWzSX3qPGlgi-HGF8ZiDVULhXHMuSTyU56FlhMPy3EvcUWM7cUtV6SxLjRi1LpNP37aHZrPa1MTiinBZw&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ8tMDegQIVBAE
+              - text: "2"
+            - heading "Seuraava" [level=2] [ref=e808]:
+              - link "Seuraava" [ref=e809] [cursor=pointer]:
+                - /url: /search?q=Helsinki+yliopisto+kampukset+sijainti+%22Viikki%22+%22Meilahti%22+%22Kumpula%22+%22keskusta%22+kartta+osoite&sca_esv=bb65bd8365f461f5&hl=fi&ei=KSHSadzAE5zJwPAPlZD3YA&start=10&sa=N&sstk=Af77f_ex3SqSbZgiThwzonWzSX3qPGlgi-HGF8ZiDVULhXHMuSTyU56FlhMPy3EvcUWM7cUtV6SxLjRi1LpNP37aHZrPa1MTiinBZw&ved=2ahUKEwic-YKUqdaTAxWcJBAIHRXIHQwQ8NMDegQIVBAG
+                - generic [ref=e811]: Seuraava
+        - navigation
+    - contentinfo [ref=e812]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e813]
+      - generic [ref=e817]:
+        - generic [ref=e819]:
+          - text: Suomi
+          - generic [ref=e821]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e823] [cursor=pointer]:
+              - generic [ref=e824]: Helsinki
+              - generic [ref=e826]:
+                - text: "-"
+                - generic [ref=e827]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e829] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e832]:
+          - link "Ohje" [ref=e833] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e834] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e835] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e836] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

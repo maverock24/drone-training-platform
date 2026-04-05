@@ -1,0 +1,282 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:op.fi sijoittamisen hinnasto välityspalkkio osakekauppa site:op.fi sijoittamisen hinnasto välityspalkkio osakekauppa
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:op.fi%2Bsijoittamisen%2Bhinnasto%2Bv%25C3%25A4lityspalkkio%2Bosakekauppa&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQtKgLegQIExAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQtKgLegQIFBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQs6gLegQIDxAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ0pQJegQIEBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:op.fi%2Bsijoittamisen%2Bhinnasto%2Bv%25C3%25A4lityspalkkio%2Bosakekauppa&hl=en&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQiIQCKAN6BAgMEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Tulokset internetistä" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Sijoittamisen edut ja hinnasto OP https://www.op.fi › henkiloasiakkaat › saastot-ja-sijoitukset" [ref=e154] [cursor=pointer]:
+                - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-edut-ja-hinnasto
+                - heading "Sijoittamisen edut ja hinnasto" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: OP
+                  - generic [ref=e164]: https://www.op.fi › henkiloasiakkaat › saastot-ja-sijoitukset
+              - button "Tietoja tästä tuloksesta" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e171]: Arvo-osuustilille ja osakesäästötilille edulliset kaupankäyntipalkkiot. Arvo-osuustilillä käyt kauppaa ensimmäisen kuluvan kalenterineljänneksen ajan 0,10 % ( ...
+        - generic [ref=e175]:
+          - generic [ref=e178]:
+            - link "Arvo-osuustilin hinnasto OP https://www.op.fi › sijoittamisen-hinnasto › arvo-osuustil..." [ref=e180] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-hinnasto/arvo-osuustilin-hinnasto
+              - heading "Arvo-osuustilin hinnasto" [level=3] [ref=e181]
+              - generic [ref=e186]:
+                - generic [ref=e188]: OP
+                - generic [ref=e190]: https://www.op.fi › sijoittamisen-hinnasto › arvo-osuustil...
+            - button "Tietoja tästä tuloksesta" [ref=e191] [cursor=pointer]:
+              - img [ref=e194]
+          - generic [ref=e197]: Kaupankäynti Helsingin pörssissä listatuilla arvopapereilla ; Kaupankäyntipalkkio, 1 %, 1 % ; Osakekaupan summa, Yli 700 €, Yli 500 € ; Kaupankäyntipalkkio, 0,17 % ...
+        - generic [ref=e201]:
+          - generic [ref=e204]:
+            - link "Osakesäästötilin hinnasto ja tietoa markkinapaikoista OP https://www.op.fi › osakesaastotilin-hinnasto" [ref=e206] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/sijoittamisen-hinnasto/osakesaastotilin-hinnasto
+              - heading "Osakesäästötilin hinnasto ja tietoa markkinapaikoista" [level=3] [ref=e207]
+              - generic [ref=e212]:
+                - generic [ref=e214]: OP
+                - generic [ref=e216]: https://www.op.fi › osakesaastotilin-hinnasto
+            - button "Tietoja tästä tuloksesta" [ref=e217] [cursor=pointer]:
+              - img [ref=e220]
+          - generic [ref=e224]:
+            - text: Osakesäästötilin hinnasto ja tietoa markkinapaikoista ; Kuukausimaksut, 0 €/kk, 9,99 €/kk ; Kaupankäyntihinnat,
+            - emphasis [ref=e225]: Välityspalkkio 0,15 %, kuitenkin vähintään 5 €
+            - text: ...
+        - generic [ref=e229]:
+          - generic [ref=e232]:
+            - link "Rahastojen hinnasto OP https://www.op.fi › saastot-ja-sijoitukset › rahastot › raha..." [ref=e234] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/rahastot/rahastojen-hinnasto
+              - heading "Rahastojen hinnasto" [level=3] [ref=e235]
+              - generic [ref=e240]:
+                - generic [ref=e242]: OP
+                - generic [ref=e244]: https://www.op.fi › saastot-ja-sijoitukset › rahastot › raha...
+            - button "Tietoja tästä tuloksesta" [ref=e245] [cursor=pointer]:
+              - img [ref=e248]
+          - generic [ref=e251]: Tältä sivulta löydät rahastojen kulut rahastoittain. Suurimmassa osaa rahastoja ei veloiteta merkintä- ja lunastuspalkkiota.
+        - generic [ref=e255]:
+          - generic [ref=e258]:
+            - link "Osakesäästötili - Avaa OST 0 OP https://www.op.fi › osakesijoitukset › osakesaastotili" [ref=e260] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/osakesaastotili
+              - heading "Osakesäästötili - Avaa OST 0" [level=3] [ref=e261]
+              - generic [ref=e266]:
+                - generic [ref=e268]: OP
+                - generic [ref=e270]: https://www.op.fi › osakesijoitukset › osakesaastotili
+            - button "Tietoja tästä tuloksesta" [ref=e271] [cursor=pointer]:
+              - img [ref=e274]
+          - generic [ref=e278]:
+            - text: Sijoittamisen edut ja hinnasto‍ · Kuukausisäästäminen‍ · Sijoituskoulu‍ ...
+            - emphasis [ref=e279]: Välityspalkkio 0,15 %, kuitenkin vähintään 5 €
+            - text: ", Välityspalkkio 0,08 %, kuitenkin ..."
+        - generic [ref=e283]:
+          - generic [ref=e286]:
+            - link "Osakkeet – Näin aloitat osakesijoittamisen OP https://www.op.fi › osakesijoitukset › osakesijoittaminen" [ref=e288] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/osakesijoittaminen
+              - heading "Osakkeet – Näin aloitat osakesijoittamisen" [level=3] [ref=e289]
+              - generic [ref=e294]:
+                - generic [ref=e296]: OP
+                - generic [ref=e298]: https://www.op.fi › osakesijoitukset › osakesijoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e299] [cursor=pointer]:
+              - img [ref=e302]
+          - generic [ref=e306]:
+            - text: Kun
+            - emphasis [ref=e307]: välityspalkkio
+            - text: on 1 prosentin ja sijoitus on 100 euroa, kulut ovat 1 euron. OP:n asiakkaana käyt edullisesti kauppaa kotimaisilla osakkeilla arvo-osuustilin ...
+        - generic [ref=e311]:
+          - generic [ref=e314]:
+            - link "Kansainvälinen osakesijoittaminen - Osakesijoittajan palvelut OP https://www.op.fi › kansainvalinen-osakesijoittaminen" [ref=e316] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/osakesijoittajan-palvelut/kansainvalinen-osakesijoittaminen
+              - heading "Kansainvälinen osakesijoittaminen - Osakesijoittajan palvelut" [level=3] [ref=e317]
+              - generic [ref=e322]:
+                - generic [ref=e324]: OP
+                - generic [ref=e326]: https://www.op.fi › kansainvalinen-osakesijoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e327] [cursor=pointer]:
+              - img [ref=e330]
+          - generic [ref=e333]: Teet kauppaa ulkomaisilla osakkeilla aina edullisesti. Kaupankäyntipalkkio alkaen 0,17 % ja minimissään 8 euroa. Mitä enemmän käyt kauppaa, sitä alhaisemmat ...
+        - generic [ref=e337]:
+          - generic [ref=e340]:
+            - link "Suomen Osakesäästäjien edut sijoittamiseen OP https://www.op.fi › suomen-osakesaastajien-edut" [ref=e342] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/osakesijoitukset/suomen-osakesaastajien-edut
+              - heading "Suomen Osakesäästäjien edut sijoittamiseen" [level=3] [ref=e343]
+              - generic [ref=e348]:
+                - generic [ref=e350]: OP
+                - generic [ref=e352]: https://www.op.fi › suomen-osakesaastajien-edut
+            - button "Tietoja tästä tuloksesta" [ref=e353] [cursor=pointer]:
+              - img [ref=e356]
+          - generic [ref=e360]:
+            - emphasis [ref=e361]: Välityspalkkio
+            - text: "muilla markkinoilla listatuilla arvopapereilla: 0,15 % / min. 8 € / toteutunut toimeksianto (norm. 0,17 % / min. 8 € / toteutunut toimeksianto)."
+        - generic [ref=e365]:
+          - generic [ref=e368]:
+            - link "Palveluhinnasto Henkilöasiakkaat OP https://www.op.fi › documents › Palveluhinnasto_..." [ref=e370] [cursor=pointer]:
+              - /url: https://www.op.fi/documents/10208/11168/Palveluhinnasto_FI_HA_pankkipalvelut_01.04.2025.pdf
+              - heading "Palveluhinnasto Henkilöasiakkaat" [level=3] [ref=e371]
+              - generic [ref=e376]:
+                - generic [ref=e378]: OP
+                - generic [ref=e380]: https://www.op.fi › documents › Palveluhinnasto_...
+            - generic [ref=e381]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e382] [cursor=pointer]:
+              - img [ref=e385]
+          - generic [ref=e387]:
+            - generic [ref=e389]:
+              - text: Tämä
+              - emphasis [ref=e390]: hinnasto
+              - text: sisältää pankkipalveluista veloitettavat maksut, kulut ja palkkiot.
+              - emphasis [ref=e391]: Hinnasto
+              - text: on voimassa toistaiseksi, ja useimpiin palvelumaksuihin voidaan ...
+            - generic [ref=e392]: 37 sivua
+        - generic [ref=e396]:
+          - generic [ref=e399]:
+            - link "Raportti sijoitustuotteiden ja -palveluiden tuotoista ja kuluista OP https://www.op.fi › saastot-ja-sijoitukset › muut › uusi-ra..." [ref=e401] [cursor=pointer]:
+              - /url: https://www.op.fi/henkiloasiakkaat/saastot-ja-sijoitukset/muut/uusi-raportti-sijoitustuotteiden-ja-palveluiden-tuotoista-ja-kuluista
+              - heading "Raportti sijoitustuotteiden ja -palveluiden tuotoista ja kuluista" [level=3] [ref=e402]
+              - generic [ref=e407]:
+                - generic [ref=e409]: OP
+                - generic [ref=e411]: https://www.op.fi › saastot-ja-sijoitukset › muut › uusi-ra...
+            - button "Tietoja tästä tuloksesta" [ref=e412] [cursor=pointer]:
+              - img [ref=e415]
+          - generic [ref=e419]:
+            - emphasis [ref=e420]: Sijoittaminen
+            - text: on pitkäjänteistä toimintaa ja tuotot vaihtelevat vuosittain, eikä raportilla kerrota, miten sijoitukset ovat kehittyneet koko omistusaikana.
+      - navigation [ref=e423]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e424]
+        - text: "1"
+        - link "Page 2" [ref=e427] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=10&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAE
+          - text: "2"
+        - link "Page 3" [ref=e429] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=20&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAG
+          - text: "3"
+        - link "Page 4" [ref=e431] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=30&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAI
+          - text: "4"
+        - link "Page 5" [ref=e433] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=40&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAK
+          - text: "5"
+        - link "Page 6" [ref=e435] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=50&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAM
+          - text: "6"
+        - link "Page 7" [ref=e437] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=60&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAO
+          - text: "7"
+        - link "Page 8" [ref=e439] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=70&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAQ
+          - text: "8"
+        - link "Page 9" [ref=e441] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=80&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAS
+          - text: "9"
+        - link "Page 10" [ref=e443] [cursor=pointer]:
+          - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=90&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8tMDegQINRAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e445]:
+          - link "Seuraava" [ref=e446] [cursor=pointer]:
+            - /url: /search?q=site:op.fi+sijoittamisen+hinnasto+v%C3%A4lityspalkkio+osakekauppa&sca_esv=abbb0aaa8824193d&ei=hX3RaY3NFqKpwPAP0p3L0AM&start=10&sa=N&sstk=Af77f_cfBHAVjUodKngG7FDDX505l53MriDXAzRVrnVmq6WRlDnL8fpWkeLRtL6YBGFEXaVvsQWOxV-wedneY0qhkUGfQEH-sESOCA&ved=2ahUKEwjNo7GMjdWTAxWiFBAIHdLOEjoQ8NMDegQINRAW
+            - generic [ref=e448]: Seuraava
+      - navigation
+    - contentinfo [ref=e449]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e450]
+      - generic [ref=e454]:
+        - generic [ref=e456]:
+          - text: Suomi
+          - generic [ref=e458]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e460] [cursor=pointer]:
+              - generic [ref=e461]: 00940, Helsinki
+              - generic [ref=e463]:
+                - text: "-"
+                - generic [ref=e464]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e466] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e469]:
+          - link "Ohje" [ref=e470] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e471] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e472] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e473] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

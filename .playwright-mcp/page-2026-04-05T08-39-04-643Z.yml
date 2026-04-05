@@ -1,0 +1,366 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Hyppää sisältöön" [ref=e5] [cursor=pointer]:
+      - /url: "#yle__contentAnchor"
+      - generic [ref=e6]: Hyppää sisältöön
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - link "Yle.fi etusivu" [ref=e11] [cursor=pointer]:
+          - /url: https://yle.fi/
+          - img [ref=e12]
+          - generic [ref=e17]: Etusivu
+        - navigation "Pinnalla nyt" [ref=e20]:
+          - link "Venäjän hyökkäys" [ref=e21] [cursor=pointer]:
+            - /url: https://yle.fi/t/18-334977/fi
+          - link "Iranin sota" [ref=e22] [cursor=pointer]:
+            - /url: https://yle.fi/t/18-369216/fi
+          - link "Droonit Suomessa" [ref=e23] [cursor=pointer]:
+            - /url: https://yle.fi/t/18-369682/fi
+        - button "Kirjaudu" [ref=e25]:
+          - generic [ref=e26]: Kirjaudu
+          - img [ref=e27]
+        - link "Hae" [ref=e30] [cursor=pointer]:
+          - /url: https://haku.yle.fi
+          - img [ref=e31]
+        - generic [ref=e34]:
+          - switch "Aiheet ja palvelut -valikko" [ref=e35]
+          - generic "Aiheet ja palvelut -valikko" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - img [ref=e38]
+              - img [ref=e40]
+    - banner [ref=e42]:
+      - generic [ref=e43]:
+        - link "Etusivulle" [ref=e44] [cursor=pointer]:
+          - /url: /
+          - img [ref=e46]
+          - generic [ref=e48]: Etusivulle
+        - button "Jaa" [ref=e50] [cursor=pointer]:
+          - img [ref=e52]
+          - generic [ref=e54]: Jaa
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - main [ref=e57]:
+          - article [ref=e61]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - link "Lisää artikkeleita aiheesta Rikosepäilyt" [ref=e65] [cursor=pointer]:
+                  - /url: https://yle.fi/t/18-340121/fi
+                  - text: Rikosepäilyt
+                - heading "Poliisi jahtasi humalaisen varastamaa imulakaisukonetta Oulussa – takaa-ajo päätyi lopulta ojaan" [level=1] [ref=e66]
+                - paragraph [ref=e67]: Imulakaisukoneen parkkihallista varastanut mies pakeni poliisia Kuusamontiellä tiistaina aamupäivällä.
+                - 'figure "Kuvituskuva. Kuvan lakaisukoneet eivät liity tapahtumaan. Kuva: Maija Tuunila / Yle" [ref=e68]':
+                  - generic [ref=e71] [cursor=pointer]:
+                    - img "Kaksi lakaisukonetta jalkakäytävällä" [ref=e74]
+                    - button "Avaa kuvien katselu" [ref=e76]:
+                      - generic [ref=e77]: Avaa kuvien katselu
+                  - generic [ref=e78]:
+                    - text: Kuvituskuva. Kuvan lakaisukoneet eivät liity tapahtumaan.
+                    - generic [ref=e79]: "Kuva: Maija Tuunila / Yle"
+                - list "Tekijä" [ref=e81]:
+                  - listitem [ref=e82]:
+                    - link "Tanja Heikkonen" [ref=e83] [cursor=pointer]:
+                      - /url: https://yle.fi/p/56-74-342/fi
+                - time [ref=e86]: 12.2.2025 14:10
+                - button "Kuuntele juttu 1:08" [ref=e88] [cursor=pointer]:
+                  - img [ref=e91]
+                  - generic [ref=e93]: Kuuntele juttu 1:08
+              - generic [ref=e95]:
+                - paragraph [ref=e96]: Humalainen mies varasti imulakaisukoneen Oulun keskustan parkkihallista ja pakeni poliisia 60 km/h nopeudella Kuusamontietä pitkin.
+                - paragraph [ref=e97]: Varttitunnin takaa-ajon jälkeen lakaisukone suistui ojaan ja kaatui kyljelleen kuljettajan ajovirheen seurauksena. Kuljettaja ei heti suostunut tulemaan ulos ojaan kaatuneesta koneesta, mutta antautui kuitenkin poliisille hetken kuluttua.
+                - paragraph [ref=e98]: Poliisin mukaan kuljettaja aiheutti useita vaaratilanteita ja häntä epäillään törkeästä liikenneturvallisuuden vaarantamisesta sekä törkeästä rattijuopumuksesta.
+                - paragraph [ref=e99]:
+                  - strong [ref=e100]: Tero Väyrynen
+                  - text: poliisin viestinnästä muistuttaa, että kaikkia moottoriajoneuvoja, mukaan lukien työkoneet ja ruohonleikkurit, tulee kuljettaa aina selvin päin.
+                - paragraph [ref=e101]: Väyrysen mukaan kyseessä oli humalaisen vaarallinen päähänpisto. Imulakaisukone oli kopillinen malli, joka on rekisteröity traktoriksi.
+            - generic [ref=e103]:
+              - link "Lisää artikkeleita aiheesta Rikosepäilyt" [ref=e104] [cursor=pointer]:
+                - /url: https://yle.fi/t/18-340121/fi
+                - text: Rikosepäilyt
+              - link "Lisää artikkeleita aiheesta Poliisi" [ref=e105] [cursor=pointer]:
+                - /url: https://yle.fi/t/18-213947/fi
+                - text: Poliisi
+              - link "Lisää artikkeleita aiheesta Oulu" [ref=e106] [cursor=pointer]:
+                - /url: https://yle.fi/t/18-177640/fi
+                - text: Oulu
+              - button "Näytä kaikki aiheet" [ref=e108] [cursor=pointer]:
+                - img [ref=e110]
+          - img [ref=e114]
+        - generic [ref=e116]:
+          - complementary [ref=e117]:
+            - heading "Suosituimmat" [level=2] [ref=e118]
+            - list "Suosituimmat" [ref=e119]:
+              - listitem [ref=e120]:
+                - generic [ref=e123]: "1"
+                - generic [ref=e125]:
+                  - link "Lähi-itä – Lisää aiheesta" [ref=e126] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-185583/fi
+                    - text: Lähi-itä
+                  - heading "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [level=3] [ref=e127]:
+                    - link "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [ref=e128] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219051
+              - listitem [ref=e129]:
+                - generic [ref=e132]: "2"
+                - generic [ref=e134]:
+                  - link "Energia – Lisää aiheesta" [ref=e135] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211945/fi
+                    - text: Energia
+                  - 'heading "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [level=3] [ref=e136]':
+                    - 'link "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [ref=e137] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217749
+              - listitem [ref=e138]:
+                - generic [ref=e141]: "3"
+                - generic [ref=e143]:
+                  - link "Rakennukset – Lisää aiheesta" [ref=e144] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-203951/fi
+                    - text: Rakennukset
+                  - heading "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [level=3] [ref=e145]:
+                    - link "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [ref=e146] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20214586
+              - listitem [ref=e147]:
+                - generic [ref=e150]: "4"
+                - generic [ref=e152]:
+                  - link "Luonto – Lisää aiheesta" [ref=e153] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-215452/fi
+                    - text: Luonto
+                  - heading "Porissa piilottelee pirullinen pyörre, joka voi imaista uimarit 15 metrin syvyyteen" [level=3] [ref=e154]:
+                    - link "Porissa piilottelee pirullinen pyörre, joka voi imaista uimarit 15 metrin syvyyteen" [ref=e155] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20218331
+              - listitem [ref=e156]:
+                - generic [ref=e159]: "5"
+                - generic [ref=e160]:
+                  - link "Venäjän hyökkäys – Lisää aiheesta" [ref=e161] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-334977/fi
+                    - text: Venäjän hyökkäys
+                  - heading "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [level=3] [ref=e162]:
+                    - link "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [ref=e163] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219050
+          - complementary [ref=e164]:
+            - heading "Tuoreimmat" [level=2] [ref=e165]
+            - list "Tuoreimmat" [ref=e166]:
+              - listitem [ref=e167]:
+                - time [ref=e170]: 11:33
+                - generic [ref=e172]:
+                  - link "Harrastukset – Lisää aiheesta" [ref=e173] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-204660/fi
+                    - text: Harrastukset
+                  - heading "Suomen suurimpaan ampumakeskukseen on pantu miljoonia valtion rahaa, mutta siellä ei nyt ammuta – tästä on kyse" [level=3] [ref=e174]:
+                    - link "Suomen suurimpaan ampumakeskukseen on pantu miljoonia valtion rahaa, mutta siellä ei nyt ammuta – tästä on kyse" [ref=e175] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217414
+              - listitem [ref=e176]:
+                - time [ref=e179]: 11:27
+                - generic [ref=e181]:
+                  - link "Kansainvälinen politiikka – Lisää aiheesta" [ref=e182] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-213332/fi
+                    - text: Kansainvälinen politiikka
+                  - heading "Libanonin presidentti haluaa välttää Gazan kaltaisen tuhon, toivoo neuvotteluja Israelin kanssa" [level=3] [ref=e183]:
+                    - link "Libanonin presidentti haluaa välttää Gazan kaltaisen tuhon, toivoo neuvotteluja Israelin kanssa" [ref=e184] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219064
+              - listitem [ref=e185]:
+                - time [ref=e188]: 10:43
+                - generic [ref=e190]:
+                  - link "Vaalit – Lisää aiheesta" [ref=e191] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-218195/fi
+                    - text: Vaalit
+                  - heading "Äänestäjät torjuivat vaalien yhdistämisen Malediiveilla" [level=3] [ref=e192]:
+                    - link "Äänestäjät torjuivat vaalien yhdistämisen Malediiveilla" [ref=e193] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219058
+              - listitem [ref=e194]:
+                - time [ref=e197]: 10:42
+                - generic [ref=e199]:
+                  - link "Jalkapallo – Lisää aiheesta" [ref=e200] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205598/fi
+                    - text: Jalkapallo
+                  - heading "Demokraattipoliitikko haluaa estää Donald Trumpia käyttämästä ICE-joukkoja jalkapallon MM-kisoissa" [level=3] [ref=e201]:
+                    - link "Demokraattipoliitikko haluaa estää Donald Trumpia käyttämästä ICE-joukkoja jalkapallon MM-kisoissa" [ref=e202] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219056
+              - listitem [ref=e203]:
+                - time [ref=e206]: 10:30
+                - generic [ref=e208]:
+                  - link "Uskonnot – Lisää aiheesta" [ref=e209] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211576/fi
+                    - text: Uskonnot
+                  - heading "Pääsiäissunnuntain messu paavi Leo XIV:n johdolla – katso suoraa lähetystä" [level=3] [ref=e210]:
+                    - link "Pääsiäissunnuntain messu paavi Leo XIV:n johdolla – katso suoraa lähetystä" [ref=e211] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219052
+              - listitem [ref=e212]:
+                - time [ref=e215]: 10:29
+                - generic [ref=e217]:
+                  - link "Talous – Lisää aiheesta" [ref=e218] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-204933/fi
+                    - text: Talous
+                  - heading "Naapurin sijoitusvinkki voi olla salkkusi tuho – professori listaa seitsemän ansaa, jotka syövät sijoitustesi tuottoja" [level=3] [ref=e219]:
+                    - link "Naapurin sijoitusvinkki voi olla salkkusi tuho – professori listaa seitsemän ansaa, jotka syövät sijoitustesi tuottoja" [ref=e220] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20215613
+              - listitem [ref=e221]:
+                - time [ref=e224]: 9:44
+                - generic [ref=e226]:
+                  - link "Rakennukset – Lisää aiheesta" [ref=e227] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-203951/fi
+                    - text: Rakennukset
+                  - heading "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [level=3] [ref=e228]:
+                    - link "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [ref=e229] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20214586
+              - listitem [ref=e230]:
+                - time [ref=e233]: 9:32
+                - generic [ref=e235]:
+                  - link "Venäjän hyökkäys – Lisää aiheesta" [ref=e236] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-334977/fi
+                    - text: Venäjän hyökkäys
+                  - heading "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [level=3] [ref=e237]:
+                    - link "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [ref=e238] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219050
+              - listitem [ref=e239]:
+                - time [ref=e242]: 9:19
+                - generic [ref=e244]:
+                  - link "Lähi-itä – Lisää aiheesta" [ref=e245] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-185583/fi
+                    - text: Lähi-itä
+                  - heading "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [level=3] [ref=e246]:
+                    - link "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [ref=e247] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219051
+              - listitem [ref=e248]:
+                - time [ref=e251]: 9:17
+                - generic [ref=e253]:
+                  - link "Koripallo – Lisää aiheesta" [ref=e254] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-215754/fi
+                    - text: Koripallo
+                  - heading "NBA:n jättiläiset törmäsivät – Jokic voitti Wembanyama-taiston bravuuriheitollaan" [level=3] [ref=e255]:
+                    - link "NBA:n jättiläiset törmäsivät – Jokic voitti Wembanyama-taiston bravuuriheitollaan" [ref=e256] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219049
+              - listitem [ref=e257]:
+                - time [ref=e260]: 8:38
+                - generic [ref=e262]:
+                  - link "Energia – Lisää aiheesta" [ref=e263] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211945/fi
+                    - text: Energia
+                  - 'heading "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [level=3] [ref=e264]':
+                    - 'link "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [ref=e265] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217749
+              - listitem [ref=e266]:
+                - time [ref=e269]: 8:31
+                - generic [ref=e271]:
+                  - link "Avaruus – Lisää aiheesta" [ref=e272] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205125/fi
+                    - text: Avaruus
+                  - heading "Nasa julkaisi uusia kuvia kuulennolta" [level=3] [ref=e273]:
+                    - link "Nasa julkaisi uusia kuvia kuulennolta" [ref=e274] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219047
+              - listitem [ref=e275]:
+                - time [ref=e278]: 8:30
+                - generic [ref=e280]:
+                  - link "Golf – Lisää aiheesta" [ref=e281] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205551/fi
+                    - text: Golf
+                  - heading "Huono sää keskeytti golfin PGA Tourin kisan – Välimäki yhä kymppisijan tuntumassa" [level=3] [ref=e282]:
+                    - link "Huono sää keskeytti golfin PGA Tourin kisan – Välimäki yhä kymppisijan tuntumassa" [ref=e283] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219048
+              - listitem [ref=e284]:
+                - time [ref=e287]: 8:09
+                - generic [ref=e289]:
+                  - link "Urheilu – Lisää aiheesta" [ref=e290] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-220090/fi
+                    - text: Urheilu
+                  - 'heading "Tutkimus: Urheiluväkivalta yleistä nuorilla – näin siihen puututaan käytännössä" [level=3] [ref=e291]':
+                    - 'link "Tutkimus: Urheiluväkivalta yleistä nuorilla – näin siihen puututaan käytännössä" [ref=e292] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20216115
+              - listitem [ref=e293]:
+                - time [ref=e296]: 8:02
+                - generic [ref=e297]:
+                  - link "Jalkapallo – Lisää aiheesta" [ref=e298] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205598/fi
+                    - text: Jalkapallo
+                  - heading "Messi iski historiallisen maalin Miamin uudella areenalla" [level=3] [ref=e299]:
+                    - link "Messi iski historiallisen maalin Miamin uudella areenalla" [ref=e300] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219046
+          - complementary [ref=e301]:
+            - heading "Tästä keskustellaan nyt" [level=2] [ref=e302]
+            - list "Tästä keskustellaan nyt" [ref=e303]:
+              - listitem [ref=e304]:
+                - generic [ref=e307]: "1"
+                - generic [ref=e309]:
+                  - link "Energia – Lisää aiheesta" [ref=e310] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211945/fi
+                    - text: Energia
+                  - 'heading "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus Keskustele, 327 kommenttia" [level=3] [ref=e311]':
+                    - 'link "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [ref=e312] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217749
+                    - link "Keskustele, 327 kommenttia" [ref=e313] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217749#comments
+                      - img [ref=e314]
+                      - text: "327"
+              - listitem [ref=e316]:
+                - generic [ref=e319]: "2"
+                - generic [ref=e321]:
+                  - link "Yhdysvallat – Lisää aiheesta" [ref=e322] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-193507/fi
+                    - text: Yhdysvallat
+                  - 'heading "Johanna Vuorelman kolumni: Moni poliittinen päättäjä näkee mielikuvansa Yhdysvalloista, ei todellista maata Keskustele, 189 kommenttia" [level=3] [ref=e323]':
+                    - 'link "Johanna Vuorelman kolumni: Moni poliittinen päättäjä näkee mielikuvansa Yhdysvalloista, ei todellista maata" [ref=e324] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217682
+                    - link "Keskustele, 189 kommenttia" [ref=e325] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217682#comments
+                      - img [ref=e326]
+                      - text: "189"
+              - listitem [ref=e328]:
+                - generic [ref=e331]: "3"
+                - generic [ref=e332]:
+                  - link "Rikokset – Lisää aiheesta" [ref=e333] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-217206/fi
+                    - text: Rikokset
+                  - 'heading "Turkki vaati Suomea luovuttamaan 12 kansalaistaan – tutkija: ”Noitavainoa” Keskustele, 87 kommenttia" [level=3] [ref=e334]':
+                    - 'link "Turkki vaati Suomea luovuttamaan 12 kansalaistaan – tutkija: ”Noitavainoa”" [ref=e335] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217416
+                    - link "Keskustele, 87 kommenttia" [ref=e336] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217416#comments
+                      - img [ref=e337]
+                      - text: "87"
+      - generic [ref=e339]:
+        - button "Takaisin sivun alkuun" [ref=e341] [cursor=pointer]:
+          - generic [ref=e342]: Takaisin sivun alkuun
+          - img [ref=e344]
+        - contentinfo "Asiakaspalvelu ja yhteystiedot" [ref=e348]:
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - link "Yle yhtiönä" [ref=e351] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio
+            - listitem [ref=e352]:
+              - link "Tietosuojalauseke" [ref=e353] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio/tietosuoja
+            - listitem [ref=e354]:
+              - link "Saavutettavuusseloste" [ref=e355] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/a/20-10008759
+            - listitem [ref=e356]:
+              - link "Evästekäytännöt" [ref=e357] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/s/yleisradio/evastekaytannot
+            - listitem [ref=e358]:
+              - link "Asiakaspalvelu" [ref=e359] [cursor=pointer]:
+                - /url: https://asiakaspalvelu.yle.fi
+            - listitem [ref=e360]:
+              - link "Avoimet työpaikat" [ref=e361] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio/toihin-ylelle
+            - listitem [ref=e362]:
+              - link "Ylen perus- ja yhteystiedot" [ref=e363] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio/ylen-yhteystiedot
+          - img "Vastuullista journalismia" [ref=e365]
+          - link "Yle-palvelun etusivu" [ref=e366] [cursor=pointer]:
+            - /url: https://yle.fi
+            - img "Yle-palvelun etusivu" [ref=e367]
+  - dialog "Valitse, mitä evästeitä käytät" [ref=e371]:
+    - generic [ref=e372]:
+      - button "Valitse suostumusdialogin kieli" [active] [ref=e374] [cursor=pointer]:
+        - img [ref=e375]
+        - generic [ref=e377]: Suomeksi
+        - img [ref=e378]
+      - generic [ref=e380]:
+        - heading "Valitse, mitä evästeitä käytät" [level=2] [ref=e381]
+        - paragraph [ref=e382]:
+          - text: Evästeiden avulla Yle tarjoaa paremman käyttökokemuksen ja henkilökohtaisemman palvelun. Kun hyväksyt evästeet, voimme kehittää palveluistamme entistä parempia ja pystymme tarjoamaan sinulle kiinnostavia sisältöjä. Sinä hallitset evästeitäsi ja voit muuttaa evästeasetuksiasi milloin tahansa sivuston päävalikon kautta.
+          - link "Lue lisää evästeistämme" [ref=e383] [cursor=pointer]:
+            - /url: https://yle.fi/aihe/s/yleisradio/evastekaytannot
+            - text: Lue lisää evästeistämme
+            - img [ref=e384]
+    - generic [ref=e387]:
+      - generic [ref=e388]:
+        - button "Vain välttämättömät" [ref=e389] [cursor=pointer]
+        - button "Hyväksy kaikki" [ref=e390] [cursor=pointer]
+      - button "Muokkaa evästeasetuksia" [ref=e391] [cursor=pointer]

@@ -1,0 +1,212 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - navigation "Murupolku" [ref=e55]:
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - link "Henkilöasiakkaat" [ref=e59] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/
+              - listitem [ref=e60]:
+                - link "Omaisuus ja asuminen" [ref=e61] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/
+              - listitem [ref=e62]: Asunnon myynti
+          - generic [ref=e63]:
+            - heading "Asunnon myynti" [level=1] [ref=e67]
+            - generic [ref=e70]:
+              - link "Oman asunnon myynti Voit myydä oman vakituisen asuntosi verovapaasti, kun tietyt edellytykset täyttyvät. Muuten asunnon luovutusvoitto verotetaan pääomatulona. Näin ilmoitat ja maksat" [ref=e73] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/oman-asunnon-myynti/
+                - generic [ref=e74]:
+                  - heading "Oman asunnon myynti" [level=2] [ref=e75]
+                  - paragraph [ref=e77]: Voit myydä oman vakituisen asuntosi verovapaasti, kun tietyt edellytykset täyttyvät. Muuten asunnon luovutusvoitto verotetaan pääomatulona.
+                  - button "Näin ilmoitat ja maksat" [ref=e78]
+              - link "Koti-irtaimiston myynti Voit myydä tavanomaista koti-irtaimistoa verottomasti, jos myynnistä saadut voitot ovat alle 5 000 euroa. Ylittävästä osasta maksetaan luovutusvoittoveroa. Koti-irtaimiston myynti" [ref=e81] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/kotiirtaimiston-myynti/
+                - generic [ref=e82]:
+                  - heading "Koti-irtaimiston myynti" [level=2] [ref=e83]
+                  - paragraph [ref=e85]: Voit myydä tavanomaista koti-irtaimistoa verottomasti, jos myynnistä saadut voitot ovat alle 5 000 euroa. Ylittävästä osasta maksetaan luovutusvoittoveroa.
+                  - button "Koti-irtaimiston myynti" [ref=e86]
+              - link "Ulkomailla sijaitsevan asunnon myynti Ulkomailla olevan asunnon sijaintivaltio vaikuttaa myyntivoiton tai -tappion verotukseen. Ulkomailla sijaitseva asunto" [ref=e89] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/ulkomailla-sijaitsevan-asunnon-myynti/
+                - generic [ref=e90]:
+                  - heading "Ulkomailla sijaitsevan asunnon myynti" [level=2] [ref=e91]
+                  - paragraph [ref=e93]: Ulkomailla olevan asunnon sijaintivaltio vaikuttaa myyntivoiton tai -tappion verotukseen.
+                  - button "Ulkomailla sijaitseva asunto" [ref=e94]
+            - link "Näin ilmoitat OmaVerossa Näin ilmoitat asunnon, kiinteistön tai muun omaisuuden luovutuksen OmaVerossa. Näin ilmoitat OmaVerossa" [ref=e100] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/nain-ilmoitat-omaisuuden-myynnin-omaverossa/
+              - generic [ref=e101]:
+                - heading "Näin ilmoitat OmaVerossa" [level=2] [ref=e102]
+                - paragraph [ref=e104]: Näin ilmoitat asunnon, kiinteistön tai muun omaisuuden luovutuksen OmaVerossa.
+                - button "Näin ilmoitat OmaVerossa" [ref=e105]
+        - article [ref=e106]:
+          - generic [ref=e111]:
+            - paragraph [ref=e112]: Huomio alkaa.
+            - generic [ref=e113]:
+              - paragraph [ref=e114]:
+                - strong [ref=e115]: Ajankohtaista
+              - paragraph [ref=e116]:
+                - text: Vältä mätkyt – hae ja maksa lisäennakkoa
+                - strong [ref=e117]: vuodelle 2025
+                - text: .
+                - link "Lue ohje asiointiin." [ref=e118] [cursor=pointer]:
+                  - /url: /yritykset-ja-yhteisot/verot-ja-maksut/ennakkovero/lisaennakko/
+            - paragraph [ref=e119]: Huomio päättyy
+          - navigation "Osion alasivut" [ref=e128]:
+            - heading "Asunnon myynti" [level=3] [ref=e129]
+            - list [ref=e132]:
+              - listitem [ref=e133]:
+                - link "Oman asunnon myynti" [ref=e135] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/oman-asunnon-myynti/
+              - listitem [ref=e136]:
+                - link "Koti-irtaimiston myynti" [ref=e138] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/kotiirtaimiston-myynti/
+              - listitem [ref=e139]:
+                - link "Ulkomailla sijaitsevan asunnon myynti" [ref=e141] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/ulkomailla-sijaitsevan-asunnon-myynti/
+              - listitem [ref=e142]:
+                - link "Näin ilmoitat omaisuuden myynnin OmaVerossa" [ref=e144] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/nain-ilmoitat-omaisuuden-myynnin-omaverossa/
+          - separator [ref=e145]
+          - generic [ref=e149]:
+            - paragraph [ref=e151]:
+              - text: Tämä sivu on osa Euroopan komission Your Europe -portaalia.
+              - link "Anna komissiolle palautetta sivusta." [ref=e152] [cursor=pointer]:
+                - /url: https://foq.youreurope.europa.eu/info-service-noft?lang=fi
+            - link "https://europa.eu/youreurope/index_fi.htm" [ref=e154] [cursor=pointer]:
+              - /url: https://europa.eu/youreurope/index_fi.htm
+              - img "https://europa.eu/youreurope/index_fi.htm" [ref=e155]
+          - generic [ref=e156]: Sivu on viimeksi päivitetty 25.3.2025
+      - generic [ref=e161]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e162]
+        - paragraph [ref=e164]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e165] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e166]:
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Asioi verkossa" [level=2] [ref=e171]
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - link "OmaVero" [ref=e176] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e177]:
+                - link "Laskurit" [ref=e179] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e180]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e182] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e183]:
+                - link "Positiivinen luottotietorekisteri" [ref=e185] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e186]:
+                - link "Tulorekisteri" [ref=e188] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e189]:
+            - heading "Yhteystiedot" [level=2] [ref=e190]
+            - list [ref=e192]:
+              - listitem [ref=e193]:
+                - link "Chat" [ref=e195] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e196]:
+                - link "Yhteystiedot ja asiointi" [ref=e198] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e199]:
+                - link "Sosiaalinen media" [ref=e201] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e202]:
+                - link "Paperilomakkeet" [ref=e204] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e205]:
+                - link "Käsittelyajat" [ref=e207] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e208]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e209]
+            - generic [ref=e213]:
+              - paragraph [ref=e214]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e215]:
+                - listitem [ref=e216]:
+                  - link "Syventävät vero-ohjeet" [ref=e218] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e219]:
+            - heading "Verohallinto" [level=2] [ref=e220]
+            - generic [ref=e224]:
+              - paragraph [ref=e225]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e226]:
+                - listitem [ref=e227]:
+                  - link "Tietoa Verohallinnosta" [ref=e229] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e232]:
+          - listitem [ref=e233]: © Verohallinto
+          - listitem [ref=e234]:
+            - link "Tietosuoja" [ref=e236] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e237]:
+            - link "Palaute" [ref=e239] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e240]:
+            - link "Saavutettavuusseloste" [ref=e242] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e243]:
+            - link "Tulosta" [ref=e245] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e247] [cursor=pointer]:
+    - img [ref=e248]
+    - paragraph [ref=e250]: Chatbot

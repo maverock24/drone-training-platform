@@ -1,0 +1,268 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: "\"Viikki\" Helsinki asuinalue opiskelija yliopisto vuokra kysyntä asunnot 2025 2026 \"Viikki\" Helsinki asuinalue opiskelija yliopisto vuokra kysyntä asunnot 2025 2026"
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3D%2522Viikki%2522%2BHelsinki%2Basuinalue%2Bopiskelija%2Byliopisto%2Bvuokra%2Bkysynt%25C3%25A4%2Basunnot%2B2025%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=%22Viikki%22+Helsinki+asuinalue+opiskelija+yliopisto+vuokra+kysynt%C3%A4+asunnot+2025+2026&sca_esv=3a2a6e3c008af294&hl=fi&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=%22Viikki%22+Helsinki+asuinalue+opiskelija+yliopisto+vuokra+kysynt%C3%A4+asunnot+2025+2026&sa=X&ved=2ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=%22Viikki%22+Helsinki+asuinalue+opiskelija+yliopisto+vuokra+kysynt%C3%A4+asunnot+2025+2026&sa=X&ved=2ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=%22Viikki%22+Helsinki+asuinalue+opiskelija+yliopisto+vuokra+kysynt%C3%A4+asunnot+2025+2026&sa=X&ved=2ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQtKgLegQIEhAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=%22Viikki%22+Helsinki+asuinalue+opiskelija+yliopisto+vuokra+kysynt%C3%A4+asunnot+2025+2026&sa=X&ved=2ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&q=%22Viikki%22+Helsinki+asuinalue+opiskelija+yliopisto+vuokra+kysynt%C3%A4+asunnot+2025+2026&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwiJlLHwqdaTAxUDGBAIHUl7PawQ0pQJegQIExAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Haetaan
+            - generic [ref=e164]: Odota vielä hetki
+        - progressbar [ref=e166]
+      - main [ref=e208]:
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - heading "Tulokset internetistä" [level=2] [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e220]:
+                - link "Valmistuneet kohteet Helsingin kaupunki https://www.hel.fi › kehittyva-kerrostalo › valmistuneet..." [ref=e222] [cursor=pointer]:
+                  - /url: https://www.hel.fi/fi/kaupunkiymparisto-ja-liikenne/kaupunkisuunnittelu-ja-rakentaminen/suunnittelun-ja-rakentamisen-tavoitteet/kehittyva-kerrostalo/valmistuneet-kohteet
+                  - heading "Valmistuneet kohteet" [level=3] [ref=e223]
+                  - generic [ref=e228]:
+                    - generic [ref=e230]: Helsingin kaupunki
+                    - generic [ref=e232]: https://www.hel.fi › kehittyva-kerrostalo › valmistuneet...
+                - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+                  - img [ref=e236]
+              - generic [ref=e239]:
+                - generic [ref=e240]: 19.2.2026 —
+                - generic [ref=e241]:
+                  - text: "Itsenäinen kerrostaloasunto. Toteuttaja: NCC, Fennia Yhteistyötaho: Arkkitehtitoimisto Tuomo Siitonen"
+                  - emphasis [ref=e242]: Viikki
+                  - text: ", Viikinportti 2, 4. Valmistunut ..."
+          - generic [ref=e246]:
+            - generic [ref=e249]:
+              - link "helsinki-talousarvio-2026.pdf Helsingin kaupunki https://www.hel.fi › static › helsinki-talousarvio-..." [ref=e251] [cursor=pointer]:
+                - /url: https://www.hel.fi/static/helsinki/talousarvio/helsinki-talousarvio-2026.pdf
+                - heading "helsinki-talousarvio-2026.pdf" [level=3] [ref=e252]
+                - generic [ref=e257]:
+                  - generic [ref=e259]: Helsingin kaupunki
+                  - generic [ref=e261]: https://www.hel.fi › static › helsinki-talousarvio-...
+              - generic [ref=e262]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e263] [cursor=pointer]:
+                - img [ref=e266]
+            - generic [ref=e268]:
+              - generic [ref=e270]:
+                - text: ...
+                - emphasis [ref=e271]: Viikki
+                - text: ", melueste. 0,3. 0,3. Länsiväylä, Koivusaaren eritasoliittymä. 0,4. 10,3. 0,3. 4,0. 6,0. Tuusulanväylä, Torpparinmäki, melueste. 0,5. 0,5. Turunväylän ja ..."
+              - generic [ref=e272]: 427 sivua
+          - generic [ref=e276]:
+            - generic [ref=e279]:
+              - link "Helsingin kaupunki Pöytäkirja 21/2016 Kaupunginhallitus ... Disec Oy https://yksa.disec.fi › Yksa4 › download › file" [ref=e281] [cursor=pointer]:
+                - /url: https://yksa.disec.fi/Yksa4/download/174047162207300/file/3bc15879-535e-4c33-9a78-d109c865e1a3
+                - heading "Helsingin kaupunki Pöytäkirja 21/2016 Kaupunginhallitus ..." [level=3] [ref=e282]
+                - generic [ref=e287]:
+                  - generic [ref=e289]: Disec Oy
+                  - generic [ref=e291]: https://yksa.disec.fi › Yksa4 › download › file
+              - generic [ref=e292]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e293] [cursor=pointer]:
+                - img [ref=e296]
+            - generic [ref=e299]:
+              - generic [ref=e300]: 30.5.2016 —
+              - generic [ref=e301]:
+                - text: va pyöräilyn baanayhteys Oulunkylä -
+                - emphasis [ref=e302]: Viikki
+                - text: (2,3 milj. euroa) ja Käskyn- haltijantien ympäristön täydennysrakentamisen edellyttämät ...
+          - generic [ref=e306]:
+            - generic [ref=e309]:
+              - link "2/21 Puuinfo https://puuinfo.fi › 2021/10 › Puu_2_2021-2" [ref=e311] [cursor=pointer]:
+                - /url: https://puuinfo.fi/wp-content/uploads/2021/10/Puu_2_2021-2.pdf
+                - heading "2/21" [level=3] [ref=e312]
+                - generic [ref=e317]:
+                  - generic [ref=e319]: Puuinfo
+                  - generic [ref=e321]: https://puuinfo.fi › 2021/10 › Puu_2_2021-2
+              - generic [ref=e322]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e323] [cursor=pointer]:
+                - img [ref=e326]
+            - generic [ref=e328]:
+              - generic [ref=e330]:
+                - text: completed in
+                - emphasis [ref=e331]: Viikki
+                - text: . The apartments were constructed using. Metsä Wood's wooden multi-storey building system. The pro- ject proved the production efficiency ...
+              - generic [ref=e332]: 45 sivua
+          - generic [ref=e336]:
+            - generic [ref=e339]:
+              - link "Täydennysrakentamisen koordinointi, tapaus Raide-Jokeri Theseus https://www.theseus.fi › bitstream › Viljander_Ja..." [ref=e341] [cursor=pointer]:
+                - /url: https://www.theseus.fi/bitstream/10024/348043/2/Viljander_Janita_YAMK_2020.pdf
+                - heading "Täydennysrakentamisen koordinointi, tapaus Raide-Jokeri" [level=3] [ref=e342]
+                - generic [ref=e347]:
+                  - generic [ref=e349]: Theseus
+                  - generic [ref=e351]: https://www.theseus.fi › bitstream › Viljander_Ja...
+              - generic [ref=e352]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e353] [cursor=pointer]:
+                - img [ref=e356]
+            - generic [ref=e359]:
+              - generic [ref=e360]: 15.11.2020 —
+              - generic [ref=e361]:
+                - text: 8.4 Viikin
+                - emphasis [ref=e362]: asuinalue
+                - text: .
+                - emphasis [ref=e363]: Viikki
+                - text: "on"
+                - emphasis [ref=e364]: alue
+                - text: ", jossa kulttuurihistorialliset peltomaat, luonnonsuojelualue ja urbaani kau- punkirakenne kohtaavat ..."
+          - generic [ref=e368]:
+            - generic [ref=e371]:
+              - 'link "(PDF) Sustainability for JYU: Jyväskylän yliopiston ilmasto ResearchGate https://www.researchgate.net › publication › 38284616..." [ref=e373] [cursor=pointer]':
+                - /url: https://www.researchgate.net/publication/382846162_Sustainability_for_JYU_Jyvaskylan_yliopiston_ilmasto-_ja_luontohaitat
+                - 'heading "(PDF) Sustainability for JYU: Jyväskylän yliopiston ilmasto" [level=3] [ref=e374]'
+                - generic [ref=e379]:
+                  - generic [ref=e381]: ResearchGate
+                  - generic [ref=e383]: https://www.researchgate.net › publication › 38284616...
+              - button "Tietoja tästä tuloksesta" [ref=e384] [cursor=pointer]:
+                - img [ref=e387]
+            - generic [ref=e390]:
+              - generic [ref=e391]: 15.11.2024 —
+              - generic [ref=e392]:
+                - text: ...
+                - emphasis [ref=e393]: Viikki
+                - text: campus demonstrates how the indicators can be integrated into design scenarios. Policy recommendations highlight how integrating ...
+          - generic [ref=e397]:
+            - generic [ref=e400]:
+              - link "Helsingin kaupunki Pöytäkirja 22/2016 Kaupunginhallitus ... Helsingin kaupunki https://www.hel.fi › public › hela › Suomi › Paatos" [ref=e402] [cursor=pointer]:
+                - /url: https://www.hel.fi/static/public/hela/Kaupunginhallitus/Suomi/Paatos/2016/Kanslia_2016-06-06_Khs_22_Pk/6BFBE964-C3E1-480D-957E-4958A25FDC7E/Kaupunginhallitus_poytakirja_06062016-22_julkinen_.pdf
+                - heading "Helsingin kaupunki Pöytäkirja 22/2016 Kaupunginhallitus ..." [level=3] [ref=e403]
+                - generic [ref=e408]:
+                  - generic [ref=e410]: Helsingin kaupunki
+                  - generic [ref=e412]: https://www.hel.fi › public › hela › Suomi › Paatos
+              - generic [ref=e413]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e414] [cursor=pointer]:
+                - img [ref=e417]
+            - generic [ref=e420]:
+              - generic [ref=e421]: 6.6.2016 —
+              - generic [ref=e422]:
+                - text: va pyöräilyn baanayhteys Oulunkylä -
+                - emphasis [ref=e423]: Viikki
+                - text: (2,3 milj. euroa) ja Käskyn- haltijantien ympäristön täydennysrakentamisen edellyttämät ...
+          - generic [ref=e427]:
+            - generic [ref=e430]:
+              - link "Tilinpäätös 2012 Helsingin kaupunki https://www.hel.fi › julkaisut › tilinpaatos_2012" [ref=e432] [cursor=pointer]:
+                - /url: https://www.hel.fi/static/taske/julkaisut/2013/tilinpaatos_2012.pdf
+                - heading "Tilinpäätös 2012" [level=3] [ref=e433]
+                - generic [ref=e438]:
+                  - generic [ref=e440]: Helsingin kaupunki
+                  - generic [ref=e442]: https://www.hel.fi › julkaisut › tilinpaatos_2012
+              - generic [ref=e443]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e444] [cursor=pointer]:
+                - img [ref=e447]
+            - generic [ref=e450]:
+              - generic [ref=e451]: 31.12.2012 —
+              - generic [ref=e452]:
+                - text: Kaupungin
+                - emphasis [ref=e453]: vuokra
+                - text: "-"
+                - emphasis [ref=e454]: asunnot
+                - text: olivat erittäin kysyttyjä ja ... Rakentaminen oli vilkasta
+                - emphasis [ref=e455]: Viikki
+                - text: "-Latokartanossa sekä Jät- käsaaren ..."
+        - generic:
+          - generic:
+            - navigation
+        - navigation
+    - contentinfo [ref=e456]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e457]
+      - generic [ref=e461]:
+        - generic [ref=e463]:
+          - text: Suomi
+          - generic [ref=e465]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e467] [cursor=pointer]:
+              - generic [ref=e468]: 00920, Helsinki
+              - generic [ref=e470]:
+                - text: "-"
+                - generic [ref=e471]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e473] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e476]:
+          - link "Ohje" [ref=e477] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e478] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e479] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e480] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

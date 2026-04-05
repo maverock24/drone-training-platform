@@ -1,0 +1,309 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Helsinki turvaton asuinalue tilasto rikollisuus Kontula Myllypuro Kallio 2024 2025 Helsinki turvaton asuinalue tilasto rikollisuus Kontula Myllypuro Kallio 2024 2025
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DHelsinki%2Bturvaton%2Basuinalue%2Btilasto%2Brikollisuus%2BKontula%2BMyllypuro%2BKallio%2B2024%2B2025%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sca_esv=3a2a6e3c008af294&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQ2J8OegQIERAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQtKgLegQIFxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQtKgLegQIFBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQs6gLegQIFRAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQs6gLegQIFhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQ0pQJegQIExAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - heading "Miettii Haetaan Odota vielä hetki" [level=2] [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]: Miettii
+            - generic [ref=e156]: Haetaan
+            - generic [ref=e166]: Odota vielä hetki
+        - progressbar [ref=e168]
+      - main [ref=e210]:
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - heading "Tulokset internetistä" [level=2] [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e222]:
+                - link "Helsinki ja sen asuinalueet koetaan turvallisiksi Helsingin kaupunki https://www.hel.fi › uutiset › helsinki-ja-sen-asuinalueet..." [ref=e224] [cursor=pointer]:
+                  - /url: https://www.hel.fi/fi/uutiset/helsinki-ja-sen-asuinalueet-koetaan-turvallisiksi
+                  - heading "Helsinki ja sen asuinalueet koetaan turvallisiksi" [level=3] [ref=e225]
+                  - generic [ref=e230]:
+                    - generic [ref=e232]: Helsingin kaupunki
+                    - generic [ref=e234]: https://www.hel.fi › uutiset › helsinki-ja-sen-asuinalueet...
+                - button "Tietoja tästä tuloksesta" [ref=e235] [cursor=pointer]:
+                  - img [ref=e238]
+              - generic [ref=e241]:
+                - generic [ref=e242]: 17.6.2025 —
+                - text: Helsinkiläisistä 90 prosenttia kokee olonsa Helsingissä keskimäärin turvalliseksi. Tieto selviää Helsingin kaupungin toteuttamasta ...
+          - generic [ref=e246]:
+            - generic [ref=e249]:
+              - link "Nuorten rikokset vähentyneet Helsingissä – huumehaitat ... Poliisi https://poliisi.fi › nuorten-rikokset-vahentyneet-helsingi..." [ref=e251] [cursor=pointer]:
+                - /url: https://poliisi.fi/-/nuorten-rikokset-vahentyneet-helsingissa-huumehaitat-samaan-aikaan-kasvaneet
+                - heading "Nuorten rikokset vähentyneet Helsingissä – huumehaitat ..." [level=3] [ref=e252]
+                - generic [ref=e257]:
+                  - generic [ref=e259]: Poliisi
+                  - generic [ref=e261]: https://poliisi.fi › nuorten-rikokset-vahentyneet-helsingi...
+              - button "Tietoja tästä tuloksesta" [ref=e262] [cursor=pointer]:
+                - img [ref=e265]
+            - generic [ref=e268]:
+              - generic [ref=e269]: 28.8.2025 —
+              - text: Helsingin turvallisuustutkimuksen mukaan 90 prosenttia kaupunkilaisista kokee olonsa yleensä turvalliseksi, mutta turvattomuus korostuu ...
+            - generic [ref=e271]: "Puuttuu: Kontula ‎Myllypuro ‎Kallio"
+          - generic [ref=e275]:
+            - generic [ref=e278]:
+              - link "Turvattomuuskokemukset Helsingin asuinalueilla Helsingin kaupunki https://kaupunkitieto.hel.fi › turvattomuuskokemukset-..." [ref=e280] [cursor=pointer]:
+                - /url: https://kaupunkitieto.hel.fi/fi/turvattomuuskokemukset-helsingin-asuinalueilla-viikonloppuiltaisin-turvattomuus-joissakin
+                - heading "Turvattomuuskokemukset Helsingin asuinalueilla" [level=3] [ref=e281]
+                - generic [ref=e286]:
+                  - generic [ref=e288]: Helsingin kaupunki
+                  - generic [ref=e290]: https://kaupunkitieto.hel.fi › turvattomuuskokemukset-...
+              - button "Tietoja tästä tuloksesta" [ref=e291] [cursor=pointer]:
+                - img [ref=e294]
+            - generic [ref=e297]:
+              - generic [ref=e298]: 28.8.2025 —
+              - generic [ref=e299]:
+                - text: Tulos eroaa
+                - emphasis [ref=e300]: Helsinki
+                - text: "-barometrin tuloksesta, jonka mukaan turvallisuuden tunne olisi heikentynyt vuosien 2021 ja"
+                - emphasis [ref=e301]: "2024"
+                - text: välillä (Mustonen
+                - emphasis [ref=e302]: "2025"
+                - text: ).
+            - generic [ref=e304]: "Puuttuu: tilasto ‎Kontula ‎Myllypuro"
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e310]
+              - button "Tietoja tästä tuloksesta" [ref=e311] [cursor=pointer]:
+                - img [ref=e314]
+            - generic [ref=e316]:
+              - button "Missä Helsingissä tapahtuu eniten rikoksia?" [ref=e322] [cursor=pointer]:
+                - generic [ref=e324]: Missä Helsingissä tapahtuu eniten rikoksia?
+                - img [ref=e327]
+              - button "Mikä on Helsingin vaarallisin paikka?" [ref=e336] [cursor=pointer]:
+                - generic [ref=e338]: Mikä on Helsingin vaarallisin paikka?
+                - img [ref=e341]
+              - button "Onko Helsinki turvallinen?" [ref=e350] [cursor=pointer]:
+                - generic [ref=e352]: Onko Helsinki turvallinen?
+                - img [ref=e355]
+              - button "Mikä on Helsingin suurin asuinalue?" [ref=e364] [cursor=pointer]:
+                - generic [ref=e366]: Mikä on Helsingin suurin asuinalue?
+                - img [ref=e369]
+          - generic [ref=e374]:
+            - heading "Tulokset internetistä" [level=2] [ref=e375]
+            - generic [ref=e376]:
+              - generic [ref=e379]:
+                - link "tässä ovat Suomen turvattomimmat kaupungit | Kotimaa Yle https://yle.fi › Yle Uutiset › Turvallisuus" [ref=e381] [cursor=pointer]:
+                  - /url: https://yle.fi/a/74-20181127
+                  - heading "tässä ovat Suomen turvattomimmat kaupungit | Kotimaa" [level=3] [ref=e382]
+                  - generic [ref=e387]:
+                    - generic [ref=e389]: Yle
+                    - generic [ref=e391]: https://yle.fi › Yle Uutiset › Turvallisuus
+                - button "Tietoja tästä tuloksesta" [ref=e392] [cursor=pointer]:
+                  - img [ref=e395]
+              - generic [ref=e398]:
+                - generic [ref=e399]: 18.9.2025 —
+                - text: Yle sai poliisin uunituoreen tilaston, jonka mukaan suurista kaupungeista Suomen turvattomimmat kaupungit ovat Vantaa, Jyväskylä ja Tampere.
+              - generic [ref=e401]: "Puuttuu: Kontula ‎Myllypuro ‎Kallio"
+          - generic [ref=e405]:
+            - generic [ref=e408]:
+              - link "Rikollisuus Helsingissä Wikipedia https://fi.wikipedia.org › wiki › Rikollisuus_Helsingissä" [ref=e410] [cursor=pointer]:
+                - /url: https://fi.wikipedia.org/wiki/Rikollisuus_Helsingiss%C3%A4
+                - heading "Rikollisuus Helsingissä" [level=3] [ref=e411]
+                - generic [ref=e416]:
+                  - generic [ref=e418]: Wikipedia
+                  - generic [ref=e420]: https://fi.wikipedia.org › wiki › Rikollisuus_Helsingissä
+              - button "Tietoja tästä tuloksesta" [ref=e421] [cursor=pointer]:
+                - img [ref=e424]
+            - generic [ref=e428]:
+              - emphasis [ref=e429]: "2024"
+              - text: Helsingissä tehtiin tuhatta asukasta kohden 123 rikosta, mikä on yli koko Suomen keskiarvon 95. Helsingissä kirjattiin 84 185 rikosta, joista noin puolet ...
+            - generic [ref=e431]: "Puuttuu: turvaton ‎asuinalue ‎Myllypuro"
+          - generic [ref=e435]:
+            - generic [ref=e438]:
+              - link "Tässä ovat Suomen turvattomimmat kaupungit Yle https://yle.fi › Yle Uutiset › Turvallisuus" [ref=e440] [cursor=pointer]:
+                - /url: https://yle.fi/a/74-20097959
+                - heading "Tässä ovat Suomen turvattomimmat kaupungit" [level=3] [ref=e441]
+                - generic [ref=e446]:
+                  - generic [ref=e448]: Yle
+                  - generic [ref=e450]: https://yle.fi › Yle Uutiset › Turvallisuus
+              - button "Tietoja tästä tuloksesta" [ref=e451] [cursor=pointer]:
+                - img [ref=e454]
+            - generic [ref=e457]:
+              - generic [ref=e458]: 10.7.2024 —
+              - generic [ref=e459]:
+                - emphasis [ref=e460]: Helsinki ei olekaan niin turvaton
+                - text: . Helsinki oli viime vuonna Suomen toiseksi turvattomin kaupunki Vantaan jälkeen. Hieman yllättävää onkin ...
+            - generic [ref=e462]: "Puuttuu: rikollisuus ‎Kontula ‎Myllypuro ‎Kallio"
+          - generic [ref=e466]:
+            - generic [ref=e469]:
+              - link "Selvitettyjen rikosten ja rikkomusten määrä väheni 12 % ... Tilastokeskus https://stat.fi › ... › Julkaisut › Rikos- ja pakkokeinotilasto" [ref=e471] [cursor=pointer]:
+                - /url: https://stat.fi/fi/julkaisu/cm1hhg8g57g4z07w0hje0yku9
+                - heading "Selvitettyjen rikosten ja rikkomusten määrä väheni 12 % ..." [level=3] [ref=e472]
+                - generic [ref=e477]:
+                  - generic [ref=e479]: Tilastokeskus
+                  - generic [ref=e481]: https://stat.fi › ... › Julkaisut › Rikos- ja pakkokeinotilasto
+              - button "Tietoja tästä tuloksesta" [ref=e482] [cursor=pointer]:
+                - img [ref=e485]
+            - generic [ref=e488]:
+              - generic [ref=e489]: 5.6.2025 —
+              - generic [ref=e490]:
+                - text: Poliisin, tullin ja rajavartiolaitoksen tietoon tuli vuonna
+                - emphasis [ref=e491]: "2024"
+                - text: yhteensä 522 000 rikoslakirikosta, mikä on yhtä paljon kuin edellisvuonna.
+            - generic [ref=e493]: "Puuttuu: turvaton ‎asuinalue ‎Kontula ‎Myllypuro ‎Kallio"
+          - generic [ref=e497]:
+            - generic [ref=e500]:
+              - link "Helsingin poliisin tietoon tulleet seksuaalirikokset ... Poliisi https://poliisi.fi › helsingin-poliisin-tietoon-tulleet-seksu..." [ref=e502] [cursor=pointer]:
+                - /url: https://poliisi.fi/-/helsingin-poliisin-tietoon-tulleet-seksuaalirikokset-kasvaneet-yli-50-prosenttia-kahdessa-vuodessa
+                - heading "Helsingin poliisin tietoon tulleet seksuaalirikokset ..." [level=3] [ref=e503]
+                - generic [ref=e508]:
+                  - generic [ref=e510]: Poliisi
+                  - generic [ref=e512]: https://poliisi.fi › helsingin-poliisin-tietoon-tulleet-seksu...
+              - button "Tietoja tästä tuloksesta" [ref=e513] [cursor=pointer]:
+                - img [ref=e516]
+            - generic [ref=e519]:
+              - generic [ref=e520]: 13.11.2025 —
+              - text: Tammi-lokakuun tietojen perusteella kaikkien Helsingin poliisille ilmoitettujen seksuaalirikosten määrä on kasvanut 55 prosenttia vuodesta 2023.
+            - generic [ref=e522]: "Puuttuu: turvaton ‎asuinalue ‎Kontula ‎Myllypuro ‎Kallio"
+          - generic [ref=e526]:
+            - generic [ref=e529]:
+              - link "turvallisuuden tunne ennallaan, silti tilanteen nähdään ... Helsingin kaupunki https://kaupunkitieto.hel.fi › turvallisuuskokemukset-he..." [ref=e531] [cursor=pointer]:
+                - /url: https://kaupunkitieto.hel.fi/fi/turvallisuuskokemukset-helsingin-kaupunkitilassa-turvallisuuden-tunne-ennallaan-silti-tilanteen
+                - heading "turvallisuuden tunne ennallaan, silti tilanteen nähdään ..." [level=3] [ref=e532]
+                - generic [ref=e537]:
+                  - generic [ref=e539]: Helsingin kaupunki
+                  - generic [ref=e541]: https://kaupunkitieto.hel.fi › turvallisuuskokemukset-he...
+              - button "Tietoja tästä tuloksesta" [ref=e542] [cursor=pointer]:
+                - img [ref=e545]
+            - generic [ref=e548]:
+              - generic [ref=e549]: 17.6.2025 —
+              - generic [ref=e550]:
+                - emphasis [ref=e551]: Helsinki
+                - text: koetaan yleisesti ottaen varsin turvalliseksi kaupungiksi. Vastaajista 90 prosenttia koki olonsa Helsingissä keskimäärin vähintään ...
+            - generic [ref=e553]: "Puuttuu: Kontula ‎Myllypuro ‎Kallio"
+          - generic [ref=e557]:
+            - generic [ref=e560]:
+              - link "Tässä Suomen suurimmista kaupungeista turvattomimmat Yle https://yle.fi › Yle Uutiset › Väkivalta" [ref=e562] [cursor=pointer]:
+                - /url: https://yle.fi/a/74-20136114
+                - heading "Tässä Suomen suurimmista kaupungeista turvattomimmat" [level=3] [ref=e563]
+                - generic [ref=e568]:
+                  - generic [ref=e570]: Yle
+                  - generic [ref=e572]: https://yle.fi › Yle Uutiset › Väkivalta
+              - button "Tietoja tästä tuloksesta" [ref=e573] [cursor=pointer]:
+                - img [ref=e576]
+            - generic [ref=e579]:
+              - generic [ref=e580]: 15.1.2025 —
+              - text: Poliisi laskee asukaslukuun suhteutettuun häiriöindeksiin julkisilla paikoilla kirjatut henkirikokset, pahoinpitely- ja seksuaalirikokset, ...
+            - generic [ref=e582]: "Puuttuu: turvaton ‎Kontula ‎Myllypuro ‎Kallio"
+        - generic [ref=e584]:
+          - generic [ref=e589]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e591]
+            - generic [ref=e593]:
+              - link "Vuokra-asunnot Helsinki" [ref=e598] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&q=Vuokra-asunnot+Helsinki&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQ1QJ6BAhLEAE
+                - generic [ref=e599]:
+                  - generic [ref=e604]: Vuokra-asunnot Helsinki
+                  - img [ref=e608]
+              - link "Turvattomuus Helsinki" [ref=e614] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&hl=fi&q=Turvattomuus+Helsinki&sa=X&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQ1QJ6BAhMEAE
+                - generic [ref=e615]:
+                  - generic [ref=e620]: Turvattomuus Helsinki
+                  - img [ref=e624]
+          - navigation [ref=e626]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e627]
+            - text: "1"
+            - link "Page 2" [ref=e630] [cursor=pointer]:
+              - /url: /search?q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sca_esv=3a2a6e3c008af294&hl=fi&ei=EiLSaeHIG8S2wPAPjbLmyQQ&start=10&sa=N&sstk=Af77f_f64i_rVgK5qEz6MLWv-U10PpnF1inm-eDMe-lcUGpil_NqsjVnivC4N9DXWFnAOn12kucH3bkfGZMtRyuuvn7EKPXuY_LXkA&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQ8tMDegQIPxAE
+              - text: "2"
+            - heading "Seuraava" [level=2] [ref=e632]:
+              - link "Seuraava" [ref=e633] [cursor=pointer]:
+                - /url: /search?q=Helsinki+turvaton+asuinalue+tilasto+rikollisuus+Kontula+Myllypuro+Kallio+2024+2025&sca_esv=3a2a6e3c008af294&hl=fi&ei=EiLSaeHIG8S2wPAPjbLmyQQ&start=10&sa=N&sstk=Af77f_f64i_rVgK5qEz6MLWv-U10PpnF1inm-eDMe-lcUGpil_NqsjVnivC4N9DXWFnAOn12kucH3bkfGZMtRyuuvn7EKPXuY_LXkA&ved=2ahUKEwjhmZiDqtaTAxVEGxAIHQ2ZOUkQ8NMDegQIPxAG
+                - generic [ref=e635]: Seuraava
+        - navigation
+    - contentinfo [ref=e636]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e637]
+      - generic [ref=e641]:
+        - generic [ref=e643]:
+          - text: Suomi
+          - generic [ref=e645]:
+            - button "00790, Helsinki - Perustuu aiempaan toimintaasi" [ref=e647] [cursor=pointer]:
+              - generic [ref=e648]: 00790, Helsinki
+              - generic [ref=e650]:
+                - text: "-"
+                - generic [ref=e651]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e653] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e656]:
+          - link "Ohje" [ref=e657] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e658] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e659] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e660] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

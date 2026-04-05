@@ -1,0 +1,626 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Omaisuus ja asuminen" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/
+            - listitem [ref=e61]:
+              - link "Vuokratulot" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/
+            - listitem [ref=e63]: Vähennykset
+        - article [ref=e66]:
+          - heading "Mitä kuluja asunnon vuokratuloista voi vähentää?" [level=1] [ref=e67]
+          - generic [ref=e69]:
+            - paragraph [ref=e71]: Tällä sivulla
+            - list [ref=e72]:
+              - listitem [ref=e73] [cursor=pointer]:
+                - link "Milloin ja miltä ajalta kulut voi vähentää?" [ref=e74]:
+                  - /url: "#Milloin-ja-miltä-ajalta-kulut-voi-vähentää?"
+                  - generic [ref=e75]: Milloin ja miltä ajalta kulut voi vähentää?
+              - listitem [ref=e76] [cursor=pointer]:
+                - 'link "Asunto-osake: mitä kuluja voi vähentää" [ref=e77]':
+                  - /url: "#Asunto-osake:-mitä-kuluja-voi-vähentää"
+                  - generic [ref=e78]: "Asunto-osake: mitä kuluja voi vähentää"
+              - listitem [ref=e79] [cursor=pointer]:
+                - 'link "Kiinteistö: mitä kuluja voi vähentää" [ref=e80]':
+                  - /url: "#Kiinteistö:-mitä-kuluja-voi-vähentää"
+                  - generic [ref=e81]: "Kiinteistö: mitä kuluja voi vähentää"
+          - generic [ref=e82]:
+            - heading "Milloin ja miltä ajalta kulut voi vähentää?" [level=2] [ref=e83]
+            - paragraph [ref=e84]: Asunto-osakkeen tai kiinteistön vuokratulosta voit vähentää vuokraukseen liittyviä kuluja.
+            - list [ref=e85]:
+              - listitem [ref=e86]: Kulut pitää vähentää samana vuonna, jolloin olet maksanut ne.
+              - listitem [ref=e87]: Kulut ovat vähennyskelpoisia vuokraustoiminnan aloittamisesta lähtien. Vuokraustoiminnan katsotaan alkavan yleensä siitä hetkestä, kun aloitat aktiivisesti etsiä vuokralaista asuntoon – esimerkiksi teet toimeksiannon vuokravälitysliikkeelle tai laitat vuokrausilmoituksen verkkosivuille tai lehteen.
+              - listitem [ref=e88]: Kulut voit vähentää vain vuokrausajalta – et siis esimerkiksi siltä ajalta, jolloin käytät asuntoa itse.
+            - 'heading "Asunto-osake: mitä kuluja voi vähentää" [level=2] [ref=e89]'
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - heading "Hoitovastike, vesimaksu, matkakulut ja muut vuokraustoiminnan kulut" [level=3] [ref=e94] [cursor=pointer]:
+                - button "Hoitovastike, vesimaksu, matkakulut ja muut vuokraustoiminnan kulut" [ref=e95]:
+                  - text: Hoitovastike, vesimaksu, matkakulut ja muut vuokraustoiminnan kulut
+                  - img
+              - region "Hoitovastike, vesimaksu, matkakulut ja muut vuokraustoiminnan kulut":
+                - generic:
+                  - paragraph [ref=e96]: Saat vähentää vuokratulosta taloyhtiölle maksamasi
+                  - list [ref=e97]:
+                    - listitem [ref=e98]: hoitovastikkeet
+                    - listitem [ref=e99]: vesimaksut.
+                  - paragraph [ref=e100]: Ilmoita nämä veroilmoituksen kohdassa Vuokratulot – Vuokrauksen tulot ja kulut – Hoitovastikkeet ja vesimaksut (oma osuus).
+                  - paragraph [ref=e101]: Voit vähentää lisäksi muita vuokraamiseen liittyviä kuluja, esimerkiksi
+                  - list [ref=e102]:
+                    - listitem [ref=e103]: vuokralaisen hankkimiseen liittyvät lehti-ilmoitukset tai palkkiot vuokranvälittäjälle
+                    - listitem [ref=e104]: vuokranantajan vakuutusten maksut
+                    - listitem [ref=e105]:
+                      - text: matkakulut jos esimerkiksi
+                      - list [ref=e106]:
+                        - listitem [ref=e107]: käyt esittelemässä asuntoa tai solmimassa uuden vuokrasopimuksen
+                        - listitem [ref=e108]: käyt asunnossa tarkastus- tai huoltokäynnillä
+                        - listitem [ref=e109]: osallistut taloyhtiön yhtiökokoukseen.
+                  - paragraph [ref=e110]: Ilmoita nämä veroilmoituksen kohdassa Vuokratulot – Vuokrauksen tulot ja kulut –Muut kulut.
+                  - paragraph [ref=e111]:
+                    - text: Matkakulujen korvaus on
+                    - strong [ref=e112]: 0,27 e/km
+                    - text: vuoden 2025 veroilmoituksessa, jos käytät omaa autoa.
+                  - paragraph [ref=e113]:
+                    - text: Huom. Vuokratuloista et voi vähentää
+                    - strong [ref=e114]: huoneistotietojärjestelmän rekisteröintimaksua
+                    - text: tai muita kuluja osakekirjan muuttamisesta sähköiseen muotoon. Nämä kulut voit vähentää hankintamenona, jos myyt asunnon myöhemmin.
+            - generic [ref=e116]:
+              - heading "Pääomavastike, joka on tuloutettu taloyhtiön kirjanpidossa" [level=3] [ref=e117] [cursor=pointer]:
+                - button "Pääomavastike, joka on tuloutettu taloyhtiön kirjanpidossa" [ref=e118]:
+                  - text: Pääomavastike, joka on tuloutettu taloyhtiön kirjanpidossa
+                  - img
+              - region "Pääomavastike, joka on tuloutettu taloyhtiön kirjanpidossa":
+                - generic:
+                  - paragraph [ref=e119]:
+                    - text: Voit vähentää pääomavastikkeen (rahoitusvastike) vuokratulosta, jos vastikkeet on
+                    - strong [ref=e120]: tuloutettu
+                    - text: yhtiön kirjanpidossa. Saat tiedon isännöitsijältä.
+                  - paragraph [ref=e121]: Ilmoita tuloutetut pääomavastikkeet veroilmoituksen kohdassa Vuokratulot – Vuokrauksen tulot ja kulut – Yhtiön tulouttamat pääomavastikkeet (oma osuus).
+                  - paragraph [ref=e122]: Jos pääomavastike on rahastoitu, sitä ei voi vähentää vuokratulosta. Sen sijaan saat lisätä rahastoidun pääomavastikkeen asunnon ostohintaan ja vähentää ne molemmat myyntihinnasta, kun myyt asunnon ja lasket luovutusvoittoa.
+                  - paragraph [ref=e123]: Vähennyskelpoisuuteen ei vaikuta se, maksatko vastikkeen kuukausittain pääomavastikkeena vai maksatko sen kerralla (lainaosuussuorituksena). Yhtiö voi myös osittain tulouttaa ja osittain rahastoida pääomavastikkeina kerätyt maksut. Tällöin vuokratulosta vähennyskelpoista on kirjanpidossa tuloutettu osuus vastikkeesta.
+            - generic [ref=e125]:
+              - 'heading "Remonttikulut: vuosikorjaus ja perusparannus" [level=3] [ref=e126] [cursor=pointer]':
+                - 'button "Remonttikulut: vuosikorjaus ja perusparannus" [ref=e127]':
+                  - text: "Remonttikulut: vuosikorjaus ja perusparannus"
+                  - img
+              - 'region "Remonttikulut: vuosikorjaus ja perusparannus"':
+                - generic:
+                  - paragraph [ref=e128]: Remontti voi olla joko vuosikorjausta tai perusparannusta. Tämä vaikuttaa siihen, miten kuluja voi vähentää. Jos remontti on sekä vuosikorjausta että perusparannusta, remontin kustannukset pitää jakaa vuosikorjauskuluihin ja perusparannusmenoihin remontin laadun ja laajuuden mukaan.
+                  - paragraph [ref=e129]:
+                    - text: "Huomaa: jos teet remontin itse,"
+                    - strong [ref=e130]: oman työn arvoa
+                    - strong [ref=e131]: ei voi vähentää.
+                    - text: Saat kuitenkin vähentää remontin materiaalikulut ja omat matkakulusi asunnolle (
+                    - strong [ref=e132]: 0,27 euroa/km
+                    - text: vuonna
+                    - strong [ref=e133]: "2025"
+                    - text: ).
+                  - paragraph [ref=e134]:
+                    - text: Jos hankit sijoitusasunnon ja remontoit sitä ennen vuokraustoiminnan aloittamista,
+                    - link "katso lisätietoa syventävästä ohjeesta, kohdasta Korjausmenot" [ref=e135] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/49336/
+                    - text: .
+                  - paragraph [ref=e136]:
+                    - 'link "Linkki apuriin: Mitä remonttikuluja voin vähentää vuokratulosta" [ref=e137] [cursor=pointer]':
+                      - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/mit%C3%A4-remonttikuluja-voi-v%C3%A4hent%C3%A4%C3%A4-vuokratulojen-verotuksessa/
+                  - heading "Vuosikorjaus ja kulujen vähentäminen" [level=4] [ref=e138]
+                  - paragraph [ref=e139]: Vuosikorjauksessa huoneisto tai rakennus saatetaan alkuperäistä vastaavaan kuntoon.
+                  - paragraph [ref=e140]: Vuosikorjausta ovat esimerkiksi
+                  - list [ref=e141]:
+                    - listitem [ref=e142]: seinien maalaaminen ja tapetointi
+                    - listitem [ref=e143]: lieden, jääkaapin tai muun kodinkoneen tai laitteen vaihtaminen
+                    - listitem [ref=e144]: asunnon varusteiden uusiminen, esimerkiksi keittiökaappien ja wc-kalusteiden uusiminen
+                    - listitem [ref=e145]: ovien ja ikkunoiden uusiminen.
+                  - paragraph [ref=e146]:
+                    - strong [ref=e147]: Jos taloyhtiö on teettänyt remontin,
+                    - text: saat vähentää kulut vastikkeiden maksuvuonna, jos pääomavastikkeet on tuloutettu taloyhtiön kirjanpidossa. Tiedon tästä saat isännöitsijältä.
+                  - paragraph [ref=e148]:
+                    - strong [ref=e149]: Jos olet vuokranantajana itse teettänyt remontin
+                    - text: ", vähennä kulut samana vuonna, jolloin olet ne maksanut."
+                  - heading "Perusparannus ja kulujen vähentäminen" [level=4] [ref=e150]
+                  - paragraph [ref=e151]: Perusparannusta ovat huoneiston tai rakennuksen laajentaminen, muutostyöt, uudistustyöt ja muut vastaavat toimenpiteet. Perusparannus eroaa vuosikorjauksesta niin, että perusparannuksessa huoneistoa tai rakennusta muutetaan tasokkaammaksi tai laajennetaan.
+                  - paragraph [ref=e152]: "Perusparannusta ovat esimerkiksi:"
+                  - list [ref=e153]:
+                    - listitem [ref=e154]: parvekelasien asennus
+                    - listitem [ref=e155]: lämmitys- ja ilmanvaihtojärjestelmien parannus
+                    - listitem [ref=e156]: perustusten ja kantavien rakenteiden parannus
+                    - listitem [ref=e157]: vesi- ja viemärilaitteiden rakentaminen ja parantaminen
+                    - listitem [ref=e158]: kiinteistön sähköjärjestelmien korjaus ja parannus
+                    - listitem [ref=e159]: kylmän varastotilan muuttaminen saunatilaksi.
+                  - paragraph [ref=e160]:
+                    - strong [ref=e161]: Jos taloyhtiö on teettänyt remontin
+                    - text: ", saat vähentää kulut vastikkeiden maksuvuonna, jos pääomavastikkeet on tuloutettu taloyhtiön kirjanpidossa. Tiedon tästä saat isännöitsijältä."
+                  - paragraph [ref=e162]:
+                    - strong [ref=e163]: Jos vuokranantajana teetät ja maksat itse perusparannuksia
+                    - text: ", voit vähentää kulut joko vähitellen vuosittaisina tasapoistoina tai vasta asunnon myynnin yhteydessä."
+                  - list [ref=e164]:
+                    - listitem [ref=e165]: "Jos vähennät kulut vuosittain tasapoistoina: kustannukset jaetaan tasaisesti 10 vuodelle. Voit siis vähentää joka vuosi kymmenesosan kustannuksista. Merkitse muistiinpanoihin remontin kulut ja vuosittaiset tasapoistot. Ilmoita vuosittainen poisto veroilmoituksen kohdassa Vuokratulot, Muut kulut. Jos myyt huoneiston tai lopetat sen vuokrauksen ennen kuin koko summa on vähennetty, voit vähentää jäljelle jääneet perusparannusmenot asunnon myyntihinnasta, kun lasket myyntivoittoa."
+                    - listitem [ref=e166]: "Jos vähennät kulut vasta asunnon myynnin yhteydessä: merkitse perusparannusmenot vuokratulojen muistiinpanoihin ja säilytä kuitit ja tositteet. Saat vähentää perusparannusmenot asunnon myyntihinnasta, kun lasket luovutusvoittoa."
+                  - generic [ref=e167]:
+                    - paragraph [ref=e168]:
+                      - strong [ref=e169]: "Esimerkki:"
+                      - text: Lauri teettää vuokraamaansa huoneistoon remontin. Keittiötä laajennetaan niin, että keittiön ja olohuoneen välinen seinä puretaan. Keittiöön tulee uusi kaapisto ja uudet kodinkoneet. Makuuhuoneeseen rakennetaan pieni vaatehuone. Lisäksi huoneiston seinät ja katto maalataan.
+                    - paragraph [ref=e170]: "Remontin kokonaiskustannukset ovat 8 000 euroa. Lauri on maksanut kustannukset vuonna 2025. Puolet kuluista eli 4 000 euroa on tullut perusparannustöistä: keittiön laajennuksesta ja vaatehuoneen rakentamisesta ja 4 000 euroa kuluista on aiheutunut vuosikorjauksesta."
+                    - paragraph [ref=e171]: Lauri saa vähentää vuosikorjauksen kulut (4 000 euroa) vuoden 2025 vuokratuloistaan. Tämän lisäksi Lauri saa vähentää perusparannusmenot tasapoistoina 10 vuoden kuluessa. Vuoden 2025 vuokratuloista Lauri saa siis vähentää poistoa 4 000 euroa / 10 = 400 euroa. Poistoa jää vähennettäväksi seuraavien 9 vuoden aikana yhteensä 3 600 euroa, 400 euroa kunakin vuonna.
+            - generic [ref=e173]:
+              - heading "Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot" [level=3] [ref=e174] [cursor=pointer]:
+                - button "Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot" [ref=e175]:
+                  - text: Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot
+                  - img
+              - region "Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot":
+                - generic:
+                  - paragraph [ref=e176]: Vuokranantajana saatat hankkia asuntoon irtainta omaisuutta, kuten erillisen vaatekaapin tai pyykkien kuivausrummun.
+                  - list [ref=e177]:
+                    - listitem [ref=e178]:
+                      - text: Jos omaisuuden hankintahinta on alle 1 200 e tai sen käyttöikä on alle 3 vuotta, voit vähentää kulut kerralla
+                      - strong [ref=e179]: vuosikuluina
+                      - text: .
+                    - listitem [ref=e180]:
+                      - text: Jos omaisuuden hinta on yli 1 200 e ja sen käyttöikä on yli 3 vuotta, voit vähentää kulut vuosittaisina
+                      - strong [ref=e181]: poistoina
+                      - text: . Vuosittainen poisto irtaimesta omaisuudesta on 25 %.
+                  - paragraph [ref=e182]: Vähennä joko vuosikulut tai poistot asunto-osakkeen vuokratuloista veroilmoituksen kohdassa Vuokratulot – Muut kulut. Kalusteista ja kodinkoneista on pidettävä luetteloa, josta näkyvät niiden määrä, laatu ja ostohinta (tai poistamaton hankintameno, jos vähennät kulun poistoina).
+                  - paragraph [ref=e183]:
+                    - strong [ref=e184]: Esimerkki.
+                    - text: Kirsi hankkii vuokra-asuntoonsa kuivausrummun, joka maksoi 2 000 euroa. Kuivausrummun käyttöönottovuonna Kirsi saa tehdä 500 euron poiston (25 % x 2 000 e = 500 euroa). Jäljelle jäävä 1 500 euroa on poistamaton hankintameno, josta seuraavan verovuoden poisto lasketaan.
+                    - text: Toisena vuotena Kirsi voi tehdä kuivausrummusta enintään 375 euron (25 % x 1 500 e = 375 euroa) poiston, jonka jälkeen poistamattomaksi hankintamenoksi jää 1 125 euroa.
+                    - text: Kolmantena vuotena Kirsi voi vähentää koko poistamattoman hankintamenon, koska se on alle 1 200 euroa.
+            - generic [ref=e186]:
+              - heading "Kalustetun asunnon kulut" [level=3] [ref=e187] [cursor=pointer]:
+                - button "Kalustetun asunnon kulut" [ref=e188]:
+                  - text: Kalustetun asunnon kulut
+                  - img
+              - region "Kalustetun asunnon kulut":
+                - generic:
+                  - paragraph [ref=e189]: Kalustetulla asunnolla tarkoitetaan asuntoa, jossa ovat elämiseen tarvittavat huonekalut ja kodinkoneet – esimerkiksi sänky, ruokapöytä ja sohva.
+                  - paragraph [ref=e190]: Jos annat vuokralle kalustetun asunnon, saat tehdä joko kaavamaisen vähennyksen kalusteista tai vähentää kalusteiden todelliset hankintakulut. Valitsemaasi vähennystapaa on lähtökohtaisesti noudatettava seuraavinakin vuosina.
+                  - paragraph [ref=e191]:
+                    - strong [ref=e192]: Jos teet kaavamaisen vähennyksen,
+                    - text: voit vähentää kuukausittain huoneistokohtaisesti
+                  - list [ref=e193]:
+                    - listitem [ref=e194]: kalustetusta yksiöstä tai huoneesta enintään 40 euroa kuukaudessa
+                    - listitem [ref=e195]: suuremmasta huoneistosta enintään 60 euroa kuukaudessa.
+                  - paragraph [ref=e196]: Vuokralaisten määrä ei vaikuta vähennyksiin. Vähennys kattaa kaikki kalustuksesta aiheutuvat kustannukset. Lisäksi saat vähentää muun muassa hoitovastikkeen, jonka maksat huoneistosta.
+                  - paragraph [ref=e197]:
+                    - strong [ref=e198]: Jos ilmoitat vähennyksen todellisten kulujen mukaan,
+                    - text: vähennä hankkimasi kodinkoneet ja kalusteet joko ostovuoden kuluina tai poistoina. Todellisista kuluista on pyydettäessä esitettävä selvitys ja tositteet. Poistojen teosta saat lisätietoa tämän sivun kohdasta Irtaimiston hankinta.
+                  - paragraph [ref=e199]: Ilmoita kalustetun asunnon vähennys kohdassa Vuokratulot – Muut kulut.
+            - generic [ref=e201]:
+              - heading "Lainan korot ja järjestelykulut" [level=3] [ref=e202] [cursor=pointer]:
+                - button "Lainan korot ja järjestelykulut" [ref=e203]:
+                  - text: Lainan korot ja järjestelykulut
+                  - img
+              - region "Lainan korot ja järjestelykulut":
+                - generic:
+                  - paragraph [ref=e204]: Jos otat lainan vuokra-asunnon hankintaa varten, kyseessä on tulonhankkimisvelka, jonka korot ja toimitusmaksut voi vähentää verotuksessa.
+                  - paragraph [ref=e205]: Verohallinto saa pankeilta tiedot lainoista ja niiden koroista. Näet tiedot esitäytetystä veroilmoituksestasi kohdasta Velan korot. Tarkista veroilmoituksesta, että lainan käyttötarkoitus on tulonhankkimislaina. Jos tiedot puuttuvat, lisää tiedot veroilmoituksen kohtaan Velan korot. Lainan korkoja ei siis vähennetä kohdassa Vuokratulot.
+                  - paragraph [ref=e206]: "Huomaa: jos annat asunnon vuokralle alihintaan, lainan korkoja ja siihen liittyviä maksuja ei voi lainkaan vähentää vuokratulosta."
+                  - paragraph [ref=e207]: Lue lisää
+                  - paragraph [ref=e208]:
+                    - link "Alihintaan vuokratun asunnon korkovähennys" [ref=e209] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/vuokratulot/asunnon-vuokraaminen-alihintaan/
+                  - paragraph [ref=e210]:
+                    - link "Esitäytetyn veroilmoituksen täyttöohje" [ref=e211] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/veroilmoitus_ja_verotuspaato/ilmoittamisen-ohje/
+            - generic [ref=e213]:
+              - heading "Vuokraustoiminnan tappio" [level=3] [ref=e214] [cursor=pointer]:
+                - button "Vuokraustoiminnan tappio" [ref=e215]:
+                  - text: Vuokraustoiminnan tappio
+                  - img
+              - region "Vuokraustoiminnan tappio":
+                - generic:
+                  - paragraph [ref=e216]: Jos vuokraustoiminta on aiheuttanut sinulle enemmän kuluja kuin vuokratuloja, Verohallinto vähentää vuokraustoiminnan tappion automaattisesti muista pääomatuloista.
+                  - paragraph [ref=e217]: Jos muita pääomatuloja ei ole, muodostuu pääomatulolajin alijäämä. Verohallinto vähentää alijäämästä 30 % alijäämähyvityksenä ansiotulojesi veroista.
+                  - paragraph [ref=e218]: Vuokratuloista syntyvää tappiota et siis voi vähentää suoraan seuraavien vuosien vuokratuloista, vaan Verohallinto tekee vähennyksen alijäämähyvityksenä.
+                  - paragraph [ref=e219]:
+                    - strong [ref=e220]: "Esimerkki:"
+                    - text: Keijo sai vuonna 2025 vuokratuloa 5 000 euroa. Hän maksoi vuonna 2025 hoitovastiketta 2 400 euroa ja rahoitusvastikkeen osuuden putkiremontista 8 600 euroa. Vuokrauksesta syntyi tappiota eli alijäämää 6 000 euroa (5 000 e – 2 400 e – 8 600 e).
+                    - text: Keijolla ei ollut muita pääomatuloja, joten alijäämästä 30 % vähennetään alijäämähyvityksenä ansiotulojen veroista. Alijäämähyvitys on 6 000 e x 30 % = 1 800 euroa. Alijäämähyvityksen enimmäismäärä on kuitenkin 1 400 euroa, joten vuoden 2025 veroista vähennetään alijäämähyvityksen enimmäismäärä 1 400 euroa.
+                  - paragraph [ref=e221]:
+                    - link "Lue lisää pääomatuloista tehtävistä vähennyksistä" [ref=e222] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-paaomatuloista/
+            - generic [ref=e224]:
+              - heading "Voinko vähentää huoneistotietojärjestelmän rekisteröintimaksun vuokratuloista tai muuten verotuksessa?" [level=3] [ref=e225] [cursor=pointer]:
+                - button "Voinko vähentää huoneistotietojärjestelmän rekisteröintimaksun vuokratuloista tai muuten verotuksessa?" [ref=e226]:
+                  - text: Voinko vähentää huoneistotietojärjestelmän rekisteröintimaksun vuokratuloista tai muuten verotuksessa?
+                  - img
+              - region "Voinko vähentää huoneistotietojärjestelmän rekisteröintimaksun vuokratuloista tai muuten verotuksessa?":
+                - generic:
+                  - paragraph [ref=e227]: Vuokratuloista et voi vähentää huoneistotietojärjestelmän rekisteröintimaksua tai muita kuluja osakekirjan muuttamisesta sähköiseen muotoon. Sen sijaan voit vähentää nämä kulut luovutusvoittoverotuksessa, jos myyt asunnon myöhemmin. Merkitse silloin kulut luovutusvoittolaskelman kohtaan hankintameno.
+                  - paragraph [ref=e228]: Jos kyseessä on oman vakituisen asunnon luovutus, joka on muutenkin verovapaa, osakekirjan rekisteröinnistä aiheutuvia kuluja ei voi vähentää verotuksessa.
+                  - paragraph [ref=e229]: Luovutusvoitosta vähennettäviä kuluja ovat esimerkiksi
+                  - list [ref=e230]:
+                    - listitem [ref=e231]: Maanmittauslaitoksen veloittama rekisteröintimaksu asunto-osakkeen omistajalta
+                    - listitem [ref=e232]: pankin perimät kulut, jos pankki hoitaa omistajan puolesta paperisen osakekirjan rekisteröinnin sähköiseksi
+                    - listitem [ref=e233]: kulut, jotka aiheutuvat kadonneen osakekirjan mitätöimisestä, jotta omistusoikeus voidaan kirjata huoneistotietojärjestelmään.
+          - generic [ref=e234]:
+            - 'heading "Kiinteistö: mitä kuluja voi vähentää" [level=2] [ref=e235]'
+            - paragraph [ref=e236]: Kiinteistön vuokratulosta voi vähentää vuokraukseen liittyviä kuluja. Voit vähentää kuluista vain sen osan, joka kohdistuu kiinteistön vuokrattuun osaan.
+          - generic [ref=e238]:
+            - generic [ref=e240]:
+              - heading "Vesi- ja lämmityskulut, kiinteistövero sekä muut vuokraustoiminnan kulut" [level=3] [ref=e241] [cursor=pointer]:
+                - button "Vesi- ja lämmityskulut, kiinteistövero sekä muut vuokraustoiminnan kulut" [ref=e242]:
+                  - text: Vesi- ja lämmityskulut, kiinteistövero sekä muut vuokraustoiminnan kulut
+                  - img
+              - region "Vesi- ja lämmityskulut, kiinteistövero sekä muut vuokraustoiminnan kulut":
+                - generic:
+                  - paragraph [ref=e243]: Voit vähentää kiinteistön vuokratulosta esimerkiksi maksamasi
+                  - list [ref=e244]:
+                    - listitem [ref=e245]: vesi-, sähkö-, ja lämmityskulut
+                    - listitem [ref=e246]: kiinteistöveron
+                    - listitem [ref=e247]: vuokranantajan vakuutusmaksut
+                    - listitem [ref=e248]: vuokralaisen hankkimiseen liittyvät kulut, kuten lehti-ilmoitukset tai palkkiot vuokranvälittäjälle.
+                    - listitem [ref=e249]:
+                      - text: matkakulut jos esimerkiksi
+                      - list [ref=e250]:
+                        - listitem [ref=e251]: käyt esittelemässä kiinteistöä tai solmimassa uuden vuokrasopimuksen
+                        - listitem [ref=e252]: käyt kiinteistöllä tarkastus- tai huoltokäynnillä.
+                  - paragraph [ref=e253]:
+                    - text: Matkakulujen korvaus on
+                    - strong [ref=e254]: 0,27 e/km
+                    - text: vuoden 2025 veroilmoituksessa, jos käytät omaa autoa.
+            - generic [ref=e256]:
+              - heading "Rakennuksen ostohinnan vähentäminen poistoina, poistoprosentit" [level=3] [ref=e257] [cursor=pointer]:
+                - button "Rakennuksen ostohinnan vähentäminen poistoina, poistoprosentit" [ref=e258]:
+                  - text: Rakennuksen ostohinnan vähentäminen poistoina, poistoprosentit
+                  - img
+              - region "Rakennuksen ostohinnan vähentäminen poistoina, poistoprosentit":
+                - generic:
+                  - paragraph [ref=e259]:
+                    - text: Voit vähentää
+                    - strong [ref=e260]: rakennuksen
+                    - text: hankintamenon vuokratulosta vuotuisina poistoina. Hankintameno tarkoittaa arvoa, jolla olet hankkinut omaisuuden itsellesi – esimerkiksi rakennuksen ostohintaa.
+                  - paragraph [ref=e261]: Poistot tarkoittavat sitä, että vähennät rakennuksen hankintamenoa vuokratuloista vähitellen usean vuoden aikana.
+                  - paragraph [ref=e262]: Poiston määrään vaikuttaa, millaisesta rakennuksesta on kyse.
+                  - list [ref=e263]:
+                    - listitem [ref=e264]:
+                      - strong [ref=e265]: "Asuin- tai toimistorakennus:"
+                      - text: voit vähentää poistona
+                      - strong [ref=e266]: 4 %
+                      - text: jäljellä olevasta (eli vielä poistamattomasta) hankintamenosta.
+                    - listitem [ref=e267]:
+                      - strong [ref=e268]: "Myymälä, varasto, tehdas, työpaja tai muu vastaava rakennus:"
+                      - text: voit vähentää poistona
+                      - strong [ref=e269]: 7 %
+                      - text: jäljellä olevasta (eli vielä poistamattomasta) hankintamenosta.
+                  - paragraph [ref=e270]: Kiinteistön maapohjan, esimerkiksi tontin hankintamenoa ei voi vähentää poistoina.
+                  - paragraph [ref=e271]: Verohallinto ei vähennä rakennuksen poistoja verotuksessa automaattisesti. Jos haluat tehdä poistoja, sinun pitää itse ilmoittaa ne veroilmoituksessa.
+                  - paragraph [ref=e272]: Jos vuokraustoiminta alkaa tai loppuu kesken vuoden, eli rakennus on ollut omassa käytössä osan vuotta tai vuokrattuna vain osan vuotta, poisto lasketaan vain vuokra-ajalta. Poistoa ei voi lainkaan vähentää sinä vuonna, jolloin myyt rakennuksen.
+                  - heading "Miten poistoja tehdään?" [level=3] [ref=e273]
+                  - paragraph [ref=e274]: Poistot lasketaan ensimmäisenä vuonna rakennuksen hankintamenosta, eli siitä arvosta, jolla olet hankkinut omaisuuden. Seuraavina vuosina hankintamenosta vähennetään vuosittainen poisto.
+                  - paragraph [ref=e275]:
+                    - strong [ref=e276]: "Esimerkki:"
+                    - text: Kari on ostanut liikerakennuksen 100 000 eurolla vuonna 2024. Hän on vuokrannut sen ulkopuoliselle vuoden alusta alkaen. Vuonna 2024 Kari tekee 7 %:n eli 7 000 euron poiston. Tämän hän vähentää vuoden 2024 vuokratuloista.
+                    - text: Vuoden 2025 alussa rakennuksen poistamaton hankintameno on 100 000 e – 7 000 e = 93 000 euroa. Tästä summasta Kari laskee verovuoden 2025 poiston, jonka hän saa vähentää kiinteistön vuokratulosta. Poisto on 7 % x 93 000 = 6 510 euroa.
+                    - text: Poistamaton hankintameno verovuoden 2025 lopussa on 93 000 – 6 510 e = 86 490 euroa.
+                  - heading "Poistot vaikuttavat kiinteistön myyntivoiton määrään" [level=3] [ref=e277]
+                  - paragraph [ref=e278]: Jos myöhemmin myyt vuokratun rakennuksen, tekemäsi poistot vaikuttavat myyntivoiton laskentaan. Rakennuksen myyntihinnasta ei vähennetä enää rakennuksen alkuperäistä ostohintaa, vaan se määrä, joka on jäljellä tehtyjen poistojen jälkeen (eli poistamaton hankintameno).
+                  - paragraph [ref=e279]:
+                    - strong [ref=e280]: Esimerkki jatkuu
+                    - text: ": Kari myy vuonna 2026 liikerakennuksen vuokralaiselle 100 000 eurolla. Rakennuksen poistamaton hankintameno verovuoden 2025 lopussa oli 86 490 euroa. Kari saa myyntivoittoa rakennuksesta 100 000 e – 86 490 e = 13 510 euroa. Hän maksaa myyntivoitosta veroa 30 %, eli 4 053 euroa."
+            - generic [ref=e282]:
+              - 'heading "Remonttikulut: vuosikorjaus ja perusparannus" [level=3] [ref=e283] [cursor=pointer]':
+                - 'button "Remonttikulut: vuosikorjaus ja perusparannus" [ref=e284]':
+                  - text: "Remonttikulut: vuosikorjaus ja perusparannus"
+                  - img
+              - 'region "Remonttikulut: vuosikorjaus ja perusparannus"':
+                - generic:
+                  - paragraph [ref=e285]: Remontti voi olla joko vuosikorjausta tai perusparannusta. Tämä vaikuttaa siihen, miten kuluja voi vähentää. Jos remontti on sekä vuosikorjausta että perusparannusta, remontin kustannukset pitää jakaa vuosikorjauskuluihin ja perusparannusmenoihin remontin laadun ja laajuuden mukaan.
+                  - paragraph [ref=e286]:
+                    - text: Huomaa. Jos teet remontin itse,
+                    - strong [ref=e287]: oman työn arvoa
+                    - strong [ref=e288]: ei voi vähentää
+                    - text: . Saat kuitenkin vähentää remontin materiaalikulut ja omat matkakulusi asunnolle (0,27 euroa/km vuonna 2025).
+                  - paragraph [ref=e289]:
+                    - generic [ref=e290]:
+                      - text: Jos hankit sijoitusasunnon ja remontoit sitä ennen vuokraustoiminnan aloittamista,
+                      - link "katso lisätietoa syventävästä ohjeesta, kohdasta Korjausmenot." [ref=e291] [cursor=pointer]:
+                        - /url: /syventavat-vero-ohjeet/ohje-hakusivu/49336/
+                  - paragraph [ref=e292]:
+                    - 'link "Linkki apuriin: Mitä remonttikuluja voin vähentää vuokratulosta" [ref=e293] [cursor=pointer]':
+                      - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/mit%C3%A4-remonttikuluja-voi-v%C3%A4hent%C3%A4%C3%A4-vuokratulojen-verotuksessa/
+                  - heading "Vuosikorjaus ja kulujen vähentäminen" [level=3] [ref=e294]
+                  - paragraph [ref=e295]: Vuosikorjauksessa rakennus saatetaan alkuperäistä vastaavaan kuntoon.
+                  - paragraph [ref=e296]: Vuosikorjausta ovat esimerkiksi
+                  - list [ref=e297]:
+                    - listitem [ref=e298]: seinien maalaaminen ja tapetointi
+                    - listitem [ref=e299]: lieden, jääkaapin tai muun kodinkoneen tai laitteen vaihtaminen
+                    - listitem [ref=e300]: asunnon varusteiden uusiminen, esimerkiksi keittiökaappien ja wc-kalusteiden uusiminen
+                    - listitem [ref=e301]: ovien ja ikkunoiden uusiminen.
+                  - paragraph [ref=e302]: Vuosikorjauskulut voit vähentää vuokratulosta sinä vuonna, jolloin kulut on maksettu.
+                  - heading "Perusparannus ja kulujen vähentäminen" [level=3] [ref=e303]
+                  - paragraph [ref=e304]: Perusparannusta ovat huoneiston tai rakennuksen laajentaminen, muutostyöt, uudistustyöt ja muut vastaavat toimenpiteet.
+                  - paragraph [ref=e305]: "Perusparannusta ovat esimerkiksi:"
+                  - list [ref=e306]:
+                    - listitem [ref=e307]: kylmän varastotilan muuttaminen saunatilaksi
+                    - listitem [ref=e308]: parvekelasien asennus
+                    - listitem [ref=e309]: perustusten ja kantavien rakenteiden parannus
+                    - listitem [ref=e310]: lämmitys- ja ilmanvaihtojärjestelmien parannus
+                    - listitem [ref=e311]: vesi- ja viemärilaitteiden rakentaminen ja parantaminen
+                    - listitem [ref=e312]: kiinteistön sähköjärjestelmien korjaus ja parannus.
+                  - paragraph [ref=e313]:
+                    - text: Rakennuksen perusparannusmenot voit vähentää joko vuotuisina
+                    - strong [ref=e314]: poistoina
+                    - text: tai vasta
+                    - strong [ref=e315]: asunnon myynnin yhteydessä.
+                  - paragraph [ref=e316]:
+                    - strong [ref=e317]: Jos vähennät perusparannusmenot poistoina,
+                    - text: lisää perusparannusmenot rakennuksen hankintamenoon poistoerittelyn kohdassa Lisäykset. Poiston määrä rakennuksen hankintahinnasta on joko 4 % tai 7 % sen mukaan, millainen rakennus on kyseessä.
+                  - paragraph [ref=e318]:
+                    - strong [ref=e319]: Esimerkki.
+                    - text: Katrin omistama omakotitalo on ollut vuokralla koko vuoden 2025. Talon hankintameno oli edellisenä vuonna tehdyn poiston jälkeen 100 000 euroa. Vuonna 2025 Katri uusi omakotitalon putket ja remontti maksoi 10 000 euroa.
+                    - text: Katri merkitsee 100 000 euroa rakennuksen poistolaskelman kohtaan Poistamaton hankintameno verovuoden alussa ja remonttikulut 10 000 euroa kohtaan Lisäykset verovuonna.
+                    - text: Katri saa tehdä vuonna 2025 asuinrakennuksesta 4 % poiston, eli 4 % x 110 000 = 4 400 euroa. Tämän poiston hän ilmoittaa vuokratulojen vähennykseksi.
+                    - text: Seuraavalle vuodelle siirtyvä hankintameno on 110 000 euroa - 4 400 euroa = 106 600 euroa. Sen Katri merkitsee poistoerittelyn kohtaan Poistamaton hankintameno verovuoden lopussa.
+                  - paragraph [ref=e320]:
+                    - strong [ref=e321]: Jos vähennät perusparannusmenot vasta myynnin yhteydessä,
+                    - text: ne vähennetään hankintamenosta, kun lasket myyntivoittoveroa. Silloin perusparannusmenot pienentävät myyntivoittoveron määrää. Jos olet ehtinyt tehdä jo poistoja, myyntihinnasta saa vähentää vain poistamattoman hankintamenon, eli sen osuuden rakennuksen hankintamenosta ja perusparannusmenoista, joita ei ole vielä poistettu.
+                  - paragraph [ref=e322]:
+                    - strong [ref=e323]: Esimerkki.
+                    - text: Tero myy omistamansa autohallin 80 000 eurolla. Hän teki toissa vuonna rakennukseen remontin ja asensi uuden ilmanvaihtojärjestelmän. Tämä perusparannus maksoi 6 000 euroa. Koska Tero ei ole ehtinyt vielä tehdä perusparannusmenoista poistoa, hän saa vähentää ne kokonaan luovutusvoittoverotuksessa.
+                    - text: "Luovutusvoiton laskelma:"
+                    - text: Myyntihinta 80 000 euroa
+                    - text: Hankintahinta – 65 000 euroa
+                    - text: Perusparannusmenot – 6 000 euroa
+                    - text: Myyntivoitto 9 000 euroa, josta Tero maksaa veroa 30 % eli 2 700 euroa.
+            - generic [ref=e325]:
+              - heading "Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot" [level=3] [ref=e326] [cursor=pointer]:
+                - button "Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot" [ref=e327]:
+                  - text: Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot
+                  - img
+              - region "Irtaimen omaisuuden, kuten kodinkoneiden tai kalusteiden hankinta ja poistot":
+                - generic:
+                  - paragraph [ref=e328]: Vuokranantajana saatat hankkia asuntoon irtainta omaisuutta, kuten erillisen vaatekaapin tai pyykkien kuivausrummun.
+                  - list [ref=e329]:
+                    - listitem [ref=e330]:
+                      - text: Jos omaisuuden hankintahinta on alle 1 200 e tai sen käyttöikä on alle 3 vuotta, voit vähentää kulut kerralla
+                      - strong [ref=e331]: vuosikuluina.
+                    - listitem [ref=e332]:
+                      - text: Jos omaisuuden hinta on yli 1 200 e ja sen käyttöikä on yli 3 vuotta, voit vähentää kulut vuosittaisina
+                      - strong [ref=e333]: poistoina
+                      - text: . Vuosittainen poisto irtaimesta omaisuudesta on 25 %.
+                  - paragraph [ref=e334]:
+                    - text: Vähennä
+                    - strong [ref=e335]: vuosikulut
+                    - text: kiinteistön vuokratuloista veroilmoituksen kohdassa Vuokratulot – Muut kulut. Vähennä
+                    - strong [ref=e336]: poistot
+                    - text: kiinteistön vuokratuloista veroilmoituksen kohdassa Vuokratulot – Poistot.
+                  - paragraph [ref=e337]: Kalusteista ja kodinkoneista on pidettävä luetteloa, josta näkyvät niiden määrä, laatu ja ostohinta (tai poistamaton hankintameno, jos vähennät kulun poistoina).
+                  - paragraph [ref=e338]:
+                    - strong [ref=e339]: Esimerkki poistoista.
+                    - text: Kirsi hankkii vuokra-asuntoonsa kuivausrummun, joka maksoi 2 000 euroa. Kuivausrummun käyttöönottovuonna Kirsi saa tehdä 500 euron poiston (25 % x 2 000 e = 500 euroa). Jäljelle jäävä 1 500 euroa on poistamaton hankintameno, josta seuraavan verovuoden poisto lasketaan.
+                    - text: Toisena vuotena Kirsi voi tehdä kuivausrummusta enintään 375 euron (25 % x 1 500 e = 375 euroa) poiston, jonka jälkeen poistamattomaksi hankintamenoksi jää 1 125 euroa.
+                    - text: Kolmantena vuotena Kirsi voi vähentää koko poistamattoman hankintamenon, koska se on alle 1 200 euroa.
+            - generic [ref=e341]:
+              - heading "Kalustetun asunnon kulut" [level=3] [ref=e342] [cursor=pointer]:
+                - button "Kalustetun asunnon kulut" [ref=e343]:
+                  - text: Kalustetun asunnon kulut
+                  - img
+              - region "Kalustetun asunnon kulut":
+                - generic:
+                  - paragraph [ref=e344]: Kalustetulla asunnolla tarkoitetaan asuntoa, jossa ovat elämiseen tarvittavat huonekalut ja kodinkoneet – esimerkiksi sänky, ruokapöytä ja sohva.
+                  - paragraph [ref=e345]: Jos annat vuokralle kalustetun asunnon, saat tehdä joko kaavamaisen vähennyksen kalusteista tai vähentää kalusteiden todelliset hankintakulut. Valitsemaasi vähennystapaa on lähtökohtaisesti noudatettava seuraavinakin vuosina.
+                  - paragraph [ref=e346]:
+                    - strong [ref=e347]: Jos teet kaavamaisen vähennyksen,
+                    - text: voit vähentää kuukausittain huoneistokohtaisesti
+                  - list [ref=e348]:
+                    - listitem [ref=e349]: kalustetusta yksiöstä tai huoneesta enintään 40 euroa kuukaudessa
+                    - listitem [ref=e350]: suuremmasta huoneistosta enintään 60 euroa kuukaudessa.
+                  - paragraph [ref=e351]: Vuokralaisten määrä ei vaikuta vähennyksiin. Vähennys kattaa kaikki kalustuksesta aiheutuvat kustannukset. Lisäksi saat vähentää muun muassa hoitovastikkeen, jonka maksat huoneistosta.
+                  - paragraph [ref=e352]:
+                    - strong [ref=e353]: Jos ilmoitat vähennyksen todellisten kulujen mukaan,
+                    - text: vähennä hankkimasi kodinkoneet ja kalusteet joko ostovuoden kuluina tai poistoina. Todellisista kuluista on pyydettäessä esitettävä selvitys ja tositteet. Poistojen teosta saat lisätietoa tämän sivun kohdasta Irtaimiston hankinta.
+                  - paragraph [ref=e354]: Ilmoita kalustetun asunnon vähennys kohdassa Vuokratulot – Muut kulut.
+            - generic [ref=e356]:
+              - heading "Lainan korot ja järjestelykulut" [level=3] [ref=e357] [cursor=pointer]:
+                - button "Lainan korot ja järjestelykulut" [ref=e358]:
+                  - text: Lainan korot ja järjestelykulut
+                  - img
+              - region "Lainan korot ja järjestelykulut":
+                - generic:
+                  - paragraph [ref=e359]: Jos otat lainan vuokra-asunnon hankintaa varten, kyseessä on tulonhankkimisvelka, jonka korot ja toimitusmaksut voi vähentää verotuksessa.
+                  - paragraph [ref=e360]: Verohallinto saa pankeilta tiedot lainoista ja niiden koroista. Näet tiedot esitäytetystä veroilmoituksestasi kohdasta Velan korot. Tarkista veroilmoituksesta, että lainan käyttötarkoitus on tulonhankkimislaina. Jos tiedot puuttuvat, lisää tiedot veroilmoituksen kohtaan Velan korot. Lainan korkoja ei siis vähennetä kohdassa Vuokratulot.
+                  - paragraph [ref=e361]: "Huomaa: jos annat asunnon vuokralle alihintaan, lainan korkoja ja siihen liittyviä maksuja ei voi lainkaan vähentää vuokratulosta."
+                  - paragraph [ref=e362]: Lue lisää
+                  - paragraph [ref=e363]:
+                    - link "Alihintaan vuokratun asunnon korkovähennys" [ref=e364] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/omaisuus/vuokratulot/asunnon-vuokraaminen-alihintaan/
+                  - paragraph [ref=e365]:
+                    - link "Esitäytetyn veroilmoituksen täyttöohje" [ref=e366] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/veroilmoitus_ja_verotuspaato/ilmoittamisen-ohje/
+            - generic [ref=e368]:
+              - heading "Vuokraustoiminnan tappio" [level=3] [ref=e369] [cursor=pointer]:
+                - button "Vuokraustoiminnan tappio" [ref=e370]:
+                  - text: Vuokraustoiminnan tappio
+                  - img
+              - region "Vuokraustoiminnan tappio":
+                - generic:
+                  - paragraph [ref=e371]: Jos vuokraustoiminta on aiheuttanut sinulle enemmän kuluja kuin vuokratuloja, Verohallinto vähentää vuokraustoiminnan tappion automaattisesti muista pääomatuloista.
+                  - paragraph [ref=e372]: Jos muita pääomatuloja ei ole, muodostuu pääomatulolajin alijäämä. Verohallinto vähentää alijäämästä 30 % alijäämähyvityksenä ansiotulojesi veroista.
+                  - paragraph [ref=e373]: Vuokratuloista syntyvää tappiota et siis voi vähentää suoraan seuraavien vuosien vuokratuloista, vaan Verohallinto tekee vähennyksen alijäämähyvityksenä.
+                  - paragraph [ref=e374]:
+                    - strong [ref=e375]: "Esimerkki:"
+                    - text: Keijo sai vuonna 2025 vuokratuloa 5 000 euroa. Hän maksoi vuonna 2025 hoitovastiketta 2 400 euroa ja rahoitusvastikkeen osuuden putkiremontista 8 600 euroa. Vuokrauksesta syntyi tappiota eli alijäämää 6 000 euroa (5 000 e – 2 400 e – 8 600 e).
+                    - text: Keijolla ei ollut muita pääomatuloja, joten alijäämästä 30 % vähennetään alijäämähyvityksenä ansiotulojen veroista. Alijäämähyvitys on 6 000 e x 30 % = 1 800 euroa. Alijäämähyvityksen enimmäismäärä on kuitenkin 1 400 euroa, joten vuoden 2025 veroista vähennetään alijäämähyvityksen enimmäismäärä 1 400 euroa.
+                  - paragraph [ref=e376]:
+                    - link "Lue lisää pääomatuloista tehtävistä vähennyksistä" [ref=e377] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-paaomatuloista/
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: Huomio alkaa.
+              - heading "Syventävät vero-ohjeet" [level=3] [ref=e381]
+              - list [ref=e383]:
+                - listitem [ref=e384]:
+                  - link "Vuokratulot verotuksessa" [ref=e386] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/ohje-hakusivu/49336/
+              - paragraph [ref=e387]: Huomio päättyy
+        - navigation "Osion alasivut" [ref=e388]:
+          - heading "Vuokratulot" [level=3] [ref=e389]:
+            - link "Vuokratulot" [ref=e390] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/vuokratulot/
+          - list [ref=e393]:
+            - listitem [ref=e394]:
+              - link "Ilmoitus- ja maksuohjeet" [ref=e396] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/ilmoitus-ja-maksuohjeet/
+            - listitem [ref=e397]:
+              - link "Vähennykset" [ref=e399] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/
+            - listitem [ref=e400]:
+              - link "Lyhytaikainen ja satunnainen vuokraus" [ref=e402] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/lyhytaikainen-ja-satunnainen-vuokraus/
+            - listitem [ref=e403]:
+              - link "Asunnon vuokraaminen alihintaan" [ref=e405] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/asunnon-vuokraaminen-alihintaan/
+            - listitem [ref=e406]:
+              - link "Mikä on vuokratuloa?" [ref=e408] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/mika-on-vuokratuloa/
+            - listitem [ref=e409]:
+              - link "Muutokset vuokraustoiminnassa" [ref=e411] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/muutokset-vuokraustoiminnassa/
+            - listitem [ref=e412]:
+              - link "Kuinka paljon vuokratuloista menee veroa?" [ref=e414] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/kuinka-paljon-vuokratuloista-menee-veroa/
+            - listitem [ref=e415]:
+              - link "Vuokratulo muualta kuin asuinmaasta" [ref=e417] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/vuokratulot/vuokratulo-muualta-kuin-asuinmaasta/
+        - separator [ref=e418]
+        - generic [ref=e419]: Sivu on viimeksi päivitetty 26.3.2026
+      - generic [ref=e424]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e425]
+        - paragraph [ref=e427]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e428] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e429]:
+      - generic [ref=e431]:
+        - generic [ref=e432]:
+          - generic [ref=e433]:
+            - heading "Asioi verkossa" [level=2] [ref=e434]
+            - list [ref=e436]:
+              - listitem [ref=e437]:
+                - link "OmaVero" [ref=e439] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e440]:
+                - link "Laskurit" [ref=e442] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e443]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e445] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e446]:
+                - link "Positiivinen luottotietorekisteri" [ref=e448] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e449]:
+                - link "Tulorekisteri" [ref=e451] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e452]:
+            - heading "Yhteystiedot" [level=2] [ref=e453]
+            - list [ref=e455]:
+              - listitem [ref=e456]:
+                - link "Chat" [ref=e458] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e459]:
+                - link "Yhteystiedot ja asiointi" [ref=e461] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e462]:
+                - link "Sosiaalinen media" [ref=e464] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e465]:
+                - link "Paperilomakkeet" [ref=e467] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e468]:
+                - link "Käsittelyajat" [ref=e470] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e471]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e472]
+            - generic [ref=e476]:
+              - paragraph [ref=e477]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e478]:
+                - listitem [ref=e479]:
+                  - link "Syventävät vero-ohjeet" [ref=e481] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e482]:
+            - heading "Verohallinto" [level=2] [ref=e483]
+            - generic [ref=e487]:
+              - paragraph [ref=e488]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e489]:
+                - listitem [ref=e490]:
+                  - link "Tietoa Verohallinnosta" [ref=e492] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e495]:
+          - listitem [ref=e496]: © Verohallinto
+          - listitem [ref=e497]:
+            - link "Tietosuoja" [ref=e499] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e500]:
+            - link "Palaute" [ref=e502] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e503]:
+            - link "Saavutettavuusseloste" [ref=e505] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e506]:
+            - link "Tulosta" [ref=e508] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e510] [cursor=pointer]:
+    - img [ref=e511]
+    - paragraph [ref=e513]: Chatbot

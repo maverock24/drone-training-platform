@@ -1,0 +1,215 @@
+- generic [ref=e1]:
+  - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - text:    
+      - generic [ref=e9]:
+        - link "Veronmaksajat - etusivulle" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Veronmaksajat - etusivulle" [ref=e12]
+        - generic [ref=e14]:
+          - link "Kirjaudu" [ref=e16] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/ssl/kirjaudu/?redirect=https://www.veronmaksajat.fi/y/sivua-ei-loytynyt/
+            - generic [ref=e17]: 
+          - link "Ostoskori" [ref=e19] [cursor=pointer]:
+            - /url: /tapahtumat-ja-julkaisut/verkkokauppa/ostoskori/
+            - generic [ref=e20]: 
+          - link "Haku" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e23]: 
+          - link "Valikko" [ref=e25] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e26]: 
+    - generic [ref=e28]:
+      - link "Etusivu" [ref=e29] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e30]: Sivua ei löytynyt (404)
+    - generic [ref=e34]:
+      - heading "Sivua ei löytynyt" [level=1] [ref=e35]
+      - paragraph [ref=e36]: Hakemaasi sivua ei löytynyt. Voi olla, että linkki on vanhentunut tai kirjoitit osoitteen väärin.
+      - generic [ref=e37]:
+        - link "Veroneuvot" [ref=e39] [cursor=pointer]:
+          - /url: /neuvot/
+        - link "Jäsenpalvelu" [ref=e41] [cursor=pointer]:
+          - /url: /jasenpalvelut/jasenpalvelun-yhteystiedot/
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - paragraph [ref=e46]:
+          - text: Liity Veronmaksajien
+          - link "henkilöjäseneksi" [ref=e47] [cursor=pointer]:
+            - /url: /jasenpalvelut/liity/liity-jaseneksi/
+          - text: tai
+          - link "yritysjäseneksi" [ref=e48] [cursor=pointer]:
+            - /url: /jasenpalvelut/liity/liity-jaseneksi/
+          - text: . Saat
+          - strong [ref=e49]:
+            - link "nämä edut" [ref=e50] [cursor=pointer]:
+              - /url: /jasenpalvelut/jasenedut/kaikki-edut/
+          - text: "!"
+        - heading "Etsitkö mahdollisesti" [level=3] [ref=e51]
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link "Kilometrikorvauksia" [ref=e54] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/tyo-elake-ja-etuudet/paivarahat-ja-kilometrikorvaukset/kilometrikorvaukset/
+            - text: tai
+            - link "päivärahoja" [ref=e55] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/tyo-elake-ja-etuudet/paivarahat-ja-kilometrikorvaukset/paivarahat/
+          - listitem [ref=e56]:
+            - link "Tietoa Veronmaksajien jäseneduista" [ref=e57] [cursor=pointer]:
+              - /url: /jasenpalvelut/jasenedut/
+          - listitem [ref=e58]:
+            - link "Veronmaksajien oppaita" [ref=e59] [cursor=pointer]:
+              - /url: /tapahtumat-ja-julkaisut/veronmaksajien-oppaat/
+          - listitem [ref=e60]:
+            - link "Omat tiedot -sivua" [ref=e61] [cursor=pointer]:
+              - /url: /jasenpalvelut/omat-tiedot/
+          - listitem [ref=e62]:
+            - link "Lehdistötiedotteita" [ref=e63] [cursor=pointer]:
+              - /url: /medialle/lehdistotiedotteet/?sortBy=0&filterBy=0&page=1&mode=list
+          - listitem [ref=e64]:
+            - link "Selvityksiä" [ref=e65] [cursor=pointer]:
+              - /url: /tutkimus-ja-tilastot/selvitykset/?sortBy=0&filterBy=0&page=1&mode=list
+          - listitem [ref=e66]:
+            - link "Taloustaitoa" [ref=e67] [cursor=pointer]:
+              - /url: https://www.taloustaito.fi/
+          - listitem [ref=e68]:
+            - link "TaxFaxia" [ref=e69] [cursor=pointer]:
+              - /url: /taxfax/
+        - paragraph [ref=e70]:
+          - link "Katso tästä ohjeita verkkopalvelun käytöstä " [ref=e71] [cursor=pointer]:
+            - /url: /jasenpalvelut/usein-kysytyt-kysymykset-verkkopalvelusta/
+        - paragraph [ref=e72]:
+          - link "Hae veroneuvoja" [ref=e73] [cursor=pointer]:
+            - /url: /neuvot/
+          - text: tai
+          - link "etsi koko sivustolta" [ref=e74] [cursor=pointer]:
+            - /url: /y/haku/
+          - text: .
+        - paragraph [ref=e75]:
+          - text: Ota tarvittaessa yhteyttä
+          - link "jäsenpalveluumme" [ref=e76] [cursor=pointer]:
+            - /url: /jasenpalvelut/jasenpalvelun-yhteystiedot/
+          - text: .
+        - paragraph [ref=e77]:
+          - link "Tietoa Veronmaksajain Keskusliitosta" [ref=e78] [cursor=pointer]:
+            - /url: /veronmaksajat/tietoa-liitosta/
+          - text: "|"
+          - link "Yhteystiedot" [ref=e79] [cursor=pointer]:
+            - /url: /veronmaksajat/yhteystiedot/
+      - generic [ref=e81]:
+        - heading "Tilaa maksuton Veroviikko" [level=2] [ref=e82]
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Sähköposti *
+            - textbox "Sähköposti *" [ref=e86]
+          - generic [ref=e87]:
+            - checkbox "Olen Veronmaksajain Keskusliiton jäsen." [ref=e88]
+            - text: Olen Veronmaksajain Keskusliiton jäsen.
+          - generic [ref=e89]:
+            - paragraph [ref=e90]:
+              - text: "Tilaamalla Veroviikko-uutiskirjeen annat Veronmaksajain Keskusliitolle luvan lähettää sinulle tietoja omista tuotteistaan ja palveluistaan. Lisätietoja:"
+              - link "Veronmaksajien tietosuojaseloste" [ref=e91] [cursor=pointer]:
+                - /url: /jasenpalvelut/tietosuoja/
+            - button "Tilaa" [ref=e92] [cursor=pointer]: Tilaa 
+    - generic "[Missing text '/footer/contect' for 'Finnish']" [ref=e93]:
+      - link "Veronmaksajat Puolenpitoa" [ref=e95] [cursor=pointer]:
+        - /url: /
+        - img "Veronmaksajat Puolenpitoa" [ref=e96]
+      - generic [ref=e97]:
+        - generic [ref=e102]:
+          - textbox "Haku koko sivustolta" [ref=e103]
+          - button "" [ref=e104] [cursor=pointer]:
+            - generic [ref=e105]: 
+        - generic [ref=e106]:
+          - heading "Liity Veronmaksajien jäseneksi. Vain 37 € vuodessa + 8 € liittymismaksu!" [level=3] [ref=e107]
+          - generic [ref=e108]:
+            - link "Liity jäseneksi" [ref=e109] [cursor=pointer]:
+              - /url: /jasenpalvelut/liity/liity-jaseneksi/
+            - link "Nämä edut saat" [ref=e110] [cursor=pointer]:
+              - /url: /jasenpalvelut/jasenedut/
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: Veronmaksajain Keskusliitto
+            - generic [ref=e114]: Kalevankatu 4, 00100 Helsinki
+            - link "Puhelin" [ref=e116] [cursor=pointer]:
+              - /url: tel:09 618 871
+              - generic [ref=e117]: 
+              - text: Vaihde 09 618 871
+            - link "Puhelin" [ref=e119] [cursor=pointer]:
+              - /url: tel:03 010 5511
+              - generic [ref=e120]: 
+              - text: Jäsenpalvelu 03 010 5511
+            - link "Sähköposti" [ref=e122] [cursor=pointer]:
+              - /url: mailto:veronmaksajat@veronmaksajat.fi
+              - generic [ref=e123]: 
+              - text: veronmaksajat@veronmaksajat.fi
+            - generic [ref=e124]:
+              - link "Liiton Facebook-sivut" [ref=e125] [cursor=pointer]:
+                - /url: https://www.facebook.com/veronmaksajat/
+                - generic [ref=e126]: 
+              - link "Liitto X:ssä" [ref=e127] [cursor=pointer]:
+                - /url: https://x.com/veronmaksajat
+                - generic [ref=e128]: 
+              - link "Liitto Instagramissa" [ref=e129] [cursor=pointer]:
+                - /url: https://www.instagram.com/veronmaksajat_ry/
+                - generic [ref=e130]: 
+              - link "Liitto LinkedInissä" [ref=e131] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/veronmaksajain-keskusliitto-ry/
+                - generic [ref=e132]: 
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - text: 
+              - link "Veroneuvonta" [ref=e136] [cursor=pointer]:
+                - /url: /neuvot/
+            - listitem [ref=e137]:
+              - text: 
+              - link "Tutkimus & tilastot" [ref=e138] [cursor=pointer]:
+                - /url: /tutkimus-ja-tilastot/
+            - listitem [ref=e139]:
+              - text: 
+              - link "Tapahtumat & julkaisut" [ref=e140] [cursor=pointer]:
+                - /url: /tapahtumat-ja-julkaisut/
+            - listitem [ref=e141]:
+              - text: 
+              - link "Medialle" [ref=e142] [cursor=pointer]:
+                - /url: /medialle/
+            - listitem [ref=e143]:
+              - text: 
+              - link "Jäsenyys" [ref=e144] [cursor=pointer]:
+                - /url: /jasenpalvelut/
+            - listitem [ref=e145]:
+              - text: 
+              - link "Veronmaksajat" [ref=e146] [cursor=pointer]:
+                - /url: /veronmaksajat/
+            - listitem [ref=e147]:
+              - text: 
+              - link "TaxFax" [ref=e148] [cursor=pointer]:
+                - /url: /taxfax/
+            - listitem [ref=e149]:
+              - text: 
+              - link "Jäsenpalvelun yhteystiedot" [ref=e150] [cursor=pointer]:
+                - /url: /jasenpalvelut/jasenpalvelun-yhteystiedot/
+    - generic [ref=e151]:
+      - text: Evästeasetukset
+      - link "Tietosuojaseloste" [ref=e152] [cursor=pointer]:
+        - /url: /jasenpalvelut/tietosuoja/
+      - link "Saavutettavuusseloste" [ref=e153] [cursor=pointer]:
+        - /url: /y/saavutettavuusseloste/
+  - region "Cookie banner" [active] [ref=e155]:
+    - alertdialog "Veronmaksajat.fi toimii paremmin evästeiden avulla" [ref=e156]:
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - generic:
+            - heading "Veronmaksajat.fi toimii paremmin evästeiden avulla" [level=2] [ref=e159]
+            - generic [ref=e160]:
+              - text: Keräämme sivujemme käyttäjiltä eväste- ja laitetunnisteita, jotta voimme mitata kävijämääriä, tutkia sivujen käyttöä ja tarjota paremmin toimivan sivuston.
+              - text: Voit hallinnoida kerättäviä tietoja evästeasetuksien kautta. Osa evästeistä on välttämättömiä palvelujen tarjoamiseksi. Esimerkiksi kirjautuminen ei onnistu ilman käyttäjätunnuksen ja salasanan keräämistä.
+              - link "Tietosuojaselosteesta" [ref=e161] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/jasenyys/Jasenena/tietosuoja/#2c12cb0a
+              - text: näet tarkemmin, miten käsittelemme henkilötietoja.
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - button "Hyväksy välttämättömät" [ref=e165] [cursor=pointer]
+            - button "Hyväksy kaikki evästeet" [ref=e166] [cursor=pointer]
+          - button "Evästeasetukset" [ref=e167] [cursor=pointer]

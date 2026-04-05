@@ -1,0 +1,369 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: yhtiolaina riskit asuntosijoitus taloyhtio uudiskohde rahoitusvastike 2025 2026 yhtiolaina riskit asuntosijoitus taloyhtio uudiskohde rahoitusvastike 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dyhtiolaina%2Briskit%2Basuntosijoitus%2Btaloyhtio%2Buudiskohde%2Brahoitusvastike%2B2025%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - generic [ref=e150]:
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - img [ref=e156]
+                - heading "AI-yhteenveto" [level=2] [ref=e158]
+              - button "Tietoja tästä tuloksesta" [ref=e162]:
+                - img [ref=e164]
+            - generic [ref=e191]: Uudiskohteen yhtiölaina ja siihen liittyvä rahoitusvastike ovat asuntosijoittajalle keskeisiä tekijöitä vuonna 2025–2026. Vaikka yhtiölaina mahdollistaa suuren velkavivun, se sisältää merkittäviä riskejä, kuten korkotason vaihtelut, naapurien maksukyvyttömyyden ja verotuskäytäntöjen muutokset.
+          - progressbar [ref=e197]
+        - button "Näytä lisää AI-yhteenvetoja" [ref=e221]:
+          - generic [ref=e223] [cursor=pointer]:
+            - generic [ref=e224]: Näytä lisää
+            - img [ref=e226]
+      - main [ref=e229]:
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - heading "Tulokset internetistä" [level=2] [ref=e237]
+            - generic [ref=e238]:
+              - generic [ref=e241]:
+                - link "Asuntosijoittaminen vuonna 2026 Sijoittaja.fi https://www.sijoittaja.fi › asuntosijoittaminen-vuonna-2..." [ref=e243] [cursor=pointer]:
+                  - /url: https://www.sijoittaja.fi/424295/asuntosijoittaminen-vuonna-2026/
+                  - heading "Asuntosijoittaminen vuonna 2026" [level=3] [ref=e244]
+                  - generic [ref=e249]:
+                    - generic [ref=e251]: Sijoittaja.fi
+                    - generic [ref=e253]: https://www.sijoittaja.fi › asuntosijoittaminen-vuonna-2...
+                - button "Tietoja tästä tuloksesta" [ref=e254] [cursor=pointer]:
+                  - img [ref=e257]
+              - generic [ref=e260]:
+                - generic [ref=e261]: 18.2.2026 —
+                - generic [ref=e262]:
+                  - emphasis [ref=e263]: Riskit
+                  - text: asuntosijoittamisessa · Vuokrariski · Tyhjäkäyttöriski · Markkina- ja talousriskit · Korkoriski · Muista tarkistaa
+                  - emphasis [ref=e264]: taloyhtiön
+                  - text: kunto.
+          - generic [ref=e268]:
+            - generic [ref=e271]:
+              - 'link "Rahoitusvastike 2025: tuloutus vs. rahastointi – selkokielellä Sijoitusasunnot.com https://sijoitusasunnot.com › Blogit" [ref=e273] [cursor=pointer]':
+                - /url: https://sijoitusasunnot.com/blogi-asuntosijoittaminen/rahoitusvastike-rautalangasta/
+                - 'heading "Rahoitusvastike 2025: tuloutus vs. rahastointi – selkokielellä" [level=3] [ref=e274]'
+                - generic [ref=e279]:
+                  - generic [ref=e281]: Sijoitusasunnot.com
+                  - generic [ref=e283]: https://sijoitusasunnot.com › Blogit
+              - button "Tietoja tästä tuloksesta" [ref=e284] [cursor=pointer]:
+                - img [ref=e287]
+            - generic [ref=e291]:
+              - text: Ensimmäinen
+              - emphasis [ref=e292]: riski
+              - text: rahoitusvastikkeeseen liittyy siihen, että et muista huomioida sitä ottaessasi lainaa. Kun päätät sopivan vivun asuntosijoittamiseen, ...
+            - generic [ref=e294]:
+              - text: "Puuttuu: uudiskohde ‎| Hae tällä:"
+              - link "uudiskohde" [ref=e295] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+%22uudiskohde%22+rahoitusvastike+2025+2026&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ5t4CegQIGRAB
+          - generic [ref=e299]:
+            - generic [ref=e302]:
+              - link "Yhtiölaina ja rahoitusvastike - uudiskohteet, riskit ja verotus Asuntosalkunrakentaja.fi https://asuntosalkunrakentaja.fi › asuntosijoittaminen › r..." [ref=e304] [cursor=pointer]:
+                - /url: https://asuntosalkunrakentaja.fi/asuntosijoittaminen/rahoitusvastike-ja-yhtiolaina/
+                - heading "Yhtiölaina ja rahoitusvastike - uudiskohteet, riskit ja verotus" [level=3] [ref=e305]
+                - generic [ref=e310]:
+                  - generic [ref=e312]: Asuntosalkunrakentaja.fi
+                  - generic [ref=e314]: https://asuntosalkunrakentaja.fi › asuntosijoittaminen › r...
+              - button "Tietoja tästä tuloksesta" [ref=e315] [cursor=pointer]:
+                - img [ref=e318]
+            - generic [ref=e321]: Taloyhtiölainojen takaisinmaksuaika saa olla uudisrakentamisessa enintään 30 vuotta. Lyhennysvapaita ei voi olla ensimmäisinä viitenä vuotena rakennuksen ...
+            - generic [ref=e323]:
+              - text: "Puuttuu: 2025 ‎| Hae tällä:"
+              - link "2025" [ref=e324] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+%222025%22+2026&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ5t4CegQITBAB
+          - generic [ref=e328]:
+            - generic [ref=e329]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e330]
+              - button "Tietoja tästä tuloksesta" [ref=e331] [cursor=pointer]:
+                - img [ref=e334]
+            - generic [ref=e336]:
+              - button "Kannattaako yhtiölaina pitää vai maksaa pois asuntolainalla?" [ref=e342] [cursor=pointer]:
+                - generic [ref=e344]: Kannattaako yhtiölaina pitää vai maksaa pois asuntolainalla?
+                - img [ref=e347]
+              - button "Kannattaako ostaa asunto 2026?" [ref=e356] [cursor=pointer]:
+                - generic [ref=e358]: Kannattaako ostaa asunto 2026?
+                - img [ref=e361]
+              - button "Onko rahoitusvastike tuloutettu vai rahastoitu?" [ref=e370] [cursor=pointer]:
+                - generic [ref=e372]: Onko rahoitusvastike tuloutettu vai rahastoitu?
+                - img [ref=e375]
+              - button "Onko yhtiölaina vähennyskelpoinen?" [ref=e384] [cursor=pointer]:
+                - generic [ref=e386]: Onko yhtiölaina vähennyskelpoinen?
+                - img [ref=e389]
+          - generic [ref=e394]:
+            - heading "Tulokset internetistä" [level=2] [ref=e395]
+            - generic [ref=e396]:
+              - generic [ref=e399]:
+                - link "Taloyhtiölainojen uudet säännöt – sijoittajan kassa ... Sijoitusasuntovahti Oy https://sijoitusasuntovahti.fi › Artikkelit" [ref=e401] [cursor=pointer]:
+                  - /url: https://sijoitusasuntovahti.fi/taloyhtiolainojen-uudet-saannot-sijoittajan-kassa-koetuksella/
+                  - heading "Taloyhtiölainojen uudet säännöt – sijoittajan kassa ..." [level=3] [ref=e402]
+                  - generic [ref=e407]:
+                    - generic [ref=e409]: Sijoitusasuntovahti Oy
+                    - generic [ref=e411]: https://sijoitusasuntovahti.fi › Artikkelit
+                - button "Tietoja tästä tuloksesta" [ref=e412] [cursor=pointer]:
+                  - img [ref=e415]
+              - generic [ref=e418]:
+                - generic [ref=e419]: 6.10.2025 —
+                - generic [ref=e420]:
+                  - text: Taloyhtiölainojen sääntely muuttui
+                  - emphasis [ref=e421]: "2025"
+                  - text: . Opi, miten 60 % velkakatto & uudet lainaehdot vaikuttavat sijoitusasuntosi kassavirtaan ...
+              - generic [ref=e423]: "Puuttuu: uudiskohde ‎2026"
+          - generic [ref=e427]:
+            - generic [ref=e430]:
+              - link "Asuntosijoittajan mahdolliset veromuutokset Asuntopehtoori https://www.asuntopehtoori.fi › asuntosijoittajan-mahdo..." [ref=e432] [cursor=pointer]:
+                - /url: https://www.asuntopehtoori.fi/asuntosijoittajan-mahdolliset-veromuutokset/
+                - heading "Asuntosijoittajan mahdolliset veromuutokset" [level=3] [ref=e433]
+                - generic [ref=e438]:
+                  - generic [ref=e440]: Asuntopehtoori
+                  - generic [ref=e442]: https://www.asuntopehtoori.fi › asuntosijoittajan-mahdo...
+              - button "Tietoja tästä tuloksesta" [ref=e443] [cursor=pointer]:
+                - img [ref=e446]
+            - generic [ref=e449]: Uudiskohteen yhtiölainan 60 % velkakatto ei välttämättä muuttaisi mitään muuta kuin että sijoittajat ottaisivat omasta pankistaan tuon 10 % verran lisää lainaa.
+          - generic [ref=e453]:
+            - generic [ref=e456]:
+              - link "Taloyhtiölainoissa piilee myös riskejä – ota ainakin nämä ... Nordea https://www.nordea.com › uutiset › taloyhtiolainoissa-pi..." [ref=e458] [cursor=pointer]:
+                - /url: https://www.nordea.com/fi/uutiset/taloyhtiolainoissa-piilee-myos-riskeja-ota-ainakin-nama-kolme-asiaa-huomioon-osakkaana
+                - heading "Taloyhtiölainoissa piilee myös riskejä – ota ainakin nämä ..." [level=3] [ref=e459]
+                - generic [ref=e464]:
+                  - generic [ref=e466]: Nordea
+                  - generic [ref=e468]: https://www.nordea.com › uutiset › taloyhtiolainoissa-pi...
+              - button "Tietoja tästä tuloksesta" [ref=e469] [cursor=pointer]:
+                - img [ref=e472]
+            - generic [ref=e476]:
+              - text: Jos taloyhtiössä ilmenee maksuvaikeuksia ja jotkut osakkaat eivät pysty maksamaan rahoitusvastikkeitaan,
+              - emphasis [ref=e477]: taloyhtiö
+              - text: joutuu kattamaan nämä maksut. Lopulta vastuu ...
+            - generic [ref=e479]: "Puuttuu: uudiskohde ‎rahoitusvastike"
+          - generic [ref=e483]:
+            - generic [ref=e486]:
+              - link "Taloyhtiölainojen riskit - Lainaaminen www.finanssivalvonta.fi https://www.finanssivalvonta.fi › taloyhtiolainojen-riskit" [ref=e488] [cursor=pointer]:
+                - /url: https://www.finanssivalvonta.fi/kuluttajalle/lainat/taloyhtiolainojen-riskit/
+                - heading "Taloyhtiölainojen riskit - Lainaaminen" [level=3] [ref=e489]
+                - generic [ref=e494]:
+                  - generic [ref=e496]: www.finanssivalvonta.fi
+                  - generic [ref=e498]: https://www.finanssivalvonta.fi › taloyhtiolainojen-riskit
+              - button "Tietoja tästä tuloksesta" [ref=e499] [cursor=pointer]:
+                - img [ref=e502]
+            - generic [ref=e505]:
+              - generic [ref=e506]: 22.5.2025 —
+              - generic [ref=e507]:
+                - text: Mikä
+                - emphasis [ref=e508]: riski
+                - text: liittyy
+                - emphasis [ref=e509]: taloyhtiön
+                - text: yhtiölainaan? Tärkein huomioon otettava tekijä on yhtiölainan vaikutus omaan kokonaisvelkataakkaan. Korkojen ...
+            - generic [ref=e511]: "Puuttuu: asuntosijoitus ‎uudiskohde ‎rahoitusvastike"
+          - generic [ref=e515]:
+            - generic [ref=e518]:
+              - 'link "Talousvaliokunnalle: Vastine asunto Eduskunta https://www.eduskunta.fi › EDK-2026-AK-12127" [ref=e520] [cursor=pointer]':
+                - /url: https://www.eduskunta.fi/valtiopaivaasiakirjat/EDK-2026-AK-12127
+                - 'heading "Talousvaliokunnalle: Vastine asunto" [level=3] [ref=e521]'
+                - generic [ref=e526]:
+                  - generic [ref=e528]: Eduskunta
+                  - generic [ref=e530]: https://www.eduskunta.fi › EDK-2026-AK-12127
+              - generic [ref=e531]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e532] [cursor=pointer]:
+                - img [ref=e535]
+            - generic [ref=e538]: Suuret taloyhtiölainat todennäköisesti kasvattaisivat taloyhtiöiden velkaantunei- suutta. Monilla taloyhtiöillä on nykyisinkin vaikeuksia ...
+          - generic [ref=e542]:
+            - generic [ref=e545]:
+              - link "Taloyhtiö 2026 – tärkeimmät lait, päätökset ja määräajat OMAtaloyhtiö.fi https://omataloyhtio.fi › Osakas" [ref=e547] [cursor=pointer]:
+                - /url: https://omataloyhtio.fi/artikkelit/taloyhtio-2026-tarkeimmat-lait-ja-paatokset/
+                - heading "Taloyhtiö 2026 – tärkeimmät lait, päätökset ja määräajat" [level=3] [ref=e548]
+                - generic [ref=e553]:
+                  - generic [ref=e555]: OMAtaloyhtiö.fi
+                  - generic [ref=e557]: https://omataloyhtio.fi › Osakas
+              - button "Tietoja tästä tuloksesta" [ref=e558] [cursor=pointer]:
+                - img [ref=e561]
+            - generic [ref=e564]:
+              - generic [ref=e565]: 12.11.2025 —
+              - generic [ref=e566]:
+                - text: Tähän artikkeliin on koottu ajantasainen katsaus vuoden
+                - emphasis [ref=e567]: "2026"
+                - text: kannalta keskeisiin lakeihin, asetuksiin ja määräaikoihin. Mukana ovat myös ...
+          - generic [ref=e571]:
+            - generic [ref=e574]:
+              - link "Taloyhtiölaina – Taloyhtiön lainan kilpailutus ja korko 2026 Summarum https://www.summarum.fi › Asuntolainan kilpailutus" [ref=e576] [cursor=pointer]:
+                - /url: https://www.summarum.fi/asuntolaina/taloyhtiolaina/
+                - heading "Taloyhtiölaina – Taloyhtiön lainan kilpailutus ja korko 2026" [level=3] [ref=e577]
+                - generic [ref=e582]:
+                  - generic [ref=e584]: Summarum
+                  - generic [ref=e586]: https://www.summarum.fi › Asuntolainan kilpailutus
+              - button "Tietoja tästä tuloksesta" [ref=e587] [cursor=pointer]:
+                - img [ref=e590]
+            - generic [ref=e593]:
+              - generic [ref=e594]: 1.1.2026 —
+              - generic [ref=e595]:
+                - text: Sijoittajan kannattaa selvittää, miten taloyhtiölainan
+                - emphasis [ref=e596]: rahoitusvastike
+                - text: tulee huomioida. Taloyhtiölaina on usein sijoitusasuntoa hankkivan ...
+        - generic [ref=e598]:
+          - generic [ref=e603]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e605]
+            - generic [ref=e607]:
+              - generic [ref=e608]:
+                - link "Kannattaako rahoitusvastike maksaa pois" [ref=e612] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Kannattaako+rahoitusvastike+maksaa+pois&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhQEAE
+                  - generic [ref=e613]:
+                    - generic [ref=e618]: Kannattaako rahoitusvastike maksaa pois
+                    - img [ref=e622]
+                - link "Miten rahoitusvastike lasketaan" [ref=e627] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Miten+rahoitusvastike+lasketaan&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhWEAE
+                  - generic [ref=e628]:
+                    - generic [ref=e633]: Miten rahoitusvastike lasketaan
+                    - img [ref=e637]
+                - link "Sijoitusasunto yhtiölaina verotus" [ref=e642] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Sijoitusasunto+yhti%C3%B6laina+verotus&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhVEAE
+                  - generic [ref=e643]:
+                    - generic [ref=e648]: Sijoitusasunto yhtiölaina verotus
+                    - img [ref=e652]
+                - link "Yhtiölainan maksaminen asuntokaupan yhteydessä" [ref=e657] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Yhti%C3%B6lainan+maksaminen+asuntokaupan+yhteydess%C3%A4&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhSEAE
+                  - generic [ref=e658]:
+                    - generic [ref=e663]: Yhtiölainan maksaminen asuntokaupan yhteydessä
+                    - img [ref=e667]
+              - generic [ref=e669]:
+                - link "Rahoitusvastike verotus" [ref=e673] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Rahoitusvastike+verotus&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhPEAE
+                  - generic [ref=e674]:
+                    - generic [ref=e679]: Rahoitusvastike verotus
+                    - img [ref=e683]
+                - link "Tuloutettu rahoitusvastike" [ref=e688] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Tuloutettu+rahoitusvastike&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhTEAE
+                  - generic [ref=e689]:
+                    - generic [ref=e694]: Tuloutettu rahoitusvastike
+                    - img [ref=e698]
+                - link "Kannattaako yhtiölaina maksaa pois säästöillä" [ref=e703] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Kannattaako+yhti%C3%B6laina+maksaa+pois+s%C3%A4%C3%A4st%C3%B6ill%C3%A4&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhUEAE
+                  - generic [ref=e704]:
+                    - generic [ref=e709]: Kannattaako yhtiölaina maksaa pois säästöillä
+                    - img [ref=e713]
+                - link "Voiko rahoitusvastike nousta" [ref=e718] [cursor=pointer]:
+                  - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=Voiko+rahoitusvastike+nousta&sa=X&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ1QJ6BAhREAE
+                  - generic [ref=e719]:
+                    - generic [ref=e724]: Voiko rahoitusvastike nousta
+                    - img [ref=e728]
+          - navigation [ref=e730]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e731]
+            - text: "1"
+            - link "Page 2" [ref=e734] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=10&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8tMDegQITRAE
+              - text: "2"
+            - link "Page 3" [ref=e736] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=20&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8tMDegQITRAG
+              - text: "3"
+            - link "Page 4" [ref=e738] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=30&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8tMDegQITRAI
+              - text: "4"
+            - link "Page 5" [ref=e740] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=40&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8tMDegQITRAK
+              - text: "5"
+            - link "Page 6" [ref=e742] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=50&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8tMDegQITRAM
+              - text: "6"
+            - link "Page 7" [ref=e744] [cursor=pointer]:
+              - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=60&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8tMDegQITRAO
+              - text: "7"
+            - heading "Seuraava" [level=2] [ref=e746]:
+              - link "Seuraava" [ref=e747] [cursor=pointer]:
+                - /url: /search?q=yhtiolaina+riskit+asuntosijoitus+taloyhtio+uudiskohde+rahoitusvastike+2025+2026&sca_esv=bb65bd8365f461f5&hl=fi&ei=MxzSaYqFHqWvwPAPreaO0Ao&start=10&sa=N&sstk=Af77f_c8ncFynKzqJBui1m9LJjwlcuHBpk3pw0-loTTm-2pvm5Ps5psVHJJWsq99Idw4KGAWCkRdxgXlcKJ_YgsXbVVwoKW1GiBOAg&ved=2ahUKEwjK6sK2pNaTAxWlFxAIHS2zA6oQ8NMDegQITRAQ
+                - generic [ref=e749]: Seuraava
+        - navigation
+    - contentinfo [ref=e750]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e751]
+      - generic [ref=e755]:
+        - generic [ref=e757]:
+          - text: Suomi
+          - generic [ref=e759]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e761] [cursor=pointer]:
+              - generic [ref=e762]: Helsinki
+              - generic [ref=e764]:
+                - text: "-"
+                - generic [ref=e765]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e767] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e770]:
+          - link "Ohje" [ref=e771] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e772] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e773] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e774] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

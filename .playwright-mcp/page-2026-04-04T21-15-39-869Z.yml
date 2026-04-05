@@ -1,0 +1,249 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Omaisuus ja asuminen" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/
+            - listitem [ref=e61]:
+              - link "Sijoitukset" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/
+            - listitem [ref=e63]:
+              - link "Osingot" [ref=e64] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/
+            - listitem [ref=e65]: Ulkomailta saadut osingot
+        - article [ref=e68]:
+          - heading "Ulkomailta saadut osingot" [level=1] [ref=e69]
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: Jos saat osinkoja ulkomailta, niiden verotukseen vaikuttaa se, mistä maasta ne maksetaan.
+            - heading "Osingot kumppanivaltioista verotetaan kuten Suomen osingot" [level=2] [ref=e72]
+            - paragraph [ref=e73]: Ulkomaisia osinkoja verotetaan samalla tavalla kuin Suomesta saatuja osinkoja, jos ne ovat peräisin
+            - list [ref=e74]:
+              - listitem [ref=e75]: toisesta Euroopan unionin (EU) maasta
+              - listitem [ref=e76]: Euroopan talousalueen (ETA) maasta
+              - listitem [ref=e77]: sellaista valtiosta, jonka kanssa Suomella on osinkoja koskeva verosopimus.
+            - paragraph [ref=e78]: "Näissä tapauksissa siis:"
+            - list [ref=e79]:
+              - listitem [ref=e80]: listatusta yhtiöstä saamastasi osingosta 85 % on veronalaista pääomatuloa ja 15 % verotonta tuloa
+              - listitem [ref=e81]: listaamattomasta yhtiöstä saamastasi osingosta maksat pääomatuloveroa ja/tai ansiotuloveroa sen mukaan, mikä osakkeiden matemaattinen arvo tai käypä arvo on
+            - paragraph [ref=e82]: Ulkomaisen yhtiön osingoista ei toimiteta ennakonpidätystä. Verosopimuksesta riippuen yhtiö voi periä lähdeveron.
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - strong [ref=e85]: "Esimerkki:"
+                - text: Jaakko saa verovuonna 2025 englantilaiselta listaamattomalta yhtiöltä osinkoa 100 000 euroa. Osakkeiden matemaattinen arvo 31.12.2024 on 800 000 euroa. Jaakko ei ole vuonna 2025 saanut osinkoja muista listaamattomista yhtiöistä.
+              - generic [ref=e87]:
+                - table "Laskelma pääomatulona ja ansiotulona verotettavasta osintulosta" [ref=e88]:
+                  - caption [ref=e89]: Laskelma pääomatulona ja ansiotulona verotettavasta osintulosta
+                  - rowgroup [ref=e90]:
+                    - row "Laskelma pääomatulona ja ansiotulona verotettavasta osinkotulosta" [ref=e91]:
+                      - columnheader "Laskelma pääomatulona ja ansiotulona verotettavasta osinkotulosta" [ref=e92]
+                    - row "Osingon määrä 100 000 e" [ref=e93]:
+                      - cell "Osingon määrä" [ref=e94]
+                      - cell "100 000 e" [ref=e95]
+                      - cell [ref=e96]
+                      - cell [ref=e97]
+                    - row "Osakkeiden matemaattinen arvo 800 000 e" [ref=e98]:
+                      - cell "Osakkeiden matemaattinen arvo" [ref=e99]
+                      - cell "800 000 e" [ref=e100]
+                      - cell [ref=e101]
+                      - cell [ref=e102]
+                    - row "Jaakon pääomatulo-osinko 64 000 e Jaakon pääomatulona verotettava osinkotulo 16 000 e" [ref=e103]:
+                      - cell "Jaakon pääomatulo-osinko" [ref=e104]
+                      - cell "64 000 e" [ref=e105]
+                      - cell "Jaakon pääomatulona verotettava osinkotulo" [ref=e106]:
+                        - strong [ref=e107]: Jaakon pääomatulona verotettava osinkotulo
+                      - cell "16 000 e" [ref=e108]:
+                        - strong [ref=e109]: 16 000 e
+                    - row "Jaakon ansiotulo-osinko 36 000 e Jaakon ansiotulona verotettava osinkotulo 27 000 e" [ref=e110]:
+                      - cell "Jaakon ansiotulo-osinko" [ref=e111]
+                      - cell "36 000 e" [ref=e112]
+                      - cell "Jaakon ansiotulona verotettava osinkotulo" [ref=e113]:
+                        - strong [ref=e114]: Jaakon ansiotulona verotettava osinkotulo
+                      - cell "27 000 e" [ref=e115]:
+                        - strong [ref=e116]: 27 000
+                        - text: e
+                - paragraph [ref=e117]: Pääomatulo-osinkoa on 8 % tuotto osakkeiden matemaattiselle arvolle (800 000 x 8 % = 64 000).
+                - paragraph [ref=e118]: Pääomatulo-osinkoon alle 150 000 euroa, joten siitä on 25 % (16 000 e) veronalaista pääomatuloa. 75 % eli 48 000 on verotonta tuloa.
+                - paragraph [ref=e119]: Ansiotulo-osinkoa on jäljelle jäänyt osa osingosta 100 000 - 64 000 = 36 000 euroa. Ansiotulo-osingosta veronalaista ansiotuloa on 75 % (27 000 e) ja verotonta tuloa 25 % (9 000 e).
+          - navigation "Vai etsitkö näitä?" [ref=e120]:
+            - heading "Vai etsitkö näitä?" [level=3] [ref=e121]
+            - navigation "Sivunavigaatio" [ref=e122]:
+              - link "Osingot" [ref=e123] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/
+              - list [ref=e124]:
+                - listitem [ref=e125]:
+                  - link "Listatusta yhtiöstä saadut osingot" [ref=e126] [cursor=pointer]:
+                    - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/listatusta-yhti%C3%B6st%C3%A4-saadut-osingot/
+                - listitem [ref=e127]:
+                  - link "Osingot listaamattomasta yhtiöstä" [ref=e128] [cursor=pointer]:
+                    - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/osingot-listaamattomasta-yhtiosta/
+                - listitem
+        - navigation "Osion alasivut" [ref=e129]:
+          - heading "Sijoitukset" [level=3] [ref=e130]:
+            - link "Sijoitukset" [ref=e131] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/sijoitukset/
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Ilmoita tiedot sijoituksista" [ref=e137] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/ilmoita_tulot_sijoituksista/
+            - listitem [ref=e138]:
+              - link "Maksa vero sijoituksista" [ref=e140] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/maksa-vero-sijoituksista/
+            - listitem [ref=e141]:
+              - link "Osakkeiden myynti" [ref=e143] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakkeiden_myynt/
+            - listitem [ref=e144]:
+              - link "Osingot" [ref=e146] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osingot/
+            - listitem [ref=e147]:
+              - link "Osakesäästötili" [ref=e149] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osakes%C3%A4%C3%A4st%C3%B6tili/
+            - listitem [ref=e150]:
+              - link "Sijoitusrahasto-osuudet" [ref=e152] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/sijoitusrahastoosuude/
+            - listitem [ref=e153]:
+              - link "Osuuskuntien ylijäämien verotus" [ref=e155] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/osuuskuntien_ylijaamien_verotu/
+            - listitem [ref=e156]:
+              - link "Kryptovarat" [ref=e158] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/sijoitukset/virtuaalivaluutat/
+        - separator [ref=e159]
+        - generic [ref=e160]: Sivu on viimeksi päivitetty 1.1.2026
+      - generic [ref=e165]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e166]
+        - paragraph [ref=e168]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e169] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e170]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - heading "Asioi verkossa" [level=2] [ref=e175]
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - link "OmaVero" [ref=e180] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e181]:
+                - link "Laskurit" [ref=e183] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e184]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e186] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e187]:
+                - link "Positiivinen luottotietorekisteri" [ref=e189] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e190]:
+                - link "Tulorekisteri" [ref=e192] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e193]:
+            - heading "Yhteystiedot" [level=2] [ref=e194]
+            - list [ref=e196]:
+              - listitem [ref=e197]:
+                - link "Chat" [ref=e199] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e200]:
+                - link "Yhteystiedot ja asiointi" [ref=e202] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e203]:
+                - link "Sosiaalinen media" [ref=e205] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e206]:
+                - link "Paperilomakkeet" [ref=e208] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e209]:
+                - link "Käsittelyajat" [ref=e211] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e212]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e213]
+            - generic [ref=e217]:
+              - paragraph [ref=e218]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e219]:
+                - listitem [ref=e220]:
+                  - link "Syventävät vero-ohjeet" [ref=e222] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e223]:
+            - heading "Verohallinto" [level=2] [ref=e224]
+            - generic [ref=e228]:
+              - paragraph [ref=e229]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e230]:
+                - listitem [ref=e231]:
+                  - link "Tietoa Verohallinnosta" [ref=e233] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e236]:
+          - listitem [ref=e237]: © Verohallinto
+          - listitem [ref=e238]:
+            - link "Tietosuoja" [ref=e240] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e241]:
+            - link "Palaute" [ref=e243] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e244]:
+            - link "Saavutettavuusseloste" [ref=e246] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e247]:
+            - link "Tulosta" [ref=e249] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e251] [cursor=pointer]:
+    - img [ref=e252]
+    - paragraph [ref=e254]: Chatbot

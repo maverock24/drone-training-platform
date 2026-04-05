@@ -1,0 +1,442 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwistITVu9aTAxUyFBAIHTgZCIcQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: droneii.com "drone market" OR "drone training" 2024 OR 2025 report droneii.com "drone market" OR "drone training" 2024 OR 2025 report
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Ddroneii.com%2B%2522drone%2Bmarket%2522%2BOR%2B%2522drone%2Btraining%2522%2B2024%2BOR%2B2025%2Breport&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ2J8OegQIDxAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQtKgLegQIEhAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQs6gLegQIERAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ0pQJegQIFRAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Ddroneii.com%2B%2522drone%2Bmarket%2522%2BOR%2B%2522drone%2Btraining%2522%2B2024%2BOR%2B2025%2Breport&hl=en&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQhoQCKAF6BAgKEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQiIQCKAN6BAgKEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Global Drone Market Report 2025-2030 Drone Industry Insights https://droneii.com › product › dron..." [ref=e154] [cursor=pointer]:
+                - /url: https://droneii.com/product/drone-market-report?srsltid=AfmBOor2h8EFvtmAwpSdcp_fQpd2eImdk8fYONHhN98mNxHCXdZj66Fo
+                - heading "Global Drone Market Report 2025-2030" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Drone Industry Insights
+                  - generic [ref=e164]: https://droneii.com › product › dron...
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://droneii.com/product/drone-market-report
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e175]:
+              - text: This 230-page
+              - emphasis [ref=e176]: Drone Market Report
+              - text: contains a five-year forecast of global
+              - emphasis [ref=e177]: drone market
+              - text: figures for
+              - emphasis [ref=e178]: "2025"
+              - text: "-2030, broken down by segment, industry, application ..."
+        - generic [ref=e189]:
+          - heading "Miettii" [level=2] [ref=e193]:
+            - generic [ref=e194]: Miettii
+          - progressbar [ref=e195]
+        - generic [ref=e199]:
+          - heading "Web results" [level=2] [ref=e200]
+          - generic [ref=e201]:
+            - generic [ref=e204]:
+              - link "Industry Reports Drone Industry Insights https://droneii.com › drone-reports" [ref=e206] [cursor=pointer]:
+                - /url: https://droneii.com/drone-reports?srsltid=AfmBOoo5X7I7kPcw3XNiR6yHveRQ0SNBKaYLoPVDwjKzU4aQaC2Gz1Cw
+                - heading "Industry Reports" [level=3] [ref=e207]
+                - generic [ref=e212]:
+                  - generic [ref=e214]: Drone Industry Insights
+                  - generic [ref=e216]: https://droneii.com › drone-reports
+              - generic [ref=e217]:
+                - generic [ref=e218]: ·
+                - link "Käännä tämä sivu" [ref=e219] [cursor=pointer]:
+                  - /url: https://droneii.com/drone-reports
+              - button "Tietoja tästä tuloksesta" [ref=e220] [cursor=pointer]:
+                - img [ref=e223]
+            - generic [ref=e227]:
+              - text: A well-educated
+              - emphasis [ref=e228]: drone market
+              - text: is a stable
+              - emphasis [ref=e229]: drone market
+              - text: . Our drone
+              - emphasis [ref=e230]: reports
+              - text: provide detailed information to assess market potential, discover operational ...
+        - generic [ref=e234]:
+          - generic [ref=e237]:
+            - link "Understanding the Drone Market Growth in 2025 and Beyond Drone Industry Insights https://droneii.com › drone-market-..." [ref=e239] [cursor=pointer]:
+              - /url: https://droneii.com/drone-market-growth-in-2025-and-beyond?srsltid=AfmBOoqAl7mKElarRSEOI4sPtQnj0Rwt5DAAbZ5xBVdP1f0PAGoiwSJJ
+              - heading "Understanding the Drone Market Growth in 2025 and Beyond" [level=3] [ref=e240]
+              - generic [ref=e245]:
+                - generic [ref=e247]: Drone Industry Insights
+                - generic [ref=e249]: https://droneii.com › drone-market-...
+            - generic [ref=e250]:
+              - generic [ref=e251]: ·
+              - link "Käännä tämä sivu" [ref=e252] [cursor=pointer]:
+                - /url: https://droneii.com/drone-market-growth-in-2025-and-beyond
+            - button "Tietoja tästä tuloksesta" [ref=e253] [cursor=pointer]:
+              - img [ref=e256]
+          - generic [ref=e259]:
+            - generic [ref=e260]: 7.4.2025 —
+            - generic [ref=e261]:
+              - text: Extensive 230-page
+              - emphasis [ref=e262]: drone market report
+              - text: with in-depth analysis, industry definitions, & extended 5-year forecast. Breakdown of the market by ...
+        - generic [ref=e266]:
+          - generic [ref=e269]:
+            - link "Drone Industry Insights | Global Drone Market Research Drone Industry Insights https://droneii.com" [ref=e271] [cursor=pointer]:
+              - /url: https://droneii.com/?srsltid=AfmBOoqI_4cV06PCXfoOMgmVVtXULtJmYTWascKyEdZZ9sQ4bKSQrLRx
+              - heading "Drone Industry Insights | Global Drone Market Research" [level=3] [ref=e272]
+              - generic [ref=e277]:
+                - generic [ref=e279]: Drone Industry Insights
+                - generic [ref=e281]: https://droneii.com
+            - generic [ref=e282]:
+              - generic [ref=e283]: ·
+              - link "Käännä tämä sivu" [ref=e284] [cursor=pointer]:
+                - /url: https://droneii.com/
+            - button "Tietoja tästä tuloksesta" [ref=e285] [cursor=pointer]:
+              - img [ref=e288]
+          - generic [ref=e292]:
+            - text: This
+            - emphasis [ref=e293]: report
+            - text: forecasts the global
+            - emphasis [ref=e294]: drone market
+            - text: for
+            - emphasis [ref=e295]: "2025"
+            - text: "-2030, broken down by segment, industry, application method, region, and country."
+        - generic [ref=e299]:
+          - generic [ref=e302]:
+            - link "Drone Market Size 2020-2025 - Infographic | Droneii.com Drone Industry Insights https://droneii.com › project › drone..." [ref=e304] [cursor=pointer]:
+              - /url: https://droneii.com/project/drone-market-size-2020-2025?srsltid=AfmBOoq2lpX4SIKOYR_mCtEUtc1P_LPi0XzW-yhUTE2bnW1IsoRnmpNu
+              - heading "Drone Market Size 2020-2025 - Infographic | Droneii.com" [level=3] [ref=e305]
+              - generic [ref=e310]:
+                - generic [ref=e312]: Drone Industry Insights
+                - generic [ref=e314]: https://droneii.com › project › drone...
+            - generic [ref=e315]:
+              - generic [ref=e316]: ·
+              - link "Käännä tämä sivu" [ref=e317] [cursor=pointer]:
+                - /url: https://droneii.com/project/drone-market-size-2020-2025
+            - button "Tietoja tästä tuloksesta" [ref=e318] [cursor=pointer]:
+              - img [ref=e321]
+          - generic [ref=e325]:
+            - text: This infographic gives an overview of the growth of the
+            - emphasis [ref=e326]: drone market
+            - text: size in 2020-
+            - emphasis [ref=e327]: "2025"
+            - text: ", broken down by region."
+        - generic [ref=e331]:
+          - generic [ref=e334]:
+            - link "The State of the Drone Industry 2025 - Free White Paper Drone Industry Insights https://droneii.com › the-state-of-the..." [ref=e336] [cursor=pointer]:
+              - /url: https://droneii.com/the-state-of-the-drone-industry?srsltid=AfmBOopTC-IcEGriQMqpdun2aiWyy9i8TemtkT9ATQ8rdBFcUU6ByaYx
+              - heading "The State of the Drone Industry 2025 - Free White Paper" [level=3] [ref=e337]
+              - generic [ref=e342]:
+                - generic [ref=e344]: Drone Industry Insights
+                - generic [ref=e346]: https://droneii.com › the-state-of-the...
+            - generic [ref=e347]:
+              - generic [ref=e348]: ·
+              - link "Käännä tämä sivu" [ref=e349] [cursor=pointer]:
+                - /url: https://droneii.com/the-state-of-the-drone-industry
+            - button "Tietoja tästä tuloksesta" [ref=e350] [cursor=pointer]:
+              - img [ref=e353]
+          - generic [ref=e356]:
+            - generic [ref=e357]: 9.10.2025 —
+            - generic [ref=e358]:
+              - text: As the
+              - emphasis [ref=e359]: drone market
+              - text: continues to grow and expand worldwide, drone companies are shifting their focus from gaining public acceptance to acquiring ...
+        - generic [ref=e363]:
+          - generic [ref=e366]:
+            - link "Drone Market Size and Growth 2025-2030 Drone Industry Insights https://droneii.com › project › drone..." [ref=e368] [cursor=pointer]:
+              - /url: https://droneii.com/project/drone-market-size-and-growth-2025-2030?srsltid=AfmBOorWxNuqs3SIGZ8k0d0lQymiBFanzwdnGXNFGJgCsar2-ZO9wb5K
+              - heading "Drone Market Size and Growth 2025-2030" [level=3] [ref=e369]
+              - generic [ref=e374]:
+                - generic [ref=e376]: Drone Industry Insights
+                - generic [ref=e378]: https://droneii.com › project › drone...
+            - generic [ref=e379]:
+              - generic [ref=e380]: ·
+              - link "Käännä tämä sivu" [ref=e381] [cursor=pointer]:
+                - /url: https://droneii.com/project/drone-market-size-and-growth-2025-2030
+            - button "Tietoja tästä tuloksesta" [ref=e382] [cursor=pointer]:
+              - img [ref=e385]
+          - generic [ref=e389]:
+            - text: DII's
+            - emphasis [ref=e390]: Drone Market Report 2025
+            - text: reveals a dynamic ecosystem where services lead the charge (US$29.4B by
+            - emphasis [ref=e391]: "2025"
+            - text: ), followed by a fast-growing hardware segment ...
+        - generic [ref=e395]:
+          - generic [ref=e398]:
+            - link "Drone Market Report 2025 2030 Sample | PDF Scribd https://www.scribd.com › document" [ref=e400] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/873125871/Drone-Market-Report-2025-2030-Sample
+              - heading "Drone Market Report 2025 2030 Sample | PDF" [level=3] [ref=e401]
+              - generic [ref=e406]:
+                - generic [ref=e408]: Scribd
+                - generic [ref=e410]: https://www.scribd.com › document
+            - generic [ref=e411]:
+              - generic [ref=e412]: ·
+              - link "Käännä tämä sivu" [ref=e413] [cursor=pointer]:
+                - /url: https://www.scribd.com/document/873125871/Drone-Market-Report-2025-2030-Sample
+            - button "Tietoja tästä tuloksesta" [ref=e414] [cursor=pointer]:
+              - img [ref=e417]
+          - generic [ref=e421]:
+            - text: The
+            - emphasis [ref=e422]: Drone Market Report
+            - text: for
+            - emphasis [ref=e423]: "2025"
+            - text: "-2030 provides an in-depth analysis of the drone industry's size, forecasts, and regulatory developments."
+          - generic [ref=e426]:
+            - img "Arvio 1,0/5 (1) käyttäjäarvostelua" [ref=e428]:
+              - text: 1,0
+              - img [ref=e429]
+              - text: (1)
+            - button [ref=e434]:
+              - img [ref=e436]
+        - generic [ref=e441]:
+          - generic [ref=e444]:
+            - link "Global Drone Industry Review 2024 Drone Industry Insights https://droneii.com › global-drone-i..." [ref=e446] [cursor=pointer]:
+              - /url: https://droneii.com/global-drone-industry-review?srsltid=AfmBOoojGheFsY_rwzOm-aIUW_8GyZ-LWHII6oj8phIII6N1jXG7JRzB
+              - heading "Global Drone Industry Review 2024" [level=3] [ref=e447]
+              - generic [ref=e452]:
+                - generic [ref=e454]: Drone Industry Insights
+                - generic [ref=e456]: https://droneii.com › global-drone-i...
+            - generic [ref=e457]:
+              - generic [ref=e458]: ·
+              - link "Käännä tämä sivu" [ref=e459] [cursor=pointer]:
+                - /url: https://droneii.com/global-drone-industry-review
+            - button "Tietoja tästä tuloksesta" [ref=e460] [cursor=pointer]:
+              - img [ref=e463]
+          - generic [ref=e466]:
+            - generic [ref=e467]: 16.12.2024 —
+            - generic [ref=e468]:
+              - text: Global Drone Review
+              - emphasis [ref=e469]: 2024 Report
+              - text: . • 50-page
+              - emphasis [ref=e470]: drone market report
+              - text: "featuring: • Breakdown of market by industry segment • Data on revenues and ..."
+        - generic [ref=e474]:
+          - generic [ref=e475]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e476]
+            - button "Tietoja tästä tuloksesta" [ref=e477] [cursor=pointer]:
+              - img [ref=e480]
+          - generic [ref=e482]:
+            - button "What is the Global drone Review Report 2024?" [ref=e488] [cursor=pointer]:
+              - generic [ref=e490]: What is the Global drone Review Report 2024?
+              - img [ref=e493]
+            - button "Who are the top 5 drone manufacturers?" [ref=e502] [cursor=pointer]:
+              - generic [ref=e504]: Who are the top 5 drone manufacturers?
+              - img [ref=e507]
+            - button "What is the 30m rule for drones?" [ref=e516] [cursor=pointer]:
+              - generic [ref=e518]: What is the 30m rule for drones?
+              - img [ref=e521]
+            - button "What is the market share of DJI drones in 2024?" [ref=e530] [cursor=pointer]:
+              - generic [ref=e532]: What is the market share of DJI drones in 2024?
+              - img [ref=e535]
+        - generic [ref=e540]:
+          - heading "Tulokset internetistä" [level=2] [ref=e541]
+          - generic [ref=e542]:
+            - generic [ref=e545]:
+              - link "ja sosiaalikomitean lausunto – Droonien ... - EUR-Lex EUR-Lex https://eur-lex.europa.eu › legal-content › TXT › PDF" [ref=e547] [cursor=pointer]:
+                - /url: https://eur-lex.europa.eu/legal-content/FI/TXT/PDF/?uri=OJ:C_202404658
+                - heading "ja sosiaalikomitean lausunto – Droonien ... - EUR-Lex" [level=3] [ref=e548]
+                - generic [ref=e550]:
+                  - img [ref=e554]
+                  - generic [ref=e556]:
+                    - generic [ref=e558]: EUR-Lex
+                    - generic [ref=e560]: https://eur-lex.europa.eu › legal-content › TXT › PDF
+              - button "Tietoja tästä tuloksesta" [ref=e561] [cursor=pointer]:
+                - img [ref=e564]
+            - generic [ref=e568]:
+              - text: EUVL C, 9.8.
+              - emphasis [ref=e569]: "2024"
+              - text: ". 4/6. ELI: http://data.europa.eu/eli/C/"
+              - emphasis [ref=e570]: "2024"
+              - text: /4658/oj. (5) Global
+              - emphasis [ref=e571]: Drone Market Report
+              - text: 2023-2030, https://
+              - emphasis [ref=e572]: droneii.com
+              - text: /product/
+              - emphasis [ref=e573]: drone-market
+              - text: "-"
+              - emphasis [ref=e574]: report
+              - text: .
+      - generic [ref=e576]:
+        - generic [ref=e581]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e583]
+          - generic [ref=e585]:
+            - generic [ref=e586]:
+              - link "Global drone market Report 2025-2030" [ref=e590] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Global+drone+market+Report+2025-2030&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhLEAE
+                - generic [ref=e591]:
+                  - generic [ref=e596]: Global drone market Report 2025-2030
+                  - img [ref=e600]
+              - link "Drone market size 2024" [ref=e605] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Drone+market+size+2024&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhNEAE
+                - generic [ref=e606]:
+                  - generic [ref=e611]: Drone market size 2024
+                  - img [ref=e615]
+              - link "Global drone market size" [ref=e620] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Global+drone+market+size&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhREAE
+                - generic [ref=e621]:
+                  - generic [ref=e626]: Global drone market size
+                  - img [ref=e630]
+              - link "Global drone market report 2025 2030 pdf" [ref=e635] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Global+drone+market+report+2025+2030+pdf&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhOEAE
+                - generic [ref=e636]:
+                  - generic [ref=e641]: Global drone market report 2025 2030 pdf
+                  - img [ref=e645]
+            - generic [ref=e647]:
+              - link "Drone market share By company" [ref=e651] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Drone+market+share+By+company&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhQEAE
+                - generic [ref=e652]:
+                  - generic [ref=e657]: Drone market share By company
+                  - img [ref=e661]
+              - link "Drone industry Insights" [ref=e666] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Drone+industry+Insights&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhMEAE
+                - generic [ref=e667]:
+                  - generic [ref=e672]: Drone industry Insights
+                  - img [ref=e676]
+              - link "Military drone market" [ref=e681] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Military+drone+market&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhPEAE
+                - generic [ref=e682]:
+                  - generic [ref=e687]: Military drone market
+                  - img [ref=e691]
+              - link "Military drone market size" [ref=e696] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Military+drone+market+size&sa=X&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ1QJ6BAhKEAE
+                - generic [ref=e697]:
+                  - generic [ref=e702]: Military drone market size
+                  - img [ref=e706]
+        - navigation [ref=e708]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e709]
+          - text: "1"
+          - link "Page 2" [ref=e712] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=10&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAE
+            - text: "2"
+          - link "Page 3" [ref=e714] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=20&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAG
+            - text: "3"
+          - link "Page 4" [ref=e716] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=30&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAI
+            - text: "4"
+          - link "Page 5" [ref=e718] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=40&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAK
+            - text: "5"
+          - link "Page 6" [ref=e720] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=50&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAM
+            - text: "6"
+          - link "Page 7" [ref=e722] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=60&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAO
+            - text: "7"
+          - link "Page 8" [ref=e724] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=70&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAQ
+            - text: "8"
+          - link "Page 9" [ref=e726] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=80&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAS
+            - text: "9"
+          - link "Page 10" [ref=e728] [cursor=pointer]:
+            - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=90&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8tMDegQISBAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e730]:
+            - link "Seuraava" [ref=e731] [cursor=pointer]:
+              - /url: /search?q=droneii.com+%22drone+market%22+OR+%22drone+training%22+2024+OR+2025+report&sca_esv=a73392c086c649e8&ei=kTTSaeynHrKowPAPuLKguAg&start=10&sa=N&sstk=Af77f_e36CXN6LqcxCG9P2E0uauQg3uzdTbYx_SYBeZXPJRuhJvVnTFWjWnV4pj3_zKK1UYcIr-PbaaHcU-_WjDKN51OuSRKpucLAQ&ved=2ahUKEwistITVu9aTAxUyFBAIHTgZCIcQ8NMDegQISBAW
+              - generic [ref=e733]: Seuraava
+      - navigation
+    - contentinfo [ref=e734]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e735]
+      - generic [ref=e739]:
+        - generic [ref=e741]:
+          - text: Suomi
+          - generic [ref=e743]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]: 00920, Helsinki
+              - generic [ref=e748]:
+                - text: "-"
+                - generic [ref=e749]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e751] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e754]:
+          - link "Ohje" [ref=e755] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e756] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e757] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e758] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

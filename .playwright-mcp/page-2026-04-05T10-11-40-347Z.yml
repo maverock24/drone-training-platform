@@ -1,0 +1,1082 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Cookie compliance banner" [ref=e2]:
+    - generic "This website uses the necessary cookies to function. If you give us your consent, we will also use cookies, when you visit our website, which allow us to collect data for aggregated statistics to improve our services. More information on data protection and how to withdraw your consent via cookies policy page." [ref=e3]:
+      - generic [ref=e4]:
+        - document [ref=e5]:
+          - heading "This website uses the necessary cookies to function." [level=2] [ref=e6]
+          - paragraph [ref=e7]:
+            - text: If you give us your consent, we will also use cookies, when you visit our website, which allow us to collect data for aggregated statistics to improve our services.
+            - text: More information on
+            - link "data protection" [ref=e8] [cursor=pointer]:
+              - /url: /data-protection/easa-website
+            - text: and how to withdraw your consent via
+            - link "cookies policy page" [ref=e9] [cursor=pointer]:
+              - /url: /cookie-policy
+            - text: .
+        - generic [ref=e10]:
+          - generic:
+            - generic:
+              - checkbox " Necessary cookies" [checked] [disabled]
+              - text:  Necessary cookies
+          - generic [ref=e12]:
+            - checkbox "Aggregated analytics" [ref=e13]
+            - text: Aggregated analytics
+          - generic [ref=e15]:
+            - checkbox "Social media embeds (i.e. YouTube)" [ref=e16]
+            - text: Social media embeds (i.e. YouTube)
+          - button "Save your cookie selection" [ref=e18] [cursor=pointer]
+        - button "Accept all cookies" [ref=e20] [cursor=pointer]
+  - link "Skip to main content" [ref=e21] [cursor=pointer]:
+    - /url: "#main-content"
+  - document [ref=e23]:
+    - link [ref=e24] [cursor=pointer]:
+      - /url: /
+    - banner "Site header" [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - link " Home" [ref=e28] [cursor=pointer]:
+            - /url: /en/home
+          - text:  Home
+          - generic [ref=e29]:  EASA Pro
+          - generic [ref=e30]: European Union Aviation Safety Agency
+        - navigation "Main menu Topbar" [ref=e31]:
+          - heading "Main menu Topbar" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - button " Menu" [ref=e35] [cursor=pointer]:
+                - text: 
+                - generic [ref=e36]: Menu
+              - link " Skip to Content" [ref=e37] [cursor=pointer]:
+                - /url: "#main"
+            - navigation [ref=e38]:
+              - menubar [ref=e41]:
+                - menuitem " Home" [ref=e42] [cursor=pointer]
+                - menuitem "The Agency" [ref=e43] [cursor=pointer]:  The Agency 
+                - menuitem "Newsroom & Events" [ref=e44] [cursor=pointer]:  Newsroom & Events 
+                - menuitem "Domains" [ref=e45] [cursor=pointer]:  Domains 
+                - menuitem "Regulations" [ref=e46] [cursor=pointer]:  Regulations 
+                - menuitem "Document Library" [ref=e47] [cursor=pointer]:  Document Library 
+                - menuitem " Can We Help You?" [ref=e48] [cursor=pointer]
+        - text: 
+        - generic [ref=e49] [cursor=pointer]:  Search
+        - button " Apps" [ref=e52] [cursor=pointer]
+        - navigation [ref=e54]:
+          - generic [ref=e55]:
+            - text:  
+            - generic [ref=e56]:
+              - button " Profile" [ref=e58] [cursor=pointer]:
+                - text: 
+                - generic [ref=e59]: Profile
+              - navigation [ref=e60]:
+                - tree [ref=e63]:
+                  - treeitem " Login" [ref=e64]:
+                    - link " Login" [ref=e65] [cursor=pointer]:
+                      - /url: /en/user/login
+                  - treeitem " Register" [ref=e66]:
+                    - link " Register" [ref=e67] [cursor=pointer]:
+                      - /url: /en/user/register
+      - text:       
+    - generic [ref=e70]:
+      - main [ref=e72]:
+        - generic [ref=e73]:
+          - navigation "You are here" [ref=e76]:
+            - heading "You are here" [level=2] [ref=e77]
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "Home" [ref=e80] [cursor=pointer]:
+                  - /url: /en
+                - text: /
+              - listitem [ref=e81]:
+                - link "The Agency" [ref=e82] [cursor=pointer]:
+                  - /url: /en/the-agency/the-agency
+                - text: /
+              - listitem [ref=e83]: Frequently Asked Questions /
+              - listitem [ref=e84]:
+                - link "Regulations" [ref=e85] [cursor=pointer]:
+                  - /url: /en/the-agency/faqs/regulations
+                - text: /
+              - listitem [ref=e86]:
+                - link "Drones (UAS)":
+                  - /url: "#"
+          - heading "Drones (UAS)" [level=1] [ref=e91]:
+            - generic [ref=e92]: Drones (UAS)
+        - article [ref=e95]:
+          - generic [ref=e100]: Popular
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - textbox [ref=e104]
+              - button "Search" [ref=e105] [cursor=pointer]
+              - button "Reset" [ref=e106] [cursor=pointer]
+            - generic [ref=e107]:
+              - link " PDF" [ref=e109] [cursor=pointer]:
+                - /url: /en/print/pdf/node/116538/142484
+              - list [ref=e110]:
+                - listitem [ref=e111]:
+                  - text: 
+                  - link "Provisions applicable to both ‘open’ and ’specific’ category" [ref=e112] [cursor=pointer]:
+                    - /url: "#category-provisions-applicable-to-both-‘open’-and-’specific’-category"
+                  - list [ref=e113]:
+                    - listitem [ref=e114]:
+                      - text: 
+                      - link "Regulations on UAS (drone) explained" [ref=e115] [cursor=pointer]:
+                        - /url: "#category-regulations-on-uas-drone-explained"
+                    - listitem [ref=e116]:
+                      - text: 
+                      - link "Registration requirements" [ref=e117] [cursor=pointer]:
+                        - /url: "#category-registration-requirements"
+                    - listitem [ref=e118]:
+                      - text: 
+                      - link "I fly model aircraft" [ref=e119] [cursor=pointer]:
+                        - /url: "#category-i-fly-model-aircraft"
+                    - listitem [ref=e120]:
+                      - text: 
+                      - link "Once in the air" [ref=e121] [cursor=pointer]:
+                        - /url: "#category-once-in-the-air"
+                    - listitem [ref=e122]:
+                      - text: 
+                      - link "Geographical zones (where I can fly)" [ref=e123] [cursor=pointer]:
+                        - /url: "#category-geographical-zones-where-i-can-fly"
+                    - listitem [ref=e124]:
+                      - text: 
+                      - link "Other requirements" [ref=e125] [cursor=pointer]:
+                        - /url: "#category-other-requirements"
+                - listitem [ref=e126]:
+                  - text: 
+                  - link "Open category" [ref=e127] [cursor=pointer]:
+                    - /url: "#category-open-category"
+                  - list [ref=e128]:
+                    - listitem [ref=e129]:
+                      - text: 
+                      - link "Understanding the ‘open’ category" [ref=e130] [cursor=pointer]:
+                        - /url: "#category-understanding-the-‘open’-category"
+                    - listitem [ref=e131]:
+                      - text: 
+                      - link "Requirements under the ‘open’ category" [ref=e132] [cursor=pointer]:
+                        - /url: "#category-requirements-under-the-‘open’-category"
+                    - listitem [ref=e133]:
+                      - text: 
+                      - link "Training requirements in the 'open' category" [ref=e134] [cursor=pointer]:
+                        - /url: "#category-training-requirements-in-the-open-category-"
+                    - listitem [ref=e135]:
+                      - text: 
+                      - link "Operational authorisation requirements ‘open’ category" [ref=e136] [cursor=pointer]:
+                        - /url: "#category-operational-authorisation-requirements-‘open’-category"
+                    - listitem [ref=e137]:
+                      - text: 
+                      - link "Responsibilities for drone operators and remote pilots in the ‘open’ category" [ref=e138] [cursor=pointer]:
+                        - /url: "#category-responsibilities-for-drone-operators-and-remote-pilots-in-the-‘open’-category"
+                    - listitem [ref=e139]:
+                      - text: 
+                      - link "Drones without class identification label ’open’ category" [ref=e140] [cursor=pointer]:
+                        - /url: "#category-drones-without-class-identification-label-’open’-category-"
+                    - listitem [ref=e141]:
+                      - text: 
+                      - link "I am into drone racing and/or flying drones with goggles (FPV) ‘open’ category" [ref=e142] [cursor=pointer]:
+                        - /url: "#category-i-am-into-drone-racing-and-or-flying-drones-with-goggles-fpv-‘open’-category"
+                    - listitem [ref=e143]:
+                      - text: 
+                      - link "I build my own drones (privately built) ‘open’ category" [ref=e144] [cursor=pointer]:
+                        - /url: "#category-i-build-my-own-drones-privately-built-‘open’-category-"
+                    - listitem [ref=e145]:
+                      - text: 
+                      - link "I plan to provide services (commercial and other) with drones ‘open’ category" [ref=e146] [cursor=pointer]:
+                        - /url: "#category-i-plan-to-provide-services-commercial-and-other-with-drones-‘open’-category-"
+                    - listitem [ref=e147]:
+                      - text: 
+                      - link "I am a non-EU visitor / drone operator ‘open’ category" [ref=e148] [cursor=pointer]:
+                        - /url: "#category-i-am-a-non-eu-visitor---drone-operator-‘open’-category-"
+                    - listitem [ref=e149]:
+                      - text: 
+                      - link "Conduct an Operation in the open category in a state other than the one I am registered" [ref=e150] [cursor=pointer]:
+                        - /url: "#category-conduct-an-operation-in-the-open-category-in-a-state-other-than-the-one-i-am-registered"
+                - listitem [ref=e151]:
+                  - text: 
+                  - link "Specific category" [ref=e152] [cursor=pointer]:
+                    - /url: "#category-specific-category"
+                  - list [ref=e153]:
+                    - listitem [ref=e154]:
+                      - text: 
+                      - link "Understanding the ‘specific’ category" [ref=e155] [cursor=pointer]:
+                        - /url: "#category-understanding-the-‘specific’-category"
+                    - listitem [ref=e156]:
+                      - text: 
+                      - link "Training requirements in the ‘specific’ category" [ref=e157] [cursor=pointer]:
+                        - /url: "#category-training-requirements-in-the-‘specific’-category"
+                    - listitem [ref=e158]:
+                      - text: 
+                      - link "Operational authorisation requirements for the ‘specific’ category" [ref=e159] [cursor=pointer]:
+                        - /url: "#category-operational-authorisation-requirements-for-the-‘specific’-category"
+                    - listitem [ref=e160]:
+                      - text: 
+                      - link "Responsibilities as a drone operator or remote pilot in the ‘specific’ category" [ref=e161] [cursor=pointer]:
+                        - /url: "#category-responsibilities-as-a-drone-operator-or-remote-pilot-in-the-‘specific’-category"
+                    - listitem [ref=e162]:
+                      - text: 
+                      - link "Drones without class identification label in the ‘specific’ category" [ref=e163] [cursor=pointer]:
+                        - /url: "#category-drones-without-class-identification-label-in-the-‘specific’-category"
+                    - listitem [ref=e164]:
+                      - text: 
+                      - link "I am into drone racing and/or flying drones with goggles (FPV) ‘specific’ category" [ref=e165] [cursor=pointer]:
+                        - /url: "#category-i-am-into-drone-racing-and-or-flying-drones-with-goggles-fpv-‘specific’-category"
+                    - listitem [ref=e166]:
+                      - text: 
+                      - link "I build my own drones (privately built) ‘specific’ category" [ref=e167] [cursor=pointer]:
+                        - /url: "#category-i-build-my-own-drones-privately-built-‘specific’-category"
+                    - listitem [ref=e168]:
+                      - text: 
+                      - link "I plan to provide services (commercial and other) with drone(s) ‘specific’ category" [ref=e169] [cursor=pointer]:
+                        - /url: "#category-i-plan-to-provide-services-commercial-and-other-with-drones-‘specific’-category"
+                    - listitem [ref=e170]:
+                      - text: 
+                      - link "I am a non-EU visitor / drone operator ‘specific’ category" [ref=e171] [cursor=pointer]:
+                        - /url: "#category-i-am-a-non-eu-visitor---drone-operator-‘specific’-category"
+                    - listitem [ref=e172]:
+                      - text: 
+                      - link "I would like to know about the light UAS operator certificate (LUC)" [ref=e173] [cursor=pointer]:
+                        - /url: "#category-i-would-like-to-know-about-the-light-uas-operator-certificate-luc"
+                    - listitem [ref=e174]:
+                      - text: 
+                      - link "Conduct an Operation in the specific category in a state other than the one I am registered" [ref=e175] [cursor=pointer]:
+                        - /url: "#category-conduct-an-operation-in-the-specific-category-in-a-state-other-than-the-one-i-am-registered"
+                - listitem [ref=e176]:
+                  - text: 
+                  - link "Drones with class identification label C0-C6" [ref=e177] [cursor=pointer]:
+                    - /url: "#category-drones-with-class-identification-label-c0-c6"
+                - listitem [ref=e178]:
+                  - text: 
+                  - link "Model aircraft" [ref=e179] [cursor=pointer]:
+                    - /url: "#category-model-aircraft-"
+              - generic [ref=e182]:
+                - paragraph [ref=e183]:
+                  - generic [ref=e184] [cursor=pointer]:  Expand all questions 
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - heading "Provisions applicable to both ‘open’ and ’specific’ category" [level=2] [ref=e187]:
+                      - link "Provisions applicable to both ‘open’ and ’specific’ category" [ref=e188] [cursor=pointer]:
+                        - /url: https://www.easa.europa.eu/en/the-agency/faqs/provisions-applicable-both-open-and-specific-category
+                    - generic [ref=e189]:
+                      - heading "Regulations on UAS (drone) explained" [level=3] [ref=e190]:
+                        - link "Regulations on UAS (drone) explained" [ref=e191] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/regulations-uas-drone-explained
+                      - generic [ref=e192]:
+                        - generic [ref=e193]:
+                          - text: 
+                          - heading "What are the applicability dates under EU regulation 2019/947 and 2019/945?" [level=4] [ref=e194] [cursor=pointer]
+                          - generic [ref=e195]:
+                            - link " View":
+                              - /url: /en/faq/116446
+                        - generic [ref=e196]:
+                          - text: 
+                          - heading "Who is a drone operator" [level=4] [ref=e197] [cursor=pointer]
+                          - generic [ref=e198]:
+                            - link " View":
+                              - /url: /en/faq/116447
+                        - generic [ref=e199]:
+                          - text: 
+                          - heading "Types of drone the Regulation refers to" [level=4] [ref=e200] [cursor=pointer]
+                          - generic [ref=e201]:
+                            - link " View":
+                              - /url: /en/faq/116448
+                        - generic [ref=e202]:
+                          - text: 
+                          - heading "When is a drone considered to be a toy?" [level=4] [ref=e203] [cursor=pointer]
+                          - generic [ref=e204]:
+                            - link " View":
+                              - /url: /en/faq/119218
+                        - generic [ref=e205]:
+                          - text: 
+                          - heading "What is the difference between autonomous and automatic drone?" [level=4] [ref=e206] [cursor=pointer]
+                          - generic [ref=e207]:
+                            - link " View":
+                              - /url: /en/faq/116449
+                        - generic [ref=e208]:
+                          - text: 
+                          - heading "Who is an ‘uninvolved person’?" [level=4] [ref=e209] [cursor=pointer]
+                          - generic [ref=e210]:
+                            - link " View":
+                              - /url: /en/faq/116453
+                        - generic [ref=e211]:
+                          - text: 
+                          - heading "What is an ‘assembly of people’?" [level=4] [ref=e212] [cursor=pointer]
+                          - generic [ref=e213]:
+                            - link " View":
+                              - /url: /en/faq/116553
+                        - generic [ref=e214]:
+                          - text: 
+                          - heading "What is covered by the regulations?" [level=4] [ref=e215] [cursor=pointer]
+                          - generic [ref=e216]:
+                            - link " View":
+                              - /url: /en/faq/116445
+                        - generic [ref=e217]:
+                          - text: 
+                          - heading "Is it possible for an EASA Member State (MS) to maintain its national drone regulation in parallel with the new European drone legislation?" [level=4] [ref=e218] [cursor=pointer]
+                          - generic [ref=e219]:
+                            - link " View":
+                              - /url: /en/faq/131132
+                        - generic [ref=e220]:
+                          - text: 
+                          - heading "Are the UK issued certificates for unmanned aircraft system, including training of remote pilot, accepted in EU after December 31, 2020?" [level=4] [ref=e221] [cursor=pointer]
+                          - generic [ref=e222]:
+                            - link " View":
+                              - /url: /en/faq/136864
+                    - generic [ref=e223]:
+                      - heading "Registration requirements" [level=3] [ref=e224]:
+                        - link "Registration requirements" [ref=e225] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/registration-requirements
+                      - generic [ref=e226]:
+                        - generic [ref=e227]:
+                          - text: 
+                          - heading "Do I need to register my drone?" [level=4] [ref=e228] [cursor=pointer]
+                          - generic [ref=e229]:
+                            - link " View":
+                              - /url: /en/faq/116454
+                        - generic [ref=e230]:
+                          - text: 
+                          - heading "What happens once I register?" [level=4] [ref=e231] [cursor=pointer]
+                          - generic [ref=e232]:
+                            - link " View":
+                              - /url: /en/faq/116455
+                        - generic [ref=e233]:
+                          - text: 
+                          - heading "Will my registration as drone operator be recognised throughout Europe?" [level=4] [ref=e234] [cursor=pointer]
+                          - generic [ref=e235]:
+                            - link " View":
+                              - /url: /en/faq/116456
+                    - generic [ref=e236]:
+                      - heading "I fly model aircraft" [level=3] [ref=e237]:
+                        - link "I fly model aircraft" [ref=e238] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-fly-model-aircraft
+                      - generic [ref=e240]:
+                        - text: 
+                        - heading "How can I fly my model?" [level=4] [ref=e241] [cursor=pointer]
+                        - generic [ref=e242]:
+                          - link " View":
+                            - /url: /en/faq/116521
+                    - generic [ref=e243]:
+                      - heading "Once in the air" [level=3] [ref=e244]:
+                        - link "Once in the air" [ref=e245] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/once-air
+                      - generic [ref=e246]:
+                        - generic [ref=e247]:
+                          - text: 
+                          - heading "Can I fly my drone anywhere I want to?" [level=4] [ref=e248] [cursor=pointer]
+                          - generic [ref=e249]:
+                            - link " View":
+                              - /url: /en/faq/116463
+                        - generic [ref=e250]:
+                          - text: 
+                          - heading "Can I fly over people?" [level=4] [ref=e251] [cursor=pointer]
+                          - generic [ref=e252]:
+                            - link " View":
+                              - /url: /en/faq/116464
+                        - generic [ref=e253]:
+                          - text: 
+                          - heading "How high can I fly my drone?" [level=4] [ref=e254] [cursor=pointer]
+                          - generic [ref=e255]:
+                            - link " View":
+                              - /url: /en/faq/116465
+                    - generic [ref=e256]:
+                      - heading "Geographical zones (where I can fly)" [level=3] [ref=e257]:
+                        - link "Geographical zones (where I can fly)" [ref=e258] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/geographical-zones-where-i-can-fly
+                      - generic [ref=e260]:
+                        - text: 
+                        - heading "How do I know if can fly in a location?" [level=4] [ref=e261] [cursor=pointer]
+                        - generic [ref=e262]:
+                          - link " View":
+                            - /url: /en/faq/131131
+                    - generic [ref=e263]:
+                      - heading "Other requirements" [level=3] [ref=e264]:
+                        - link "Other requirements" [ref=e265] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/other-requirements
+                      - generic [ref=e266]:
+                        - generic [ref=e267]:
+                          - text: 
+                          - heading "Is there a minimum age to fly a drone?" [level=4] [ref=e268] [cursor=pointer]
+                          - generic [ref=e269]:
+                            - link " View":
+                              - /url: /en/faq/116466
+                        - generic [ref=e270]:
+                          - text: 
+                          - heading "Do I need insurance?" [level=4] [ref=e271] [cursor=pointer]
+                          - generic [ref=e272]:
+                            - link " View":
+                              - /url: /en/faq/116469
+                        - generic [ref=e273]:
+                          - text: 
+                          - heading "Are there any Brexit related regulations?" [level=4] [ref=e274] [cursor=pointer]
+                          - generic [ref=e275]:
+                            - link " View":
+                              - /url: /en/faq/123802
+                  - generic [ref=e276]:
+                    - heading "Open category" [level=2] [ref=e277]:
+                      - link "Open category" [ref=e278] [cursor=pointer]:
+                        - /url: https://www.easa.europa.eu/en/the-agency/faqs/open-category
+                    - generic [ref=e279]:
+                      - heading "Understanding the ‘open’ category" [level=3] [ref=e280]:
+                        - link "Understanding the ‘open’ category" [ref=e281] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/understanding-open-category
+                      - generic [ref=e282]:
+                        - generic [ref=e283]:
+                          - text: 
+                          - heading "How do I determine I fall under the ‘open’ category?" [level=4] [ref=e284] [cursor=pointer]
+                          - generic [ref=e285]:
+                            - link " View":
+                              - /url: /en/faq/116450
+                        - generic [ref=e286]:
+                          - text: 
+                          - heading "I fall under the ‘open’ category, how do I determine which subcategory I can fly under?" [level=4] [ref=e287] [cursor=pointer]
+                          - generic [ref=e288]:
+                            - link " View":
+                              - /url: /en/faq/116451
+                        - generic [ref=e289]:
+                          - text: 
+                          - heading "I bought a DJI Mini (weight 249g) how can I operate it?" [level=4] [ref=e290] [cursor=pointer]
+                          - generic [ref=e291]:
+                            - link " View":
+                              - /url: /en/faq/136863
+                    - generic [ref=e292]:
+                      - heading "Requirements under the ‘open’ category" [level=3] [ref=e293]:
+                        - link "Requirements under the ‘open’ category" [ref=e294] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/requirements-under-open-category
+                      - generic [ref=e296]:
+                        - text: 
+                        - heading "What are the requirements under the subcategories of the ‘open’ category?" [level=4] [ref=e297] [cursor=pointer]
+                        - generic [ref=e298]:
+                          - link " View":
+                            - /url: /en/faq/116452
+                    - generic [ref=e299]:
+                      - heading "Training requirements in the 'open' category" [level=3] [ref=e300]:
+                        - link "Training requirements in the 'open' category" [ref=e301] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/training-requirements-open-category
+                      - generic [ref=e302]:
+                        - generic [ref=e303]:
+                          - text: 
+                          - heading "Who issues the remote pilot competency certificate for the 'open' category and how long is it valid for?" [level=4] [ref=e304] [cursor=pointer]
+                          - generic [ref=e305]:
+                            - link " View":
+                              - /url: /en/faq/116458
+                        - generic [ref=e306]:
+                          - text: 
+                          - heading "Will the competency certificate for the 'open' category be recognised throughout Europe?" [level=4] [ref=e307] [cursor=pointer]
+                          - generic [ref=e308]:
+                            - link " View":
+                              - /url: /en/faq/116459
+                        - generic [ref=e309]:
+                          - text: 
+                          - heading "Which training I need to fly my drone in the open category?" [level=4] [ref=e310] [cursor=pointer]
+                          - text:       
+                          - generic [ref=e311]:
+                            - link " View":
+                              - /url: /en/faq/116457
+                    - generic [ref=e312]:
+                      - heading "Operational authorisation requirements ‘open’ category" [level=3] [ref=e313]:
+                        - link "Operational authorisation requirements ‘open’ category" [ref=e314] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/operational-authorisation-requirements-open-category
+                      - generic [ref=e316]:
+                        - text: 
+                        - heading "Do I need to obtain an authorisation before flying my drone? ('open' category)" [level=4] [ref=e317] [cursor=pointer]
+                        - generic [ref=e318]:
+                          - link " View":
+                            - /url: /en/faq/116460
+                    - generic [ref=e319]:
+                      - heading "Responsibilities for drone operators and remote pilots in the ‘open’ category" [level=3] [ref=e320]:
+                        - link "Responsibilities for drone operators and remote pilots in the ‘open’ category" [ref=e321] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/responsibilities-drone-operators-and-remote-pilots-open-category
+                      - generic [ref=e322]:
+                        - generic [ref=e323]:
+                          - text: 
+                          - heading "What are my responsibilities as a drone operator in the 'open' category?" [level=4] [ref=e324] [cursor=pointer]
+                          - generic [ref=e325]:
+                            - link " View":
+                              - /url: /en/faq/116467
+                        - generic [ref=e326]:
+                          - text: 
+                          - heading "What are my responsibilities as a remote pilot in the 'open' category?" [level=4] [ref=e327] [cursor=pointer]
+                          - generic [ref=e328]:
+                            - link " View":
+                              - /url: /en/faq/116468
+                        - generic [ref=e329]:
+                          - text: 
+                          - heading "When I buy a drone to be operated in the open category or in standard scenario (STS) in the specific category, what should I do?" [level=4] [ref=e330] [cursor=pointer]
+                          - generic [ref=e331]:
+                            - link " View":
+                              - /url: /en/faq/136384
+                    - generic [ref=e332]:
+                      - heading "Drones without class identification label ’open’ category" [level=3] [ref=e333]:
+                        - link "Drones without class identification label ’open’ category" [ref=e334] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/drones-without-class-identification-label-open-category
+                      - generic [ref=e335]:
+                        - generic [ref=e336]:
+                          - text: 
+                          - heading "Under the 'open' category do I still need training, given that I was flying drones before the rules became applicable?" [level=4] [ref=e337] [cursor=pointer]
+                          - generic [ref=e338]:
+                            - link " View":
+                              - /url: /en/faq/116509
+                        - generic [ref=e339]:
+                          - text: 
+                          - heading "I fall under the 'open' category will I be able to fly my old drone after 31 December 2020 ?" [level=4] [ref=e340] [cursor=pointer]
+                          - generic [ref=e341]:
+                            - link " View":
+                              - /url: /en/faq/116508
+                        - generic [ref=e342]:
+                          - text: 
+                          - heading "Which are the maximum take-off mass requirements in the 'open' category for drones without class identification label?" [level=4] [ref=e343] [cursor=pointer]
+                          - generic [ref=e344]:
+                            - link " View":
+                              - /url: /en/faq/140559
+                    - generic [ref=e345]:
+                      - heading "I am into drone racing and/or flying drones with goggles (FPV) ‘open’ category" [level=3] [ref=e346]:
+                        - link "I am into drone racing and/or flying drones with goggles (FPV) ‘open’ category" [ref=e347] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-am-drone-racing-andor-flying-drones-goggles-fpv-open-category
+                      - generic [ref=e348]:
+                        - generic [ref=e349]:
+                          - text: 
+                          - heading "As a drone racer, which category and subcategory of operation do I fall under?" [level=4] [ref=e350] [cursor=pointer]
+                          - generic [ref=e351]:
+                            - link " View":
+                              - /url: /en/faq/116510
+                        - generic [ref=e352]:
+                          - text: 
+                          - heading "Is flying with goggles (first person view) authorised in the 'open' category?" [level=4] [ref=e353] [cursor=pointer]
+                          - generic [ref=e354]:
+                            - link " View":
+                              - /url: /en/faq/116511
+                        - generic [ref=e355]:
+                          - text: 
+                          - heading "Are spectators allowed in the 'open' category?" [level=4] [ref=e356] [cursor=pointer]
+                          - generic [ref=e357]:
+                            - link " View":
+                              - /url: /en/faq/116512
+                        - generic [ref=e358]:
+                          - text: 
+                          - heading "Is beyond visual line of sight (BVLOS) operation possible for flying drones with goggles (first-person view (FPV)) operation?" [level=4] [ref=e359] [cursor=pointer]
+                          - generic [ref=e360]:
+                            - link " View":
+                              - /url: /en/faq/140037
+                    - generic [ref=e361]:
+                      - heading "I build my own drones (privately built) ‘open’ category" [level=3] [ref=e362]:
+                        - link "I build my own drones (privately built) ‘open’ category" [ref=e363] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-build-my-own-drones-privately-built-open-category
+                      - generic [ref=e365]:
+                        - text: 
+                        - heading "Does my drone fall under the 'open' category?" [level=4] [ref=e366] [cursor=pointer]
+                        - generic [ref=e367]:
+                          - link " View":
+                            - /url: /en/faq/116513
+                    - generic [ref=e368]:
+                      - heading "I plan to provide services (commercial and other) with drones ‘open’ category" [level=3] [ref=e369]:
+                        - link "I plan to provide services (commercial and other) with drones ‘open’ category" [ref=e370] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-plan-provide-services-commercial-and-other-drones-open-category
+                      - generic [ref=e371]:
+                        - generic [ref=e372]:
+                          - text: 
+                          - heading "How do I determine which category I can operate under, ‘open’ or ’specific’?" [level=4] [ref=e373] [cursor=pointer]
+                          - generic [ref=e374]:
+                            - link " View":
+                              - /url: /en/faq/116514
+                        - generic [ref=e375]:
+                          - text: 
+                          - heading "What is meant by the requirement for Operational procedures?" [level=4] [ref=e376] [cursor=pointer]
+                          - generic [ref=e377]:
+                            - link " View":
+                              - /url: /en/faq/116517
+                    - generic [ref=e378]:
+                      - heading "I am a non-EU visitor / drone operator ‘open’ category" [level=3] [ref=e379]:
+                        - link "I am a non-EU visitor / drone operator ‘open’ category" [ref=e380] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-am-non-eu-visitor-drone-operator-open-category
+                      - generic [ref=e381]:
+                        - generic [ref=e382]:
+                          - text: 
+                          - heading "I am a Non-EU resident visiting Europe and I plan to fly my drone in the 'open' category, do I need to register?" [level=4] [ref=e383] [cursor=pointer]
+                          - generic [ref=e384]:
+                            - link " View":
+                              - /url: /en/faq/116519
+                        - generic [ref=e385]:
+                          - text: 
+                          - heading "As a non-EU resident, are my competencies for the 'open' category recognised in the EU?" [level=4] [ref=e386] [cursor=pointer]
+                          - generic [ref=e387]:
+                            - link " View":
+                              - /url: /en/faq/116520
+                    - generic [ref=e388]:
+                      - heading "Conduct an Operation in the open category in a state other than the one I am registered" [level=3] [ref=e389]:
+                        - link "Conduct an Operation in the open category in a state other than the one I am registered" [ref=e390] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/conduct-operation-open-category-state-other-one-i-am-registered
+                      - generic [ref=e392]:
+                        - text: 
+                        - heading "Do I need to apply for an authorisation?" [level=4] [ref=e393] [cursor=pointer]
+                        - generic [ref=e394]:
+                          - link " View":
+                            - /url: /en/faq/131130
+                    - generic [ref=e396]:
+                      - text: 
+                      - heading "When I buy a drone to be operated in the open category or in standard scenario (STS) in the specific category, what should I do?" [level=4] [ref=e397] [cursor=pointer]
+                      - generic [ref=e398]:
+                        - link " View":
+                          - /url: /en/faq/136359
+                  - generic [ref=e399]:
+                    - heading "Specific category" [level=2] [ref=e400]:
+                      - link "Specific category" [ref=e401] [cursor=pointer]:
+                        - /url: https://www.easa.europa.eu/en/the-agency/faqs/specific-category
+                    - generic [ref=e402]:
+                      - heading "Understanding the ‘specific’ category" [level=3] [ref=e403]:
+                        - link "Understanding the ‘specific’ category" [ref=e404] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/understanding-specific-category
+                      - generic [ref=e406]:
+                        - text: 
+                        - heading "How do I determine I fall under the ‘specific’ category?" [level=4] [ref=e407] [cursor=pointer]
+                        - generic [ref=e408]:
+                          - link " View":
+                            - /url: /en/faq/119225
+                    - generic [ref=e409]:
+                      - heading "Training requirements in the ‘specific’ category" [level=3] [ref=e410]:
+                        - link "Training requirements in the ‘specific’ category" [ref=e411] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/training-requirements-specific-category
+                      - generic [ref=e412]:
+                        - generic [ref=e413]:
+                          - text: 
+                          - heading "Are all remote pilots in the 'specific' category required to train to fly a drone?" [level=4] [ref=e414] [cursor=pointer]
+                          - generic [ref=e415]:
+                            - link " View":
+                              - /url: /en/faq/119226
+                        - generic [ref=e416]:
+                          - text: 
+                          - heading "Who issues the remote pilot competency certificate for the 'specific' category and how long is it valid for?" [level=4] [ref=e417] [cursor=pointer]
+                          - generic [ref=e418]:
+                            - link " View":
+                              - /url: /en/faq/119227
+                        - generic [ref=e419]:
+                          - text: 
+                          - heading "Will the competency certificate for the 'specific' category be recognised throughout Europe?" [level=4] [ref=e420] [cursor=pointer]
+                          - generic [ref=e421]:
+                            - link " View":
+                              - /url: /en/faq/119228
+                    - generic [ref=e422]:
+                      - heading "Operational authorisation requirements for the ‘specific’ category" [level=3] [ref=e423]:
+                        - link "Operational authorisation requirements for the ‘specific’ category" [ref=e424] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/operational-authorisation-requirements-specific-category
+                      - generic [ref=e425]:
+                        - generic [ref=e426]:
+                          - text: 
+                          - heading "Do I need to obtain an authorisation before flying my drone in the 'specific' category?" [level=4] [ref=e427] [cursor=pointer]
+                          - generic [ref=e428]:
+                            - link " View":
+                              - /url: /en/faq/119229
+                        - generic [ref=e429]:
+                          - text: 
+                          - heading "I fall under the ‘specific’ category, so how do I obtain an authorisation?" [level=4] [ref=e430] [cursor=pointer]
+                          - generic [ref=e431]:
+                            - link " View":
+                              - /url: /en/faq/116462
+                    - generic [ref=e432]:
+                      - heading "Responsibilities as a drone operator or remote pilot in the ‘specific’ category" [level=3] [ref=e433]:
+                        - link "Responsibilities as a drone operator or remote pilot in the ‘specific’ category" [ref=e434] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/responsibilities-drone-operator-or-remote-pilot-specific-category
+                      - generic [ref=e435]:
+                        - generic [ref=e436]:
+                          - text: 
+                          - heading "What are my responsibilities as a drone operator in the 'specific' category?" [level=4] [ref=e437] [cursor=pointer]
+                          - generic [ref=e438]:
+                            - link " View":
+                              - /url: /en/faq/119232
+                        - generic [ref=e439]:
+                          - text: 
+                          - heading "What are my responsibilities as a remote pilot in the 'specific' category?" [level=4] [ref=e440] [cursor=pointer]
+                          - generic [ref=e441]:
+                            - link " View":
+                              - /url: /en/faq/119233
+                        - generic [ref=e442]:
+                          - text: 
+                          - heading "When I buy a drone to be operated in the open category or in standard scenario (STS) in the specific category, what should I do?" [level=4] [ref=e443] [cursor=pointer]
+                          - generic [ref=e444]:
+                            - link " View":
+                              - /url: /en/faq/136385
+                    - generic [ref=e445]:
+                      - heading "Drones without class identification label in the ‘specific’ category" [level=3] [ref=e446]:
+                        - link "Drones without class identification label in the ‘specific’ category" [ref=e447] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/drones-without-class-identification-label-specific-category
+                      - generic [ref=e448]:
+                        - generic [ref=e449]:
+                          - text: 
+                          - heading "I fall under the 'specific' category will I be able to fly my old drone after 31 December 2020 ?" [level=4] [ref=e450] [cursor=pointer]
+                          - generic [ref=e451]:
+                            - link " View":
+                              - /url: /en/faq/119236
+                        - generic [ref=e452]:
+                          - text: 
+                          - heading "Under the 'specific' category do I still need training, given that I was flying drones before the rules became applicable?" [level=4] [ref=e453] [cursor=pointer]
+                          - generic [ref=e454]:
+                            - link " View":
+                              - /url: /en/faq/119237
+                    - generic [ref=e455]:
+                      - heading "I am into drone racing and/or flying drones with goggles (FPV) ‘specific’ category" [level=3] [ref=e456]:
+                        - link "I am into drone racing and/or flying drones with goggles (FPV) ‘specific’ category" [ref=e457] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-am-drone-racing-andor-flying-drones-goggles-fpv-specific-category
+                      - generic [ref=e458]:
+                        - generic [ref=e459]:
+                          - text: 
+                          - heading "Which authorisation do I need?" [level=4] [ref=e460] [cursor=pointer]
+                          - generic [ref=e461]:
+                            - link " View":
+                              - /url: /en/faq/119238
+                        - generic [ref=e462]:
+                          - text: 
+                          - heading "Is flying with goggles (first person view) authorised in the 'specific' category?" [level=4] [ref=e463] [cursor=pointer]
+                          - generic [ref=e464]:
+                            - link " View":
+                              - /url: /en/faq/119240
+                        - generic [ref=e465]:
+                          - text: 
+                          - heading "Are spectators allowed in the 'specific' category?" [level=4] [ref=e466] [cursor=pointer]
+                          - generic [ref=e467]:
+                            - link " View":
+                              - /url: /en/faq/119241
+                        - generic [ref=e468]:
+                          - text: 
+                          - heading "Is beyond visual line of sight (BVLOS) operation possible for flying drones with goggles (first-person view (FPV)) operation?" [level=4] [ref=e469] [cursor=pointer]
+                          - generic [ref=e470]:
+                            - link " View":
+                              - /url: /en/faq/140038
+                    - generic [ref=e471]:
+                      - heading "I build my own drones (privately built) ‘specific’ category" [level=3] [ref=e472]:
+                        - link "I build my own drones (privately built) ‘specific’ category" [ref=e473] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-build-my-own-drones-privately-built-specific-category
+                      - generic [ref=e475]:
+                        - text: 
+                        - heading "Can my drone operate in the ‘specific’ category?" [level=4] [ref=e476] [cursor=pointer]
+                        - generic [ref=e477]:
+                          - link " View":
+                            - /url: /en/faq/119242
+                    - generic [ref=e478]:
+                      - heading "I plan to provide services (commercial and other) with drone(s) ‘specific’ category" [level=3] [ref=e479]:
+                        - link "I plan to provide services (commercial and other) with drone(s) ‘specific’ category" [ref=e480] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-plan-provide-services-commercial-and-other-drones-specific-category
+                      - generic [ref=e481]:
+                        - generic [ref=e482]:
+                          - text: 
+                          - heading "Will I need to validate my operational authorisation with every other EASA Members state?" [level=4] [ref=e483] [cursor=pointer]
+                          - generic [ref=e484]:
+                            - link " View":
+                              - /url: /en/faq/116515
+                        - generic [ref=e485]:
+                          - text: 
+                          - heading "What will happen to authorisation granted by NAAs before the 31st of December 2020?" [level=4] [ref=e486] [cursor=pointer]
+                          - generic [ref=e487]:
+                            - link " View":
+                              - /url: /en/faq/116516
+                    - generic [ref=e488]:
+                      - heading "I am a non-EU visitor / drone operator ‘specific’ category" [level=3] [ref=e489]:
+                        - link "I am a non-EU visitor / drone operator ‘specific’ category" [ref=e490] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-am-non-eu-visitor-drone-operator-specific-category
+                      - generic [ref=e491]:
+                        - generic [ref=e492]:
+                          - text: 
+                          - heading "I am a Non-EU resident visiting Europe and I plan to fly my drone under the 'specific' category, do I need to register?" [level=4] [ref=e493] [cursor=pointer]
+                          - generic [ref=e494]:
+                            - link " View":
+                              - /url: /en/faq/119253
+                        - generic [ref=e495]:
+                          - text: 
+                          - heading "As a non-EU resident, are my competencies under the 'specific' category recognised in the EU?" [level=4] [ref=e496] [cursor=pointer]
+                          - generic [ref=e497]:
+                            - link " View":
+                              - /url: /en/faq/119254
+                    - generic [ref=e498]:
+                      - heading "I would like to know about the light UAS operator certificate (LUC)" [level=3] [ref=e499]:
+                        - link "I would like to know about the light UAS operator certificate (LUC)" [ref=e500] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/i-would-know-about-light-uas-operator-certificate-luc
+                      - generic [ref=e501]:
+                        - generic [ref=e502]:
+                          - text: 
+                          - heading "What is a LUC?" [level=4] [ref=e503] [cursor=pointer]
+                          - generic [ref=e504]:
+                            - link " View":
+                              - /url: /en/faq/116522
+                        - generic [ref=e505]:
+                          - text: 
+                          - heading "Who can apply for a LUC?" [level=4] [ref=e506] [cursor=pointer]
+                          - generic [ref=e507]:
+                            - link " View":
+                              - /url: /en/faq/116523
+                        - generic [ref=e508]:
+                          - text: 
+                          - heading "Do I need to obtain an authorisation before flying my drone? (LUC)" [level=4] [ref=e509] [cursor=pointer]
+                          - generic [ref=e510]:
+                            - link " View":
+                              - /url: /en/faq/119298
+                        - generic [ref=e511]:
+                          - text: 
+                          - heading "How long is a LUC valid?" [level=4] [ref=e512] [cursor=pointer]
+                          - generic [ref=e513]:
+                            - link " View":
+                              - /url: /en/faq/116524
+                    - generic [ref=e514]:
+                      - heading "Conduct an Operation in the specific category in a state other than the one I am registered" [level=3] [ref=e515]:
+                        - link "Conduct an Operation in the specific category in a state other than the one I am registered" [ref=e516] [cursor=pointer]:
+                          - /url: https://www.easa.europa.eu/en/the-agency/faqs/conduct-operation-specific-category-state-other-one-i-am-registered
+                      - generic [ref=e517]:
+                        - generic [ref=e518]:
+                          - text: 
+                          - heading "What is the process to apply for an operational authorisation?" [level=4] [ref=e519] [cursor=pointer]
+                          - generic [ref=e520]:
+                            - link " View":
+                              - /url: /en/faq/131129
+                        - generic [ref=e521]:
+                          - text: 
+                          - heading "Why I cannot apply directly to the competent authority of the state of operation?" [level=4] [ref=e522] [cursor=pointer]
+                          - generic [ref=e523]:
+                            - link " View":
+                              - /url: /en/faq/131128
+                    - generic [ref=e525]:
+                      - text: 
+                      - heading "When I buy a drone to be operated in the open category or in standard scenario (STS) in the specific category, what should I do?" [level=4] [ref=e526] [cursor=pointer]
+                      - generic [ref=e527]:
+                        - link " View":
+                          - /url: /en/faq/136360
+                    - generic [ref=e529]:
+                      - text: 
+                      - heading "I am a drone manufacturer and I need to test my product in flight to obtain a Class marking. Do I need to apply for a ‘specific’ operation authorisation?" [level=4] [ref=e530] [cursor=pointer]
+                      - generic [ref=e531]:
+                        - link " View":
+                          - /url: /en/faq/138195
+                  - generic [ref=e532]:
+                    - heading "Drones with class identification label C0-C6" [level=2] [ref=e533]:
+                      - link "Drones with class identification label C0-C6" [ref=e534] [cursor=pointer]:
+                        - /url: https://www.easa.europa.eu/en/the-agency/faqs/drones-class-identification-label-c0-c6
+                    - generic [ref=e535]:
+                      - generic [ref=e536]:
+                        - text: 
+                        - heading "Are drones with class identification label presently available on the EU market?" [level=4] [ref=e537] [cursor=pointer]
+                        - generic [ref=e538]:
+                          - link " View":
+                            - /url: /en/faq/135901
+                      - generic [ref=e539]:
+                        - text: 
+                        - heading "How as a manufacturer should I demonstrate compliance with the EU regulation?" [level=4] [ref=e540] [cursor=pointer]
+                        - generic [ref=e541]:
+                          - link " View":
+                            - /url: /en/faq/135902
+                      - generic [ref=e542]:
+                        - text: 
+                        - heading "How as an individual do I know what is valid?" [level=4] [ref=e543] [cursor=pointer]
+                        - generic [ref=e544]:
+                          - link " View":
+                            - /url: /en/faq/135903
+                      - generic [ref=e545]:
+                        - text: 
+                        - heading "What are the responsibilities of importers and distributors?" [level=4] [ref=e546] [cursor=pointer]
+                        - generic [ref=e547]:
+                          - link " View":
+                            - /url: /en/faq/135905
+                      - generic [ref=e548]:
+                        - text: 
+                        - heading "Are drones with class identification label required to operate in the specific category?" [level=4] [ref=e549] [cursor=pointer]
+                        - generic [ref=e550]:
+                          - link " View":
+                            - /url: /en/faq/135906
+                      - generic [ref=e551]:
+                        - text: 
+                        - heading "What can happen to me if I buy a drone with an invalid class indication label?" [level=4] [ref=e552] [cursor=pointer]
+                        - generic [ref=e553]:
+                          - link " View":
+                            - /url: /en/faq/135904
+                  - generic [ref=e554]:
+                    - heading "Model aircraft" [level=2] [ref=e555]:
+                      - link "Model aircraft" [ref=e556] [cursor=pointer]:
+                        - /url: https://www.easa.europa.eu/en/the-agency/faqs/model-aircraft
+                    - generic [ref=e557]:
+                      - generic [ref=e558]:
+                        - text: 
+                        - heading "Does the new EU Regulation on drones also apply to model aircraft?" [level=4] [ref=e559] [cursor=pointer]
+                        - generic [ref=e560]:
+                          - link " View":
+                            - /url: /en/faq/132023
+                      - generic [ref=e561]:
+                        - text: 
+                        - heading "Why have model aircraft been considered the same as drones?" [level=4] [ref=e562] [cursor=pointer]
+                        - generic [ref=e563]:
+                          - link " View":
+                            - /url: /en/faq/132024
+                      - generic [ref=e564]:
+                        - text: 
+                        - heading "What distinguishes a model aircraft from a drone?" [level=4] [ref=e565] [cursor=pointer]
+                        - generic [ref=e566]:
+                          - link " View":
+                            - /url: /en/faq/132025
+                      - generic [ref=e567]:
+                        - text: 
+                        - heading "In some specialised forums we see some discussions on the applicability date of the EU Regulation on drones. Can you confirm that it has been in force since December 31, 2020? Are you aware of any EASA Member States requesting a postponement of the application of the Regulation?" [level=4] [ref=e568] [cursor=pointer]
+                        - generic [ref=e569]:
+                          - link " View":
+                            - /url: /en/faq/132026
+                      - generic [ref=e570]:
+                        - text: 
+                        - heading "You mentioned that the Member States have the power to identify designated areas for the purpose of aeromodelling where drone and model aircraft operations are exempt from some of the ‘open’ category requirements. What are the advantages/disadvantages of this ‘option’?" [level=4] [ref=e571] [cursor=pointer]
+                        - generic [ref=e572]:
+                          - link " View":
+                            - /url: /en/faq/132028
+                      - generic [ref=e573]:
+                        - text: 
+                        - 'heading "EASA’s Basic Regulation (EU) 2018/1139 (as the name indicates) is the top-level regulation that defines the main scope of EASA’s functions and its limits in terms of delegation provided by the European Commission. On this basis, the EU UAS Regulation states in the recitals: ‘(27) Since model aircraft are considered as UAS and given the good safety level demonstrated by model aircraft operations in clubs and associations, there should be a seamless transition from the different national systems to the new Union regulatory framework, so that model aircraft clubs and associations can continue to operate as they do today, as well as taking into account existing best practices in the Member States’. Has this indication been taken into account? If so, how?" [level=4] [ref=e574] [cursor=pointer]'
+                        - generic [ref=e575]:
+                          - link " View":
+                            - /url: /en/faq/132027
+                      - generic [ref=e576]:
+                        - text: 
+                        - heading "Regarding Article 16 (authorisations to model aircraft clubs and associations), is it in the ‘spirit’ of the Regulation to have ‘few and concentrated’ clubs/associations or to facilitate clubs/associations distributed throughout the national territory to access this ‘authorisation'?" [level=4] [ref=e577] [cursor=pointer]
+                        - generic [ref=e578]:
+                          - link " View":
+                            - /url: /en/faq/132032
+                      - generic [ref=e579]:
+                        - text: 
+                        - heading "In what ways may the requirements for an Article 16 authorisation differ from those for the ‘open’ category?" [level=4] [ref=e580] [cursor=pointer]
+                        - generic [ref=e581]:
+                          - link " View":
+                            - /url: /en/faq/132033
+                      - generic [ref=e582]:
+                        - text: 
+                        - heading "Are control line (circular tethered) flights within the scope of the EU UAS Regulation? What about tethered and non-tethered free-flight aircraft?" [level=4] [ref=e583] [cursor=pointer]
+                        - generic [ref=e584]:
+                          - link " View":
+                            - /url: /en/faq/132034
+                      - generic [ref=e585]:
+                        - text: 
+                        - heading "According to the EU UAS Regulation, States ‘may’ issue national regulations for allowing for model aircraft operations. Can the ‘national’ Regulation be in contraposition with the ‘European’ Regulation?" [level=4] [ref=e586] [cursor=pointer]
+                        - generic [ref=e587]:
+                          - link " View":
+                            - /url: /en/faq/132035
+                      - generic [ref=e588]:
+                        - text: 
+                        - heading "Can we ‘Sunday aeromodellers’ report/suggest changes to the Regulation? Who should we contact?" [level=4] [ref=e589] [cursor=pointer]
+                        - generic [ref=e590]:
+                          - link " View":
+                            - /url: /en/faq/132036
+      - contentinfo [ref=e591]:
+        - generic [ref=e593]:
+          - heading "ONLINE SERVICES" [level=2] [ref=e594]
+          - list [ref=e598]:
+            - listitem [ref=e599]:
+              - link " Official Publication" [ref=e600] [cursor=pointer]:
+                - /url: /official-publication
+            - listitem [ref=e601]:
+              - link " AD - Airworthiness Directives - Safety publications tool" [ref=e602] [cursor=pointer]:
+                - /url: https://ad.easa.europa.eu/
+            - listitem [ref=e603]:
+              - link " CRT - Comment Response Tool" [ref=e604] [cursor=pointer]:
+                - /url: https://hub.easa.europa.eu/crt/
+            - listitem [ref=e605]:
+              - link " EASA Portal" [ref=e606] [cursor=pointer]:
+                - /url: https://portal.easa.europa.eu/
+            - listitem [ref=e607]:
+              - link " EAMR - European Aero-Medical Repository" [ref=e608] [cursor=pointer]:
+                - /url: /domains/aircrew-and-medical/medical/european-aero-medical-repository
+            - listitem [ref=e609]:
+              - link " ELG - EASA Learning Gateway" [ref=e610] [cursor=pointer]:
+                - /url: https://training.easa.europa.eu/
+            - listitem [ref=e611]:
+              - link " European Information Sharing and Cooperation Platform on Conflict Zones" [ref=e612] [cursor=pointer]:
+                - /url: /domains/air-operations/information-on-conflict-zones/european-information-sharing-and-cooperation-platform-conflict-zones
+            - listitem [ref=e613]:
+              - link " eRecruitment" [ref=e614] [cursor=pointer]:
+                - /url: https://erecruitment.easa.europa.eu/
+            - listitem [ref=e615]:
+              - link " FSTDIS - Flight Simulation Training Devices Information System" [ref=e616] [cursor=pointer]:
+                - /url: https://lisstdis.easa.europa.eu/
+            - listitem [ref=e617]:
+              - link " Occurrence Reporting" [ref=e618] [cursor=pointer]:
+                - /url: https://www.easa.europa.eu/easa-and-you/safety-management/occurrence-reporting
+            - listitem [ref=e619]:
+              - link " SIS - Standardisation Information System" [ref=e620] [cursor=pointer]:
+                - /url: https://sis.easa.europa.eu/
+            - listitem [ref=e621]:
+              - link " SIB – Safety Information Bulletins" [ref=e622] [cursor=pointer]:
+                - /url: https://ad.easa.europa.eu/sib-docs/page-1
+        - generic [ref=e624]:
+          - heading "READ MORE" [level=2] [ref=e625]
+          - generic [ref=e628]:
+            - list [ref=e629]:
+              - listitem [ref=e630]:
+                - link " Access to documents" [ref=e631] [cursor=pointer]:
+                  - /url: /access-documents
+              - listitem [ref=e632]:
+                - link " Cookie policy" [ref=e633] [cursor=pointer]:
+                  - /url: /en/cookie-policy
+              - listitem [ref=e634]:
+                - link " Data protection" [ref=e635] [cursor=pointer]:
+                  - /url: https://www.easa.europa.eu/data-protection
+              - listitem [ref=e636]:
+                - link " Disclaimer & Copyright Notice" [ref=e637] [cursor=pointer]:
+                  - /url: /copyright-disclaimer
+              - listitem [ref=e638]:
+                - link " EASA's Language Policy" [ref=e639] [cursor=pointer]:
+                  - /url: https://www.easa.europa.eu/easas-language-policy
+              - listitem [ref=e640]:
+                - link " Integrated Management System" [ref=e641] [cursor=pointer]:
+                  - /url: /internationally-recognised-integrated-management-system
+            - heading "WEBSITE" [level=2] [ref=e642]
+            - list [ref=e643]:
+              - listitem [ref=e644]:
+                - link " Website explained" [ref=e645] [cursor=pointer]:
+                  - /url: /web/explained
+              - listitem [ref=e646]:
+                - link " Website FAQs" [ref=e647] [cursor=pointer]:
+                  - /url: /the-agency/faqs/website
+              - listitem [ref=e648]:
+                - link " Login" [ref=e649] [cursor=pointer]:
+                  - /url: /user/login
+              - listitem [ref=e650]:
+                - link " Create an account" [ref=e651] [cursor=pointer]:
+                  - /url: /user/register
+              - listitem [ref=e652]:
+                - link " Notifications" [ref=e653] [cursor=pointer]:
+                  - /url: /web/whatcanifollow
+              - listitem [ref=e654]:
+                - link " Easy Access Rules XML" [ref=e655] [cursor=pointer]:
+                  - /url: /en/easy-access-rules-xml-export
+              - listitem [ref=e656]:
+                - link " RSS feeds" [ref=e657] [cursor=pointer]:
+                  - /url: /rss
+              - listitem [ref=e658]:
+                - link " Sitemap" [ref=e659] [cursor=pointer]:
+                  - /url: /sitemap
+        - generic [ref=e660]:
+          - generic [ref=e661]:
+            - heading "CONNECT WITH US" [level=2] [ref=e662]
+            - list [ref=e666]:
+              - listitem [ref=e667]:
+                - link " Follow our RSS feed" [ref=e668] [cursor=pointer]:
+                  - /url: /rss
+              - listitem [ref=e669]:
+                - link " Follow us on YouTube" [ref=e670] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC71zEXeufZ3nfBhs_QUiFeg
+              - listitem [ref=e671]:
+                - link " Follow us on Facebook" [ref=e672] [cursor=pointer]:
+                  - /url: https://www.facebook.com/European.Aviation.Safety.Agency
+              - listitem [ref=e673]:
+                - link " Follow us on Twitter" [ref=e674] [cursor=pointer]:
+                  - /url: https://twitter.com/easa
+              - listitem [ref=e675]:
+                - link " Follow us on LinkedIn" [ref=e676] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/easa-european-aviation-safety-agency/
+          - generic [ref=e677]:
+            - heading "CAN WE HELP YOU?" [level=2] [ref=e678]
+            - list [ref=e682]:
+              - listitem [ref=e683]:
+                - link " FAQ Knowledge Base" [ref=e684] [cursor=pointer]:
+                  - /url: /the-agency/faqs
+              - listitem [ref=e685]:
+                - link " Contact us" [ref=e686] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=e687]:
+                - link " Offices" [ref=e688] [cursor=pointer]:
+                  - /url: /can-we-help-you
+        - contentinfo [ref=e689]:
+          - generic [ref=e690]: © European Union Aviation Safety Agency 2026
+          - generic [ref=e692]:
+            - text: An Agency of the European Union
+            - link "EU" [ref=e693] [cursor=pointer]:
+              - /url: http://europa.eu/
+              - img "EU" [ref=e694]
+  - status [ref=e695]
+  - navigation "Back to top"
+  - status [ref=e696]

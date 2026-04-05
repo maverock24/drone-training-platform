@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwit7567rNaTAxUOAxAIHdebCccQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Myllypuro asunnon hinta neliöhinta 2025 2026 Myllypuro asunnon hinta neliöhinta 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DMyllypuro%2Basunnon%2Bhinta%2Bneli%25C3%25B6hinta%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&aep=1&ntc=1&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ2J8OegQIBhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQtKgLegQIDxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQtKgLegQIEBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQs6gLegQIChAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ0pQJegQIDBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Lyhyet videot" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf3yzarqpNBKmROJo5SZHP9ZA3-oX_CFN1nZmKugYIXWKkRd7kYAdE7Sugtl6YWkVMw1jPrqNmm9KPu8sSnfyvnVylhCXXCKAedyx4E1E3LEd1WIuoTLxHhJgXnSfIp3qMEBqG72&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQs6gLegQICxAB
+              - generic [ref=e106]: Lyhyet videot
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DMyllypuro%2Basunnon%2Bhinta%2Bneli%25C3%25B6hinta%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQiIQCKAN6BAgOEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e149]:
+          - generic [ref=e155]:
+            - heading "Hakutulosyhteenveto verkosta" [level=2] [ref=e156]
+            - generic [ref=e160]:
+              - generic [ref=e163]:
+                - heading "Toteutuneet asuntokaupat - Myllypuro, Helsinki" [level=3] [ref=e164]
+                - generic [ref=e165]: Myllypuro oli kalleimpien asuinalueiden listalla numerolla 197. Vuoden 2025 neljännellä vuosineljänneksellä vanhan osakehuoneiston keskimääräinen neliöhinta asuinalueella Myllypuro, Helsinki oli 2834 euroa, kunnan Helsinki 4868 euroa ja koko Suomessa 2315 euroa.
+              - generic [ref=e170]:
+                - link "Helsinki, Myllypuro - myydyt asunnot, toteutuneet neliöhinnat ... Asuntojenhinnat.fi https://www.asuntojenhinnat.fi › kunta › helsinki › alue" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.asuntojenhinnat.fi/myytyjen-asuntojen-tilastot/kunta/helsinki/alue/myllypuro
+                  - heading "Helsinki, Myllypuro - myydyt asunnot, toteutuneet neliöhinnat ..." [level=3] [ref=e173]
+                  - generic [ref=e178]:
+                    - generic [ref=e180]: Asuntojenhinnat.fi
+                    - generic [ref=e182]: https://www.asuntojenhinnat.fi › kunta › helsinki › alue
+                - button "Tietoja tästä tuloksesta" [ref=e183] [cursor=pointer]:
+                  - img [ref=e186]
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - link [ref=e194] [cursor=pointer]:
+                - /url: https://support.google.com/websearch?p=featured_snippets&hl=fi
+                - img [ref=e196]
+              - link "Tietoja hakutulosyhteenvedoista" [ref=e199] [cursor=pointer]:
+                - /url: https://support.google.com/websearch?p=featured_snippets&hl=fi
+              - generic [ref=e200]: •
+            - generic [ref=e203]:
+              - img [ref=e205] [cursor=pointer]
+              - button "Palaute" [ref=e207] [cursor=pointer]:
+                - generic [ref=e209]: Palaute
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e215]
+            - button "Tietoja tästä tuloksesta" [ref=e216] [cursor=pointer]:
+              - img [ref=e219]
+          - generic [ref=e221]:
+            - button "Kannattaako ostaa asunto 2026?" [ref=e227] [cursor=pointer]:
+              - generic [ref=e229]: Kannattaako ostaa asunto 2026?
+              - img [ref=e232]
+            - button "Mistä asunnon neliöhinta lasketaan?" [ref=e241] [cursor=pointer]:
+              - generic [ref=e243]: Mistä asunnon neliöhinta lasketaan?
+              - img [ref=e246]
+            - button "Mistä näkee, millä hinnalla asunto on myyty?" [ref=e255] [cursor=pointer]:
+              - generic [ref=e257]: Mistä näkee, millä hinnalla asunto on myyty?
+              - img [ref=e260]
+            - button "Onko asuntojen hinnat nousussa vai laskussa?" [ref=e269] [cursor=pointer]:
+              - generic [ref=e271]: Onko asuntojen hinnat nousussa vai laskussa?
+              - img [ref=e274]
+        - generic [ref=e279]:
+          - heading "Tulokset internetistä" [level=2] [ref=e280]
+          - generic [ref=e281]:
+            - generic [ref=e284]:
+              - link "Asuntojen hinnat Helsinki, 00920, Myllypuro Kiinteistömaailma https://www.kiinteistomaailma.fi › asuntojen-hinnat › Hel..." [ref=e286] [cursor=pointer]:
+                - /url: https://www.kiinteistomaailma.fi/asuntojen-hinnat/Helsinki/00920
+                - heading "Asuntojen hinnat Helsinki, 00920, Myllypuro" [level=3] [ref=e287]
+                - generic [ref=e292]:
+                  - generic [ref=e294]: Kiinteistömaailma
+                  - generic [ref=e296]: https://www.kiinteistomaailma.fi › asuntojen-hinnat › Hel...
+              - button "Tietoja tästä tuloksesta" [ref=e297] [cursor=pointer]:
+                - img [ref=e300]
+            - generic [ref=e304]:
+              - emphasis [ref=e305]: Keskineliöhinta vuonna 2025
+              - text: . 117 vuorokautta. Keskimääräinen myyntiaika. 140 kappaletta. Kauppoja vuonna 2025. Asunnon arvo muodostuu monesta yksityiskohdasta.
+        - generic [ref=e309]:
+          - generic [ref=e312]:
+            - link "Toteutuneet asuntokaupat Myllypuro, Helsinki - neliöhinnat ... Asunnollehinta.fi https://www.asunnollehinta.fi › ... › Helsinki" [ref=e314] [cursor=pointer]:
+              - /url: https://www.asunnollehinta.fi/00920-osoitteet-ja-hinnat
+              - heading "Toteutuneet asuntokaupat Myllypuro, Helsinki - neliöhinnat ..." [level=3] [ref=e315]
+              - generic [ref=e320]:
+                - generic [ref=e322]: Asunnollehinta.fi
+                - generic [ref=e324]: https://www.asunnollehinta.fi › ... › Helsinki
+            - button "Tietoja tästä tuloksesta" [ref=e325] [cursor=pointer]:
+              - img [ref=e328]
+          - generic [ref=e332]:
+            - emphasis [ref=e333]: Myllypuro
+            - text: (00920) asuntojen keskineliöhinta 2600 €/m² (Q4/
+            - emphasis [ref=e334]: "2025"
+            - text: ). Alue on 42.0% edullisempi kuin Helsinki keskiarvo (4485€/m²).
+            - emphasis [ref=e335]: Hinnat
+            - text: laskivat 10.7% viime ...
+        - generic [ref=e339]:
+          - generic [ref=e342]:
+            - link "Asuntojen hinnat – Seuraa asuntojen hintakehitystä - Blok blok.ai https://blok.ai › asuinaluevertailu" [ref=e344] [cursor=pointer]:
+              - /url: https://blok.ai/asuinaluevertailu
+              - heading "Asuntojen hinnat – Seuraa asuntojen hintakehitystä - Blok" [level=3] [ref=e345]
+              - generic [ref=e350]:
+                - generic [ref=e352]: blok.ai
+                - generic [ref=e354]: https://blok.ai › asuinaluevertailu
+            - button "Tietoja tästä tuloksesta" [ref=e355] [cursor=pointer]:
+              - img [ref=e358]
+          - generic [ref=e361]: Blokin suuri asuinaluevertailu. Katso miten asuinalueesi hintataso on kehittynyt viime vuosina.
+        - generic [ref=e365]:
+          - generic [ref=e368]:
+            - link "Asuntojen hinnat Helsinki Kiinteistömaailma https://www.kiinteistomaailma.fi › asuntojen-hinnat" [ref=e370] [cursor=pointer]:
+              - /url: https://www.kiinteistomaailma.fi/asuntojen-hinnat
+              - heading "Asuntojen hinnat Helsinki" [level=3] [ref=e371]
+              - generic [ref=e376]:
+                - generic [ref=e378]: Kiinteistömaailma
+                - generic [ref=e380]: https://www.kiinteistomaailma.fi › asuntojen-hinnat
+            - button "Tietoja tästä tuloksesta" [ref=e381] [cursor=pointer]:
+              - img [ref=e384]
+          - generic [ref=e388]:
+            - text: Hintalaskurista näet toteutuneet asuntojen
+            - emphasis [ref=e389]: hinnat
+            - text: Helsinki. Saat tilastoihin pohjautuvan arvion asuntosi neliöhinnasta ja näet miten asuntojen
+            - emphasis [ref=e390]: hinnat
+            - text: ovat ...
+        - generic [ref=e394]:
+          - generic [ref=e397]:
+            - link "Helsinki - myydyt asunnot, toteutuneet neliöhinnat ja ... Asuntojenhinnat.fi https://www.asuntojenhinnat.fi › kunta › helsinki" [ref=e399] [cursor=pointer]:
+              - /url: https://www.asuntojenhinnat.fi/myytyjen-asuntojen-tilastot/kunta/helsinki
+              - heading "Helsinki - myydyt asunnot, toteutuneet neliöhinnat ja ..." [level=3] [ref=e400]
+              - generic [ref=e405]:
+                - generic [ref=e407]: Asuntojenhinnat.fi
+                - generic [ref=e409]: https://www.asuntojenhinnat.fi › kunta › helsinki
+            - button "Tietoja tästä tuloksesta" [ref=e410] [cursor=pointer]:
+              - img [ref=e413]
+          - generic [ref=e417]:
+            - text: "Asuntokaupat Helsinki: 2 711 · +7,41 % ;"
+            - emphasis [ref=e418]: Neliöhinta
+            - text: "Helsinki: 4 868€ / m² · +0,97 % ;"
+            - emphasis [ref=e419]: Neliöhinta
+            - text: "PK-seudulla: 4 291€ / m² · +0,42 % ;"
+            - emphasis [ref=e420]: Neliöhinta
+            - text: "muualla: 1 702€ / m²."
+        - generic [ref=e424]:
+          - generic [ref=e427]:
+            - link "Asuntojen hinnat Myllypuro, Helsinki Asuntojenmyynti.fi https://www.asuntojenmyynti.fi › asuntojen-hinnat › M..." [ref=e429] [cursor=pointer]:
+              - /url: https://www.asuntojenmyynti.fi/asuntojen-hinnat/Helsinki/Myllypuro
+              - heading "Asuntojen hinnat Myllypuro, Helsinki" [level=3] [ref=e430]
+              - generic [ref=e435]:
+                - generic [ref=e437]: Asuntojenmyynti.fi
+                - generic [ref=e439]: https://www.asuntojenmyynti.fi › asuntojen-hinnat › M...
+            - button "Tietoja tästä tuloksesta" [ref=e440] [cursor=pointer]:
+              - img [ref=e443]
+          - generic [ref=e447]:
+            - text: Löydä asuntojen
+            - emphasis [ref=e448]: hinnat Myllypuro
+            - text: ", Helsinki. Katso asuntojen hintatiedot ja asuntojen hintakehitys. Mukana"
+            - emphasis [ref=e449]: hinta
+            - text: arvio laskuri. Ilmainen
+            - emphasis [ref=e450]: asunnon
+            - text: hinnan ...
+          - generic [ref=e452]:
+            - text: "Puuttuu: 2025 ‎| Hae tällä:"
+            - link "2025" [ref=e453] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+%222025%22+2026&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ5t4CegQIUhAB
+        - generic [ref=e457]:
+          - generic [ref=e460]:
+            - link "Asuntojen hinnat Myllypuro, Helsinki Etuovi.com https://www.etuovi.com › myllypuro › asuinalue" [ref=e462] [cursor=pointer]:
+              - /url: https://www.etuovi.com/myytavat-asunnot/helsinki/myllypuro/asuinalue
+              - heading "Asuntojen hinnat Myllypuro, Helsinki" [level=3] [ref=e463]
+              - generic [ref=e468]:
+                - generic [ref=e470]: Etuovi.com
+                - generic [ref=e472]: https://www.etuovi.com › myllypuro › asuinalue
+            - button "Tietoja tästä tuloksesta" [ref=e473] [cursor=pointer]:
+              - img [ref=e476]
+          - generic [ref=e480]:
+            - text: Asuntojen
+            - emphasis [ref=e481]: hinnat Myllypuro
+            - text: ", Helsinki - Katso myytävät asunnot alueelta"
+            - emphasis [ref=e482]: Myllypuro
+            - text: ", Helsinki ja tutustu millainen on"
+            - emphasis [ref=e483]: Myllypuro
+            - text: ", Helsinki asuinalueena."
+          - generic [ref=e485]:
+            - text: "Puuttuu: 2025 ‎| Hae tällä:"
+            - link "2025" [ref=e486] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+%222025%22+2026&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ5t4CegQIURAB
+        - generic [ref=e490]:
+          - generic [ref=e493]:
+            - link "Mamsellimyllynkatu 23, Myllypuro, Helsinki - ● - 3H+K Oikotie Asunnot https://asunnot.oikotie.fi › ... › Helsinki › Myllypuro" [ref=e495] [cursor=pointer]:
+              - /url: https://asunnot.oikotie.fi/myytavat-asunnot/helsinki/24388654
+              - heading "Mamsellimyllynkatu 23, Myllypuro, Helsinki - ● - 3H+K" [level=3] [ref=e496]
+              - generic [ref=e501]:
+                - generic [ref=e503]: Oikotie Asunnot
+                - generic [ref=e505]: https://asunnot.oikotie.fi › ... › Helsinki › Myllypuro
+            - button "Tietoja tästä tuloksesta" [ref=e506] [cursor=pointer]:
+              - img [ref=e509]
+          - generic [ref=e513]:
+            - emphasis [ref=e514]: Hinta
+            - text: ; Velaton
+            - emphasis [ref=e515]: hinta
+            - text: ": 40 474,27 € ; Myyntihinta: 40 474,27 € ;"
+            - emphasis [ref=e516]: Neliöhinta
+            - text: ": 608,64 € / m²."
+          - generic [ref=e519]: 40 474,27 €
+        - generic [ref=e523]:
+          - generic [ref=e526]:
+            - 'link "Ostari pois ja kapakat vähemmäksi: Asuntojen hinnat ... Rakennuslehti https://www.rakennuslehti.fi › Talous" [ref=e528] [cursor=pointer]':
+              - /url: https://www.rakennuslehti.fi/2018/04/ostari-pois-ja-kapakat-vahemmaksi-asuntojen-hinnat-nousevat-nyt-hurjaa-vauhtia-ita-helsingin-myllypurossa/
+              - 'heading "Ostari pois ja kapakat vähemmäksi: Asuntojen hinnat ..." [level=3] [ref=e529]'
+              - generic [ref=e534]:
+                - generic [ref=e536]: Rakennuslehti
+                - generic [ref=e538]: https://www.rakennuslehti.fi › Talous
+            - button "Tietoja tästä tuloksesta" [ref=e539] [cursor=pointer]:
+              - img [ref=e542]
+          - generic [ref=e545]:
+            - generic [ref=e546]: 9.4.2018 —
+            - generic [ref=e547]:
+              - text: Helsingin
+              - emphasis [ref=e548]: Myllypuron
+              - text: asuntojen
+              - emphasis [ref=e549]: hinnat
+              - text: ovat 2010-luvulla nousseet huomattavasti enemmän kuin läheisten vastaavien asuinalueiden.
+      - generic [ref=e551]:
+        - generic [ref=e556]:
+          - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e558]
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - link "Asuntojen hinnat Helsinki 2025" [ref=e565] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Asuntojen+hinnat+Helsinki+2025&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhBEAE
+                - generic [ref=e566]:
+                  - generic [ref=e571]: Asuntojen hinnat Helsinki 2025
+                  - img [ref=e575]
+              - link "Toteutuneet asuntojen hinnat" [ref=e580] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Toteutuneet+asuntojen+hinnat&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhcEAE
+                - generic [ref=e581]:
+                  - generic [ref=e586]: Toteutuneet asuntojen hinnat
+                  - img [ref=e590]
+              - link "Asuntojen hintakehitys historia" [ref=e595] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Asuntojen+hintakehitys+historia&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhWEAE
+                - generic [ref=e596]:
+                  - generic [ref=e601]: Asuntojen hintakehitys historia
+                  - img [ref=e605]
+              - link "Tilastokeskus asuntojen hinnat postinumeroalueittain" [ref=e610] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Tilastokeskus+asuntojen+hinnat+postinumeroalueittain&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhdEAE
+                - generic [ref=e611]:
+                  - generic [ref=e616]: Tilastokeskus asuntojen hinnat postinumeroalueittain
+                  - img [ref=e620]
+            - generic [ref=e622]:
+              - link "Asuntojen hinnat Helsinki postinumeroittain" [ref=e626] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Asuntojen+hinnat+Helsinki+postinumeroittain&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhaEAE
+                - generic [ref=e627]:
+                  - generic [ref=e632]: Asuntojen hinnat Helsinki postinumeroittain
+                  - img [ref=e636]
+              - link "Neliöhinnat Helsinki" [ref=e641] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Neli%C3%B6hinnat+Helsinki&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhZEAE
+                - generic [ref=e642]:
+                  - generic [ref=e647]: Neliöhinnat Helsinki
+                  - img [ref=e651]
+              - link "Mistä löytää myytyjen asuntojen hinnat" [ref=e656] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Mist%C3%A4+l%C3%B6yt%C3%A4%C3%A4+myytyjen+asuntojen+hinnat&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhVEAE
+                - generic [ref=e657]:
+                  - generic [ref=e662]: Mistä löytää myytyjen asuntojen hinnat
+                  - img [ref=e666]
+              - link "Mistä näkee toteutuneet kiinteistökaupat" [ref=e671] [cursor=pointer]:
+                - /url: /search?sca_esv=3a2a6e3c008af294&q=Mist%C3%A4+n%C3%A4kee+toteutuneet+kiinteist%C3%B6kaupat&sa=X&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ1QJ6BAhJEAE
+                - generic [ref=e672]:
+                  - generic [ref=e677]: Mistä näkee toteutuneet kiinteistökaupat
+                  - img [ref=e681]
+        - navigation [ref=e683]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e684]
+          - text: "1"
+          - link "Page 2" [ref=e687] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=10&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAE
+            - text: "2"
+          - link "Page 3" [ref=e689] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=20&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAG
+            - text: "3"
+          - link "Page 4" [ref=e691] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=30&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAI
+            - text: "4"
+          - link "Page 5" [ref=e693] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=40&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAK
+            - text: "5"
+          - link "Page 6" [ref=e695] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=50&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAM
+            - text: "6"
+          - link "Page 7" [ref=e697] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=60&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAO
+            - text: "7"
+          - link "Page 8" [ref=e699] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=70&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAQ
+            - text: "8"
+          - link "Page 9" [ref=e701] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=80&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAS
+            - text: "9"
+          - link "Page 10" [ref=e703] [cursor=pointer]:
+            - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=90&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8tMDegQIVxAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e705]:
+            - link "Seuraava" [ref=e706] [cursor=pointer]:
+              - /url: /search?q=Myllypuro+asunnon+hinta+neli%C3%B6hinta+2025+2026&sca_esv=3a2a6e3c008af294&ei=oCTSaa2fNY6GwPAP17emuAw&start=10&sa=N&sstk=Af77f_coRNyIsLmX7bNkGjlazhUOB25wdpJCV_jSezihPnrVjD-VvgJte_aK9d1Cu172Qld92vlkC0HN55XCd0ajYZJrxbtQhQyViA&ved=2ahUKEwit7567rNaTAxUOAxAIHdebCccQ8NMDegQIVxAW
+              - generic [ref=e708]: Seuraava
+      - navigation
+    - contentinfo [ref=e709]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e710]
+      - generic [ref=e714]:
+        - generic [ref=e716]:
+          - text: Suomi
+          - generic [ref=e718]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e720] [cursor=pointer]:
+              - generic [ref=e721]: 00920, Helsinki
+              - generic [ref=e723]:
+                - text: "-"
+                - generic [ref=e724]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e726] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e729]:
+          - link "Ohje" [ref=e730] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e731] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e732] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e733] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

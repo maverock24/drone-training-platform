@@ -53,7 +53,7 @@ Before you are allowed to mark a task as complete, you **must empirically prove*
 - If tests fail, analyze the failure, fix the code, and re-run.
 
 #### 3c: End-to-End Smoke Testing via Playwright MCP
-If the task involves UI, routing, or API integrations visible through the browser, you **must** utilize the Playwright MCP tools available in your workspace:
+If the task involves UI, routing, or API integrations visible through the browser, you **must** utilize the Playwright MCP tools available in your workspace. The browser runs in **headless mode** (no visible window) as configured in `.vscode/mcp.json`:
 
 1. **Ensure the dev server is running.** If not already started, launch it in a background terminal process (e.g., `npm run dev &`). Wait for the server to be ready before proceeding.
 2. **Navigate** to the application URL using Playwright MCP tools (e.g., `http://localhost:3000`).

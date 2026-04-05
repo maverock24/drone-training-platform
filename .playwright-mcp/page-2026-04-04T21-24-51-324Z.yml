@@ -1,0 +1,294 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQpYkNCA0
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e16]:
+          - combobox "Hae" [ref=e19]: site:vero.fi tulonhankkimiskulut sijoittaminen vähennys site:vero.fi tulonhankkimiskulut sijoittaminen vähennys
+          - generic [ref=e20]:
+            - button "Tyhjennä" [ref=e22] [cursor=pointer]:
+              - img [ref=e24]
+            - generic [ref=e27]:
+              - button "Syöttötyökalut" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - button "Puhehaku" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Hae kuvan perusteella" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Haku" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Asetukset" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google-sovellukset" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Kirjaudu" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:vero.fi%2Btulonhankkimiskulut%2Bsijoittaminen%2Bv%25C3%25A4hennys&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Tekoälytila" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ2J8OegQIERAE
+              - generic [ref=e78]: Tekoälytila
+          - listitem [ref=e79]:
+            - link "Kaikki" [disabled] [ref=e80]:
+              - generic [ref=e82]: Kaikki
+          - listitem [ref=e83]:
+            - link "Kuvahaku" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQtKgLegQIFhAB
+              - generic [ref=e86]: Kuvahaku
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQtKgLegQIFxAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQs6gLegQIFBAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ0pQJegQIExAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - button "Lisää suodattimia" [ref=e104] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Lisää
+                  - img [ref=e109]
+        - button "Työkalut" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Työkalut
+            - img [ref=e117]
+    - heading "Hakutulokset" [level=1] [ref=e119]
+    - generic [ref=e125]:
+      - generic [ref=e126]: Looking for results in English?
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e129]
+      - link "Change to English" [ref=e131] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:vero.fi%2Btulonhankkimiskulut%2Bsijoittaminen%2Bv%25C3%25A4hennys&hl=en&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e132] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e134] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQiIQCKAN6BAgOEAY#languages
+    - main [ref=e136]:
+      - generic [ref=e140]:
+        - generic [ref=e143]:
+          - heading "Tulokset internetistä" [level=2] [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e148]:
+              - link "Mitä voi vähentää tulonhankkimismenoina Vero.fi https://www.vero.fi › tulonhankkimismenot › mita-voi-..." [ref=e150] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/tulonhankkimismenot/mita-voi-vahentaa-tulonhankkimismenoina/
+                - heading "Mitä voi vähentää tulonhankkimismenoina" [level=3] [ref=e151]
+                - generic [ref=e156]:
+                  - generic [ref=e158]: Vero.fi
+                  - generic [ref=e160]: https://www.vero.fi › tulonhankkimismenot › mita-voi-...
+              - button "Tietoja tästä tuloksesta" [ref=e161] [cursor=pointer]:
+                - img [ref=e164]
+            - generic [ref=e167]:
+              - generic [ref=e168]: 17.12.2025 —
+              - text: Jos sinulle kertyy tulonhankkimismenoja enemmän kuin 750 euroa vuodessa, ilmoita ne kokonaan. Älä vähennä omavastuuosuutta itse. Millaisista ...
+        - generic [ref=e172]:
+          - generic [ref=e175]:
+            - link "Tulonhankkimismenot Vero.fi https://www.vero.fi › henkiloasiakkaat › vahennykset" [ref=e177] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/tulonhankkimismenot/
+              - heading "Tulonhankkimismenot" [level=3] [ref=e178]
+              - generic [ref=e183]:
+                - generic [ref=e185]: Vero.fi
+                - generic [ref=e187]: https://www.vero.fi › henkiloasiakkaat › vahennykset
+            - button "Tietoja tästä tuloksesta" [ref=e188] [cursor=pointer]:
+              - img [ref=e191]
+          - generic [ref=e194]:
+            - generic [ref=e195]: 12.3.2025 —
+            - text: Tulonhankkimismenot ovat kuluja, jotka aiheutuvat palkkatulojen hankkimisesta. Saat automaattisesti 750 euron vähennyksen, mutta jos kulusi ovat ...
+        - generic [ref=e199]:
+          - generic [ref=e202]:
+            - link "Näin ilmoitat tulonhankkimismenot verotuksessa Vero.fi https://www.vero.fi › henkiloasiakkaat › vahennykset" [ref=e204] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/tulonhankkimismenot/nain-ilmoitat-verotuksessa/
+              - heading "Näin ilmoitat tulonhankkimismenot verotuksessa" [level=3] [ref=e205]
+              - generic [ref=e210]:
+                - generic [ref=e212]: Vero.fi
+                - generic [ref=e214]: https://www.vero.fi › henkiloasiakkaat › vahennykset
+            - button "Tietoja tästä tuloksesta" [ref=e215] [cursor=pointer]:
+              - img [ref=e218]
+          - generic [ref=e221]:
+            - generic [ref=e222]: 1.1.2026 —
+            - text: Jos sinulle kertyy tulonhankkimismenoja enemmän kuin 750 euroa vuodessa, ilmoita ne kokonaan. Älä vähennä omavastuuosuutta itse. Erittele kulut ...
+        - generic [ref=e226]:
+          - generic [ref=e229]:
+            - link "Mitä kuluja ei voi vähentää verotuksessa? Vero.fi https://www.vero.fi › vahennyskelvottomat-menot" [ref=e231] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/tulonhankkimismenot/vahennyskelvottomat-menot/
+              - heading "Mitä kuluja ei voi vähentää verotuksessa?" [level=3] [ref=e232]
+              - generic [ref=e237]:
+                - generic [ref=e239]: Vero.fi
+                - generic [ref=e241]: https://www.vero.fi › vahennyskelvottomat-menot
+            - button "Tietoja tästä tuloksesta" [ref=e242] [cursor=pointer]:
+              - img [ref=e245]
+          - generic [ref=e248]:
+            - generic [ref=e249]: 24.1.2023 —
+            - text: Huom.! Osinkotulon hankkimisesta aiheutuneet menot voi kuitenkin vähentää, vaikka osinko olisikin verovapaata tuloa.
+        - generic [ref=e253]:
+          - generic [ref=e256]:
+            - link "Tulonhankkimismenot ansiotuloista Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › tulonhankkimism..." [ref=e258] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48490/tulonhankkimismenot-ansiotuloista2/
+              - heading "Tulonhankkimismenot ansiotuloista Syventävä vero-ohje" [level=3] [ref=e259]
+              - generic [ref=e264]:
+                - generic [ref=e266]: Vero.fi
+                - generic [ref=e268]: https://www.vero.fi › ohje-hakusivu › tulonhankkimism...
+            - button "Tietoja tästä tuloksesta" [ref=e269] [cursor=pointer]:
+              - img [ref=e272]
+          - generic [ref=e275]:
+            - generic [ref=e276]: 21.1.2026 —
+            - text: Verovelvollinen saa vähentää palkkatulostaan tulonhankkimisvähennyksenä 750 euroa, kuitenkin enintään palkkatulon määrän (TVL 95 §:n 1 momentin ...
+        - generic [ref=e280]:
+          - generic [ref=e283]:
+            - link "Mitä vähennyksiä voi saada verotuksessa? Vero.fi https://www.vero.fi › vahennykset › mita-voi-vahentaa" [ref=e285] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+              - heading "Mitä vähennyksiä voi saada verotuksessa?" [level=3] [ref=e286]
+              - generic [ref=e291]:
+                - generic [ref=e293]: Vero.fi
+                - generic [ref=e295]: https://www.vero.fi › vahennykset › mita-voi-vahentaa
+            - button "Tietoja tästä tuloksesta" [ref=e296] [cursor=pointer]:
+              - img [ref=e299]
+          - generic [ref=e302]:
+            - generic [ref=e303]: 23.11.2024 —
+            - text: Esimerkiksi kotitalousvähennys, elatusvelvollisuusvähennys ja tulontasaus tehdään suoraan verosta. Ne siis pienentävät maksettavan veron määrää.
+        - generic [ref=e307]:
+          - generic [ref=e310]:
+            - link "Verohallinto laskee nämä vähennykset automaattisesti Vero.fi https://www.vero.fi › vahennykset › mita-voi-vahentaa" [ref=e312] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/mita-voi-vahentaa/verohallinto-laskee-nama-vahennykset-automaattisesti/
+              - heading "Verohallinto laskee nämä vähennykset automaattisesti" [level=3] [ref=e313]
+              - generic [ref=e318]:
+                - generic [ref=e320]: Vero.fi
+                - generic [ref=e322]: https://www.vero.fi › vahennykset › mita-voi-vahentaa
+            - button "Tietoja tästä tuloksesta" [ref=e323] [cursor=pointer]:
+              - img [ref=e326]
+          - generic [ref=e329]:
+            - generic [ref=e330]: 9.12.2024 —
+            - generic [ref=e331]:
+              - text: Saat tulonhankkimisvähennyksen automaattisesti, jos saat palkkatuloa. Vähennyksen määrä on 750 euroa.
+              - emphasis [ref=e332]: Vähennys
+              - text: ei voi kuitenkaan olla suurempi ...
+        - generic [ref=e336]:
+          - generic [ref=e339]:
+            - link "Työhuonevähennys Vero.fi https://www.vero.fi › vahennykset › tyohuonevahennys" [ref=e341] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/tulonhankkimismenot/tyohuonevahennys/
+              - heading "Työhuonevähennys" [level=3] [ref=e342]
+              - generic [ref=e347]:
+                - generic [ref=e349]: Vero.fi
+                - generic [ref=e351]: https://www.vero.fi › vahennykset › tyohuonevahennys
+            - button "Tietoja tästä tuloksesta" [ref=e352] [cursor=pointer]:
+              - img [ref=e355]
+          - generic [ref=e358]:
+            - generic [ref=e359]: 17.12.2025 —
+            - text: Työhuonevähennys kuuluu tulonhankkimismenoihin. Jos saat palkkatuloja, saat automaattisesti 750 euron tulonhankkimisvähennyksen.
+        - generic [ref=e363]:
+          - generic [ref=e366]:
+            - link "Sijoitukset Vero.fi https://www.vero.fi › henkiloasiakkaat › omaisuus › sij..." [ref=e368] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/
+              - heading "Sijoitukset" [level=3] [ref=e369]
+              - generic [ref=e374]:
+                - generic [ref=e376]: Vero.fi
+                - generic [ref=e378]: https://www.vero.fi › henkiloasiakkaat › omaisuus › sij...
+            - button "Tietoja tästä tuloksesta" [ref=e379] [cursor=pointer]:
+              - img [ref=e382]
+          - generic [ref=e385]:
+            - generic [ref=e386]: 24.10.2024 —
+            - generic [ref=e387]:
+              - emphasis [ref=e388]: Sijoittamisen kulut ja tappiot voit vähentää verotuksessa
+              - text: . Ilmoita tiedot sijoituksista. Oletko saanut tuloja tai onko sinulle syntynyt ...
+          - generic [ref=e390]:
+            - text: "Puuttuu: tulonhankkimiskulut ‎| Hae tällä:"
+            - link "tulonhankkimiskulut" [ref=e391] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=site:vero.fi+%22tulonhankkimiskulut%22+sijoittaminen+v%C3%A4hennys&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ5t4CegQIPhAB
+        - generic [ref=e395]:
+          - generic [ref=e398]:
+            - link "Etätyö ja vähennykset Vero.fi https://www.vero.fi › etatyo-ja-vahennykset" [ref=e400] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/etatyo-ja-vahennykset/
+              - heading "Etätyö ja vähennykset" [level=3] [ref=e401]
+              - generic [ref=e406]:
+                - generic [ref=e408]: Vero.fi
+                - generic [ref=e410]: https://www.vero.fi › etatyo-ja-vahennykset
+            - button "Tietoja tästä tuloksesta" [ref=e411] [cursor=pointer]:
+              - img [ref=e414]
+          - generic [ref=e417]:
+            - generic [ref=e418]: 1.1.2026 —
+            - generic [ref=e419]:
+              - emphasis [ref=e420]: Kaikki palkansaajat saavat automaattisesti 750 euron tulonhankkimisvähennyksen
+              - text: . Jos sinulla on kuluja tätä enemmän, voit ilmoittaa ne ...
+          - generic [ref=e422]:
+            - text: "Puuttuu: sijoittaminen ‎| Hae tällä:"
+            - link "sijoittaminen" [ref=e423] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=site:vero.fi+tulonhankkimiskulut+%22sijoittaminen%22+v%C3%A4hennys&sa=X&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ5t4CegQIPRAB
+      - navigation [ref=e426]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e427]
+        - text: "1"
+        - link "Page 2" [ref=e430] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=10&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAE
+          - text: "2"
+        - link "Page 3" [ref=e432] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=20&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAG
+          - text: "3"
+        - link "Page 4" [ref=e434] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=30&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAI
+          - text: "4"
+        - link "Page 5" [ref=e436] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=40&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAK
+          - text: "5"
+        - link "Page 6" [ref=e438] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=50&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAM
+          - text: "6"
+        - link "Page 7" [ref=e440] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=60&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAO
+          - text: "7"
+        - link "Page 8" [ref=e442] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=70&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAQ
+          - text: "8"
+        - link "Page 9" [ref=e444] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=80&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAS
+          - text: "9"
+        - link "Page 10" [ref=e446] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=90&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8tMDegQIJxAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e448]:
+          - link "Seuraava" [ref=e449] [cursor=pointer]:
+            - /url: /search?q=site:vero.fi+tulonhankkimiskulut+sijoittaminen+v%C3%A4hennys&sca_esv=24f50bc0831b3fb1&ei=ooHRaeeGFv6xwPAPyu7OsAw&start=10&sa=N&sstk=Af77f_cdmhymv1CQ9gQOvQIsRLNbaf3f-DBoJPSdV7tKsnn-jvpUXvkbN_p4eSopkLExjKIWLJMQ9UvxkZLrZx8TS1qVtpO-lFRwbw&ved=2ahUKEwjn376CkdWTAxX-GBAIHUq3E8YQ8NMDegQIJxAW
+            - generic [ref=e451]: Seuraava
+      - navigation
+    - contentinfo [ref=e452]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e453]
+      - generic [ref=e457]:
+        - generic [ref=e459]:
+          - text: Suomi
+          - generic [ref=e461]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e463] [cursor=pointer]:
+              - generic [ref=e464]: 00940, Helsinki
+              - generic [ref=e466]:
+                - text: "-"
+                - generic [ref=e467]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e469] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e472]:
+          - link "Ohje" [ref=e473] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e474] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e475] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e476] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

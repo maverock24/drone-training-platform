@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: ROS2 PX4 drone course curriculum "NVIDIA Jetson" OR "edge AI" PyTorch training syllabus 2024 OR 2025 ROS2 PX4 drone course curriculum "NVIDIA Jetson" OR "edge AI" PyTorch training syllabus 2024 OR 2025
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DROS2%2BPX4%2Bdrone%2Bcourse%2Bcurriculum%2B%2522NVIDIA%2BJetson%2522%2BOR%2B%2522edge%2BAI%2522%2BPyTorch%2Btraining%2Bsyllabus%2B2024%2BOR%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&aep=1&ntc=1&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQs6gLegQIFBAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQtKgLegQIEhAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ0pQJegQIEBAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEmQ8bgAOlfCvYabswNj_9-chfoFSc-QtWD8Xyy9a8sXM04bK1npgF8aOdM5_fhhWIc06vesz7pUgMq8vHkUIIlSbY55PUmrxFIVMrtAKbotVywyqpcKT4bZUUAhulg8zJnhs8xniiguCU4dThQlOYVihYWPnRz1LPDPL24E1PTydh_tik&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQs6gLegQIERAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DROS2%2BPX4%2Bdrone%2Bcourse%2Bcurriculum%2B%2522NVIDIA%2BJetson%2522%2BOR%2B%2522edge%2BAI%2522%2BPyTorch%2Btraining%2Bsyllabus%2B2024%2BOR%2B2025&hl=en&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQiIQCKAN6BAgLEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Mastering ROS 2 for Robotics Programming | PDF Scribd https://www.scribd.com › document" [ref=e154] [cursor=pointer]:
+                - /url: https://www.scribd.com/document/912727269/Mastering-ROS-2-for-Robotics-Programming-Design-Build-Simulate-And-Prototype-Complex-Robots-Using-the-Robot-Operating-Lentin-Joseph-Jonathan-Cac
+                - heading "Mastering ROS 2 for Robotics Programming | PDF" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Scribd
+                  - generic [ref=e164]: https://www.scribd.com › document
+              - generic [ref=e165]:
+                - generic [ref=e166]: ·
+                - link "Käännä tämä sivu" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.scribd.com/document/912727269/Mastering-ROS-2-for-Robotics-Programming-Design-Build-Simulate-And-Prototype-Complex-Robots-Using-the-Robot-Operating-Lentin-Joseph-Jonathan-Cac
+              - button "Tietoja tästä tuloksesta" [ref=e168] [cursor=pointer]:
+                - img [ref=e171]
+            - generic [ref=e175]:
+              - text: ...
+              - emphasis [ref=e176]: ROS 2
+              - text: . The NanoLLM optimizes LLMs, VLMs, and Vision Language Action (VLA) models to run on the
+              - emphasis [ref=e177]: NVIDIA Jetson
+              - text: Orin. This project can be directly run on the ...
+            - generic [ref=e180]:
+              - img "Arvio 5,0/5 (4) käyttäjäarvostelua" [ref=e182]:
+                - text: 5,0
+                - img [ref=e183]
+                - text: (4)
+              - button [ref=e188]:
+                - img [ref=e190]
+        - generic [ref=e195]:
+          - generic [ref=e198]:
+            - link "**[HIRING] Robotics Autonomy & Perception Lead** **(PX4 ... Facebook · Khoa KH&KT Máy Tính - ĐH Bách Khoa TPHCM 2 kommenttia · 2 kuukautta sitten" [ref=e200] [cursor=pointer]:
+              - /url: https://www.facebook.com/groups/cse.hcmut/posts/3961293224002740/
+              - heading "**[HIRING] Robotics Autonomy & Perception Lead** **(PX4 ..." [level=3] [ref=e201]
+              - generic [ref=e206]:
+                - generic [ref=e208]: Facebook · Khoa KH&KT Máy Tính - ĐH Bách Khoa TPHCM
+                - generic [ref=e210]: 2 kommenttia · 2 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e211] [cursor=pointer]:
+              - img [ref=e214]
+          - generic [ref=e218]:
+            - text: migrating our current robot projects to
+            - emphasis [ref=e219]: Nvidia Jetson
+            - text: (from
+            - emphasis [ref=e220]: drone
+            - text: flight controller and arduinos). ...
+            - emphasis [ref=e221]: edge AI
+            - text: tools. ✓ React / Node.js ...
+        - generic [ref=e225]:
+          - generic [ref=e228]:
+            - link "Autonomous Indoor Drones and the Future of Objective ... arXiv https://arxiv.org › html" [ref=e230] [cursor=pointer]:
+              - /url: https://arxiv.org/html/2508.01965v1
+              - heading "Autonomous Indoor Drones and the Future of Objective ..." [level=3] [ref=e231]
+              - generic [ref=e236]:
+                - generic [ref=e238]: arXiv
+                - generic [ref=e240]: https://arxiv.org › html
+            - generic [ref=e241]:
+              - generic [ref=e242]: ·
+              - link "Käännä tämä sivu" [ref=e243] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2508.01965v1
+            - button "Tietoja tästä tuloksesta" [ref=e244] [cursor=pointer]:
+              - img [ref=e247]
+          - generic [ref=e250]:
+            - generic [ref=e251]: 4.8.2025 —
+            - generic [ref=e252]:
+              - text: This constraint drives innovation in
+              - emphasis [ref=e253]: edge AI
+              - text: and efficient processing architectures. Researchers must develop algorithms that extract ...
+          - generic [ref=e255]:
+            - text: "Puuttuu: syllabus ‎| Hae tällä:"
+            - link "syllabus" [ref=e256] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+%22syllabus%22+2024+OR+2025&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ5t4CegQIIRAB
+        - generic [ref=e260]:
+          - generic [ref=e263]:
+            - link "Physical AI TechRxiv https://www.techrxiv.org › master › file › data" [ref=e265] [cursor=pointer]:
+              - /url: https://www.techrxiv.org/users/913189/articles/1355704/master/file/data/physical%20aiv7_compressed/physical%20aiv7_compressed.pdf
+              - heading "Physical AI" [level=3] [ref=e266]
+              - generic [ref=e271]:
+                - generic [ref=e273]: TechRxiv
+                - generic [ref=e275]: https://www.techrxiv.org › master › file › data
+            - generic [ref=e276]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e277] [cursor=pointer]:
+              - img [ref=e280]
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e284]: 27.9.2025 —
+              - generic [ref=e285]:
+                - emphasis [ref=e286]: Edge AI
+                - text: ", probabilistic modeling, and sensor fusion drive this evolution from automation to assistance [197], [198]. Typical exam- ples include ..."
+            - generic [ref=e287]: 54 sivua
+        - generic [ref=e291]:
+          - generic [ref=e294]:
+            - 'link "Predictive Autonomy for UAV Remote Sensing: A Survey of ... MDPI https://www.mdpi.com › ..." [ref=e296] [cursor=pointer]':
+              - /url: https://www.mdpi.com/2072-4292/17/20/3423
+              - 'heading "Predictive Autonomy for UAV Remote Sensing: A Survey of ..." [level=3] [ref=e297]'
+              - generic [ref=e302]:
+                - generic [ref=e304]: MDPI
+                - generic [ref=e306]: https://www.mdpi.com › ...
+            - generic [ref=e307]:
+              - generic [ref=e308]: ·
+              - link "Käännä tämä sivu" [ref=e309] [cursor=pointer]:
+                - /url: https://www.mdpi.com/2072-4292/17/20/3423
+            - button "Tietoja tästä tuloksesta" [ref=e310] [cursor=pointer]:
+              - img [ref=e313]
+          - generic [ref=e316]:
+            - generic [ref=e317]: kirjoittanut Z Chen · 2025 · Viittausten määrä 4 —
+            - generic [ref=e318]:
+              - text: "(ii) Compute and Memory Footprint: Onboard processors (e.g.,"
+              - emphasis [ref=e319]: NVIDIA Jetson
+              - text: ... Summary of advanced
+              - emphasis [ref=e320]: training
+              - text: paradigms.
+              - emphasis [ref=e321]: Curriculum
+              - text: and Multi-Stage
+              - emphasis [ref=e322]: Training
+              - text: .
+          - generic [ref=e324]:
+            - text: "Puuttuu: syllabus ‎| Hae tällä:"
+            - link "syllabus" [ref=e325] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+%22syllabus%22+2024+OR+2025&sa=X&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ5t4CegQIGxAB
+        - generic [ref=e329]:
+          - generic [ref=e332]:
+            - 'link "Robotics AI Master Roadmap: A 4-Year Plan for B.Tech in ... Studocu https://www.studocu.com › robotic..." [ref=e334] [cursor=pointer]':
+              - /url: https://www.studocu.com/in/document/lovely-professional-university/robotic-process-automation/robotics-ai-master-roadmap-a-4-year-plan-for-btech-in-robotics/150088072
+              - 'heading "Robotics AI Master Roadmap: A 4-Year Plan for B.Tech in ..." [level=3] [ref=e335]'
+              - generic [ref=e340]:
+                - generic [ref=e342]: Studocu
+                - generic [ref=e344]: https://www.studocu.com › robotic...
+            - generic [ref=e345]:
+              - generic [ref=e346]: ·
+              - link "Käännä tämä sivu" [ref=e347] [cursor=pointer]:
+                - /url: https://www.studocu.com/in/document/lovely-professional-university/robotic-process-automation/robotics-ai-master-roadmap-a-4-year-plan-for-btech-in-robotics/150088072
+            - button "Tietoja tästä tuloksesta" [ref=e348] [cursor=pointer]:
+              - img [ref=e351]
+          - generic [ref=e355]:
+            - text: ...
+            - emphasis [ref=e356]: Edge AI
+            - text: ": TensorFlow Lite, Quantization CV: YOLOv5, Object Tracking ..."
+            - emphasis [ref=e357]: Course
+            - text: ":"
+            - emphasis [ref=e358]: course
+            - text: .fast -
+            - emphasis [ref=e359]: NVIDIA Jetson
+            - text: "AI Labs. YEAR 3: SYSTEM INTEGRATION + ..."
+          - generic [ref=e362]:
+            - img "Arvio 5,0/5 (2) käyttäjäarvostelua" [ref=e364]:
+              - text: 5,0
+              - img [ref=e365]
+              - text: (2)
+            - button [ref=e370]:
+              - img [ref=e372]
+        - generic [ref=e377]:
+          - generic [ref=e380]:
+            - link "Drones and Unmanned Systems International Frequency Sensor Association https://sensorsportal.com › DOWNLOADS › DAU..." [ref=e382] [cursor=pointer]:
+              - /url: https://sensorsportal.com/DOWNLOADS/DAUS_2025_Proceedings.pdf
+              - heading "Drones and Unmanned Systems" [level=3] [ref=e383]
+              - generic [ref=e388]:
+                - generic [ref=e390]: International Frequency Sensor Association
+                - generic [ref=e392]: https://sensorsportal.com › DOWNLOADS › DAU...
+            - generic [ref=e393]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e394] [cursor=pointer]:
+              - img [ref=e397]
+          - generic [ref=e399]:
+            - generic [ref=e401]:
+              - text: ...
+              - emphasis [ref=e402]: Nvidia Jetson
+              - text: Orin Nano mounted on the. UAV on top of the FC. By using specialized. externalControllerMessages [21], the desired position. L. P is sent to the ...
+            - generic [ref=e403]: 305 sivua
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - link "Mastering Drone Technology With AI | PDF Scribd https://www.scribd.com › document" [ref=e412] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/928011633/Mastering-Drone-Technology-With-AI
+              - heading "Mastering Drone Technology With AI | PDF" [level=3] [ref=e413]
+              - generic [ref=e418]:
+                - generic [ref=e420]: Scribd
+                - generic [ref=e422]: https://www.scribd.com › document
+            - generic [ref=e423]:
+              - generic [ref=e424]: ·
+              - link "Käännä tämä sivu" [ref=e425] [cursor=pointer]:
+                - /url: https://www.scribd.com/document/928011633/Mastering-Drone-Technology-With-AI
+            - button "Tietoja tästä tuloksesta" [ref=e426] [cursor=pointer]:
+              - img [ref=e429]
+          - generic [ref=e433]:
+            - text: ...
+            - emphasis [ref=e434]: Drones
+            - text: equipped with cutting-
+            - emphasis [ref=e435]: edge AI
+            - text: and sophisticated sensor technologies can cover large areas and provide real-time data for various vital uses, such as ...
+        - generic [ref=e439]:
+          - generic [ref=e442]:
+            - link "Arjun S Nair - Ex-ASIC Design Intern @ NVIDIA LinkedIn · Arjun S Nair Yli 2,1 t. seuraajaa" [ref=e444] [cursor=pointer]:
+              - /url: https://in.linkedin.com/in/arjun-s-nair593
+              - heading "Arjun S Nair - Ex-ASIC Design Intern @ NVIDIA" [level=3] [ref=e445]
+              - generic [ref=e450]:
+                - generic [ref=e452]: LinkedIn · Arjun S Nair
+                - generic [ref=e454]: Yli 2,1 t. seuraajaa
+            - button "Tietoja tästä tuloksesta" [ref=e455] [cursor=pointer]:
+              - img [ref=e458]
+          - generic [ref=e460]:
+            - generic [ref=e461]: Indore, Madhya Pradesh, India · Undergraduate Researcher · NSDCS Lab, IIT INDORE
+            - generic [ref=e463]:
+              - text: Gained valuable experience working on
+              - emphasis [ref=e464]: Drones
+              - text: ","
+              - emphasis [ref=e465]: PX4
+              - text: Firmware, Quadrotor Dynamics and Adaptive Control Systems Design. -Participated in Inter-IIT Techmeet 12.0 ...
+        - generic [ref=e469]:
+          - generic [ref=e472]:
+            - link "Master's Theses since 2000 - IFI UZH - Universität Zürich Department of Informatics | UZH https://www.ifi.uzh.ch › publications" [ref=e474] [cursor=pointer]:
+              - /url: https://www.ifi.uzh.ch/en/research/publications/masters-theses.html
+              - heading "Master's Theses since 2000 - IFI UZH - Universität Zürich" [level=3] [ref=e475]
+              - generic [ref=e480]:
+                - generic [ref=e482]: Department of Informatics | UZH
+                - generic [ref=e484]: https://www.ifi.uzh.ch › publications
+            - generic [ref=e485]:
+              - generic [ref=e486]: ·
+              - link "Käännä tämä sivu" [ref=e487] [cursor=pointer]:
+                - /url: https://www.ifi.uzh.ch/en/research/publications/masters-theses.html
+            - button "Tietoja tästä tuloksesta" [ref=e488] [cursor=pointer]:
+              - img [ref=e491]
+          - generic [ref=e495]:
+            - text: ...
+            - emphasis [ref=e496]: NVIDIA Jetson
+            - text: "Orin platform. “Because I can promise you: if you're studying people with lived experience of trauma, secondary trauma will happen ..."
+      - navigation [ref=e499]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e500]
+        - text: "1"
+        - link "Page 2" [ref=e503] [cursor=pointer]:
+          - /url: /search?q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sca_esv=a73392c086c649e8&ei=kTXSadbXB6HhwPAPgtLEiQI&start=10&sa=N&sstk=Af77f_ceqF8KIUMri0Yt9AMHMAT-H9FKx_srY-YFGfkkFgjaEDLkNxtmB_fgoouyR68YruKn7H4ac3krHrI4xSJ-RUyV87uPb9z30w&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ8tMDegQIOBAE
+          - text: "2"
+        - link "Page 3" [ref=e505] [cursor=pointer]:
+          - /url: /search?q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sca_esv=a73392c086c649e8&ei=kTXSadbXB6HhwPAPgtLEiQI&start=20&sa=N&sstk=Af77f_ceqF8KIUMri0Yt9AMHMAT-H9FKx_srY-YFGfkkFgjaEDLkNxtmB_fgoouyR68YruKn7H4ac3krHrI4xSJ-RUyV87uPb9z30w&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ8tMDegQIOBAG
+          - text: "3"
+        - heading "Seuraava" [level=2] [ref=e507]:
+          - link "Seuraava" [ref=e508] [cursor=pointer]:
+            - /url: /search?q=ROS2+PX4+drone+course+curriculum+%22NVIDIA+Jetson%22+OR+%22edge+AI%22+PyTorch+training+syllabus+2024+OR+2025&sca_esv=a73392c086c649e8&ei=kTXSadbXB6HhwPAPgtLEiQI&start=10&sa=N&sstk=Af77f_ceqF8KIUMri0Yt9AMHMAT-H9FKx_srY-YFGfkkFgjaEDLkNxtmB_fgoouyR68YruKn7H4ac3krHrI4xSJ-RUyV87uPb9z30w&ved=2ahUKEwiW5PbOvNaTAxWhMBAIHQIpMSEQ8NMDegQIOBAI
+            - generic [ref=e510]: Seuraava
+      - navigation
+    - contentinfo [ref=e511]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e512]
+      - generic [ref=e516]:
+        - generic [ref=e518]:
+          - text: Suomi
+          - generic [ref=e520]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e522] [cursor=pointer]:
+              - generic [ref=e523]: 00920, Helsinki
+              - generic [ref=e525]:
+                - text: "-"
+                - generic [ref=e526]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e528] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e531]:
+          - link "Ohje" [ref=e532] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e533] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e534] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e535] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

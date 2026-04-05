@@ -1,0 +1,241 @@
+- generic [active] [ref=e1]:
+  - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - text:    
+      - generic [ref=e9]:
+        - link "Veronmaksajat - etusivulle" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Veronmaksajat - etusivulle" [ref=e12]
+        - generic [ref=e14]:
+          - link "Kirjaudu" [ref=e16] [cursor=pointer]:
+            - /url: https://www.veronmaksajat.fi/ssl/kirjaudu/?redirect=https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/muut-sijoitukset/2021/ps-tili/
+            - generic [ref=e17]: 
+          - link "Ostoskori" [ref=e19] [cursor=pointer]:
+            - /url: /tapahtumat-ja-julkaisut/verkkokauppa/ostoskori/
+            - generic [ref=e20]: 
+          - link "Haku" [ref=e22] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e23]: 
+          - link "Valikko" [ref=e25] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e26]: 
+    - generic [ref=e28]:
+      - link "Etusivu" [ref=e29] [cursor=pointer]:
+        - /url: /
+      - link "Veroneuvontapalvelu" [ref=e30] [cursor=pointer]:
+        - /url: /neuvot/
+      - link "Henkilöverotus" [ref=e31] [cursor=pointer]:
+        - /url: /neuvot/henkiloverotus/
+      - link "Sijoittaminen" [ref=e32] [cursor=pointer]:
+        - /url: /neuvot/henkiloverotus/sijoittaminen/
+      - link "Muut sijoitukset" [ref=e33] [cursor=pointer]:
+        - /url: /neuvot/henkiloverotus/sijoittaminen/muut-sijoitukset/
+      - generic [ref=e34]: PS-tili
+    - generic [ref=e35]:
+      - navigation [ref=e39]:
+        - generic [ref=e41]:
+          - paragraph [ref=e42]: "Lisää aiheesta:"
+          - link "Sijoittaminen" [ref=e43] [cursor=pointer]:
+            - /url: /neuvot/henkiloverotus/sijoittaminen/
+            - strong [ref=e44]: Sijoittaminen
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Osingot yksityishenkilöillä" [ref=e48] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/osingot-yksityishenkiloilla/
+              - img [ref=e49]
+              - generic [ref=e51]: Osingot yksityishenkilöillä
+          - listitem [ref=e52]:
+            - link "Myyntivoitot ja -tappiot" [ref=e53] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/
+              - img [ref=e54]
+              - generic [ref=e56]: Myyntivoitot ja -tappiot
+          - listitem [ref=e57]:
+            - link "Vuokratulot" [ref=e58] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/vuokratulot/
+              - img [ref=e59]
+              - generic [ref=e61]: Vuokratulot
+          - listitem [ref=e62]:
+            - link "Vakuutukset" [ref=e63] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/vakuutukset/
+              - img [ref=e64]
+              - generic [ref=e66]: Vakuutukset
+          - listitem [ref=e67]:
+            - link "Osakesäästötili" [ref=e68] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/osakesaastotili/
+              - img [ref=e69]
+              - generic [ref=e71]: Osakesäästötili
+          - listitem [ref=e72]:
+            - link "Muut sijoitukset" [ref=e73] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/muut-sijoitukset/
+              - img [ref=e74]
+              - generic [ref=e76]: Muut sijoitukset
+          - listitem [ref=e77]:
+            - link "Ulkomaan pääomatulot" [ref=e78] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/ulkomaan-paaomatulot/
+              - img [ref=e79]
+              - generic [ref=e81]: Ulkomaan pääomatulot
+          - listitem [ref=e82]:
+            - link "Tappioiden vähentäminen" [ref=e83] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/tappioiden-vahentaminen/
+              - img [ref=e84]
+              - generic [ref=e86]: Tappioiden vähentäminen
+          - listitem [ref=e87]:
+            - link "Velat ja korot" [ref=e88] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/velat-ja-korot/
+              - img [ref=e89]
+              - generic [ref=e91]: Velat ja korot
+      - generic [ref=e92]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - link "Muut sijoitukset" [ref=e96] [cursor=pointer]:
+              - /url: /neuvot/henkiloverotus/sijoittaminen/muut-sijoitukset/
+              - img [ref=e97]
+              - generic [ref=e99]: Muut sijoitukset
+            - generic [ref=e101]: 4.1.2026
+          - heading "PS-tilien maksut ja verotus" [level=1] [ref=e102]
+          - complementary [ref=e104]:
+            - button "Kuuntele" [ref=e107] [cursor=pointer]:
+              - img [ref=e109]
+              - generic [ref=e111]: Kuuntele
+          - paragraph [ref=e112]: Lisäturvaa eläkevuosiin voi kartuttaa sijoittamalla ps-tilin (pitkäaikaissäästötili) kautta esimerkiksi talletuksiin, osakkeisiin tai rahasto-osuuksiin tai hankkimalla vapaaehtoisen eläkevakuutuksen.
+          - paragraph [ref=e113]: Verottaja tukee eläkesäästäjää verovähennyksellä, joka alentaa maksettavia veroja enimmillään 1 700 euroa vuodessa. Maksimivähennyksen saa, jos on vuoden aikana säästänyt ps-tilille ja/tai vapaaehtoiseen eläkevakuutuksen yhteensä 5 000 euroa ja verotettavat pääomatulot ovat yli 30 000 euroa.
+          - paragraph [ref=e114]: Verovähennyksen edellytyksenä on, että eläkesäästöjä ryhdytään nostamaan vasta, kun säästäjä on eläkeiässä. Vähimmäiseläkeikä riippuu syntymävuodesta ja siitä, onko ps-tili aloitettu ennen 1.1.2013 vai sen jälkeen.
+          - heading "Säästäminen ps-tilille" [level=2] [ref=e115]
+          - paragraph [ref=e116]: Laki ps-tilistä tuli voimaan vuoden 2010 alussa. Ps-tiliä käytettäessä säästäjä tekee säästämissopimuksen esimerkiksi pankin, rahastoyhtiön tai sijoituspalveluyrityksen kanssa. Sopimuksessa määritellään muun muassa, kuinka maksuja maksetaan, mihin varoja sijoitetaan sekä minkälaisia riskejä sijoituksissa otetaan.
+          - paragraph [ref=e117]: Sopimuksen teon jälkeen säästäjä maksaa maksut sopimuksessa määritellylle säästämistilille, ps-tilille, josta palveluntarjoaja siirtää ja sijoittaa varat sovitulla tavalla erilaisiin sijoituskohteisiin.
+          - paragraph [ref=e118]:
+            - img "Laki ps-tilistä tuli voimaan vuoden 2010 alussa." [ref=e119]
+          - paragraph [ref=e120]: Sijoitetuille varoille kertyvä tuotto maksetaan ps-tilille, josta palveluntarjoaja siirtää varat sovittujen periaatteiden mukaan eri sijoituskohteisiin. Tuottoa ei veroteta säästämisaikana. Näin on mahdollisuus saada ”korkoa korolle”.
+          - paragraph [ref=e121]: Ps-sopimuksen varat ovat säästäjän omaisuutta, mutta niiden nostaminen on pääsäännön mukaan mahdollista vasta, kun säästäjä on eläkeiässä. Käyttöoikeus ps-sopimuksen varoihin on säästämisaikana yksin palveluntarjoajalla. Riski sijoitusten epäonnistumisesta on kuitenkin säästäjällä. Lisäksi pitkäaikaissäästämissopimuksen perusteella hallittujen varojen hoitokuluja tai tappioita ei voi vähentää säästäjän muun sijoitustoiminnan mahdollisista tuloista.
+          - heading "Maksujen vähentäminen verotuksessa" [level=2] [ref=e122]
+          - paragraph [ref=e123]: Eläkesäästäjä voi vähentää kaikista vuoden aikana tekemistään eläkesäästöistä (ps-tili ja vapaaehtoinen eläkevakuutus yhdessä) enintään 5 000 euroa. Maksut vähennetään pääomatuloista. 5 000 euron vähennys merkitsee yleensä 1 500 euroa vähemmän maksettavia veroja. Koska pääomaveroprosentti 30 000 euroa ylittävistä pääomatuloista on 34, voi verohyöty olla jopa 1 700 euroa vuodessa.
+          - paragraph [ref=e124]: Maksut vähennetään varoihin oikeutetun henkilön verotuksessa, vaikka säästösopimuksen olisi tehnyt ja maksut maksanut tämän puoliso. Jos henkilöllä ei ole pääomatuloja tai pääomatulot eivät riitä maksujen vähentämiseen, 30 prosenttia vähentämättä jääneestä määrästä voidaan vähentää erityisenä alijäämähyvityksenä ansiotulosta menevästä verosta. Alijäämähyvitys vähennetään automaattisesti puolison verotuksessa, ellei vakuutetulla itsellään ole riittävästi ansiotuloista määrättyjä veroja.
+          - heading "Maksettavan eläkkeen nostaminen ja verotus" [level=2] [ref=e125]
+          - paragraph [ref=e126]: Ps-tilille säästetyt varat verotetaan pääomatuloina, kun niitä aikanaan nostetaan tililtä omaan käyttöön.
+          - paragraph [ref=e127]: Ps-sopimuksen varojen nostaminen on mahdollista vasta, kun säästäjä on eläkeiässä. Säästöjä voi alkaa nostaa laissa tarkemmin määrätyn iän saavuttamisen jälkeen. Ennen vuotta 2013 tehdyissä sopimuksissa nostot voi aloittaa säästäjän syntymävuodesta riipuen 63–68-vuotiaana ja uudemmissa sopimuksissa 68–70-vuotiaana. Lisäksi edellytetään, että säästetyt varat nostetaan aikanaan 10 vuoden tai sitä pitemmän ajan kuluessa.
+          - paragraph [ref=e128]: Vaikka säästäjä haluaisi nostaa varat ennen eläkeikäänsä, se on mahdollista ilman korotettuja veroseuraamuksia vain erityistapauksissa. Säästöt voidaan nostaa kriisitilanteessa, jollainen on vähintään vuoden kestänyt työttömyys tai säästäjän joutuminen pysyvästi työkyvyttömäksi tai osatyökyvyttömäksi. Säästöjen nostaminen on mahdollista myös puolison kuollessa sekä avioerotilanteessa.
+          - heading "Ps-tilin siirto" [level=2] [ref=e129]
+          - paragraph [ref=e130]: Ps-sopimuksen tehnyt voi ilman veroseuraamuksia siirtää säästönsä yhdeltä palveluntarjoajalta toiselle. Siirto on mahdollista irtisanomalla vanha sopimus ja tekemällä uusi säästösopimus toisen palvelutarjoajan kanssa. Tämän jälkeen irtisanottu palveluntarjoaja siirtää säästövarat uuden palvelutarjoajan hallintaan. Sitä, minkälaisia kuluja palveluntarjoajat näistä siirroista veloittavat, ei ole säädelty.
+          - heading "Verotus kuolemantapauksissa" [level=2] [ref=e131]
+          - paragraph [ref=e132]: Eläkesäästäjän kuollessa verottaja verottaa säästöt sekä tulona että perintönä.
+          - paragraph [ref=e133]: Nostamattomat säästövarat verotetaan kuolinhetken mukaisen arvon mukaan kuolinpesän tai testamentinsaajaan pääomatulona. Pääomatulon veroprosentti on ollut vuoden 2016 alusta lähtien 30 ja 30 000 euroa ylittävältä osalta 34. Loppuosa varoista verotetaan perintöverotuksessa perintönä. Perintövero on noin 7–19 prosenttia, jos perilliset ovat säästäjän lapsia.
+          - paragraph [ref=e134]
+          - paragraph [ref=e135]:
+            - strong [ref=e136]: Vapaaehtoisen yksilöllisen eläkevakuutuksen ja ps-sopimusten maksujen vähennyskelpoisuuden poistoa koskeva laki tulee voimaan 1.1.2027.
+          - paragraph [ref=e137]: Vuoden 2027 alusta eläke- ja pitkäaikaissäästäjän veroetu poistuu. Edun poistaminen kohdistuu sekä olemassa oleviin sopimuksiin, että mahdollisiin uusiin sopimuksiin. Muutos on merkittävä, koska nämä eläkesijoitussopimukset ovat tarkoituksellisesti pitkäkestoisia.
+        - generic [ref=e138]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - heading "Löysitkö etsimäsi tiedon tältä sivulta?" [level=2] [ref=e143]
+              - generic [ref=e144]: Vastauksia 69 kpl
+            - group "Löysitkö etsimäsi tiedon tältä sivulta?" [ref=e145]:
+              - button "Kyllä" [ref=e147] [cursor=pointer]:
+                - generic [ref=e149]: 
+                - generic [ref=e150]: Kyllä
+                - generic [ref=e151]: "+1"
+              - button "En" [ref=e153] [cursor=pointer]:
+                - generic [ref=e155]: 
+                - generic [ref=e156]: En
+                - generic [ref=e157]: "+1"
+              - button "Hyödyllinen" [ref=e159] [cursor=pointer]:
+                - generic [ref=e161]: 
+                - generic [ref=e162]: Hyödyllinen
+                - generic [ref=e163]: "+1"
+              - button "Sisältö oli epäselvää" [ref=e165] [cursor=pointer]:
+                - generic [ref=e167]: 
+                - generic [ref=e168]: Sisältö oli epäselvää
+                - generic [ref=e169]: "+1"
+            - status [ref=e170]
+          - paragraph [ref=e172]:
+            - generic [ref=e173]: 
+            - text: Tällä sivustolla oleva informaatio on luonteeltaan yleistä tiedotusta, eikä sitä ole tarkoitettu yksilölliseksi veroneuvonnaksi tai konkreettisten päätösten perusteeksi. Sisältö pyritään pitämään ajan tasalla, mutta tekstien oikeellisuutta, kattavuutta tai ajantasaisuutta ei voida taata.
+          - link " Tulosta sivu" [ref=e174] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e175]: 
+            - text: Tulosta sivu
+    - generic "[Missing text '/footer/contect' for 'Finnish']" [ref=e176]:
+      - link "Veronmaksajat Puolenpitoa" [ref=e178] [cursor=pointer]:
+        - /url: /
+        - img "Veronmaksajat Puolenpitoa" [ref=e179]
+      - generic [ref=e180]:
+        - generic [ref=e185]:
+          - textbox "Haku koko sivustolta" [ref=e186]
+          - button "" [ref=e187] [cursor=pointer]:
+            - generic [ref=e188]: 
+        - generic [ref=e189]:
+          - heading "Liity Veronmaksajien jäseneksi. Vain 37 € vuodessa + 8 € liittymismaksu!" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - link "Liity jäseneksi" [ref=e192] [cursor=pointer]:
+              - /url: /jasenpalvelut/liity/liity-jaseneksi/
+            - link "Nämä edut saat" [ref=e193] [cursor=pointer]:
+              - /url: /jasenpalvelut/jasenedut/
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]: Veronmaksajain Keskusliitto
+            - generic [ref=e197]: Kalevankatu 4, 00100 Helsinki
+            - link "Puhelin" [ref=e199] [cursor=pointer]:
+              - /url: tel:09 618 871
+              - generic [ref=e200]: 
+              - text: Vaihde 09 618 871
+            - link "Puhelin" [ref=e202] [cursor=pointer]:
+              - /url: tel:03 010 5511
+              - generic [ref=e203]: 
+              - text: Jäsenpalvelu 03 010 5511
+            - link "Sähköposti" [ref=e205] [cursor=pointer]:
+              - /url: mailto:veronmaksajat@veronmaksajat.fi
+              - generic [ref=e206]: 
+              - text: veronmaksajat@veronmaksajat.fi
+            - generic [ref=e207]:
+              - link "Liiton Facebook-sivut" [ref=e208] [cursor=pointer]:
+                - /url: https://www.facebook.com/veronmaksajat/
+                - generic [ref=e209]: 
+              - link "Liitto X:ssä" [ref=e210] [cursor=pointer]:
+                - /url: https://x.com/veronmaksajat
+                - generic [ref=e211]: 
+              - link "Liitto Instagramissa" [ref=e212] [cursor=pointer]:
+                - /url: https://www.instagram.com/veronmaksajat_ry/
+                - generic [ref=e213]: 
+              - link "Liitto LinkedInissä" [ref=e214] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/veronmaksajain-keskusliitto-ry/
+                - generic [ref=e215]: 
+          - list [ref=e217]:
+            - listitem [ref=e218]:
+              - text: 
+              - link "Veroneuvonta" [ref=e219] [cursor=pointer]:
+                - /url: /neuvot/
+            - listitem [ref=e220]:
+              - text: 
+              - link "Tutkimus & tilastot" [ref=e221] [cursor=pointer]:
+                - /url: /tutkimus-ja-tilastot/
+            - listitem [ref=e222]:
+              - text: 
+              - link "Tapahtumat & julkaisut" [ref=e223] [cursor=pointer]:
+                - /url: /tapahtumat-ja-julkaisut/
+            - listitem [ref=e224]:
+              - text: 
+              - link "Medialle" [ref=e225] [cursor=pointer]:
+                - /url: /medialle/
+            - listitem [ref=e226]:
+              - text: 
+              - link "Jäsenyys" [ref=e227] [cursor=pointer]:
+                - /url: /jasenpalvelut/
+            - listitem [ref=e228]:
+              - text: 
+              - link "Veronmaksajat" [ref=e229] [cursor=pointer]:
+                - /url: /veronmaksajat/
+            - listitem [ref=e230]:
+              - text: 
+              - link "TaxFax" [ref=e231] [cursor=pointer]:
+                - /url: /taxfax/
+            - listitem [ref=e232]:
+              - text: 
+              - link "Jäsenpalvelun yhteystiedot" [ref=e233] [cursor=pointer]:
+                - /url: /jasenpalvelut/jasenpalvelun-yhteystiedot/
+    - generic [ref=e234]:
+      - text: Evästeasetukset
+      - link "Tietosuojaseloste" [ref=e235] [cursor=pointer]:
+        - /url: /jasenpalvelut/tietosuoja/
+      - link "Saavutettavuusseloste" [ref=e236] [cursor=pointer]:
+        - /url: /y/saavutettavuusseloste/

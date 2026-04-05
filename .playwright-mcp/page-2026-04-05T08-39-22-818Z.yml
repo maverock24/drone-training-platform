@@ -1,0 +1,484 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Hyppää sisältöön" [ref=e5] [cursor=pointer]:
+      - /url: "#yle__contentAnchor"
+      - generic [ref=e6]: Hyppää sisältöön
+    - banner [ref=e7]:
+      - generic [ref=e9]:
+        - link "Yle.fi etusivu" [ref=e11] [cursor=pointer]:
+          - /url: https://yle.fi/
+          - img [ref=e12]
+          - generic [ref=e17]: Etusivu
+        - navigation "Pinnalla nyt" [ref=e20]:
+          - link "Venäjän hyökkäys" [ref=e21] [cursor=pointer]:
+            - /url: https://yle.fi/t/18-334977/fi
+          - link "Iranin sota" [ref=e22] [cursor=pointer]:
+            - /url: https://yle.fi/t/18-369216/fi
+          - link "Droonit Suomessa" [ref=e23] [cursor=pointer]:
+            - /url: https://yle.fi/t/18-369682/fi
+        - button "Kirjaudu" [ref=e25]:
+          - generic [ref=e26]: Kirjaudu
+          - img [ref=e27]
+        - link "Hae" [ref=e30] [cursor=pointer]:
+          - /url: https://haku.yle.fi
+          - img [ref=e31]
+        - generic [ref=e34]:
+          - switch "Aiheet ja palvelut -valikko" [ref=e35]
+          - generic "Aiheet ja palvelut -valikko" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - img [ref=e38]
+              - img [ref=e40]
+    - banner [ref=e42]:
+      - generic [ref=e43]:
+        - link "Etusivulle" [ref=e44] [cursor=pointer]:
+          - /url: /
+          - img [ref=e46]
+          - generic [ref=e48]: Etusivulle
+        - generic [ref=e49]:
+          - link "Lue kommentteja, 99 kommenttia" [ref=e50] [cursor=pointer]:
+            - /url: "#comments"
+            - img [ref=e52]
+            - generic [ref=e54]: Lue kommentteja (99)
+          - button "Jaa" [ref=e55] [cursor=pointer]:
+            - img [ref=e57]
+            - generic [ref=e59]: Jaa
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - main [ref=e62]:
+          - article [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - link "Lisää artikkeleita aiheesta Asuminen" [ref=e70] [cursor=pointer]:
+                  - /url: https://yle.fi/t/18-216121/fi
+                  - text: Asuminen
+                - 'heading "Asuntokaupan käänne ei tulekaan – PTT ennustaa viidettä laskevien hintojen vuotta: katso lista kaupungeista" [level=1] [ref=e71]'
+                - paragraph [ref=e72]: Monet pankit ovat jo ehtineet ennustaa, että asuntojen hinnat nousevat tänä vuonna.
+                - 'figure "Asuntokauppa viriää, mutta PTT:n ennusteen mukaan hintojen lasku jatkuu vieläkin. Kuva: Antti Eintola / Yle" [ref=e73]':
+                  - generic [ref=e76] [cursor=pointer]:
+                    - img "Kiinteistövälittäjä Pekka Salo ja toimittaja Helmi Soininvaara myytävänä olevassa huoneistossa." [ref=e79]
+                    - button "Avaa kuvien katselu" [ref=e81]:
+                      - generic [ref=e82]: Avaa kuvien katselu
+                  - generic [ref=e83]:
+                    - text: Asuntokauppa viriää, mutta PTT:n ennusteen mukaan hintojen lasku jatkuu vieläkin.
+                    - generic [ref=e84]: "Kuva: Antti Eintola / Yle"
+                - list "Tekijä" [ref=e86]:
+                  - listitem [ref=e87]:
+                    - link "Antti Parviala" [ref=e88] [cursor=pointer]:
+                      - /url: https://yle.fi/p/56-74-17/fi
+                - time [ref=e91]: 12.2. 10:30
+                - button "Kuuntele juttu 3:42" [ref=e93] [cursor=pointer]:
+                  - img [ref=e96]
+                  - generic [ref=e98]: Kuuntele juttu 3:42
+              - generic [ref=e100]:
+                - complementary "Faktalaatikko" [ref=e101]:
+                  - generic [ref=e103]:
+                    - generic [ref=e104]:
+                      - heading "Juttu tiivistettynä" [level=2] [ref=e106]
+                      - generic [ref=e108]:
+                        - button "Lisätietoa tiivistelmästä" [ref=e109] [cursor=pointer]:
+                          - img [ref=e111]
+                        - region
+                    - generic:
+                      - generic:
+                        - list:
+                          - listitem: Asuntojen hintojen lasku jatkuu viidettä vuotta peräkkäin, ennustaa Pellervon taloustutkimus PTT. Hinnat laskevat tänä vuonna prosentin.
+                          - listitem: Laskua selittävät kotitalouksien epävarma taloustilanne sekä runsas asuntojen tarjonta.
+                          - listitem: PTT:n ennuste on ristiriidassa pankkien kanssa, jotka odottavat pientä hintojen nousua.
+                    - button "Avaa Faktalaatikko" [ref=e114] [cursor=pointer]:
+                      - generic [ref=e115]: Avaa
+                      - img [ref=e117]
+                - paragraph [ref=e119]: Asuntomarkkinoiden käännettä parempaa on turha odottaa vielä tänäkään vuonna. Pellervon taloustutkimuksen (PTT) ennusteen mukaan asuntojen hintojen lasku jatkuu myös tämän vuoden eli jo viidettä vuotta peräkkäin.
+                - paragraph [ref=e120]: PTT:n mukaan vanhojen kerrostaloasuntojen hinnat laskevat tänä vuonna koko maassa prosentin. Lasku on kuitenkin hidastunut viime vuoteen verrattuna, jolloin laskua on selvästi yli kaksi prosenttia.
+                - paragraph [ref=e121]: Suurista kaupungeista suurinta hintojen laskua on odotettavissa Vantaalla ja muuallakin pääkaupunkiseudulla. Ainoastaan Oulussa hinnat nousevat, joskin varsin hitaasti.
+                - table "Näin PTT ennustaa vanhjojen kerrostaloasuntojen hintojen kehitystä" [ref=e125]:
+                  - caption [ref=e126]: Näin PTT ennustaa vanhjojen kerrostaloasuntojen hintojen kehitystä
+                  - rowgroup [ref=e127]:
+                    - row "Hintojen muutos, prosenttia 2025 2026" [ref=e128]:
+                      - cell "Hintojen muutos, prosenttia" [ref=e129]:
+                        - strong [ref=e131]: Hintojen muutos, prosenttia
+                      - cell "2025" [ref=e132]:
+                        - strong [ref=e134]: "2025"
+                      - cell "2026" [ref=e135]:
+                        - strong [ref=e137]: "2026"
+                    - row "Koko maa -2,3 -1,0" [ref=e138]:
+                      - cell "Koko maa" [ref=e139]
+                      - cell "-2,3" [ref=e140]
+                      - cell "-1,0" [ref=e141]
+                    - row "Helsinki -2,0 -1,4" [ref=e142]:
+                      - cell "Helsinki" [ref=e143]
+                      - cell "-2,0" [ref=e144]
+                      - cell "-1,4" [ref=e145]
+                    - row "Espoo, Kauniainen -2,5 -1,5" [ref=e146]:
+                      - cell "Espoo, Kauniainen" [ref=e147]
+                      - cell "-2,5" [ref=e148]
+                      - cell "-1,5" [ref=e149]
+                    - row "Vantaa -4,6 -2,8" [ref=e150]:
+                      - cell "Vantaa" [ref=e151]
+                      - cell "-4,6" [ref=e152]
+                      - cell "-2,8" [ref=e153]
+                    - row "Turku -3,1 -0,8" [ref=e154]:
+                      - cell "Turku" [ref=e155]
+                      - cell "-3,1" [ref=e156]
+                      - cell "-0,8" [ref=e157]
+                    - row "Tampere -1,7 -0,5" [ref=e158]:
+                      - cell "Tampere" [ref=e159]
+                      - cell "-1,7" [ref=e160]
+                      - cell "-0,5" [ref=e161]
+                    - row "Lahti -1,3 -0,7" [ref=e162]:
+                      - cell "Lahti" [ref=e163]
+                      - cell "-1,3" [ref=e164]
+                      - cell "-0,7" [ref=e165]
+                    - row "Kuopio -4,5 -0,6" [ref=e166]:
+                      - cell "Kuopio" [ref=e167]
+                      - cell "-4,5" [ref=e168]
+                      - cell "-0,6" [ref=e169]
+                    - row "Jyväskylä -0,9 -1,4" [ref=e170]:
+                      - cell "Jyväskylä" [ref=e171]
+                      - cell "-0,9" [ref=e172]
+                      - cell "-1,4" [ref=e173]
+                    - row "Oulu -1,9 1,0" [ref=e174]:
+                      - cell "Oulu" [ref=e175]
+                      - cell "-1,9" [ref=e176]
+                      - cell "1,0" [ref=e177]
+                - paragraph [ref=e178]:
+                  - text: PTT:n ennuste poikkeaa monen muuan asuntomarkkinoita seuraavan tahon näkemyksestä. Esimerkiksi
+                  - link "Danske Bank ennustaa" [ref=e179] [cursor=pointer]:
+                    - /url: https://yle.fi/a/74-20199268
+                  - text: tälle vuodelle vajaan prosentin hintojen nousua,
+                  - link "Hypo odottaa" [ref=e180] [cursor=pointer]:
+                    - /url: https://yle.fi/a/74-20198933
+                  - text: prosentin nousua ja
+                  - link "Nordea arvioi" [ref=e181] [cursor=pointer]:
+                    - /url: https://yle.fi/a/74-20189707
+                  - text: hintojen nousevan puolitoista prosenttia. Myös
+                  - link "kiinteistövälittäjät" [ref=e182] [cursor=pointer]:
+                    - /url: https://yle.fi/a/74-20207147
+                  - text: ovat olleet toiveikkaita.
+                - paragraph [ref=e183]:
+                  - text: PTT:n vanhempi ekonomisti
+                  - strong [ref=e184]: Veera Holappa
+                  - text: arvioi, että varovaisena pysyvä talouskasvu ei riitä kääntämään asuntomarkkinoita nopeaan nousuun.
+                - paragraph [ref=e185]: – Asteittainen elpyminen on todennäköistä, mutta selkeämpi piristyminen edellyttää vahvempaa talouskasvua, työllisyyden kohenemista ja kuluttajien luottamuksen vahvistumista. Kotitalouksien epävarmuudesta on tullut tehokas jarru asuntokaupan palautumiselle, Holappa sanoo tiedotteessa.
+                - paragraph [ref=e186]: Hintojen laskua selittää kotitalouksien epävarman talousluottamuksen lisäksi toinenkin syy eli runsas asuntojen tarjonta. Se on osaltaan johtanut vuokrien heikkoon kehitykseen.
+                - paragraph [ref=e187]: Viime vuonna vuokrat nousivat aavistuksen, mutta tänä vuonna PTT ennustaa niiden taas laskevan hiukan.
+                - paragraph [ref=e188]: Tämä on omiaan pitämään asuntosijoittajia poissa markkinoilta.
+                - heading "Hinnat matelevat, kauppamäärät viriävät" [level=2] [ref=e189]
+                - paragraph [ref=e190]: Orastavasta asuntomarkkinoiden käänteestä kertoo kuitenkin se, että viime vuonna kauppamäärät kasvoivat jo selvästi.
+                - paragraph [ref=e191]: Kiinteistönvälittäjien kautta tehtyjen asuntokauppojen määrä kasvoi koko maassa viime vuonna yli kymmenen prosenttia. Kasvu painottui selvästi pääkaupunkiseudulle, jossa vanhojen kerrostaloasuntojen kauppamäärät nousivat 19 prosenttia. Koko maan tasolla vanhoja kerrostaloasuntoja myytiin keskimäärin noin 2 300 kappaletta kuukaudessa, PTT:n ennusteessa sanotaan.
+                - paragraph [ref=e192]: Myyntiaikojen tasaantuminen viittaa siihen, että kysyntä on kääntymässä vähitellen parempaan, vaikka markkina toimii edelleen vaisulla tasolla. Tänä vuonna myyntiaikojen lyhentymisen ennakoidaan jatkuvan ja kauppamäärien kasvavan jonkin verran.
+                - figure [ref=e193]
+                - paragraph [ref=e195]: Holappa arvioi, että rakennusalalla käänne parempaan nähdään aikaisintaan ensi vuonna. Vaisua rakentamista ennakoi se, että myönnettyjen rakennuslupien määrä jatkaa laskussa.
+                - paragraph [ref=e196]: Holapan mukaan asuntorakentamisen lamasta ei ole helppoa tietä ylös, vaan toipuminen tapahtuu hitaasti.
+                - paragraph [ref=e197]: – Alan suhdannevaihtelut ovat viime vuosina muuttuneet yhä rajummiksi, ja ne heijastuvat vahvasti talouskasvuun ja kotitalouksien hyvinvointiin. Pitkällä aikavälillä vaihteluja olisi tärkeää pystyä tasapainottamaan, PTT:n ennusteessa sanotaan.
+                - paragraph [ref=e198]: PTT:n mukaan valtion tukemaa asuntorahoitusta pitäisi jatkaa, koska sen avulla asuntorakentamista voitaisiin tasapainottaa eri suhdanteissa. Hallitus lakkautti Valtion asuntorahaston viime vuoden loppuussa.
+            - generic [ref=e199]:
+              - button "Keskustele (0)" [ref=e203] [cursor=pointer]:
+                - img [ref=e206]
+              - 'heading "Aiheesta enemmän: Paketissa 1 linkki" [level=2] [ref=e208]'
+              - heading [level=2] [ref=e209]: Aiheesta enemmän
+              - list "Aiheesta enemmän" [ref=e210]:
+                - listitem [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e214]:
+                      - heading "Asuntokaupan käänne on käsillä – tällä kertaa oikeasti, sanovat välittäjät" [level=3] [ref=e215]:
+                        - link "Asuntokaupan käänne on käsillä – tällä kertaa oikeasti, sanovat välittäjät" [ref=e216] [cursor=pointer]:
+                          - /url: https://yle.fi/a/74-20207147
+                      - generic [ref=e217]:
+                        - link "Lisää artikkeleita aiheesta Asuminen" [ref=e219] [cursor=pointer]:
+                          - /url: https://yle.fi/t/18-216121/fi
+                          - text: Asuminen
+                        - time [ref=e221]: Julkaistu 8.2.2026
+                        - time [ref=e222]: 8.2.
+                    - img "Hannele Kaunisnummi ajamassa autoa." [ref=e227]
+              - generic [ref=e228]:
+                - link "Lisää artikkeleita aiheesta Asuminen" [ref=e229] [cursor=pointer]:
+                  - /url: https://yle.fi/t/18-216121/fi
+                  - text: Asuminen
+                - link "Lisää artikkeleita aiheesta Taloudelliset ennusteet" [ref=e230] [cursor=pointer]:
+                  - /url: https://yle.fi/t/18-218933/fi
+                  - text: Taloudelliset ennusteet
+                - link "Lisää artikkeleita aiheesta Kiinteistökauppa" [ref=e231] [cursor=pointer]:
+                  - /url: https://yle.fi/t/18-257/fi
+                  - text: Kiinteistökauppa
+                - button "Näytä kaikki aiheet" [ref=e233] [cursor=pointer]:
+                  - img [ref=e235]
+          - img [ref=e239]
+        - generic [ref=e241]:
+          - complementary [ref=e242]:
+            - heading "Suosituimmat" [level=2] [ref=e243]
+            - list "Suosituimmat" [ref=e244]:
+              - listitem [ref=e245]:
+                - generic [ref=e248]: "1"
+                - generic [ref=e250]:
+                  - link "Lähi-itä – Lisää aiheesta" [ref=e251] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-185583/fi
+                    - text: Lähi-itä
+                  - heading "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [level=3] [ref=e252]:
+                    - link "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [ref=e253] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219051
+              - listitem [ref=e254]:
+                - generic [ref=e257]: "2"
+                - generic [ref=e259]:
+                  - link "Energia – Lisää aiheesta" [ref=e260] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211945/fi
+                    - text: Energia
+                  - 'heading "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [level=3] [ref=e261]':
+                    - 'link "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [ref=e262] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217749
+              - listitem [ref=e263]:
+                - generic [ref=e266]: "3"
+                - generic [ref=e268]:
+                  - link "Rakennukset – Lisää aiheesta" [ref=e269] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-203951/fi
+                    - text: Rakennukset
+                  - heading "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [level=3] [ref=e270]:
+                    - link "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [ref=e271] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20214586
+              - listitem [ref=e272]:
+                - generic [ref=e275]: "4"
+                - generic [ref=e277]:
+                  - link "Luonto – Lisää aiheesta" [ref=e278] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-215452/fi
+                    - text: Luonto
+                  - heading "Porissa piilottelee pirullinen pyörre, joka voi imaista uimarit 15 metrin syvyyteen" [level=3] [ref=e279]:
+                    - link "Porissa piilottelee pirullinen pyörre, joka voi imaista uimarit 15 metrin syvyyteen" [ref=e280] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20218331
+              - listitem [ref=e281]:
+                - generic [ref=e284]: "5"
+                - generic [ref=e285]:
+                  - link "Venäjän hyökkäys – Lisää aiheesta" [ref=e286] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-334977/fi
+                    - text: Venäjän hyökkäys
+                  - heading "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [level=3] [ref=e287]:
+                    - link "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [ref=e288] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219050
+          - complementary [ref=e289]:
+            - heading "Tuoreimmat" [level=2] [ref=e290]
+            - list "Tuoreimmat" [ref=e291]:
+              - listitem [ref=e292]:
+                - time [ref=e295]: 11:33
+                - generic [ref=e297]:
+                  - link "Harrastukset – Lisää aiheesta" [ref=e298] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-204660/fi
+                    - text: Harrastukset
+                  - heading "Suomen suurimpaan ampumakeskukseen on pantu miljoonia valtion rahaa, mutta siellä ei nyt ammuta – tästä on kyse" [level=3] [ref=e299]:
+                    - link "Suomen suurimpaan ampumakeskukseen on pantu miljoonia valtion rahaa, mutta siellä ei nyt ammuta – tästä on kyse" [ref=e300] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217414
+              - listitem [ref=e301]:
+                - time [ref=e304]: 11:27
+                - generic [ref=e306]:
+                  - link "Kansainvälinen politiikka – Lisää aiheesta" [ref=e307] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-213332/fi
+                    - text: Kansainvälinen politiikka
+                  - heading "Libanonin presidentti haluaa välttää Gazan kaltaisen tuhon, toivoo neuvotteluja Israelin kanssa" [level=3] [ref=e308]:
+                    - link "Libanonin presidentti haluaa välttää Gazan kaltaisen tuhon, toivoo neuvotteluja Israelin kanssa" [ref=e309] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219064
+              - listitem [ref=e310]:
+                - time [ref=e313]: 10:43
+                - generic [ref=e315]:
+                  - link "Vaalit – Lisää aiheesta" [ref=e316] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-218195/fi
+                    - text: Vaalit
+                  - heading "Äänestäjät torjuivat vaalien yhdistämisen Malediiveilla" [level=3] [ref=e317]:
+                    - link "Äänestäjät torjuivat vaalien yhdistämisen Malediiveilla" [ref=e318] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219058
+              - listitem [ref=e319]:
+                - time [ref=e322]: 10:42
+                - generic [ref=e324]:
+                  - link "Jalkapallo – Lisää aiheesta" [ref=e325] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205598/fi
+                    - text: Jalkapallo
+                  - heading "Demokraattipoliitikko haluaa estää Donald Trumpia käyttämästä ICE-joukkoja jalkapallon MM-kisoissa" [level=3] [ref=e326]:
+                    - link "Demokraattipoliitikko haluaa estää Donald Trumpia käyttämästä ICE-joukkoja jalkapallon MM-kisoissa" [ref=e327] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219056
+              - listitem [ref=e328]:
+                - time [ref=e331]: 10:30
+                - generic [ref=e333]:
+                  - link "Uskonnot – Lisää aiheesta" [ref=e334] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211576/fi
+                    - text: Uskonnot
+                  - heading "Pääsiäissunnuntain messu paavi Leo XIV:n johdolla – katso suoraa lähetystä" [level=3] [ref=e335]:
+                    - link "Pääsiäissunnuntain messu paavi Leo XIV:n johdolla – katso suoraa lähetystä" [ref=e336] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219052
+              - listitem [ref=e337]:
+                - time [ref=e340]: 10:29
+                - generic [ref=e342]:
+                  - link "Talous – Lisää aiheesta" [ref=e343] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-204933/fi
+                    - text: Talous
+                  - heading "Naapurin sijoitusvinkki voi olla salkkusi tuho – professori listaa seitsemän ansaa, jotka syövät sijoitustesi tuottoja" [level=3] [ref=e344]:
+                    - link "Naapurin sijoitusvinkki voi olla salkkusi tuho – professori listaa seitsemän ansaa, jotka syövät sijoitustesi tuottoja" [ref=e345] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20215613
+              - listitem [ref=e346]:
+                - time [ref=e349]: 9:44
+                - generic [ref=e351]:
+                  - link "Rakennukset – Lisää aiheesta" [ref=e352] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-203951/fi
+                    - text: Rakennukset
+                  - heading "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [level=3] [ref=e353]:
+                    - link "Opetusministeri Adlercreutzilla on menneisyys, josta moni ei tiedä – nyt hän kertoo, millaisia kouluja pitäisi rakentaa" [ref=e354] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20214586
+              - listitem [ref=e355]:
+                - time [ref=e358]: 9:32
+                - generic [ref=e360]:
+                  - link "Venäjän hyökkäys – Lisää aiheesta" [ref=e361] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-334977/fi
+                    - text: Venäjän hyökkäys
+                  - heading "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [level=3] [ref=e362]:
+                    - link "Ukrainan uusi drooni-isku aiheutti isoja vaikutuksia lentoliikenteeseen Pietarin alueella" [ref=e363] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219050
+              - listitem [ref=e364]:
+                - time [ref=e367]: 9:19
+                - generic [ref=e369]:
+                  - link "Lähi-itä – Lisää aiheesta" [ref=e370] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-185583/fi
+                    - text: Lähi-itä
+                  - heading "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [level=3] [ref=e371]:
+                    - link "Alasammutun hävittäjän upseerilla oli suojanaan vain pistooli – näin vaarallinen pelastusoperaatio eteni" [ref=e372] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219051
+              - listitem [ref=e373]:
+                - time [ref=e376]: 9:17
+                - generic [ref=e378]:
+                  - link "Koripallo – Lisää aiheesta" [ref=e379] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-215754/fi
+                    - text: Koripallo
+                  - heading "NBA:n jättiläiset törmäsivät – Jokic voitti Wembanyama-taiston bravuuriheitollaan" [level=3] [ref=e380]:
+                    - link "NBA:n jättiläiset törmäsivät – Jokic voitti Wembanyama-taiston bravuuriheitollaan" [ref=e381] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219049
+              - listitem [ref=e382]:
+                - time [ref=e385]: 8:38
+                - generic [ref=e387]:
+                  - link "Energia – Lisää aiheesta" [ref=e388] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211945/fi
+                    - text: Energia
+                  - 'heading "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [level=3] [ref=e389]':
+                    - 'link "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [ref=e390] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217749
+              - listitem [ref=e391]:
+                - time [ref=e394]: 8:31
+                - generic [ref=e396]:
+                  - link "Avaruus – Lisää aiheesta" [ref=e397] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205125/fi
+                    - text: Avaruus
+                  - heading "Nasa julkaisi uusia kuvia kuulennolta" [level=3] [ref=e398]:
+                    - link "Nasa julkaisi uusia kuvia kuulennolta" [ref=e399] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219047
+              - listitem [ref=e400]:
+                - time [ref=e403]: 8:30
+                - generic [ref=e405]:
+                  - link "Golf – Lisää aiheesta" [ref=e406] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205551/fi
+                    - text: Golf
+                  - heading "Huono sää keskeytti golfin PGA Tourin kisan – Välimäki yhä kymppisijan tuntumassa" [level=3] [ref=e407]:
+                    - link "Huono sää keskeytti golfin PGA Tourin kisan – Välimäki yhä kymppisijan tuntumassa" [ref=e408] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219048
+              - listitem [ref=e409]:
+                - time [ref=e412]: 8:09
+                - generic [ref=e414]:
+                  - link "Urheilu – Lisää aiheesta" [ref=e415] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-220090/fi
+                    - text: Urheilu
+                  - 'heading "Tutkimus: Urheiluväkivalta yleistä nuorilla – näin siihen puututaan käytännössä" [level=3] [ref=e416]':
+                    - 'link "Tutkimus: Urheiluväkivalta yleistä nuorilla – näin siihen puututaan käytännössä" [ref=e417] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20216115
+              - listitem [ref=e418]:
+                - time [ref=e421]: 8:02
+                - generic [ref=e422]:
+                  - link "Jalkapallo – Lisää aiheesta" [ref=e423] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-205598/fi
+                    - text: Jalkapallo
+                  - heading "Messi iski historiallisen maalin Miamin uudella areenalla" [level=3] [ref=e424]:
+                    - link "Messi iski historiallisen maalin Miamin uudella areenalla" [ref=e425] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20219046
+          - complementary [ref=e426]:
+            - heading "Tästä keskustellaan nyt" [level=2] [ref=e427]
+            - list "Tästä keskustellaan nyt" [ref=e428]:
+              - listitem [ref=e429]:
+                - generic [ref=e432]: "1"
+                - generic [ref=e434]:
+                  - link "Energia – Lisää aiheesta" [ref=e435] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-211945/fi
+                    - text: Energia
+                  - 'heading "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus Keskustele, 327 kommenttia" [level=3] [ref=e436]':
+                    - 'link "Analyysi: Euroopan riippuvuus öljystä on järkyttävän kallista – Iranin kriisillä voi olla yksi hyvä seuraus" [ref=e437] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217749
+                    - link "Keskustele, 327 kommenttia" [ref=e438] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217749#comments
+                      - img [ref=e439]
+                      - text: "327"
+              - listitem [ref=e441]:
+                - generic [ref=e444]: "2"
+                - generic [ref=e446]:
+                  - link "Yhdysvallat – Lisää aiheesta" [ref=e447] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-193507/fi
+                    - text: Yhdysvallat
+                  - 'heading "Johanna Vuorelman kolumni: Moni poliittinen päättäjä näkee mielikuvansa Yhdysvalloista, ei todellista maata Keskustele, 189 kommenttia" [level=3] [ref=e448]':
+                    - 'link "Johanna Vuorelman kolumni: Moni poliittinen päättäjä näkee mielikuvansa Yhdysvalloista, ei todellista maata" [ref=e449] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217682
+                    - link "Keskustele, 189 kommenttia" [ref=e450] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217682#comments
+                      - img [ref=e451]
+                      - text: "189"
+              - listitem [ref=e453]:
+                - generic [ref=e456]: "3"
+                - generic [ref=e457]:
+                  - link "Rikokset – Lisää aiheesta" [ref=e458] [cursor=pointer]:
+                    - /url: https://yle.fi/t/18-217206/fi
+                    - text: Rikokset
+                  - 'heading "Turkki vaati Suomea luovuttamaan 12 kansalaistaan – tutkija: ”Noitavainoa” Keskustele, 87 kommenttia" [level=3] [ref=e459]':
+                    - 'link "Turkki vaati Suomea luovuttamaan 12 kansalaistaan – tutkija: ”Noitavainoa”" [ref=e460] [cursor=pointer]':
+                      - /url: https://yle.fi/a/74-20217416
+                    - link "Keskustele, 87 kommenttia" [ref=e461] [cursor=pointer]:
+                      - /url: https://yle.fi/a/74-20217416#comments
+                      - img [ref=e462]
+                      - text: "87"
+      - generic [ref=e464]:
+        - button "Takaisin sivun alkuun" [ref=e466] [cursor=pointer]:
+          - generic [ref=e467]: Takaisin sivun alkuun
+          - img [ref=e469]
+        - contentinfo "Asiakaspalvelu ja yhteystiedot" [ref=e473]:
+          - list [ref=e474]:
+            - listitem [ref=e475]:
+              - link "Yle yhtiönä" [ref=e476] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio
+            - listitem [ref=e477]:
+              - link "Tietosuojalauseke" [ref=e478] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio/tietosuoja
+            - listitem [ref=e479]:
+              - link "Saavutettavuusseloste" [ref=e480] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/a/20-10008759
+            - listitem [ref=e481]:
+              - link "Evästekäytännöt" [ref=e482] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/s/yleisradio/evastekaytannot
+            - listitem [ref=e483]:
+              - link "Asiakaspalvelu" [ref=e484] [cursor=pointer]:
+                - /url: https://asiakaspalvelu.yle.fi
+            - listitem [ref=e485]:
+              - link "Avoimet työpaikat" [ref=e486] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio/toihin-ylelle
+            - listitem [ref=e487]:
+              - link "Ylen perus- ja yhteystiedot" [ref=e488] [cursor=pointer]:
+                - /url: https://yle.fi/aihe/yleisradio/ylen-yhteystiedot
+          - img "Vastuullista journalismia" [ref=e490]
+          - link "Yle-palvelun etusivu" [ref=e491] [cursor=pointer]:
+            - /url: https://yle.fi
+            - img "Yle-palvelun etusivu" [ref=e492]
+  - dialog "Valitse, mitä evästeitä käytät" [ref=e496]:
+    - generic [ref=e497]:
+      - button "Valitse suostumusdialogin kieli" [active] [ref=e499] [cursor=pointer]:
+        - img [ref=e500]
+        - generic [ref=e502]: Suomeksi
+        - img [ref=e503]
+      - generic [ref=e505]:
+        - heading "Valitse, mitä evästeitä käytät" [level=2] [ref=e506]
+        - paragraph [ref=e507]:
+          - text: Evästeiden avulla Yle tarjoaa paremman käyttökokemuksen ja henkilökohtaisemman palvelun. Kun hyväksyt evästeet, voimme kehittää palveluistamme entistä parempia ja pystymme tarjoamaan sinulle kiinnostavia sisältöjä. Sinä hallitset evästeitäsi ja voit muuttaa evästeasetuksiasi milloin tahansa sivuston päävalikon kautta.
+          - link "Lue lisää evästeistämme" [ref=e508] [cursor=pointer]:
+            - /url: https://yle.fi/aihe/s/yleisradio/evastekaytannot
+            - text: Lue lisää evästeistämme
+            - img [ref=e509]
+    - generic [ref=e512]:
+      - generic [ref=e513]:
+        - button "Vain välttämättömät" [ref=e514] [cursor=pointer]
+        - button "Hyväksy kaikki" [ref=e515] [cursor=pointer]
+      - button "Muokkaa evästeasetuksia" [ref=e516] [cursor=pointer]

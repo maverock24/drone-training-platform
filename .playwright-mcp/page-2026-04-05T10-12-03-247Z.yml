@@ -1,0 +1,680 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Cookie compliance banner" [ref=e2]:
+    - generic "This website uses the necessary cookies to function. If you give us your consent, we will also use cookies, when you visit our website, which allow us to collect data for aggregated statistics to improve our services. More information on data protection and how to withdraw your consent via cookies policy page." [ref=e3]:
+      - generic [ref=e4]:
+        - document [ref=e5]:
+          - heading "This website uses the necessary cookies to function." [level=2] [ref=e6]
+          - paragraph [ref=e7]:
+            - text: If you give us your consent, we will also use cookies, when you visit our website, which allow us to collect data for aggregated statistics to improve our services.
+            - text: More information on
+            - link "data protection" [ref=e8] [cursor=pointer]:
+              - /url: /data-protection/easa-website
+            - text: and how to withdraw your consent via
+            - link "cookies policy page" [ref=e9] [cursor=pointer]:
+              - /url: /cookie-policy
+            - text: .
+        - generic [ref=e10]:
+          - generic:
+            - generic:
+              - checkbox " Necessary cookies" [checked] [disabled]
+              - text:  Necessary cookies
+          - generic [ref=e12]:
+            - checkbox "Aggregated analytics" [ref=e13]
+            - text: Aggregated analytics
+          - generic [ref=e15]:
+            - checkbox "Social media embeds (i.e. YouTube)" [ref=e16]
+            - text: Social media embeds (i.e. YouTube)
+          - button "Save your cookie selection" [ref=e18] [cursor=pointer]
+        - button "Accept all cookies" [ref=e20] [cursor=pointer]
+  - link "Skip to main content" [ref=e21] [cursor=pointer]:
+    - /url: "#main-content"
+  - document [ref=e23]:
+    - link [ref=e24] [cursor=pointer]:
+      - /url: /
+    - banner "Site header" [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - link " Home" [ref=e28] [cursor=pointer]:
+            - /url: /en/home
+          - text:  Home
+          - generic [ref=e29]:  EASA Pro
+          - generic [ref=e30]: European Union Aviation Safety Agency
+        - navigation "Main menu Topbar" [ref=e31]:
+          - heading "Main menu Topbar" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - button " Menu" [ref=e35] [cursor=pointer]:
+                - text: 
+                - generic [ref=e36]: Menu
+              - link " Skip to Content" [ref=e37] [cursor=pointer]:
+                - /url: "#main"
+            - navigation [ref=e38]:
+              - menubar [ref=e41]:
+                - menuitem " Home" [ref=e42] [cursor=pointer]
+                - menuitem "The Agency" [ref=e43] [cursor=pointer]:  The Agency 
+                - menuitem "Newsroom & Events" [ref=e44] [cursor=pointer]:  Newsroom & Events 
+                - menuitem "Domains" [ref=e45] [cursor=pointer]:  Domains 
+                - menuitem "Regulations" [ref=e46] [cursor=pointer]:  Regulations 
+                - menuitem "Document Library" [ref=e47] [cursor=pointer]:  Document Library 
+                - menuitem " Can We Help You?" [ref=e48] [cursor=pointer]
+        - text: 
+        - generic [ref=e49] [cursor=pointer]:  Search
+        - button " Apps" [ref=e52] [cursor=pointer]
+        - navigation [ref=e54]:
+          - generic [ref=e55]:
+            - text:  
+            - generic [ref=e56]:
+              - button " Profile" [ref=e58] [cursor=pointer]:
+                - text: 
+                - generic [ref=e59]: Profile
+              - navigation [ref=e60]:
+                - tree [ref=e63]:
+                  - treeitem " Login" [ref=e64]:
+                    - link " Login" [ref=e65] [cursor=pointer]:
+                      - /url: /en/user/login
+                  - treeitem " Register" [ref=e66]:
+                    - link " Register" [ref=e67] [cursor=pointer]:
+                      - /url: /en/user/register
+      - text:       
+    - generic [ref=e70]:
+      - main [ref=e72]:
+        - generic [ref=e73]:
+          - navigation "You are here" [ref=e76]:
+            - heading "You are here" [level=2] [ref=e77]
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - link "Home" [ref=e80] [cursor=pointer]:
+                  - /url: /en
+                - text: /
+              - listitem [ref=e81]:
+                - link "Domains" [ref=e82] [cursor=pointer]:
+                  - /url: /en/domains
+                - text: /
+              - listitem [ref=e83]:
+                - link "Drones & Air Mobility" [ref=e84] [cursor=pointer]:
+                  - /url: /en/domains/civil-drones
+                - text: /
+              - listitem [ref=e85]:
+                - link "Operating a drone" [ref=e86] [cursor=pointer]:
+                  - /url: /en/domains/drones-air-mobility/operating-drone
+                - text: /
+              - listitem [ref=e87]:
+                - link "Specific Category — Civil Drones":
+                  - /url: "#"
+          - heading "Specific Category — Civil Drones" [level=1] [ref=e92]:
+            - text: 
+            - generic [ref=e93]: Specific Category — Civil Drones
+        - article [ref=e96]:
+          - generic [ref=e101]: Popular
+          - generic [ref=e103]:
+            - text:  
+            - generic [ref=e105]:
+              - generic [ref=e108]:
+                - paragraph [ref=e109]: "In this site you can find:"
+                - list [ref=e110]:
+                  - listitem [ref=e111]:
+                    - link "What is a specific UAS (drone) operation?" [ref=e112] [cursor=pointer]:
+                      - /url: "#What is a specific UAS (drone) operation?"
+                  - listitem [ref=e113]:
+                    - link "Registration of drone operators" [ref=e114] [cursor=pointer]:
+                      - /url: "#Registration of drone operators"
+                  - listitem [ref=e115]:
+                    - link "This is what is needed to operate in the specific category" [ref=e116] [cursor=pointer]:
+                      - /url: "#Registration of drone operators"
+                  - listitem [ref=e117]:
+                    - link "If you are planning a drone operation under the specific category…." [ref=e118] [cursor=pointer]:
+                      - /url: "#If you are planning a drone operation under the specific category…."
+                  - listitem [ref=e119]:
+                    - link "Do I need to apply for an operational authorization before each flight?" [ref=e120] [cursor=pointer]:
+                      - /url: "#Do I need to apply for an operational authorization before each flight?"
+                  - listitem [ref=e121]:
+                    - link "Geographical zones" [ref=e122] [cursor=pointer]:
+                      - /url: "#Geographical zones"
+                  - listitem [ref=e123]:
+                    - link "Stay informed" [ref=e124] [cursor=pointer]:
+                      - /url: "#Stay informed"
+                - heading "What is a specific UAS (drone) operation?" [level=2] [ref=e125]
+                - paragraph [ref=e126]:
+                  - text: A drone can be operated in the ‘specific’ category when it is operated outside of the operational limitations laid out under the
+                  - link "‘open’ drone category" [ref=e127] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background/open-category-civil-drones
+                  - text: . If the risk of the operation is even higher, the drone must be operated in the ‘certified’ category. Hereafter you can find information only on the drone’s specific category.
+                - paragraph [ref=e128]: "Examples of UAS operations in the ‘specific’ category are:"
+                - list [ref=e129]:
+                  - listitem [ref=e130]: BVLOS – Beyond Visual Line Of Sight
+                  - listitem [ref=e131]: When using a drone with MTOM (maximum take of mass) > 25 kg
+                  - listitem [ref=e132]: flying higher than 120m above ground level
+                  - listitem [ref=e133]: when dropping material
+                  - listitem [ref=e134]: when operating drone in an urban environment with a MTOM> 4 kg or without a class identification label
+                - heading "Registration of drone operators" [level=3] [ref=e135]
+                - paragraph [ref=e136]:
+                  - text: As for the open category, all drone operators in the specific category need to
+                  - link "register" [ref=e137] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/en/the-agency/faqs/registration-requirements
+                  - text: themselves (not the actual drone/s). If the operator is already registered (e.g. because they operate a drone in the open category) there is no need to register again, even for operations in the specific category. UAS operators need to register themselves in the Member State where they
+                  - text: have their residence for natural persons or where they have their principal place of business for legal persons. Third country operators that do not have their principal place of business in an EASA Member State need to register in the first EASA Member State in which they perform an operation.
+                - heading "This is what is needed to operate in the specific category" [level=3] [ref=e138]
+                - paragraph [ref=e139]:
+                  - text: The
+                  - link "‘specific’ category" [ref=e140] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/the-agency/faqs/drones-uas#category-specific-category
+                  - text: caters for riskier operations not covered under the ‘open’ category.
+                - paragraph [ref=e141]:
+                  - text: To fly in the specific category, as a drone operator and before starting the flight/s, an operational authorisation from the
+                  - link "National Aviation Authority" [ref=e142] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/domains/civil-drones/naa
+                  - text: (NAA) of the state of registration is needed. Even if the intention is to conduct the operation in a state other than the one of registration, the authorisation is issued by the NAA of the state of registration. Please see this link on how to conduct operation in a state different from the one of registration.
+                - paragraph [ref=e143]:
+                  - text: The authorization is required unless the operation is conducted in accordance with an European
+                  - link "Standard Scenario (STS) (applicable from 1st January 2024) or if you have been granted by the NAA a Light UAS operator certificate (LUC) with privileges." [ref=e144] [cursor=pointer]:
+                    - /url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R0639&from=EN
+                - heading "If you are planning a drone operation under the specific category…." [level=3] [ref=e145]
+                - paragraph [ref=e146]: "To recap, there are four different ways to operate in the specific category:"
+                - list [ref=e147]:
+                  - listitem [ref=e148]: Submit a declaration based on a Standard scenario (STS);
+                  - listitem [ref=e149]: Obtain an operational authorisation following a PDRA;
+                  - listitem [ref=e150]: Obtain an operational authorisation without a PDRA;
+                  - listitem [ref=e151]: Have a LUC.
+                - paragraph [ref=e152]: Whenever an UAS operator has decided to operate in the specific category, the UAS operator has the responsibility to develop an Operations Manual.
+                - paragraph [ref=e153]: "The Operations Manual together with other applicable documents are submitted to the NAA in order to:"
+                - list [ref=e154]:
+                  - listitem [ref=e155]: obtain an operational authorization following a PDRA (in this case the Operations Manual is sent to the NAA with the PDRA);
+                  - listitem [ref=e156]: obtain an operational authorization without a PDRA (in this case the Operations Manual is sent to the NAA together with the SORA procedure);
+                  - listitem [ref=e157]: be certified as a Light UAS operator (in this case the Operations Manual is sent together with the documents mentioned in UAS.LUC.010).
+                - paragraph [ref=e158]: Please find attached in the “Downloads” section of this page the Operations Manual example/template that can be used. This example is in a word format and represents the Operations Manual developed for a SAIL II UAS operation.
+                - heading "Do I need to apply for an operational authorization before each flight?" [level=3] [ref=e159]
+                - paragraph [ref=e160]: An operational authorisation covers all flights conducted within the limits defined in it and it may be valid for an unlimited number of flights and time, unless the NAA explicitly limits them. However if the operator intends to operate in an area covered by a geographical zone, they may be required to have a flight authorization.
+                - heading "Geographical zones" [level=3] [ref=e161]
+                - paragraph [ref=e162]:
+                  - text: If the operator intends to operate in an area covered by a
+                  - link "geographical zone" [ref=e163] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/en/the-agency/faqs/geographical-zones-where-i-can-fly
+                  - text: ", then a flight authorization issued by the authority in charge of the geographical zone is needed. (e.g if the operator has a contract to clean the windows of a prison protected by a geographical zone, they may need the flight authorization from the authority in charge of the prison). This authorization is independent of the category in which the flight is conducted and it’s necessary even if the flight is performed according to an EU STS or in the"
+                  - link "open category" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/en/domains/civil-drones/drones-regulatory-framework-background/open-category-civil-drones
+                  - text: .
+                - paragraph [ref=e165]:
+                  - text: To support States in the publication of information on the UAS geographical zones in the common digital format as required by the drones regulation, EASA issued respective guidance
+                  - text: and acceptable means of compliance making reference to the EUROCAE ED-269 standard. At this
+                  - link "link" [ref=e166] [cursor=pointer]:
+                    - /url: https://ext.eurocontrol.int/swim_confluence/display/UGZ/UAS+GeoZones
+                  - text: it is possible to find “Guidelines for GeoZones data sets” giving additional information on the application of the above mentioned standard.
+                - heading "Remote identification" [level=3] [ref=e167]
+                - paragraph [ref=e168]: Starting from 1 January 2024, all drones operated in the specific category (including those operating in national or EU standard scenarios) need to be equipped with a remote identification system. Some companies have already placed on the market modules providing a direct remote identification system, providing the ‘EU Declaration of Conformity’ and you can find a list below. Please be aware that EASA did not verify the compliance of such components and the declaration of conformity is submitted under the sole responsibility of the manufacturer.
+                - heading "EU Declaration of Conformity list" [level=4] [ref=e169]
+                - table [ref=e170]:
+                  - rowgroup [ref=e171]:
+                    - row "Manufacturer Module name & website link Function EU Declaration of Conformity" [ref=e172]:
+                      - columnheader "Manufacturer" [ref=e173]:
+                        - paragraph [ref=e174]:
+                          - strong [ref=e175]: Manufacturer
+                      - columnheader "Module name & website link" [ref=e176]:
+                        - paragraph [ref=e177]:
+                          - strong [ref=e178]: Module name & website link
+                      - columnheader "Function" [ref=e179]:
+                        - paragraph [ref=e180]:
+                          - strong [ref=e181]: Function
+                      - columnheader "EU Declaration of Conformity" [ref=e182]:
+                        - paragraph [ref=e183]:
+                          - strong [ref=e184]: EU Declaration of Conformity
+                  - rowgroup [ref=e185]:
+                    - row "Aerobits idME (Remote ID) Direct remote identification EU Declaration of Conformity" [ref=e186]:
+                      - cell "Aerobits" [ref=e187]
+                      - cell "idME (Remote ID)" [ref=e188]:
+                        - link "idME (Remote ID)" [ref=e189] [cursor=pointer]:
+                          - /url: https://www.aerobits.pl/product/idme/
+                      - cell "Direct remote identification" [ref=e190]:
+                        - paragraph [ref=e191]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e192]:
+                        - link "EU Declaration of Conformity" [ref=e193] [cursor=pointer]:
+                          - /url: https://www.aerobits.pl/wp-content/uploads/ci_uploads_software/Deklaracje/IDME/MoC_eu_idme.pdf
+                    - row "Aerobits idME+ (Remote ID) Direct remote identification EU Declaration of Conformity" [ref=e194]:
+                      - cell "Aerobits" [ref=e195]
+                      - cell "idME+ (Remote ID)" [ref=e196]:
+                        - link "idME+ (Remote ID)" [ref=e197] [cursor=pointer]:
+                          - /url: https://www.aerobits.pl/product/idme-plus/
+                      - cell "Direct remote identification" [ref=e198]:
+                        - paragraph [ref=e199]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e200]:
+                        - link "EU Declaration of Conformity" [ref=e201] [cursor=pointer]:
+                          - /url: https://www.aerobits.pl/wp-content/uploads/ci_uploads_software/Deklaracje/IDME_PLUS/MoC_eu_idmeplus.pdf
+                    - row "Aerobits idME PRO (Remote ID) Direct remote identification EU Declaration of Conformity" [ref=e202]:
+                      - cell "Aerobits" [ref=e203]
+                      - cell "idME PRO (Remote ID)" [ref=e204]:
+                        - paragraph [ref=e205]:
+                          - link "idME PRO (Remote ID)" [ref=e206] [cursor=pointer]:
+                            - /url: https://www.aerobits.pl/product/idme-pro/
+                      - cell "Direct remote identification" [ref=e207]:
+                        - paragraph [ref=e208]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e209]:
+                        - link "EU Declaration of Conformity" [ref=e210] [cursor=pointer]:
+                          - /url: https://www.aerobits.pl/wp-content/uploads/ci_uploads_software/Deklaracje/IDME_PRO/MoC_eu_idmepro.pdf
+                    - row "AirPlate AirPlate (Remote ID Pro) Direct remote identification EU Declaration of Conformity" [ref=e211]:
+                      - cell "AirPlate" [ref=e212]
+                      - cell "AirPlate (Remote ID Pro)" [ref=e213]:
+                        - link "AirPlate (Remote ID Pro)" [ref=e214] [cursor=pointer]:
+                          - /url: https://airplate.dk/
+                      - cell "Direct remote identification" [ref=e215]:
+                        - paragraph [ref=e216]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e217]:
+                        - link "EU Declaration of Conformity" [ref=e218] [cursor=pointer]:
+                          - /url: https://airplate.dk/uploads/AirPlateRemoteIDPro-DeclarationOfConformity.pdf
+                    - row "Bluemark DroneBeacon db120 Direct remote identification EU Declaration of Conformity" [ref=e219]:
+                      - cell "Bluemark" [ref=e220]
+                      - cell "DroneBeacon db120" [ref=e221]:
+                        - link "DroneBeacon db120" [ref=e222] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-remote-id-transponder/
+                      - cell "Direct remote identification" [ref=e223]:
+                        - paragraph [ref=e224]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e225]:
+                        - link "EU Declaration of Conformity" [ref=e226] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Bluemark DroneBeacon db121 Direct remote identification EU Declaration of Conformity" [ref=e227]:
+                      - cell "Bluemark" [ref=e228]
+                      - cell "DroneBeacon db121" [ref=e229]:
+                        - link "DroneBeacon db121" [ref=e230] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-ext-power/?v=3a52f3c22ed6
+                      - cell "Direct remote identification" [ref=e231]:
+                        - paragraph [ref=e232]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e233]:
+                        - link "EU Declaration of Conformity" [ref=e234] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Bluemark DroneBeacon db121PCB Direct remote identification EU Declaration of Conformity" [ref=e235]:
+                      - cell "Bluemark" [ref=e236]
+                      - cell "DroneBeacon db121PCB" [ref=e237]:
+                        - link "DroneBeacon db121PCB" [ref=e238] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-ext-power/?v=3a52f3c22ed6
+                      - cell "Direct remote identification" [ref=e239]:
+                        - paragraph [ref=e240]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e241]:
+                        - link "EU Declaration of Conformity" [ref=e242] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Bluemark DroneBeacon db121FPV Direct remote identification EU Declaration of Conformity" [ref=e243]:
+                      - cell "Bluemark" [ref=e244]
+                      - cell "DroneBeacon db121FPV" [ref=e245]:
+                        - link "DroneBeacon db121FPV" [ref=e246] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-fpv/?v=3a52f3c22ed6
+                      - cell "Direct remote identification" [ref=e247]:
+                        - paragraph [ref=e248]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e249]:
+                        - link "EU Declaration of Conformity" [ref=e250] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Bluemark DroneBeacon db150FVP Direct remote identification EU Declaration of Conformity" [ref=e251]:
+                      - cell "Bluemark" [ref=e252]
+                      - cell "DroneBeacon db150FVP" [ref=e253]:
+                        - link "DroneBeacon db150FVP" [ref=e254] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-fpv/?v=3a52f3c22ed6
+                      - cell "Direct remote identification" [ref=e255]:
+                        - paragraph [ref=e256]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e257]:
+                        - link "EU Declaration of Conformity" [ref=e258] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Bluemark DroneBeacon db152FVP Direct remote identification EU Declaration of Conformity" [ref=e259]:
+                      - cell "Bluemark" [ref=e260]
+                      - cell "DroneBeacon db152FVP" [ref=e261]:
+                        - link "DroneBeacon db152FVP" [ref=e262] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-fpv/?v=3a52f3c22ed6
+                      - cell "Direct remote identification" [ref=e263]:
+                        - paragraph [ref=e264]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e265]:
+                        - link "EU Declaration of Conformity" [ref=e266] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Bluemark DroneBeacon db153FVP Direct remote identification EU Declaration of Conformity" [ref=e267]:
+                      - cell "Bluemark" [ref=e268]
+                      - cell "DroneBeacon db153FVP" [ref=e269]:
+                        - link "DroneBeacon db153FVP" [ref=e270] [cursor=pointer]:
+                          - /url: https://dronescout.co/dronebeacon-fpv/?v=3a52f3c22ed6
+                      - cell "Direct remote identification" [ref=e271]:
+                        - paragraph [ref=e272]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e273]:
+                        - link "EU Declaration of Conformity" [ref=e274] [cursor=pointer]:
+                          - /url: https://download.bluemark.io/EU_DoC_db120.pdf
+                    - row "Dronavia Fly ID & Fly ID Light Direct Remote ID (DRI) Direct remote identification EU Declaration of Conformity" [ref=e275]:
+                      - cell "Dronavia" [ref=e276]
+                      - cell "Fly ID & Fly ID Light Direct Remote ID (DRI)" [ref=e277]:
+                        - link "Fly ID & Fly ID Light Direct Remote ID (DRI)" [ref=e278] [cursor=pointer]:
+                          - /url: https://www.dronavia.com/remote-identification-drone/
+                      - cell "Direct remote identification" [ref=e279]:
+                        - paragraph [ref=e280]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e281]:
+                        - link "EU Declaration of Conformity" [ref=e282] [cursor=pointer]:
+                          - /url: https://www.dronavia.com/certificates/23%2012%2018%20-%20Fly%20ID%20-%20Declaration%20of%20conformity.pdf
+                    - row "Drone Defence Aeroping — Air traffic monitoring platform Direct remote identification EU Declaration of Conformity" [ref=e283]:
+                      - cell "Drone Defence" [ref=e284]
+                      - cell "Aeroping — Air traffic monitoring platform" [ref=e285]:
+                        - link "Aeroping — Air traffic monitoring platform" [ref=e286] [cursor=pointer]:
+                          - /url: https://www.dronedefence.co.uk/aeroping
+                      - cell "Direct remote identification" [ref=e287]:
+                        - paragraph [ref=e288]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e289]:
+                        - link "EU Declaration of Conformity" [ref=e290] [cursor=pointer]:
+                          - /url: https://www.dronedefence.co.uk/wp-content/uploads/2024/05/EU-Declaration-of-Conformity-AeroPing.pdf
+                    - row "Dronetag Dronetag BS (Bare minimum for Remote ID) Direct remote identification EU Declaration of Conformity" [ref=e291]:
+                      - cell "Dronetag" [ref=e292]
+                      - cell "Dronetag BS (Bare minimum for Remote ID)" [ref=e293]:
+                        - link "Dronetag BS (Bare minimum for Remote ID)" [ref=e294] [cursor=pointer]:
+                          - /url: https://dronetag.cz/products/bs/
+                      - cell "Direct remote identification" [ref=e295]:
+                        - paragraph [ref=e296]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e297]:
+                        - link "EU Declaration of Conformity" [ref=e298] [cursor=pointer]:
+                          - /url: https://help.dronetag.cz/dronetag-bs/downloads/
+                    - row "Dronetag Dronetag Beacon Direct remote identification EU Declaration of Conformity" [ref=e299]:
+                      - cell "Dronetag" [ref=e300]
+                      - cell "Dronetag Beacon" [ref=e301]:
+                        - link "Dronetag Beacon" [ref=e302] [cursor=pointer]:
+                          - /url: https://dronetag.cz/products/beacon/
+                      - cell "Direct remote identification" [ref=e303]:
+                        - paragraph [ref=e304]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e305]:
+                        - link "EU Declaration of Conformity" [ref=e306] [cursor=pointer]:
+                          - /url: https://help.dronetag.cz/dronetag-beacon/downloads
+                    - row "Dronetag Dronetag Mini Direct remote identification EU Declaration of Conformity" [ref=e307]:
+                      - cell "Dronetag" [ref=e308]
+                      - cell "Dronetag Mini" [ref=e309]:
+                        - link "Dronetag Mini" [ref=e310] [cursor=pointer]:
+                          - /url: https://dronetag.cz/products/mini/
+                      - cell "Direct remote identification" [ref=e311]:
+                        - paragraph [ref=e312]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e313]:
+                        - link "EU Declaration of Conformity" [ref=e314] [cursor=pointer]:
+                          - /url: https://help.dronetag.cz/dronetag-mini/downloads
+                    - row "Dronetag Dronetag Mini 4G Direct remote identification EU Declaration of Conformity" [ref=e315]:
+                      - cell "Dronetag" [ref=e316]
+                      - cell "Dronetag Mini 4G" [ref=e317]:
+                        - link "Dronetag Mini 4G" [ref=e318] [cursor=pointer]:
+                          - /url: https://help.dronetag.com/dronetag-mini-4g/
+                      - cell "Direct remote identification" [ref=e319]:
+                        - paragraph [ref=e320]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e321]:
+                        - link "EU Declaration of Conformity" [ref=e322] [cursor=pointer]:
+                          - /url: https://help.dronetag.com/pdf/Dronetag_Mini_4G_DoC.pdf
+                    - row "FLARM Atom UAV Direct remote identification EU Declaration of Conformity" [ref=e323]:
+                      - cell "FLARM" [ref=e324]
+                      - cell "Atom UAV" [ref=e325]:
+                        - link "Atom UAV" [ref=e326] [cursor=pointer]:
+                          - /url: https://www.flarm.com/products/uav/atom-uav-flarm-for-drones/
+                      - cell "Direct remote identification" [ref=e327]:
+                        - paragraph [ref=e328]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e329]:
+                        - link "EU Declaration of Conformity" [ref=e330] [cursor=pointer]:
+                          - /url: https://www.flarm.com/wp-content/uploads/man/Atom-UAV-Aurora-RemoteID-Declaration-of-Compliance.pdf
+                    - row "FLARM Aurora Direct remote identification EU Declaration of Conformity" [ref=e331]:
+                      - cell "FLARM" [ref=e332]
+                      - cell "Aurora" [ref=e333]:
+                        - link "Aurora" [ref=e334] [cursor=pointer]:
+                          - /url: https://www.flarm.com/products/uav/aurora/
+                      - cell "Direct remote identification" [ref=e335]:
+                        - paragraph [ref=e336]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e337]:
+                        - link "EU Declaration of Conformity" [ref=e338] [cursor=pointer]:
+                          - /url: https://www.flarm.com/wp-content/uploads/man/Atom-UAV-Aurora-RemoteID-Declaration-of-Compliance.pdf
+                    - row "Italdron Italdron professional drones and UAV Direct remote identification EU Declaration of Conformity" [ref=e339]:
+                      - cell "Italdron" [ref=e340]
+                      - cell "Italdron professional drones and UAV" [ref=e341]:
+                        - link "Italdron professional drones and UAV" [ref=e342] [cursor=pointer]:
+                          - /url: https://www.italdron.com/
+                      - cell "Direct remote identification" [ref=e343]:
+                        - paragraph [ref=e344]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e345]:
+                        - link "EU Declaration of Conformity" [ref=e346] [cursor=pointer]:
+                          - /url: https://www.italdron.com/EU-DoC_standalone.pdf
+                    - row "PrimeCor PrimeCor Tracker Direct remote identification EU Declaration of Conformity" [ref=e347]:
+                      - cell "PrimeCor" [ref=e348]:
+                        - paragraph [ref=e349]: PrimeCor
+                      - cell "PrimeCor Tracker" [ref=e350]:
+                        - paragraph [ref=e351]:
+                          - link "PrimeCor Tracker" [ref=e352] [cursor=pointer]:
+                            - /url: https://primecorsys.com/en/service-tracker/
+                      - cell "Direct remote identification" [ref=e353]:
+                        - paragraph [ref=e354]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e355]:
+                        - paragraph [ref=e356]:
+                          - link "EU Declaration of Conformity" [ref=e357] [cursor=pointer]:
+                            - /url: https://primecorsys.com/wp-content/uploads/2024/05/EU-declaration-of-conformity-sent-v.1.pdf
+                    - row "TopView TopView Pollicino Direct remote identification EU Declaration of Conformity" [ref=e358]:
+                      - cell "TopView" [ref=e359]:
+                        - paragraph [ref=e360]: TopView
+                      - cell "TopView Pollicino" [ref=e361]:
+                        - paragraph [ref=e362]:
+                          - link "TopView Pollicino" [ref=e363] [cursor=pointer]:
+                            - /url: https://www.topview.it/pollicino-remoteid/
+                      - cell "Direct remote identification" [ref=e364]:
+                        - paragraph [ref=e365]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e366]:
+                        - paragraph [ref=e367]:
+                          - link "EU Declaration of Conformity" [ref=e368] [cursor=pointer]:
+                            - /url: https://www.topview.it/wp-content/uploads/Pollicino-RID-EU-Declaration-of-Conformity.pdf
+                    - row "Zing Drone Solutions Zingdrones Z-RID LITE Direct remote identification EU Declaration of Conformity" [ref=e369]:
+                      - cell "Zing Drone Solutions" [ref=e370]:
+                        - paragraph [ref=e371]: Zing Drone Solutions
+                      - cell "Zingdrones Z-RID LITE" [ref=e372]:
+                        - paragraph [ref=e373]:
+                          - link "Zingdrones Z-RID LITE" [ref=e374] [cursor=pointer]:
+                            - /url: https://zingdrones.shop/
+                      - cell "Direct remote identification" [ref=e375]:
+                        - paragraph [ref=e376]: Direct remote identification
+                      - cell "EU Declaration of Conformity" [ref=e377]:
+                        - paragraph [ref=e378]:
+                          - link "EU Declaration of Conformity" [ref=e379] [cursor=pointer]:
+                            - /url: https://ianannase.tech.blog/wp-content/uploads/2024/07/zing-eu-declaration-of-conformity-v2.pdf
+                - heading "For additional information please contact the team." [level=5] [ref=e380]:
+                  - text: For additional information please
+                  - link "contact the team" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.easa.europa.eu/en/contact-us-aviation?select=Aviation&aviation=Drones
+                  - text: .
+                - generic [ref=e382]:
+                  - heading "EASA Website create account Stay informed on Civil drones:" [level=5] [ref=e383]:
+                    - link "EASA Website create account":
+                      - /url: /user/register
+                      - strong:
+                        - img "EASA Website create account" [ref=e384] [cursor=pointer]
+                    - strong [ref=e385]: Stay informed on
+                    - text: Civil drones
+                    - strong [ref=e386]: ":"
+                  - list [ref=e387]:
+                    - listitem [ref=e388]:
+                      - link "Create an EASA account" [ref=e389] [cursor=pointer]:
+                        - /url: /user/register
+                    - listitem [ref=e390]: Follow the category "Civil drones (Unmanned aircraft)"
+                    - listitem [ref=e391]: Decide how you want to be notified
+              - generic [ref=e392]:
+                - text: 
+                - heading "Downloads" [level=3] [ref=e393]
+                - generic [ref=e395]:
+                  - generic [ref=e402]:
+                    - generic [ref=e403]:  [pdf]
+                    - heading "Guidelines on Design verification for UAS operated in the ‘specific’ category" [level=4] [ref=e404]:
+                      - link "Guidelines on Design verification for UAS operated in the ‘specific’ category" [ref=e405] [cursor=pointer]:
+                        - /url: /en/downloads/126318/en
+                  - generic [ref=e412]:
+                    - generic [ref=e413]:  [pdf]
+                    - heading "Guidelines for UAS operations in the open and specific categories" [level=4] [ref=e414]:
+                      - link "Guidelines for UAS operations in the open and specific categories" [ref=e415] [cursor=pointer]:
+                        - /url: /en/downloads/139435/en
+                  - generic [ref=e422]:
+                    - generic [ref=e423]:  [external]
+                    - heading "What is U-space" [level=4] [ref=e424]:
+                      - link "What is U-space" [ref=e425] [cursor=pointer]:
+                        - /url: /sites/default/files/dfu/what_is_u-space.pdf
+                  - generic [ref=e432]:
+                    - generic [ref=e433]:  [docx]
+                    - heading "EASA Operations Manual example for UAS operations at SAIL II" [level=4] [ref=e434]:
+                      - link "EASA Operations Manual example for UAS operations at SAIL II" [ref=e435] [cursor=pointer]:
+                        - /url: /en/downloads/138411/en
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:  [docx]
+                    - heading "EASA Operations Manual example for UAS operations under PDRA S-01" [level=4] [ref=e444]:
+                      - link "EASA Operations Manual example for UAS operations under PDRA S-01" [ref=e445] [cursor=pointer]:
+                        - /url: /en/downloads/139674/en
+              - generic [ref=e446]:
+                - text: 
+                - heading "Related Content" [level=3] [ref=e447]
+                - generic [ref=e449]:
+                  - generic [ref=e452]:
+                    - text: 
+                    - link "Easy Access Rules for Unmanned Aircraft Systems (Regulation (EU) 2019/947 and Regulation (EU) 2019/945)" [ref=e455] [cursor=pointer]:
+                      - /url: /document-library/easy-access-rules/easy-access-rules-unmanned-aircraft-systems-regulation-eu
+                  - generic [ref=e458]:
+                    - text: 
+                    - link "FAQs Drones (UAS)" [ref=e461] [cursor=pointer]:
+                      - /url: /en/the-agency/faqs/drones-uas
+                  - generic [ref=e464]:
+                    - text: 
+                    - link "Special Condition Light UAS" [ref=e467] [cursor=pointer]:
+                      - /url: https://www.easa.europa.eu/document-library/product-certification-consultations/special-condition-light-uas
+                  - generic [ref=e470]:
+                    - text: 
+                    - 'link "Video: Flying a Drone professionally - Find out what is important for your business" [ref=e473] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=4NJYb20-K3s
+                  - generic [ref=e476]:
+                    - text: 
+                    - 'link "Video: Explanation of Specific category" [ref=e479] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=vdrM0F3dWU0
+                  - generic [ref=e482]:
+                    - text: 
+                    - 'link "Video: Methodology for the Specific Ops Risk Assessment (SORA) by JARUS - UAS Workshop 2018" [ref=e485] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=sq7wozIzXBM
+                  - generic [ref=e488]:
+                    - text: 
+                    - 'link "Video: The new design verification drone operations in the “specific” category process for authorisation" [ref=e491] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=69EUfd4snzY
+                  - generic [ref=e494]:
+                    - text: 
+                    - 'link "Video: Path to Design Verification - Rotorcraft & VTOL Symposium 2021 - Rotorcraft & VTOL 2021" [ref=e497] [cursor=pointer]':
+                      - /url: https://www.youtube.com/watch?v=nzHseAVs-y8
+                  - generic [ref=e504]:
+                    - text: "-"
+                    - generic [ref=e506]:
+                      - text: 
+                      - heading "Commission Implementing Regulation (EU) 2019/947" [level=3] [ref=e509]:
+                        - link "Commission Implementing Regulation (EU) 2019/947" [ref=e510] [cursor=pointer]:
+                          - /url: /en/document-library/regulations/commission-implementing-regulation-eu-2019947
+      - contentinfo [ref=e511]:
+        - generic [ref=e513]:
+          - heading "ONLINE SERVICES" [level=2] [ref=e514]
+          - list [ref=e518]:
+            - listitem [ref=e519]:
+              - link " Official Publication" [ref=e520] [cursor=pointer]:
+                - /url: /official-publication
+            - listitem [ref=e521]:
+              - link " AD - Airworthiness Directives - Safety publications tool" [ref=e522] [cursor=pointer]:
+                - /url: https://ad.easa.europa.eu/
+            - listitem [ref=e523]:
+              - link " CRT - Comment Response Tool" [ref=e524] [cursor=pointer]:
+                - /url: https://hub.easa.europa.eu/crt/
+            - listitem [ref=e525]:
+              - link " EASA Portal" [ref=e526] [cursor=pointer]:
+                - /url: https://portal.easa.europa.eu/
+            - listitem [ref=e527]:
+              - link " EAMR - European Aero-Medical Repository" [ref=e528] [cursor=pointer]:
+                - /url: /domains/aircrew-and-medical/medical/european-aero-medical-repository
+            - listitem [ref=e529]:
+              - link " ELG - EASA Learning Gateway" [ref=e530] [cursor=pointer]:
+                - /url: https://training.easa.europa.eu/
+            - listitem [ref=e531]:
+              - link " European Information Sharing and Cooperation Platform on Conflict Zones" [ref=e532] [cursor=pointer]:
+                - /url: /domains/air-operations/information-on-conflict-zones/european-information-sharing-and-cooperation-platform-conflict-zones
+            - listitem [ref=e533]:
+              - link " eRecruitment" [ref=e534] [cursor=pointer]:
+                - /url: https://erecruitment.easa.europa.eu/
+            - listitem [ref=e535]:
+              - link " FSTDIS - Flight Simulation Training Devices Information System" [ref=e536] [cursor=pointer]:
+                - /url: https://lisstdis.easa.europa.eu/
+            - listitem [ref=e537]:
+              - link " Occurrence Reporting" [ref=e538] [cursor=pointer]:
+                - /url: https://www.easa.europa.eu/easa-and-you/safety-management/occurrence-reporting
+            - listitem [ref=e539]:
+              - link " SIS - Standardisation Information System" [ref=e540] [cursor=pointer]:
+                - /url: https://sis.easa.europa.eu/
+            - listitem [ref=e541]:
+              - link " SIB – Safety Information Bulletins" [ref=e542] [cursor=pointer]:
+                - /url: https://ad.easa.europa.eu/sib-docs/page-1
+        - generic [ref=e544]:
+          - heading "READ MORE" [level=2] [ref=e545]
+          - generic [ref=e548]:
+            - list [ref=e549]:
+              - listitem [ref=e550]:
+                - link " Access to documents" [ref=e551] [cursor=pointer]:
+                  - /url: /access-documents
+              - listitem [ref=e552]:
+                - link " Cookie policy" [ref=e553] [cursor=pointer]:
+                  - /url: /en/cookie-policy
+              - listitem [ref=e554]:
+                - link " Data protection" [ref=e555] [cursor=pointer]:
+                  - /url: https://www.easa.europa.eu/data-protection
+              - listitem [ref=e556]:
+                - link " Disclaimer & Copyright Notice" [ref=e557] [cursor=pointer]:
+                  - /url: /copyright-disclaimer
+              - listitem [ref=e558]:
+                - link " EASA's Language Policy" [ref=e559] [cursor=pointer]:
+                  - /url: https://www.easa.europa.eu/easas-language-policy
+              - listitem [ref=e560]:
+                - link " Integrated Management System" [ref=e561] [cursor=pointer]:
+                  - /url: /internationally-recognised-integrated-management-system
+            - heading "WEBSITE" [level=2] [ref=e562]
+            - list [ref=e563]:
+              - listitem [ref=e564]:
+                - link " Website explained" [ref=e565] [cursor=pointer]:
+                  - /url: /web/explained
+              - listitem [ref=e566]:
+                - link " Website FAQs" [ref=e567] [cursor=pointer]:
+                  - /url: /the-agency/faqs/website
+              - listitem [ref=e568]:
+                - link " Login" [ref=e569] [cursor=pointer]:
+                  - /url: /user/login
+              - listitem [ref=e570]:
+                - link " Create an account" [ref=e571] [cursor=pointer]:
+                  - /url: /user/register
+              - listitem [ref=e572]:
+                - link " Notifications" [ref=e573] [cursor=pointer]:
+                  - /url: /web/whatcanifollow
+              - listitem [ref=e574]:
+                - link " Easy Access Rules XML" [ref=e575] [cursor=pointer]:
+                  - /url: /en/easy-access-rules-xml-export
+              - listitem [ref=e576]:
+                - link " RSS feeds" [ref=e577] [cursor=pointer]:
+                  - /url: /rss
+              - listitem [ref=e578]:
+                - link " Sitemap" [ref=e579] [cursor=pointer]:
+                  - /url: /sitemap
+        - generic [ref=e580]:
+          - generic [ref=e581]:
+            - heading "CONNECT WITH US" [level=2] [ref=e582]
+            - list [ref=e586]:
+              - listitem [ref=e587]:
+                - link " Follow our RSS feed" [ref=e588] [cursor=pointer]:
+                  - /url: /rss
+              - listitem [ref=e589]:
+                - link " Follow us on YouTube" [ref=e590] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UC71zEXeufZ3nfBhs_QUiFeg
+              - listitem [ref=e591]:
+                - link " Follow us on Facebook" [ref=e592] [cursor=pointer]:
+                  - /url: https://www.facebook.com/European.Aviation.Safety.Agency
+              - listitem [ref=e593]:
+                - link " Follow us on Twitter" [ref=e594] [cursor=pointer]:
+                  - /url: https://twitter.com/easa
+              - listitem [ref=e595]:
+                - link " Follow us on LinkedIn" [ref=e596] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/easa-european-aviation-safety-agency/
+          - generic [ref=e597]:
+            - heading "CAN WE HELP YOU?" [level=2] [ref=e598]
+            - list [ref=e602]:
+              - listitem [ref=e603]:
+                - link " FAQ Knowledge Base" [ref=e604] [cursor=pointer]:
+                  - /url: /the-agency/faqs
+              - listitem [ref=e605]:
+                - link " Contact us" [ref=e606] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=e607]:
+                - link " Offices" [ref=e608] [cursor=pointer]:
+                  - /url: /can-we-help-you
+        - contentinfo [ref=e609]:
+          - generic [ref=e610]: © European Union Aviation Safety Agency 2026
+          - generic [ref=e612]:
+            - text: An Agency of the European Union
+            - link "EU" [ref=e613] [cursor=pointer]:
+              - /url: http://europa.eu/
+              - img "EU" [ref=e614]
+  - status [ref=e615]
+  - navigation "Back to top"

@@ -1,0 +1,221 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:vero.fi asunto-osake varainsiirtovero 1.5 kauppahinta yhtiölaina site:vero.fi asunto-osake varainsiirtovero 1.5 kauppahinta yhtiölaina
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Avero.fi%2Basunto-osake%2Bvarainsiirtovero%2B1.5%2Bkauppahinta%2Byhti%25C3%25B6laina%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&aep=1&ntc=1&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQ2J8OegQIDxAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQtKgLegQIExAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQtKgLegQIEhAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQs6gLegQIFRAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQ0pQJegQIFhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Tulokset internetistä" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Varainsiirtovero - vero.fi Vero.fi https://www.vero.fi › henkiloasiakkaat › omaisuus › var..." [ref=e143] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/varainsiirtovero/
+                - heading "Varainsiirtovero - vero.fi" [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Vero.fi
+                  - generic [ref=e153]: https://www.vero.fi › henkiloasiakkaat › omaisuus › var...
+              - button "Tietoja tästä tuloksesta" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 1.1.2026 —
+              - generic [ref=e162]:
+                - text: "Varainsiirtoveroprosentit · Kiinteistöt ja rakennukset: 3 % ·"
+                - emphasis [ref=e163]: Asunto
+                - text: "-"
+                - emphasis [ref=e164]: osakkeet
+                - text: "ja kiinteistöyhtiön osakkeet: 1,5 % · Muut arvopaperit, kuten ..."
+            - generic [ref=e166]:
+              - text: "Puuttuu: 1.5 ‎| Hae tällä:"
+              - link "1.5" [ref=e167] [cursor=pointer]:
+                - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:vero.fi+asunto-osake+varainsiirtovero+%221.5%22+kauppahinta+yhti%C3%B6laina&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQ5t4CegQIKRAB
+        - generic [ref=e171]:
+          - generic [ref=e174]:
+            - link "Vastikkeellinen saanto jäämistöosituksessa ja ... Vero.fi https://www.vero.fi › ohje-hakusivu › vastikkeellinen-s..." [ref=e176] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/108338/vastikkeellinen-saanto-j%C3%A4%C3%A4mist%C3%B6osituksessa-ja-perinn%C3%B6njaossa/
+              - heading "Vastikkeellinen saanto jäämistöosituksessa ja ..." [level=3] [ref=e177]
+              - generic [ref=e182]:
+                - generic [ref=e184]: Vero.fi
+                - generic [ref=e186]: https://www.vero.fi › ohje-hakusivu › vastikkeellinen-s...
+            - button "Tietoja tästä tuloksesta" [ref=e187] [cursor=pointer]:
+              - img [ref=e190]
+          - generic [ref=e193]:
+            - generic [ref=e194]: 3.5.2022 —
+            - generic [ref=e195]:
+              - text: Kiinteistöistä maksetaan varainsiirtoveroa 3 prosenttia ja arvopapereista, kuten
+              - emphasis [ref=e196]: asunto
+              - text: "-osakkeista tai liikeosakkeista 1,5 prosenttia."
+          - generic [ref=e198]: "Puuttuu: osake ‎kauppahinta"
+        - generic [ref=e202]:
+          - generic [ref=e205]:
+            - link "Vuokratulojen verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › vuokratulojen-ve..." [ref=e207] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/
+              - heading "Vuokratulojen verotus Syventävä vero-ohje" [level=3] [ref=e208]
+              - generic [ref=e213]:
+                - generic [ref=e215]: Vero.fi
+                - generic [ref=e217]: https://www.vero.fi › ohje-hakusivu › vuokratulojen-ve...
+            - button "Tietoja tästä tuloksesta" [ref=e218] [cursor=pointer]:
+              - img [ref=e221]
+          - generic [ref=e224]:
+            - generic [ref=e225]: 14.1.2026 —
+            - generic [ref=e226]:
+              - text: Jos vuokrauksen kohteena on kalustettu kaksio tai suurempi
+              - emphasis [ref=e227]: asunto
+              - text: ", vähennyksen määrä on 60 euroa kuukaudessa. Vähennyksen määrään ei vaikuta ..."
+        - generic [ref=e231]:
+          - generic [ref=e234]:
+            - link "Verovapaat lahjat Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › verovapaat-lahjat2" [ref=e236] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/329638/verovapaat-lahjat2/
+              - heading "Verovapaat lahjat Syventävä vero-ohje" [level=3] [ref=e237]
+              - generic [ref=e242]:
+                - generic [ref=e244]: Vero.fi
+                - generic [ref=e246]: https://www.vero.fi › ohje-hakusivu › verovapaat-lahjat2
+            - button "Tietoja tästä tuloksesta" [ref=e247] [cursor=pointer]:
+              - img [ref=e250]
+          - generic [ref=e253]:
+            - generic [ref=e254]: 12.1.2026 —
+            - generic [ref=e255]:
+              - emphasis [ref=e256]: Asunto
+              - text: "-"
+              - emphasis [ref=e257]: osakkeen
+              - text: tai kiinteistön voi lahjoittaa vain kokonaan tai murto-osana (esimerkiksi ¼). Niistä ei voi lahjoittaa tietyn euromäärän ...
+        - generic [ref=e261]:
+          - heading "Kuvahaku" [level=2] [ref=e265]
+          - generic [ref=e269]:
+            - generic [ref=e273] [cursor=pointer]:
+              - link "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ... Vero":
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/108338/vastikkeellinen-saanto-j%C3%A4%C3%A4mist%C3%B6osituksessa-ja-perinn%C3%B6njaossa/
+              - button "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ..." [ref=e275]:
+                - img "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ..." [ref=e277]
+              - generic [ref=e279]:
+                - generic [ref=e281]: Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ...
+                - generic [ref=e282]:
+                  - generic [ref=e289]: Vero
+                  - button "Tietoja tästä tuloksesta" [ref=e292]:
+                    - img [ref=e295]
+            - generic [ref=e300] [cursor=pointer]:
+              - link "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ... Vero":
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/108338/vastikkeellinen-saanto-j%C3%A4%C3%A4mist%C3%B6osituksessa-ja-perinn%C3%B6njaossa/
+              - button "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ..." [ref=e302]:
+                - img "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ..." [ref=e304]
+              - generic [ref=e306]:
+                - generic [ref=e308]: Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ...
+                - generic [ref=e309]:
+                  - generic [ref=e316]: Vero
+                  - button "Tietoja tästä tuloksesta" [ref=e319]:
+                    - img [ref=e322]
+            - generic [ref=e327] [cursor=pointer]:
+              - link "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ... Vero":
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/108338/vastikkeellinen-saanto-j%C3%A4%C3%A4mist%C3%B6osituksessa-ja-perinn%C3%B6njaossa/
+              - button "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ..." [ref=e329]:
+                - img "Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ..." [ref=e331]
+              - generic [ref=e333]:
+                - generic [ref=e335]: Vastikkeellinen saanto jäämistöosituksessa ja perinnönjaossa ...
+                - generic [ref=e336]:
+                  - generic [ref=e343]: Vero
+                  - button "Tietoja tästä tuloksesta" [ref=e346]:
+                    - img [ref=e349]
+          - link "Kaikki kuvat" [ref=e352] [cursor=pointer]:
+            - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:vero.fi+asunto-osake+varainsiirtovero+1.5+kauppahinta+yhti%C3%B6laina&udm=2&source=univ&fir=yrQObR-KmeNDsM%252CkW4iS2F8S9mYgM%252C_%253Butc9oTBuNYuDkM%252CkW4iS2F8S9mYgM%252C_%253BZdIqV15FfE1sjM%252CkW4iS2F8S9mYgM%252C_&usg=AI4_-kSV9X2fXS5flMSgnUrTAB1zigH48w&sa=X&ved=2ahUKEwiQxbD7pdaTAxXjJBAIHVoBBokQ7Al6BAgXEAU
+            - separator [ref=e353]
+            - generic [ref=e354]:
+              - generic [ref=e355]: Kaikki kuvat
+              - img [ref=e357]
+      - generic:
+        - generic:
+          - navigation
+      - navigation
+    - contentinfo [ref=e359]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e360]
+      - generic [ref=e364]:
+        - generic [ref=e366]:
+          - text: Suomi
+          - generic [ref=e368]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e370] [cursor=pointer]:
+              - generic [ref=e371]: Helsinki
+              - generic [ref=e373]:
+                - text: "-"
+                - generic [ref=e374]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e376] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e379]:
+          - link "Ohje" [ref=e380] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e381] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e382] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e383] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,423 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: build financial chatbot LangChain OpenAI RAG tutorial 2025 2026 Python build financial chatbot LangChain OpenAI RAG tutorial 2025 2026 Python
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dbuild%2Bfinancial%2Bchatbot%2BLangChain%2BOpenAI%2BRAG%2Btutorial%2B2025%2B2026%2BPython&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&aep=1&ntc=1&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ0pQJegQIDxAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQIRVUQCp5e9Tq0wgcJslVxaRWWnLZmEYVKbg1qysh5HJn2auo584Tk3-Y56afaYvjYoQP_ISar9X42k29tAt3W0bHSksdH_vJmQrlU873fQHNf-27b8w1t7wygBLGvsE1RCrEnF&q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQs6gLegQIERAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dbuild%2Bfinancial%2Bchatbot%2BLangChain%2BOpenAI%2BRAG%2Btutorial%2B2025%2B2026%2BPython&hl=en&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQhoQCKAF6BAgIEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQiIQCKAN6BAgIEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e148]:
+          - generic [ref=e150]:
+            - heading "Videot" [level=2] [ref=e151]
+            - button "Tietoja tästä tuloksesta" [ref=e152] [cursor=pointer]:
+              - img [ref=e155]
+          - generic [ref=e158]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - link "Building RAG Applications With LangChain in 2026! YouTube Pavan Belagatti 9.1.2026" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=x0W2ZbWDQmE
+                  - heading "Building RAG Applications With LangChain in 2026! YouTube Pavan Belagatti 9.1.2026" [level=3] [ref=e168]:
+                    - generic [ref=e171]: Building RAG Applications With LangChain in 2026!
+                    - generic [ref=e173]:
+                      - generic [ref=e174]:
+                        - text: YouTube
+                        - generic [ref=e175]: · Pavan Belagatti
+                      - generic [ref=e176]: 9.1.2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Pavan Belagatti
+                    - button "Tietoja tästä tuloksesta" [ref=e177] [cursor=pointer]:
+                      - img [ref=e180]
+              - 'button "Building RAG Applications With LangChain in 2026!, tekijä: Pavan Belagatti, alusta: YouTube. Katso Googlessa. 29:53" [ref=e182] [cursor=pointer]':
+                - generic [ref=e183]:
+                  - img [ref=e186]
+                  - generic [ref=e189]:
+                    - generic [ref=e190]: 29:53
+                    - img [ref=e193]
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - link "Build a Chatbot with RAG in 10 minutes | Python, LangChain ... YouTube Thomas Janssen 8.1.2025" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=xf3gAFclwqo
+                  - heading "Build a Chatbot with RAG in 10 minutes | Python, LangChain ... YouTube Thomas Janssen 8.1.2025" [level=3] [ref=e205]:
+                    - generic [ref=e208]: Build a Chatbot with RAG in 10 minutes | Python, LangChain ...
+                    - generic [ref=e210]:
+                      - generic [ref=e211]:
+                        - text: YouTube
+                        - generic [ref=e212]: · Thomas Janssen
+                      - generic [ref=e213]: 8.1.2025
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Thomas Janssen
+                    - button "Tietoja tästä tuloksesta" [ref=e214] [cursor=pointer]:
+                      - img [ref=e217]
+              - 'button "Build a Chatbot with RAG in 10 minutes | Python, LangChain ..., tekijä: Thomas Janssen, alusta: YouTube. Katso Googlessa. 9:46" [ref=e219] [cursor=pointer]':
+                - generic [ref=e220]:
+                  - img [ref=e226]
+                  - generic [ref=e229]:
+                    - generic [ref=e230]: 9:46
+                    - img [ref=e233]
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - link "Langchain Tutorial For Beginners (2026 Guide) | AI Agents ... YouTube Ansh Lamba 11.1.2026" [ref=e244] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=AOQyRiwydyo
+                    - heading "Langchain Tutorial For Beginners (2026 Guide) | AI Agents ... YouTube Ansh Lamba 11.1.2026" [level=3] [ref=e245]:
+                      - generic [ref=e248]: Langchain Tutorial For Beginners (2026 Guide) | AI Agents ...
+                      - generic [ref=e250]:
+                        - generic [ref=e251]:
+                          - text: YouTube
+                          - generic [ref=e252]: · Ansh Lamba
+                        - generic [ref=e253]: 11.1.2026
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Ansh Lamba
+                      - button "Tietoja tästä tuloksesta" [ref=e254] [cursor=pointer]:
+                        - img [ref=e257]
+                - 'button "Langchain Tutorial For Beginners (2026 Guide) | AI Agents ..., tekijä: Ansh Lamba, alusta: YouTube. Katso Googlessa. 5:15:22" [ref=e259] [cursor=pointer]':
+                  - generic [ref=e260]:
+                    - img [ref=e266]
+                    - generic [ref=e269]:
+                      - generic [ref=e270]: 5:15:22
+                      - img [ref=e273]
+              - button "16 avainkohtaa tässä videossa" [ref=e279] [cursor=pointer]:
+                - generic [ref=e282]:
+                  - generic [ref=e285]: 16 avainkohtaa tässä videossa
+                  - img [ref=e287]
+          - link "Näytä kaikki videot" [ref=e291] [cursor=pointer]:
+            - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sa=X&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8ccDKAJ6BAgYEAQ
+            - separator [ref=e292]
+            - generic [ref=e293]:
+              - generic [ref=e294]: Näytä lisää
+              - img [ref=e296]
+        - generic [ref=e300]:
+          - heading "Web results" [level=2] [ref=e301]
+          - generic [ref=e302]:
+            - generic [ref=e305]:
+              - link "How to Build an AI Agent Using Python and LangChain in ... Medium · SupriyaStoryteller Yli 10 tykkäystä · 1 kuukausi sitten" [ref=e307] [cursor=pointer]:
+                - /url: https://medium.com/@shirushreya100/how-to-build-an-ai-agent-using-python-and-langchain-in-2026-c730e2446a08
+                - heading "How to Build an AI Agent Using Python and LangChain in ..." [level=3] [ref=e308]
+                - generic [ref=e313]:
+                  - generic [ref=e315]: Medium · SupriyaStoryteller
+                  - generic [ref=e317]: Yli 10 tykkäystä · 1 kuukausi sitten
+              - button "Tietoja tästä tuloksesta" [ref=e318] [cursor=pointer]:
+                - img [ref=e321]
+            - generic [ref=e325]:
+              - emphasis [ref=e326]: How to Build an AI Agent Using Python and LangChain in 2026
+              - text: "· Step 1: Environment Setup · Step 2: Initialize the LLM · Step 3: Define Tools (The ..."
+        - generic [ref=e330]:
+          - generic [ref=e333]:
+            - 'link "AI-Powered Banking Chatbot: Build with LangChain, LangDB ... LangDB AI Gateway https://blog.langdb.ai › ai-powered-..." [ref=e335] [cursor=pointer]':
+              - /url: https://blog.langdb.ai/ai-powered-banking-chatbot-build-with-langchain-langdbai-and-rag-part-1
+              - 'heading "AI-Powered Banking Chatbot: Build with LangChain, LangDB ..." [level=3] [ref=e336]'
+              - generic [ref=e341]:
+                - generic [ref=e343]: LangDB AI Gateway
+                - generic [ref=e345]: https://blog.langdb.ai › ai-powered-...
+            - generic [ref=e346]:
+              - generic [ref=e347]: ·
+              - link "Käännä tämä sivu" [ref=e348] [cursor=pointer]:
+                - /url: https://blog.langdb.ai/ai-powered-banking-chatbot-build-with-langchain-langdbai-and-rag-part-1
+            - button "Tietoja tästä tuloksesta" [ref=e349] [cursor=pointer]:
+              - img [ref=e352]
+          - generic [ref=e355]:
+            - generic [ref=e356]: 12.5.2025 —
+            - generic [ref=e357]:
+              - text: Today, we're diving into
+              - emphasis [ref=e358]: how you can build a LangChain-powered RAG
+              - text: (Retrieval-Augmented Generation) Conversational AI using Streamlit, LangChain ...
+        - generic [ref=e362]:
+          - generic [ref=e365]:
+            - link "How to Build Your Own RAG Chatbot with OpenAI, Flask ... Towards AI https://pub.towardsai.net › build-yo..." [ref=e367] [cursor=pointer]:
+              - /url: https://pub.towardsai.net/build-your-own-rag-chatbot-with-openai-flask-langchain-and-docker-c3c7fba7cb25
+              - heading "How to Build Your Own RAG Chatbot with OpenAI, Flask ..." [level=3] [ref=e368]
+              - generic [ref=e373]:
+                - generic [ref=e375]: Towards AI
+                - generic [ref=e377]: https://pub.towardsai.net › build-yo...
+            - generic [ref=e378]:
+              - generic [ref=e379]: ·
+              - link "Käännä tämä sivu" [ref=e380] [cursor=pointer]:
+                - /url: https://pub.towardsai.net/build-your-own-rag-chatbot-with-openai-flask-langchain-and-docker-c3c7fba7cb25
+            - button "Tietoja tästä tuloksesta" [ref=e381] [cursor=pointer]:
+              - img [ref=e384]
+          - generic [ref=e387]:
+            - generic [ref=e388]: 16.1.2026 —
+            - generic [ref=e389]:
+              - emphasis [ref=e390]: How to Build Your Own RAG Chatbot with OpenAI, Flask, LangChain and Docker
+              - text: "! A Hands-On Guide from Local Fullstack Development to ..."
+        - generic [ref=e394]:
+          - generic [ref=e397]:
+            - 'link "LangChain Python Tutorial: A Complete Guide for 2026 The JetBrains Blog https://blog.jetbrains.com › 2026/02" [ref=e399] [cursor=pointer]':
+              - /url: https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/
+              - 'heading "LangChain Python Tutorial: A Complete Guide for 2026" [level=3] [ref=e400]'
+              - generic [ref=e405]:
+                - generic [ref=e407]: The JetBrains Blog
+                - generic [ref=e409]: https://blog.jetbrains.com › 2026/02
+            - generic [ref=e410]:
+              - generic [ref=e411]: ·
+              - link "Käännä tämä sivu" [ref=e412] [cursor=pointer]:
+                - /url: https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/
+            - button "Tietoja tästä tuloksesta" [ref=e413] [cursor=pointer]:
+              - img [ref=e416]
+          - generic [ref=e419]:
+            - generic [ref=e420]: 19.2.2026 —
+            - generic [ref=e421]:
+              - emphasis [ref=e422]: Learn how to build AI agents with LangChain in 2026
+              - text: – from chatbots and document Q&A to tools, guardrails, testing, and debugging in ...
+        - generic [ref=e426]:
+          - generic [ref=e429]:
+            - link "Build a RAG agent with LangChain LangChain https://docs.langchain.com › python" [ref=e431] [cursor=pointer]:
+              - /url: https://docs.langchain.com/oss/python/langchain/rag
+              - heading "Build a RAG agent with LangChain" [level=3] [ref=e432]
+              - generic [ref=e437]:
+                - generic [ref=e439]: LangChain
+                - generic [ref=e441]: https://docs.langchain.com › python
+            - generic [ref=e442]:
+              - generic [ref=e443]: ·
+              - link "Käännä tämä sivu" [ref=e444] [cursor=pointer]:
+                - /url: https://docs.langchain.com/oss/python/langchain/rag
+            - button "Tietoja tästä tuloksesta" [ref=e445] [cursor=pointer]:
+              - img [ref=e448]
+          - generic [ref=e452]:
+            - text: This
+            - emphasis [ref=e453]: tutorial
+            - text: will show how to
+            - emphasis [ref=e454]: build
+            - text: "a simple Q&A application over an unstructured text data source. We will demonstrate: A"
+            - emphasis [ref=e455]: RAG
+            - text: agent that executes searches ...
+          - generic [ref=e457]: "Puuttuu: financial ‎2026"
+        - generic [ref=e461]:
+          - generic [ref=e464]:
+            - link "Python RAG API Tutorial with LangChain & FastAPI Vitalii Honchar https://www.vitaliihonchar.com › py..." [ref=e466] [cursor=pointer]:
+              - /url: https://www.vitaliihonchar.com/insights/python-rag-api
+              - heading "Python RAG API Tutorial with LangChain & FastAPI" [level=3] [ref=e467]
+              - generic [ref=e472]:
+                - generic [ref=e474]: Vitalii Honchar
+                - generic [ref=e476]: https://www.vitaliihonchar.com › py...
+            - generic [ref=e477]:
+              - generic [ref=e478]: ·
+              - link "Käännä tämä sivu" [ref=e479] [cursor=pointer]:
+                - /url: https://www.vitaliihonchar.com/insights/python-rag-api
+            - button "Tietoja tästä tuloksesta" [ref=e480] [cursor=pointer]:
+              - img [ref=e483]
+          - generic [ref=e486]:
+            - generic [ref=e487]: 28.5.2025 —
+            - generic [ref=e488]:
+              - emphasis [ref=e489]: Learn how to build a Retrieval-Augmented Generation (RAG) PDF chat service
+              - text: using FastAPI, Postgres pgvector, and OpenAI API in this ...
+        - generic [ref=e493]:
+          - generic [ref=e496]:
+            - 'link "Langchain RAG: Build Production-Ready RAG Chatbots FutureSmart AI https://blog.futuresmart.ai › langchai..." [ref=e498] [cursor=pointer]':
+              - /url: https://blog.futuresmart.ai/langchain-rag-from-basics-to-production-ready-rag-chatbot
+              - 'heading "Langchain RAG: Build Production-Ready RAG Chatbots" [level=3] [ref=e499]'
+              - generic [ref=e504]:
+                - generic [ref=e506]: FutureSmart AI
+                - generic [ref=e508]: https://blog.futuresmart.ai › langchai...
+            - generic [ref=e509]:
+              - generic [ref=e510]: ·
+              - link "Käännä tämä sivu" [ref=e511] [cursor=pointer]:
+                - /url: https://blog.futuresmart.ai/langchain-rag-from-basics-to-production-ready-rag-chatbot
+            - button "Tietoja tästä tuloksesta" [ref=e512] [cursor=pointer]:
+              - img [ref=e515]
+          - generic [ref=e518]:
+            - generic [ref=e519]: 31.12.2025 —
+            - generic [ref=e520]:
+              - text: This comprehensive tutorial guides you through
+              - emphasis [ref=e521]: creating a multi-user chatbot with FastAPI backend and Streamlit frontend
+              - text: ", covering both theory and hands-on ..."
+        - generic [ref=e525]:
+          - generic [ref=e528]:
+            - 'link "Building RAG Applications with Python: Complete 2026 ... AskPython https://www.askpython.com › python" [ref=e530] [cursor=pointer]':
+              - /url: https://www.askpython.com/python/examples/building-rag-applications-with-python
+              - 'heading "Building RAG Applications with Python: Complete 2026 ..." [level=3] [ref=e531]'
+              - generic [ref=e536]:
+                - generic [ref=e538]: AskPython
+                - generic [ref=e540]: https://www.askpython.com › python
+            - generic [ref=e541]:
+              - generic [ref=e542]: ·
+              - link "Käännä tämä sivu" [ref=e543] [cursor=pointer]:
+                - /url: https://www.askpython.com/python/examples/building-rag-applications-with-python
+            - button "Tietoja tästä tuloksesta" [ref=e544] [cursor=pointer]:
+              - img [ref=e547]
+          - generic [ref=e550]:
+            - generic [ref=e551]: 30.1.2026 —
+            - generic [ref=e552]:
+              - text: In this
+              - emphasis [ref=e553]: guide
+              - text: ", you'll"
+              - emphasis [ref=e554]: build
+              - text: a working
+              - emphasis [ref=e555]: RAG
+              - text: system in
+              - emphasis [ref=e556]: Python
+              - text: —from basic document search to production patterns with hybrid retrieval and re- ...
+        - generic [ref=e560]:
+          - generic [ref=e563]:
+            - link "How to Build a RAG Chatbot with OpenAI and Web Scraping Oxylabs https://oxylabs.io › Blog" [ref=e565] [cursor=pointer]:
+              - /url: https://oxylabs.io/blog/how-to-build-a-rag-chatbot
+              - heading "How to Build a RAG Chatbot with OpenAI and Web Scraping" [level=3] [ref=e566]
+              - generic [ref=e571]:
+                - generic [ref=e573]: Oxylabs
+                - generic [ref=e575]: https://oxylabs.io › Blog
+            - generic [ref=e576]:
+              - generic [ref=e577]: ·
+              - link "Käännä tämä sivu" [ref=e578] [cursor=pointer]:
+                - /url: https://oxylabs.io/blog/how-to-build-a-rag-chatbot
+            - button "Tietoja tästä tuloksesta" [ref=e579] [cursor=pointer]:
+              - img [ref=e582]
+          - generic [ref=e585]:
+            - generic [ref=e586]: 19.9.2025 —
+            - generic [ref=e587]:
+              - text: Step-by-step guide on building a RAG chatbot ·
+              - emphasis [ref=e588]: 1. Choose a RAG framework
+              - text: · 2. Load documents · 3. Chunk documents · 4. Generate embeddings and ...
+      - navigation [ref=e591]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e592]
+        - text: "1"
+        - link "Page 2" [ref=e595] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=10&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAE
+          - text: "2"
+        - link "Page 3" [ref=e597] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=20&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAG
+          - text: "3"
+        - link "Page 4" [ref=e599] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=30&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAI
+          - text: "4"
+        - link "Page 5" [ref=e601] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=40&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAK
+          - text: "5"
+        - link "Page 6" [ref=e603] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=50&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAM
+          - text: "6"
+        - link "Page 7" [ref=e605] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=60&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAO
+          - text: "7"
+        - link "Page 8" [ref=e607] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=70&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAQ
+          - text: "8"
+        - link "Page 9" [ref=e609] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=80&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAS
+          - text: "9"
+        - link "Page 10" [ref=e611] [cursor=pointer]:
+          - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=90&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8tMDegQIMBAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e613]:
+          - link "Seuraava" [ref=e614] [cursor=pointer]:
+            - /url: /search?q=build+financial+chatbot+LangChain+OpenAI+RAG+tutorial+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=VW3RafjeEd7UwPAPs9jOgQY&start=10&sa=N&sstk=Af77f_dv8Re8BjnhRQT-VqSh-nwUCbq2a7CFSPqk3zGOKRuoG12F_EDd44y21IyVDSECKyAwwOCIzSL6bLhSlQQzPqSa4Zb8Zo28Lg&ved=2ahUKEwi43arU_dSTAxVeKhAIHTOsM2AQ8NMDegQIMBAW
+            - generic [ref=e616]: Seuraava
+      - navigation
+    - contentinfo [ref=e617]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e618]
+      - generic [ref=e622]:
+        - generic [ref=e624]:
+          - text: Suomi
+          - generic [ref=e626]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e628] [cursor=pointer]:
+              - generic [ref=e629]: Helsinki
+              - generic [ref=e631]:
+                - text: "-"
+                - generic [ref=e632]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e634] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e637]:
+          - link "Ohje" [ref=e638] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e639] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e640] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e641] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

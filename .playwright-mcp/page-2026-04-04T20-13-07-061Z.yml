@@ -1,0 +1,1704 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link " PyPortfolioOpt" [ref=e6] [cursor=pointer]:
+            - /url: index.html
+          - generic [ref=e7]: latest
+          - search [ref=e8]:
+            - textbox "Search docs" [ref=e10]
+        - navigation "main navigation" [ref=e11]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link "User Guide" [ref=e14] [cursor=pointer]:
+                - /url: UserGuide.html
+            - listitem [ref=e15]:
+              - link "Expected Returns" [ref=e16] [cursor=pointer]:
+                - /url: ExpectedReturns.html
+            - listitem [ref=e17]:
+              - link "Risk Models" [ref=e18] [cursor=pointer]:
+                - /url: RiskModels.html
+            - listitem [ref=e19]:
+              - link "Mean-Variance Optimization" [ref=e20] [cursor=pointer]:
+                - /url: MeanVariance.html
+            - listitem [ref=e21]:
+              - link " General Efficient Frontier" [ref=e22] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e23]: 
+                - text: General Efficient Frontier
+              - list [ref=e24]:
+                - listitem [ref=e25]:
+                  - link "Efficient Semivariance" [ref=e26] [cursor=pointer]:
+                    - /url: "#efficient-semivariance"
+                - listitem [ref=e27]:
+                  - link "Efficient CVaR" [ref=e28] [cursor=pointer]:
+                    - /url: "#efficient-cvar"
+                - listitem [ref=e29]:
+                  - link "EfficientCDaR" [ref=e30] [cursor=pointer]:
+                    - /url: "#efficientcdar"
+                - listitem [ref=e31]:
+                  - link "Custom optimization problems" [ref=e32] [cursor=pointer]:
+                    - /url: "#custom-optimization-problems"
+                - listitem [ref=e33]:
+                  - link "References" [ref=e34] [cursor=pointer]:
+                    - /url: "#references"
+            - listitem [ref=e35]:
+              - link "Black-Litterman Allocation" [ref=e36] [cursor=pointer]:
+                - /url: BlackLitterman.html
+            - listitem [ref=e37]:
+              - link "Other Optimizers" [ref=e38] [cursor=pointer]:
+                - /url: OtherOptimizers.html
+            - listitem [ref=e39]:
+              - link "Post-processing weights" [ref=e40] [cursor=pointer]:
+                - /url: Postprocessing.html
+            - listitem [ref=e41]:
+              - link "Plotting" [ref=e42] [cursor=pointer]:
+                - /url: Plotting.html
+          - paragraph [ref=e43]: Other information
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "FAQs" [ref=e46] [cursor=pointer]:
+                - /url: FAQ.html
+            - listitem [ref=e47]:
+              - link "Roadmap and Changelog" [ref=e48] [cursor=pointer]:
+                - /url: Roadmap.html
+            - listitem [ref=e49]:
+              - link "Citing PyPortfolioOpt" [ref=e50] [cursor=pointer]:
+                - /url: Citing.html
+            - listitem [ref=e51]:
+              - link "Contributing" [ref=e52] [cursor=pointer]:
+                - /url: Contributing.html
+            - listitem [ref=e53]:
+              - link "About" [ref=e54] [cursor=pointer]:
+                - /url: About.html
+    - generic [ref=e55]:
+      - text: 
+      - generic [ref=e57]:
+        - navigation "breadcrumbs navigation" [ref=e58]:
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - link "Docs" [ref=e61] [cursor=pointer]:
+                - /url: index.html
+              - text: »
+            - listitem [ref=e62]: General Efficient Frontier
+            - listitem [ref=e63]:
+              - link " Edit on GitHub" [ref=e64] [cursor=pointer]:
+                - /url: https://github.com/robertmartin8/PyPortfolioOpt/blob/master/docs/GeneralEfficientFrontier.rst
+          - separator [ref=e65]
+        - main [ref=e66]:
+          - generic [ref=e68]:
+            - heading "General Efficient Frontier" [level=1] [ref=e69]
+            - paragraph [ref=e70]: The mean-variance optimization methods described previously can be used whenever you have a vector of expected returns and a covariance matrix. The objective and constraints will be some combination of the portfolio return and portfolio volatility.
+            - paragraph [ref=e71]: However, you may want to construct the efficient frontier for an entirely different type of risk model (one that doesn’t depend on covariance matrices), or optimize an objective unrelated to portfolio return (e.g tracking error). PyPortfolioOpt comes with several popular alternatives and provides support for custom optimization problems.
+            - generic [ref=e72]:
+              - heading "Efficient Semivariance" [level=2] [ref=e73]
+              - paragraph [ref=e74]: Instead of penalising volatility, mean-semivariance optimization seeks to only penalise downside volatility, since upside volatility may be desirable.
+              - paragraph [ref=e75]:
+                - text: "There are two approaches to the mean-semivariance optimization problem. The first is to use a heuristic (i.e “quick and dirty”) solution: pretending that the semicovariance matrix (implemented in"
+                - code [ref=e76]: risk_models
+                - text: ) is a typical covariance matrix and doing standard mean-variance optimization. It can be shown that this
+                - emphasis [ref=e77]: does not
+                - text: yield a portfolio that is efficient in mean-semivariance space (though it might be a good-enough approximation).
+              - paragraph [ref=e78]:
+                - text: Fortunately, it is possible to write mean-semivariance optimization as a convex problem (albeit one with many variables), that can be solved to give an “exact” solution. For example, to maximise return for a target semivariance
+                - generic [ref=e82]:
+                  - generic [ref=e83]: s
+                  - generic [ref=e84]: ∗
+                - text: "(long-only), we would solve the following problem:"
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e96]:
+                    - generic [ref=e98]: maximise
+                    - generic [ref=e100]: w
+                  - generic [ref=e102]:
+                    - generic [ref=e103]:
+                      - generic [ref=e104]: w
+                      - generic [ref=e105]: T
+                    - generic [ref=e106]: μ
+                - generic [ref=e107]:
+                  - generic [ref=e109]: subject to
+                  - generic [ref=e111]:
+                    - generic [ref=e112]:
+                      - generic [ref=e113]: "n"
+                      - generic [ref=e114]: T
+                    - generic [ref=e115]: "n"
+                    - generic [ref=e116]: ≤
+                    - generic [ref=e117]:
+                      - generic [ref=e118]: s
+                      - generic [ref=e119]: ∗
+                - generic [ref=e123]:
+                  - generic [ref=e124]: B
+                  - generic [ref=e125]: w
+                  - generic [ref=e126]: −
+                  - generic [ref=e127]: p
+                  - generic [ref=e128]: +
+                  - generic [ref=e129]: "n"
+                  - generic [ref=e130]: =
+                  - generic [ref=e131]: "0"
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - generic [ref=e137]: w
+                    - generic [ref=e138]: T
+                  - generic [ref=e140]: "1"
+                  - generic [ref=e141]: =
+                  - generic [ref=e142]: "1"
+                - generic [ref=e146]:
+                  - generic [ref=e147]: "n"
+                  - generic [ref=e148]: ≥
+                  - generic [ref=e149]: "0"
+                - generic [ref=e153]:
+                  - generic [ref=e154]: p
+                  - generic [ref=e155]: ≥
+                  - generic [ref=e156]: "0."
+              - paragraph [ref=e157]:
+                - text: Here,
+                - strong [ref=e158]: B
+                - text: is the
+                - generic [ref=e161]:
+                  - generic [ref=e162]: T
+                  - generic [ref=e163]: ×
+                  - generic [ref=e164]: "N"
+                - text: "(scaled) matrix of excess returns:"
+                - code [ref=e165]: B = (returns - benchmark) / sqrt(T)
+                - text: . Additional linear equality constraints and convex inequality constraints can be added.
+              - paragraph [ref=e166]:
+                - text: PyPortfolioOpt allows users to optimize along the efficient semivariance frontier via the
+                - code [ref=e167]: EfficientSemivariance
+                - text: class.
+                - code [ref=e168]: EfficientSemivariance
+                - text: inherits from
+                - code [ref=e169]: EfficientFrontier
+                - text: ", so it has the same utility methods (e.g"
+                - code [ref=e170]: add_constraint()
+                - text: ","
+                - code [ref=e171]: portfolio_performance()
+                - text: ), but finds portfolios on the mean-semivariance frontier. Note that some of the parent methods, like
+                - code [ref=e172]: max_sharpe()
+                - text: and
+                - code [ref=e173]: min_volatility()
+                - text: are not applicable to mean-semivariance portfolios, so calling them returns
+                - code [ref=e174]: NotImplementedError
+                - text: .
+              - paragraph [ref=e175]:
+                - code [ref=e176]: EfficientSemivariance
+                - text: has a slightly different API to
+                - code [ref=e177]: EfficientFrontier
+                - text: . Instead of passing in a covariance matrix, you should past in a dataframe of historical/simulated returns (this can be constructed from your price dataframe using the helper method
+                - code [ref=e178]: expected_returns.returns_from_prices()
+                - text: "). Here is a full example, in which we seek the portfolio that minimises the semivariance for a target annual return of 20%:"
+              - generic [ref=e181]: "from pypfopt import expected_returns, EfficientSemivariance df = ... # your dataframe of prices mu = expected_returns.mean_historical_returns(df) historical_returns = expected_returns.returns_from_prices(df) es = EfficientSemivariance(mu, historical_returns) es.efficient_return(0.20) # We can use the same helper methods as before weights = es.clean_weights() print(weights) es.portfolio_performance(verbose=True)"
+              - paragraph [ref=e182]:
+                - text: The
+                - code [ref=e183]: portfolio_performance
+                - text: method outputs the expected portfolio return, semivariance, and the Sortino ratio (like the Sharpe ratio, but for downside deviation).
+              - paragraph [ref=e184]:
+                - text: Interested readers should refer to Estrada (2007)
+                - link "[1]" [ref=e185] [cursor=pointer]:
+                  - /url: "#id7"
+                - text: for more details. I’d like to thank
+                - link "Philipp Schiele" [ref=e186] [cursor=pointer]:
+                  - /url: https://github.com/phschiele
+                - text: for authoring the bulk of the efficient semivariance functionality and documentation (all errors are my own). The implementation is based on Markowitz et al (2019)
+                - link "[2]" [ref=e187] [cursor=pointer]:
+                  - /url: "#id8"
+                - text: .
+              - generic [ref=e188]:
+                - paragraph [ref=e189]:  Caution
+                - paragraph [ref=e190]:
+                  - text: "Finding portfolios on the mean-semivariance frontier is computationally harder than standard mean-variance optimization: our implementation uses"
+                  - code [ref=e191]: 2T + N
+                  - text: optimization variables, meaning that for 50 assets and 3 years of data, there are about 1500 variables. While
+                  - code [ref=e192]: EfficientSemivariance
+                  - text: allows for additional constraints/objectives in principle, you are much more likely to run into solver errors. I suggest that you keep
+                  - code [ref=e193]: EfficientSemivariance
+                  - text: problems small and minimally constrained.
+              - generic [ref=e194]:
+                - term [ref=e195]:
+                  - emphasis [ref=e196]: class
+                  - code [ref=e197]: pypfopt.efficient_frontier.
+                  - code [ref=e198]: EfficientSemivariance
+                  - text: (
+                  - emphasis [ref=e199]: expected_returns
+                  - text: ","
+                  - emphasis [ref=e200]: returns
+                  - text: ","
+                  - emphasis [ref=e201]: frequency=252
+                  - text: ","
+                  - emphasis [ref=e202]: benchmark=0
+                  - text: ","
+                  - emphasis [ref=e203]: weight_bounds=(0
+                  - text: ","
+                  - emphasis [ref=e204]: 1)
+                  - text: ","
+                  - emphasis [ref=e205]: solver=None
+                  - text: ","
+                  - emphasis [ref=e206]: verbose=False
+                  - text: ","
+                  - emphasis [ref=e207]: solver_options=None
+                  - text: )
+                  - link "[source]" [ref=e208] [cursor=pointer]:
+                    - /url: _modules/pypfopt/efficient_frontier/efficient_semivariance.html#EfficientSemivariance
+                    - generic [ref=e209]: "[source]"
+                - definition [ref=e210]:
+                  - paragraph [ref=e211]: EfficientSemivariance objects allow for optimization along the mean-semivariance frontier. This may be relevant for users who are more concerned about downside deviation.
+                  - paragraph [ref=e212]: "Instance variables:"
+                  - list [ref=e213]:
+                    - listitem [ref=e214]:
+                      - paragraph [ref=e215]: "Inputs:"
+                      - blockquote [ref=e216]:
+                        - list [ref=e218]:
+                          - listitem [ref=e219]:
+                            - code [ref=e220]: n_assets
+                            - text: "- int"
+                          - listitem [ref=e221]:
+                            - code [ref=e222]: tickers
+                            - text: "- str list"
+                          - listitem [ref=e223]:
+                            - code [ref=e224]: bounds
+                            - text: "- float tuple OR (float tuple) list"
+                          - listitem [ref=e225]:
+                            - code [ref=e226]: returns
+                            - text: "- pd.DataFrame"
+                          - listitem [ref=e227]:
+                            - code [ref=e228]: expected_returns
+                            - text: "- np.ndarray"
+                          - listitem [ref=e229]:
+                            - code [ref=e230]: solver
+                            - text: "- str"
+                          - listitem [ref=e231]:
+                            - code [ref=e232]: solver_options
+                            - text: "- {str: str} dict"
+                    - listitem [ref=e233]:
+                      - paragraph [ref=e234]:
+                        - text: "Output:"
+                        - code [ref=e235]: weights
+                        - text: "- np.ndarray"
+                  - paragraph [ref=e236]: "Public methods:"
+                  - list [ref=e237]:
+                    - listitem [ref=e238]:
+                      - code [ref=e239]: min_semivariance()
+                      - text: minimises the portfolio semivariance (downside deviation)
+                    - listitem [ref=e240]:
+                      - code [ref=e241]: max_quadratic_utility()
+                      - text: maximises the “downside quadratic utility”, given some risk aversion.
+                    - listitem [ref=e242]:
+                      - code [ref=e243]: efficient_risk()
+                      - text: maximises return for a given target semideviation
+                    - listitem [ref=e244]:
+                      - code [ref=e245]: efficient_return()
+                      - text: minimises semideviation for a given target return
+                    - listitem [ref=e246]:
+                      - code [ref=e247]: add_objective()
+                      - text: adds a (convex) objective to the optimization problem
+                    - listitem [ref=e248]:
+                      - code [ref=e249]: add_constraint()
+                      - text: adds a constraint to the optimization problem
+                    - listitem [ref=e250]:
+                      - code [ref=e251]: convex_objective()
+                      - text: solves for a generic convex objective with linear constraints
+                    - listitem [ref=e252]:
+                      - code [ref=e253]: portfolio_performance()
+                      - text: calculates the expected return, semideviation and Sortino ratio for the optimized portfolio.
+                    - listitem [ref=e254]:
+                      - code [ref=e255]: set_weights()
+                      - text: creates self.weights (np.ndarray) from a weights dict
+                    - listitem [ref=e256]:
+                      - code [ref=e257]: clean_weights()
+                      - text: rounds the weights and clips near-zeros.
+                    - listitem [ref=e258]:
+                      - code [ref=e259]: save_weights_to_file()
+                      - text: saves the weights to csv, json, or txt.
+                  - generic [ref=e260]:
+                    - term [ref=e261]:
+                      - code [ref=e262]: efficient_return
+                      - text: (
+                      - emphasis [ref=e263]: target_return
+                      - text: ","
+                      - emphasis [ref=e264]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e265] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_semivariance.html#EfficientSemivariance.efficient_return
+                        - generic [ref=e266]: "[source]"
+                    - definition [ref=e267]:
+                      - paragraph [ref=e268]: Minimise semideviation for a given target return.
+                      - table [ref=e269]:
+                        - rowgroup [ref=e273]:
+                          - 'row "Parameters: target_return (float) – the desired return of the resulting portfolio. market_neutral (bool, optional) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound." [ref=e274]':
+                            - rowheader "Parameters:" [ref=e275]
+                            - cell "target_return (float) – the desired return of the resulting portfolio. market_neutral (bool, optional) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound." [ref=e276]:
+                              - list [ref=e277]:
+                                - listitem [ref=e278]:
+                                  - strong [ref=e279]: target_return
+                                  - text: (
+                                  - emphasis [ref=e280]: float
+                                  - text: ) – the desired return of the resulting portfolio.
+                                - listitem [ref=e281]:
+                                  - strong [ref=e282]: market_neutral
+                                  - text: (
+                                  - emphasis [ref=e283]: bool
+                                  - emphasis [ref=e284]: ","
+                                  - emphasis [ref=e285]: optional
+                                  - text: ) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                          - 'row "Raises: ValueError – if target_return is not a positive float ValueError – if no portfolio can be found with return equal to target_return" [ref=e286]':
+                            - rowheader "Raises:" [ref=e287]
+                            - cell "ValueError – if target_return is not a positive float ValueError – if no portfolio can be found with return equal to target_return" [ref=e288]:
+                              - list [ref=e289]:
+                                - listitem [ref=e290]:
+                                  - strong [ref=e291]: ValueError
+                                  - text: – if
+                                  - code [ref=e292]: target_return
+                                  - text: is not a positive float
+                                - listitem [ref=e293]:
+                                  - strong [ref=e294]: ValueError
+                                  - text: – if no portfolio can be found with return equal to
+                                  - code [ref=e295]: target_return
+                          - 'row "Returns: asset weights for the optimal portfolio" [ref=e296]':
+                            - rowheader "Returns:" [ref=e297]
+                            - cell "asset weights for the optimal portfolio" [ref=e298]:
+                              - paragraph [ref=e299]: asset weights for the optimal portfolio
+                          - 'row "Return type: OrderedDict" [ref=e300]':
+                            - rowheader "Return type:" [ref=e301]
+                            - cell "OrderedDict" [ref=e302]:
+                              - paragraph [ref=e303]: OrderedDict
+                  - generic [ref=e304]:
+                    - term [ref=e305]:
+                      - code [ref=e306]: efficient_risk
+                      - text: (
+                      - emphasis [ref=e307]: target_semideviation
+                      - text: ","
+                      - emphasis [ref=e308]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e309] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_semivariance.html#EfficientSemivariance.efficient_risk
+                        - generic [ref=e310]: "[source]"
+                    - definition [ref=e311]:
+                      - paragraph [ref=e312]: Maximise return for a target semideviation (downside standard deviation). The resulting portfolio will have a semideviation less than the target (but not guaranteed to be equal).
+                      - table [ref=e313]:
+                        - rowgroup [ref=e317]:
+                          - 'row "Parameters: target_semideviation (float) – the desired maximum semideviation of the resulting portfolio. market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e318]':
+                            - rowheader "Parameters:" [ref=e319]
+                            - cell "target_semideviation (float) – the desired maximum semideviation of the resulting portfolio. market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e320]:
+                              - list [ref=e321]:
+                                - listitem [ref=e322]:
+                                  - strong [ref=e323]: target_semideviation
+                                  - text: (
+                                  - emphasis [ref=e324]: float
+                                  - text: ) – the desired maximum semideviation of the resulting portfolio.
+                                - listitem [ref=e325]:
+                                  - strong [ref=e326]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e327]:
+                                  - strong [ref=e328]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the efficient risk portfolio" [ref=e329]':
+                            - rowheader "Returns:" [ref=e330]
+                            - cell "asset weights for the efficient risk portfolio" [ref=e331]:
+                              - paragraph [ref=e332]: asset weights for the efficient risk portfolio
+                          - 'row "Return type: OrderedDict" [ref=e333]':
+                            - rowheader "Return type:" [ref=e334]
+                            - cell "OrderedDict" [ref=e335]:
+                              - paragraph [ref=e336]: OrderedDict
+                  - generic [ref=e337]:
+                    - term [ref=e338]:
+                      - code [ref=e339]: max_quadratic_utility
+                      - text: (
+                      - emphasis [ref=e340]: risk_aversion=1
+                      - text: ","
+                      - emphasis [ref=e341]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e342] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_semivariance.html#EfficientSemivariance.max_quadratic_utility
+                        - generic [ref=e343]: "[source]"
+                    - definition [ref=e344]:
+                      - paragraph [ref=e345]: Maximise the given quadratic utility, using portfolio semivariance instead of variance.
+                      - table [ref=e346]:
+                        - rowgroup [ref=e350]:
+                          - 'row "Parameters: risk_aversion (positive float) – risk aversion parameter (must be greater than 0), defaults to 1 market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e351]':
+                            - rowheader "Parameters:" [ref=e352]
+                            - cell "risk_aversion (positive float) – risk aversion parameter (must be greater than 0), defaults to 1 market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e353]:
+                              - list [ref=e354]:
+                                - listitem [ref=e355]:
+                                  - strong [ref=e356]: risk_aversion
+                                  - text: (
+                                  - emphasis [ref=e357]: positive float
+                                  - text: ) – risk aversion parameter (must be greater than 0), defaults to 1
+                                - listitem [ref=e358]:
+                                  - strong [ref=e359]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e360]:
+                                  - strong [ref=e361]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the maximum-utility portfolio" [ref=e362]':
+                            - rowheader "Returns:" [ref=e363]
+                            - cell "asset weights for the maximum-utility portfolio" [ref=e364]:
+                              - paragraph [ref=e365]: asset weights for the maximum-utility portfolio
+                          - 'row "Return type: OrderedDict" [ref=e366]':
+                            - rowheader "Return type:" [ref=e367]
+                            - cell "OrderedDict" [ref=e368]:
+                              - paragraph [ref=e369]: OrderedDict
+                  - generic [ref=e370]:
+                    - term [ref=e371]:
+                      - code [ref=e372]: min_semivariance
+                      - text: (
+                      - emphasis [ref=e373]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e374] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_semivariance.html#EfficientSemivariance.min_semivariance
+                        - generic [ref=e375]: "[source]"
+                    - definition [ref=e376]:
+                      - paragraph [ref=e377]: Minimise portfolio semivariance (see docs for further explanation).
+                      - table [ref=e378]:
+                        - rowgroup [ref=e382]:
+                          - 'row "Parameters: market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e383]':
+                            - rowheader "Parameters:" [ref=e384]
+                            - cell "market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e385]:
+                              - list [ref=e386]:
+                                - listitem [ref=e387]:
+                                  - strong [ref=e388]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e389]:
+                                  - strong [ref=e390]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the volatility-minimising portfolio" [ref=e391]':
+                            - rowheader "Returns:" [ref=e392]
+                            - cell "asset weights for the volatility-minimising portfolio" [ref=e393]:
+                              - paragraph [ref=e394]: asset weights for the volatility-minimising portfolio
+                          - 'row "Return type: OrderedDict" [ref=e395]':
+                            - rowheader "Return type:" [ref=e396]
+                            - cell "OrderedDict" [ref=e397]:
+                              - paragraph [ref=e398]: OrderedDict
+                  - generic [ref=e399]:
+                    - term [ref=e400]:
+                      - code [ref=e401]: portfolio_performance
+                      - text: (
+                      - emphasis [ref=e402]: verbose=False
+                      - text: ","
+                      - emphasis [ref=e403]: risk_free_rate=0.02
+                      - text: )
+                      - link "[source]" [ref=e404] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_semivariance.html#EfficientSemivariance.portfolio_performance
+                        - generic [ref=e405]: "[source]"
+                    - definition [ref=e406]:
+                      - paragraph [ref=e407]: "After optimising, calculate (and optionally print) the performance of the optimal portfolio, specifically: expected return, semideviation, Sortino ratio."
+                      - table [ref=e408]:
+                        - rowgroup [ref=e412]:
+                          - 'row "Parameters: verbose (bool, optional) – whether performance should be printed, defaults to False risk_free_rate (float, optional) – risk-free rate of borrowing/lending, defaults to 0.02. The period of the risk-free rate should correspond to the frequency of expected returns." [ref=e413]':
+                            - rowheader "Parameters:" [ref=e414]
+                            - cell "verbose (bool, optional) – whether performance should be printed, defaults to False risk_free_rate (float, optional) – risk-free rate of borrowing/lending, defaults to 0.02. The period of the risk-free rate should correspond to the frequency of expected returns." [ref=e415]:
+                              - list [ref=e416]:
+                                - listitem [ref=e417]:
+                                  - strong [ref=e418]: verbose
+                                  - text: (
+                                  - emphasis [ref=e419]: bool
+                                  - emphasis [ref=e420]: ","
+                                  - emphasis [ref=e421]: optional
+                                  - text: ) – whether performance should be printed, defaults to False
+                                - listitem [ref=e422]:
+                                  - strong [ref=e423]: risk_free_rate
+                                  - text: (
+                                  - emphasis [ref=e424]: float
+                                  - emphasis [ref=e425]: ","
+                                  - emphasis [ref=e426]: optional
+                                  - text: ) – risk-free rate of borrowing/lending, defaults to 0.02. The period of the risk-free rate should correspond to the frequency of expected returns.
+                          - 'row "Raises: ValueError – if weights have not been calculated yet" [ref=e427]':
+                            - rowheader "Raises:" [ref=e428]
+                            - cell "ValueError – if weights have not been calculated yet" [ref=e429]:
+                              - paragraph [ref=e430]:
+                                - strong [ref=e431]: ValueError
+                                - text: – if weights have not been calculated yet
+                          - 'row "Returns: expected return, semideviation, Sortino ratio." [ref=e432]':
+                            - rowheader "Returns:" [ref=e433]
+                            - cell "expected return, semideviation, Sortino ratio." [ref=e434]:
+                              - paragraph [ref=e435]: expected return, semideviation, Sortino ratio.
+                          - 'row "Return type: (float, float, float)" [ref=e436]':
+                            - rowheader "Return type:" [ref=e437]
+                            - cell "(float, float, float)" [ref=e438]:
+                              - paragraph [ref=e439]: (float, float, float)
+            - generic [ref=e440]:
+              - heading "Efficient CVaR" [level=2] [ref=e441]
+              - paragraph [ref=e442]:
+                - text: The
+                - strong [ref=e443]: conditional value-at-risk
+                - text: (a.k.a
+                - strong [ref=e444]: expected shortfall
+                - text: ) is a popular measure of tail risk. The CVaR can be thought of as the average of losses that occur on “very bad days”, where “very bad” is quantified by the parameter
+                - generic [ref=e448]: β
+                - text: .
+              - paragraph [ref=e449]:
+                - text: For example, if we calculate the CVaR to be 10% for
+                - generic [ref=e452]:
+                  - generic [ref=e453]: β
+                  - generic [ref=e454]: =
+                  - generic [ref=e455]: "0.95"
+                - text: ", we can be 95% confident that the worst-case average daily loss will be 3%. Put differently, the CVaR is the average of all losses so severe that they only occur"
+                - generic [ref=e458]:
+                  - generic [ref=e459]: (
+                  - generic [ref=e460]: "1"
+                  - generic [ref=e461]: −
+                  - generic [ref=e462]: β
+                  - generic [ref=e463]: )
+                  - generic [ref=e464]: "%"
+                - text: of the time.
+              - paragraph [ref=e465]:
+                - text: While CVaR is quite an intuitive concept, a lot of new notation is required to formulate it mathematically (see the
+                - link "wiki page" [ref=e466] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Expected_shortfall
+                - text: "for more details). We will adopt the following notation:"
+              - list [ref=e467]:
+                - listitem [ref=e468]:
+                  - emphasis [ref=e469]: w
+                  - text: for the vector of portfolio weights
+                - listitem [ref=e470]:
+                  - emphasis [ref=e471]: r
+                  - text: for a vector of asset returns (daily), with probability distribution
+                  - generic [ref=e474]:
+                    - generic [ref=e475]: p
+                    - generic [ref=e476]: (
+                    - generic [ref=e477]: r
+                    - generic [ref=e478]: )
+                  - text: .
+                - listitem [ref=e479]:
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: L
+                    - generic [ref=e484]: (
+                    - generic [ref=e485]: w
+                    - generic [ref=e486]: ","
+                    - generic [ref=e487]: r
+                    - generic [ref=e488]: )
+                    - generic [ref=e489]: =
+                    - generic [ref=e490]: −
+                    - generic [ref=e491]:
+                      - generic [ref=e492]: w
+                      - generic [ref=e493]: T
+                    - generic [ref=e494]: r
+                  - text: for the loss of the portfolio
+                - listitem [ref=e495]:
+                  - generic [ref=e499]: α
+                  - text: for the portfolio value-at-risk (VaR) with confidence
+                  - generic [ref=e503]: β
+                  - text: .
+              - paragraph [ref=e504]: "The CVaR can then be written as:"
+              - generic [ref=e507]:
+                - generic [ref=e508]: C
+                - generic [ref=e509]: V
+                - generic [ref=e510]: a
+                - generic [ref=e511]: R
+                - generic [ref=e512]: (
+                - generic [ref=e513]: w
+                - generic [ref=e514]: ","
+                - generic [ref=e515]: β
+                - generic [ref=e516]: )
+                - generic [ref=e517]: =
+                - generic [ref=e518]:
+                  - generic [ref=e520]: "1"
+                  - generic [ref=e526]:
+                    - generic [ref=e527]: "1"
+                    - generic [ref=e528]: −
+                    - generic [ref=e529]: β
+                - generic [ref=e530]:
+                  - generic [ref=e532]: ∫
+                  - generic [ref=e533]:
+                    - generic [ref=e534]: L
+                    - generic [ref=e535]: (
+                    - generic [ref=e536]: w
+                    - generic [ref=e537]: ","
+                    - generic [ref=e538]: r
+                    - generic [ref=e539]: )
+                    - generic [ref=e540]: ≥
+                    - generic [ref=e541]: α
+                    - generic [ref=e542]: (
+                    - generic [ref=e543]: w
+                    - generic [ref=e544]: )
+                - generic [ref=e545]: L
+                - generic [ref=e546]: (
+                - generic [ref=e547]: w
+                - generic [ref=e548]: ","
+                - generic [ref=e549]: r
+                - generic [ref=e550]: )
+                - generic [ref=e551]: p
+                - generic [ref=e552]: (
+                - generic [ref=e553]: r
+                - generic [ref=e554]: )
+                - generic [ref=e555]: d
+                - generic [ref=e556]: r
+                - generic [ref=e557]: .
+              - paragraph [ref=e558]:
+                - text: This is a nasty expression to optimize because we are essentially integrating over VaR values. The key insight of Rockafellar and Uryasev (2001)
+                - link "[3]" [ref=e559] [cursor=pointer]:
+                  - /url: "#id9"
+                - text: "is that we can can equivalently optimize the following convex function:"
+              - generic [ref=e562]:
+                - generic [ref=e563]:
+                  - generic [ref=e564]: F
+                  - generic [ref=e565]: β
+                - generic [ref=e566]: (
+                - generic [ref=e567]: w
+                - generic [ref=e568]: ","
+                - generic [ref=e569]: α
+                - generic [ref=e570]: )
+                - generic [ref=e571]: =
+                - generic [ref=e572]: α
+                - generic [ref=e573]: +
+                - generic [ref=e574]:
+                  - generic [ref=e576]: "1"
+                  - generic [ref=e582]:
+                    - generic [ref=e583]: "1"
+                    - generic [ref=e584]: −
+                    - generic [ref=e585]: β
+                - generic [ref=e587]: ∫
+                - generic [ref=e588]: "["
+                - generic [ref=e589]: −
+                - generic [ref=e590]:
+                  - generic [ref=e591]: w
+                  - generic [ref=e592]: T
+                - generic [ref=e593]: r
+                - generic [ref=e594]: −
+                - generic [ref=e595]: α
+                - generic [ref=e596]:
+                  - generic [ref=e597]: "]"
+                  - generic [ref=e598]: +
+                - generic [ref=e599]: p
+                - generic [ref=e600]: (
+                - generic [ref=e601]: r
+                - generic [ref=e602]: )
+                - generic [ref=e603]: d
+                - generic [ref=e604]: r
+                - generic [ref=e605]: ","
+              - paragraph [ref=e606]:
+                - text: where
+                - generic [ref=e609]:
+                  - generic [ref=e610]: "["
+                  - generic [ref=e611]: x
+                  - generic [ref=e612]:
+                    - generic [ref=e613]: "]"
+                    - generic [ref=e614]: +
+                  - generic [ref=e615]: =
+                  - generic [ref=e616]: max
+                  - generic [ref=e617]: (
+                  - generic [ref=e618]: x
+                  - generic [ref=e619]: ","
+                  - generic [ref=e620]: "0"
+                  - generic [ref=e621]: )
+                - text: . The authors prove that minimising
+                - generic [ref=e624]:
+                  - generic [ref=e625]:
+                    - generic [ref=e626]: F
+                    - generic [ref=e627]: β
+                  - generic [ref=e628]: (
+                  - generic [ref=e629]: w
+                  - generic [ref=e630]: ","
+                  - generic [ref=e631]: α
+                  - generic [ref=e632]: )
+                - text: over all
+                - generic [ref=e635]:
+                  - generic [ref=e636]: w
+                  - generic [ref=e637]: ","
+                  - generic [ref=e638]: α
+                - text: minimises the CVaR. Suppose we have a sample of
+                - emphasis [ref=e639]: T
+                - text: "daily returns (these can either be historical or simulated). The integral in the expression becomes a sum, so the CVaR optimization problem reduces to a linear program:"
+              - generic [ref=e648]:
+                - generic [ref=e649]:
+                  - generic [ref=e651]:
+                    - generic [ref=e653]: minimise
+                    - generic [ref=e654]:
+                      - generic [ref=e655]: w
+                      - generic [ref=e656]: ","
+                      - generic [ref=e657]: α
+                  - generic [ref=e659]:
+                    - generic [ref=e660]: α
+                    - generic [ref=e661]: +
+                    - generic [ref=e662]:
+                      - generic [ref=e664]: "1"
+                      - generic [ref=e670]:
+                        - generic [ref=e671]: "1"
+                        - generic [ref=e672]: −
+                        - generic [ref=e673]: β
+                    - generic [ref=e674]:
+                      - generic [ref=e676]: "1"
+                      - generic [ref=e683]: T
+                    - generic [ref=e684]:
+                      - generic [ref=e686]:
+                        - generic [ref=e688]: T
+                        - generic [ref=e691]: ∑
+                      - generic [ref=e693]:
+                        - generic [ref=e694]: i
+                        - generic [ref=e695]: =
+                        - generic [ref=e696]: "1"
+                    - generic [ref=e697]:
+                      - generic [ref=e698]: u
+                      - generic [ref=e699]: i
+                - generic [ref=e700]:
+                  - generic [ref=e702]: subject to
+                  - generic [ref=e704]:
+                    - generic [ref=e705]:
+                      - generic [ref=e706]: u
+                      - generic [ref=e707]: i
+                    - generic [ref=e708]: ≥
+                    - generic [ref=e709]: "0"
+                - generic [ref=e713]:
+                  - generic [ref=e714]:
+                    - generic [ref=e715]: u
+                    - generic [ref=e716]: i
+                  - generic [ref=e717]: ≥
+                  - generic [ref=e718]: −
+                  - generic [ref=e719]:
+                    - generic [ref=e720]: w
+                    - generic [ref=e721]: T
+                  - generic [ref=e722]:
+                    - generic [ref=e723]: r
+                    - generic [ref=e724]: i
+                  - generic [ref=e725]: −
+                  - generic [ref=e726]: α
+                  - generic [ref=e727]: .
+              - paragraph [ref=e728]: This formulation introduces a new variable for each datapoint (similar to Efficient Semivariance), so you may run into performance issues for long returns dataframes. At the same time, you should aim to provide a sample of data that is large enough to include tail events.
+              - paragraph [ref=e729]:
+                - text: I am grateful to
+                - link "Nicolas Knudde" [ref=e730] [cursor=pointer]:
+                  - /url: https://github.com/nknudde
+                - text: for the initial draft (all errors are my own). The implementation is based on Rockafellar and Uryasev (2001)
+                - link "[3]" [ref=e731] [cursor=pointer]:
+                  - /url: "#id9"
+                - text: .
+              - generic [ref=e732]:
+                - term [ref=e733]:
+                  - emphasis [ref=e734]: class
+                  - code [ref=e735]: pypfopt.efficient_frontier.
+                  - code [ref=e736]: EfficientCVaR
+                  - text: (
+                  - emphasis [ref=e737]: expected_returns
+                  - text: ","
+                  - emphasis [ref=e738]: returns
+                  - text: ","
+                  - emphasis [ref=e739]: beta=0.95
+                  - text: ","
+                  - emphasis [ref=e740]: weight_bounds=(0
+                  - text: ","
+                  - emphasis [ref=e741]: 1)
+                  - text: ","
+                  - emphasis [ref=e742]: solver=None
+                  - text: ","
+                  - emphasis [ref=e743]: verbose=False
+                  - text: ","
+                  - emphasis [ref=e744]: solver_options=None
+                  - text: )
+                  - link "[source]" [ref=e745] [cursor=pointer]:
+                    - /url: _modules/pypfopt/efficient_frontier/efficient_cvar.html#EfficientCVaR
+                    - generic [ref=e746]: "[source]"
+                - definition [ref=e747]:
+                  - paragraph [ref=e748]: The EfficientCVaR class allows for optimization along the mean-CVaR frontier, using the formulation of Rockafellar and Ursayev (2001).
+                  - paragraph [ref=e749]: "Instance variables:"
+                  - list [ref=e750]:
+                    - listitem [ref=e751]:
+                      - paragraph [ref=e752]: "Inputs:"
+                      - blockquote [ref=e753]:
+                        - list [ref=e755]:
+                          - listitem [ref=e756]:
+                            - code [ref=e757]: n_assets
+                            - text: "- int"
+                          - listitem [ref=e758]:
+                            - code [ref=e759]: tickers
+                            - text: "- str list"
+                          - listitem [ref=e760]:
+                            - code [ref=e761]: bounds
+                            - text: "- float tuple OR (float tuple) list"
+                          - listitem [ref=e762]:
+                            - code [ref=e763]: returns
+                            - text: "- pd.DataFrame"
+                          - listitem [ref=e764]:
+                            - code [ref=e765]: expected_returns
+                            - text: "- np.ndarray"
+                          - listitem [ref=e766]:
+                            - code [ref=e767]: solver
+                            - text: "- str"
+                          - listitem [ref=e768]:
+                            - code [ref=e769]: solver_options
+                            - text: "- {str: str} dict"
+                    - listitem [ref=e770]:
+                      - paragraph [ref=e771]:
+                        - text: "Output:"
+                        - code [ref=e772]: weights
+                        - text: "- np.ndarray"
+                  - paragraph [ref=e773]: "Public methods:"
+                  - list [ref=e774]:
+                    - listitem [ref=e775]:
+                      - code [ref=e776]: min_cvar()
+                      - text: minimises the CVaR
+                    - listitem [ref=e777]:
+                      - code [ref=e778]: efficient_risk()
+                      - text: maximises return for a given CVaR
+                    - listitem [ref=e779]:
+                      - code [ref=e780]: efficient_return()
+                      - text: minimises CVaR for a given target return
+                    - listitem [ref=e781]:
+                      - code [ref=e782]: add_objective()
+                      - text: adds a (convex) objective to the optimization problem
+                    - listitem [ref=e783]:
+                      - code [ref=e784]: add_constraint()
+                      - text: adds a constraint to the optimization problem
+                    - listitem [ref=e785]:
+                      - code [ref=e786]: portfolio_performance()
+                      - text: calculates the expected return and CVaR of the portfolio
+                    - listitem [ref=e787]:
+                      - code [ref=e788]: set_weights()
+                      - text: creates self.weights (np.ndarray) from a weights dict
+                    - listitem [ref=e789]:
+                      - code [ref=e790]: clean_weights()
+                      - text: rounds the weights and clips near-zeros.
+                    - listitem [ref=e791]:
+                      - code [ref=e792]: save_weights_to_file()
+                      - text: saves the weights to csv, json, or txt.
+                  - generic [ref=e793]:
+                    - term [ref=e794]:
+                      - code [ref=e795]: efficient_return
+                      - text: (
+                      - emphasis [ref=e796]: target_return
+                      - text: ","
+                      - emphasis [ref=e797]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e798] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cvar.html#EfficientCVaR.efficient_return
+                        - generic [ref=e799]: "[source]"
+                    - definition [ref=e800]:
+                      - paragraph [ref=e801]: Minimise CVaR for a given target return.
+                      - table [ref=e802]:
+                        - rowgroup [ref=e806]:
+                          - 'row "Parameters: target_return (float) – the desired return of the resulting portfolio. market_neutral (bool, optional) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound." [ref=e807]':
+                            - rowheader "Parameters:" [ref=e808]
+                            - cell "target_return (float) – the desired return of the resulting portfolio. market_neutral (bool, optional) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound." [ref=e809]:
+                              - list [ref=e810]:
+                                - listitem [ref=e811]:
+                                  - strong [ref=e812]: target_return
+                                  - text: (
+                                  - emphasis [ref=e813]: float
+                                  - text: ) – the desired return of the resulting portfolio.
+                                - listitem [ref=e814]:
+                                  - strong [ref=e815]: market_neutral
+                                  - text: (
+                                  - emphasis [ref=e816]: bool
+                                  - emphasis [ref=e817]: ","
+                                  - emphasis [ref=e818]: optional
+                                  - text: ) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                          - 'row "Raises: ValueError – if target_return is not a positive float ValueError – if no portfolio can be found with return equal to target_return" [ref=e819]':
+                            - rowheader "Raises:" [ref=e820]
+                            - cell "ValueError – if target_return is not a positive float ValueError – if no portfolio can be found with return equal to target_return" [ref=e821]:
+                              - list [ref=e822]:
+                                - listitem [ref=e823]:
+                                  - strong [ref=e824]: ValueError
+                                  - text: – if
+                                  - code [ref=e825]: target_return
+                                  - text: is not a positive float
+                                - listitem [ref=e826]:
+                                  - strong [ref=e827]: ValueError
+                                  - text: – if no portfolio can be found with return equal to
+                                  - code [ref=e828]: target_return
+                          - 'row "Returns: asset weights for the optimal portfolio" [ref=e829]':
+                            - rowheader "Returns:" [ref=e830]
+                            - cell "asset weights for the optimal portfolio" [ref=e831]:
+                              - paragraph [ref=e832]: asset weights for the optimal portfolio
+                          - 'row "Return type: OrderedDict" [ref=e833]':
+                            - rowheader "Return type:" [ref=e834]
+                            - cell "OrderedDict" [ref=e835]:
+                              - paragraph [ref=e836]: OrderedDict
+                  - generic [ref=e837]:
+                    - term [ref=e838]:
+                      - code [ref=e839]: efficient_risk
+                      - text: (
+                      - emphasis [ref=e840]: target_cvar
+                      - text: ","
+                      - emphasis [ref=e841]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e842] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cvar.html#EfficientCVaR.efficient_risk
+                        - generic [ref=e843]: "[source]"
+                    - definition [ref=e844]:
+                      - paragraph [ref=e845]: Maximise return for a target CVaR. The resulting portfolio will have a CVaR less than the target (but not guaranteed to be equal).
+                      - table [ref=e846]:
+                        - rowgroup [ref=e850]:
+                          - 'row "Parameters: target_cvar (float) – the desired conditional value at risk of the resulting portfolio. market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e851]':
+                            - rowheader "Parameters:" [ref=e852]
+                            - cell "target_cvar (float) – the desired conditional value at risk of the resulting portfolio. market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e853]:
+                              - list [ref=e854]:
+                                - listitem [ref=e855]:
+                                  - strong [ref=e856]: target_cvar
+                                  - text: (
+                                  - emphasis [ref=e857]: float
+                                  - text: ) – the desired conditional value at risk of the resulting portfolio.
+                                - listitem [ref=e858]:
+                                  - strong [ref=e859]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e860]:
+                                  - strong [ref=e861]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the efficient risk portfolio" [ref=e862]':
+                            - rowheader "Returns:" [ref=e863]
+                            - cell "asset weights for the efficient risk portfolio" [ref=e864]:
+                              - paragraph [ref=e865]: asset weights for the efficient risk portfolio
+                          - 'row "Return type: OrderedDict" [ref=e866]':
+                            - rowheader "Return type:" [ref=e867]
+                            - cell "OrderedDict" [ref=e868]:
+                              - paragraph [ref=e869]: OrderedDict
+                  - generic [ref=e870]:
+                    - term [ref=e871]:
+                      - code [ref=e872]: min_cvar
+                      - text: (
+                      - emphasis [ref=e873]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e874] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cvar.html#EfficientCVaR.min_cvar
+                        - generic [ref=e875]: "[source]"
+                    - definition [ref=e876]:
+                      - paragraph [ref=e877]: Minimise portfolio CVaR (see docs for further explanation).
+                      - table [ref=e878]:
+                        - rowgroup [ref=e882]:
+                          - 'row "Parameters: market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e883]':
+                            - rowheader "Parameters:" [ref=e884]
+                            - cell "market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e885]:
+                              - list [ref=e886]:
+                                - listitem [ref=e887]:
+                                  - strong [ref=e888]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e889]:
+                                  - strong [ref=e890]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the volatility-minimising portfolio" [ref=e891]':
+                            - rowheader "Returns:" [ref=e892]
+                            - cell "asset weights for the volatility-minimising portfolio" [ref=e893]:
+                              - paragraph [ref=e894]: asset weights for the volatility-minimising portfolio
+                          - 'row "Return type: OrderedDict" [ref=e895]':
+                            - rowheader "Return type:" [ref=e896]
+                            - cell "OrderedDict" [ref=e897]:
+                              - paragraph [ref=e898]: OrderedDict
+                  - generic [ref=e899]:
+                    - term [ref=e900]:
+                      - code [ref=e901]: portfolio_performance
+                      - text: (
+                      - emphasis [ref=e902]: verbose=False
+                      - text: )
+                      - link "[source]" [ref=e903] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cvar.html#EfficientCVaR.portfolio_performance
+                        - generic [ref=e904]: "[source]"
+                    - definition [ref=e905]:
+                      - paragraph [ref=e906]: "After optimising, calculate (and optionally print) the performance of the optimal portfolio, specifically: expected return, CVaR"
+                      - table [ref=e907]:
+                        - rowgroup [ref=e911]:
+                          - 'row "Parameters: verbose (bool, optional) – whether performance should be printed, defaults to False" [ref=e912]':
+                            - rowheader "Parameters:" [ref=e913]
+                            - cell "verbose (bool, optional) – whether performance should be printed, defaults to False" [ref=e914]:
+                              - strong [ref=e915]: verbose
+                              - text: (
+                              - emphasis [ref=e916]: bool
+                              - emphasis [ref=e917]: ","
+                              - emphasis [ref=e918]: optional
+                              - text: ) – whether performance should be printed, defaults to False
+                          - 'row "Raises: ValueError – if weights have not been calculated yet" [ref=e919]':
+                            - rowheader "Raises:" [ref=e920]
+                            - cell "ValueError – if weights have not been calculated yet" [ref=e921]:
+                              - strong [ref=e922]: ValueError
+                              - text: – if weights have not been calculated yet
+                          - 'row "Returns: expected return, CVaR." [ref=e923]':
+                            - rowheader "Returns:" [ref=e924]
+                            - cell "expected return, CVaR." [ref=e925]
+                          - 'row "Return type: (float, float)" [ref=e926]':
+                            - rowheader "Return type:" [ref=e927]
+                            - cell "(float, float)" [ref=e928]
+                  - generic [ref=e929]:
+                    - term [ref=e930]:
+                      - code [ref=e931]: set_weights
+                      - text: (
+                      - emphasis [ref=e932]: input_weights
+                      - text: )
+                      - link "[source]" [ref=e933] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cvar.html#EfficientCVaR.set_weights
+                        - generic [ref=e934]: "[source]"
+                    - definition [ref=e935]:
+                      - paragraph [ref=e936]: Utility function to set weights attribute (np.array) from user input
+                      - table [ref=e937]:
+                        - rowgroup [ref=e941]:
+                          - 'row "Parameters: input_weights (dict) – {ticker: weight} dict" [ref=e942]':
+                            - rowheader "Parameters:" [ref=e943]
+                            - 'cell "input_weights (dict) – {ticker: weight} dict" [ref=e944]':
+                              - strong [ref=e945]: input_weights
+                              - text: (
+                              - emphasis [ref=e946]: dict
+                              - text: ") – {ticker: weight} dict"
+            - generic [ref=e947]:
+              - heading "EfficientCDaR" [level=2] [ref=e948]
+              - paragraph [ref=e949]:
+                - text: The
+                - strong [ref=e950]: conditional drawdown at risk
+                - text: (CDaR) is a more exotic measure of tail risk. It tries to alleviate the problems with Efficient Semivariance and Efficient CVaR in that it accounts for the timespan of material decreases in value. The CDaR can be thought of as the average of losses that occur on “very bad periods”, where “very bad” is quantified by the parameter
+                - generic [ref=e954]: β
+                - text: . The drawdown is defined as the difference in non-compounded return to the previous peak.
+              - paragraph [ref=e955]:
+                - text: Put differently, the CDaR is the average of all drawdowns so severe that they only occur
+                - generic [ref=e958]:
+                  - generic [ref=e959]: (
+                  - generic [ref=e960]: "1"
+                  - generic [ref=e961]: −
+                  - generic [ref=e962]: β
+                  - generic [ref=e963]: )
+                  - generic [ref=e964]: "%"
+                - text: of the time. When
+                - generic [ref=e967]:
+                  - generic [ref=e968]: β
+                  - generic [ref=e969]: =
+                  - generic [ref=e970]: "1"
+                - text: CDaR is simply the maximum drawdown.
+              - paragraph [ref=e971]:
+                - text: While drawdown is quite an intuitive concept, a lot of new notation is required to formulate it mathematically (see
+                - link "the wiki page" [ref=e972] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Drawdown_(economics)
+                - text: "for more details). We will adopt the following notation:"
+              - list [ref=e973]:
+                - listitem [ref=e974]:
+                  - emphasis [ref=e975]: w
+                  - text: for the vector of portfolio weights
+                - listitem [ref=e976]:
+                  - emphasis [ref=e977]: r
+                  - text: for a vector of cumulative asset returns (daily), with probability distribution
+                  - generic [ref=e980]:
+                    - generic [ref=e981]: p
+                    - generic [ref=e982]: (
+                    - generic [ref=e983]: r
+                    - generic [ref=e984]: (
+                    - generic [ref=e985]: t
+                    - generic [ref=e986]: )
+                    - generic [ref=e987]: )
+                  - text: .
+                - listitem [ref=e988]:
+                  - generic [ref=e991]:
+                    - generic [ref=e992]: D
+                    - generic [ref=e993]: (
+                    - generic [ref=e994]: w
+                    - generic [ref=e995]: ","
+                    - generic [ref=e996]: r
+                    - generic [ref=e997]: ","
+                    - generic [ref=e998]: t
+                    - generic [ref=e999]: )
+                    - generic [ref=e1000]: =
+                    - generic [ref=e1001]:
+                      - generic [ref=e1002]: max
+                      - generic [ref=e1003]:
+                        - generic [ref=e1004]: τ
+                        - generic [ref=e1005]: <
+                        - generic [ref=e1006]: t
+                    - generic [ref=e1007]: (
+                    - generic [ref=e1008]:
+                      - generic [ref=e1009]: w
+                      - generic [ref=e1010]: T
+                    - generic [ref=e1011]: r
+                    - generic [ref=e1012]: (
+                    - generic [ref=e1013]: τ
+                    - generic [ref=e1014]: )
+                    - generic [ref=e1015]: )
+                    - generic [ref=e1016]: −
+                    - generic [ref=e1017]:
+                      - generic [ref=e1018]: w
+                      - generic [ref=e1019]: T
+                    - generic [ref=e1020]: r
+                    - generic [ref=e1021]: (
+                    - generic [ref=e1022]: t
+                    - generic [ref=e1023]: )
+                  - text: for the drawdown of the portfolio
+                - listitem [ref=e1024]:
+                  - generic [ref=e1028]: α
+                  - text: for the portfolio drawdown (DaR) with confidence
+                  - generic [ref=e1032]: β
+                  - text: .
+              - paragraph [ref=e1033]: "The CDaR can then be written as:"
+              - generic [ref=e1036]:
+                - generic [ref=e1037]: C
+                - generic [ref=e1038]: D
+                - generic [ref=e1039]: a
+                - generic [ref=e1040]: R
+                - generic [ref=e1041]: (
+                - generic [ref=e1042]: w
+                - generic [ref=e1043]: ","
+                - generic [ref=e1044]: β
+                - generic [ref=e1045]: )
+                - generic [ref=e1046]: =
+                - generic [ref=e1047]:
+                  - generic [ref=e1049]: "1"
+                  - generic [ref=e1055]:
+                    - generic [ref=e1056]: "1"
+                    - generic [ref=e1057]: −
+                    - generic [ref=e1058]: β
+                - generic [ref=e1059]:
+                  - generic [ref=e1061]: ∫
+                  - generic [ref=e1062]:
+                    - generic [ref=e1063]: D
+                    - generic [ref=e1064]: (
+                    - generic [ref=e1065]: w
+                    - generic [ref=e1066]: ","
+                    - generic [ref=e1067]: r
+                    - generic [ref=e1068]: ","
+                    - generic [ref=e1069]: t
+                    - generic [ref=e1070]: )
+                    - generic [ref=e1071]: ≥
+                    - generic [ref=e1072]: α
+                    - generic [ref=e1073]: (
+                    - generic [ref=e1074]: w
+                    - generic [ref=e1075]: )
+                - generic [ref=e1076]: D
+                - generic [ref=e1077]: (
+                - generic [ref=e1078]: w
+                - generic [ref=e1079]: ","
+                - generic [ref=e1080]: r
+                - generic [ref=e1081]: ","
+                - generic [ref=e1082]: t
+                - generic [ref=e1083]: )
+                - generic [ref=e1084]: p
+                - generic [ref=e1085]: (
+                - generic [ref=e1086]: r
+                - generic [ref=e1087]: (
+                - generic [ref=e1088]: t
+                - generic [ref=e1089]: )
+                - generic [ref=e1090]: )
+                - generic [ref=e1091]: d
+                - generic [ref=e1092]: r
+                - generic [ref=e1093]: (
+                - generic [ref=e1094]: t
+                - generic [ref=e1095]: )
+                - generic [ref=e1096]: .
+              - paragraph [ref=e1097]:
+                - text: This is a nasty expression to optimise because we are essentially integrating over VaR values. The key insight of Chekhlov, Rockafellar and Uryasev (2005)
+                - link "[4]" [ref=e1098] [cursor=pointer]:
+                  - /url: "#id10"
+                - text: is that we can can equivalently optimise a convex function, which can be transformed to a linear problem (in the same manner as for CVaR).
+              - generic [ref=e1099]:
+                - term [ref=e1100]:
+                  - emphasis [ref=e1101]: class
+                  - code [ref=e1102]: pypfopt.efficient_frontier.
+                  - code [ref=e1103]: EfficientCDaR
+                  - text: (
+                  - emphasis [ref=e1104]: expected_returns
+                  - text: ","
+                  - emphasis [ref=e1105]: returns
+                  - text: ","
+                  - emphasis [ref=e1106]: beta=0.95
+                  - text: ","
+                  - emphasis [ref=e1107]: weight_bounds=(0
+                  - text: ","
+                  - emphasis [ref=e1108]: 1)
+                  - text: ","
+                  - emphasis [ref=e1109]: solver=None
+                  - text: ","
+                  - emphasis [ref=e1110]: verbose=False
+                  - text: ","
+                  - emphasis [ref=e1111]: solver_options=None
+                  - text: )
+                  - link "[source]" [ref=e1112] [cursor=pointer]:
+                    - /url: _modules/pypfopt/efficient_frontier/efficient_cdar.html#EfficientCDaR
+                    - generic [ref=e1113]: "[source]"
+                - definition [ref=e1114]:
+                  - paragraph [ref=e1115]: The EfficientCDaR class allows for optimisation along the mean-CDaR frontier, using the formulation of Chekhlov, Ursayev and Zabarankin (2005).
+                  - paragraph [ref=e1116]: "Instance variables:"
+                  - list [ref=e1117]:
+                    - listitem [ref=e1118]:
+                      - paragraph [ref=e1119]: "Inputs:"
+                      - blockquote [ref=e1120]:
+                        - list [ref=e1122]:
+                          - listitem [ref=e1123]:
+                            - code [ref=e1124]: n_assets
+                            - text: "- int"
+                          - listitem [ref=e1125]:
+                            - code [ref=e1126]: tickers
+                            - text: "- str list"
+                          - listitem [ref=e1127]:
+                            - code [ref=e1128]: bounds
+                            - text: "- float tuple OR (float tuple) list"
+                          - listitem [ref=e1129]:
+                            - code [ref=e1130]: returns
+                            - text: "- pd.DataFrame"
+                          - listitem [ref=e1131]:
+                            - code [ref=e1132]: expected_returns
+                            - text: "- np.ndarray"
+                          - listitem [ref=e1133]:
+                            - code [ref=e1134]: solver
+                            - text: "- str"
+                          - listitem [ref=e1135]:
+                            - code [ref=e1136]: solver_options
+                            - text: "- {str: str} dict"
+                    - listitem [ref=e1137]:
+                      - paragraph [ref=e1138]:
+                        - text: "Output:"
+                        - code [ref=e1139]: weights
+                        - text: "- np.ndarray"
+                  - paragraph [ref=e1140]: "Public methods:"
+                  - list [ref=e1141]:
+                    - listitem [ref=e1142]:
+                      - code [ref=e1143]: min_cdar()
+                      - text: minimises the CDaR
+                    - listitem [ref=e1144]:
+                      - code [ref=e1145]: efficient_risk()
+                      - text: maximises return for a given CDaR
+                    - listitem [ref=e1146]:
+                      - code [ref=e1147]: efficient_return()
+                      - text: minimises CDaR for a given target return
+                    - listitem [ref=e1148]:
+                      - code [ref=e1149]: add_objective()
+                      - text: adds a (convex) objective to the optimisation problem
+                    - listitem [ref=e1150]:
+                      - code [ref=e1151]: add_constraint()
+                      - text: adds a (linear) constraint to the optimisation problem
+                    - listitem [ref=e1152]:
+                      - code [ref=e1153]: portfolio_performance()
+                      - text: calculates the expected return and CDaR of the portfolio
+                    - listitem [ref=e1154]:
+                      - code [ref=e1155]: set_weights()
+                      - text: creates self.weights (np.ndarray) from a weights dict
+                    - listitem [ref=e1156]:
+                      - code [ref=e1157]: clean_weights()
+                      - text: rounds the weights and clips near-zeros.
+                    - listitem [ref=e1158]:
+                      - code [ref=e1159]: save_weights_to_file()
+                      - text: saves the weights to csv, json, or txt.
+                  - generic [ref=e1160]:
+                    - term [ref=e1161]:
+                      - code [ref=e1162]: efficient_return
+                      - text: (
+                      - emphasis [ref=e1163]: target_return
+                      - text: ","
+                      - emphasis [ref=e1164]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e1165] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cdar.html#EfficientCDaR.efficient_return
+                        - generic [ref=e1166]: "[source]"
+                    - definition [ref=e1167]:
+                      - paragraph [ref=e1168]: Minimise CDaR for a given target return.
+                      - table [ref=e1169]:
+                        - rowgroup [ref=e1173]:
+                          - 'row "Parameters: target_return (float) – the desired return of the resulting portfolio. market_neutral (bool, optional) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound." [ref=e1174]':
+                            - rowheader "Parameters:" [ref=e1175]
+                            - cell "target_return (float) – the desired return of the resulting portfolio. market_neutral (bool, optional) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound." [ref=e1176]:
+                              - list [ref=e1177]:
+                                - listitem [ref=e1178]:
+                                  - strong [ref=e1179]: target_return
+                                  - text: (
+                                  - emphasis [ref=e1180]: float
+                                  - text: ) – the desired return of the resulting portfolio.
+                                - listitem [ref=e1181]:
+                                  - strong [ref=e1182]: market_neutral
+                                  - text: (
+                                  - emphasis [ref=e1183]: bool
+                                  - emphasis [ref=e1184]: ","
+                                  - emphasis [ref=e1185]: optional
+                                  - text: ) – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                          - 'row "Raises: ValueError – if target_return is not a positive float ValueError – if no portfolio can be found with return equal to target_return" [ref=e1186]':
+                            - rowheader "Raises:" [ref=e1187]
+                            - cell "ValueError – if target_return is not a positive float ValueError – if no portfolio can be found with return equal to target_return" [ref=e1188]:
+                              - list [ref=e1189]:
+                                - listitem [ref=e1190]:
+                                  - strong [ref=e1191]: ValueError
+                                  - text: – if
+                                  - code [ref=e1192]: target_return
+                                  - text: is not a positive float
+                                - listitem [ref=e1193]:
+                                  - strong [ref=e1194]: ValueError
+                                  - text: – if no portfolio can be found with return equal to
+                                  - code [ref=e1195]: target_return
+                          - 'row "Returns: asset weights for the optimal portfolio" [ref=e1196]':
+                            - rowheader "Returns:" [ref=e1197]
+                            - cell "asset weights for the optimal portfolio" [ref=e1198]:
+                              - paragraph [ref=e1199]: asset weights for the optimal portfolio
+                          - 'row "Return type: OrderedDict" [ref=e1200]':
+                            - rowheader "Return type:" [ref=e1201]
+                            - cell "OrderedDict" [ref=e1202]:
+                              - paragraph [ref=e1203]: OrderedDict
+                  - generic [ref=e1204]:
+                    - term [ref=e1205]:
+                      - code [ref=e1206]: efficient_risk
+                      - text: (
+                      - emphasis [ref=e1207]: target_cdar
+                      - text: ","
+                      - emphasis [ref=e1208]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e1209] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cdar.html#EfficientCDaR.efficient_risk
+                        - generic [ref=e1210]: "[source]"
+                    - definition [ref=e1211]:
+                      - paragraph [ref=e1212]: Maximise return for a target CDaR. The resulting portfolio will have a CDaR less than the target (but not guaranteed to be equal).
+                      - table [ref=e1213]:
+                        - rowgroup [ref=e1217]:
+                          - 'row "Parameters: target_cdar (float) – the desired maximum CDaR of the resulting portfolio. market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e1218]':
+                            - rowheader "Parameters:" [ref=e1219]
+                            - cell "target_cdar (float) – the desired maximum CDaR of the resulting portfolio. market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e1220]:
+                              - list [ref=e1221]:
+                                - listitem [ref=e1222]:
+                                  - strong [ref=e1223]: target_cdar
+                                  - text: (
+                                  - emphasis [ref=e1224]: float
+                                  - text: ) – the desired maximum CDaR of the resulting portfolio.
+                                - listitem [ref=e1225]:
+                                  - strong [ref=e1226]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e1227]:
+                                  - strong [ref=e1228]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the efficient risk portfolio" [ref=e1229]':
+                            - rowheader "Returns:" [ref=e1230]
+                            - cell "asset weights for the efficient risk portfolio" [ref=e1231]:
+                              - paragraph [ref=e1232]: asset weights for the efficient risk portfolio
+                          - 'row "Return type: OrderedDict" [ref=e1233]':
+                            - rowheader "Return type:" [ref=e1234]
+                            - cell "OrderedDict" [ref=e1235]:
+                              - paragraph [ref=e1236]: OrderedDict
+                  - generic [ref=e1237]:
+                    - term [ref=e1238]:
+                      - code [ref=e1239]: min_cdar
+                      - text: (
+                      - emphasis [ref=e1240]: market_neutral=False
+                      - text: )
+                      - link "[source]" [ref=e1241] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cdar.html#EfficientCDaR.min_cdar
+                        - generic [ref=e1242]: "[source]"
+                    - definition [ref=e1243]:
+                      - paragraph [ref=e1244]: Minimise portfolio CDaR (see docs for further explanation).
+                      - table [ref=e1245]:
+                        - rowgroup [ref=e1249]:
+                          - 'row "Parameters: market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e1250]':
+                            - rowheader "Parameters:" [ref=e1251]
+                            - cell "market_neutral – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound. market_neutral – bool, optional" [ref=e1252]:
+                              - list [ref=e1253]:
+                                - listitem [ref=e1254]:
+                                  - strong [ref=e1255]: market_neutral
+                                  - text: – whether the portfolio should be market neutral (weights sum to zero), defaults to False. Requires negative lower weight bound.
+                                - listitem [ref=e1256]:
+                                  - strong [ref=e1257]: market_neutral
+                                  - text: – bool, optional
+                          - 'row "Returns: asset weights for the volatility-minimising portfolio" [ref=e1258]':
+                            - rowheader "Returns:" [ref=e1259]
+                            - cell "asset weights for the volatility-minimising portfolio" [ref=e1260]:
+                              - paragraph [ref=e1261]: asset weights for the volatility-minimising portfolio
+                          - 'row "Return type: OrderedDict" [ref=e1262]':
+                            - rowheader "Return type:" [ref=e1263]
+                            - cell "OrderedDict" [ref=e1264]:
+                              - paragraph [ref=e1265]: OrderedDict
+                  - generic [ref=e1266]:
+                    - term [ref=e1267]:
+                      - code [ref=e1268]: portfolio_performance
+                      - text: (
+                      - emphasis [ref=e1269]: verbose=False
+                      - text: )
+                      - link "[source]" [ref=e1270] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cdar.html#EfficientCDaR.portfolio_performance
+                        - generic [ref=e1271]: "[source]"
+                    - definition [ref=e1272]:
+                      - paragraph [ref=e1273]: "After optimising, calculate (and optionally print) the performance of the optimal portfolio, specifically: expected return, CDaR"
+                      - table [ref=e1274]:
+                        - rowgroup [ref=e1278]:
+                          - 'row "Parameters: verbose (bool, optional) – whether performance should be printed, defaults to False" [ref=e1279]':
+                            - rowheader "Parameters:" [ref=e1280]
+                            - cell "verbose (bool, optional) – whether performance should be printed, defaults to False" [ref=e1281]:
+                              - strong [ref=e1282]: verbose
+                              - text: (
+                              - emphasis [ref=e1283]: bool
+                              - emphasis [ref=e1284]: ","
+                              - emphasis [ref=e1285]: optional
+                              - text: ) – whether performance should be printed, defaults to False
+                          - 'row "Raises: ValueError – if weights have not been calculated yet" [ref=e1286]':
+                            - rowheader "Raises:" [ref=e1287]
+                            - cell "ValueError – if weights have not been calculated yet" [ref=e1288]:
+                              - strong [ref=e1289]: ValueError
+                              - text: – if weights have not been calculated yet
+                          - 'row "Returns: expected return, CDaR." [ref=e1290]':
+                            - rowheader "Returns:" [ref=e1291]
+                            - cell "expected return, CDaR." [ref=e1292]
+                          - 'row "Return type: (float, float)" [ref=e1293]':
+                            - rowheader "Return type:" [ref=e1294]
+                            - cell "(float, float)" [ref=e1295]
+                  - generic [ref=e1296]:
+                    - term [ref=e1297]:
+                      - code [ref=e1298]: set_weights
+                      - text: (
+                      - emphasis [ref=e1299]: input_weights
+                      - text: )
+                      - link "[source]" [ref=e1300] [cursor=pointer]:
+                        - /url: _modules/pypfopt/efficient_frontier/efficient_cdar.html#EfficientCDaR.set_weights
+                        - generic [ref=e1301]: "[source]"
+                    - definition [ref=e1302]:
+                      - paragraph [ref=e1303]: Utility function to set weights attribute (np.array) from user input
+                      - table [ref=e1304]:
+                        - rowgroup [ref=e1308]:
+                          - 'row "Parameters: input_weights (dict) – {ticker: weight} dict" [ref=e1309]':
+                            - rowheader "Parameters:" [ref=e1310]
+                            - 'cell "input_weights (dict) – {ticker: weight} dict" [ref=e1311]':
+                              - strong [ref=e1312]: input_weights
+                              - text: (
+                              - emphasis [ref=e1313]: dict
+                              - text: ") – {ticker: weight} dict"
+              - paragraph [ref=e1314]:
+                - text: I am grateful to
+                - link "Nicolas Knudde" [ref=e1315] [cursor=pointer]:
+                  - /url: https://github.com/nknudde
+                - text: for implementing this feature.
+            - generic [ref=e1316]:
+              - heading "Custom optimization problems" [level=2] [ref=e1317]
+              - paragraph [ref=e1318]:
+                - text: We have seen previously that it is easy to add constraints to
+                - code [ref=e1319]: EfficientFrontier
+                - text: objects (and by extension, other general efficient frontier objects like
+                - code [ref=e1320]: EfficientSemivariance
+                - text: ). However, what if you aren’t interested in anything related to
+                - code [ref=e1321]: max_sharpe()
+                - text: ","
+                - code [ref=e1322]: min_volatility()
+                - text: ","
+                - code [ref=e1323]: efficient_risk()
+                - text: etc and want to set up a completely new problem to optimize for some custom objective?
+              - paragraph [ref=e1324]:
+                - text: For example, perhaps our objective is to construct a basket of assets that best replicates a particular index, in other words, to minimise the
+                - strong [ref=e1325]: tracking error
+                - text: ". This does not fit within a mean-variance optimization paradigm, but we can still implement it in PyPortfolioOpt:"
+              - generic [ref=e1328]: "from pypfopt.base_optimizer import BaseConvexOptimizer from pypfopt.objective_functions import ex_post_tracking_error historic_rets = ... # dataframe of historic asset returns benchmark_rets = ... # pd.Series of historic benchmark returns (same index as historic) opt = BaseConvexOptimizer( n_assets=len(historic_returns.columns), tickers=historic_returns.columns, weight_bounds=(0, 1) ) opt.convex_objective( ex_post_tracking_error, historic_returns=historic_rets, benchmark_returns=benchmark_rets, ) weights = opt.clean_weights()"
+              - paragraph [ref=e1329]:
+                - text: The
+                - code [ref=e1330]: EfficientFrontier
+                - text: class inherits from
+                - code [ref=e1331]: BaseConvexOptimizer
+                - text: . It may be more convenient to call
+                - code [ref=e1332]: convex_objective
+                - text: from an
+                - code [ref=e1333]: EfficientFrontier
+                - text: instance than from
+                - code [ref=e1334]: BaseConvexOptimizer
+                - text: ", particularly if your objective depends on the mean returns or covariance matrix."
+              - paragraph [ref=e1335]:
+                - text: You can either optimize some generic
+                - code [ref=e1336]: convex_objective
+                - text: (which
+                - emphasis [ref=e1337]: must
+                - text: be built using
+                - code [ref=e1338]: cvxpy
+                - text: atomic functions – see
+                - link "here" [ref=e1339] [cursor=pointer]:
+                  - /url: https://www.cvxpy.org/tutorial/functions/index.html
+                - text: ) or a
+                - code [ref=e1340]: nonconvex_objective
+                - text: ", which uses"
+                - code [ref=e1341]: scipy.optimize
+                - text: as the backend and thus has a completely different API. For more examples, check out this
+                - link "cookbook recipe" [ref=e1342] [cursor=pointer]:
+                  - /url: https://github.com/robertmartin8/PyPortfolioOpt/blob/master/cookbook/3-Advanced-Mean-Variance-Optimization.ipynb
+                - text: .
+              - blockquote [ref=e1343]:
+                - generic [ref=e1345]:
+                  - term [ref=e1346]:
+                    - emphasis [ref=e1347]: class
+                    - code [ref=e1348]: pypfopt.base_optimizer.
+                    - code [ref=e1349]: BaseConvexOptimizer
+                  - definition [ref=e1350]:
+                    - generic [ref=e1351]:
+                      - term [ref=e1352]:
+                        - code [ref=e1353]: BaseConvexOptimizer.
+                        - code [ref=e1354]: convex_objective
+                        - text: (
+                        - emphasis [ref=e1355]: custom_objective
+                        - text: ","
+                        - emphasis [ref=e1356]: weights_sum_to_one=True
+                        - text: ","
+                        - emphasis [ref=e1357]: "**kwargs"
+                        - text: )
+                      - definition [ref=e1358]:
+                        - paragraph [ref=e1359]:
+                          - text: Optimize a custom convex objective function. Constraints should be added with
+                          - code [ref=e1360]: ef.add_constraint()
+                          - text: ". Optimizer arguments must be passed as keyword-args. Example:"
+                        - generic [ref=e1363]: "# Could define as a lambda function instead def logarithmic_barrier(w, cov_matrix, k=0.1): # 60 Years of Portfolio Optimization, Kolm et al (2014) return cp.quad_form(w, cov_matrix) - k * cp.sum(cp.log(w)) w = ef.convex_objective(logarithmic_barrier, cov_matrix=ef.cov_matrix)"
+                        - table [ref=e1364]:
+                          - rowgroup [ref=e1368]:
+                            - 'row "Parameters: custom_objective (function with signature (cp.Variable, **kwargs) -> cp.Expression) – an objective function to be MINIMISED. This should be written using cvxpy atoms Should map (w, **kwargs) -> float. weights_sum_to_one (bool, optional) – whether to add the default objective, defaults to True" [ref=e1369]':
+                              - rowheader "Parameters:" [ref=e1370]
+                              - cell "custom_objective (function with signature (cp.Variable, **kwargs) -> cp.Expression) – an objective function to be MINIMISED. This should be written using cvxpy atoms Should map (w, **kwargs) -> float. weights_sum_to_one (bool, optional) – whether to add the default objective, defaults to True" [ref=e1371]:
+                                - list [ref=e1372]:
+                                  - listitem [ref=e1373]:
+                                    - strong [ref=e1374]: custom_objective
+                                    - text: (function with signature (cp.Variable, **kwargs) -> cp.Expression) – an objective function to be MINIMISED. This should be written using cvxpy atoms Should map (w, **kwargs) -> float.
+                                  - listitem [ref=e1375]:
+                                    - strong [ref=e1376]: weights_sum_to_one
+                                    - text: (
+                                    - emphasis [ref=e1377]: bool
+                                    - emphasis [ref=e1378]: ","
+                                    - emphasis [ref=e1379]: optional
+                                    - text: ) – whether to add the default objective, defaults to True
+                            - 'row "Raises: OptimizationError – if the objective is nonconvex or constraints nonlinear." [ref=e1380]':
+                              - rowheader "Raises:" [ref=e1381]
+                              - cell "OptimizationError – if the objective is nonconvex or constraints nonlinear." [ref=e1382]:
+                                - paragraph [ref=e1383]:
+                                  - strong [ref=e1384]: OptimizationError
+                                  - text: – if the objective is nonconvex or constraints nonlinear.
+                            - 'row "Returns: asset weights for the efficient risk portfolio" [ref=e1385]':
+                              - rowheader "Returns:" [ref=e1386]
+                              - cell "asset weights for the efficient risk portfolio" [ref=e1387]:
+                                - paragraph [ref=e1388]: asset weights for the efficient risk portfolio
+                            - 'row "Return type: OrderedDict" [ref=e1389]':
+                              - rowheader "Return type:" [ref=e1390]
+                              - cell "OrderedDict" [ref=e1391]:
+                                - paragraph [ref=e1392]: OrderedDict
+                    - generic [ref=e1393]:
+                      - term [ref=e1394]:
+                        - code [ref=e1395]: BaseConvexOptimizer.
+                        - code [ref=e1396]: nonconvex_objective
+                        - text: (
+                        - emphasis [ref=e1397]: custom_objective
+                        - text: ","
+                        - emphasis [ref=e1398]: objective_args=None
+                        - text: ","
+                        - emphasis [ref=e1399]: weights_sum_to_one=True
+                        - text: ","
+                        - emphasis [ref=e1400]: constraints=None
+                        - text: ","
+                        - emphasis [ref=e1401]: solver='SLSQP'
+                        - text: ","
+                        - emphasis [ref=e1402]: initial_guess=None
+                        - text: )
+                      - definition [ref=e1403]:
+                        - paragraph [ref=e1404]: "Optimize some objective function using the scipy backend. This can support nonconvex objectives and nonlinear constraints, but may get stuck at local minima. Example:"
+                        - generic [ref=e1407]: "# Market-neutral efficient risk constraints = [ {\"type\": \"eq\", \"fun\": lambda w: np.sum(w)}, # weights sum to zero { \"type\": \"eq\", \"fun\": lambda w: target_risk ** 2 - np.dot(w.T, np.dot(ef.cov_matrix, w)), }, # risk = target_risk ] ef.nonconvex_objective( lambda w, mu: -w.T.dot(mu), # min negative return (i.e maximise return) objective_args=(ef.expected_returns,), weights_sum_to_one=False, constraints=constraints, )"
+                        - table [ref=e1408]:
+                          - rowgroup [ref=e1412]:
+                            - 'row "Parameters: objective_function (function with signature (np.ndarray, args) -> float) – an objective function to be MINIMISED. This function should map (weight, args) -> cost objective_args (tuple of np.ndarrays) – arguments for the objective function (excluding weight) weights_sum_to_one (bool, optional) – whether to add the default objective, defaults to True constraints (dict list) – list of constraints in the scipy format (i.e dicts) solver (string) – which SCIPY solver to use, e.g “SLSQP”, “COBYLA”, “BFGS”. User beware: different optimizers require different inputs. initial_guess (np.ndarray) – the initial guess for the weights, shape (n,) or (n, 1)" [ref=e1413]':
+                              - rowheader "Parameters:" [ref=e1414]
+                              - 'cell "objective_function (function with signature (np.ndarray, args) -> float) – an objective function to be MINIMISED. This function should map (weight, args) -> cost objective_args (tuple of np.ndarrays) – arguments for the objective function (excluding weight) weights_sum_to_one (bool, optional) – whether to add the default objective, defaults to True constraints (dict list) – list of constraints in the scipy format (i.e dicts) solver (string) – which SCIPY solver to use, e.g “SLSQP”, “COBYLA”, “BFGS”. User beware: different optimizers require different inputs. initial_guess (np.ndarray) – the initial guess for the weights, shape (n,) or (n, 1)" [ref=e1415]':
+                                - list [ref=e1416]:
+                                  - listitem [ref=e1417]:
+                                    - strong [ref=e1418]: objective_function
+                                    - text: (
+                                    - emphasis [ref=e1419]: function with signature
+                                    - emphasis [ref=e1420]: (
+                                    - emphasis [ref=e1421]: np.ndarray
+                                    - emphasis [ref=e1422]: ","
+                                    - emphasis [ref=e1423]: args
+                                    - emphasis [ref=e1424]: )
+                                    - emphasis [ref=e1425]: "-> float"
+                                    - text: ) – an objective function to be MINIMISED. This function should map (weight, args) -> cost
+                                  - listitem [ref=e1426]:
+                                    - strong [ref=e1427]: objective_args
+                                    - text: (
+                                    - emphasis [ref=e1428]: tuple of np.ndarrays
+                                    - text: ) – arguments for the objective function (excluding weight)
+                                  - listitem [ref=e1429]:
+                                    - strong [ref=e1430]: weights_sum_to_one
+                                    - text: (
+                                    - emphasis [ref=e1431]: bool
+                                    - emphasis [ref=e1432]: ","
+                                    - emphasis [ref=e1433]: optional
+                                    - text: ) – whether to add the default objective, defaults to True
+                                  - listitem [ref=e1434]:
+                                    - strong [ref=e1435]: constraints
+                                    - text: (
+                                    - emphasis [ref=e1436]: dict list
+                                    - text: ) – list of constraints in the scipy format (i.e dicts)
+                                  - listitem [ref=e1437]:
+                                    - strong [ref=e1438]: solver
+                                    - text: (
+                                    - emphasis [ref=e1439]: string
+                                    - text: ") – which SCIPY solver to use, e.g “SLSQP”, “COBYLA”, “BFGS”. User beware: different optimizers require different inputs."
+                                  - listitem [ref=e1440]:
+                                    - strong [ref=e1441]: initial_guess
+                                    - text: (
+                                    - emphasis [ref=e1442]: np.ndarray
+                                    - text: ) – the initial guess for the weights, shape (n,) or (n, 1)
+                            - 'row "Returns: asset weights that optimize the custom objective" [ref=e1443]':
+                              - rowheader "Returns:" [ref=e1444]
+                              - cell "asset weights that optimize the custom objective" [ref=e1445]:
+                                - paragraph [ref=e1446]: asset weights that optimize the custom objective
+                            - 'row "Return type: OrderedDict" [ref=e1447]':
+                              - rowheader "Return type:" [ref=e1448]
+                              - cell "OrderedDict" [ref=e1449]:
+                                - paragraph [ref=e1450]: OrderedDict
+            - generic [ref=e1451]:
+              - heading "References" [level=2] [ref=e1452]
+              - table [ref=e1454]:
+                - rowgroup [ref=e1458]:
+                  - 'row "[1] Estrada, J (2007). Mean-Semivariance Optimization: A Heuristic Approach." [ref=e1459]':
+                    - cell "[1]" [ref=e1460]:
+                      - link "[1]" [ref=e1461] [cursor=pointer]:
+                        - /url: "#id1"
+                    - 'cell "Estrada, J (2007). Mean-Semivariance Optimization: A Heuristic Approach." [ref=e1462]':
+                      - text: Estrada, J (2007).
+                      - 'link "Mean-Semivariance Optimization: A Heuristic Approach" [ref=e1463] [cursor=pointer]':
+                        - /url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1028206
+                      - text: .
+              - table [ref=e1465]:
+                - rowgroup [ref=e1469]:
+                  - row "[2] Markowitz, H.; Starer, D.; Fram, H.; Gerber, S. (2019). Avoiding the Downside." [ref=e1470]:
+                    - cell "[2]" [ref=e1471]:
+                      - link "[2]" [ref=e1472] [cursor=pointer]:
+                        - /url: "#id2"
+                    - cell "Markowitz, H.; Starer, D.; Fram, H.; Gerber, S. (2019). Avoiding the Downside." [ref=e1473]:
+                      - text: Markowitz, H.; Starer, D.; Fram, H.; Gerber, S. (2019).
+                      - link "Avoiding the Downside" [ref=e1474] [cursor=pointer]:
+                        - /url: https://www.hudsonbaycapital.com/documents/FG/hudsonbay/research/599440_paper.pdf
+                      - text: .
+              - table [ref=e1476]:
+                - rowgroup [ref=e1480]:
+                  - row "[3] (1, 2) Rockafellar, R.; Uryasev, D. (2001). Optimization of conditional value-at-risk" [ref=e1481]:
+                    - cell "[3]" [ref=e1482]
+                    - cell "(1, 2) Rockafellar, R.; Uryasev, D. (2001). Optimization of conditional value-at-risk" [ref=e1483]:
+                      - emphasis [ref=e1484]:
+                        - text: (
+                        - link "1" [ref=e1485] [cursor=pointer]:
+                          - /url: "#id3"
+                        - text: ","
+                        - link "2" [ref=e1486] [cursor=pointer]:
+                          - /url: "#id4"
+                        - text: )
+                      - text: Rockafellar, R.; Uryasev, D. (2001).
+                      - link "Optimization of conditional value-at-risk" [ref=e1487] [cursor=pointer]:
+                        - /url: https://www.ise.ufl.edu/uryasev/files/2011/11/CVaR1_JOR.pdf
+              - table [ref=e1489]:
+                - rowgroup [ref=e1493]:
+                  - row "[4] Chekhlov, A.; Rockafellar, R.; Uryasev, D. (2005). Drawdown measure in portfolio optimization" [ref=e1494]:
+                    - cell "[4]" [ref=e1495]:
+                      - link "[4]" [ref=e1496] [cursor=pointer]:
+                        - /url: "#id5"
+                    - cell "Chekhlov, A.; Rockafellar, R.; Uryasev, D. (2005). Drawdown measure in portfolio optimization" [ref=e1497]:
+                      - text: Chekhlov, A.; Rockafellar, R.; Uryasev, D. (2005).
+                      - link "Drawdown measure in portfolio optimization" [ref=e1498] [cursor=pointer]:
+                        - /url: http://www.math.columbia.edu/~chekhlov/IJTheoreticalAppliedFinance.8.1.2005.pdf
+        - generic [ref=e1499]:
+          - navigation "footer navigation" [ref=e1500]:
+            - link "Next " [ref=e1501] [cursor=pointer]:
+              - /url: BlackLitterman.html
+              - text: Next
+              - generic [ref=e1502]: 
+            - link " Previous" [ref=e1503] [cursor=pointer]:
+              - /url: MeanVariance.html
+              - generic [ref=e1504]: 
+              - text: Previous
+          - separator [ref=e1505]
+          - contentinfo [ref=e1506]:
+            - paragraph [ref=e1507]:
+              - text: © Copyright 2018, Robert Andrew Martin
+              - generic [ref=e1508]:
+                - text: Revision
+                - code [ref=e1509]: "48659587"
+                - text: .
+          - text: Built with
+          - link "Sphinx" [ref=e1510] [cursor=pointer]:
+            - /url: http://sphinx-doc.org/
+          - text: using a
+          - link "theme" [ref=e1511] [cursor=pointer]:
+            - /url: https://github.com/rtfd/sphinx_rtd_theme
+          - text: provided by
+          - link "Read the Docs" [ref=e1512] [cursor=pointer]:
+            - /url: https://readthedocs.org
+          - text: .
+  - banner [ref=e1514] [cursor=pointer]:
+    - img "Read the Docs" [ref=e1515]
+    - generic [ref=e1516]:
+      - img [ref=e1517]
+      - text: latest
+    - img [ref=e1520]
+  - generic [ref=e1523]:
+    - link "Lambda GPU Cloud On-Demand NVIDIA H100 GPUs starting at $2.49/GPU/hr Launch now" [ref=e1526] [cursor=pointer]:
+      - /url: https://server.ethicalads.io/proxy/click/9799/019d5a20-b436-7860-8612-b06859921da6/
+      - strong [ref=e1527]: Lambda GPU Cloud
+      - text: On-Demand NVIDIA H100 GPUs starting at $2.49/GPU/hr
+      - strong [ref=e1528]: Launch now
+    - link "Ads by EthicalAds" [ref=e1530] [cursor=pointer]:
+      - /url: https://www.ethicalads.io/advertisers/topics/data-science/?ref=ea-text
+    - generic [ref=e1531] [cursor=pointer]: Close Ad

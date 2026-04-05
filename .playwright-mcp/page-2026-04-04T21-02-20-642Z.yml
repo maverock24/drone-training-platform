@@ -1,0 +1,426 @@
+- generic [active] [ref=e1]:
+  - img [ref=e3]
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - paragraph:
+              - link "Sijoittaja.fi":
+                - /url: https://www.sijoittaja.fi/
+                - generic [ref=e10] [cursor=pointer]: Sijoittaja.fi
+            - link [ref=e12] [cursor=pointer]:
+              - /url: https://www.sijoittaja.fi/
+              - img [ref=e13]
+            - link:
+              - /url: https://www.sijoittaja.fi/
+            - paragraph
+            - paragraph [ref=e17]: Tee parempia sijoituspäätöksiä
+          - navigation [ref=e18]:
+            - link "ALOITA JÄSENYYS" [ref=e20] [cursor=pointer]:
+              - /url: https://www.sijoittaja.fi/sijoittajafi-jasenyys?utm_medium=cta&utm_source=sijoittajafi&utm_campaign=header_ALOITA_JASENYYS
+              - generic [ref=e21]: ALOITA JÄSENYYS
+            - search "Sivuston haku" [ref=e22]:
+              - button [ref=e23] [cursor=pointer]:
+                - img
+            - button "Avaa kirjautumis modaali" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: Kirjaudu
+              - img "Profiili" [ref=e26]
+            - button "Avaa päävalikko" [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+        - generic:
+          - navigation "Päävalikko"
+    - generic [ref=e31]:
+      - link "Siirry sisältöön" [ref=e32] [cursor=pointer]:
+        - /url: "#article-main-content"
+      - main [ref=e33]:
+        - 'img "Vakuutuskuoret: Kannattaako sijoitusvakuutus? - Artikkelin kuvituskuva" [ref=e34]':
+          - 'img "Vakuutuskuoret: Kannattaako sijoitusvakuutus? - Artikkelin kuvituskuva" [ref=e35]'
+        - 'article "Vakuutuskuoret: Kannattaako sijoitusvakuutus?" [ref=e36]':
+          - 'heading "Vakuutuskuoret: Kannattaako sijoitusvakuutus?" [level=1] [ref=e37]'
+          - region "Artikkelin sisältö" [ref=e38]:
+            - paragraph [ref=e40]: Mikä on vakuutuskuori? Kannattaako sijoitusvakuutuksiin tai kapitalisaatiosopimuksiin sijoittaminen? Hyödyt, haitat, kulut ja riskit yhdessä artikkelissa.
+            - complementary "Kirjoittajan tiedot" [ref=e41]:
+              - img "Henri Heikinheimo profiilikuva" [ref=e42]
+              - generic [ref=e43]:
+                - generic [ref=e44]: Henri Heikinheimo
+                - time [ref=e45]: 18.5.2025
+            - generic [ref=e46]:
+              - article [ref=e47]:
+                - heading "Vakuutuskuoret lyhyesti" [level=2] [ref=e48]
+                - paragraph [ref=e49]: Vakuutusyhtiöt tarjoavat useita erilaisia vakuutuskuoria pitkäaikaissäästämiseen, joita yksityiset sijoittajat voivat käyttää verosuunnittelun apuvälineenä ja yritykset lisäksi kirjanpidon keventämiseen. Tyypillisimmät vakuutuskuoret ovat kapitalisaatiosopimus (myydään myös nimillä sijoitussopimus, säästämissopimus tai varainhoitosopimus), sijoitusvakuutus ja säästövakuutus.
+                - paragraph [ref=e50]: Vakuutuskuori mahdollistaa verotuksen siirtämisen tulevaisuuteen, kun sijoitukset joskus nostetaan kuoresta ulos. Lainsäädännön muutokset ovat viime vuosina merkittävästi kaventaneet vakuutuskuorien verosuunnittelullisia etuja. Esimerkiksi lahja- ja perintösuunnittelussa niiden käyttömahdollisuudet ovat enää vähäisiä.
+                - paragraph [ref=e51]: Vakuutuskuorisopimukset soveltuvat parhaiten ”avaimet käteen”-tyyppisiin yritysten tai yhteisöjen varainhoitoratkaisuihin sekä kymmeniä tai satoja tuhansia euroja sijoittavalle yksityishenkilölle pitkäaikaiseen (yli 10 vuoden) säästämiseen. Ennen sopimuksen tekoa kannattaa tinkiä ja kilpailuttaa sopimus tarkasti, koska sopimusten kulut syövät helposti koko verohyödyn. Ammattimaisesti suurella salkulla sijoittavalle suoraan sijoitusyhtiön kautta sijoittaminen tulee usein sijoitusvakuutusta tai kapitalisaatiosopimusta edullisemmaksi ratkaisuksi. Sijoitusyhtiö mahdollistaa myös monipuolisemmat sijoitusstrategiat ja sijoitusinstrumentit.
+                - heading "Sijoitusvakuutus ja säästövakuutus" [level=2] [ref=e52]
+                - paragraph [ref=e53]: Säästö- ja sijoitusvakuutukset ovat säästöhenkivakuutuksia, joilla voi säästää verotehokkaasti varoja tulevaisuuden varalle – esimerkiksi eläkettä varten. Verotus realisoituu vasta varojen nostovaiheessa, mikä mahdollistaa tuottojen kertymisen korkoa korolle -efektin avulla. Säästövakuutuksen voi yleensä keskeyttää ja nostaa varat käyttöön jo ennen sopimuksen päättymistä.
+                - paragraph [ref=e54]: Vakuutussäästöjä voidaan kerryttää myös toisen henkilön hyväksi. Voit valita omaan sijoitusvakuutukseesi säästöjen edunsaajaksi lapsen. Säästöt siirtyvät edunsaajaksi valitulle lapselle sopimuksen päätyttyä. Lapselle voi myös avata oman sijoitusvakuutuksen.
+                - paragraph [ref=e55]: Sijoitusvakuutukset eroavat muista säästömuodoista siinä, että ne ovat vakuutussopimuksia, joissa on nimetty vakuutettu ja usein myös edunsaaja. Näihin liitetään tyypillisesti pieni kuolemanvaraturva, jotta sopimus täyttää henkivakuutuksen tunnusmerkit. Kuolemantapauksessa säästöt voidaan maksaa nimetylle edunsaajalle, mikä mahdollistaa perintösuunnittelun hallitusti – tosin ilman aiempia verovapauksia.
+                - generic [ref=e56]:
+                  - generic [ref=e57]:
+                    - separator [ref=e58]
+                    - generic [ref=e59]: Mainos alkaa
+                    - separator [ref=e60]
+                  - link "KvarnX näkyvyys" [ref=e65] [cursor=pointer]:
+                    - /url: https://tilaa.sijoittaja.fi/cs/c/?cta_guid=f2ec112a-3942-48b9-b36a-8620ddc3ffd9&signature=AAH58kExMR8xvMjJcL05bV7Ga11nyjzCoQ&portal_id=3931673&placement_guid=319d5292-5ffc-4705-af1a-7ce5c3d6fb44&click=24c98a40-e422-43f1-a7cf-f4117a3116ae&redirect_url=APefjpH9JY29wzisIkGjwx0FWpF_srY69f9bYAmOO7Phd264hKOes84Up8xIfIejqNQkzO2OXghLadw7lV4wTTLIZRZ20OO8DOIM7BAOfnJkSdZsfNpZITXtrjMJHFBzVt1jjGunMoQ-&hsutk=19a00f7acc8c574dc24e314047ff8860&canon=https%3A%2F%2Fwww.sijoittaja.fi%2F60607%2Fvakuutuskuoret-kannattaako-kapitalisaatiosopimus-tai-sijoitusvakuutus%2F&ts=1775336539584&__hstc=31082464.19a00f7acc8c574dc24e314047ff8860.1775336540510.1775336540510.1775336540510.1&__hssc=31082464.1.1775336540510&__hsfp=67d92e32333cdc16c4831e1e7498cc4b&contentType=blog-post
+                    - img "KvarnX näkyvyys" [ref=e66]
+                  - generic [ref=e67]:
+                    - separator [ref=e68]
+                    - generic [ref=e69]: Mainos päättyy
+                    - separator [ref=e70]
+                - heading "Kapitalisaatiosopimus" [level=2] [ref=e71]
+                - paragraph [ref=e72]: Kapitalisaatiosopimus poikkeaa muista vakuutustuotteista kuten säästö- ja sijoitusvakuutuksista siten, että kapitalisaatiosopimuksessa ei vakuuteta ketään. Kapitalisaatiosopimus on aina määräaikainen, koska ei ole mitään vakuutustapahtumaa, joka muutoin päättäisi sopimuksen. Kapitalisaatiosopimuksia markkinoidaan joskus myös esimerkiksi sijoitussopimuksina, säästösopimuksina tai varainhoitosopimuksina.
+                - paragraph [ref=e73]: Kapitalisaatiosopimukset tulivat markkinoille 90-luvulla ensin yritysten ja yhteisöjen sijoitustoimintaan. Varainhoito on usein yksinkertaisin tehdä kapitalisaatiosopimuksen avulla. Kapitalisaatiosopimus näkyy yrityksen taseessa ostohintaan, eikä sijoitustoiminnasta tarvitse tehdä erillisiä kirjauksia taseeseen ennen rahojen nostoa ulos. Yksityisten eläkevakuutusten ja PS-tilien ehtojen heikennyttyä kapitalisaatiosopimukset ovat nousseet viime vuosina myös yksityisten sijoittajien suosioon.
+                - heading "Vakuutuskuoren hyödyt" [level=2] [ref=e74]
+                - paragraph [ref=e75]: Sijoitustoiminta vakuutuskuoren sisällä on verovapaata, joten osakekauppaa voi tehdä kuoren sisällä huoletta miettimättä verojen maksua. Verot maksetaan vasta siinä vaiheessa, kun rahat nostaa vakuutuskuoresta ulos.
+                - paragraph [ref=e76]:
+                  - text: Hyöty syntyy
+                  - link "korkoa korolle -ilmiöstä" [ref=e77] [cursor=pointer]:
+                    - /url: https://www.sijoittaja.fi/53597/korkoa-korolle/
+                  - text: ": vuosittaiset verot, jotka normaalisti maksettaisiin osingoista ja luovutusvoitoista, voidaan vakuutuskuoren sisällä sijoittaa uudelleen ja jättää kasvamaan ns. korkoa korolle. Mitä pidempi sijoitusaika ja suuremmat tuotot, sitä suurempi hyöty vakuutuskuoresta saadaan."
+                - paragraph [ref=e78]: Vakuutuskuoret antavat varakkaalle sijoittajalle mahdollisuuden piilottaa osakeomistuksensa julkisuudesta ja pörssiyhtiöiden omistajalistauksista. Suomessa suorissa osakeomistuksissa tavallisesti on hyvä läpinäkyvyys – osakkeet ja niiden määrä ovat julkista tietoa. Vakuutuskuoressa vakuutusyhtiö omistaa sijoituskohteet. Sijoittaja omistaa vain vakuutusyhtiön kanssa tehdyn sopimuksen, ja tuon sopimuksen sisältö ei ole julkista tietoa.
+                - heading "Vakuutuskuoren kulut" [level=2] [ref=e79]
+                - paragraph [ref=e80]: Useimmat sijoitusvakuutukset ja kapitalisaatiosopimukset tarjoavat sijoittajalle hyvin rajalliset ja usein myös kalliit sijoituskohteet. Sellaiset kapitalisaatiosopimukset tai vakuutuskuoret, joiden sisällä voi käydä kauppaa (lähes) yhtä vapaasti kuin omalla sijoitussalkulla, ovat mahdollisesti kannattavia yleensä vain kymmeniä tai satoja tuhansia sijoittaville. Tällöinkin sijoittajan kannattaa olla tarkkana vakuutuskuoresta maksamistaan kuluista ja tehdä omat laskelmat ennen sijoituspäätöksen tekoa.
+                - paragraph [ref=e81]:
+                  - text: Kilpailu sijoitusvakuutuksissa ja kapitalisaatiosopimuksissa on lisääntynyt, mikä on laskenut kuluja. Esimerkiksi
+                  - link "Nordnetin Sijoitusvakuutus" [ref=e82] [cursor=pointer]:
+                    - /url: https://www.sijoittaja.fi/399218/analyysissa-nordnetin-sijoitusvakuutus/
+                  - text: on hyvä esimerkki matalakuluisesta vaihtoehdosta, jossa on laaja sijoitusvalikoima.
+                - paragraph [ref=e83]: Kapitalisaatiosopimuksista ja sijoitusvakuutuksista saatetaan periä kuluja ja palkkioita monessa muodossa. Finanssivalvonnan mukaan tyypillisiä kuluja ovat mm. maksuista perittävät palkkiot (maksupalkkiot, kuormituspalkkiot), säästöistä perittävät palkkiot (hoitopalkkiot, hoitokulut), varainhoitokulut ja toimenpidepalkkiot (esim. säästöjen ennenaikaisesta nostamisesta) sekä säästö- ja sijoitusvakuutuksiin usein liitettävästä kuolemanvaraturvasta maksettava vakuutusmaksu. Lisäksi kuluja peritään sopimukseen liitetyistä sijoituskohteista kuten sijoitusrahastoista.
+                - paragraph [ref=e84]: Ennen sopimuksen tekoa kannattaa pyytää vakuutusyhtiöltä tarjouslaskelma ns. nollatuottolaskelmana. Nollatuottolaskelmassa sijoitetuista varoista vähennetään kaikki sopimuksen kulut sillä oletuksella, että säästöjen tuotto on nolla. Nollatuottolaskelmasta on helppo nähdä kapitalisaatiosopimuksen kokonaiskulut.
+                - heading "Vakuutuskuoren haitat ja riskit" [level=2] [ref=e85]
+                - paragraph [ref=e86]: Vakuutuskuorien ehdottomasti huonoimpia puolia on niiden usein korkeat kustannukset, jotka varsinkin lyhyellä sijoitushorisontilla ja pienillä pääomilla ovat usein jopa suurempia kuin sopimuksesta saatavat verosäästöt. Lisäksi kapitalisaatiosopimuksessa tai sijoitusvakuutuksessa tehtyjen sijoitusten tappiot eivät ole millään tavoin verovähennyskelpoisia.
+                - paragraph [ref=e87]: Vakuutuskuorien sisällä tehtäviin sijoituksiin liittyvät kaikki tavalliset sijoituksiin liittyvät riskit kuten markkinariski, korkoriski ja valuuttariski. Näiden lisäksi vakuutuskuorisijoittamisen riskeihin voidaan lukea ainakin vastapuoliriski ja poliittinen riski sekä likviditeettiriski.
+                - paragraph [ref=e88]: Kapitalisaatiosopimuksilla tai sijoitusvakuutuksilla ei ole olemassa talletussuojaa vastaavaa järjestelyä, joten niihin liittyy aina vastapuoliriski eli riski siitä, että säästöt voidaan menettää, jos vakuutusyhtiö menee nurin. Vakuutusyhtiöiden konkurssit ovat kuitenkin harvinaisia, sillä Finanssivalvonta valvoo jatkuvasti vakuutusyhtiöiden vakavaraisuutta.
+                - paragraph [ref=e89]: Merkittäviä riskejä pitkällä säästöajalla ovat poliittiset riskit ja sopimuksiin liitettävien sijoituskohteiden valikoiman muuttuminen sijoitusaikana. Viime vuosina vakuutuskuorten veroetuja on leikattu ilman varoitusta ja koskien myös vanhoja sopimuksia. On siis mahdollista, että tulevaisuudessa nähdään lisää näiden sijoitusinstrumenttien verotukseen liittyviä muutoksia.
+                - paragraph [ref=e90]: Kolmas suuri riski on sijoittajan henkilökohtaiseen likviditeetin tarpeeseen liittyvä likviditeettiriski. Vakuutuskuoret ovat yleensä itsessään likvidejä, ja niistä on mahdollista nostaa rahat ulos milloin tahansa. Sijoittajalta saatetaan periä huomattaviakin kuluja rahojen ennenaikaisesta nostamisesta, jos sijoittajalle iskee esimerkiksi työttömyyden tai jonkin muun äkillisen tapahtuman seurauksena suunniteltua aiemmin tarve nostaa rahat ulos vakuutuskuoresta.
+                - navigation "Artikkelin avainsanat" [ref=e92]:
+                  - link "eläkesäästäminen" [ref=e93] [cursor=pointer]:
+                    - /url: https://www.sijoittaja.fi/tag/elakesaastaminen/
+                  - link "sijoittaminen" [ref=e94] [cursor=pointer]:
+                    - /url: https://www.sijoittaja.fi/tag/sijoittaminen/
+                  - link "sijoitusvakuutus" [ref=e95] [cursor=pointer]:
+                    - /url: https://www.sijoittaja.fi/tag/sijoitusvakuutus/
+                  - link "varainhoito" [ref=e96] [cursor=pointer]:
+                    - /url: https://www.sijoittaja.fi/tag/varainhoito/
+              - contentinfo "Artikkelin alatunniste" [ref=e97]:
+                - region "Mainos" [ref=e98]:
+                  - link "KvarnX näkyvyys" [ref=e103] [cursor=pointer]:
+                    - /url: https://tilaa.sijoittaja.fi/cs/c/?cta_guid=f2ec112a-3942-48b9-b36a-8620ddc3ffd9&signature=AAH58kExMR8xvMjJcL05bV7Ga11nyjzCoQ&portal_id=3931673&placement_guid=319d5292-5ffc-4705-af1a-7ce5c3d6fb44&click=24c98a40-e422-43f1-a7cf-f4117a3116ae&redirect_url=APefjpH9JY29wzisIkGjwx0FWpF_srY69f9bYAmOO7Phd264hKOes84Up8xIfIejqNQkzO2OXghLadw7lV4wTTLIZRZ20OO8DOIM7BAOfnJkSdZsfNpZITXtrjMJHFBzVt1jjGunMoQ-&hsutk=19a00f7acc8c574dc24e314047ff8860&canon=https%3A%2F%2Fwww.sijoittaja.fi%2F60607%2Fvakuutuskuoret-kannattaako-kapitalisaatiosopimus-tai-sijoitusvakuutus%2F&ts=1775336539584&__hstc=31082464.19a00f7acc8c574dc24e314047ff8860.1775336540510.1775336540510.1775336540510.1&__hssc=31082464.1.1775336540510&__hsfp=67d92e32333cdc16c4831e1e7498cc4b&contentType=blog-post
+                    - img "KvarnX näkyvyys" [ref=e104]
+                - generic [ref=e105]:
+                  - text: Sijoittaja360
+                  - list [ref=e106]:
+                    - listitem [ref=e107] [cursor=pointer]:
+                      - 'link "ETF-työkalu: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e108]':
+                        - /url: https://360.sijoittaja.fi/tyokalut/etf
+                        - text: ETF-työkalu
+                    - listitem [ref=e109] [cursor=pointer]:
+                      - 'link "Osaketyökalu Suomi: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e110]':
+                        - /url: https://360.sijoittaja.fi/tyokalut/osakevalinta-suomi
+                        - text: Osaketyökalu Suomi
+                    - listitem [ref=e111] [cursor=pointer]:
+                      - 'link "Osaketyökalu maailma: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e112]':
+                        - /url: https://360.sijoittaja.fi/tyokalut/osakevalinta-kansainvalinen
+                        - text: Osaketyökalu maailma
+                    - listitem [ref=e113] [cursor=pointer]:
+                      - 'link "Mallisalkut & sijoitusideat: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e114]':
+                        - /url: https://360.sijoittaja.fi/inspiroidu
+                        - text: Mallisalkut & sijoitusideat
+                    - listitem [ref=e115] [cursor=pointer]:
+                      - 'link "Markkinaympäristö: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e116]':
+                        - /url: https://360.sijoittaja.fi/tyokalut/markkinaymparisto
+                        - text: Markkinaympäristö
+                    - listitem [ref=e117] [cursor=pointer]:
+                      - 'link "Portfolioanalyysi: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e118]':
+                        - /url: https://360.sijoittaja.fi/portfolio
+                        - text: Portfolioanalyysi
+                    - listitem [ref=e119] [cursor=pointer]:
+                      - 'link "Sijoittaja Premium: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e120]':
+                        - /url: https://360.sijoittaja.fi//premium/trade-signaalit
+                        - text: Sijoittaja Premium
+                    - listitem [ref=e121] [cursor=pointer]:
+                      - 'link "Rahastotyökalu: Ulkoinen sivusto, avautuu uuteen ikkunaan" [ref=e122]':
+                        - /url: https://360.sijoittaja.fi/tyokalut/rahasto
+                        - text: Rahastotyökalu
+                - generic [ref=e123]:
+                  - text: Sinua voisi kiinnostaa
+                  - generic [ref=e124]:
+                    - generic [ref=e125] [cursor=pointer]:
+                      - img "Huhtikuun parhaiten tuottaneet osinko-osakkeet pohjoismaista." [ref=e127]
+                      - generic [ref=e128]:
+                        - link "osakkeet" [ref=e130]:
+                          - /url: https://www.sijoittaja.fi/tag/osakkeet/
+                        - generic [ref=e131]: Parhaat osinko-osakkeet Pohjoismaista
+                        - generic [ref=e132]:
+                          - text: Sijoittaja.fi /
+                          - time [ref=e133]: 2.4.2026
+                    - generic [ref=e136] [cursor=pointer]:
+                      - link "analyysi" [ref=e138]:
+                        - /url: https://www.sijoittaja.fi/tag/analyysi/
+                      - generic [ref=e139]: AI-megatrendin infrastruktuuribuumista hyötyvät osakkeet
+                      - generic [ref=e140]:
+                        - text: Sijoittaja.fi /
+                        - time [ref=e141]: 1.4.2026
+                    - generic [ref=e144] [cursor=pointer]:
+                      - link "osakkeet" [ref=e146]:
+                        - /url: https://www.sijoittaja.fi/tag/osakkeet/
+                      - generic [ref=e147]: Konecranesin osakkeen ”lasku” johtuu osakesplitistä
+                      - generic [ref=e148]:
+                        - text: Sijoittaja.fi /
+                        - time [ref=e149]: 27.3.2026
+                - generic [ref=e150]:
+                  - generic [ref=e151]: Sijoittajan valinnat
+                  - list [ref=e152]:
+                    - listitem [ref=e153] [cursor=pointer]:
+                      - 'link "osakkeet: Parhaat osinko-osakkeet Pohjoismaista" [ref=e154]':
+                        - /url: https://www.sijoittaja.fi/433672/parhaat-osinko-osakkeet-pohjoismaista/
+                        - paragraph [ref=e156]: "osakkeet: Parhaat osinko-osakkeet Pohjoismaista"
+                    - listitem [ref=e157] [cursor=pointer]:
+                      - 'link "markkinaympäristö: Nämä osakkeet trendaavat juuri nyt" [ref=e158]':
+                        - /url: https://www.sijoittaja.fi/424944/nama-osakkeet-trendaavat-juuri-nyt/
+                        - paragraph [ref=e160]: "markkinaympäristö: Nämä osakkeet trendaavat juuri nyt"
+                    - listitem [ref=e161] [cursor=pointer]:
+                      - 'link "analyysi: Parhaat kasvuosakkeet maailmalta" [ref=e162]':
+                        - /url: https://www.sijoittaja.fi/69311/parhaimmat-kasvuosakkeet-maailmalta/
+                        - paragraph [ref=e164]: "analyysi: Parhaat kasvuosakkeet maailmalta"
+                    - listitem [ref=e165] [cursor=pointer]:
+                      - 'link "korko: Fed piti jälleen ohjauskoron ennallaan – odotuksissa yksi koronlasku 2026" [ref=e166]':
+                        - /url: https://www.sijoittaja.fi/396176/fed-ohjauskorko-2/
+                        - paragraph [ref=e168]: "korko: Fed piti jälleen ohjauskoron ennallaan – odotuksissa yksi koronlasku 2026"
+                    - listitem [ref=e169] [cursor=pointer]:
+                      - 'link "osakkeet: Osakeideat 2026: Osaketyökalun TOP 15 -osakkeiden vuosituotto vahva 14,5 %" [ref=e170]':
+                        - /url: https://www.sijoittaja.fi/395129/osakeideat-osaketyokalusta/
+                        - paragraph [ref=e172]: "osakkeet: Osakeideat 2026: Osaketyökalun TOP 15 -osakkeiden vuosituotto vahva 14,5 %"
+                    - listitem [ref=e173] [cursor=pointer]:
+                      - 'link "korko: Laaja markkinakatsaus: riski-indikaattorit ja muut sijoittajan tärkeimmät indikaattorit" [ref=e174]':
+                        - /url: https://www.sijoittaja.fi/407312/laaja-markkinakatsaus-sijoittajan-tarkeimmat-indikaattorit/
+                        - paragraph [ref=e176]: "korko: Laaja markkinakatsaus: riski-indikaattorit ja muut sijoittajan tärkeimmät indikaattorit"
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Uusimmat
+                  - list [ref=e179]:
+                    - listitem [ref=e180] [cursor=pointer]:
+                      - img [ref=e181]
+                      - generic [ref=e182]:
+                        - link "analyysi" [ref=e183]:
+                          - /url: https://www.sijoittaja.fi/tag/analyysi/
+                        - 'link "Osakeidea: SolarEdge – korkean riskin käännesijoitus loistaa heikoilla markkinoilla" [ref=e184]':
+                          - /url: https://www.sijoittaja.fi/443629/osakeidea-solaredge-korkean-riskin-sijoitus-joka-voi-tuoda-jattipotin/
+                        - generic [ref=e185]:
+                          - link "Topias Pätäri" [ref=e186]:
+                            - /url: https://www.sijoittaja.fi/author/topias-patarisijoittaja-fi/
+                          - text: /
+                          - time [ref=e187]: 2.4.2026
+                    - listitem [ref=e188] [cursor=pointer]:
+                      - img [ref=e189]
+                      - generic [ref=e190]:
+                        - link "mallisalkut" [ref=e191]:
+                          - /url: https://www.sijoittaja.fi/tag/mallisalkut/
+                        - link "Mallisalkkujen maaliskuu – Markkinoiden epävarmuus painoi tuottoja" [ref=e192]:
+                          - /url: https://www.sijoittaja.fi/458086/mallisalkkujen-maaliskuu-markkinoiden-epavarmuus-painoi-tuottoja/
+                        - generic [ref=e193]:
+                          - link "Sijoittaja.fi" [ref=e194]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e195]: 2.4.2026
+                    - listitem [ref=e196] [cursor=pointer]:
+                      - img [ref=e197]
+                      - generic [ref=e198]:
+                        - link "osakkeet" [ref=e199]:
+                          - /url: https://www.sijoittaja.fi/tag/osakkeet/
+                        - link "Parhaat osinko-osakkeet Pohjoismaista" [ref=e200]:
+                          - /url: https://www.sijoittaja.fi/433672/parhaat-osinko-osakkeet-pohjoismaista/
+                        - generic [ref=e201]:
+                          - link "Sijoittaja.fi" [ref=e202]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e203]: 2.4.2026
+                    - listitem [ref=e204] [cursor=pointer]:
+                      - img [ref=e205]
+                      - generic [ref=e206]:
+                        - link "mallisalkut" [ref=e207]:
+                          - /url: https://www.sijoittaja.fi/tag/mallisalkut/
+                        - link "Passiivinen kulupihtari -mallisalkku" [ref=e208]:
+                          - /url: https://www.sijoittaja.fi/390181/passiivinen-kulupihtari-mallisalkku/
+                        - generic [ref=e209]:
+                          - link "Sijoittaja.fi" [ref=e210]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e211]: 2.4.2026
+                    - listitem [ref=e212] [cursor=pointer]:
+                      - img [ref=e213]
+                      - generic [ref=e214]:
+                        - link "mallisalkut" [ref=e215]:
+                          - /url: https://www.sijoittaja.fi/tag/mallisalkut/
+                        - link "Strategiamestari-mallisalkku" [ref=e216]:
+                          - /url: https://www.sijoittaja.fi/390171/strategiamestari-mallisalkku/
+                        - generic [ref=e217]:
+                          - link "Sijoittaja.fi" [ref=e218]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e219]: 2.4.2026
+                    - listitem [ref=e220] [cursor=pointer]:
+                      - img [ref=e221]
+                      - generic [ref=e222]:
+                        - link "mallisalkut" [ref=e223]:
+                          - /url: https://www.sijoittaja.fi/tag/mallisalkut/
+                        - link "Suomi Fundamentti -mallisalkku" [ref=e224]:
+                          - /url: https://www.sijoittaja.fi/390163/suomi-fundamentti-mallisalkku/
+                        - generic [ref=e225]:
+                          - link "Sijoittaja.fi" [ref=e226]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e227]: 2.4.2026
+                    - listitem [ref=e228] [cursor=pointer]:
+                      - img [ref=e229]
+                      - generic [ref=e230]:
+                        - link "sijoitusmessut" [ref=e231]:
+                          - /url: https://www.sijoittaja.fi/tag/sijoitusmessut/
+                        - link "Tampereen Sijoitusmessut 2026 tarjoaa katsauksen sijoittamisen ajankohtaisiin teemoihin" [ref=e232]:
+                          - /url: https://www.sijoittaja.fi/457310/tampereen-sijoitusmessut-2026-tarjoavat-katsauksen-sijoittamisen-ajankohtaisiin-teemoihin/
+                        - generic [ref=e233]:
+                          - link "Sijoittaja.fi" [ref=e234]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e235]: 2.4.2026
+                    - listitem [ref=e236] [cursor=pointer]:
+                      - img [ref=e237]
+                      - generic [ref=e238]:
+                        - link "analyysi" [ref=e239]:
+                          - /url: https://www.sijoittaja.fi/tag/analyysi/
+                        - link "AI-megatrendin infrastruktuuribuumista hyötyvät osakkeet" [ref=e240]:
+                          - /url: https://www.sijoittaja.fi/457932/ai-megatrendin-infrastruktuuribuumista-hyotyvat-osakkeet/
+                        - generic [ref=e241]:
+                          - link "Sijoittaja.fi" [ref=e242]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e243]: 1.4.2026
+                    - listitem [ref=e244] [cursor=pointer]:
+                      - img [ref=e245]
+                      - generic [ref=e246]:
+                        - link "markkinaympäristö" [ref=e247]:
+                          - /url: https://www.sijoittaja.fi/tag/markkinaymparisto/
+                        - 'link "Markkinoilta vahva viesti: ”all in” osakkeisiin" [ref=e248]':
+                          - /url: https://www.sijoittaja.fi/457967/markkinoilta-vahva-viesti-all-in-osakkeisiin/
+                        - generic [ref=e249]:
+                          - link "Timo Heikkilä" [ref=e250]:
+                            - /url: https://www.sijoittaja.fi/author/timoh/
+                          - text: /
+                          - time [ref=e251]: 1.4.2026
+                    - listitem [ref=e252] [cursor=pointer]:
+                      - img [ref=e253]
+                      - generic [ref=e254]:
+                        - link "osakkeet" [ref=e255]:
+                          - /url: https://www.sijoittaja.fi/tag/osakkeet/
+                        - link "Puolustusteollisuuden ETF:t vertailussa" [ref=e256]:
+                          - /url: https://www.sijoittaja.fi/406440/puolustusteollisuuden-etft-vertailussa/
+                        - generic [ref=e257]:
+                          - link "Sijoittaja.fi" [ref=e258]:
+                            - /url: https://www.sijoittaja.fi/author/sijoittaja-fi/
+                          - text: /
+                          - time [ref=e259]: 30.3.2026
+    - contentinfo [ref=e260]:
+      - img [ref=e262]
+      - generic [ref=e263]:
+        - list [ref=e264]:
+          - listitem [ref=e265] [cursor=pointer]:
+            - generic [ref=e266]: Sijoittaminen
+          - listitem [ref=e267] [cursor=pointer]:
+            - link "Artikkelit" [ref=e268]:
+              - /url: https://www.sijoittaja.fi
+          - listitem [ref=e269] [cursor=pointer]:
+            - link "Oppaat" [ref=e270]:
+              - /url: https://www.sijoittaja.fi/oppaat
+          - listitem [ref=e271] [cursor=pointer]:
+            - link "Vertailut ja laskurit" [ref=e272]:
+              - /url: https://www.sijoittaja.fi/laskurit-ja-vertailut
+          - listitem [ref=e273] [cursor=pointer]:
+            - link "Osakeideat" [ref=e274]:
+              - /url: https://www.sijoittaja.fi/tag/osakeidea/
+        - list [ref=e275]:
+          - listitem [ref=e276] [cursor=pointer]:
+            - generic [ref=e277]: Sijoittaja.fi
+          - listitem [ref=e278] [cursor=pointer]:
+            - link "Tilaa jäsenyys" [ref=e279]:
+              - /url: https://www.sijoittaja.fi/sijoittajafi-jasenyys
+          - listitem [ref=e280] [cursor=pointer]:
+            - link "Usein kysytyt kysymykset" [ref=e281]:
+              - /url: https://www.sijoittaja.fi/mika-on-sijoittaja-fi/usein-kysytyt-kysymykset/
+          - listitem [ref=e282] [cursor=pointer]:
+            - link "Mikä on Sijoittaja.fi" [ref=e283]:
+              - /url: https://www.sijoittaja.fi/mika-on-sijoittaja-fi/
+          - listitem [ref=e284] [cursor=pointer]:
+            - link "Ota yhteyttä" [ref=e285]:
+              - /url: https://www.sijoittaja.fi/mika-on-sijoittaja-fi/ota-yhteytta/
+        - list [ref=e286]:
+          - listitem [ref=e287] [cursor=pointer]:
+            - generic [ref=e288]: Tee parempia sijoituspäätöksiä
+          - listitem [ref=e289] [cursor=pointer]:
+            - 'link "Sijoittaja360°: Ulkoinen sivusto" [ref=e290]':
+              - /url: https://360.sijoittaja.fi
+              - text: Sijoittaja360°
+          - listitem [ref=e291] [cursor=pointer]:
+            - link "Webinaarit" [ref=e292]:
+              - /url: https://www.sijoittaja.fi/webinaarit/
+          - listitem [ref=e293] [cursor=pointer]:
+            - link "Tilaa ilmainen Sijoittajakirje" [ref=e294]:
+              - /url: https://www.sijoittaja.fi/sijoittajakirje/
+          - listitem [ref=e295] [cursor=pointer]:
+            - 'link "SijoittajaApp: Ulkoinen sivusto" [ref=e296]':
+              - /url: https://tilaa.sijoittaja.fi/fi-fi/lataasijoittajaapp
+              - text: SijoittajaApp
+        - list [ref=e297]:
+          - listitem [ref=e298] [cursor=pointer]:
+            - generic [ref=e299]: Lataa SijoittajaApp
+          - listitem [ref=e300] [cursor=pointer]:
+            - link [ref=e301]:
+              - /url: https://apps.apple.com/us/app/sijoittajaapp/id1543707981
+              - img [ref=e302]
+            - link [ref=e303]:
+              - /url: https://play.google.com/store/apps/details?id=fi.sijoittaja.app
+              - img [ref=e304]
+          - listitem [ref=e305] [cursor=pointer]:
+            - generic [ref=e306]: Seuraa meitä
+          - listitem [ref=e307] [cursor=pointer]:
+            - link [ref=e308]:
+              - /url: https://www.instagram.com/sijoittaja.fi/
+              - img [ref=e309]
+            - link [ref=e310]:
+              - /url: https://www.facebook.com/sijoittaja.fi/
+              - img [ref=e311]
+            - link [ref=e312]:
+              - /url: https://www.youtube.com/c/SijoittajaFi-channel
+              - img [ref=e313]
+            - link [ref=e314]:
+              - /url: https://open.spotify.com/show/7cNgeYbW7RfS0Sr9usu4Wq
+              - img [ref=e315]
+            - link [ref=e316]:
+              - /url: https://www.linkedin.com/company/sijoittajafi/
+              - img [ref=e317]
+            - link [ref=e318]:
+              - /url: https://twitter.com/Sijoittajafi
+              - img [ref=e319]
+            - link [ref=e320]:
+              - /url: https://www.sijoittaja.fi/feed/
+              - img [ref=e321]
+      - generic [ref=e322]:
+        - paragraph [ref=e323]: Sijoittaja.fi / Investment Intelligence Oy 2026. Kaikki oikeudet pidätetään
+        - generic [ref=e324]:
+          - link "Vastuuvapauslauseke" [ref=e325] [cursor=pointer]:
+            - /url: https://www.sijoittaja.fi/vastuuvapauslauseke/
+          - link "Tietosuojaseloste" [ref=e326] [cursor=pointer]:
+            - /url: https://www.sijoittaja.fi/tietosuojaseloste/
+          - link "Rekisteriseloste" [ref=e327] [cursor=pointer]:
+            - /url: https://www.sijoittaja.fi/rekisteriseloste
+      - generic [ref=e328]:
+        - paragraph [ref=e329]: Sijoittaja.fi tarjoaa systemaattisen ja helpon lähestymistavan sijoitusmarkkinoiden seurantaan ja markkinoilla toimimiseen. Tarjoamme tietoa sijoittamisesta, kuten uutisia, artikkeleita ja analyysejä sekä yksityis- ja ammattikäyttöön soveltuvat sijoittajan työkalut.
+        - paragraph [ref=e330]: Sijoittaja.fi on osa SIJOITTAJA-ryhmää, johon kuuluvat myös yritysrahoitusta tarjoava SijoittajaPRO Corporate Finance, instituutioille sekä ammatti- ja yksityissijoittajille palvelua tarjoava SFR Advisors sekä sijoitustutkimusta toteuttava SFR Research.
+        - paragraph [ref=e331]: Emme tarjoa yksilöllistä sijoitusneuvontaa, emmekä ole Finanssivalvonnan valvoma sijoituspalveluyritys. Katso tarkemmin vastuuvapauslausekkeesta.
+  - generic [ref=e332]:
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - text: Tee parempia sijoituspäätöksiä – vähemmällä ajalla
+        - paragraph [ref=e335]: Saat käyttöösi kaiken, mitä tarvitset parempiin sijoituspäätöksiin – analyysit, ideat ja työkalut yhdessä palvelussa.
+      - link "Kokeile ilmaiseksi" [ref=e338] [cursor=pointer]:
+        - /url: https://www.sijoittaja.fi/sijoittajafi-jasenyys
+        - generic [ref=e339]: Kokeile ilmaiseksi
+    - button "Sulje" [ref=e340] [cursor=pointer]: x

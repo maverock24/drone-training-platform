@@ -1,0 +1,377 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: "\"drone training platform\" OR \"UAV training\" \"EASA\" \"online\" site 2024 OR 2025 -news \"drone training platform\" OR \"UAV training\" \"EASA\" \"online\" site 2024 OR 2025 -news"
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3D%2522drone%2Btraining%2Bplatform%2522%2BOR%2B%2522UAV%2Btraining%2522%2B%2522EASA%2522%2B%2522online%2522%2Bsite%2B2024%2BOR%2B2025%2B-news&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&aep=1&ntc=1&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQtKgLegQIFBAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQtKgLegQIEhAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ0pQJegQIERAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQs6gLegQIEBAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522drone%2Btraining%2Bplatform%2522%2BOR%2B%2522UAV%2Btraining%2522%2B%2522EASA%2522%2B%2522online%2522%2Bsite%2B2024%2BOR%2B2025%2B-news&hl=en&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQiIQCKAN6BAgMEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Web results" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - 'link "D2.2 – Report: Overview of current SotA practices of training ... Civil Protection Knowledge Network https://civil-protection-knowledge-network.europa.eu › ..." [ref=e154] [cursor=pointer]':
+                - /url: https://civil-protection-knowledge-network.europa.eu/system/files/2025-03/collaris-d2.2-appendix-included_library_2.pdf
+                - 'heading "D2.2 – Report: Overview of current SotA practices of training ..." [level=3] [ref=e155]'
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Civil Protection Knowledge Network
+                  - generic [ref=e164]: https://civil-protection-knowledge-network.europa.eu › ...
+              - generic [ref=e165]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e166] [cursor=pointer]:
+                - img [ref=e169]
+            - generic [ref=e173]:
+              - emphasis [ref=e174]: Page
+              - text: 15. 2.3 UAS/
+              - emphasis [ref=e175]: UAV Training
+              - text: Survey Results from Round 1. In the survey ...
+              - emphasis [ref=e176]: EASA
+              - text: (2023c) European Plan for Aviation Safety https://www.
+              - emphasis [ref=e177]: easa
+              - text: .europa.eu/en ...
+        - generic [ref=e181]:
+          - generic [ref=e184]:
+            - link "Drone Pilot Training Market Research Report 2033 Market Intelo https://marketintelo.com › report › d..." [ref=e186] [cursor=pointer]:
+              - /url: https://marketintelo.com/report/drone-pilot-training-market
+              - heading "Drone Pilot Training Market Research Report 2033" [level=3] [ref=e187]
+              - generic [ref=e192]:
+                - generic [ref=e194]: Market Intelo
+                - generic [ref=e196]: https://marketintelo.com › report › d...
+            - generic [ref=e197]:
+              - generic [ref=e198]: ·
+              - link "Käännä tämä sivu" [ref=e199] [cursor=pointer]:
+                - /url: https://marketintelo.com/report/drone-pilot-training-market
+            - button "Tietoja tästä tuloksesta" [ref=e200] [cursor=pointer]:
+              - img [ref=e203]
+          - generic [ref=e207]:
+            - emphasis [ref=e208]: Online
+            - text: training, however, is rapidly gaining ... The European Union has implemented the
+            - emphasis [ref=e209]: EASA
+            - text: drone ...
+            - emphasis [ref=e210]: UAV Training
+            - text: Australia. Segments. The Drone ...
+        - generic [ref=e214]:
+          - generic [ref=e217]:
+            - link "UAV Flight Training and Simulation Market Size & ... Research and Markets https://www.researchandmarkets.com › ..." [ref=e219] [cursor=pointer]:
+              - /url: https://www.researchandmarkets.com/report/drone-flight-training-market?srsltid=AfmBOor7gY8m3I3ooyAl1oSVN3CRjOsz6eq9xwVOk4haAT9VpVWrq1ho
+              - heading "UAV Flight Training and Simulation Market Size & ..." [level=3] [ref=e220]
+              - generic [ref=e225]:
+                - generic [ref=e227]: Research and Markets
+                - generic [ref=e229]: https://www.researchandmarkets.com › ...
+            - generic [ref=e230]:
+              - generic [ref=e231]: ·
+              - link "Käännä tämä sivu" [ref=e232] [cursor=pointer]:
+                - /url: https://www.researchandmarkets.com/report/drone-flight-training-market
+            - button "Tietoja tästä tuloksesta" [ref=e233] [cursor=pointer]:
+              - img [ref=e236]
+          - generic [ref=e240]:
+            - text: Regulatory agencies worldwide - FAA,
+            - emphasis [ref=e241]: EASA
+            - text: ", DGCA - are formalizing UAV pilot ..."
+            - emphasis [ref=e242]: Online
+            - text: Events · Articles · LinkedInTwitter. Payment Icon Pci. Payment Icon ...
+        - generic [ref=e246]:
+          - generic [ref=e249]:
+            - link "Drone Pilot Certification Training Market Dataintelo https://dataintelo.com › report › dr..." [ref=e251] [cursor=pointer]:
+              - /url: https://dataintelo.com/report/drone-pilot-certification-training-market
+              - heading "Drone Pilot Certification Training Market" [level=3] [ref=e252]
+              - generic [ref=e257]:
+                - generic [ref=e259]: Dataintelo
+                - generic [ref=e261]: https://dataintelo.com › report › dr...
+            - generic [ref=e262]:
+              - generic [ref=e263]: ·
+              - link "Käännä tämä sivu" [ref=e264] [cursor=pointer]:
+                - /url: https://dataintelo.com/report/drone-pilot-certification-training-market
+            - button "Tietoja tästä tuloksesta" [ref=e265] [cursor=pointer]:
+              - img [ref=e268]
+          - generic [ref=e272]:
+            - text: The Federal Aviation Administration (FAA) in the United States, the European Union Aviation Safety Agency (
+            - emphasis [ref=e273]: EASA
+            - text: ) ...
+            - emphasis [ref=e274]: Online
+            - text: ", Offline, and Blended formats."
+        - generic [ref=e278]:
+          - generic [ref=e281]:
+            - 'link "Drone Training Unpacked: Skills, Certification & Career Paths LinkedIn · Mavdrones 4 reaktiota · 12 kuukautta sitten" [ref=e283] [cursor=pointer]':
+              - /url: https://www.linkedin.com/pulse/drone-training-unpacked-skills-certification-career-paths-mavdrones-xrajf
+              - 'heading "Drone Training Unpacked: Skills, Certification & Career Paths" [level=3] [ref=e284]'
+              - generic [ref=e289]:
+                - generic [ref=e291]: LinkedIn · Mavdrones
+                - generic [ref=e293]: 4 reaktiota · 12 kuukautta sitten
+            - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+              - img [ref=e297]
+          - generic [ref=e301]:
+            - text: Professional
+            - emphasis [ref=e302]: UAV training
+            - text: is the launchpad to turning passion into a ... You can complete some theoretical parts of drone training
+            - emphasis [ref=e303]: online
+            - text: ", but you ..."
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - heading "Ihmiset kysyvät myös" [level=2] [ref=e309]
+            - button "Tietoja tästä tuloksesta" [ref=e310] [cursor=pointer]:
+              - img [ref=e313]
+          - generic [ref=e315]:
+            - button "Which drone course is best?" [ref=e321] [cursor=pointer]:
+              - generic [ref=e323]: Which drone course is best?
+              - img [ref=e326]
+            - button "What is the 1 1 rule for drones?" [ref=e335] [cursor=pointer]:
+              - generic [ref=e337]: What is the 1 1 rule for drones?
+              - img [ref=e340]
+            - button "What are C1 requirements for drones?" [ref=e349] [cursor=pointer]:
+              - generic [ref=e351]: What are C1 requirements for drones?
+              - img [ref=e354]
+            - button "Is there a demand for drone pilots?" [ref=e363] [cursor=pointer]:
+              - generic [ref=e365]: Is there a demand for drone pilots?
+              - img [ref=e368]
+        - generic [ref=e373]:
+          - heading "Web results" [level=2] [ref=e374]
+          - generic [ref=e375]:
+            - generic [ref=e378]:
+              - link "Next Generation Training | Aerospace Testing International MAG Online Library https://www.magonlinelibrary.com › ..." [ref=e380] [cursor=pointer]:
+                - /url: https://www.magonlinelibrary.com/doi/10.12968/S1478-2774%2822%2950197-0
+                - heading "Next Generation Training | Aerospace Testing International" [level=3] [ref=e381]
+                - generic [ref=e386]:
+                  - generic [ref=e388]: MAG Online Library
+                  - generic [ref=e390]: https://www.magonlinelibrary.com › ...
+              - generic [ref=e391]:
+                - generic [ref=e392]: ·
+                - link "Käännä tämä sivu" [ref=e393] [cursor=pointer]:
+                  - /url: https://www.magonlinelibrary.com/doi/10.12968/S1478-2774%2822%2950197-0
+              - button "Tietoja tästä tuloksesta" [ref=e394] [cursor=pointer]:
+                - img [ref=e397]
+            - generic [ref=e401]:
+              - text: ...
+              - emphasis [ref=e402]: EASA
+              - text: . It's a pretty diverse
+              - emphasis [ref=e403]: place
+              - text: . Our staff ... We switched to
+              - emphasis [ref=e404]: online
+              - text: theoretical instruction ... DO YOU OFFER
+              - emphasis [ref=e405]: UAV TRAINING
+              - text: "? We have a growing ..."
+        - generic [ref=e409]:
+          - generic [ref=e412]:
+            - link "Resources - Professional Drone Services Company Skye Link https://skyelink.org › resources" [ref=e414] [cursor=pointer]:
+              - /url: https://skyelink.org/resources/
+              - heading "Resources - Professional Drone Services Company" [level=3] [ref=e415]
+              - generic [ref=e420]:
+                - generic [ref=e422]: Skye Link
+                - generic [ref=e424]: https://skyelink.org › resources
+            - generic [ref=e425]:
+              - generic [ref=e426]: ·
+              - link "Käännä tämä sivu" [ref=e427] [cursor=pointer]:
+                - /url: https://skyelink.org/resources/
+            - button "Tietoja tästä tuloksesta" [ref=e428] [cursor=pointer]:
+              - img [ref=e431]
+          - generic [ref=e435]:
+            - emphasis [ref=e436]: UAV Training
+            - text: ; Drone Law; Insurance Providers; Member Discounts. Airmap ... For a free quote visit their
+            - emphasis [ref=e437]: online
+            - text: quoting portal. Learn More. SkyWatch.AI.
+        - generic [ref=e441]:
+          - generic [ref=e444]:
+            - link "Flight training Grokipedia https://grokipedia.com › page › Flig..." [ref=e446] [cursor=pointer]:
+              - /url: https://grokipedia.com/page/Flight_training
+              - heading "Flight training" [level=3] [ref=e447]
+              - generic [ref=e449]:
+                - img [ref=e453]
+                - generic [ref=e455]:
+                  - generic [ref=e457]: Grokipedia
+                  - generic [ref=e459]: https://grokipedia.com › page › Flig...
+            - generic [ref=e460]:
+              - generic [ref=e461]: ·
+              - link "Käännä tämä sivu" [ref=e462] [cursor=pointer]:
+                - /url: https://grokipedia.com/page/Flight_training
+            - button "Tietoja tästä tuloksesta" [ref=e463] [cursor=pointer]:
+              - img [ref=e466]
+          - generic [ref=e470]:
+            - text: ... (
+            - emphasis [ref=e471]: UAV) training
+            - text: into traditional flight schools ...
+            - emphasis [ref=e472]: online
+            - text: ground school platforms, which saw ... (
+            - emphasis [ref=e473]: EASA
+            - text: ) enforces a modular training structure under ...
+        - generic [ref=e477]:
+          - generic [ref=e480]:
+            - link "Drone Pilot Certification Training Market Research Report 2033 Market Intelo https://marketintelo.com › report › d..." [ref=e482] [cursor=pointer]:
+              - /url: https://marketintelo.com/report/drone-pilot-certification-training-market
+              - heading "Drone Pilot Certification Training Market Research Report 2033" [level=3] [ref=e483]
+              - generic [ref=e488]:
+                - generic [ref=e490]: Market Intelo
+                - generic [ref=e492]: https://marketintelo.com › report › d...
+            - generic [ref=e493]:
+              - generic [ref=e494]: ·
+              - link "Käännä tämä sivu" [ref=e495] [cursor=pointer]:
+                - /url: https://marketintelo.com/report/drone-pilot-certification-training-market
+            - button "Tietoja tästä tuloksesta" [ref=e496] [cursor=pointer]:
+              - img [ref=e499]
+          - generic [ref=e503]:
+            - text: ...
+            - emphasis [ref=e504]: online
+            - text: and hybrid training models, which are now ... (
+            - emphasis [ref=e505]: EASA
+            - text: ), and the Civil Aviation Administration of ...
+            - emphasis [ref=e506]: UAV Training
+            - text: Australia; National Drone School ...
+        - generic [ref=e510]:
+          - generic [ref=e513]:
+            - link "Enhancing UAV Training Accuracy | PDF Scribd https://www.scribd.com › document" [ref=e515] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/895951214/Content-Audit-Report-Chatgpt
+              - heading "Enhancing UAV Training Accuracy | PDF" [level=3] [ref=e516]
+              - generic [ref=e521]:
+                - generic [ref=e523]: Scribd
+                - generic [ref=e525]: https://www.scribd.com › document
+            - generic [ref=e526]:
+              - generic [ref=e527]: ·
+              - link "Käännä tämä sivu" [ref=e528] [cursor=pointer]:
+                - /url: https://www.scribd.com/document/895951214/Content-Audit-Report-Chatgpt
+            - button "Tietoja tästä tuloksesta" [ref=e529] [cursor=pointer]:
+              - img [ref=e532]
+          - generic [ref=e536]:
+            - text: Content Audit Report – Chatgpt - Free download as PDF File (.pdf), Text File (.txt) or read
+            - emphasis [ref=e537]: online
+            - text: for free ...
+            - emphasis [ref=e538]: EASA
+            - text: AD 2023-0171 Cancellation Notice. 2 ...
+      - navigation [ref=e541]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e542]
+        - text: "1"
+        - link "Page 2" [ref=e545] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=10&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAE
+          - text: "2"
+        - link "Page 3" [ref=e547] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=20&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAG
+          - text: "3"
+        - link "Page 4" [ref=e549] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=30&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAI
+          - text: "4"
+        - link "Page 5" [ref=e551] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=40&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAK
+          - text: "5"
+        - link "Page 6" [ref=e553] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=50&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAM
+          - text: "6"
+        - link "Page 7" [ref=e555] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=60&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAO
+          - text: "7"
+        - link "Page 8" [ref=e557] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=70&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAQ
+          - text: "8"
+        - link "Page 9" [ref=e559] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=80&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAS
+          - text: "9"
+        - link "Page 10" [ref=e561] [cursor=pointer]:
+          - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=90&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8tMDegQINhAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e563]:
+          - link "Seuraava" [ref=e564] [cursor=pointer]:
+            - /url: /search?q=%22drone+training+platform%22+OR+%22UAV+training%22+%22EASA%22+%22online%22+site+2024+OR+2025+-news&sca_esv=a73392c086c649e8&ei=sDTSaYHoJenVwPAP28zA4As&start=10&sa=N&sstk=Af77f_e7Z38xsurlBFvyQAcK1HTjfmaVObiQJuJEQd2WiP-eNewY37qF6s-2PLNYG43TTHaHotlf3oBVxSFr2BEe7ruP6Cny6WjojA&ved=2ahUKEwiBgPDju9aTAxXpKhAIHVsmELwQ8NMDegQINhAW
+            - generic [ref=e566]: Seuraava
+      - navigation
+    - contentinfo [ref=e567]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e568]
+      - generic [ref=e572]:
+        - generic [ref=e574]:
+          - text: Suomi
+          - generic [ref=e576]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e578] [cursor=pointer]:
+              - generic [ref=e579]: 00920, Helsinki
+              - generic [ref=e581]:
+                - text: "-"
+                - generic [ref=e582]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e584] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e587]:
+          - link "Ohje" [ref=e588] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e589] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e590] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e591] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,371 @@
+- generic [ref=e1]:
+  - link "Siirry suoraan sisältöön" [ref=e2] [cursor=pointer]:
+    - /url: "#container"
+  - banner [ref=e3]:
+    - navigation "Päävalikko" [ref=e4]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "Etusivulle" [ref=e7] [cursor=pointer]:
+            - /url: /fi/
+            - img "Etusivulle" [ref=e9]
+        - listitem [ref=e10]:
+          - button "Henkilöasiakkaat" [ref=e11] [cursor=pointer]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "På svenska" [ref=e14] [cursor=pointer]:
+            - /url: /sv/spara-och-investera/
+        - listitem [ref=e15]:
+          - button "Kirjaudu verkkopankkiin" [ref=e16] [cursor=pointer]:
+            - generic [ref=e19]: Kirjaudu
+    - navigation "Ylävalikko" [ref=e20]:
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - button "Katso lisää" [ref=e23] [cursor=pointer]
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - link "Asiakastuki" [ref=e26] [cursor=pointer]:
+            - /url: /fi/asiakaspalvelu/
+            - text: Asiakastuki
+        - listitem [ref=e28]:
+          - link "Toimipaikkahaku" [ref=e29] [cursor=pointer]:
+            - /url: /fi/toimipaikat/
+            - text: Toimipaikat
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e36]:
+          - navigation "Murupolku" [ref=e40]:
+            - list [ref=e42]:
+              - listitem [ref=e43]:
+                - link "Etusivu" [ref=e44] [cursor=pointer]:
+                  - /url: /fi/
+              - listitem [ref=e45]: / Säästäminen ja sijoittaminen
+          - generic [ref=e49]:
+            - text: /
+            - heading "Säästäminen ja sijoittaminen" [level=1] [ref=e50]
+            - generic [ref=e51]: Laita omat rahasi tuottamaan! S-Pankissa säästäminen ja sijoittaminen on tehty mahdollisimman helpoksi.
+            - generic [ref=e52]:
+              - link "Näin aloitat säästämisen" [ref=e59] [cursor=pointer]:
+                - /url: /fi/saastaminen-ja-sijoittaminen/nain-aloitat-saastamisen-ja-sijoittamisen/
+                - generic [ref=e60]: Näin aloitat säästämisen
+              - link "Sijoittaminen S-Pankissa" [ref=e67] [cursor=pointer]:
+                - /url: /fi/saastaminen-ja-sijoittaminen/vinkit-sijoittajalle/
+                - generic [ref=e68]: Sijoittaminen S-Pankissa
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - link [ref=e76] [cursor=pointer]:
+                - /url: /fi/saastaminen-ja-sijoittaminen/bonus-rahastoon/
+              - generic [ref=e78]:
+                - heading "Rahastosäästäjäksi Bonuksella" [level=3] [ref=e80]
+                - paragraph [ref=e84]: Aloita säästäminen jo muutamilla euroilla ohjaamalla S-ryhmän ostoistasi kertyvä Bonus suoraan rahastoon joko S-mobiilin Säästäjä-palvelussa tai verkkopankissa.
+            - generic [ref=e85]:
+              - link [ref=e86] [cursor=pointer]:
+                - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/
+              - generic [ref=e88]:
+                - heading "Monipuolinen valikoima" [level=3] [ref=e90]
+                - paragraph [ref=e94]: S-Pankin monipuolinen rahastovalikoima tarjoaa vaihtoehtoja niin varovaiselle kuin rohkeallekin sijoittajalle. Säästösumman valitset itse – alkaen 10 €.
+          - generic [ref=e96]:
+            - link [ref=e97] [cursor=pointer]:
+              - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/
+            - generic [ref=e99]:
+              - heading "Ilman merkintä- ja lunastuspalkkioita" [level=3] [ref=e101]
+              - paragraph [ref=e105]: S-Pankissa sijoitat suurimpaan osaan* rahastoista ilman merkintä- ja lunastuspalkkioita.
+          - paragraph [ref=e109]: "*Lukuun ottamatta passiivisia rahastoja, erikoissijoitusrahastoja ja rahastojen hallinnointipalkkioita."
+        - generic [ref=e113]:
+          - link "Monipuolinen rahastovalikoima S-Pankissa sijoitat suurimpaan osaan rahastoista ilman merkintäpalkkiota*. Valikoimastamme löytyy vaihtoehtoja niin varovaiselle kuin rohkeallekin sijoittajalle. Valitse itsellesi sopivin rahasto oman riskinsietokykysi ja tuottohakuisuutesi mukaan." [ref=e115] [cursor=pointer]:
+            - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/
+            - generic [ref=e119]:
+              - heading "Monipuolinen rahastovalikoima" [level=3] [ref=e120]
+              - paragraph [ref=e121]: S-Pankissa sijoitat suurimpaan osaan rahastoista ilman merkintäpalkkiota*. Valikoimastamme löytyy vaihtoehtoja niin varovaiselle kuin rohkeallekin sijoittajalle. Valitse itsellesi sopivin rahasto oman riskinsietokykysi ja tuottohakuisuutesi mukaan.
+          - link "Säästäjälla säästät vaikka joka ostolla S-mobiilin Säästäjä-palvelulla säästöjä kertyy ihan huomaamatta, kun ohjaat rahaa säästöön joka pankkikorttiostoksesta tai kertyneen Bonuksen rahastoon. Arkista ja helppoa niin kuin säästämisen kuuluukin olla." [ref=e125] [cursor=pointer]:
+            - /url: /fi/saastaminen-ja-sijoittaminen/saastaja/
+            - generic [ref=e131]:
+              - heading "Säästäjälla säästät vaikka joka ostolla" [level=3] [ref=e132]
+              - paragraph [ref=e133]: S-mobiilin Säästäjä-palvelulla säästöjä kertyy ihan huomaamatta, kun ohjaat rahaa säästöön joka pankkikorttiostoksesta tai kertyneen Bonuksen rahastoon. Arkista ja helppoa niin kuin säästämisen kuuluukin olla.
+          - link "Automatisoi säästäminen Kuukausisäästäminen rahastoon on helppo ja vaivattomin tapa säästää. Kuukausisäästämällä saat myös parhaan hyödyn irti ajallisesta hajauttamisesta." [ref=e137] [cursor=pointer]:
+            - /url: /fi/saastaminen-ja-sijoittaminen/kuukausisaastaminen/
+            - generic [ref=e141]:
+              - heading "Automatisoi säästäminen" [level=3] [ref=e142]
+              - paragraph [ref=e143]: Kuukausisäästäminen rahastoon on helppo ja vaivattomin tapa säästää. Kuukausisäästämällä saat myös parhaan hyödyn irti ajallisesta hajauttamisesta.
+          - link "Aloita rahastosäästäminen pelkällä Bonuksella Voit aloittaa säästämisen jo muutamilla euroilla ohjaamalla S-ryhmän ostoistasi kertyvän Bonuksen suoraan valitsemaasi rahastoon joko S-mobiilin Säästäjä-palvelussa tai verkkopankissa. Säästäjässä voit Bonuksen lisäksi ohjata säästöön myös 50 sentistä 5 euroon jokaisesta pankkikorttimaksusta." [ref=e147] [cursor=pointer]:
+            - /url: /fi/saastaminen-ja-sijoittaminen/bonus-rahastoon/
+            - generic [ref=e153]:
+              - heading "Aloita rahastosäästäminen pelkällä Bonuksella" [level=3] [ref=e154]
+              - paragraph [ref=e155]: Voit aloittaa säästämisen jo muutamilla euroilla ohjaamalla S-ryhmän ostoistasi kertyvän Bonuksen suoraan valitsemaasi rahastoon joko S-mobiilin Säästäjä-palvelussa tai verkkopankissa. Säästäjässä voit Bonuksen lisäksi ohjata säästöön myös 50 sentistä 5 euroon jokaisesta pankkikorttimaksusta.
+          - link "Aloita eläkesäästäminen Hyvissä ajoin aloitetulla sijoittamisella varmistat, että rahat riittävät työuran jälkeenkin itselle sopiviin valintoihin. Koskaan ei kuitenkaan ole liian myöhäistä aloittaa. Säästämisen ja sijoittamisen vaihtoehtoja on monia – valitse itsellesi sopivin." [ref=e159] [cursor=pointer]:
+            - /url: /fi/saastaminen-ja-sijoittaminen/elakesaastaminen/
+            - generic [ref=e165]:
+              - heading "Aloita eläkesäästäminen" [level=3] [ref=e166]
+              - paragraph [ref=e167]: Hyvissä ajoin aloitetulla sijoittamisella varmistat, että rahat riittävät työuran jälkeenkin itselle sopiviin valintoihin. Koskaan ei kuitenkaan ole liian myöhäistä aloittaa. Säästämisen ja sijoittamisen vaihtoehtoja on monia – valitse itsellesi sopivin.
+          - link "Kokeile rahastojen valintatyökalua Haluatko säästää satunnaisesti, kuukausittain vai ohjata Bonuksen rahastoon? Entä millaisen riskin olet valmis ottamaan sijoittaessasi ja kuinka suuren summan haluat sijoittaa? Valintatyökalumme voi auttaa sinua sopivan sijoituskohteen valitsemisessa." [ref=e171] [cursor=pointer]:
+            - /url: /fi/saastaminen-ja-sijoittaminen/rahastosaastaminen/osta-rahastoa/
+            - generic [ref=e175]:
+              - heading "Kokeile rahastojen valintatyökalua" [level=3] [ref=e176]
+              - paragraph [ref=e177]: Haluatko säästää satunnaisesti, kuukausittain vai ohjata Bonuksen rahastoon? Entä millaisen riskin olet valmis ottamaan sijoittaessasi ja kuinka suuren summan haluat sijoittaa? Valintatyökalumme voi auttaa sinua sopivan sijoituskohteen valitsemisessa.
+        - paragraph [ref=e185]: "*Ei koske passiivisia rahastoja, erikoissijoitusrahastoja eikä rahastojen hallinnointipalkkioita."
+      - tablist [ref=e188]:
+        - tab "Säästäminen ja sijoittaminen" [selected] [ref=e189] [cursor=pointer]
+        - tab "Ohjeet ja tuki" [ref=e190] [cursor=pointer]
+      - tabpanel "Säästäminen ja sijoittaminen" [ref=e192]:
+        - generic [ref=e194]:
+          - heading "Tiedätkö, millainen säästäjä olet?" [level=2] [ref=e195]
+          - generic [ref=e196]: Haluamme mahdollistaa vähän rahakkaamman tulevaisuuden ihan jokaiselle, siksi olemme pyrkineet tekemään säästämisestä mahdollisimman helppoa ja vaivatonta. Meillä pääset alkuun vaivattomasti, omaan arkeesi sopivalla tavalla. Tutustu vaihtoehtoihin!
+          - generic [ref=e197]:
+            - generic [ref=e202]:
+              - button "Tiedän, mihin haluan sijoittaa" [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: Tiedän, mihin haluan sijoittaa
+              - button "Haluan säästää rahankäytön lomassa" [ref=e215] [cursor=pointer]:
+                - generic [ref=e216]: Haluan säästää rahankäytön lomassa
+              - button "Haluan sijoittaa isomman summan" [ref=e222] [cursor=pointer]:
+                - generic [ref=e223]: Haluan sijoittaa isomman summan
+            - generic [ref=e226]:
+              - heading "Katso myös nämä" [level=2] [ref=e228]
+              - generic [ref=e229]:
+                - link "Sijoittaminen kuuluu kaikille Rahastosäästäminen on helppo ja järkevä tapa kartuttaa säästöjä. Tutustu vaihtoehtoihin." [ref=e231] [cursor=pointer]:
+                  - /url: /fi/saastaminen-ja-sijoittaminen/vinkit-sijoittajalle/
+                  - generic [ref=e237]:
+                    - heading "Sijoittaminen kuuluu kaikille" [level=3] [ref=e238]
+                    - paragraph [ref=e239]: Rahastosäästäminen on helppo ja järkevä tapa kartuttaa säästöjä. Tutustu vaihtoehtoihin.
+                - link "Vastuullisuus sijoittamisessa Vastuullinen sijoittaminen on meille kiinteä osa sijoituspäätöksiä. Lisätietoa siitä, miten toteutamme vastuullista sijoittamista, löytyy täältä." [ref=e243] [cursor=pointer]:
+                  - /url: /fi/private-banking-ja-varainhoito/vastuullisuus-ja-vaikuttavuus/vastuullisuus-sijoittamisessa/
+                  - generic [ref=e249]:
+                    - heading "Vastuullisuus sijoittamisessa" [level=3] [ref=e250]
+                    - paragraph [ref=e251]: Vastuullinen sijoittaminen on meille kiinteä osa sijoituspäätöksiä. Lisätietoa siitä, miten toteutamme vastuullista sijoittamista, löytyy täältä.
+                - link "Yksilöllistä varainhoitoa Kokeneet ja asiantuntevat yksityispankkiirimme kertovat mielellään Private Banking -palveluista sinulle henkilökohtaisesti." [ref=e255] [cursor=pointer]:
+                  - /url: /fi/private-banking-ja-varainhoito/
+                  - generic [ref=e261]:
+                    - heading "Yksilöllistä varainhoitoa" [level=3] [ref=e262]
+                    - paragraph [ref=e263]: Kokeneet ja asiantuntevat yksityispankkiirimme kertovat mielellään Private Banking -palveluista sinulle henkilökohtaisesti.
+                - link "Tutustu kuukauden rahastoesittelyyn Kaipaatko inspiraatiota sijoittamiseen? Kuukauden rahastoesittely tuo esiin vaihtuvia vaihtoehtoja monipuolisesta rahastovalikoimastamme." [ref=e267] [cursor=pointer]:
+                  - /url: /fi/saastaminen-ja-sijoittaminen/kuukauden-rahastoesittely/
+                  - generic [ref=e271]:
+                    - heading "Tutustu kuukauden rahastoesittelyyn" [level=3] [ref=e272]
+                    - paragraph [ref=e273]: Kaipaatko inspiraatiota sijoittamiseen? Kuukauden rahastoesittely tuo esiin vaihtuvia vaihtoehtoja monipuolisesta rahastovalikoimastamme.
+            - generic [ref=e278]:
+              - heading "Työkalut" [level=3] [ref=e279]
+              - list [ref=e280]:
+                - listitem [ref=e281]:
+                  - link "Rahastovalitsin" [ref=e282] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastosaastaminen/osta-rahastoa/
+                    - generic [ref=e285]: Rahastovalitsin
+                - listitem [ref=e286]:
+                  - link "Säästölaskuri" [ref=e287] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/saastolaskuri/
+                    - generic [ref=e290]: Säästölaskuri
+                - listitem [ref=e291]:
+                  - link "Korkoa korolle -laskuri" [ref=e292] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/tuottolaskuri/
+                    - generic [ref=e295]: Korkoa korolle -laskuri
+            - generic [ref=e298]:
+              - heading "Tutustu monipuoliseen rahastovalikoimaan" [level=3] [ref=e299]
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - link "S-Pankin yhdistelmärahastot" [ref=e302] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/yhdistelmarahastot/
+                - listitem [ref=e303]:
+                  - link "S-Pankin korkorahastot" [ref=e304] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/korkorahastot/
+                - listitem [ref=e305]:
+                  - link "S-Pankin osakerahastot" [ref=e306] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/osakerahastot/
+                - listitem [ref=e307]:
+                  - link "S-Pankin kiinteistörahastot" [ref=e308] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/kiinteistorahastot/
+                - listitem [ref=e309]:
+                  - link "Koko rahastovalikoima" [ref=e310] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/
+            - generic [ref=e313]:
+              - heading "Oikopolut" [level=3] [ref=e314]
+              - list [ref=e315]:
+                - listitem [ref=e316]:
+                  - link "Vastuullisuus sijoittamisessa" [ref=e317] [cursor=pointer]:
+                    - /url: /fi/private-banking-ja-varainhoito/vastuullisuus-ja-vaikuttavuus/vastuullisuus-sijoittamisessa/
+                - listitem [ref=e318]:
+                  - link "Kuukausisäästäminen" [ref=e319] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/kuukausisaastaminen/
+                - listitem [ref=e320]:
+                  - link "Lapselle säästäminen ja sijoittaminen" [ref=e321] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/rahastot-ja-saastaminen-lapselle/
+                - listitem [ref=e322]:
+                  - link "Rahastosäästäjäksi pelkällä Bonuksella" [ref=e323] [cursor=pointer]:
+                    - /url: /fi/saastaminen-ja-sijoittaminen/bonus-rahastoon/
+                - listitem [ref=e324]:
+                  - link "Katsauksia ja analyysejä" [ref=e325] [cursor=pointer]:
+                    - /url: /fi/artikkelit/?c=61
+            - generic [ref=e328]:
+              - heading "Webinaarit ja Podcastit" [level=3] [ref=e329]
+              - list [ref=e330]:
+                - listitem [ref=e331]:
+                  - link "S-Pankin webinaarit" [ref=e332] [cursor=pointer]:
+                    - /url: /fi/webinaarit/
+                - listitem [ref=e333]:
+                  - link "#RahanVastuu-podcast" [ref=e334] [cursor=pointer]:
+                    - /url: ~/link/35e70d361f1f48e191e351d76a2dd5d5.aspx
+      - paragraph [ref=e341]: Sijoitustoimintaan liittyy aina taloudellinen riski, ja asiakas vastaa siten itse omien sijoituspäätöstensä taloudellisista tuloksista sekä näiden vaikutuksesta asiakkaan verotukseen. Historiallinen tuotto ei ole tae tulevasta tuotosta. Tuotto voi jäädä saamatta ja sijoitetun pääoman voi jopa menettää. Tällä sivulla esitetyt tiedot eivät ole sijoituspalvelulain mukaista sijoitusneuvontaa. Tutustu ennen sijoituspäätösten tekemistä rahaston rahastoesitteeseen ja sijoittajan avaintietoihin.
+    - generic [ref=e342]:
+      - generic [ref=e344]:
+        - generic [ref=e346]:
+          - heading "Asiakaspalvelu" [level=4] [ref=e347]
+          - link "Asiakastuki" [ref=e352] [cursor=pointer]:
+            - /url: /fi/asiakaspalvelu/
+            - generic [ref=e353]: Asiakastuki
+          - paragraph [ref=e354]
+          - heading "Pankkitunnusten sulkupalvelu 24h" [level=5] [ref=e355]
+          - paragraph [ref=e356]:
+            - generic [ref=e359]: 09 6964 6820
+            - text: (pvm/mpm)
+          - heading "Korttien sulkupalvelu 24h" [level=5] [ref=e360]
+          - paragraph [ref=e361]:
+            - generic [ref=e364]: 020 333
+            - text: (pvm/mpm)
+        - generic [ref=e365]:
+          - heading "Oikopolut" [level=4] [ref=e366]
+          - list [ref=e367]:
+            - listitem [ref=e368]:
+              - link "Päivitä asiakastietosi" [ref=e369] [cursor=pointer]:
+                - /url: /fi/kampanjat/paivita-asiakastietosi/
+            - listitem [ref=e370]:
+              - link "Tarkista verkkopankkitunnuksesi" [ref=e371] [cursor=pointer]:
+                - /url: https://pankkitunnukset.s-pankki.fi/?initialLang=fi
+            - listitem [ref=e372]:
+              - link "Tule asiakkaaksi" [ref=e373] [cursor=pointer]:
+                - /url: /fi/tule-asiakkaaksi/
+            - listitem [ref=e374]:
+              - link "Palveluhinnasto" [ref=e375] [cursor=pointer]:
+                - /url: /fi/verkkopalvelut/verkkopankki/palveluhinnasto/
+            - listitem [ref=e376]:
+              - link "Usein kysyttyä" [ref=e377] [cursor=pointer]:
+                - /url: /fi/asiakaspalvelu/ukk/listaus/
+            - listitem [ref=e378]:
+              - link "Turvallinen pankkiasiointi" [ref=e379] [cursor=pointer]:
+                - /url: /fi/verkkopalvelut/turvallinen-pankkiasiointi/
+            - listitem [ref=e380]:
+              - link "Rahastojen arvot" [ref=e381] [cursor=pointer]:
+                - /url: /fi/saastaminen-ja-sijoittaminen/rahastot/
+            - listitem [ref=e382]:
+              - link "Tiedotteet" [ref=e383] [cursor=pointer]:
+                - /url: /fi/tiedotteet/
+            - listitem [ref=e384]:
+              - link "Artikkelit" [ref=e385] [cursor=pointer]:
+                - /url: /fi/artikkelit/
+            - listitem [ref=e386]:
+              - link "Vuokrattavat toimitilat" [ref=e387] [cursor=pointer]:
+                - /url: /fi/vuokrattavat-toimitilat/
+            - listitem [ref=e388]:
+              - link "Anna palautetta" [ref=e389] [cursor=pointer]:
+                - /url: /fi/asiakaspalvelu/asiakaspalaute/
+            - listitem [ref=e390]:
+              - link "Reklamaatiot" [ref=e391] [cursor=pointer]:
+                - /url: /fi/asiakaspalvelu/asiakaspalaute/
+            - listitem [ref=e392]:
+              - link "Ajanvaraus" [ref=e393] [cursor=pointer]:
+                - /url: /fi/ajanvaraus/
+          - list [ref=e394]:
+            - listitem [ref=e395]:
+              - link "Tietoa S-Pankista" [ref=e396] [cursor=pointer]:
+                - /url: /fi/s-pankki-yrityksena/
+            - listitem [ref=e397]:
+              - link "Medialle" [ref=e398] [cursor=pointer]:
+                - /url: /fi/s-pankki-yrityksena/medialle/
+            - listitem [ref=e399]:
+              - link "Sijoittajille" [ref=e400] [cursor=pointer]:
+                - /url: /fi/s-pankki-yrityksena/sijoittajille/
+            - listitem [ref=e401]:
+              - link "Investors" [ref=e402] [cursor=pointer]:
+                - /url: /fi/s-pankki-yrityksena/sijoittajille/debt-investors/
+        - generic [ref=e403]:
+          - link [ref=e405] [cursor=pointer]:
+            - /url: /fi/
+          - generic [ref=e408]:
+            - paragraph [ref=e409]:
+              - text: "Y-tunnus: 2557308-3"
+              - text: "BIC-tunnus: SBANFIHH"
+              - text: "Postiosoite: S-Pankki Oyj,"
+              - text: PL 77, 00088 S-RYHMÄ
+              - text: "Katuosoite: Fleminginkatu 34, 00510 HELSINKI (ei asiakaspalvelua)"
+            - generic [ref=e413]:
+              - heading "Varmista, että tavoitamme sinut" [level=5] [ref=e415]
+              - generic [ref=e417]: Voit saada sähköpostiisi tietoa uusista palveluista ja ajankohtaisista asiakasomistajaeduista ensimmäisten joukossa.
+              - link "Päivitä yhteystietosi" [ref=e420] [cursor=pointer]:
+                - /url: /fi/enemman-hyotya-asiakasomistajuudesta/
+          - heading "Viitekorkomme" [level=5] [ref=e421]
+          - paragraph [ref=e422]:
+            - link "S-Prime 2,0 %" [ref=e423] [cursor=pointer]:
+              - /url: https://dokumentit.s-pankki.fi/tiedostot/s-prime_koron_maaraytyminen_fi
+        - list [ref=e425]:
+          - listitem [ref=e426]:
+            - link "S-Pankin sivu Facebookissa" [ref=e427] [cursor=pointer]:
+              - /url: https://www.facebook.com/SPankki/
+          - listitem [ref=e429]:
+            - link "S-Pankin tili Twitterissä" [ref=e430] [cursor=pointer]:
+              - /url: http://twitter.com/S_Pankki
+          - listitem [ref=e432]:
+            - link "S-Pankin kanava Youtubessa" [ref=e433] [cursor=pointer]:
+              - /url: http://www.youtube.com/user/SPankki1
+          - listitem [ref=e435]:
+            - link "S-Pankin sivu LinkedInissä" [ref=e436] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/s-pankki/
+          - listitem [ref=e438]:
+            - link "S-Pankin tili Instagramissa" [ref=e439] [cursor=pointer]:
+              - /url: https://www.instagram.com/s_pankki/
+      - generic [ref=e443]:
+        - list [ref=e445]:
+          - listitem [ref=e446]:
+            - link "Käyttöehdot" [ref=e447] [cursor=pointer]:
+              - /url: /fi/kayttoehdot/
+          - listitem [ref=e448]:
+            - link "Tietosuoja" [ref=e449] [cursor=pointer]:
+              - /url: /fi/tietosuoja/
+          - listitem [ref=e450]:
+            - link "Saavutettavuusseloste" [ref=e451] [cursor=pointer]:
+              - /url: /fi/saavutettavuusselosteet/
+          - listitem [ref=e452]:
+            - link "Evästeet" [ref=e453] [cursor=pointer]:
+              - /url: /fi/evasteet/
+          - listitem [ref=e454]:
+            - link "Verkkopalvelujen käytön edellytykset" [ref=e455] [cursor=pointer]:
+              - /url: /fi/verkkopalvelut/kayton-edellytykset/
+          - listitem [ref=e456]:
+            - link "Ehdot ja muut asiakirjat" [ref=e457] [cursor=pointer]:
+              - /url: /fi/ehdot-ja-muut-asiakirjat/
+        - generic [ref=e458]: © S-Pankki
+  - generic [active]:
+    - generic:
+      - generic:
+        - button "Avaa Yksityisyysasetukset" [ref=e459] [cursor=pointer]:
+          - img [ref=e461]
+        - dialog "Hei, evästeiden avulla palvelemme sinua paremmin" [ref=e466]:
+          - generic [ref=e472]:
+            - generic [ref=e473]:
+              - img "S-Pankki logo" [ref=e475]
+              - button "Valitse kieli" [ref=e478] [cursor=pointer]:
+                - img [ref=e479]
+            - heading "Hei, evästeiden avulla palvelemme sinua paremmin" [level=1] [ref=e485]
+            - generic [ref=e487]:
+              - generic [ref=e490]: S-Pankki on sinun pankkisi. Jotta voimme palvella sinua parhaiten, käytämme verkkopalvelussamme evästeitä. Tallennamme evästeitä suostumuksellasi kerätäksemme tietoa tilastoinnin tueksi ja verkkopalveluiden kehittämiseksi sekä personoidaksemme digitaalista kokemustasi ja tuottaaksemme sinulle kohdennettua markkinointia.
+              - generic [ref=e492]: Voimme yhdistää evästeillä kerättyjä tietoja muihin asiakastietoihisi esim. siirtyessäsi muihin digitaalisiin palveluihin s-pankki.fi:n kautta.
+              - generic [ref=e494]:
+                - text: Valitsemalla Hyväksy kaikki hyväksyt kaikkien evästeiden käytön. Valitsemalla Vain välttämättömät hyväksyt sivuston toiminnan kannalta vain välttämättömät evästeet. Voit muuttaa ja lukea lisää evästeistä valitsemalla Muokkaa asetuksiasi. Voit jälkikäteen perua ja muokata suostumuksiasi
+                - link "Evästeet-sivulla" [ref=e495] [cursor=pointer]:
+                  - /url: https://www.s-pankki.fi/fi/evasteet/
+                - text: .
+          - generic [ref=e499]:
+            - button "Hyväksy kaikki" [ref=e500] [cursor=pointer]
+            - button "Vain välttämättömät" [ref=e501] [cursor=pointer]
+            - button "Muokkaa asetuksiasi" [ref=e502] [cursor=pointer]
+  - generic:
+    - button "Sulje proaktiivinen viesti":
+      - img
+    - generic:
+      - paragraph:
+        - paragraph: Moikka! 👋 Osaan auttaa sinua säästämisen kanssa!
+      - generic:
+        - img
+      - generic:
+        - img
+    - button "Chatbot" [ref=e503] [cursor=pointer]:
+      - generic [ref=e505]: S-Pankki Chat
+    - generic: "1"
+  - generic:
+    - dialog "chat.panel"

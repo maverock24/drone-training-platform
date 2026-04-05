@@ -1,0 +1,358 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Siirry sisältöön" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - navigation "Muut sivustot" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Sinulle" [ref=e10] [cursor=pointer]:
+              - /url: /sinulle
+          - listitem [ref=e11]:
+            - link "Yrityksille" [ref=e12] [cursor=pointer]:
+              - /url: /yrityksille
+          - listitem [ref=e13]:
+            - link "Private Banking" [ref=e14] [cursor=pointer]:
+              - /url: /private-banking
+          - listitem [ref=e15]:
+            - button "Muut sivustot" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]:
+                - generic [ref=e22]: Muut sivustot
+                - img [ref=e23]
+      - generic [ref=e27]:
+        - navigation "Main navigation" [ref=e28]:
+          - link "Danske Bank" [ref=e29] [cursor=pointer]:
+            - /url: /sinulle
+            - generic [ref=e30]:
+              - img "Danske Bank"
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - button "Lainat" [ref=e34] [cursor=pointer]
+            - listitem [ref=e35]:
+              - button "Säästä ja sijoita" [ref=e36] [cursor=pointer]
+            - listitem [ref=e37]:
+              - button "Päivittäispalvelut" [ref=e38] [cursor=pointer]
+            - listitem [ref=e39]:
+              - button "Elämäni" [ref=e40] [cursor=pointer]
+            - listitem [ref=e41]:
+              - link "Asiakastuki" [ref=e42] [cursor=pointer]:
+                - /url: /sinulle/asiakaspalvelu
+            - listitem [ref=e43]:
+              - button "Asiakkuus ja edut" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "EN" [ref=e49] [cursor=pointer]:
+                - /url: /en
+            - listitem [ref=e50]:
+              - link "SV" [ref=e51] [cursor=pointer]:
+                - /url: /se
+          - button "Hae" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Kirjaudu" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Kirjaudu
+            - img [ref=e60]
+  - main [ref=e62]:
+    - article [ref=e63]:
+      - generic [ref=e64]:
+        - navigation "Breadcrumbs" [ref=e65]:
+          - generic [ref=e67]:
+            - list [ref=e68]:
+              - listitem [ref=e69]:
+                - link "Sinulle" [ref=e70] [cursor=pointer]:
+                  - /url: /sinulle
+                  - text: Sinulle
+                  - img [ref=e71]
+              - listitem [ref=e73]:
+                - link "Asiakastuki" [ref=e74] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu
+                  - text: Asiakastuki
+                  - img [ref=e75]
+              - listitem [ref=e77]:
+                - link "Säästäminen ja sijoittaminen" [ref=e78] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen
+                  - text: Säästäminen ja sijoittaminen
+                  - img [ref=e79]
+              - listitem [ref=e81]: Osakesäästötili
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - link "Tulosta" [ref=e84] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/osakesaastotili
+                  - img [ref=e85]
+        - generic [ref=e91]:
+          - heading "Usein kysyttyä Osakesäästötilistä" [level=1] [ref=e92]
+          - paragraph [ref=e93]: Miten siirrän osakesäästötilin Danske Bankiin? Miten ostan osakkeita osakesäästötilille? Lue nämä ja muut usein kysytyt kysymykset osakesäästötilistä.
+          - paragraph [ref=e94]:
+            - link "Tutustu osakesäästötiliin" [ref=e95] [cursor=pointer]:
+              - /url: /sinulle/saastaminen-ja-sijoittaminen/palvelut/osakesaastotili
+        - generic [ref=e97]:
+          - heading "Yleistä osakesäästötilistä" [level=2] [ref=e100]
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - button "Mikä on Osakesäästötili?" [ref=e105] [cursor=pointer]:
+                - generic [ref=e106]: Mikä on Osakesäästötili?
+                - img [ref=e107]
+            - listitem [ref=e109]:
+              - button "Mihin arvopapereihin Osakesäästötilillä voi sijoittaa?" [ref=e110] [cursor=pointer]:
+                - generic [ref=e111]: Mihin arvopapereihin Osakesäästötilillä voi sijoittaa?
+                - img [ref=e112]
+            - listitem [ref=e114]:
+              - button "Miten voin aloittaa Säännöllisen Säästämisen osakkeisiin?" [ref=e115] [cursor=pointer]:
+                - generic [ref=e116]: Miten voin aloittaa Säännöllisen Säästämisen osakkeisiin?
+                - img [ref=e117]
+            - listitem [ref=e119]:
+              - button "Kuinka paljon voin tallettaa varoja osakesäästötilille?" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: Kuinka paljon voin tallettaa varoja osakesäästötilille?
+                - img [ref=e122]
+            - listitem [ref=e124]:
+              - button "Voiko minulla olla useampi Osakesäästötili?" [ref=e125] [cursor=pointer]:
+                - generic [ref=e126]: Voiko minulla olla useampi Osakesäästötili?
+                - img [ref=e127]
+        - generic [ref=e132]:
+          - heading "Osakesäästötilin avaaminen ja sulkeminen" [level=2] [ref=e135]
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - button "Miten voin avata Osakesäästötilin?" [ref=e140] [cursor=pointer]:
+                - generic [ref=e141]: Miten voin avata Osakesäästötilin?
+                - img [ref=e142]
+            - listitem [ref=e144]:
+              - button "Miten avaan Osakesäästötilin lapselle?" [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]: Miten avaan Osakesäästötilin lapselle?
+                - img [ref=e147]
+            - listitem [ref=e149]:
+              - button "Voinko avata osakesäästötilin yritykselle?" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: Voinko avata osakesäästötilin yritykselle?
+                - img [ref=e152]
+            - listitem [ref=e154]:
+              - button "Miten siirrän Osakesäästötilin Danske Bankiin?" [ref=e155] [cursor=pointer]:
+                - generic [ref=e156]: Miten siirrän Osakesäästötilin Danske Bankiin?
+                - img [ref=e157]
+            - listitem [ref=e159]:
+              - button "Miten suljen osakesäästötilin?" [ref=e160] [cursor=pointer]:
+                - generic [ref=e161]: Miten suljen osakesäästötilin?
+                - img [ref=e162]
+            - listitem [ref=e164]:
+              - button "Mitä osakesäästötilille tapahtuu, jos menehdyn?" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]: Mitä osakesäästötilille tapahtuu, jos menehdyn?
+                - img [ref=e167]
+        - generic [ref=e170]:
+          - heading "Osakesäästötili - sijoittaminen ja verotus" [level=2] [ref=e173]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - button "Miten ostan osakkeita Osakesäästötilille?" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]: Miten ostan osakkeita Osakesäästötilille?
+                - img [ref=e180]
+            - listitem [ref=e182]:
+              - button "Miten nostan varoja omalta Osakesäästötililtä?" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]: Miten nostan varoja omalta Osakesäästötililtä?
+                - img [ref=e185]
+            - listitem [ref=e187]:
+              - button "Miten nostan varoja Osakesäästötililtä, johon minulla on käyttöoikeus?" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]: Miten nostan varoja Osakesäästötililtä, johon minulla on käyttöoikeus?
+                - img [ref=e190]
+            - listitem [ref=e192]:
+              - button "Voinko siirtää osakkeita osakesäästötilille?" [ref=e193] [cursor=pointer]:
+                - generic [ref=e194]: Voinko siirtää osakkeita osakesäästötilille?
+                - img [ref=e195]
+            - listitem [ref=e197]:
+              - button "Voinko käydä kauppaa valuuttatililtä?" [ref=e198] [cursor=pointer]:
+                - generic [ref=e199]: Voinko käydä kauppaa valuuttatililtä?
+                - img [ref=e200]
+            - listitem [ref=e202]:
+              - button "Miten verotus toimii osakesäästötilissä?" [ref=e203] [cursor=pointer]:
+                - generic [ref=e204]: Miten verotus toimii osakesäästötilissä?
+                - img [ref=e205]
+            - listitem [ref=e207]:
+              - button "Voinko saada ulkomaisten osinkojen lähdeveron takaisin?" [ref=e208] [cursor=pointer]:
+                - generic [ref=e209]: Voinko saada ulkomaisten osinkojen lähdeveron takaisin?
+                - img [ref=e210]
+            - listitem [ref=e212]:
+              - button "Voiko hankintameno-olettamaa käyttää osakesäästötilillä?" [ref=e213] [cursor=pointer]:
+                - generic [ref=e214]: Voiko hankintameno-olettamaa käyttää osakesäästötilillä?
+                - img [ref=e215]
+        - group [ref=e221]:
+          - paragraph [ref=e222]: Oliko tästä sisällöstä sinulle hyötyä?
+          - button "Kyllä" [ref=e223] [cursor=pointer]
+          - button "Ei" [ref=e224] [cursor=pointer]
+    - generic [ref=e231]:
+      - heading "Lue myös" [level=2] [ref=e234]
+      - generic [ref=e237]:
+        - link "Arvo-osuustili Lue vastaukset" [ref=e239] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/arvo-osuustili
+          - generic [ref=e241]:
+            - heading "Arvo-osuustili" [level=3] [ref=e242]
+            - generic [ref=e243]:
+              - text: Lue vastaukset
+              - img [ref=e244]
+        - link "ETF -rahastot ja ETF-sijoittaminen Lue vastaukset" [ref=e247] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/etf-rahastot
+          - generic [ref=e249]:
+            - heading "ETF -rahastot ja ETF-sijoittaminen" [level=3] [ref=e250]
+            - generic [ref=e251]:
+              - text: Lue vastaukset
+              - img [ref=e252]
+        - link "Kaupankäynti pörssilistatuilla arvopapereilla Lue vastaukset" [ref=e255] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/kaupankaynti-porssilistatuilla-arvopapereilla
+          - generic [ref=e257]:
+            - heading "Kaupankäynti pörssilistatuilla arvopapereilla" [level=3] [ref=e258]
+            - generic [ref=e259]:
+              - text: Lue vastaukset
+              - img [ref=e260]
+        - link "Kuukausisäästäminen Katso vastaukset" [ref=e263] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/kuukausisaastaminen
+          - generic [ref=e265]:
+            - heading "Kuukausisäästäminen" [level=3] [ref=e266]
+            - generic [ref=e267]:
+              - text: Katso vastaukset
+              - img [ref=e268]
+        - link "Osakkeet ja osakesijoittaminen Lue vastaukset" [ref=e271] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/osakkeet
+          - generic [ref=e273]:
+            - heading "Osakkeet ja osakesijoittaminen" [level=3] [ref=e274]
+            - generic [ref=e275]:
+              - text: Lue vastaukset
+              - img [ref=e276]
+        - link "Rahastot ja rahastosijoittaminen Lue vastaukset" [ref=e279] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/rahastot
+          - generic [ref=e281]:
+            - heading "Rahastot ja rahastosijoittaminen" [level=3] [ref=e282]
+            - generic [ref=e283]:
+              - text: Lue vastaukset
+              - img [ref=e284]
+        - link "Sijoittajan lisäpalvelut Lue vastaukset" [ref=e287] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/sijoittajan-lisapalvelut
+          - generic [ref=e289]:
+            - heading "Sijoittajan lisäpalvelut" [level=3] [ref=e290]
+            - generic [ref=e291]:
+              - text: Lue vastaukset
+              - img [ref=e292]
+        - link "Sijoitusten verotus Lue vastaukset" [ref=e295] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/sijoitusten-verotus
+          - generic [ref=e297]:
+            - heading "Sijoitusten verotus" [level=3] [ref=e298]
+            - generic [ref=e299]:
+              - text: Lue vastaukset
+              - img [ref=e300]
+        - link "Yhteistyökumppaneiden sijoitusedut Lue vastaukset" [ref=e303] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/saastaminen-ja-sijoittaminen/yhteistyokumppaneiden-edut
+          - generic [ref=e305]:
+            - heading "Yhteistyökumppaneiden sijoitusedut" [level=3] [ref=e306]
+            - generic [ref=e307]:
+              - text: Lue vastaukset
+              - img [ref=e308]
+  - contentinfo [ref=e310]:
+    - generic [ref=e312]:
+      - link "Danske Bank" [ref=e314] [cursor=pointer]:
+        - /url: /sinulle
+        - img "Danske Bank" [ref=e315]
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - group:
+            - generic "Työkalut":
+              - paragraph: Työkalut
+            - list [ref=e319]:
+              - listitem [ref=e320]:
+                - link "Lainahakemus" [ref=e321] [cursor=pointer]:
+                  - /url: /sinulle/lainat/hae/lainahakemus
+              - listitem [ref=e322]:
+                - link "Lainalaskuri" [ref=e323] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/lainalaskuri
+              - listitem [ref=e324]:
+                - link "Valuuttalaskuri" [ref=e325] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/valuuttalaskuri
+        - generic [ref=e326]:
+          - group:
+            - generic "Hyödyllistä tietoa":
+              - paragraph: Hyödyllistä tietoa
+            - list [ref=e327]:
+              - listitem [ref=e328]:
+                - link "Kortit" [ref=e329] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/kortit
+              - listitem [ref=e330]:
+                - link "Pankkitunnukset ja kirjautuminen" [ref=e331] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/pankkitunnukset
+              - listitem [ref=e332]:
+                - link "Saavutettavuus" [ref=e333] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/saavutettavuus
+              - listitem [ref=e334]:
+                - link "Artikkelit" [ref=e335] [cursor=pointer]:
+                  - /url: /sinulle/artikkelit/arkisto/artikkelit
+              - listitem [ref=e336]:
+                - link "Talousrikollisuuden torjunta" [ref=e337] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/tarkkana-verkossa/talousrikollisuuden-torjunta
+              - listitem [ref=e338]:
+                - link "Ilmiantosivusto" [ref=e339] [cursor=pointer]:
+                  - /url: /sinulle/links/ilmianto
+        - generic [ref=e340]:
+          - group:
+            - generic "Asiakaspalvelu":
+              - paragraph: Asiakaspalvelu
+            - list [ref=e341]:
+              - listitem [ref=e342]:
+                - link "Yhteystiedot" [ref=e343] [cursor=pointer]:
+                  - /url: /sinulle/links/yhteystiedotpb
+              - listitem [ref=e344]:
+                - link "Tule asiakkaaksi" [ref=e345] [cursor=pointer]:
+                  - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+              - listitem [ref=e346]:
+                - link "Anna palautetta" [ref=e347] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/anna-palautetta
+        - generic [ref=e348]:
+          - group:
+            - generic "Tietoa pankista":
+              - paragraph: Tietoa pankista
+            - list [ref=e349]:
+              - listitem [ref=e350]:
+                - link "Tietoa pankista" [ref=e351] [cursor=pointer]:
+                  - /url: /sinulle/links/tietoa-pankista
+              - listitem [ref=e352]:
+                - link "Sijoittajasuhteet" [ref=e353] [cursor=pointer]:
+                  - /url: /sinulle/links/sijoittajasuhteet
+              - listitem [ref=e354]:
+                - link "Medialle" [ref=e355] [cursor=pointer]:
+                  - /url: /sinulle/links/medialle
+              - listitem [ref=e356]:
+                - link "Ura" [ref=e357] [cursor=pointer]:
+                  - /url: /sinulle/links/ura
+              - listitem [ref=e358]:
+                - link "Vastuullisuus" [ref=e359] [cursor=pointer]:
+                  - /url: /sinulle/links/vastuullisuus
+              - listitem [ref=e360]:
+                - link "Kiinnitysluottopankki" [ref=e361] [cursor=pointer]:
+                  - /url: /sinulle/links/kiinnitysluottopankki
+    - generic [ref=e369]:
+      - generic [ref=e370]:
+        - generic [ref=e371]:
+          - paragraph [ref=e372]: Tämä verkkosivusto ei ole tarkoitettu eikä sitä saa käyttää kukaan Australiassa asuva luonnollinen henkilö tai minkään tyyppinen Australiassa kotipaikkaansa pitävä, rekisteröity tai perustettu yritys.
+          - paragraph [ref=e373]: Danske Bank ei tarjoa sijoitusneuvontapalveluja ("sijoitusneuvontapalvelut") tai osakkeiden tai muiden arvopaperien kaupankäynti-, välitys- ja myyntipalveluja ("välitys- ja myyntipalvelut") yhdysvaltalaisille henkilöille, jotka määritellään jäljempänä, ja tämän verkkosivuston sisältö ei ole tarkoitettu jaeltavaksi tällaisille yhdysvaltalaisille henkilöille tai heidän käytettäväkseen. Mitään tämän verkkosivuston sisällössä ei pidä tulkita sijoitusneuvontapalvelujen tai välitys- ja myyntipalvelujen tarjoamiseksi yhdysvaltalaisille henkilöille.
+          - button "Lue lisää »" [ref=e374] [cursor=pointer]
+        - generic "Lue lisää »":
+          - paragraph [ref=e375]:
+            - text: Sijoitusneuvontapalvelujen osalta yhdysvaltalaiseksi henkilöksi katsotaan Yhdysvalloissa asuva luonnollinen henkilö; tai Yhdysvalloissa rekisteriin merkitty tai perustettu yritys tai yhtiö, pois lukien pätevistä liiketoiminnallisista syistä toimivan, säännellyn yhdysvaltalaisen vakuutusyhtiön tai pankin offshore-sivuliikkeet tai asiamiehet; tai ulkomaisen, Yhdysvalloissa sijaitsevan ulkomaisen tahon sivuliike tai asiamies; tai trusti, jonka edunvalvoja on yhdysvaltalainen henkilö, paitsi jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai kuolinpesä, jonka pesäjakaja tai pesänhoitaja on yhdysvaltalainen henkilö, paitsi jos kuolinpesään sovelletaan ulkomaista lainsäädäntöä ja jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai ei-harkinnanvarainen, yhdysvaltalaisen henkilön hyväksi hallinnoitu tili; tai yhdysvaltalaisen välittäjän tai uskotun miehen hallinnoima harkinnanvarainen tili, paitsi jos sitä hallinnoidaan ei-yhdysvaltalaisen henkilön hyväksi; tai mikä tahansa Yhdysvaltain arvopaperilainsäädännön kiertämistarkoituksessa perustettu tai toimiva taho. Termi ”yhdysvaltalainen henkilö” ei tarkoita ketään henkilöä, joka ei ollut Yhdysvalloissa tullessaan Danske Bankin sijoitusneuvonnan asiakkaaksi.
+            - text: Välitys- ja myyntipalvelujen osalta yhdysvaltalainen henkilö on kuka tahansa Yhdysvalloissa sijaitseva asiakas, pois lukien asiakkaat, jotka asuivat Yhdysvaltojen ulkopuolella silloin, kun asiakassuhde Danske Bankiin syntyi ja jotka – Yhdysvalloissa ollessaan – eivät ole (i) Yhdysvaltain kansalaisia (mukaan lukien Yhdysvaltojen ja toisen maan kaksoiskansalaisuus), (ii) laillisia, pysyviä Yhdysvaltain asukkaita (eli green cardin haltija) eivätkä (iii) oleskele Yhdysvalloissa muuten kuin väliaikaisesti.
+      - text: "Danske Bank A/S, Suomen sivuliike, Televisiokatu 1, Helsinki, PL 1243, 00075 DANSKE BANK, BIC: DABAFIHH"
+      - link "Yhteystiedot" [ref=e376] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Yleiset ehdot" [ref=e377] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Tietosuoja" [ref=e378] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/tietosuoja/tietosuojatiedote
+      - text: "|"
+      - link "Evästekäytäntö" [ref=e379] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/evasteet
+      - text: "|"
+      - link "Saavutettavuus" [ref=e380] [cursor=pointer]:
+        - /url: /saavutettavuus
+      - text: "|"
+      - link "Ilmiantosivusto" [ref=e381] [cursor=pointer]:
+        - /url: https://danskebank.whistleblowernetwork.net
+      - text: Puhelut voidaan nauhoittaa turvallisuussyistä sekä dokumentointia varten
+  - generic:
+    - generic [ref=e382]: Näytä
+    - generic [ref=e383]: Sulje
+    - generic [ref=e384]: "Show more rows: All table rows are already visible for screen readers."
+    - generic [ref=e385]: "Show less rows: All table rows are already visible for screen readers."
+  - status [ref=e386]
+  - status [ref=e387]

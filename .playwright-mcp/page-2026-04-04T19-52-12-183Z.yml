@@ -1,0 +1,535 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-FI
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0QpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: best index funds ETFs 2026 long term investing middle income Vanguard Fidelity best index funds ETFs 2026 long term investing middle income Vanguard Fidelity
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2Bindex%2Bfunds%2BETFs%2B2026%2Blong%2Bterm%2Binvesting%2Bmiddle%2Bincome%2BVanguard%2BFidelity%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEo6JRKWttvGV-M4KbrPwF3zYmzv8kLTcIQsbkCIiFAmdL64flrnCiK8g7l-_8fHIqZLZOoVGDeoXgEiEx7XEtwxrxdX3lwvzxyktE55IUNBBXw5zY&aep=1&ntc=1&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q2J8OegQIERAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "News" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEo6JRKWttvGV-M4KbrPwF3zYmzv8kLTcIQsbkCIiFAmdL64flrnCiK8g7l-_8fHIqZLZOoVGDeoXgEiEx7XEtwxrxdX3lwvzxyktE55IUNBBXw5zY&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q0pQJegQIFxAB
+              - generic [ref=e86]: News
+          - listitem [ref=e87]:
+            - link "Short videos" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEo6JRKWttvGV-M4KbrPwF3zYmzv8kLTcIQsbkCIiFAmdL64flrnCiK8g7l-_8fHIqZLZOoVGDeoXgEiEx7XEtwxrxdX3lwvzxyktE55IUNBBXw5zY&q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Qs6gLegQIFRAB
+              - generic [ref=e90]: Short videos
+          - listitem [ref=e91]:
+            - link "Forums" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEo6JRKWttvGV-M4KbrPwF3zYmzv8kLTcIQsbkCIiFAmdL64flrnCiK8g7l-_8fHIqZLZOoVGDeoXgEiEx7XEtwxrxdX3lwvzxyktE55IUNBBXw5zY&q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Qs6gLegQIFBAB
+              - generic [ref=e94]: Forums
+          - listitem [ref=e95]:
+            - link "Images" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEo6JRKWttvGV-M4KbrPwF3zYmzv8kLTcIQsbkCIiFAmdL64flrnCiK8g7l-_8fHIqZLZOoVGDeoXgEiEx7XEtwxrxdX3lwvzxyktE55IUNBBXw5zY&q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0QtKgLegQIFhAB
+              - generic [ref=e98]: Images
+          - listitem [ref=e99]:
+            - link "Videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpfml-924-fU71zBBqkF67cJhTzUzoM6AQTcskj5BuNvXYz-ZaZVIHQWppy4t9FLmEo6JRKWttvGV-M4KbrPwF3zYmzv8kLTcIQsbkCIiFAmdL64flrnCiK8g7l-_8fHIqZLZOoVGDeoXgEiEx7XEtwxrxdX3lwvzxyktE55IUNBBXw5zY&q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0QtKgLegQIExAB
+              - generic [ref=e102]: Videos
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - generic [ref=e124]:
+      - generic [ref=e143]:
+        - generic [ref=e148]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - img [ref=e152]
+              - heading "AI Overview" [level=2] [ref=e154]
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - img [ref=e158]
+                - generic [ref=e160]:
+                  - heading "Learn more, including details about data and privacy" [level=3] [ref=e161]
+                  - button "Close" [ref=e162] [cursor=pointer]:
+                    - img [ref=e164]
+              - button "About this result" [ref=e169]:
+                - img [ref=e171]
+          - generic [ref=e192]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]: For long-term, middle-income investing in 2026, the best index funds/ETFs are low-cost, diversified options from Vanguard and Fidelity, such as the Vanguard S&P 500 ETF (VOO), Fidelity 500 Index Fund (FXAIX), and Vanguard Total Stock Market ETF (VTI)
+                - text: . These funds offer expense ratios as low as 0.015%–0.03%, allowing investors to maximize returns while maintaining exposure to top U.S. companies.
+                - button "Bankrate (+2) – View related links" [disabled] [ref=e200]:
+                  - generic [ref=e201]:
+                    - img "Bankrate" [ref=e202]
+                    - generic [ref=e203]:
+                      - generic [ref=e204]: Bankrate
+                      - generic [ref=e205]: "+2"
+              - strong [ref=e207]: Top Vanguard & Fidelity Index Funds/ETFs for 2026
+              - list [ref=e208]:
+                - listitem [ref=e209]:
+                  - strong [ref=e211]:
+                    - generic [ref=e212]:
+                      - link:
+                        - /url: https://www.bankrate.com/investing/best-index-funds/
+                      - text: Vanguard S&P 500 ETF (VOO)
+                  - strong [ref=e213]: ":"
+                  - text: A primary choice for tracking the S&P 500, offering 0.03% expense ratio and high liquidity, suitable for core portfolio holdings.
+                - listitem [ref=e214]:
+                  - generic [ref=e215]:
+                    - strong [ref=e216]:
+                      - link "Fidelity 500 Index Fund (FXAIX)" [ref=e219] [cursor=pointer]:
+                        - /url: https://www.google.com/search?q=Fidelity+500+Index+Fund+%28FXAIX%29&hl=en&ved=2ahUKEwjC7fOm_NSTAxXNJBAIHS1CDF0QgK4QegQIAxAE
+                      - text: ":"
+                    - text: A direct competitor to VOO, often offering even lower fees (around 0.015%) and no minimum investment.
+                - listitem [ref=e220]:
+                  - strong [ref=e222]:
+                    - generic [ref=e223]:
+                      - link:
+                        - /url: https://www.morningstar.com/funds/how-largest-stock-funds-did-q1-2026
+                      - text: Vanguard Total Stock Market ETF (VTI)
+                  - strong [ref=e224]: ":"
+                  - text: Provides exposure to the entire U.S. stock market, including small- and mid-cap companies, suitable for broad diversification.
+                - listitem [ref=e225]:
+                  - generic [ref=e226]:
+                    - strong [ref=e227]:
+                      - link "Vanguard Total World Stock Index Fund ETF (VT)" [ref=e230] [cursor=pointer]:
+                        - /url: https://www.google.com/search?q=Vanguard+Total+World+Stock+Index+Fund+ETF+%28VT%29&hl=en&ved=2ahUKEwjC7fOm_NSTAxXNJBAIHS1CDF0QgK4QegQIAxAJ
+                      - text: ":"
+                    - text: Ideal for investors wanting international exposure alongside U.S. stocks, covering over 9,000 global companies.
+                - listitem [ref=e231]:
+                  - generic [ref=e232]:
+                    - strong [ref=e233]:
+                      - link "Vanguard Growth ETF (VUG)" [ref=e236] [cursor=pointer]:
+                        - /url: https://www.google.com/search?q=Vanguard+Growth+ETF+%28VUG%29&hl=en&ved=2ahUKEwjC7fOm_NSTAxXNJBAIHS1CDF0QgK4QegQIAxAL
+                      - text: ":"
+                    - text: Focuses on high-growth companies, making it a good choice for longer-term investors (10+ years) looking for higher capital appreciation.
+                  - button "Bankrate (+5) – View related links" [disabled] [ref=e239]:
+                    - generic [ref=e240]:
+                      - img "Bankrate" [ref=e241]
+                      - generic [ref=e242]:
+                        - generic [ref=e243]: Bankrate
+                        - generic [ref=e244]: "+5"
+              - strong [ref=e246]: Key Considerations for 2026
+              - list [ref=e247]:
+                - listitem [ref=e248]:
+                  - generic [ref=e249]:
+                    - strong [ref=e250]: "Low Costs:"
+                    - text: Both Vanguard and Fidelity offer low expense ratios, which is crucial for long-term compounding.
+                - listitem [ref=e251]:
+                  - generic [ref=e252]:
+                    - strong [ref=e253]: "Diversification:"
+                    - text: As U.S. valuations remain high, combining U.S. equity funds (like VOO/FXAIX) with global funds (like VT) can reduce portfolio risk.
+                - listitem [ref=e254]:
+                  - generic [ref=e255]:
+                    - strong [ref=e256]: "Alternatives:"
+                    - text: For tax-advantaged income, look at Vanguard Real Estate ETF (VNQ) or muni bond funds.
+                  - button "The Motley Fool (+3) - View related links" [disabled] [ref=e259]:
+                    - generic [ref=e260]:
+                      - img "The Motley Fool" [ref=e261]
+                      - generic [ref=e262]:
+                        - generic [ref=e263]: The Motley Fool
+                        - generic [ref=e264]: "+3"
+              - generic [ref=e265]:
+                - emphasis [ref=e266]: "Disclaimer: Performance data is based on Q1 2026 reports. The information provided here is for educational purposes only and does not constitute financial advice."
+                - button "Morningstar - View related links" [disabled] [ref=e269]:
+                  - generic [ref=e270]:
+                    - img "Morningstar" [ref=e271]
+                    - generic [ref=e273]: Morningstar
+            - list [ref=e282]:
+              - listitem [ref=e283]:
+                - generic [ref=e284]:
+                  - link "How the Largest Stock Funds Did in Q1 2026 | Morningstar. Opens in new tab." [ref=e285] [cursor=pointer]:
+                    - /url: https://www.morningstar.com/funds/how-largest-stock-funds-did-q1-2026#:~:text=For%20longer%2Dterm%20returns%2C%20if%20a%20share%20class%20was%20launched%20more&text=Vanguard%20Mid%20Cap%20Index%20Fund%2C%20VMCPX%2C%20210.3%2C%20%E2%88%920.6%2C%2071%2C%2012.8%2C%2067.
+                  - generic [ref=e287]:
+                    - generic [ref=e288]: How the Largest Stock Funds Did in Q1 2026 | Morningstar
+                    - generic [ref=e289]: 2 Apr 2026 — For longer-term returns, if a share class was launched more ... Vanguard Mid Cap Index Fund, VMCPX, 210.3, −0.6, 71, 12.8, 67. Van...
+                    - generic [ref=e290]:
+                      - generic [ref=e295]: Morningstar
+                      - button "About this result" [ref=e297] [cursor=pointer]:
+                        - img [ref=e298]
+              - listitem [ref=e302]:
+                - generic [ref=e303]:
+                  - link "Best Index Funds In 2026 | Bankrate. Opens in new tab." [ref=e304] [cursor=pointer]:
+                    - /url: https://www.bankrate.com/investing/best-index-funds/#:~:text=Overview:%20As%20its%20name%20suggests,core%20holding%20in%20their%20portfolio.
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: Best Index Funds In 2026 | Bankrate
+                    - generic [ref=e308]: "Overview: As its name suggests, the Vanguard S&P 500 tracks the S&P 500 index, and it's one of the largest funds on the market wit..."
+                    - generic [ref=e309]:
+                      - generic [ref=e314]: Bankrate
+                      - button "About this result" [ref=e316] [cursor=pointer]:
+                        - img [ref=e317]
+              - listitem [ref=e321]:
+                - generic [ref=e322]:
+                  - link "6 Best Mutual Funds and ETFs to Buy for 2026. Opens in new tab." [ref=e323] [cursor=pointer]:
+                    - /url: https://www.webull.com.my/news-detail/14138414444528640#:~:text=And%20so%20we%20look%20at,Minimum%20initial%20investment:%20None
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: 6 Best Mutual Funds and ETFs to Buy for 2026
+                    - generic [ref=e327]: 2 Jan 2026 — And so we look at them like tools in a toolbox. "If you need to do this, this fund is an appropriate tool to use." With that in mi...
+                    - generic [ref=e328]:
+                      - generic [ref=e333]: Webull Malaysia
+                      - button "About this result" [ref=e335] [cursor=pointer]:
+                        - img [ref=e336]
+        - button "Show more AI Overview" [ref=e342]:
+          - generic [ref=e344] [cursor=pointer]:
+            - generic [ref=e345]: Show more
+            - img [ref=e347]
+      - main [ref=e350]:
+        - generic [ref=e354]:
+          - generic [ref=e357]:
+            - heading "Web results" [level=2] [ref=e358]
+            - generic [ref=e359]:
+              - generic [ref=e362]:
+                - link "Best Index Funds In 2026 | Bankrate Bankrate https://www.bankrate.com › investing › best-index-funds" [ref=e364] [cursor=pointer]:
+                  - /url: https://www.bankrate.com/investing/best-index-funds/
+                  - heading "Best Index Funds In 2026 | Bankrate" [level=3] [ref=e365]
+                  - generic [ref=e370]:
+                    - generic [ref=e372]: Bankrate
+                    - generic [ref=e374]: https://www.bankrate.com › investing › best-index-funds
+                - button "About this result" [ref=e375] [cursor=pointer]:
+                  - img [ref=e378]
+              - generic [ref=e381]:
+                - generic [ref=e382]:
+                  - emphasis [ref=e383]: Fidelity ZERO Large Cap Index
+                  - text: ; Vanguard S&P 500 ETF; SPDR S&P 500 ETF Trust; iShares Core S&P 500 ETF; Schwab S&P 500 Index Fund; Shelton NASDAQ-100 Index ...
+                - link "Read more" [ref=e384] [cursor=pointer]:
+                  - /url: https://www.bankrate.com/investing/best-index-funds/#:~:text=Fidelity%20ZERO%20Large%20Cap%20Index,Shelton%20NASDAQ%2D100%20Index%20Direct
+          - generic [ref=e388]:
+            - generic [ref=e389]:
+              - heading "People also ask" [level=2] [ref=e390]
+              - button "About this result" [ref=e391] [cursor=pointer]:
+                - img [ref=e394]
+            - generic [ref=e396]:
+              - button "Which Vanguard ETF to buy in 2026?" [ref=e402] [cursor=pointer]:
+                - generic [ref=e404]: Which Vanguard ETF to buy in 2026?
+                - img [ref=e407]
+              - button "What are the best index funds to invest in in 2026?" [ref=e416] [cursor=pointer]:
+                - generic [ref=e418]: What are the best index funds to invest in in 2026?
+                - img [ref=e421]
+              - button "What are the five most recommended ETFs for 2026?" [ref=e430] [cursor=pointer]:
+                - generic [ref=e432]: What are the five most recommended ETFs for 2026?
+                - img [ref=e435]
+              - button "What are the best Vanguard funds to invest in for long-term growth?" [ref=e444] [cursor=pointer]:
+                - generic [ref=e446]: What are the best Vanguard funds to invest in for long-term growth?
+                - img [ref=e449]
+          - generic [ref=e454]:
+            - heading "Web results" [level=2] [ref=e455]
+            - generic [ref=e456]:
+              - generic [ref=e459]:
+                - link "Top 10 best-selling ETFs of 2026 Fidelity https://www.fidelity.co.uk › exchange-traded-funds › to..." [ref=e461] [cursor=pointer]:
+                  - /url: https://www.fidelity.co.uk/markets-insights/investing-ideas/exchange-traded-funds/top-10-best-selling-etfs-of-the-year/
+                  - heading "Top 10 best-selling ETFs of 2026" [level=3] [ref=e462]
+                  - generic [ref=e467]:
+                    - generic [ref=e469]: Fidelity
+                    - generic [ref=e471]: https://www.fidelity.co.uk › exchange-traded-funds › to...
+                - button "About this result" [ref=e472] [cursor=pointer]:
+                  - img [ref=e475]
+              - generic [ref=e478]:
+                - generic [ref=e479]: 4 days ago —
+                - generic [ref=e480]:
+                  - text: Whatever the reasons, the
+                  - emphasis [ref=e481]: Vanguard FTSE All-World
+                  - text: was the best-selling ETF over the first three months of the year. The Invesco FTSE All-World ...
+                - link "Read more" [ref=e482] [cursor=pointer]:
+                  - /url: https://www.fidelity.co.uk/markets-insights/investing-ideas/exchange-traded-funds/top-10-best-selling-etfs-of-the-year/#:~:text=Whatever%20the%20reasons%2C%20the%20Vanguard,year.%20The%20Invesco%20FTSE%20All%2DWorld
+              - generic [ref=e484]:
+                - text: "Missing: middle ‎| Show results with:"
+                - link "middle" [ref=e485] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=best+index+funds+ETFs+2026+long+term+investing+%22middle%22+income+Vanguard+Fidelity&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q5t4CegQIQxAB
+          - generic [ref=e489]:
+            - generic [ref=e492]:
+              - link "How the Largest Stock Funds Did in Q1 2026 Morningstar https://www.morningstar.com › funds › how-largest-sto..." [ref=e494] [cursor=pointer]:
+                - /url: https://www.morningstar.com/funds/how-largest-stock-funds-did-q1-2026
+                - heading "How the Largest Stock Funds Did in Q1 2026" [level=3] [ref=e495]
+                - generic [ref=e500]:
+                  - generic [ref=e502]: Morningstar
+                  - generic [ref=e504]: https://www.morningstar.com › funds › how-largest-sto...
+              - button "About this result" [ref=e505] [cursor=pointer]:
+                - img [ref=e508]
+            - generic [ref=e511]:
+              - generic [ref=e512]: 2 days ago —
+              - generic [ref=e513]:
+                - text: That includes the $1.5 trillion
+                - emphasis [ref=e514]: Vanguard 500 Index Fund VFFSX
+                - text: ", the $721 billion Fidelity 500 Index Fund FXAIX, the $715 billion iShares Core ..."
+              - link "Read more" [ref=e515] [cursor=pointer]:
+                - /url: https://www.morningstar.com/funds/how-largest-stock-funds-did-q1-2026#:~:text=S%26P%20500%20funds%20(all%20of,the%20%24715%20billion%20iShares%20Core
+          - generic [ref=e519]:
+            - generic [ref=e522]:
+              - link "8 Best Index Funds To Buy and Invest In For 2026 Forbes https://www.forbes.com › Money" [ref=e524] [cursor=pointer]:
+                - /url: https://www.forbes.com/sites/investor-hub/article/8-index-funds-to-consider-for-2026/
+                - heading "8 Best Index Funds To Buy and Invest In For 2026" [level=3] [ref=e525]
+                - generic [ref=e530]:
+                  - generic [ref=e532]: Forbes
+                  - generic [ref=e534]: https://www.forbes.com › Money
+              - button "About this result" [ref=e535] [cursor=pointer]:
+                - img [ref=e538]
+            - generic [ref=e541]:
+              - generic [ref=e542]: 24 Dec 2025 —
+              - generic [ref=e543]:
+                - text: The
+                - emphasis [ref=e544]: Vanguard FTSE Developed Markets ETF (VEA
+                - text: ) is a passively managed fund that provides exposure to developed markets outside of the U.S. with ...
+              - link "Read more" [ref=e545] [cursor=pointer]:
+                - /url: https://www.forbes.com/sites/investor-hub/article/8-index-funds-to-consider-for-2026/#:~:text=The%20Vanguard%20FTSE%20Developed%20Markets,favorable%20monetary%20and%20fiscal%20policies.
+          - generic [ref=e549]:
+            - generic [ref=e552]:
+              - link "10 Best-Performing Vanguard ETFs for April 2026 NerdWallet https://www.nerdwallet.com › investing › learn › vangu..." [ref=e554] [cursor=pointer]:
+                - /url: https://www.nerdwallet.com/investing/learn/vanguard-etfs
+                - heading "10 Best-Performing Vanguard ETFs for April 2026" [level=3] [ref=e555]
+                - generic [ref=e560]:
+                  - generic [ref=e562]: NerdWallet
+                  - generic [ref=e564]: https://www.nerdwallet.com › investing › learn › vangu...
+              - button "About this result" [ref=e565] [cursor=pointer]:
+                - img [ref=e568]
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - text: ETFs often have relatively low expense ratios and offer instant diversification. Some of the best-performing Vanguard ETFs this month include
+                - emphasis [ref=e573]: VPL and VDE
+                - text: .
+              - link "Read more" [ref=e574] [cursor=pointer]:
+                - /url: https://www.nerdwallet.com/investing/learn/vanguard-etfs#:~:text=ETFs%20often%20have%20relatively%20low,month%20include%20VPL%20and%20VDE.
+          - generic [ref=e578]:
+            - generic [ref=e581]:
+              - link "8 Best Index Funds to Buy in April 2026 The Motley Fool https://www.fool.com › investing › how-to-invest › best..." [ref=e583] [cursor=pointer]:
+                - /url: https://www.fool.com/investing/how-to-invest/index-funds/best-index-funds/
+                - heading "8 Best Index Funds to Buy in April 2026" [level=3] [ref=e584]
+                - generic [ref=e589]:
+                  - generic [ref=e591]: The Motley Fool
+                  - generic [ref=e593]: https://www.fool.com › investing › how-to-invest › best...
+              - button "About this result" [ref=e594] [cursor=pointer]:
+                - img [ref=e597]
+            - generic [ref=e600]:
+              - generic [ref=e601]: 4 Mar 2026 —
+              - generic [ref=e602]:
+                - text: The Motley Fool has positions in and recommends Chevron, Realty
+                - emphasis [ref=e603]: Income
+                - text: ", S&P Global, Target,"
+                - emphasis [ref=e604]: Vanguard
+                - text: Growth
+                - emphasis [ref=e605]: ETF
+                - text: ", and"
+                - emphasis [ref=e606]: Vanguard
+                - text: Real Estate
+                - emphasis [ref=e607]: ETF
+                - text: .
+              - link "Read more" [ref=e608] [cursor=pointer]:
+                - /url: https://www.fool.com/investing/how-to-invest/index-funds/best-index-funds/#:~:text=The%20Motley%20Fool%20has%20positions,and%20Vanguard%20Real%20Estate%20ETF.
+          - generic [ref=e612]:
+            - generic [ref=e615]:
+              - link "6 Best Mutual Funds and ETFs to Buy for 2026 Webull Malaysia https://www.webull.com.my › news-detail" [ref=e617] [cursor=pointer]:
+                - /url: https://www.webull.com.my/news-detail/14138414444528640
+                - heading "6 Best Mutual Funds and ETFs to Buy for 2026" [level=3] [ref=e618]
+                - generic [ref=e623]:
+                  - generic [ref=e625]: Webull Malaysia
+                  - generic [ref=e627]: https://www.webull.com.my › news-detail
+              - button "About this result" [ref=e628] [cursor=pointer]:
+                - img [ref=e631]
+            - generic [ref=e634]:
+              - generic [ref=e635]: 2 Jan 2026 —
+              - generic [ref=e636]:
+                - text: The
+                - emphasis [ref=e637]: Vanguard Russell 2000 ETF (VTWO
+                - text: ") is an index fund that tracks the best-known small-cap index: the Russell 2000, which includes 2,000 of the ..."
+              - link "Read more" [ref=e638] [cursor=pointer]:
+                - /url: https://www.webull.com.my/news-detail/14138414444528640#:~:text=The%20Vanguard%20Russell%202000%20ETF,(price%20multiplied%20by%20outstanding%20shares).
+          - generic [ref=e642]:
+            - generic [ref=e645]:
+              - 'link "13 High Dividend ETFs for 2026: Top Passive Income Gotrade https://www.heygotrade.com › News" [ref=e647] [cursor=pointer]':
+                - /url: https://www.heygotrade.com/en/news/13-high-dividend-etfs-for-2026-top-passive-income
+                - 'heading "13 High Dividend ETFs for 2026: Top Passive Income" [level=3] [ref=e648]'
+                - generic [ref=e653]:
+                  - generic [ref=e655]: Gotrade
+                  - generic [ref=e657]: https://www.heygotrade.com › News
+              - button "About this result" [ref=e658] [cursor=pointer]:
+                - img [ref=e661]
+            - generic [ref=e664]:
+              - generic [ref=e665]: 5 Feb 2026 —
+              - generic [ref=e666]:
+                - emphasis [ref=e667]: Vanguard Dividend Appreciation Index Fund, VIG, Large Blend, 1.59
+                - text: ; Vanguard High Dividend Yield Index Fund, VYM, Large Value, 2.33.
+              - link "Read more" [ref=e668] [cursor=pointer]:
+                - /url: https://www.heygotrade.com/en/news/13-high-dividend-etfs-for-2026-top-passive-income#:~:text=Vanguard%20Dividend%20Appreciation%20Index%20Fund,1.59&text=Vanguard%20High%20Dividend%20Yield%20Index,2.33
+            - generic [ref=e671]:
+              - generic [ref=e672]:
+                - img "Rated 4,8 out of 5, (14 700) user reviews" [ref=e673]:
+                  - text: 4,8
+                  - img [ref=e674]
+                  - text: (14 700)
+                - text: ·
+              - text: Free · ‎Android · ‎Finance
+              - button [ref=e679]:
+                - img [ref=e681]
+          - generic [ref=e686]:
+            - generic [ref=e689]:
+              - link "The Best ETFs to Buy for 2026 and Beyond Kiplinger https://www.kiplinger.com › Investing › ETFs" [ref=e691] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/investing/etfs/best-etfs-to-buy
+                - heading "The Best ETFs to Buy for 2026 and Beyond" [level=3] [ref=e692]
+                - generic [ref=e697]:
+                  - generic [ref=e699]: Kiplinger
+                  - generic [ref=e701]: https://www.kiplinger.com › Investing › ETFs
+              - button "About this result" [ref=e702] [cursor=pointer]:
+                - img [ref=e705]
+            - generic [ref=e708]:
+              - generic [ref=e709]: 2 Mar 2026 —
+              - generic [ref=e710]:
+                - text: The
+                - emphasis [ref=e711]: Vanguard Total World Stock Index Fund ETF (VT
+                - text: ) offers one of the strongest value propositions in the equity ETF space. For $6 per $10,000 ...
+              - link "Read more" [ref=e712] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/investing/etfs/best-etfs-to-buy#:~:text=The%20Vanguard%20Total%20World%20Stock,represent%20the%20global%20stock%20market.
+          - generic [ref=e716]:
+            - generic [ref=e719]:
+              - link "Best Growth ETFs to Watch in 2026 Investing.com https://www.investing.com › Academy Center › ETFs" [ref=e721] [cursor=pointer]:
+                - /url: https://www.investing.com/academy/etfs/best-growth-etfs-to-watch/
+                - heading "Best Growth ETFs to Watch in 2026" [level=3] [ref=e722]
+                - generic [ref=e727]:
+                  - generic [ref=e729]: Investing.com
+                  - generic [ref=e731]: https://www.investing.com › Academy Center › ETFs
+              - button "About this result" [ref=e732] [cursor=pointer]:
+                - img [ref=e735]
+            - generic [ref=e738]:
+              - generic [ref=e739]:
+                - text: "1."
+                - emphasis [ref=e740]: Vanguard Growth ETF (VUG
+                - text: ) 2. iShares Russell 1000 Growth ETF (IWF) 3. SPDR S&P 500 Growth ETF (SPYG) 4. Fidelity All-in-One Growth ETF (FGRO)
+              - link "Read more" [ref=e741] [cursor=pointer]:
+                - /url: https://www.investing.com/academy/etfs/best-growth-etfs-to-watch/#:~:text=1.%20Vanguard%20Growth%20ETF%20(VUG)&text=2.%20iShares%20Russell%201000%20Growth,ETF%20(IWF)&text=3.%20SPDR%20S%26P%20500%20Growth,ETF%20(SPYG)&text=4.%20Fidelity%20All%2Din%2DOne%20Growth%20ETF,(FGRO)
+        - generic [ref=e743]:
+          - generic [ref=e748]:
+            - heading "People also search for" [level=2] [ref=e750]
+            - generic [ref=e752]:
+              - generic [ref=e753]:
+                - link "Best index funds to invest in 2026" [ref=e757] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+index+funds+to+invest+in+2026&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhSEAE
+                  - generic [ref=e758]:
+                    - generic [ref=e763]: Best index funds to invest in 2026
+                    - img [ref=e767]
+                - link "Best performing index funds last 10 years" [ref=e772] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+performing+index+funds+last+10+years&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhYEAE
+                  - generic [ref=e773]:
+                    - generic [ref=e778]: Best performing index funds last 10 years
+                    - img [ref=e782]
+                - link "Best performing ETFs last 10 years" [ref=e787] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+performing+ETFs+last+10+years&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhXEAE
+                  - generic [ref=e788]:
+                    - generic [ref=e793]: Best performing ETFs last 10 years
+                    - img [ref=e797]
+                - link "Morningstar best index funds" [ref=e802] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Morningstar+best+index+funds&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhWEAE
+                  - generic [ref=e803]:
+                    - generic [ref=e808]: Morningstar best index funds
+                    - img [ref=e812]
+              - generic [ref=e814]:
+                - link "Best funds to invest in 2026" [ref=e818] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+funds+to+invest+in+2026&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhVEAE
+                  - generic [ref=e819]:
+                    - generic [ref=e824]: Best funds to invest in 2026
+                    - img [ref=e828]
+                - link "Best-performing ETFs 2026" [ref=e833] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best-performing+ETFs+2026&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhTEAE
+                  - generic [ref=e834]:
+                    - generic [ref=e839]: Best-performing ETFs 2026
+                    - img [ref=e843]
+                - link "Vanguard S&P 500 Index fund" [ref=e848] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Vanguard+S%26P+500+Index+fund&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhUEAE
+                  - generic [ref=e849]:
+                    - generic [ref=e854]: Vanguard S&P 500 Index fund
+                    - img [ref=e858]
+                - link "Best ETFs to buy and hold" [ref=e863] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&hl=en&q=Best+ETFs+to+buy+and+hold&sa=X&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q1QJ6BAhREAE
+                  - generic [ref=e864]:
+                    - generic [ref=e869]: Best ETFs to buy and hold
+                    - img [ref=e873]
+          - navigation [ref=e875]:
+            - heading "Page navigation" [level=1] [ref=e876]
+            - text: "1"
+            - link "Page 2" [ref=e879] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=10&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAE
+              - text: "2"
+            - link "Page 3" [ref=e881] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=20&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAG
+              - text: "3"
+            - link "Page 4" [ref=e883] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=30&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAI
+              - text: "4"
+            - link "Page 5" [ref=e885] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=40&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAK
+              - text: "5"
+            - link "Page 6" [ref=e887] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=50&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAM
+              - text: "6"
+            - link "Page 7" [ref=e889] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=60&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAO
+              - text: "7"
+            - link "Page 8" [ref=e891] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=70&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAQ
+              - text: "8"
+            - link "Page 9" [ref=e893] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=80&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAS
+              - text: "9"
+            - link "Page 10" [ref=e895] [cursor=pointer]:
+              - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=90&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8tMDegQIRRAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e897]:
+              - link "Next" [ref=e898] [cursor=pointer]:
+                - /url: /search?q=best+index+funds+ETFs+2026+long+term+investing+middle+income+Vanguard+Fidelity&sca_esv=f72dd7b5cfdb5d01&hl=en&ei=6WvRaYmtCveQwPAPnKb16AM&start=10&sa=N&sstk=Af77f_cQwbLyjVsXjTYRm9sq9vXkn7InlGzWfjPckJ5jMZV4vDAuWQ7QUT7WPe2JTP1AfXE6xQqODkXcub6wYK0Bburo-0KayDuC8A&ved=2ahUKEwjJxdqm_NSTAxV3CBAIHRxTHT0Q8NMDegQIRRAW
+                - generic [ref=e900]: Next
+        - navigation
+    - contentinfo [ref=e901]:
+      - heading "Footer links" [level=1] [ref=e902]
+      - generic [ref=e906]:
+        - generic [ref=e908]:
+          - text: Finland
+          - generic [ref=e910]:
+            - button "Helsinki - From your IP address" [ref=e912] [cursor=pointer]:
+              - generic [ref=e913]: Helsinki
+              - generic [ref=e915]:
+                - text: "-"
+                - generic [ref=e916]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e918] [cursor=pointer]: Update location
+        - generic [ref=e921]:
+          - link "Help" [ref=e922] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-FI&fg=1
+          - link "Send feedback" [ref=e923] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e924] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-FI&fg=1
+          - link "Terms" [ref=e925] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-FI&fg=1

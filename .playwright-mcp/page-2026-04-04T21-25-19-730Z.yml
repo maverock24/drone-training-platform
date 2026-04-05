@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Vähennykset" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/
+            - listitem [ref=e61]:
+              - link "Mitä vähennyksiä voi saada verotuksessa?" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+            - listitem [ref=e63]: Vähennykset pääomatuloista
+        - article [ref=e66]:
+          - heading "Pääomatuloista tehtävät vähennykset" [level=1] [ref=e67]
+          - generic [ref=e69]:
+            - paragraph [ref=e71]: Tällä sivulla
+            - list [ref=e72]:
+              - listitem [ref=e73] [cursor=pointer]:
+                - link "Kulut, korot ja lainat" [ref=e74]:
+                  - /url: "#Kulut,-korot-ja-lainat"
+                  - generic [ref=e75]: Kulut, korot ja lainat
+              - listitem [ref=e76] [cursor=pointer]:
+                - link "Tappiot" [ref=e77]:
+                  - /url: "#Tappiot"
+                  - generic [ref=e78]: Tappiot
+          - generic [ref=e79]:
+            - paragraph [ref=e80]: Pääomatuloista voi vähentää kulut, jotka ovat syntyneet pääomatulojen hankkimisesta tai säilyttämisestä.
+            - heading "Kulut, korot ja lainat" [level=2] [ref=e81]
+          - generic [ref=e83]:
+            - generic [ref=e85]:
+              - heading "Arvopapereiden hoito- ja säilyttämismenot" [level=3] [ref=e86] [cursor=pointer]:
+                - button "Arvopapereiden hoito- ja säilyttämismenot" [ref=e87]:
+                  - text: Arvopapereiden hoito- ja säilyttämismenot
+                  - img
+              - region "Arvopapereiden hoito- ja säilyttämismenot":
+                - generic:
+                  - paragraph [ref=e88]: Voit vähentää pääomatuloista arvopapereiden ja sijoitusrahasto-osuuksien hoito- ja säilytysmenot. Saamme yleensä tiedot hoitomenoista pankeilta, muilta arvopaperien säilyttäjiltä ja rahastoyhtiöiltä sekä Suomesta että ulkomailta.
+                  - paragraph [ref=e89]: Arvopaperien hoito- ja säilytysmenoissa on 50 euron omavastuu. Ilmoita menot vähentämättä omavastuuta.
+            - generic [ref=e91]:
+              - heading "Muut tulonhankkimismenot ja työhuonevähennys" [level=3] [ref=e92] [cursor=pointer]:
+                - button "Muut tulonhankkimismenot ja työhuonevähennys" [ref=e93]:
+                  - text: Muut tulonhankkimismenot ja työhuonevähennys
+                  - img
+              - region "Muut tulonhankkimismenot ja työhuonevähennys":
+                - generic:
+                  - paragraph [ref=e94]: Pääomatuloista vähennettäviä tulonhankkimismenoja voivat olla esimerkiksi
+                  - list [ref=e95]:
+                    - listitem [ref=e96]: puhelinkulut
+                    - listitem [ref=e97]: tietokoneen ja tietoliikenneyhteyden (esim. laajakaistan) kulut
+                    - listitem [ref=e98]: ammattikirjallisuuden hankkimisesta syntyneet kulut.
+                  - paragraph [ref=e99]: Kulujen täytyy liittyä tulojen hankkimiseen, esimerkiksi sijoitustoimintaan.
+                  - heading "Milloin pääomatuloista voi tehdä työhuonevähennyksen?" [level=4] [ref=e100]:
+                    - strong [ref=e101]: Milloin pääomatuloista voi tehdä työhuonevähennyksen?
+                  - paragraph [ref=e102]: Jos työskentelet kotona pääomatulojen hankkimiseksi, voi vaatia myös työhuonevähennystä pääomatuloista.
+                  - list [ref=e103]:
+                    - listitem [ref=e104]: Jos työskentelet kotona jatkuvasti ja kokopäiväisesti pääomatulojen hankkimiseksi, voit vaatia 980 euron suuruista kaavamaista työhuonevähennystä.
+                    - listitem [ref=e105]: Jos työskentelet kotona satunnaisesti pääomatulojen hankkimiseksi, voit vaatia 245 euron suuruista kaavamaista työhuonevähennystä. Esimerkiksi pelkkä passiivinen osakeomistus ei kuitenkaan ole sellaista työskentelyä kotona, jonka perusteella olisi oikeus työhuonevähennykseen.
+                  - paragraph [ref=e106]:
+                    - strong [ref=e107]: "Huomaa:"
+                    - text: eri tuloista tehtävien kaavamaisten työhuonevähennysten yhteismäärä kalenterivuodessa voi olla enintään 980 euroa (vuonna 2025).
+                  - paragraph [ref=e108]:
+                    - strong [ref=e109]: Esimerkki 1.
+                    - text: Ossi on palkansaaja ja hän käy päätoimisesti ansiotyössä. Ossi seuraa aktiivisesti talouselämää ja pörssikurssien kehitystä. Hänellä on kuukausittain vain muutama osakkeiden osto- tai myyntitapahtuma. Tämän lisäksi Ossilla on joitakin pitkään omistettuja osakkeita, joista hän saa vuosittain osinkotuloja.
+                    - text: Ossin sijoitustoiminta on luonteeltaan pitkäaikaista ja passiivista osakeomistusta. Ossin vuosittain käymä arvopaperikauppa on sivutoimista ja vähäistä. Ossin työskentely kotona pääomatulojen hankkimiseksi on niin vähäistä, että hän ei voi vaatia pääomatuloistaan vähennettäväksi kaavamaista työhuonevähennystä.
+                  - paragraph [ref=e110]:
+                    - strong [ref=e111]: Esimerkki 2.
+                    - text: Sirje omistaa kaksi asuinhuoneistoa. Sirje asuu itse toisessa asunnossa ja vuokraa toista asuntoa internetalustan kautta matkailijoiden lyhytaikaiseen käyttöön. Vuokralaiset vaihtuvat useita kertoja kuukaudessa.
+                    - text: Sirje tekee kotonaan asunnon vuokraamiseen liittyviä töitä useita kertoja viikossa. Sirje voi vaatia pääomatuloista vähennettäväksi 245 euron suuruisen kaavamaisen työhuonevähennyksen, koska hän työskentelee kotonaan jatkuvasti, mutta ei kuitenkaan kokopäiväisesti eikä osapäiväisesti.
+                  - paragraph [ref=e112]:
+                    - strong [ref=e113]: Esimerkki 3.
+                    - text: Sami on palkkatöissä ja työskentelee yli 50 % työajastaan kotona etätyössä. Hän saa
+                    - strong [ref=e114]: vuonna 2025
+                    - text: palkkatulosta 980 euron työhuonevähennyksen. Tämän lisäksi Sami ei voi enää tehdä työhuonevähennystä pääomatuloista.
+                    - strong [ref=e115]: Vuonna 2026
+                    - text: palkkatuloista ei voi enää tehdä työhuonevähennystä, jos työskentelee kotona tai vapaa-ajan asunnossa. Pääomatuloista voi tehdä kaavamaisen työhuonevähennyksen, jos vähennyksen edellytykset täyttyvät.
+                    - link "Lue lisää työhuonevähennyksestä." [ref=e116] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/vahennykset/tulonhankkimismenot/tyohuonevahennys/
+            - generic [ref=e118]:
+              - heading "Vapaaehtoisen eläkevakuutuksen ja PS-sopimuksen maksut" [level=3] [ref=e119] [cursor=pointer]:
+                - button "Vapaaehtoisen eläkevakuutuksen ja PS-sopimuksen maksut" [ref=e120]:
+                  - text: Vapaaehtoisen eläkevakuutuksen ja PS-sopimuksen maksut
+                  - img
+              - region "Vapaaehtoisen eläkevakuutuksen ja PS-sopimuksen maksut":
+                - generic:
+                  - heading "Kuinka paljon voi vähentää?" [level=4] [ref=e121]
+                  - paragraph [ref=e122]: Vapaaehtoisen eläkevakuutuksen ja pitkäaikaisen säästämisen eli PS-sopimuksen maksuja voi vähentää enintään 5 000 euroa vuodessa.
+                  - heading "Mistä vähennys tehdään?" [level=4] [ref=e123]
+                  - paragraph [ref=e124]: Maksut vähennetään pääomatuloista maksuvuonna.
+                  - paragraph [ref=e125]: Jos pääomatuloja ei ole tai niitä ei ole riittävästi, vähennys tehdään ansiotulojen verosta niin sanottuna erityisenä alijäämähyvityksenä. Erityinen alijäämähyvitys on 30 %.
+                  - paragraph [ref=e126]: Jos ansiotulojen veroja ei ole riittävästi, Verohallinto tekee vähennyksen automaattisesti puolison verotuksessa. Jos puolisonkaan verot eivät riitä, maksu jää tältä osin lopullisesti vähentämättä.
+                  - paragraph [ref=e127]: Eläkevakuutuksen ja PS-sopimuksen maksujen perusteella ei vahvisteta tappiota.
+                  - heading "Kuka voi tehdä vähennyksen?" [level=4] [ref=e128]
+                  - paragraph [ref=e129]: Maksut voi vähentää vain vakuutetun omassa verotuksessa. Vaikka puoliso olisi maksanut vakuutusmaksusi, hän ei voi vähentää niitä omassa verotuksessaan.
+                  - heading "Lisätietoa" [level=4] [ref=e130]
+                  - paragraph [ref=e131]:
+                    - link "Syventävää tietoa vapaaehtoisten eläkevakuutusmaksujen ja PS-sopimusmaksujen verotuksesta" [ref=e132] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48212/
+            - generic [ref=e134]:
+              - heading "Lainan korot" [level=3] [ref=e135] [cursor=pointer]:
+                - button "Lainan korot" [ref=e136]:
+                  - text: Lainan korot
+                  - img
+              - region "Lainan korot":
+                - generic:
+                  - heading "Kuinka paljon voi vähentää?" [level=4] [ref=e137]
+                  - paragraph [ref=e138]: Et voi enää vähentää asuntolainan korkoja verotuksessa. Myöskään opintolainan korkoja ei voi vähentää.
+                  - paragraph [ref=e139]: Tulonhankkimisvelan korot voi vähentää kokonaan. Tulonhankkimisvelka tarkoittaa sitä, että velka on otettu veronalaisen tulon hankintaa varten – esimerkiksi olet ostanut lainalla sijoitusasunnon, josta saat vuokratuloa, tai osakkeita, joista saat osinkotuloa.
+                  - heading "Milloin voi vähentää?" [level=4] [ref=e140]
+                  - paragraph [ref=e141]: Lainan korot voi vähentää verotuksessa vain silloin, jos kyseessä on tulonhankkimisvelka. Tarkista veroilmoituksesta ja verokortin tiedoista, että lainan käyttötarkoitus on merkitty oikein ja korjaa tietoa tarvittaessa.
+                  - heading "Mistä vähennys tehdään?" [level=4] [ref=e142]
+                  - paragraph [ref=e143]: Tulonhankkimisvelan korot vähennetään ensisijaisesti pääomatuloista, esimerkiksi vuokratuloista tai luovutusvoitosta. Velkapääoman lyhennyksiä ei voi vähentää verotuksessa.
+                  - paragraph [ref=e144]: Jos pääomatuloja ei ole tai niitä ei ole tarpeeksi vähennyksen tekemiseen, vähennys tehdään niin sanottuna alijäämähyvityksenä ansiotulojen veroista. Alijäämähyvitys on 30 % koron määrästä. Alijäämähyvitys on enintään 1 400 euroa. Siihen voidaan kuitenkin lisätä mahdollinen lapsikorotus, joka on 400 euroa yhdestä alaikäisestä lapsesta ja 800 euroa kahdesta tai useammasta lapsesta.
+                  - heading "Lisätietoa" [level=4] [ref=e145]
+                  - paragraph [ref=e146]:
+                    - link "Lue lisää alijäämähyvityksestä" [ref=e147] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/alijaamahyvitys/
+                  - paragraph [ref=e148]:
+                    - link "Tarkempaa tietoa korkojen vähentämisestä verotuksessa" [ref=e149] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/korko-tuloverotuksessa/
+            - generic [ref=e151]:
+              - heading "Takaisin maksetut osakaslainat" [level=3] [ref=e152] [cursor=pointer]:
+                - button "Takaisin maksetut osakaslainat" [ref=e153]:
+                  - text: Takaisin maksetut osakaslainat
+                  - img
+              - region "Takaisin maksetut osakaslainat":
+                - generic:
+                  - paragraph [ref=e154]: Pääomatulona verotetun osakaslainan lyhennyserät saa vähentää pääomatuloista.
+                  - paragraph [ref=e155]: Vähennykset pitää tehdä 5 vuoden kuluessa siitä vuodesta, jolloin laina on nostettu. Jos verotettavia pääomatuloja ei ole tarpeeksi, vähennys tehdään niin sanottuna alijäämähyvityksenä ansiotulojen veroista.
+                  - paragraph [ref=e156]:
+                    - link "Lue lisää pääomatuloksi luettavasta osakaslainasta" [ref=e157] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48739/
+            - generic [ref=e159]:
+              - heading "Jälkimarkkinahyvitys" [level=3] [ref=e160] [cursor=pointer]:
+                - button "Jälkimarkkinahyvitys" [ref=e161]:
+                  - text: Jälkimarkkinahyvitys
+                  - img
+              - region "Jälkimarkkinahyvitys":
+                - generic:
+                  - paragraph [ref=e162]: Jälkimarkkinahyvitys on korkoa vastaava hyvitys, joka on kertynyt joukkovelkakirjalainoista. Jälkimarkkinahyvitystä kertyy joukkovelkakirjan luovutusta edeltäneen koronmaksupäivän ja luovutuspäivän väliseltä ajalta. Hyvitys saadaan tai maksetaan joukkovelkakirjan luovutuksen yhteydessä.
+                  - paragraph [ref=e163]: Joukkovelkakirjalainan oston yhteydessä ostaja voi maksaa jälkimarkkinahyvitystä myyjälle. Jälkimarkkinahyvitys on silloin ostajalle tulonhankkimismenoa, ja hän voi vähentää sen omassa verotuksessaan.
+          - generic [ref=e164]:
+            - heading "Tappiot" [level=2] [ref=e165]
+            - paragraph [ref=e166]: Verotuksessa vahvistettu tappio vähennetään aina saman tulolajin tulosta. Ansiotuloihin liittyvää tappiota ei siis voi vähentää pääomatuloista eikä pääomatulojen tappiota ansiotuloista.
+            - paragraph [ref=e167]: Lisäksi tappiot pitää aina vähentää sen tulolähteen tuloksesta, jossa ne ovat syntyneet. Tämä tarkoittaa sitä, että esimerkiksi elinkeinotoiminnasta syntynyttä tappiota ei voi vähentää maatalouden tulosta eikä maatalouden tappiota elinkeinotoiminnan tulosta.
+          - generic [ref=e169]:
+            - generic [ref=e171]:
+              - heading "Myyntitappio" [level=3] [ref=e172] [cursor=pointer]:
+                - button "Myyntitappio" [ref=e173]:
+                  - text: Myyntitappio
+                  - img
+              - region "Myyntitappio":
+                - generic:
+                  - paragraph [ref=e174]: Omaisuuden myynnistä tai muusta luovutuksesta syntyneet tappiot vähennetään kaikista pääomatuloista.
+                  - paragraph [ref=e175]: Jos sinulla ei ole lainkaan pääomatuloja tai pääomatuloja on vähemmän kuin vähennettäviä myyntitappioita, vähennys siirtyy seuraaville viidelle vuodelle. Myyntitappion perusteella et voi saada alijäämähyvitystä ansiotulojen verotuksessa.
+                  - paragraph [ref=e176]: Pieniä myyntitappioita ei voi vähentää. Vähennystä ei saa, jos verovuonna luovutetun omaisuuden yhteenlasketut hankintamenot ovat enintään 1 000 euroa.
+                  - paragraph [ref=e177]:
+                    - link "Ilmoita myyntitappio OmaVerossa tai lomakkeella 9 (Luovutusvoitto tai -tappio)" [ref=e178] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/9_luovutusvoitto_tai_tappio__laskelma_3/
+                  - paragraph [ref=e179]:
+                    - link "Lue tarkemmin luovutustappion vähentämisestä" [ref=e180] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48935/
+            - generic [ref=e182]:
+              - heading "Tulolähteen tappio" [level=3] [ref=e183] [cursor=pointer]:
+                - button "Tulolähteen tappio" [ref=e184]:
+                  - text: Tulolähteen tappio
+                  - img
+              - region "Tulolähteen tappio":
+                - generic:
+                  - paragraph [ref=e185]: Voit vaatia, että elinkeinotoiminnan ja maatalouden tappio vähennetään kokonaan tai osittain pääomatuloista, jotka olet saanut samana vuonna. Vähentämistä pitää vaatia, ennen kuin kyseisen verovuoden verotus päättyy.
+                  - paragraph [ref=e186]: Jos olet esimerkiksi maatalousyhtymän osakas ja haluat vähentää yhtymälle syntynyttä maatalouden tappiota tai yhtymän maatalouden lopetustappiota omista pääomatuloistasi, merkitse vähennettävän tappion määrä henkilökohtaiseen veroilmoitukseesi.
+            - generic [ref=e188]:
+              - heading "Pääomatulolajin tappio" [level=3] [ref=e189] [cursor=pointer]:
+                - button "Pääomatulolajin tappio" [ref=e190]:
+                  - text: Pääomatulolajin tappio
+                  - img
+              - region "Pääomatulolajin tappio":
+                - generic:
+                  - paragraph [ref=e191]: Jos pääomatuloista tehtäviä vähennyksiä on enemmän kuin pääomatuloja, syntyy alijäämä.
+                  - paragraph [ref=e192]: Jos ansiotulojen verot eivät riitä tämän alijäämän vähentämiseen eli alijäämähyvityksen tekemiseen, verotuksessa vahvistetaan pääomatulolajin tappio. Tappio vähennetään seuraavien 10 verovuoden aikana pääomatulosta sitä mukaa kuin pääomatuloa syntyy.
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - img
+              - generic [ref=e196]:
+                - heading "Asioi verkossa" [level=2] [ref=e197]
+                - list [ref=e198]:
+                  - listitem [ref=e199]:
+                    - link "OmaVero" [ref=e201] [cursor=pointer]:
+                      - /url: /sahkoiset-asiointipalvelut/omavero/
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - img
+              - generic [ref=e204]:
+                - heading "Lomakkeet" [level=2] [ref=e205]
+                - list [ref=e206]:
+                  - listitem [ref=e207]:
+                    - link "50B Pääomatulot ja niistä tehtävät vähennykset" [ref=e209] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/50b-p%C3%A4%C3%A4omatulot-ja-niist%C3%A4-teht%C3%A4v%C3%A4t-v%C3%A4hennykset/
+        - navigation "Osion alasivut" [ref=e210]:
+          - heading "Mitä vähennyksiä voi saada verotuksessa?" [level=3] [ref=e211]:
+            - link "Mitä vähennyksiä voi saada verotuksessa?" [ref=e212] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Näin ilmoitat vähennyksiä OmaVerossa" [ref=e218] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/nain-ilmoitat-vahennyksia-omaverossa/
+            - listitem [ref=e219]:
+              - link "Verohallinto laskee nämä vähennykset automaattisesti" [ref=e221] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/verohallinto-laskee-nama-vahennykset-automaattisesti/
+            - listitem [ref=e222]:
+              - link "Alijäämähyvitys" [ref=e224] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/alijaamahyvitys/
+            - listitem [ref=e225]:
+              - link "Elatusvelvollisuusvähennys" [ref=e227] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/elatusvelvollisuusvahennys/
+            - listitem [ref=e228]:
+              - link "Tulontasaus" [ref=e230] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/tulontasaus/
+            - listitem [ref=e231]:
+              - link "Lahjoitusvähennys" [ref=e233] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/lahjoitusvahennys/
+            - listitem [ref=e234]:
+              - link "Veronmaksukyvyn alentumisvähennys" [ref=e236] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/veronmaksukyvyn-alentumisvahennys/
+            - listitem [ref=e237]:
+              - link "Asuntolainan korkovähennys" [ref=e239] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/asuntolainan-korkovahennys/
+            - listitem [ref=e240]:
+              - link "Vähennykset pääomatuloista" [ref=e242] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-paaomatuloista/
+            - listitem [ref=e243]:
+              - link "Velat ja korot" [ref=e245] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/
+            - listitem [ref=e246]:
+              - link "Vähennykset Ahvenanmaalla asuville" [ref=e248] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-ahvenanmaalla-asuville/
+        - separator [ref=e249]
+        - generic [ref=e250]: Sivu on viimeksi päivitetty 1.1.2026
+      - generic [ref=e255]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e256]
+        - paragraph [ref=e258]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e259] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e260]:
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - heading "Asioi verkossa" [level=2] [ref=e265]
+            - list [ref=e267]:
+              - listitem [ref=e268]:
+                - link "OmaVero" [ref=e270] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e271]:
+                - link "Laskurit" [ref=e273] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e274]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e276] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e277]:
+                - link "Positiivinen luottotietorekisteri" [ref=e279] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e280]:
+                - link "Tulorekisteri" [ref=e282] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e283]:
+            - heading "Yhteystiedot" [level=2] [ref=e284]
+            - list [ref=e286]:
+              - listitem [ref=e287]:
+                - link "Chat" [ref=e289] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e290]:
+                - link "Yhteystiedot ja asiointi" [ref=e292] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e293]:
+                - link "Sosiaalinen media" [ref=e295] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e296]:
+                - link "Paperilomakkeet" [ref=e298] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e299]:
+                - link "Käsittelyajat" [ref=e301] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e302]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e303]
+            - generic [ref=e307]:
+              - paragraph [ref=e308]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e309]:
+                - listitem [ref=e310]:
+                  - link "Syventävät vero-ohjeet" [ref=e312] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e313]:
+            - heading "Verohallinto" [level=2] [ref=e314]
+            - generic [ref=e318]:
+              - paragraph [ref=e319]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e320]:
+                - listitem [ref=e321]:
+                  - link "Tietoa Verohallinnosta" [ref=e323] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e326]:
+          - listitem [ref=e327]: © Verohallinto
+          - listitem [ref=e328]:
+            - link "Tietosuoja" [ref=e330] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e331]:
+            - link "Palaute" [ref=e333] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e334]:
+            - link "Saavutettavuusseloste" [ref=e336] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e337]:
+            - link "Tulosta" [ref=e339] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e341] [cursor=pointer]:
+    - img [ref=e342]
+    - paragraph [ref=e344]: Chatbot

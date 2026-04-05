@@ -1,0 +1,433 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: best REITs fractional real estate 2026 Fundrise Arrived Homes returns performance comparison best REITs fractional real estate 2026 Fundrise Arrived Homes returns performance comparison
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2BREITs%2Bfractional%2Breal%2Bestate%2B2026%2BFundrise%2BArrived%2BHomes%2Breturns%2Bperformance%2Bcomparison&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&aep=1&ntc=1&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQs6gLegQIFhAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQtKgLegQIFBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQtKgLegQIExAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQs6gLegQIFRAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dbest%2BREITs%2Bfractional%2Breal%2Bestate%2B2026%2BFundrise%2BArrived%2BHomes%2Breturns%2Bperformance%2Bcomparison&hl=en&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQiIQCKAN6BAgNEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "Top Income Property Investing Platforms of 2026 IRA Financial https://www.irafinancial.com › blog" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.irafinancial.com/blog/top-income-property-investing-platforms/
+                  - heading "Top Income Property Investing Platforms of 2026" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: IRA Financial
+                    - generic [ref=e190]: https://www.irafinancial.com › blog
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.irafinancial.com/blog/top-income-property-investing-platforms/
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e200]:
+                - generic [ref=e201]: 12.2.2026 —
+                - generic [ref=e202]:
+                  - emphasis [ref=e203]: Fundrise is an excellent choice for new investors
+                  - text: who want exposure to income property without needing to manage physical property. 2. Arrived ...
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e209]
+              - button "Tietoja tästä tuloksesta" [ref=e210] [cursor=pointer]:
+                - img [ref=e213]
+            - generic [ref=e215]:
+              - button "Which REIT has the best returns?" [ref=e221] [cursor=pointer]:
+                - generic [ref=e223]: Which REIT has the best returns?
+                - img [ref=e226]
+              - button "Will REITs outperform in 2026?" [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: Will REITs outperform in 2026?
+                - img [ref=e240]
+              - button "What REIT does Warren Buffett buy?" [ref=e249] [cursor=pointer]:
+                - generic [ref=e251]: What REIT does Warren Buffett buy?
+                - img [ref=e254]
+              - button "Where can I get 20% return on investment?" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: Where can I get 20% return on investment?
+                - img [ref=e268]
+          - generic [ref=e273]:
+            - heading "Web results" [level=2] [ref=e274]
+            - generic [ref=e275]:
+              - generic [ref=e278]:
+                - 'link "Best REIT Investment Platforms 2026: How to Invest in REITs Real Estate Investment Trust in Bangladesh https://www.reitbd.com › investment" [ref=e280] [cursor=pointer]':
+                  - /url: https://www.reitbd.com/blog/investment/reit-investment-platform-and-investor-relations
+                  - 'heading "Best REIT Investment Platforms 2026: How to Invest in REITs" [level=3] [ref=e281]'
+                  - generic [ref=e286]:
+                    - generic [ref=e288]: Real Estate Investment Trust in Bangladesh
+                    - generic [ref=e290]: https://www.reitbd.com › investment
+                - generic [ref=e291]:
+                  - generic [ref=e292]: ·
+                  - link "Käännä tämä sivu" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.reitbd.com/blog/investment/reit-investment-platform-and-investor-relations
+                - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+                  - img [ref=e297]
+              - generic [ref=e300]:
+                - generic [ref=e301]: 28.12.2025 —
+                - generic [ref=e302]:
+                  - text: Discover the top-rated
+                  - emphasis [ref=e303]: REIT
+                  - text: investment platforms for
+                  - emphasis [ref=e304]: "2026"
+                  - text: . Learn how to invest in
+                  - emphasis [ref=e305]: real estate
+                  - text: for passive income from
+                  - emphasis [ref=e306]: Fundrise
+                  - text: to Fidelity.
+          - generic [ref=e310]:
+            - generic [ref=e313]:
+              - 'link "Fundrise vs Arrived 2026: $10 vs $100 — Which Platform Wins? fractionalpropertyhub.com https://www.fractionalpropertyhub.com › ..." [ref=e315] [cursor=pointer]':
+                - /url: https://www.fractionalpropertyhub.com/blog/fundrise-vs-arrived-homes
+                - 'heading "Fundrise vs Arrived 2026: $10 vs $100 — Which Platform Wins?" [level=3] [ref=e316]'
+                - generic [ref=e321]:
+                  - generic [ref=e323]: fractionalpropertyhub.com
+                  - generic [ref=e325]: https://www.fractionalpropertyhub.com › ...
+              - generic [ref=e326]:
+                - generic [ref=e327]: ·
+                - link "Käännä tämä sivu" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.fractionalpropertyhub.com/blog/fundrise-vs-arrived-homes
+              - button "Tietoja tästä tuloksesta" [ref=e329] [cursor=pointer]:
+                - img [ref=e332]
+            - generic [ref=e335]:
+              - generic [ref=e336]: 22.1.2025 —
+              - generic [ref=e337]:
+                - text: "Arrived Homes: $100 Per Property ... Verdict:"
+                - emphasis [ref=e338]: Fundrise wins on absolute accessibility
+                - text: ($10 vs $100), but both are remarkably low compared to ...
+          - generic [ref=e342]:
+            - generic [ref=e345]:
+              - link "Compare 3 of 2026's Notable Real Estate Investment ... Roots Real Estate Investment Community https://www.investwithroots.com › c..." [ref=e347] [cursor=pointer]:
+                - /url: https://www.investwithroots.com/learn/compare-3-notable-real-estate-investment-platforms-roots-arrived-and-groundfloor
+                - heading "Compare 3 of 2026's Notable Real Estate Investment ..." [level=3] [ref=e348]
+                - generic [ref=e353]:
+                  - generic [ref=e355]: Roots Real Estate Investment Community
+                  - generic [ref=e357]: https://www.investwithroots.com › c...
+              - generic [ref=e358]:
+                - generic [ref=e359]: ·
+                - link "Käännä tämä sivu" [ref=e360] [cursor=pointer]:
+                  - /url: https://www.investwithroots.com/learn/compare-3-notable-real-estate-investment-platforms-roots-arrived-and-groundfloor
+              - button "Tietoja tästä tuloksesta" [ref=e361] [cursor=pointer]:
+                - img [ref=e364]
+            - generic [ref=e367]:
+              - generic [ref=e368]: 10.1.2026 —
+              - generic [ref=e369]:
+                - emphasis [ref=e370]: Compare
+                - text: 3 of
+                - emphasis [ref=e371]: 2026's
+                - text: Notable
+                - emphasis [ref=e372]: Real Estate
+                - text: "Investment Platforms: Roots,"
+                - emphasis [ref=e373]: Arrived
+                - text: ", and Groundfloor."
+          - generic [ref=e377]:
+            - generic [ref=e380]:
+              - link "Best Real Estate Crowdfunding Sites for April 2026 Investopedia https://www.investopedia.com › the..." [ref=e382] [cursor=pointer]:
+                - /url: https://www.investopedia.com/the-best-real-estate-crowdfunding-sites-8761523
+                - heading "Best Real Estate Crowdfunding Sites for April 2026" [level=3] [ref=e383]
+                - generic [ref=e388]:
+                  - generic [ref=e390]: Investopedia
+                  - generic [ref=e392]: https://www.investopedia.com › the...
+              - generic [ref=e393]:
+                - generic [ref=e394]: ·
+                - link "Käännä tämä sivu" [ref=e395] [cursor=pointer]:
+                  - /url: https://www.investopedia.com/the-best-real-estate-crowdfunding-sites-8761523
+              - button "Tietoja tästä tuloksesta" [ref=e396] [cursor=pointer]:
+                - img [ref=e399]
+            - generic [ref=e403]:
+              - text: Investopedia evaluated leading real estate crowdfunding platforms and found that
+              - emphasis [ref=e404]: Fundrise is the best overall platform
+              - text: for both accredited and non-accredited ...
+          - generic [ref=e408]:
+            - generic [ref=e411]:
+              - link "7 Best Investment Platforms for Fractional Real Estate Constitution Lending https://www.constlending.com › blog" [ref=e413] [cursor=pointer]:
+                - /url: https://www.constlending.com/blog/best-investment-platforms-for-fractional-real-estate
+                - heading "7 Best Investment Platforms for Fractional Real Estate" [level=3] [ref=e414]
+                - generic [ref=e419]:
+                  - generic [ref=e421]: Constitution Lending
+                  - generic [ref=e423]: https://www.constlending.com › blog
+              - generic [ref=e424]:
+                - generic [ref=e425]: ·
+                - link "Käännä tämä sivu" [ref=e426] [cursor=pointer]:
+                  - /url: https://www.constlending.com/blog/best-investment-platforms-for-fractional-real-estate
+              - button "Tietoja tästä tuloksesta" [ref=e427] [cursor=pointer]:
+                - img [ref=e430]
+            - generic [ref=e433]:
+              - generic [ref=e434]: 31.12.2025 —
+              - generic [ref=e435]:
+                - text: Our guide reviews the 7
+                - emphasis [ref=e436]: best fractional real estate
+                - text: investment platforms, focusing on investment quality, annual
+                - emphasis [ref=e437]: returns
+                - text: ", payment guarantees ..."
+          - generic [ref=e441]:
+            - generic [ref=e444]:
+              - 'link "Best Fractional Ownership Companies: 2026 Comparison ... CoHere Homes https://coherehomes.com › Blog" [ref=e446] [cursor=pointer]':
+                - /url: https://coherehomes.com/blog/best-fractional-ownership-companies-2026-comparison-reviews
+                - 'heading "Best Fractional Ownership Companies: 2026 Comparison ..." [level=3] [ref=e447]'
+                - generic [ref=e452]:
+                  - generic [ref=e454]: CoHere Homes
+                  - generic [ref=e456]: https://coherehomes.com › Blog
+              - generic [ref=e457]:
+                - generic [ref=e458]: ·
+                - link "Käännä tämä sivu" [ref=e459] [cursor=pointer]:
+                  - /url: https://coherehomes.com/blog/best-fractional-ownership-companies-2026-comparison-reviews
+              - button "Tietoja tästä tuloksesta" [ref=e460] [cursor=pointer]:
+                - img [ref=e463]
+            - generic [ref=e467]:
+              - text: Leading platforms report average annual returns between 10-18.6%, with
+              - emphasis [ref=e468]: Arrived Homes demonstrating particularly strong performance at 18.6
+              - text: "% through their rental ..."
+          - generic [ref=e472]:
+            - generic [ref=e475]:
+              - link "Top Crowdfunding Platforms for Passive Income Lofty https://www.lofty.ai › learn › top-c..." [ref=e477] [cursor=pointer]:
+                - /url: https://www.lofty.ai/learn/top-crowdfunding-platforms-passive-income
+                - heading "Top Crowdfunding Platforms for Passive Income" [level=3] [ref=e478]
+                - generic [ref=e483]:
+                  - generic [ref=e485]: Lofty
+                  - generic [ref=e487]: https://www.lofty.ai › learn › top-c...
+              - generic [ref=e488]:
+                - generic [ref=e489]: ·
+                - link "Käännä tämä sivu" [ref=e490] [cursor=pointer]:
+                  - /url: https://www.lofty.ai/learn/top-crowdfunding-platforms-passive-income
+              - button "Tietoja tästä tuloksesta" [ref=e491] [cursor=pointer]:
+                - img [ref=e494]
+            - generic [ref=e498]:
+              - emphasis [ref=e499]: Compare
+              - text: six
+              - emphasis [ref=e500]: real estate
+              - text: "crowdfunding platforms: minimums, fees, target"
+              - emphasis [ref=e501]: returns
+              - text: ", payout schedules, and accreditation to find the"
+              - emphasis [ref=e502]: best
+              - text: passive income fit.
+          - generic [ref=e506]:
+            - generic [ref=e509]:
+              - link "6 Best Real Estate Crowdfunding Platforms in April 2026 Benzinga https://www.benzinga.com › money" [ref=e511] [cursor=pointer]:
+                - /url: https://www.benzinga.com/money/best-real-estate-crowdfunding-platforms
+                - heading "6 Best Real Estate Crowdfunding Platforms in April 2026" [level=3] [ref=e512]
+                - generic [ref=e517]:
+                  - generic [ref=e519]: Benzinga
+                  - generic [ref=e521]: https://www.benzinga.com › money
+              - generic [ref=e522]:
+                - generic [ref=e523]: ·
+                - link "Käännä tämä sivu" [ref=e524] [cursor=pointer]:
+                  - /url: https://www.benzinga.com/money/best-real-estate-crowdfunding-platforms
+              - button "Tietoja tästä tuloksesta" [ref=e525] [cursor=pointer]:
+                - img [ref=e528]
+            - generic [ref=e531]:
+              - generic [ref=e532]: 29.1.2026 —
+              - generic [ref=e533]:
+                - emphasis [ref=e534]: Arrived is our top pick for fractional real estate investing
+                - text: . You invest in pre-vetted single-family rental and vacation properties with a ...
+          - generic [ref=e538]:
+            - generic [ref=e541]:
+              - link "Best Real Estate Investing Apps of 2026 Dean Tellone Charitable Fund https://deantellone.net › best-real-est..." [ref=e543] [cursor=pointer]:
+                - /url: https://deantellone.net/best-real-estate-investing-apps-of-2026/
+                - heading "Best Real Estate Investing Apps of 2026" [level=3] [ref=e544]
+                - generic [ref=e549]:
+                  - generic [ref=e551]: Dean Tellone Charitable Fund
+                  - generic [ref=e553]: https://deantellone.net › best-real-est...
+              - generic [ref=e554]:
+                - generic [ref=e555]: ·
+                - link "Käännä tämä sivu" [ref=e556] [cursor=pointer]:
+                  - /url: https://deantellone.net/best-real-estate-investing-apps-of-2026/
+              - button "Tietoja tästä tuloksesta" [ref=e557] [cursor=pointer]:
+                - img [ref=e560]
+            - generic [ref=e563]:
+              - generic [ref=e564]: 29.1.2026 —
+              - generic [ref=e565]:
+                - emphasis [ref=e566]: Compare
+                - text: the
+                - emphasis [ref=e567]: best real estate
+                - text: apps of
+                - emphasis [ref=e568]: "2026"
+                - text: by minimums, fees, income potential, and liquidity to pick the right platform fast.
+        - generic [ref=e570]:
+          - generic [ref=e575]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e577]
+            - generic [ref=e579]:
+              - generic [ref=e580]:
+                - link "Best real estate crowdfunding platform" [ref=e584] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+real+estate+crowdfunding+platform&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhZEAE
+                  - generic [ref=e585]:
+                    - generic [ref=e590]: Best real estate crowdfunding platform
+                    - img [ref=e594]
+                - link "Is real estate crowdfunding a good investment" [ref=e599] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Is+real+estate+crowdfunding+a+good+investment&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhdEAE
+                  - generic [ref=e600]:
+                    - generic [ref=e605]: Is real estate crowdfunding a good investment
+                    - img [ref=e609]
+                - link "Real estate crowdfunding for Beginners" [ref=e614] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Real+estate+crowdfunding+for+Beginners&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAheEAE
+                  - generic [ref=e615]:
+                    - generic [ref=e620]: Real estate crowdfunding for Beginners
+                    - img [ref=e624]
+                - link "Real estate crowdfunding vs REIT" [ref=e629] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Real+estate+crowdfunding+vs+REIT&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhcEAE
+                  - generic [ref=e630]:
+                    - generic [ref=e635]: Real estate crowdfunding vs REIT
+                    - img [ref=e639]
+              - generic [ref=e641]:
+                - link "Real estate crowdfunding pros and cons" [ref=e645] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Real+estate+crowdfunding+pros+and+cons&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhXEAE
+                  - generic [ref=e646]:
+                    - generic [ref=e651]: Real estate crowdfunding pros and cons
+                    - img [ref=e655]
+                - link "Real estate crowdfunding reddit" [ref=e660] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Real+estate+crowdfunding+reddit&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhbEAE
+                  - generic [ref=e661]:
+                    - generic [ref=e666]: Real estate crowdfunding reddit
+                    - img [ref=e670]
+                - link "Best real estate crowdfunding for accredited investors" [ref=e675] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Best+real+estate+crowdfunding+for+accredited+investors&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhYEAE
+                  - generic [ref=e676]:
+                    - generic [ref=e681]: Best real estate crowdfunding for accredited investors
+                    - img [ref=e685]
+                - link "Commercial real estate crowdfunding" [ref=e690] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Commercial+real+estate+crowdfunding&sa=X&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ1QJ6BAhaEAE
+                  - generic [ref=e691]:
+                    - generic [ref=e696]: Commercial real estate crowdfunding
+                    - img [ref=e700]
+          - navigation [ref=e702]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e703]
+            - text: "1"
+            - link "Page 2" [ref=e706] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=10&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAE
+              - text: "2"
+            - link "Page 3" [ref=e708] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=20&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAG
+              - text: "3"
+            - link "Page 4" [ref=e710] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=30&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAI
+              - text: "4"
+            - link "Page 5" [ref=e712] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=40&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAK
+              - text: "5"
+            - link "Page 6" [ref=e714] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=50&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAM
+              - text: "6"
+            - link "Page 7" [ref=e716] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=60&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAO
+              - text: "7"
+            - link "Page 8" [ref=e718] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=70&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAQ
+              - text: "8"
+            - link "Page 9" [ref=e720] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=80&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAS
+              - text: "9"
+            - link "Page 10" [ref=e722] [cursor=pointer]:
+              - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=90&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8tMDegQIVRAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e724]:
+              - link "Seuraava" [ref=e725] [cursor=pointer]:
+                - /url: /search?q=best+REITs+fractional+real+estate+2026+Fundrise+Arrived+Homes+returns+performance+comparison&sca_esv=f72dd7b5cfdb5d01&ei=_G3RacStGvGMwPAPy8bguAs&start=10&sa=N&sstk=Af77f_dOHP53yngDjZyZnZmYsxooSMFsJKJ9UdzcTgHgc3GMIYGlNsTMirUYDa4_neymqRm113fPChbmbzV8gf7E5NHWpk72GcAPqw&ved=2ahUKEwjEm4Sk_tSTAxVxBhAIHUsjGLcQ8NMDegQIVRAW
+                - generic [ref=e727]: Seuraava
+        - navigation
+    - contentinfo [ref=e728]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e729]
+      - generic [ref=e733]:
+        - generic [ref=e735]:
+          - text: Suomi
+          - generic [ref=e737]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e739] [cursor=pointer]:
+              - generic [ref=e740]: Helsinki
+              - generic [ref=e742]:
+                - text: "-"
+                - generic [ref=e743]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e745] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e748]:
+          - link "Ohje" [ref=e749] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e750] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e751] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e752] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

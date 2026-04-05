@@ -1,0 +1,318 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: "\"danskebank.fi\" osakekauppa välityspalkkio \"0,08\" \"0,15\" \"0,20\" hinnasto \"danskebank.fi\" osakekauppa välityspalkkio \"0,08\" \"0,15\" \"0,20\" hinnasto"
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3D%2522danskebank.fi%2522%2Bosakekauppa%2Bv%25C3%25A4lityspalkkio%2B%25220,08%2522%2B%25220,15%2522%2B%25220,20%2522%2Bhinnasto&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4Q2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4QtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4QtKgLegQIFRAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4Qs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4Qs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4Q0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3D%2522danskebank.fi%2522%2Bosakekauppa%2Bv%25C3%25A4lityspalkkio%2B%25220,08%2522%2B%25220,15%2522%2B%25220,20%2522%2Bhinnasto&hl=en&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4QhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4QiIQCKAN6BAgNEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Tulokset internetistä" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "Arvopaperipalveluiden palvelumaksut Danske Bank https://danskebank.fi › danske-bank › sijoittaminen" [ref=e180] [cursor=pointer]:
+                  - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/sijoittaminen/list-of-fees-for-securities-services.pdf?rev=f9a08cf20a9f45cc99536126d275acaa&hash=263824593363D6A35BE27096B3F8AB9D
+                  - heading "Arvopaperipalveluiden palvelumaksut" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Danske Bank
+                    - generic [ref=e190]: https://danskebank.fi › danske-bank › sijoittaminen
+                - generic [ref=e191]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e192] [cursor=pointer]:
+                  - img [ref=e195]
+              - generic [ref=e199]:
+                - emphasis [ref=e200]: 0,15
+                - text: /0,10/
+                - emphasis [ref=e201]: 0,08
+                - text: "%. (min. 8 €). Muut ulkomaiset markkinapaikat: 0,45 %. (min.20 €). 0,35 %. (min.20 €). 0,25/"
+                - emphasis [ref=e202]: 0,20
+                - text: /0,18 %. (min. 20 €). Danske Bankin kautta ...
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e208]
+              - button "Tietoja tästä tuloksesta" [ref=e209] [cursor=pointer]:
+                - img [ref=e212]
+            - generic [ref=e214]:
+              - button "Onko Danske Kaupankäynti online arvo-osuustili?" [ref=e220] [cursor=pointer]:
+                - generic [ref=e222]: Onko Danske Kaupankäynti online arvo-osuustili?
+                - img [ref=e225]
+              - button "Onko Danske Bank kallis?" [ref=e234] [cursor=pointer]:
+                - generic [ref=e236]: Onko Danske Bank kallis?
+                - img [ref=e239]
+              - button "Mistä näkee arvo-osuustilin numeron?" [ref=e248] [cursor=pointer]:
+                - generic [ref=e250]: Mistä näkee arvo-osuustilin numeron?
+                - img [ref=e253]
+              - button "Voiko arvo-osuustilille laittaa rahaa?" [ref=e262] [cursor=pointer]:
+                - generic [ref=e264]: Voiko arvo-osuustilille laittaa rahaa?
+                - img [ref=e267]
+          - generic [ref=e272]:
+            - heading "Tulokset internetistä" [level=2] [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e277]:
+                - link "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle Theseus https://www.theseus.fi › bitstream › Rytilahti_Misa" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.theseus.fi/bitstream/10024/793536/2/Rytilahti_Misa.pdf
+                  - heading "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle" [level=3] [ref=e280]
+                  - generic [ref=e285]:
+                    - generic [ref=e287]: Theseus
+                    - generic [ref=e289]: https://www.theseus.fi › bitstream › Rytilahti_Misa
+                - generic [ref=e290]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e291] [cursor=pointer]:
+                  - img [ref=e294]
+              - generic [ref=e298]:
+                - text: Palvelumaksut ovat Danske Bankilla
+                - emphasis [ref=e299]: 0,20
+                - text: "%:sta"
+                - emphasis [ref=e300]: 0,08
+                - text: "%:n ja minimi ..."
+                - emphasis [ref=e301]: 0,15
+                - text: "%."
+                - emphasis [ref=e302]: 0,20
+                - text: "%. 0,25%. 0,30%. Nordea Oyj. Danske Bank Oyj. OP Ryhmä. Palvelupakettien ..."
+          - generic [ref=e306]:
+            - generic [ref=e309]:
+              - link "Osakesäästötilien kulu- ja ominaisuus- vertailu 2021 Theseus https://www.theseus.fi › bitstream › Opinnäytety..." [ref=e311] [cursor=pointer]:
+                - /url: https://www.theseus.fi/bitstream/10024/512683/2/Opinn%C3%A4ytety%C3%B6_TuhkanenAda.pdf
+                - heading "Osakesäästötilien kulu- ja ominaisuus- vertailu 2021" [level=3] [ref=e312]
+                - generic [ref=e317]:
+                  - generic [ref=e319]: Theseus
+                  - generic [ref=e321]: https://www.theseus.fi › bitstream › Opinnäytety...
+              - generic [ref=e322]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e323] [cursor=pointer]:
+                - img [ref=e326]
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]: 3.11.2021 —
+                - generic [ref=e331]:
+                  - text: OP:n
+                  - emphasis [ref=e332]: 0,15
+                  - text: prosentin välityspalkkiolla
+                  - emphasis [ref=e333]: palkkio
+                  - text: menee Mandatum Traderin minimipalkkion yli kaup- ... https://
+                  - emphasis [ref=e334]: danskebank.fi
+                  - text: /sinulle/tule ...
+              - generic [ref=e335]: 83 sivua
+          - generic [ref=e339]:
+            - generic [ref=e342]:
+              - link "Sisällysluettelo Law Insider https://www.lawinsider.com › ... › Säästämissopimus" [ref=e344] [cursor=pointer]:
+                - /url: https://www.lawinsider.com/fi/contracts/3vS8CG2wirP
+                - heading "Sisällysluettelo" [level=3] [ref=e345]
+                - generic [ref=e350]:
+                  - generic [ref=e352]: Law Insider
+                  - generic [ref=e354]: https://www.lawinsider.com › ... › Säästämissopimus
+              - button "Tietoja tästä tuloksesta" [ref=e355] [cursor=pointer]:
+                - img [ref=e358]
+            - generic [ref=e362]:
+              - text: ...
+              - emphasis [ref=e363]: 0,15
+              - text: /0,10/
+              - emphasis [ref=e364]: 0,08
+              - text: "% (min. 8,00€) Ruotsi 0,35%(min.8,00 €) 0,25%(min.8,00 €)"
+              - emphasis [ref=e365]: 0,15
+              - text: ...
+              - emphasis [ref=e366]: 0,20
+              - text: /0,18% (min.20,00€). Laajat reaaliaikaiset pörssikurssit (Nordic ...
+          - generic [ref=e370]:
+            - generic [ref=e373]:
+              - link "CONSTI YHTIÖT OYJ ESITE Listautuminen NASDAQ OMX ... Consti https://investor.consti.fi › documents › publications" [ref=e375] [cursor=pointer]:
+                - /url: https://investor.consti.fi/~/media/Files/C/Consti-IR/documents/publications/consti-oyj-esite.pdf
+                - heading "CONSTI YHTIÖT OYJ ESITE Listautuminen NASDAQ OMX ..." [level=3] [ref=e376]
+                - generic [ref=e381]:
+                  - generic [ref=e383]: Consti
+                  - generic [ref=e385]: https://investor.consti.fi › documents › publications
+              - generic [ref=e386]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e387] [cursor=pointer]:
+                - img [ref=e390]
+            - generic [ref=e393]:
+              - generic [ref=e394]: 27.11.2015 —
+              - generic [ref=e395]:
+                - text: osoitteesta www.
+                - emphasis [ref=e396]: danskebank.fi
+                - text: viimeistään 30.11.2015 alkaen ja painettuna versiona arviolta 30.11.2015 alkaen normaalina toimistoaikana ...
+          - generic [ref=e400]:
+            - generic [ref=e403]:
+              - 'link "Osakesäästötili: Katso vertailu (2025) ja löydä paras OST! Verrattu.fi https://verrattu.fi › osakesaastotili-vertailu" [ref=e405] [cursor=pointer]':
+                - /url: https://verrattu.fi/osakesaastotili-vertailu/1000
+                - 'heading "Osakesäästötili: Katso vertailu (2025) ja löydä paras OST!" [level=3] [ref=e406]'
+                - generic [ref=e411]:
+                  - generic [ref=e413]: Verrattu.fi
+                  - generic [ref=e415]: https://verrattu.fi › osakesaastotili-vertailu
+              - button "Tietoja tästä tuloksesta" [ref=e416] [cursor=pointer]:
+                - img [ref=e419]
+            - generic [ref=e423]:
+              - text: Perustasolla
+              - emphasis [ref=e424]: 0,20
+              - text: "% per kauppa, minimi 8€. Aktiivisemmille kaupankävijöille samat luvut"
+              - emphasis [ref=e425]: 0,08
+              - text: "-0,12% ja minimi 2-5€. Säästäjä-tasolla"
+              - emphasis [ref=e426]: 0,15
+              - text: "% per kauppa, minimi 5€."
+          - generic [ref=e430]:
+            - heading "Kuvahaku" [level=2] [ref=e434]
+            - generic [ref=e438]:
+              - generic [ref=e442] [cursor=pointer]:
+                - link "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ... Theseus":
+                  - /url: https://www.theseus.fi/bitstream/10024/793536/2/Rytilahti_Misa.pdf
+                - button "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ..." [ref=e444]:
+                  - img "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ..." [ref=e446]
+                - generic [ref=e448]:
+                  - generic [ref=e450]: Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ...
+                  - generic [ref=e451]:
+                    - generic [ref=e458]: Theseus
+                    - button "Tietoja tästä tuloksesta" [ref=e461]:
+                      - img [ref=e464]
+              - generic [ref=e469] [cursor=pointer]:
+                - link "TARJOUSASIAKIRJA 19.8.2025 Danske Bank":
+                  - /url: https://danskebank.fi/-/media/pdf/danske-bank/fi/fi/annit/tarjousasiakirja---19,-d-,8,-d-,2025.pdf
+                - button "TARJOUSASIAKIRJA 19.8.2025" [ref=e471]:
+                  - img "TARJOUSASIAKIRJA 19.8.2025" [ref=e473]
+                - generic [ref=e475]:
+                  - generic [ref=e477]: TARJOUSASIAKIRJA 19.8.2025
+                  - generic [ref=e478]:
+                    - generic [ref=e485]: Danske Bank
+                    - button "Tietoja tästä tuloksesta" [ref=e488]:
+                      - img [ref=e491]
+              - generic [ref=e496] [cursor=pointer]:
+                - link "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ... Theseus":
+                  - /url: https://www.theseus.fi/bitstream/10024/793536/2/Rytilahti_Misa.pdf
+                - button "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ..." [ref=e498]:
+                  - img "Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ..." [ref=e500]
+                - generic [ref=e502]:
+                  - generic [ref=e504]: Suomalaisten pankkien sijoitusinstrumentit piensijoittajalle ...
+                  - generic [ref=e505]:
+                    - generic [ref=e512]: Theseus
+                    - button "Tietoja tästä tuloksesta" [ref=e515]:
+                      - img [ref=e518]
+            - link "Kaikki kuvat" [ref=e521] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&udm=2&source=univ&fir=SsQzcQO3Q_o4-M%252CgeQRSJZQacpuNM%252C_%253BbJCwugnJQaSVRM%252ClRjUCxOlg5nQLM%252C_%253BA5fokG2WzXhK6M%252CgeQRSJZQacpuNM%252C_&usg=AI4_-kR1PBDf7tY06prji9NZZwkCu33C9A&sa=X&ved=2ahUKEwiC5dnwjdWTAxUbGhAIHW_5Mu4Q7Al6BAg3EAU
+              - separator [ref=e522]
+              - generic [ref=e523]:
+                - generic [ref=e524]: Kaikki kuvat
+                - img [ref=e526]
+        - generic [ref=e529]:
+          - generic [ref=e530]:
+            - heading "Tietoja suodatetuista tuloksista" [level=2] [ref=e531]
+            - paragraph [ref=e533]:
+              - generic [ref=e534]:
+                - text: Pyrimme näyttämään vain kaikkein osuvimmat hakutulokset, joten olemme poistaneet joitakin aikaisemmin jo näytettyjä tuloksia (6) vastaavia tuloksia.
+                - text: Voit halutessasi
+                - link "tehdä haun uudelleen ja sisällyttää siihen myös poisjätetyt hakutulokset" [ref=e535] [cursor=pointer]:
+                  - /url: /search?q=%22danskebank.fi%22+osakekauppa+v%C3%A4lityspalkkio+%220,08%22+%220,15%22+%220,20%22+hinnasto&sca_esv=24f50bc0831b3fb1&filter=0
+                - text: .
+          - navigation
+        - navigation
+    - contentinfo [ref=e536]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e537]
+      - generic [ref=e541]:
+        - generic [ref=e543]:
+          - text: Suomi
+          - generic [ref=e545]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e547] [cursor=pointer]:
+              - generic [ref=e548]: 00940, Helsinki
+              - generic [ref=e550]:
+                - text: "-"
+                - generic [ref=e551]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e553] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e556]:
+          - link "Ohje" [ref=e557] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e558] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e559] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e560] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

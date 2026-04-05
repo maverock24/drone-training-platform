@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - img [ref=e3]
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - paragraph:
+              - link "Sijoittaja.fi":
+                - /url: https://www.sijoittaja.fi/
+                - generic [ref=e10] [cursor=pointer]: Sijoittaja.fi
+            - link [ref=e12] [cursor=pointer]:
+              - /url: https://www.sijoittaja.fi/
+              - img [ref=e13]
+            - link:
+              - /url: https://www.sijoittaja.fi/
+            - paragraph
+            - paragraph [ref=e17]: Tee parempia sijoituspäätöksiä
+          - navigation [ref=e18]:
+            - link "ALOITA JÄSENYYS" [ref=e20] [cursor=pointer]:
+              - /url: https://www.sijoittaja.fi/sijoittajafi-jasenyys?utm_medium=cta&utm_source=sijoittajafi&utm_campaign=header_ALOITA_JASENYYS
+              - generic [ref=e21]: ALOITA JÄSENYYS
+            - search "Sivuston haku" [ref=e22]:
+              - button [ref=e23] [cursor=pointer]:
+                - img
+            - button "Avaa kirjautumis modaali" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: Kirjaudu
+              - img "Profiili" [ref=e26]
+            - button "Avaa päävalikko" [ref=e27] [cursor=pointer]:
+              - img [ref=e28]
+        - generic:
+          - navigation "Päävalikko"
+    - main [ref=e32]:
+      - link "Siirry sisältöön" [ref=e33] [cursor=pointer]:
+        - /url: "#individual-page-content"
+      - main [ref=e34]:
+        - img "ETF:ien verotus - Sivun kuvituskuva" [ref=e35]:
+          - img "ETF:ien verotus - Sivun kuvituskuva" [ref=e36]
+        - navigation "Sisältövalikko" [ref=e37]:
+          - button "Sijoittaminen Näytä tai piilota navigaatio" [ref=e38] [cursor=pointer]:
+            - generic [ref=e39]: Sijoittaminen
+            - generic [ref=e40]: Näytä tai piilota navigaatio
+        - article "ETF:ien verotus" [ref=e41]:
+          - heading "ETF:ien verotus" [level=1] [ref=e42]
+          - region "Sivun sisältö" [ref=e43]:
+            - article [ref=e44]:
+              - heading "ETF:ien verotus" [level=2] [ref=e45]
+              - paragraph [ref=e46]: Verotuksessa ETF-rahastoja käsitellään samalla tavalla kuin muitakin sijoitusrahastoja. ETF-sijoittaja maksaa pääomaveron ETF:stä saamastaan tuotosta ja osuuksien myynnistä saamistaan myynti- eli luovutusvoitoista.
+              - paragraph [ref=e47]: Jos sijoittaja on yleisesti verovelvollinen Suomessa, hänen myyntivoittonsa verotetaan täällä. Jos käyttää Suomessa toimivaa välittäjää, kauppatietojen pitäisi kulkea suoraan verottajalle ja esitäytettyyn veroilmoitukseen. Sijoittajan vastuulle jää ilmoituksen tarkistaminen ja korjaaminen.
+              - paragraph [ref=e48]: "Tuotto-osuusrahasto: Rahasto jakaa tuottoja omistajille esimerkiksi kvartaaleittain tuotto-osuuksina. Verotuksessa tuotto-osuus on 100%:sesti verotettavaa pääomatuloa. Ulkomaalaisesta ETF-rahastosta saatavan tulon verotukseen vaikuttaa Suomen sisäisen lainsäädännön lisäksi se, onko Suomella ja lähdevaltiolla verosopimusta."
+              - paragraph [ref=e49]: "Kasvuosuusrahasto: Rahaston saamat tuotot lisätään sijoitettuun pääomaan. Sijoittaja maksaa luovutusvoitosta veroa vasta, kun hän myy ETF-rahaston voitolla. Mahdollinen luovutustappio on puolestaan verovähennyskelpoinen."
+              - generic [ref=e50]:
+                - generic [ref=e51]: Lisää luettavaa
+                - article [ref=e52]:
+                  - generic [ref=e53]:
+                    - article [ref=e54] [cursor=pointer]:
+                      - img "Mallisalkkujen maaliskuu – Markkinoiden epävarmuus painoi tuottoja" [ref=e55]
+                      - link "Mallisalkkujen maaliskuu – Markkinoiden epävarmuus painoi tuottoja" [ref=e58]:
+                        - /url: https://www.sijoittaja.fi/458086/mallisalkkujen-maaliskuu-markkinoiden-epavarmuus-painoi-tuottoja/
+                    - article [ref=e59] [cursor=pointer]:
+                      - img "Passiivinen kulupihtari -mallisalkku" [ref=e60]
+                      - link "Passiivinen kulupihtari -mallisalkku" [ref=e63]:
+                        - /url: https://www.sijoittaja.fi/390181/passiivinen-kulupihtari-mallisalkku/
+                    - article [ref=e64] [cursor=pointer]:
+                      - img "Strategiamestari-mallisalkku" [ref=e65]
+                      - link "Strategiamestari-mallisalkku" [ref=e68]:
+                        - /url: https://www.sijoittaja.fi/390171/strategiamestari-mallisalkku/
+                    - article [ref=e69] [cursor=pointer]:
+                      - img "Puolustusteollisuuden ETF:t vertailussa" [ref=e70]
+                      - link "Puolustusteollisuuden ETF:t vertailussa" [ref=e73]:
+                        - /url: https://www.sijoittaja.fi/406440/puolustusteollisuuden-etft-vertailussa/
+    - contentinfo [ref=e74]:
+      - img [ref=e76]
+      - generic [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: Sijoittaminen
+          - listitem [ref=e81] [cursor=pointer]:
+            - link "Artikkelit" [ref=e82]:
+              - /url: https://www.sijoittaja.fi
+          - listitem [ref=e83] [cursor=pointer]:
+            - link "Oppaat" [ref=e84]:
+              - /url: https://www.sijoittaja.fi/oppaat
+          - listitem [ref=e85] [cursor=pointer]:
+            - link "Vertailut ja laskurit" [ref=e86]:
+              - /url: https://www.sijoittaja.fi/laskurit-ja-vertailut
+          - listitem [ref=e87] [cursor=pointer]:
+            - link "Osakeideat" [ref=e88]:
+              - /url: https://www.sijoittaja.fi/tag/osakeidea/
+        - list [ref=e89]:
+          - listitem [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: Sijoittaja.fi
+          - listitem [ref=e92] [cursor=pointer]:
+            - link "Tilaa jäsenyys" [ref=e93]:
+              - /url: https://www.sijoittaja.fi/sijoittajafi-jasenyys
+          - listitem [ref=e94] [cursor=pointer]:
+            - link "Usein kysytyt kysymykset" [ref=e95]:
+              - /url: https://www.sijoittaja.fi/mika-on-sijoittaja-fi/usein-kysytyt-kysymykset/
+          - listitem [ref=e96] [cursor=pointer]:
+            - link "Mikä on Sijoittaja.fi" [ref=e97]:
+              - /url: https://www.sijoittaja.fi/mika-on-sijoittaja-fi/
+          - listitem [ref=e98] [cursor=pointer]:
+            - link "Ota yhteyttä" [ref=e99]:
+              - /url: https://www.sijoittaja.fi/mika-on-sijoittaja-fi/ota-yhteytta/
+        - list [ref=e100]:
+          - listitem [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: Tee parempia sijoituspäätöksiä
+          - listitem [ref=e103] [cursor=pointer]:
+            - 'link "Sijoittaja360°: Ulkoinen sivusto" [ref=e104]':
+              - /url: https://360.sijoittaja.fi
+              - text: Sijoittaja360°
+          - listitem [ref=e105] [cursor=pointer]:
+            - link "Webinaarit" [ref=e106]:
+              - /url: https://www.sijoittaja.fi/webinaarit/
+          - listitem [ref=e107] [cursor=pointer]:
+            - link "Tilaa ilmainen Sijoittajakirje" [ref=e108]:
+              - /url: https://www.sijoittaja.fi/sijoittajakirje/
+          - listitem [ref=e109] [cursor=pointer]:
+            - 'link "SijoittajaApp: Ulkoinen sivusto" [ref=e110]':
+              - /url: https://tilaa.sijoittaja.fi/fi-fi/lataasijoittajaapp
+              - text: SijoittajaApp
+        - list [ref=e111]:
+          - listitem [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]: Lataa SijoittajaApp
+          - listitem [ref=e114] [cursor=pointer]:
+            - link [ref=e115]:
+              - /url: https://apps.apple.com/us/app/sijoittajaapp/id1543707981
+              - img [ref=e116]
+            - link [ref=e117]:
+              - /url: https://play.google.com/store/apps/details?id=fi.sijoittaja.app
+              - img [ref=e118]
+          - listitem [ref=e119] [cursor=pointer]:
+            - generic [ref=e120]: Seuraa meitä
+          - listitem [ref=e121] [cursor=pointer]:
+            - link [ref=e122]:
+              - /url: https://www.instagram.com/sijoittaja.fi/
+              - img [ref=e123]
+            - link [ref=e124]:
+              - /url: https://www.facebook.com/sijoittaja.fi/
+              - img [ref=e125]
+            - link [ref=e126]:
+              - /url: https://www.youtube.com/c/SijoittajaFi-channel
+              - img [ref=e127]
+            - link [ref=e128]:
+              - /url: https://open.spotify.com/show/7cNgeYbW7RfS0Sr9usu4Wq
+              - img [ref=e129]
+            - link [ref=e130]:
+              - /url: https://www.linkedin.com/company/sijoittajafi/
+              - img [ref=e131]
+            - link [ref=e132]:
+              - /url: https://twitter.com/Sijoittajafi
+              - img [ref=e133]
+            - link [ref=e134]:
+              - /url: https://www.sijoittaja.fi/feed/
+              - img [ref=e135]
+      - generic [ref=e136]:
+        - paragraph [ref=e137]: Sijoittaja.fi / Investment Intelligence Oy 2026. Kaikki oikeudet pidätetään
+        - generic [ref=e138]:
+          - link "Vastuuvapauslauseke" [ref=e139] [cursor=pointer]:
+            - /url: https://www.sijoittaja.fi/vastuuvapauslauseke/
+          - link "Tietosuojaseloste" [ref=e140] [cursor=pointer]:
+            - /url: https://www.sijoittaja.fi/tietosuojaseloste/
+          - link "Rekisteriseloste" [ref=e141] [cursor=pointer]:
+            - /url: https://www.sijoittaja.fi/rekisteriseloste
+      - generic [ref=e142]:
+        - paragraph [ref=e143]: Sijoittaja.fi tarjoaa systemaattisen ja helpon lähestymistavan sijoitusmarkkinoiden seurantaan ja markkinoilla toimimiseen. Tarjoamme tietoa sijoittamisesta, kuten uutisia, artikkeleita ja analyysejä sekä yksityis- ja ammattikäyttöön soveltuvat sijoittajan työkalut.
+        - paragraph [ref=e144]: Sijoittaja.fi on osa SIJOITTAJA-ryhmää, johon kuuluvat myös yritysrahoitusta tarjoava SijoittajaPRO Corporate Finance, instituutioille sekä ammatti- ja yksityissijoittajille palvelua tarjoava SFR Advisors sekä sijoitustutkimusta toteuttava SFR Research.
+        - paragraph [ref=e145]: Emme tarjoa yksilöllistä sijoitusneuvontaa, emmekä ole Finanssivalvonnan valvoma sijoituspalveluyritys. Katso tarkemmin vastuuvapauslausekkeesta.
+  - generic [ref=e146]:
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - text: Tee parempia sijoituspäätöksiä – vähemmällä ajalla
+        - paragraph [ref=e149]: Saat käyttöösi kaiken, mitä tarvitset parempiin sijoituspäätöksiin – analyysit, ideat ja työkalut yhdessä palvelussa.
+      - link "Kokeile ilmaiseksi" [ref=e152] [cursor=pointer]:
+        - /url: https://www.sijoittaja.fi/sijoittajafi-jasenyys
+        - generic [ref=e153]: Kokeile ilmaiseksi
+    - button "Sulje" [ref=e154] [cursor=pointer]: x

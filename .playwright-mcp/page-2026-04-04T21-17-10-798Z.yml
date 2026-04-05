@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQpYkNCA0
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e16]:
+          - combobox "Hae" [ref=e19]: Finland wash sale rule samanlaiset arvopaperit myynti osto takaisin verotus Finland wash sale rule samanlaiset arvopaperit myynti osto takaisin verotus
+          - generic [ref=e20]:
+            - button "Tyhjennä" [ref=e22] [cursor=pointer]:
+              - img [ref=e24]
+            - generic [ref=e27]:
+              - button "Syöttötyökalut" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - button "Puhehaku" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Hae kuvan perusteella" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Haku" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Asetukset" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google-sovellukset" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Kirjaudu" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DFinland%2Bwash%2Bsale%2Brule%2Bsamanlaiset%2Barvopaperit%2Bmyynti%2Bosto%2Btakaisin%2Bverotus&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Tekoälytila" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&aep=1&ntc=1&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ2J8OegQIEBAE
+              - generic [ref=e78]: Tekoälytila
+          - listitem [ref=e79]:
+            - link "Kaikki" [disabled] [ref=e80]:
+              - generic [ref=e82]: Kaikki
+          - listitem [ref=e83]:
+            - link "Kuvahaku" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQtKgLegQIEhAB
+              - generic [ref=e86]: Kuvahaku
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQs6gLegQIFhAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQtKgLegQIFBAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Teokset" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&udm=36&source=lnms&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ0pQJegQIFRAB
+              - generic [ref=e98]: Teokset
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-ZQcKRpPH4v_wa7GJWzYsoUZVKp0KIx5E9cHN4bzJ38o1kTyi77oXC5MDLP7mxcWYSgwMmQHjqsQodT6A5pa3jjbqhtssmDHaQHjaQQTtJ8WcwV6yVGJHEJEK1_dPOTJsgBLmcR-LILrEjexSwQL4JrvaiN5kF-_9k6nSAl_q7w4t-Mm0pB31p8vlr4KyvsYyj0BBlf&q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - button "Lisää suodattimia" [ref=e104] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Lisää
+                  - img [ref=e109]
+        - button "Työkalut" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Työkalut
+            - img [ref=e117]
+    - heading "Hakutulokset" [level=1] [ref=e119]
+    - generic [ref=e125]:
+      - generic [ref=e126]: Looking for results in English?
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e129]
+      - link "Change to English" [ref=e131] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DFinland%2Bwash%2Bsale%2Brule%2Bsamanlaiset%2Barvopaperit%2Bmyynti%2Bosto%2Btakaisin%2Bverotus&hl=en&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e132] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e134] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQiIQCKAN6BAgLEAY#languages
+    - generic [ref=e135]:
+      - generic [ref=e154]:
+        - heading "Miettii" [level=2] [ref=e158]:
+          - generic [ref=e159]: Miettii
+        - progressbar [ref=e160]
+      - main [ref=e162]:
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - heading "Tulokset internetistä" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - generic [ref=e174]:
+                - link "Onko wash sale -myynnit (tai niiden tappioiden ... Reddit · r/Finland Yli 10 kommenttia · 3 vuotta sitten" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Finland/comments/xhmtlm/are_wash_sales_or_claiming_tax_losses_on_them/?tl=fi
+                  - heading "Onko wash sale -myynnit (tai niiden tappioiden ..." [level=3] [ref=e177]
+                  - generic [ref=e182]:
+                    - generic [ref=e184]: Reddit · r/Finland
+                    - generic [ref=e186]: Yli 10 kommenttia · 3 vuotta sitten
+                - button "Tietoja tästä tuloksesta" [ref=e187] [cursor=pointer]:
+                  - img [ref=e190]
+              - generic [ref=e194]:
+                - text: Suomessa ei ole nimenomaisia
+                - emphasis [ref=e195]: wash sale
+                - text: "-rajoituksia. Verolaissa on yleissääntö, joka on samanlainen kuin Yhdysvalloissa, ja jonka mukaan ..."
+              - generic [ref=e200]:
+                - link "14 vastausta" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.reddit.com/r/Finland/comments/xhmtlm/are_wash_sales_or_claiming_tax_losses_on_them/ioym4bu/?tl=fi
+                - generic [ref=e202]: ·
+                - generic [ref=e203]: "Paras vastaus:"
+                - generic [ref=e204]: Ei oo laitonta, mut osakkeilla et voi myydä ja ostaa heti takas. Mä luulen, ettei oo ...
+              - generic [ref=e206]: "Puuttuu: rule ‎samanlaiset"
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e212]
+              - button "Tietoja tästä tuloksesta" [ref=e213] [cursor=pointer]:
+                - img [ref=e216]
+            - generic [ref=e218]:
+              - button "Pitääkö maksaa veroa, jos myy osakkeita?" [ref=e224] [cursor=pointer]:
+                - generic [ref=e226]: Pitääkö maksaa veroa, jos myy osakkeita?
+                - img [ref=e229]
+              - button "Tarvitseeko sijoitukset ilmoittaa verottajalle?" [ref=e238] [cursor=pointer]:
+                - generic [ref=e240]: Tarvitseeko sijoitukset ilmoittaa verottajalle?
+                - img [ref=e243]
+              - button "Paljonko yrityksen myynnistä maksetaan veroa?" [ref=e252] [cursor=pointer]:
+                - generic [ref=e254]: Paljonko yrityksen myynnistä maksetaan veroa?
+                - img [ref=e257]
+              - button "Miten lasketaan osakkeiden myyntivoitto?" [ref=e266] [cursor=pointer]:
+                - generic [ref=e268]: Miten lasketaan osakkeiden myyntivoitto?
+                - img [ref=e271]
+          - generic [ref=e276]:
+            - heading "Web results" [level=2] [ref=e277]
+            - generic [ref=e278]:
+              - generic [ref=e281]:
+                - link "Tax-loss trading and wash sales Aalto-yliopisto https://www.aalto.fi › sites › default › files › was..." [ref=e283] [cursor=pointer]:
+                  - /url: https://www.aalto.fi/sites/default/files/2018-12/wash_sales.pdf
+                  - heading "Tax-loss trading and wash sales" [level=3] [ref=e284]
+                  - generic [ref=e289]:
+                    - generic [ref=e291]: Aalto-yliopisto
+                    - generic [ref=e293]: https://www.aalto.fi › sites › default › files › was...
+                - generic [ref=e294]:
+                  - generic:
+                    - generic: PDF
+                - button "Tietoja tästä tuloksesta" [ref=e295] [cursor=pointer]:
+                  - img [ref=e298]
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - generic [ref=e302]: kirjoittanut M Grinblatta · 2004 · Viittausten määrä 161 —
+                  - generic [ref=e303]:
+                    - text: No explicit
+                    - emphasis [ref=e304]: wash sale
+                    - text: constraints exist in
+                    - emphasis [ref=e305]: Finland
+                    - text: . There is a general
+                    - emphasis [ref=e306]: rule
+                    - text: in the tax law, similar to that in the United States, which allows the tax ...
+                - generic [ref=e307]: 26 sivua
+              - generic [ref=e309]: "Puuttuu: samanlaiset ‎arvopaperit ‎osto ‎takaisin ‎verotus"
+          - generic [ref=e313]:
+            - generic [ref=e316]:
+              - link "Arvopaperien luovutusten verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › arvopaperien-luo..." [ref=e318] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48262/arvopaperien-luovutusten-verotus4/
+                - heading "Arvopaperien luovutusten verotus Syventävä vero-ohje" [level=3] [ref=e319]
+                - generic [ref=e324]:
+                  - generic [ref=e326]: Vero.fi
+                  - generic [ref=e328]: https://www.vero.fi › ohje-hakusivu › arvopaperien-luo...
+              - button "Tietoja tästä tuloksesta" [ref=e329] [cursor=pointer]:
+                - img [ref=e332]
+            - generic [ref=e335]:
+              - generic [ref=e336]: 21.12.2022 —
+              - generic [ref=e337]:
+                - text: "Ohje liittyy kokonaisuuteen: Luovutusvoittojen"
+                - emphasis [ref=e338]: verotus
+                - text: ", Perheoikeus ja"
+                - emphasis [ref=e339]: verotus
+                - text: . Tässä ohjeessa käsitellään arvo-osuuksien, ...
+            - generic [ref=e341]: "Puuttuu: Finland ‎wash ‎sale ‎rule ‎samanlaiset"
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - link "Osakesijoittajan 10 keinoa maksaa vähemmän veroja - Nordnet nordnet.fi https://www.nordnet.fi › Nordnet Koulu › Verotus" [ref=e350] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/koulu/osakesijoittajan-10-keinoa-maksaa-vahemman-veroja
+                - heading "Osakesijoittajan 10 keinoa maksaa vähemmän veroja - Nordnet" [level=3] [ref=e351]
+                - generic [ref=e356]:
+                  - generic [ref=e358]: nordnet.fi
+                  - generic [ref=e360]: https://www.nordnet.fi › Nordnet Koulu › Verotus
+              - button "Tietoja tästä tuloksesta" [ref=e361] [cursor=pointer]:
+                - img [ref=e364]
+            - generic [ref=e368]:
+              - text: verovelvollinen ei kykene esittämään verotuksesta riippumatonta syytä arvopapereiden myyntiin ja takaisinostoon. Jos arvopapereiden
+              - emphasis [ref=e369]: myynti
+              - text: ja takaisinosto ovat ...
+            - generic [ref=e371]: "Puuttuu: Finland ‎wash ‎sale ‎rule ‎samanlaiset ‎osto"
+          - generic [ref=e375]:
+            - generic [ref=e378]:
+              - link "Vaihto-omaisuus - kirjanpito ja verotus Rantalainen https://www.rantalainen.fi › julkaisut › artikkelit › vaiht..." [ref=e380] [cursor=pointer]:
+                - /url: https://www.rantalainen.fi/julkaisut/artikkelit/vaihto-omaisuus-kirjanpito-ja-verotus/
+                - heading "Vaihto-omaisuus - kirjanpito ja verotus" [level=3] [ref=e381]
+                - generic [ref=e386]:
+                  - generic [ref=e388]: Rantalainen
+                  - generic [ref=e390]: https://www.rantalainen.fi › julkaisut › artikkelit › vaiht...
+              - button "Tietoja tästä tuloksesta" [ref=e391] [cursor=pointer]:
+                - img [ref=e394]
+            - generic [ref=e397]:
+              - generic [ref=e398]: 16.9.2021 —
+              - generic [ref=e399]:
+                - text: Verotuksessa
+                - emphasis [ref=e400]: arvopaperit
+                - text: voivat olla edellä mainittujen lisäksi myös elinkeinoverolain tarkoittamaa muuta omaisuutta. Vaihto-omaisuudeksi ...
+          - generic [ref=e404]:
+            - generic [ref=e407]:
+              - link "KHO:lta tärkeä ennakkotapaus. Uskomaton päätös! | Sivu 7 Kauppalehden keskustelupalsta https://keskustelu.kauppalehti.fi › threads › page-7" [ref=e409] [cursor=pointer]:
+                - /url: https://keskustelu.kauppalehti.fi/threads/kho-lta-tarkea-ennakkotapaus-uskomaton-paatos.203564/page-7
+                - heading "KHO:lta tärkeä ennakkotapaus. Uskomaton päätös! | Sivu 7" [level=3] [ref=e410]
+                - generic [ref=e415]:
+                  - generic [ref=e417]: Kauppalehden keskustelupalsta
+                  - generic [ref=e419]: https://keskustelu.kauppalehti.fi › threads › page-7
+              - button "Tietoja tästä tuloksesta" [ref=e420] [cursor=pointer]:
+                - img [ref=e423]
+            - generic [ref=e426]:
+              - generic [ref=e427]: 9.7.2012 —
+              - generic [ref=e428]:
+                - text: Esim. USA:ssa ns.
+                - emphasis [ref=e429]: wash sale
+                - text: "-säännöstön perusteella takaisinoston saa tehdä aikaisintaan 30 päiväa myynnin jälkeen. Samanlaisia säännöksiä on ..."
+            - generic [ref=e431]:
+              - text: "Puuttuu: samanlaiset ‎| Hae tällä:"
+              - link "samanlaiset" [ref=e432] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=Finland+wash+sale+rule+%22samanlaiset%22+arvopaperit+myynti+osto+takaisin+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ5t4CegQIRhAB
+          - generic [ref=e436]:
+            - generic [ref=e439]:
+              - link "Omaisuuden myynti - Veronmaksajain Keskusliitto ry Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot" [ref=e441] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/omaisuuden-myynti/
+                - heading "Omaisuuden myynti - Veronmaksajain Keskusliitto ry" [level=3] [ref=e442]
+                - generic [ref=e447]:
+                  - generic [ref=e449]: Veronmaksajain Keskusliitto
+                  - generic [ref=e451]: https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot
+              - button "Tietoja tästä tuloksesta" [ref=e452] [cursor=pointer]:
+                - img [ref=e455]
+            - generic [ref=e458]:
+              - generic [ref=e459]: 7.1.2026 —
+              - text: Tässä artikkelissa kerrotaan, miten luovutus- eli myyntivoittoa verotetaan sekä miten sen määrä lasketaan ja mikä on hankintameno-olettama.
+          - generic [ref=e463]:
+            - generic [ref=e466]:
+              - link "Arvopaperisijoitustoiminnan yhtiöittäminen verotuksessa UTUPub https://www.utupub.fi › bitstream" [ref=e468] [cursor=pointer]:
+                - /url: https://www.utupub.fi/bitstream/10024/145363/1/Pylv%C3%A4n%C3%A4inen%20Ari.pdf
+                - heading "Arvopaperisijoitustoiminnan yhtiöittäminen verotuksessa" [level=3] [ref=e469]
+                - generic [ref=e474]:
+                  - generic [ref=e476]: UTUPub
+                  - generic [ref=e478]: https://www.utupub.fi › bitstream
+              - generic [ref=e479]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e480] [cursor=pointer]:
+                - img [ref=e483]
+            - generic [ref=e485]:
+              - generic [ref=e487]:
+                - text: Tutkielman aiheena on tutkia arvopaperisijoitustoimintaan liittyvää
+                - emphasis [ref=e488]: vero
+                - text: "- ja yhtiölain- säädäntöä kun sijoittajana toimii luonnollinen henkilö tai ..."
+              - generic [ref=e489]: 82 sivua
+          - generic [ref=e493]:
+            - generic [ref=e496]:
+              - link "5 verovinkkiä sijoittajalle – hyödynnä ennen vuodenvaihdetta nordnet.fi https://www.nordnet.fi › Nordnet Koulu › Verotus" [ref=e498] [cursor=pointer]:
+                - /url: https://www.nordnet.fi/koulu/sijoittajan-vuodenvaihde-verotus
+                - heading "5 verovinkkiä sijoittajalle – hyödynnä ennen vuodenvaihdetta" [level=3] [ref=e499]
+                - generic [ref=e504]:
+                  - generic [ref=e506]: nordnet.fi
+                  - generic [ref=e508]: https://www.nordnet.fi › Nordnet Koulu › Verotus
+              - button "Tietoja tästä tuloksesta" [ref=e509] [cursor=pointer]:
+                - img [ref=e512]
+            - generic [ref=e515]: Jos koko vuoden aikana myymiesi arvopaperien tai muun omaisuuden yhteenlasketut myyntihinnat ovat enintään 1 000 euroa, voittoa ei veroteta. Tuhannen euron ...
+            - generic [ref=e517]: "Puuttuu: Finland ‎wash ‎sale ‎rule ‎samanlaiset"
+          - generic [ref=e521]:
+            - generic [ref=e524]:
+              - link "Verotus osakekaupoissa - Sivu 43 - Osakkeet Inderes forum https://forum.inderes.com › verotus-osakekaupoissa" [ref=e526] [cursor=pointer]:
+                - /url: https://forum.inderes.com/t/verotus-osakekaupoissa/330?page=43
+                - heading "Verotus osakekaupoissa - Sivu 43 - Osakkeet" [level=3] [ref=e527]
+                - generic [ref=e532]:
+                  - generic [ref=e534]: Inderes forum
+                  - generic [ref=e536]: https://forum.inderes.com › verotus-osakekaupoissa
+              - button "Tietoja tästä tuloksesta" [ref=e537] [cursor=pointer]:
+                - img [ref=e540]
+            - generic [ref=e543]:
+              - generic [ref=e544]: 23.8.2018 —
+              - text: “Arvopapereiden luovutuksesta aiheutunutta tappiota ei ole oikeuskäytännössä pidetty vähennyskelpoisena, jos verovelvollinen on hankkinut ...
+            - generic [ref=e546]: "Puuttuu: Finland ‎rule ‎samanlaiset"
+        - generic [ref=e548]:
+          - generic [ref=e553]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e555]
+            - generic [ref=e557]:
+              - generic [ref=e558]:
+                - link "Arvopaperikauppa verotus" [ref=e562] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Arvopaperikauppa+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhMEAE
+                  - generic [ref=e563]:
+                    - generic [ref=e568]: Arvopaperikauppa verotus
+                    - img [ref=e572]
+                - link "Arvopaperien hoitomenot verotus" [ref=e577] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Arvopaperien+hoitomenot+verotus&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhNEAE
+                  - generic [ref=e578]:
+                    - generic [ref=e583]: Arvopaperien hoitomenot verotus
+                    - img [ref=e587]
+                - link "Nordnet verotus automaattisesti" [ref=e592] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Nordnet+verotus+automaattisesti&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhPEAE
+                  - generic [ref=e593]:
+                    - generic [ref=e598]: Nordnet verotus automaattisesti
+                    - img [ref=e602]
+                - link "Mitä ovat arvopaperien hoitomenot" [ref=e607] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Mit%C3%A4+ovat+arvopaperien+hoitomenot&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhQEAE
+                  - generic [ref=e608]:
+                    - generic [ref=e613]: Mitä ovat arvopaperien hoitomenot
+                    - img [ref=e617]
+              - generic [ref=e619]:
+                - link "Hankintameno-olettama laskuri" [ref=e623] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+laskuri&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhTEAE
+                  - generic [ref=e624]:
+                    - generic [ref=e629]: Hankintameno-olettama laskuri
+                    - img [ref=e633]
+                - link "Hankintameno-olettama osakkeet" [ref=e638] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+osakkeet&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhREAE
+                  - generic [ref=e639]:
+                    - generic [ref=e644]: Hankintameno-olettama osakkeet
+                    - img [ref=e648]
+                - link "Osakkeiden myynti verotus laskuri" [ref=e653] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Osakkeiden+myynti+verotus+laskuri&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhOEAE
+                  - generic [ref=e654]:
+                    - generic [ref=e659]: Osakkeiden myynti verotus laskuri
+                    - img [ref=e663]
+                - link "Maksaako Nordnet verot automaattisesti" [ref=e668] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Maksaako+Nordnet+verot+automaattisesti&sa=X&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ1QJ6BAhSEAE
+                  - generic [ref=e669]:
+                    - generic [ref=e674]: Maksaako Nordnet verot automaattisesti
+                    - img [ref=e678]
+          - navigation [ref=e680]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e681]
+            - text: "1"
+            - link "Page 2" [ref=e684] [cursor=pointer]:
+              - /url: /search?q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sca_esv=24f50bc0831b3fb1&ei=1X_RaeiPMpmuwPAPu6m14Qs&start=10&sa=N&sstk=Af77f_f98aLq95ETem7Z3wbXZotbAQ7xnVWJ_zbhgy1ITvM4diyMDkS8eJig-EMFRNQUr2M-wCSC6G4DGIVClPoSu556c8wyU4eVeA&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ8tMDegQIShAE
+              - text: "2"
+            - link "Page 3" [ref=e686] [cursor=pointer]:
+              - /url: /search?q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sca_esv=24f50bc0831b3fb1&ei=1X_RaeiPMpmuwPAPu6m14Qs&start=20&sa=N&sstk=Af77f_f98aLq95ETem7Z3wbXZotbAQ7xnVWJ_zbhgy1ITvM4diyMDkS8eJig-EMFRNQUr2M-wCSC6G4DGIVClPoSu556c8wyU4eVeA&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ8tMDegQIShAG
+              - text: "3"
+            - link "Page 4" [ref=e688] [cursor=pointer]:
+              - /url: /search?q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sca_esv=24f50bc0831b3fb1&ei=1X_RaeiPMpmuwPAPu6m14Qs&start=30&sa=N&sstk=Af77f_f98aLq95ETem7Z3wbXZotbAQ7xnVWJ_zbhgy1ITvM4diyMDkS8eJig-EMFRNQUr2M-wCSC6G4DGIVClPoSu556c8wyU4eVeA&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ8tMDegQIShAI
+              - text: "4"
+            - link "Page 5" [ref=e690] [cursor=pointer]:
+              - /url: /search?q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sca_esv=24f50bc0831b3fb1&ei=1X_RaeiPMpmuwPAPu6m14Qs&start=40&sa=N&sstk=Af77f_f98aLq95ETem7Z3wbXZotbAQ7xnVWJ_zbhgy1ITvM4diyMDkS8eJig-EMFRNQUr2M-wCSC6G4DGIVClPoSu556c8wyU4eVeA&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ8tMDegQIShAK
+              - text: "5"
+            - heading "Seuraava" [level=2] [ref=e692]:
+              - link "Seuraava" [ref=e693] [cursor=pointer]:
+                - /url: /search?q=Finland+wash+sale+rule+samanlaiset+arvopaperit+myynti+osto+takaisin+verotus&sca_esv=24f50bc0831b3fb1&ei=1X_RaeiPMpmuwPAPu6m14Qs&start=10&sa=N&sstk=Af77f_f98aLq95ETem7Z3wbXZotbAQ7xnVWJ_zbhgy1ITvM4diyMDkS8eJig-EMFRNQUr2M-wCSC6G4DGIVClPoSu556c8wyU4eVeA&ved=2ahUKEwiozvGmj9WTAxUZFxAIHbtULbwQ8NMDegQIShAM
+                - generic [ref=e695]: Seuraava
+        - navigation
+    - contentinfo [ref=e696]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e697]
+      - generic [ref=e701]:
+        - generic [ref=e703]:
+          - text: Suomi
+          - generic [ref=e705]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e707] [cursor=pointer]:
+              - generic [ref=e708]: 00940, Helsinki
+              - generic [ref=e710]:
+                - text: "-"
+                - generic [ref=e711]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e713] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e716]:
+          - link "Ohje" [ref=e717] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e718] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e719] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e720] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

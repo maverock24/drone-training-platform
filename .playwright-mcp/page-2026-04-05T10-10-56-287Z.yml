@@ -1,0 +1,1123 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - text: Call now -
+    - link "0330 111 7177" [ref=e4] [cursor=pointer]:
+      - /url: tel:03301117177
+  - banner [ref=e5]:
+    - generic [ref=e8]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: https://coptrz.com
+        - img [ref=e13]
+      - generic [ref=e25]:
+        - link [ref=e27] [cursor=pointer]:
+          - /url: https://www.coptrzacademy-usp.io/login
+          - img [ref=e28]
+        - link "0" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e35]
+          - generic [ref=e40]: "0"
+        - button [ref=e42] [cursor=pointer]
+  - main [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e50]:
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link "Home" [ref=e54] [cursor=pointer]:
+              - /url: https://coptrz.com
+          - listitem [ref=e55]:
+            - generic [ref=e56]: Drone Training
+        - heading "Drone Training" [level=1] [ref=e57]
+        - paragraph [ref=e59]: The UK’s leading CAA drone training provider. Be the best drone operator in your industry and get the qualifications, tools and continual development you need.
+      - generic [ref=e62]:
+        - generic [ref=e64]:
+          - heading "Test from anywhere" [level=3] [ref=e66]
+          - paragraph [ref=e68]: Studying from anywhere across the UK, we have the largest number of flight test centres across the UK. We also offer online courses.
+        - generic [ref=e70]:
+          - heading "OFQUAL accredited" [level=3] [ref=e72]
+          - paragraph [ref=e74]: Ensure you get the highest quality training through our OFQUAL accredited courses.
+        - generic [ref=e76]:
+          - heading "Trained by the best" [level=3] [ref=e78]
+          - paragraph [ref=e80]: We are the most prestigious drone training academy in the UK, with companies like the BBC and Balfour Beatty choosing to train their pilots with us.
+        - generic [ref=e82]:
+          - heading "ELCAS Approved" [level=3] [ref=e84]
+          - paragraph [ref=e86]: Use your ELCAS credits towards drone courses; we’re the only drone training provider approved by ELCAS.
+      - generic [ref=e89]:
+        - heading "Drone Training" [level=2] [ref=e90]
+        - generic [ref=e94]:
+          - group "1 / 82" [ref=e95]:
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - generic [ref=e98]:
+                  - link "GVC Drone Training Course GVC Drone Training Course" [ref=e99] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-drone-training-course/
+                    - img "GVC Drone Training Course" [ref=e101]
+                    - heading "GVC Drone Training Course" [level=2] [ref=e102]
+                  - link "View Product" [ref=e105] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-drone-training-course/
+          - group "2 / 82" [ref=e106]:
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - generic [ref=e109]:
+                  - link "Category 1 Thermography (Online) Category 1 Thermography (Online)" [ref=e110] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-1-thermography-online/
+                    - img "Category 1 Thermography (Online)" [ref=e112]
+                    - heading "Category 1 Thermography (Online)" [level=2] [ref=e113]
+                  - link "View Product" [ref=e116] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-1-thermography-online/
+          - group "3 / 82" [ref=e117]:
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - generic [ref=e120]:
+                  - link "Category 1 Thermography (Classroom) Category 1 Thermography (Classroom)" [ref=e121] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-1-thermography-classroom/
+                    - img "Category 1 Thermography (Classroom)" [ref=e123]
+                    - heading "Category 1 Thermography (Classroom)" [level=2] [ref=e124]
+                  - link "View Product" [ref=e127] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-1-thermography-classroom/
+          - group "4 / 82" [ref=e128]:
+            - list [ref=e129]:
+              - listitem [ref=e130]:
+                - generic [ref=e131]:
+                  - link "Category 2 Thermography (Classroom) Category 2 Thermography (Classroom)" [ref=e132] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-2-thermography-classroom/
+                    - img "Category 2 Thermography (Classroom)" [ref=e134]
+                    - heading "Category 2 Thermography (Classroom)" [level=2] [ref=e135]
+                  - link "View Product" [ref=e138] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-2-thermography-classroom/
+          - group "5 / 82" [ref=e139]:
+            - list [ref=e140]:
+              - listitem [ref=e141]:
+                - generic [ref=e142]:
+                  - link "Category 3 Thermography (Classroom) Category 3 Thermography (Classroom)" [ref=e143] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-3-thermography-classroom/
+                    - img "Category 3 Thermography (Classroom)" [ref=e145]
+                    - heading "Category 3 Thermography (Classroom)" [level=2] [ref=e146]
+                  - link "View Product" [ref=e149] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-courses/category-3-thermography-classroom/
+          - group "6 / 82" [ref=e150]:
+            - list [ref=e151]:
+              - listitem [ref=e152]:
+                - generic [ref=e153]:
+                  - link "Advanced Professional Development Learning Course in Understanding the Use of UAVs in Construction Advanced Professional Development Learning Course in Understanding the Use of UAVs in Construction" [ref=e154] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-using-uavs-in-construction/
+                    - img "Advanced Professional Development Learning Course in Understanding the Use of UAVs in Construction" [ref=e156]
+                    - heading "Advanced Professional Development Learning Course in Understanding the Use of UAVs in Construction" [level=2] [ref=e157]
+                  - link "View Product" [ref=e160] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-using-uavs-in-construction/
+          - group "7 / 82" [ref=e161]:
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - generic [ref=e164]:
+                  - link "TAK Essentials for Public Safety Professionals TAK Essentials for Public Safety Professionals" [ref=e165] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/tak-essentials-for-public-safety-professionals/
+                    - img "TAK Essentials for Public Safety Professionals" [ref=e167]
+                    - heading "TAK Essentials for Public Safety Professionals" [level=2] [ref=e168]
+                  - link "View Product" [ref=e171] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/tak-essentials-for-public-safety-professionals/
+          - group "8 / 82" [ref=e172]:
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - generic [ref=e175]:
+                  - link "Ofqual 5 Qualification - TQUK Accredited Ofqual 5 Qualification - TQUK Accredited" [ref=e176] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/change-to-ofqual-5-qualification-tquk-accredited/
+                    - img "Ofqual 5 Qualification - TQUK Accredited" [ref=e178]
+                    - heading "Ofqual 5 Qualification - TQUK Accredited" [level=2] [ref=e179]
+                  - link "View Product" [ref=e182] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/change-to-ofqual-5-qualification-tquk-accredited/
+          - group "9 / 82" [ref=e183]:
+            - list [ref=e184]:
+              - listitem [ref=e185]:
+                - generic [ref=e186]:
+                  - link "GVC Renewal Course GVC Renewal Course" [ref=e187] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-renewal-course/
+                    - img "GVC Renewal Course" [ref=e189]
+                    - heading "GVC Renewal Course" [level=2] [ref=e190]
+                  - link "View Product" [ref=e193] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-renewal-course/
+          - group "10 / 82" [ref=e194]:
+            - list [ref=e195]:
+              - listitem [ref=e196]:
+                - generic [ref=e197]:
+                  - link "How to use UAVs in urban environments How to use UAVs in urban environments" [ref=e198] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-urban-environments/
+                    - img "How to use UAVs in urban environments" [ref=e200]
+                    - heading "How to use UAVs in urban environments" [level=2] [ref=e201]
+                  - link "View Product" [ref=e204] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-urban-environments/
+          - group "11 / 82" [ref=e205]:
+            - list [ref=e206]:
+              - listitem [ref=e207]:
+                - generic [ref=e208]:
+                  - link "How to use UAVs in agriculture How to use UAVs in agriculture" [ref=e209] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-agriculture/
+                    - img "How to use UAVs in agriculture" [ref=e211]
+                    - heading "How to use UAVs in agriculture" [level=2] [ref=e212]
+                  - link "View Product" [ref=e215] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-agriculture/
+          - group "12 / 82" [ref=e216]:
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - generic [ref=e219]:
+                  - link "How to utilise UAVs and BIM How to utilise UAVs and BIM" [ref=e220] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-utilise-uavs-and-bim/
+                    - img "How to utilise UAVs and BIM" [ref=e222]
+                    - heading "How to utilise UAVs and BIM" [level=2] [ref=e223]
+                  - link "View Product" [ref=e226] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-utilise-uavs-and-bim/
+          - group "13 / 82" [ref=e227]:
+            - list [ref=e228]:
+              - listitem [ref=e229]:
+                - generic [ref=e230]:
+                  - link "Mastering the Phase One Mastering the Phase One" [ref=e231] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-phase-one/
+                    - img "Mastering the Phase One" [ref=e233]
+                    - heading "Mastering the Phase One" [level=2] [ref=e234]
+                  - link "View Product" [ref=e237] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-phase-one/
+          - group "14 / 82" [ref=e238]:
+            - list [ref=e239]:
+              - listitem [ref=e240]:
+                - generic [ref=e241]:
+                  - link "Technical & Maintenance Support for Sky Hero Loki MKII Technical & Maintenance Support for Sky Hero Loki MKII" [ref=e242] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/technical-maintenance-support-for-sky-hero-loki-mkii/
+                    - img "Technical & Maintenance Support for Sky Hero Loki MKII" [ref=e244]
+                    - heading "Technical & Maintenance Support for Sky Hero Loki MKII" [level=2] [ref=e245]
+                  - link "View Product" [ref=e248] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/technical-maintenance-support-for-sky-hero-loki-mkii/
+          - group "15 / 82" [ref=e249]:
+            - list [ref=e250]:
+              - listitem [ref=e251]:
+                - generic [ref=e252]:
+                  - link "Technical & Maintenance Support for Parrot Products Technical & Maintenance Support for Parrot Products" [ref=e253] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/technical-maintenance-support-for-parrot-products/
+                    - img "Technical & Maintenance Support for Parrot Products" [ref=e255]
+                    - heading "Technical & Maintenance Support for Parrot Products" [level=2] [ref=e256]
+                  - link "View Product" [ref=e259] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/technical-maintenance-support-for-parrot-products/
+          - group "16 / 82" [ref=e260]:
+            - list [ref=e261]:
+              - listitem [ref=e262]:
+                - generic [ref=e263]:
+                  - link "Technical & Maintenance Support for DJI Products Technical & Maintenance Support for DJI Products" [ref=e264] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/technical-maintenance-support-for-dji-products/
+                    - img "Technical & Maintenance Support for DJI Products" [ref=e266]
+                    - heading "Technical & Maintenance Support for DJI Products" [level=2] [ref=e267]
+                  - link "View Product" [ref=e270] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/technical-maintenance-support-for-dji-products/
+          - group "17 / 82" [ref=e271]:
+            - list [ref=e272]:
+              - listitem [ref=e273]:
+                - generic [ref=e274]:
+                  - link "Mastering the WingtraOne Gen II Mastering the WingtraOne Gen II" [ref=e275] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-wingtraone-gen-ii/
+                    - img "Mastering the WingtraOne Gen II" [ref=e277]
+                    - heading "Mastering the WingtraOne Gen II" [level=2] [ref=e278]
+                  - link "View Product" [ref=e281] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-wingtraone-gen-ii/
+          - group "18 / 82" [ref=e282]:
+            - list [ref=e283]:
+              - listitem [ref=e284]:
+                - generic [ref=e285]:
+                  - link "How to use UAVs in Unmanned Traffic Management systems How to use UAVs in Unmanned Traffic Management systems" [ref=e286] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-unmanned-traffic-management-systems/
+                    - img "How to use UAVs in Unmanned Traffic Management systems" [ref=e288]
+                    - heading "How to use UAVs in Unmanned Traffic Management systems" [level=2] [ref=e289]
+                  - link "View Product" [ref=e292] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-unmanned-traffic-management-systems/
+          - group "19 / 82" [ref=e293]:
+            - list [ref=e294]:
+              - listitem [ref=e295]:
+                - generic [ref=e296]:
+                  - link "How to use UAVs in maritime operations How to use UAVs in maritime operations" [ref=e297] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-maritime-operations/
+                    - img "How to use UAVs in maritime operations" [ref=e299]
+                    - heading "How to use UAVs in maritime operations" [level=2] [ref=e300]
+                  - link "View Product" [ref=e303] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-maritime-operations/
+          - group "20 / 82" [ref=e304]:
+            - list [ref=e305]:
+              - listitem [ref=e306]:
+                - generic [ref=e307]:
+                  - link "How to use UAVs in police operations How to use UAVs in police operations" [ref=e308] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-police-operations/
+                    - img "How to use UAVs in police operations" [ref=e310]
+                    - heading "How to use UAVs in police operations" [level=2] [ref=e311]
+                  - link "View Product" [ref=e314] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-police-operations/
+          - group "21 / 82" [ref=e315]:
+            - list [ref=e316]:
+              - listitem [ref=e317]:
+                - generic [ref=e318]:
+                  - link "Advanced Professional Development Learning Course in Understanding Thermography Advanced Professional Development Learning Course in Understanding Thermography" [ref=e319] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-specialist-in-thermography/
+                    - img "Advanced Professional Development Learning Course in Understanding Thermography" [ref=e321]
+                    - heading "Advanced Professional Development Learning Course in Understanding Thermography" [level=2] [ref=e322]
+                  - link "View Product" [ref=e325] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-specialist-in-thermography/
+          - group "22 / 82" [ref=e326]:
+            - list [ref=e327]:
+              - listitem [ref=e328]:
+                - generic [ref=e329]:
+                  - link "Complete Knowledge of UAV Regulations Complete Knowledge of UAV Regulations" [ref=e330] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-uavs-regulations/
+                    - img "Complete Knowledge of UAV Regulations" [ref=e332]
+                    - heading "Complete Knowledge of UAV Regulations" [level=2] [ref=e333]
+                  - link "View Product" [ref=e336] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-uavs-regulations/
+          - group "23 / 82" [ref=e337]:
+            - list [ref=e338]:
+              - listitem [ref=e339]:
+                - generic [ref=e340]:
+                  - link "Complete Knowledge of Gas Monitoring and Detection with UAVs Complete Knowledge of Gas Monitoring and Detection with UAVs" [ref=e341] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-gas-monitoring-and-detection-with-uavs/
+                    - img "Complete Knowledge of Gas Monitoring and Detection with UAVs" [ref=e343]
+                    - heading "Complete Knowledge of Gas Monitoring and Detection with UAVs" [level=2] [ref=e344]
+                  - link "View Product" [ref=e347] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-gas-monitoring-and-detection-with-uavs/
+          - group "24 / 82" [ref=e348]:
+            - list [ref=e349]:
+              - listitem [ref=e350]:
+                - generic [ref=e351]:
+                  - link "CRM (Crew Resource Management) for Drone Operarions CRM (Crew Resource Management) for Drone Operarions" [ref=e352] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/crm-crew-resource-management-for-drone-operarions/
+                    - img "CRM (Crew Resource Management) for Drone Operarions" [ref=e354]
+                    - heading "CRM (Crew Resource Management) for Drone Operarions" [level=2] [ref=e355]
+                  - link "View Product" [ref=e358] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/crm-crew-resource-management-for-drone-operarions/
+          - group "25 / 82" [ref=e359]:
+            - list [ref=e360]:
+              - listitem [ref=e361]:
+                - generic [ref=e362]:
+                  - link "Advanced Professional Development Learning Course in Understanding BVLOS and BVLOS VM Advanced Professional Development Learning Course in Understanding BVLOS and BVLOS VM" [ref=e363] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-complete-knowledge-of-bvlos-and-evlos/
+                    - img "Advanced Professional Development Learning Course in Understanding BVLOS and BVLOS VM" [ref=e365]
+                    - heading "Advanced Professional Development Learning Course in Understanding BVLOS and BVLOS VM" [level=2] [ref=e366]
+                  - link "View Product" [ref=e369] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-complete-knowledge-of-bvlos-and-evlos/
+          - group "26 / 82" [ref=e370]:
+            - list [ref=e371]:
+              - listitem [ref=e372]:
+                - generic [ref=e373]:
+                  - link "Project Management of Large Scale UAV Operations Project Management of Large Scale UAV Operations" [ref=e374] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-project-management-of-large-scale-uav-operations/
+                    - img "Project Management of Large Scale UAV Operations" [ref=e376]
+                    - heading "Project Management of Large Scale UAV Operations" [level=2] [ref=e377]
+                  - link "View Product" [ref=e380] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-project-management-of-large-scale-uav-operations/
+          - group "27 / 82" [ref=e381]:
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - generic [ref=e384]:
+                  - link "Complete Guide to Starting a Commercial UAV Business Complete Guide to Starting a Commercial UAV Business" [ref=e385] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-guide-to-starting-a-commercial-uav-business/
+                    - img "Complete Guide to Starting a Commercial UAV Business" [ref=e387]
+                    - heading "Complete Guide to Starting a Commercial UAV Business" [level=2] [ref=e388]
+                  - link "View Product" [ref=e391] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-guide-to-starting-a-commercial-uav-business/
+          - group "28 / 82" [ref=e392]:
+            - list [ref=e393]:
+              - listitem [ref=e394]:
+                - generic [ref=e395]:
+                  - link "How to use UAVs in environmental science How to use UAVs in environmental science" [ref=e396] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-environmental-science/
+                    - img "How to use UAVs in environmental science" [ref=e398]
+                    - heading "How to use UAVs in environmental science" [level=2] [ref=e399]
+                  - link "View Product" [ref=e402] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-environmental-science/
+          - group "29 / 82" [ref=e403]:
+            - list [ref=e404]:
+              - listitem [ref=e405]:
+                - generic [ref=e406]:
+                  - link "Advanced Professional Development Learning Course in Understanding UAV Surveying Advanced Professional Development Learning Course in Understanding UAV Surveying" [ref=e407] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-complete-knowledge-of-uav-surveying/
+                    - img "Advanced Professional Development Learning Course in Understanding UAV Surveying" [ref=e409]
+                    - heading "Advanced Professional Development Learning Course in Understanding UAV Surveying" [level=2] [ref=e410]
+                  - link "View Product" [ref=e413] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-complete-knowledge-of-uav-surveying/
+          - group "30 / 82" [ref=e414]:
+            - list [ref=e415]:
+              - listitem [ref=e416]:
+                - generic [ref=e417]:
+                  - link "Parrot Anafi Ai - Pass Plus Exam Parrot Anafi Ai - Pass Plus Exam" [ref=e418] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/parrot-anafi-ai-pass-plus-exam/
+                    - img "Parrot Anafi Ai - Pass Plus Exam" [ref=e420]
+                    - heading "Parrot Anafi Ai - Pass Plus Exam" [level=2] [ref=e421]
+                  - link "View Product" [ref=e424] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/parrot-anafi-ai-pass-plus-exam/
+          - group "31 / 82" [ref=e425]:
+            - list [ref=e426]:
+              - listitem [ref=e427]:
+                - generic [ref=e428]:
+                  - link "How to use UAVs for powerline inspection How to use UAVs for powerline inspection" [ref=e429] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-powerline-inspection/
+                    - img "How to use UAVs for powerline inspection" [ref=e431]
+                    - heading "How to use UAVs for powerline inspection" [level=2] [ref=e432]
+                  - link "View Product" [ref=e435] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-powerline-inspection/
+          - group "32 / 82" [ref=e436]:
+            - list [ref=e437]:
+              - listitem [ref=e438]:
+                - generic [ref=e439]:
+                  - link "Risk Monitoring and Inspection Using UAVs Risk Monitoring and Inspection Using UAVs" [ref=e440] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/to-level-4-risk-monitoring-inspection-using-uavs/
+                    - img "Risk Monitoring and Inspection Using UAVs" [ref=e442]
+                    - heading "Risk Monitoring and Inspection Using UAVs" [level=2] [ref=e443]
+                  - link "View Product" [ref=e446] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/to-level-4-risk-monitoring-inspection-using-uavs/
+          - group "33 / 82" [ref=e447]:
+            - list [ref=e448]:
+              - listitem [ref=e449]:
+                - generic [ref=e450]:
+                  - link "How to use UAVs for search and rescue How to use UAVs for search and rescue" [ref=e451] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-search-and-rescue/
+                    - img "How to use UAVs for search and rescue" [ref=e453]
+                    - heading "How to use UAVs for search and rescue" [level=2] [ref=e454]
+                  - link "View Product" [ref=e457] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-search-and-rescue/
+          - group "34 / 82" [ref=e458]:
+            - list [ref=e459]:
+              - listitem [ref=e460]:
+                - generic [ref=e461]:
+                  - link "How to use UAVs for solar farm inspections How to use UAVs for solar farm inspections" [ref=e462] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-solar-farm-inspections/
+                    - img "How to use UAVs for solar farm inspections" [ref=e464]
+                    - heading "How to use UAVs for solar farm inspections" [level=2] [ref=e465]
+                  - link "View Product" [ref=e468] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-solar-farm-inspections/
+          - group "35 / 82" [ref=e469]:
+            - list [ref=e470]:
+              - listitem [ref=e471]:
+                - generic [ref=e472]:
+                  - link "How to fly UAVs indoors How to fly UAVs indoors" [ref=e473] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-fly-uavs-indoors/
+                    - img "How to fly UAVs indoors" [ref=e475]
+                    - heading "How to fly UAVs indoors" [level=2] [ref=e476]
+                  - link "View Product" [ref=e479] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-fly-uavs-indoors/
+          - group "36 / 82" [ref=e480]:
+            - list [ref=e481]:
+              - listitem [ref=e482]:
+                - generic [ref=e483]:
+                  - link "How to Fly UAVs in Different Seasons How to Fly UAVs in Different Seasons" [ref=e484] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-fly-uavs-in-different-seasons/
+                    - img "How to Fly UAVs in Different Seasons" [ref=e486]
+                    - heading "How to Fly UAVs in Different Seasons" [level=2] [ref=e487]
+                  - link "View Product" [ref=e490] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-fly-uavs-in-different-seasons/
+          - group "37 / 82" [ref=e491]:
+            - list [ref=e492]:
+              - listitem [ref=e493]:
+                - generic [ref=e494]:
+                  - link "Advanced Professional Development Learning Course in Understanding LiDAR Surveys Advanced Professional Development Learning Course in Understanding LiDAR Surveys" [ref=e495] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-lidar-surveys/
+                    - img "Advanced Professional Development Learning Course in Understanding LiDAR Surveys" [ref=e497]
+                    - heading "Advanced Professional Development Learning Course in Understanding LiDAR Surveys" [level=2] [ref=e498]
+                  - link "View Product" [ref=e501] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-lidar-surveys/
+          - group "38 / 82" [ref=e502]:
+            - list [ref=e503]:
+              - listitem [ref=e504]:
+                - generic [ref=e505]:
+                  - link "How to use UAVs in the insurance industry How to use UAVs in the insurance industry" [ref=e506] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-the-insurance-industry/
+                    - img "How to use UAVs in the insurance industry" [ref=e508]
+                    - heading "How to use UAVs in the insurance industry" [level=2] [ref=e509]
+                  - link "View Product" [ref=e512] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-the-insurance-industry/
+          - group "39 / 82" [ref=e513]:
+            - list [ref=e514]:
+              - listitem [ref=e515]:
+                - generic [ref=e516]:
+                  - link "How to use UAVs to inspect offshore assets How to use UAVs to inspect offshore assets" [ref=e517] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-to-inspect-offshore-assests/
+                    - img "How to use UAVs to inspect offshore assets" [ref=e519]
+                    - heading "How to use UAVs to inspect offshore assets" [level=2] [ref=e520]
+                  - link "View Product" [ref=e523] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-to-inspect-offshore-assests/
+          - group "40 / 82" [ref=e524]:
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - generic [ref=e527]:
+                  - link "How to use UAVs in confined spaces and collapsed buildings How to use UAVs in confined spaces and collapsed buildings" [ref=e528] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-confined-spaces-and-collapsed-buildings/
+                    - img "How to use UAVs in confined spaces and collapsed buildings" [ref=e530]
+                    - heading "How to use UAVs in confined spaces and collapsed buildings" [level=2] [ref=e531]
+                  - link "View Product" [ref=e534] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-confined-spaces-and-collapsed-buildings/
+          - group "41 / 82" [ref=e535]:
+            - list [ref=e536]:
+              - listitem [ref=e537]:
+                - generic [ref=e538]:
+                  - link "How to Manage Incidents Involving UAVs How to Manage Incidents Involving UAVs" [ref=e539] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-managing-incidents-involving-uavs/
+                    - img "How to Manage Incidents Involving UAVs" [ref=e541]
+                    - heading "How to Manage Incidents Involving UAVs" [level=2] [ref=e542]
+                  - link "View Product" [ref=e545] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-managing-incidents-involving-uavs/
+          - group "42 / 82" [ref=e546]:
+            - list [ref=e547]:
+              - listitem [ref=e548]:
+                - generic [ref=e549]:
+                  - link "Complete Knowledge of BVLOS Complete Knowledge of BVLOS" [ref=e550] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-evlos/
+                    - img "Complete Knowledge of BVLOS" [ref=e552]
+                    - heading "Complete Knowledge of BVLOS" [level=2] [ref=e553]
+                  - link "View Product" [ref=e556] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-evlos/
+          - group "43 / 82" [ref=e557]:
+            - list [ref=e558]:
+              - listitem [ref=e559]:
+                - generic [ref=e560]:
+                  - link "DJI Mavic 3 Multispectral - Pass Plus Exam DJI Mavic 3 Multispectral - Pass Plus Exam" [ref=e561] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-mavic-3-multispectral-pass-plus-exam/
+                    - img "DJI Mavic 3 Multispectral - Pass Plus Exam" [ref=e563]
+                    - heading "DJI Mavic 3 Multispectral - Pass Plus Exam" [level=2] [ref=e564]
+                  - link "View Product" [ref=e567] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-mavic-3-multispectral-pass-plus-exam/
+          - group "44 / 82" [ref=e568]:
+            - list [ref=e569]:
+              - listitem [ref=e570]:
+                - generic [ref=e571]:
+                  - link "DJI Mavic 3 Enterprise – Pass Plus Exam DJI Mavic 3 Enterprise – Pass Plus Exam" [ref=e572] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-mavic-3-enterprise-series-pass-plus-exam/
+                    - img "DJI Mavic 3 Enterprise – Pass Plus Exam" [ref=e574]
+                    - heading "DJI Mavic 3 Enterprise – Pass Plus Exam" [level=2] [ref=e575]
+                  - link "View Product" [ref=e578] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-mavic-3-enterprise-series-pass-plus-exam/
+          - group "45 / 82" [ref=e579]:
+            - list [ref=e580]:
+              - listitem [ref=e581]:
+                - generic [ref=e582]:
+                  - link "Mastering the DJI Matrice 30 Series Mastering the DJI Matrice 30 Series" [ref=e583] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-matrice-30-series/
+                    - img "Mastering the DJI Matrice 30 Series" [ref=e585]
+                    - heading "Mastering the DJI Matrice 30 Series" [level=2] [ref=e586]
+                  - link "View Product" [ref=e589] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-matrice-30-series/
+          - group "46 / 82" [ref=e590]:
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - generic [ref=e593]:
+                  - link "DJI Matrice 30 Series – Pass Plus Exam DJI Matrice 30 Series – Pass Plus Exam" [ref=e594] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-matrice-30-series-pass-plus-exam/
+                    - img "DJI Matrice 30 Series – Pass Plus Exam" [ref=e596]
+                    - heading "DJI Matrice 30 Series – Pass Plus Exam" [level=2] [ref=e597]
+                  - link "View Product" [ref=e600] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-matrice-30-series-pass-plus-exam/
+          - group "47 / 82" [ref=e601]:
+            - list [ref=e602]:
+              - listitem [ref=e603]:
+                - generic [ref=e604]:
+                  - link "Mastering the DJI Matrice 350 RTK Mastering the DJI Matrice 350 RTK" [ref=e605] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-matrice-350-rtk-2/
+                    - img "Mastering the DJI Matrice 350 RTK" [ref=e607]
+                    - heading "Mastering the DJI Matrice 350 RTK" [level=2] [ref=e608]
+                  - link "View Product" [ref=e611] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-matrice-350-rtk-2/
+          - group "48 / 82" [ref=e612]:
+            - list [ref=e613]:
+              - listitem [ref=e614]:
+                - generic [ref=e615]:
+                  - link "Mastering the DJI Matrice 300 RTK Mastering the DJI Matrice 300 RTK" [ref=e616] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-matrice-300-rtk/
+                    - img "Mastering the DJI Matrice 300 RTK" [ref=e618]
+                    - heading "Mastering the DJI Matrice 300 RTK" [level=2] [ref=e619]
+                  - link "View Product" [ref=e622] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-matrice-300-rtk/
+          - group "49 / 82" [ref=e623]:
+            - list [ref=e624]:
+              - listitem [ref=e625]:
+                - generic [ref=e626]:
+                  - link "Mastering the DJI H20 Series Mastering the DJI H20 Series" [ref=e627] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-h20-series/
+                    - img "Mastering the DJI H20 Series" [ref=e629]
+                    - heading "Mastering the DJI H20 Series" [level=2] [ref=e630]
+                  - link "View Product" [ref=e633] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-h20-series/
+          - group "50 / 82" [ref=e634]:
+            - list [ref=e635]:
+              - listitem [ref=e636]:
+                - generic [ref=e637]:
+                  - link "Complete Knowledge Of Crime Scene And RTC Mapping With Pix4D Complete Knowledge Of Crime Scene And RTC Mapping With Pix4D" [ref=e638] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-crime-scene-and-rtc-mapping-with-pix4d/
+                    - img "Complete Knowledge Of Crime Scene And RTC Mapping With Pix4D" [ref=e640]
+                    - heading "Complete Knowledge Of Crime Scene And RTC Mapping With Pix4D" [level=2] [ref=e641]
+                  - link "View Product" [ref=e644] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/complete-knowledge-of-crime-scene-and-rtc-mapping-with-pix4d/
+          - group "51 / 82" [ref=e645]:
+            - list [ref=e646]:
+              - listitem [ref=e647]:
+                - generic [ref=e648]:
+                  - link "Mastering internal tactical options with sky hero and typhon Mastering internal tactical options with sky hero and typhon" [ref=e649] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-internal-tactical-options-with-sky-hero-and-typhon/
+                    - img "Mastering internal tactical options with sky hero and typhon" [ref=e651]
+                    - heading "Mastering internal tactical options with sky hero and typhon" [level=2] [ref=e652]
+                  - link "View Product" [ref=e655] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-internal-tactical-options-with-sky-hero-and-typhon/
+          - group "52 / 82" [ref=e656]:
+            - list [ref=e657]:
+              - listitem [ref=e658]:
+                - generic [ref=e659]:
+                  - link "How to Carry Dangerous Goods with UAVs How to Carry Dangerous Goods with UAVs" [ref=e660] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-carry-dangerous-goods-with-uavs/
+                    - img "How to Carry Dangerous Goods with UAVs" [ref=e662]
+                    - heading "How to Carry Dangerous Goods with UAVs" [level=2] [ref=e663]
+                  - link "View Product" [ref=e666] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-carry-dangerous-goods-with-uavs/
+          - group "53 / 82" [ref=e667]:
+            - list [ref=e668]:
+              - listitem [ref=e669]:
+                - generic [ref=e670]:
+                  - link "How to Avoid Common UAV Flying Errors How to Avoid Common UAV Flying Errors" [ref=e671] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-avoid-common-uav-flying-errors/
+                    - img "How to Avoid Common UAV Flying Errors" [ref=e673]
+                    - heading "How to Avoid Common UAV Flying Errors" [level=2] [ref=e674]
+                  - link "View Product" [ref=e677] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-avoid-common-uav-flying-errors/
+          - group "54 / 82" [ref=e678]:
+            - list [ref=e679]:
+              - listitem [ref=e680]:
+                - generic [ref=e681]:
+                  - link "How to complete Cell Tower Inspections with UAVs How to complete Cell Tower Inspections with UAVs" [ref=e682] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-complete-cell-tower-inspections-with-uavs/
+                    - img "How to complete Cell Tower Inspections with UAVs" [ref=e684]
+                    - heading "How to complete Cell Tower Inspections with UAVs" [level=2] [ref=e685]
+                  - link "View Product" [ref=e688] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-complete-cell-tower-inspections-with-uavs/
+          - group "55 / 82" [ref=e689]:
+            - list [ref=e690]:
+              - listitem [ref=e691]:
+                - generic [ref=e692]:
+                  - link "How to Complete Bridge Inspections with UAVs How to Complete Bridge Inspections with UAVs" [ref=e693] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-complete-bridge-inspections-with-uavs/
+                    - img "How to Complete Bridge Inspections with UAVs" [ref=e695]
+                    - heading "How to Complete Bridge Inspections with UAVs" [level=2] [ref=e696]
+                  - link "View Product" [ref=e699] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-complete-bridge-inspections-with-uavs/
+          - group "56 / 82" [ref=e700]:
+            - list [ref=e701]:
+              - listitem [ref=e702]:
+                - generic [ref=e703]:
+                  - link "How to Complete Your Operations Manual How to Complete Your Operations Manual" [ref=e704] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-complete-your-operations-manual/
+                    - img "How to Complete Your Operations Manual" [ref=e706]
+                    - heading "How to Complete Your Operations Manual" [level=2] [ref=e707]
+                  - link "View Product" [ref=e710] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-complete-your-operations-manual/
+          - group "57 / 82" [ref=e711]:
+            - list [ref=e712]:
+              - listitem [ref=e713]:
+                - generic [ref=e714]:
+                  - link "Advanced Professional Development Learning Course in Understanding Multispectral UAVs Advanced Professional Development Learning Course in Understanding Multispectral UAVs" [ref=e715] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-specialist-in-multispectral-uavs/
+                    - img "Advanced Professional Development Learning Course in Understanding Multispectral UAVs" [ref=e717]
+                    - heading "Advanced Professional Development Learning Course in Understanding Multispectral UAVs" [level=2] [ref=e718]
+                  - link "View Product" [ref=e721] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-specialist-in-multispectral-uavs/
+          - group "58 / 82" [ref=e722]:
+            - list [ref=e723]:
+              - listitem [ref=e724]:
+                - generic [ref=e725]:
+                  - link "How to use UAVs for Aerial Drone Photography How to use UAVs for Aerial Drone Photography" [ref=e726] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-aerial-drone-photography/
+                    - img "How to use UAVs for Aerial Drone Photography" [ref=e728]
+                    - heading "How to use UAVs for Aerial Drone Photography" [level=2] [ref=e729]
+                  - link "View Product" [ref=e732] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-aerial-drone-photography/
+          - group "59 / 82" [ref=e733]:
+            - list [ref=e734]:
+              - listitem [ref=e735]:
+                - generic [ref=e736]:
+                  - link "Mastering the DJI Phantom 4 RTK Mastering the DJI Phantom 4 RTK" [ref=e737] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-phantom-4-rtk/
+                    - img "Mastering the DJI Phantom 4 RTK" [ref=e739]
+                    - heading "Mastering the DJI Phantom 4 RTK" [level=2] [ref=e740]
+                  - link "View Product" [ref=e743] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-phantom-4-rtk/
+          - group "60 / 82" [ref=e744]:
+            - list [ref=e745]:
+              - listitem [ref=e746]:
+                - generic [ref=e747]:
+                  - link "How to use UAVs for internal filming and photography How to use UAVs for internal filming and photography" [ref=e748] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-internal-filming-and-photography/
+                    - img "How to use UAVs for internal filming and photography" [ref=e750]
+                    - heading "How to use UAVs for internal filming and photography" [level=2] [ref=e751]
+                  - link "View Product" [ref=e754] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-for-internal-filming-and-photography/
+          - group "61 / 82" [ref=e755]:
+            - list [ref=e756]:
+              - listitem [ref=e757]:
+                - generic [ref=e758]:
+                  - link "Human Factors in uncrewed aerospace Human Factors in uncrewed aerospace" [ref=e759] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/human-factors-in-uncrewed-aerospace/
+                    - img "Human Factors in uncrewed aerospace" [ref=e761]
+                    - heading "Human Factors in uncrewed aerospace" [level=2] [ref=e762]
+                  - link "View Product" [ref=e765] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/human-factors-in-uncrewed-aerospace/
+          - group "62 / 82" [ref=e766]:
+            - list [ref=e767]:
+              - listitem [ref=e768]:
+                - generic [ref=e769]:
+                  - link "Advanced Professional Development Learning Course in Understanding Health and Safety in the UAV Industry Advanced Professional Development Learning Course in Understanding Health and Safety in the UAV Industry" [ref=e770] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-complete-knowledge-of-health-and-safety-in-the-uavs-industry/
+                    - img "Advanced Professional Development Learning Course in Understanding Health and Safety in the UAV Industry" [ref=e772]
+                    - heading "Advanced Professional Development Learning Course in Understanding Health and Safety in the UAV Industry" [level=2] [ref=e773]
+                  - link "View Product" [ref=e776] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/level-4-complete-knowledge-of-health-and-safety-in-the-uavs-industry/
+          - group "63 / 82" [ref=e777]:
+            - list [ref=e778]:
+              - listitem [ref=e779]:
+                - generic [ref=e780]:
+                  - link "Flyability Elios 3 - Pass Plus Exam Flyability Elios 3 - Pass Plus Exam" [ref=e781] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/flyability-elios-3-pass-plus-exam/
+                    - img "Flyability Elios 3 - Pass Plus Exam" [ref=e783]
+                    - heading "Flyability Elios 3 - Pass Plus Exam" [level=2] [ref=e784]
+                  - link "View Product" [ref=e787] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/flyability-elios-3-pass-plus-exam/
+          - group "64 / 82" [ref=e788]:
+            - list [ref=e789]:
+              - listitem [ref=e790]:
+                - generic [ref=e791]:
+                  - link "Mastering the Flyability Elios 2 Mastering the Flyability Elios 2" [ref=e792] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-flyability-elios-2/
+                    - img "Mastering the Flyability Elios 2" [ref=e794]
+                    - heading "Mastering the Flyability Elios 2" [level=2] [ref=e795]
+                  - link "View Product" [ref=e798] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-flyability-elios-2/
+          - group "65 / 82" [ref=e799]:
+            - list [ref=e800]:
+              - listitem [ref=e801]:
+                - generic [ref=e802]:
+                  - link "How to use UAVs in Estate Management How to use UAVs in Estate Management" [ref=e803] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-estate-management/
+                    - img "How to use UAVs in Estate Management" [ref=e805]
+                    - heading "How to use UAVs in Estate Management" [level=2] [ref=e806]
+                  - link "View Product" [ref=e809] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-estate-management/
+          - group "66 / 82" [ref=e810]:
+            - list [ref=e811]:
+              - listitem [ref=e812]:
+                - generic [ref=e813]:
+                  - link "Mastering the Emesent Hovermap Mastering the Emesent Hovermap" [ref=e814] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-emesent-hovermap/
+                    - img "Mastering the Emesent Hovermap" [ref=e816]
+                    - heading "Mastering the Emesent Hovermap" [level=2] [ref=e817]
+                  - link "View Product" [ref=e820] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-emesent-hovermap/
+          - group "67 / 82" [ref=e821]:
+            - list [ref=e822]:
+              - listitem [ref=e823]:
+                - generic [ref=e824]:
+                  - link "Emesent Hovermap – Pass Plus Exam Emesent Hovermap – Pass Plus Exam" [ref=e825] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/emesent-hovermap-pass-plus-exam/
+                    - img "Emesent Hovermap – Pass Plus Exam" [ref=e827]
+                    - heading "Emesent Hovermap – Pass Plus Exam" [level=2] [ref=e828]
+                  - link "View Product" [ref=e831] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/emesent-hovermap-pass-plus-exam/
+          - group "68 / 82" [ref=e832]:
+            - list [ref=e833]:
+              - listitem [ref=e834]:
+                - generic [ref=e835]:
+                  - link "How to use UAVs in wildlife conservation How to use UAVs in wildlife conservation" [ref=e836] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-wildlife-conservation/
+                    - img "How to use UAVs in wildlife conservation" [ref=e838]
+                    - heading "How to use UAVs in wildlife conservation" [level=2] [ref=e839]
+                  - link "View Product" [ref=e842] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-wildlife-conservation/
+          - group "69 / 82" [ref=e843]:
+            - list [ref=e844]:
+              - listitem [ref=e845]:
+                - generic [ref=e846]:
+                  - link "How to use UAVs in TV and Film How to use UAVs in TV and Film" [ref=e847] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-tv-and-film/
+                    - img "How to use UAVs in TV and Film" [ref=e849]
+                    - heading "How to use UAVs in TV and Film" [level=2] [ref=e850]
+                  - link "View Product" [ref=e853] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-tv-and-film/
+          - group "70 / 82" [ref=e854]:
+            - list [ref=e855]:
+              - listitem [ref=e856]:
+                - generic [ref=e857]:
+                  - link "How to use UAVs in heritage conservation How to use UAVs in heritage conservation" [ref=e858] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-heritage-conservation/
+                    - img "How to use UAVs in heritage conservation" [ref=e860]
+                    - heading "How to use UAVs in heritage conservation" [level=2] [ref=e861]
+                  - link "View Product" [ref=e864] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/how-to-use-uavs-in-heritage-conservation/
+          - group "71 / 82" [ref=e865]:
+            - list [ref=e866]:
+              - listitem [ref=e867]:
+                - generic [ref=e868]:
+                  - link "DJI Zenmuse P1 – Pass Plus Exam DJI Zenmuse P1 – Pass Plus Exam" [ref=e869] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-zenmuse-p1-pass-plus-exam/
+                    - img "DJI Zenmuse P1 – Pass Plus Exam" [ref=e871]
+                    - heading "DJI Zenmuse P1 – Pass Plus Exam" [level=2] [ref=e872]
+                  - link "View Product" [ref=e875] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-zenmuse-p1-pass-plus-exam/
+          - group "72 / 82" [ref=e876]:
+            - list [ref=e877]:
+              - listitem [ref=e878]:
+                - generic [ref=e879]:
+                  - link "Mastering the DJI Zenmuse L1 Mastering the DJI Zenmuse L1" [ref=e880] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-zenmuse-l1/
+                    - img "Mastering the DJI Zenmuse L1" [ref=e882]
+                    - heading "Mastering the DJI Zenmuse L1" [level=2] [ref=e883]
+                  - link "View Product" [ref=e886] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-zenmuse-l1/
+          - group "73 / 82" [ref=e887]:
+            - list [ref=e888]:
+              - listitem [ref=e889]:
+                - generic [ref=e890]:
+                  - link "DJI Zenmuse L1 – Pass Plus Exam DJI Zenmuse L1 – Pass Plus Exam" [ref=e891] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-zenmuse-l1-pass-plus-exam/
+                    - img "DJI Zenmuse L1 – Pass Plus Exam" [ref=e893]
+                    - heading "DJI Zenmuse L1 – Pass Plus Exam" [level=2] [ref=e894]
+                  - link "View Product" [ref=e897] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-zenmuse-l1-pass-plus-exam/
+          - group "74 / 82" [ref=e898]:
+            - list [ref=e899]:
+              - listitem [ref=e900]:
+                - generic [ref=e901]:
+                  - link "Mastering the DJI Mavic 3 Multispectral Mastering the DJI Mavic 3 Multispectral" [ref=e902] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-mavic-3-multispectral/
+                    - img "Mastering the DJI Mavic 3 Multispectral" [ref=e904]
+                    - heading "Mastering the DJI Mavic 3 Multispectral" [level=2] [ref=e905]
+                  - link "View Product" [ref=e908] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/mastering-the-dji-mavic-3-multispectral/
+          - group "75 / 82" [ref=e909]:
+            - list [ref=e910]:
+              - listitem [ref=e911]:
+                - generic [ref=e912]:
+                  - link "Mastering the DJI Mavic 3 Mastering the DJI Mavic 3" [ref=e913] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-mavic-3-model-specific-online-training-course/
+                    - img "Mastering the DJI Mavic 3" [ref=e915]
+                    - heading "Mastering the DJI Mavic 3" [level=2] [ref=e916]
+                  - link "View Product" [ref=e919] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-mavic-3-model-specific-online-training-course/
+          - group "76 / 82" [ref=e920]:
+            - list [ref=e921]:
+              - listitem [ref=e922]:
+                - generic [ref=e923]:
+                  - link "Complete Knowledge Of Thermography Complete Knowledge Of Thermography" [ref=e924] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-essentials-online-training-course/
+                    - img "Complete Knowledge Of Thermography" [ref=e926]
+                    - heading "Complete Knowledge Of Thermography" [level=2] [ref=e927]
+                  - link "View Product" [ref=e930] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/thermography-essentials-online-training-course/
+          - group "77 / 82" [ref=e931]:
+            - list [ref=e932]:
+              - listitem [ref=e933]:
+                - generic [ref=e934]:
+                  - link "Parrot Anafi Ai Model Specific Online Training Course Parrot Anafi Ai Model Specific Online Training Course" [ref=e935] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/parrot-anafi-ai-model-specific-online-training-course/
+                    - img "Parrot Anafi Ai Model Specific Online Training Course" [ref=e937]
+                    - heading "Parrot Anafi Ai Model Specific Online Training Course" [level=2] [ref=e938]
+                  - link "View Product" [ref=e941] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/parrot-anafi-ai-model-specific-online-training-course/
+          - group "78 / 82" [ref=e942]:
+            - list [ref=e943]:
+              - listitem [ref=e944]:
+                - generic [ref=e945]:
+                  - link "Parrot Anafi USA Model Specific Online Training Course Parrot Anafi USA Model Specific Online Training Course" [ref=e946] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/parrot-anafi-usa-model-specific-online-training-course/
+                    - img "Parrot Anafi USA Model Specific Online Training Course" [ref=e948]
+                    - heading "Parrot Anafi USA Model Specific Online Training Course" [level=2] [ref=e949]
+                  - link "View Product" [ref=e952] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/parrot-anafi-usa-model-specific-online-training-course/
+          - group "79 / 82" [ref=e953]:
+            - list [ref=e954]:
+              - listitem [ref=e955]:
+                - generic [ref=e956]:
+                  - link "Flyability Elios 3 Model Specific Online Training Course Flyability Elios 3 Model Specific Online Training Course" [ref=e957] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/flyability-elios-3-model-specific-online-training-course/
+                    - img "Flyability Elios 3 Model Specific Online Training Course" [ref=e959]
+                    - heading "Flyability Elios 3 Model Specific Online Training Course" [level=2] [ref=e960]
+                  - link "View Product" [ref=e963] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/flyability-elios-3-model-specific-online-training-course/
+          - group "80 / 82" [ref=e964]:
+            - list [ref=e965]:
+              - listitem [ref=e966]:
+                - generic [ref=e967]:
+                  - link "DJI Zenmuse P1 Model Specific Online Training Course DJI Zenmuse P1 Model Specific Online Training Course" [ref=e968] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-zenmuse-p1-model-specific-online-training-course/
+                    - img "DJI Zenmuse P1 Model Specific Online Training Course" [ref=e970]
+                    - heading "DJI Zenmuse P1 Model Specific Online Training Course" [level=2] [ref=e971]
+                  - link "View Product" [ref=e974] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/dji-zenmuse-p1-model-specific-online-training-course/
+          - group "81 / 82" [ref=e975]:
+            - list [ref=e976]:
+              - listitem [ref=e977]:
+                - generic [ref=e978]:
+                  - link "GVC Online + A2 CofC Training Course Bundle GVC Online + A2 CofC Training Course Bundle" [ref=e979] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-online-and-a2-cofc-training-bundle/
+                    - img "GVC Online + A2 CofC Training Course Bundle" [ref=e981]
+                    - heading "GVC Online + A2 CofC Training Course Bundle" [level=2] [ref=e982]
+                  - link "View Product" [ref=e985] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-online-and-a2-cofc-training-bundle/
+          - group "82 / 82" [ref=e986]:
+            - list [ref=e987]:
+              - listitem [ref=e988]:
+                - generic [ref=e989]:
+                  - link "A2 CofC – Certificate of Competency Drone Training Course A2 CofC – Certificate of Competency Drone Training Course" [ref=e990] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/a2-cofc-drone-training-course/
+                    - img "A2 CofC – Certificate of Competency Drone Training Course" [ref=e992]
+                    - heading "A2 CofC – Certificate of Competency Drone Training Course" [level=2] [ref=e993]
+                  - link "View Product" [ref=e996] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/a2-cofc-drone-training-course/
+        - generic [ref=e1000]:
+          - button "Previous slide" [ref=e1001] [cursor=pointer]: prev
+          - button "Next slide" [ref=e1002] [cursor=pointer]: next
+      - generic [ref=e1010]:
+        - heading "Download our FREE Drone Regulations Guide" [level=2] [ref=e1011]
+        - paragraph [ref=e1013]: This guide details UK drone regulations, including operation types, risk levels, and performance requirements. Learn about obtaining certifications like the A2 Certificate of Competency and the General Visual Line of Sight Certificate (GVC).
+        - link "Download Guide" [ref=e1017] [cursor=pointer]:
+          - /url: https://coptrz.com/guides/drone-regulations/
+      - generic [ref=e1024]:
+        - heading "Why choose Coptrz academy?" [level=2] [ref=e1025]
+        - generic [ref=e1026]:
+          - generic [ref=e1028]:
+            - img [ref=e1030]
+            - heading "Cloud Based" [level=4] [ref=e1032]
+            - paragraph [ref=e1034]: "Elevate Your Learning Experience: Access your courses anytime, anywhere with our secure and flexible cloud-based platform."
+          - generic [ref=e1036]:
+            - img [ref=e1038]
+            - heading "Dashboards" [level=4] [ref=e1040]
+            - paragraph [ref=e1042]: "Empower Your Team: Monitor progress, track performance, and manage your team efficiently with our intuitive employee dashboards."
+          - generic [ref=e1044]:
+            - img [ref=e1046]
+            - heading "AI Enhanced" [level=4] [ref=e1050]
+            - paragraph [ref=e1052]: "Unlock Your Potential: Leverage the power of Artificial Intelligence to optimize your learning experience and achieve your goals faster."
+          - generic [ref=e1054]:
+            - img [ref=e1056]
+            - heading "Course Library" [level=4] [ref=e1060]
+            - paragraph [ref=e1062]: Access a wide range of courses across multiple disciplines to expand your knowledge and skills.
+          - generic [ref=e1064]:
+            - img [ref=e1066]
+            - heading "Curriculum" [level=4] [ref=e1072]
+            - paragraph [ref=e1074]: Our curriculum is constantly updated to reflect the latest trends, tools, and best practices in the industry.
+          - generic [ref=e1076]:
+            - img [ref=e1078]
+            - heading "Resources" [level=4] [ref=e1080]
+            - paragraph [ref=e1082]: Resources are included for a comprehensive learning experience.
+        - button "Enquire Now" [ref=e1086] [cursor=pointer]
+    - generic [ref=e1097]:
+      - heading "Latest From Coptrz" [level=2] [ref=e1098]
+      - generic [ref=e1100]:
+        - generic [ref=e1102]:
+          - link "Uncategorized" [ref=e1105] [cursor=pointer]:
+            - /url: https://coptrz.com/blog/category/uncategorized/
+          - generic [ref=e1106]:
+            - generic [ref=e1107]:
+              - text: "17"
+              - superscript [ref=e1108]: th
+              - text: February
+            - 'link "Emesent GX1: The World’s Most Accurate RTK SLAM Mobile LiDAR Scanner" [ref=e1109] [cursor=pointer]':
+              - /url: https://coptrz.com/blog/emesent-gx1-the-worlds-most-accurate-rtk-slam-mobile-lidar-scanner/
+              - 'heading "Emesent GX1: The World’s Most Accurate RTK SLAM Mobile LiDAR Scanner" [level=3] [ref=e1110]'
+            - link "Read the Article" [ref=e1112] [cursor=pointer]:
+              - /url: https://coptrz.com/blog/emesent-gx1-the-worlds-most-accurate-rtk-slam-mobile-lidar-scanner/
+        - generic [ref=e1114]:
+          - link "Uncategorized" [ref=e1117] [cursor=pointer]:
+            - /url: https://coptrz.com/blog/category/uncategorized/
+          - generic [ref=e1118]:
+            - generic [ref=e1119]:
+              - text: "21"
+              - superscript [ref=e1120]: st
+              - text: January
+            - link "The Hidden Cost of Poor DJI Drone Maintenance (And How to Avoid It)" [ref=e1121] [cursor=pointer]:
+              - /url: https://coptrz.com/blog/the-hidden-cost-of-poor-dji-drone-maintenance-and-how-to-avoid-it/
+              - heading "The Hidden Cost of Poor DJI Drone Maintenance (And How to Avoid It)" [level=3] [ref=e1122]
+            - link "Read the Article" [ref=e1124] [cursor=pointer]:
+              - /url: https://coptrz.com/blog/the-hidden-cost-of-poor-dji-drone-maintenance-and-how-to-avoid-it/
+        - generic [ref=e1126]:
+          - link [ref=e1128] [cursor=pointer]:
+            - /url: https://coptrz.com/shop/drones/dji-matrice-400/
+          - generic [ref=e1129]:
+            - generic [ref=e1130]: NEW
+            - link "DJI Matrice 400" [ref=e1131] [cursor=pointer]:
+              - /url: https://coptrz.com/shop/drones/dji-matrice-400/
+              - heading "DJI Matrice 400" [level=3] [ref=e1132]
+            - link "View Product" [ref=e1134] [cursor=pointer]:
+              - /url: https://coptrz.com/shop/drones/dji-matrice-400/
+        - generic [ref=e1136]:
+          - link [ref=e1138] [cursor=pointer]:
+            - /url: https://coptrz.com/guides/become-a-drone-pilot/
+          - generic [ref=e1139]:
+            - link "Become a Drone Pilot" [ref=e1140] [cursor=pointer]:
+              - /url: https://coptrz.com/guides/become-a-drone-pilot/
+              - heading "Become a Drone Pilot" [level=3] [ref=e1141]
+            - link "Download Guide" [ref=e1143] [cursor=pointer]:
+              - /url: https://coptrz.com/guides/become-a-drone-pilot/
+    - generic [ref=e1147]:
+      - link "4.9 574 reviews" [ref=e1150] [cursor=pointer]:
+        - /url: https://www.reviews.io/company-reviews/store/coptrz.com
+        - generic [ref=e1151]:
+          - generic [ref=e1152]: "4.9"
+          - generic [ref=e1153]:
+            - generic [ref=e1154]:
+              - img [ref=e1155]
+              - img [ref=e1157]
+              - img [ref=e1159]
+              - img [ref=e1161]
+              - img [ref=e1163]
+            - generic [ref=e1165]: 574 reviews
+      - link "4.9 187 reviews" [ref=e1169] [cursor=pointer]:
+        - /url: https://www.google.com/maps/place/Coptrz/@53.6487213,-1.5957807,11z/data=!3m1!5s0x48795c1db6c4a153:0xd84010c469752480!4m12!1m2!2m1!1scoptrz!3m8!1s0x487973db4cfc206f:0x68dbb5ebd344400!8m2!3d53.7991882!4d-1.5476264!9m1!1b1!15sCgZjb3B0cnpaCCIGY29wdHJ6kgERdHJhaW5pbmdfcHJvdmlkZXLgAQA!16s%2Fg%2F11b_3bwv53?entry=ttu
+        - generic [ref=e1170]:
+          - generic [ref=e1171]: "4.9"
+          - generic [ref=e1172]:
+            - generic [ref=e1173]:
+              - img [ref=e1174]
+              - img [ref=e1176]
+              - img [ref=e1178]
+              - img [ref=e1180]
+              - img [ref=e1182]
+            - generic [ref=e1184]: 187 reviews
+    - generic [ref=e1191]:
+      - heading "Unlock your business potential with drone technology" [level=2] [ref=e1194]
+      - button "Enquire Now" [ref=e1200] [cursor=pointer]
+    - generic [ref=e1201]:
+      - generic [ref=e1205]:
+        - link [ref=e1208] [cursor=pointer]:
+          - /url: https://coptrz.com
+          - img [ref=e1210]
+        - list [ref=e1224]:
+          - listitem [ref=e1225]:
+            - link [ref=e1226] [cursor=pointer]:
+              - /url: https://www.facebook.com/coptrz/
+              - img [ref=e1227]
+          - listitem [ref=e1229]:
+            - link [ref=e1230] [cursor=pointer]:
+              - /url: https://www.instagram.com/coptrz/?hl=en
+              - img [ref=e1231]
+          - listitem [ref=e1233]:
+            - link [ref=e1234] [cursor=pointer]:
+              - /url: https://twitter.com/Coptrz?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+              - img [ref=e1235]
+          - listitem [ref=e1237]:
+            - link [ref=e1238] [cursor=pointer]:
+              - /url: https://uk.linkedin.com/company/coptrz
+              - img [ref=e1239]
+          - listitem [ref=e1241]:
+            - link [ref=e1242] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCaSoWnfzOkLf-gVsqqkRZBQ
+              - img [ref=e1243]
+      - generic [ref=e1248]:
+        - generic [ref=e1250]:
+          - heading "About Us" [level=4] [ref=e1251]:
+            - button "About Us"
+          - generic "About Us" [ref=e1252]:
+            - list [ref=e1255]:
+              - listitem [ref=e1256]:
+                - link "Company" [ref=e1257] [cursor=pointer]:
+                  - /url: https://coptrz.com/about-us/
+              - listitem [ref=e1258]:
+                - link "Our Brands" [ref=e1259] [cursor=pointer]:
+                  - /url: https://coptrz.com/brands/
+              - listitem [ref=e1260]:
+                - link "Environment Initiative" [ref=e1261] [cursor=pointer]:
+                  - /url: https://ecologi.com/coptrz
+              - listitem [ref=e1262]:
+                - link "Sitemap" [ref=e1263] [cursor=pointer]:
+                  - /url: https://coptrz.com/sitemap.xml
+        - generic [ref=e1265]:
+          - heading "Solutions" [level=4] [ref=e1266]:
+            - button "Solutions"
+          - generic "Solutions" [ref=e1267]:
+            - list [ref=e1270]:
+              - listitem [ref=e1271]:
+                - link "Asset Integrity & Inspection" [ref=e1272] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/asset-integrity-and-inspection/
+              - listitem [ref=e1273]:
+                - link "Surveying & Construction" [ref=e1274] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/surveying-and-construction/
+              - listitem [ref=e1275]:
+                - link "Public Safety" [ref=e1276] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/public-safety/
+              - listitem [ref=e1277]:
+                - link "Agriculture & Forestry" [ref=e1278] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/agriculture-and-forestry/
+              - listitem [ref=e1279]:
+                - link "Research & Education" [ref=e1280] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/research-and-education/
+              - listitem [ref=e1281]:
+                - link "Energy & Renewables" [ref=e1282] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/energy-and-renewables/
+              - listitem [ref=e1283]:
+                - link "Oil & Gas" [ref=e1284] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/oil-and-gas/
+              - listitem [ref=e1285]:
+                - link "Security" [ref=e1286] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/security/
+              - listitem [ref=e1287]:
+                - link "Government Body" [ref=e1288] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/government-body/
+              - listitem [ref=e1289]:
+                - link "Sport" [ref=e1290] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/sport/
+              - listitem [ref=e1291]:
+                - link "Film & Media" [ref=e1292] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/film-and-media/
+              - listitem [ref=e1293]:
+                - link "Marine" [ref=e1294] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/marine/
+              - listitem [ref=e1295]:
+                - link "Drone Service Provider" [ref=e1296] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/drone-service-provider/
+        - generic [ref=e1298]:
+          - heading "Resources" [level=4] [ref=e1299]:
+            - button "Resources"
+          - generic "Resources" [ref=e1300]:
+            - list [ref=e1303]:
+              - listitem [ref=e1304]:
+                - link "Case Studies" [ref=e1305] [cursor=pointer]:
+                  - /url: https://coptrz.com/case-studies/
+              - listitem [ref=e1306]:
+                - link "Drone Repair" [ref=e1307] [cursor=pointer]:
+                  - /url: https://coptrz.com/drone-repair/
+              - listitem [ref=e1308]:
+                - link "Drone Servicing" [ref=e1309] [cursor=pointer]:
+                  - /url: https://coptrz.com/drone-servicing/
+              - listitem [ref=e1310]:
+                - link "Blog" [ref=e1311] [cursor=pointer]:
+                  - /url: https://coptrz.com/blog/
+        - generic [ref=e1313]:
+          - heading "Learn" [level=4] [ref=e1314]:
+            - button "Learn"
+          - generic "Learn" [ref=e1315]:
+            - list [ref=e1318]:
+              - listitem [ref=e1319]:
+                - link "Coptrz Academy" [ref=e1320] [cursor=pointer]:
+                  - /url: https://www.coptrzacademy-usp.io/login
+              - listitem [ref=e1321]:
+                - link "Help Centre" [ref=e1322] [cursor=pointer]:
+                  - /url: https://help.coptrz.com/en/
+        - figure [ref=e1325]
+      - generic [ref=e1329]:
+        - figure [ref=e1332]:
+          - figure [ref=e1333]
+          - figure [ref=e1334]
+          - figure [ref=e1335]
+          - figure [ref=e1336]
+          - figure [ref=e1337]
+        - list [ref=e1341]:
+          - listitem [ref=e1342]:
+            - link "Terms and Conditions" [ref=e1343] [cursor=pointer]:
+              - /url: https://coptrz.com/terms-and-conditions/
+          - listitem [ref=e1344]:
+            - link "Privacy Policy" [ref=e1345] [cursor=pointer]:
+              - /url: https://coptrz.com/privacy-policy/
+          - listitem [ref=e1346]:
+            - link "Cookie Policy (UK)" [ref=e1347] [cursor=pointer]:
+              - /url: https://coptrz.com/cookie-policy-uk/
+  - status [ref=e1348]
+  - iframe [ref=e1351]:
+    - generic [ref=f27e6]:
+      - text: protected by
+      - strong [ref=f27e7]: reCAPTCHA
+  - iframe [ref=e1352]:
+    
+  - text:   
+  - generic:
+    - generic:
+      - generic: 

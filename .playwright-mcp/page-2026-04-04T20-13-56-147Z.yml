@@ -1,0 +1,434 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Alpha Vantage API free tier limits endpoints stock data fundamentals 2025 2026 Python Alpha Vantage API free tier limits endpoints stock data fundamentals 2025 2026 Python
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DAlpha%2BVantage%2BAPI%2Bfree%2Btier%2Blimits%2Bendpoints%2Bstock%2Bdata%2Bfundamentals%2B2025%2B2026%2BPython&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&aep=1&ntc=1&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ2J8OegQIDxAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQtKgLegQIFBAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQs6gLegQIExAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQtKgLegQIERAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ0pQJegQIEhAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - link "Verkkohaku" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVtEHJRAAMn9NIW-HC_4-yODf81ODfZcQNmJf_IuGQlmqhAyZD0Tm4wZ2Sh1Uywsk6Keuaklzmz6LMmdUIdbVPd-vVThm212sg3Ijiz44BaYO9NiTEvyM5ogttGtubaWwL00HLyy&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQs6gLegQIFRAB
+              - generic [ref=e106]: Verkkohaku
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DAlpha%2BVantage%2BAPI%2Bfree%2Btier%2Blimits%2Bendpoints%2Bstock%2Bdata%2Bfundamentals%2B2025%2B2026%2BPython&hl=en&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQiIQCKAN6BAgMEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - 'link "Alpha Vantage API: The Complete 2026 Guide for Investors ... alphalog.ai https://alphalog.ai › blog › alphava..." [ref=e180] [cursor=pointer]':
+                  - /url: https://alphalog.ai/blog/alphavantage-api-complete-guide
+                  - 'heading "Alpha Vantage API: The Complete 2026 Guide for Investors ..." [level=3] [ref=e181]'
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: alphalog.ai
+                    - generic [ref=e190]: https://alphalog.ai › blog › alphava...
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://alphalog.ai/blog/alphavantage-api-complete-guide
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e200]:
+                - generic [ref=e201]: 30.11.2025 —
+                - generic [ref=e202]:
+                  - text: "Complete guide to Alpha Vantage API:"
+                  - emphasis [ref=e203]: free tier limits
+                  - text: ", pricing, technical indicators, and alternatives for accessing financial data."
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e209]
+              - button "Tietoja tästä tuloksesta" [ref=e210] [cursor=pointer]:
+                - img [ref=e213]
+            - generic [ref=e215]:
+              - button "What is the API limit for Alpha Vantage?" [ref=e221] [cursor=pointer]:
+                - generic [ref=e223]: What is the API limit for Alpha Vantage?
+                - img [ref=e226]
+              - button "What is the best API for stocks?" [ref=e235] [cursor=pointer]:
+                - generic [ref=e237]: What is the best API for stocks?
+                - img [ref=e240]
+              - button "Is AlphaVantage API free?" [ref=e249] [cursor=pointer]:
+                - generic [ref=e251]: Is AlphaVantage API free?
+                - img [ref=e254]
+              - button "Is alpha vantage API legit?" [ref=e263] [cursor=pointer]:
+                - generic [ref=e265]: Is alpha vantage API legit?
+                - img [ref=e268]
+          - generic [ref=e273]:
+            - heading "Web results" [level=2] [ref=e274]
+            - generic [ref=e275]:
+              - generic [ref=e278]:
+                - 'link "Alpha Vantage: Free Stock APIs in JSON & Excel Alpha Vantage https://www.alphavantage.co" [ref=e280] [cursor=pointer]':
+                  - /url: https://www.alphavantage.co/
+                  - 'heading "Alpha Vantage: Free Stock APIs in JSON & Excel" [level=3] [ref=e281]'
+                  - generic [ref=e286]:
+                    - generic [ref=e288]: Alpha Vantage
+                    - generic [ref=e290]: https://www.alphavantage.co
+                - generic [ref=e291]:
+                  - generic [ref=e292]: ·
+                  - link "Käännä tämä sivu" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.alphavantage.co/
+                - button "Tietoja tästä tuloksesta" [ref=e294] [cursor=pointer]:
+                  - img [ref=e297]
+              - generic [ref=e301]:
+                - emphasis [ref=e302]: Alpha Vantage offers free stock APIs in JSON and CSV formats
+                - text: for realtime and historical stock market data, options, forex, commodity, cryptocurrency feeds ...
+              - generic [ref=e304]:
+                - text: "Puuttuu: 2025 ‎| Hae tällä:"
+                - link "2025" [ref=e305] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+%222025%22+2026+Python&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ5t4CegQIVxAB
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - link "The 7 Best Real-Time Stock Data APIs for Investors and ... MEXC https://www.mexc.com › Crypto News" [ref=e314] [cursor=pointer]:
+                - /url: https://www.mexc.com/news/476023
+                - heading "The 7 Best Real-Time Stock Data APIs for Investors and ..." [level=3] [ref=e315]
+                - generic [ref=e320]:
+                  - generic [ref=e322]: MEXC
+                  - generic [ref=e324]: https://www.mexc.com › Crypto News
+              - button "Tietoja tästä tuloksesta" [ref=e325] [cursor=pointer]:
+                - img [ref=e328]
+            - generic [ref=e331]:
+              - generic [ref=e332]: 14.1.2026 —
+              - generic [ref=e333]:
+                - text: "Highlights:"
+                - emphasis [ref=e334]: Alpha Vantage is known for its ease of use and generous free tier
+                - text: for beginners. It's one of the most popular starting points for ...
+            - generic [ref=e337]:
+              - img "Arvio 4,8/5 (187 117) käyttäjäarvostelua" [ref=e339]:
+                - text: 4,8
+                - img [ref=e340]
+                - text: (187 117)
+              - button [ref=e345]:
+                - img [ref=e347]
+          - generic [ref=e352]:
+            - generic [ref=e355]:
+              - link "Best Real-Time Stock Market Data APIs in 2026 | Co... | FMP Financial Modeling Prep - FinancialModelingPrep | FMP https://site.financialmodelingprep.com › ..." [ref=e357] [cursor=pointer]:
+                - /url: https://site.financialmodelingprep.com/education/other/best-realtime-stock-market-data-apis-in-
+                - heading "Best Real-Time Stock Market Data APIs in 2026 | Co... | FMP" [level=3] [ref=e358]
+                - generic [ref=e363]:
+                  - generic [ref=e365]: Financial Modeling Prep - FinancialModelingPrep | FMP
+                  - generic [ref=e367]: https://site.financialmodelingprep.com › ...
+              - generic [ref=e368]:
+                - generic [ref=e369]: ·
+                - link "Käännä tämä sivu" [ref=e370] [cursor=pointer]:
+                  - /url: https://site.financialmodelingprep.com/education/other/best-realtime-stock-market-data-apis-in-
+              - button "Tietoja tästä tuloksesta" [ref=e371] [cursor=pointer]:
+                - img [ref=e374]
+            - generic [ref=e377]:
+              - generic [ref=e378]: 7.11.2025 —
+              - generic [ref=e379]:
+                - text: "*Latency figures for"
+                - emphasis [ref=e380]: Alpha Vantage
+                - text: are for
+                - emphasis [ref=e381]: free tier
+                - text: . Premium latency is not publicly disclosed. Here's a quick breakdown of what each ...
+          - generic [ref=e385]:
+            - generic [ref=e388]:
+              - link "Best Stock Market APIs in 2026 Alpha Vantage https://www.alphavantage.co › best_..." [ref=e390] [cursor=pointer]:
+                - /url: https://www.alphavantage.co/best_stock_market_api_review/
+                - heading "Best Stock Market APIs in 2026" [level=3] [ref=e391]
+                - generic [ref=e396]:
+                  - generic [ref=e398]: Alpha Vantage
+                  - generic [ref=e400]: https://www.alphavantage.co › best_...
+              - generic [ref=e401]:
+                - generic [ref=e402]: ·
+                - link "Käännä tämä sivu" [ref=e403] [cursor=pointer]:
+                  - /url: https://www.alphavantage.co/best_stock_market_api_review/
+              - button "Tietoja tästä tuloksesta" [ref=e404] [cursor=pointer]:
+                - img [ref=e407]
+            - generic [ref=e411]:
+              - text: Review of the
+              - emphasis [ref=e412]: best stock market APIs
+              - text: to get various types of financial data.
+            - generic [ref=e414]: "Puuttuu: tier ‎limits ‎endpoints ‎2025"
+          - generic [ref=e418]:
+            - generic [ref=e421]:
+              - 'link "Financial Data APIs Compared: Polygon vs IEX Cloud vs ... ksred.com https://www.ksred.com › the-comple..." [ref=e423] [cursor=pointer]':
+                - /url: https://www.ksred.com/the-complete-guide-to-financial-data-apis-building-your-own-stock-market-data-pipeline-in-2025/
+                - 'heading "Financial Data APIs Compared: Polygon vs IEX Cloud vs ..." [level=3] [ref=e424]'
+                - generic [ref=e429]:
+                  - generic [ref=e431]: ksred.com
+                  - generic [ref=e433]: https://www.ksred.com › the-comple...
+              - generic [ref=e434]:
+                - generic [ref=e435]: ·
+                - link "Käännä tämä sivu" [ref=e436] [cursor=pointer]:
+                  - /url: https://www.ksred.com/the-complete-guide-to-financial-data-apis-building-your-own-stock-market-data-pipeline-in-2025/
+              - button "Tietoja tästä tuloksesta" [ref=e437] [cursor=pointer]:
+                - img [ref=e440]
+            - generic [ref=e443]:
+              - generic [ref=e444]: 4.8.2025 —
+              - generic [ref=e445]:
+                - text: The
+                - emphasis [ref=e446]: free tier
+                - text: is limited to 250 requests per day, but their paid plans are reasonable if you need
+                - emphasis [ref=e447]: fundamental
+                - text: analysis capabilities. The
+                - emphasis [ref=e448]: API
+                - text: ...
+          - generic [ref=e452]:
+            - generic [ref=e455]:
+              - 'link "Beyond yFinance: Comparing the Best Financial Data APIs ... Medium · Trading Dude Yli 100 tykkäystä · 9 kuukautta sitten" [ref=e457] [cursor=pointer]':
+                - /url: https://medium.com/@trading.dude/beyond-yfinance-comparing-the-best-financial-data-apis-for-traders-and-developers-06a3b8bc07e2
+                - 'heading "Beyond yFinance: Comparing the Best Financial Data APIs ..." [level=3] [ref=e458]'
+                - generic [ref=e463]:
+                  - generic [ref=e465]: Medium · Trading Dude
+                  - generic [ref=e467]: Yli 100 tykkäystä · 9 kuukautta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e468] [cursor=pointer]:
+                - img [ref=e471]
+            - generic [ref=e475]:
+              - emphasis [ref=e476]: "Free Tier: 200 API calls/min"
+              - text: ", 10 years of 1-minute data with paper trading account. Paid Plans: $99/month for unlimited usage and SIP-level data."
+          - generic [ref=e480]:
+            - generic [ref=e483]:
+              - link "Best Financial Data APIs in 2026 DataDrivenInvestor https://medium.datadriveninvestor.com › ..." [ref=e485] [cursor=pointer]:
+                - /url: https://medium.datadriveninvestor.com/best-financial-data-apis-in-2026-a20ecca64294
+                - heading "Best Financial Data APIs in 2026" [level=3] [ref=e486]
+                - generic [ref=e491]:
+                  - generic [ref=e493]: DataDrivenInvestor
+                  - generic [ref=e495]: https://medium.datadriveninvestor.com › ...
+              - generic [ref=e496]:
+                - generic [ref=e497]: ·
+                - link "Käännä tämä sivu" [ref=e498] [cursor=pointer]:
+                  - /url: https://medium.datadriveninvestor.com/best-financial-data-apis-in-2026-a20ecca64294
+              - button "Tietoja tästä tuloksesta" [ref=e499] [cursor=pointer]:
+                - img [ref=e502]
+            - generic [ref=e505]:
+              - generic [ref=e506]: 11.1.2026 —
+              - generic [ref=e507]:
+                - text: Start with the
+                - emphasis [ref=e508]: free tier
+                - text: to validate
+                - emphasis [ref=e509]: endpoints
+                - text: and
+                - emphasis [ref=e510]: data
+                - text: fit, then move to the entry-level paid tier once you need consistent throughput or ...
+            - generic [ref=e512]:
+              - text: "Puuttuu: 2025 ‎| Hae tällä:"
+              - link "2025" [ref=e513] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+%222025%22+2026+Python&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ5t4CegQIVhAB
+          - generic [ref=e517]:
+            - generic [ref=e520]:
+              - link "Alpha Vantage Premium API Key Alpha Vantage https://www.alphavantage.co › prem..." [ref=e522] [cursor=pointer]:
+                - /url: https://www.alphavantage.co/premium/
+                - heading "Alpha Vantage Premium API Key" [level=3] [ref=e523]
+                - generic [ref=e528]:
+                  - generic [ref=e530]: Alpha Vantage
+                  - generic [ref=e532]: https://www.alphavantage.co › prem...
+              - generic [ref=e533]:
+                - generic [ref=e534]: ·
+                - link "Käännä tämä sivu" [ref=e535] [cursor=pointer]:
+                  - /url: https://www.alphavantage.co/premium/
+              - button "Tietoja tästä tuloksesta" [ref=e536] [cursor=pointer]:
+                - img [ref=e539]
+            - generic [ref=e543]:
+              - text: At
+              - emphasis [ref=e544]: Alpha Vantage
+              - text: ", the majority of our"
+              - emphasis [ref=e545]: API endpoints
+              - text: can be accessed for
+              - emphasis [ref=e546]: free
+              - text: . For use cases that exceed our standard
+              - emphasis [ref=e547]: API
+              - text: usage
+              - emphasis [ref=e548]: limit
+              - text: (25
+              - emphasis [ref=e549]: API
+              - text: requests per ...
+            - generic [ref=e551]: "Puuttuu: fundamentals ‎Python"
+          - generic [ref=e555]:
+            - generic [ref=e558]:
+              - link "Alpha Vantage API Request Limits Macroption https://www.macroption.com › alpha..." [ref=e560] [cursor=pointer]:
+                - /url: https://www.macroption.com/alpha-vantage-api-limits/
+                - heading "Alpha Vantage API Request Limits" [level=3] [ref=e561]
+                - generic [ref=e566]:
+                  - generic [ref=e568]: Macroption
+                  - generic [ref=e570]: https://www.macroption.com › alpha...
+              - generic [ref=e571]:
+                - generic [ref=e572]: ·
+                - link "Käännä tämä sivu" [ref=e573] [cursor=pointer]:
+                  - /url: https://www.macroption.com/alpha-vantage-api-limits/
+              - button "Tietoja tästä tuloksesta" [ref=e574] [cursor=pointer]:
+                - img [ref=e577]
+            - generic [ref=e581]:
+              - emphasis [ref=e582]: Using Alpha Vantage API is subject to limits
+              - text: ". There are two main types: per day and per minute. If you make more API requests than allowed within the time ..."
+            - generic [ref=e584]: "Puuttuu: tier ‎endpoints ‎stock ‎2025"
+        - generic [ref=e586]:
+          - generic [ref=e591]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e593]
+            - generic [ref=e595]:
+              - generic [ref=e596]:
+                - link "Stock market API free" [ref=e600] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Stock+market+API+free&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhhEAE
+                  - generic [ref=e601]:
+                    - generic [ref=e606]: Stock market API free
+                    - img [ref=e610]
+                - link "Real-time stock data API free" [ref=e615] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Real-time+stock+data+API+free&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhkEAE
+                  - generic [ref=e616]:
+                    - generic [ref=e621]: Real-time stock data API free
+                    - img [ref=e625]
+                - link "Alpha Vantage pricing" [ref=e630] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+pricing&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhiEAE
+                  - generic [ref=e631]:
+                    - generic [ref=e636]: Alpha Vantage pricing
+                    - img [ref=e640]
+                - link "Yahoo Finance API" [ref=e645] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Yahoo+Finance+API&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhdEAE
+                  - generic [ref=e646]:
+                    - generic [ref=e651]: Yahoo Finance API
+                    - img [ref=e655]
+              - generic [ref=e657]:
+                - link "Alpha Vantage API documentation" [ref=e661] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+API+documentation&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhjEAE
+                  - generic [ref=e662]:
+                    - generic [ref=e667]: Alpha Vantage API documentation
+                    - img [ref=e671]
+                - link "Alpha Vantage symbols list" [ref=e676] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+symbols+list&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAheEAE
+                  - generic [ref=e677]:
+                    - generic [ref=e682]: Alpha Vantage symbols list
+                    - img [ref=e686]
+                - link "Alpha Vantage API limits" [ref=e691] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Alpha+Vantage+API+limits&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhgEAE
+                  - generic [ref=e692]:
+                    - generic [ref=e697]: Alpha Vantage API limits
+                    - img [ref=e701]
+                - link "AlphaVantage" [ref=e706] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=AlphaVantage&sa=X&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ1QJ6BAhfEAE
+                  - generic [ref=e707]:
+                    - generic [ref=e712]: AlphaVantage
+                    - img [ref=e716]
+          - navigation [ref=e718]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e719]
+            - text: "1"
+            - link "Page 2" [ref=e722] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=10&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAE
+              - text: "2"
+            - link "Page 3" [ref=e724] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=20&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAG
+              - text: "3"
+            - link "Page 4" [ref=e726] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=30&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAI
+              - text: "4"
+            - link "Page 5" [ref=e728] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=40&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAK
+              - text: "5"
+            - link "Page 6" [ref=e730] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=50&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAM
+              - text: "6"
+            - link "Page 7" [ref=e732] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=60&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAO
+              - text: "7"
+            - link "Page 8" [ref=e734] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=70&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAQ
+              - text: "8"
+            - link "Page 9" [ref=e736] [cursor=pointer]:
+              - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=80&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8tMDegQIWxAS
+              - text: "9"
+            - heading "Seuraava" [level=2] [ref=e738]:
+              - link "Seuraava" [ref=e739] [cursor=pointer]:
+                - /url: /search?q=Alpha+Vantage+API+free+tier+limits+endpoints+stock+data+fundamentals+2025+2026+Python&sca_esv=f72dd7b5cfdb5d01&ei=AnHRadPlKpOgwPAPrZWR2QM&start=10&sa=N&sstk=Af77f_djNhTGvPKW0_lwQke0e3Hu_haYpK066i3yYWLDSzB7PW8n7zdfxULRC0o5B7fGPkHPNDAgnQXdMSUZVtyle7OHVP33nxXBQQ&ved=2ahUKEwjT7p2VgdWTAxUTEBAIHa1KJDsQ8NMDegQIWxAU
+                - generic [ref=e741]: Seuraava
+        - navigation
+    - contentinfo [ref=e742]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e743]
+      - generic [ref=e747]:
+        - generic [ref=e749]:
+          - text: Suomi
+          - generic [ref=e751]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e753] [cursor=pointer]:
+              - generic [ref=e754]: Helsinki
+              - generic [ref=e756]:
+                - text: "-"
+                - generic [ref=e757]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e759] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e762]:
+          - link "Ohje" [ref=e763] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e764] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e765] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e766] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

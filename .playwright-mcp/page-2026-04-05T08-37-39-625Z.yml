@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - region "Suomen Hypoteekkiyhdistyksen evästeiden käyttö ja henkilötietojen käsittely" [ref=e2]:
+    - generic [ref=e4]:
+      - heading "Suomen Hypoteekkiyhdistyksen evästeiden käyttö ja henkilötietojen käsittely" [level=2] [ref=e5]
+      - generic [ref=e6]:
+        - paragraph [ref=e8]: Käytämme omista evästeistämme ja kolmannen osapuolen evästeistä saatavia tietoja sivuston turvallisuuden varmistamiseksi ja parantamiseksi. Käytämme evästeitä ja käsittelemme henkilötietoja asetustesi muistamiseen, palvelujemme parantamiseen, sivuston liikenteen seurantaan, sinulle kohdennettujen viestien näyttämiseen (mukaan lukien profilointi) ja sivuston käyttösi seurantaan. Voit hyväksyä kaikkien evästeiden käytön tai vain välttämättömien evästeiden käytön. Suostumuksesi kattaa sekä evästeiden käytön että niihin liittyvien henkilötietojen käsittelyn.
+        - generic [ref=e9]:
+          - button "Mukauta" [ref=e10] [cursor=pointer]
+          - button "Hylkää" [ref=e11] [cursor=pointer]
+          - button "Hyväksy kaikki evästeet" [ref=e12] [cursor=pointer]
+  - navigation "Skip links":
+    - link "Skip to Content" [ref=e13] [cursor=pointer]:
+      - /url: "#fl-main-content"
+    - link "Skip to navigation" [ref=e14] [cursor=pointer]:
+      - /url: "#menu-mainnavi"
+    - link "Site map" [ref=e15] [cursor=pointer]:
+      - /url: /sitemap.xml
+  - link "Siirry sisältöön" [ref=e16] [cursor=pointer]:
+    - /url: "#fl-main-content"
+  - generic [ref=e17]:
+    - banner [ref=e18]:
+      - generic [ref=e21]:
+        - link "Suomen Hypoteekkiyhdistys" [ref=e24] [cursor=pointer]:
+          - /url: https://www.hypo.fi/
+          - img "Suomen Hypoteekkiyhdistys" [ref=e25]
+        - generic:
+          - generic:
+            - navigation "Sivun yläreunan valikko":
+              - button "Valikko" [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]:
+                  - generic [ref=e28]: 
+                  - generic [ref=e29]: Valikko
+              - text:       
+    - main [ref=e30]:
+      - article [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Asuntohintojen alamäki on historian pisin" [level=1] [ref=e36]
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - text: Kirjoittajalta
+              - link "Juha Lappalainen" [ref=e39] [cursor=pointer]:
+                - /url: https://www.hypo.fi/author/juha-lappalainenjenka-fi/
+            - text: "| 12.03.2026"
+        - generic [ref=e41]:
+          - paragraph [ref=e42]: Hypon asuntomarkkinakatsaus – Asuntojen hinnat ovat laskeneet yhtäjaksoisesti jo 3,5 vuoden ajan eli yhtä pitkään kuin 1990-luvun laman pahimpaan aikaan. Hintakäänne näyttää yhä siirtyvän vuoden loppupuolelle eli tälle vuodelle Hypo ennustaa yleisesti pientä laskua. ”Keskihinnat laskevat vielä alkuvuonna. Alkuvuosi oli odotuksia heikompi asuntokaupalle, mutta ostajien ja myyjien hintanäkemykset ovat lähentyneet”, Hypon pääekonomisti Juho Keskinen sanoo.
+          - paragraph [ref=e43]:
+            - text: Voit lukea Hypo-katsauksen tekstinä ja graafeina nettiselaimen ikkunassa, mutta jos luet mieluummin taitettua pdf-dokumenttia, klikkaa
+            - emphasis [ref=e44]:
+              - link "tästä linkistä –>" [ref=e45] [cursor=pointer]:
+                - /url: https://www.hypo.fi/wp-content/uploads/2026/03/Hypon-Asuntomarkkinakatsaus_maaliskuu-2026.pdf
+            - text: . We are publishing
+            - emphasis [ref=e46]:
+              - strong [ref=e47]: Hypo Housing Market Review
+            - text: also in English, please read it by
+            - emphasis [ref=e48]:
+              - link "clicking a link here –>" [ref=e49] [cursor=pointer]:
+                - /url: https://www.hypo.fi/en/en-about-hypo/
+            - text: .
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - strong [ref=e52]: Asuntojen keskihinnat
+              - text: laskevat vielä alkuvuonna. Tammi-helmikuu oli odotuksia heikompi myös asuntokaupalle, mutta ostajien ja myyjien hintanäkemykset ovat lähentyneet, mikä on näkynyt jo pidemmän aikaa kohonneena kauppana. Asuntokaupan luvuissa ja hintaindekseissä näkyy nyt myös yritysten tekemiä nippukauppoja ja niihin liittyviä volyymialennuksia, jotka voivat hämätä tilastoja tuijottavaa asunnonostajaa.
+            - listitem [ref=e53]:
+              - strong [ref=e54]: Asuntomarkkinoilta
+              - text: "kuuluu kaikuja 1990-luvulta, mutta eri mittakaavassa. Hintojen yhtäjaksoinen lasku on kestänyt jo 3,5 vuotta – yhtä pitkään kuin 1990-luvun lamasyklin pahin laskuvaihe. Silti nykytilanne on kokonaisuutena selvästi parempi: talouskasvun tilanne, korkotaso ja työttömyys eivät ole lähelläkään 1990-luvun äärilukuja. Kotitaloudet ovat kestäneet shokin paremmin ja pakkomyynneiltä on vältytty. Hinnat ovat silti laskeneet pisimmän yhtäjaksoisen ajan vuodesta 1947 saatavilla olevassa tilastohistoriassa."
+          - heading "Asuntojen hintaennuste koko maassa:" [level=3] [ref=e55]
+          - paragraph [ref=e56]: "2026: -1,0% 2027: +2,0%"
+          - heading "Pääkaupunkiseudun hinnat:" [level=3] [ref=e57]
+          - paragraph [ref=e58]: "2026: -1,0% 2027: +3,0%"
+          - list [ref=e59]:
+            - listitem [ref=e60]:
+              - strong [ref=e61]: Hintahuipuille
+              - strong [ref=e62]: palataan
+              - text: 2030-luvun puolella. Kasvukeskukset määräävät indeksien suunnan yhä vahvemmin. Yhä suurempi osa toteutuneista kaupoista tehdään isoissa kaupungeissa, kun heikomman kysynnän alueilla kauppoja jää syntymättä. Keskittyminen kohottaa kasvukeskusten painoa koko maan hintaindeksissä, koska toteutumattomat kaupat eivät tule mukaan painamaan julkaistavia hintalukuja.
+            - listitem [ref=e63]:
+              - strong [ref=e64]: Kuuteen suurimpaan kaupunkiin
+              - text: "rakennettiin 10 vuoden aikana 35 000 asuntoa yli asuntokuntien kasvun. Tarjontaa riittää yhä: valmistuneiden asuntojen määrä painui viime vuonna historiallisen pieneksi, mutta myös asuntokuntien kasvu hidastui poikkeuksellisesti. Yksinasumisen buumi kääntyi – maahanmuutto näkyy suurempien asuntokuntien kasvuna ja opiskelijoiden paluu kimppa- ja soluasumiseen lisää pienten vuokra-asuntojen tarjontaa sekä heikentää kysyntää. Helsingin väestö kasvoi viime vuonna 11 500 hengellä eli koviten sitten 1960-luvun – valmistuneiden uudisasuntojen määrä ylitti silti asuntokuntien määrän kasvun."
+            - listitem [ref=e65]:
+              - strong [ref=e66]: Asuntolaina-ajan enimmäismäärän
+              - text: pidennys 35 vuoteen tuo huhtikuusta joustoa kuukausittaisiin lainamenoihin ja valinnanvapautta velallisille. Noin kolmannes Suomen asuntolainakannasta on kestoltaan yli 25-vuotisia, ja suurin osa lainanhakijoista valitsee lyhyemmän laina-ajan jatkossakin. Sääntelymuutokset eivät kuitenkaan yksin käännä asuntomarkkinoita nousukiitoon, kun kodeissa puntaroidaan yhä korkojen ja työttömyyden tulevaa kehityssuuntaa.
+            - listitem [ref=e67]:
+              - strong [ref=e68]: Vuokralaisen markkinat
+              - text: jatkuvat tänäkin vuonna. Vapaarahoitteisten vuokrien indeksi kääntyi loppuvuonna laskuun poikkeuksellisen laajasti, mutta indeksi kuvaa parhaiten olemassa olevien sopimusten vuokrankehitystä. Uusissa vuokrasuhteissa pk-seudulla lähtövuokrat ovat laskeneet jo usean vuoden jaksolla, ja runsas tarjonta sekä tyhjilläänolo toimivat yhä vuokralaisen valttikortteina neuvotteluissa.
+            - listitem [ref=e69]:
+              - strong [ref=e70]: Rakentaminen
+              - text: jumittaa ja geopoliittiset riskit heiluttavat korkoja. Asuntoaloitukset ja rakennusluvat ovat yhä poikkeuksellisen matalia, ja kauppa kohdistuu vanhaan asuntokantaan. Instituutioiden myynnit painavat uudiskysyntää ja korkotukivaltuusleikkaukset vähentävät tuettua tuotantoa. Iran-riskit kohottivat energiahinta- ja inflaatio-odotuksia – 12 kuukauden euriborkorossa nähtiin maaliskuussa suurin yhden päivän nousu liki 18 vuoteen. Korkoepävarmuus kasvaa ja markkinaodotukset ovat kääntyneet hetkellisesti jopa kahden koronnoston kannalle tänä vuonna, mutta keskuspankki pitäytynee kuluvan vuoden tarkkailuasemissa. Iranin tilanteen pitkittyminen ratkaisee paljon. Samoin se, millä tavoin sota Ukrainassa jatkuu.
+          - paragraph [ref=e71]
+          - heading "Myyjät tulevat viimein vastaan hintapyynnöissään" [level=2] [ref=e72]
+          - paragraph [ref=e73]: "Asuntojen hinnat jatkavat laskuaan vielä alkuvuoden ajan, vaikka asuntokauppa käy yhä vilkkaammin. Ostajien ja myyjien käsitykset asuntojen hintatasosta ovat lähentyneet, mutta asuntokaupan mittareissa näkyy nyt myös yritysten tekemiä nippukauppoja. Näihin kauppoihin liittyvät volyymialennukset painavat osin myös hintaindeksejä, vaikka sijoittajien väliset transaktiot eivät käytännössä määritäkään tavallisen asunnonostajan kohtaamaa hintaa. Samalla sijoittajakysynnän piristyminen viestii kansainvälisen luottamuksen vahvistumisesta Suomen asuntomarkkinoihin. Lähi-idän levottomuudet heijastuvat kuluttajien luottamukseen ja korkokehitykseen, ja Iranin kriisin kesto tulee lopulta ratkaisemaan suorien talous- ja inflaatiovaikutusten suuruuden. Lähi-idän tilanteen ja alkuvuoden tilastojen valossa vuoden 2026 hintaennustetta on laskettu viime vuoden lopusta. Asuntojen hintojen lasku tasaantuu tänä vuonna, mutta varovainen nousukäänne vuoden aikana tuottaa vielä miinuksen vuosimuutoksiin. Samalla nousupainetta sysätään vahvemmin ensi vuodelle. Asuntolainan enimmäistakaisinmaksuaika pitenee huhtikuussa 35 vuoteen, mikä tuo joustoa velallisen arkeen: mahdollisuus ylimääräisiin lyhennyksiin säilyy oman taloustilanteen salliessa. Samalla on kaavailtu asuntolainan enimmäisluototusasteen mahdollista nostoa 95 prosenttiin nykyisestä 90 prosentista. Sääntelyn keventämiselle on perusteensa, kun kotitalouksien velkaantuminen on laskenut, ja asuntovelat ovat lyhentyneet viime vuosinakin tavalliseen tahtiin. Kansantalouden kurssia ei kuitenkaan käännetä kabineteissa, sillä luottamus palaa vasta iloisempien talousuutisten myötä."
+          - heading "Hypo-indeksit jatkavat matalaliidossa" [level=3] [ref=e74]:
+            - emphasis [ref=e75]: Hypo-indeksit jatkavat matalaliidossa
+          - figure [ref=e76]:
+            - link [ref=e77] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image.png
+          - paragraph [ref=e78]: Pääkaupunkiseudun ja Turun Hypo-indeksit hiipuivat viime vuoden viimeisen neljänneksen tilastotiedoilla pistelukuun 119, kun Tampereen indeksi asettui astetta korkeammalle 122 pisteeseen. Vaikka asuntokauppa kasvoi pk-seudulla vuoden takaa noin kymmenellä prosentilla, laskivat hinnat yhä 3,6 prosentilla. Asuntokauppa käy pk-seudulla yhä reilut 10 prosenttia hitaammin, kuin vuosina 2015–2019 keskimäärin, kun koko maan vaje on noin 9 prosenttia. Suurista kaupungeista hinnat laskivat eniten Turussa (-5,6 %), kun Tampereella lasku oli maltillisempaa (-1,8 %). Asuntokauppa piti pintansa Turussa ja Tampereella, mutta runsas tarjonta on yhä lykännyt hintojen nousukäännettä kauppamäärien trendikasvusta huolimatta. Loka–joulukuussa hinnat kohosivat yli 7 prosentilla Rovaniemellä, kun suurimmat laskut nähtiin Mikkelissä (-13 %), Porvoossa (-11 %) ja Lahdessa (-7 %). Oulu erottuu tasaisuudellaan, kun taas Vantaan hinnat ovat hiipuneet huippuhetkiltään liki neljänneksellä.
+          - heading "Hintojen lasku sitkeintä sitten 1990-luvun" [level=2] [ref=e79]
+          - figure [ref=e80]:
+            - link [ref=e81] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image-1.png
+          - paragraph [ref=e82]: "Asuntojen hinnat ovat nyt laskeneet yhtäjaksoisesti kesästä 2022 alkaen eli kolmen ja puolen vuoden ajan. Lasku on siis kestänyt yhtä kauan, kuin pohjien saavuttamiseen meni aikaa 1990-luvun laman voimakkaimmassa hintojen laskusyklissä kesästä 1989 vuoden 1992 loppuun. Asuntomarkkinoiden nykyasento on monella tapaa historiallinen, muttei silti lähellekään yhtä synkkä, kuin reilut 30 vuotta sitten nähdyssä sukelluksessa. Ero löytyy yhdistävien tekijöiden suuruudesta: 1990-luvun alkuvuosina bkt laski kaksinumeroisin prosentein, asuntokauppojen määrä puolittui, hinnat laskivat yhteensä 40 prosentilla, asuntolainakorot huitelivat 12–15 prosentissa ja työttömyysaste kohosi korkeimmillaan liki 20 prosenttiin. Nyt talouskasvu on polkenut paikallaan, asuntokaupasta leikkaantui huippuvuodesta 2021 vuoteen 2023 kolmannes, hintahuipuilta on laskettu 14 prosenttia, lainakorot kävivät yli neljässä ja työttömyysaste on kivunnut yli 10 prosenttiin. 1990-luvun pakkomyyntien sijaan kotitaloudet ovat kestäneet nykyshokin, mikä on näkynyt myyjien haluttomuutena laskea hintapyyntöjään todelliselle nykymarkkinahinnalle. Hintojen nousu käynnistyi 1990-luvun loppupuoliskolla, ja lamaa edeltänyt taso saavutettiin 2000-luvun alussa. Nyt nimellishintojen huipputasolle voidaan ajatella päästävän 2030-luvun alkupuoliskolla. Pitkällä aikavälillä nimellishinnat yleensä kohoavat jo inflaationkin nostaessa yleistä hintatasoa. Samalla kasvukeskusten merkitys koko maan hintaindeksille kasvaa: yhä suurempi osa kaupoista tehdään isoissa kaupungeissa, kun taas heikomman kysynnän ja matalien tai laskevien hintojen alueilla kauppoja jää tekemättä. Kun nämä toteutumattomat kaupat eivät näy tilastoissa, niiden mahdollinen hintaa laskeva vaikutus ei myöskään paina koko maan hintaindeksiä alaspäin."
+          - heading "Uusien asuntojen tarjonta sulaa yhä hitaasti" [level=2] [ref=e83]
+          - figure [ref=e84]:
+            - link [ref=e85] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image-2-scaled.png
+          - paragraph [ref=e86]: "Maahanmuuton voimistuminen näkyy vuodesta 2022 eteenpäin suurempien asuntokuntien osuuden kasvuna. Opiskelijoiden paluu henkilökohtaisesti määräytyvälle opintotuen asumislisälle taas näkyy viime vuoden 2025 tilastoissa voimakkaasti: asuntokuntien määrä kasvoi koko maassa vain alle 4000:lla, mikä on alhaisin määrä vuodesta 1985 alkavassa tilastohistoriassa. Samaan aikaan Suomen väestö kasvoi noin 21 000 hengellä – kasvu jäi kahta edellisvuotta matalammaksi, mutta oli niitä edeltävän ajan korkein sitten vuoden 2013. Oulussa, Tampereella ja Vantaalla yhden hengen kotien määrä laski ja suurempien kasvoi vuoden takaa. Muissakin suurissa kaupungeissa isommat perheet kannattelivat asuntokuntien kasvua. Vaikka valmistuneiden asuntojen määrä putosi viime vuonna tilastohistorian alimmilleen, hidastui asuntokuntien kasvu vähintään samassa suhteessa."
+          - heading "Kimppakämpät ja perheet kasvattavat nyt koteja" [level=3] [ref=e87]:
+            - emphasis [ref=e88]: Kimppakämpät ja perheet kasvattavat nyt koteja
+          - figure [ref=e89]:
+            - link [ref=e90] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image-3.png
+          - paragraph [ref=e91]: Kun opiskelijat siirrettiin vuonna 2017 yleisen asumistuen piiriin, muuttui asumistuki ruokakuntakohtaiseksi, mikä kannusti yksinasumiseen ja kasvatti yhden hengen kotitalouksien määrää. Ennen uudistusta noin 40 prosenttia itsenäisesti asuvista päätoimisista korkeakouluopiskelijoista asui yksin, mutta vuoteen 2022 mennessä osuus oli kasvanut yli 60 prosenttiin. Yksinasuminen lisääntyi samaan aikaan nuorilla aikuisilla yleisestikin, mutta opiskelijoilla kasvu oli yli 10 prosenttiyksikköä suurempi. Vuosina 2017–2023 suurimpien kaupunkien kasvu nojasikin vahvasti yhden hengen kotitalouksien kasvuun. Uudistuksen jälkeen vanhempien luota muuttaneet opiskelijat päätyivät aiempaa useammin asumaan yksin kimppa-asumisen sijaan. Vielä 2010-luvun alussa noin 30 prosenttia ensimmäisen vuoden opiskelijoista asui kimppakämpässä, mutta vuonna 2022 osuus oli pudonnut noin 10 prosenttiin. Opiskelijoiden muutot solu- ja kimppa-asuntoihin ovat osaltaan vähentäneet kysyntää ja toisaalta lisänneet pienten vuokra-asuntojen tarjontaa, mikä näkyy vaimeana hinta- ja vuokrakehityksenä. Vapaarahoitteisten vuokrien indeksi laskikin loppuvuonna ensi kertaa koko maassa ja kaikissa suurissa sekä keskisuurissa kaupungeissa Kotkaa, Kouvolaa ja Rovaniemeä lukuun ottamatta.
+          - heading "Vuokramarkkinoiden asento eroaa alueittain" [level=2] [ref=e92]
+          - figure [ref=e93]:
+            - link [ref=e94] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image-7.png
+          - paragraph [ref=e95]: Todellinen markkinavuokrataso on kuitenkin laskenut jo enemmän ja aiemmin, sillä vuokraindeksi perustuu asumistukirekisteriin ja vuokrataloyhtiöiden tietoihin, joiden vuokrausasteet ovat viime vuosina olleet poikkeuksellisen matalia. Indeksi kuvaa parhaiten muutosta voimassaolevissa vuokrasopimuksissa. Uudet vuokrasuhteet (yllä) kertovat indikatiivisesti paremmin markkinan tilasta, kun katsotaan valikoitua asuntotyyppiä. Uusien vapaarahoitteisten vuokrasuhteiden lähtövuokrat ovat suuntaa antavasti laskeneet pk-seudulla 3–4 prosenttia kolmen vuoden ajanjaksolla sekä kerrostaloyksiöissä että ‑kolmioissa. Asuntojen tyhjilläänolo ja runsas tarjonta uusissa, laadultaan paremmissa kohteissa peittää osin laskua myös tässä mittaustavassa. Vuokralainen onkin voinut saada alennusta vuokraansa ”kilpailuttamalla” oman sopimuksensa hakemalla vastaavaa asuntoa uudelleen. Runsas tarjonta heijastuu vuokrakehitykseen voimakkaimmin pk-seudulla, kun vuokratasot ovat lähtökohtaisesti nousseet vastaavana aikana muissa kaupungeissa.
+          - heading "Rakentaminen ei toivu vieläkään" [level=2] [ref=e96]
+          - figure [ref=e97]:
+            - link [ref=e98] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image-5.png
+          - paragraph [ref=e99]: Asuntorakentamisen vuodesta tulee jälleen vaisu. Asuntoaloitukset jäivät viime vuonna alle 17 000 asunnon, mikä on koko pitkän tilastohistorian matalin määrä. Rakennuslupia haetaan edelleen niukasti, ja asuntokaupan piristyminen kohdistuu ensisijaisesti vanhoihin osakeasuntoihin, mikä ei vielä käänny uudistuotannon kasvuksi. Uudiskohteiden kysyntää painaa myös se, että sijoittajakysyntä on kohdistunut viime aikoina nippukauppoina olemassa olevaan asuntokantaan ja työeläkeyhtiöt ovat asuntorahastojen ohella myyneet asunto-omistuksiaan. Vuokrien odotetaan kehittyvän kuluvana vuonna maltillisesti, ja asuntojen hintojen mahdollinen lievä nousu ei vielä riitä palauttamaan rakennusyhtiöiden kannattavuutta. Rakennusalan luottamus on kuitenkin vähitellen kohenemassa, ja väestönkasvu kasvukeskuksissa tukee kysyntää sekä vuokra- että omistusasunnoille. Valtion korkotukivaltuuksia leikataan aiheellisesti suhdanteen parantuessa, mutta lyhyellä aikavälillä leikkaus vähentää tuotantoa useilla tuhansilla asunnoilla. Suhdanteen elpyessä tuetun rakentamisen leikkaukset kuitenkin tekevät tilaa vapaarahoitteiselle tuotannolle, joka toipuu asuntojen hintojen nousukäänteen vanavedessä kasvukeskuksissa.
+          - heading "Sota heiluttaa korko-odotuksia" [level=2] [ref=e100]
+          - figure [ref=e101]:
+            - link [ref=e102] [cursor=pointer]:
+              - /url: https://www.hypo.fi/wp-content/uploads/2026/03/image-8.png
+          - paragraph [ref=e103]: "Iranin tilanne näkyy korkomarkkinoilla ennen kaikkea energiahinnan ja inflaatio-odotusten kautta: öljyn ja kuljetuskustannusten nousu on kohottanut markkinoiden hinnoittelemaa inflaatioriskiä, mikä on nostanut korkoja. Samalla korkokäyrissä ja rahapolitiikkahinnoissa on nähty lisääntynyttä epävarmuutta: sijoittajat ovat alkaneet varautua siihen, että EKP ja Fed voivat joutua hyväksymään kasvun heikkenemisen ja reagoimaan, jos energialähtöinen inflaatiopaine pitkittyy. Epävarmuuden kasvu heikentää jälleen talouskasvuodotuksia ja kohottaa volatiliteettia, mutta paljon riippuu kriisin lopullisesta kestosta. EKP:n ohjauskoron pysyminen kahdessa on yhä varsin mahdollinen kehityskulku kuluvalle vuodelle."
+          - paragraph [ref=e104]
+          - heading "Hypon näkemys asuntomarkkinoista" [level=2] [ref=e105]
+          - list [ref=e106]:
+            - listitem [ref=e107]: Asuntomarkkinoiden shokista toivutaan viiveellä – kauppa elpyy ja hintapohjia haetaan tänä vuonna
+            - listitem [ref=e108]: Hintahuipulle päästään vasta ensi vuosikymmenellä – kauppa keskittyy kasvukeskuksiin
+            - listitem [ref=e109]: Perhekoon kasvu ja opiskelijoiden asumistukien muutokset hidastavat asuntojen kysynnän kasvua
+            - listitem [ref=e110]: Asuntorakentamisen hankaluudet jatkuvat vieläkin – sijoittajakysyntäkin kohdistuu vanhaan kantaan
+            - listitem [ref=e111]: Korot pysyvät kahden päällä, vaikka odotukset tulevasta poukkoilevat politiikan myllerryksessä
+          - paragraph [ref=e112]:
+            - strong [ref=e113]: Mahdollisuudet
+          - list [ref=e114]:
+            - listitem [ref=e115]: Venäjä vetäytyy Ukrainasta, kauppasota kammetaan ja Iranin kriisi jää lyhyeksi – luottamus palaa
+            - listitem [ref=e116]: Asuntojen hinnat mahdollistavat muuttoliikkeen ja asuntokauppoja solmitaan oman elämän tarpeisiin
+            - listitem [ref=e117]: Energiakriisit ovat ohi ja uusi tarjonta laskee asumismenoja – ympäristö ja kuluttajat kiittävät
+            - listitem [ref=e118]: Syntyvyys toipuu ja työperäinen maahanmuutto pitää pintansa – optimistiset ennusteet ovat oikeassa
+            - listitem [ref=e119]: Rakentaminen toipuu ja asuntotarjonta auttaa kaupunkiasunnon etsijöitä myös vuosien päästä
+          - paragraph [ref=e120]:
+            - strong [ref=e121]: Riskit
+          - list [ref=e122]:
+            - listitem [ref=e123]: Korot kohoavat, inflaatio kiihtyy, kauppasodat eskaloituvat ja tullimaksut tuovat stagflaation
+            - listitem [ref=e124]: Suuret asuntosijoittajat ja rakennusyhtiöt kaatuvat – uudet asunto-osakeyhtiöt ajautuvat vaikeuksiin
+            - listitem [ref=e125]: Taantuma pahenee, työttömyyden kasvu ei vaan taitu ja taloudellinen ahdinko kasvaa kodeissa
+            - listitem [ref=e126]: Väestönkasvu tyssää täysin, kun syntyvyyden sakkaus jatkuu ja maahanmuutto tyrehtyy tyystin
+            - listitem [ref=e127]: Rakentaminen ei palaudu vuosikausiin ja asuntojen hinnat karkaavat käsistä kasvukolmion kärjissä
+          - paragraph [ref=e128]
+          - paragraph [ref=e129]: "*Hypon Asuntoindeksin taustaa"
+          - paragraph [ref=e130]: Hypon Asuntoindeksi yhdistää asuntojen hinnat ja kauppamäärät yhteen arvoon. Indeksin kehitys kertoo asuntomarkkinoiden tilanteesta Tilastokeskuksen asuntojen hintatietoja kattavammin. Asuntomarkkinoilla kysynnän piristyminen näkyy ensin kauppamäärien kasvuna ja myyntiaikojen lyhentymisenä. Asuntojen myyjät havahtuvat muuttuneeseen markkinatilanteeseen vasta viiveellä, joten hintataso reagoi muutoksiin hitaasti. Vastaavasti kysynnän laskiessa myyntiajat pitenevät ja kauppamäärät supistuvat ennen kuin myyjät tarkistavat pyyntihintojaan vastaamaan ostajien maksukykyä ja -halua.
+          - paragraph [ref=e131]: Hypon Asuntoindeksi kykenee siis myös ennakoimaan suurimpia taitekohtia asuntojen hintakehityksessä. Hypo on rakentanut indeksin pääkaupunkiseudulle, Tampereelle ja Turulle. Indeksi on simuloitu Tilastokeskuksen aineistojen pohjalta vuodesta 1987 alkaen koskien vanhoja vapaarahoitteisia osakeasuntoja.
+          - paragraph [ref=e132]
+          - heading "Hypon ajankohtainen asuntomarkkinakatsaus" [level=3] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]: Katsaus ottaa riippumattoman erikoistoimijan osaamisella rohkeasti ja kansantajuisesti kantaa asuntomarkkinoiden tilaan ja suuntaan
+            - listitem [ref=e136]: Katsaus sisältää Hypon asuntoindeksin pk-seudulle, Tampereelle ja Turulle
+            - listitem [ref=e137]: Hypo julkistaa asuntomarkkinakatsauksen neljä kertaa vuodessa, nyt käsillä 96. tilanneanalyysi
+          - heading [level=3] [ref=e138]:
+            - img [ref=e139]
+          - heading "Juho Keskinen" [level=3] [ref=e140]
+          - list [ref=e141]:
+            - listitem [ref=e142]: pääekonomisti
+            - listitem [ref=e143]:
+              - link "juho.keskinen@hypo.fi" [ref=e144] [cursor=pointer]:
+                - /url: mailto:juho.keskinen@hypo.fi
+            - listitem [ref=e145]: puhelin 040 165 9582
+            - listitem [ref=e146]: "X (Twitter): @Keskinen_Juho"
+          - heading "Hypo-konserni" [level=2] [ref=e147]
+          - paragraph [ref=e148]: Suomen Hypoteekkiyhdistys on Suomen vanhin valtakunnallinen ja yksityinen luottolaitos, perustettu 1860. Hypo-konserni on kaikista pankki- ja vakuutusyhtiöistä riippumaton, jäsentensä hallinnoima keskinäinen yhtiö, joka toiminnassaan on erikoistunut asuntorahoitukseen. Konserniin kuuluu myös vuonna 2002 perustettu talletuspankki, Suomen AsuntoHypoPankki Oy.
+          - paragraph [ref=e149]: Tilinpäätöstiedotteen 1.1.–31.12.2025 mukaan Hypo-konsernin tase oli 3,6 miljardia euroa, ydinvakavaraisuus 22,9 %, luottokanta 2,8 miljardia euroa, talletukset 1,5 miljardia euroa, järjestämättömät luotot 0,3 % ja liikevoitto 9,0 miljoonaa euroa. Asiakkaita konsernilla on yli 22 000.
+          - paragraph [ref=e150]:
+            - strong [ref=e151]: Suomen Hypoteekkiyhdistys • Suomen Asuntohypopankki Oy
+          - paragraph [ref=e152]: Yrjönkatu 9 A, 00120 HELSINKI • puh./tel. +358 (0)9 228 361 • faksi/fax +358 (0)9 647 443
+          - paragraph [ref=e153]:
+            - emphasis [ref=e154]: Tähän katsaukseen sisältyvät ja sen yhteydessä suullisesti tai muutoin annetut tiedot, kannanotot, analyysit, arviot ja suositukset (”Tiedot”) perustuvat julkisiin lähteisiin ja katsauksen laatijan omiin näkemyksiin ja mielipiteisiin. Katsauksen laatija voi muuttaa Tietoja sekä omia näkemyksiään ja mielipiteitään ilman ennakkoilmoitusta. Tietojen hyödyntäminen tapahtuu kaikilta osin hyödyntäjän omalla vastuulla. Suomen Hypoteekkiyhdistyksen konserniin kuuluvat yhtiöt eivät takaa Tietojen oikeellisuutta tai täydellisyyttä eivätkä vastaa vahingoista, joita Tietojen käyttämisestä voi käyttäjälle tai kolmannelle taholle seurata. Tietoja ei ole tarkoitettu sijoitusneuvoksi taikka suositukseksi tai kehotukseksi ostaa tai myydä kiinteistö, asunto-osake tai rahoitusväline. Kiinteistöjen arvoon ja arvostukseen vaikuttavat monet seikat. Hypon Asuntoluottoluokitus (”Hypo-luokitus”) on Suomen Hypoteekkiyhdistyksen tietyn hetken markkinanäkemys, jonka oikeellisuudesta Suomen Hypoteekkiyhdistys ei vastaa; Suomen Hypoteekkiyhdistys ei myöskään ota vastuuta mahdollisista Hypon Asuntoluottoluokituksen aiheuttamista vahingoista. Tietoja lainatessa tulee mainita lähteenä Hypo ja katsauksen laatijan nimi.
+          - generic [ref=e156]:
+            - link "Print" [ref=e157] [cursor=pointer]:
+              - /url: /#print
+              - generic:
+                - img
+              - generic [ref=e158]: Print
+            - link "Email" [ref=e159] [cursor=pointer]:
+              - /url: /#email
+              - generic:
+                - img
+              - generic [ref=e160]: Email
+            - link "Facebook" [ref=e161] [cursor=pointer]:
+              - /url: /#facebook
+              - generic:
+                - img
+              - generic [ref=e162]: Facebook
+            - link "LinkedIn" [ref=e163] [cursor=pointer]:
+              - /url: /#linkedin
+              - generic:
+                - img
+              - generic [ref=e164]: LinkedIn
+            - link "Twitter" [ref=e165] [cursor=pointer]:
+              - /url: /#twitter
+              - generic:
+                - img
+              - generic [ref=e166]: Twitter
+        - generic [ref=e168]:
+          - text: Julkaistu kategoriassa
+          - link "Ajankohtaiskatsaus" [ref=e169] [cursor=pointer]:
+            - /url: https://www.hypo.fi/category/ajankohtaiskatsaus/
+          - text: ja tunnisteilla
+          - link "asuminen" [ref=e170] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/asuminen/
+          - text: ","
+          - link "asuntokauppa" [ref=e171] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/asuntokauppa/
+          - text: ","
+          - link "asuntolaina" [ref=e172] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/asuntolaina/
+          - text: ","
+          - link "asuntomarkkinat" [ref=e173] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/asuntomarkkinat/
+          - text: ","
+          - link "asuntosijoittaminen" [ref=e174] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/asuntosijoittaminen/
+          - text: ","
+          - link "koti" [ref=e175] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/koti/
+          - text: ","
+          - link "rakentaminen" [ref=e176] [cursor=pointer]:
+            - /url: https://www.hypo.fi/tag/rakentaminen/
+    - contentinfo [ref=e177]:
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - complementary [ref=e182]:
+            - generic [ref=e185]: 
+          - complementary [ref=e186]:
+            - heading "Ota yhteyttä" [level=4] [ref=e187]
+            - generic [ref=e188]:
+              - paragraph [ref=e189]:
+                - link "Yhteystiedot" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.hypo.fi/tietoa-hyposta/yhteystiedot/
+              - paragraph [ref=e191]:
+                - text: Suomen Hypoteekkiyhdistys
+                - text: "Käyntiosoite: Yrjönkatu 9 A"
+                - text: 00120 Helsinki
+              - paragraph [ref=e192]:
+                - text: "Postiosoite: PL 509"
+                - text: 00101 Helsinki
+        - generic [ref=e193]:
+          - complementary [ref=e194]:
+            - generic [ref=e197]: 
+          - complementary [ref=e198]:
+            - heading "Linkit" [level=4] [ref=e199]
+            - paragraph [ref=e201]:
+              - link "Lainalaskurit" [ref=e202] [cursor=pointer]:
+                - /url: /lainat/laske-ja-hae-lainaa/
+              - link "Lainahakemukset" [ref=e203] [cursor=pointer]:
+                - /url: /lainat/laske-ja-hae-lainaa/#iboxuueddmx
+              - link "Talletussopimukset" [ref=e204] [cursor=pointer]:
+                - /url: /saastaminen/
+              - link "Taloyhtiöiden tarjouspyyntö" [ref=e205] [cursor=pointer]:
+                - /url: /lainat/taloyhtiolainat/
+              - link "Palaute" [ref=e206] [cursor=pointer]:
+                - /url: /tietoa-hyposta/yhteystiedot/
+        - generic [ref=e207]:
+          - complementary [ref=e208]:
+            - generic [ref=e211]: 
+          - complementary [ref=e212]:
+            - heading "Korot" [level=4] [ref=e213]
+            - generic [ref=e214]:
+              - paragraph [ref=e215]: "Hypo Prime: 1,50 %"
+              - paragraph [ref=e216]: Asuntolainoissa ja kulutusluotoissa käytämme viitekorkona aina Euriborkorkoa.
+              - paragraph [ref=e217]:
+                - link "Päiväkohtaiset markkinakorot Suomen Pankin nettisivulta" [ref=e218] [cursor=pointer]:
+                  - /url: http://www.suomenpankki.fi/fi/tilastot/korot
+      - generic [ref=e223]:
+        - text: © Suomen Hypoteekkiyhdistys ja Suomen AsuntoHypoPankki Oy
+        - link "Käyttöehdot" [ref=e224] [cursor=pointer]:
+          - /url: /kayttajaehdot/
+        - text: "|"
+        - link "Tietosuoja" [ref=e225] [cursor=pointer]:
+          - /url: /tietosuoja/
+        - text: "|"
+        - link "Saavutettavuus" [ref=e226] [cursor=pointer]:
+          - /url: /saavutettavuusseloste/

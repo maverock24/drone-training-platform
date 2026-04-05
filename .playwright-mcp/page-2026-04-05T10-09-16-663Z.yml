@@ -1,0 +1,419 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: best European drone training platforms EASA online A1 A2 A3 specific category 2025 best European drone training platforms EASA online A1 A2 A3 specific category 2025
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dbest%2BEuropean%2Bdrone%2Btraining%2Bplatforms%2BEASA%2Bonline%2BA1%2BA2%2BA3%2Bspecific%2Bcategory%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&aep=1&ntc=1&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Lyhyet videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQs6gLegQIFhAB
+              - generic [ref=e90]: Lyhyet videot
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQtKgLegQIFBAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQs6gLegQIEhAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPlMz1yWX4_9G1vFBsWXFEQLSRoefpd0g-bosaQXUicXr4BTzUMvna6S7hxx6FhWcC990HzbHy3TPzj61cSi0UAK2J_NYnjk_Mz5dBLoC0qnoC7Le38vlkoWWt0JLzHiQDu6jMzijIbnoOZ2fFk_nXtCssBAa&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ0pQJegQIFRAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dbest%2BEuropean%2Bdrone%2Btraining%2Bplatforms%2BEASA%2Bonline%2BA1%2BA2%2BA3%2Bspecific%2Bcategory%2B2025&hl=en&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "Drone license overview - training courses, exams and ... Droniq https://droniq.de › drohnenfuehrerschein" [ref=e180] [cursor=pointer]:
+                  - /url: https://droniq.de/en/drohnenfuehrerschein/
+                  - heading "Drone license overview - training courses, exams and ..." [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Droniq
+                    - generic [ref=e190]: https://droniq.de › drohnenfuehrerschein
+                - button "Tietoja tästä tuloksesta" [ref=e191] [cursor=pointer]:
+                  - img [ref=e194]
+              - generic [ref=e198]:
+                - emphasis [ref=e199]: Drone
+                - text: license
+                - emphasis [ref=e200]: A1
+                - text: /3 +
+                - emphasis [ref=e201]: A2
+                - text: remote pilot certificate. Everything you need to know and
+                - emphasis [ref=e202]: online training courses
+                - text: can be found here at droniq.de.
+              - generic [ref=e204]:
+                - text: "Puuttuu: best ‎| Hae tällä:"
+                - link "best" [ref=e205] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=%22best%22+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ5t4CegQIHRAB
+          - generic [ref=e209]:
+            - generic [ref=e212]:
+              - link "EU Drone Port™ | UAS Certification, Testing & Training EU Drone Port https://eudroneport.com" [ref=e214] [cursor=pointer]:
+                - /url: https://eudroneport.com/
+                - heading "EU Drone Port™ | UAS Certification, Testing & Training" [level=3] [ref=e215]
+                - generic [ref=e220]:
+                  - generic [ref=e222]: EU Drone Port
+                  - generic [ref=e224]: https://eudroneport.com
+              - generic [ref=e225]:
+                - generic [ref=e226]: ·
+                - link "Käännä tämä sivu" [ref=e227] [cursor=pointer]:
+                  - /url: https://eudroneport.com/
+              - button "Tietoja tästä tuloksesta" [ref=e228] [cursor=pointer]:
+                - img [ref=e231]
+            - generic [ref=e235]:
+              - emphasis [ref=e236]: A European Drone Hub for Testing, Certification, Training & Authorisations
+              - text: . A place to certify your drones and bring them to the market.
+            - generic [ref=e238]: "Puuttuu: platforms ‎online"
+          - generic [ref=e242]:
+            - generic [ref=e245]:
+              - link "Drone training A1/A3 - OmniDrones omnidrones.eu https://omnidrones.eu › droneoplei..." [ref=e247] [cursor=pointer]:
+                - /url: https://omnidrones.eu/en/droneopleiding-a1-a3-2/?srsltid=AfmBOop8uS7hQostK-nEpG9dNMouxJbhiSgC8gZAh0oKrivzVZDezoyo
+                - heading "Drone training A1/A3 - OmniDrones" [level=3] [ref=e248]
+                - generic [ref=e253]:
+                  - generic [ref=e255]: omnidrones.eu
+                  - generic [ref=e257]: https://omnidrones.eu › droneoplei...
+              - generic [ref=e258]:
+                - generic [ref=e259]: ·
+                - link "Käännä tämä sivu" [ref=e260] [cursor=pointer]:
+                  - /url: https://omnidrones.eu/en/droneopleiding-a1-a3-2/
+              - button "Tietoja tästä tuloksesta" [ref=e261] [cursor=pointer]:
+                - img [ref=e264]
+            - generic [ref=e268]:
+              - text: At
+              - emphasis [ref=e269]: OmniDrones Academy
+              - text: ", you obtain your EU drone pilot licence where and when you want thanks to our convenient online learning environment."
+          - generic [ref=e273]:
+            - generic [ref=e276]:
+              - link "Drones (UAS) | EASA - European Union EASA https://www.easa.europa.eu › faqs" [ref=e278] [cursor=pointer]:
+                - /url: https://www.easa.europa.eu/en/the-agency/faqs/drones-uas
+                - heading "Drones (UAS) | EASA - European Union" [level=3] [ref=e279]
+                - generic [ref=e284]:
+                  - generic [ref=e286]: EASA
+                  - generic [ref=e288]: https://www.easa.europa.eu › faqs
+              - generic [ref=e289]:
+                - generic [ref=e290]: ·
+                - link "Käännä tämä sivu" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.easa.europa.eu/en/the-agency/faqs/drones-uas
+              - button "Tietoja tästä tuloksesta" [ref=e292] [cursor=pointer]:
+                - img [ref=e295]
+            - generic [ref=e299]:
+              - text: A remote pilot
+              - emphasis [ref=e300]: training
+              - text: certificate is not needed to operate a
+              - emphasis [ref=e301]: drone
+              - text: of this kind, however is highly recommended to conduct the
+              - emphasis [ref=e302]: A1
+              - text: /
+              - emphasis [ref=e303]: A3 online training
+              - text: .
+            - generic [ref=e305]:
+              - text: "Puuttuu: 2025 ‎| Hae tällä:"
+              - link "2025" [ref=e306] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+%222025%22&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ5t4CegQIQBAB
+          - generic [ref=e310]:
+            - generic [ref=e313]:
+              - 'link "Certification A1/A3 & A2 courses : r/drones Reddit · r/drones Yli 10 kommenttia · 11 kuukautta sitten" [ref=e315] [cursor=pointer]':
+                - /url: https://www.reddit.com/r/drones/comments/1k9wpyh/certification_a1a3_a2_courses/
+                - 'heading "Certification A1/A3 & A2 courses : r/drones" [level=3] [ref=e316]'
+                - generic [ref=e321]:
+                  - generic [ref=e323]: Reddit · r/drones
+                  - generic [ref=e325]: Yli 10 kommenttia · 11 kuukautta sitten
+              - button "Tietoja tästä tuloksesta" [ref=e326] [cursor=pointer]:
+                - img [ref=e329]
+            - generic [ref=e333]:
+              - text: If you want to self-learn and officially certify yourself for
+              - emphasis [ref=e334]: EASA A1
+              - text: "-"
+              - emphasis [ref=e335]: A3
+              - text: and
+              - emphasis [ref=e336]: A2 drone
+              - text: categories without using private schools, it's 100% doable.
+          - generic [ref=e340]:
+            - generic [ref=e343]:
+              - link "EASA A1/A3 Drone Flight Academy https://www.droneflightacademy.eu › ..." [ref=e345] [cursor=pointer]:
+                - /url: https://www.droneflightacademy.eu/uk/eu-drone-licenses/easa-a1/a3
+                - heading "EASA A1/A3" [level=3] [ref=e346]
+                - generic [ref=e351]:
+                  - generic [ref=e353]: Drone Flight Academy
+                  - generic [ref=e355]: https://www.droneflightacademy.eu › ...
+              - generic [ref=e356]:
+                - generic [ref=e357]: ·
+                - link "Käännä tämä sivu" [ref=e358] [cursor=pointer]:
+                  - /url: https://www.droneflightacademy.eu/uk/eu-drone-licenses/easa-a1/a3
+              - button "Tietoja tästä tuloksesta" [ref=e359] [cursor=pointer]:
+                - img [ref=e362]
+            - generic [ref=e366]:
+              - text: Obtain your flyer ID by passing an
+              - emphasis [ref=e367]: online
+              - text: exam to legally and safely fly
+              - emphasis [ref=e368]: drones
+              - text: in the UK. Fly sub-250 g
+              - emphasis [ref=e369]: drones
+              - text: ✓ Discover our
+              - emphasis [ref=e370]: online drone training
+              - text: here.
+            - generic [ref=e373]: 84,99 £
+            - generic [ref=e375]: "Puuttuu: best ‎platforms ‎2025"
+          - generic [ref=e379]:
+            - generic [ref=e382]:
+              - link "Drone Training - Remote Pilot Competency IAA.ie https://www.iaa.ie › drones › drone-t..." [ref=e384] [cursor=pointer]:
+                - /url: https://www.iaa.ie/general-aviation/drones/rpas-training-facilities/drone-training---remote-pilot-competency
+                - heading "Drone Training - Remote Pilot Competency" [level=3] [ref=e385]
+                - generic [ref=e390]:
+                  - generic [ref=e392]: IAA.ie
+                  - generic [ref=e394]: https://www.iaa.ie › drones › drone-t...
+              - generic [ref=e395]:
+                - generic [ref=e396]: ·
+                - link "Käännä tämä sivu" [ref=e397] [cursor=pointer]:
+                  - /url: https://www.iaa.ie/general-aviation/drones/rpas-training-facilities/drone-training---remote-pilot-competency
+              - button "Tietoja tästä tuloksesta" [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+            - generic [ref=e405]:
+              - text: Completion of this
+              - emphasis [ref=e406]: training
+              - text: allows you to fly in the Open Subcategory
+              - emphasis [ref=e407]: A1
+              - text: and
+              - emphasis [ref=e408]: A3
+              - text: . To fly in the Subcategory
+              - emphasis [ref=e409]: A2
+              - text: or
+              - emphasis [ref=e410]: Specific Category
+              - text: you must complete further ...
+          - generic [ref=e414]:
+            - generic [ref=e417]:
+              - link "Drone License (A1-A3, A2 and STS) dronelicense.eu https://www.dronelicense.eu" [ref=e419] [cursor=pointer]:
+                - /url: https://www.dronelicense.eu/
+                - heading "Drone License (A1-A3, A2 and STS)" [level=3] [ref=e420]
+                - generic [ref=e425]:
+                  - generic [ref=e427]: dronelicense.eu
+                  - generic [ref=e429]: https://www.dronelicense.eu
+              - generic [ref=e430]:
+                - generic [ref=e431]: ·
+                - link "Käännä tämä sivu" [ref=e432] [cursor=pointer]:
+                  - /url: https://www.dronelicense.eu/
+              - button "Tietoja tästä tuloksesta" [ref=e433] [cursor=pointer]:
+                - img [ref=e436]
+            - generic [ref=e440]:
+              - text: Your drone trainer.
+              - emphasis [ref=e441]: Training with online exams for your drone license
+              - text: ", valid in all EU countries for five years. Free resits and 100% passing guarantee."
+            - generic [ref=e443]: "Puuttuu: platforms ‎2025"
+          - generic [ref=e447]:
+            - generic [ref=e450]:
+              - link "How to Train for EASA Open and Specific Categories Drone Operations Platform https://www.airhub.app › news › tr..." [ref=e452] [cursor=pointer]:
+                - /url: https://www.airhub.app/resources/news/training-for-easa-open-and-specific-categories
+                - heading "How to Train for EASA Open and Specific Categories" [level=3] [ref=e453]
+                - generic [ref=e458]:
+                  - generic [ref=e460]: Drone Operations Platform
+                  - generic [ref=e462]: https://www.airhub.app › news › tr...
+              - generic [ref=e463]:
+                - generic [ref=e464]: ·
+                - link "Käännä tämä sivu" [ref=e465] [cursor=pointer]:
+                  - /url: https://www.airhub.app/resources/news/training-for-easa-open-and-specific-categories
+              - button "Tietoja tästä tuloksesta" [ref=e466] [cursor=pointer]:
+                - img [ref=e469]
+            - generic [ref=e472]:
+              - generic [ref=e473]: 7.7.2025 —
+              - generic [ref=e474]:
+                - emphasis [ref=e475]: Learn how to meet EASA drone training requirements
+                - text: for Open and Specific Categories. Also, discover how the AirHub Drone Operations Center ...
+          - generic [ref=e479]:
+            - generic [ref=e482]:
+              - link "Where and How Do I Train? - The Luxembourg Direction de l'aviation civile (DAC) https://dac.gouvernement.lu › drones" [ref=e484] [cursor=pointer]:
+                - /url: https://dac.gouvernement.lu/en/drones/train-where-how.html
+                - heading "Where and How Do I Train? - The Luxembourg" [level=3] [ref=e485]
+                - generic [ref=e490]:
+                  - generic [ref=e492]: Direction de l'aviation civile (DAC)
+                  - generic [ref=e494]: https://dac.gouvernement.lu › drones
+              - generic [ref=e495]:
+                - generic [ref=e496]: ·
+                - link "Käännä tämä sivu" [ref=e497] [cursor=pointer]:
+                  - /url: https://dac.gouvernement.lu/en/drones/train-where-how.html
+              - button "Tietoja tästä tuloksesta" [ref=e498] [cursor=pointer]:
+                - img [ref=e501]
+            - generic [ref=e504]:
+              - generic [ref=e505]: 7.1.2026 —
+              - generic [ref=e506]:
+                - text: The OPEN
+                - emphasis [ref=e507]: A1
+                - text: /
+                - emphasis [ref=e508]: A3 online
+                - text: theoretical examination is a fully
+                - emphasis [ref=e509]: online
+                - text: course and examination. It is available in English, French, German and Luxembourgish.
+        - generic [ref=e511]:
+          - generic [ref=e516]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e518]
+            - generic [ref=e520]:
+              - generic [ref=e521]:
+                - link "A1/A3 certificate free" [ref=e525] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=A1/A3+certificate+free&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAggEAE
+                  - generic [ref=e526]:
+                    - generic [ref=e531]: A1/A3 certificate free
+                    - img [ref=e535]
+                - link "A1/A3 drone exam" [ref=e540] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=A1/A3+drone+exam&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAhDEAE
+                  - generic [ref=e541]:
+                    - generic [ref=e546]: A1/A3 drone exam
+                    - img [ref=e550]
+                - link "EU Drone Port" [ref=e555] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=EU+Drone+Port&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAhCEAE
+                  - generic [ref=e556]:
+                    - generic [ref=e561]: EU Drone Port
+                    - img [ref=e565]
+                - link "A2 drone license" [ref=e570] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=A2+drone+license&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAg5EAE
+                  - generic [ref=e571]:
+                    - generic [ref=e576]: A2 drone license
+                    - img [ref=e580]
+              - generic [ref=e582]:
+                - link "EASA Drone License" [ref=e586] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=EASA+Drone+License&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAgsEAE
+                  - generic [ref=e587]:
+                    - generic [ref=e592]: EASA Drone License
+                    - img [ref=e596]
+                - link "EASA drone License test" [ref=e601] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=EASA+drone+License+test&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAgqEAE
+                  - generic [ref=e602]:
+                    - generic [ref=e607]: EASA drone License test
+                    - img [ref=e611]
+                - link "EU Drone License A1/A3" [ref=e616] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=EU+Drone+License+A1/A3&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAgoEAE
+                  - generic [ref=e617]:
+                    - generic [ref=e622]: EU Drone License A1/A3
+                    - img [ref=e626]
+                - link "A1/A3 drone license Luxembourg" [ref=e631] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=A1/A3+drone+license+Luxembourg&sa=X&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ1QJ6BAghEAE
+                  - generic [ref=e632]:
+                    - generic [ref=e637]: A1/A3 drone license Luxembourg
+                    - img [ref=e641]
+          - navigation [ref=e643]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e644]
+            - text: "1"
+            - link "Page 2" [ref=e647] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=10&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAE
+              - text: "2"
+            - link "Page 3" [ref=e649] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=20&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAG
+              - text: "3"
+            - link "Page 4" [ref=e651] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=30&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAI
+              - text: "4"
+            - link "Page 5" [ref=e653] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=40&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAK
+              - text: "5"
+            - link "Page 6" [ref=e655] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=50&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAM
+              - text: "6"
+            - link "Page 7" [ref=e657] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=60&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAO
+              - text: "7"
+            - link "Page 8" [ref=e659] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=70&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAQ
+              - text: "8"
+            - link "Page 9" [ref=e661] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=80&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAS
+              - text: "9"
+            - link "Page 10" [ref=e663] [cursor=pointer]:
+              - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=90&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8tMDegQIRBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e665]:
+              - link "Seuraava" [ref=e666] [cursor=pointer]:
+                - /url: /search?q=best+European+drone+training+platforms+EASA+online+A1+A2+A3+specific+category+2025&sca_esv=a73392c086c649e8&ei=yjTSaY2LOcS73AOhtdjYDw&start=10&sa=N&sstk=Af77f_djZbf6-KsjHo0Tov-_kFJpWt0iuAUX3Dt6KN0Wg0MAq9HD40T74wC1-6j5tJNUgtDm5pVXDEIHhpt9s3Ekjxa65_8PdOcXOg&ved=2ahUKEwiNmLbwu9aTAxXEHXcKHaEaFvsQ8NMDegQIRBAW
+                - generic [ref=e668]: Seuraava
+        - navigation
+    - contentinfo [ref=e669]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e670]
+      - generic [ref=e674]:
+        - generic [ref=e676]:
+          - text: Suomi
+          - generic [ref=e678]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e680] [cursor=pointer]:
+              - generic [ref=e681]: 00920, Helsinki
+              - generic [ref=e683]:
+                - text: "-"
+                - generic [ref=e684]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e686] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e689]:
+          - link "Ohje" [ref=e690] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e691] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e692] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e693] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

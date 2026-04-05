@@ -1,0 +1,287 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:veronmaksajat.fi vuokratulo vähennykset asuntosijoittaja site:veronmaksajat.fi vuokratulo vähennykset asuntosijoittaja
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:veronmaksajat.fi%2Bvuokratulo%2Bv%25C3%25A4hennykset%2Basuntosijoittaja&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&aep=1&ntc=1&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQtKgLegQIFBAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Kuvahaku" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQtKgLegQIExAB
+              - generic [ref=e94]: Kuvahaku
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ0pQJegQIDxAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:veronmaksajat.fi%2Bvuokratulo%2Bv%25C3%25A4hennykset%2Basuntosijoittaja&hl=en&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQhoQCKAF6BAgNEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQiIQCKAN6BAgNEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Tulokset internetistä" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Vuokratulot ja verovähennykset Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e154] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/vuokratulot-ja-verovahennykset/
+                - heading "Vuokratulot ja verovähennykset" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: Veronmaksajain Keskusliitto
+                  - generic [ref=e164]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+              - button "Tietoja tästä tuloksesta" [ref=e165] [cursor=pointer]:
+                - img [ref=e168]
+            - generic [ref=e172]:
+              - emphasis [ref=e173]: Asunto-osakeyhtiön perimän hoitovastikkeen voi aina vähentää vuokratulosta
+              - text: . Jos huoneisto on vain osittain vuokralla, vuokranantaja voi vähentää vuokrattua ...
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - link "Miltä ajalta sijoitusasunnon hoitovastikkeen saa vähentää ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e182] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2023/milta-ajalta-sijoitusasunnon-hoitovastikkeen-saa-vahentaa-vuokratuloista/
+              - heading "Miltä ajalta sijoitusasunnon hoitovastikkeen saa vähentää ..." [level=3] [ref=e183]
+              - generic [ref=e188]:
+                - generic [ref=e190]: Veronmaksajain Keskusliitto
+                - generic [ref=e192]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e193] [cursor=pointer]:
+              - img [ref=e196]
+          - generic [ref=e199]:
+            - generic [ref=e200]: 30.3.2023 —
+            - generic [ref=e201]:
+              - emphasis [ref=e202]: Hoitovastikkeen voi vähentää sijoitusasunnon vuokratulosta vuokrausajalta
+              - text: . Jos asunto vuokralaisen vaihtuessa on tilapäisesti tyhjillään, myös ...
+        - generic [ref=e206]:
+          - generic [ref=e209]:
+            - link "Vuokraan kalustettua yksiötä – miten vähennän ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e211] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2024/vuokraan-kalustettua-yksiota--miten-vahennan-kalustehankinnat/
+              - heading "Vuokraan kalustettua yksiötä – miten vähennän ..." [level=3] [ref=e212]
+              - generic [ref=e217]:
+                - generic [ref=e219]: Veronmaksajain Keskusliitto
+                - generic [ref=e221]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e222] [cursor=pointer]:
+              - img [ref=e225]
+          - generic [ref=e228]:
+            - generic [ref=e229]: 30.5.2024 —
+            - text: Kuitenkin jos kalusteen tai kodinkoneen hankintameno on enintään 1 200 euroa, voi sen vähentää kerralla maksuvuoden verotuksessa vuosimenoina.
+        - generic [ref=e233]:
+          - generic [ref=e236]:
+            - link "Saanko vähentää remonttikulut ja kalustehankinnat ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e238] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2023/saanko-vahentaa-remonttikulut-ja-kalustehankinnat-vuokratulosta/
+              - heading "Saanko vähentää remonttikulut ja kalustehankinnat ..." [level=3] [ref=e239]
+              - generic [ref=e244]:
+                - generic [ref=e246]: Veronmaksajain Keskusliitto
+                - generic [ref=e248]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e249] [cursor=pointer]:
+              - img [ref=e252]
+          - generic [ref=e255]:
+            - generic [ref=e256]: 17.8.2023 —
+            - text: Jos laitat asunnon ensin vuokralle ja teet vuosikorjausremontin ja hankinnat vasta sen jälkeen, saat vähentää kulut vuokratuloista.
+        - generic [ref=e260]:
+          - generic [ref=e263]:
+            - link "Otan sijoitusasunnon omaan käyttööni – saanko silti ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e265] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2023/otan-sijoitusasunnon-omaan-kayttooni--saanko-silti-vahentaa-remonttikulujani/
+              - heading "Otan sijoitusasunnon omaan käyttööni – saanko silti ..." [level=3] [ref=e266]
+              - generic [ref=e271]:
+                - generic [ref=e273]: Veronmaksajain Keskusliitto
+                - generic [ref=e275]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e276] [cursor=pointer]:
+              - img [ref=e279]
+          - generic [ref=e282]:
+            - generic [ref=e283]: 30.3.2023 —
+            - text: Kyllä voit. Asunnon käyttötarkoitusta arvioidaan verotuksessa menojen maksuhetken mukaan. Jos huoneisto remontoidaan vuokrauksen loputtua ennen ...
+        - generic [ref=e287]:
+          - generic [ref=e290]:
+            - link "Saanko vähentää sijoitusasuntoni siivouskulut? Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e292] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2023/saanko-vahentaa-sijoitusasuntoni-siivouskulut/
+              - heading "Saanko vähentää sijoitusasuntoni siivouskulut?" [level=3] [ref=e293]
+              - generic [ref=e298]:
+                - generic [ref=e300]: Veronmaksajain Keskusliitto
+                - generic [ref=e302]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e303] [cursor=pointer]:
+              - img [ref=e306]
+          - generic [ref=e309]:
+            - generic [ref=e310]: 8.6.2023 —
+            - generic [ref=e311]:
+              - emphasis [ref=e312]: Menot, kuten vuokratun asunnon siivouskulut, ovat lähtökohtaisesti vähennyskelpoisia
+              - text: myös siltä ajalta kuin asunto on tyhjillään esimerkiksi ...
+        - generic [ref=e316]:
+          - generic [ref=e319]:
+            - link "Miten vuokratuloja verotetaan? Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e321] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/miten-vuokratuloja-verotetaan/
+              - heading "Miten vuokratuloja verotetaan?" [level=3] [ref=e322]
+              - generic [ref=e327]:
+                - generic [ref=e329]: Veronmaksajain Keskusliitto
+                - generic [ref=e331]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e332] [cursor=pointer]:
+              - img [ref=e335]
+          - generic [ref=e338]:
+            - generic [ref=e339]: 13.1.2025 —
+            - generic [ref=e340]:
+              - text: Tällaisia vähennyskelpoisia kuluja ovat esimerkiksi
+              - emphasis [ref=e341]: asunto
+              - text: "-osakkeen hoitovastike ja vesimaksu, omakotitalon kiinteistövero sekä vuokralaisen ..."
+        - generic [ref=e345]:
+          - generic [ref=e348]:
+            - link "Sijoitusasunnon keittiössä remontti – milloin vähennän kulut? Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e350] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2021/sijoitusasunnon-keittiossa-remontti--milloin-vahennan-kulut/
+              - heading "Sijoitusasunnon keittiössä remontti – milloin vähennän kulut?" [level=3] [ref=e351]
+              - generic [ref=e356]:
+                - generic [ref=e358]: Veronmaksajain Keskusliitto
+                - generic [ref=e360]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e361] [cursor=pointer]:
+              - img [ref=e364]
+          - generic [ref=e367]:
+            - generic [ref=e368]: 20.5.2021 —
+            - text: Korjausmenojen vähentämiseen vuokratuloista vaikuttaa se, onko kyse vuosikorjauksesta vai perusparannuksesta. Oman työn osuus ei ole ...
+        - generic [ref=e372]:
+          - generic [ref=e375]:
+            - link "Sijoitusasunto omaan käyttöön – saako remonttikuluista ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e377] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/vuokratulot/2024/sijoitusasunto-omaan-kayttoon--saako-remonttikuluista-vahennyksen/
+              - heading "Sijoitusasunto omaan käyttöön – saako remonttikuluista ..." [level=3] [ref=e378]
+              - generic [ref=e383]:
+                - generic [ref=e385]: Veronmaksajain Keskusliitto
+                - generic [ref=e387]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e388] [cursor=pointer]:
+              - img [ref=e391]
+          - generic [ref=e394]:
+            - generic [ref=e395]: 5.12.2024 —
+            - generic [ref=e396]:
+              - emphasis [ref=e397]: Vuosikorjausmenot ovat vähennyskelpoisia vuokratulosta
+              - text: siltä osin kuin korjaukset johtuvat vuokrauksesta. Vuosikorjaus tarkoittaa huoneiston tai ...
+          - generic [ref=e399]:
+            - text: "Puuttuu: vähennykset ‎| Hae tällä:"
+            - link "vähennykset" [ref=e400] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=site:veronmaksajat.fi+vuokratulo+%22v%C3%A4hennykset%22+asuntosijoittaja&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ5t4CegQINRAB
+        - generic [ref=e404]:
+          - generic [ref=e407]:
+            - link "Asuntosijoittaja vuokraa varaston kalusteille – saako ... Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › neuvot › vuokratulot" [ref=e409] [cursor=pointer]:
+              - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/asuminen-ja-auto/vuokratulot/2023/asuntosijoittaja-vuokraa-varaston-kalusteille--saako-vuokrakulusta-vahennyksen/
+              - heading "Asuntosijoittaja vuokraa varaston kalusteille – saako ..." [level=3] [ref=e410]
+              - generic [ref=e415]:
+                - generic [ref=e417]: Veronmaksajain Keskusliitto
+                - generic [ref=e419]: https://www.veronmaksajat.fi › neuvot › vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e420] [cursor=pointer]:
+              - img [ref=e423]
+          - generic [ref=e426]:
+            - generic [ref=e427]: 23.3.2023 —
+            - generic [ref=e428]:
+              - text: Kyllä on.
+              - emphasis [ref=e429]: Saat vähentää vuokratuloistasi niiden hankkimisesta aiheutuneet kulut
+              - text: . Kalusteita varten vuokraamastasi varastosta aiheutunut kulu ...
+          - generic [ref=e431]:
+            - text: "Puuttuu: vähennykset ‎| Hae tällä:"
+            - link "vähennykset" [ref=e432] [cursor=pointer]:
+              - /url: /search?sca_esv=3a2a6e3c008af294&q=site:veronmaksajat.fi+vuokratulo+%22v%C3%A4hennykset%22+asuntosijoittaja&sa=X&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ5t4CegQINBAB
+      - navigation [ref=e435]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e436]
+        - text: "1"
+        - link "Page 2" [ref=e439] [cursor=pointer]:
+          - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&ei=6yTSaYb3CeXOwPAPn7GWoAc&start=10&sa=N&sstk=Af77f_eLwEl5oJb3l80_GonBDwy_gMvZ6-dWc_ebjxM6QxqAp5jIrQQzDKaSHNVJHNw1SqFrpkyQwDbXR8ma3yNyeQC-c4vtuw0oPw&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ8tMDegQIJBAE
+          - text: "2"
+        - link "Page 3" [ref=e441] [cursor=pointer]:
+          - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&ei=6yTSaYb3CeXOwPAPn7GWoAc&start=20&sa=N&sstk=Af77f_eLwEl5oJb3l80_GonBDwy_gMvZ6-dWc_ebjxM6QxqAp5jIrQQzDKaSHNVJHNw1SqFrpkyQwDbXR8ma3yNyeQC-c4vtuw0oPw&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ8tMDegQIJBAG
+          - text: "3"
+        - link "Page 4" [ref=e443] [cursor=pointer]:
+          - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&ei=6yTSaYb3CeXOwPAPn7GWoAc&start=30&sa=N&sstk=Af77f_eLwEl5oJb3l80_GonBDwy_gMvZ6-dWc_ebjxM6QxqAp5jIrQQzDKaSHNVJHNw1SqFrpkyQwDbXR8ma3yNyeQC-c4vtuw0oPw&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ8tMDegQIJBAI
+          - text: "4"
+        - link "Page 5" [ref=e445] [cursor=pointer]:
+          - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&ei=6yTSaYb3CeXOwPAPn7GWoAc&start=40&sa=N&sstk=Af77f_eLwEl5oJb3l80_GonBDwy_gMvZ6-dWc_ebjxM6QxqAp5jIrQQzDKaSHNVJHNw1SqFrpkyQwDbXR8ma3yNyeQC-c4vtuw0oPw&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ8tMDegQIJBAK
+          - text: "5"
+        - link "Page 6" [ref=e447] [cursor=pointer]:
+          - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&ei=6yTSaYb3CeXOwPAPn7GWoAc&start=50&sa=N&sstk=Af77f_eLwEl5oJb3l80_GonBDwy_gMvZ6-dWc_ebjxM6QxqAp5jIrQQzDKaSHNVJHNw1SqFrpkyQwDbXR8ma3yNyeQC-c4vtuw0oPw&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ8tMDegQIJBAM
+          - text: "6"
+        - heading "Seuraava" [level=2] [ref=e449]:
+          - link "Seuraava" [ref=e450] [cursor=pointer]:
+            - /url: /search?q=site:veronmaksajat.fi+vuokratulo+v%C3%A4hennykset+asuntosijoittaja&sca_esv=3a2a6e3c008af294&ei=6yTSaYb3CeXOwPAPn7GWoAc&start=10&sa=N&sstk=Af77f_eLwEl5oJb3l80_GonBDwy_gMvZ6-dWc_ebjxM6QxqAp5jIrQQzDKaSHNVJHNw1SqFrpkyQwDbXR8ma3yNyeQC-c4vtuw0oPw&ved=2ahUKEwjGmNXerNaTAxVlJxAIHZ-YBXQQ8NMDegQIJBAO
+            - generic [ref=e452]: Seuraava
+      - navigation
+    - contentinfo [ref=e453]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e454]
+      - generic [ref=e458]:
+        - generic [ref=e460]:
+          - text: Suomi
+          - generic [ref=e462]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e464] [cursor=pointer]:
+              - generic [ref=e465]: 00920, Helsinki
+              - generic [ref=e467]:
+                - text: "-"
+                - generic [ref=e468]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e470] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e473]:
+          - link "Ohje" [ref=e474] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e475] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e476] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e477] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,195 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://coptrz.com
+        - img [ref=e10]
+      - generic [ref=e22]:
+        - link [ref=e24] [cursor=pointer]:
+          - /url: https://www.coptrzacademy-usp.io/login
+          - img [ref=e25]
+        - link "0" [ref=e31] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e32]
+          - generic [ref=e37]: "0"
+        - button [ref=e39] [cursor=pointer]
+  - main [ref=e42]:
+    - generic [ref=e44]:
+      - heading "404 - Page Not Found" [level=1] [ref=e45]
+      - generic [ref=e46]:
+        - paragraph [ref=e47]: Oops! Looks like we’ve flown off course.
+        - paragraph [ref=e48]: Why not head back to the home page?
+      - link "Return To Home" [ref=e52] [cursor=pointer]:
+        - /url: /
+    - generic [ref=e56]:
+      - link "4.9 574 reviews" [ref=e59] [cursor=pointer]:
+        - /url: https://www.reviews.io/company-reviews/store/coptrz.com
+        - generic [ref=e60]:
+          - generic [ref=e61]: "4.9"
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - img [ref=e64]
+              - img [ref=e66]
+              - img [ref=e68]
+              - img [ref=e70]
+              - img [ref=e72]
+            - generic [ref=e74]: 574 reviews
+      - link "4.9 187 reviews" [ref=e78] [cursor=pointer]:
+        - /url: https://www.google.com/maps/place/Coptrz/@53.6487213,-1.5957807,11z/data=!3m1!5s0x48795c1db6c4a153:0xd84010c469752480!4m12!1m2!2m1!1scoptrz!3m8!1s0x487973db4cfc206f:0x68dbb5ebd344400!8m2!3d53.7991882!4d-1.5476264!9m1!1b1!15sCgZjb3B0cnpaCCIGY29wdHJ6kgERdHJhaW5pbmdfcHJvdmlkZXLgAQA!16s%2Fg%2F11b_3bwv53?entry=ttu
+        - generic [ref=e79]:
+          - generic [ref=e80]: "4.9"
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - img [ref=e83]
+              - img [ref=e85]
+              - img [ref=e87]
+              - img [ref=e89]
+              - img [ref=e91]
+            - generic [ref=e93]: 187 reviews
+    - generic [ref=e100]:
+      - heading "Unlock your business potential with drone technology" [level=2] [ref=e103]
+      - button "Enquire Now" [ref=e109] [cursor=pointer]
+    - generic [ref=e110]:
+      - generic [ref=e114]:
+        - link [ref=e117] [cursor=pointer]:
+          - /url: https://coptrz.com
+          - img [ref=e119]
+        - list [ref=e133]:
+          - listitem [ref=e134]:
+            - link [ref=e135] [cursor=pointer]:
+              - /url: https://www.facebook.com/coptrz/
+              - img [ref=e136]
+          - listitem [ref=e138]:
+            - link [ref=e139] [cursor=pointer]:
+              - /url: https://www.instagram.com/coptrz/?hl=en
+              - img [ref=e140]
+          - listitem [ref=e142]:
+            - link [ref=e143] [cursor=pointer]:
+              - /url: https://twitter.com/Coptrz?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+              - img [ref=e144]
+          - listitem [ref=e146]:
+            - link [ref=e147] [cursor=pointer]:
+              - /url: https://uk.linkedin.com/company/coptrz
+              - img [ref=e148]
+          - listitem [ref=e150]:
+            - link [ref=e151] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCaSoWnfzOkLf-gVsqqkRZBQ
+              - img [ref=e152]
+      - generic [ref=e157]:
+        - generic [ref=e159]:
+          - heading "About Us" [level=4] [ref=e160]:
+            - button "About Us"
+          - generic "About Us" [ref=e161]:
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - link "Company" [ref=e166] [cursor=pointer]:
+                  - /url: https://coptrz.com/about-us/
+              - listitem [ref=e167]:
+                - link "Our Brands" [ref=e168] [cursor=pointer]:
+                  - /url: https://coptrz.com/brands/
+              - listitem [ref=e169]:
+                - link "Environment Initiative" [ref=e170] [cursor=pointer]:
+                  - /url: https://ecologi.com/coptrz
+              - listitem [ref=e171]:
+                - link "Sitemap" [ref=e172] [cursor=pointer]:
+                  - /url: https://coptrz.com/sitemap.xml
+        - generic [ref=e174]:
+          - heading "Solutions" [level=4] [ref=e175]:
+            - button "Solutions"
+          - generic "Solutions" [ref=e176]:
+            - list [ref=e179]:
+              - listitem [ref=e180]:
+                - link "Asset Integrity & Inspection" [ref=e181] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/asset-integrity-and-inspection/
+              - listitem [ref=e182]:
+                - link "Surveying & Construction" [ref=e183] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/surveying-and-construction/
+              - listitem [ref=e184]:
+                - link "Public Safety" [ref=e185] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/public-safety/
+              - listitem [ref=e186]:
+                - link "Agriculture & Forestry" [ref=e187] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/agriculture-and-forestry/
+              - listitem [ref=e188]:
+                - link "Research & Education" [ref=e189] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/research-and-education/
+              - listitem [ref=e190]:
+                - link "Energy & Renewables" [ref=e191] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/energy-and-renewables/
+              - listitem [ref=e192]:
+                - link "Oil & Gas" [ref=e193] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/oil-and-gas/
+              - listitem [ref=e194]:
+                - link "Security" [ref=e195] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/security/
+              - listitem [ref=e196]:
+                - link "Government Body" [ref=e197] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/government-body/
+              - listitem [ref=e198]:
+                - link "Sport" [ref=e199] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/sport/
+              - listitem [ref=e200]:
+                - link "Film & Media" [ref=e201] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/film-and-media/
+              - listitem [ref=e202]:
+                - link "Marine" [ref=e203] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/marine/
+              - listitem [ref=e204]:
+                - link "Drone Service Provider" [ref=e205] [cursor=pointer]:
+                  - /url: https://coptrz.com/industry-solutions/drone-service-provider/
+        - generic [ref=e207]:
+          - heading "Resources" [level=4] [ref=e208]:
+            - button "Resources"
+          - generic "Resources" [ref=e209]:
+            - list [ref=e212]:
+              - listitem [ref=e213]:
+                - link "Case Studies" [ref=e214] [cursor=pointer]:
+                  - /url: https://coptrz.com/case-studies/
+              - listitem [ref=e215]:
+                - link "Drone Repair" [ref=e216] [cursor=pointer]:
+                  - /url: https://coptrz.com/drone-repair/
+              - listitem [ref=e217]:
+                - link "Drone Servicing" [ref=e218] [cursor=pointer]:
+                  - /url: https://coptrz.com/drone-servicing/
+              - listitem [ref=e219]:
+                - link "Blog" [ref=e220] [cursor=pointer]:
+                  - /url: https://coptrz.com/blog/
+        - generic [ref=e222]:
+          - heading "Learn" [level=4] [ref=e223]:
+            - button "Learn"
+          - generic "Learn" [ref=e224]:
+            - list [ref=e227]:
+              - listitem [ref=e228]:
+                - link "Coptrz Academy" [ref=e229] [cursor=pointer]:
+                  - /url: https://www.coptrzacademy-usp.io/login
+              - listitem [ref=e230]:
+                - link "Help Centre" [ref=e231] [cursor=pointer]:
+                  - /url: https://help.coptrz.com/en/
+        - figure [ref=e234]
+      - generic [ref=e238]:
+        - figure [ref=e241]:
+          - figure [ref=e242]
+          - figure [ref=e243]
+          - figure [ref=e244]
+          - figure [ref=e245]
+          - figure [ref=e246]
+        - list [ref=e250]:
+          - listitem [ref=e251]:
+            - link "Terms and Conditions" [ref=e252] [cursor=pointer]:
+              - /url: https://coptrz.com/terms-and-conditions/
+          - listitem [ref=e253]:
+            - link "Privacy Policy" [ref=e254] [cursor=pointer]:
+              - /url: https://coptrz.com/privacy-policy/
+          - listitem [ref=e255]:
+            - link "Cookie Policy (UK)" [ref=e256] [cursor=pointer]:
+              - /url: https://coptrz.com/cookie-policy-uk/
+  - iframe [ref=e257]:
+    
+  - status [ref=e258]
+  - iframe [ref=e261]:
+    - generic [ref=f9e6]:
+      - text: protected by
+      - strong [ref=f9e7]: reCAPTCHA
+  - generic:
+    - generic:
+      - generic: 

@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-FI
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQpYkNCAs
+          - img "Go to Google Home" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Search" [ref=e23]: capital income tax Finland 2026 pääomatulovero rates capital income tax Finland 2026 pääomatulovero rates
+          - generic [ref=e24]:
+            - button "Clear" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Search by voice" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Search by image" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Search" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Settings" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google apps" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dcapital%2Bincome%2Btax%2BFinland%2B2026%2Bp%25C3%25A4%25C3%25A4omatulovero%2Brates%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "AI Mode" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&udm=50&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDfvl9OYBKmpqCV117-r-vaKlf5KmEi5D8HzJ4cwoqDcf0riV_wndb_PYCJopu00mBGndULHWFY6wD1WJXIiZ-jBkX0_leK_GE7Mf-blYyiMGfJqk8k-rY4Oub4xoRcqE-pbPE6I&aep=1&ntc=1&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ2J8OegQIEBAE
+              - generic [ref=e78]: AI Mode
+          - listitem [ref=e79]:
+            - link "All" [disabled] [ref=e80]:
+              - generic [ref=e82]: All
+          - listitem [ref=e83]:
+            - link "News" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&tbm=nws&source=lnms&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDfvl9OYBKmpqCV117-r-vaKlf5KmEi5D8HzJ4cwoqDcf0riV_wndb_PYCJopu00mBGndULHWFY6wD1WJXIiZ-jBkX0_leK_GE7Mf-blYyiMGfJqk8k-rY4Oub4xoRcqE-pbPE6I&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ0pQJegQIFhAB
+              - generic [ref=e86]: News
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDfvl9OYBKmpqCV117-r-vaKlf5KmEi5D8HzJ4cwoqDcf0riV_wndb_PYCJopu00mBGndULHWFY6wD1WJXIiZ-jBkX0_leK_GE7Mf-blYyiMGfJqk8k-rY4Oub4xoRcqE-pbPE6I&q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQtKgLegQIFRAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Forums" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDfvl9OYBKmpqCV117-r-vaKlf5KmEi5D8HzJ4cwoqDcf0riV_wndb_PYCJopu00mBGndULHWFY6wD1WJXIiZ-jBkX0_leK_GE7Mf-blYyiMGfJqk8k-rY4Oub4xoRcqE-pbPE6I&q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQs6gLegQIFBAB
+              - generic [ref=e94]: Forums
+          - listitem [ref=e95]:
+            - link "Videos" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDfvl9OYBKmpqCV117-r-vaKlf5KmEi5D8HzJ4cwoqDcf0riV_wndb_PYCJopu00mBGndULHWFY6wD1WJXIiZ-jBkX0_leK_GE7Mf-blYyiMGfJqk8k-rY4Oub4xoRcqE-pbPE6I&q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQtKgLegQIExAB
+              - generic [ref=e98]: Videos
+          - listitem [ref=e99]:
+            - link "Short videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKp0UJuhqwKhR0QUhF54-6jIf5FTMC_zgepHBqt1YxkrDfvl9OYBKmpqCV117-r-vaKlf5KmEi5D8HzJ4cwoqDcf0riV_wndb_PYCJopu00mBGndULHWFY6wD1WJXIiZ-jBkX0_leK_GE7Mf-blYyiMGfJqk8k-rY4Oub4xoRcqE-pbPE6I&q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQs6gLegQIEhAB
+              - generic [ref=e102]: Short videos
+          - listitem [ref=e103]:
+            - button "More filters" [ref=e104] [cursor=pointer]:
+              - generic "More filters" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: More
+                  - img [ref=e109]
+        - button "Tools" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Tools
+            - img [ref=e117]
+    - heading "Search Results" [level=1] [ref=e119]
+    - generic [ref=e124]:
+      - generic [ref=e143]:
+        - heading "Thinking Searching Thinking a little longer" [level=2] [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e150]: Thinking
+            - generic [ref=e152]: Searching
+            - generic [ref=e162]: Thinking a little longer
+        - progressbar [ref=e164]
+      - main [ref=e206]:
+        - generic [ref=e210]:
+          - generic [ref=e213]:
+            - heading "Web results" [level=2] [ref=e214]
+            - generic [ref=e215]:
+              - generic [ref=e218]:
+                - link "Tax bases for 2026 Vero.fi https://www.vero.fi › tax-rate-and-income-ceiling › tax-..." [ref=e220] [cursor=pointer]:
+                  - /url: https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-rate-and-income-ceiling/tax-bases/
+                  - heading "Tax bases for 2026" [level=3] [ref=e221]
+                  - generic [ref=e226]:
+                    - generic [ref=e228]: Vero.fi
+                    - generic [ref=e230]: https://www.vero.fi › tax-rate-and-income-ceiling › tax-...
+                - button "About this result" [ref=e231] [cursor=pointer]:
+                  - img [ref=e234]
+              - generic [ref=e237]:
+                - generic [ref=e238]: 22 Nov 2025 —
+                - generic [ref=e239]:
+                  - text: Tax rates for capital income.
+                  - emphasis [ref=e240]: 30% if capital income is no more than €30,000
+                  - text: ; 34% on the part of capital income exceeding €30,000. Or are you ...
+                - link "Read more" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.vero.fi/en/individuals/tax-cards-and-tax-returns/tax_card/tax-rate-and-income-ceiling/tax-bases/#:~:text=Tax%20rates%20for%20capital%20income,are%20you%20looking%20for%20these%3F
+              - generic [ref=e243]:
+                - text: "Missing: pääomatulovero ‎| Show results with:"
+                - link "pääomatulovero" [ref=e244] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQIHBAB
+          - generic [ref=e248]:
+            - generic [ref=e251]:
+              - link "What will change in taxation in 2026? Vero.fi https://www.vero.fi › newsroom › news › uutiset › what..." [ref=e253] [cursor=pointer]:
+                - /url: https://www.vero.fi/en/About-us/newsroom/news/uutiset/2025/what-will-change-in-taxation-in-2026/
+                - heading "What will change in taxation in 2026?" [level=3] [ref=e254]
+                - generic [ref=e259]:
+                  - generic [ref=e261]: Vero.fi
+                  - generic [ref=e263]: https://www.vero.fi › newsroom › news › uutiset › what...
+              - button "About this result" [ref=e264] [cursor=pointer]:
+                - img [ref=e267]
+            - generic [ref=e270]:
+              - generic [ref=e271]: 8 Dec 2025 —
+              - generic [ref=e272]:
+                - emphasis [ref=e273]: Taxes
+                - text: collected on loyalty bonuses will change. As
+                - emphasis [ref=e274]: of 2026
+                - text: ", the concept"
+                - emphasis [ref=e275]: of
+                - text: “
+                - emphasis [ref=e276]: income
+                - text: from
+                - emphasis [ref=e277]: capital
+                - text: ” will extend to bank customers' bonus
+                - emphasis [ref=e278]: income
+                - text: ...
+              - link "Read more" [ref=e279] [cursor=pointer]:
+                - /url: https://www.vero.fi/en/About-us/newsroom/news/uutiset/2025/what-will-change-in-taxation-in-2026/#:~:text=Taxes%20collected%20on%20loyalty%20bonuses,to%20bank%20customers'%20bonus%20income
+            - generic [ref=e281]:
+              - text: "Missing: pääomatulovero ‎| Show results with:"
+              - link "pääomatulovero" [ref=e282] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQIGxAB
+          - generic [ref=e286]:
+            - generic [ref=e289]:
+              - link "Taxation of capital income Valtiovarainministeriö https://vm.fi › taxation-of-capital-income" [ref=e291] [cursor=pointer]:
+                - /url: https://vm.fi/en/taxation-of-capital-income
+                - heading "Taxation of capital income" [level=3] [ref=e292]
+                - generic [ref=e297]:
+                  - generic [ref=e299]: Valtiovarainministeriö
+                  - generic [ref=e301]: https://vm.fi › taxation-of-capital-income
+              - button "About this result" [ref=e302] [cursor=pointer]:
+                - img [ref=e305]
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - text: The taxation of capital income is progressive.
+                - emphasis [ref=e310]: The capital tax rate is 30
+                - text: "%; for the portion of taxable capital income that exceeds 30,000, the tax rate is 34%."
+              - link "Read more" [ref=e311] [cursor=pointer]:
+                - /url: https://vm.fi/en/taxation-of-capital-income#:~:text=The%20taxation%20of%20capital%20income,the%20tax%20rate%20is%2034%25.
+            - generic [ref=e313]: "Missing: 2026 ‎pääomatulovero"
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - heading "People also ask" [level=2] [ref=e319]
+              - button "About this result" [ref=e320] [cursor=pointer]:
+                - img [ref=e323]
+            - generic [ref=e325]:
+              - button "What are the tax changes in Finland 2026?" [ref=e331] [cursor=pointer]:
+                - generic [ref=e333]: What are the tax changes in Finland 2026?
+                - img [ref=e336]
+              - button "What is the tax rate bracket for 2026?" [ref=e345] [cursor=pointer]:
+                - generic [ref=e347]: What is the tax rate bracket for 2026?
+                - img [ref=e350]
+              - button "What is the capital gain tax for assessment year 2026-27?" [ref=e359] [cursor=pointer]:
+                - generic [ref=e361]: What is the capital gain tax for assessment year 2026-27?
+                - img [ref=e364]
+              - button "What is the capital tax rate in Finland?" [ref=e373] [cursor=pointer]:
+                - generic [ref=e375]: What is the capital tax rate in Finland?
+                - img [ref=e378]
+          - generic [ref=e383]:
+            - heading "Web results" [level=2] [ref=e384]
+            - generic [ref=e385]:
+              - generic [ref=e388]:
+                - link "Finland - Individual - Significant developments PwC https://taxsummaries.pwc.com › finland › significant-dev..." [ref=e390] [cursor=pointer]:
+                  - /url: https://taxsummaries.pwc.com/finland/individual/significant-developments
+                  - heading "Finland - Individual - Significant developments" [level=3] [ref=e391]
+                  - generic [ref=e396]:
+                    - generic [ref=e398]: PwC
+                    - generic [ref=e400]: https://taxsummaries.pwc.com › finland › significant-dev...
+                - button "About this result" [ref=e401] [cursor=pointer]:
+                  - img [ref=e404]
+              - generic [ref=e407]:
+                - generic [ref=e408]: 13 Jan 2026 —
+                - generic [ref=e409]:
+                  - text: The highest marginal tax
+                  - emphasis [ref=e410]: rates
+                  - text: on earned
+                  - emphasis [ref=e411]: income taxation
+                  - text: have been reduced to around 52% starting from
+                  - emphasis [ref=e412]: "2026"
+                  - text: . The tax-at-source tax for ...
+                - link "Read more" [ref=e413] [cursor=pointer]:
+                  - /url: https://taxsummaries.pwc.com/finland/individual/significant-developments#:~:text=The%20highest%20marginal%20tax%20rates,reduced%20to%2025%25%20from%2032%25.
+              - generic [ref=e415]:
+                - text: "Missing: pääomatulovero ‎| Show results with:"
+                - link "pääomatulovero" [ref=e416] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQITBAB
+          - generic [ref=e420]:
+            - generic [ref=e423]:
+              - 'link "Finland Income Tax 2026: Rates, Brackets & How to File taxravens.com https://taxravens.com › blog › finland-personal-taxation" [ref=e425] [cursor=pointer]':
+                - /url: https://taxravens.com/en/blog/finland-personal-taxation
+                - 'heading "Finland Income Tax 2026: Rates, Brackets & How to File" [level=3] [ref=e426]'
+                - generic [ref=e431]:
+                  - generic [ref=e433]: taxravens.com
+                  - generic [ref=e435]: https://taxravens.com › blog › finland-personal-taxation
+              - button "About this result" [ref=e436] [cursor=pointer]:
+                - img [ref=e439]
+            - generic [ref=e442]:
+              - generic [ref=e443]: 28 Feb 2026 —
+              - generic [ref=e444]:
+                - emphasis [ref=e445]: Finland
+                - text: reduced the highest marginal earned
+                - emphasis [ref=e446]: income tax rate
+                - text: to around 52% in
+                - emphasis [ref=e447]: "2026"
+                - text: . The foreign key employee flat tax dropped from 32% to 25%.
+              - link "Read more" [ref=e448] [cursor=pointer]:
+                - /url: https://taxravens.com/en/blog/finland-personal-taxation#:~:text=Finland%20reduced%20the%20highest%20marginal,dropped%20from%2032%25%20to%2025%25.
+            - generic [ref=e450]:
+              - text: "Missing: pääomatulovero ‎| Show results with:"
+              - link "pääomatulovero" [ref=e451] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQISxAB
+          - generic [ref=e455]:
+            - generic [ref=e458]:
+              - link "Tax rates applicable to resident individuals (of Finland) Nordisk eTax https://nordisketax.net › pages › en-GB › taxation › top..." [ref=e460] [cursor=pointer]:
+                - /url: https://nordisketax.net/pages/en-GB/taxation/?country=finland&topic=tax-rates
+                - heading "Tax rates applicable to resident individuals (of Finland)" [level=3] [ref=e461]
+                - generic [ref=e466]:
+                  - generic [ref=e468]: Nordisk eTax
+                  - generic [ref=e470]: https://nordisketax.net › pages › en-GB › taxation › top...
+              - button "About this result" [ref=e471] [cursor=pointer]:
+                - img [ref=e474]
+            - generic [ref=e477]:
+              - generic [ref=e478]:
+                - text: Income tax on capital income (i.e. investment income)
+                - emphasis [ref=e479]: "30"
+                - text: "% paid to State. The tax rate on capital income exceeding 30 000 euro is 34 %. Tax at source on wages ..."
+              - link "Read more" [ref=e480] [cursor=pointer]:
+                - /url: https://nordisketax.net/pages/en-GB/taxation/?country=finland&topic=tax-rates#:~:text=Income%20tax%20on%20capital%20income,Tax%20at%20source%20on%20wages
+            - generic [ref=e482]:
+              - text: "Missing: pääomatulovero ‎| Show results with:"
+              - link "pääomatulovero" [ref=e483] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQIShAB
+          - generic [ref=e487]:
+            - generic [ref=e490]:
+              - 'link "Finland''s 2026 tax changes: higher prices for alcohol and ... Helsinki Times https://www.helsinkitimes.fi › finland-news › domestic" [ref=e492] [cursor=pointer]':
+                - /url: https://www.helsinkitimes.fi/finland/finland-news/domestic/28364-finland-s-2026-tax-changes-higher-prices-for-alcohol-and-tobacco-fuel-costs-down.html
+                - 'heading "Finland''s 2026 tax changes: higher prices for alcohol and ..." [level=3] [ref=e493]'
+                - generic [ref=e498]:
+                  - generic [ref=e500]: Helsinki Times
+                  - generic [ref=e502]: https://www.helsinkitimes.fi › finland-news › domestic
+              - button "About this result" [ref=e503] [cursor=pointer]:
+                - img [ref=e506]
+            - generic [ref=e509]:
+              - generic [ref=e510]: 30 Dec 2025 —
+              - generic [ref=e511]:
+                - emphasis [ref=e512]: Income tax rates
+                - text: will be cut, mainly benefiting high earners. For those earning over €8,000 per month, the net annual gain ranges between €50 ...
+              - link "Read more" [ref=e513] [cursor=pointer]:
+                - /url: https://www.helsinkitimes.fi/finland/finland-news/domestic/28364-finland-s-2026-tax-changes-higher-prices-for-alcohol-and-tobacco-fuel-costs-down.html#:~:text=Income%20tax%20rates%20will%20be,ranges%20between%20%E2%82%AC50%20and%20%E2%82%AC190.
+          - generic [ref=e517]:
+            - generic [ref=e520]:
+              - 'link "Changes in taxation 2026 Bäck & Vilén https://back-vilen.fi › Bäck & Vilén › Category: News" [ref=e522] [cursor=pointer]':
+                - /url: https://back-vilen.fi/en/several-changes-in-taxation-are-coming/
+                - heading "Changes in taxation 2026" [level=3] [ref=e523]
+                - generic [ref=e528]:
+                  - generic [ref=e530]: Bäck & Vilén
+                  - generic [ref=e532]: "https://back-vilen.fi › Bäck & Vilén › Category: News"
+              - button "About this result" [ref=e533] [cursor=pointer]:
+                - img [ref=e536]
+            - generic [ref=e539]:
+              - generic [ref=e540]: 10 Dec 2025 —
+              - generic [ref=e541]:
+                - text: "The forest deduction will be increased: Starting in"
+                - emphasis [ref=e542]: "2026"
+                - text: ", up to 75%"
+                - emphasis [ref=e543]: of capital income
+                - text: can be deducted (previously 60%). New changes to dividend ...
+              - link "Read more" [ref=e544] [cursor=pointer]:
+                - /url: https://back-vilen.fi/en/several-changes-in-taxation-are-coming/#:~:text=The%20forest%20deduction%20will%20be,share%20exchange%20situations%20in%202026.
+            - generic [ref=e546]:
+              - text: "Missing: pääomatulovero ‎| Show results with:"
+              - link "pääomatulovero" [ref=e547] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQIThAB
+          - generic [ref=e551]:
+            - generic [ref=e554]:
+              - link "Understand Finland's 2026 Tax Reforms for Businesses Multiplier https://www.usemultiplier.com › finland › tax-reforms-..." [ref=e556] [cursor=pointer]:
+                - /url: https://www.usemultiplier.com/finland/tax-reforms-2026
+                - heading "Understand Finland's 2026 Tax Reforms for Businesses" [level=3] [ref=e557]
+                - generic [ref=e562]:
+                  - generic [ref=e564]: Multiplier
+                  - generic [ref=e566]: https://www.usemultiplier.com › finland › tax-reforms-...
+              - button "About this result" [ref=e567] [cursor=pointer]:
+                - img [ref=e570]
+            - generic [ref=e573]:
+              - generic [ref=e574]: 4 Mar 2026 —
+              - generic [ref=e575]:
+                - text: Starting January 1, 2026,
+                - emphasis [ref=e576]: Finland will increase its corporate income tax (CIT) rate from 20% to 22
+                - text: "%. This change applies to the taxable profits ..."
+              - link "Read more" [ref=e577] [cursor=pointer]:
+                - /url: https://www.usemultiplier.com/finland/tax-reforms-2026#:~:text=How%20does%20the%20new%20Finnish
+          - generic [ref=e581]:
+            - generic [ref=e584]:
+              - link "Capital Gains Tax Rates in Europe, 2026 Tax Foundation https://taxfoundation.org › Data › European Taxes" [ref=e586] [cursor=pointer]:
+                - /url: https://taxfoundation.org/data/all/eu/capital-gains-tax-rates-europe/
+                - heading "Capital Gains Tax Rates in Europe, 2026" [level=3] [ref=e587]
+                - generic [ref=e592]:
+                  - generic [ref=e594]: Tax Foundation
+                  - generic [ref=e596]: https://taxfoundation.org › Data › European Taxes
+              - button "About this result" [ref=e597] [cursor=pointer]:
+                - img [ref=e600]
+            - generic [ref=e603]:
+              - generic [ref=e604]: 9 Mar 2026 —
+              - generic [ref=e605]:
+                - emphasis [ref=e606]: Capital
+                - text: gains are fully taxable and included in the taxable
+                - emphasis [ref=e607]: capital income
+                - text: subject to 30%
+                - emphasis [ref=e608]: tax rate
+                - text: up to taxable
+                - emphasis [ref=e609]: capital income of
+                - text: EUR 30,000 ...
+              - link "Read more" [ref=e610] [cursor=pointer]:
+                - /url: https://taxfoundation.org/data/all/eu/capital-gains-tax-rates-europe/#:~:text=Capital%20gains%20are%20fully%20taxable,tax%20rate%20on%20the%20excess.
+            - generic [ref=e612]:
+              - text: "Missing: pääomatulovero ‎| Show results with:"
+              - link "pääomatulovero" [ref=e613] [cursor=pointer]:
+                - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=capital+income+tax+Finland+2026+%22p%C3%A4%C3%A4omatulovero%22+rates&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ5t4CegQITRAB
+        - generic [ref=e615]:
+          - generic [ref=e620]:
+            - heading "People also search for" [level=2] [ref=e622]
+            - generic [ref=e624]:
+              - generic [ref=e625]:
+                - link "Capital income tax finland 2026 pääomatulovero rates calculator" [ref=e629] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Capital+income+tax+finland+2026+p%C3%A4%C3%A4omatulovero+rates+calculator&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhgEAE
+                  - generic [ref=e630]:
+                    - generic [ref=e635]: Capital income tax finland 2026 pääomatulovero rates calculator
+                    - img [ref=e639]
+                - link "Average tax rate in Finland" [ref=e644] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Average+tax+rate+in+Finland&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhjEAE
+                  - generic [ref=e645]:
+                    - generic [ref=e650]: Average tax rate in Finland
+                    - img [ref=e654]
+                - link "Finland tax calculator" [ref=e659] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Finland+tax+calculator&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhmEAE
+                  - generic [ref=e660]:
+                    - generic [ref=e665]: Finland tax calculator
+                    - img [ref=e669]
+                - link "Finland tax changes 2026" [ref=e674] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Finland+tax+changes+2026&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhkEAE
+                  - generic [ref=e675]:
+                    - generic [ref=e680]: Finland tax changes 2026
+                    - img [ref=e684]
+              - generic [ref=e686]:
+                - link "Finland highest tax rate" [ref=e690] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Finland+highest+tax+rate&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhhEAE
+                  - generic [ref=e691]:
+                    - generic [ref=e696]: Finland highest tax rate
+                    - img [ref=e700]
+                - link "Church tax Finland" [ref=e705] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Church+tax+Finland&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhlEAE
+                  - generic [ref=e706]:
+                    - generic [ref=e711]: Church tax Finland
+                    - img [ref=e715]
+                - link "Tax in Finland on salary" [ref=e720] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Tax+in+Finland+on+salary&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhiEAE
+                  - generic [ref=e721]:
+                    - generic [ref=e726]: Tax in Finland on salary
+                    - img [ref=e730]
+                - link "Why Is Finland tax so high" [ref=e735] [cursor=pointer]:
+                  - /url: /search?sca_esv=abbb0aaa8824193d&hl=en&q=Why+Is+Finland+tax+so+high&sa=X&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ1QJ6BAhfEAE
+                  - generic [ref=e736]:
+                    - generic [ref=e741]: Why Is Finland tax so high
+                    - img [ref=e745]
+          - navigation [ref=e747]:
+            - heading "Page navigation" [level=1] [ref=e748]
+            - text: "1"
+            - link "Page 2" [ref=e751] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=10&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8tMDegQIUBAE
+              - text: "2"
+            - link "Page 3" [ref=e753] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=20&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8tMDegQIUBAG
+              - text: "3"
+            - link "Page 4" [ref=e755] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=30&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8tMDegQIUBAI
+              - text: "4"
+            - link "Page 5" [ref=e757] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=40&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8tMDegQIUBAK
+              - text: "5"
+            - link "Page 6" [ref=e759] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=50&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8tMDegQIUBAM
+              - text: "6"
+            - link "Page 7" [ref=e761] [cursor=pointer]:
+              - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=60&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8tMDegQIUBAO
+              - text: "7"
+            - heading "Next" [level=2] [ref=e763]:
+              - link "Next" [ref=e764] [cursor=pointer]:
+                - /url: /search?q=capital+income+tax+Finland+2026+p%C3%A4%C3%A4omatulovero+rates&sca_esv=abbb0aaa8824193d&hl=en&ei=3XnRacjAIYqC1fIP8abx4QQ&start=10&sa=N&sstk=Af77f_f9mobPIfz5oJgRS5H1mo0JqtbiK0_a3kWIYlAGqSzebGPmOfGBuQbzQCeJKcZdV-OFPBAX01j1-O9qQRKo1eUJjt2o6iOAcw&ved=2ahUKEwiIo5POidWTAxUKQVUIHXFTPEwQ8NMDegQIUBAQ
+                - generic [ref=e766]: Next
+        - navigation
+    - contentinfo [ref=e767]:
+      - heading "Footer links" [level=1] [ref=e768]
+      - generic [ref=e772]:
+        - generic [ref=e774]:
+          - text: Finland
+          - generic [ref=e776]:
+            - button "Helsinki - From your IP address" [ref=e778] [cursor=pointer]:
+              - generic [ref=e779]: Helsinki
+              - generic [ref=e781]:
+                - text: "-"
+                - generic [ref=e782]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e784] [cursor=pointer]: Update location
+        - generic [ref=e787]:
+          - link "Help" [ref=e788] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-FI&fg=1
+          - link "Send feedback" [ref=e789] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e790] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-FI&fg=1
+          - link "Terms" [ref=e791] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-FI&fg=1

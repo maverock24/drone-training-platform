@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQpYkNCA0
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e16]:
+          - combobox "Hae" [ref=e19]: hankintameno-olettama 20 40 prosenttia veronmaksajat OR vero.fi hankintameno-olettama 20 40 prosenttia veronmaksajat OR vero.fi
+          - generic [ref=e20]:
+            - button "Tyhjennä" [ref=e22] [cursor=pointer]:
+              - img [ref=e24]
+            - generic [ref=e27]:
+              - button "Syöttötyökalut" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - button "Puhehaku" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+              - button "Hae kuvan perusteella" [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+        - button "Haku" [ref=e38] [cursor=pointer]:
+          - img [ref=e41]
+    - generic [ref=e43]:
+      - button "Asetukset" [ref=e45] [cursor=pointer]:
+        - img [ref=e48]
+      - generic [ref=e51]:
+        - button "Google-sovellukset" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - link "Kirjaudu" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dhankintameno-olettama%2B20%2B40%2Bprosenttia%2Bveronmaksajat%2BOR%2Bvero.fi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e60]:
+    - navigation [ref=e66]:
+      - generic [ref=e70]:
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - link "Tekoälytila" [ref=e75] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&aep=1&ntc=1&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ2J8OegQIEBAE
+              - generic [ref=e78]: Tekoälytila
+          - listitem [ref=e79]:
+            - link "Kaikki" [disabled] [ref=e80]:
+              - generic [ref=e82]: Kaikki
+          - listitem [ref=e83]:
+            - link "Videot" [ref=e84] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQtKgLegQIFhAB
+              - generic [ref=e86]: Videot
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQtKgLegQIEhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Verkkohaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQs6gLegQIFBAB
+              - generic [ref=e98]: Verkkohaku
+          - listitem [ref=e99]:
+            - link "Teokset" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=24f50bc0831b3fb1&q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2ztMt0_mjFX3HXrKQ2Y2CVu9-Az8EVVfx3moIG2hEo709nYuoKhRC8YdIf2jeTIZrnZ6jz21rhbvNx2u4fjPwC6HpL9TFB8bdruZjEW0Zm23lLh7SciVvOL2ukidN-kZa8F9u40dxS8Kkz5Ro1ig2RwsTE8L&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ0pQJegQIExAB
+              - generic [ref=e102]: Teokset
+          - listitem [ref=e103]:
+            - button "Lisää suodattimia" [ref=e104] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Lisää
+                  - img [ref=e109]
+        - button "Työkalut" [ref=e112] [cursor=pointer]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Työkalut
+            - img [ref=e117]
+    - heading "Hakutulokset" [level=1] [ref=e119]
+    - generic [ref=e125]:
+      - generic [ref=e126]: Looking for results in English?
+      - link [ref=e127] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e129]
+      - link "Change to English" [ref=e131] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dhankintameno-olettama%2B20%2B40%2Bprosenttia%2Bveronmaksajat%2BOR%2Bvero.fi&hl=en&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQhoQCKAF6BAgLEAQ
+      - link "Pidä Suomi" [ref=e132] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e134] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQiIQCKAN6BAgLEAY#languages
+    - generic [ref=e135]:
+      - generic [ref=e154]:
+        - heading "Miettii" [level=2] [ref=e158]:
+          - generic [ref=e159]: Miettii
+        - progressbar [ref=e160]
+      - main [ref=e162]:
+        - generic [ref=e166]:
+          - generic [ref=e169]:
+            - heading "Tulokset internetistä" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - generic [ref=e174]:
+                - link "Omaisuuden myynti - Veronmaksajain Keskusliitto ry Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/omaisuuden-myynti/
+                  - heading "Omaisuuden myynti - Veronmaksajain Keskusliitto ry" [level=3] [ref=e177]
+                  - generic [ref=e182]:
+                    - generic [ref=e184]: Veronmaksajain Keskusliitto
+                    - generic [ref=e186]: https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot
+                - button "Tietoja tästä tuloksesta" [ref=e187] [cursor=pointer]:
+                  - img [ref=e190]
+              - generic [ref=e193]:
+                - generic [ref=e194]: 7.1.2026 —
+                - generic [ref=e195]:
+                  - emphasis [ref=e196]: Hankintameno
+                  - text: "-"
+                  - emphasis [ref=e197]: olettama
+                  - text: "on"
+                  - emphasis [ref=e198]: "20"
+                  - text: "% myyntihinnasta, kun omaisuus on omistettu alle 10 vuotta. Olettama on"
+                  - emphasis [ref=e199]: "40"
+                  - text: "% myyntihinnasta, kun omaisuus on ..."
+          - generic [ref=e203]:
+            - generic [ref=e206]:
+              - link "Omaisuuden luovutusvoitot ja -tappiot luonnollisen ... Vero.fi https://www.vero.fi › ohje-hakusivu › omaisuuden-luov..." [ref=e208] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48935/omaisuuden-luovutusvoitot-ja-tappiot-luonnollisen-henkilon-tuloverotuksessa3/
+                - heading "Omaisuuden luovutusvoitot ja -tappiot luonnollisen ..." [level=3] [ref=e209]
+                - generic [ref=e214]:
+                  - generic [ref=e216]: Vero.fi
+                  - generic [ref=e218]: https://www.vero.fi › ohje-hakusivu › omaisuuden-luov...
+              - button "Tietoja tästä tuloksesta" [ref=e219] [cursor=pointer]:
+                - img [ref=e222]
+            - generic [ref=e225]:
+              - generic [ref=e226]: 19.12.2025 —
+              - generic [ref=e227]:
+                - emphasis [ref=e228]: Hankintameno
+                - text: "-"
+                - emphasis [ref=e229]: olettama
+                - text: (
+                - emphasis [ref=e230]: 40 prosenttia
+                - text: ","
+                - emphasis [ref=e231]: "40"
+                - text: 000 euroa) on A:lle epäedullisempi, joten voitto lasketaan A:n todellisen hankintamenon (60 000 ...
+            - list [ref=e233]:
+              - listitem [ref=e234]:
+                - link "Kuolinpesä" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48935/omaisuuden-luovutusvoitot-ja-tappiot-luonnollisen-henkilon-tuloverotuksessa3/#4.2-kuolinpes%C3%A4
+                  - generic [ref=e238]: Kuolinpesä
+              - listitem [ref=e239]:
+                - link "Lisäkauppahinnan..." [ref=e240] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48935/omaisuuden-luovutusvoitot-ja-tappiot-luonnollisen-henkilon-tuloverotuksessa3/#6.3-lis%C3%A4kauppahinnan-verottaminen-tappiollisessa-kaupassa
+                  - generic [ref=e243]: Lisäkauppahinnan...
+              - listitem [ref=e244]:
+                - link "Asunto-osakkeiden..." [ref=e245] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48935/omaisuuden-luovutusvoitot-ja-tappiot-luonnollisen-henkilon-tuloverotuksessa3/#8.4-asunto-osakkeiden-hankintameno
+                  - generic [ref=e248]: Asunto-osakkeiden...
+              - listitem [ref=e249]:
+                - link "Voiton hankkimisesta..." [ref=e250] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48935/omaisuuden-luovutusvoitot-ja-tappiot-luonnollisen-henkilon-tuloverotuksessa3/#9-voiton-hankkimisesta-aiheutuneet-menot-(myyntikulut)
+                  - generic [ref=e253]: Voiton hankkimisesta...
+          - generic [ref=e257]:
+            - generic [ref=e260]:
+              - link "9 Luovutusvoitto tai -tappio, täyttöohje Vero.fi https://www.vero.fi › lomakkeet › tayttoohjeet › 9-luov..." [ref=e262] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/tayttoohjeet/9-luovutusvoitto-tai--tappio-t%C3%A4ytt%C3%B6ohje/
+                - heading "9 Luovutusvoitto tai -tappio, täyttöohje" [level=3] [ref=e263]
+                - generic [ref=e268]:
+                  - generic [ref=e270]: Vero.fi
+                  - generic [ref=e272]: https://www.vero.fi › lomakkeet › tayttoohjeet › 9-luov...
+              - button "Tietoja tästä tuloksesta" [ref=e273] [cursor=pointer]:
+                - img [ref=e276]
+            - generic [ref=e279]:
+              - generic [ref=e280]: 4.7.2025 —
+              - generic [ref=e281]:
+                - text: ... hankintameno-olettamaa käyttäen, ilmoita hankintameno-olettama tässä kohdassa.
+                - emphasis [ref=e282]: Hankintameno-olettama on joko 20 % tai 40 % myyntihinnasta
+                - text: .
+          - generic [ref=e286]:
+            - generic [ref=e289]:
+              - link "Arvopaperien luovutusten verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › arvopaperien-luo..." [ref=e291] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/48262/arvopaperien-luovutusten-verotus4/
+                - heading "Arvopaperien luovutusten verotus Syventävä vero-ohje" [level=3] [ref=e292]
+                - generic [ref=e297]:
+                  - generic [ref=e299]: Vero.fi
+                  - generic [ref=e301]: https://www.vero.fi › ohje-hakusivu › arvopaperien-luo...
+              - button "Tietoja tästä tuloksesta" [ref=e302] [cursor=pointer]:
+                - img [ref=e305]
+            - generic [ref=e308]:
+              - generic [ref=e309]: 21.12.2022 —
+              - generic [ref=e310]:
+                - emphasis [ref=e311]: Hankintameno
+                - text: "-"
+                - emphasis [ref=e312]: olettama
+                - text: on siten
+                - emphasis [ref=e313]: 40 prosenttia
+                - text: luovutushinnasta eli 2 500 eurosta, jolloin olettaman suuruudeksi muodostuu 1 000 euroa (= 2 ...
+          - generic [ref=e317]:
+            - generic [ref=e320]:
+              - link "Myyntivoitto eli luovutusvoitto Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot" [ref=e322] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/2023/myyntivoitto-/
+                - heading "Myyntivoitto eli luovutusvoitto" [level=3] [ref=e323]
+                - generic [ref=e328]:
+                  - generic [ref=e330]: Veronmaksajain Keskusliitto
+                  - generic [ref=e332]: https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot
+              - button "Tietoja tästä tuloksesta" [ref=e333] [cursor=pointer]:
+                - img [ref=e336]
+            - generic [ref=e339]:
+              - generic [ref=e340]: 7.1.2026 —
+              - generic [ref=e341]:
+                - emphasis [ref=e342]: Hankintameno
+                - text: "-"
+                - emphasis [ref=e343]: olettama
+                - text: "on"
+                - emphasis [ref=e344]: "20"
+                - text: "% myyntihinnasta, kun omaisuus on omistettu alle 10 vuotta. Olettama on"
+                - emphasis [ref=e345]: "40"
+                - text: ...
+                - emphasis [ref=e346]: "20"
+                - text: prosentin hankintameno-olettamaa.
+          - generic [ref=e350]:
+            - generic [ref=e353]:
+              - link "Osakeyhtiön sukupolvenvaihdos verotuksessa Vero.fi https://www.vero.fi › ohje-hakusivu › osakeyhtion-suk..." [ref=e355] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/60519/osakeyhtion-sukupolvenvaihdos-verotuksessa2/
+                - heading "Osakeyhtiön sukupolvenvaihdos verotuksessa" [level=3] [ref=e356]
+                - generic [ref=e361]:
+                  - generic [ref=e363]: Vero.fi
+                  - generic [ref=e365]: https://www.vero.fi › ohje-hakusivu › osakeyhtion-suk...
+              - button "Tietoja tästä tuloksesta" [ref=e366] [cursor=pointer]:
+                - img [ref=e369]
+            - generic [ref=e372]:
+              - generic [ref=e373]: 8.7.2025 —
+              - generic [ref=e374]:
+                - text: Lahjanluonteisissa luovutuksissa voidaan käyttää vaihtoehtoisesti
+                - emphasis [ref=e375]: hankintameno
+                - text: "-olettamaa ("
+                - emphasis [ref=e376]: 20 prosenttia
+                - text: tai
+                - emphasis [ref=e377]: 40 prosenttia
+                - text: ).
+                - emphasis [ref=e378]: Hankintameno
+                - text: "- ..."
+          - generic [ref=e382]:
+            - generic [ref=e385]:
+              - link "Osakkeiden myynti Vero.fi https://www.vero.fi › sijoitukset › osakkeiden_myynt" [ref=e387] [cursor=pointer]:
+                - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/osakkeiden_myynt/
+                - heading "Osakkeiden myynti" [level=3] [ref=e388]
+                - generic [ref=e393]:
+                  - generic [ref=e395]: Vero.fi
+                  - generic [ref=e397]: https://www.vero.fi › sijoitukset › osakkeiden_myynt
+              - button "Tietoja tästä tuloksesta" [ref=e398] [cursor=pointer]:
+                - img [ref=e401]
+            - generic [ref=e405]:
+              - text: Jos olet omistanut myymäsi osakkeet vähintään 10 vuotta,
+              - emphasis [ref=e406]: hankintameno-olettama on 40 % osakkeiden myyntihinnasta
+              - text: . Lue lisää hankintameno-olettamasta ...
+            - generic [ref=e408]:
+              - text: "Puuttuu: prosenttia ‎| Hae tällä:"
+              - link "prosenttia" [ref=e409] [cursor=pointer]:
+                - /url: /search?sca_esv=24f50bc0831b3fb1&q=hankintameno-olettama+20+40+%22prosenttia%22+veronmaksajat+OR+vero.fi&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ5t4CegQITxAB
+          - generic [ref=e413]:
+            - generic [ref=e416]:
+              - link "Miten työsuhdeoptioilla hankittujen osakkeiden ... Taloustaito https://www.taloustaito.fi › Rahat › miten-tyosuhdeopti..." [ref=e418] [cursor=pointer]:
+                - /url: https://www.taloustaito.fi/Rahat/miten-tyosuhdeoptioilla-hankittujen-osakkeiden-hankintahinta-maaraytyy/
+                - heading "Miten työsuhdeoptioilla hankittujen osakkeiden ..." [level=3] [ref=e419]
+                - generic [ref=e424]:
+                  - generic [ref=e426]: Taloustaito
+                  - generic [ref=e428]: https://www.taloustaito.fi › Rahat › miten-tyosuhdeopti...
+              - button "Tietoja tästä tuloksesta" [ref=e429] [cursor=pointer]:
+                - img [ref=e432]
+            - generic [ref=e435]:
+              - generic [ref=e436]: 6.8.2021 —
+              - generic [ref=e437]:
+                - emphasis [ref=e438]: Hankintameno-olettama on 40 prosenttia osakkeiden myyntihinnasta
+                - text: ", koska olet omistanut osakkeet vähintään 10 vuotta. Tällöin et saa vähentää ..."
+          - generic [ref=e442]:
+            - generic [ref=e445]:
+              - link "voinko hyödyntää tappiotani, kun myyn sijoituskultaa? Veronmaksajain Keskusliitto https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot" [ref=e447] [cursor=pointer]:
+                - /url: https://www.veronmaksajat.fi/neuvot/henkiloverotus/sijoittaminen/myyntivoitot-ja-tappiot/2025/myin-sijoitusasuntoni-tappiolla-vuonna-2022--voinko-hyodyntaa-tappiotani-kun-myyn-sijoituskultaa/
+                - heading "voinko hyödyntää tappiotani, kun myyn sijoituskultaa?" [level=3] [ref=e448]
+                - generic [ref=e453]:
+                  - generic [ref=e455]: Veronmaksajain Keskusliitto
+                  - generic [ref=e457]: https://www.veronmaksajat.fi › myyntivoitot-ja-tappiot
+              - button "Tietoja tästä tuloksesta" [ref=e458] [cursor=pointer]:
+                - img [ref=e461]
+            - generic [ref=e464]:
+              - generic [ref=e465]: 24.4.2025 —
+              - generic [ref=e466]:
+                - emphasis [ref=e467]: Hankintameno
+                - text: "-"
+                - emphasis [ref=e468]: olettama
+                - text: "on"
+                - emphasis [ref=e469]: 40 prosenttia
+                - text: ", jos olet omistanut kullan vähintään 10 vuotta ja"
+                - emphasis [ref=e470]: 20 prosenttia
+                - text: ", jos alle 10 vuotta. Kun käyttää ..."
+          - generic [ref=e474]:
+            - generic [ref=e477]:
+              - link "6 Veroilmoitus – yhteisetuus, valtion laitos, ulkomainen ... Vero.fi https://www.vero.fi › lomakkeet › tayttoohjeet › 6-vero..." [ref=e479] [cursor=pointer]:
+                - /url: https://www.vero.fi/tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/tayttoohjeet/6-veroilmoitus-yhteisetuus-valtion-laitos-ulkomainen-kuolinpesa-ym.-tayttoohje-2026
+                - heading "6 Veroilmoitus – yhteisetuus, valtion laitos, ulkomainen ..." [level=3] [ref=e480]
+                - generic [ref=e485]:
+                  - generic [ref=e487]: Vero.fi
+                  - generic [ref=e489]: https://www.vero.fi › lomakkeet › tayttoohjeet › 6-vero...
+              - button "Tietoja tästä tuloksesta" [ref=e490] [cursor=pointer]:
+                - img [ref=e493]
+            - generic [ref=e496]:
+              - generic [ref=e497]: 12.3.2026 —
+              - generic [ref=e498]:
+                - emphasis [ref=e499]: Hankintameno-olettama on joko 20 % tai 40 % myyntihinnasta
+                - text: . Prosentti määräytyy sen mukaan, kuinka kauan olet omistanut omaisuuden ennen ...
+        - generic [ref=e501]:
+          - generic [ref=e506]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e508]
+            - generic [ref=e510]:
+              - generic [ref=e511]:
+                - link "Hankintameno-olettama laskuri" [ref=e515] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+laskuri&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAgxEAE
+                  - generic [ref=e516]:
+                    - generic [ref=e521]: Hankintameno-olettama laskuri
+                    - img [ref=e525]
+                - link "Hankintameno-olettama vero" [ref=e530] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+vero&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAhREAE
+                  - generic [ref=e531]:
+                    - generic [ref=e536]: Hankintameno-olettama vero
+                    - img [ref=e540]
+                - link "Hankintameno-olettama esimerkki" [ref=e545] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+esimerkki&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAhQEAE
+                  - generic [ref=e546]:
+                    - generic [ref=e551]: Hankintameno-olettama esimerkki
+                    - img [ref=e555]
+                - link "Verohallinto lomake 9 täyttöohje" [ref=e560] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Verohallinto+lomake+9+t%C3%A4ytt%C3%B6ohje&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAhFEAE
+                  - generic [ref=e561]:
+                    - generic [ref=e566]: Verohallinto lomake 9 täyttöohje
+                    - img [ref=e570]
+              - generic [ref=e572]:
+                - link "Hankintameno-olettama kiinteistö" [ref=e576] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+kiinteist%C3%B6&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAg9EAE
+                  - generic [ref=e577]:
+                    - generic [ref=e582]: Hankintameno-olettama kiinteistö
+                    - img [ref=e586]
+                - link "Luovutusvoitto vero" [ref=e591] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Luovutusvoitto+vero&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAg8EAE
+                  - generic [ref=e592]:
+                    - generic [ref=e597]: Luovutusvoitto vero
+                    - img [ref=e601]
+                - link "Hankintameno-olettama perintö" [ref=e606] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Hankintameno-olettama+perint%C3%B6&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAg7EAE
+                  - generic [ref=e607]:
+                    - generic [ref=e612]: Hankintameno-olettama perintö
+                    - img [ref=e616]
+                - link "Milloin luovutusvoittovero maksetaan" [ref=e621] [cursor=pointer]:
+                  - /url: /search?sca_esv=24f50bc0831b3fb1&q=Milloin+luovutusvoittovero+maksetaan&sa=X&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ1QJ6BAgyEAE
+                  - generic [ref=e622]:
+                    - generic [ref=e627]: Milloin luovutusvoittovero maksetaan
+                    - img [ref=e631]
+          - navigation [ref=e633]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e634]
+            - text: "1"
+            - link "Page 2" [ref=e637] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=10&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAE
+              - text: "2"
+            - link "Page 3" [ref=e639] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=20&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAG
+              - text: "3"
+            - link "Page 4" [ref=e641] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=30&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAI
+              - text: "4"
+            - link "Page 5" [ref=e643] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=40&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAK
+              - text: "5"
+            - link "Page 6" [ref=e645] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=50&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAM
+              - text: "6"
+            - link "Page 7" [ref=e647] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=60&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAO
+              - text: "7"
+            - link "Page 8" [ref=e649] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=70&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAQ
+              - text: "8"
+            - link "Page 9" [ref=e651] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=80&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAS
+              - text: "9"
+            - link "Page 10" [ref=e653] [cursor=pointer]:
+              - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=90&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8tMDegQIUhAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e655]:
+              - link "Seuraava" [ref=e656] [cursor=pointer]:
+                - /url: /search?q=hankintameno-olettama+20+40+prosenttia+veronmaksajat+OR+vero.fi&sca_esv=24f50bc0831b3fb1&ei=goLRaYL3HebhwPAPkI2XiQQ&start=10&sa=N&sstk=Af77f_f_yaxaB983VFXM_Ygoa4mkVjh3pVianSDHAZGJYtWkPDa6M2aRobpA8d5rfeWay9fTdtGS98m_bnNO4v5A0wuUzTDF1ib5uw&ved=2ahUKEwiCwK7tkdWTAxXmMBAIHZDGJUEQ8NMDegQIUhAW
+                - generic [ref=e658]: Seuraava
+        - navigation
+    - contentinfo [ref=e659]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e660]
+      - generic [ref=e664]:
+        - generic [ref=e666]:
+          - text: Suomi
+          - generic [ref=e668]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e670] [cursor=pointer]:
+              - generic [ref=e671]: 00940, Helsinki
+              - generic [ref=e673]:
+                - text: "-"
+                - generic [ref=e674]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e676] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e679]:
+          - link "Ohje" [ref=e680] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e681] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e682] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e683] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

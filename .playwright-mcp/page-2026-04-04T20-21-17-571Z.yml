@@ -1,0 +1,439 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: I-Bond rate April 2026 composite rate 4.03 percent TreasuryDirect I-Bond rate April 2026 composite rate 4.03 percent TreasuryDirect
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DI-Bond%2Brate%2BApril%2B2026%2Bcomposite%2Brate%2B4.03%2Bpercent%2BTreasuryDirect&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ2J8OegQIERAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQtKgLegQIFxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQtKgLegQIFhAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DI-Bond%2Brate%2BApril%2B2026%2Bcomposite%2Brate%2B4.03%2Bpercent%2BTreasuryDirect&hl=en&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQhoQCKAF6BAgOEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQiIQCKAN6BAgOEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "I bonds interest rates TreasuryDirect (.gov) https://www.treasurydirect.gov › i-..." [ref=e180] [cursor=pointer]:
+                  - /url: https://www.treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/
+                  - heading "I bonds interest rates" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: TreasuryDirect (.gov)
+                    - generic [ref=e190]: https://www.treasurydirect.gov › i-...
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.treasurydirect.gov/savings-bonds/i-bonds/i-bonds-interest-rates/
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e201]:
+                - emphasis [ref=e202]: The composite rate for I bonds issued from November 2025 through April 2026 is 4.03
+                - text: "%. Here's how we got that rate: Fixed rate, 0.90%. Semiannual (1/2 year) ..."
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e208]
+              - button "Tietoja tästä tuloksesta" [ref=e209] [cursor=pointer]:
+                - img [ref=e212]
+            - generic [ref=e214]:
+              - button "What is the projected Ibond rate for 2026?" [ref=e220] [cursor=pointer]:
+                - generic [ref=e222]: What is the projected Ibond rate for 2026?
+                - img [ref=e225]
+              - button "What will the interest rate be on bonds in 2026?" [ref=e234] [cursor=pointer]:
+                - generic [ref=e236]: What will the interest rate be on bonds in 2026?
+                - img [ref=e239]
+              - button "What is the current composite rate for i-bonds?" [ref=e248] [cursor=pointer]:
+                - generic [ref=e250]: What is the current composite rate for i-bonds?
+                - img [ref=e253]
+              - button "Will the IBond fixed rate go up?" [ref=e262] [cursor=pointer]:
+                - generic [ref=e264]: Will the IBond fixed rate go up?
+                - img [ref=e267]
+          - generic [ref=e272]:
+            - heading "Web results" [level=2] [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e277]:
+                - link "Fiscal Service Announces New Savings Bonds Rates, ... TreasuryDirect (.gov) https://treasurydirect.gov › news" [ref=e279] [cursor=pointer]:
+                  - /url: https://treasurydirect.gov/news/2025/release-11-01-rates/
+                  - heading "Fiscal Service Announces New Savings Bonds Rates, ..." [level=3] [ref=e280]
+                  - generic [ref=e285]:
+                    - generic [ref=e287]: TreasuryDirect (.gov)
+                    - generic [ref=e289]: https://treasurydirect.gov › news
+                - generic [ref=e290]:
+                  - generic [ref=e291]: ·
+                  - link "Käännä tämä sivu" [ref=e292] [cursor=pointer]:
+                    - /url: https://treasurydirect.gov/news/2025/release-11-01-rates/
+                - button "Tietoja tästä tuloksesta" [ref=e293] [cursor=pointer]:
+                  - img [ref=e296]
+              - generic [ref=e300]:
+                - text: The
+                - emphasis [ref=e301]: "4.03"
+                - text: "%"
+                - emphasis [ref=e302]: composite rate
+                - text: for
+                - emphasis [ref=e303]: I bonds
+                - text: issued from November 2025 through
+                - emphasis [ref=e304]: April 2026
+                - text: applies for the first six months after the issue date. The
+                - emphasis [ref=e305]: composite rate
+                - text: ...
+          - generic [ref=e309]:
+            - generic [ref=e312]:
+              - link "I Bonds Interest Rates | U.S. Treasury Fiscal Data U.S. Treasury Fiscal Data (.gov) https://fiscaldata.treasury.gov › i-b..." [ref=e314] [cursor=pointer]:
+                - /url: https://fiscaldata.treasury.gov/datasets/i-bonds-interest-rates/
+                - heading "I Bonds Interest Rates | U.S. Treasury Fiscal Data" [level=3] [ref=e315]
+                - generic [ref=e320]:
+                  - generic [ref=e322]: U.S. Treasury Fiscal Data (.gov)
+                  - generic [ref=e324]: https://fiscaldata.treasury.gov › i-b...
+              - generic [ref=e325]:
+                - generic [ref=e326]: ·
+                - link "Käännä tämä sivu" [ref=e327] [cursor=pointer]:
+                  - /url: https://fiscaldata.treasury.gov/datasets/i-bonds-interest-rates/
+              - button "Tietoja tästä tuloksesta" [ref=e328] [cursor=pointer]:
+                - img [ref=e331]
+            - generic [ref=e335]:
+              - text: The
+              - emphasis [ref=e336]: I Bonds Rates
+              - text: Table contains all fixed
+              - emphasis [ref=e337]: rates
+              - text: ", inflation"
+              - emphasis [ref=e338]: rates
+              - text: ", and"
+              - emphasis [ref=e339]: composite rates
+              - text: for all Series I savings
+              - emphasis [ref=e340]: bonds
+              - text: issued.
+          - generic [ref=e344]:
+            - generic [ref=e347]:
+              - 'link "Treasury: Series I bond rate is 4.03% through April 2026 CNBC https://www.cnbc.com › 2025/10/31" [ref=e349] [cursor=pointer]':
+                - /url: https://www.cnbc.com/2025/10/31/treasury-i-bond-rate-through-april-2026.html
+                - 'heading "Treasury: Series I bond rate is 4.03% through April 2026" [level=3] [ref=e350]'
+                - generic [ref=e355]:
+                  - generic [ref=e357]: CNBC
+                  - generic [ref=e359]: https://www.cnbc.com › 2025/10/31
+              - generic [ref=e360]:
+                - generic [ref=e361]: ·
+                - link "Käännä tämä sivu" [ref=e362] [cursor=pointer]:
+                  - /url: https://www.cnbc.com/2025/10/31/treasury-i-bond-rate-through-april-2026.html
+              - button "Tietoja tästä tuloksesta" [ref=e363] [cursor=pointer]:
+                - img [ref=e366]
+            - generic [ref=e369]:
+              - generic [ref=e370]: 31.10.2025 —
+              - generic [ref=e371]:
+                - text: Treasury Department announces new Series I bond rate of 4.03% for the next six months ·
+                - emphasis [ref=e372]: Series I bonds will pay 4.03% through April 2026
+                - text: ", the ..."
+            - generic [ref=e374]: "Puuttuu: percent ‎TreasuryDirect"
+          - generic [ref=e378]:
+            - generic [ref=e381]:
+              - 'link "I Bond buying guide for 2026: Wait it out tipswatch.com https://tipswatch.com › 2026/01/25" [ref=e383] [cursor=pointer]':
+                - /url: https://tipswatch.com/2026/01/25/i-bond-buying-guide-for-2026-wait-it-out/
+                - 'heading "I Bond buying guide for 2026: Wait it out" [level=3] [ref=e384]'
+                - generic [ref=e389]:
+                  - generic [ref=e391]: tipswatch.com
+                  - generic [ref=e393]: https://tipswatch.com › 2026/01/25
+              - generic [ref=e394]:
+                - generic [ref=e395]: ·
+                - link "Käännä tämä sivu" [ref=e396] [cursor=pointer]:
+                  - /url: https://tipswatch.com/2026/01/25/i-bond-buying-guide-for-2026-wait-it-out/
+              - button "Tietoja tästä tuloksesta" [ref=e397] [cursor=pointer]:
+                - img [ref=e400]
+            - generic [ref=e403]:
+              - generic [ref=e404]: 25.1.2026 —
+              - generic [ref=e405]:
+                - text: ... I Bonds, no matter when they were purchased. The current composite rate is
+                - emphasis [ref=e406]: "4.03"
+                - text: "% annualized for six months for purchases through April 2026."
+          - generic [ref=e410]:
+            - generic [ref=e413]:
+              - link "The Current I-Bond Rate Is Mildly Attractive. Here's Why. Kiplinger https://www.kiplinger.com › savings" [ref=e415] [cursor=pointer]:
+                - /url: https://www.kiplinger.com/personal-finance/banking/savings/savings-bonds/603848/fight-inflation-with-series-i-bonds
+                - heading "The Current I-Bond Rate Is Mildly Attractive. Here's Why." [level=3] [ref=e416]
+                - generic [ref=e421]:
+                  - generic [ref=e423]: Kiplinger
+                  - generic [ref=e425]: https://www.kiplinger.com › savings
+              - generic [ref=e426]:
+                - generic [ref=e427]: ·
+                - link "Käännä tämä sivu" [ref=e428] [cursor=pointer]:
+                  - /url: https://www.kiplinger.com/personal-finance/banking/savings/savings-bonds/603848/fight-inflation-with-series-i-bonds
+              - button "Tietoja tästä tuloksesta" [ref=e429] [cursor=pointer]:
+                - img [ref=e432]
+            - generic [ref=e435]:
+              - generic [ref=e436]: 3.3.2026 —
+              - generic [ref=e437]:
+                - text: The current I-bond rate, valid for bonds issued November 1, 2025, through April 30, 2026, is
+                - emphasis [ref=e438]: "4.03"
+                - text: "%. That includes a fixed rate of 0.90%. To put ..."
+            - generic [ref=e440]:
+              - text: "Puuttuu: composite ‎| Hae tällä:"
+              - link "composite" [ref=e441] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=I-Bond+rate+April+2026+%22composite%22+rate+4.03+percent+TreasuryDirect&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ5t4CegQIRRAB
+          - generic [ref=e445]:
+            - generic [ref=e448]:
+              - link "Series I Bond Rates Deposit Accounts https://www.depositaccounts.com › ..." [ref=e450] [cursor=pointer]:
+                - /url: https://www.depositaccounts.com/blog/inflation-treasury-series-i-savings-bonds/
+                - heading "Series I Bond Rates" [level=3] [ref=e451]
+                - generic [ref=e456]:
+                  - generic [ref=e458]: Deposit Accounts
+                  - generic [ref=e460]: https://www.depositaccounts.com › ...
+              - generic [ref=e461]:
+                - generic [ref=e462]: ·
+                - link "Käännä tämä sivu" [ref=e463] [cursor=pointer]:
+                  - /url: https://www.depositaccounts.com/blog/inflation-treasury-series-i-savings-bonds/
+              - button "Tietoja tästä tuloksesta" [ref=e464] [cursor=pointer]:
+                - img [ref=e467]
+            - generic [ref=e470]:
+              - generic [ref=e471]: 1.12.2025 —
+              - generic [ref=e472]:
+                - emphasis [ref=e473]: Series I savings bonds currently pay 4.03% through April 2026
+                - text: . · This is slightly higher than the previous rate of 3.98%, which was in effect ...
+            - generic [ref=e475]:
+              - text: "Puuttuu: percent ‎| Hae tällä:"
+              - link "percent" [ref=e476] [cursor=pointer]:
+                - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=I-Bond+rate+April+2026+composite+rate+4.03+%22percent%22+TreasuryDirect&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ5t4CegQIRxAB
+          - generic [ref=e480]:
+            - generic [ref=e483]:
+              - link "U.S. Treasury Raises Series I Bond Rate to 4.03% as ... Tekedia https://www.tekedia.com › u-s-treas..." [ref=e485] [cursor=pointer]:
+                - /url: https://www.tekedia.com/u-s-treasury-raises-series-i-bond-rate-to-4-03-as-inflation-adjustment-lifts-returns/?srsltid=AfmBOopekl5KmuYYDCm43N64p_cPwSqcaCGcc1eUQY5snIus6dB1Y_CM
+                - heading "U.S. Treasury Raises Series I Bond Rate to 4.03% as ..." [level=3] [ref=e486]
+                - generic [ref=e491]:
+                  - generic [ref=e493]: Tekedia
+                  - generic [ref=e495]: https://www.tekedia.com › u-s-treas...
+              - generic [ref=e496]:
+                - generic [ref=e497]: ·
+                - link "Käännä tämä sivu" [ref=e498] [cursor=pointer]:
+                  - /url: https://www.tekedia.com/u-s-treasury-raises-series-i-bond-rate-to-4-03-as-inflation-adjustment-lifts-returns/
+              - button "Tietoja tästä tuloksesta" [ref=e499] [cursor=pointer]:
+                - img [ref=e502]
+            - generic [ref=e505]:
+              - generic [ref=e506]: 1.11.2025 —
+              - generic [ref=e507]:
+                - text: The U.S. Department of the Treasury has announced a new
+                - emphasis [ref=e508]: composite
+                - text: interest
+                - emphasis [ref=e509]: rate
+                - text: of
+                - emphasis [ref=e510]: 4.03 percent
+                - text: for Series I savings
+                - emphasis [ref=e511]: bonds
+                - text: issued between ...
+          - generic [ref=e515]:
+            - generic [ref=e518]:
+              - link "What Should I Do With My I Bonds? MOAA https://www.moaa.org › finance › w..." [ref=e520] [cursor=pointer]:
+                - /url: https://www.moaa.org/content/publications-and-media/news-articles/2023-news-articles/finance/what-should-i-do-with-my-i-bonds/
+                - heading "What Should I Do With My I Bonds?" [level=3] [ref=e521]
+                - generic [ref=e526]:
+                  - generic [ref=e528]: MOAA
+                  - generic [ref=e530]: https://www.moaa.org › finance › w...
+              - generic [ref=e531]:
+                - generic [ref=e532]: ·
+                - link "Käännä tämä sivu" [ref=e533] [cursor=pointer]:
+                  - /url: https://www.moaa.org/content/publications-and-media/news-articles/2023-news-articles/finance/what-should-i-do-with-my-i-bonds/
+              - button "Tietoja tästä tuloksesta" [ref=e534] [cursor=pointer]:
+                - img [ref=e537]
+            - generic [ref=e541]:
+              - text: "They have rebounded recently, however: The latest"
+              - emphasis [ref=e542]: rate
+              - text: ", which applies to"
+              - emphasis [ref=e543]: bonds
+              - text: issued Nov. 1 of this year through
+              - emphasis [ref=e544]: April 2026
+              - text: ", is"
+              - emphasis [ref=e545]: "4.03"
+              - text: "% -- a"
+              - emphasis [ref=e546]: composite rate
+              - text: made ...
+          - generic [ref=e550]:
+            - generic [ref=e553]:
+              - link "I bonds TreasuryDirect (.gov) https://www.treasurydirect.gov › i-..." [ref=e555] [cursor=pointer]:
+                - /url: https://www.treasurydirect.gov/savings-bonds/i-bonds/
+                - heading "I bonds" [level=3] [ref=e556]
+                - generic [ref=e561]:
+                  - generic [ref=e563]: TreasuryDirect (.gov)
+                  - generic [ref=e565]: https://www.treasurydirect.gov › i-...
+              - generic [ref=e566]:
+                - generic [ref=e567]: ·
+                - link "Käännä tämä sivu" [ref=e568] [cursor=pointer]:
+                  - /url: https://www.treasurydirect.gov/savings-bonds/i-bonds/
+              - button "Tietoja tästä tuloksesta" [ref=e569] [cursor=pointer]:
+                - img [ref=e572]
+            - generic [ref=e576]:
+              - text: Current Interest Rate. Series I Savings Bonds.
+              - emphasis [ref=e577]: "4.03"
+              - text: "%. This includes a fixed rate of 0.90%. For I bonds issued November 1, 2025 to April 30, 2026. I bonds at a ..."
+            - generic [ref=e579]: "Puuttuu: composite ‎percent"
+        - generic [ref=e581]:
+          - generic [ref=e586]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e588]
+            - generic [ref=e590]:
+              - generic [ref=e591]:
+                - link "I bond interest rate chart" [ref=e595] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=I+bond+interest+rate+chart&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhYEAE
+                  - generic [ref=e596]:
+                    - generic [ref=e601]: I bond interest rate chart
+                    - img [ref=e605]
+                - link "What will the next I Bond rate be" [ref=e610] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=What+will+the+next+I+Bond+rate+be&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhbEAE
+                  - generic [ref=e611]:
+                    - generic [ref=e616]: What will the next I Bond rate be
+                    - img [ref=e620]
+                - link "Ibond fixed rate" [ref=e625] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Ibond+fixed+rate&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhaEAE
+                  - generic [ref=e626]:
+                    - generic [ref=e631]: Ibond fixed rate
+                    - img [ref=e635]
+                - link "How do I bonds work" [ref=e640] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=How+do+I+bonds+work&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhUEAE
+                  - generic [ref=e641]:
+                    - generic [ref=e646]: How do I bonds work
+                    - img [ref=e650]
+              - generic [ref=e652]:
+                - link "Ibond reddit" [ref=e656] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Ibond+reddit&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhVEAE
+                  - generic [ref=e657]:
+                    - generic [ref=e662]: Ibond reddit
+                    - img [ref=e666]
+                - link "U.S. bonds" [ref=e671] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=U.S.+bonds&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhZEAE
+                  - generic [ref=e672]:
+                    - generic [ref=e677]: U.S. bonds
+                    - img [ref=e681]
+                - link "Savings bond Calculator" [ref=e686] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Savings+bond+Calculator&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhXEAE
+                  - generic [ref=e687]:
+                    - generic [ref=e692]: Savings bond Calculator
+                    - img [ref=e696]
+                - link "I Bond rates prediction 2025" [ref=e701] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=I+Bond+rates+prediction+2025&sa=X&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ1QJ6BAhWEAE
+                  - generic [ref=e702]:
+                    - generic [ref=e707]: I Bond rates prediction 2025
+                    - img [ref=e711]
+          - navigation [ref=e713]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e714]
+            - text: "1"
+            - link "Page 2" [ref=e717] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=10&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8tMDegQISBAE
+              - text: "2"
+            - link "Page 3" [ref=e719] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=20&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8tMDegQISBAG
+              - text: "3"
+            - link "Page 4" [ref=e721] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=30&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8tMDegQISBAI
+              - text: "4"
+            - link "Page 5" [ref=e723] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=40&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8tMDegQISBAK
+              - text: "5"
+            - link "Page 6" [ref=e725] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=50&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8tMDegQISBAM
+              - text: "6"
+            - link "Page 7" [ref=e727] [cursor=pointer]:
+              - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=60&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8tMDegQISBAO
+              - text: "7"
+            - heading "Seuraava" [level=2] [ref=e729]:
+              - link "Seuraava" [ref=e730] [cursor=pointer]:
+                - /url: /search?q=I-Bond+rate+April+2026+composite+rate+4.03+percent+TreasuryDirect&sca_esv=f72dd7b5cfdb5d01&ei=vHLRaZi0Gfe2wPAP3-uowQs&start=10&sa=N&sstk=Af77f_eVz-aPaVxWFgec9VZ-SfOmY0zlXi5KEEnW6uvNO0DW3HwrkWLozQ-q7sgg0F2Gq5ri_jO_TB5Ut5NiwpU1Q5v8Qwt7jqKK0A&ved=2ahUKEwiYgu7ngtWTAxV3GxAIHd81KrgQ8NMDegQISBAQ
+                - generic [ref=e732]: Seuraava
+        - navigation
+    - contentinfo [ref=e733]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e734]
+      - generic [ref=e738]:
+        - generic [ref=e740]:
+          - text: Suomi
+          - generic [ref=e742]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e744] [cursor=pointer]:
+              - generic [ref=e745]: 00940, Helsinki
+              - generic [ref=e747]:
+                - text: "-"
+                - generic [ref=e748]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e750] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e753]:
+          - link "Ohje" [ref=e754] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e755] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e756] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e757] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

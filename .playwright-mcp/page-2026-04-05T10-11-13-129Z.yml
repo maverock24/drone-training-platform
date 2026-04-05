@@ -1,0 +1,361 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic:
+    - img
+  - generic [ref=e4]:
+    - generic [ref=e5]: Save up to 30% today
+    - generic [ref=e6]:
+      - generic [ref=e7]: 00d
+      - generic [ref=e8]: 10u
+      - generic [ref=e9]: 48m
+      - generic [ref=e10]: 47s
+  - banner [ref=e11]:
+    - heading "Drone License Approved trainer for the Drone License Approved trainer for the Drone License" [level=1] [ref=e12]:
+      - link "Drone License Approved trainer for the Drone License Approved trainer for the Drone License" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e14]: Drone License
+        - img "Approved trainer for the Drone License" [ref=e15]
+        - img "Approved trainer for the Drone License" [ref=e16]
+    - generic [ref=e18]:
+      - link "Cart" [ref=e19] [cursor=pointer]:
+        - /url: /cart
+        - generic [ref=e20]: Cart
+        - img [ref=e21]
+      - button "Site navigation" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: Site navigation
+        - img [ref=e25]
+  - generic [ref=e27]:
+    - main [ref=e28]:
+      - generic [ref=e32]:
+        - img "EU Drone License" [ref=e35]
+        - generic [ref=e38]:
+          - heading "Get Your EU Drone License Online — valid in Belgium and across Europe." [level=2] [ref=e40]:
+            - text: Get Your EU Drone License Online — valid in
+            - generic [ref=e41]: Belgium
+            - text: and across Europe.
+          - paragraph [ref=e43]: Complete your EASA-approved training from home. Officially valid in all 30 European countries.
+          - link "Start Your License Now" [ref=e44] [cursor=pointer]:
+            - /url: /collections/training-in-english
+            - generic:
+              - text: Start Your License Now
+              - img
+          - link "Which license do I need?" [ref=e46] [cursor=pointer]:
+            - /url: /pages/keuzehulp
+            - generic:
+              - text: Which license do I need?
+              - img
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - img [ref=e51]
+              - img [ref=e53]
+              - img [ref=e55]
+              - img [ref=e57]
+              - img [ref=e59]
+            - generic [ref=e61]: Rated 4.9 / 5.0 by 65,000+ happy customers
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - img [ref=e70]
+            - generic [ref=e73]:
+              - paragraph [ref=e74]: Official EU Drone Certificate
+              - paragraph [ref=e76]:
+                - emphasis [ref=e77]: Recognized by EASA
+          - generic [ref=e78]:
+            - img [ref=e80]:
+              - generic [ref=e83]: "5"
+            - generic [ref=e84]:
+              - paragraph [ref=e85]: Valid for five years
+              - paragraph [ref=e87]:
+                - emphasis [ref=e88]: In all the EU countries in Europe
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - generic [ref=e96]:
+              - paragraph [ref=e97]: +65.000 people trained
+              - paragraph [ref=e99]:
+                - emphasis [ref=e100]: We know how to train you
+        - generic [ref=e101]:
+          - button "View slide 1" [ref=e102] [cursor=pointer]
+          - button "View slide 2" [ref=e103] [cursor=pointer]
+          - button "View slide 3" [ref=e104] [cursor=pointer]
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - heading "We’ll guide you to your official EU drone license — step by step" [level=2] [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e114]: We’ll
+                - generic [ref=e116]: guide
+                - generic [ref=e118]: you
+                - generic [ref=e120]: to
+                - generic [ref=e122]: your
+                - generic [ref=e124]: official
+                - generic [ref=e126]: EU
+                - generic [ref=e128]: drone
+                - generic [ref=e130]: license
+                - generic [ref=e132]: —
+                - generic [ref=e134]: step
+                - generic [ref=e136]: by
+                - generic [ref=e138]: step
+            - paragraph [ref=e140]: For drones starting from 250 grams you are required to obtain the EASA A1-A3 certificate. If you are flying a C2 label drone, you need the EASA A2 certificate as well.
+          - paragraph [ref=e141]:
+            - link "Check our training" [ref=e142] [cursor=pointer]:
+              - /url: /collections/all
+              - generic:
+                - text: Check our training
+                - img
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - paragraph [ref=e151]:
+              - link "Required for drones from 250 grams" [disabled] [ref=e152]
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - img "Load video:" [ref=e156]
+                - button "Play video" [ref=e157] [cursor=pointer]:
+                  - img [ref=e159]
+              - generic [ref=e163]:
+                - paragraph [ref=e164]:
+                  - link "Valid for 5 years" [disabled] [ref=e165]:
+                    - emphasis [ref=e166]: Valid for 5 years
+                - paragraph [ref=e167]: Across all EU countries + Norway, Iceland & Switzerland
+          - generic [ref=e168]:
+            - generic [ref=e173]:
+              - paragraph [ref=e174]: start flying legally today
+              - paragraph [ref=e175]:
+                - link "Train & pass online" [disabled] [ref=e176]
+            - paragraph [ref=e182]:
+              - link "Official EU Drone Certificate" [disabled] [ref=e183]
+      - generic [ref=e188]:
+        - heading "Trusted by Europe’s leading companies" [level=2] [ref=e189]:
+          - generic [ref=e190]:
+            - generic [ref=e192]: Trusted
+            - generic [ref=e194]: by
+            - generic [ref=e196]: Europe’s
+            - generic [ref=e198]: leading
+            - generic [ref=e200]: companies
+        - paragraph [ref=e202]: From global organisations to individual pilots, thousands rely on Drone Class for their EU Drone License.
+      - generic [ref=e216]:
+        - 'img "Load video: Do you already have a EU Drone License" [ref=e222]'
+        - generic [ref=e224]:
+          - heading "Why Drone Class?" [level=2] [ref=e225]:
+            - generic [ref=e226]:
+              - generic [ref=e228]: Why
+              - generic [ref=e230]: Drone
+              - generic [ref=e232]: Class?
+          - paragraph [ref=e234]: We are Europe’s best-rated drone training provider. With years of experience, a passion for flying, and a proven success rate of 95%+, Drone Class combines expert knowledge with accessible teaching. Whether you’re an individual, school, municipality, or business — we make getting your EU Drone License simple, fast, and reliable.
+          - link "Get Your Drone License" [ref=e235] [cursor=pointer]:
+            - /url: /collections/training-in-english
+            - generic:
+              - text: Get Your Drone License
+              - img
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - heading "Blog posts" [level=2] [ref=e242]:
+            - generic [ref=e243]:
+              - generic [ref=e245]: Blog
+              - generic [ref=e247]: posts
+          - paragraph [ref=e248]:
+            - link "View all" [ref=e249] [cursor=pointer]:
+              - /url: /blogs/popular
+              - generic:
+                - img
+                - text: View all
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - link "Drone Operator Number" [ref=e255] [cursor=pointer]:
+              - /url: /blogs/popular/drone-operator-number
+              - img "Drone Operator Number" [ref=e256]
+            - generic [ref=e257]:
+              - paragraph [ref=e259]:
+                - link "Drone Operator Number" [ref=e260] [cursor=pointer]:
+                  - /url: /blogs/popular/drone-operator-number
+              - paragraph [ref=e261]:
+                - link "Read more" [ref=e262] [cursor=pointer]:
+                  - /url: /blogs/popular/drone-operator-number
+          - generic [ref=e263]:
+            - link "DJI Avata 360" [ref=e265] [cursor=pointer]:
+              - /url: /blogs/popular/dji-avata-360
+              - img "DJI Avata 360" [ref=e266]
+            - generic [ref=e267]:
+              - paragraph [ref=e269]:
+                - link "DJI Avata 360" [ref=e270] [cursor=pointer]:
+                  - /url: /blogs/popular/dji-avata-360
+              - paragraph [ref=e271]:
+                - link "Read more" [ref=e272] [cursor=pointer]:
+                  - /url: /blogs/popular/dji-avata-360
+          - generic [ref=e273]:
+            - link "The best FPV drone of 2026" [ref=e275] [cursor=pointer]:
+              - /url: /blogs/popular/the-best-fpv-drone-of-2026
+              - img "The best FPV drone of 2026" [ref=e276]
+            - generic [ref=e277]:
+              - paragraph [ref=e279]:
+                - link "The best FPV drone of 2026" [ref=e280] [cursor=pointer]:
+                  - /url: /blogs/popular/the-best-fpv-drone-of-2026
+              - paragraph [ref=e281]:
+                - link "Read more" [ref=e282] [cursor=pointer]:
+                  - /url: /blogs/popular/the-best-fpv-drone-of-2026
+    - contentinfo [ref=e283]:
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - img [ref=e290]
+          - generic [ref=e293]:
+            - paragraph [ref=e294]: Certified flight school
+            - paragraph [ref=e296]: Based in the Netherlands
+        - generic [ref=e297]:
+          - img [ref=e299]
+          - generic [ref=e302]:
+            - paragraph [ref=e303]: Best training
+            - paragraph [ref=e305]: Excellent online e-learning
+        - generic [ref=e306]:
+          - img [ref=e308]
+          - generic [ref=e313]:
+            - paragraph [ref=e314]: Secure payment
+            - paragraph [ref=e316]: Your payment information is safe
+        - generic [ref=e317]:
+          - img [ref=e319]
+          - generic [ref=e322]:
+            - paragraph [ref=e323]: Customer service
+            - paragraph [ref=e325]: Serving pilots around the world
+      - region "Footer" [ref=e328]:
+        - generic [ref=e330]:
+          - group [ref=e331]:
+            - generic "Main menu":
+              - generic: Main menu
+            - list [ref=e333]:
+              - listitem [ref=e334]:
+                - link "Get Licensed" [ref=e335] [cursor=pointer]:
+                  - /url: /collections/open-category
+              - listitem [ref=e336]:
+                - link "Renew License" [ref=e337] [cursor=pointer]:
+                  - /url: /collections/refreshers
+              - listitem [ref=e338]:
+                - link "Professional / STS" [ref=e339] [cursor=pointer]:
+                  - /url: /products/specific-category-training
+              - listitem [ref=e340]:
+                - link "Discover" [ref=e341] [cursor=pointer]:
+                  - /url: /blogs/popular
+          - group [ref=e342]:
+            - generic "Service":
+              - generic: Service
+            - list [ref=e344]:
+              - listitem [ref=e345]:
+                - link "Terms and conditions" [ref=e346] [cursor=pointer]:
+                  - /url: /pages/terms-and-conditions
+              - listitem [ref=e347]:
+                - link "Privacy statement" [ref=e348] [cursor=pointer]:
+                  - /url: /pages/privacy-statement
+              - listitem [ref=e349]:
+                - link "Right of withdrawal" [ref=e350] [cursor=pointer]:
+                  - /url: /pages/right-of-withdrawal
+              - listitem [ref=e351]:
+                - link "Legal notice" [ref=e352] [cursor=pointer]:
+                  - /url: /pages/legal-notice
+          - group [ref=e353]:
+            - generic "Need help?":
+              - generic: Need help?
+            - paragraph [ref=e356]:
+              - link "info@dronelicense.eu" [disabled] [ref=e357]:
+                - generic: info@dronelicense.eu
+        - generic [ref=e359]:
+          - paragraph [ref=e360]:
+            - link "Drone License Approved trainer for the Drone License" [ref=e361] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e362]: Drone License
+              - img "Approved trainer for the Drone License" [ref=e363]
+          - paragraph [ref=e364]: Stay in the loop with our weekly newsletter
+          - generic [ref=e366]:
+            - textbox "Enter your email" [ref=e367]
+            - generic: Enter your email
+            - button "Subscribe" [ref=e369] [cursor=pointer]:
+              - generic:
+                - img
+      - generic [ref=e372]:
+        - generic [ref=e373]: © 2026 Drone License | Drone Class ®
+        - generic [ref=e376]:
+          - generic [ref=e377]: Language
+          - img
+          - button "English" [ref=e378] [cursor=pointer]: English
+          - combobox "Language" [ref=e380] [cursor=pointer]:
+            - option "English" [selected]
+          - img
+        - list [ref=e381]:
+          - listitem [ref=e382]:
+            - img "American Express" [ref=e383]
+          - listitem [ref=e392]:
+            - img "Apple Pay" [ref=e393]
+          - listitem [ref=e404]:
+            - img "Bancontact" [ref=e405]
+          - listitem [ref=e412]:
+            - img "Google Pay" [ref=e413]
+          - listitem [ref=e421]:
+            - img "iDEAL Wero" [ref=e422]
+          - listitem [ref=e437]:
+            - img "Klarna" [ref=e438]
+          - listitem [ref=e442]:
+            - img "Maestro" [ref=e443]
+          - listitem [ref=e449]:
+            - img "Mastercard" [ref=e450]
+          - listitem [ref=e456]:
+            - img "PayPal" [ref=e457]
+          - listitem [ref=e463]:
+            - img "Visa" [ref=e464]
+  - generic [ref=e469]:
+    - generic [ref=e470]:
+      - banner [ref=e471]:
+        - generic [ref=e472]: Welcome to Drone Class B.V.
+        - generic: select language
+      - generic [ref=e475]:
+        - strong [ref=e476]: Privacy Statement
+        - text: Drone Class B.V., located at Marketing 45, 6921 RE Duiven, Netherlands, is responsible for the processing of personal data as shown in this privacy statement.
+        - strong [ref=e477]: Contact Information
+        - text: www.dronelicense.eu
+        - text: Marketing 45, 6921 RE Duiven, Netherlands
+        - text: +31 (0)85 1308763
+        - strong [ref=e478]: Cookies
+        - text: This website uses cookies. These cookies ensure that we can provide you with information as optimally as possible and occasionally display an advertisement on other websites - as a reminder to us, so to speak. If you continue to browse our website, we assume that you do not mind this.
+        - strong [ref=e479]: Cookies at Drone Class B.V.
+        - text: Like many other websites, we use cookies and weblog files to track website usage and trends, to improve the quality of our service, to customize your experience at Drone Class B.V., and to showcase featured client portfolio content based on your search criteria, industry, or area of work.
+        - strong [ref=e480]: What are cookies?
+        - text: Cookies are small data files that the website you visit can store on your hard drive. They typically contain an anonymous, unique identification code. A cookie cannot obtain other data from your hard drive or transmit computer viruses.
+        - text: You can delete or block cookies using the settings in your browser. However, in some cases, this may cause the website of Drone Class B.V. to not function fully.
+        - text: We also use Google Analytics to help us understand how users use our website and our mobile applications. Google Analytics cookies do not provide Drone Class B.V. with personal, identifiable information. They can tell us how you arrived at the Drone Class B.V. website, whether you have visited the website before, how long you stay on the website, and which web pages you have visited.
+        - text: They can also provide us with general information about where in the world the user is located. This information helps us understand how people use our website and provides us with information about the type of experience people have on our website. This way, we learn how to improve the experience on the Drone Class B.V. website.
+        - strong [ref=e481]: Which cookies do we collect?
+        - text: "This website also places cookies by third parties. These may include advertisers and/or social media companies. Below is an overview:"
+        - text: "Source: Google Analytics"
+        - text: "Purpose: Analytical cookies for collecting website statistics and user behavior. Standard completely anonymized."
+        - text: "Retention period: max. 760 days*"
+        - text: "Source: DoubleClick"
+        - text: "Purpose: Tracking cookies for providing personalized advertisements and collecting conversion data."
+        - text: "Retention period: max. 540 days*"
+        - text: "Source: Google AdWords"
+        - text: "Purpose: Tracking cookies for providing personalized advertisements and collecting conversion data."
+        - text: "Retention period: max. 540 days*"
+        - text: "Source: Meta"
+        - text: "Purpose: Tracking cookies for providing personalized advertisements and collecting conversion data."
+        - text: "Retention period: max. 760 days*"
+        - text: "* Subject to changes that may be made by third parties."
+      - link "More information" [ref=e483] [cursor=pointer]:
+        - /url: /pages/privacy-statement
+    - contentinfo [ref=e485]:
+      - button "Accept all cookies" [ref=e486] [cursor=pointer]
+      - button "Change settings" [ref=e487] [cursor=pointer]
+  - 'complementary "Language selected: English" [ref=e488]':
+    - combobox "Language Switcher":
+      - link "EN":
+        - /url: "#"
+    - listbox "Language list" [ref=e489]:
+      - option "ES":
+        - link "ES":
+          - /url: "#"
+      - option "FR":
+        - link "FR":
+          - /url: "#"
+      - option "RO":
+        - link "RO":
+          - /url: "#"
+      - option "PT":
+        - link "PT":
+          - /url: "#"
+  - generic [ref=e491] [cursor=pointer]:
+    - img [ref=e492]
+    - img [ref=e494]

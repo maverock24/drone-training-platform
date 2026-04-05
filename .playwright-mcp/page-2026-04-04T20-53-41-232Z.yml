@@ -1,0 +1,294 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:vero.fi osinkoverotus osinkotulojen verotus 2026 site:vero.fi osinkoverotus osinkotulojen verotus 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Avero.fi%2Bosinkoverotus%2Bosinkotulojen%2Bverotus%2B2026%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ2J8OegQIERAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sa=X&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQtKgLegQIFxAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sa=X&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQtKgLegQIFhAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sa=X&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQs6gLegQIFBAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sa=X&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&hl=fi&q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ0pQJegQIFRAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Tulokset internetistä" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Osinkotulojen verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › osinkotulojen-ve..." [ref=e143] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/47901/osinkotulojen-verotus6/
+                - heading "Osinkotulojen verotus Syventävä vero-ohje" [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Vero.fi
+                  - generic [ref=e153]: https://www.vero.fi › ohje-hakusivu › osinkotulojen-ve...
+              - button "Tietoja tästä tuloksesta" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 24.2.2026 —
+              - generic [ref=e162]:
+                - text: Osingonsaajan verovuonna julkisesti noteeraamattomista yhtiöistä saama pääomatulo-
+                - emphasis [ref=e163]: osinko
+                - text: on 150 000 euroon asti 25 prosenttisesti veronalaista ...
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - link "Vuosi-ilmoitus osingoista, täyttöohje 2026 Vero.fi https://www.vero.fi › lomakkeet › tayttoohjeet › vuosi-i..." [ref=e172] [cursor=pointer]:
+              - /url: https://www.vero.fi/tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/tayttoohjeet/vuosi-ilmoitus-osingoista-tayttoohje-2026/
+              - heading "Vuosi-ilmoitus osingoista, täyttöohje 2026" [level=3] [ref=e173]
+              - generic [ref=e178]:
+                - generic [ref=e180]: Vero.fi
+                - generic [ref=e182]: https://www.vero.fi › lomakkeet › tayttoohjeet › vuosi-i...
+            - button "Tietoja tästä tuloksesta" [ref=e183] [cursor=pointer]:
+              - img [ref=e186]
+          - generic [ref=e189]:
+            - generic [ref=e190]: 2.1.2026 —
+            - text: Jos osakeyhtiö jakaa osinkoja, sen pitää antaa niistä vuosi-ilmoitus. Ilmoitus pitää antaa myös varoista, jotka yhtiö jakaa vapaan oman pääoman ...
+        - generic [ref=e194]:
+          - generic [ref=e197]:
+            - link "Muutoksia osinkoverotukseen sekä yhtiön varojen ... Vero.fi https://www.vero.fi › uutishuone › verotuksen_muutoksia" [ref=e199] [cursor=pointer]:
+              - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/verotuksen_muutoksia/hallitus-esittaa-muutoksia-osinkoverotukseen-seka-yhtion-varojen-arvostamiseen-osakevaihtotilanteissa/
+              - heading "Muutoksia osinkoverotukseen sekä yhtiön varojen ..." [level=3] [ref=e200]
+              - generic [ref=e205]:
+                - generic [ref=e207]: Vero.fi
+                - generic [ref=e209]: https://www.vero.fi › uutishuone › verotuksen_muutoksia
+            - button "Tietoja tästä tuloksesta" [ref=e210] [cursor=pointer]:
+              - img [ref=e213]
+          - generic [ref=e216]:
+            - generic [ref=e217]: 16.12.2025 —
+            - generic [ref=e218]:
+              - text: Luonnollisen henkilön ja kuolinpesän osinkoverotuksen muutokset tehdään vuodelta
+              - emphasis [ref=e219]: "2026"
+              - text: toimitettavan
+              - emphasis [ref=e220]: verotuksen
+              - text: yhteydessä. Muutos koskee ...
+        - generic [ref=e224]:
+          - generic [ref=e227]:
+            - link "Osingot listaamattomasta yhtiöstä Vero.fi https://www.vero.fi › omaisuus › sijoitukset › osingot-li..." [ref=e229] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/osingot/osingot-listaamattomasta-yhtiosta/
+              - heading "Osingot listaamattomasta yhtiöstä" [level=3] [ref=e230]
+              - generic [ref=e235]:
+                - generic [ref=e237]: Vero.fi
+                - generic [ref=e239]: https://www.vero.fi › omaisuus › sijoitukset › osingot-li...
+            - button "Tietoja tästä tuloksesta" [ref=e240] [cursor=pointer]:
+              - img [ref=e243]
+          - generic [ref=e246]:
+            - generic [ref=e247]: 1.1.2026 —
+            - generic [ref=e248]:
+              - emphasis [ref=e249]: Osinko
+              - text: on henkilöasiakkaan verovuoden
+              - emphasis [ref=e250]: "2026"
+              - text: tuloa. ... vero-ohjeen
+              - emphasis [ref=e251]: Osinkotulojen verotus
+              - text: kohdasta 2.3 Listaamattomasta yhtiöstä saatu
+              - emphasis [ref=e252]: osinko
+              - text: .
+        - generic [ref=e256]:
+          - generic [ref=e259]:
+            - link "Muutoksia osakevaihtoa koskevaan verosääntelyyn Vero.fi https://www.vero.fi › uutishuone › uutiset › uutiset › m..." [ref=e261] [cursor=pointer]:
+              - /url: https://www.vero.fi/tietoa-verohallinnosta/uutishuone/uutiset/uutiset/2025/muutoksia-osakevaihtoa-koskevaan-veros%C3%A4%C3%A4ntelyyn/
+              - heading "Muutoksia osakevaihtoa koskevaan verosääntelyyn" [level=3] [ref=e262]
+              - generic [ref=e267]:
+                - generic [ref=e269]: Vero.fi
+                - generic [ref=e271]: https://www.vero.fi › uutishuone › uutiset › uutiset › m...
+            - button "Tietoja tästä tuloksesta" [ref=e272] [cursor=pointer]:
+              - img [ref=e275]
+          - generic [ref=e278]:
+            - generic [ref=e279]: 8.12.2025 —
+            - generic [ref=e280]:
+              - text: Luonnollisen henkilön ja kuolinpesän osinkoverotuksen muutokset tehdään vuodelta
+              - emphasis [ref=e281]: "2026"
+              - text: toimitettavan
+              - emphasis [ref=e282]: verotuksen
+              - text: yhteydessä. Muutos koskee kaikkia ...
+        - generic [ref=e286]:
+          - generic [ref=e289]:
+            - link "Rajoitetusti verovelvollisen osingot, korot ja rojaltit Vero.fi https://www.vero.fi › ohje-hakusivu › rajoitetusti-verov..." [ref=e291] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49133/rajoitetusti-verovelvollisen-osingot-korot-ja-rojaltit3/
+              - heading "Rajoitetusti verovelvollisen osingot, korot ja rojaltit" [level=3] [ref=e292]
+              - generic [ref=e297]:
+                - generic [ref=e299]: Vero.fi
+                - generic [ref=e301]: https://www.vero.fi › ohje-hakusivu › rajoitetusti-verov...
+            - button "Tietoja tästä tuloksesta" [ref=e302] [cursor=pointer]:
+              - img [ref=e305]
+          - generic [ref=e308]:
+            - generic [ref=e309]: 9.2.2026 —
+            - text: Rajoitetusti verovelvolliselle luonnolliselle henkilölle maksetuista osingoista perittävä lähdeveron määrä on lähtökohtaisesti 30 %, ellei ...
+        - generic [ref=e313]:
+          - generic [ref=e316]:
+            - link "Ohje osakevaihdolla hankittujen osakkeiden ... Vero.fi https://www.vero.fi › ohje-hakusivu › ohje-osakevaihd..." [ref=e318] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/ohje-osakevaihdolla-hankittujen-osakkeiden-ilmoittamisesta-veroilmoituksella/ohje-osakevaihdolla-hankittujen-osakkeiden-ilmoittamisesta-veroilmoituksella/
+              - heading "Ohje osakevaihdolla hankittujen osakkeiden ..." [level=3] [ref=e319]
+              - generic [ref=e324]:
+                - generic [ref=e326]: Vero.fi
+                - generic [ref=e328]: https://www.vero.fi › ohje-hakusivu › ohje-osakevaihd...
+            - button "Tietoja tästä tuloksesta" [ref=e329] [cursor=pointer]:
+              - img [ref=e332]
+          - generic [ref=e335]:
+            - generic [ref=e336]: 9.2.2026 —
+            - generic [ref=e337]:
+              - text: Vaikutukset
+              - emphasis [ref=e338]: osin
+              - text: kojen verotukseen. Lakimuutos vaikuttaa myös osinkojen verotukseen, jos osinko on nostettavissa 1.1.2026 tai sen jälkeen ja ...
+        - generic [ref=e342]:
+          - generic [ref=e345]:
+            - link "Listatusta yhtiöstä saadut osingot Vero.fi https://www.vero.fi › omaisuus › sijoitukset › listatusta-..." [ref=e347] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/sijoitukset/osingot/listatusta-yhti%C3%B6st%C3%A4-saadut-osingot/
+              - heading "Listatusta yhtiöstä saadut osingot" [level=3] [ref=e348]
+              - generic [ref=e353]:
+                - generic [ref=e355]: Vero.fi
+                - generic [ref=e357]: https://www.vero.fi › omaisuus › sijoitukset › listatusta-...
+            - button "Tietoja tästä tuloksesta" [ref=e358] [cursor=pointer]:
+              - img [ref=e361]
+          - generic [ref=e364]:
+            - generic [ref=e365]: 1.1.2026 —
+            - text: Osingosta osa on veronalaista, osa verotonta tuloa · 85 % on veronalaista pääomatuloa eli osinkotuloa · 15 % on verotonta tuloa.
+        - generic [ref=e369]:
+          - generic [ref=e372]:
+            - link "Ulkomaille maksettavat osingot, korot ja rojaltit Vero.fi https://www.vero.fi › suomesta_ulkomaille › ulkomaille..." [ref=e374] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/verokortti-ja-veroilmoitus/suomesta_ulkomaille/ulkomaille_maksettavat_osingot_korot_ja/
+              - heading "Ulkomaille maksettavat osingot, korot ja rojaltit" [level=3] [ref=e375]
+              - generic [ref=e380]:
+                - generic [ref=e382]: Vero.fi
+                - generic [ref=e384]: https://www.vero.fi › suomesta_ulkomaille › ulkomaille...
+            - button "Tietoja tästä tuloksesta" [ref=e385] [cursor=pointer]:
+              - img [ref=e388]
+          - generic [ref=e391]:
+            - generic [ref=e392]: 10.2.2026 —
+            - generic [ref=e393]:
+              - text: Suomesta saaduista osingoista, koroista ja rojalteista on yleensä maksettava
+              - emphasis [ref=e394]: verot
+              - text: Suomeen. Suomessa peritty verosopimuksen mukainen
+              - emphasis [ref=e395]: vero
+              - text: ...
+        - generic [ref=e399]:
+          - generic [ref=e402]:
+            - link "Yritysjärjestelyt ja verotus -jakautuminen Vero.fi https://www.vero.fi › ohje-hakusivu › yritysjarjestelyt-j..." [ref=e404] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49340/yritysjarjestelyt-ja-verotus-jakautuminen4/
+              - heading "Yritysjärjestelyt ja verotus -jakautuminen" [level=3] [ref=e405]
+              - generic [ref=e410]:
+                - generic [ref=e412]: Vero.fi
+                - generic [ref=e414]: https://www.vero.fi › ohje-hakusivu › yritysjarjestelyt-j...
+            - button "Tietoja tästä tuloksesta" [ref=e415] [cursor=pointer]:
+              - img [ref=e418]
+          - generic [ref=e421]:
+            - generic [ref=e422]: 23.2.2026 —
+            - generic [ref=e423]:
+              - text: Osittaisjakautuminen ei vaikuta
+              - emphasis [ref=e424]: verotuksessa
+              - text: myöskään jakautuvan yhtiön mahdollisuuteen jakaa osinkoa verovuodelta, jona jakautuminen pannaan ...
+      - navigation [ref=e427]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e428]
+        - text: "1"
+        - link "Page 2" [ref=e431] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=10&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAE
+          - text: "2"
+        - link "Page 3" [ref=e433] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=20&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAG
+          - text: "3"
+        - link "Page 4" [ref=e435] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=30&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAI
+          - text: "4"
+        - link "Page 5" [ref=e437] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=40&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAK
+          - text: "5"
+        - link "Page 6" [ref=e439] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=50&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAM
+          - text: "6"
+        - link "Page 7" [ref=e441] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=60&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAO
+          - text: "7"
+        - link "Page 8" [ref=e443] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=70&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8tMDegQIJxAQ
+          - text: "8"
+        - heading "Seuraava" [level=2] [ref=e445]:
+          - link "Seuraava" [ref=e446] [cursor=pointer]:
+            - /url: /search?q=site:vero.fi+osinkoverotus+osinkotulojen+verotus+2026&sca_esv=abbb0aaa8824193d&hl=fi&ei=VHrRaYLHAeOpwPAP9YvmIA&start=10&sa=N&sstk=Af77f_eRt-9FowLdPpHd-VAtZ6tac4n5SLW_SMVZDjGj2jpDhqFiHk-A0OnYoemMFbUE5Eba9QhA3MeJbflGzeXc3wkd8gB4aJy2nw&ved=2ahUKEwiCwdKGitWTAxXjFBAIHfWFGQQQ8NMDegQIJxAS
+            - generic [ref=e448]: Seuraava
+      - navigation
+    - contentinfo [ref=e449]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e450]
+      - generic [ref=e454]:
+        - generic [ref=e456]:
+          - text: Suomi
+          - generic [ref=e458]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e460] [cursor=pointer]:
+              - generic [ref=e461]: Helsinki
+              - generic [ref=e463]:
+                - text: "-"
+                - generic [ref=e464]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e466] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e469]:
+          - link "Ohje" [ref=e470] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e471] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e472] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e473] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

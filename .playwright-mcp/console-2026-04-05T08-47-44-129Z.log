@@ -1,0 +1,13 @@
+[     761ms] [WARNING] <link rel=preload> has an unsupported `type` value @ https://roof.fi/millainen-asuinalue-on-myllypuro/:14
+[     761ms] [WARNING] <link rel=preload> has an unsupported `type` value @ https://roof.fi/millainen-asuinalue-on-myllypuro/:17
+[     761ms] [WARNING] <link rel=preload> has an unsupported `type` value @ https://roof.fi/millainen-asuinalue-on-myllypuro/:18
+[     761ms] [WARNING] <link rel=preload> has an unsupported `type` value @ https://roof.fi/millainen-asuinalue-on-myllypuro/:21
+[     985ms] Invalid or unexpected token
+[    1673ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://roof.fi/millainen-asuinalue-on-myllypuro/%E2%80%9Chttps:/www.googletagmanager.com/gtag/js?id=AW-834557344%E2%80%9D:0
+[    1705ms] [WARNING] Not booting analytics: Multiple analytics scripts detected @ https://bot.leadoo.com/i/analytics.js?code=HFFqsnj:1
+[    2299ms] [WARNING] Error: The domain ROOF.FI is not authorized to show the cookie banner for domain group ID 1a0c6ac7-d300-44a2-bc3f-1eaafcf2eb86. Please add it to the domain group in the Cookiebot Manager to authorize the domain. @ https://consent.cookiebot.com/1a0c6ac7-d300-44a2-bc3f-1eaafcf2eb86/cc.js?renew=false&referer=roof.fi&dnt=false&init=false:0
+[    2624ms] [LOG] interactiveArticleBlocks [] @ https://roof.fi/wp-content/plugins/seoai-client5/assets/js/front.min.js?ver=2.21.11:1
+[    2629ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://roof.fi/millainen-asuinalue-on-myllypuro/:0
+[    2694ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://roof.fi/favicon.ico:0
+[    6771ms] [WARNING] The resource https://roof.fi/fonts/Aventa-Italic.ttf was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://roof.fi/millainen-asuinalue-on-myllypuro/:0
+[    6772ms] [WARNING] The resource https://roof.fi/fonts/Aventa-Italic.woff was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://roof.fi/millainen-asuinalue-on-myllypuro/:0

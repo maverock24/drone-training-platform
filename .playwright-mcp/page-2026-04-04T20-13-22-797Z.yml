@@ -1,0 +1,1331 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - button "Toggle navigation" [ref=e11] [cursor=pointer]
+        - link "Homepage" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+        - generic [ref=e20]:
+          - link "Sign in" [ref=e21] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FPyPortfolio%2FPyPortfolioOpt
+          - button "Appearance settings" [ref=e24] [cursor=pointer]:
+            - img
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - img [ref=e33]
+          - link "PyPortfolio" [ref=e36] [cursor=pointer]:
+            - /url: /PyPortfolio
+          - generic [ref=e37]: /
+          - strong [ref=e38]:
+            - link "PyPortfolioOpt" [ref=e39] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt
+          - generic [ref=e40]: Public
+        - generic [ref=e41]:
+          - list:
+            - listitem [ref=e42]:
+              - link "You must be signed in to change notification settings" [ref=e43] [cursor=pointer]:
+                - /url: /login?return_to=%2FPyPortfolio%2FPyPortfolioOpt
+                - img [ref=e44]
+                - text: Notifications
+            - listitem [ref=e46]:
+              - link "Fork 1.1k" [ref=e47] [cursor=pointer]:
+                - /url: /login?return_to=%2FPyPortfolio%2FPyPortfolioOpt
+                - img [ref=e48]
+                - text: Fork
+                - generic "1,105" [ref=e50]: 1.1k
+            - listitem [ref=e51]:
+              - link "You must be signed in to star a repository" [ref=e53] [cursor=pointer]:
+                - /url: /login?return_to=%2FPyPortfolio%2FPyPortfolioOpt
+                - img [ref=e54]
+                - text: Star
+                - generic "5615 users starred this repository" [ref=e56]: 5.6k
+      - navigation "Repository" [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - link "Code" [ref=e60] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt
+              - img [ref=e61]
+              - generic [ref=e63]: Code
+          - listitem [ref=e64]:
+            - link "Issues 77" [ref=e65] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/issues
+              - img [ref=e66]
+              - generic [ref=e69]: Issues
+              - generic "77" [ref=e70]
+          - listitem [ref=e71]:
+            - link "Pull requests 11" [ref=e72] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/pulls
+              - img [ref=e73]
+              - generic [ref=e75]: Pull requests
+              - generic "11" [ref=e76]
+          - listitem [ref=e77]:
+            - link "Actions" [ref=e78] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/actions
+              - img [ref=e79]
+              - generic [ref=e81]: Actions
+          - listitem [ref=e82]:
+            - link "Projects" [ref=e83] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/projects
+              - img [ref=e84]
+              - generic [ref=e86]: Projects
+          - listitem [ref=e87]
+          - listitem [ref=e88]
+        - button "Additional navigation options" [ref=e92] [cursor=pointer]:
+          - img
+    - generic [ref=e105]:
+      - heading "PyPortfolio/PyPortfolioOpt" [level=1] [ref=e107]
+      - generic [ref=e108]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - button "main branch" [ref=e115] [cursor=pointer]:
+                - generic [ref=e116]:
+                  - generic [ref=e118]:
+                    - img [ref=e120]
+                    - generic [ref=e123]: main
+                  - generic:
+                    - img
+              - generic [ref=e124]:
+                - link "Go to Branches page" [ref=e125] [cursor=pointer]:
+                  - /url: /PyPortfolio/PyPortfolioOpt/branches
+                  - img [ref=e126]
+                - link "Go to Tags page" [ref=e128] [cursor=pointer]:
+                  - /url: /PyPortfolio/PyPortfolioOpt/tags
+                  - img [ref=e129]
+            - generic [ref=e131]:
+              - button "Go to file" [ref=e134] [cursor=pointer]:
+                - generic [ref=e136]: Go to file
+              - button "Code" [ref=e137] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - generic:
+                    - img
+                  - generic [ref=e139]: Code
+                  - generic:
+                    - img
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - heading "Folders and files" [level=2] [ref=e142]
+              - table "Folders and files" [ref=e143]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e144]:
+                  - 'row "Latest commit dependabot[bot] commits by dependabot[bot] [MNT] [Dependabot](deps): Bump actions/download-artifact from 7 to 8 (#… Open commit details success Commit c524c6e · Mar 10, 2026last month History View commit history for this file." [ref=e145]':
+                    - 'cell "Latest commit dependabot[bot] commits by dependabot[bot] [MNT] [Dependabot](deps): Bump actions/download-artifact from 7 to 8 (#… Open commit details success Commit c524c6e · Mar 10, 2026last month History View commit history for this file." [ref=e146]':
+                      - generic [ref=e147]:
+                        - heading "Latest commit" [level=2] [ref=e148]
+                        - generic [ref=e149]:
+                          - generic [ref=e151]:
+                            - link "dependabot[bot]" [ref=e152] [cursor=pointer]:
+                              - /url: /apps/dependabot
+                              - img "dependabot[bot]" [ref=e153]
+                            - link "commits by dependabot[bot]" [ref=e154] [cursor=pointer]:
+                              - /url: /PyPortfolio/PyPortfolioOpt/commits?author=dependabot%5Bbot%5D
+                              - text: dependabot[bot]
+                          - generic [ref=e155]:
+                            - generic [ref=e157]:
+                              - 'link "[MNT] [Dependabot](deps): Bump actions/download-artifact from 7 to 8 (" [ref=e158] [cursor=pointer]':
+                                - /url: /PyPortfolio/PyPortfolioOpt/commit/c524c6e5f07150f2075cbf5b255e8a4827d8caf9
+                              - link "#…" [ref=e159] [cursor=pointer]:
+                                - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/722
+                            - button "Open commit details" [ref=e160] [cursor=pointer]:
+                              - img [ref=e161]
+                            - button "success" [ref=e163] [cursor=pointer]:
+                              - img [ref=e164]
+                        - generic [ref=e166]:
+                          - generic [ref=e168]:
+                            - link "Commit c524c6e" [ref=e169] [cursor=pointer]:
+                              - /url: /PyPortfolio/PyPortfolioOpt/commit/c524c6e5f07150f2075cbf5b255e8a4827d8caf9
+                              - text: c524c6e
+                            - text: ·
+                            - generic "Mar 10, 2026, 5:23 PM GMT+2" [ref=e170]: Mar 10, 2026last month
+                          - generic [ref=e171]:
+                            - heading "History" [level=2] [ref=e172]
+                            - link "View commit history for this file." [ref=e174] [cursor=pointer]:
+                              - /url: /PyPortfolio/PyPortfolioOpt/commits/main/
+                              - generic [ref=e175]:
+                                - generic:
+                                  - img
+                  - 'row ".github, (Directory) [MNT] [Dependabot](deps): Bump actions/download-artifact from 7 to 8 (#… Mar 10, 2026last month" [ref=e176]':
+                    - cell ".github, (Directory)" [ref=e177]:
+                      - generic [ref=e178]:
+                        - img [ref=e179]
+                        - link ".github, (Directory)" [ref=e184] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/.github
+                          - text: .github
+                    - 'cell "[MNT] [Dependabot](deps): Bump actions/download-artifact from 7 to 8 (#…" [ref=e185]':
+                      - generic [ref=e187]:
+                        - 'link "[MNT] [Dependabot](deps): Bump actions/download-artifact from 7 to 8 (" [ref=e188] [cursor=pointer]':
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/c524c6e5f07150f2075cbf5b255e8a4827d8caf9
+                        - link "#…" [ref=e189] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/722
+                    - cell "Mar 10, 2026last month" [ref=e190]:
+                      - generic [ref=e191]: Mar 10, 2026last month
+                  - row "cookbook, (Directory) [MNT] moving linting to ruff, adding editorconfig (#653) Nov 14, 20255 months ago" [ref=e192]:
+                    - cell "cookbook, (Directory)" [ref=e193]:
+                      - generic [ref=e194]:
+                        - img [ref=e195]
+                        - link "cookbook, (Directory)" [ref=e200] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/cookbook
+                          - text: cookbook
+                    - cell "[MNT] moving linting to ruff, adding editorconfig (#653)" [ref=e201]:
+                      - generic [ref=e203]:
+                        - link "[MNT] moving linting to" [ref=e204] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - code [ref=e205]:
+                          - link "ruff" [ref=e206] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link ", adding" [ref=e207] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - code [ref=e208]:
+                          - link "editorconfig" [ref=e209] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link "(" [ref=e210] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link "#653" [ref=e211] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/653
+                        - link ")" [ref=e212] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                    - cell "Nov 14, 20255 months ago" [ref=e213]:
+                      - generic [ref=e214]: Nov 14, 20255 months ago
+                  - row "docs, (Directory) [ENH] move base_optimizer to a new base module (#714) Feb 27, 20262 months ago" [ref=e215]:
+                    - cell "docs, (Directory)" [ref=e216]:
+                      - generic [ref=e217]:
+                        - img [ref=e218]
+                        - link "docs, (Directory)" [ref=e223] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/docs
+                          - text: docs
+                    - cell "[ENH] move base_optimizer to a new base module (#714)" [ref=e224]:
+                      - generic [ref=e226]:
+                        - link "[ENH] move" [ref=e227] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/658488d920c79ec31c586700c9c7bc69c48db3be
+                        - code [ref=e228]:
+                          - link "base_optimizer" [ref=e229] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/658488d920c79ec31c586700c9c7bc69c48db3be
+                        - link "to a new" [ref=e230] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/658488d920c79ec31c586700c9c7bc69c48db3be
+                        - code [ref=e231]:
+                          - link "base" [ref=e232] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/658488d920c79ec31c586700c9c7bc69c48db3be
+                        - link "module (" [ref=e233] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/658488d920c79ec31c586700c9c7bc69c48db3be
+                        - link "#714" [ref=e234] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/714
+                        - link ")" [ref=e235] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/658488d920c79ec31c586700c9c7bc69c48db3be
+                    - cell "Feb 27, 20262 months ago" [ref=e236]:
+                      - generic [ref=e237]: Feb 27, 20262 months ago
+                  - row "example, (Directory) format example May 3, 20233 years ago" [ref=e238]:
+                    - cell "example, (Directory)" [ref=e239]:
+                      - generic [ref=e240]:
+                        - img [ref=e241]
+                        - link "example, (Directory)" [ref=e246] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/example
+                          - text: example
+                    - cell "format example" [ref=e247]:
+                      - link "format example" [ref=e250] [cursor=pointer]:
+                        - /url: /PyPortfolio/PyPortfolioOpt/commit/38d807e3bf3f84e2ac9f13d3bc1b502cee8fbaee
+                    - cell "May 3, 20233 years ago" [ref=e251]:
+                      - generic [ref=e252]: May 3, 20233 years ago
+                  - row "media, (Directory) redesigned plot API (can pass ax) Feb 10, 20215 years ago" [ref=e253]:
+                    - cell "media, (Directory)" [ref=e254]:
+                      - generic [ref=e255]:
+                        - img [ref=e256]
+                        - link "media, (Directory)" [ref=e261] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/media
+                          - text: media
+                    - cell "redesigned plot API (can pass ax)" [ref=e262]:
+                      - link "redesigned plot API (can pass ax)" [ref=e265] [cursor=pointer]:
+                        - /url: /PyPortfolio/PyPortfolioOpt/commit/3e2308ed272c69cc9a1e41d0acd16b346bf3db0b
+                    - cell "Feb 10, 20215 years ago" [ref=e266]:
+                      - generic [ref=e267]: Feb 10, 20215 years ago
+                  - row "pypfopt, (Directory) [ENH] downwards compatible exports of base_optimizer module (#718) Feb 27, 20262 months ago" [ref=e268]:
+                    - cell "pypfopt, (Directory)" [ref=e269]:
+                      - generic [ref=e270]:
+                        - img [ref=e271]
+                        - link "pypfopt, (Directory)" [ref=e276] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/pypfopt
+                          - text: pypfopt
+                    - cell "[ENH] downwards compatible exports of base_optimizer module (#718)" [ref=e277]:
+                      - generic [ref=e279]:
+                        - link "[ENH] downwards compatible exports of" [ref=e280] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/b63f293e13b03ffbaf3c5ff87995d45b01097e83
+                        - code [ref=e281]:
+                          - link "base_optimizer" [ref=e282] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/b63f293e13b03ffbaf3c5ff87995d45b01097e83
+                        - link "module (" [ref=e283] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/b63f293e13b03ffbaf3c5ff87995d45b01097e83
+                        - link "#718" [ref=e284] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/718
+                        - link ")" [ref=e285] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/b63f293e13b03ffbaf3c5ff87995d45b01097e83
+                    - cell "Feb 27, 20262 months ago" [ref=e286]:
+                      - generic [ref=e287]: Feb 27, 20262 months ago
+                  - row "tests, (Directory) [ENH] Add test to validate execution of README Python examples (#713) Mar 8, 2026last month" [ref=e288]:
+                    - cell "tests, (Directory)" [ref=e289]:
+                      - generic [ref=e290]:
+                        - img [ref=e291]
+                        - link "tests, (Directory)" [ref=e296] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/tree/main/tests
+                          - text: tests
+                    - cell "[ENH] Add test to validate execution of README Python examples (#713)" [ref=e297]:
+                      - generic [ref=e299]:
+                        - link "[ENH] Add test to validate execution of README Python examples (" [ref=e300] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/63e8268dd9685cf9613047df19d15f15f2c6cf35
+                        - link "#713" [ref=e301] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/713
+                        - link ")" [ref=e302] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/63e8268dd9685cf9613047df19d15f15f2c6cf35
+                    - cell "Mar 8, 2026last month" [ref=e303]:
+                      - generic [ref=e304]: Mar 8, 2026last month
+                  - row ".editorconfig, (File) [MNT] moving linting to ruff, adding editorconfig (#653) Nov 14, 20255 months ago" [ref=e305]:
+                    - cell ".editorconfig, (File)" [ref=e306]:
+                      - generic [ref=e307]:
+                        - img [ref=e308]
+                        - link ".editorconfig, (File)" [ref=e313] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/.editorconfig
+                          - text: .editorconfig
+                    - cell "[MNT] moving linting to ruff, adding editorconfig (#653)" [ref=e314]:
+                      - generic [ref=e316]:
+                        - link "[MNT] moving linting to" [ref=e317] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - code [ref=e318]:
+                          - link "ruff" [ref=e319] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link ", adding" [ref=e320] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - code [ref=e321]:
+                          - link "editorconfig" [ref=e322] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link "(" [ref=e323] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link "#653" [ref=e324] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/653
+                        - link ")" [ref=e325] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                    - cell "Nov 14, 20255 months ago" [ref=e326]:
+                      - generic [ref=e327]: Nov 14, 20255 months ago
+                  - row ".gitignore, (File) [MNT] homogenize CI workflows with GC.OS repositories (#702) Mar 8, 2026last month" [ref=e328]:
+                    - cell ".gitignore, (File)" [ref=e329]:
+                      - generic [ref=e330]:
+                        - img [ref=e331]
+                        - link ".gitignore, (File)" [ref=e336] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "[MNT] homogenize CI workflows with GC.OS repositories (#702)" [ref=e337]:
+                      - generic [ref=e339]:
+                        - link "[MNT] homogenize CI workflows with GC.OS repositories (" [ref=e340] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/267b2338d4203dd8bd88d8f186c64afec0eb35e7
+                        - link "#702" [ref=e341] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/702
+                        - link ")" [ref=e342] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/267b2338d4203dd8bd88d8f186c64afec0eb35e7
+                    - cell "Mar 8, 2026last month" [ref=e343]:
+                      - generic [ref=e344]: Mar 8, 2026last month
+                  - row ".pre-commit-config.yaml, (File) [MNT] moving linting to ruff, adding editorconfig (#653) Nov 14, 20255 months ago" [ref=e345]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e346]:
+                      - generic [ref=e347]:
+                        - img [ref=e348]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e353] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "[MNT] moving linting to ruff, adding editorconfig (#653)" [ref=e354]:
+                      - generic [ref=e356]:
+                        - link "[MNT] moving linting to" [ref=e357] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - code [ref=e358]:
+                          - link "ruff" [ref=e359] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link ", adding" [ref=e360] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - code [ref=e361]:
+                          - link "editorconfig" [ref=e362] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link "(" [ref=e363] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                        - link "#653" [ref=e364] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/653
+                        - link ")" [ref=e365] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e3036da296c6587156ee2c9eeb8846ffaea49127
+                    - cell "Nov 14, 20255 months ago" [ref=e366]:
+                      - generic [ref=e367]: Nov 14, 20255 months ago
+                  - row "CONTRIBUTING.md, (File) [MNT] fix all URLs and main branch references after move to new org (… Nov 8, 20255 months ago" [ref=e368]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e369]:
+                      - generic [ref=e370]:
+                        - img [ref=e371]
+                        - link "CONTRIBUTING.md, (File)" [ref=e376] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell "[MNT] fix all URLs and main branch references after move to new org (…" [ref=e377]:
+                      - generic [ref=e379]:
+                        - link "[MNT] fix all URLs and" [ref=e380] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/9977525405d981e9efe9a37dec64a2a0c5e08cdc
+                        - code [ref=e381]:
+                          - link "main" [ref=e382] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/9977525405d981e9efe9a37dec64a2a0c5e08cdc
+                        - link "branch references after move to new org (" [ref=e383] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/9977525405d981e9efe9a37dec64a2a0c5e08cdc
+                        - link "…" [ref=e384] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/641
+                    - cell "Nov 8, 20255 months ago" [ref=e385]:
+                      - generic [ref=e386]: Nov 8, 20255 months ago
+                  - row "LICENSE, (File) [MNT] move packaging to pyproject.toml (#659) Nov 11, 20255 months ago" [ref=e387]:
+                    - cell "LICENSE, (File)" [ref=e388]:
+                      - generic [ref=e389]:
+                        - img [ref=e390]
+                        - link "LICENSE, (File)" [ref=e395] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "[MNT] move packaging to pyproject.toml (#659)" [ref=e396]:
+                      - generic [ref=e398]:
+                        - link "[MNT] move packaging to" [ref=e399] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/d84abc4a6d26d2eb1efb88c0a023854267903f1d
+                        - code [ref=e400]:
+                          - link "pyproject.toml" [ref=e401] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/d84abc4a6d26d2eb1efb88c0a023854267903f1d
+                        - link "(" [ref=e402] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/d84abc4a6d26d2eb1efb88c0a023854267903f1d
+                        - link "#659" [ref=e403] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/659
+                        - link ")" [ref=e404] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/d84abc4a6d26d2eb1efb88c0a023854267903f1d
+                    - cell "Nov 11, 20255 months ago" [ref=e405]:
+                      - generic [ref=e406]: Nov 11, 20255 months ago
+                  - row "Makefile, (File) [MNT] homogenize CI workflows with GC.OS repositories (#702) Mar 8, 2026last month" [ref=e407]:
+                    - cell "Makefile, (File)" [ref=e408]:
+                      - generic [ref=e409]:
+                        - img [ref=e410]
+                        - link "Makefile, (File)" [ref=e415] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/Makefile
+                          - text: Makefile
+                    - cell "[MNT] homogenize CI workflows with GC.OS repositories (#702)" [ref=e416]:
+                      - generic [ref=e418]:
+                        - link "[MNT] homogenize CI workflows with GC.OS repositories (" [ref=e419] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/267b2338d4203dd8bd88d8f186c64afec0eb35e7
+                        - link "#702" [ref=e420] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/702
+                        - link ")" [ref=e421] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/267b2338d4203dd8bd88d8f186c64afec0eb35e7
+                    - cell "Mar 8, 2026last month" [ref=e422]:
+                      - generic [ref=e423]: Mar 8, 2026last month
+                  - row "README.md, (File) [DOC] remove empty boxes in README (#683) Nov 26, 20255 months ago" [ref=e424]:
+                    - cell "README.md, (File)" [ref=e425]:
+                      - generic [ref=e426]:
+                        - img [ref=e427]
+                        - link "README.md, (File)" [ref=e432] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/README.md
+                          - text: README.md
+                    - cell "[DOC] remove empty boxes in README (#683)" [ref=e433]:
+                      - generic [ref=e435]:
+                        - link "[DOC] remove empty boxes in README (" [ref=e436] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/6ec1288212ac079b4ed01dd9d1735645b1152f7b
+                        - link "#683" [ref=e437] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/683
+                        - link ")" [ref=e438] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/6ec1288212ac079b4ed01dd9d1735645b1152f7b
+                    - cell "Nov 26, 20255 months ago" [ref=e439]:
+                      - generic [ref=e440]: Nov 26, 20255 months ago
+                  - row "pyproject.toml, (File) [MNT] homogenize CI workflows with GC.OS repositories (#702) Mar 8, 2026last month" [ref=e441]:
+                    - cell "pyproject.toml, (File)" [ref=e442]:
+                      - generic [ref=e443]:
+                        - img [ref=e444]
+                        - link "pyproject.toml, (File)" [ref=e449] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - cell "[MNT] homogenize CI workflows with GC.OS repositories (#702)" [ref=e450]:
+                      - generic [ref=e452]:
+                        - link "[MNT] homogenize CI workflows with GC.OS repositories (" [ref=e453] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/267b2338d4203dd8bd88d8f186c64afec0eb35e7
+                        - link "#702" [ref=e454] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/702
+                        - link ")" [ref=e455] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/267b2338d4203dd8bd88d8f186c64afec0eb35e7
+                    - cell "Mar 8, 2026last month" [ref=e456]:
+                      - generic [ref=e457]: Mar 8, 2026last month
+                  - row "readthedocs.yml, (File) first commit May 29, 20188 years ago" [ref=e458]:
+                    - cell "readthedocs.yml, (File)" [ref=e459]:
+                      - generic [ref=e460]:
+                        - img [ref=e461]
+                        - link "readthedocs.yml, (File)" [ref=e466] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/readthedocs.yml
+                          - text: readthedocs.yml
+                    - cell "first commit" [ref=e467]:
+                      - link "first commit" [ref=e470] [cursor=pointer]:
+                        - /url: /PyPortfolio/PyPortfolioOpt/commit/ba089155249c96caf5311565e52077c56038d496
+                    - cell "May 29, 20188 years ago" [ref=e471]:
+                      - generic [ref=e472]: May 29, 20188 years ago
+                  - row "requirements.txt, (File) [MNT] restore requirements.txt for downwards compatibility (#675) Nov 15, 20255 months ago" [ref=e473]:
+                    - cell "requirements.txt, (File)" [ref=e474]:
+                      - generic [ref=e475]:
+                        - img [ref=e476]
+                        - link "requirements.txt, (File)" [ref=e481] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - cell "[MNT] restore requirements.txt for downwards compatibility (#675)" [ref=e482]:
+                      - generic [ref=e484]:
+                        - link "[MNT] restore" [ref=e485] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e88bf31d4fd8f2e2e9ccb55c636e787ea64e3bd6
+                        - code [ref=e486]:
+                          - link "requirements.txt" [ref=e487] [cursor=pointer]:
+                            - /url: /PyPortfolio/PyPortfolioOpt/commit/e88bf31d4fd8f2e2e9ccb55c636e787ea64e3bd6
+                        - link "for downwards compatibility (" [ref=e488] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e88bf31d4fd8f2e2e9ccb55c636e787ea64e3bd6
+                        - link "#675" [ref=e489] [cursor=pointer]:
+                          - /url: https://github.com/PyPortfolio/PyPortfolioOpt/pull/675
+                        - link ")" [ref=e490] [cursor=pointer]:
+                          - /url: /PyPortfolio/PyPortfolioOpt/commit/e88bf31d4fd8f2e2e9ccb55c636e787ea64e3bd6
+                    - cell "Nov 15, 20255 months ago" [ref=e491]:
+                      - generic [ref=e492]: Nov 15, 20255 months ago
+            - generic [ref=e494]:
+              - generic [ref=e495]:
+                - heading "Repository files navigation" [level=2] [ref=e496]
+                - navigation "Repository files" [ref=e497]:
+                  - list [ref=e498]:
+                    - listitem [ref=e499]:
+                      - link "README" [ref=e500] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e502]
+                        - generic [ref=e504]: README
+                    - listitem [ref=e505]:
+                      - link "Contributing" [ref=e506] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e508]
+                        - generic [ref=e510]: Contributing
+                    - listitem [ref=e511]:
+                      - link "MIT license" [ref=e512] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e514]
+                        - generic [ref=e516]: MIT license
+                - button "Outline" [ref=e517] [cursor=pointer]:
+                  - img [ref=e518]
+              - article [ref=e521]:
+                - generic [ref=e522]:
+                  - heading "Welcome to PyPortfolioOpt" [level=2] [ref=e523]
+                  - 'link "Permalink: Welcome to PyPortfolioOpt" [ref=e524] [cursor=pointer]':
+                    - /url: "#welcome-to-pyportfolioopt"
+                    - img [ref=e525]
+                - paragraph:
+                  - link:
+                    - /url: https://pyportfolioopt.readthedocs.io/en/latest/
+                    - img [ref=e527] [cursor=pointer]
+                - paragraph [ref=e528]:
+                  - text: PyPortfolioOpt is a library implementing portfolio optimization methods, including classical mean-variance optimization, Black-Litterman allocation, or shrinkage and Hierarchical Risk Parity. PyPortfolioOpt is inspired by scikit-learn; it is
+                  - strong [ref=e529]: extensive
+                  - text: yet easily
+                  - strong [ref=e530]: extensible
+                  - text: ", for casual investors, or professionals looking for an easy prototyping tool. Whether you are a fundamentals-oriented investor who has identified a handful of undervalued picks, or an algorithmic trader who has a basket of strategies, PyPortfolioOpt can help you combine your alpha sources in a risk-efficient way."
+                - table [ref=e532]:
+                  - rowgroup [ref=e533]:
+                    - row "Documentation · Tutorials · Release Notes" [ref=e534]:
+                      - columnheader [ref=e535]
+                      - columnheader "Documentation · Tutorials · Release Notes" [ref=e536]:
+                        - strong [ref=e537]:
+                          - link "Documentation" [ref=e538] [cursor=pointer]:
+                            - /url: https://pyportfolioopt.readthedocs.io/en/latest/
+                        - text: ·
+                        - strong [ref=e539]:
+                          - link "Tutorials" [ref=e540] [cursor=pointer]:
+                            - /url: https://github.com/pyportfolio/pyportfolioopt/tree/main/cookbook
+                        - text: ·
+                        - strong [ref=e541]:
+                          - link "Release Notes" [ref=e542] [cursor=pointer]:
+                            - /url: https://github.com/PyPortfolio/PyPortfolioOpt/releases
+                  - rowgroup [ref=e543]:
+                    - row "Open Source MIT GC.OS Sponsored" [ref=e544]:
+                      - cell "Open Source" [ref=e545]:
+                        - strong [ref=e546]: Open Source
+                      - cell "MIT GC.OS Sponsored" [ref=e547]:
+                        - link "MIT" [ref=e548] [cursor=pointer]:
+                          - /url: https://github.com/pyportfolio/pyportfolioopt/blob/master/LICENSE
+                          - img "MIT" [ref=e549]
+                        - link "GC.OS Sponsored" [ref=e550] [cursor=pointer]:
+                          - /url: https://gc-os-ai.github.io/
+                          - img "GC.OS Sponsored" [ref=e551]
+                    - row "Tutorials Binder" [ref=e552]:
+                      - cell "Tutorials" [ref=e553]:
+                        - strong [ref=e554]: Tutorials
+                      - cell "Binder" [ref=e555]:
+                        - link "Binder" [ref=e556] [cursor=pointer]:
+                          - /url: https://mybinder.org/v2/gh/pyportfolio/pyportfolioopt/main/?filepath=cookbook
+                          - img "Binder" [ref=e557]
+                    - row "Community !discord !slack" [ref=e558]:
+                      - cell "Community" [ref=e559]:
+                        - strong [ref=e560]: Community
+                      - cell "!discord !slack" [ref=e561]:
+                        - link "!discord" [ref=e562] [cursor=pointer]:
+                          - /url: https://discord.gg/7uKdHfdcJG
+                          - img "!discord" [ref=e563]
+                        - link "!slack" [ref=e564] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/pyportfolioopt/
+                          - img "!slack" [ref=e565]
+                    - row "CI/CD github-actions readthedocs" [ref=e566]:
+                      - cell "CI/CD" [ref=e567]:
+                        - strong [ref=e568]: CI/CD
+                      - cell "github-actions readthedocs" [ref=e569]:
+                        - link "github-actions" [ref=e570] [cursor=pointer]:
+                          - /url: https://github.com/pyportfolio/pyportfolioopt/actions/workflows/release.yml
+                          - img "github-actions" [ref=e571]
+                        - link "readthedocs" [ref=e572] [cursor=pointer]:
+                          - /url: https://pyportfolioopt.readthedocs.io/en/latest/?badge=latest
+                          - img "readthedocs" [ref=e573]
+                    - row "Code !pypi !python-versions !black" [ref=e574]:
+                      - cell "Code" [ref=e575]:
+                        - strong [ref=e576]: Code
+                      - cell "!pypi !python-versions !black" [ref=e577]:
+                        - link "!pypi" [ref=e578] [cursor=pointer]:
+                          - /url: https://pypi.org/project/pyportfolioopt/
+                          - img "!pypi" [ref=e579]
+                        - link "!python-versions" [ref=e580] [cursor=pointer]:
+                          - /url: https://www.python.org/
+                          - img "!python-versions" [ref=e581]
+                        - link "!black" [ref=e582] [cursor=pointer]:
+                          - /url: https://github.com/psf/black
+                          - img "!black" [ref=e583]
+                    - row "Downloads PyPI - Downloads PyPI - Downloads Downloads" [ref=e584]:
+                      - cell "Downloads" [ref=e585]:
+                        - strong [ref=e586]: Downloads
+                      - cell "PyPI - Downloads PyPI - Downloads Downloads" [ref=e587]:
+                        - link "PyPI - Downloads" [ref=e588] [cursor=pointer]:
+                          - /url: https://camo.githubusercontent.com/01b8347d834f2ef62791da99b334398eae2f3809f88a501f138c4ab8bc3d8313/68747470733a2f2f696d672e736869656c64732e696f2f707970692f64772f7079706f7274666f6c696f6f7074
+                          - img "PyPI - Downloads" [ref=e589]
+                        - link "PyPI - Downloads" [ref=e590] [cursor=pointer]:
+                          - /url: https://camo.githubusercontent.com/257654198b87e4c6a88ca2e0d8fb002214b70d2e94bbd93136ad10a69855569a/68747470733a2f2f696d672e736869656c64732e696f2f707970692f646d2f7079706f7274666f6c696f6f7074
+                          - img "PyPI - Downloads" [ref=e591]
+                        - link "Downloads" [ref=e592] [cursor=pointer]:
+                          - /url: https://pepy.tech/project/pyportfolioopt
+                          - img "Downloads" [ref=e593]
+                    - row "Citation JOSS article" [ref=e594]:
+                      - cell "Citation" [ref=e595]:
+                        - strong [ref=e596]: Citation
+                      - cell "JOSS article" [ref=e597]:
+                        - link "JOSS article" [ref=e598] [cursor=pointer]:
+                          - /url: https://joss.theoj.org/papers/10.21105/joss.03066
+                - paragraph [ref=e599]:
+                  - text: Head over to the
+                  - strong [ref=e600]:
+                    - link "documentation on ReadTheDocs" [ref=e601] [cursor=pointer]:
+                      - /url: https://pyportfolioopt.readthedocs.io/en/latest/
+                  - text: to get an in-depth look at the project, or check out the
+                  - link "cookbook" [ref=e602] [cursor=pointer]:
+                    - /url: https://github.com/pyportfolio/pyportfolioopt/tree/main/cookbook
+                  - text: to see some examples showing the full process from downloading data to building a portfolio.
+                - paragraph [ref=e603]:
+                  - link [ref=e604] [cursor=pointer]:
+                    - /url: https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/media/conceptual_flowchart_v2.png?raw=true
+                    - img [ref=e605]
+                - generic [ref=e606]:
+                  - heading "Table of contents" [level=2] [ref=e607]
+                  - 'link "Permalink: Table of contents" [ref=e608] [cursor=pointer]':
+                    - /url: "#table-of-contents"
+                    - img [ref=e609]
+                - list [ref=e611]:
+                  - listitem [ref=e612]:
+                    - link "Table of contents" [ref=e613] [cursor=pointer]:
+                      - /url: "#table-of-contents"
+                  - listitem [ref=e614]:
+                    - link "Getting started" [ref=e615] [cursor=pointer]:
+                      - /url: "#getting-started"
+                    - list [ref=e616]:
+                      - listitem [ref=e617]:
+                        - link "For development" [ref=e618] [cursor=pointer]:
+                          - /url: "#for-development"
+                  - listitem [ref=e619]:
+                    - link "A quick example" [ref=e620] [cursor=pointer]:
+                      - /url: "#a-quick-example"
+                  - listitem [ref=e621]:
+                    - link "An overview of classical portfolio optimization methods" [ref=e622] [cursor=pointer]:
+                      - /url: "#an-overview-of-classical-portfolio-optimization-methods"
+                  - listitem [ref=e623]:
+                    - link "Features" [ref=e624] [cursor=pointer]:
+                      - /url: "#features"
+                    - list [ref=e625]:
+                      - listitem [ref=e626]:
+                        - link "Expected returns" [ref=e627] [cursor=pointer]:
+                          - /url: "#expected-returns"
+                      - listitem [ref=e628]:
+                        - link "Risk models (covariance)" [ref=e629] [cursor=pointer]:
+                          - /url: "#risk-models-covariance"
+                      - listitem [ref=e630]:
+                        - link "Objective functions" [ref=e631] [cursor=pointer]:
+                          - /url: "#objective-functions"
+                      - listitem [ref=e632]:
+                        - link "Adding constraints or different objectives" [ref=e633] [cursor=pointer]:
+                          - /url: "#adding-constraints-or-different-objectives"
+                      - listitem [ref=e634]:
+                        - link "Black-Litterman allocation" [ref=e635] [cursor=pointer]:
+                          - /url: "#black-litterman-allocation"
+                      - listitem [ref=e636]:
+                        - link "Other optimizers" [ref=e637] [cursor=pointer]:
+                          - /url: "#other-optimizers"
+                  - listitem [ref=e638]:
+                    - link "Advantages over existing implementations" [ref=e639] [cursor=pointer]:
+                      - /url: "#advantages-over-existing-implementations"
+                  - listitem [ref=e640]:
+                    - link "Project principles and design decisions" [ref=e641] [cursor=pointer]:
+                      - /url: "#project-principles-and-design-decisions"
+                  - listitem [ref=e642]:
+                    - link "Testing" [ref=e643] [cursor=pointer]:
+                      - /url: "#testing"
+                  - listitem [ref=e644]:
+                    - link "Citing PyPortfolioOpt" [ref=e645] [cursor=pointer]:
+                      - /url: "#citing-pyportfolioopt"
+                  - listitem [ref=e646]:
+                    - link "Contributing" [ref=e647] [cursor=pointer]:
+                      - /url: "#contributing"
+                  - listitem [ref=e648]:
+                    - link "Getting in touch" [ref=e649] [cursor=pointer]:
+                      - /url: "#getting-in-touch"
+                - generic [ref=e650]:
+                  - heading "🚀 Installation" [level=2] [ref=e651]
+                  - 'link "Permalink: 🚀 Installation" [ref=e652] [cursor=pointer]':
+                    - /url: "#-installation"
+                    - img [ref=e653]
+                - generic [ref=e655]:
+                  - heading "Using pip" [level=3] [ref=e656]
+                  - 'link "Permalink: Using pip" [ref=e657] [cursor=pointer]':
+                    - /url: "#using-pip"
+                    - img [ref=e658]
+                - generic [ref=e660]:
+                  - generic [ref=e661]: pip install pyportfolioopt
+                  - button "Copy" [ref=e663] [cursor=pointer]:
+                    - img [ref=e664]
+                - generic [ref=e667]:
+                  - heading "From source" [level=3] [ref=e668]
+                  - 'link "Permalink: From source" [ref=e669] [cursor=pointer]':
+                    - /url: "#from-source"
+                    - img [ref=e670]
+                - paragraph [ref=e672]: "Clone the repository, navigate to the folder, and install using pip:"
+                - generic [ref=e673]:
+                  - generic [ref=e674]: git clone https://github.com/PyPortfolio/PyPortfolioOpt.git cd PyPortfolioOpt pip install .
+                  - button "Copy" [ref=e676] [cursor=pointer]:
+                    - img [ref=e677]
+                - generic [ref=e680]:
+                  - heading "Getting started" [level=2] [ref=e681]
+                  - 'link "Permalink: Getting started" [ref=e682] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e683]
+                - paragraph [ref=e685]: Here is an example on real life stock data, demonstrating how easy it is to find the long-only portfolio that maximises the Sharpe ratio (a measure of risk-adjusted returns).
+                - generic [ref=e686]:
+                  - generic [ref=e687]:
+                    - text: "import pandas as pd from pypfopt import EfficientFrontier from pypfopt import risk_models from pypfopt import expected_returns # Read in price data df = pd.read_csv(\"tests/resources/stock_prices.csv\", parse_dates=True, index_col=\"date\") # Calculate expected returns and sample covariance mu = expected_returns.mean_historical_return(df) S = risk_models.sample_cov(df) # Optimize for maximal Sharpe ratio ef = EfficientFrontier(mu, S) raw_weights = ef.max_sharpe() cleaned_weights = ef.clean_weights() ef.save_weights_to_file(\"weights.csv\") # saves to file for name, value in cleaned_weights.items(): print("
+                    - generic [ref=e688]:
+                      - text: f"
+                      - generic [ref=e689]: "{name}"
+                      - text: ":"
+                      - generic [ref=e690]: "{value:.4f}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy" [ref=e692] [cursor=pointer]:
+                    - img [ref=e693]
+                - generic [ref=e696]:
+                  - code [ref=e698]: "GOOG: 0.0458 AAPL: 0.0674 FB: 0.2008 BABA: 0.0849 AMZN: 0.0352 GE: 0.0000 AMD: 0.0000 WMT: 0.0000 BAC: 0.0000 GM: 0.0000 T: 0.0000 UAA: 0.0000 SHLD: 0.0000 XOM: 0.0000 RRC: 0.0000 BBY: 0.0159 MA: 0.3287 PFE: 0.2039 JPM: 0.0000 SBUX: 0.0173"
+                  - button "Copy" [ref=e700] [cursor=pointer]:
+                    - img [ref=e701]
+                - generic [ref=e704]:
+                  - generic [ref=e705]: exp_return, volatility, sharpe=ef.portfolio_performance(verbose=True) round(exp_return, 4), round(volatility, 4), round(sharpe, 4)
+                  - button "Copy" [ref=e707] [cursor=pointer]:
+                    - img [ref=e708]
+                - generic [ref=e711]:
+                  - code [ref=e713]: "Expected annual return: 29.9% Annual volatility: 21.8% Sharpe Ratio: 1.38"
+                  - button "Copy" [ref=e715] [cursor=pointer]:
+                    - img [ref=e716]
+                - paragraph [ref=e719]: "This is interesting but not useful in itself. However, PyPortfolioOpt provides a method which allows you to convert the above continuous weights to an actual allocation that you could buy. Just enter the most recent prices, and the desired portfolio size ($10,000 in this example):"
+                - generic [ref=e720]:
+                  - generic [ref=e721]:
+                    - text: "from pypfopt.discrete_allocation import DiscreteAllocation, get_latest_prices latest_prices = get_latest_prices(df) da = DiscreteAllocation(cleaned_weights, latest_prices, total_portfolio_value=10000) allocation, leftover = da.greedy_portfolio() for name, value in allocation.items(): print("
+                    - generic [ref=e722]:
+                      - text: f"
+                      - generic [ref=e723]: "{name}"
+                      - text: ":"
+                      - generic [ref=e724]: "{value}"
+                      - text: "\""
+                    - text: ") print(\"Funds remaining: ${:.2f}\".format(leftover))"
+                  - button "Copy" [ref=e726] [cursor=pointer]:
+                    - img [ref=e727]
+                - generic [ref=e730]:
+                  - code [ref=e732]: "MA: 19 PFE: 57 FB: 12 BABA: 4 AAPL: 4 GOOG: 1 SBUX: 2 BBY: 2 Funds remaining: $17.46"
+                  - button "Copy" [ref=e734] [cursor=pointer]:
+                    - img [ref=e735]
+                - paragraph [ref=e738]:
+                  - emphasis [ref=e739]:
+                    - text: "Disclaimer: nothing about this project constitues investment advice, and the author bears no responsibiltiy for your subsequent investment decisions. Please refer to the"
+                    - link "license" [ref=e740] [cursor=pointer]:
+                      - /url: https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/LICENSE.txt
+                    - text: for more information.
+                - generic [ref=e741]:
+                  - heading "An overview of classical portfolio optimization methods" [level=2] [ref=e742]
+                  - 'link "Permalink: An overview of classical portfolio optimization methods" [ref=e743] [cursor=pointer]':
+                    - /url: "#an-overview-of-classical-portfolio-optimization-methods"
+                    - img [ref=e744]
+                - paragraph [ref=e746]:
+                  - text: Harry Markowitz's 1952 paper is the undeniable classic, which turned portfolio optimization from an art into a science. The key insight is that by combining assets with different expected returns and volatilities, one can decide on a mathematically optimal allocation which minimises the risk for a target return – the set of all such optimal portfolios is referred to as the
+                  - strong [ref=e747]: efficient frontier
+                  - text: .
+                - paragraph [ref=e748]:
+                  - link [ref=e749] [cursor=pointer]:
+                    - /url: https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/media/efficient_frontier_white.png?raw=true
+                    - img [ref=e750]
+                - paragraph [ref=e751]: Although much development has been made in the subject, more than half a century later, Markowitz's core ideas are still fundamentally important and see daily use in many portfolio management firms. The main drawback of mean-variance optimization is that the theoretical treatment requires knowledge of the expected returns and the future risk-characteristics (covariance) of the assets. Obviously, if we knew the expected returns of a stock life would be much easier, but the whole game is that stock returns are notoriously hard to forecast. As a substitute, we can derive estimates of the expected return and covariance based on historical data – though we do lose the theoretical guarantees provided by Markowitz, the closer our estimates are to the real values, the better our portfolio will be.
+                - paragraph [ref=e752]: Thus this project provides four major sets of functionality (though of course they are intimately related)
+                - list [ref=e753]:
+                  - listitem [ref=e754]: Estimates of expected returns
+                  - listitem [ref=e755]: Estimates of risk (i.e covariance of asset returns)
+                  - listitem [ref=e756]: Objective functions to be optimized
+                  - listitem [ref=e757]: Optimizers.
+                - paragraph [ref=e758]:
+                  - text: A key design goal of PyPortfolioOpt is
+                  - strong [ref=e759]: modularity
+                  - text: – the user should be able to swap in their components while still making use of the framework that PyPortfolioOpt provides.
+                - generic [ref=e760]:
+                  - heading "Features" [level=2] [ref=e761]
+                  - 'link "Permalink: Features" [ref=e762] [cursor=pointer]':
+                    - /url: "#features"
+                    - img [ref=e763]
+                - paragraph [ref=e765]:
+                  - text: In this section, we detail some of PyPortfolioOpt's available functionality. More examples are offered in the Jupyter notebooks
+                  - link "here" [ref=e766] [cursor=pointer]:
+                    - /url: https://github.com/pyportfolio/pyportfolioopt/tree/main/cookbook
+                  - text: . Another good resource is the
+                  - link "tests" [ref=e767] [cursor=pointer]:
+                    - /url: https://github.com/pyportfolio/pyportfolioopt/tree/main/tests
+                  - text: .
+                - paragraph [ref=e768]:
+                  - text: A far more comprehensive version of this can be found on
+                  - link "ReadTheDocs" [ref=e769] [cursor=pointer]:
+                    - /url: https://pyportfolioopt.readthedocs.io/en/latest/
+                  - text: ", as well as possible extensions for more advanced users."
+                - generic [ref=e770]:
+                  - heading "Expected returns" [level=3] [ref=e771]
+                  - 'link "Permalink: Expected returns" [ref=e772] [cursor=pointer]':
+                    - /url: "#expected-returns"
+                    - img [ref=e773]
+                - list [ref=e775]:
+                  - listitem [ref=e776]:
+                    - text: "Mean historical returns:"
+                    - list [ref=e777]:
+                      - listitem [ref=e778]: the simplest and most common approach, which states that the expected return of each asset is equal to the mean of its historical returns.
+                      - listitem [ref=e779]: easily interpretable and very intuitive
+                  - listitem [ref=e780]:
+                    - text: "Exponentially weighted mean historical returns:"
+                    - list [ref=e781]:
+                      - listitem [ref=e782]: similar to mean historical returns, except it gives exponentially more weight to recent prices
+                      - listitem [ref=e783]: it is likely the case that an asset's most recent returns hold more weight than returns from 10 years ago when it comes to estimating future returns.
+                  - listitem [ref=e784]:
+                    - text: "Capital Asset Pricing Model (CAPM):"
+                    - list [ref=e785]:
+                      - listitem [ref=e786]: a simple model to predict returns based on the beta to the market
+                      - listitem [ref=e787]: this is used all over finance!
+                - generic [ref=e788]:
+                  - heading "Risk models (covariance)" [level=3] [ref=e789]
+                  - 'link "Permalink: Risk models (covariance)" [ref=e790] [cursor=pointer]':
+                    - /url: "#risk-models-covariance"
+                    - img [ref=e791]
+                - paragraph [ref=e793]: The covariance matrix encodes not just the volatility of an asset, but also how it correlated to other assets. This is important because in order to reap the benefits of diversification (and thus increase return per unit risk), the assets in the portfolio should be as uncorrelated as possible.
+                - list [ref=e794]:
+                  - listitem [ref=e795]:
+                    - text: "Sample covariance matrix:"
+                    - list [ref=e796]:
+                      - listitem [ref=e797]: an unbiased estimate of the covariance matrix
+                      - listitem [ref=e798]: relatively easy to compute
+                      - listitem [ref=e799]: the de facto standard for many years
+                      - listitem [ref=e800]: however, it has a high estimation error, which is particularly dangerous in mean-variance optimization because the optimizer is likely to give excess weight to these erroneous estimates.
+                  - listitem [ref=e801]: "Semicovariance: a measure of risk that focuses on downside variation."
+                  - listitem [ref=e802]: "Exponential covariance: an improvement over sample covariance that gives more weight to recent data"
+                  - listitem [ref=e803]:
+                    - text: "Covariance shrinkage: techniques that involve combining the sample covariance matrix with a structured estimator, to reduce the effect of erroneous weights. PyPortfolioOpt provides wrappers around the efficient vectorised implementations provided by"
+                    - code [ref=e804]: sklearn.covariance
+                    - text: .
+                    - list [ref=e805]:
+                      - listitem [ref=e806]: manual shrinkage
+                      - listitem [ref=e807]:
+                        - text: "Ledoit Wolf shrinkage, which chooses an optimal shrinkage parameter. We offer three shrinkage targets:"
+                        - code [ref=e808]: constant_variance
+                        - text: ","
+                        - code [ref=e809]: single_factor
+                        - text: ", and"
+                        - code [ref=e810]: constant_correlation
+                        - text: .
+                      - listitem [ref=e811]: Oracle Approximating Shrinkage
+                  - listitem [ref=e812]:
+                    - text: "Minimum Covariance Determinant:"
+                    - list [ref=e813]:
+                      - listitem [ref=e814]: a robust estimate of the covariance
+                      - listitem [ref=e815]:
+                        - text: implemented in
+                        - code [ref=e816]: sklearn.covariance
+                - paragraph [ref=e817]:
+                  - link [ref=e818] [cursor=pointer]:
+                    - /url: https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/media/corrplot_white.png?raw=true
+                    - img [ref=e819]
+                - paragraph [ref=e820]:
+                  - text: (This plot was generated using
+                  - code [ref=e821]: plotting.plot_covariance
+                  - text: )
+                - generic [ref=e822]:
+                  - heading "Objective functions" [level=3] [ref=e823]
+                  - 'link "Permalink: Objective functions" [ref=e824] [cursor=pointer]':
+                    - /url: "#objective-functions"
+                    - img [ref=e825]
+                - list [ref=e827]:
+                  - listitem [ref=e828]:
+                    - text: "Maximum Sharpe ratio: this results in a"
+                    - emphasis [ref=e829]: tangency portfolio
+                    - text: because on a graph of returns vs risk, this portfolio corresponds to the tangent of the efficient frontier that has a y-intercept equal to the risk-free rate. This is the default option because it finds the optimal return per unit risk.
+                  - listitem [ref=e830]:
+                    - text: Minimum volatility. This may be useful if you're trying to get an idea of how low the volatility
+                    - emphasis [ref=e831]: could
+                    - text: be, but in practice it makes a lot more sense to me to use the portfolio that maximises the Sharpe ratio.
+                  - listitem [ref=e832]: Efficient return, a.k.a. the Markowitz portfolio, which minimises risk for a given target return – this was the main focus of Markowitz 1952
+                  - listitem [ref=e833]: "Efficient risk: the Sharpe-maximising portfolio for a given target risk."
+                  - listitem [ref=e834]: Maximum quadratic utility. You can provide your own risk-aversion level and compute the appropriate portfolio.
+                - generic [ref=e835]:
+                  - heading "Adding constraints or different objectives" [level=3] [ref=e836]
+                  - 'link "Permalink: Adding constraints or different objectives" [ref=e837] [cursor=pointer]':
+                    - /url: "#adding-constraints-or-different-objectives"
+                    - img [ref=e838]
+                - list [ref=e840]:
+                  - listitem [ref=e841]: "Long/short: by default all of the mean-variance optimization methods in PyPortfolioOpt are long-only, but they can be initialised to allow for short positions by changing the weight bounds:"
+                - generic [ref=e842]:
+                  - generic [ref=e843]: ef = EfficientFrontier(mu, S, weight_bounds=(-1, 1))
+                  - button "Copy" [ref=e845] [cursor=pointer]:
+                    - img [ref=e846]
+                - list [ref=e849]:
+                  - listitem [ref=e850]:
+                    - text: "Market neutrality: for the"
+                    - code [ref=e851]: efficient_risk
+                    - text: and
+                    - code [ref=e852]: efficient_return
+                    - text: "methods, PyPortfolioOpt provides an option to form a market-neutral portfolio (i.e weights sum to zero). This is not possible for the max Sharpe portfolio and the min volatility portfolio because in those cases because they are not invariant with respect to leverage. Market neutrality requires negative weights:"
+                - generic [ref=e853]:
+                  - generic [ref=e854]:
+                    - text: "ef = EfficientFrontier(mu, S, weight_bounds=(-1, 1)) for name, value in ef.efficient_return(target_return=0.2, market_neutral=True).items(): print("
+                    - generic [ref=e855]:
+                      - text: f"
+                      - generic [ref=e856]: "{name}"
+                      - text: ":"
+                      - generic [ref=e857]: "{value:.4f}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy" [ref=e859] [cursor=pointer]:
+                    - img [ref=e860]
+                - generic [ref=e863]:
+                  - code [ref=e865]: "GOOG: 0.0747 AAPL: 0.0532 FB: 0.0664 BABA: 0.0116 AMZN: 0.0518 GE: -0.0595 AMD: -0.0679 WMT: -0.0817 BAC: -0.1413 GM: -0.1402 T: -0.1371 UAA: 0.0003 SHLD: -0.0706 XOM: -0.0775 RRC: -0.0510 BBY: 0.0349 MA: 0.3758 PFE: 0.1112 JPM: 0.0141 SBUX: 0.0330"
+                  - button "Copy" [ref=e867] [cursor=pointer]:
+                    - img [ref=e868]
+                - list [ref=e871]:
+                  - listitem [ref=e872]: "Minimum/maximum position size: it may be the case that you want no security to form more than 10% of your portfolio. This is easy to encode:"
+                - generic [ref=e873]:
+                  - generic [ref=e874]: ef = EfficientFrontier(mu, S, weight_bounds=(0, 0.1))
+                  - button "Copy" [ref=e876] [cursor=pointer]:
+                    - img [ref=e877]
+                - paragraph [ref=e880]:
+                  - text: One issue with mean-variance optimization is that it leads to many zero-weights. While these are "optimal" in-sample, there is a large body of research showing that this characteristic leads mean-variance portfolios to underperform out-of-sample. To that end, I have introduced an objective function that can reduce the number of negligible weights for any of the objective functions. Essentially, it adds a penalty (parameterised by
+                  - code [ref=e881]: gamma
+                  - text: ) on small weights, with a term that looks just like L2 regularisation in machine learning. It may be necessary to try several
+                  - code [ref=e882]: gamma
+                  - text: values to achieve the desired number of non-negligible weights. For the test portfolio of 20 securities,
+                  - code [ref=e883]: gamma ~ 1
+                  - text: is sufficient
+                - generic [ref=e884]:
+                  - generic [ref=e885]:
+                    - text: "from pypfopt import objective_functions ef = EfficientFrontier(mu, S) ef.add_objective(objective_functions.L2_reg, gamma=1) for name, value in ef.max_sharpe().items(): print("
+                    - generic [ref=e886]:
+                      - text: f"
+                      - generic [ref=e887]: "{name}"
+                      - text: ":"
+                      - generic [ref=e888]: "{value:.4f}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy" [ref=e890] [cursor=pointer]:
+                    - img [ref=e891]
+                - generic [ref=e894]:
+                  - code [ref=e896]: "GOOG: 0.0820 AAPL: 0.0919 FB: 0.1074 BABA: 0.0680 AMZN: 0.1011 GE: 0.0309 AMD: 0.0000 WMT: 0.0353 BAC: 0.0002 GM: 0.0000 T: 0.0274 UAA: 0.0183 SHLD: 0.0000 XOM: 0.0466 RRC: 0.0024 BBY: 0.0645 MA: 0.1426 PFE: 0.0841 JPM: 0.0279 SBUX: 0.0695"
+                  - button "Copy" [ref=e898] [cursor=pointer]:
+                    - img [ref=e899]
+                - generic [ref=e902]:
+                  - heading "Black-Litterman allocation" [level=3] [ref=e903]
+                  - 'link "Permalink: Black-Litterman allocation" [ref=e904] [cursor=pointer]':
+                    - /url: "#black-litterman-allocation"
+                    - img [ref=e905]
+                - paragraph [ref=e907]:
+                  - text: Pyportfolioopt supports Black-Litterman asset allocation, which allows you to combine a prior estimate of returns (e.g the market-implied returns) with your own views to form a posterior estimate. This results in much better estimates of expected returns than just using the mean historical return. Check out the
+                  - link "docs" [ref=e908] [cursor=pointer]:
+                    - /url: https://pyportfolioopt.readthedocs.io/en/latest/BlackLitterman.html
+                  - text: for a discussion of the theory, as well as advice on formatting inputs.
+                - generic [ref=e909]:
+                  - generic [ref=e910]:
+                    - text: "from pypfopt import risk_models, BlackLittermanModel S = risk_models.sample_cov(df) viewdict = {\"AAPL\": 0.20, \"BBY\": -0.30, \"BAC\": 0, \"SBUX\": -0.2, \"T\": 0.131321} bl = BlackLittermanModel(S, pi=\"equal\", absolute_views=viewdict, omega=\"default\") rets = bl.bl_returns() ef = EfficientFrontier(rets, S) for name, value in ef.max_sharpe().items(): print("
+                    - generic [ref=e911]:
+                      - text: f"
+                      - generic [ref=e912]: "{name}"
+                      - text: ":"
+                      - generic [ref=e913]: "{value:.4f}"
+                      - text: "\""
+                    - text: )
+                  - button "Copy" [ref=e915] [cursor=pointer]:
+                    - img [ref=e916]
+                - generic [ref=e919]:
+                  - code [ref=e921]: "GOOG: 0.0000 AAPL: 0.1749 FB: 0.0503 BABA: 0.0951 AMZN: 0.0000 GE: 0.0000 AMD: 0.0000 WMT: 0.0000 BAC: 0.0000 GM: 0.0000 T: 0.5235 UAA: 0.0000 SHLD: 0.0000 XOM: 0.1298 RRC: 0.0000 BBY: 0.0000 MA: 0.0000 PFE: 0.0264 JPM: 0.0000 SBUX: 0.0000"
+                  - button "Copy" [ref=e923] [cursor=pointer]:
+                    - img [ref=e924]
+                - generic [ref=e927]:
+                  - heading "Other optimizers" [level=3] [ref=e928]
+                  - 'link "Permalink: Other optimizers" [ref=e929] [cursor=pointer]':
+                    - /url: "#other-optimizers"
+                    - img [ref=e930]
+                - paragraph [ref=e932]:
+                  - text: The features above mostly pertain to solving mean-variance optimization problems via quadratic programming (though this is taken care of by
+                  - code [ref=e933]: cvxpy
+                  - text: "). However, we offer different optimizers as well:"
+                - list [ref=e934]:
+                  - listitem [ref=e935]: Mean-semivariance optimization
+                  - listitem [ref=e936]: Mean-CVaR optimization
+                  - listitem [ref=e937]: Hierarchical Risk Parity, using clustering algorithms to choose uncorrelated assets
+                  - listitem [ref=e938]: Markowitz's critical line algorithm (CLA)
+                - paragraph [ref=e939]:
+                  - text: Please refer to the
+                  - link "documentation" [ref=e940] [cursor=pointer]:
+                    - /url: https://pyportfolioopt.readthedocs.io/en/latest/OtherOptimizers.html
+                  - text: for more.
+                - generic [ref=e941]:
+                  - heading "Advantages over existing implementations" [level=2] [ref=e942]
+                  - 'link "Permalink: Advantages over existing implementations" [ref=e943] [cursor=pointer]':
+                    - /url: "#advantages-over-existing-implementations"
+                    - img [ref=e944]
+                - list [ref=e946]:
+                  - listitem [ref=e947]: Includes both classical methods (Markowitz 1952 and Black-Litterman), suggested best practices (e.g covariance shrinkage), along with many recent developments and novel features, like L2 regularisation, shrunk covariance, hierarchical risk parity.
+                  - listitem [ref=e948]: "Native support for pandas dataframes: easily input your daily prices data."
+                  - listitem [ref=e949]: Extensive practical tests, which use real-life data.
+                  - listitem [ref=e950]: Easy to combine with your proprietary strategies and models.
+                  - listitem [ref=e951]: Robust to missing data, and price-series of different lengths (e.g FB data only goes back to 2012 whereas AAPL data goes back to 1980).
+                - generic [ref=e952]:
+                  - heading "Project principles and design decisions" [level=2] [ref=e953]
+                  - 'link "Permalink: Project principles and design decisions" [ref=e954] [cursor=pointer]':
+                    - /url: "#project-principles-and-design-decisions"
+                    - img [ref=e955]
+                - list [ref=e957]:
+                  - listitem [ref=e958]: It should be easy to swap out individual components of the optimization process with the user's proprietary improvements.
+                  - listitem [ref=e959]: "Usability is everything: it is better to be self-explanatory than consistent."
+                  - listitem [ref=e960]: There is no point in portfolio optimization unless it can be practically applied to real asset prices.
+                  - listitem [ref=e961]: Everything that has been implemented should be tested.
+                  - listitem [ref=e962]: "Inline documentation is good: dedicated (separate) documentation is better. The two are not mutually exclusive."
+                  - listitem [ref=e963]:
+                    - text: "Formatting should never get in the way of coding: because of this, I have deferred"
+                    - strong [ref=e964]: all
+                    - text: formatting decisions to
+                    - link "Black" [ref=e965] [cursor=pointer]:
+                      - /url: https://github.com/ambv/black
+                    - text: .
+                - generic [ref=e966]:
+                  - heading "Testing" [level=2] [ref=e967]
+                  - 'link "Permalink: Testing" [ref=e968] [cursor=pointer]':
+                    - /url: "#testing"
+                    - img [ref=e969]
+                - paragraph [ref=e971]:
+                  - text: Tests are written in pytest (much more intuitive than
+                  - code [ref=e972]: unittest
+                  - text: and the variants in my opinion), and I have tried to ensure close to 100% coverage. Run the tests by navigating to the package directory and simply running
+                  - code [ref=e973]: pytest
+                  - text: on the command line.
+                - paragraph [ref=e974]: "PyPortfolioOpt provides a test dataset of daily returns for 20 tickers:"
+                - generic [ref=e975]:
+                  - generic [ref=e976]: "['GOOG', 'AAPL', 'FB', 'BABA', 'AMZN', 'GE', 'AMD', 'WMT', 'BAC', 'GM', 'T', 'UAA', 'SHLD', 'XOM', 'RRC', 'BBY', 'MA', 'PFE', 'JPM', 'SBUX']"
+                  - button "Copy" [ref=e978] [cursor=pointer]:
+                    - img [ref=e979]
+                - paragraph [ref=e982]: "These tickers have been informally selected to meet several criteria:"
+                - list [ref=e983]:
+                  - listitem [ref=e984]: reasonably liquid
+                  - listitem [ref=e985]: different performances and volatilities
+                  - listitem [ref=e986]: different amounts of data to test robustness
+                - paragraph [ref=e987]: Currently, the tests have not explored all of the edge cases and combinations of objective functions and parameters. However, each method and parameter has been tested to work as intended.
+                - generic [ref=e988]:
+                  - heading "Citing PyPortfolioOpt" [level=2] [ref=e989]
+                  - 'link "Permalink: Citing PyPortfolioOpt" [ref=e990] [cursor=pointer]':
+                    - /url: "#citing-pyportfolioopt"
+                    - img [ref=e991]
+                - paragraph [ref=e993]:
+                  - text: If you use PyPortfolioOpt for published work, please cite the
+                  - link "JOSS paper" [ref=e994] [cursor=pointer]:
+                    - /url: https://joss.theoj.org/papers/10.21105/joss.03066
+                  - text: .
+                - paragraph [ref=e995]: "Citation string:"
+                - generic [ref=e996]:
+                  - code [ref=e998]: "Martin, R. A., (2021). PyPortfolioOpt: portfolio optimization in Python. Journal of Open Source Software, 6(61), 3066, https://doi.org/10.21105/joss.03066"
+                  - button "Copy" [ref=e1000] [cursor=pointer]:
+                    - img [ref=e1001]
+                - paragraph [ref=e1004]: "BibTex::"
+                - generic [ref=e1005]:
+                  - generic [ref=e1006]:
+                    - text: "@article{Martin2021, doi ="
+                    - generic [ref=e1007]: "{10.21105/joss.03066}"
+                    - text: ", url ="
+                    - generic [ref=e1008]: "{https://doi.org/10.21105/joss.03066}"
+                    - text: ", year ="
+                    - generic [ref=e1009]: "{2021}"
+                    - text: ", publisher ="
+                    - generic [ref=e1010]: "{The Open Journal}"
+                    - text: ", volume ="
+                    - generic [ref=e1011]: "{6}"
+                    - text: ", number ="
+                    - generic [ref=e1012]: "{61}"
+                    - text: ", pages ="
+                    - generic [ref=e1013]: "{3066}"
+                    - text: ", author ="
+                    - generic [ref=e1014]: "{Robert Andrew Martin}"
+                    - text: ", title ="
+                    - generic [ref=e1015]: "{PyPortfolioOpt: portfolio optimization in Python}"
+                    - text: ", journal ="
+                    - generic [ref=e1016]: "{Journal of Open Source Software}"
+                    - text: "}"
+                  - button "Copy" [ref=e1018] [cursor=pointer]:
+                    - img [ref=e1019]
+                - generic [ref=e1022]:
+                  - heading "Contributing" [level=2] [ref=e1023]
+                  - 'link "Permalink: Contributing" [ref=e1024] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e1025]
+                - paragraph [ref=e1027]:
+                  - text: Contributions are
+                  - emphasis [ref=e1028]: most welcome
+                  - text: . Have a look at the
+                  - link "Contribution Guide" [ref=e1029] [cursor=pointer]:
+                    - /url: https://github.com/PyPortfolio/PyPortfolioOpt/blob/main/CONTRIBUTING.md
+                  - text: for more.
+                - paragraph [ref=e1030]: "We'd like to thank all of the people who have contributed to PyPortfolioOpt since its release in 2018. Special shout-outs to:"
+                - list [ref=e1031]:
+                  - listitem [ref=e1032]: Tuan Tran
+                  - listitem [ref=e1033]: Philipp Schiele
+                  - listitem [ref=e1034]: Carl Peasnell
+                  - listitem [ref=e1035]: Felipe Schneider
+                  - listitem [ref=e1036]: Dingyuan Wang
+                  - listitem [ref=e1037]: Pat Newell
+                  - listitem [ref=e1038]: Aditya Bhutra
+                  - listitem [ref=e1039]: Thomas Schmelzer
+                  - listitem [ref=e1040]: Rich Caputo
+                  - listitem [ref=e1041]: Franz Kiraly
+                  - listitem [ref=e1042]: Nicolas Knudde
+        - generic [ref=e1046]:
+          - generic [ref=e1049]:
+            - heading "About" [level=2] [ref=e1050]
+            - paragraph [ref=e1051]: Financial portfolio optimisation in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity
+            - generic [ref=e1052]:
+              - img [ref=e1053]
+              - link "pyportfolioopt.readthedocs.io/" [ref=e1056] [cursor=pointer]:
+                - /url: https://pyportfolioopt.readthedocs.io/
+            - heading "Topics" [level=3] [ref=e1057]
+            - generic [ref=e1059]:
+              - link "python" [ref=e1060] [cursor=pointer]:
+                - /url: /topics/python
+              - link "finance" [ref=e1061] [cursor=pointer]:
+                - /url: /topics/finance
+              - link "investing" [ref=e1062] [cursor=pointer]:
+                - /url: /topics/investing
+              - link "portfolio-optimization" [ref=e1063] [cursor=pointer]:
+                - /url: /topics/portfolio-optimization
+              - link "quantitative-finance" [ref=e1064] [cursor=pointer]:
+                - /url: /topics/quantitative-finance
+              - link "investment" [ref=e1065] [cursor=pointer]:
+                - /url: /topics/investment
+              - link "financial-analysis" [ref=e1066] [cursor=pointer]:
+                - /url: /topics/financial-analysis
+              - link "algorithmic-trading" [ref=e1067] [cursor=pointer]:
+                - /url: /topics/algorithmic-trading
+              - link "covariance" [ref=e1068] [cursor=pointer]:
+                - /url: /topics/covariance
+              - link "investment-analysis" [ref=e1069] [cursor=pointer]:
+                - /url: /topics/investment-analysis
+              - link "portfolio-management" [ref=e1070] [cursor=pointer]:
+                - /url: /topics/portfolio-management
+              - link "efficient-frontier" [ref=e1071] [cursor=pointer]:
+                - /url: /topics/efficient-frontier
+            - heading "Resources" [level=3] [ref=e1072]
+            - link "Readme" [ref=e1074] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1075]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1077]
+            - link "MIT license" [ref=e1079] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1080]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e1082]
+            - link "Contributing" [ref=e1084] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1085]
+              - text: Contributing
+            - link "Activity" [ref=e1088] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/activity
+              - img [ref=e1089]
+              - text: Activity
+            - link "Custom properties" [ref=e1092] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/custom-properties
+              - img [ref=e1093]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1095]
+            - link "5.6k stars" [ref=e1097] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/stargazers
+              - img [ref=e1098]
+              - strong [ref=e1100]: 5.6k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1101]
+            - link "138 watching" [ref=e1103] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/watchers
+              - img [ref=e1104]
+              - strong [ref=e1106]: "138"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1107]
+            - link "1.1k forks" [ref=e1109] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/forks
+              - img [ref=e1110]
+              - strong [ref=e1112]: 1.1k
+              - text: forks
+            - link "Report repository" [ref=e1114] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FPyPortfolio%2FPyPortfolioOpt&report=PyPortfolio+%28user%29
+          - generic [ref=e1116]:
+            - heading "Releases 2" [level=2] [ref=e1117]:
+              - link "Releases 2" [ref=e1118] [cursor=pointer]:
+                - /url: /PyPortfolio/PyPortfolioOpt/releases
+                - text: Releases
+                - generic "2" [ref=e1119]
+            - link "v1.6.0 Latest Feb 26, 2026on Feb 27" [ref=e1120] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/releases/tag/v1.6.0
+              - img [ref=e1121]
+              - generic [ref=e1123]:
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]: v1.6.0
+                  - 'generic "Label: Latest" [ref=e1126]': Latest
+                - generic [ref=e1127]: Feb 26, 2026on Feb 27
+            - link "+ 1 release" [ref=e1129] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/releases
+          - generic [ref=e1131]:
+            - heading "Packages" [level=2] [ref=e1132]:
+              - link "Packages" [ref=e1133] [cursor=pointer]:
+                - /url: /orgs/PyPortfolio/packages?repo_name=PyPortfolioOpt
+            - generic [ref=e1134]: No packages published
+          - generic [ref=e1136]:
+            - heading "Contributors 44" [level=2] [ref=e1137]:
+              - link "Contributors 44" [ref=e1138] [cursor=pointer]:
+                - /url: /PyPortfolio/PyPortfolioOpt/graphs/contributors
+                - text: Contributors
+                - generic "44" [ref=e1139]
+            - list [ref=e1140]:
+              - listitem [ref=e1141]:
+                - link "@robertmartin8" [ref=e1142] [cursor=pointer]:
+                  - /url: https://github.com/robertmartin8
+                  - img "@robertmartin8" [ref=e1143]
+              - listitem [ref=e1144]:
+                - link "@phschiele" [ref=e1145] [cursor=pointer]:
+                  - /url: https://github.com/phschiele
+                  - img "@phschiele" [ref=e1146]
+              - listitem [ref=e1147]:
+                - link "@SeaPea1" [ref=e1148] [cursor=pointer]:
+                  - /url: https://github.com/SeaPea1
+                  - img "@SeaPea1" [ref=e1149]
+              - listitem [ref=e1150]:
+                - link "@fkiraly" [ref=e1151] [cursor=pointer]:
+                  - /url: https://github.com/fkiraly
+                  - img "@fkiraly" [ref=e1152]
+              - listitem [ref=e1153]:
+                - link "@88d52bdba0366127fffca9dfa93895" [ref=e1154] [cursor=pointer]:
+                  - /url: https://github.com/88d52bdba0366127fffca9dfa93895
+                  - img "@88d52bdba0366127fffca9dfa93895" [ref=e1155]
+              - listitem [ref=e1156]:
+                - link "@dependabot[bot]" [ref=e1157] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1158]
+              - listitem [ref=e1159]:
+                - link "@tschm" [ref=e1160] [cursor=pointer]:
+                  - /url: https://github.com/tschm
+                  - img "@tschm" [ref=e1161]
+              - listitem [ref=e1162]:
+                - link "@gpfins" [ref=e1163] [cursor=pointer]:
+                  - /url: https://github.com/gpfins
+                  - img "@gpfins" [ref=e1164]
+              - listitem [ref=e1165]:
+                - link "@yosukesan" [ref=e1166] [cursor=pointer]:
+                  - /url: https://github.com/yosukesan
+                  - img "@yosukesan" [ref=e1167]
+              - listitem [ref=e1168]:
+                - link "@pmn4" [ref=e1169] [cursor=pointer]:
+                  - /url: https://github.com/pmn4
+                  - img "@pmn4" [ref=e1170]
+              - listitem [ref=e1171]:
+                - link "@bhutraaditya" [ref=e1172] [cursor=pointer]:
+                  - /url: https://github.com/bhutraaditya
+                  - img "@bhutraaditya" [ref=e1173]
+              - listitem [ref=e1174]:
+                - link "@schneiderfelipe" [ref=e1175] [cursor=pointer]:
+                  - /url: https://github.com/schneiderfelipe
+                  - img "@schneiderfelipe" [ref=e1176]
+              - listitem [ref=e1177]:
+                - link "@gumblex" [ref=e1178] [cursor=pointer]:
+                  - /url: https://github.com/gumblex
+                  - img "@gumblex" [ref=e1179]
+              - listitem [ref=e1180]:
+                - link "@gliptak" [ref=e1181] [cursor=pointer]:
+                  - /url: https://github.com/gliptak
+                  - img "@gliptak" [ref=e1182]
+            - link "+ 30 contributors" [ref=e1184] [cursor=pointer]:
+              - /url: /PyPortfolio/PyPortfolioOpt/graphs/contributors
+          - generic [ref=e1186]:
+            - heading "Languages" [level=2] [ref=e1187]
+            - list [ref=e1192]:
+              - listitem [ref=e1193]:
+                - link "Jupyter Notebook 94.1%" [ref=e1194] [cursor=pointer]:
+                  - /url: /PyPortfolio/PyPortfolioOpt/search?l=jupyter-notebook
+                  - img [ref=e1195]
+                  - generic [ref=e1197]: Jupyter Notebook
+                  - generic [ref=e1198]: 94.1%
+              - listitem [ref=e1199]:
+                - link "Python 5.9%" [ref=e1200] [cursor=pointer]:
+                  - /url: /PyPortfolio/PyPortfolioOpt/search?l=python
+                  - img [ref=e1201]
+                  - generic [ref=e1203]: Python
+                  - generic [ref=e1204]: 5.9%
+  - contentinfo [ref=e1206]:
+    - heading "Footer" [level=2] [ref=e1207]
+    - generic [ref=e1208]:
+      - generic [ref=e1209]:
+        - link "GitHub Homepage" [ref=e1210] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1211]
+        - generic [ref=e1213]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1214]:
+        - heading "Footer navigation" [level=3] [ref=e1215]
+        - list "Footer navigation" [ref=e1216]:
+          - listitem [ref=e1217]:
+            - link "Terms" [ref=e1218] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1219]:
+            - link "Privacy" [ref=e1220] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1221]:
+            - link "Security" [ref=e1222] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1223]:
+            - link "Status" [ref=e1224] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1225]:
+            - link "Community" [ref=e1226] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1227]:
+            - link "Docs" [ref=e1228] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1229]:
+            - link "Contact" [ref=e1230] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1231]:
+            - button "Manage cookies" [ref=e1233] [cursor=pointer]
+          - listitem [ref=e1234]:
+            - button "Do not share my personal information" [ref=e1236] [cursor=pointer]

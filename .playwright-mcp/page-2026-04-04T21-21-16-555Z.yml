@@ -1,0 +1,314 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Vähennykset" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/
+            - listitem [ref=e61]:
+              - link "Mitä vähennyksiä voi saada verotuksessa?" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+            - listitem [ref=e63]:
+              - link "Velat ja korot" [ref=e64] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/
+            - listitem [ref=e65]: Korko tuloverotuksessa
+        - article [ref=e68]:
+          - heading "Korko tuloverotuksessa" [level=1] [ref=e69]
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: Korkoja voi vähentää verotuksessa vain, jos velka on tulonhankkimisvelka. Korkomenot vähennetään pääomatuloista. Vähennys tehdään sen kalenterivuoden verotuksessa, jona korot on maksettu. Yleensä vain verovelvollinen itse voi vähentää velkansa korot.
+            - heading "Mitä korkoja voi vähentää verotuksessa?" [level=2] [ref=e72]
+            - paragraph [ref=e73]: Lainan korkoja voi vähentää, jos kyseessä on tulonhankkimisvelka, joka kohdistuu veronalaisen tulon hankkimiseen. Tulonhankkimistoimintaa on esimerkiksi asunnon vuokraaminen, osakesäästäminen ja muu sellainen toiminta, jonka tarkoituksena on tuottaa veronalaista tuloa. Tulonhankkimisvelan korot vähennetään kaikista pääomatuloista täysimääräisinä.
+            - paragraph [ref=e74]:
+              - strong [ref=e75]: Huomaa, että asuntolainan korkoja ei ole enää voinut vähentää verovuodesta 2023 alkaen.
+            - paragraph [ref=e76]: Lainan todellinen käyttötarkoitus ratkaisee, onko kyseessä asunto- tai tulonhankkimisvelka.
+            - heading "Takausvelan koroista voi saada vähennyksen" [level=2] [ref=e77]
+            - paragraph [ref=e78]: Myös takausvelasta maksettavaksi tulleet korot voivat olla vähennyskelpoisia. Edellytyksenä on, että alkuperäisellä velallisella olisi ollut oikeus vähentää korot sillä perusteella, että ne kohdistuvat elinkeinotoimintaan tai maatalouteen.
+            - paragraph [ref=e79]: Takaaja voi vähentää koroista sen osan, joka on kertynyt sen jälkeen, kun alkuperäinen velallinen on todettu maksukyvyttömäksi. Maksukyvyttömyys on todettu esimerkiksi silloin, jos velallinen on todettu ulosotossa varattomaksi.
+            - heading "Kulutusluottojen korkoja ei voi vähentää" [level=2] [ref=e80]
+            - paragraph [ref=e81]: Kulutusluottojen korkoja ei voi vähentää verotuksessa. Velka on kulutusluotto, jos se on otettu elämisen rahoittamiseen tai muita henkilökohtaisia menoja varten. Kulutusluottoja ovat esimerkiksi kodin sisustamista, auton, veneen tai vapaa-ajan asunnon hankintaa varten otetut velat.
+            - heading "Muita korkoja ei voi vähentää" [level=2] [ref=e82]
+            - paragraph [ref=e83]: "Muiden kuin tulonhankkimisvelkojen korkoja ei voi vähentää. Esimerkiksi seuraavia korkoja ei voi vähentää:"
+            - list [ref=e84]:
+              - listitem [ref=e85]: asuntolainan korko
+              - listitem [ref=e86]: opintolainan korko
+              - listitem [ref=e87]: korko, joka on maksettu avustuksena valtion varoista (opintotukilain tai sotilasavustuslain perusteella)
+              - listitem [ref=e88]: huojennettu viivästyskorko
+              - listitem [ref=e89]: veron viivästyskorko
+              - listitem [ref=e90]:
+                - text: korko lainasta, jonka käyttötarkoitus on
+                - list [ref=e91]:
+                  - listitem [ref=e92]: verottoman tulon hankinta
+                  - listitem [ref=e93]: korkotulon lähdeveron alaisen tulon hankinta
+                  - listitem [ref=e94]: vapaaehtoisen yksilöllisen eläkevakuutuksen hankinta.
+            - heading "Lainan liitännäiskulut eivät kuulu korkoon" [level=2] [ref=e95]
+            - paragraph [ref=e96]: Lainan liitännäiskuluja ovat esimerkiksi järjestelypalkkio ja toimitusmaksu. Näitä kuluja ei pidetä korkoina. Tulonhankkimisvelan liitännäiskulut voi vähentää tulonhankkimiskuluina. Muiden lainojen, esimerkiksi opinto- tai asuntolainan, liitännäiskuluja ei voi vähentää verotuksessa.
+            - heading "Mistä, milloin ja miten korot vähennetään?" [level=2] [ref=e97]
+            - paragraph [ref=e98]: Korkomenot vähennetään pääomatuloista. Lainan korkokulut voidaan ottaa huomioon jo verokortin ennakonpidätysprosentissa.
+            - heading "Korot verokortilla" [level=3] [ref=e99]
+            - paragraph [ref=e100]: Jos verotuksessa on jo otettu huomioon vähennettäviä korkoja, ne otetaan automaattisesti huomioon seuraavan verokortin ennakonpidätysprosentissa.
+            - paragraph [ref=e101]: Jos korkojen määrä muuttuu vuoden aikana huomattavasti, kannattaa hakea uusi verokortti. Jos korkojen määrä vähenee huomattavasti verovuoden aikana, voi vuoden alussa laskettu ennakonpidätysprosentti olla liian pieni. Jos ennakonpidätys tehdään tämän liian pienen veroprosentin mukaan, saattaa maksettavaksi tulla jäännösveroja.
+            - paragraph [ref=e102]:
+              - link "Lue lisää verokortin muuttamisesta" [ref=e103] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/
+              - text: .
+            - paragraph [ref=e104]:
+              - link "Laske korkojen vaikutus veroprosenttilaskurilla" [ref=e105] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/verokortti/veroprosenttilaskuri/
+              - text: .
+            - heading "Korot veroilmoituksella" [level=3] [ref=e106]
+            - paragraph [ref=e107]:
+              - text: Korkomenot vähennetään sen kalenterivuoden verotuksessa, jona ne on maksettu. Pankki ilmoittaa lainan ja lainan korot Verohallintoon lopullista verotusta varten, ja tiedot näkyvät esitäytetyllä veroilmoituksella. Tarkista korkotiedot ja lainan käyttötarkoitus. Jos velan käyttötarkoitus on merkitty veroilmoitukseen väärin, korjaa tiedot
+              - generic [ref=e108]:
+                - link "OmaVerossa" [ref=e109] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+                - text: tai lomakkeella
+              - link "50B Pääomatulot ja niistä tehtävät vähennykset" [ref=e110] [cursor=pointer]:
+                - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/50b-p%C3%A4%C3%A4omatulot-ja-niist%C3%A4-teht%C3%A4v%C3%A4t-v%C3%A4hennykset/
+              - text: .
+            - generic [ref=e112]:
+              - paragraph [ref=e113]:
+                - strong [ref=e114]: "Esimerkki:"
+                - text: Armi on ottanut helmikuussa pankista velkaa, jolla hän on heti ostanut sijoitusasunnon. Armi on vuokrannut asunnon maaliskuusta alkaen. Armin ottama velka on tulonhankkimisvelka.
+              - paragraph [ref=e115]: Armi on saanut sijoitusasunnosta vuokratuloa 5 000 euroa ja maksanut asunnon hoitovastikkeita 1 000 euroa maaliskuun ja joulukuun väliseltä ajalta. Armi on maksanut pankille tulonhankkimislainasta korkoja yhteensä 1 500 euroa.
+              - paragraph [ref=e116]: Armi ilmoittaa seuraavana keväänä OmaVerossa vuokratulot ja erittelee asunnon vuokraamisesta aiheutuneet kulut. Lainan korkoja hän ei vähennä tässä kohdassa vaan ne vähennetään tulonhankkimisvelan korkoina.
+              - paragraph [ref=e117]: Armi tarkistaa, onko pankki antanut kyseisen velan koroista oikeat tiedot kohdassa Tulonhankkimisvelan korot. Koska laina on uusi, tiedot näkyvät veroilmoituksella muuna velkana. Armi korjaa OmaVerossa lainan käyttötarkoituksen tulonhankkimisvelaksi ja kertoo lisätiedoissa ostaneensa lainalla asunnon, josta saa vuokratuloja.
+              - paragraph [ref=e118]: Armi voisi vaihtoehtoisesti ilmoittaa tiedot paperilomakkeilla. Silloin hänen olisi täytettävä ja palautettava koroista lomake 50B "Pääomatulot ja niistä tehtävät vähennykset" ja vuokratuloista lomake 7H "Vuokratulot - osakehuoneistot".
+            - heading "Miten korot vähennetään, jos pääomatuloja ei ole?" [level=2] [ref=e119]
+            - paragraph [ref=e120]: Henkilön ja kuolinpesän korkomenot vähennetään ensisijaisesti pääomatuloista. Jos pääomatulot eivät riitä vähennysten tekemiseen (esimerkiksi tulonhankkimisvelan korot ovat suuremmat kuin pääomatulot), syntyy alijäämä. Alijäämästä 30 % vähennetään alijäämähyvityksenä ansiotulojen veroista. Prosenttiosuus vastaa pääomatulojen veroprosenttia. Alijäämähyvitykseen liittyy rajoituksia.
+            - paragraph [ref=e121]:
+              - link "Lue lisää sivulta Alijäämähyvitys" [ref=e122] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/alijaamahyvitys/
+              - text: .
+            - heading "Kuka korot voi vähentää?" [level=2] [ref=e123]
+            - paragraph [ref=e124]: Yleensä vain verovelvollinen itse voi vähentää velkansa korot. Poikkeuksellisesti myös takaaja tai muu vakuuden asettaja voi vähentää maksamiaan korkoja.
+            - heading "Puolisot" [level=3] [ref=e125]
+            - paragraph [ref=e126]:
+              - text: "Kumpikin puoliso voi vähentää pääomatuloistaan vain oman velkansa korot. Korkoja ei voi siirtää vähennettäväksi toisen puolison pääomatuloista. Korkovähennys on siis henkilökohtainen, ei perhekohtainen. Puolisoiden alijäämähyvityksen käsittelyssä on kuitenkin perhekohtaisia piirteitä:"
+              - link "lue lisää sivulta Alijäämähyvitys" [ref=e127] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/alijaamahyvitys/
+              - text: .
+            - paragraph [ref=e128]: Puolisoilla voi olla yhteistä velkaa, josta he ovat yhteisvastuussa. Tällaisen velan korot vähentää verotuksessaan se puoliso, joka korot on maksanut. Jos korkojen maksajaa ei ole ilmoitettu Verohallintoon tai puolisoiden vaatimukset ovat ristiriitaiset, vähennetään kummaltakin puolisolta puolet maksettujen korkojen määrästä.
+            - paragraph [ref=e129]:
+              - text: Jos avopuolisoita pidetään verotuksessa puolisoina, myös korot käsitellään kuten aviopuolisoiden korot.
+              - link "Lue tarkemmin, mitä verotuksessa tarkoitetaan puolisolla." [ref=e130] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/omat-tiedot/avioliitto__avioero/
+            - paragraph [ref=e131]: Jos yhteisvelalliset eivät ole puolisoita, velan korot vähentää jokainen velallinen itse.
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - img
+              - generic [ref=e135]:
+                - heading "Asioi verkossa" [level=2] [ref=e136]
+                - list [ref=e137]:
+                  - listitem [ref=e138]:
+                    - link "OmaVero" [ref=e140] [cursor=pointer]:
+                      - /url: /sahkoiset-asiointipalvelut/omavero/
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - img
+              - generic [ref=e143]:
+                - heading "Lomakkeet" [level=2] [ref=e144]
+                - list [ref=e145]:
+                  - listitem [ref=e146]:
+                    - link "50B Pääomatulot ja niistä tehtävät vähennykset" [ref=e148] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/50b-p%C3%A4%C3%A4omatulot-ja-niist%C3%A4-teht%C3%A4v%C3%A4t-v%C3%A4hennykset/
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - img
+              - generic [ref=e151]:
+                - heading "Syventävät vero-ohjeet" [level=2] [ref=e152]
+                - list [ref=e153]:
+                  - listitem [ref=e154]:
+                    - link "Korkojen vähentäminen henkilöverotuksessa" [ref=e156] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/49021/
+          - navigation "Vai etsitkö näitä?" [ref=e157]:
+            - heading "Vai etsitkö näitä?" [level=3] [ref=e158]
+            - navigation "Sivunavigaatio" [ref=e159]:
+              - link "Velat ja korot" [ref=e160] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/
+              - list [ref=e161]:
+                - listitem [ref=e162]:
+                  - link "Velka tuloverotuksessa" [ref=e163] [cursor=pointer]:
+                    - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/velka-tuloverotuksessa/
+                - listitem
+                - listitem [ref=e164]:
+                  - link "Ulkomailta saadut korkotulot" [ref=e165] [cursor=pointer]:
+                    - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/ulkomailta-saadut-korkotulot/
+        - navigation "Osion alasivut" [ref=e166]:
+          - heading "Mitä vähennyksiä voi saada verotuksessa?" [level=3] [ref=e167]:
+            - link "Mitä vähennyksiä voi saada verotuksessa?" [ref=e168] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Näin ilmoitat vähennyksiä OmaVerossa" [ref=e174] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/nain-ilmoitat-vahennyksia-omaverossa/
+            - listitem [ref=e175]:
+              - link "Verohallinto laskee nämä vähennykset automaattisesti" [ref=e177] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/verohallinto-laskee-nama-vahennykset-automaattisesti/
+            - listitem [ref=e178]:
+              - link "Alijäämähyvitys" [ref=e180] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/alijaamahyvitys/
+            - listitem [ref=e181]:
+              - link "Elatusvelvollisuusvähennys" [ref=e183] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/elatusvelvollisuusvahennys/
+            - listitem [ref=e184]:
+              - link "Tulontasaus" [ref=e186] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/tulontasaus/
+            - listitem [ref=e187]:
+              - link "Lahjoitusvähennys" [ref=e189] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/lahjoitusvahennys/
+            - listitem [ref=e190]:
+              - link "Veronmaksukyvyn alentumisvähennys" [ref=e192] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/veronmaksukyvyn-alentumisvahennys/
+            - listitem [ref=e193]:
+              - link "Asuntolainan korkovähennys" [ref=e195] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/asuntolainan-korkovahennys/
+            - listitem [ref=e196]:
+              - link "Vähennykset pääomatuloista" [ref=e198] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-paaomatuloista/
+            - listitem [ref=e199]:
+              - link "Velat ja korot" [ref=e201] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/velat-ja-korot/
+            - listitem [ref=e202]:
+              - link "Vähennykset Ahvenanmaalla asuville" [ref=e204] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/vahennykset/mita-voi-vahentaa/vahennykset-ahvenanmaalla-asuville/
+        - separator [ref=e205]
+        - generic [ref=e206]: Sivu on viimeksi päivitetty 1.1.2026
+      - generic [ref=e211]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e212]
+        - paragraph [ref=e214]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e215] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e216]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - heading "Asioi verkossa" [level=2] [ref=e221]
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - link "OmaVero" [ref=e226] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e227]:
+                - link "Laskurit" [ref=e229] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e230]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e232] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e233]:
+                - link "Positiivinen luottotietorekisteri" [ref=e235] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e236]:
+                - link "Tulorekisteri" [ref=e238] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e239]:
+            - heading "Yhteystiedot" [level=2] [ref=e240]
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - link "Chat" [ref=e245] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e246]:
+                - link "Yhteystiedot ja asiointi" [ref=e248] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e249]:
+                - link "Sosiaalinen media" [ref=e251] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e252]:
+                - link "Paperilomakkeet" [ref=e254] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e255]:
+                - link "Käsittelyajat" [ref=e257] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e258]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e259]
+            - generic [ref=e263]:
+              - paragraph [ref=e264]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e265]:
+                - listitem [ref=e266]:
+                  - link "Syventävät vero-ohjeet" [ref=e268] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e269]:
+            - heading "Verohallinto" [level=2] [ref=e270]
+            - generic [ref=e274]:
+              - paragraph [ref=e275]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e276]:
+                - listitem [ref=e277]:
+                  - link "Tietoa Verohallinnosta" [ref=e279] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e282]:
+          - listitem [ref=e283]: © Verohallinto
+          - listitem [ref=e284]:
+            - link "Tietosuoja" [ref=e286] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e287]:
+            - link "Palaute" [ref=e289] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e290]:
+            - link "Saavutettavuusseloste" [ref=e292] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e293]:
+            - link "Tulosta" [ref=e295] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e297] [cursor=pointer]:
+    - img [ref=e298]
+    - paragraph [ref=e300]: Chatbot

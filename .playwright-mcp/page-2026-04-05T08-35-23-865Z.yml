@@ -1,0 +1,373 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - region "Sivustoilmoitukset" [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - paragraph [ref=e8]:
+          - text: Verohallinnon nimissä on lähetetty huijausviestejä.
+          - link "Lue lisää huijauksista" [ref=e9] [cursor=pointer]:
+            - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/tietoa-huijauksista/
+          - text: .
+  - generic [ref=e11]:
+    - banner [ref=e12]:
+      - generic:
+        - link "Siirry suoraan sisältöön" [ref=e13] [cursor=pointer]:
+          - /url: "#content-main"
+        - link "Siirry koko sivuston hakuun" [ref=e14] [cursor=pointer]:
+          - /url: "#search-overlay-button"
+      - generic [ref=e16]:
+        - link "Etusivulle" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img "vero.fi - Etusivulle" [ref=e19]
+        - navigation "Sivuston pääosiot" [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "Henkilöasiakkaat" [ref=e23] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e24]:
+              - link "Yritysasiakkaat" [ref=e25] [cursor=pointer]:
+                - /url: /yritykset-ja-yhteisot/
+    - banner [ref=e26]:
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - button "Avaa mobiilivalikko" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]:
+              - img
+            - text: Valikko
+        - listitem [ref=e36]:
+          - button "Hae" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img
+              - text: Hae
+        - listitem [ref=e41]:
+          - generic "Kielinavigaatio" [ref=e44]:
+            - button "FI" [ref=e45] [cursor=pointer]:
+              - img
+              - text: FI
+        - listitem [ref=e46]:
+          - generic "OmaVero valikko" [ref=e49]:
+            - button "OmaVero" [ref=e50] [cursor=pointer]:
+              - img
+              - text: OmaVero
+    - main [ref=e51]:
+      - generic [ref=e52]:
+        - navigation "Murupolku" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Henkilöasiakkaat" [ref=e58] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/
+            - listitem [ref=e59]:
+              - link "Omaisuus ja asuminen" [ref=e60] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/
+            - listitem [ref=e61]:
+              - link "Asunnon myynti" [ref=e62] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/
+            - listitem [ref=e63]: Oman asunnon myynti
+        - article [ref=e66]:
+          - heading "Oman asunnon tai sijoitusasunnon myynti" [level=1] [ref=e67]
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: "Oman vakituisen asunnon voi myydä verovapaasti, jos molemmat seuraavista ehdoista täyttyvät samanaikaisesti:"
+            - list [ref=e70]:
+              - listitem [ref=e71]: Olet omistanut asunnon vähintään 2 vuotta.
+              - listitem [ref=e72]: Olet itse tai joku perheestäsi on vakituisesti asunut asunnossa omistusaikanasi yhtäjaksoisesti vähintään 2 vuotta. Perheeseen lasketaan mukaan puoliso ja alaikäiset lapset.
+            - paragraph [ref=e73]: Muissa tapauksissa asunnon luovutusvoitto eli myynnistä saatu voitto verotetaan pääomatulona. Jos myyt asunnon tappiolla, tappion voi vähentää ensisijaisesti kyseisen verovuoden luovutusvoitoista.
+          - generic [ref=e75]:
+            - generic [ref=e77]:
+              - heading "Myyt asunnon verovapaasti. Katso toimintaohjeet." [level=3] [ref=e78] [cursor=pointer]:
+                - button "Myyt asunnon verovapaasti. Katso toimintaohjeet." [ref=e79]:
+                  - text: Myyt asunnon verovapaasti. Katso toimintaohjeet.
+                  - img
+              - region "Myyt asunnon verovapaasti. Katso toimintaohjeet.":
+                - generic:
+                  - paragraph [ref=e80]: Vaikka et maksaisikaan veroa asuntosi myynnistä, sinun pitää huolehtia siitä, että tiedot myynnistä näkyvät esitäytetyssä veroilmoituksessasi.
+                  - paragraph [ref=e81]: Kun saat esitäytetyn veroilmoituksen, tarkista tiedot.
+                  - list [ref=e82]:
+                    - listitem [ref=e83]:
+                      - strong [ref=e84]: Jos tiedot asunnon myynnistä puuttuvat veroilmoituksesta
+                      - text: Ilmoita puuttuvat tiedot OmaVerossa. Valitse Kyllä veroilmoituksen kohdassa
+                      - strong [ref=e85]: Luovutusvoitot tai -tappiot.
+                      - text: Valitse sen jälkeen linkki Lisää uusi luovutus
+                      - strong [ref=e86]: .
+                      - text: Täytä sen jälkeen pyydetyt tiedot.
+                    - listitem [ref=e87]:
+                      - strong [ref=e88]: Jos asunnon myynti on veroilmoituksessa verollisena
+                      - text: Vastaa OmaVerossa Kyllä kysymykseen
+                      - strong [ref=e89]: Oliko myyty huoneisto oma vakituinen asuntosi?
+                      - text: Täytä sen jälkeen pyydetyt tiedot.
+                  - paragraph [ref=e90]:
+                    - link "Lue tarkemmat ohjeet OmaVerossa ilmoittamiseen" [ref=e91] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/veroilmoitus_ja_verotuspaato/ilmoittamisen-ohje/
+                  - paragraph [ref=e92]:
+                    - text: Voit myös antaa tiedot
+                    - link "lomakkeella 9" [ref=e93] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/9_luovutusvoitto_tai_tappio__laskelma_3/
+                    - text: .
+            - generic [ref=e95]:
+              - heading "Saat asunnosta myyntivoittoa. Katso ilmoitus- ja maksuohjeet." [level=3] [ref=e96] [cursor=pointer]:
+                - button "Saat asunnosta myyntivoittoa. Katso ilmoitus- ja maksuohjeet." [ref=e97]:
+                  - text: Saat asunnosta myyntivoittoa. Katso ilmoitus- ja maksuohjeet.
+                  - img
+              - region "Saat asunnosta myyntivoittoa. Katso ilmoitus- ja maksuohjeet.":
+                - generic:
+                  - paragraph [ref=e98]
+                  - paragraph [ref=e99]:
+                    - strong [ref=e100]: 1. HAE ENNAKKOVEROA
+                  - paragraph [ref=e101]:
+                    - text: Hae ennakkoveroa
+                    - link "OmaVerossa" [ref=e102] [cursor=pointer]:
+                      - /url: /sahkoiset-asiointipalvelut/omavero/
+                    - text: tai toimittamalla Verohallintoon
+                    - link "lomake 9" [ref=e103] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/9_luovutusvoitto_tai_tappio__laskelma_3/
+                    - text: (laskelma luovutusvoitosta tai -tappiosta).
+                    - link "Lue lisää ennakkoverosta" [ref=e104] [cursor=pointer]:
+                      - /url: /henkiloasiakkaat/verokortti-ja-veroilmoitus/ennakkovero-henkiloasiakas/
+                  - paragraph [ref=e105]: Saat päätöksen ja maksutiedot OmaVeroon sekä postitse kotiin.
+                  - paragraph [ref=e106]: Voit hakea ennakkoveroa verotuksesi päättymiseen asti. Jos haluat välttyä viivästysseuraamuksilta, hakemuksesi tulee olla Verohallinnossa viimeistään luovutusvuoden loppuun mennessä.
+                  - paragraph [ref=e107]:
+                    - strong [ref=e108]: 2. TARKISTA VEROILMOITUS
+                  - paragraph [ref=e109]:
+                    - text: Tarkista esitäytetty veroilmoitus ja korjaa tiedot tarvittaessa
+                    - link "OmaVerossa" [ref=e110] [cursor=pointer]:
+                      - /url: /sahkoiset-asiointipalvelut/omavero/
+                    - text: . Jos et voi asioida sähköisesti, käytä
+                    - link "lomaketta 9" [ref=e111] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/9_luovutusvoitto_tai_tappio__laskelma_3/
+                    - text: (Laskelma luovutusvoitosta tai -tappiosta).
+                  - paragraph [ref=e112]
+                  - generic [ref=e113]:
+                    - paragraph [ref=e114]: Esimerkki alkaa
+                    - paragraph [ref=e115]: "Huomaa:"
+                    - list [ref=e116]:
+                      - listitem [ref=e117]: Et voi jakaa asunnon myyntivoittoa kahdelle eri vuodelle jos olet myynyt asunnon kerralla. Asunnon myyntivoitto verotetaan aina kaupantekovuoden pääomatulona. Verotusajankohtaan ei vaikuta se, milloin saat kauppahinnan.
+                      - listitem [ref=e118]: Jos et aikanaan ole saanut asuntoa kerralla, vaan olet saanut sen esimerkiksi kahdella eri kaupalla tai perintönä kahdessa osassa, ilmoita myynti kahtena eri luovutuksena.
+                    - paragraph [ref=e119]: Esimerkki päättyy
+            - generic [ref=e121]:
+              - heading "Näin lasket myyntivoiton tai -tappion" [level=3] [ref=e122] [cursor=pointer]:
+                - button "Näin lasket myyntivoiton tai -tappion" [ref=e123]:
+                  - text: Näin lasket myyntivoiton tai -tappion
+                  - img
+              - region "Näin lasket myyntivoiton tai -tappion":
+                - generic:
+                  - heading "Myynnistä syntyy voittoa tai tappiota" [level=2] [ref=e124]
+                  - paragraph [ref=e125]: Kun myyt asunnon, sinulle tulee siitä yleensä joko myyntivoittoa eli luovutusvoittoa tai myyntitappiota eli luovutustappiota. Kun lasket voiton tai tappion määrää, vähennä asunnon myyntihinnasta
+                  - list [ref=e126]:
+                    - listitem [ref=e127]: asunnosta maksamasi ostohinta ja mahdollinen varainsiirtovero
+                    - listitem [ref=e128]: voiton hankkimiskulut, kuten välityspalkkiot ja toimitusmaksut.
+                  - paragraph [ref=e129]:
+                    - text: Jos olet saanut asunnon lahjaksi tai perinnöksi, voit vähentää myyntihinnasta lahjaverotuksessa tai perintöverotuksessa käytetyn verotusarvon. Lue lisää voiton ja tappion laskemisesta syventävän vero-ohjeen
+                    - link "Arvopaperien luovutusten verotus kohdasta 4 Luovutusvoiton ja -tappion laskeminen" [ref=e130] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/#4-luovutusvoiton--ja-tappion-laskeminen
+                    - text: .
+                  - heading "Hankintameno-olettamaa voi käyttää ostohinnan ja voiton hankkimiskulujen sijaan" [level=3] [ref=e131]
+                  - paragraph [ref=e132]: Voiton määrää laskiessasi voit halutessasi vähentää asunnon myyntihinnasta hankintameno-olettaman sen sijaan, että vähentäisit siitä asunnon ostohinnan ja voiton hankkimiskulut tai perintö- ja lahjaverotuksen verotusarvon.
+                  - list [ref=e133]:
+                    - listitem [ref=e134]: Jos olet omistanut myymäsi asunnon alle 10 vuotta, hankintameno-olettama on 20 % asunnon myyntihinnasta.
+                    - listitem [ref=e135]: Jos olet omistanut myymäsi asunnon vähintään 10 vuotta, hankintameno-olettama on 40 % asunnon myyntihinnasta.
+                  - paragraph [ref=e136]:
+                    - text: Lue lisää hankintameno-olettamasta syventävän vero-ohjeen
+                    - link "Arvopaperien luovutusten verotus kohdasta 4.2.2 Hankintameno-olettama ja omistusaika" [ref=e137] [cursor=pointer]:
+                      - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48262/#4.2.2-hankintameno-olettama-ja-omistusaika
+                    - text: .
+                  - paragraph [ref=e138]:
+                    - text: Huomaa, että jos käytät hankintameno-olettamaa, et enää saa vähentää asunnon myyntihinnasta sen ostohintaa ja voiton hankkimiskuluja.
+                    - text: "Kyseessä on siis kaksi eri vaihtoehtoa:"
+                    - strong [ref=e139]: joko
+                    - text: ostohinta + voiton hankkimiskulut (tai verotusarvo)
+                    - strong [ref=e140]: tai
+                    - text: hankintameno-olettama.
+            - generic [ref=e142]:
+              - heading "Saat asunnon myynnistä tappiota. Näin vähennät tappion." [level=3] [ref=e143] [cursor=pointer]:
+                - button "Saat asunnon myynnistä tappiota. Näin vähennät tappion." [ref=e144]:
+                  - text: Saat asunnon myynnistä tappiota. Näin vähennät tappion.
+                  - img
+              - region "Saat asunnon myynnistä tappiota. Näin vähennät tappion.":
+                - generic:
+                  - paragraph [ref=e145]: "Jos sait asunnon myynnistä tappiota, toimi näin:"
+                  - list [ref=e146]:
+                    - listitem [ref=e147]: Verohallinto ottaa sinuun yhteyttä ja pyytää lisätietoja. Saat postitse selvityspyynnön luovutusvoitosta.
+                    - listitem [ref=e148]: Tarkista ja korjaa tarvittaessa saamasi selvityspyynnön tiedot.
+                    - listitem [ref=e149]: Tarkista vielä veroilmoituksen tiedot keväällä.
+                  - heading "Miten tappio vähennetään?" [level=2] [ref=e150]
+                  - paragraph [ref=e151]: Asunnon myynnistä aiheutuneet tappiot voi vähentää sekä luovutusvoitoista että muista pääomatuloista. Luovutustappioita ei voi vähentää ansiotuloista.
+                  - paragraph [ref=e152]: Jos sinulla ei ole lainkaan pääomatuloja kaupantekovuonna tai niitä on vähemmän kuin vähennettäviä tappioita, Verohallinto vähentää luovutustappion pääomatuloista seuraavan 5 vuoden ajan.
+                  - paragraph [ref=e153]: Luovutustappio syntyy sinä vuonna, jonka aikana sitova kauppa tai muu sopimus on tehty.
+                  - paragraph [ref=e154]: Oman vakituisen asunnon myyntitappiota ei voi vähentää verotuksessa, jos saman asunnon myynnistä saatu voitto olisi ollut verovapaa.
+          - generic [ref=e155]:
+            - heading "Luovutusvoitosta maksetaan veroa pääomatulojen veroprosentin mukaan" [level=2] [ref=e156]
+            - paragraph [ref=e157]: Omaisuuden myyjä maksaa luovutusvoitosta veroa pääomatulojen veroprosentin mukaan.
+            - table "Pääomatulojen veroprosentit" [ref=e158]:
+              - caption [ref=e159]: Pääomatulojen veroprosentit
+              - rowgroup [ref=e160]:
+                - row "30 000 euroon asti 30 %" [ref=e161]:
+                  - rowheader "30 000 euroon asti" [ref=e162]
+                  - cell "30 %" [ref=e163]
+                - row "30 000 euroa ylittävältä osalta 34 %" [ref=e164]:
+                  - rowheader "30 000 euroa ylittävältä osalta" [ref=e165]
+                  - cell "34 %" [ref=e166]
+            - heading "Usein kysyttyä" [level=2] [ref=e167]
+          - generic [ref=e169]:
+            - generic [ref=e171]:
+              - heading "Myin lomaosakkeeni lomaosakefirman kautta. Pitääkö minun ilmoittaa myynnistä veroilmoituksessani?" [level=3] [ref=e172] [cursor=pointer]:
+                - button "Myin lomaosakkeeni lomaosakefirman kautta. Pitääkö minun ilmoittaa myynnistä veroilmoituksessani?" [ref=e173]:
+                  - text: Myin lomaosakkeeni lomaosakefirman kautta. Pitääkö minun ilmoittaa myynnistä veroilmoituksessani?
+                  - img
+              - region "Myin lomaosakkeeni lomaosakefirman kautta. Pitääkö minun ilmoittaa myynnistä veroilmoituksessani?":
+                - generic:
+                  - paragraph [ref=e174]: Kyllä pitää. Vaikka lomaosakkeita välittävä yritys hoitaisi myynnin puolestasi, olet itse velvollinen ilmoittamaan myynnin viimeistään veroilmoituksessasi.
+                  - paragraph [ref=e175]:
+                    - text: Ilmoita myynti
+                    - link "OmaVerossa" [ref=e176] [cursor=pointer]:
+                      - /url: /sahkoiset-asiointipalvelut/omavero/
+                    - text: veroilmoituksen kohdassa Pääomatulot – Luovutusvoitot. Jos ilmoitat paperilla, käytä lomaketta
+                    - link "9 Luovutusvoitot ja -tappiot" [ref=e177] [cursor=pointer]:
+                      - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/kuvaus/9_luovutusvoitto_tai_tappio__laskelma_3/
+                    - text: .
+                  - paragraph [ref=e178]: Luovutusvoittolaskelmassa osakkeen myyntihinnasta vähennetään ostohinta ja kauppoihin liittyvät kulut, esimerkiksi välityspalkkio.
+                  - paragraph [ref=e179]:
+                    - text: Jos myynnistä syntyy
+                    - strong [ref=e180]: voittoa
+                    - text: ", se verotetaan pääomatuloveroprosentin mukaan. Vero on 30 % myyntivoitosta. Jos pääomatulosi ylittävät 30 000 euroa, vero on sen ylittävältä osalta 34 %."
+                  - paragraph [ref=e181]:
+                    - text: Jos myynnistä syntyy
+                    - strong [ref=e182]: tappiota
+                    - text: ", tappio vähennetään muista luovutusvoitoista tai muista saman vuoden pääomatuloista. Luovutustappiota ei voi vähentää ansiotuloista, eli esimerkiksi palkkatuloista. Jos sinulla ei ole lainkaan pääomatuloja kaupantekovuonna tai niitä on vähemmän kuin vähennettäviä tappioita, Verohallinto vähentää luovutustappion pääomatuloista seuraavan 5 vuoden ajan."
+            - generic [ref=e184]:
+              - heading "Omistan asunnon ja muutin paperisen osakekirjani sähköiseksi huoneistotietojärjestelmää varten. Voinko vähentää rekisteröintimaksun vuokratuloista tai muuten verotuksessa?" [level=3] [ref=e185] [cursor=pointer]:
+                - button "Omistan asunnon ja muutin paperisen osakekirjani sähköiseksi huoneistotietojärjestelmää varten. Voinko vähentää rekisteröintimaksun vuokratuloista tai muuten verotuksessa?" [ref=e186]:
+                  - text: Omistan asunnon ja muutin paperisen osakekirjani sähköiseksi huoneistotietojärjestelmää varten. Voinko vähentää rekisteröintimaksun vuokratuloista tai muuten verotuksessa?
+                  - img
+              - region "Omistan asunnon ja muutin paperisen osakekirjani sähköiseksi huoneistotietojärjestelmää varten. Voinko vähentää rekisteröintimaksun vuokratuloista tai muuten verotuksessa?":
+                - generic:
+                  - paragraph [ref=e187]: Vuokratuloista et voi vähentää huoneistotietojärjestelmän rekisteröintimaksua tai muita kuluja osakekirjan muuttamisesta sähköiseen muotoon. Sen sijaan voit vähentää nämä kulut luovutusvoittoverotuksessa, jos myyt asunnon myöhemmin. Merkitse silloin kulut luovutusvoittolaskelman kohtaan hankintameno.
+                  - paragraph [ref=e188]: Jos kyseessä on oman vakituisen asunnon luovutus, joka on muutenkin verovapaa, osakekirjan rekisteröinnistä aiheutuvia kuluja ei voi vähentää verotuksessa.
+                  - paragraph [ref=e189]: Luovutusvoitosta vähennettäviä kuluja ovat esimerkiksi
+                  - list [ref=e190]:
+                    - listitem [ref=e191]: Maanmittauslaitoksen veloittama rekisteröintimaksu asunto-osakkeen omistajalta (tällä hetkellä 89 euroa)
+                    - listitem [ref=e192]: pankin perimät kulut, jos pankki hoitaa omistajan puolesta paperisen osakekirjan rekisteröinnin sähköiseksi
+                    - listitem [ref=e193]: kulut, jotka aiheutuvat kadonneen osakekirjan mitätöimisestä, jotta omistusoikeus voidaan kirjata huoneistotietojärjestelmään.
+            - generic [ref=e195]:
+              - paragraph [ref=e196]: Huomio alkaa.
+              - heading "Syventävät vero-ohjeet" [level=3] [ref=e197]
+              - generic [ref=e198]:
+                - paragraph [ref=e199]:
+                  - link "Omaisuuden luovutusvoitot ja -tappiot luonnollisen henkilön tuloverotuksessa" [ref=e200] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48935/
+                - paragraph [ref=e201]:
+                  - link "Verovapaa oman asunnon luovutus" [ref=e202] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/ohje-hakusivu/48921/
+              - paragraph [ref=e203]: Huomio päättyy
+        - navigation "Osion alasivut" [ref=e204]:
+          - heading "Asunnon myynti" [level=3] [ref=e205]:
+            - link "Asunnon myynti" [ref=e206] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - link "Oman asunnon myynti" [ref=e212] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/oman-asunnon-myynti/
+            - listitem [ref=e213]:
+              - link "Koti-irtaimiston myynti" [ref=e215] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/kotiirtaimiston-myynti/
+            - listitem [ref=e216]:
+              - link "Ulkomailla sijaitsevan asunnon myynti" [ref=e218] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/ulkomailla-sijaitsevan-asunnon-myynti/
+            - listitem [ref=e219]:
+              - link "Näin ilmoitat omaisuuden myynnin OmaVerossa" [ref=e221] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/omaisuus/asunnon-myynti/nain-ilmoitat-omaisuuden-myynnin-omaverossa/
+        - separator [ref=e222]
+        - generic [ref=e225]:
+          - heading "Mitä mieltä olet tästä sisällöstä?" [level=2] [ref=e227]
+          - group "Mitä mieltä olet tästä sisällöstä?" [ref=e228]:
+            - button "Löysin etsimäni" [ref=e230] [cursor=pointer]:
+              - generic [ref=e231]: Löysin etsimäni
+            - button "Selkeää" [ref=e233] [cursor=pointer]:
+              - generic [ref=e234]: Selkeää
+            - button "Epäselvää" [ref=e236] [cursor=pointer]:
+              - generic [ref=e237]: Epäselvää
+            - button "En löytänyt etsimääni" [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]: En löytänyt etsimääni
+        - generic [ref=e241]: Sivu on viimeksi päivitetty 26.3.2026
+      - generic [ref=e246]:
+        - heading "Luovu paperikirjeistä" [level=2] [ref=e247]
+        - paragraph [ref=e249]: Ota käyttöön Suomi.fi-viestit tai valitse sähköinen veroposti OmaVerossa.
+        - link "Suomi.fi-viestit ja sähköinen veroposti" [ref=e250] [cursor=pointer]:
+          - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/suomi.fi-viestit
+          - text: Suomi.fi-viestit ja sähköinen veroposti
+          - img
+    - contentinfo [ref=e251]:
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - heading "Asioi verkossa" [level=2] [ref=e256]
+            - list [ref=e258]:
+              - listitem [ref=e259]:
+                - link "OmaVero" [ref=e261] [cursor=pointer]:
+                  - /url: /sahkoiset-asiointipalvelut/omavero/
+              - listitem [ref=e262]:
+                - link "Laskurit" [ref=e264] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/verohallinnon_laskuri/
+              - listitem [ref=e265]:
+                - link "Kaikki verkkoasiointipalvelut" [ref=e267] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/
+              - listitem [ref=e268]:
+                - link "Positiivinen luottotietorekisteri" [ref=e270] [cursor=pointer]:
+                  - /url: /positiivinenluottotietorekisteri/
+              - listitem [ref=e271]:
+                - link "Tulorekisteri" [ref=e273] [cursor=pointer]:
+                  - /url: /tulorekisteri/
+          - generic [ref=e274]:
+            - heading "Yhteystiedot" [level=2] [ref=e275]
+            - list [ref=e277]:
+              - listitem [ref=e278]:
+                - link "Chat" [ref=e280] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/chattaile_verottajan_kanss/
+              - listitem [ref=e281]:
+                - link "Yhteystiedot ja asiointi" [ref=e283] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/
+              - listitem [ref=e284]:
+                - link "Sosiaalinen media" [ref=e286] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysy-sosiaalisessa-mediassa/
+              - listitem [ref=e287]:
+                - link "Paperilomakkeet" [ref=e289] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/lomakkeet/
+              - listitem [ref=e290]:
+                - link "Käsittelyajat" [ref=e292] [cursor=pointer]:
+                  - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/k%C3%A4sittelyajat/
+          - generic [ref=e293]:
+            - heading "Syventävät vero-ohjeet" [level=2] [ref=e294]
+            - generic [ref=e298]:
+              - paragraph [ref=e299]: Syventävät vero-ohjeet on tarkoitettu erityisesti verotuksen ammattilaisille.
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - link "Syventävät vero-ohjeet" [ref=e303] [cursor=pointer]:
+                    - /url: /syventavat-vero-ohjeet/
+          - generic [ref=e304]:
+            - heading "Verohallinto" [level=2] [ref=e305]
+            - generic [ref=e309]:
+              - paragraph [ref=e310]: Tietoa Verohallinnosta ja avoimista työpaikoista sekä ajankohtaisia uutisia ja tilastoja.
+              - list [ref=e311]:
+                - listitem [ref=e312]:
+                  - link "Tietoa Verohallinnosta" [ref=e314] [cursor=pointer]:
+                    - /url: /tietoa-verohallinnosta/
+        - list [ref=e317]:
+          - listitem [ref=e318]: © Verohallinto
+          - listitem [ref=e319]:
+            - link "Tietosuoja" [ref=e321] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/verohallinnon_esittely/tietosuoja-ja-julkisuus/tietojen_kasittely_ja_tietosuoj/
+          - listitem [ref=e322]:
+            - link "Palaute" [ref=e324] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/kysymykset-ja-asiakaspalautteet/
+          - listitem [ref=e325]:
+            - link "Saavutettavuusseloste" [ref=e327] [cursor=pointer]:
+              - /url: /tietoa-verohallinnosta/yhteystiedot-ja-asiointi/asioi-verkossa/tietoa-s%C3%A4hk%C3%B6isest%C3%A4-asioinnista/saavutettavuus/saavutettavuusseloste-verofi/
+          - listitem [ref=e328]:
+            - link "Tulosta" [ref=e330] [cursor=pointer]:
+              - /url: javascript:window.print()
+      - link "Takaisin ylös":
+        - /url: "#top"
+        - img
+  - generic:
+    - dialog "Chatpanel"
+  - button "Chat" [ref=e332] [cursor=pointer]:
+    - img [ref=e333]
+    - paragraph [ref=e335]: Chatbot

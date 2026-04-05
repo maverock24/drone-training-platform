@@ -1,0 +1,382 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwic957qu9aTAxV9U1UIHZYvK_AQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: Coptrz OR "UAV Hub" OR "ICARUS drone academy" OR "Drone Pilot Academy" OR "DroneDeploy Academy" EASA training course Europe Coptrz OR "UAV Hub" OR "ICARUS drone academy" OR "Drone Pilot Academy" OR "DroneDeploy Academy" EASA training course Europe
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DCoptrz%2BOR%2B%2522UAV%2BHub%2522%2BOR%2B%2522ICARUS%2Bdrone%2Bacademy%2522%2BOR%2B%2522Drone%2BPilot%2BAcademy%2522%2BOR%2B%2522DroneDeploy%2BAcademy%2522%2BEASA%2Btraining%2Bcourse%2BEurope&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&udm=50&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2y1PoGjr9wjtd-tUt1u78VstCpFnjlgxCW5ZmSvu7QU3npwv9WEx7hqc6Z9K78h0VH68jYU75x0tZZpFM1QxkwH5qZFvhxbLDlTGUIGrsRvRGYM4kaOE0c4yyUOYEimU7ITyKHPdhacynnGygjvARG7rcR7_&aep=1&ntc=1&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Videot" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=7&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2y1PoGjr9wjtd-tUt1u78VstCpFnjlgxCW5ZmSvu7QU3npwv9WEx7hqc6Z9K78h0VH68jYU75x0tZZpFM1QxkwH5qZFvhxbLDlTGUIGrsRvRGYM4kaOE0c4yyUOYEimU7ITyKHPdhacynnGygjvARG7rcR7_&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQtKgLegQIFhAB
+              - generic [ref=e90]: Videot
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=39&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2y1PoGjr9wjtd-tUt1u78VstCpFnjlgxCW5ZmSvu7QU3npwv9WEx7hqc6Z9K78h0VH68jYU75x0tZZpFM1QxkwH5qZFvhxbLDlTGUIGrsRvRGYM4kaOE0c4yyUOYEimU7ITyKHPdhacynnGygjvARG7rcR7_&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Kuvahaku" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=2&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2y1PoGjr9wjtd-tUt1u78VstCpFnjlgxCW5ZmSvu7QU3npwv9WEx7hqc6Z9K78h0VH68jYU75x0tZZpFM1QxkwH5qZFvhxbLDlTGUIGrsRvRGYM4kaOE0c4yyUOYEimU7ITyKHPdhacynnGygjvARG7rcR7_&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQtKgLegQIExAB
+              - generic [ref=e98]: Kuvahaku
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&udm=web&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2y1PoGjr9wjtd-tUt1u78VstCpFnjlgxCW5ZmSvu7QU3npwv9WEx7hqc6Z9K78h0VH68jYU75x0tZZpFM1QxkwH5qZFvhxbLDlTGUIGrsRvRGYM4kaOE0c4yyUOYEimU7ITyKHPdhacynnGygjvARG7rcR7_&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQs6gLegQIFBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=a73392c086c649e8&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&udm=36&source=lnms&fbs=ADc_l-aA3I5fD9qDOaGc58xu5Qn0YoRqsnpcZztwM3KalXFP2y1PoGjr9wjtd-tUt1u78VstCpFnjlgxCW5ZmSvu7QU3npwv9WEx7hqc6Z9K78h0VH68jYU75x0tZZpFM1QxkwH5qZFvhxbLDlTGUIGrsRvRGYM4kaOE0c4yyUOYEimU7ITyKHPdhacynnGygjvARG7rcR7_&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DCoptrz%2BOR%2B%2522UAV%2BHub%2522%2BOR%2B%2522ICARUS%2Bdrone%2Bacademy%2522%2BOR%2B%2522Drone%2BPilot%2BAcademy%2522%2BOR%2B%2522DroneDeploy%2BAcademy%2522%2BEASA%2Btraining%2Bcourse%2BEurope&hl=en&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQhoQCKAF6BAgKEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQiIQCKAN6BAgKEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "GVC Drone Training Course Coptrz https://coptrz.com › shop › gvc-dr..." [ref=e180] [cursor=pointer]:
+                  - /url: https://coptrz.com/shop/training/gvc-drone-training-course/
+                  - heading "GVC Drone Training Course" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Coptrz
+                    - generic [ref=e190]: https://coptrz.com › shop › gvc-dr...
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://coptrz.com/shop/training/gvc-drone-training-course/
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e201]:
+                - text: Gain your GVC drone certification with our OFQUAL Level 4 accredited
+                - emphasis [ref=e202]: training
+                - text: ", designed to build real expertise and industry-ready skills."
+              - generic [ref=e204]:
+                - text: "Puuttuu: Europe ‎| Hae tällä:"
+                - link "Europe" [ref=e205] [cursor=pointer]:
+                  - /url: /search?sca_esv=a73392c086c649e8&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+%22Europe%22&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ5t4CegQIGBAB
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e211]
+              - button "Tietoja tästä tuloksesta" [ref=e212] [cursor=pointer]:
+                - img [ref=e215]
+            - generic [ref=e217]:
+              - button "How much is a GVC licence?" [ref=e223] [cursor=pointer]:
+                - generic [ref=e225]: How much is a GVC licence?
+                - img [ref=e228]
+              - button "Which drone course is best?" [ref=e237] [cursor=pointer]:
+                - generic [ref=e239]: Which drone course is best?
+                - img [ref=e242]
+              - button "Is there a demand for drone pilots?" [ref=e251] [cursor=pointer]:
+                - generic [ref=e253]: Is there a demand for drone pilots?
+                - img [ref=e256]
+              - button "How long does a GVC last?" [ref=e265] [cursor=pointer]:
+                - generic [ref=e267]: How long does a GVC last?
+                - img [ref=e270]
+          - generic [ref=e275]:
+            - heading "Web results" [level=2] [ref=e276]
+            - generic [ref=e277]:
+              - generic [ref=e280]:
+                - link "**Has anyone got any recommendations as to where to do ... Facebook · Drones UK Yli 10 kommenttia · 1 vuosi sitten" [ref=e282] [cursor=pointer]:
+                  - /url: https://www.facebook.com/groups/903879063054302/posts/7750159131759560/
+                  - heading "**Has anyone got any recommendations as to where to do ..." [level=3] [ref=e283]
+                  - generic [ref=e288]:
+                    - generic [ref=e290]: Facebook · Drones UK
+                    - generic [ref=e292]: Yli 10 kommenttia · 1 vuosi sitten
+                - button "Tietoja tästä tuloksesta" [ref=e293] [cursor=pointer]:
+                  - img [ref=e296]
+              - generic [ref=e300]:
+                - text: Does anyone here passed the A2
+                - emphasis [ref=e301]: EASA
+                - text: exam and knows where I can find the
+                - emphasis [ref=e302]: training course
+                - text: documentation? ...
+                - emphasis [ref=e303]: UAV hub
+                - text: for the
+                - emphasis [ref=e304]: training
+                - text: . Brilliant ...
+              - generic [ref=e309]:
+                - generic [ref=e310]: "Paras vastaus:"
+                - generic [ref=e311]: Luxembourg - FREE In English too https://learningzone.eurocontrol.int/ilp/pages/course-description.jsf?courseId=20790571&catalogId=8264768&isTemplate=false
+          - generic [ref=e315]:
+            - generic [ref=e318]:
+              - 'link "Coptrz Academy: Your Drone Training Hub | PDF Scribd https://www.scribd.com › document" [ref=e320] [cursor=pointer]':
+                - /url: https://www.scribd.com/document/773089936/Training-Brochure-by-Coptrz-Reduced
+                - 'heading "Coptrz Academy: Your Drone Training Hub | PDF" [level=3] [ref=e321]'
+                - generic [ref=e326]:
+                  - generic [ref=e328]: Scribd
+                  - generic [ref=e330]: https://www.scribd.com › document
+              - generic [ref=e331]:
+                - generic [ref=e332]: ·
+                - link "Käännä tämä sivu" [ref=e333] [cursor=pointer]:
+                  - /url: https://www.scribd.com/document/773089936/Training-Brochure-by-Coptrz-Reduced
+              - button "Tietoja tästä tuloksesta" [ref=e334] [cursor=pointer]:
+                - img [ref=e337]
+            - generic [ref=e340]:
+              - generic [ref=e341]: 25.9.2024 —
+              - generic [ref=e342]:
+                - emphasis [ref=e343]: course
+                - text: is broken up into five modules and is delivered live through online workshops. Benefits What you'll cover on the
+                - emphasis [ref=e344]: course
+                - text: ": • An approved ..."
+          - generic [ref=e348]:
+            - generic [ref=e351]:
+              - link "UAVHUB | CAA Drone Training | Blog | Insider UAVHub https://blog.uavhub.com › tag › ins..." [ref=e353] [cursor=pointer]:
+                - /url: https://blog.uavhub.com/tag/insider
+                - heading "UAVHUB | CAA Drone Training | Blog | Insider" [level=3] [ref=e354]
+                - generic [ref=e359]:
+                  - generic [ref=e361]: UAVHub
+                  - generic [ref=e363]: https://blog.uavhub.com › tag › ins...
+              - generic [ref=e364]:
+                - generic [ref=e365]: ·
+                - link "Käännä tämä sivu" [ref=e366] [cursor=pointer]:
+                  - /url: https://blog.uavhub.com/tag/insider
+              - button "Tietoja tästä tuloksesta" [ref=e367] [cursor=pointer]:
+                - img [ref=e370]
+            - generic [ref=e374]:
+              - text: Insider | UAVHUB Blog - Get all the latest UK
+              - emphasis [ref=e375]: CAA
+              - text: Drone
+              - emphasis [ref=e376]: Training
+              - text: and Drone Industry News in the UK as well as independent tips on how to safely operate ...
+          - generic [ref=e380]:
+            - generic [ref=e383]:
+              - 'link "Become A Drone Pilot: Resilient Pilot Coptrz https://coptrz.com › Blog" [ref=e385] [cursor=pointer]':
+                - /url: https://coptrz.com/blog/become-a-drone-pilot-resilient-pilot/
+                - 'heading "Become A Drone Pilot: Resilient Pilot" [level=3] [ref=e386]'
+                - generic [ref=e391]:
+                  - generic [ref=e393]: Coptrz
+                  - generic [ref=e395]: https://coptrz.com › Blog
+              - generic [ref=e396]:
+                - generic [ref=e397]: ·
+                - link "Käännä tämä sivu" [ref=e398] [cursor=pointer]:
+                  - /url: https://coptrz.com/blog/become-a-drone-pilot-resilient-pilot/
+              - button "Tietoja tästä tuloksesta" [ref=e399] [cursor=pointer]:
+                - img [ref=e402]
+            - generic [ref=e405]:
+              - generic [ref=e406]: 2.2.2026 —
+              - generic [ref=e407]:
+                - text: Learn everything you need to know about becoming a drone pilot with our GVC
+                - emphasis [ref=e408]: training
+                - text: guide. Get a full
+                - emphasis [ref=e409]: course
+                - text: roadmap to understand every step ...
+          - generic [ref=e413]:
+            - generic [ref=e416]:
+              - 'link "Coptrz at 10: A Decade Growing Alongside UK Drone ... LinkedIn · Coptrz Yli 10 reaktiota · 3 viikkoa sitten" [ref=e418] [cursor=pointer]':
+                - /url: https://www.linkedin.com/pulse/coptrz-10-decade-growing-alongside-uk-drone-regulation-coptrz-lrs5e
+                - 'heading "Coptrz at 10: A Decade Growing Alongside UK Drone ..." [level=3] [ref=e419]'
+                - generic [ref=e424]:
+                  - generic [ref=e426]: LinkedIn · Coptrz
+                  - generic [ref=e428]: Yli 10 reaktiota · 3 viikkoa sitten
+              - button "Tietoja tästä tuloksesta" [ref=e429] [cursor=pointer]:
+                - img [ref=e432]
+            - generic [ref=e436]:
+              - emphasis [ref=e437]: Coptrz
+              - text: invested heavily in building one of the UK's largest drone
+              - emphasis [ref=e438]: training
+              - text: academies, developing new
+              - emphasis [ref=e439]: courses
+              - text: ", expanding flight test locations ..."
+          - generic [ref=e443]:
+            - generic [ref=e446]:
+              - link "Drone Training Courses Drone Pilot Academy https://www.dronepilotacademy.co.uk › ..." [ref=e448] [cursor=pointer]:
+                - /url: https://www.dronepilotacademy.co.uk/product-category/courses/
+                - heading "Drone Training Courses" [level=3] [ref=e449]
+                - generic [ref=e454]:
+                  - generic [ref=e456]: Drone Pilot Academy
+                  - generic [ref=e458]: https://www.dronepilotacademy.co.uk › ...
+              - generic [ref=e459]:
+                - generic [ref=e460]: ·
+                - link "Käännä tämä sivu" [ref=e461] [cursor=pointer]:
+                  - /url: https://www.dronepilotacademy.co.uk/product-category/courses/
+              - button "Tietoja tästä tuloksesta" [ref=e462] [cursor=pointer]:
+                - img [ref=e465]
+            - generic [ref=e469]:
+              - emphasis [ref=e470]: Drone Pilot Academy
+              - text: Ltd sets the standard for drone
+              - emphasis [ref=e471]: training
+              - text: in the UK. Highly recommended for anyone serious about becoming a competent and certified drone ...
+            - generic [ref=e473]:
+              - text: "Puuttuu: Europe ‎| Hae tällä:"
+              - link "Europe" [ref=e474] [cursor=pointer]:
+                - /url: /search?sca_esv=a73392c086c649e8&q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+%22Europe%22&sa=X&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ5t4CegQIWBAB
+          - generic [ref=e478]:
+            - generic [ref=e481]:
+              - link "Read Customer Service Reviews of uavhub.com | 6 of 296 Trustpilot https://www.trustpilot.com › review" [ref=e483] [cursor=pointer]:
+                - /url: https://www.trustpilot.com/review/uavhub.com?page=6
+                - heading "Read Customer Service Reviews of uavhub.com | 6 of 296" [level=3] [ref=e484]
+                - generic [ref=e489]:
+                  - generic [ref=e491]: Trustpilot
+                  - generic [ref=e493]: https://www.trustpilot.com › review
+              - generic [ref=e494]:
+                - generic [ref=e495]: ·
+                - link "Käännä tämä sivu" [ref=e496] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/review/uavhub.com?page=6
+              - button "Tietoja tästä tuloksesta" [ref=e497] [cursor=pointer]:
+                - img [ref=e500]
+            - generic [ref=e504]:
+              - emphasis [ref=e505]: UAV Hub
+              - text: delivers exactly what you need without any fluff. The
+              - emphasis [ref=e506]: course
+              - text: is well structured, easy to follow, and focused on real-world, legal flying — not just ...
+            - generic [ref=e509]:
+              - img "Arvio 5,0/5 (6 899) käyttäjäarvostelua" [ref=e511]:
+                - text: 5,0
+                - img [ref=e512]
+                - text: (6 899)
+              - button [ref=e517]:
+                - img [ref=e519]
+          - generic [ref=e524]:
+            - generic [ref=e527]:
+              - link "Careers as a drone operator for Armed Forces leavers Questonline.co.uk https://www.questonline.co.uk › dr..." [ref=e529] [cursor=pointer]:
+                - /url: https://www.questonline.co.uk/careers/career/drones-training
+                - heading "Careers as a drone operator for Armed Forces leavers" [level=3] [ref=e530]
+                - generic [ref=e535]:
+                  - generic [ref=e537]: Questonline.co.uk
+                  - generic [ref=e539]: https://www.questonline.co.uk › dr...
+              - generic [ref=e540]:
+                - generic [ref=e541]: ·
+                - link "Käännä tämä sivu" [ref=e542] [cursor=pointer]:
+                  - /url: https://www.questonline.co.uk/careers/career/drones-training
+              - button "Tietoja tästä tuloksesta" [ref=e543] [cursor=pointer]:
+                - img [ref=e546]
+            - generic [ref=e550]:
+              - text: These
+              - emphasis [ref=e551]: courses
+              - text: will cover both theoretical and practical
+              - emphasis [ref=e552]: training
+              - text: "required for commercial drone operations. Plan Early: Start researching and applying for ..."
+          - generic [ref=e556]:
+            - generic [ref=e559]:
+              - link "**Interested in flying drones legally in the EU?** There is an ** ... Facebook https://www.facebook.com › groups › djibg › posts" [ref=e561] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/djibg/posts/2082350715665051/
+                - heading "**Interested in flying drones legally in the EU?** There is an ** ..." [level=3] [ref=e562]
+                - generic [ref=e567]:
+                  - generic [ref=e569]: Facebook
+                  - generic [ref=e571]: https://www.facebook.com › groups › djibg › posts
+              - button "Tietoja tästä tuloksesta" [ref=e572] [cursor=pointer]:
+                - img [ref=e575]
+            - generic [ref=e579]:
+              - text: Hi, I'm a newbie to flying although I have passed my GVC with
+              - emphasis [ref=e580]: UAV Hub
+              - text: . Does anyone know of any rules or regulations for Norway? I'm hoping to use my Mavic 2 ...
+        - navigation [ref=e583]:
+          - heading "Sivuilla liikkuminen" [level=1] [ref=e584]
+          - text: "1"
+          - link "Page 2" [ref=e587] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=10&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAE
+            - text: "2"
+          - link "Page 3" [ref=e589] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=20&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAG
+            - text: "3"
+          - link "Page 4" [ref=e591] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=30&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAI
+            - text: "4"
+          - link "Page 5" [ref=e593] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=40&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAK
+            - text: "5"
+          - link "Page 6" [ref=e595] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=50&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAM
+            - text: "6"
+          - link "Page 7" [ref=e597] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=60&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAO
+            - text: "7"
+          - link "Page 8" [ref=e599] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=70&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAQ
+            - text: "8"
+          - link "Page 9" [ref=e601] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=80&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAS
+            - text: "9"
+          - link "Page 10" [ref=e603] [cursor=pointer]:
+            - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=90&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8tMDegQIWhAU
+            - text: "10"
+          - heading "Seuraava" [level=2] [ref=e605]:
+            - link "Seuraava" [ref=e606] [cursor=pointer]:
+              - /url: /search?q=Coptrz+OR+%22UAV+Hub%22+OR+%22ICARUS+drone+academy%22+OR+%22Drone+Pilot+Academy%22+OR+%22DroneDeploy+Academy%22+EASA+training+course+Europe&sca_esv=a73392c086c649e8&ei=vTTSadykO_2m1fIPlt-sgQ8&start=10&sa=N&sstk=Af77f_fkhn0IKUX-0CkHre66LdK3oOeLeJxRjp5BCD9i9j92GoJ3p2Zg8GhgK6Ax3vzuyVH6NJVODE4ci43qDgU96kN14MW9U-3Pog&ved=2ahUKEwic957qu9aTAxV9U1UIHZYvK_AQ8NMDegQIWhAW
+              - generic [ref=e608]: Seuraava
+        - navigation
+    - contentinfo [ref=e609]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e610]
+      - generic [ref=e614]:
+        - generic [ref=e616]:
+          - text: Suomi
+          - generic [ref=e618]:
+            - button "00920, Helsinki - Perustuu aiempaan toimintaasi" [ref=e620] [cursor=pointer]:
+              - generic [ref=e621]: 00920, Helsinki
+              - generic [ref=e623]:
+                - text: "-"
+                - generic [ref=e624]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e626] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e629]:
+          - link "Ohje" [ref=e630] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e631] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e632] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e633] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

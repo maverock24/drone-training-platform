@@ -1,0 +1,67 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e6]:
+          - link "Helsinki logo" [ref=e8] [cursor=pointer]:
+            - /url: https://www.hel.fi/en
+            - img "Helsinki logo" [ref=e9]
+          - navigation "Select site language" [ref=e11]:
+            - generic [ref=e13]:
+              - link "Suomi" [ref=e15] [cursor=pointer]:
+                - /url: /fi
+              - link "Svenska" [ref=e17] [cursor=pointer]:
+                - /url: /sv
+              - link "English" [ref=e19]:
+                - /url: /en
+        - generic:
+          - navigation
+      - main [ref=e20]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "404 - Sorry, the page you were looking for was not found" [level=1] [ref=e25]
+            - paragraph [ref=e26]: Check that you have typed in the page address correctly. We may have deleted or moved the content.
+            - link "Go back to the hel.fi homepage" [ref=e27] [cursor=pointer]:
+              - /url: https://www.hel.fi/en
+            - link "Give feedback (Link leads to external service)" [ref=e28] [cursor=pointer]:
+              - /url: https://palautteet.hel.fi/en/
+              - text: Give feedback
+              - generic [ref=e30]: (Link leads to external service)
+          - 'figure "Photo: Lille Santanen" [ref=e31]':
+            - generic [ref=e32]: "Photo: Lille Santanen"
+    - contentinfo [ref=e33]:
+      - navigation "Contact us" [ref=e37]:
+        - heading "Contact us" [level=2] [ref=e38]
+        - list [ref=e39]:
+          - listitem [ref=e40]:
+            - link "Experts for media" [ref=e42] [cursor=pointer]:
+              - /url: /en/node/208
+          - listitem [ref=e43]:
+            - link "Give feedback" [ref=e45] [cursor=pointer]:
+              - /url: https://www.hel.fi/palaute
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - link "Helsinki logo" [ref=e49] [cursor=pointer]:
+            - /url: https://www.hel.fi/en
+            - img "Helsinki logo" [ref=e50]
+          - list [ref=e52]:
+            - listitem [ref=e53]:
+              - generic [ref=e56]: © City of Helsinki 2026
+            - listitem [ref=e57]:
+              - link "Accessibility statement" [ref=e59] [cursor=pointer]:
+                - /url: https://www.hel.fi/en/decision-making/information-on-helsinki/statistics-and-life-in-helsinki/accessibility/accessibility-statement
+            - listitem [ref=e60]:
+              - link "About hel.fi" [ref=e62] [cursor=pointer]:
+                - /url: https://www.hel.fi/about
+            - listitem [ref=e63]:
+              - link "Data protection" [ref=e65] [cursor=pointer]:
+                - /url: https://www.hel.fi/en/decision-making/information-on-helsinki/data-protection-and-information-management/data-protection
+            - listitem [ref=e66]:
+              - link "Cookie settings" [ref=e68] [cursor=pointer]:
+                - /url: /en/cookie-settings
+        - link "Back to top" [ref=e69] [cursor=pointer]:
+          - /url: "#skip-to-main"
+          - text: Back to top
+          - img [ref=e70]

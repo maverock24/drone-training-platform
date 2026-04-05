@@ -1,0 +1,326 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Siirry sisältöön" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - navigation "Muut sivustot" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Sinulle" [ref=e10] [cursor=pointer]:
+              - /url: /sinulle
+          - listitem [ref=e11]:
+            - link "Yrityksille" [ref=e12] [cursor=pointer]:
+              - /url: /yrityksille
+          - listitem [ref=e13]:
+            - link "Private Banking" [ref=e14] [cursor=pointer]:
+              - /url: /private-banking
+          - listitem [ref=e15]:
+            - button "Muut sivustot" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20]:
+                - generic [ref=e22]: Muut sivustot
+                - img [ref=e23]
+      - generic [ref=e27]:
+        - navigation "Main navigation" [ref=e28]:
+          - link "Danske Bank" [ref=e29] [cursor=pointer]:
+            - /url: /sinulle
+            - generic [ref=e30]:
+              - img "Danske Bank"
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - button "Lainat" [ref=e34] [cursor=pointer]
+            - listitem [ref=e35]:
+              - button "Säästä ja sijoita" [ref=e36] [cursor=pointer]
+            - listitem [ref=e37]:
+              - button "Päivittäispalvelut" [ref=e38] [cursor=pointer]
+            - listitem [ref=e39]:
+              - button "Elämäni" [ref=e40] [cursor=pointer]
+            - listitem [ref=e41]:
+              - link "Asiakastuki" [ref=e42] [cursor=pointer]:
+                - /url: /sinulle/asiakaspalvelu
+            - listitem [ref=e43]:
+              - button "Asiakkuus ja edut" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "EN" [ref=e49] [cursor=pointer]:
+                - /url: /en
+            - listitem [ref=e50]:
+              - link "SV" [ref=e51] [cursor=pointer]:
+                - /url: /se
+          - button "Hae" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+          - button "Kirjaudu" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Kirjaudu
+            - img [ref=e60]
+  - main [ref=e62]:
+    - generic [ref=e73]:
+      - heading "Isompi koti unelmissa?" [level=2] [ref=e74]
+      - paragraph [ref=e75]: Nyt on hyvä hetki vaihtaa asuntoa
+      - paragraph [ref=e76]:
+        - link "Aloita tästä" [ref=e77] [cursor=pointer]:
+          - /url: /sinulle/lainat/asuntolaina
+    - generic [ref=e80]:
+      - link "Katso ensiasunnon ostajan edut" [ref=e87] [cursor=pointer]:
+        - /url: /sinulle/elamantilanteeni/asuntokaupoilla/ensiasunto/ensiasunnon-ostajan-edut
+      - link "Korkeakoulutettu, hyödynnä asuntolainaetusi" [ref=e94] [cursor=pointer]:
+        - /url: /sinulle/tule-asiakkaaksi/yhteistyokumppaneiden-jasenedut/akava-edut/asuntolainaetu
+      - link "Siirrä asuntolainasi meille" [ref=e101] [cursor=pointer]:
+        - /url: /sinulle/lainat/asuntolaina/asuntolainan-siirto-toisesta-pankista
+      - link "Kokeile, paljonko voisit saada asuntolainaa" [ref=e108] [cursor=pointer]:
+        - /url: /sinulle/tyokalut/asuntolainalaskuri
+    - generic [ref=e111]:
+      - generic [ref=e117]:
+        - heading "Liitä Plussa maksukorttiisi nyt veloituksetta" [level=2] [ref=e118]
+        - paragraph [ref=e119]: Hyödynnä kanta-asiakasedut ja maksa ostokset yhdellä kortilla.
+        - paragraph [ref=e120]:
+          - link "Näin liität K-Plussan korttiisi" [ref=e121] [cursor=pointer]:
+            - /url: /sinulle/paivittaispalvelut/kortit/mastercard-k-plussa
+      - generic [ref=e127]:
+        - heading "Entä jos tekisit sijoittamisesta arjen tavan?" [level=2] [ref=e128]
+        - paragraph [ref=e129]: Monet kuukausisäästävät rahastoihin, mutta nyt voit automatisoida kuukausisäästämisen kätevästi myös osakkeisiin.
+        - paragraph [ref=e130]:
+          - link "Aloita kuukausisäästäminen osakkeisiin" [ref=e131] [cursor=pointer]:
+            - /url: /sinulle/saastaminen-ja-sijoittaminen/kuukausisaastaminen/kuukausisaasta-osakkeisiin
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - heading "Ajankohtaista" [level=2] [ref=e137]: Ajankohtaista
+          - text: Torstaina 2.4. asiakaspalvelumme palvelee klo 9–14 ja Helsingin Ratapihantien infopiste klo 10–13. Palvelumme ovat suljettuna 3. ja 6.4. Korttisulkupalvelu palvelee ympäri vuorokauden. Rauhallista pääsiäistä!
+          - separator [ref=e138]
+          - generic [ref=e139]:
+            - heading "Kysyttyä" [level=3] [ref=e140]
+            - list [ref=e141]:
+              - listitem [ref=e142]:
+                - link "Mitä tehdä kun kirjautuminen ei onnistu?" [ref=e143] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/pankkitunnukset?section=ongelmat
+                  - text: Mitä tehdä kun kirjautuminen ei onnistu?
+                  - img [ref=e145]
+              - listitem [ref=e147]:
+                - link "Miten saan pankkitunnukset?" [ref=e148] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/pankkitunnukset
+                  - text: Miten saan pankkitunnukset?
+                  - img [ref=e150]
+            - link "Lisää usein kysyttyjä kysymyksiä" [ref=e152] [cursor=pointer]:
+              - /url: /sinulle/asiakaspalvelu
+          - separator [ref=e153]
+        - generic [ref=e154]:
+          - heading "Uutiset" [level=2] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - 'link "Lähi-idän konflikti aiheuttaa heiluntaa osakemarkkinoilla: Sijoittaja, säilytä maltti" [ref=e158] [cursor=pointer]':
+                - /url: /sinulle/artikkelit/2026/03/lahi-idan-konflikti-aiheuttaa-heiluntaa-osakemarkkinoilla
+                - text: "Lähi-idän konflikti aiheuttaa heiluntaa osakemarkkinoilla: Sijoittaja, säilytä maltti"
+                - img [ref=e160]
+            - listitem [ref=e162]:
+              - 'link "Energian hintasokki nostaa korko-odotuksia: vaikutukset yrityksiin ja asuntovelallisiin" [ref=e163] [cursor=pointer]':
+                - /url: /yrityksille/artikkelit/artikkelit/2026/energian-hintasokki-nostaa-korko-odotuksia
+                - text: "Energian hintasokki nostaa korko-odotuksia: vaikutukset yrityksiin ja asuntovelallisiin"
+                - img [ref=e165]
+            - listitem [ref=e167]:
+              - link "Osakesäästötilistä kaikki hyöty irti – lue asiantuntijan vinkit" [ref=e168] [cursor=pointer]:
+                - /url: /sinulle/artikkelit/2026/03/osakesaastotilista-kaikki-hyoty-irti
+                - text: Osakesäästötilistä kaikki hyöty irti – lue asiantuntijan vinkit
+                - img [ref=e170]
+          - link "Lisää artikkeleita" [ref=e172] [cursor=pointer]:
+            - /url: /sinulle/artikkelit/arkisto/artikkelit
+    - generic [ref=e174]:
+      - generic [ref=e177]:
+        - heading "Mitä sinun elämääsi kuuluu juuri nyt?" [level=2] [ref=e178]
+        - paragraph [ref=e179]: Me opastamme sinua elämän suurissa käänteissä.
+      - generic [ref=e180]:
+        - link "Ostan oman kodin Lue lisää" [ref=e182] [cursor=pointer]:
+          - /url: /sinulle/lainat/asuntolaina
+          - heading "Ostan oman kodin" [level=3] [ref=e185]
+          - generic [ref=e187]:
+            - text: Lue lisää
+            - img [ref=e188]
+        - link "Pääsin opiskelemaan Lue lisää" [ref=e191] [cursor=pointer]:
+          - /url: /sinulle/elamantilanteeni/omaan-talouteen/opiskelu/opiskelijan-talous
+          - heading "Pääsin opiskelemaan" [level=3] [ref=e194]
+          - generic [ref=e196]:
+            - text: Lue lisää
+            - img [ref=e197]
+        - link "Jään eläkkeelle Lue lisää" [ref=e200] [cursor=pointer]:
+          - /url: /sinulle/elamantilanteeni/omaan-talouteen/elakkeelle-jaaminen
+          - heading "Jään eläkkeelle" [level=3] [ref=e203]
+          - generic [ref=e205]:
+            - text: Lue lisää
+            - img [ref=e206]
+        - link "Elän lapsiperheessä Lue lisää" [ref=e209] [cursor=pointer]:
+          - /url: /sinulle/elamantilanteeni/perheessa-tapahtuu/lapsiperheen-talous
+          - heading "Elän lapsiperheessä" [level=3] [ref=e212]
+          - generic [ref=e214]:
+            - text: Lue lisää
+            - img [ref=e215]
+        - link "Muutamme yhteen Lue lisää" [ref=e218] [cursor=pointer]:
+          - /url: /sinulle/elamantilanteeni/perheessa-tapahtuu/yhteen-muuttaminen
+          - heading "Muutamme yhteen" [level=3] [ref=e221]
+          - generic [ref=e223]:
+            - text: Lue lisää
+            - img [ref=e224]
+        - link "Hoidan kuolinpesää Lue lisää" [ref=e227] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu/kuolinpesan-pankkiasiointi
+          - heading "Hoidan kuolinpesää" [level=3] [ref=e230]
+          - generic [ref=e232]:
+            - text: Lue lisää
+            - img [ref=e233]
+    - generic [ref=e237]:
+      - generic [ref=e242]:
+        - heading "Uutiset" [level=2] [ref=e243]
+        - list [ref=e244]:
+          - listitem [ref=e245]:
+            - 'link "Lähi-idän konflikti aiheuttaa heiluntaa osakemarkkinoilla: Sijoittaja, säilytä maltti Lähi-idän kriisi on jatkunut jo useita viikkoa, ja sen vaikutukset näkyvät selvästi: öljyn hinta on ampaissut yli 50 prosenttia,..." [ref=e246] [cursor=pointer]':
+              - /url: /sinulle/artikkelit/2026/03/lahi-idan-konflikti-aiheuttaa-heiluntaa-osakemarkkinoilla
+              - 'heading "Lähi-idän konflikti aiheuttaa heiluntaa osakemarkkinoilla: Sijoittaja, säilytä maltti" [level=3] [ref=e247]'
+              - paragraph [ref=e248]: "Lähi-idän kriisi on jatkunut jo useita viikkoa, ja sen vaikutukset näkyvät selvästi: öljyn hinta on ampaissut yli 50 prosenttia,..."
+              - img [ref=e250]
+          - listitem [ref=e252]:
+            - 'link "Energian hintasokki nostaa korko-odotuksia: vaikutukset yrityksiin ja asuntovelallisiin Euroopan talous on keskellä energian hintasokkia. Yritysten näkökulmasta riskinä on tuotantokustannusten nousu, kun taas..." [ref=e253] [cursor=pointer]':
+              - /url: /yrityksille/artikkelit/artikkelit/2026/energian-hintasokki-nostaa-korko-odotuksia
+              - 'heading "Energian hintasokki nostaa korko-odotuksia: vaikutukset yrityksiin ja asuntovelallisiin" [level=3] [ref=e254]'
+              - paragraph [ref=e255]: Euroopan talous on keskellä energian hintasokkia. Yritysten näkökulmasta riskinä on tuotantokustannusten nousu, kun taas...
+              - img [ref=e257]
+          - listitem [ref=e259]:
+            - link "Osakesäästötilistä kaikki hyöty irti – lue asiantuntijan vinkit Osakesäästötili tarjoaa sijoittajalle verohyötyjä ja oivan tavan kasvattaa varallisuutta pitkällä aikavälillä. Artikkelissa..." [ref=e260] [cursor=pointer]:
+              - /url: /sinulle/artikkelit/2026/03/osakesaastotilista-kaikki-hyoty-irti
+              - heading "Osakesäästötilistä kaikki hyöty irti – lue asiantuntijan vinkit" [level=3] [ref=e261]
+              - paragraph [ref=e262]: Osakesäästötili tarjoaa sijoittajalle verohyötyjä ja oivan tavan kasvattaa varallisuutta pitkällä aikavälillä. Artikkelissa...
+              - img [ref=e264]
+      - generic [ref=e270]:
+        - heading "Lisää artikkeleita, blogeja ja katsauksia talouteen" [level=2] [ref=e271]
+        - paragraph [ref=e272]: Olemme kasanneet yhteen kaikki sivustolla julkaisemamme artikkelit ja tiedotteet. Tervetuloa lukemaan!
+        - paragraph [ref=e273]:
+          - link "Lue lisää artikkeleita" [ref=e274] [cursor=pointer]:
+            - /url: /sinulle/artikkelit/arkisto/artikkelit
+    - generic [ref=e279]:
+      - paragraph [ref=e280]
+      - heading "Asiakaspalvelu" [level=2] [ref=e281]
+      - heading "Miten voimme auttaa?" [level=3] [ref=e282]
+      - paragraph [ref=e283]: Katso vastauksia useimmin kysyttyihin kysymyksiin sekä neuvoja eri tilanteisiin.
+      - paragraph [ref=e284]:
+        - link "Apua asiointiin" [ref=e285] [cursor=pointer]:
+          - /url: /sinulle/asiakaspalvelu
+  - generic [ref=e288]:
+    - heading "Kiinnostuitko? Tervetuloa Danske Bankiin." [level=2] [ref=e291]:
+      - text: Kiinnostuitko?
+      - text: Tervetuloa Danske Bankiin.
+    - generic [ref=e294]:
+      - link "Ota yhteyttä" [ref=e295] [cursor=pointer]:
+        - /url: https://danskebank.fi/sinulle/asiakaspalvelu?section=contact
+      - link "Tule asiakkaaksi" [ref=e296] [cursor=pointer]:
+        - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+  - contentinfo [ref=e297]:
+    - generic [ref=e299]:
+      - link "Danske Bank" [ref=e301] [cursor=pointer]:
+        - /url: /sinulle
+        - img "Danske Bank" [ref=e302]
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - group:
+            - generic "Työkalut":
+              - paragraph: Työkalut
+            - list [ref=e306]:
+              - listitem [ref=e307]:
+                - link "Lainahakemus" [ref=e308] [cursor=pointer]:
+                  - /url: /sinulle/lainat/hae/lainahakemus
+              - listitem [ref=e309]:
+                - link "Lainalaskuri" [ref=e310] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/lainalaskuri
+              - listitem [ref=e311]:
+                - link "Valuuttalaskuri" [ref=e312] [cursor=pointer]:
+                  - /url: /sinulle/tyokalut/valuuttalaskuri
+        - generic [ref=e313]:
+          - group:
+            - generic "Hyödyllistä tietoa":
+              - paragraph: Hyödyllistä tietoa
+            - list [ref=e314]:
+              - listitem [ref=e315]:
+                - link "Kortit" [ref=e316] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/kortit
+              - listitem [ref=e317]:
+                - link "Pankkitunnukset ja kirjautuminen" [ref=e318] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/pankkitunnukset
+              - listitem [ref=e319]:
+                - link "Saavutettavuus" [ref=e320] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/saavutettavuus
+              - listitem [ref=e321]:
+                - link "Artikkelit" [ref=e322] [cursor=pointer]:
+                  - /url: /sinulle/artikkelit/arkisto/artikkelit
+              - listitem [ref=e323]:
+                - link "Talousrikollisuuden torjunta" [ref=e324] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/tarkkana-verkossa/talousrikollisuuden-torjunta
+              - listitem [ref=e325]:
+                - link "Ilmiantosivusto" [ref=e326] [cursor=pointer]:
+                  - /url: /sinulle/links/ilmianto
+        - generic [ref=e327]:
+          - group:
+            - generic "Asiakaspalvelu":
+              - paragraph: Asiakaspalvelu
+            - list [ref=e328]:
+              - listitem [ref=e329]:
+                - link "Yhteystiedot" [ref=e330] [cursor=pointer]:
+                  - /url: /sinulle/links/yhteystiedotpb
+              - listitem [ref=e331]:
+                - link "Tule asiakkaaksi" [ref=e332] [cursor=pointer]:
+                  - /url: /sinulle/tule-asiakkaaksi/tervetuloa-danske-bankiin/tule-asiakkaaksi
+              - listitem [ref=e333]:
+                - link "Anna palautetta" [ref=e334] [cursor=pointer]:
+                  - /url: /sinulle/asiakaspalvelu/anna-palautetta
+        - generic [ref=e335]:
+          - group:
+            - generic "Tietoa pankista":
+              - paragraph: Tietoa pankista
+            - list [ref=e336]:
+              - listitem [ref=e337]:
+                - link "Tietoa pankista" [ref=e338] [cursor=pointer]:
+                  - /url: /sinulle/links/tietoa-pankista
+              - listitem [ref=e339]:
+                - link "Sijoittajasuhteet" [ref=e340] [cursor=pointer]:
+                  - /url: /sinulle/links/sijoittajasuhteet
+              - listitem [ref=e341]:
+                - link "Medialle" [ref=e342] [cursor=pointer]:
+                  - /url: /sinulle/links/medialle
+              - listitem [ref=e343]:
+                - link "Ura" [ref=e344] [cursor=pointer]:
+                  - /url: /sinulle/links/ura
+              - listitem [ref=e345]:
+                - link "Vastuullisuus" [ref=e346] [cursor=pointer]:
+                  - /url: /sinulle/links/vastuullisuus
+              - listitem [ref=e347]:
+                - link "Kiinnitysluottopankki" [ref=e348] [cursor=pointer]:
+                  - /url: /sinulle/links/kiinnitysluottopankki
+    - generic [ref=e356]:
+      - generic [ref=e357]:
+        - generic [ref=e358]:
+          - paragraph [ref=e359]: Tämä verkkosivusto ei ole tarkoitettu eikä sitä saa käyttää kukaan Australiassa asuva luonnollinen henkilö tai minkään tyyppinen Australiassa kotipaikkaansa pitävä, rekisteröity tai perustettu yritys.
+          - paragraph [ref=e360]: Danske Bank ei tarjoa sijoitusneuvontapalveluja ("sijoitusneuvontapalvelut") tai osakkeiden tai muiden arvopaperien kaupankäynti-, välitys- ja myyntipalveluja ("välitys- ja myyntipalvelut") yhdysvaltalaisille henkilöille, jotka määritellään jäljempänä, ja tämän verkkosivuston sisältö ei ole tarkoitettu jaeltavaksi tällaisille yhdysvaltalaisille henkilöille tai heidän käytettäväkseen. Mitään tämän verkkosivuston sisällössä ei pidä tulkita sijoitusneuvontapalvelujen tai välitys- ja myyntipalvelujen tarjoamiseksi yhdysvaltalaisille henkilöille.
+          - button "Lue lisää »" [ref=e361] [cursor=pointer]
+        - generic "Lue lisää »":
+          - paragraph [ref=e362]:
+            - text: Sijoitusneuvontapalvelujen osalta yhdysvaltalaiseksi henkilöksi katsotaan Yhdysvalloissa asuva luonnollinen henkilö; tai Yhdysvalloissa rekisteriin merkitty tai perustettu yritys tai yhtiö, pois lukien pätevistä liiketoiminnallisista syistä toimivan, säännellyn yhdysvaltalaisen vakuutusyhtiön tai pankin offshore-sivuliikkeet tai asiamiehet; tai ulkomaisen, Yhdysvalloissa sijaitsevan ulkomaisen tahon sivuliike tai asiamies; tai trusti, jonka edunvalvoja on yhdysvaltalainen henkilö, paitsi jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai kuolinpesä, jonka pesäjakaja tai pesänhoitaja on yhdysvaltalainen henkilö, paitsi jos kuolinpesään sovelletaan ulkomaista lainsäädäntöä ja jos sijoituspäätökset tekee tai niihin osallistuu ei-yhdysvaltalainen henkilö; tai ei-harkinnanvarainen, yhdysvaltalaisen henkilön hyväksi hallinnoitu tili; tai yhdysvaltalaisen välittäjän tai uskotun miehen hallinnoima harkinnanvarainen tili, paitsi jos sitä hallinnoidaan ei-yhdysvaltalaisen henkilön hyväksi; tai mikä tahansa Yhdysvaltain arvopaperilainsäädännön kiertämistarkoituksessa perustettu tai toimiva taho. Termi ”yhdysvaltalainen henkilö” ei tarkoita ketään henkilöä, joka ei ollut Yhdysvalloissa tullessaan Danske Bankin sijoitusneuvonnan asiakkaaksi.
+            - text: Välitys- ja myyntipalvelujen osalta yhdysvaltalainen henkilö on kuka tahansa Yhdysvalloissa sijaitseva asiakas, pois lukien asiakkaat, jotka asuivat Yhdysvaltojen ulkopuolella silloin, kun asiakassuhde Danske Bankiin syntyi ja jotka – Yhdysvalloissa ollessaan – eivät ole (i) Yhdysvaltain kansalaisia (mukaan lukien Yhdysvaltojen ja toisen maan kaksoiskansalaisuus), (ii) laillisia, pysyviä Yhdysvaltain asukkaita (eli green cardin haltija) eivätkä (iii) oleskele Yhdysvalloissa muuten kuin väliaikaisesti.
+      - text: "Danske Bank A/S, Suomen sivuliike, Televisiokatu 1, Helsinki, PL 1243, 00075 DANSKE BANK, BIC: DABAFIHH"
+      - link "Yhteystiedot" [ref=e363] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Yleiset ehdot" [ref=e364] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - text: "|"
+      - link "Tietosuoja" [ref=e365] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/tietosuoja/tietosuojatiedote
+      - text: "|"
+      - link "Evästekäytäntö" [ref=e366] [cursor=pointer]:
+        - /url: /sinulle/asiakaspalvelu/evasteet
+      - text: "|"
+      - link "Saavutettavuus" [ref=e367] [cursor=pointer]:
+        - /url: /saavutettavuus
+      - text: "|"
+      - link "Ilmiantosivusto" [ref=e368] [cursor=pointer]:
+        - /url: https://danskebank.whistleblowernetwork.net
+      - text: Puhelut voidaan nauhoittaa turvallisuussyistä sekä dokumentointia varten
+  - generic:
+    - generic [ref=e369]: Näytä
+    - generic [ref=e370]: Sulje
+    - generic [ref=e371]: "Show more rows: All table rows are already visible for screen readers."
+    - generic [ref=e372]: "Show less rows: All table rows are already visible for screen readers."
+  - status [ref=e373]
+  - status [ref=e374]

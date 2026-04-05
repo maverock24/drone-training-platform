@@ -1,0 +1,434 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: S&P 500 YTD performance 2026 Nasdaq composite return April 2026 S&P 500 YTD performance 2026 Nasdaq composite return April 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3DS%2526P%2B500%2BYTD%2Bperformance%2B2026%2BNasdaq%2Bcomposite%2Breturn%2BApril%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&udm=50&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&aep=1&ntc=1&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ2J8OegQIEBAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=2&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQtKgLegQIFhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Lyhyet videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=39&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQs6gLegQIFRAB
+              - generic [ref=e94]: Lyhyet videot
+          - listitem [ref=e95]:
+            - link "Videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=7&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQtKgLegQIFBAB
+              - generic [ref=e98]: Videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&udm=web&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQs6gLegQIExAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&udm=36&source=lnms&fbs=ADc_l-b9qV1t9Rgep2tepx_b4JHD1y6I8sX_gE15AWtbiJ1lPrfk26l5mzGNixYW_Gs5abG5Gd1kn-wNwLcfRY7cQJOJbj2BKCyvl7fWHCTeUZ_VyIfKf4LF9n8xMC9M0g96-mtdoKNUwngZVLqgBFQNIm3NvR51jgrbO1hbTMQ1SqP-bqBfSMUrLA1lCVzd8Y5pVDwBH31I&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ0pQJegQIEhAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DS%2526P%2B500%2BYTD%2Bperformance%2B2026%2BNasdaq%2Bcomposite%2Breturn%2BApril%2B2026&hl=en&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQiIQCKAN6BAgMEAY#languages
+    - generic [ref=e139]:
+      - generic [ref=e158]:
+        - heading "Miettii" [level=2] [ref=e162]:
+          - generic [ref=e163]: Miettii
+        - progressbar [ref=e164]
+      - main [ref=e166]:
+        - generic [ref=e170]:
+          - generic [ref=e173]:
+            - heading "Web results" [level=2] [ref=e174]
+            - generic [ref=e175]:
+              - generic [ref=e178]:
+                - link "S&P 500 (^GSPC) Historical Data - Yahoo Finance Yahoo Finance https://finance.yahoo.com › history" [ref=e180] [cursor=pointer]:
+                  - /url: https://finance.yahoo.com/quote/%5EGSPC/history/
+                  - heading "S&P 500 (^GSPC) Historical Data - Yahoo Finance" [level=3] [ref=e181]
+                  - generic [ref=e186]:
+                    - generic [ref=e188]: Yahoo Finance
+                    - generic [ref=e190]: https://finance.yahoo.com › history
+                - generic [ref=e191]:
+                  - generic [ref=e192]: ·
+                  - link "Käännä tämä sivu" [ref=e193] [cursor=pointer]:
+                    - /url: https://finance.yahoo.com/quote/%5EGSPC/history/
+                - button "Tietoja tästä tuloksesta" [ref=e194] [cursor=pointer]:
+                  - img [ref=e197]
+              - generic [ref=e201]:
+                - emphasis [ref=e202]: S&P 500 (^GSPC
+                - text: ) ; Apr 1, 2026, 6,556.56, 6,609.67 ; Mar 31, 2026, 6,395.88, 6,539.05 ; Mar 30, 2026, 6,403.37, 6,427.31 ; Mar 27, 2026, 6,453.89, 6,453.89 ...
+          - generic [ref=e206]:
+            - generic [ref=e209]:
+              - link "S&P 500 YTD Return Slickcharts https://www.slickcharts.com › returns" [ref=e211] [cursor=pointer]:
+                - /url: https://www.slickcharts.com/sp500/returns/ytd
+                - heading "S&P 500 YTD Return" [level=3] [ref=e212]
+                - generic [ref=e217]:
+                  - generic [ref=e219]: Slickcharts
+                  - generic [ref=e221]: https://www.slickcharts.com › returns
+              - generic [ref=e222]:
+                - generic [ref=e223]: ·
+                - link "Käännä tämä sivu" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.slickcharts.com/sp500/returns/ytd
+              - button "Tietoja tästä tuloksesta" [ref=e225] [cursor=pointer]:
+                - img [ref=e228]
+            - generic [ref=e232]:
+              - text: The
+              - emphasis [ref=e233]: "2026"
+              - text: price
+              - emphasis [ref=e234]: return
+              - text: is calculated using the price change from the latest market close to the last trading day of 2025.
+              - emphasis [ref=e235]: Return
+              - text: calculated as of the market ...
+          - generic [ref=e239]:
+            - generic [ref=e242]:
+              - link "S&P 500® | S&P Dow Jones Indices S&P Global https://www.spglobal.com › sp-500" [ref=e244] [cursor=pointer]:
+                - /url: https://www.spglobal.com/spdji/en/indices/equity/sp-500/
+                - heading "S&P 500® | S&P Dow Jones Indices" [level=3] [ref=e245]
+                - generic [ref=e250]:
+                  - generic [ref=e252]: S&P Global
+                  - generic [ref=e254]: https://www.spglobal.com › sp-500
+              - generic [ref=e255]:
+                - generic [ref=e256]: ·
+                - link "Käännä tämä sivu" [ref=e257] [cursor=pointer]:
+                  - /url: https://www.spglobal.com/spdji/en/indices/equity/sp-500/
+              - button "Tietoja tästä tuloksesta" [ref=e258] [cursor=pointer]:
+                - img [ref=e261]
+            - generic [ref=e265]:
+              - text: The
+              - emphasis [ref=e266]: S&P 500
+              - text: ® is widely regarded as the best single gauge of large-cap U.S. equities. The
+              - emphasis [ref=e267]: index
+              - text: includes 500 leading companies and covers approximately 80% ...
+          - generic [ref=e271]:
+            - generic [ref=e274]:
+              - 'link "S&P 500: historical performance from 1992 to 2026 Curvo https://curvo.eu › backtest › sp-500" [ref=e276] [cursor=pointer]':
+                - /url: https://curvo.eu/backtest/en/market-index/sp-500
+                - 'heading "S&P 500: historical performance from 1992 to 2026" [level=3] [ref=e277]'
+                - generic [ref=e282]:
+                  - generic [ref=e284]: Curvo
+                  - generic [ref=e286]: https://curvo.eu › backtest › sp-500
+              - generic [ref=e287]:
+                - generic [ref=e288]: ·
+                - link "Käännä tämä sivu" [ref=e289] [cursor=pointer]:
+                  - /url: https://curvo.eu/backtest/en/market-index/sp-500
+              - button "Tietoja tästä tuloksesta" [ref=e290] [cursor=pointer]:
+                - img [ref=e293]
+            - generic [ref=e297]:
+              - text: So far in
+              - emphasis [ref=e298]: "2026"
+              - text: (
+              - emphasis [ref=e299]: YTD
+              - text: ), the
+              - emphasis [ref=e300]: S&P 500 index
+              - text: has returned an average 0.21%. Best years. 1997. 49.0%. 1999. 41.6%. 2021. 39.4% ...
+          - generic [ref=e304]:
+            - generic [ref=e307]:
+              - link "S&P 500 (SP500) | FRED | St. Louis Fed Federal Reserve Economic Data | FRED | St. Louis Fed https://fred.stlouisfed.org › series › S..." [ref=e309] [cursor=pointer]:
+                - /url: https://fred.stlouisfed.org/series/SP500
+                - heading "S&P 500 (SP500) | FRED | St. Louis Fed" [level=3] [ref=e310]
+                - generic [ref=e315]:
+                  - generic [ref=e317]: Federal Reserve Economic Data | FRED | St. Louis Fed
+                  - generic [ref=e319]: https://fred.stlouisfed.org › series › S...
+              - generic [ref=e320]:
+                - generic [ref=e321]: ·
+                - link "Käännä tämä sivu" [ref=e322] [cursor=pointer]:
+                  - /url: https://fred.stlouisfed.org/series/SP500
+              - button "Tietoja tästä tuloksesta" [ref=e323] [cursor=pointer]:
+                - img [ref=e326]
+            - generic [ref=e330]:
+              - emphasis [ref=e331]: S&P 500
+              - text: (SP500) ;
+              - emphasis [ref=e332]: 2026-04-02
+              - text: ": 6,582.69 ;"
+              - emphasis [ref=e333]: 2026-04-01
+              - text: ": 6,575.32 ;"
+              - emphasis [ref=e334]: "2026"
+              - text: "-03-31: 6,528.52 ;"
+              - emphasis [ref=e335]: "2026"
+              - text: "-03-30: 6,343.72 ;"
+              - emphasis [ref=e336]: "2026"
+              - text: "-03-27: 6,368.85."
+          - generic [ref=e340]:
+            - generic [ref=e343]:
+              - link "S&P 500 Index Overview - SPX MarketWatch https://www.marketwatch.com › spx" [ref=e345] [cursor=pointer]:
+                - /url: https://www.marketwatch.com/investing/index/spx
+                - heading "S&P 500 Index Overview - SPX" [level=3] [ref=e346]
+                - generic [ref=e351]:
+                  - generic [ref=e353]: MarketWatch
+                  - generic [ref=e355]: https://www.marketwatch.com › spx
+              - generic [ref=e356]:
+                - generic [ref=e357]: ·
+                - link "Käännä tämä sivu" [ref=e358] [cursor=pointer]:
+                  - /url: https://www.marketwatch.com/investing/index/spx
+              - button "Tietoja tästä tuloksesta" [ref=e359] [cursor=pointer]:
+                - img [ref=e362]
+            - generic [ref=e365]:
+              - generic [ref=e366]: 2 päivää sitten —
+              - generic [ref=e367]:
+                - text: SPX | A complete
+                - emphasis [ref=e368]: S&P 500 Index index
+                - text: overview by MarketWatch. View
+                - emphasis [ref=e369]: stock market
+                - text: news,
+                - emphasis [ref=e370]: stock market
+                - text: data and trading information.
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - heading "Ihmiset kysyvät myös" [level=2] [ref=e376]
+              - button "Tietoja tästä tuloksesta" [ref=e377] [cursor=pointer]:
+                - img [ref=e380]
+            - generic [ref=e382]:
+              - button "What is the expected return of the S&P 500 in 2026?" [ref=e388] [cursor=pointer]:
+                - generic [ref=e390]: What is the expected return of the S&P 500 in 2026?
+                - img [ref=e393]
+              - button "What does Warren Buffett say about the S&P 500?" [ref=e402] [cursor=pointer]:
+                - generic [ref=e404]: What does Warren Buffett say about the S&P 500?
+                - img [ref=e407]
+              - button "Is the S&P a good investment for 2026?" [ref=e416] [cursor=pointer]:
+                - generic [ref=e418]: Is the S&P a good investment for 2026?
+                - img [ref=e421]
+              - button "Will the S&P hit $8000 in 2026?" [ref=e430] [cursor=pointer]:
+                - generic [ref=e432]: Will the S&P hit $8000 in 2026?
+                - img [ref=e435]
+          - generic [ref=e440]:
+            - heading "Web results" [level=2] [ref=e441]
+            - generic [ref=e442]:
+              - generic [ref=e445]:
+                - 'link "S&P 500 Snapshot: Best Week in Four Months - dshort Advisor Perspectives https://www.advisorperspectives.com › ..." [ref=e447] [cursor=pointer]':
+                  - /url: https://www.advisorperspectives.com/dshort/updates/2026/04/02/s-p-500-snapshot-best-week-in-four-months
+                  - 'heading "S&P 500 Snapshot: Best Week in Four Months - dshort" [level=3] [ref=e448]'
+                  - generic [ref=e453]:
+                    - generic [ref=e455]: Advisor Perspectives
+                    - generic [ref=e457]: https://www.advisorperspectives.com › ...
+                - generic [ref=e458]:
+                  - generic [ref=e459]: ·
+                  - link "Käännä tämä sivu" [ref=e460] [cursor=pointer]:
+                    - /url: https://www.advisorperspectives.com/dshort/updates/2026/04/02/s-p-500-snapshot-best-week-in-four-months
+                - button "Tietoja tästä tuloksesta" [ref=e461] [cursor=pointer]:
+                  - img [ref=e464]
+              - generic [ref=e467]:
+                - generic [ref=e468]: 3 päivää sitten —
+                - generic [ref=e469]:
+                  - text: The
+                  - emphasis [ref=e470]: index
+                  - text: has been below the 50-day moving average since February 27th,
+                  - emphasis [ref=e471]: "2026"
+                  - text: and below the 200-day moving average since March 19th,
+                  - emphasis [ref=e472]: "2026"
+                  - text: .
+          - generic [ref=e476]:
+            - generic [ref=e479]:
+              - link "Nasdaq Composite Surges 1.2% on April 1, 2026, Capping ... AD HOC NEWS https://www.ad-hoc-news.de › boerse" [ref=e481] [cursor=pointer]:
+                - /url: https://www.ad-hoc-news.de/boerse/ueberblick/nasdaq-composite-surges-1-2-percent-on-april-1-2026-capping-4-3-percent/69058768
+                - heading "Nasdaq Composite Surges 1.2% on April 1, 2026, Capping ..." [level=3] [ref=e482]
+                - generic [ref=e487]:
+                  - generic [ref=e489]: AD HOC NEWS
+                  - generic [ref=e491]: https://www.ad-hoc-news.de › boerse
+              - generic [ref=e492]:
+                - generic [ref=e493]: ·
+                - link "Käännä tämä sivu" [ref=e494] [cursor=pointer]:
+                  - /url: https://www.ad-hoc-news.de/boerse/ueberblick/nasdaq-composite-surges-1-2-percent-on-april-1-2026-capping-4-3-percent/69058768
+              - button "Tietoja tästä tuloksesta" [ref=e495] [cursor=pointer]:
+                - img [ref=e498]
+            - generic [ref=e501]:
+              - generic [ref=e502]: 2 päivää sitten —
+              - generic [ref=e503]:
+                - text: The **
+                - emphasis [ref=e504]: Nasdaq Composite
+                - text: Index** rallied sharply on
+                - emphasis [ref=e505]: April 1, 2026
+                - text: ", posting a 1.2% gain to close at 21,840.95, which capped off a robust 4.3% ..."
+          - generic [ref=e509]:
+            - generic [ref=e512]:
+              - link "SPX Quote - S&P 500 INDEX Bloomberg.com https://www.bloomberg.com › quote" [ref=e514] [cursor=pointer]:
+                - /url: https://www.bloomberg.com/quote/SPX:IND
+                - heading "SPX Quote - S&P 500 INDEX" [level=3] [ref=e515]
+                - generic [ref=e520]:
+                  - generic [ref=e522]: Bloomberg.com
+                  - generic [ref=e524]: https://www.bloomberg.com › quote
+              - generic [ref=e525]:
+                - generic [ref=e526]: ·
+                - link "Käännä tämä sivu" [ref=e527] [cursor=pointer]:
+                  - /url: https://www.bloomberg.com/quote/SPX:IND
+              - button "Tietoja tästä tuloksesta" [ref=e528] [cursor=pointer]:
+                - img [ref=e531]
+            - generic [ref=e535]:
+              - text: Open. 6,512.61 ; Prev. Close. 6,575.32 ; 1 Year Return. 31.31% ;
+              - emphasis [ref=e536]: YTD Return. –3.84
+              - text: "% ; Day Range. 6,474.94–6,601.91."
+          - generic [ref=e540]:
+            - generic [ref=e543]:
+              - link "United States Stock Market Index - Quote - Chart Trading Economics https://tradingeconomics.com › stoc..." [ref=e545] [cursor=pointer]:
+                - /url: https://tradingeconomics.com/united-states/stock-market
+                - heading "United States Stock Market Index - Quote - Chart" [level=3] [ref=e546]
+                - generic [ref=e551]:
+                  - generic [ref=e553]: Trading Economics
+                  - generic [ref=e555]: https://tradingeconomics.com › stoc...
+              - generic [ref=e556]:
+                - generic [ref=e557]: ·
+                - link "Käännä tämä sivu" [ref=e558] [cursor=pointer]:
+                  - /url: https://tradingeconomics.com/united-states/stock-market
+              - button "Tietoja tästä tuloksesta" [ref=e559] [cursor=pointer]:
+                - img [ref=e562]
+            - generic [ref=e566]:
+              - text: The main stock market index of United States, the US500,
+              - emphasis [ref=e567]: fell to 6571 points on April 3, 2026
+              - text: ", losing 0.18% from the previous session. Over the past month, ..."
+        - generic [ref=e569]:
+          - generic [ref=e574]:
+            - heading "Ihmiset hakevat myös näitä" [level=2] [ref=e576]
+            - generic [ref=e578]:
+              - generic [ref=e579]:
+                - link "S&P 500 YTD return 5 years" [ref=e583] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+YTD+return+5+years&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhZEAE
+                  - generic [ref=e584]:
+                    - generic [ref=e589]: S&P 500 YTD return 5 years
+                    - img [ref=e593]
+                - link "S&P 500 YTD return 2026" [ref=e598] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+YTD+return+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhcEAE
+                  - generic [ref=e599]:
+                    - generic [ref=e604]: S&P 500 YTD return 2026
+                    - img [ref=e608]
+                - link "S&P 500 return 2026" [ref=e613] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+return+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhbEAE
+                  - generic [ref=e614]:
+                    - generic [ref=e619]: S&P 500 return 2026
+                    - img [ref=e623]
+                - link "S&P 500 ytd return calculator" [ref=e628] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+ytd+return+calculator&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhaEAE
+                  - generic [ref=e629]:
+                    - generic [ref=e634]: S&P 500 ytd return calculator
+                    - img [ref=e638]
+              - generic [ref=e640]:
+                - link "S&P 500 performance 2026" [ref=e644] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+performance+2026&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhdEAE
+                  - generic [ref=e645]:
+                    - generic [ref=e650]: S&P 500 performance 2026
+                    - img [ref=e654]
+                - link "S&P 500 YTD return with dividends" [ref=e659] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+YTD+return+with+dividends&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhYEAE
+                  - generic [ref=e660]:
+                    - generic [ref=e665]: S&P 500 YTD return with dividends
+                    - img [ref=e669]
+                - link "Dow ytd return" [ref=e674] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=Dow+ytd+return&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAhXEAE
+                  - generic [ref=e675]:
+                    - generic [ref=e680]: Dow ytd return
+                    - img [ref=e684]
+                - link "S&P 500 annual returns last 10 years" [ref=e689] [cursor=pointer]:
+                  - /url: /search?sca_esv=f72dd7b5cfdb5d01&q=S%26P+500+annual+returns+last+10+years&sa=X&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ1QJ6BAheEAE
+                  - generic [ref=e690]:
+                    - generic [ref=e695]: S&P 500 annual returns last 10 years
+                    - img [ref=e699]
+          - navigation [ref=e701]:
+            - heading "Sivuilla liikkuminen" [level=1] [ref=e702]
+            - text: "1"
+            - link "Page 2" [ref=e705] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=10&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAE
+              - text: "2"
+            - link "Page 3" [ref=e707] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=20&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAG
+              - text: "3"
+            - link "Page 4" [ref=e709] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=30&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAI
+              - text: "4"
+            - link "Page 5" [ref=e711] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=40&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAK
+              - text: "5"
+            - link "Page 6" [ref=e713] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=50&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAM
+              - text: "6"
+            - link "Page 7" [ref=e715] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=60&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAO
+              - text: "7"
+            - link "Page 8" [ref=e717] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=70&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAQ
+              - text: "8"
+            - link "Page 9" [ref=e719] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=80&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAS
+              - text: "9"
+            - link "Page 10" [ref=e721] [cursor=pointer]:
+              - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=90&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8tMDegQISBAU
+              - text: "10"
+            - heading "Seuraava" [level=2] [ref=e723]:
+              - link "Seuraava" [ref=e724] [cursor=pointer]:
+                - /url: /search?q=S%26P+500+YTD+performance+2026+Nasdaq+composite+return+April+2026&sca_esv=f72dd7b5cfdb5d01&ei=yW7RaZDnKJOgwPAPrZWR2QM&start=10&sa=N&sstk=Af77f_chledhmeAKpXn3QfWhVaI40eUGga-bKoPRLb7L28f9022HGf4zaXkZVBPWDe6cuupbIcmRKjtv6CRbWmDBvwqrBMSnBUjn2g&ved=2ahUKEwjQ7_KF_9STAxUTEBAIHa1KJDsQ8NMDegQISBAW
+                - generic [ref=e726]: Seuraava
+        - navigation
+    - contentinfo [ref=e727]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e728]
+      - generic [ref=e732]:
+        - generic [ref=e734]:
+          - text: Suomi
+          - generic [ref=e736]:
+            - button "Helsinki - IP-osoitteestasi" [ref=e738] [cursor=pointer]:
+              - generic [ref=e739]: Helsinki
+              - generic [ref=e741]:
+                - text: "-"
+                - generic [ref=e742]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e744] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e747]:
+          - link "Ohje" [ref=e748] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e749] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e750] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e751] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,48 @@
+[    1484ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://coptrz.com/shop/training/:0
+[    1745ms] [LOG] [LiteSpeed] Start Load JS Delayed @ https://coptrz.com/shop/training/:996
+[    1745ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    1808ms] [LOG] {reload: yes} @ https://coptrz.com/shop/training/:996
+[    1853ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2123ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2126ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2132ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2207ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2325ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2334ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2346ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2352ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2357ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    2361ms] [LOG] [LiteSpeed] Load  JSHandle@node @ https://coptrz.com/shop/training/:996
+[    3036ms] ReferenceError: fbq is not defined
+    at <anonymous>:1:1
+    at https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:976:429
+    at https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:977:132
+    at PQ (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:978:31)
+    at Kd.OQ (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:975:92)
+    at Kd.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:384:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:310:466)
+    at eb (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:274:719)
+    at db (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:274:470)
+    at Kd.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:334:473)
+[    2994ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://coptrz.com/shop/training/:0
+[    3498ms] ReferenceError: fbq is not defined
+    at <anonymous>:1:1
+    at https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:976:429
+    at https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:977:132
+    at PQ (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:978:31)
+    at Kd.OQ (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:975:92)
+    at Kd.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:384:187)
+    at k.apply (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:310:466)
+    at eb (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:274:719)
+    at db (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:274:470)
+    at Kd.<anonymous> (https://www.googletagmanager.com/gtm.js?id=GTM-WM987N7:334:473)
+[    3515ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://coptrz.com/wp-content/litespeed/js/74e994b24a219c1adee0a9e14ba6a0e5.js?ver=6a0e5:1
+[    4302ms] [LOG] opt-in @ https://coptrz.com/wp-content/litespeed/js/95ac1e709a236ddc67b4dc36a40b3225.js?ver=b3225:0
+[    4371ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://api.omappapi.com/v2/embed/256006?d=coptrz.com&device=tablet:0
+[    4372ms] [ERROR] [OptinMonster] This account is not currently active. It is either expired, paused, archived, cancelled or temporarily suspended. @ https://a.omappapi.com/app/js/api.min.js:0
+[    4567ms] [WARNING] Error: The domain COPTRZ.COM is not authorized to show the cookie banner for domain group ID d482c3e1-0fc2-4c4c-a216-f19fa003ba47. Please add it to the domain group in the Cookiebot Manager to authorize the domain. @ https://consent.cookiebot.com/d482c3e1-0fc2-4c4c-a216-f19fa003ba47/cc.js?renew=false&referer=coptrz.com&dnt=false&init=false:0
+[    5216ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://coptrz.com/shop/training/:0
+[    6373ms] [INFO] [olark][info] gtag() did not exist, you may need to configure event triggers in Google Tag Manager @ https://static.olark.com/jsclient-bucket5/application2.js?v=1774993884807:17
+[    6406ms] [ERROR] [olark][error] Cannot create Custom Google Analytics Tracker without Tracking ID @ https://static.olark.com/jsclient-bucket5/application2.js?v=1774993884807:17
+[    6635ms] Uncaught (in promise) NotAllowedError: play() failed because the user didn't interact with the document first. https://goo.gl/xX8pDD
+    at e (https://static.olark.com/jsclient-bucket5/application2.js?v=1774993884807:32:11271)

@@ -1,0 +1,122 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4QpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:stat.fi "asunto-osakeyhtiöiden hoitokulut" 2024 hoitovastike kerrostalo Helsinki €/m2 site:stat.fi "asunto-osakeyhtiöiden hoitokulut" 2024 hoitovastike kerrostalo Helsinki €/m2
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:stat.fi%2B%2522asunto-osakeyhti%25C3%25B6iden%2Bhoitokulut%2522%2B2024%2Bhoitovastike%2Bkerrostalo%2BHelsinki%2B%25E2%2582%25AC%252Fm2%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4Q2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4QtKgLegQIEhAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4QtKgLegQIERAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4Qs6gLegQIExAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4Qs6gLegQIEBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4Q0pQJegQIFBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e134]:
+        - heading "Ei tuloksia hakusanoilla site:stat.fi \"asunto-osakeyhtiöiden hoitokulut\" 2024 hoitovastike kerrostalo Helsinki €/m2." [level=2] [ref=e135]
+        - text: Tulokset haulle
+        - link "site:stat.fi asunto-osakeyhtiöiden hoitokulut 2024 hoitovastike kerrostalo Helsinki €/m2" [ref=e136] [cursor=pointer]:
+          - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:stat.fi+asunto-osakeyhti%C3%B6iden+hoitokulut+2024+hoitovastike+kerrostalo+Helsinki+%E2%82%AC/m2&sa=X&ved=2ahUKEwiJgqCrqNaTAxWlBxAIHdpJAc4QgwN6BAgNEAE
+        - text: "(ilman lainausmerkkejä):"
+      - generic [ref=e138]:
+        - generic [ref=e140]:
+          - heading "Hakusi - site:stat.fi asunto-osakeyhtiöiden hoitokulut 2024 hoitovastike kerrostalo Helsinki €/m2 - ei vastaa yhtään sivua." [level=3] [ref=e141]:
+            - text: Hakusi -
+            - emphasis [ref=e143]: site:stat.fi asunto-osakeyhtiöiden hoitokulut 2024 hoitovastike kerrostalo Helsinki €/m2
+            - text: "- ei vastaa yhtään sivua."
+          - paragraph [ref=e144]: "Ehdotuksia:"
+          - list [ref=e145]:
+            - listitem [ref=e146]: Varmista, että kaikki sanat on kirjoitettu oikein.
+            - listitem [ref=e147]: Kokeile eri hakusanoja.
+            - listitem [ref=e148]: Kokeile yleisempiä hakusanoja.
+            - listitem [ref=e149]: Vähennä hakusanoja.
+          - img "Kuva lumimiehestä, joka kalastaa jotain jään alta" [ref=e153]:
+            - img [ref=e157]
+        - navigation
+      - navigation
+    - contentinfo [ref=e240]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e241]
+      - generic [ref=e245]:
+        - generic [ref=e247]:
+          - text: Suomi
+          - generic [ref=e249]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e251] [cursor=pointer]:
+              - generic [ref=e252]: Helsinki
+              - generic [ref=e254]:
+                - text: "-"
+                - generic [ref=e255]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e257] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e260]:
+          - link "Ohje" [ref=e261] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e262] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e263] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e264] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

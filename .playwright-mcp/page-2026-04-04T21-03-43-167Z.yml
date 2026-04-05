@@ -1,0 +1,1570 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - link "Ohita valikko" [ref=e4] [cursor=pointer]:
+          - /url: "#content-start"
+        - link "Kirjaudu Nordean verkkopankkiin" [ref=e5] [cursor=pointer]:
+          - /url: https://netbank.nordea.fi/login/
+        - link "Yrityksen verkkopankki (Corporate Netbank)" [ref=e6] [cursor=pointer]:
+          - /url: https://solo.nordea.com/nsc/engine?language=fi&country=FI
+      - generic [ref=e8]:
+        - link "Nordea" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img "Nordea" [ref=e11]
+        - text:  
+        - button "Hae" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 
+          - generic [ref=e21]: Hae
+        - button "Valikko" [ref=e22] [cursor=pointer]:
+          - generic [ref=e27]: Valikko
+        - button "Kirjaudu" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 
+          - generic [ref=e30]: Kirjaudu
+      - dialog [ref=e32]:
+        - generic [ref=e33]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /
+            - img [ref=e36]
+          - button [ref=e44] [cursor=pointer]: 
+        - generic [ref=e45]:
+          - generic [ref=e46]: 
+          - paragraph [ref=e47]: Sisäänkirjautuminen henkilöasiakkaan verkkopankkiin
+          - link [ref=e48] [cursor=pointer]:
+            - /url: https://netbank.nordea.fi/login/
+            - generic [ref=e49]: Kirjaudu Nordean verkkopankkiin
+          - paragraph [ref=e50]: Sisäänkirjautuminen yritysasiakkaan verkkopankkiin.
+          - link [ref=e51] [cursor=pointer]:
+            - /url: https://corporate.nordea.fi/login
+            - generic [ref=e52]: Kirjaudu Nordea Businekseen
+        - generic [ref=e53]:
+          - heading [level=2] [ref=e54]: Muut palvelut
+          - generic [ref=e55]:
+            - heading [level=3] [ref=e56]:
+              - button [ref=e57] [cursor=pointer]:
+                - generic [ref=e58]: Henkilöasiakkaat
+                - text: 
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link [ref=e61] [cursor=pointer]:
+                  - /url: https://netbank.nordea.fi/login/
+                  - text: Kirjaudu Nordean verkkopankkiin
+              - listitem [ref=e62]:
+                - link [ref=e63] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/mobiilipankki/
+                  - text: Mobiilipankki – Nordea Mobile
+              - listitem [ref=e64]:
+                - link [ref=e65] [cursor=pointer]:
+                  - /url: https://life.nordea.fi/v1/?page=/
+                  - text: Kirjaudu Vakuutukset-palveluun
+              - listitem [ref=e66]:
+                - link [ref=e67] [cursor=pointer]:
+                  - /url: https://digital.nordea.fi/digital-login/
+                  - text: Kirjaudu Omapostiin
+              - listitem [ref=e68]:
+                - link [ref=e69] [cursor=pointer]:
+                  - /url: https://www.nordea.fi/kyc
+                  - text: Omat sivut - asiakastiedot
+          - generic [ref=e70]:
+            - heading [level=3] [ref=e71]:
+              - button [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]: Yritysasiakkaat
+                - text: 
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - link [ref=e76] [cursor=pointer]:
+                  - /url: https://solo.nordea.com/nsc/engine?language=fi&country=FI
+                  - text: Kirjaudu yrityksen verkkopankkiin (Corporate Netbank)
+              - listitem [ref=e77]:
+                - link [ref=e78] [cursor=pointer]:
+                  - /url: https://corporate.nordea.com
+                  - text: Nordea Corporate (e-Markets)
+              - listitem [ref=e79]:
+                - link [ref=e80] [cursor=pointer]:
+                  - /url: https://autofxhedging.nordea.com
+                  - text: AutoFX Hedging
+              - listitem [ref=e81]:
+                - link [ref=e82] [cursor=pointer]:
+                  - /url: https://businesscard.nordea.fi
+                  - text: Kirjaudu Nordea Business MasterCard -verkkopalveluun
+              - listitem [ref=e83]:
+                - link [ref=e84] [cursor=pointer]:
+                  - /url: /yritysasiakkaat/yrityksen-asiakirjat.html
+                  - text: Yrityksen asiakirjat -palvelu
+              - listitem [ref=e85]:
+                - link [ref=e86] [cursor=pointer]:
+                  - /url: https://myprofile.nordea.com/fi/corporate#!/loginoption/
+                  - text: Meidän sivumme – asiakastiedot
+              - listitem [ref=e87]:
+                - link [ref=e88] [cursor=pointer]:
+                  - /url: https://nfbusiness.nordeafinance.fi/login/
+                  - text: Nordea Finance Business
+      - generic:
+        - generic:
+          - dialog [ref=e89]:
+            - generic [ref=e90]:
+              - link [ref=e92] [cursor=pointer]:
+                - /url: /
+                - img [ref=e93]
+              - button [ref=e101] [cursor=pointer]: 
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - link [ref=e105] [cursor=pointer]:
+                  - /url: /
+                  - text: Henkilöasiakkaat
+              - listitem [ref=e106]:
+                - link [ref=e107] [cursor=pointer]:
+                  - /url: /yritysasiakkaat/
+                  - text: Yritysasiakkaat
+              - listitem [ref=e108]:
+                - link [ref=e109] [cursor=pointer]:
+                  - /url: /private-banking/
+                  - text: Private Banking
+            - menu [ref=e112]:
+              - menuitem [ref=e113]:
+                - button [ref=e114] [cursor=pointer]: Elämäsi 
+                - menu [ref=e115]:
+                  - menuitem [ref=e116]:
+                    - button [ref=e117] [cursor=pointer]: Lapset ja nuoret 
+                    - generic [ref=e118]:
+                      - navigation [ref=e119]:
+                        - link [ref=e120] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/sinun-elamasi/lapset-ja-nuoret/
+                          - text: Lapset ja nuoret
+                        - list [ref=e121]:
+                          - listitem [ref=e122]:
+                            - link [ref=e123] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/tili-lapselle-tai-vauvalle.html
+                              - text: Tili lapselle tai vauvalle
+                          - listitem [ref=e124]:
+                            - link [ref=e125] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/lapselle-saastaminen.html
+                              - text: — Lapselle säästäminen
+                          - listitem [ref=e126]:
+                            - link [ref=e127] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/pankkikortti-lapselle.html
+                              - text: Pankkikortti lapselle
+                          - listitem [ref=e128]:
+                            - link [ref=e129] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/pankkitunnukset/pankkitunnukset-lapselle.html
+                              - text: Pankkitunnukset lapselle
+                          - listitem [ref=e130]:
+                            - link [ref=e131] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/lapset-ja-nuoret/15-17-vuotiaan-pankkipalvelut.html
+                              - text: 15–17-vuotiaan pankkipalvelut
+                          - listitem [ref=e132]:
+                            - link [ref=e133] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/lapset-ja-nuoret/taysi-ikaisyyden-kynnyksella.html
+                              - text: Talouden suunnittelu täysi-ikäisyyden kynnyksellä
+                          - listitem [ref=e134]:
+                            - link [ref=e135] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/elamantilanteet/opiskelu/
+                              - text: Opiskelu
+                      - navigation [ref=e136]:
+                        - list [ref=e137]:
+                          - listitem [ref=e138]:
+                            - link [ref=e139] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/vauvalahja.html
+                              - generic [ref=e140]: 
+                              - generic [ref=e141]: Vauvalahja
+                          - listitem [ref=e142]:
+                            - link [ref=e143] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/vinkit-lapsen-raha-asioiden-hoitoon.html
+                              - generic [ref=e144]: 
+                              - generic [ref=e145]: Vinkit lapsen raha-asioiden hoitoon
+                  - menuitem [ref=e146]:
+                    - button [ref=e147] [cursor=pointer]: Elämäntilanteet 
+                    - generic [ref=e148]:
+                      - navigation [ref=e149]:
+                        - link [ref=e150] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/sinun-elamasi/elamantilanteet/
+                          - text: Elämäntilanteet
+                        - list [ref=e151]:
+                          - listitem [ref=e152]:
+                            - link [ref=e153] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/elamantilanteet/opiskelu/
+                              - text: Opiskelu
+                          - listitem [ref=e154]:
+                            - link [ref=e155] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/elamantilanteet/nuoresta-aikuiseksi/
+                              - text: Nuoresta aikuiseksi
+                          - listitem [ref=e156]:
+                            - link [ref=e157] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/perheeni-arki/vinkit-avioituvalle.html
+                              - text: Vinkit naimisiin menevälle
+                          - listitem [ref=e158]:
+                            - link [ref=e159] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/perheeni-arki/avioero.html
+                              - text: Avioero
+                          - listitem [ref=e160]:
+                            - link [ref=e161] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/perheeni-arki/laheisen-kuolema.html
+                              - text: Läheisen kuolema
+                      - navigation [ref=e162]:
+                        - list [ref=e163]:
+                          - listitem [ref=e164]:
+                            - link [ref=e165] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/kodinostajan-polku.html
+                              - generic [ref=e166]: 
+                              - generic [ref=e167]: Kodinostajan polku
+                  - menuitem [ref=e168]:
+                    - button [ref=e169] [cursor=pointer]: Koti ja asuminen 
+                    - generic [ref=e170]:
+                      - navigation [ref=e171]:
+                        - list [ref=e172]:
+                          - listitem [ref=e173]:
+                            - link [ref=e174] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/
+                              - text: Asunnon osto
+                          - listitem [ref=e175]:
+                            - link [ref=e176] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/ensimmaisen-kodin-ostaminen/
+                              - text: — Ensiasunnon ostajan muistilista
+                          - listitem [ref=e177]:
+                            - link [ref=e178] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/asunnonvaihto.html
+                              - text: — Neuvot asunnon vaihtoon
+                          - listitem [ref=e179]:
+                            - link [ref=e180] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/asuntokauppa.html
+                              - text: — Ohjeet asuntokauppaan
+                          - listitem [ref=e181]:
+                            - link [ref=e182] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/energiatehokkuus-ja-remontointi/
+                              - text: Energiatehokkuus ja remontointi
+                          - listitem [ref=e183]:
+                            - link [ref=e184] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/energiaremontti.html
+                              - text: — Lainaa energiaremonttiin
+                          - listitem [ref=e185]:
+                            - link [ref=e186] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/energiatehokkuus-ja-remontointi/omakotitalon-energiaremontti.html
+                              - text: — Omakotitalon energiaremontti
+                      - navigation [ref=e187]:
+                        - list [ref=e188]:
+                          - listitem [ref=e189]:
+                            - link [ref=e190] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/mita-asuntolaina-maksaa.html
+                              - generic [ref=e191]: 
+                              - generic [ref=e192]: Mitä asuntolaina maksaa kuukaudessa?
+                          - listitem [ref=e193]:
+                            - link [ref=e194] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/kuinka-paljon-asuntolainaa.html
+                              - generic [ref=e195]: 
+                              - generic [ref=e196]: Laske sopivan asunnon hintataso
+                          - listitem [ref=e197]:
+                            - link [ref=e198] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/koti/asunnon-osto/kodinostajan-polku.html
+                              - generic [ref=e199]: 
+                              - generic [ref=e200]: Kodinostajan polku
+                  - menuitem [ref=e201]:
+                    - button [ref=e202] [cursor=pointer]: Oma talous 
+                    - generic [ref=e203]:
+                      - navigation [ref=e204]:
+                        - link [ref=e205] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/sinun-elamasi/oma-talous/
+                          - text: Oma talous
+                        - list [ref=e206]:
+                          - listitem [ref=e207]:
+                            - link [ref=e208] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/oma-talous/taloustaidot/rahataito.html
+                              - text: Rahataito
+                          - listitem [ref=e209]:
+                            - link [ref=e210] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/oma-talous/taloustaidot/budjetointi.html
+                              - text: Oman talouden budjetointi
+                          - listitem [ref=e211]:
+                            - link [ref=e212] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/oma-talous/taloustaidot/puskurirahasto-varakassa-tuo-turvaa-taloudellisissa-haasteissa.html
+                              - text: Varakassa eli puskurirahasto
+                          - listitem [ref=e213]:
+                            - link [ref=e214] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoituskoulu/
+                              - text: Sijoituskoulu
+                          - listitem [ref=e215]:
+                            - link [ref=e216] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/maksuviiveet-ja-maksuvaikeudet.html
+                              - text: Tukea lainan maksuviiveisiin
+                      - navigation [ref=e217]:
+                        - list [ref=e218]:
+                          - listitem [ref=e219]:
+                            - link [ref=e220] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/saannollisen-saastamisen-laskin.html
+                              - generic [ref=e221]: 
+                              - generic [ref=e222]: Korkoa korolle -laskuri
+                          - listitem [ref=e223]:
+                            - link [ref=e224] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/positiivinen-luottotietorekisteri.html
+                              - generic [ref=e225]: 
+                              - generic [ref=e226]: Positiivinen luottotietorekisteri
+                  - menuitem [ref=e227]:
+                    - button [ref=e228] [cursor=pointer]: Turvallisuus 
+                    - generic [ref=e229]:
+                      - navigation [ref=e230]:
+                        - link [ref=e231] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/
+                          - text: Turvallisuus
+                        - list [ref=e232]:
+                          - listitem [ref=e233]:
+                            - link [ref=e234] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/jouduitko-huijatuksi.html
+                              - text: Jouduitko huijatuksi?
+                          - listitem [ref=e235]:
+                            - link [ref=e236] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/erilaisia-huijausmuotoja/
+                              - text: Erilaisia huijausmuotoja
+                          - listitem [ref=e237]:
+                            - link [ref=e238] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/erilaisia-huijausmuotoja/huijausviesti.html
+                              - text: — Huijausviesti
+                          - listitem [ref=e239]:
+                            - link [ref=e240] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/erilaisia-huijausmuotoja/identiteettivarkaus.html
+                              - text: — Identiteettivarkaus
+                          - listitem [ref=e241]:
+                            - link [ref=e242] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/erilaisia-huijausmuotoja/nettikirpputorihuijaus.html
+                              - text: — Nettikirpputorihuijaus
+                          - listitem [ref=e243]:
+                            - link [ref=e244] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/erilaisia-huijausmuotoja/sijoitushuijaus.html
+                              - text: — Sijoitushuijaus
+                          - listitem [ref=e245]:
+                            - link [ref=e246] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/neuvot-turvalliseen-pankkiasiointiin.html
+                              - text: Turvallinen pankkiasiointi arjessa – 7 vinkkiä
+                          - listitem [ref=e247]:
+                            - link [ref=e248] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/kortin-turvallinen-kaytto/
+                              - text: Kortin turvallinen käyttö
+                          - listitem [ref=e249]:
+                            - link [ref=e250] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/tietoturva.html
+                              - text: Tietoturva
+                          - listitem [ref=e251]:
+                            - link [ref=e252] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/turvallisuus/fraudcast.html
+                              - text: Fraudcast – Huijauksia käsittelevät podcastit
+                      - navigation [ref=e253]:
+                        - list [ref=e254]:
+                          - listitem [ref=e255]:
+                            - link [ref=e256] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/kortin-turvallinen-kaytto/korttireklamaatio.html
+                              - generic [ref=e257]: 
+                              - generic [ref=e258]: Korttireklamaatio
+                          - listitem [ref=e259]:
+                            - link [ref=e260] [cursor=pointer]:
+                              - /url: https://www.poliisi.fi/tee-rikosilmoitus
+                              - generic [ref=e261]: "Poliisi: Tee rikosilmoitus"
+              - menuitem [ref=e262]:
+                - button [ref=e263] [cursor=pointer]: Palvelut 
+                - menu [ref=e264]:
+                  - menuitem [ref=e265]:
+                    - button [ref=e266] [cursor=pointer]: Verkko- ja mobiilipalvelut 
+                    - generic [ref=e267]:
+                      - navigation [ref=e268]:
+                        - link [ref=e269] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/
+                          - text: Verkko- ja mobiilipalvelut
+                        - list [ref=e270]:
+                          - listitem [ref=e271]:
+                            - link [ref=e272] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/mobiilipankki/
+                              - text: Mobiilipankki – Nordea Mobile
+                          - listitem [ref=e273]:
+                            - link [ref=e274] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/verkkopankki.html
+                              - text: Verkkopankki
+                          - listitem [ref=e275]:
+                            - link [ref=e276] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/pankkitunnukset/
+                              - text: Pankkitunnukset ja tunnistautuminen
+                          - listitem [ref=e277]:
+                            - link [ref=e278] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/pankkitunnukset/nordea-id-sovellus/
+                              - text: — Nordea ID -sovellus
+                          - listitem [ref=e279]:
+                            - link [ref=e280] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/pankkitunnukset/nordea-id-laite.html
+                              - text: — Nordea ID -laite
+                          - listitem [ref=e281]:
+                            - link [ref=e282] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/mobiilimaksaminen.html
+                              - text: Mobiilimaksaminen
+                          - listitem [ref=e283]:
+                            - link [ref=e284] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/apple-pay.html
+                              - text: — Apple Pay
+                          - listitem [ref=e285]:
+                            - link [ref=e286] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/googlepay.html
+                              - text: — Google Pay
+                          - listitem [ref=e287]:
+                            - link [ref=e288] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/samsung-pay.html
+                              - text: — Samsung Pay
+                          - listitem [ref=e289]:
+                            - link [ref=e290] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/siirto.html
+                              - text: — Siirto
+                          - listitem [ref=e291]:
+                            - link [ref=e292] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/vakuutukset-palvelu.html
+                              - text: Vakuutukset-palvelu
+                      - navigation [ref=e293]:
+                        - list [ref=e294]:
+                          - listitem [ref=e295]:
+                            - link [ref=e296] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/pankkitunnukset/pankkitunnukset-lapselle.html
+                              - generic [ref=e297]: 
+                              - generic [ref=e298]: Pankkitunnukset lapselle
+                          - listitem [ref=e299]:
+                            - link [ref=e300] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/digineuvontaa.html
+                              - generic [ref=e301]: 
+                              - generic [ref=e302]: Digitukea pankkipalveluihin
+                          - listitem [ref=e303]:
+                            - link [ref=e304] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/sinun-elamasi/perheeni-arki/vinkit-laheisten-tukemiseen-pankkiasioissa.html
+                              - generic [ref=e305]: 
+                              - generic [ref=e306]: Tukea senioreille
+                          - listitem [ref=e307]:
+                            - link [ref=e308] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/automaatit/
+                              - generic [ref=e309]: 
+                              - generic [ref=e310]: Automaatit
+                  - menuitem [ref=e311]:
+                    - button [ref=e312] [cursor=pointer]: Tilit ja maksut 
+                    - generic [ref=e313]:
+                      - navigation [ref=e314]:
+                        - link [ref=e315] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/
+                          - text: Tilit ja maksut
+                        - list [ref=e316]:
+                          - listitem [ref=e317]:
+                            - link [ref=e318] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/kayttotili.html
+                              - text: Käyttötili
+                          - listitem [ref=e319]:
+                            - link [ref=e320] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastamisen-tilit/asp-tili.html
+                              - text: ASP-tili
+                          - listitem [ref=e321]:
+                            - link [ref=e322] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastamisen-tilit/etutili.html
+                              - text: EtuTili
+                          - listitem [ref=e323]:
+                            - link [ref=e324] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastamisen-tilit/joustotalletus.html
+                              - text: JoustoTalletus-tili
+                          - listitem [ref=e325]:
+                            - link [ref=e326] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastamisen-tilit/maaraaikainen-sijoitustili.html
+                              - text: Määräaikainen sijoitustili
+                          - listitem [ref=e327]:
+                            - link [ref=e328] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/valuuttatili.html
+                              - text: Valuuttatili
+                          - listitem [ref=e329]:
+                            - link [ref=e330] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/vuokravakuustili.html
+                              - text: Vuokravakuustili
+                          - listitem [ref=e331]:
+                            - link [ref=e332] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/e-lasku.html
+                              - text: E-lasku
+                          - listitem [ref=e333]:
+                            - link [ref=e334] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/e-maksu.html
+                              - text: E-maksu
+                          - listitem [ref=e335]:
+                            - link [ref=e336] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/valuuttamaksu.html
+                              - text: Valuuttamaksu
+                          - listitem [ref=e337]:
+                            - link [ref=e338] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/tilisiirto.html
+                              - text: Tilisiirto
+                      - navigation [ref=e339]:
+                        - list [ref=e340]:
+                          - listitem [ref=e341]:
+                            - link [ref=e342] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/tili-lapselle-tai-vauvalle.html
+                              - generic [ref=e343]: 
+                              - generic [ref=e344]: Tili lapselle tai vauvalle
+                          - listitem [ref=e345]:
+                            - link [ref=e346] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/maksupalvelu.html
+                              - generic [ref=e347]: 
+                              - generic [ref=e348]: Maksupalvelu ja maksupalvelukuoret
+                          - listitem [ref=e349]:
+                            - link [ref=e350] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/sepa-suoraveloitus.html
+                              - generic [ref=e351]: 
+                              - generic [ref=e352]: SEPA-suoraveloitus
+                          - listitem [ref=e353]:
+                            - link [ref=e354] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/sepa-pikasiirto.html
+                              - generic [ref=e355]: 
+                              - generic [ref=e356]: Pikasiirto
+                          - listitem [ref=e357]:
+                            - link [ref=e358] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/kateista-postin-valityksella.html
+                              - generic [ref=e359]: 
+                              - generic [ref=e360]: Käteistä Postin välityksellä
+                  - menuitem [ref=e361]:
+                    - button [ref=e362] [cursor=pointer]: Maksu- ja luottokortit 
+                    - generic [ref=e363]:
+                      - navigation [ref=e364]:
+                        - link [ref=e365] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/
+                          - text: Maksu- ja luottokortit
+                        - list [ref=e366]:
+                          - listitem [ref=e367]:
+                            - link [ref=e368] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/luottokortit.html
+                              - text: Luottokortit
+                          - listitem [ref=e369]:
+                            - link [ref=e370] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/nordea-gold.html
+                              - text: — Nordea Gold
+                          - listitem [ref=e371]:
+                            - link [ref=e372] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/tuudo-opiskelijan-luottokortti.html
+                              - text: — Nordea Gold opiskelijalle
+                          - listitem [ref=e373]:
+                            - link [ref=e374] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/nordea-platinum.html
+                              - text: — Nordea Platinum
+                          - listitem [ref=e375]:
+                            - link [ref=e376] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/nordea-credit.html
+                              - text: — Nordea Credit
+                          - listitem [ref=e377]:
+                            - link [ref=e378] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/stockmann-mastercard.html
+                              - text: — Stockmann Mastercard
+                          - listitem [ref=e379]:
+                            - link [ref=e380] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/pankkikortti.html
+                              - text: Pankkikortit
+                          - listitem [ref=e381]:
+                            - link [ref=e382] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/nordea-debit.html
+                              - text: — Nordea Debit
+                      - navigation [ref=e383]:
+                        - list [ref=e384]:
+                          - listitem [ref=e385]:
+                            - link [ref=e386] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/kortin-turvallinen-kaytto/jos-korttisi-katoaa.html
+                              - generic [ref=e387]: 
+                              - generic [ref=e388]: Jos korttisi katoaa
+                          - listitem [ref=e389]:
+                            - link [ref=e390] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/kortin-turvallinen-kaytto/korttireklamaatio.html
+                              - generic [ref=e391]: 
+                              - generic [ref=e392]: Korttireklamaatio
+                          - listitem [ref=e393]:
+                            - link [ref=e394] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/korttivakuutukset.html
+                              - generic [ref=e395]: 
+                              - generic [ref=e396]: Korttivakuutukset
+                          - listitem [ref=e397]:
+                            - link [ref=e398] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/luottokorttien-vertailu.html
+                              - generic [ref=e399]: 
+                              - generic [ref=e400]: Luottokorttien vertailu
+                  - menuitem [ref=e401]:
+                    - button [ref=e402] [cursor=pointer]: Lainat ja luotot 
+                    - generic [ref=e403]:
+                      - navigation [ref=e404]:
+                        - link [ref=e405] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/palvelumme/lainat/
+                          - text: Lainat ja luotot
+                        - list [ref=e406]:
+                          - listitem [ref=e407]:
+                            - link [ref=e408] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/
+                              - text: Asumisen lainat
+                          - listitem [ref=e409]:
+                            - link [ref=e410] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/asuntolaina.html
+                              - text: — Asuntolaina
+                          - listitem [ref=e411]:
+                            - link [ref=e412] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/asp-laina.html
+                              - text: — ASP-laina
+                          - listitem [ref=e413]:
+                            - link [ref=e414] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/remonttilaina.html
+                              - text: — Remonttilaina
+                          - listitem [ref=e415]:
+                            - link [ref=e416] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/vakuudellinen-laina.html
+                              - text: — Vakuudellinen laina
+                          - listitem [ref=e417]:
+                            - link [ref=e418] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/kotijousto-laina.html
+                              - text: — KotiJousto
+                          - listitem [ref=e419]:
+                            - link [ref=e420] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/kulutusluotot/
+                              - text: Kulutusluotot
+                          - listitem [ref=e421]:
+                            - link [ref=e422] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/kulutusluotot/joustoluotto.html
+                              - text: — Joustoluotto
+                          - listitem [ref=e423]:
+                            - link [ref=e424] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/kulutusluotot/lainojen-yhdistaminen.html
+                              - text: — Lainojen yhdistäminen
+                          - listitem [ref=e425]:
+                            - link [ref=e426] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/kulutusluotot/autolaina.html
+                              - text: — Autolaina
+                          - listitem [ref=e427]:
+                            - link [ref=e428] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/opintolaina/
+                              - text: Opintolaina
+                      - navigation [ref=e429]:
+                        - list [ref=e430]:
+                          - listitem [ref=e431]:
+                            - link [ref=e432] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/asuntolainaa-nordeasta.html
+                              - generic [ref=e433]: 
+                              - generic [ref=e434]: Hae asuntolainaa verkossa
+                          - listitem [ref=e435]:
+                            - link [ref=e436] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/mita-asuntolaina-maksaa.html
+                              - generic [ref=e437]: 
+                              - generic [ref=e438]: Mitä asuntolaina maksaa kuukaudessa?
+                          - listitem [ref=e439]:
+                            - link [ref=e440] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/kuinka-paljon-asuntolainaa.html
+                              - generic [ref=e441]: 
+                              - generic [ref=e442]: Laske sopivan asunnon hintataso
+                          - listitem [ref=e443]:
+                            - link [ref=e444] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/kulutusluotot/joustoluottolaskin.html
+                              - generic [ref=e445]: 
+                              - generic [ref=e446]: Joustoluottolaskuri
+                  - menuitem [ref=e447]:
+                    - button [ref=e448] [cursor=pointer]: Säästäminen ja sijoittaminen 
+                    - generic [ref=e449]:
+                      - navigation [ref=e450]:
+                        - link [ref=e451] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/
+                          - text: Säästäminen ja sijoittaminen
+                        - list [ref=e452]:
+                          - listitem [ref=e453]:
+                            - link [ref=e454] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastaminen.html
+                              - text: Säästäminen
+                          - listitem [ref=e455]:
+                            - link [ref=e456] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastamisen-tilit/
+                              - text: — Säästötilit
+                          - listitem [ref=e457]:
+                            - link [ref=e458] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/kuukausisaastaminen.html
+                              - text: — Kuukausisäästäminen
+                          - listitem [ref=e459]:
+                            - link [ref=e460] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/rahastot/
+                              - text: — Rahastot
+                          - listitem [ref=e461]:
+                            - link [ref=e462] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/lapselle-saastaminen.html
+                              - text: — Lapselle säästäminen
+                          - listitem [ref=e463]:
+                            - link [ref=e464] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/
+                              - text: Sijoittaminen
+                          - listitem [ref=e465]:
+                            - link [ref=e466] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/sijoittamisen-aloittaminen.html
+                              - text: — Sijoittamisen aloittaminen
+                          - listitem [ref=e467]:
+                            - link [ref=e468] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/osakkeet.html
+                              - text: — Osakkeet
+                          - listitem [ref=e469]:
+                            - link [ref=e470] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/markkinakommentti.html
+                              - text: — Markkinatietoa
+                          - listitem [ref=e471]:
+                            - link [ref=e472] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/vastuullinen-sijoittaminen.html
+                              - text: — Vastuullinen sijoittaminen
+                          - listitem [ref=e473]:
+                            - link [ref=e474] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/vakuutussaastaminen/
+                              - text: Sijoitusvakuutukset
+                      - navigation [ref=e475]:
+                        - list [ref=e476]:
+                          - listitem [ref=e477]:
+                            - link [ref=e478] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/saannollisen-saastamisen-laskin.html
+                              - generic [ref=e479]: 
+                              - generic [ref=e480]: Korkoa korolle -laskuri
+                          - listitem [ref=e481]:
+                            - link [ref=e482] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/saastaminen-yhteydenotto.html
+                              - generic [ref=e483]: 
+                              - generic [ref=e484]: Varaa aika sijoitustapaamiseen
+                          - listitem [ref=e485]:
+                            - link [ref=e486] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/digitaalinen-sijoitusneuvoja.html
+                              - generic [ref=e487]: 
+                              - generic [ref=e488]: Digitaalinen sijoitusneuvoja Nora
+                          - listitem [ref=e489]:
+                            - link [ref=e490] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/rahastovalitsin.html
+                              - generic [ref=e491]: 
+                              - generic [ref=e492]: Rahastovalitsin
+                          - listitem [ref=e493]:
+                            - link [ref=e494] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/rahastot/rahastot-nyt.html
+                              - generic [ref=e495]: 
+                              - generic [ref=e496]: Rahastot Nyt
+                          - listitem [ref=e497]:
+                            - link [ref=e498] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/sijoituskorien-arvot.html
+                              - generic [ref=e499]: 
+                              - generic [ref=e500]: Sijoituskorien arvot
+                          - listitem [ref=e501]:
+                            - link [ref=e502] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vastuullinen-valinta.html
+                              - generic [ref=e503]: 
+                              - generic [ref=e504]: Vastuullisen valinnan tuotteet ja palvelut
+                  - menuitem [ref=e505]:
+                    - button [ref=e506] [cursor=pointer]: Vakuutukset 
+                    - generic [ref=e507]:
+                      - navigation [ref=e508]:
+                        - link [ref=e509] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/palvelumme/vakuutukset/
+                          - text: Vakuutukset
+                        - list [ref=e510]:
+                          - listitem [ref=e511]:
+                            - link [ref=e512] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/
+                              - text: Henkilövakuutukset
+                          - listitem [ref=e513]:
+                            - link [ref=e514] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/henkivakuutus.html
+                              - text: — Henkivakuutus
+                          - listitem [ref=e515]:
+                            - link [ref=e516] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/vakavan-sairauden-turva.html
+                              - text: — Vakavan sairauden vakuutus
+                          - listitem [ref=e517]:
+                            - link [ref=e518] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/terveysvakuutus.html
+                              - text: — Terveysvakuutus
+                          - listitem [ref=e519]:
+                            - link [ref=e520] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/pysyva-tyokyvyttomyys-vakuutus.html
+                              - text: — Pysyvän työkyvyttömyyden vakuutus
+                          - listitem [ref=e521]:
+                            - link [ref=e522] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/tyottomyys-ja-sairausloma-vakuutus.html
+                              - text: — Sairausloma- ja työttömyysvakuutus
+                          - listitem [ref=e523]:
+                            - link [ref=e524] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/tapaturmainen-kuolema-tai-pysyva-tyokyvyttomyys-vakuutus.html
+                              - text: — Tapaturmainen kuolema tai pysyvä työkyvyttömyys
+                          - listitem [ref=e525]:
+                            - link [ref=e526] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/if-vakuutukset/
+                              - text: If-vakuutukset
+                          - listitem [ref=e527]:
+                            - link [ref=e528] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/if-vakuutukset/kotivakuutus.html
+                              - text: — Kotivakuutus
+                          - listitem [ref=e529]:
+                            - link [ref=e530] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/if-vakuutukset/ajoneuvovakuutus.html
+                              - text: — Ajoneuvovakuutus
+                          - listitem [ref=e531]:
+                            - link [ref=e532] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/if-vakuutukset/matkavakuutus.html
+                              - text: — Matkavakuutus
+                          - listitem [ref=e533]:
+                            - link [ref=e534] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/if-vakuutukset/lasten-vakuutukset.html
+                              - text: — Lasten vakuutukset
+                      - navigation [ref=e535]:
+                        - list [ref=e536]:
+                          - listitem [ref=e537]:
+                            - link [ref=e538] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/vakuutuslaskuri.html
+                              - generic [ref=e539]: 
+                              - generic [ref=e540]: Laske hinta henkilövakuutukselle
+                          - listitem [ref=e541]:
+                            - link [ref=e542] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/hyvinvointietu.html
+                              - generic [ref=e543]: 
+                              - generic [ref=e544]: Hyvinvointietu - liikkumalla lisää vakuutusturvaa
+                          - listitem [ref=e545]:
+                            - link [ref=e546] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/terveysselvitys.html
+                              - generic [ref=e547]: 
+                              - generic [ref=e548]: Näin täytät terveysselvityksen
+                          - listitem [ref=e549]:
+                            - link [ref=e550] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/vakuutukset/henkilovakuutukset/korvausten-hakeminen.html
+                              - generic [ref=e551]: 
+                              - generic [ref=e552]: Vakuutuskorvauksen hakeminen
+                  - menuitem [ref=e553]:
+                    - button [ref=e554] [cursor=pointer]: Asiakasedut 
+                    - navigation [ref=e556]:
+                      - link [ref=e557] [cursor=pointer]:
+                        - /url: /henkiloasiakkaat/palvelumme/asiakasedut/
+                        - text: Asiakasedut
+                      - list [ref=e558]:
+                        - listitem [ref=e559]:
+                          - link [ref=e560] [cursor=pointer]:
+                            - /url: /henkiloasiakkaat/palvelumme/asiakasedut/premium-banking.html
+                            - text: Edut Premium-asiakkaille
+                        - listitem [ref=e561]:
+                          - link [ref=e562] [cursor=pointer]:
+                            - /url: /henkiloasiakkaat/palvelumme/asiakasedut/asuntolaina-asiakkaan-edut.html
+                            - text: Edut asuntolaina-asiakkaalle
+                        - listitem [ref=e563]:
+                          - link [ref=e564] [cursor=pointer]:
+                            - /url: /henkiloasiakkaat/palvelumme/asiakasedut/paivittaisasioinnin-edut.html
+                            - text: Edut arjen pankkiasioinnista
+                        - listitem [ref=e565]:
+                          - link [ref=e566] [cursor=pointer]:
+                            - /url: /henkiloasiakkaat/palvelumme/asiakasedut/opiskelija.html
+                            - text: Edut opiskelija-asiakkaalle
+                        - listitem [ref=e567]:
+                          - link [ref=e568] [cursor=pointer]:
+                            - /url: /henkiloasiakkaat/palvelumme/asiakasedut/nuorisoasiakkaan-edut.html
+                            - text: Edut nuorisoasiakkaille
+              - menuitem [ref=e569]:
+                - button [ref=e570] [cursor=pointer]: Asiakkuus 
+                - menu [ref=e571]:
+                  - menuitem [ref=e572]:
+                    - button [ref=e573] [cursor=pointer]: Tule asiakkaaksi 
+                    - generic [ref=e574]:
+                      - navigation [ref=e575]:
+                        - link [ref=e576] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/
+                          - text: Tule asiakkaaksi
+                        - list [ref=e577]:
+                          - listitem [ref=e578]:
+                            - link [ref=e579] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/tule-asiakkaaksi-verkossa.html
+                              - text: Tule henkilöasiakkaaksi verkossa
+                          - listitem [ref=e580]:
+                            - link [ref=e581] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/avaa-palvelut-lapselle-verkossa.html
+                              - text: Avaa lapsellesi palvelut verkossa
+                          - listitem [ref=e582]:
+                            - link [ref=e583] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/pankin-vaihto-nordeaan.html
+                              - text: Pankin vaihto Nordeaan
+                          - listitem [ref=e584]:
+                            - link [ref=e585] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/muistilista.html
+                              - text: Uuden asiakkaan muistilista
+                      - navigation [ref=e586]:
+                        - list [ref=e587]:
+                          - listitem [ref=e588]:
+                            - link [ref=e589] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/asuntolainan-kilpailutus.html
+                              - generic [ref=e590]: 
+                              - generic [ref=e591]: Asuntolainan kilpailutus
+                          - listitem [ref=e592]:
+                            - link [ref=e593] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/palkka-nordean-tilille.html
+                              - generic [ref=e594]: 
+                              - generic [ref=e595]: Palkan ja muiden tulojen siirto Nordeaan
+                          - listitem [ref=e596]:
+                            - link [ref=e597] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/mobiilipankki/
+                              - generic [ref=e598]: 
+                              - generic [ref=e599]: Mobiilipankki – Nordea Mobile
+                  - menuitem [ref=e600]:
+                    - button [ref=e601] [cursor=pointer]: Etuohjelma 
+                    - generic [ref=e602]:
+                      - navigation [ref=e603]:
+                        - link [ref=e604] [cursor=pointer]:
+                          - /url: /henkiloasiakkaat/asiakkuus/etuohjelma/
+                          - text: Etuohjelma
+                        - list [ref=e605]:
+                          - listitem [ref=e606]:
+                            - link [ref=e607] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/asiakkuus/etuohjelma/
+                              - text: Etuohjelma 1.5.2026 alkaen
+                          - listitem [ref=e608]:
+                            - link [ref=e609] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/asiakkuus/etuohjelma/palvelupaketit.html
+                              - text: Palvelupaketit 1.5.2026 alkaen
+                          - listitem [ref=e610]:
+                            - link [ref=e611] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/asiakasedut/
+                              - text: Nykyiset asiakasedut
+                      - navigation [ref=e612]:
+                        - list [ref=e613]:
+                          - listitem [ref=e614]:
+                            - link [ref=e615] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/palkka-nordean-tilille.html
+                              - generic [ref=e616]: 
+                              - generic [ref=e617]: Palkan ja muiden tulojen siirto Nordeaan
+                          - listitem [ref=e618]:
+                            - link [ref=e619] [cursor=pointer]:
+                              - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/mobiilipankki/
+                              - generic [ref=e620]: 
+                              - generic [ref=e621]: Mobiilipankki – Nordea Mobile
+              - menuitem [ref=e622]:
+                - link [ref=e623] [cursor=pointer]:
+                  - /url: /henkiloasiakkaat/tuki/asiakaspalvelu.html
+                  - text: Asiakaspalvelu
+          - text: 
+          - dialog [ref=e624]:
+            - generic [ref=e625]:
+              - link "Nordea" [ref=e627] [cursor=pointer]:
+                - /url: /
+                - img [ref=e628]
+              - button "Sulje hakukenttä" [ref=e636] [cursor=pointer]: 
+            - generic [ref=e637]:
+              - text: 
+              - generic [ref=e638]:
+                - searchbox "Hae" [ref=e639]
+                - button "Hae" [ref=e640] [cursor=pointer]
+    - generic [ref=e641]:
+      - generic "Kielivalinta" [ref=e642]: 
+      - list "Valitse kieli" [ref=e643]:
+        - listitem [ref=e644]:
+          - link "Valitse kieli suomi" [ref=e645] [cursor=pointer]:
+            - /url: /app/languageSwitch?id=146,210868,22,11948,11978,12006,13653
+            - text: Suomi
+        - listitem [ref=e646]:
+          - link "Valitse kieli svenska" [ref=e647] [cursor=pointer]:
+            - /url: /app/languageSwitch?id=151,210868,22,11948,11978,12006,13653
+            - text: Svenska
+        - listitem [ref=e648]:
+          - link "Valitse kieli English" [ref=e649] [cursor=pointer]:
+            - /url: /app/languageSwitch?id=147,210868,22,11948,11978,12006,13653
+            - text: English
+  - complementary [ref=e650]:
+    - button " Kysy heti chatissa" [ref=e651] [cursor=pointer]:
+      - generic [ref=e652]: 
+      - generic [ref=e653]: Kysy heti chatissa
+    - button " Asiakas- palvelu" [ref=e654] [cursor=pointer]:
+      - generic [ref=e655]: 
+      - generic [ref=e656]: Asiakas- palvelu
+  - main [ref=e657]:
+    - generic [ref=e662]:
+      - heading "Sijoittamisen kaupankäyntikulut" [level=1] [ref=e663]
+      - paragraph [ref=e664]: Tältä sivulta löydät Nordean sijoittamisen hinnaston. Pohjoismaisissa pörsseissä tehtyjen kauppojen hintakatto on korkeintaan 1 %. Lisäksi sama hintakatto pätee kaikkiin ETF:iin. Hinnat ovat voimassa arvo-osuustilillä sekä osakesäästötilillä, ja kun käyt aktiivisesti kauppaa, välityspalkkioiden määrä laskee.
+      - generic [ref=e665]:
+        - link "Ostetuimmat rahastot" [ref=e667] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/mihin-sijoittaa.html
+          - paragraph [ref=e669]: Ostetuimmat rahastot
+        - link "Siirrä sijoitukset Nordeaan" [ref=e671] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/arvo-osuustilin-siirto.html
+          - paragraph [ref=e673]: Siirrä sijoitukset Nordeaan
+    - navigation "Breadcrumb" [ref=e676]:
+      - text: 
+      - list [ref=e677]:
+        - listitem [ref=e678]:
+          - link "Henkilöasiakkaat" [ref=e679] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e680]: 
+        - listitem [ref=e681]:
+          - link "Säästäminen ja sijoittaminen" [ref=e682] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/
+          - generic [ref=e683]: 
+        - listitem [ref=e684]:
+          - link "Sijoittaminen" [ref=e685] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/
+          - generic [ref=e686]: 
+        - listitem [ref=e687]:
+          - generic [ref=e688]: Sijoittamisen kaupankäyntikulut ja välityspalkkiot
+    - list [ref=e692]:
+      - listitem [ref=e693]:
+        - generic [ref=e694]:
+          - img [ref=e696]
+          - generic [ref=e699]:
+            - heading "Korkeintaan 1 % hintakatto" [level=3] [ref=e700]
+            - paragraph [ref=e702]: Helsingin, Tukholman, Oslon ja Kööpenhaminan pörssit ja kaikki ETF:t.
+      - listitem [ref=e703]:
+        - generic [ref=e704]:
+          - img [ref=e706]
+          - generic [ref=e709]:
+            - heading "Jopa 0 € säilytysmaksu" [level=3] [ref=e710]
+            - paragraph [ref=e712]: Etu alle 30-vuotiaille ja aktiivisille kaupankävijöille.
+      - listitem [ref=e713]:
+        - generic [ref=e714]:
+          - img [ref=e716]
+          - generic [ref=e719]:
+            - heading "Yli 1 200 rahastoa" [level=3] [ref=e720]
+            - paragraph [ref=e722]: Valikoimastamme löytyy monipuolinen valikoima erilaisia rahastoja.
+    - article [ref=e725]:
+      - heading "Nordea on yksi edullisimmista pienissä kaupoissa" [level=2] [ref=e726]
+      - generic [ref=e727]:
+        - paragraph [ref=e728]: Meillä käyt kauppaa edullisesti osakkeilla ja ETF:illä myös silloin, kun sijoitettavat summat ovat alle 800 euroa. Maksat pohjoismaisissa pörsseissä tehdyistä kaupoista aina enintään 1 % välityspalkkion. Sama 1 % hintakatto pätee myös kaikkiin ETF:iin.
+        - heading "Uusi hinnoittelumalli tukee aktiivista sijoittamista" [level=3] [ref=e729]
+        - paragraph [ref=e730]: Päivitetty arvopaperikaupan hintaportaikko astui voimaan 1.10.2025. Haluamme tukea aktiivista sijoittamista ja tarjota entistä palkitsevamman hinnoittelumallin. Voit nyt saavuttaa alemman hintatason aiempaa helpommin. Mitä enemmän käyt kauppaa, sitä edullisemmaksi se tulee.
+        - paragraph [ref=e731]:
+          - link "Tutustu uudistettuun arvopaperikaupan hinnastoon." [ref=e732] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/kaupankaynnin-ja-sailytyspalveluiden-hintoja.html#tab=Kaupankaynti
+    - generic [ref=e734]:
+      - article [ref=e735]:
+        - generic [ref=e736]:
+          - heading "Välityspalkkiot alle 800 € kaupoissa" [level=2] [ref=e737]
+          - generic [ref=e739]:
+            - table [ref=e740]:
+              - rowgroup [ref=e741]:
+                - row "Kauppahinta Välityspalkkio" [ref=e742]:
+                  - cell "Kauppahinta" [ref=e743]:
+                    - strong [ref=e744]: Kauppahinta
+                  - cell "Välityspalkkio" [ref=e745]:
+                    - strong [ref=e746]: Välityspalkkio
+                - row "100 € 1 €" [ref=e747]:
+                  - cell "100 €" [ref=e748]
+                  - cell "1 €" [ref=e749]
+                - row "200 € 2 €" [ref=e750]:
+                  - cell "200 €" [ref=e751]
+                  - cell "2 €" [ref=e752]
+                - row "400 € 4 €" [ref=e753]:
+                  - cell "400 €" [ref=e754]
+                  - cell "4 €" [ref=e755]
+                - row "700 € 7 €" [ref=e756]:
+                  - cell "700 €" [ref=e757]
+                  - cell "7 €" [ref=e758]
+            - paragraph [ref=e759]: Esimerkki miten 1 % välityspalkkioiden katto toimii alle 800 € kaupoissa Pohjoismaiden pörsseissä ja kaikissa ETF:issä. Prosentin hintakaton ansiosta kaupankäynti pienilläkin summilla on edullista.
+      - article [ref=e760]:
+        - generic [ref=e761]:
+          - heading "Välityspalkkiot yli 800 € kaupoissa" [level=2] [ref=e762]
+          - generic [ref=e764]:
+            - table [ref=e765]:
+              - rowgroup [ref=e766]:
+                - row "Kauppahinta Välityspalkkio" [ref=e767]:
+                  - cell "Kauppahinta" [ref=e768]:
+                    - strong [ref=e769]: Kauppahinta
+                  - cell "Välityspalkkio" [ref=e770]:
+                    - strong [ref=e771]: Välityspalkkio
+                - row "1 000 € 8 €" [ref=e772]:
+                  - cell "1 000 €" [ref=e773]
+                  - cell "8 €" [ref=e774]
+                - row "3 000 € 8 €" [ref=e775]:
+                  - cell "3 000 €" [ref=e776]
+                  - cell "8 €" [ref=e777]
+                - row "5 000 € 10 €" [ref=e778]:
+                  - cell "5 000 €" [ref=e779]
+                  - cell "10 €" [ref=e780]
+                - row "10 000 € 20 €" [ref=e781]:
+                  - cell "10 000 €" [ref=e782]
+                  - cell "20 €" [ref=e783]
+            - paragraph [ref=e784]:
+              - text: Esimerkki välityspalkkioista yli 800 € kaupoissa kun aloitat hinnaston perustasolta. Huomioithan, että välityspalkkio pienenee aktiivisilla kaupankävijöillä.
+              - link "Katso miten välityspalkkio muuttuu eri tasoilla." [ref=e785] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/kaupankaynnin-ja-sailytyspalveluiden-hintoja.html#tab=Kaupankaynti
+    - generic [ref=e787]:
+      - generic [ref=e788]: 
+      - generic [ref=e789]:
+        - heading "Aloita sijoittaminen" [level=2] [ref=e790]
+        - paragraph [ref=e791]: Mobiili- ja verkkopankissa voit hoitaa kaikki säästösi ja sijoituksesi sekä käydä kauppaa edullisesti kaikilla tärkeimmillä markkinoilla.
+        - link "Lue lisää ja avaa palvelut" [ref=e792] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/sijoittamisen-aloittaminen.html
+    - article [ref=e795]:
+      - heading "Miten esimerkit on laskettu ja miten välityspalkkiot lasketaan?" [level=2] [ref=e796]
+      - list [ref=e798]:
+        - listitem [ref=e799]:  Taulukkojen esimerkit ovat kaupankäynnin hintoja Helsingin, Tukholman, Oslon ja Kööpenhaminan pörsseissä, tai kun ostat mitä vain ETF:ää.
+        - listitem [ref=e800]:  Pohjoismaisissa pörsseissä ja ETF:issä on alle 800 € kaupoissa käytössä aina 1 % hintakatto. Yli 800 € kaupoissa perustason hinta on 0,2 %, min. 8 € välityspalkkio.
+        - listitem [ref=e801]:
+          - text:  Kun käyt aktiivisesti kauppaa, välityspalkkio pienenee hinnaston mukaan.
+          - link "Katso tarkka erittely hinnaston tasoista." [ref=e802] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/kaupankaynnin-ja-sailytyspalveluiden-hintoja.html#tab=Kaupankaynti
+        - listitem [ref=e803]:
+          - text:  Kun sijoitat esimerkiksi Yhdysvaltojen pörsseissä, kaupankäynnin välityspalkkiot lasketaan hinnaston mukaan.
+          - link "Tutustu hinnastoon ja hintaportaikkoon" [ref=e804] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/kaupankaynnin-ja-sailytyspalveluiden-hintoja.html#tab=Kaupankaynti
+          - text: .
+    - generic [ref=e806]:
+      - article [ref=e807]:
+        - generic [ref=e810]:
+          - heading "Edulliset kaupankäyntikulut" [level=3] [ref=e811]:
+            - strong [ref=e812]: Edulliset kaupankäyntikulut
+          - heading "Arrows icon - 640x360" [level=3] [ref=e813]:
+            - img "Arrows icon - 640x360" [ref=e814]
+          - list [ref=e815]:
+            - listitem [ref=e816]: 1 % hintakatto arvo-osuustilin ja osakesäästötilin välityspalkkioissa, kun sijoitat Pohjoismaisissa pörsseissä.
+            - listitem [ref=e817]: 1 % hintakatto kaikkien ETF:ien välityspalkkioissa.
+            - listitem [ref=e818]: 0 € merkintä- ja lunastuspalkkiot Nordean rahastoihin mobiili- ja verkkopankissa.
+      - article [ref=e819]:
+        - generic [ref=e822]:
+          - heading "Edut sijoitusten säilytyksessä" [level=3] [ref=e823]:
+            - strong [ref=e824]: Edut sijoitusten säilytyksessä
+          - heading "Invoice agreement money - 640x360" [level=3] [ref=e825]:
+            - img "Invoice agreement money - 640x360" [ref=e826]
+          - list [ref=e827]:
+            - listitem [ref=e828]: Arvo-osuustilin ja osakesäästötilin säilytysmaksu on 0 €, kun käyt kauppaa vähintään kerran vuosineljänneksessä.
+            - listitem [ref=e829]: Alle 30-vuotiaat saavat osakesäästötilin ilman säilytysmaksua.
+      - article [ref=e830]:
+        - generic [ref=e833]:
+          - heading "Kattava valikoima rahastoja ja osakkeita" [level=3] [ref=e834]:
+            - strong [ref=e835]: Kattava valikoima rahastoja ja osakkeita
+          - heading "Investments graph arrows - 640x360" [level=3] [ref=e836]:
+            - img "Investments graph arrows - 640x360" [ref=e837]
+          - list [ref=e838]:
+            - listitem [ref=e839]: Saatavillasi on lähes 400 erilaista rahastoa ja noin 900 erilaista ETF:ää.
+            - listitem [ref=e840]: Käyt osakekauppaa yli 2 500 lajilla ja yli 20 markkinapaikalla Euroopassa ja Pohjois-Amerikassa.
+            - listitem [ref=e841]: Käyt kauppaa kätevästi mobiili- ja verkkopankissa.
+    - generic [ref=e844]:
+      - tablist [ref=e845]:
+        - tab "Kaupankäynti" [selected] [ref=e847] [cursor=pointer]:
+          - generic [ref=e848]: Kaupankäynti
+        - tab "Arvo-osuustili" [ref=e850] [cursor=pointer]: Arvo-osuustili
+        - tab "Osakesäästötili" [ref=e852] [cursor=pointer]: Osakesäästötili
+        - tab "Muut säilytyspalveluiden hinnat" [ref=e854] [cursor=pointer]: Muut säilytyspalveluiden hinnat
+      - generic [ref=e855]:
+        - tabpanel "Kaupankäynti":
+          - generic:
+            - article [ref=e856]:
+              - heading "Arvo-osuustilin ja osakesäästötilin kaupankäyntikulut" [level=2] [ref=e857]
+              - paragraph [ref=e858]: Uusi arvopaperikaupan hintaportaikko astui voimaan 1.10.2025. Haluamme tukea aktiivista sijoittamista ja tarjota palkitsevamman hinnoittelumallin. Mitä enemmän käyt kauppaa, sitä edullisemmaksi se tulee.
+              - generic [ref=e859]:
+                - paragraph [ref=e860]: Välityspalkkio määräytyy palkkiokertymäsi mukaan. Palkkiokertymä karttuu vuosineljänneksittäin ja voit seurata sitä mobiili- ja verkkopankissa. Kun siirryt seuraavalle tasolle, palkkiosi pienenevät.
+                - paragraph [ref=e861]: Pohjoismaisten pörssien ja ETF:ien palkkioissa on 1 % hintakatto. Muiden markkinoiden, kuten Yhdysvaltojen, palkkiot määräytyvät alla olevan hinnaston mukaan.
+                - heading "Hinnoittelumalli ja välityspalkkiot" [level=3] [ref=e862]
+                - table [ref=e863]:
+                  - rowgroup [ref=e864]:
+                    - row "Kaupankäynnin tasot Taso 1 0,20 % min. 8 € Taso 2 0,18 % min. 8 € Taso 3 0,15 % min. 5 € Taso 4 0,06 % min. 3 €" [ref=e865]:
+                      - cell "Kaupankäynnin tasot" [ref=e866]:
+                        - strong [ref=e867]: Kaupankäynnin tasot
+                      - cell "Taso 1 0,20 % min. 8 €" [ref=e868]:
+                        - paragraph [ref=e869]:
+                          - strong [ref=e870]: Taso 1
+                        - paragraph [ref=e871]: 0,20 %
+                        - paragraph [ref=e872]: min. 8 €
+                      - cell "Taso 2 0,18 % min. 8 €" [ref=e873]:
+                        - paragraph [ref=e874]:
+                          - strong [ref=e875]: Taso 2
+                        - paragraph [ref=e876]: 0,18 %
+                        - paragraph [ref=e877]: min. 8 €
+                      - cell "Taso 3 0,15 % min. 5 €" [ref=e878]:
+                        - paragraph [ref=e879]:
+                          - strong [ref=e880]: Taso 3
+                        - paragraph [ref=e881]: 0,15 %
+                        - paragraph [ref=e882]: min. 5 €
+                      - cell "Taso 4 0,06 % min. 3 €" [ref=e883]:
+                        - paragraph [ref=e884]:
+                          - strong [ref=e885]: Taso 4
+                        - paragraph [ref=e886]: 0,06 %
+                        - paragraph [ref=e887]: min. 3 €
+                    - row "Palkkiokertymä Alle 20 € 20 – 250 € 250 – 500 € yli 500 €" [ref=e888]:
+                      - cell "Palkkiokertymä" [ref=e889]:
+                        - strong [ref=e890]: Palkkiokertymä
+                      - cell "Alle 20 €" [ref=e891]:
+                        - paragraph [ref=e892]: Alle 20 €
+                      - cell "20 – 250 €" [ref=e893]:
+                        - paragraph [ref=e894]: 20 – 250 €
+                      - cell "250 – 500 €" [ref=e895]:
+                        - paragraph [ref=e896]: 250 – 500 €
+                      - cell "yli 500 €" [ref=e897]:
+                        - paragraph [ref=e898]: yli 500 €
+                    - row "Kauppasumma, iso Yli 800 € 0,20 % min. 8 € Yli 800 € 0,18 % min. 8 € Yli 500 € 0,15 % min. 5 € Yli 300 € 0,06% min. 3 €" [ref=e899]:
+                      - cell "Kauppasumma, iso" [ref=e900]:
+                        - strong [ref=e901]: Kauppasumma, iso
+                      - cell "Yli 800 € 0,20 % min. 8 €" [ref=e902]:
+                        - paragraph [ref=e903]:
+                          - strong [ref=e904]: Yli 800 €
+                        - paragraph [ref=e905]: 0,20 %
+                        - paragraph [ref=e906]: min. 8 €
+                      - cell "Yli 800 € 0,18 % min. 8 €" [ref=e907]:
+                        - paragraph [ref=e908]:
+                          - strong [ref=e909]: Yli 800 €
+                        - paragraph [ref=e910]: 0,18 %
+                        - paragraph [ref=e911]: min. 8 €
+                      - cell "Yli 500 € 0,15 % min. 5 €" [ref=e912]:
+                        - paragraph [ref=e913]:
+                          - strong [ref=e914]: Yli 500 €
+                        - paragraph [ref=e915]: 0,15 %
+                        - paragraph [ref=e916]: min. 5 €
+                      - cell "Yli 300 € 0,06% min. 3 €" [ref=e917]:
+                        - paragraph [ref=e918]:
+                          - strong [ref=e919]: Yli 300 €
+                        - paragraph [ref=e920]: 0,06%
+                        - paragraph [ref=e921]: min. 3 €
+                    - row "Kauppasumma, pieni Alle 800 € 1 %* Alle 800 € 1 %* Alle 500 € 1 %* Alle 300 € 1 %*" [ref=e922]:
+                      - cell "Kauppasumma, pieni" [ref=e923]:
+                        - strong [ref=e924]: Kauppasumma, pieni
+                      - cell "Alle 800 € 1 %*" [ref=e925]:
+                        - paragraph [ref=e926]:
+                          - strong [ref=e927]: Alle 800 €
+                        - paragraph [ref=e928]: 1 %*
+                      - cell "Alle 800 € 1 %*" [ref=e929]:
+                        - paragraph [ref=e930]:
+                          - strong [ref=e931]: Alle 800 €
+                        - paragraph [ref=e932]: 1 %*
+                      - cell "Alle 500 € 1 %*" [ref=e933]:
+                        - paragraph [ref=e934]:
+                          - strong [ref=e935]: Alle 500 €
+                        - paragraph [ref=e936]: 1 %*
+                      - cell "Alle 300 € 1 %*" [ref=e937]:
+                        - paragraph [ref=e938]:
+                          - strong [ref=e939]: Alle 300 €
+                        - paragraph [ref=e940]: 1 %*
+                - paragraph [ref=e941]: "*Huomioithan, että 1 % kulukatto koskee Pohjoismaisia pörssejä ja kaikkia ETF:iä. Muilla markkinoilla välityspalkkio on vähintään hinnaston mukainen minimiveloitus."
+                - table "Välityspalkkiot" [ref=e942]:
+                  - rowgroup [ref=e943]:
+                    - row "Muut hinnat" [ref=e944]:
+                      - cell "Muut hinnat" [ref=e945]:
+                        - strong [ref=e946]: Muut hinnat
+                    - row "Välityspalkkio Nordea Asiakaspalvelussa puhelimitse 0,5 %, minimi 40 € (kaikilla markkinoilla)" [ref=e947]:
+                      - cell "Välityspalkkio Nordea Asiakaspalvelussa puhelimitse 0,5 %, minimi 40 € (kaikilla markkinoilla)" [ref=e948]
+                    - row "Välityspalkkio konttorissa 1 %, minimi 60 € (kaikilla markkinoilla)" [ref=e949]:
+                      - cell "Välityspalkkio konttorissa 1 %, minimi 60 € (kaikilla markkinoilla)" [ref=e950]
+                - table "Säilytysmaksut, euroa kuukaudessa, sisältää ALV 25,5 %" [ref=e951]:
+                  - caption [ref=e952]: Säilytysmaksut, euroa kuukaudessa, sisältää ALV 25,5 %
+                  - rowgroup [ref=e953]:
+                    - row "Asiakas Välityspalkkioita kertynyt edellisellä neljänneksellä Ei välityspalkkioita edellisellä neljänneksellä" [ref=e954]:
+                      - cell "Asiakas" [ref=e955]:
+                        - strong [ref=e956]: Asiakas
+                      - cell "Välityspalkkioita kertynyt edellisellä neljänneksellä" [ref=e957]:
+                        - strong [ref=e958]: Välityspalkkioita kertynyt edellisellä neljänneksellä
+                      - cell "Ei välityspalkkioita edellisellä neljänneksellä" [ref=e959]:
+                        - strong [ref=e960]: Ei välityspalkkioita edellisellä neljänneksellä
+                  - rowgroup [ref=e961]:
+                    - row "Private Banking -asiakas 0 € 0 €" [ref=e962]:
+                      - cell "Private Banking -asiakas" [ref=e963]
+                      - cell "0 €" [ref=e964]
+                      - cell "0 €" [ref=e965]
+                    - row "Muu henkilöasiakas 0 € 2,45 €" [ref=e966]:
+                      - cell "Muu henkilöasiakas" [ref=e967]
+                      - cell "0 €" [ref=e968]
+                      - cell "2,45 €" [ref=e969]
+                    - row "Yritysasiakas 0 € 2,95 €" [ref=e970]:
+                      - cell "Yritysasiakas" [ref=e971]
+                      - cell "0 €" [ref=e972]
+                      - cell "2,95 €" [ref=e973]
+                - heading "Markkinakohtaiset tarkennukset" [level=3] [ref=e974]:
+                  - strong [ref=e975]: Markkinakohtaiset tarkennukset
+                - paragraph [ref=e976]: Ei-euromääräisten osakkeiden (ja rahastojen) valuuttakaupan palkkio on 0,3 %.
+                - paragraph [ref=e977]: "Lisäksi:"
+                - list [ref=e978]:
+                  - listitem [ref=e979]: Lontoon pörssi perii oston yhteydessä 0,5 % leimaveron kauppahinnasta.
+                  - listitem [ref=e980]: transaktiovero 0,4 % peritään suurimpien ranskalaisten pörssiyhtiöiden osakkeiden ostoista. Veroa ei peritä välityspalkkiosta, eikä se ei koske osakkeiden myyntejä.
+                  - listitem [ref=e981]: transaktiovero 0,2 % peritään suurimpien espanjalaisten pörssiyhtiöiden osakkeiden ostoista. Veroa ei peritä välityspalkkiosta, eikä se ei koske osakkeiden myyntejä.
+                  - listitem [ref=e982]: transaktiovero 0,1 % peritään italialaisten osakkeiden kaupoista. Veroa ei peritä välityspalkkiosta.
+                - paragraph [ref=e983]: Välityspalkkio on 2 %, minimi 168,19 euroa toimeksiannoissa, joita ei voi välittää automaattisesti. Myyjältä ja merkintäoikeuskaupoissa myös ostajalta perittävä kokonaismaksu on korkeintaan puolet kauppahinnasta. Välityspalkkio on päiväkohtainen.
+            - article [ref=e984]:
+              - heading "Merkintäoikeuksien suorakauppa" [level=2] [ref=e985]
+              - generic [ref=e986]:
+                - table "Merkintäoikeuksien suorakaupan hinnasto" [ref=e987]:
+                  - caption [ref=e988]: Merkintäoikeuksien suorakaupan hinnasto
+                  - rowgroup [ref=e989]:
+                    - row "Erittely %" [ref=e990]:
+                      - columnheader "Erittely" [ref=e991]
+                      - columnheader "%" [ref=e992]
+                  - rowgroup [ref=e993]:
+                    - row "Merkinnän yhteydessä osto- tai myyntitoimeksiannon kauppahinnasta 4,00" [ref=e994]:
+                      - cell "Merkinnän yhteydessä osto- tai myyntitoimeksiannon kauppahinnasta" [ref=e995]
+                      - cell "4,00" [ref=e996]
+                    - row "Varainsiirtovero merkintäoikeuksien kauppahinnasta sekä ostajalta että myyjältä 0,80" [ref=e997]:
+                      - cell "Varainsiirtovero merkintäoikeuksien kauppahinnasta sekä ostajalta että myyjältä" [ref=e998]
+                      - cell "0,80" [ref=e999]: 0,80
+                    - row "Erittely €" [ref=e1000]:
+                      - columnheader "Erittely" [ref=e1001]
+                      - columnheader "€" [ref=e1002]
+                    - row "Muun kuin Marketsin välittämän kaupan kirjaus 10,00" [ref=e1003]:
+                      - cell "Muun kuin Marketsin välittämän kaupan kirjaus" [ref=e1004]
+                      - cell "10,00" [ref=e1005]
+                    - row "Vakuutena olevan arvopaperisalkun kaupankäynnin valvonta/kauppatapahtuma. ALV 25,5 %. Lisäksi peritään kaupan kirjausmaksu. 34,5" [ref=e1006]:
+                      - cell "Vakuutena olevan arvopaperisalkun kaupankäynnin valvonta/kauppatapahtuma. ALV 25,5 %. Lisäksi peritään kaupan kirjausmaksu." [ref=e1007]:
+                        - paragraph [ref=e1008]: Vakuutena olevan arvopaperisalkun kaupankäynnin valvonta/kauppatapahtuma. ALV 25,5 %. Lisäksi peritään kaupan kirjausmaksu.
+                      - cell "34,5" [ref=e1009]:
+                        - paragraph [ref=e1010]: 34,5
+                - text: Myyjältä ja merkintäoikeuskaupoissa myös ostajalta velotettava kokonaismaksu on korkeintaan puolet kauppahinnasta.
+    - article [ref=e1013]:
+      - heading "Markkinapaikat, ehdot ja lisäpalvelut" [level=2] [ref=e1014]
+      - list [ref=e1016]:
+        - listitem [ref=e1017]:
+          - link "Kaupankäynnin markkinapaikat, ehdot ja lisäpalvelut" [ref=e1018] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/lisapalvelut-ja-markkinapaikat.html
+        - listitem [ref=e1019]:
+          - link "Kaupankäynnin ja säilytyspalveluiden hinnat" [ref=e1020] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/kaupankaynnin-ja-sailytyspalveluiden-hintoja.html
+        - listitem [ref=e1021]:
+          - link "Kaupankäyntisäännöt ja käytännöt - pdf - Avautuu uuteen ikkunaan" [ref=e1022] [cursor=pointer]:
+            - /url: /Images/146-490239/kaupankayntisaannot-nordea-2023.pdf
+            - text: Kaupankäyntisäännöt ja käytännöt
+            - generic [ref=e1023]: 
+    - generic [ref=e1025]:
+      - article [ref=e1027]:
+        - link "Pörssikurssit ja indeksit Katso pörssikurssit ja lue lisää palveluistamme" [ref=e1028] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/porssikurssit.html
+          - paragraph [ref=e1029]: Pörssikurssit ja indeksit
+          - heading "Katso pörssikurssit ja lue lisää palveluistamme" [level=2] [ref=e1032]
+      - article [ref=e1034]:
+        - link "Avaa osakesäästötili helposti verkossa Aloita osakesäästäminen jo tänään" [ref=e1035] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/sijoittaminen/osakesaastotili.html
+          - paragraph [ref=e1036]: Avaa osakesäästötili helposti verkossa
+          - heading "Aloita osakesäästäminen jo tänään" [level=2] [ref=e1039]
+      - article [ref=e1041]:
+        - link "Kiinnostavatko ETF-rahastot? Lue lisää mitä ETF-rahastot ovat ja kuinka sijoittamisen voi aloittaa" [ref=e1042] [cursor=pointer]:
+          - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/etf-rahastot.html
+          - paragraph [ref=e1043]: Kiinnostavatko ETF-rahastot?
+          - heading "Lue lisää mitä ETF-rahastot ovat ja kuinka sijoittamisen voi aloittaa" [level=2] [ref=e1046]
+    - generic [ref=e1049]:
+      - heading "Jaa tämä sivu" [level=2] [ref=e1050]
+      - list [ref=e1052]:
+        - listitem [ref=e1053]:
+          - link "Facebook Avautuu uuteen ikkunaan" [ref=e1054] [cursor=pointer]:
+            - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nordea.fi%2Fhenkiloasiakkaat%2Fpalvelumme%2Fsaastaminen-sijoittaminen%2Fsijoittaminen%2Fkaupankaynnin-ja-sailytyspalveluiden-hintoja.html
+            - img "Facebook" [ref=e1055]
+        - listitem [ref=e1057]:
+          - link "Twitter Avautuu uuteen ikkunaan" [ref=e1058] [cursor=pointer]:
+            - /url: https://twitter.com/intent/tweet?text=Sijoittamisen%20kaupank%C3%A4yntikulut%20ja%20v%C3%A4lityspalkkiot&url=https%3A%2F%2Fwww.nordea.fi%2Fhenkiloasiakkaat%2Fpalvelumme%2Fsaastaminen-sijoittaminen%2Fsijoittaminen%2Fkaupankaynnin-ja-sailytyspalveluiden-hintoja.html
+            - img "Twitter" [ref=e1059]
+        - listitem [ref=e1061]:
+          - link "LinkedIn Avautuu uuteen ikkunaan" [ref=e1062] [cursor=pointer]:
+            - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.nordea.fi%2Fhenkiloasiakkaat%2Fpalvelumme%2Fsaastaminen-sijoittaminen%2Fsijoittaminen%2Fkaupankaynnin-ja-sailytyspalveluiden-hintoja.html&title=Sijoittamisen%20kaupank%C3%A4yntikulut%20ja%20v%C3%A4lityspalkkiot&summary=&source=
+            - img "LinkedIn" [ref=e1063]
+        - listitem [ref=e1065]:
+          - link "Sähköposti Avautuu uuteen ikkunaan" [ref=e1066] [cursor=pointer]:
+            - /url: mailto:?subject=Sijoittamisen%20kaupank%C3%A4yntikulut%20ja%20v%C3%A4lityspalkkiot&body=https%3A%2F%2Fwww.nordea.fi%2Fhenkiloasiakkaat%2Fpalvelumme%2Fsaastaminen-sijoittaminen%2Fsijoittaminen%2Fkaupankaynnin-ja-sailytyspalveluiden-hintoja.html
+            - img "Sähköposti" [ref=e1067]
+    - generic [ref=e1070]:
+      - generic [ref=e1071]:
+        - heading "Apua asiointiin" [level=2] [ref=e1072]
+        - heading "Henkilöasiakkaat" [level=3] [ref=e1073]
+      - list [ref=e1074]:
+        - listitem [ref=e1075]:
+          - link " Kysy heti chatissa" [ref=e1076] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e1077]:
+              - generic [ref=e1078]: 
+              - paragraph [ref=e1079]: Kysy heti chatissa
+        - listitem [ref=e1080]:
+          - link " Usein kysytyt" [ref=e1081] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/tuki/
+            - generic [ref=e1082]:
+              - generic [ref=e1083]: 
+              - paragraph [ref=e1084]: Usein kysytyt
+        - listitem [ref=e1085]:
+          - link " Soita meille" [ref=e1086] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/soita-tunnistautuneena.html
+            - generic [ref=e1087]:
+              - generic [ref=e1088]: 
+              - paragraph [ref=e1089]: Soita meille
+        - listitem [ref=e1090]:
+          - link "Nordea Omaposti - Avautuu uuteen ikkunaan" [ref=e1091] [cursor=pointer]:
+            - /url: /henkiloasiakkaat/nordean-omaposti.html
+            - generic [ref=e1092]:
+              - generic [ref=e1093]: 
+              - paragraph [ref=e1094]: Nordea Omaposti
+  - contentinfo [ref=e1096]:
+    - generic [ref=e1099]:
+      - generic "Kielivalinta" [ref=e1100]: 
+      - list "Valitse kieli" [ref=e1101]:
+        - listitem [ref=e1102]:
+          - link "Valitse kieli suomi" [ref=e1103] [cursor=pointer]:
+            - /url: /app/languageSwitch?id=146,210868,22,11948,11978,12006,13653
+            - text: Suomi
+        - listitem [ref=e1104]:
+          - link "Valitse kieli svenska" [ref=e1105] [cursor=pointer]:
+            - /url: /app/languageSwitch?id=151,210868,22,11948,11978,12006,13653
+            - text: Svenska
+        - listitem [ref=e1106]:
+          - link "Valitse kieli English" [ref=e1107] [cursor=pointer]:
+            - /url: /app/languageSwitch?id=147,210868,22,11948,11978,12006,13653
+            - text: English
+    - generic [ref=e1108]:
+      - generic [ref=e1111]:
+        - text: 
+        - combobox "Valitse maa" [ref=e1112]:
+          - option "Nordea Suomi" [selected]
+          - option "Nordea Tanska"
+          - option "Nordea Norja"
+          - option "Nordea Ruotsi"
+          - option "Nordea.com"
+      - generic [ref=e1113]:
+        - generic [ref=e1114]:
+          - heading "Tuki ja usein kysytyt" [level=2] [ref=e1116]
+          - list [ref=e1118]:
+            - listitem [ref=e1119]:
+              - link "Nordea Asiakaspalvelu" [ref=e1120] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/asiakaspalvelu.html
+            - listitem [ref=e1121]:
+              - link "Usein kysyttyä" [ref=e1122] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/
+            - listitem [ref=e1123]:
+              - link "Anna palautetta tai tee valitus" [ref=e1124] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/kerro-kokemuksesi-palvelustamme.html
+            - listitem [ref=e1125]:
+              - link "Henkilötietoihin liittyvät oikeutesi" [ref=e1126] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/henkilotietoihin-liittyvat-oikeutesi.html
+            - listitem [ref=e1127]:
+              - link "Tietoa asiakastutkimuksistamme" [ref=e1128] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/asiakaskyselyt.html
+            - listitem [ref=e1129]:
+              - link "Yhteystiedot" [ref=e1130] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/yhteystiedot-henkiloasiakkaat.html
+        - generic [ref=e1131]:
+          - heading "Palvelumme" [level=2] [ref=e1133]
+          - list [ref=e1135]:
+            - listitem [ref=e1136]:
+              - link "Verkko- ja mobiilipalvelut" [ref=e1137] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/verkko-mobiilipalvelut/
+            - listitem [ref=e1138]:
+              - link "Tilit ja maksut" [ref=e1139] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/tilit-maksut/
+            - listitem [ref=e1140]:
+              - link "Maksukortit" [ref=e1141] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/maksu-luottokortit/
+            - listitem [ref=e1142]:
+              - link "Asumisen lainat" [ref=e1143] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/lainat/asuntolainat/
+            - listitem [ref=e1144]:
+              - link "Kulutusluotot" [ref=e1145] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/lainat/kulutusluotot/
+            - listitem [ref=e1146]:
+              - link "Säästäminen ja sijoittaminen" [ref=e1147] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/saastaminen-sijoittaminen/
+            - listitem [ref=e1148]:
+              - link "Vakuutukset" [ref=e1149] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/palvelumme/vakuutukset/
+            - listitem [ref=e1150]:
+              - link "Konttorit ja automaatit" [ref=e1151] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/tuki/konttorit-ja-automaatit.html
+        - generic [ref=e1152]:
+          - heading "Tietoa Nordeasta" [level=2] [ref=e1154]
+          - list [ref=e1156]:
+            - listitem [ref=e1157]:
+              - link "Keitä olemme Avautuu uuteen ikkunaan" [ref=e1158] [cursor=pointer]:
+                - /url: https://www.nordea.com/fi/tietoa-meista
+                - text: Keitä olemme
+                - generic "Avautuu uuteen ikkunaan" [ref=e1159]: 
+            - listitem [ref=e1160]:
+              - link "Nordea lukuina Avautuu uuteen ikkunaan" [ref=e1161] [cursor=pointer]:
+                - /url: https://www.nordea.com/fi/sijoittajat
+                - text: Nordea lukuina
+                - generic "Avautuu uuteen ikkunaan" [ref=e1162]: 
+            - listitem [ref=e1163]:
+              - link "Uutiset ja lehdistötiedotteet Avautuu uuteen ikkunaan" [ref=e1164] [cursor=pointer]:
+                - /url: http://www.nordea.com/fi/media/uutiset-ja-lehdistotiedotteet/
+                - text: Uutiset ja lehdistötiedotteet
+                - generic "Avautuu uuteen ikkunaan" [ref=e1165]: 
+            - listitem [ref=e1166]:
+              - link "Ura Nordeassa Avautuu uuteen ikkunaan" [ref=e1167] [cursor=pointer]:
+                - /url: https://www.nordea.com/fi/ura/
+                - text: Ura Nordeassa
+                - generic "Avautuu uuteen ikkunaan" [ref=e1168]: 
+            - listitem [ref=e1169]:
+              - link "Vastuullisuus Nordeassa Avautuu uuteen ikkunaan" [ref=e1170] [cursor=pointer]:
+                - /url: https://www.nordea.com/fi/vastuullisuus
+                - text: Vastuullisuus Nordeassa
+                - generic "Avautuu uuteen ikkunaan" [ref=e1171]: 
+            - listitem [ref=e1172]:
+              - link "Tietoa Nordea Bank Oyj:stä" [ref=e1173] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/nordea.html
+            - listitem [ref=e1174]:
+              - link "Pankkimuseo" [ref=e1175] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/pankkimuseo.html
+        - generic [ref=e1176]:
+          - heading "Tule asiakkaaksi" [level=2] [ref=e1178]
+          - list [ref=e1180]:
+            - listitem [ref=e1181]:
+              - link "Tule henkilöasiakkaaksi verkossa" [ref=e1182] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/tule-asiakkaaksi-verkossa.html
+            - listitem [ref=e1183]:
+              - link "Tule yritysasiakkaaksi" [ref=e1184] [cursor=pointer]:
+                - /url: /yritysasiakkaat/tule-asiakkaaksi/
+            - listitem [ref=e1185]:
+              - link "Avaa lapsellesi palvelut verkossa" [ref=e1186] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/asiakkuus/tule-asiakkaaksi/avaa-palvelut-lapselle-verkossa.html
+            - listitem [ref=e1187]:
+              - link "Asiakkaan tunteminen – miksi pankki kysyy?" [ref=e1188] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/asiakkuus/tietoa-asiakkuudesta/asiakastietojen-paivitys.html
+            - listitem [ref=e1189]:
+              - link "Asiakkaamme ovat pääosin Pohjoismaissa" [ref=e1190] [cursor=pointer]:
+                - /url: /henkiloasiakkaat/asiakkuus/tietoa-asiakkuudesta/asiakkuus-ulkomailla.html
+      - generic [ref=e1191]:
+        - list:
+          - listitem [ref=e1192]:
+            - link "Yleiset ehdot www-sivujen käyttöön" [ref=e1193] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/tuki/yleiset-ehdot-www-sivujen-kayttoon.html
+          - listitem [ref=e1194]:
+            - link "Tietosuojaseloste Avautuu uuteen ikkunaan" [ref=e1195] [cursor=pointer]:
+              - /url: https://www.nordea.com/fi/tietosuojaseloste
+              - text: Tietosuojaseloste
+              - generic "Avautuu uuteen ikkunaan" [ref=e1196]: 
+          - listitem [ref=e1197]:
+            - link "Important information for US Persons" [ref=e1198] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/tuki/important-information-for-us-persons.html
+          - listitem [ref=e1199]:
+            - link "Saavutettavuus" [ref=e1200] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/tuki/saavutettavuus.html
+          - listitem [ref=e1201]:
+            - link "Evästeet" [ref=e1202] [cursor=pointer]:
+              - /url: /henkiloasiakkaat/evasteet.html
+    - generic [ref=e1204]:
+      - generic [ref=e1206]:
+        - paragraph [ref=e1207]: © 2026 Nordea Bank Oyj, Satamaradankatu 5, 00020 NORDEA, Helsinki
+        - paragraph [ref=e1208]: "Y-tunnus: 2858394-9, BIC: NDEAFIHH, ALV-tunnus: FI28583949."
+      - list [ref=e1210]:
+        - listitem [ref=e1211]:
+          - link "Facebook - Avautuu uuteen ikkunaan" [ref=e1212] [cursor=pointer]:
+            - /url: https://www.facebook.com/NordeaSuomi
+            - img "Facebook" [ref=e1213]
+        - listitem [ref=e1214]:
+          - link "LinkedIn - Avautuu uuteen ikkunaan" [ref=e1215] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/nordea
+            - img "LinkedIn" [ref=e1216]
+        - listitem [ref=e1217]:
+          - link "Twitter - Avautuu uuteen ikkunaan" [ref=e1218] [cursor=pointer]:
+            - /url: https://twitter.com/Nordea_FI
+            - img "Twitter" [ref=e1219]
+        - listitem [ref=e1220]:
+          - link "YouTube - Avautuu uuteen ikkunaan" [ref=e1221] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/NordeaSuomi
+            - img "YouTube" [ref=e1222]
+  - dialog "Yksilöllistä palvelua evästeiden avulla" [ref=e1224]:
+    - generic [ref=e1225]:
+      - heading "Yksilöllistä palvelua evästeiden avulla" [level=2] [ref=e1226]
+      - generic [ref=e1227]:
+        - paragraph [ref=e1228]: Haluamme tarjota sinulle sivuillamme mahdollisimman sujuvan asioinnin ja kiinnostavat sisällöt. Tätä varten hyödynnämme omia ja kolmansien osapuolten evästeitä ja niihin liittyviä henkilötietoja. Hyväksymällä kaikki evästeet annat meille luvan kerätä ja hyödyntää niihin liittyviä tietojasi Nordean verkkopalvelujen kehittämiseen ja sisältöjen kohdentamiseen. Välttämättömillä evästeillä varmistamme sivustojemme luotettavan ja turvallisen toiminnan. Voit valita, mitä evästeitä sallit.
+        - paragraph [ref=e1229]:
+          - text: Lue lisää
+          - link "evästeistä" [ref=e1230] [cursor=pointer]:
+            - /url: https://www.nordea.fi/henkiloasiakkaat/evasteet.html
+          - text: ja
+          - link "henkilötietojen käytöstä" [ref=e1231] [cursor=pointer]:
+            - /url: https://www.nordea.fi/henkiloasiakkaat/tuki/tietosuojaseloste.html
+          - text: .
+      - generic [ref=e1232]:
+        - button "Hyväksy kaikki" [active] [ref=e1233] [cursor=pointer]
+        - button "Jatka valituilla" [ref=e1234] [cursor=pointer]
+        - button "Sulje asetukset" [expanded] [ref=e1235] [cursor=pointer]
+    - generic [ref=e1239]:
+      - generic [ref=e1240]:
+        - term [ref=e1241]:
+          - button "41 Välttämättömät evästeet +" [ref=e1242] [cursor=pointer]:
+            - generic [ref=e1243]: "41"
+            - generic [ref=e1245]: Välttämättömät evästeet
+            - text: +
+        - term [ref=e1246]:
+          - button "19 Tilastointi +" [ref=e1247] [cursor=pointer]:
+            - generic [ref=e1248]: "19"
+            - generic [ref=e1250]: Tilastointi
+            - text: +
+          - generic [ref=e1252]:
+            - 'checkbox "Suostumusvalinta: Tilastointi" [ref=e1253]'
+            - generic [ref=e1255]: "Suostumusvalinta: Tilastointi"
+            - generic [ref=e1257] [cursor=pointer]: ✔ ✖
+        - term [ref=e1259]:
+          - button "8 Markkinointi +" [ref=e1260] [cursor=pointer]:
+            - generic [ref=e1261]: "8"
+            - generic [ref=e1263]: Markkinointi
+            - text: +
+          - generic [ref=e1265]:
+            - 'checkbox "Suostumusvalinta: Markkinointi" [ref=e1266]'
+            - generic [ref=e1268]: "Suostumusvalinta: Markkinointi"
+            - generic [ref=e1270] [cursor=pointer]: ✔ ✖
+      - generic [ref=e1272]: Viimeksi päivitetty 2026-03-03

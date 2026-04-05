@@ -8,7 +8,6 @@ import { CircularProgress } from "@/components/circular-progress";
 
 interface DashboardCardProps {
   trackId: string;
-  trackTitle: string;
   shortTitle: string;
   icon: React.ReactNode;
   gradient: string;
@@ -21,7 +20,6 @@ interface DashboardCardProps {
 
 export function DashboardCard({
   trackId,
-  trackTitle,
   shortTitle,
   icon,
   gradient,

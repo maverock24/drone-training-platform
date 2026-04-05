@@ -30,7 +30,7 @@ const trackColorMap: Record<string, { gradient: string; ring: string }> = {
 export default function DashboardPage() {
   const { user, loading } = useAuth();
   const { getTrackProgress, lastVisited, getStudyStreak, getLessonsThisWeek, totalCompleted, getFlightHours } = useProgress();
-  const [enrolledTracks, setEnrolledTracks] = useState<string[]>([]);
+  const [, setEnrolledTracks] = useState<string[]>([]);
 
   useEffect(() => {
     if (!user) return;
@@ -148,7 +148,6 @@ export default function DashboardPage() {
               <DashboardCard
                 key={track.id}
                 trackId={track.id}
-                trackTitle={track.title}
                 shortTitle={track.shortTitle}
                 icon={<Icon className="h-4 w-4 text-white" />}
                 gradient={colors.gradient}

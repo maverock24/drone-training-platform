@@ -1,0 +1,1216 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - img "close icon" [ref=e5]
+      - list [ref=e6]:
+        - generic [ref=e7]:
+          - listitem [ref=e8]:
+            - generic [ref=e11] [cursor=pointer]:
+              - text: Recruiter as a Service
+              - img "Dropdown Icon" [ref=e13]
+          - paragraph [ref=e14]:
+            - link "1:1 Mentorship (10 hours)" [ref=e15] [cursor=pointer]:
+              - /url: /micro-degree/mentorship
+          - paragraph [ref=e16]:
+            - link "6 Job Interviews (1:1 Recruiter) & Profile Building" [ref=e17] [cursor=pointer]:
+              - /url: /raas/dedicated-recruiter-for-6-job-interviews
+          - paragraph [ref=e18]:
+            - link "3 Job Interviews (1:1 Recruiter) & Profile Building" [ref=e19] [cursor=pointer]:
+              - /url: /raas/dedicated-recruiter-for-3-job-interviews
+          - paragraph [ref=e20]:
+            - link "10 Job Interviews (1:1 Recruiter) & Profile Building" [ref=e21] [cursor=pointer]:
+              - /url: /raas/dedicated-recruiter-for-10-job-interviews
+        - listitem [ref=e23]:
+          - generic [ref=e26] [cursor=pointer]:
+            - text: Gen AI
+            - img "Dropdown Icon" [ref=e28]
+        - listitem [ref=e30]:
+          - generic [ref=e33] [cursor=pointer]:
+            - text: Cloud
+            - img "Dropdown Icon" [ref=e35]
+        - listitem [ref=e37]:
+          - generic [ref=e40] [cursor=pointer]:
+            - text: Job Programs
+            - img "Dropdown Icon" [ref=e42]
+        - listitem [ref=e44]:
+          - generic [ref=e47] [cursor=pointer]:
+            - text: Drone & Robotics
+            - img "Dropdown Icon" [ref=e49]
+        - listitem [ref=e51]:
+          - generic [ref=e54] [cursor=pointer]:
+            - text: Cybersecurity
+            - img "Dropdown Icon" [ref=e56]
+        - listitem [ref=e58]:
+          - generic [ref=e61] [cursor=pointer]:
+            - text: Data Engineer
+            - img "Dropdown Icon" [ref=e63]
+        - listitem [ref=e65]:
+          - generic [ref=e68] [cursor=pointer]:
+            - text: Entrepreneurship
+            - img "Dropdown Icon" [ref=e70]
+        - listitem [ref=e72]:
+          - generic [ref=e75] [cursor=pointer]:
+            - text: Business & Management
+            - img "Dropdown Icon" [ref=e77]
+        - listitem [ref=e79]:
+          - generic [ref=e82] [cursor=pointer]:
+            - text: Career Tracks
+            - img "Dropdown Icon" [ref=e84]
+        - listitem [ref=e86]:
+          - generic [ref=e89] [cursor=pointer]:
+            - text: Cloud Security
+            - img "Dropdown Icon" [ref=e91]
+        - listitem [ref=e93]:
+          - generic [ref=e96] [cursor=pointer]:
+            - text: Data Science and AI
+            - img "Dropdown Icon" [ref=e98]
+        - listitem [ref=e100]:
+          - generic [ref=e103] [cursor=pointer]:
+            - text: Hardware Engineering
+            - img "Dropdown Icon" [ref=e105]
+        - listitem [ref=e107]:
+          - generic [ref=e110] [cursor=pointer]:
+            - text: Finance
+            - img "Dropdown Icon" [ref=e112]
+        - listitem [ref=e114]:
+          - generic [ref=e117] [cursor=pointer]:
+            - text: Analytics
+            - img "Dropdown Icon" [ref=e119]
+        - listitem [ref=e121]:
+          - generic [ref=e124] [cursor=pointer]:
+            - text: Web Development
+            - img "Dropdown Icon" [ref=e126]
+        - listitem [ref=e128]:
+          - generic [ref=e131] [cursor=pointer]:
+            - text: DevOps
+            - img "Dropdown Icon" [ref=e133]
+        - listitem [ref=e135]:
+          - generic [ref=e138] [cursor=pointer]:
+            - text: Space Tech
+            - img "Dropdown Icon" [ref=e140]
+        - listitem [ref=e142]:
+          - generic [ref=e145] [cursor=pointer]:
+            - text: Electric Vehicle
+            - img "Dropdown Icon" [ref=e147]
+        - listitem [ref=e149]:
+          - generic [ref=e152] [cursor=pointer]:
+            - text: Product & Marketing
+            - img "Dropdown Icon" [ref=e154]
+        - listitem [ref=e156]:
+          - generic [ref=e159] [cursor=pointer]:
+            - text: Azure
+            - img "Dropdown Icon" [ref=e161]
+        - listitem [ref=e163]:
+          - generic [ref=e166] [cursor=pointer]:
+            - text: Programming
+            - img "Dropdown Icon" [ref=e168]
+        - listitem [ref=e170]:
+          - generic [ref=e173] [cursor=pointer]:
+            - text: SAP
+            - img "Dropdown Icon" [ref=e175]
+        - listitem [ref=e176]:
+          - link "Log In" [ref=e177] [cursor=pointer]:
+            - /url: https://classroom.edyoda.com/?utm_source=EYTopbar&utm_medium=EYTopbar&utm_campaign=EYTopbar
+            - button "Log In" [ref=e178]
+    - generic [ref=e179]:
+      - link "Cohort starting this weekend - AI Agent Deployment on Multi-cloud" [ref=e180] [cursor=pointer]:
+        - /url: https://www.edyoda.com/micro-degree/ai-agent-deployment-on-aws-azure-gcp-micro-degree
+        - generic [ref=e182]: Cohort starting this weekend - AI Agent Deployment on Multi-cloud
+      - generic [ref=e183]:
+        - link "EDYODA" [ref=e184] [cursor=pointer]:
+          - /url: /
+          - img "EDYODA" [ref=e186]
+        - generic [ref=e188]:
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - generic [ref=e193] [cursor=pointer]:
+                - text: MicroDegrees
+                - img "Dropdown Icon" [ref=e195]
+            - listitem [ref=e196]:
+              - generic [ref=e199] [cursor=pointer]:
+                - text: CareerTracks
+                - img "Dropdown Icon" [ref=e201]
+            - listitem [ref=e202]:
+              - generic [ref=e205] [cursor=pointer]:
+                - text: JobPrograms
+                - img "Dropdown Icon" [ref=e207]
+            - listitem [ref=e208]:
+              - generic [ref=e211] [cursor=pointer]:
+                - text: Entrepreneurship
+                - img "Dropdown Icon" [ref=e213]
+            - listitem [ref=e214]:
+              - generic [ref=e217] [cursor=pointer]:
+                - text: Partnerships
+                - img "Dropdown Icon" [ref=e219]
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - img "search-icon" [ref=e222] [cursor=pointer]
+  - main [ref=e223]:
+    - generic [ref=e224]:
+      - link "Call Icon +91 8045682485 (+91 mandatory)" [ref=e226] [cursor=pointer]:
+        - /url: tel:+91 8045682485
+        - img "Call Icon" [ref=e228]
+        - paragraph [ref=e229]: +91 8045682485 (+91 mandatory)
+      - link "Chat with us on WhatsApp" [ref=e230] [cursor=pointer]:
+        - /url: https://api.whatsapp.com/send?phone=918867148874&text=Hey!%20%F0%9F%9A%80%20I%27m%20interested%20in%20enrolling%20in%20the%20upcoming%20%20course.%20Can%20you%20let%20me%20know%20about%20the%20enrollment%20process%3F%20Thanks!
+        - img "Chat with us on WhatsApp" [ref=e231]
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - img "Medal" [ref=e236]
+              - paragraph [ref=e237]: MICRO DEGREE
+            - heading "Drone Development Architect" [level=1] [ref=e238]
+            - paragraph [ref=e239]: Drone Development Architect
+            - generic [ref=e240]:
+              - img "moneyback guarantee" [ref=e241]
+              - paragraph [ref=e242]: 100% LIVE Interactive Classes
+            - generic [ref=e243]:
+              - link "KNOW MORE" [ref=e244] [cursor=pointer]:
+                - /url: "#curriculumSection"
+                - button "KNOW MORE" [ref=e245]
+              - link "ENROLL NOW" [ref=e246] [cursor=pointer]:
+                - /url: "#formSection"
+                - button "ENROLL NOW" [ref=e247]
+              - generic [ref=e248]: "Seats Remaining: 9"
+          - img "Course Landing Image" [ref=e251]
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - img [ref=e255]:
+              - generic [ref=e256]: 3.3X
+            - generic [ref=e257]: Demand Growth
+          - generic [ref=e258]:
+            - img [ref=e260]:
+              - generic [ref=e261]: 2M
+            - generic [ref=e262]: 2 Million Jobs Created
+          - generic [ref=e263]:
+            - img [ref=e265]:
+              - generic [ref=e266]: €224,000
+            - generic [ref=e267]: Average Salary Package
+      - generic [ref=e269]:
+        - generic [ref=e271]:
+          - heading "What is in it for you?" [level=1] [ref=e272]
+          - heading "Shape the future with Drone Development Architect" [level=2] [ref=e273]
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - img "100% Live Classes" [ref=e276]
+              - heading "100% Live Classes 100% Live Classes" [level=3] [ref=e277]:
+                - img "100% Live Classes" [ref=e278]
+                - text: 100% Live Classes
+              - paragraph [ref=e279]: Attend 12 weeks of instructor led live classes from the top 1% industry experts
+              - img "Divider" [ref=e280]
+            - generic [ref=e281]:
+              - img "Projects & Case Studies" [ref=e282]
+              - heading "Projects & Case Studies" [level=3] [ref=e283]
+              - paragraph [ref=e284]: Gain hands-on experience with projects and real-world case studies for impactful learning
+              - img "Divider" [ref=e285]
+            - generic [ref=e286]:
+              - img "Verified Certificate" [ref=e287]
+              - heading "Verified Certificate" [level=3] [ref=e288]
+              - paragraph [ref=e289]: Earn a industry recognized certificate and kick start your career
+            - generic [ref=e290]:
+              - img "Session Recordings" [ref=e291]
+              - heading "Session Recordings" [level=3] [ref=e292]
+              - paragraph [ref=e293]: Revisit older chapters anytime with recorded sessions
+              - img "Divider" [ref=e294]
+            - generic [ref=e295]:
+              - img "Flexible Schedule" [ref=e296]
+              - heading "Flexible Schedule" [level=3] [ref=e297]
+              - paragraph [ref=e298]: Choose live classes from different cohorts that fit your availability.
+              - img "Divider" [ref=e299]
+            - generic [ref=e300]:
+              - img "Study Materials" [ref=e301]
+              - heading "Study Materials" [level=3] [ref=e302]
+              - paragraph [ref=e303]: Access comprehensive study materials designed to enhance your learning experience
+          - generic [ref=e305]:
+            - generic [ref=e306]:
+              - heading "Grab your slot before the offer expires" [level=4] [ref=e307]
+              - paragraph [ref=e308]: Discount applicable for next 10 candidates only.
+            - generic [ref=e310]:
+              - generic [ref=e311]:
+                - generic [ref=e312]: €1550.00
+                - generic [ref=e313]: €775.00
+              - generic [ref=e314]:
+                - generic [ref=e315]: limited time offer
+                - generic [ref=e316]:
+                  - generic [ref=e317]: 50%
+                  - text: "OFF"
+        - generic [ref=e319]:
+          - paragraph [ref=e320]: Reserve your spot today!
+          - generic [ref=e321]:
+            - generic [ref=e323]: "1"
+            - generic [ref=e326]: "2"
+          - generic [ref=e327]:
+            - paragraph [ref=e328]: Basic Info
+            - paragraph [ref=e329]: Select Offers
+          - paragraph [ref=e330]:
+            - text: Application closes on:06 Apr 2026
+            - text: Get instant access of pre-course material!
+          - table [ref=e334]:
+            - rowgroup [ref=e335]:
+              - row "Full Name*" [ref=e336]:
+                - cell "Full Name*" [ref=e337]
+                - cell [ref=e338]:
+                  - textbox "Your full name" [ref=e339]
+              - row "Email*" [ref=e340]:
+                - cell "Email*" [ref=e341]
+                - cell [ref=e342]:
+                  - textbox "abc@gmail.com" [ref=e343]
+              - row "WhatsApp Number* +91" [ref=e344]:
+                - cell "WhatsApp Number*" [ref=e345]
+                - cell "+91" [ref=e346]:
+                  - generic [ref=e347]:
+                    - textbox "+91" [ref=e349]
+                    - textbox "9876543210" [ref=e351]
+              - row "Checkbox EdYoda Share the program details with me overWhatsappIcon" [ref=e352]:
+                - cell "Checkbox EdYoda Share the program details with me overWhatsappIcon" [ref=e353]:
+                  - generic [ref=e354]:
+                    - img "Checkbox EdYoda" [ref=e355]
+                    - paragraph [ref=e356]:
+                      - text: Share the program details with me over
+                      - img "WhatsappIcon" [ref=e357]
+              - row "money back guarantee 100% Moneyback Guarantee Reserve Spot" [ref=e358]:
+                - cell "money back guarantee 100% Moneyback Guarantee Reserve Spot" [ref=e359]:
+                  - generic [ref=e360]:
+                    - paragraph [ref=e361]:
+                      - img "money back guarantee" [ref=e362]
+                      - text: 100% Moneyback Guarantee
+                    - button "Reserve Spot" [ref=e363] [cursor=pointer]
+          - generic [ref=e365]:
+            - heading "Talk to Us" [level=3] [ref=e366]
+            - paragraph [ref=e367]: "We’re here to help! Reach us at:"
+            - generic [ref=e368]:
+              - generic [ref=e369]: +91 8045682485
+              - generic [ref=e370]: +91 8904512659
+              - generic [ref=e371]: +91 9663357054
+            - button "Close" [ref=e373] [cursor=pointer]
+      - text: › › ›
+      - generic [ref=e375]:
+        - heading "Learn from Top 1%" [level=2] [ref=e376]
+        - paragraph [ref=e377]: Sr. Managers, VPs, CXOs, Directors & Founders from companies shaping the future.
+        - img "Industry Experts" [ref=e379]
+      - generic [ref=e381]:
+        - heading "Combo Offers" [level=1] [ref=e382]
+        - generic [ref=e383]:
+          - generic [ref=e384]:
+            - heading "Most Frequently Bought" [level=3] [ref=e386]
+            - generic [ref=e387]:
+              - generic [ref=e388]: • Drone Development Architect
+              - generic [ref=e389]: + Python Programming
+              - generic [ref=e390]: + AI for Drone
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e393]: €11310.00
+                - generic [ref=e394]: €1075.00
+              - generic [ref=e395]: "+18% GST: €194.00"
+              - generic [ref=e396]: "Total: €1269.00"
+            - paragraph [ref=e397]:
+              - img "money back guarantee" [ref=e398]
+              - text: 100% Moneyback Guarantee
+            - button "Reserve Spot" [ref=e399] [cursor=pointer]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Additional 35% OFF
+            - heading "Create Your Own Combo" [level=3] [ref=e403]
+            - generic [ref=e404]:
+              - generic [ref=e405]: • Drone Development Architect
+              - generic [ref=e407] [cursor=pointer]: + Add More Courses
+            - paragraph [ref=e408]:
+              - img "money back guarantee" [ref=e409]
+              - text: 100% Moneyback Guarantee
+            - button "Reserve Spot" [disabled] [ref=e410]
+      - generic [ref=e413]:
+        - generic [ref=e415]:
+          - generic [ref=e418]:
+            - paragraph [ref=e419]: Curriculum
+            - paragraph [ref=e420]: A Curriculum designed for your success
+          - paragraph [ref=e421]:
+            - text: Live Sessions Schedule
+            - generic [ref=e422]:
+              - img "date" [ref=e423]
+              - text: Sat - Sun (Weekends Only)
+            - generic [ref=e424]:
+              - img "time" [ref=e425]
+              - text: Timing 7:00 AM - 9:00 AM / 8:30 AM - 10:30 AM / 11:00 AM - 1:00 PM / 5:00 PM - 7:00 PM / 7:30 PM - 9:30 PM CET
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic [ref=e428]: Modules
+              - button "Drone Development Engineer" [ref=e429] [cursor=pointer]
+              - button "Autonomous Drone Programming Engineer" [ref=e430] [cursor=pointer]
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - generic [ref=e433] [cursor=pointer]:
+                  - generic [ref=e434]: 1. Introduction to Drone Technology
+                  - img "DownArrow" [ref=e435]
+                - text: Sub-topics Covered
+                - list [ref=e437]:
+                  - listitem [ref=e438]: History and Evolution of Drones
+                  - listitem [ref=e439]: Types of Drones and Their Applications
+                  - listitem [ref=e440]: Core Components of a Drone System
+                  - listitem [ref=e441]: Current Drone Industry Landscape
+                  - listitem [ref=e442]: Future Trends in UAV Technology
+              - generic [ref=e443]:
+                - generic [ref=e444] [cursor=pointer]:
+                  - generic [ref=e445]: 2. Drone Frames
+                  - img "DownArrow" [ref=e446]
+                - text: Sub-topics Covered
+              - generic [ref=e447]:
+                - generic [ref=e448] [cursor=pointer]:
+                  - generic [ref=e449]: 3. Propulsion Systems
+                  - img "DownArrow" [ref=e450]
+                - text: Sub-topics Covered
+              - generic [ref=e451]:
+                - generic [ref=e452] [cursor=pointer]:
+                  - generic [ref=e453]: 4. Power Systems and Battery Management
+                  - img "DownArrow" [ref=e454]
+                - text: Sub-topics Covered
+              - generic [ref=e455]:
+                - generic [ref=e456] [cursor=pointer]:
+                  - generic [ref=e457]: 5. Sensor Integration
+                  - img "DownArrow" [ref=e458]
+                - text: Sub-topics Covered
+              - generic [ref=e459]:
+                - generic [ref=e460] [cursor=pointer]:
+                  - generic [ref=e461]: 6. Communication Systems and Telemetry
+                  - img "DownArrow" [ref=e462]
+                - text: Sub-topics Covered
+              - generic [ref=e463]:
+                - generic [ref=e464] [cursor=pointer]:
+                  - generic [ref=e465]: 7. PID Control Theory for Flight Control Systems
+                  - img "DownArrow" [ref=e466]
+                - text: Sub-topics Covered
+              - generic [ref=e467]:
+                - generic [ref=e468] [cursor=pointer]:
+                  - generic [ref=e469]: 8. Attitude Estimation and Sensor Fusion for Flight Control Systems
+                  - img "DownArrow" [ref=e470]
+                - text: Sub-topics Covered
+              - generic [ref=e471]:
+                - generic [ref=e472] [cursor=pointer]:
+                  - generic [ref=e473]: 9. Flight Modes and Stabilization Systems
+                  - img "DownArrow" [ref=e474]
+                - text: Sub-topics Covered
+              - generic [ref=e475]:
+                - generic [ref=e476] [cursor=pointer]:
+                  - generic [ref=e477]: 10. Autonomous Navigation Systems
+                  - img "DownArrow" [ref=e478]
+                - text: Sub-topics Covered
+              - generic [ref=e479]:
+                - generic [ref=e480] [cursor=pointer]:
+                  - generic [ref=e481]: 11. Specialized Payload Systems and Regulations
+                  - img "DownArrow" [ref=e482]
+                - text: Sub-topics Covered
+              - generic [ref=e483]:
+                - generic [ref=e484] [cursor=pointer]:
+                  - generic [ref=e485]: 12. Drone Assembly and Flight
+                  - img "DownArrow" [ref=e486]
+                - text: Sub-topics Covered
+        - generic [ref=e488]:
+          - generic [ref=e489]:
+            - paragraph [ref=e491]: Mentors
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - img "Right section image" [ref=e495]
+                - generic [ref=e496]:
+                  - paragraph [ref=e497]: 20+ Years, Sr. R&D Engineer, Ideaforge
+                  - img "Right section image" [ref=e498]
+              - generic [ref=e499]:
+                - img "Right section image" [ref=e501]
+                - generic [ref=e502]:
+                  - paragraph [ref=e503]: 10+ Years, Sr. Robotics R&D, Unbox Robotics
+                  - img "Right section image" [ref=e504]
+          - generic [ref=e505]:
+            - paragraph [ref=e507]: Course Includes
+            - generic [ref=e508]:
+              - generic [ref=e509]:
+                - img "course includes" [ref=e510]
+                - paragraph [ref=e511]: LIVE Interactive Sessions
+              - generic [ref=e512]:
+                - img "course includes" [ref=e513]
+                - paragraph [ref=e514]: Quizzes, Assignments & Projects
+              - generic [ref=e515]:
+                - img "course includes" [ref=e516]
+                - paragraph [ref=e517]: Study Materials & Session Recordings
+              - generic [ref=e518]:
+                - img "course includes" [ref=e519]
+                - paragraph [ref=e520]: Certificate
+          - generic [ref=e521]:
+            - paragraph [ref=e523]: Course Pre-requisites
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - img "pre-requisite" [ref=e527]
+                - generic [ref=e528]: Basic electronics knowledge is required for this course.
+          - generic [ref=e529]:
+            - paragraph [ref=e531]: Outcomes
+            - list [ref=e533]:
+              - listitem [ref=e534]:
+                - img "skills" [ref=e535]
+                - generic [ref=e536]: Master the fundamentals of drone architecture, flight dynamics, hardware systems, and propulsion for building reliable UAVs.
+              - listitem [ref=e537]:
+                - img "skills" [ref=e538]
+                - generic [ref=e539]: Configure and tune flight controllers, understand PID control, stabilization modes, and implement failsafe recovery mechanisms.
+              - listitem [ref=e540]:
+                - img "skills" [ref=e541]
+                - generic [ref=e542]: Develop expertise in open-source autopilot systems (PX4, ArduPilot), MAVLink communication, and ground control station software.
+              - listitem [ref=e543]:
+                - img "skills" [ref=e544]
+                - generic [ref=e545]: Gain hands-on experience with drone simulation using Gazebo, SITL, and test autonomous missions in safe virtual environments.
+              - listitem [ref=e546]:
+                - img "skills" [ref=e547]
+                - generic [ref=e548]: Learn offboard control, waypoint navigation, and autonomous flight programming using Python, PX4, and ROS2 integration.
+              - listitem [ref=e549]:
+                - img "skills" [ref=e550]
+                - generic [ref=e551]: Apply computer vision and AI techniques for drones, including object detection, real-time tracking, and vision-based navigation.
+              - listitem [ref=e552]:
+                - img "skills" [ref=e553]
+                - generic [ref=e554]: Design and integrate specialized payloads such as cameras, gimbals, spraying systems, and industry-specific sensor modules.
+              - listitem [ref=e555]:
+                - img "skills" [ref=e556]
+                - generic [ref=e557]: Deploy real-world drone missions by flashing PX4 firmware, setting up companion computers, ensuring regulatory compliance, and conducting safe autonomous flights.
+      - generic [ref=e558]:
+        - img "background certification section" [ref=e559]
+        - paragraph [ref=e560]:
+          - text: for successfully completing the
+          - generic [ref=e561]: "'Drone Development Architect'"
+          - text: course conducted from 11 Jan 2026 to 05 Apr 2026
+        - heading "Add a Industry Recognized Certificate To Your Resume" [level=1] [ref=e562]:
+          - text: Add a Industry Recognized
+          - text: Certificate To Your Resume
+        - list [ref=e563]:
+          - listitem [ref=e564]:
+            - img "Custom Icon 1" [ref=e565]
+            - generic [ref=e566]:
+              - heading "Career Advancements" [level=5] [ref=e567]
+              - paragraph [ref=e568]: Elevate your career with a respected certificate
+          - listitem [ref=e569]:
+            - img "Custom Icon 1" [ref=e570]
+            - generic [ref=e571]:
+              - heading "Industry Respect" [level=5] [ref=e572]
+              - paragraph [ref=e573]: Gain credibility in the field
+          - listitem [ref=e574]:
+            - img "Custom Icon 1" [ref=e575]
+            - generic [ref=e576]:
+              - heading "Networking" [level=5] [ref=e577]
+              - paragraph [ref=e578]: Connect with experts and peers
+          - listitem [ref=e579]:
+            - img "Custom Icon 1" [ref=e580]
+            - generic [ref=e581]:
+              - heading "Opportunities" [level=5] [ref=e582]
+              - paragraph [ref=e583]: Attract exciting job prospects and promotions
+        - img "Medal" [ref=e584]
+        - generic [ref=e585]:
+          - generic [ref=e586]:
+            - link "Register Today" [ref=e587] [cursor=pointer]:
+              - /url: "#formSection"
+              - button "Register Today" [ref=e588]
+            - generic [ref=e589]:
+              - generic [ref=e590]: Limited time
+              - generic [ref=e591]: €1550.00
+            - generic [ref=e592]: €775.00
+          - generic [ref=e593]:
+            - img "moneyback guarantee" [ref=e594]
+            - paragraph [ref=e595]: 100% Moneyback Guarantee
+      - generic [ref=e596]:
+        - paragraph [ref=e597]: Top 1% Recruiters - Get interview access to 550+ Companies
+        - img "Hiring Partners" [ref=e599]
+      - generic [ref=e600]:
+        - heading "Recommendations" [level=3] [ref=e601]:
+          - paragraph [ref=e602]: Recommendations
+        - generic [ref=e603]:
+          - link "Micro Degree Thumbnail Micro Degree Thumbnail Drone Development Engineer Micro Degree Duration Icon 6 Weeks Micro Degree enrollment Icon 8.8K Students Enrolled Micro Degree live Icon Instructor-Led Live Sessions KNOW MORE" [ref=e605] [cursor=pointer]:
+            - /url: /micro-degree/drone-development-micro-degree
+            - img "Micro Degree Thumbnail" [ref=e607]
+            - generic [ref=e608]:
+              - img "Micro Degree Thumbnail" [ref=e609]
+              - generic [ref=e610]:
+                - paragraph [ref=e611]: Drone Development Engineer
+                - generic [ref=e612]:
+                  - img "Micro Degree Duration Icon" [ref=e613]
+                  - generic [ref=e614]: 6 Weeks
+                - generic [ref=e615]:
+                  - img "Micro Degree enrollment Icon" [ref=e616]
+                  - generic [ref=e617]: 8.8K Students Enrolled
+                - generic [ref=e618]:
+                  - img "Micro Degree live Icon" [ref=e619]
+                  - generic [ref=e620]: Instructor-Led Live Sessions
+              - button "KNOW MORE" [ref=e623]
+          - link "Micro Degree Thumbnail Micro Degree Thumbnail AI Drone Development Engineer Micro Degree Duration Icon 16 Weeks Micro Degree enrollment Icon 9K Students Enrolled Micro Degree live Icon Instructor-Led Live Sessions KNOW MORE" [ref=e625] [cursor=pointer]:
+            - /url: /micro-degree/ai-drone-development-micro-degree
+            - img "Micro Degree Thumbnail" [ref=e627]
+            - generic [ref=e628]:
+              - img "Micro Degree Thumbnail" [ref=e629]
+              - generic [ref=e630]:
+                - paragraph [ref=e631]: AI Drone Development Engineer
+                - generic [ref=e632]:
+                  - img "Micro Degree Duration Icon" [ref=e633]
+                  - generic [ref=e634]: 16 Weeks
+                - generic [ref=e635]:
+                  - img "Micro Degree enrollment Icon" [ref=e636]
+                  - generic [ref=e637]: 9K Students Enrolled
+                - generic [ref=e638]:
+                  - img "Micro Degree live Icon" [ref=e639]
+                  - generic [ref=e640]: Instructor-Led Live Sessions
+              - button "KNOW MORE" [ref=e643]
+          - link "Micro Degree Thumbnail Micro Degree Thumbnail Drone Entrepreneur Micro Degree Duration Icon 24 Weeks Micro Degree enrollment Icon 8.2K Students Enrolled Micro Degree live Icon Instructor-Led Live Sessions KNOW MORE" [ref=e645] [cursor=pointer]:
+            - /url: /micro-degree/drone-entrepreneurship-micro-degree
+            - img "Micro Degree Thumbnail" [ref=e647]
+            - generic [ref=e648]:
+              - img "Micro Degree Thumbnail" [ref=e649]
+              - generic [ref=e650]:
+                - paragraph [ref=e651]: Drone Entrepreneur
+                - generic [ref=e652]:
+                  - img "Micro Degree Duration Icon" [ref=e653]
+                  - generic [ref=e654]: 24 Weeks
+                - generic [ref=e655]:
+                  - img "Micro Degree enrollment Icon" [ref=e656]
+                  - generic [ref=e657]: 8.2K Students Enrolled
+                - generic [ref=e658]:
+                  - img "Micro Degree live Icon" [ref=e659]
+                  - generic [ref=e660]: Instructor-Led Live Sessions
+              - button "KNOW MORE" [ref=e663]
+          - link "Micro Degree Thumbnail Micro Degree Thumbnail Autonomous Drone Programming Engineer Micro Degree Duration Icon 6 Weeks Micro Degree enrollment Icon 7.7K Students Enrolled Micro Degree live Icon Instructor-Led Live Sessions KNOW MORE" [ref=e665] [cursor=pointer]:
+            - /url: /micro-degree/autonomous-drone-programming-micro-degree
+            - img "Micro Degree Thumbnail" [ref=e667]
+            - generic [ref=e668]:
+              - img "Micro Degree Thumbnail" [ref=e669]
+              - generic [ref=e670]:
+                - paragraph [ref=e671]: Autonomous Drone Programming Engineer
+                - generic [ref=e672]:
+                  - img "Micro Degree Duration Icon" [ref=e673]
+                  - generic [ref=e674]: 6 Weeks
+                - generic [ref=e675]:
+                  - img "Micro Degree enrollment Icon" [ref=e676]
+                  - generic [ref=e677]: 7.7K Students Enrolled
+                - generic [ref=e678]:
+                  - img "Micro Degree live Icon" [ref=e679]
+                  - generic [ref=e680]: Instructor-Led Live Sessions
+              - button "KNOW MORE" [ref=e683]
+        - button "Show 1 more" [ref=e685] [cursor=pointer]
+      - heading "Hear from our Learners" [level=1] [ref=e687]
+      - generic [ref=e690]:
+        - paragraph [ref=e694]: Looking for help? Here are our most frequently asked questions
+        - generic [ref=e695]:
+          - generic [ref=e696]:
+            - generic [ref=e697]: "1"
+            - paragraph [ref=e698]: What is a EdYoda Micro Degree?
+            - paragraph [ref=e699]: EdYoda Micro Degree is an online, Live classroom based short-term course, where you get Live Sessions conducted by industry experts. It is designed to help you acquire practical & job-relevant skills quickly.
+          - generic [ref=e700]:
+            - generic [ref=e701]: "2"
+            - paragraph [ref=e702]: How do I register for the micro degree?
+            - paragraph [ref=e703]: To register, visit the micro degree details page and fill up the registration form and make the payment to reserve your seat before the application closing date.
+          - generic [ref=e704]:
+            - generic [ref=e705]: "3"
+            - paragraph [ref=e706]: What happens after I register and pay?
+            - paragraph [ref=e707]: After successful registration and payment, you will receive a confirmation email with instructions on how to access the online micro degree classes
+          - generic [ref=e708]:
+            - generic [ref=e709]: "4"
+            - paragraph [ref=e710]: Are there any pre-requisites?
+            - paragraph [ref=e711]: All you need is a PC or Laptop to attend the online live classes and your commitment of 4 weeks. Apart from that there are no prerequisite for the Micro Degree.
+          - generic [ref=e712]:
+            - generic [ref=e713]: "5"
+            - paragraph [ref=e714]: What if I miss a live session?
+            - paragraph [ref=e715]: We've got you covered! The session recording will be added automatically on the classroom platform after the session is ended.
+          - generic [ref=e716]:
+            - generic [ref=e717]: "6"
+            - paragraph [ref=e718]: Will I get a certificate after completion?
+            - paragraph [ref=e719]: Yes. After successful completion of curriculum you will be provided a digital certificate which you can download and share with others.
+        - generic [ref=e720]:
+          - heading "General FAQs" [level=1] [ref=e721]
+          - heading "Everything you need to know" [level=6] [ref=e722]
+          - generic [ref=e723]:
+            - generic [ref=e725] [cursor=pointer]:
+              - generic [ref=e726]: What is the Drone Development Architect Micro Degree, and who is it designed for?
+              - img "DownArrow" [ref=e727]
+            - generic [ref=e729] [cursor=pointer]:
+              - generic [ref=e730]: Micro Degree course is live or recorded?
+              - img "DownArrow" [ref=e731]
+            - generic [ref=e733] [cursor=pointer]:
+              - generic [ref=e734]: In what language will the course be taught?
+              - img "DownArrow" [ref=e735]
+            - generic [ref=e737] [cursor=pointer]:
+              - generic [ref=e738]: How do I access the course details and learning material after registration?
+              - img "DownArrow" [ref=e739]
+            - generic [ref=e741] [cursor=pointer]:
+              - generic [ref=e742]: Do I need to have prior programming experience to enroll?
+              - img "DownArrow" [ref=e743]
+            - generic [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]: Who are the instructors, and what is their experience?
+              - img "DownArrow" [ref=e747]
+            - generic [ref=e749] [cursor=pointer]:
+              - generic [ref=e750]: Will there be assignments, assessments, or a final project in the course?
+              - img "DownArrow" [ref=e751]
+            - generic [ref=e753] [cursor=pointer]:
+              - generic [ref=e754]: Can I interact with instructors and fellow students during the course?
+              - img "DownArrow" [ref=e755]
+            - generic [ref=e757] [cursor=pointer]:
+              - generic [ref=e758]: What is 100% moneyback guarantee?
+              - img "DownArrow" [ref=e759]
+      - generic [ref=e760]:
+        - heading "Featured in" [level=3] [ref=e761]
+        - generic [ref=e762]:
+          - link "EdYoda, digital education system that’s focused on skill-based education for jobs" [ref=e763] [cursor=pointer]:
+            - /url: https://www.deccanchronicle.com/business/companies/260919/edyoda-digital-education-system-thats-focused-on-skill-based-educa.html
+            - generic "EdYoda, digital education system that’s focused on skill-based education for jobs" [ref=e764]
+          - link "EdYoda Accepted as Asia-Pacific Member by AWS EdStart Program" [ref=e765] [cursor=pointer]:
+            - /url: https://www.asianage.com/technology/in-other-news/180919/edyoda-accepted-as-asia-pacific-member-by-aws-edstart-program.html
+            - generic "EdYoda Accepted as Asia-Pacific Member by AWS EdStart Program" [ref=e766]
+          - link "5 Skills which make a Talent Industry Ready | EdYoda" [ref=e767] [cursor=pointer]:
+            - /url: http://everythingexperiential.businessworld.in/article/5-Skills-which-make-a-Talent-Industry-Ready/23-07-2019-173814/
+            - generic "5 Skills which make a Talent Industry Ready | EdYoda" [ref=e768]
+          - link "How E-learning Platforms are Becoming a Disruptor for Successful New-age Hiring | EdYoda" [ref=e769] [cursor=pointer]:
+            - /url: https://www.entrepreneur.com/article/338265
+            - generic "How E-learning Platforms are Becoming a Disruptor for Successful New-age Hiring | EdYoda" [ref=e770]
+          - link "Here's how EdYoda, a digital platform are empowering graduates with software skills for free of cost" [ref=e771] [cursor=pointer]:
+            - /url: https://www.edexlive.com/people/2019/aug/13/heres-how-edyoda-a-digital-platform-are-empowering-graduates-with-software-skills-for-free-of-cost-7309.html
+            - generic "Here's how EdYoda, a digital platform are empowering graduates with software skills for free of cost" [ref=e772]
+      - generic [ref=e773]:
+        - generic [ref=e774]:
+          - img "Medal" [ref=e775]
+          - generic [ref=e776]:
+            - paragraph [ref=e777]: Drone Development Architect
+            - paragraph [ref=e778]: MICRO DEGREE
+        - generic [ref=e779]:
+          - generic [ref=e780]: Offer Ends In
+          - paragraph [ref=e782]:
+            - generic [ref=e783]: "0"
+            - text: Hours
+            - generic [ref=e784]: "0"
+            - text: Min
+            - generic [ref=e785]: "0"
+            - text: Secs
+        - generic [ref=e786]:
+          - generic [ref=e788]:
+            - generic [ref=e789]:
+              - generic [ref=e790]: Limited time
+              - generic [ref=e791]: €1,550.00
+            - generic [ref=e792]: €775.00
+          - generic [ref=e793]:
+            - generic [ref=e794]:
+              - generic [ref=e795]:
+                - text: "9"
+                - img "Down Arrow" [ref=e796]
+              - generic [ref=e797]: Seats Left
+            - paragraph [ref=e798]: Hurry and book yours
+          - link "ENROLL NOW" [ref=e800] [cursor=pointer]:
+            - /url: "#formSection"
+            - button "ENROLL NOW" [ref=e801]
+  - contentinfo [ref=e802]:
+    - generic [ref=e803]:
+      - generic [ref=e804]:
+        - heading "EDYODA" [level=3] [ref=e805]
+        - link "About Us" [ref=e806] [cursor=pointer]:
+          - /url: /about
+        - link "Terms of Use" [ref=e807] [cursor=pointer]:
+          - /url: /terms
+        - link "Privacy Policy" [ref=e808] [cursor=pointer]:
+          - /url: /privacy
+        - link "Reviews" [ref=e809] [cursor=pointer]:
+          - /url: /reviews-by-edyoda-students
+      - generic [ref=e810]:
+        - heading "QUICK LINKS" [level=3] [ref=e811]
+        - link "FAQ" [ref=e812] [cursor=pointer]:
+          - /url: /faq
+        - link "Career Guidance" [ref=e813] [cursor=pointer]:
+          - /url: https://www.edyoda.com/careerx
+        - link "Digital Classroom" [ref=e814] [cursor=pointer]:
+          - /url: https://classroom.edyoda.com/
+        - link "Micro Blogs" [ref=e815] [cursor=pointer]:
+          - /url: /micro-blogs
+        - link "Train Your Employees" [ref=e816] [cursor=pointer]:
+          - /url: https://www.edyoda.com/enterprise
+        - link "University Partnership" [ref=e817] [cursor=pointer]:
+          - /url: https://www.edyoda.com/university
+      - generic [ref=e818]:
+        - heading "CONNECT" [level=3] [ref=e819]
+        - link "1st Floor, Gopalan Millennium Tower, ITPL Main Road, Brookefield, Bengaluru, Karnataka-560037, India" [ref=e820] [cursor=pointer]:
+          - /url: "#"
+          - text: 1st Floor,
+          - text: Gopalan Millennium Tower,
+          - text: ITPL Main Road, Brookefield,
+          - text: Bengaluru, Karnataka-560037,
+          - text: India
+      - generic [ref=e821]:
+        - heading [level=3] [ref=e822]
+        - link "EdYoda Email Iconsupport@edyoda.com" [ref=e823] [cursor=pointer]:
+          - /url: mailto:support@edyoda.com
+          - img "EdYoda Email Icon" [ref=e824]
+          - text: support@edyoda.com
+        - link "EdYoda Telephone Icon+91 8045682485 (+91 mandatory)" [ref=e825]:
+          - /url: tel:+91 8045682485
+          - img "EdYoda Telephone Icon" [ref=e826]
+          - text: +91 8045682485 (+91 mandatory)
+        - link "EdYoda Telephone Icon+91 8904512659EdYoda WhatsApp Icon" [ref=e827]:
+          - /url: tel:+918904512659
+          - img "EdYoda Telephone Icon" [ref=e828]
+          - text: +91 8904512659
+          - img "EdYoda WhatsApp Icon" [ref=e829]
+        - link "EdYoda Telephone Icon+91 9663357054" [ref=e830]:
+          - /url: tel:+919663357054
+          - img "EdYoda Telephone Icon" [ref=e831]
+          - text: +91 9663357054
+        - generic [ref=e832]:
+          - link "Google maps location icon" [ref=e833] [cursor=pointer]:
+            - /url: https://www.google.com/maps/place/Gopalan+Millennium+Tower/@12.9677601,77.7113122,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae12267b389f5d:0xd7ff01972afed057!8m2!3d12.9677601!4d77.7135009
+            - img "Google maps location icon" [ref=e834]
+          - link "EdYoda Twitter Icon" [ref=e835] [cursor=pointer]:
+            - /url: https://twitter.com/EdYodaHQ
+            - img "EdYoda Twitter Icon" [ref=e836]
+          - link "EdYoda Facebook Icon" [ref=e837] [cursor=pointer]:
+            - /url: https://en-gb.facebook.com/edYoda.here/
+            - img "EdYoda Facebook Icon" [ref=e838]
+          - link "EdYoda LinkedIn Icon" [ref=e839] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/edyoda/?originalSubdomain=in
+            - img "EdYoda LinkedIn Icon" [ref=e840]
+          - link "EdYoda Telegramm Icon" [ref=e841] [cursor=pointer]:
+            - /url: https://t.me/interviewspreparation
+            - img "EdYoda Telegramm Icon" [ref=e842]
+    - generic [ref=e843]:
+      - generic [ref=e844]:
+        - heading "Recruiter as a Service" [level=3] [ref=e845]
+        - link "1:1 Mentorship (10 hours)" [ref=e846] [cursor=pointer]:
+          - /url: /micro-degree/mentorship
+        - link "6 Job Interviews (1:1 Recruiter) & Profile Building" [ref=e847] [cursor=pointer]:
+          - /url: /raas/dedicated-recruiter-for-6-job-interviews
+        - link "3 Job Interviews (1:1 Recruiter) & Profile Building" [ref=e848] [cursor=pointer]:
+          - /url: /raas/dedicated-recruiter-for-3-job-interviews
+        - link "10 Job Interviews (1:1 Recruiter) & Profile Building" [ref=e849] [cursor=pointer]:
+          - /url: /raas/dedicated-recruiter-for-10-job-interviews
+      - generic [ref=e850]:
+        - heading "Gen AI" [level=3] [ref=e851]
+        - link "AI Agent Development - Specialist" [ref=e852] [cursor=pointer]:
+          - /url: /micro-degree/ai-agent-development-micro-degree
+        - link "Generative AI for Non-Coders" [ref=e853] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-for-non-coder-micro-degree
+        - link "AI for Leaders - Strategy, Governance & Transformation" [ref=e854] [cursor=pointer]:
+          - /url: /micro-degree/ai-for-leaders-micro-degree
+        - link "Generative AI & AI Agents Career Track" [ref=e855] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-and-ai-agent-career-track-micro-degree
+        - link "Generative AI Engineer - Practitioner" [ref=e856] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-engineer-practitioner-micro-degree
+        - link "AI Product Management" [ref=e857] [cursor=pointer]:
+          - /url: /micro-degree/ai-product-management-micro-degree
+        - link "Generative AI & Machine Learning Engineer" [ref=e858] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-machine-learning-engineer-micro-degree
+        - link "AI Agent deployment on Multi-cloud" [ref=e859] [cursor=pointer]:
+          - /url: /micro-degree/ai-agent-deployment-on-aws-azure-gcp-micro-degree
+        - link "AI Solutions Architect" [ref=e860] [cursor=pointer]:
+          - /url: /micro-degree/ai-solutions-architect-micro-degree
+        - link "Generative AI & AI Agent Developer" [ref=e861] [cursor=pointer]:
+          - /url: /micro-degree/genai-multi-aiagent-developer-micro-degree
+        - link "AI Entrepreneur" [ref=e862] [cursor=pointer]:
+          - /url: /micro-degree/ai-automation-entrepreneurship-micro-degree
+        - link "Generative AI Engineer - Specialist" [ref=e863] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-using-python-micro-degree
+      - generic [ref=e864]:
+        - heading "Cloud" [level=3] [ref=e865]
+        - link "Microsoft Azure Fundamentals Certification (AZ-900)" [ref=e866] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-fundamentals-certification-az900-micro-degree
+        - link "Multi-cloud & DevOps Career Track" [ref=e867] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-devops-career-track-micro-degree
+        - link "Azure Developer Associate (AZ-204)" [ref=e868] [cursor=pointer]:
+          - /url: /micro-degree/az-204-azure-developer-associate-micro-degree
+        - link "AWS Cloud Practitioner" [ref=e869] [cursor=pointer]:
+          - /url: /micro-degree/aws-cloud-practitioner-micro-degree
+        - link "Microsoft Azure Career Track" [ref=e870] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-career-track-micro-degree
+        - link "Azure Administrator Associate (AZ-104)" [ref=e871] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-administrator-associate-micro-degree
+        - link "Multi Cloud Engineer (AWS+AZURE+GCP)" [ref=e872] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-practitioner-micro-degree
+        - link "Multi Cloud Architect (AWS+AZURE+GCP)" [ref=e873] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-architect-micro-degree
+        - link "Azure Solutions Architect (AZ-305)" [ref=e874] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-solutions-architect-az305-micro-degree
+        - link "Enterprise Architect" [ref=e875] [cursor=pointer]:
+          - /url: /micro-degree/enterprise-architect-micro-degree
+        - link "Google Cloud Architect" [ref=e876] [cursor=pointer]:
+          - /url: /micro-degree/google-cloud-architect-micro-degree
+        - link "AWS Solutions Architect (SAA-C03)" [ref=e877] [cursor=pointer]:
+          - /url: /micro-degree/aws-solutions-architect-SAA-C03-micro-degree
+        - link "AI Agent deployment on Multi-cloud" [ref=e878] [cursor=pointer]:
+          - /url: /micro-degree/ai-agent-deployment-on-aws-azure-gcp-micro-degree
+        - link "SaaS Entrepreneur" [ref=e879] [cursor=pointer]:
+          - /url: /micro-degree/saas-entrepreneurship-micro-degree
+        - link "Oracle Cloud Infrastructure (OCI) Certified Architect" [ref=e880] [cursor=pointer]:
+          - /url: /micro-degree/oracle-cloud-architect-micro-degree
+        - link "Multi Cloud Architect for GenAI Infra" [ref=e881] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-architect-with-genai-micro-degree
+        - link "Linux Certification" [ref=e882] [cursor=pointer]:
+          - /url: /micro-degree/linux-certification-micro-degree
+      - generic [ref=e883]:
+        - heading "Job Programs" [level=3] [ref=e884]
+        - link "Cloud Architect Job Program" [ref=e885] [cursor=pointer]:
+          - /url: /job-program/cloud-architect-job-program
+        - link "Cybersecurity Job Program" [ref=e886] [cursor=pointer]:
+          - /url: /job-program/cybersecurity-specialist-job-program
+        - link "Data Architect Job Program" [ref=e887] [cursor=pointer]:
+          - /url: /job-program/data-engineer-job-program
+        - link "DeepTech Job Program" [ref=e888] [cursor=pointer]:
+          - /url: /job-program/deeptech-job-program
+        - link "Test Automation Job Program" [ref=e889] [cursor=pointer]:
+          - /url: /job-program/test-automation-architect-job-program
+        - link "AI Engineer Job Program" [ref=e890] [cursor=pointer]:
+          - /url: /job-program/ai-engineer-job-program
+        - link "AI Architect Job Program" [ref=e891] [cursor=pointer]:
+          - /url: /job-program/ai-architect-job-program
+        - link "EV Engineer Job Program" [ref=e892] [cursor=pointer]:
+          - /url: /job-program/ev-engineer-job-program
+        - link "Drone Engineer Job Program" [ref=e893] [cursor=pointer]:
+          - /url: /job-program/drone-engineer-job-program
+      - generic [ref=e894]:
+        - heading "Drone & Robotics" [level=3] [ref=e895]
+        - link "Robotics Development Engineer" [ref=e896] [cursor=pointer]:
+          - /url: /micro-degree/robotics-development-micro-degree
+        - link "DeepTech Entrepreneur" [ref=e897] [cursor=pointer]:
+          - /url: /micro-degree/deeptech-entrepreneurship-micro-degree
+        - link "Advanced Autonomous Drone R&D Specialization" [ref=e898] [cursor=pointer]:
+          - /url: /micro-degree/advanced-autonomous-drone-specialization-micro-degree
+        - link "Drone Development Architect" [ref=e899] [cursor=pointer]:
+          - /url: /micro-degree/drone-development-architect-micro-degree
+        - link "Autonomous Robotics Programming Engineer" [ref=e900] [cursor=pointer]:
+          - /url: /micro-degree/autonomous-robotics-programming-micro-degree
+        - link "Drone Entrepreneur" [ref=e901] [cursor=pointer]:
+          - /url: /micro-degree/drone-entrepreneurship-micro-degree
+        - link "Autonomous Drone Programming Engineer" [ref=e902] [cursor=pointer]:
+          - /url: /micro-degree/autonomous-drone-programming-micro-degree
+        - link "Robotics Specialization Career Track" [ref=e903] [cursor=pointer]:
+          - /url: /micro-degree/robotics-specialization-career-track-micro-degree
+        - link "Drone Specialization Career Track" [ref=e904] [cursor=pointer]:
+          - /url: /micro-degree/drone-specialization-career-track-micro-degree
+        - link "AI Autonomous Robotics Development Engineer" [ref=e905] [cursor=pointer]:
+          - /url: /micro-degree/ai-robotics-development-micro-degree
+        - link "AI Drone Development Engineer" [ref=e906] [cursor=pointer]:
+          - /url: /micro-degree/ai-drone-development-micro-degree
+        - link "Drone Development Engineer" [ref=e907] [cursor=pointer]:
+          - /url: /micro-degree/drone-development-micro-degree
+        - link "Drone Engineer" [ref=e908] [cursor=pointer]:
+          - /url: /micro-degree/drone-fundamentals-micro-degree
+      - generic [ref=e909]:
+        - heading "Cybersecurity" [level=3] [ref=e910]
+        - link "SOC Analyst using Splunk SIEM" [ref=e911] [cursor=pointer]:
+          - /url: /micro-degree/splunk-SIEM-Security-micro-degree
+        - link "GRC Analyst" [ref=e912] [cursor=pointer]:
+          - /url: /micro-degree/grc-micro-degree
+        - link "AWS Cloud Security Expert (SCS-C02)" [ref=e913] [cursor=pointer]:
+          - /url: /micro-degree/certified-cloud-security-expert-with-AWS-Speciality
+        - link "AI Systems Security Certification" [ref=e914] [cursor=pointer]:
+          - /url: /micro-degree/ai-systems-security-certification-micro-degree
+        - link "Cybersecurity with GenAI Career Track" [ref=e915] [cursor=pointer]:
+          - /url: /micro-degree/cybersecurity-career-track-micro-degree
+        - link "Certified Cybersecurity Engineer" [ref=e916] [cursor=pointer]:
+          - /url: /micro-degree/cybersecurity-micro-degree
+        - link "SIEM using ELK(Elastisearch, Logstash, and Kibana)" [ref=e917] [cursor=pointer]:
+          - /url: /micro-degree/siem-using-elk-micro-degree
+        - link "SOC Architect using Splunk SIEM" [ref=e918] [cursor=pointer]:
+          - /url: /micro-degree/soc-architect-using-splunk-siem-micro-degree
+        - link "Certified Cybersecurity with GenAI Expert" [ref=e919] [cursor=pointer]:
+          - /url: /micro-degree/cybersecurity-with-genai-micro-degree
+        - link "Microsoft Cloud Security Architect (SC-100)" [ref=e920] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-cybersecurity-architect-micro-degree
+        - link "Cybersecurity Entrepreneur" [ref=e921] [cursor=pointer]:
+          - /url: /micro-degree/cybersecurity-entrepreneurship-micro-degree
+        - link "SOC Architect using Microsoft Sentinel" [ref=e922] [cursor=pointer]:
+          - /url: /micro-degree/soc-architect-using-microsoft-sentinel-micro-degree
+        - link "AI Agent for Cybersecurity" [ref=e923] [cursor=pointer]:
+          - /url: /micro-degree/ai-agent-for-cybersecurity-micro-degree
+        - link "SOC Architect using QRadar" [ref=e924] [cursor=pointer]:
+          - /url: /micro-degree/soc-architect-using-qradar-micro-degree
+        - link "Information Systems Security Professional Certification" [ref=e925] [cursor=pointer]:
+          - /url: /micro-degree/information-systems-security-certification-micro-degree
+        - link "GRC Manager" [ref=e926] [cursor=pointer]:
+          - /url: /micro-degree/grc-manager-micro-degree
+        - link "Certified Splunk Expert" [ref=e927] [cursor=pointer]:
+          - /url: /micro-degree/splunk-expert-micro-degree
+      - generic [ref=e928]:
+        - heading "Data Engineer" [level=3] [ref=e929]
+        - link "Microsoft Azure Data Engineer" [ref=e930] [cursor=pointer]:
+          - /url: /micro-degree/azure-data-engineer-DP700-micro-degree
+        - link "Google Cloud Professional Data Engineer Certification" [ref=e931] [cursor=pointer]:
+          - /url: /micro-degree/gcp-data-engineer-micro-degree
+        - link "Microsoft Azure Data Architect" [ref=e932] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-data-arachitect-micro-degree
+        - link "Multi-cloud Data Architect Career Track" [ref=e933] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-data-engineer-career-track-micro-degree
+        - link "Databricks Data Engineering Certification" [ref=e934] [cursor=pointer]:
+          - /url: /micro-degree/databricks-certification-micro-degree
+        - link "SaaS Entrepreneur" [ref=e935] [cursor=pointer]:
+          - /url: /micro-degree/saas-entrepreneurship-micro-degree
+        - link "Azure Developer Associate (AZ-204)" [ref=e936] [cursor=pointer]:
+          - /url: /micro-degree/az-204-azure-developer-associate-micro-degree
+        - link "SQL Developer" [ref=e937] [cursor=pointer]:
+          - /url: /micro-degree/sql-developer-micro-degree
+        - link "Azure Data Engineer Certification Career Track" [ref=e938] [cursor=pointer]:
+          - /url: /micro-degree/azure-data-engineer-certification-career-track-micro-degree
+        - link "AWS Certified Data Engineer (DEA-C01)" [ref=e939] [cursor=pointer]:
+          - /url: /micro-degree/aws-data-engineer-DEA-C01-micro-degree
+        - link "AWS Data Engineer Certification Career Track" [ref=e940] [cursor=pointer]:
+          - /url: /micro-degree/aws-data-engineer-cerification-career-track-micro-degree
+      - generic [ref=e941]:
+        - heading "Entrepreneurship" [level=3] [ref=e942]
+        - link "AI Entrepreneur" [ref=e943] [cursor=pointer]:
+          - /url: /micro-degree/ai-automation-entrepreneurship-micro-degree
+        - link "Drone Entrepreneur" [ref=e944] [cursor=pointer]:
+          - /url: /micro-degree/drone-entrepreneurship-micro-degree
+        - link "SaaS Entrepreneur" [ref=e945] [cursor=pointer]:
+          - /url: /micro-degree/saas-entrepreneurship-micro-degree
+        - link "Cybersecurity Entrepreneur" [ref=e946] [cursor=pointer]:
+          - /url: /micro-degree/cybersecurity-entrepreneurship-micro-degree
+        - link "DeepTech Entrepreneur" [ref=e947] [cursor=pointer]:
+          - /url: /micro-degree/deeptech-entrepreneurship-micro-degree
+      - generic [ref=e948]:
+        - heading "Business & Management" [level=3] [ref=e949]
+        - link "Project Management with AI Certification" [ref=e950] [cursor=pointer]:
+          - /url: /micro-degree/project-management-with-ai-certification
+        - link "Certified Agile Professional" [ref=e951] [cursor=pointer]:
+          - /url: /micro-degree/certified-agile-professional-micro-degree
+        - link "Business Analyst" [ref=e952] [cursor=pointer]:
+          - /url: /micro-degree/business-analyst-micro-degree
+        - link "Certified Scrum Master Professional" [ref=e953] [cursor=pointer]:
+          - /url: /micro-degree/scrum-master-micro-degree
+        - link "ITIL 4 Foundation" [ref=e954] [cursor=pointer]:
+          - /url: /micro-degree/itil-4-foundation-micro-degree
+        - link "GRC Manager" [ref=e955] [cursor=pointer]:
+          - /url: /micro-degree/grc-manager-micro-degree
+        - link "AI Product Management" [ref=e956] [cursor=pointer]:
+          - /url: /micro-degree/ai-product-management-micro-degree
+        - link "Data Analytics" [ref=e957] [cursor=pointer]:
+          - /url: /micro-degree/data-analysis-micro-degree
+        - link "Business Analytics" [ref=e958] [cursor=pointer]:
+          - /url: /micro-degree/business-analysis-micro-degree
+        - link "Project Management Professional (PMP) Certification" [ref=e959] [cursor=pointer]:
+          - /url: /micro-degree/project-management-professional-micro-degree
+        - link "Business Management with GenAI Career Track" [ref=e960] [cursor=pointer]:
+          - /url: /micro-degree/business-management-with-genai-career-track-micro-degree
+        - link "Mastering Leadership" [ref=e961] [cursor=pointer]:
+          - /url: /micro-degree/leadership-micro-degree
+      - generic [ref=e962]:
+        - heading "Career Tracks" [level=3] [ref=e963]
+        - link "Azure Data Engineer Certification Career Track" [ref=e964] [cursor=pointer]:
+          - /url: /micro-degree/azure-data-engineer-certification-career-track-micro-degree
+        - link "Multi-cloud Data Architect Career Track" [ref=e965] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-data-engineer-career-track-micro-degree
+        - link "AWS Data Engineer Certification Career Track" [ref=e966] [cursor=pointer]:
+          - /url: /micro-degree/aws-data-engineer-cerification-career-track-micro-degree
+        - link "Electric Vehicle Architect Career Track" [ref=e967] [cursor=pointer]:
+          - /url: /micro-degree/electric-vehicle-with-integrated-ai-career-track-micro-degree
+        - link "Microsoft Azure Career Track" [ref=e968] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-career-track-micro-degree
+        - link "Multi-cloud & DevOps Career Track" [ref=e969] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-devops-career-track-micro-degree
+        - link "Generative AI & AI Agents Career Track" [ref=e970] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-and-ai-agent-career-track-micro-degree
+        - link "Drone Specialization Career Track" [ref=e971] [cursor=pointer]:
+          - /url: /micro-degree/drone-specialization-career-track-micro-degree
+        - link "Business Management with GenAI Career Track" [ref=e972] [cursor=pointer]:
+          - /url: /micro-degree/business-management-with-genai-career-track-micro-degree
+        - link "Robotics Specialization Career Track" [ref=e973] [cursor=pointer]:
+          - /url: /micro-degree/robotics-specialization-career-track-micro-degree
+        - link "Web Development Career Track" [ref=e974] [cursor=pointer]:
+          - /url: /micro-degree/web-development-career-track-micro-degree
+        - link "Cybersecurity with GenAI Career Track" [ref=e975] [cursor=pointer]:
+          - /url: /micro-degree/cybersecurity-career-track-micro-degree
+      - generic [ref=e976]:
+        - heading "Cloud Security" [level=3] [ref=e977]
+        - link "SOC Analyst using Splunk SIEM" [ref=e978] [cursor=pointer]:
+          - /url: /micro-degree/splunk-SIEM-Security-micro-degree
+        - link "AWS Cloud Security Expert (SCS-C02)" [ref=e979] [cursor=pointer]:
+          - /url: /micro-degree/certified-cloud-security-expert-with-AWS-Speciality
+        - link "Microsoft Cloud Security Architect (SC-100)" [ref=e980] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-cybersecurity-architect-micro-degree
+      - generic [ref=e981]:
+        - heading "Data Science and AI" [level=3] [ref=e982]
+        - link "MLOps Architect" [ref=e983] [cursor=pointer]:
+          - /url: /micro-degree/mlops-architect-micro-degree
+        - link "Generative AI Engineer - Specialist" [ref=e984] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-using-python-micro-degree
+        - link "Python Programming" [ref=e985] [cursor=pointer]:
+          - /url: /micro-degree/python-development-micro-degree
+        - link "Data Science Using Python" [ref=e986] [cursor=pointer]:
+          - /url: /micro-degree/data-science-using-python-micro-degree
+        - link "Generative AI & Machine Learning Engineer" [ref=e987] [cursor=pointer]:
+          - /url: /micro-degree/generative-ai-machine-learning-engineer-micro-degree
+        - link "Python For AI/ML" [ref=e988] [cursor=pointer]:
+          - /url: /micro-degree/python-for-ai-ml-micro-degree
+        - link "AI Agent Development - Specialist" [ref=e989] [cursor=pointer]:
+          - /url: /micro-degree/ai-agent-development-micro-degree
+        - link "AI Solutions Architect" [ref=e990] [cursor=pointer]:
+          - /url: /micro-degree/ai-solutions-architect-micro-degree
+        - link "Machine Learning & Deep Learning" [ref=e991] [cursor=pointer]:
+          - /url: /micro-degree/machine-learning-using-python-micro-degree
+        - link "Data Analysis Using Python" [ref=e992] [cursor=pointer]:
+          - /url: /micro-degree/data-analysis-using-python-micro-degree
+        - link "SQL Developer" [ref=e993] [cursor=pointer]:
+          - /url: /micro-degree/sql-developer-micro-degree
+        - link "Data Analytics" [ref=e994] [cursor=pointer]:
+          - /url: /micro-degree/data-analysis-micro-degree
+      - generic [ref=e995]:
+        - heading "Hardware Engineering" [level=3] [ref=e996]
+        - link "EV Battery Management System(BMS) Specialist" [ref=e997] [cursor=pointer]:
+          - /url: /micro-degree/battery-management-system-for-ev-micro-degree
+        - link "High-Speed PCB Design Engineer" [ref=e998] [cursor=pointer]:
+          - /url: /micro-degree/high-speed-pcb-design-micro-degree
+        - link "Power and RF System Design" [ref=e999] [cursor=pointer]:
+          - /url: /micro-degree/power-and-rf-system-design-micro-degree
+        - link "Embedded Hardware Design" [ref=e1000] [cursor=pointer]:
+          - /url: /micro-degree/embedded-hardware-design-micro-degree
+        - link "Mastering RF Engineering" [ref=e1001] [cursor=pointer]:
+          - /url: /micro-degree/mastering-rf-engineering-micro-degree
+      - generic [ref=e1002]:
+        - heading "Finance" [level=3] [ref=e1003]
+        - link "Power BI with GenAI & Copilot" [ref=e1004] [cursor=pointer]:
+          - /url: /micro-degree/powerbi-with-genai-copilot-micro-degree
+        - link "Certified Financial Modeling & Valuation Analyst" [ref=e1005] [cursor=pointer]:
+          - /url: /micro-degree/certified-financial-modeling-valuation-micro-degree
+        - link "Certified Finance Analyst - Associate" [ref=e1006] [cursor=pointer]:
+          - /url: /micro-degree/finance-analyst-associate-micro-degree
+        - link "Certified Finance Analyst - Professional" [ref=e1007] [cursor=pointer]:
+          - /url: /micro-degree/finance-analysis-micro-degree
+        - link "Certified FinTech & Digital Payments Professional" [ref=e1008] [cursor=pointer]:
+          - /url: /micro-degree/certified-fintech-digital-payments-professional-micro-degree
+      - generic [ref=e1009]:
+        - heading "Analytics" [level=3] [ref=e1010]
+        - link "Business Analytics" [ref=e1011] [cursor=pointer]:
+          - /url: /micro-degree/business-analysis-micro-degree
+        - link "Tableau Certification" [ref=e1012] [cursor=pointer]:
+          - /url: /micro-degree/tableau-certification-micro-degree
+        - link "Business Management with GenAI Career Track" [ref=e1013] [cursor=pointer]:
+          - /url: /micro-degree/business-management-with-genai-career-track-micro-degree
+        - link "Power BI" [ref=e1014] [cursor=pointer]:
+          - /url: /micro-degree/power-bi-micro-degree
+        - link "Data Analytics" [ref=e1015] [cursor=pointer]:
+          - /url: /micro-degree/data-analysis-micro-degree
+        - link "Business Analyst" [ref=e1016] [cursor=pointer]:
+          - /url: /micro-degree/business-analyst-micro-degree
+        - link "Microsoft Excel Expert" [ref=e1017] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-excel-expert-micro-degree
+        - link "Power BI with GenAI & Copilot" [ref=e1018] [cursor=pointer]:
+          - /url: /micro-degree/powerbi-with-genai-copilot-micro-degree
+        - link "SQL Developer" [ref=e1019] [cursor=pointer]:
+          - /url: /micro-degree/sql-developer-micro-degree
+      - generic [ref=e1020]:
+        - heading "Web Development" [level=3] [ref=e1021]
+        - link "Backend Development Using NodeJS" [ref=e1022] [cursor=pointer]:
+          - /url: /micro-degree/backend-development-using-nodejs-micro-degree
+        - link "Full Stack Development using Vibe Coding" [ref=e1023] [cursor=pointer]:
+          - /url: /micro-degree/vibe-coding-micro-degree
+        - link "Web Development Career Track" [ref=e1024] [cursor=pointer]:
+          - /url: /micro-degree/web-development-career-track-micro-degree
+        - link "MERN Fullstack Development" [ref=e1025] [cursor=pointer]:
+          - /url: /micro-degree/mern-fullstack-development-micro-degree
+        - link "Frontend Development using ReactJs" [ref=e1026] [cursor=pointer]:
+          - /url: /micro-degree/frontend-development-micro-degree
+      - generic [ref=e1027]:
+        - heading "DevOps" [level=3] [ref=e1028]
+        - link "AI Agent deployment on Multi-cloud" [ref=e1029] [cursor=pointer]:
+          - /url: /micro-degree/ai-agent-deployment-on-aws-azure-gcp-micro-degree
+        - link "Devops Architect" [ref=e1030] [cursor=pointer]:
+          - /url: /micro-degree/devops-engineer-micro-degree
+        - link "Azure Devops Engineer (AZ-400)" [ref=e1031] [cursor=pointer]:
+          - /url: /micro-degree/azure-devops-engineer-micro-degree
+        - link "MLOps Architect" [ref=e1032] [cursor=pointer]:
+          - /url: /micro-degree/mlops-architect-micro-degree
+        - link "Docker Certified Associate" [ref=e1033] [cursor=pointer]:
+          - /url: /micro-degree/docker-certified-associate-micro-degree
+        - link "AWS & Devops Engineer" [ref=e1034] [cursor=pointer]:
+          - /url: /micro-degree/aws-with-devops-micro-degree
+        - link "Jenkins, Terraform & Ansible" [ref=e1035] [cursor=pointer]:
+          - /url: /micro-degree/jenkins-terraform-ansible-micro-degree
+        - link "AI DevOps Architect" [ref=e1036] [cursor=pointer]:
+          - /url: /micro-degree/ai-powered-devops-engineer-micro-degree
+        - link "Docker & Kubernetes" [ref=e1037] [cursor=pointer]:
+          - /url: /micro-degree/docker-kubernetes-certification-micro-degree
+        - link "Certified Kubernetes Administrator" [ref=e1038] [cursor=pointer]:
+          - /url: /micro-degree/certified-kubernetes-administrator-micro-degree
+        - link "Multi-cloud DevOps Architect" [ref=e1039] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-devops-architect-micro-degree
+        - link "Multi-cloud & DevOps Career Track" [ref=e1040] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-devops-career-track-micro-degree
+        - link "Linux Certification" [ref=e1041] [cursor=pointer]:
+          - /url: /micro-degree/linux-certification-micro-degree
+      - generic [ref=e1042]:
+        - heading "Space Tech" [level=3] [ref=e1043]
+        - link "Satellite Development Engineer" [ref=e1044] [cursor=pointer]:
+          - /url: /micro-degree/satellite-development-engineer-micro-degree
+        - link "Robotics Development Engineer" [ref=e1045] [cursor=pointer]:
+          - /url: /micro-degree/robotics-development-micro-degree
+        - link "AI Autonomous Robotics Development Engineer" [ref=e1046] [cursor=pointer]:
+          - /url: /micro-degree/ai-robotics-development-micro-degree
+        - link "Rocket Scientist" [ref=e1047] [cursor=pointer]:
+          - /url: /micro-degree/rocket-scientist-micro-degree
+      - generic [ref=e1048]:
+        - heading "Electric Vehicle" [level=3] [ref=e1049]
+        - link "Electric Vehicle Technology Associate" [ref=e1050] [cursor=pointer]:
+          - /url: /micro-degree/electric-vehicle-associate-micro-degree
+        - link "Electric Vehicle Architect Career Track" [ref=e1051] [cursor=pointer]:
+          - /url: /micro-degree/electric-vehicle-with-integrated-ai-career-track-micro-degree
+        - link "EV Charging Infrastructure Expert" [ref=e1052] [cursor=pointer]:
+          - /url: /micro-degree/ev-charging-infrastructure-grid-integration-micro-degree
+        - link "Electric Vehicle Technology Certification" [ref=e1053] [cursor=pointer]:
+          - /url: /micro-degree/electric-vehicle-certification-micro-degree
+        - link "EV Power Electronics Specialist" [ref=e1054] [cursor=pointer]:
+          - /url: /micro-degree/ev-power-electronics-motor-drives-micro-degree
+        - link "EV Battery Management System(BMS) Specialist" [ref=e1055] [cursor=pointer]:
+          - /url: /micro-degree/battery-management-system-for-ev-micro-degree
+      - generic [ref=e1056]:
+        - heading "Product & Marketing" [level=3] [ref=e1057]
+        - link "Product Management" [ref=e1058] [cursor=pointer]:
+          - /url: /micro-degree/product-management-micro-degree
+        - link "Digital Marketing with GenAI" [ref=e1059] [cursor=pointer]:
+          - /url: /micro-degree/digital-marketing-micro-degree
+        - link "AI Product Management" [ref=e1060] [cursor=pointer]:
+          - /url: /micro-degree/ai-product-management-micro-degree
+        - link "Performance Marketing with AI" [ref=e1061] [cursor=pointer]:
+          - /url: /micro-degree/performance-marketing-micro-degree
+      - generic [ref=e1062]:
+        - heading "Azure" [level=3] [ref=e1063]
+        - link "Azure Developer Associate (AZ-204)" [ref=e1064] [cursor=pointer]:
+          - /url: /micro-degree/az-204-azure-developer-associate-micro-degree
+        - link "Microsoft Azure Career Track" [ref=e1065] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-career-track-micro-degree
+        - link "Microsoft Azure Fundamentals Certification (AZ-900)" [ref=e1066] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-fundamentals-certification-az900-micro-degree
+        - link "Azure Administrator Associate (AZ-104)" [ref=e1067] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-administrator-associate-micro-degree
+        - link "Multi-cloud & DevOps Career Track" [ref=e1068] [cursor=pointer]:
+          - /url: /micro-degree/multi-cloud-devops-career-track-micro-degree
+        - link "Microsoft Azure Data Engineer" [ref=e1069] [cursor=pointer]:
+          - /url: /micro-degree/azure-data-engineer-DP700-micro-degree
+        - link "Azure Devops Engineer (AZ-400)" [ref=e1070] [cursor=pointer]:
+          - /url: /micro-degree/azure-devops-engineer-micro-degree
+        - link "Azure Solutions Architect (AZ-305)" [ref=e1071] [cursor=pointer]:
+          - /url: /micro-degree/microsoft-azure-solutions-architect-az305-micro-degree
+      - generic [ref=e1072]:
+        - heading "Programming" [level=3] [ref=e1073]
+        - link "Backend Development Using NodeJS" [ref=e1074] [cursor=pointer]:
+          - /url: /micro-degree/backend-development-using-nodejs-micro-degree
+        - link "Python For AI/ML" [ref=e1075] [cursor=pointer]:
+          - /url: /micro-degree/python-for-ai-ml-micro-degree
+        - link "Python Programming" [ref=e1076] [cursor=pointer]:
+          - /url: /micro-degree/python-development-micro-degree
+        - link "Frontend Development using ReactJs" [ref=e1077] [cursor=pointer]:
+          - /url: /micro-degree/frontend-development-micro-degree
+        - link "Full Stack Development using Vibe Coding" [ref=e1078] [cursor=pointer]:
+          - /url: /micro-degree/vibe-coding-micro-degree
+      - generic [ref=e1079]:
+        - heading "SAP" [level=3] [ref=e1080]
+        - link "SAP S/4 HANA Developer Certification" [ref=e1081] [cursor=pointer]:
+          - /url: /micro-degree/sap-s4-hana-developer-certification-micro-degree
+        - link "SAP HANA Developer Certification" [ref=e1082] [cursor=pointer]:
+          - /url: /micro-degree/sap-hana-developer-certification-micro-degree
+        - link "SAP HANA Core" [ref=e1083] [cursor=pointer]:
+          - /url: /micro-degree/sap-hana-core-micro-degree
+        - link "SAP HANA Administration Certification" [ref=e1084] [cursor=pointer]:
+          - /url: /micro-degree/sap-hana-admin-certification-micro-degree
+        - link "SAP S/4 HANA Architect Certification" [ref=e1085] [cursor=pointer]:
+          - /url: /micro-degree/sap-s4-hana-architect-certification-micro-degree
+      - generic [ref=e1086]:
+        - heading [level=3]
+        - link:
+          - /url: "#"
+    - generic [ref=e1087]:
+      - img "Footer Icon" [ref=e1088]
+      - img "Footer Icon" [ref=e1089]
+      - img "Footer Icon" [ref=e1090]
+      - img "Footer Icon" [ref=e1091]
+      - img "Footer Icon" [ref=e1092]
+      - img "Footer Icon" [ref=e1093]
+    - generic [ref=e1094]: ©2026 zekeLabs Technologies Private Limited
+  - alert [ref=e1095]

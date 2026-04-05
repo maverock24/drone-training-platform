@@ -1,0 +1,317 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:s-pankki.fi sijoittamisen hinnasto osakekauppa 2025 2026 site:s-pankki.fi sijoittamisen hinnasto osakekauppa 2025 2026
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:s-pankki.fi%2Bsijoittamisen%2Bhinnasto%2Bosakekauppa%2B2025%2B2026&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQs6gLegQIEBAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=abbb0aaa8824193d&q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ0pQJegQIERAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_Wl7N3a13xNmqv1MMtrPpdlKwJJA%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:s-pankki.fi%2Bsijoittamisen%2Bhinnasto%2Bosakekauppa%2B2025%2B2026&hl=en&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQhoQCKAF6BAgMEAQ
+      - link "Pidä Suomi" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Kieliasetukset" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=fi&sa=X&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQiIQCKAN6BAgMEAY#languages
+    - main [ref=e140]:
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - heading "Tulokset internetistä" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e152]:
+              - link "Rahastojen hinnasto S-Pankki https://dokumentit.s-pankki.fi › tiedostot › s-panki..." [ref=e154] [cursor=pointer]:
+                - /url: https://dokumentit.s-pankki.fi/tiedostot/s-pankin-rahastojen-hinnasto-fi
+                - heading "Rahastojen hinnasto" [level=3] [ref=e155]
+                - generic [ref=e160]:
+                  - generic [ref=e162]: S-Pankki
+                  - generic [ref=e164]: https://dokumentit.s-pankki.fi › tiedostot › s-panki...
+              - generic [ref=e165]:
+                - generic:
+                  - generic: PDF
+              - button "Tietoja tästä tuloksesta" [ref=e166] [cursor=pointer]:
+                - img [ref=e169]
+            - generic [ref=e173]:
+              - text: Rahastojen
+              - emphasis [ref=e174]: hinnasto
+              - text: . Voimassa 23.3.
+              - emphasis [ref=e175]: "2026"
+              - text: "alkaen. (17) Rahastosta veloitetaan lunastuspalkkiota suhteessa sijoitusaikaan. Lunastuspalkkio on: • 3 %, jos ..."
+        - generic [ref=e179]:
+          - generic [ref=e182]:
+            - link "S-Pankki Metsä C | Rahastot S-Pankki https://www.s-pankki.fi › rahastot › s-pankki-metsa-c" [ref=e184] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/saastaminen-ja-sijoittaminen/rahastot/s-pankki-metsa-c/
+              - heading "S-Pankki Metsä C | Rahastot" [level=3] [ref=e185]
+              - generic [ref=e190]:
+                - generic [ref=e192]: S-Pankki
+                - generic [ref=e194]: https://www.s-pankki.fi › rahastot › s-pankki-metsa-c
+            - button "Tietoja tästä tuloksesta" [ref=e195] [cursor=pointer]:
+              - img [ref=e198]
+          - generic [ref=e202]:
+            - text: Vuoden
+            - emphasis [ref=e203]: "2026"
+            - text: merkintäpäivät ovat 16.3.
+            - emphasis [ref=e204]: "2026"
+            - text: ", 15.6."
+            - emphasis [ref=e205]: "2026"
+            - text: ", 15.9."
+            - emphasis [ref=e206]: "2026"
+            - text: ja 15.12.
+            - emphasis [ref=e207]: "2026"
+            - text: ennen klo 16. ...
+            - emphasis [ref=e208]: "2025"
+            - text: tuotto-osuuksia sijoittajille noin 1,9 miljoonaa euroa.
+        - generic [ref=e212]:
+          - generic [ref=e215]:
+            - link "S-Pankki Tontti B | Rahastot S-Pankki https://www.s-pankki.fi › saastaminen-ja-sijoittaminen" [ref=e217] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/saastaminen-ja-sijoittaminen/rahastot/s-pankki-tontti-b/
+              - heading "S-Pankki Tontti B | Rahastot" [level=3] [ref=e218]
+              - generic [ref=e223]:
+                - generic [ref=e225]: S-Pankki
+                - generic [ref=e227]: https://www.s-pankki.fi › saastaminen-ja-sijoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e228] [cursor=pointer]:
+              - img [ref=e231]
+          - generic [ref=e235]:
+            - text: Merkintäpalkkio 0,50 % · Lunastuspalkkio 1,00-5,00 % · Hallinnointipalkkio 0,80 %/vuosi · Tuottosidonnainen palkkio 20,00 % · Juoksevat kulut 0,98 %/v (
+            - emphasis [ref=e236]: "2025"
+            - text: ).
+        - generic [ref=e240]:
+          - generic [ref=e243]:
+            - link "S-Pankki Varainhoito 100 A | Rahastot S-Pankki https://www.s-pankki.fi › saastaminen-ja-sijoittaminen" [ref=e245] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/saastaminen-ja-sijoittaminen/rahastot/s-pankki-varainhoito-100-a/
+              - heading "S-Pankki Varainhoito 100 A | Rahastot" [level=3] [ref=e246]
+              - generic [ref=e251]:
+                - generic [ref=e253]: S-Pankki
+                - generic [ref=e255]: https://www.s-pankki.fi › saastaminen-ja-sijoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e256] [cursor=pointer]:
+              - img [ref=e259]
+          - generic [ref=e262]: S-Pankki Varainhoito 100 sijoittaa maailmanlaajuisesti osakkeisiin ja korkopapereihin siten, että selvä pääpaino on korkoja riskipitoisemmissa osakkeissa.
+        - generic [ref=e266]:
+          - generic [ref=e269]:
+            - link "S-Pankki Kiinteistövarainhoito B | Rahastot S-Pankki https://www.s-pankki.fi › s-pankki-kiinteistovarainhoito-b" [ref=e271] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/saastaminen-ja-sijoittaminen/rahastot/s-pankki-kiinteistovarainhoito-b/
+              - heading "S-Pankki Kiinteistövarainhoito B | Rahastot" [level=3] [ref=e272]
+              - generic [ref=e277]:
+                - generic [ref=e279]: S-Pankki
+                - generic [ref=e281]: https://www.s-pankki.fi › s-pankki-kiinteistovarainhoito-b
+            - button "Tietoja tästä tuloksesta" [ref=e282] [cursor=pointer]:
+              - img [ref=e285]
+          - generic [ref=e289]:
+            - text: Rahaston tuotto katsauskaudella (15.1.
+            - emphasis [ref=e290]: "2025"
+            - text: –15.1.
+            - emphasis [ref=e291]: "2026"
+            - text: ) asettui osuussarjoittain -1,28 ja 0,11 prosentin välille, ja toimintansa alusta (15.9.2022) lukien ...
+        - generic [ref=e295]:
+          - generic [ref=e298]:
+            - link "S-PANKKI PASSIIVINEN USA ESG OSAKE ... S-Pankki https://dokumentit.s-pankki.fi › tiedostot › kid-s-p..." [ref=e300] [cursor=pointer]:
+              - /url: https://dokumentit.s-pankki.fi/tiedostot/kid-s-pankki-passiivinen-usa-esg-osake-c-fi-01012026
+              - heading "S-PANKKI PASSIIVINEN USA ESG OSAKE ..." [level=3] [ref=e301]
+              - generic [ref=e306]:
+                - generic [ref=e308]: S-Pankki
+                - generic [ref=e310]: https://dokumentit.s-pankki.fi › tiedostot › kid-s-p...
+            - generic [ref=e311]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e312] [cursor=pointer]:
+              - img [ref=e315]
+          - generic [ref=e318]:
+            - generic [ref=e319]: 1.1.2026 —
+            - text: Rahaston sijoitukset ja sen tuotto voivat poiketa vertailuindeksistä esimerkiksi siksi, että rahastossa noudatetaan S-Pankin.
+        - generic [ref=e323]:
+          - generic [ref=e326]:
+            - link "S-Pankki Toimitila A | Rahastot S-Pankki https://www.s-pankki.fi › saastaminen-ja-sijoittaminen" [ref=e328] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/saastaminen-ja-sijoittaminen/rahastot/s-pankki-toimitila-a/
+              - heading "S-Pankki Toimitila A | Rahastot" [level=3] [ref=e329]
+              - generic [ref=e334]:
+                - generic [ref=e336]: S-Pankki
+                - generic [ref=e338]: https://www.s-pankki.fi › saastaminen-ja-sijoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e339] [cursor=pointer]:
+              - img [ref=e342]
+          - generic [ref=e346]:
+            - text: Rahastolla on merkintäpäivä neljä kertaa vuodessa. Vuoden
+            - emphasis [ref=e347]: "2026"
+            - text: merkintäpäivät ovat 31.3.
+            - emphasis [ref=e348]: "2026"
+            - text: ", 30.6."
+            - emphasis [ref=e349]: "2026"
+            - text: ", 30.9."
+            - emphasis [ref=e350]: "2026"
+            - text: ja 31.12.
+            - emphasis [ref=e351]: "2026"
+            - text: ...
+          - generic [ref=e354]: 82,27 €
+        - generic [ref=e358]:
+          - generic [ref=e361]:
+            - link "Ehtoihin ja hinnastoon muutoksia 1.11.2025 S-Pankki https://www.s-pankki.fi › kampanjat › mika-muuttuu" [ref=e363] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/kampanjat/mika-muuttuu/ehtoihin-ja-hinnastoon-muutoksia-1.11.2025
+              - heading "Ehtoihin ja hinnastoon muutoksia 1.11.2025" [level=3] [ref=e364]
+              - generic [ref=e369]:
+                - generic [ref=e371]: S-Pankki
+                - generic [ref=e373]: https://www.s-pankki.fi › kampanjat › mika-muuttuu
+            - button "Tietoja tästä tuloksesta" [ref=e374] [cursor=pointer]:
+              - img [ref=e377]
+          - generic [ref=e381]:
+            - text: Hinnastossa yhtenäistimme käteisnostojen termejä ja lisäsimme
+            - emphasis [ref=e382]: hinnat
+            - text: uusille ominaisuuksille. Lisäksi poistimme tilien korkoihin liittyvät kohdat tilien koron ...
+        - generic [ref=e386]:
+          - generic [ref=e389]:
+            - link "RAHASTOJEN PUOLIVUOSIKATSAUS 2025 S-Pankki https://dokumentit.s-pankki.fi › tiedostot › rahasto..." [ref=e391] [cursor=pointer]:
+              - /url: https://dokumentit.s-pankki.fi/tiedostot/rahastojen-puolivuosikatsaus-tammi-kesakuu-2025
+              - heading "RAHASTOJEN PUOLIVUOSIKATSAUS 2025" [level=3] [ref=e392]
+              - generic [ref=e397]:
+                - generic [ref=e399]: S-Pankki
+                - generic [ref=e401]: https://dokumentit.s-pankki.fi › tiedostot › rahasto...
+            - generic [ref=e402]:
+              - generic:
+                - generic: PDF
+            - button "Tietoja tästä tuloksesta" [ref=e403] [cursor=pointer]:
+              - img [ref=e406]
+          - generic [ref=e410]:
+            - text: Vuoden
+            - emphasis [ref=e411]: "2025"
+            - text: alkupuolesta tuli sijoitusmarkkinoilla tuottoisa, vaikka tunnelma oli toisinaan hyvin epävakaa. Alkuvuoden tuntuvin uhka oli markkinareaktioiden ...
+        - generic [ref=e415]:
+          - generic [ref=e418]:
+            - link "S-Pankki Private Markets B | Rahastot S-Pankki https://www.s-pankki.fi › saastaminen-ja-sijoittaminen" [ref=e420] [cursor=pointer]:
+              - /url: https://www.s-pankki.fi/fi/saastaminen-ja-sijoittaminen/rahastot/s-pankki-private-markets-b/
+              - heading "S-Pankki Private Markets B | Rahastot" [level=3] [ref=e421]
+              - generic [ref=e426]:
+                - generic [ref=e428]: S-Pankki
+                - generic [ref=e430]: https://www.s-pankki.fi › saastaminen-ja-sijoittaminen
+            - button "Tietoja tästä tuloksesta" [ref=e431] [cursor=pointer]:
+              - img [ref=e434]
+          - generic [ref=e438]:
+            - text: S-Pankki Private Markets Erikoissijoitusrahasto sijoittaa globaalisti yksityiseen
+            - emphasis [ref=e439]: osake
+            - text: "- ja lainapääomaan erilaisten pääomarahastojen kautta."
+      - navigation [ref=e442]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e443]
+        - text: "1"
+        - link "Page 2" [ref=e446] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=10&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAE
+          - text: "2"
+        - link "Page 3" [ref=e448] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=20&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAG
+          - text: "3"
+        - link "Page 4" [ref=e450] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=30&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAI
+          - text: "4"
+        - link "Page 5" [ref=e452] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=40&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAK
+          - text: "5"
+        - link "Page 6" [ref=e454] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=50&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAM
+          - text: "6"
+        - link "Page 7" [ref=e456] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=60&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAO
+          - text: "7"
+        - link "Page 8" [ref=e458] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=70&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAQ
+          - text: "8"
+        - link "Page 9" [ref=e460] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=80&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAS
+          - text: "9"
+        - link "Page 10" [ref=e462] [cursor=pointer]:
+          - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=90&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8tMDegQINRAU
+          - text: "10"
+        - heading "Seuraava" [level=2] [ref=e464]:
+          - link "Seuraava" [ref=e465] [cursor=pointer]:
+            - /url: /search?q=site:s-pankki.fi+sijoittamisen+hinnasto+osakekauppa+2025+2026&sca_esv=abbb0aaa8824193d&ei=AH7RaYHBPMyPwPAPheX-yAY&start=10&sa=N&sstk=Af77f_ffebEz-0l6iFjartpIJe54FIfoY6exBwJiqMizW2EixsDX8GUyCmxW8YIB0fMsoY9gFMhAhnxsqlhuZC41bKOZu69c7a32gw&ved=2ahUKEwiBwarHjdWTAxXMBxAIHYWyH2kQ8NMDegQINRAW
+            - generic [ref=e467]: Seuraava
+      - navigation
+    - contentinfo [ref=e468]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e469]
+      - generic [ref=e473]:
+        - generic [ref=e475]:
+          - text: Suomi
+          - generic [ref=e477]:
+            - button "00940, Helsinki - IP-osoitteestasi" [ref=e479] [cursor=pointer]:
+              - generic [ref=e480]: 00940, Helsinki
+              - generic [ref=e482]:
+                - text: "-"
+                - generic [ref=e483]: IP-osoitteestasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e485] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e488]:
+          - link "Ohje" [ref=e489] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e490] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e491] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e492] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

@@ -1,0 +1,2 @@
+[     266ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://www.vero.fi/henkiloasiakkaat/vahennykset/mita-voi-vahentaa/tulonhankkimiskulut/:0
+[     610ms] [ERROR] Error while logging event: Parameters `category` and `action` must not be empty or filled with whitespaces @ https://vero.piwik.pro/ppms.js:7

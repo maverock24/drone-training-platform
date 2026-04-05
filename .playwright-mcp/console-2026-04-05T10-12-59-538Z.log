@@ -1,0 +1,3 @@
+[    3997ms] [WARNING] Unrecognized feature: 'web-share'. @ https://checkout.razorpay.com/v1/checkout.js:0
+[    3997ms] [WARNING] Unrecognized feature: 'loopback-network'. @ https://checkout.razorpay.com/v1/checkout.js:0
+[    4365ms] [LOG] [ChatWidgets] WhatsApp number from backend: 918867148874 @ https://www.edyoda.com/_next/static/chunks/9978-7d9587f852781d7f.js?dpl=dpl_FvPC1TUx1CsUov7ky4f39WPDU61k:0

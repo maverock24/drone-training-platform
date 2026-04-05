@@ -1,0 +1,316 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Siirry pääsisältöön" [ref=e2] [cursor=pointer]
+      - link "Käytettävyysohje" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fi
+      - link "Esteettömyyden palaute" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e13]:
+        - link "Siirry Googlen etusivulle" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=fi&ictx=0&sa=X&ved=0ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQpYkNCAs
+          - img "Siirry Googlen etusivulle" [ref=e15]
+        - generic [ref=e20]:
+          - combobox "Hae" [ref=e23]: site:vero.fi vuokratulojen verotus syventava vero-ohje vahennykset site:vero.fi vuokratulojen verotus syventava vero-ohje vahennykset
+          - generic [ref=e24]:
+            - button "Tyhjennä" [ref=e26] [cursor=pointer]:
+              - img [ref=e28]
+            - generic [ref=e31]:
+              - button "Syöttötyökalut" [ref=e32] [cursor=pointer]:
+                - img [ref=e34]
+              - button "Puhehaku" [ref=e36] [cursor=pointer]:
+                - img [ref=e37]
+              - button "Hae kuvan perusteella" [ref=e39] [cursor=pointer]:
+                - img [ref=e40]
+        - button "Haku" [ref=e42] [cursor=pointer]:
+          - img [ref=e45]
+    - generic [ref=e47]:
+      - button "Asetukset" [ref=e49] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Google-sovellukset" [ref=e57] [cursor=pointer]:
+          - img [ref=e58]
+        - link "Kirjaudu" [ref=e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fi&passive=true&continue=https://www.google.com/search%3Fq%3Dsite%253Avero.fi%2Bvuokratulojen%2Bverotus%2Bsyventava%2Bvero-ohje%2Bvahennykset%26hl%3Dfi&ec=futura_srp_og_si_72236_p
+  - generic [ref=e64]:
+    - navigation [ref=e70]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Tekoälytila" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&udm=50&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&aep=1&ntc=1&sa=X&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ2J8OegQIDhAE
+              - generic [ref=e82]: Tekoälytila
+          - listitem [ref=e83]:
+            - link "Kaikki" [disabled] [ref=e84]:
+              - generic [ref=e86]: Kaikki
+          - listitem [ref=e87]:
+            - link "Kuvahaku" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=2&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sa=X&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQtKgLegQIFBAB
+              - generic [ref=e90]: Kuvahaku
+          - listitem [ref=e91]:
+            - link "Videot" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=7&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sa=X&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQtKgLegQIExAB
+              - generic [ref=e94]: Videot
+          - listitem [ref=e95]:
+            - link "Lyhyet videot" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=39&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sa=X&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQs6gLegQIEhAB
+              - generic [ref=e98]: Lyhyet videot
+          - listitem [ref=e99]:
+            - link "Verkkohaku" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&udm=web&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sa=X&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQs6gLegQIERAB
+              - generic [ref=e102]: Verkkohaku
+          - listitem [ref=e103]:
+            - link "Teokset" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=bb65bd8365f461f5&hl=fi&q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&udm=36&source=lnms&fbs=ADc_l-ZBUGixcwrFA-hjw3j0j_dEozKd4rdjezExt0WEn76p7bC1rdlhaY-6TpyhRTNaGf0cxakQn5Ye2Is3e19hDHglsCRsXaKmsPZLHMLcm5klE43We7pUqSAHoytdmT_CkMASGqM-T1Rx62Q6avzLt4K_52jdQJ2K-b8ne6L5t5ffQCzZ7QkkanUYJNHLMVgcQs8K7RtY&sa=X&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ0pQJegQIEBAB
+              - generic [ref=e106]: Teokset
+          - listitem [ref=e107]:
+            - button "Lisää suodattimia" [ref=e108] [cursor=pointer]:
+              - generic "Lisää suodattimia" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Lisää
+                  - img [ref=e113]
+        - button "Työkalut" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Työkalut
+            - img [ref=e121]
+    - heading "Hakutulokset" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Tulokset internetistä" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Vuokratulojen verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › vuokratulojen-ve..." [ref=e143] [cursor=pointer]:
+                - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/
+                - heading "Vuokratulojen verotus Syventävä vero-ohje" [level=3] [ref=e144]
+                - generic [ref=e149]:
+                  - generic [ref=e151]: Vero.fi
+                  - generic [ref=e153]: https://www.vero.fi › ohje-hakusivu › vuokratulojen-ve...
+              - button "Tietoja tästä tuloksesta" [ref=e154] [cursor=pointer]:
+                - img [ref=e157]
+            - generic [ref=e160]:
+              - generic [ref=e161]: 14.1.2026 —
+              - text: Tuloverolain 110 §:n mukaan tulo on sen verovuoden tuloa, jona se on nostettu, merkitty verovelvollisen tilille tai muutoin saatu vallintaan.
+            - list [ref=e163]:
+              - listitem [ref=e164]:
+                - link "Johdanto" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/#1-johdanto
+                  - generic [ref=e168]: Johdanto
+              - listitem [ref=e169]:
+                - link "Korjausmenot" [ref=e170] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/#3.7-korjausmenot
+                  - generic [ref=e173]: Korjausmenot
+              - listitem [ref=e174]:
+                - link "Vastikkeet" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/#3.8-vastikkeet
+                  - generic [ref=e178]: Vastikkeet
+              - listitem [ref=e179]:
+                - link "Poistot" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/49336/vuokratulojen-verotus8/#3.9-poistot
+                  - generic [ref=e183]: Poistot
+        - generic [ref=e187]:
+          - generic [ref=e190]:
+            - link "Mitä kuluja asunnon vuokratuloista voi vähentää? Vero.fi https://www.vero.fi › vuokratulot › vahennykset" [ref=e192] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/vuokratulot/vahennykset/
+              - heading "Mitä kuluja asunnon vuokratuloista voi vähentää?" [level=3] [ref=e193]
+              - generic [ref=e198]:
+                - generic [ref=e200]: Vero.fi
+                - generic [ref=e202]: https://www.vero.fi › vuokratulot › vahennykset
+            - button "Tietoja tästä tuloksesta" [ref=e203] [cursor=pointer]:
+              - img [ref=e206]
+          - generic [ref=e210]:
+            - text: Vähennä joko vuosikulut tai poistot asunto-osakkeen vuokratuloista veroilmoituksen kohdassa
+            - emphasis [ref=e211]: Vuokratulot
+            - text: – Muut kulut. Kalusteista ja kodinkoneista on pidettävä ...
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - link "Vuokratulot sijoitusasunnosta ja muusta omaisuudesta Vero.fi https://www.vero.fi › henkiloasiakkaat › omaisuus › vu..." [ref=e220] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/vuokratulot/
+              - heading "Vuokratulot sijoitusasunnosta ja muusta omaisuudesta" [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: Vero.fi
+                - generic [ref=e230]: https://www.vero.fi › henkiloasiakkaat › omaisuus › vu...
+            - button "Tietoja tästä tuloksesta" [ref=e231] [cursor=pointer]:
+              - img [ref=e234]
+          - generic [ref=e237]:
+            - generic [ref=e238]: 6.5.2024 —
+            - generic [ref=e239]:
+              - text: Ohjeet
+              - emphasis [ref=e240]: vuokratulojen
+              - text: ilmoittamiseen ja veron maksamiseen. ... Syventävät
+              - emphasis [ref=e241]: vero
+              - text: "-"
+              - emphasis [ref=e242]: ohjeet
+              - text: on tarkoitettu erityisesti
+              - emphasis [ref=e243]: verotuksen
+              - text: ammattilaisille.
+        - generic [ref=e247]:
+          - generic [ref=e250]:
+            - link "Mikä on vuokratuloa? Vero.fi https://www.vero.fi › omaisuus › vuokratulot › mika-o..." [ref=e252] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/vuokratulot/mika-on-vuokratuloa/
+              - heading "Mikä on vuokratuloa?" [level=3] [ref=e253]
+              - generic [ref=e258]:
+                - generic [ref=e260]: Vero.fi
+                - generic [ref=e262]: https://www.vero.fi › omaisuus › vuokratulot › mika-o...
+            - button "Tietoja tästä tuloksesta" [ref=e263] [cursor=pointer]:
+              - img [ref=e266]
+          - generic [ref=e269]:
+            - generic [ref=e270]: 18.8.2025 —
+            - generic [ref=e271]:
+              - text: Huomio alkaa. Syventävät
+              - emphasis [ref=e272]: vero
+              - text: "-"
+              - emphasis [ref=e273]: ohjeet
+              - text: .
+              - emphasis [ref=e274]: Vuokratulot verotuksessa
+              - text: . Huomio päättyy ... Vuokratulot · Ilmoitus- ja maksuohjeet ·
+              - emphasis [ref=e275]: Vähennykset
+              - text: .
+        - generic [ref=e279]:
+          - generic [ref=e282]:
+            - link "Syventävät vero-ohjeet - vero.fi Vero.fi https://www.vero.fi › syventavat-vero-ohjeet" [ref=e284] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/
+              - heading "Syventävät vero-ohjeet - vero.fi" [level=3] [ref=e285]
+              - generic [ref=e290]:
+                - generic [ref=e292]: Vero.fi
+                - generic [ref=e294]: https://www.vero.fi › syventavat-vero-ohjeet
+            - button "Tietoja tästä tuloksesta" [ref=e295] [cursor=pointer]:
+              - img [ref=e298]
+          - generic [ref=e302]:
+            - text: Syventävät
+            - emphasis [ref=e303]: vero
+            - text: "-"
+            - emphasis [ref=e304]: ohjeet
+            - text: · Arvonlisäverotus · Autoverotus · Elinkeinoverotus · Ennakkoperintä · Henkilöasiakkaan tuloverotus.
+        - generic [ref=e308]:
+          - generic [ref=e311]:
+            - link "Maatilan vuokratulojen verotus Syventävä vero-ohje Vero.fi https://www.vero.fi › ohje-hakusivu › maatilan-vuokrat..." [ref=e313] [cursor=pointer]:
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/62012/maatilan-vuokratulojen-verotus/
+              - heading "Maatilan vuokratulojen verotus Syventävä vero-ohje" [level=3] [ref=e314]
+              - generic [ref=e319]:
+                - generic [ref=e321]: Vero.fi
+                - generic [ref=e323]: https://www.vero.fi › ohje-hakusivu › maatilan-vuokrat...
+            - button "Tietoja tästä tuloksesta" [ref=e324] [cursor=pointer]:
+              - img [ref=e327]
+          - generic [ref=e330]:
+            - generic [ref=e331]: 5.3.2025 —
+            - generic [ref=e332]:
+              - text: Tässä ohjeessa käsitellään maatilan
+              - emphasis [ref=e333]: vuokratulojen
+              - text: verotusta. Lisäksi ohjeessa käsitellään vuokrauksen arvonlisäverotusta ja vuokrauksen ...
+        - generic [ref=e337]:
+          - generic [ref=e340]:
+            - link "Näin ilmoitat vuokratulot ja maksat veron Vero.fi https://www.vero.fi › omaisuus › ilmoitus-ja-maksuohjeet" [ref=e342] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/vuokratulot/ilmoitus-ja-maksuohjeet/
+              - heading "Näin ilmoitat vuokratulot ja maksat veron" [level=3] [ref=e343]
+              - generic [ref=e348]:
+                - generic [ref=e350]: Vero.fi
+                - generic [ref=e352]: https://www.vero.fi › omaisuus › ilmoitus-ja-maksuohjeet
+            - button "Tietoja tästä tuloksesta" [ref=e353] [cursor=pointer]:
+              - img [ref=e356]
+          - generic [ref=e359]:
+            - generic [ref=e360]: 1.1.2026 —
+            - text: Ilmoita poiston tiedot. Valitse painike OK. Jos saat vuokratuloja muualta, ilmoita jokainen vuokrakohde erikseen valitsemalla uudestaan linkki ...
+        - generic [ref=e364]:
+          - generic [ref=e367]:
+            - 'link "Pääomatulot ja sijoitukset: syventävien vero-ohjeiden kooste Vero.fi https://www.vero.fi › ohje-hakusivu › paaomatulot-ja-si..." [ref=e369] [cursor=pointer]':
+              - /url: https://www.vero.fi/syventavat-vero-ohjeet/ohje-hakusivu/0koontisivut/paaomatulot-ja-sijoitukset-syventavien-vero-ohjeiden-kooste/
+              - 'heading "Pääomatulot ja sijoitukset: syventävien vero-ohjeiden kooste" [level=3] [ref=e370]'
+              - generic [ref=e375]:
+                - generic [ref=e377]: Vero.fi
+                - generic [ref=e379]: https://www.vero.fi › ohje-hakusivu › paaomatulot-ja-si...
+            - button "Tietoja tästä tuloksesta" [ref=e380] [cursor=pointer]:
+              - img [ref=e383]
+          - generic [ref=e386]:
+            - generic [ref=e387]: 10.12.2025 —
+            - generic [ref=e388]:
+              - emphasis [ref=e389]: Verohallinto
+              - text: on antanut useita syventäviä
+              - emphasis [ref=e390]: vero
+              - text: "-ohjeita, joissa käsitellään pääomatulojen ja sijoitusten verotusta."
+        - generic [ref=e394]:
+          - generic [ref=e397]:
+            - link "Verohallinto laskee nämä vähennykset automaattisesti Vero.fi https://www.vero.fi › vahennykset › mita-voi-vahentaa" [ref=e399] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/vahennykset/mita-voi-vahentaa/verohallinto-laskee-nama-vahennykset-automaattisesti/
+              - heading "Verohallinto laskee nämä vähennykset automaattisesti" [level=3] [ref=e400]
+              - generic [ref=e405]:
+                - generic [ref=e407]: Vero.fi
+                - generic [ref=e409]: https://www.vero.fi › vahennykset › mita-voi-vahentaa
+            - button "Tietoja tästä tuloksesta" [ref=e410] [cursor=pointer]:
+              - img [ref=e413]
+          - generic [ref=e416]:
+            - generic [ref=e417]: 9.12.2024 —
+            - generic [ref=e418]:
+              - emphasis [ref=e419]: Verohallinto
+              - text: laskee osan vähennyksistä automaattisesti tulojesi perusteella, joten näitä vähennyksiä sinun ei tarvitse erikseen vaatia.
+        - generic [ref=e423]:
+          - generic [ref=e426]:
+            - link "Metsänomistajan vuokratulot Vero.fi https://www.vero.fi › metsanomistajan-vuokratulot" [ref=e428] [cursor=pointer]:
+              - /url: https://www.vero.fi/henkiloasiakkaat/omaisuus/metsa/metsasta_saadut_muut_tulot/metsanomistajan-vuokratulot/
+              - heading "Metsänomistajan vuokratulot" [level=3] [ref=e429]
+              - generic [ref=e434]:
+                - generic [ref=e436]: Vero.fi
+                - generic [ref=e438]: https://www.vero.fi › metsanomistajan-vuokratulot
+            - button "Tietoja tästä tuloksesta" [ref=e439] [cursor=pointer]:
+              - img [ref=e442]
+          - generic [ref=e446]:
+            - text: Ilmoita henkilökohtaisena pääomatulona verotettavat
+            - emphasis [ref=e447]: vuokratulot
+            - text: sekä niihin liittyvät kulut esitäytetyssä veroilmoituksessa, kohdassa Pääomatulot –
+            - emphasis [ref=e448]: Vuokratulot
+            - text: .
+      - navigation [ref=e451]:
+        - heading "Sivuilla liikkuminen" [level=1] [ref=e452]
+        - text: "1"
+        - link "Page 2" [ref=e455] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=10&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAE
+          - text: "2"
+        - link "Page 3" [ref=e457] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=20&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAG
+          - text: "3"
+        - link "Page 4" [ref=e459] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=30&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAI
+          - text: "4"
+        - link "Page 5" [ref=e461] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=40&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAK
+          - text: "5"
+        - link "Page 6" [ref=e463] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=50&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAM
+          - text: "6"
+        - link "Page 7" [ref=e465] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=60&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAO
+          - text: "7"
+        - link "Page 8" [ref=e467] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=70&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAQ
+          - text: "8"
+        - link "Page 9" [ref=e469] [cursor=pointer]:
+          - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=80&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8tMDegQINhAS
+          - text: "9"
+        - heading "Seuraava" [level=2] [ref=e471]:
+          - link "Seuraava" [ref=e472] [cursor=pointer]:
+            - /url: /search?q=site:vero.fi+vuokratulojen+verotus+syventava+vero-ohje+vahennykset&sca_esv=bb65bd8365f461f5&hl=fi&ei=5R3SaaqiOdbawPAP4vTzwQU&start=10&sa=N&sstk=Af77f_fEzPu0hpF2oZsc0iIdgFf1IyKvDifTjg4mCgHiL7q0aR2IJ6_M022iF-KH6jMdAfEihFPKSVcoV_ZNwUwJUzT-aOCsz0v60A&ved=2ahUKEwjqqNeFptaTAxVWLRAIHWL6PFgQ8NMDegQINhAU
+            - generic [ref=e474]: Seuraava
+      - navigation
+    - contentinfo [ref=e475]:
+      - heading "Alatunnisteen linkit" [level=1] [ref=e476]
+      - generic [ref=e480]:
+        - generic [ref=e482]:
+          - text: Suomi
+          - generic [ref=e484]:
+            - button "Helsinki - Perustuu aiempaan toimintaasi" [ref=e486] [cursor=pointer]:
+              - generic [ref=e487]: Helsinki
+              - generic [ref=e489]:
+                - text: "-"
+                - generic [ref=e490]: Perustuu aiempaan toimintaasi
+            - text: "-"
+            - button "Päivitä sijainti" [ref=e492] [cursor=pointer]: Päivitä sijainti
+        - generic [ref=e495]:
+          - link "Ohje" [ref=e496] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fi&fg=1
+          - link "Lähetä palautetta" [ref=e497] [cursor=pointer]:
+            - /url: "#"
+          - link "Tietosuoja" [ref=e498] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fi&fg=1
+          - link "Käyttöehdot" [ref=e499] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fi&fg=1

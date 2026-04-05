@@ -1,0 +1,356 @@
+- generic [active] [ref=e1]:
+  - dialog "Tämä sivusto käyttää evästeitä" [ref=e2]:
+    - generic [ref=e3]:
+      - img "logo" [ref=e7]
+      - tablist [ref=e9]:
+        - tab "Suostumus" [selected] [ref=e10] [cursor=pointer]
+        - tab "Yksityiskohdat" [ref=e11] [cursor=pointer]
+        - tab "Tietoja" [ref=e12] [cursor=pointer]
+      - tabpanel "Suostumus" [ref=e14]:
+        - generic [ref=e16]:
+          - heading "Tämä sivusto käyttää evästeitä" [level=2] [ref=e17]
+          - generic [ref=e18]: Evästeistä osa on välttämättömiä, osa sivuston toimintaa parantavia, ja osaa käytetään tilastointi- tai markkinointitarkoituksiin.
+        - group "Consent Selection" [ref=e25]:
+          - generic [ref=e26]: Consent Selection
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - strong [ref=e30]: Pakolliset evästeet
+              - generic [ref=e31]:
+                - checkbox "Pakolliset evästeet" [checked] [disabled]
+            - generic [ref=e32]:
+              - strong [ref=e34] [cursor=pointer]: Toiminnalliset evästeet
+              - checkbox "Toiminnalliset evästeet" [ref=e36] [cursor=pointer]
+            - generic [ref=e37]:
+              - strong [ref=e39] [cursor=pointer]: Tilastointievästeet
+              - checkbox "Tilastointievästeet" [ref=e41] [cursor=pointer]
+            - generic [ref=e42]:
+              - strong [ref=e44] [cursor=pointer]: Markkinointievästeet
+              - checkbox "Markkinointievästeet" [ref=e46] [cursor=pointer]
+      - generic [ref=e50]:
+        - button "Vain välttämättömät evästeet" [ref=e51] [cursor=pointer]
+        - button "Salli valitut evästeet" [ref=e52] [cursor=pointer]
+        - button "Salli kaikki evästeet" [ref=e53] [cursor=pointer]
+  - link "Siirry sisältöön" [ref=e54] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e55]:
+    - banner [ref=e56]:
+      - img [ref=e57]
+      - button [ref=e59] [cursor=pointer]:
+        - generic [ref=e60]: Sulje
+        - img [ref=e61]
+    - navigation [ref=e64]:
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/
+            - text: Etusivu
+        - listitem [ref=e68]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/opi-sijoittamaan/
+            - text: Opi sijoittamaan
+          - button [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: Avaa alavalikko
+            - img [ref=e73]
+        - listitem [ref=e75]:
+          - link [ref=e76] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/kehity-sijoittajana/
+            - text: Kehity sijoittajana
+          - button [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: Avaa alavalikko
+            - img [ref=e80]
+        - listitem [ref=e82]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/osallistu-tapahtumiin/
+            - text: Osallistu tapahtumiin
+          - button [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: Avaa alavalikko
+            - img [ref=e87]
+        - listitem [ref=e89]:
+          - link [ref=e90] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/
+            - text: Tutustu pörssiyhtiöihin
+          - button [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]: Avaa alavalikko
+            - img [ref=e94]
+        - listitem [ref=e96]:
+          - link [ref=e97] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/perehdy-tutkimuksiin/
+            - text: Perehdy tutkimuksiin
+          - button [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: Avaa alavalikko
+            - img [ref=e101]
+        - listitem [ref=e103]:
+          - link [ref=e104] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/tietoa-meista/
+            - text: Tietoa meistä
+          - button [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]: Avaa alavalikko
+            - img [ref=e108]
+        - listitem [ref=e110]:
+          - link [ref=e111] [cursor=pointer]:
+            - /url: https://www.porssisaatio.fi/tilaa-uutiskirje/
+            - text: Tilaa uutiskirje
+    - contentinfo [ref=e112]:
+      - navigation [ref=e113]:
+        - list [ref=e114]:
+          - listitem [ref=e115]:
+            - link [ref=e116] [cursor=pointer]:
+              - /url: https://www.porssisaatio.fi/kort-pa-svenska/
+              - text: Kort på svenska
+          - listitem [ref=e117]:
+            - link [ref=e118] [cursor=pointer]:
+              - /url: https://www.porssisaatio.fi/briefly-in-english/
+              - text: Briefly in English
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - link "Pörssisäätiö" [ref=e122] [cursor=pointer]:
+        - /url: https://www.porssisaatio.fi
+        - img [ref=e123]
+      - navigation [ref=e125]:
+        - list [ref=e126]:
+          - listitem [ref=e127]:
+            - button "Haku" [ref=e128] [cursor=pointer]:
+              - img [ref=e129]
+              - generic [ref=e131]: Haku
+          - listitem [ref=e132]:
+            - button "Valikko" [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e136]: Valikko
+    - main [ref=e137]:
+      - article [ref=e139]:
+        - heading "Ups!" [level=1] [ref=e141]
+        - heading "Pahoittelemme, etsimääsi sivua ei löytynyt." [level=3] [ref=e142]:
+          - strong [ref=e143]: Pahoittelemme, etsimääsi sivua ei löytynyt.
+        - heading "Kokeile hakukonetta tai palaa etusivulle." [level=3] [ref=e144]:
+          - strong [ref=e145]: Kokeile hakukonetta tai palaa etusivulle.
+        - generic [ref=e146]:
+          - link "Hae sivustolta" [ref=e148] [cursor=pointer]:
+            - /url: "#search"
+          - link "Siirry etusivulle" [ref=e150] [cursor=pointer]:
+            - /url: http://www.porssisaatio.fi
+        - generic [ref=e151]:
+          - heading "Etsitkö jotain seuraavista?" [level=2] [ref=e152]
+          - generic [ref=e153]:
+            - article [ref=e154]:
+              - figure [ref=e156]:
+                - link "Opi sijoittamaan" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.porssisaatio.fi/opi-sijoittamaan/
+              - generic [ref=e158]:
+                - heading "Opi sijoittamaan" [level=3] [ref=e159]:
+                  - link "Opi sijoittamaan" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/opi-sijoittamaan/
+                - paragraph [ref=e161]: Pörssisäätiön maksuttomista tietopankeista saat helposti ymmärrettävää, puolueetonta ja luotettavaa tietoa osakesijoittamisesta.
+            - article [ref=e162]:
+              - figure [ref=e164]:
+                - link "Tutustu pörssiyhtiöihin" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/
+              - generic [ref=e166]:
+                - heading "Tutustu pörssiyhtiöihin" [level=3] [ref=e167]:
+                  - link "Tutustu pörssiyhtiöihin" [ref=e168] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/
+                - paragraph [ref=e169]: Pörssisäätiö tarjoaa maksutonta tietoa pörssiyhtiöistä ja järjestää kaikille avoimia tapahtumia, joissa yhtiöihin ja niiden avainhenkilöihin pääsee tutustumaan.
+            - article [ref=e170]:
+              - figure [ref=e172]:
+                - link "Kehity sijoittajana" [ref=e173] [cursor=pointer]:
+                  - /url: https://www.porssisaatio.fi/kehity-sijoittajana/
+              - generic [ref=e174]:
+                - heading "Kehity sijoittajana" [level=3] [ref=e175]:
+                  - link "Kehity sijoittajana" [ref=e176] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/kehity-sijoittajana/
+                - paragraph [ref=e177]: Omistajan tietapankeista löydät tietoa siitä, millaiset oikeudet osakkeenomistajilla on ja miten niitä voi käyttää.
+      - generic [ref=e179]:
+        - navigation "Murupolku" [ref=e181]:
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Etusivu" [ref=e184] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi
+            - listitem [ref=e185]: Sivua ei löydy
+        - generic [ref=e186]:
+          - generic [ref=e187]: Jaa
+          - button "Jaa" [ref=e188]:
+            - img "Jaa" [ref=e189]
+          - link "Facebook" [ref=e191] [cursor=pointer]:
+            - /url: https://facebook.com/sharer/sharer.php?u=
+            - img "Facebook" [ref=e193]
+          - link "LinkedIn" [ref=e195] [cursor=pointer]:
+            - /url: https://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=
+            - img "LinkedIn" [ref=e197]
+          - link "X" [ref=e199] [cursor=pointer]:
+            - /url: https://twitter.com/intent/tweet/?text=&url=
+            - img "X" [ref=e201]
+          - link "WhatsApp" [ref=e203] [cursor=pointer]:
+            - /url: whatsapp://send?text=%20
+            - img "WhatsApp" [ref=e205]
+          - link "Email" [ref=e207] [cursor=pointer]:
+            - /url: mailto:?subject=&body=
+            - img "Email" [ref=e209]
+    - contentinfo [ref=e211]:
+      - generic [ref=e212]:
+        - link "Pörssisäätiö" [ref=e214] [cursor=pointer]:
+          - /url: https://www.porssisaatio.fi
+          - img [ref=e215]
+        - paragraph [ref=e217]:
+          - text: Fabianinkatu 14
+          - text: 00100 Helsinki
+          - text: puh. 010 820 7500
+      - generic [ref=e218]:
+        - navigation "Alavalikko" [ref=e219]:
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "Opi sijoittamaan" [ref=e222] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/opi-sijoittamaan/
+                - generic [ref=e223]: Opi sijoittamaan
+              - list [ref=e224]:
+                - listitem [ref=e225]:
+                  - link "Opiskele säästäjästä sijoittajaksi" [ref=e226] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/opi-sijoittamaan/sijoituskoulu/
+                    - img [ref=e227]
+                    - generic [ref=e229]: Opiskele säästäjästä sijoittajaksi
+                - listitem [ref=e230]:
+                  - link "Sijoituskoulutus nuorille" [ref=e231] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/opi-sijoittamaan/porssilahettilas-ohjelma-nuorille/
+                    - img [ref=e232]
+                    - generic [ref=e234]: Sijoituskoulutus nuorille
+                - listitem [ref=e235]:
+                  - link "Maksuttomat sijoittajan oppaat" [ref=e236] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/kehity-sijoittajana/sijoittajan-vero-opas/
+                    - img [ref=e237]
+                    - generic [ref=e239]: Maksuttomat sijoittajan oppaat
+            - listitem [ref=e240]:
+              - link "Kehity sijoittajana" [ref=e241] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/kehity-sijoittajana/
+                - generic [ref=e242]: Kehity sijoittajana
+              - list [ref=e243]:
+                - listitem [ref=e244]:
+                  - link "Korkoa korolle -laskuri" [ref=e245] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/kehity-sijoittajana/laskuri-korkoa-korolle/
+                    - img [ref=e246]
+                    - generic [ref=e248]: Korkoa korolle -laskuri
+                - listitem [ref=e249]:
+                  - link "Tee oma sijoitussuunnitelma" [ref=e250] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/kehity-sijoittajana/sijoitussuunnitelma/
+                    - img [ref=e251]
+                    - generic [ref=e253]: Tee oma sijoitussuunnitelma
+                - listitem [ref=e254]:
+                  - link "Työkalu yhtiöiden vertailuun" [ref=e255] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/kehity-sijoittajana/liisan-lista/
+                    - img [ref=e256]
+                    - generic [ref=e258]: Työkalu yhtiöiden vertailuun
+            - listitem [ref=e259]:
+              - link "Tutustu pörssiyhtiöihin" [ref=e260] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/
+                - generic [ref=e261]: Tutustu pörssiyhtiöihin
+              - list [ref=e262]:
+                - listitem [ref=e263]:
+                  - link "Toimitusjohtajat lavalla" [ref=e264] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/porssi-illat/
+                    - img [ref=e265]
+                    - generic [ref=e267]: Toimitusjohtajat lavalla
+                - listitem [ref=e268]:
+                  - link "Esittelyssä yhtiö joka kuukausi" [ref=e269] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/kuukauden-yhtio/
+                    - img [ref=e270]
+                    - generic [ref=e272]: Esittelyssä yhtiö joka kuukausi
+                - listitem [ref=e273]:
+                  - link "Miten yhtiö listautuu pörssiin?" [ref=e274] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tutustu-porssiyhtioihin/listautujan-kasikirjat/
+                    - img [ref=e275]
+                    - generic [ref=e277]: Miten yhtiö listautuu pörssiin?
+            - listitem [ref=e278]:
+              - link "Perehdy tutkimuksiin" [ref=e279] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/perehdy-tutkimuksiin/
+                - generic [ref=e280]: Perehdy tutkimuksiin
+              - list [ref=e281]:
+                - listitem [ref=e282]:
+                  - link "Paljonko osakesijoittajia on?" [ref=e283] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/perehdy-tutkimuksiin/porssisaation-tilastot/osakesijoittajien-maaran-kehitys/
+                    - img [ref=e284]
+                    - generic [ref=e286]: Paljonko osakesijoittajia on?
+                - listitem [ref=e287]:
+                  - link "Valtion omistusten tulevaisuus" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/perehdy-tutkimuksiin/valtio-omistus-2030-mita-ja-miksi/
+                    - img [ref=e289]
+                    - generic [ref=e291]: Valtion omistusten tulevaisuus
+                - listitem [ref=e292]:
+                  - link "Hae Pörssisäätiön apurahaa" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tietoa-meista/porssisaation-apurahat/
+                    - img [ref=e294]
+                    - generic [ref=e296]: Hae Pörssisäätiön apurahaa
+            - listitem [ref=e297]:
+              - link "Tietoa meistä" [ref=e298] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/tietoa-meista/
+                - generic [ref=e299]: Tietoa meistä
+              - list [ref=e300]:
+                - listitem [ref=e301]:
+                  - link "Mikä Pörssisäätiö?" [ref=e302] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tietoa-meista/
+                    - img [ref=e303]
+                    - generic [ref=e305]: Mikä Pörssisäätiö?
+                - listitem [ref=e306]:
+                  - link "Tutustu pörssisäätiöläisiin" [ref=e307] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tietoa-meista/yhteystiedot/
+                    - img [ref=e308]
+                    - generic [ref=e310]: Tutustu pörssisäätiöläisiin
+                - listitem [ref=e311]:
+                  - link "Mitä Pörssisäätiö tavoittelee?" [ref=e312] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/tietoa-meista/nain-vaikutamme/
+                    - img [ref=e313]
+                    - generic [ref=e315]: Mitä Pörssisäätiö tavoittelee?
+            - listitem [ref=e316]:
+              - link "Tapahtumat" [ref=e317] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/osallistu-tapahtumiin/
+                - generic [ref=e318]: Tapahtumat
+              - list [ref=e319]:
+                - listitem [ref=e320]:
+                  - link "Pörssigaala" [ref=e321] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/porssigaala/
+                    - img [ref=e322]
+                    - generic [ref=e324]: Pörssigaala
+                - listitem [ref=e325]:
+                  - link "Rahaviikko" [ref=e326] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/rahaviikko/
+                    - img [ref=e327]
+                    - generic [ref=e329]: Rahaviikko
+                - listitem [ref=e330]:
+                  - link "Talousviikko" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.porssisaatio.fi/talousviikko/
+                    - img [ref=e332]
+                    - generic [ref=e334]: Talousviikko
+        - separator [ref=e335]
+        - navigation "Apuvalikko" [ref=e336]:
+          - list [ref=e337]:
+            - listitem [ref=e338]:
+              - link "Evästeasetukset" [ref=e339] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/evasteasetukset/
+            - listitem [ref=e340]:
+              - link "Tietosuojaseloste" [ref=e341] [cursor=pointer]:
+                - /url: https://www.porssisaatio.fi/tietosuojaseloste/
+        - navigation "Sosiaalinen media" [ref=e342]:
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "X (ent. Twitter)" [ref=e345] [cursor=pointer]:
+                - /url: https://twitter.com/porssisaatio
+                - img [ref=e346]
+                - generic [ref=e348]: X (ent. Twitter)
+            - listitem [ref=e349]:
+              - link "Facebook" [ref=e350] [cursor=pointer]:
+                - /url: https://www.facebook.com/Porssisaatio/
+                - img [ref=e351]
+                - generic [ref=e353]: Facebook
+            - listitem [ref=e354]:
+              - link "Instagram" [ref=e355] [cursor=pointer]:
+                - /url: https://www.instagram.com/porssilahettilaat/
+                - img [ref=e356]
+                - generic [ref=e358]: Instagram
+            - listitem [ref=e359]:
+              - link "YouTube" [ref=e360] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UChoL5h4D6pSVfq20XnPmBhw
+                - img [ref=e361]
+                - generic [ref=e363]: YouTube
+            - listitem [ref=e364]:
+              - link "LinkedIn" [ref=e365] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/porssisaatio/
+                - img [ref=e366]
+                - generic [ref=e369]: LinkedIn
+  - iframe [ref=e370]:
+    
