@@ -18,6 +18,26 @@ export const users = sqliteTable("users", {
   createdAt: text("created_at"),
 });
 
+// ── Organizations (Migration 002) ──
+export const organizations = sqliteTable("organizations", {
+  id: integer("id").primaryKey({ autoIncrement: true }),
+  name: text("name").notNull(),
+  slug: text("slug").unique().notNull(),
+  stripeCustomerId: text("stripe_customer_id"),
+  maxSeats: integer("max_seats").default(10),
+  createdAt: text("created_at"),
+});
+
+// ── Organization Members (Migration 002) ──
+export const organizationMembers = sqliteTable("organization_members", {
+  id: integer("id").primaryKey({ autoIncrement: true }),
+  orgId: integer("org_id").notNull().references(() => organizations.id),
+  userId: text("user_id").notNull().references(() => users.id),
+  role: text("role").default("member"),
+  invitedAt: text("invited_at"),
+  acceptedAt: text("accepted_at"),
+});
+
 // ── Enrollments (Migration 003) ──
 export const enrollments = sqliteTable("enrollments", {
   id: integer("id").primaryKey({ autoIncrement: true }),
