@@ -36,7 +36,7 @@
 
 ## Phase 5: Content Generation — Edge AI Engineer Track (6 Lessons)
 
-- [ ] TASK-5.1: Generate 10-page learning script for Edge AI Lesson 1 — "On-Device Hardware Acceleration" (20 quiz Qs). Add to tracks[3].lessons[0].learning_script.
+- [x] TASK-5.1: Generate 10-page learning script for Edge AI Lesson 1 — "On-Device Hardware Acceleration" (20 quiz Qs). Add to tracks[3].lessons[0].learning_script.
 - [ ] TASK-5.2: Generate 10-page learning script for Edge AI Lesson 2 — "Robotics Middleware: ROS 2 & MAVROS" (20 quiz Qs). Add to tracks[3].lessons[1].learning_script.
 - [ ] TASK-5.3: Generate 10-page learning script for Edge AI Lesson 3 — "Optimization for Survival: HIL & Latency Profiling" (20 quiz Qs). Add to tracks[3].lessons[2].learning_script.
 - [ ] TASK-5.4: Generate 10-page learning script for Edge AI Lesson 4 — "TensorRT Optimization & Deployment Pipeline" (20 quiz Qs). Add to tracks[3].lessons[3].learning_script.
