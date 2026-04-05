@@ -1,6 +1,6 @@
 const path = require("path");
 const d = require(path.join(__dirname, "..", "courses", "drone_training.json"));
-const s = d.tracks[3].lessons[4].learning_script;
+const s = d.tracks[3].lessons[5].learning_script;
 if (!s) { console.log("FAIL: no learning_script"); process.exit(1); }
 if (s.length !== 10) { console.log("FAIL: pages=" + s.length); process.exit(1); }
 for (let i = 0; i < 10; i++) {
