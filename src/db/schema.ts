@@ -1,19 +1,21 @@
 import { sqliteTable, text, integer, real } from "drizzle-orm/sqlite-core";
 import { sql } from "drizzle-orm";
 
-// ── Users (Migration 001 extends the original 3-column table) ──
+// ── Users (extended in Migration 001) ──
 export const users = sqliteTable("users", {
   id: text("id").primaryKey(),
   username: text("username").unique().notNull(),
   password: text("password").notNull(),
-  email: text("email").unique(),
-  role: text("role").default("student").notNull(),
+  email: text("email"),
+  emailVerified: integer("email_verified").default(0),
+  verificationToken: text("verification_token"),
+  role: text("role").default("student"),
   fullName: text("full_name"),
   avatarUrl: text("avatar_url"),
   locale: text("locale").default("en"),
   stripeCustomerId: text("stripe_customer_id"),
   emailVerifiedAt: text("email_verified_at"),
-  createdAt: text("created_at").default(sql`(datetime('now'))`),
+  createdAt: text("created_at"),
 });
 
 // ── Enrollments (Migration 003) ──
