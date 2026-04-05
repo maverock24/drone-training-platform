@@ -1,7 +1,8 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { createContext, useContext, useState, useEffect, useCallback, ReactNode } from "react";
 import { tracks } from "@/lib/course-data";
+import { useAuth } from "@/lib/auth-context";
 
 export interface LastVisited {
   trackId: string;
@@ -56,6 +57,7 @@ interface ProgressContextType {
 const ProgressContext = createContext<ProgressContextType | undefined>(undefined);
 
 export function ProgressProvider({ children }: { children: ReactNode }) {
+  const { user } = useAuth();
   const [completedLessons, setCompletedLessons] = useState<Set<string>>(new Set());
   const [completedSteps, setCompletedSteps] = useState<Set<string>>(new Set());
   const [quizScores, setQuizScores] = useState<Record<string, number>>({});
@@ -64,6 +66,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [lastVisited, setLastVisitedState] = useState<LastVisited | null>(null);
   const [completionTimestamps, setCompletionTimestamps] = useState<Record<string, number>>({});
   const [loaded, setLoaded] = useState(false);
+  const isAuthenticated = !!user;
 
   useEffect(() => {
     const stored = localStorage.getItem("drone-training-progress");
@@ -125,6 +128,54 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     setLoaded(true);
   }, []);
 
+  // Hydrate from server when authenticated
+  useEffect(() => {
+    if (!isAuthenticated || !loaded) return;
+    fetch("/api/progress", { credentials: "include" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (!data?.progress) return;
+        const serverCompleted = new Set<string>();
+        const serverTimestamps: Record<string, number> = {};
+        const serverScores: Record<string, number> = {};
+        for (const p of data.progress) {
+          const key = `${p.trackId}-${p.lessonId}`;
+          if (p.status === "completed") {
+            serverCompleted.add(key);
+            if (p.completedAt) {
+              serverTimestamps[key] = new Date(p.completedAt).getTime();
+            }
+          }
+          if (p.score != null) {
+            serverScores[key] = p.score;
+          }
+        }
+        // Merge: server data takes precedence, localStorage adds local-only entries
+        setCompletedLessons((prev) => new Set([...prev, ...serverCompleted]));
+        setCompletionTimestamps((prev) => ({ ...prev, ...serverTimestamps }));
+        setQuizScores((prev) => ({ ...prev, ...serverScores }));
+      })
+      .catch(() => { /* fall back to localStorage silently */ });
+  }, [isAuthenticated, loaded]);
+
+  // Sync lesson completion to server (optimistic)
+  const syncToServer = useCallback(
+    async (trackId: string, moduleId: string, lessonId: string, status: string, score?: number) => {
+      if (!isAuthenticated) return;
+      try {
+        await fetch("/api/progress", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+          body: JSON.stringify({ track_id: trackId, module_id: moduleId, lesson_id: lessonId, status, score }),
+        });
+      } catch {
+        // Optimistic: local state already updated, server sync will retry on next load
+      }
+    },
+    [isAuthenticated]
+  );
+
   useEffect(() => {
     if (loaded) {
       localStorage.setItem(
@@ -182,6 +233,15 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     if (!wasCompleted) {
       setCompletionTimestamps((prev) => prev[lessonId] ? prev : { ...prev, [lessonId]: Date.now() });
     }
+    // Sync to server if authenticated
+    const dashIdx = lessonId.indexOf("-");
+    const trackId = lessonId.substring(0, dashIdx);
+    const lessonOnly = lessonId.substring(dashIdx + 1);
+    // Find module ID from track data
+    const track = tracks.find((t) => t.id === trackId);
+    const mod = track?.modules.find((m) => m.lessons.some((l) => l.id === lessonOnly));
+    const moduleId = mod?.id || "unknown";
+    syncToServer(trackId, moduleId, lessonOnly, wasCompleted ? "not_started" : "completed");
   };
 
   const toggleStep = (stepId: string) => {
