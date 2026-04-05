@@ -12,26 +12,26 @@
 - [x] TASK-2.2: Generate 10-page learning script for AI Engineer Lesson 2 — "Parameter-Efficient Fine-Tuning (PEFT)" (20 quiz Qs). Add to tracks[0].lessons[1].learning_script.
 - [x] TASK-2.3: Generate 10-page learning script for AI Engineer Lesson 3 — "Production Optimization Stack: Quantization & Distillation" (20 quiz Qs). Add to tracks[0].lessons[2].learning_script.
 - [x] TASK-2.4: Generate 10-page learning script for AI Engineer Lesson 4 — "Sparsity & Pruning" (20 quiz Qs). Add to tracks[0].lessons[3].learning_script.
-- [ ] TASK-2.5: Generate 10-page learning script for AI Engineer Lesson 5 — "Adversarial Robustness: Hardening the Drone's Perception" (1 quiz Q). Add to tracks[0].lessons[4].learning_script.
-- [ ] TASK-2.6: Generate 10-page learning script for AI Engineer Lesson 6 — "Few-Shot Object Detection with Prototypical Networks" (1 quiz Q). Add to tracks[0].lessons[5].learning_script.
-- [ ] TASK-2.7: Generate 10-page learning script for AI Engineer Lesson 7 — duplicate of Lesson 5. Generate a fresh script variant for tracks[0].lessons[6].learning_script.
-- [ ] TASK-2.8: Generate 10-page learning script for AI Engineer Lesson 8 — duplicate of Lesson 6. Generate a fresh script variant for tracks[0].lessons[7].learning_script.
+- [x] TASK-2.5: Generate 10-page learning script for AI Engineer Lesson 5 — "Adversarial Robustness: Hardening the Drone's Perception" (1 quiz Q). Add to tracks[0].lessons[4].learning_script.
+- [x] TASK-2.6: Generate 10-page learning script for AI Engineer Lesson 6 — "Few-Shot Object Detection with Prototypical Networks" (1 quiz Q). Add to tracks[0].lessons[5].learning_script.
+- [x] TASK-2.7: Generate 10-page learning script for AI Engineer Lesson 7 — duplicate of Lesson 5. Generate a fresh script variant for tracks[0].lessons[6].learning_script.
+- [x] TASK-2.8: Generate 10-page learning script for AI Engineer Lesson 8 — duplicate of Lesson 6. Generate a fresh script variant for tracks[0].lessons[7].learning_script.
 
 ## Phase 3: Content Generation — MLOps Engineer Track (6 Lessons)
 
-- [ ] TASK-3.1: Generate 10-page learning script for MLOps Lesson 1 — "Infrastructure as Code (IaC) for AI" (20 quiz Qs). Add to tracks[1].lessons[0].learning_script.
-- [ ] TASK-3.2: Generate 10-page learning script for MLOps Lesson 2 — "Workflow Orchestration & Data Versioning" (20 quiz Qs). Add to tracks[1].lessons[1].learning_script.
-- [ ] TASK-3.3: Generate 10-page learning script for MLOps Lesson 3 — "Model Serving & Observability" (20 quiz Qs). Add to tracks[1].lessons[2].learning_script.
-- [ ] TASK-3.4: Generate 10-page learning script for MLOps Lesson 4 — "CI/CD for Machine Learning Models" (20 quiz Qs). Add to tracks[1].lessons[3].learning_script.
-- [ ] TASK-3.5: Generate 10-page learning script for MLOps Lesson 5 — "Chaos Engineering: Injecting Failure into GPU Workloads" (1 quiz Q). Add to tracks[1].lessons[4].learning_script.
-- [ ] TASK-3.6: Generate 10-page learning script for MLOps Lesson 6 — duplicate of Lesson 5. Generate fresh variant for tracks[1].lessons[5].learning_script.
+- [x] TASK-3.1: Generate 10-page learning script for MLOps Lesson 1 — "Infrastructure as Code (IaC) for AI" (20 quiz Qs). Add to tracks[1].lessons[0].learning_script.
+- [x] TASK-3.2: Generate 10-page learning script for MLOps Lesson 2 — "Workflow Orchestration & Data Versioning" (20 quiz Qs). Add to tracks[1].lessons[1].learning_script.
+- [x] TASK-3.3: Generate 10-page learning script for MLOps Lesson 3 — "Model Serving & Observability" (20 quiz Qs). Add to tracks[1].lessons[2].learning_script.
+- [x] TASK-3.4: Generate 10-page learning script for MLOps Lesson 4 — "CI/CD for Machine Learning Models" (20 quiz Qs). Add to tracks[1].lessons[3].learning_script.
+- [x] TASK-3.5: Generate 10-page learning script for MLOps Lesson 5 — "Chaos Engineering: Injecting Failure into GPU Workloads" (1 quiz Q). Add to tracks[1].lessons[4].learning_script.
+- [x] TASK-3.6: Generate 10-page learning script for MLOps Lesson 6 — duplicate of Lesson 5. Generate fresh variant for tracks[1].lessons[5].learning_script.
 
 ## Phase 4: Content Generation — Data Engineer Track (5 Lessons)
 
-- [ ] TASK-4.1: Generate 10-page learning script for Data Engineer Lesson 1 — "Geospatial Intelligence (GeoAI)" (20 quiz Qs). Add to tracks[2].lessons[0].learning_script.
-- [ ] TASK-4.2: Generate 10-page learning script for Data Engineer Lesson 2 — "Sensor Fusion Pipelines" (20 quiz Qs). Add to tracks[2].lessons[1].learning_script.
-- [ ] TASK-4.3: Generate 10-page learning script for Data Engineer Lesson 3 — "Labeling & QA with Active Learning" (20 quiz Qs). Add to tracks[2].lessons[2].learning_script.
-- [ ] TASK-4.4: Generate 10-page learning script for Data Engineer Lesson 4 — "Spatiotemporal Object Tracking with DeepSORT" (1 quiz Q). Add to tracks[2].lessons[3].learning_script.
+- [x] TASK-4.1: Generate 10-page learning script for Data Engineer Lesson 1 — "Geospatial Intelligence (GeoAI)" (20 quiz Qs). Add to tracks[2].lessons[0].learning_script.
+- [x] TASK-4.2: Generate 10-page learning script for Data Engineer Lesson 2 — "Sensor Fusion Pipelines" (20 quiz Qs). Add to tracks[2].lessons[1].learning_script.
+- [x] TASK-4.3: Generate 10-page learning script for Data Engineer Lesson 3 — "Labeling & QA with Active Learning" (20 quiz Qs). Add to tracks[2].lessons[2].learning_script.
+- [x] TASK-4.4: Generate 10-page learning script for Data Engineer Lesson 4 — "Spatiotemporal Object Tracking with DeepSORT" (1 quiz Q). Add to tracks[2].lessons[3].learning_script.
 - [ ] TASK-4.5: Generate 10-page learning script for Data Engineer Lesson 5 — duplicate of Lesson 4. Generate fresh variant for tracks[2].lessons[4].learning_script.
 
 ## Phase 5: Content Generation — Edge AI Engineer Track (6 Lessons)

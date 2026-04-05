@@ -27,7 +27,7 @@
 - [x] TASK-1.17: Create `src/components/dashboard-card.tsx` — card component showing track name, icon, progress bar, lesson count, "Continue" button.
 - [x] TASK-1.18: Create `src/components/enrollment-button.tsx` — "Enroll" CTA that checks auth state; redirects to login if anonymous, calls `/api/enrollments` if authenticated.
 - [x] TASK-1.19: Create `src/app/dashboard/page.tsx` — authenticated dashboard showing: enrolled tracks with progress (using `dashboard-card`), recent activity, quick-access to last visited lesson.
-- [ ] TASK-1.20: Run `npx tsc --noEmit && npm run lint && npm run build` — fix any errors.
+- [x] TASK-1.20: Run `npx tsc --noEmit && npm run lint && npm run build` — fix any errors.
 - [ ] TASK-1.21: Playwright smoke test — navigate to `/dashboard` unauthenticated (expect redirect to `/login`). Login, verify dashboard loads with track cards. Complete a lesson, refresh page, verify progress persists.
 
 ## Phase 2: EASA Content — Track 0 (Foundation) & Track 1 (Operator Certification)
