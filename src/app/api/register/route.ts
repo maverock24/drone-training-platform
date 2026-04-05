@@ -52,8 +52,8 @@ export async function POST(req: Request) {
     const verificationToken = crypto.randomUUID();
 
     await db.execute({
-      sql: "INSERT INTO users (id, username, password, email, email_verified, verification_token) VALUES (?, ?, ?, ?, ?, ?)",
-      args: [crypto.randomUUID(), username, hashedPassword, email, 0, verificationToken],
+      sql: "INSERT INTO users (id, username, password, email, email_verified, verification_token, role, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, datetime('now'))",
+      args: [crypto.randomUUID(), username, hashedPassword, email, 0, verificationToken, "student"],
     });
 
     if (resendApiKey) {
