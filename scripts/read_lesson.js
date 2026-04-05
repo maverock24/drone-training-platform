@@ -1,6 +1,6 @@
 const path = require("path");
 const d = require(path.join(__dirname, "..", "courses", "drone_training.json"));
-const l = d.tracks[3].lessons[3];
+const l = d.tracks[3].lessons[4];
 console.log("Title:", l.title);
 console.log("Quiz count:", l.quiz.length);
 console.log("Has explanation:", !!l.detailed_explanation);
