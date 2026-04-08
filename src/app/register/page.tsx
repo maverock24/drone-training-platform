@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -59,15 +58,15 @@ export default function RegisterPage() {
             <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500/10 mb-2">
               <CheckCircle2 className="h-8 w-8 text-emerald-500" />
             </div>
-            <CardTitle className="text-2xl font-bold">Check your inbox</CardTitle>
+            <CardTitle className="text-2xl font-bold">Account created</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             <p className="text-muted-foreground">
-              We&apos;ve sent a verification link to <span className="font-semibold text-foreground">{email}</span>. 
-              Please click the link to activate your account.
+              Your account for <span className="font-semibold text-foreground">{email}</span> is ready.
+              You can sign in immediately.
             </p>
             <p className="text-xs text-muted-foreground">
-              If you don&apos;t see the email, check your spam or junk folder.
+              Email verification is temporarily disabled for new registrations.
             </p>
             <div className="pt-4">
               <Link href="/login">
