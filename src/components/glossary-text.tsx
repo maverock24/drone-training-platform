@@ -39,9 +39,9 @@ export function GlossaryText({ text }: { text: string }) {
                   {part}
                 </span>
               </TooltipTrigger>
-              <TooltipContent className="max-w-sm">
-                <p className="font-semibold text-sm mb-1">{matchingTerm.term}</p>
-                <p className="text-xs text-muted-foreground">
+              <TooltipContent className="max-w-sm p-3">
+                <p className="font-semibold text-sm mb-1 text-zinc-50">{matchingTerm.term}</p>
+                <p className="text-xs text-zinc-400 leading-relaxed">
                   {matchingTerm.definition}
                 </p>
               </TooltipContent>
