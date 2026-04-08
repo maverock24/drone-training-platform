@@ -69,10 +69,18 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const isAuthenticated = !!user;
 
   useEffect(() => {
+    let nextCompletedLessons = new Set<string>();
+    let nextCompletedSteps = new Set<string>();
+    let nextQuizScores: Record<string, number> = {};
+    let nextExecutionProofs: Record<string, string> = {};
+    let nextLessonNotes: Record<string, string> = {};
+    let nextLastVisited: LastVisited | null = null;
+    let nextCompletionTimestamps: Record<string, number> = {};
+
     const stored = localStorage.getItem("drone-training-progress");
     if (stored) {
       try {
-        setCompletedLessons(new Set(JSON.parse(stored)));
+        nextCompletedLessons = new Set(JSON.parse(stored));
       } catch {
         // ignore invalid stored data
       }
@@ -80,7 +88,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const storedSteps = localStorage.getItem("drone-training-steps");
     if (storedSteps) {
       try {
-        setCompletedSteps(new Set(JSON.parse(storedSteps)));
+        nextCompletedSteps = new Set(JSON.parse(storedSteps));
       } catch {
         // ignore
       }
@@ -88,7 +96,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const storedQuiz = localStorage.getItem("drone-training-quiz");
     if (storedQuiz) {
       try {
-        setQuizScores(JSON.parse(storedQuiz));
+        nextQuizScores = JSON.parse(storedQuiz);
       } catch {
         // ignore
       }
@@ -96,7 +104,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const storedProofs = localStorage.getItem("drone-training-proof");
     if (storedProofs) {
       try {
-        setExecutionProofs(JSON.parse(storedProofs));
+        nextExecutionProofs = JSON.parse(storedProofs);
       } catch {
         // ignore
       }
@@ -104,7 +112,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const storedNotes = localStorage.getItem("drone-training-notes");
     if (storedNotes) {
       try {
-        setLessonNotes(JSON.parse(storedNotes));
+        nextLessonNotes = JSON.parse(storedNotes);
       } catch {
         // ignore
       }
@@ -112,7 +120,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const storedLastVisited = localStorage.getItem("drone-training-last-visited");
     if (storedLastVisited) {
       try {
-        setLastVisitedState(JSON.parse(storedLastVisited));
+        nextLastVisited = JSON.parse(storedLastVisited);
       } catch {
         // ignore
       }
@@ -120,12 +128,22 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     const storedTimestamps = localStorage.getItem("drone-training-timestamps");
     if (storedTimestamps) {
       try {
-        setCompletionTimestamps(JSON.parse(storedTimestamps));
+        nextCompletionTimestamps = JSON.parse(storedTimestamps);
       } catch {
         // ignore
       }
     }
-    setLoaded(true);
+
+    queueMicrotask(() => {
+      setCompletedLessons(nextCompletedLessons);
+      setCompletedSteps(nextCompletedSteps);
+      setQuizScores(nextQuizScores);
+      setExecutionProofs(nextExecutionProofs);
+      setLessonNotes(nextLessonNotes);
+      setLastVisitedState(nextLastVisited);
+      setCompletionTimestamps(nextCompletionTimestamps);
+      setLoaded(true);
+    });
   }, []);
 
   // Hydrate from server when authenticated
@@ -260,6 +278,10 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const isStepCompleted = (stepId: string) => completedSteps.has(stepId);
 
   const isTrackUnlocked = (trackId: string) => {
+    if (isAuthenticated) {
+      return true;
+    }
+
     const trackIndex = tracks.findIndex((track) => track.id === trackId);
 
     if (trackIndex <= 0) {
@@ -273,6 +295,10 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   };
 
   const isModuleUnlocked = (trackId: string, moduleId: string) => {
+    if (isAuthenticated) {
+      return true;
+    }
+
     const track = tracks.find((entry) => entry.id === trackId);
     if (!track || !isTrackUnlocked(trackId)) {
       return false;
