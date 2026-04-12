@@ -28,6 +28,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { GridPattern } from "@/components/ui/grid-pattern";
+import { HomeNewsHighlights } from "@/components/news-briefing";
 import {
   tracks,
   getTotalLessons,
@@ -200,6 +201,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {!authLoading && !user ? <HomeNewsHighlights /> : null}
 
       {/* Stats bar for logged-in users */}
       {user && totalCompleted > 0 && (

@@ -13,6 +13,7 @@ import {
   Flame,
   Menu,
   GraduationCap,
+  BookOpen,
   BookText,
   Wrench,
   Library,
@@ -29,6 +30,7 @@ import { useAuth } from "@/lib/auth-context";
 
 const publicNavItems = [
   { href: "/", label: "Home", icon: GraduationCap },
+  { href: "/news", label: "News", icon: BookOpen },
   { href: "/domains", label: "Domains", icon: Sparkles },
   { href: "/glossary", label: "Glossary", icon: BookText },
   { href: "/hardware", label: "Hardware", icon: Wrench },
@@ -37,6 +39,7 @@ const publicNavItems = [
 
 const authNavItems = [
   { href: "/", label: "Home", icon: GraduationCap },
+  { href: "/news", label: "News", icon: BookOpen },
   { href: "/tracks/ai-engineer", label: "AI Engineer", icon: Brain },
   { href: "/tracks/mlops-engineer", label: "MLOps", icon: Factory },
   { href: "/tracks/data-engineer", label: "Data Engineer", icon: Database },
