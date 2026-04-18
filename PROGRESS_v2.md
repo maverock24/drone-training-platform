@@ -33,8 +33,8 @@
 ## Phase 2: EASA Content — Track 0 (Foundation) & Track 1 (Operator Certification)
 
 ### Content Generation — Track 0: Foundation (4 Modules, ~16 Lessons)
-- [ ] TASK-2.1: Create `courses/foundation.json` scaffold — track metadata (id: "foundation", title, description, prerequisites). Empty modules array.
-- [ ] TASK-2.2: Generate Module F.1 — "Aviation Fundamentals" (4 lessons): Airspace Classification, Weather & Meteorology, Aerodynamics for Multirotors, NOTAMs & Flight Planning. Each with overview, steps, quiz (10 Qs), learning_script (10 pages).
+- [x] TASK-2.1: Create `courses/foundation.json` scaffold — track metadata (id: "foundation", title, description, prerequisites). Empty modules array.
+- [x] TASK-2.2: Generate Module F.1 — "Aviation Fundamentals" (4 lessons): Airspace Classification, Weather & Meteorology, Aerodynamics for Multirotors, NOTAMs & Flight Planning. Each with overview, steps, quiz (10 Qs), learning_script (10 pages).
 - [ ] TASK-2.3: Generate Module F.2 — "Drone Systems Overview" (4 lessons): Frame Types & Motors, Flight Controllers & ESCs, Batteries & Power, Payloads & Sensors. Same schema.
 - [ ] TASK-2.4: Generate Module F.3 — "EASA Regulatory Framework" (4 lessons): Open Category (A1/A2/A3), Specific Category (STS/PDRA/SORA), Drone Registration & Insurance, GDPR & Privacy for Drone Operators.
 - [ ] TASK-2.5: Generate Module F.4 — "Safety & Risk Management" (4 lessons): Pre-flight Checklists, Emergency Procedures, Human Factors & CRM, Environmental Considerations.
